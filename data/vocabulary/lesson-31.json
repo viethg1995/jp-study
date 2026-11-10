@@ -1,0 +1,1341 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-001-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{日本語|にほんご}の{勉強|べんきょう}を[[{続|つづ}けよう]]と{思|おも}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi định tiếp tục học tiếng Nhật."
+        }
+      ],
+      "han_viet": "TỤC",
+      "id": "mn-31-001",
+      "kana": "つづけます",
+      "kanji": "続けます",
+      "kanji_refs": [
+        "k-続"
+      ],
+      "legacy_id": "lesson31_1",
+      "lesson": 31,
+      "meaning_vi": "tiếp tục",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiếp tục"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-002-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "いいアパートを[[{見|み}つけました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã tìm được một căn hộ tốt."
+        }
+      ],
+      "han_viet": "KIẾN",
+      "id": "mn-31-002",
+      "kana": "みつけます",
+      "kanji": "見つけます",
+      "kanji_refs": [
+        "k-見"
+      ],
+      "legacy_id": "lesson31_2",
+      "lesson": 31,
+      "meaning_vi": "tìm, tìm thấy",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tìm, tìm thấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-003-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{来週|らいしゅう}{休|やす}みを[[{取|と}る]]つもりです。",
+          "source": "ai-draft",
+          "vi": "Tuần sau tôi định xin nghỉ."
+        }
+      ],
+      "han_viet": "THỦ",
+      "id": "mn-31-003",
+      "kana": "とります",
+      "kanji": "取ります",
+      "kanji_refs": [
+        "k-取"
+      ],
+      "legacy_id": "lesson31_3",
+      "lesson": 31,
+      "meaning_vi": "xin [nghỉ]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-14-008",
+        "mn-25-003"
+      ],
+      "senses": [
+        {
+          "context": "nghỉ",
+          "text": "xin"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-004-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{来年|らいねん}{大学|だいがく}の{試験|しけん}を[[{受|う}けよう]]と{思|おも}っています。",
+          "source": "ai-draft",
+          "vi": "Năm sau tôi định thi đại học."
+        }
+      ],
+      "han_viet": "THỤ",
+      "id": "mn-31-004",
+      "kana": "うけます",
+      "kanji": "受けます",
+      "kanji_refs": [
+        "k-受"
+      ],
+      "legacy_id": "lesson31_4",
+      "lesson": 31,
+      "meaning_vi": "thi [kỳ thi]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "kỳ thi",
+          "text": "thi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-005-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{日本語|にほんご}{教室|きょうしつ}に[[{申|もう}し{込|こ}みました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đăng ký lớp học tiếng Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-31-005",
+      "kana": "もうしこみます",
+      "kanji": "申し込みます",
+      "kanji_refs": [
+        "k-申",
+        "k-込"
+      ],
+      "legacy_id": "lesson31_5",
+      "lesson": 31,
+      "meaning_vi": "đăng ký",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đăng ký"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-006-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "ちょっと[[{休憩|きゅうけい}しましょう]]。",
+          "source": "ai-draft",
+          "vi": "Chúng ta giải lao một chút nhé."
+        }
+      ],
+      "han_viet": "HƯU KHẾ",
+      "id": "mn-31-006",
+      "kana": "きゅうけいします",
+      "kanji": "休憩します",
+      "kanji_refs": [
+        "k-休",
+        "k-憩"
+      ],
+      "legacy_id": "lesson31_6",
+      "lesson": 31,
+      "meaning_vi": "nghỉ, giải lao",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghỉ, giải lao"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-007-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[{連休|れんきゅう}]]に{温泉|おんせん}へ{行|い}く{予定|よてい}です。",
+          "source": "ai-draft",
+          "vi": "Kỳ nghỉ dài tôi dự định đi suối nước nóng."
+        }
+      ],
+      "han_viet": "LIÊN HƯU",
+      "id": "mn-31-007",
+      "kana": "れんきゅう",
+      "kanji": "連休",
+      "kanji_refs": [
+        "k-連",
+        "k-休"
+      ],
+      "legacy_id": "lesson31_7",
+      "lesson": 31,
+      "meaning_vi": "ngày nghỉ liền nhau",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày nghỉ liền nhau"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-008-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{日本|にほん}の{生活|せいかつ}について[[{作文|さくぶん}]]を{書|か}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã viết bài văn về cuộc sống ở Nhật."
+        }
+      ],
+      "han_viet": "TÁC VĂN",
+      "id": "mn-31-008",
+      "kana": "さくぶん",
+      "kanji": "作文",
+      "kanji_refs": [
+        "k-作",
+        "k-文"
+      ],
+      "legacy_id": "lesson31_8",
+      "lesson": 31,
+      "meaning_vi": "bài văn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bài văn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-009-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{明日|あした}{会議|かいぎ}で[[{発表|はっぴょう}]]します。",
+          "source": "ai-draft",
+          "vi": "Ngày mai tôi sẽ phát biểu ở cuộc họp."
+        }
+      ],
+      "han_viet": "PHÁT BIỂU",
+      "id": "mn-31-009",
+      "kana": "はっぴょう",
+      "kanji": "発表",
+      "kanji_refs": [
+        "k-発",
+        "k-表"
+      ],
+      "legacy_id": "lesson31_9",
+      "lesson": 31,
+      "meaning_vi": "phát biểu, công bố",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phát biểu, công bố"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-010-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{来月|らいげつ}{絵|え}の[[{展覧会|てんらんかい}]]に{行|い}こうと{思|おも}っています。",
+          "source": "ai-draft",
+          "vi": "Tháng sau tôi định đi xem triển lãm tranh."
+        }
+      ],
+      "han_viet": "TRIỂN LÃM HỘI",
+      "id": "mn-31-010",
+      "kana": "てんらんかい",
+      "kanji": "展覧会",
+      "kanji_refs": [
+        "k-展",
+        "k-覧",
+        "k-会"
+      ],
+      "legacy_id": "lesson31_10",
+      "lesson": 31,
+      "meaning_vi": "triển lãm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "triển lãm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-011-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{来月|らいげつ}{友達|ともだち}の[[{結婚式|けっこんしき}]]に{出|で}ます。",
+          "source": "ai-draft",
+          "vi": "Tháng sau tôi dự lễ cưới của bạn."
+        }
+      ],
+      "han_viet": "KẾT HÔN THỨC",
+      "id": "mn-31-011",
+      "kana": "けっこんしき",
+      "kanji": "結婚式",
+      "kanji_refs": [
+        "k-結",
+        "k-婚",
+        "k-式"
+      ],
+      "legacy_id": "lesson31_11",
+      "lesson": 31,
+      "meaning_vi": "lễ cưới, đám cưới",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lễ cưới, đám cưới"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-012-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{昨日|きのう}{会社|かいしゃ}の{人|ひと}の[[{葬式|そうしき}]]に{行|い}きました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã đi dự đám tang của một người ở công ty."
+        }
+      ],
+      "han_viet": "TÁNG THỨC",
+      "id": "mn-31-012",
+      "kana": "そうしき",
+      "kanji": "葬式",
+      "kanji_refs": [
+        "k-葬",
+        "k-式"
+      ],
+      "legacy_id": "lesson31_12",
+      "lesson": 31,
+      "meaning_vi": "lễ tang, đám tang",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lễ tang, đám tang"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-013-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[{式|しき}]]は１０{時|じ}に{始|はじ}まります。",
+          "source": "ai-draft",
+          "vi": "Buổi lễ bắt đầu lúc 10 giờ."
+        }
+      ],
+      "han_viet": "THỨC",
+      "id": "mn-31-013",
+      "kana": "しき",
+      "kanji": "式",
+      "kanji_refs": [
+        "k-式"
+      ],
+      "legacy_id": "lesson31_13",
+      "lesson": 31,
+      "meaning_vi": "lễ, đám",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lễ, đám"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-014-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{来年|らいねん}から[[{本社|ほんしゃ}]]で{働|はたら}く{予定|よてい}です。",
+          "source": "ai-draft",
+          "vi": "Từ năm sau tôi dự định làm việc ở trụ sở chính."
+        }
+      ],
+      "han_viet": "BẢN XÃ",
+      "id": "mn-31-014",
+      "kana": "ほんしゃ",
+      "kanji": "本社",
+      "kanji_refs": [
+        "k-本",
+        "k-社"
+      ],
+      "legacy_id": "lesson31_14",
+      "lesson": 31,
+      "meaning_vi": "trụ sở chính",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trụ sở chính"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-015-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{来年|らいねん}{大阪|おおさか}の[[{支店|してん}]]で{働|はたら}く{予定|よてい}です。",
+          "source": "ai-draft",
+          "vi": "Năm sau tôi dự định làm việc ở chi nhánh Osaka."
+        }
+      ],
+      "han_viet": "CHI ĐIẾM",
+      "id": "mn-31-015",
+      "kana": "してん",
+      "kanji": "支店",
+      "kanji_refs": [
+        "k-支",
+        "k-店"
+      ],
+      "legacy_id": "lesson31_15",
+      "lesson": 31,
+      "meaning_vi": "chi nhánh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chi nhánh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-016-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{日曜日|にちようび}に[[{教会|きょうかい}]]へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật tôi đi nhà thờ."
+        }
+      ],
+      "han_viet": "GIÁO HỘI",
+      "id": "mn-31-016",
+      "kana": "きょうかい",
+      "kanji": "教会",
+      "kanji_refs": [
+        "k-教",
+        "k-会"
+      ],
+      "legacy_id": "lesson31_16",
+      "lesson": 31,
+      "meaning_vi": "nhà thờ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà thờ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-017-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[{大学院|だいがくいん}]]で{勉強|べんきょう}を{続|つづ}けようと{思|おも}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi định tiếp tục học ở cao học."
+        }
+      ],
+      "han_viet": "ĐẠI HỌC VIỆN",
+      "id": "mn-31-017",
+      "kana": "だいがくいん",
+      "kanji": "大学院",
+      "kanji_refs": [
+        "k-大",
+        "k-学",
+        "k-院"
+      ],
+      "legacy_id": "lesson31_17",
+      "lesson": 31,
+      "meaning_vi": "cao học, sở giáo dục trên đại học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cao học, sở giáo dục trên đại học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-018-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{子|こ}どもと[[{動物園|どうぶつえん}]]へ{行|い}こうと{思|おも}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi định đi vườn thú cùng con."
+        }
+      ],
+      "han_viet": "ĐỘNG VẬT VIÊN",
+      "id": "mn-31-018",
+      "kana": "どうぶつえん",
+      "kanji": "動物園",
+      "kanji_refs": [
+        "k-動",
+        "k-物",
+        "k-園"
+      ],
+      "legacy_id": "lesson31_18",
+      "lesson": 31,
+      "meaning_vi": "vườn thú, vườn bách thú",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vườn thú, vườn bách thú"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-019-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{週末|しゅうまつ}は[[{温泉|おんせん}]]に{行|い}くつもりです。",
+          "source": "ai-draft",
+          "vi": "Cuối tuần tôi định đi suối nước nóng."
+        }
+      ],
+      "han_viet": "ÔN TUYỀN",
+      "id": "mn-31-019",
+      "kana": "おんせん",
+      "kanji": "温泉",
+      "kanji_refs": [
+        "k-温",
+        "k-泉"
+      ],
+      "legacy_id": "lesson31_19",
+      "lesson": 31,
+      "meaning_vi": "suối nước nóng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "suối nước nóng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-31-020-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[{帰|かえ}り]]にスーパーで{買|か}い{物|もの}をします。",
+          "source": "ai-draft",
+          "vi": "Trên đường về tôi mua sắm ở siêu thị."
+        }
+      ],
+      "han_viet": "QUY",
+      "id": "mn-31-020",
+      "kana": "かえり",
+      "kanji": "帰り",
+      "kanji_refs": [
+        "k-帰"
+      ],
+      "legacy_id": "lesson31_20",
+      "lesson": 31,
+      "meaning_vi": "chiều về",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chiều về"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-021-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[お{子|こ}さん]]は{何歳|なんさい}ですか。",
+          "source": "ai-draft",
+          "vi": "Con của bạn bao nhiêu tuổi?"
+        }
+      ],
+      "han_viet": "TỬ",
+      "id": "mn-31-021",
+      "kana": "おこさん",
+      "kanji": "お子さん",
+      "kanji_refs": [
+        "k-子"
+      ],
+      "legacy_id": "lesson31_21",
+      "lesson": 31,
+      "meaning_vi": "con (dùng nói về con người khác)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "con (dùng nói về con người khác)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-022-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "ひかり５[[{号|ごう}]]に{乗|の}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi đi tàu Hikari số 5."
+        }
+      ],
+      "han_viet": "HIỆU",
+      "id": "mn-31-022",
+      "kana": "～ごう",
+      "kanji": "～号",
+      "kanji_refs": [
+        "k-号"
+      ],
+      "legacy_id": "lesson31_22",
+      "lesson": 31,
+      "meaning_vi": "số(hiệu)～",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "số(hiệu)～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-023-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{駅|えき}[[の{方|ほう}]]へ{歩|ある}いて{行|い}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đi bộ về phía nhà ga."
+        }
+      ],
+      "han_viet": "PHƯƠNG",
+      "id": "mn-31-023",
+      "kana": "～のほう",
+      "kanji": "～の方",
+      "kanji_refs": [
+        "k-方"
+      ],
+      "legacy_id": "lesson31_23",
+      "lesson": 31,
+      "meaning_vi": "phía ～, hướng ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía ～, hướng ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-31-024-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{昨日|きのう}は[[ずっと]]{家|うち}にいました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi ở nhà suốt."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-31-024",
+      "kana": "ずっと",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson31_24",
+      "lesson": 31,
+      "meaning_vi": "suốt, liền",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-12-043",
+        "n3-478"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "suốt, liền"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-31-025-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "{夏休|なつやす}みに[[バリ]]へ{行|い}くつもりです。",
+          "source": "ai-draft",
+          "vi": "Kỳ nghỉ hè tôi định đi Bali."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-31-025",
+      "kana": "バリ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson31_25",
+      "lesson": 31,
+      "meaning_vi": "Ba li (hòn đảo ở Indonesia)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Ba li (hòn đảo ở Indonesia)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-31-026-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[ピカソ]]の{絵|え}を{見|み}に{行|い}こうと{思|おも}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi định đi xem tranh của Picasso."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-31-026",
+      "kana": "ピカソ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson31_26",
+      "lesson": 31,
+      "meaning_vi": "Pablo Picasso, danh họa người Tây Ban Nha (1881-1973)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Pablo Picasso, danh họa người Tây Ban Nha (1881-1973)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-31-027-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[のぞみ]]で{東京|とうきょう}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi Tokyo bằng tàu Nozomi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-31-027",
+      "kana": "のぞみ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson31_27",
+      "lesson": 31,
+      "meaning_vi": "tên của tàu Shinkansen",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tên của tàu Shinkansen"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-31-028-e1",
+          "max_lesson": 31,
+          "review": "user",
+          "ruby": "[[{新神戸|しんこうべ}]]で{新幹線|しんかんせん}を{降|お}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi xuống tàu Shinkansen ở ga Shin-Kobe."
+        }
+      ],
+      "han_viet": "TÂN THẦN HỘ",
+      "id": "mn-31-028",
+      "kana": "しんこうべ",
+      "kanji": "新神戸",
+      "kanji_refs": [
+        "k-新",
+        "k-神",
+        "k-戸"
+      ],
+      "legacy_id": "lesson31_28",
+      "lesson": 31,
+      "meaning_vi": "tên ga ở tỉnh Hyogo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tên ga ở tỉnh Hyogo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 31,
+  "schema_version": 4
+}

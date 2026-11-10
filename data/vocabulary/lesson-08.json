@@ -1,0 +1,2216 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-001-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "ミラーさんは[[ハンサム]]です。",
+          "source": "ai-draft",
+          "vi": "Anh Miller đẹp trai."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-001",
+      "kana": "ハンサム",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_1",
+      "lesson": 8,
+      "meaning_vi": "đẹp trai",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đẹp trai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-002-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{京都|きょうと}は[[{綺麗|きれい}]]な{町|まち}です。",
+          "source": "ai-draft",
+          "vi": "Kyoto là một thành phố đẹp."
+        }
+      ],
+      "han_viet": "Ỷ LỆ",
+      "id": "mn-08-002",
+      "kana": "きれい",
+      "kanji": "綺麗",
+      "kanji_refs": [
+        "k-綺",
+        "k-麗"
+      ],
+      "legacy_id": "lesson8_2",
+      "lesson": 8,
+      "meaning_vi": "đẹp, sạch",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đẹp, sạch"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-003-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{図書館|としょかん}は[[{静|しず}か]]です。",
+          "source": "ai-draft",
+          "vi": "Thư viện yên tĩnh."
+        }
+      ],
+      "han_viet": "TĨNH",
+      "id": "mn-08-003",
+      "kana": "しずか",
+      "kanji": "静か",
+      "kanji_refs": [
+        "k-静"
+      ],
+      "legacy_id": "lesson8_3",
+      "lesson": 8,
+      "meaning_vi": "yên tĩnh",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "yên tĩnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-004-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{大阪|おおさか}は[[{賑|にぎ}やか]]な{町|まち}です。",
+          "source": "ai-draft",
+          "vi": "Osaka là một thành phố náo nhiệt."
+        }
+      ],
+      "han_viet": "CHẨN",
+      "id": "mn-08-004",
+      "kana": "にぎやか",
+      "kanji": "賑やか",
+      "kanji_refs": [
+        "k-賑"
+      ],
+      "legacy_id": "lesson8_4",
+      "lesson": 8,
+      "meaning_vi": "náo nhiệt",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "náo nhiệt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-005-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{富士山|ふじさん}は[[{有名|ゆうめい}]]な{山|やま}です。",
+          "source": "ai-draft",
+          "vi": "Núi Phú Sĩ là ngọn núi nổi tiếng."
+        }
+      ],
+      "han_viet": "HỮU DANH",
+      "id": "mn-08-005",
+      "kana": "ゆうめい",
+      "kanji": "有名",
+      "kanji_refs": [
+        "k-有",
+        "k-名"
+      ],
+      "legacy_id": "lesson8_5",
+      "lesson": 8,
+      "meaning_vi": "nổi tiếng",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nổi tiếng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-006-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{先生|せんせい}はとても[[{親切|しんせつ}]]です。",
+          "source": "ai-draft",
+          "vi": "Thầy giáo rất tốt bụng."
+        }
+      ],
+      "han_viet": "THÂN THIẾT",
+      "id": "mn-08-006",
+      "kana": "しんせつ",
+      "kanji": "親切",
+      "kanji_refs": [
+        "k-親",
+        "k-切"
+      ],
+      "legacy_id": "lesson8_6",
+      "lesson": 8,
+      "meaning_vi": "tốt bụng, thân thiện",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tốt bụng, thân thiện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-007-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{母|はは}は[[{元気|げんき}]]です。",
+          "source": "ai-draft",
+          "vi": "Mẹ tôi khỏe."
+        }
+      ],
+      "han_viet": "NGUYÊN KHÍ",
+      "id": "mn-08-007",
+      "kana": "げんき",
+      "kanji": "元気",
+      "kanji_refs": [
+        "k-元",
+        "k-気"
+      ],
+      "legacy_id": "lesson8_7",
+      "lesson": 8,
+      "meaning_vi": "khỏe",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khỏe"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-008-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{今日|きょう}は[[{暇|ひま}]]です。",
+          "source": "ai-draft",
+          "vi": "Hôm nay tôi rảnh."
+        }
+      ],
+      "han_viet": "HẠ",
+      "id": "mn-08-008",
+      "kana": "ひま",
+      "kanji": "暇",
+      "kanji_refs": [
+        "k-暇"
+      ],
+      "legacy_id": "lesson8_8",
+      "lesson": 8,
+      "meaning_vi": "rảnh rỗi",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rảnh rỗi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-009-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{辞書|じしょ}は[[{便利|べんり}]]です。",
+          "source": "ai-draft",
+          "vi": "Cuốn từ điển này tiện lợi."
+        }
+      ],
+      "han_viet": "TIỆN LỢI",
+      "id": "mn-08-009",
+      "kana": "べんり",
+      "kanji": "便利",
+      "kanji_refs": [
+        "k-便",
+        "k-利"
+      ],
+      "legacy_id": "lesson8_9",
+      "lesson": 8,
+      "meaning_vi": "tiện lợi",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiện lợi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-010-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{素敵|すてき}]]な{部屋|へや}ですね。",
+          "source": "ai-draft",
+          "vi": "Căn phòng đẹp quá nhỉ."
+        }
+      ],
+      "han_viet": "TỐ ĐỊCH",
+      "id": "mn-08-010",
+      "kana": "すてき",
+      "kanji": "素敵",
+      "kanji_refs": [
+        "k-素",
+        "k-敵"
+      ],
+      "legacy_id": "lesson8_10",
+      "lesson": 8,
+      "meaning_vi": "đẹp, hay",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đẹp, hay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-011-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{私|わたし}の{家|うち}は[[{大|おお}きい]]です。",
+          "source": "ai-draft",
+          "vi": "Nhà tôi to."
+        }
+      ],
+      "han_viet": "ĐẠI",
+      "id": "mn-08-011",
+      "kana": "おおきい",
+      "kanji": "大きい",
+      "kanji_refs": [
+        "k-大"
+      ],
+      "legacy_id": "lesson8_11",
+      "lesson": 8,
+      "meaning_vi": "lớn, to",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lớn, to"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-012-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "これは[[{小|ちい}さい]]カメラです。",
+          "source": "ai-draft",
+          "vi": "Đây là cái máy ảnh nhỏ."
+        }
+      ],
+      "han_viet": "TIỂU",
+      "id": "mn-08-012",
+      "kana": "ちいさい",
+      "kanji": "小さい",
+      "kanji_refs": [
+        "k-小"
+      ],
+      "legacy_id": "lesson8_12",
+      "lesson": 8,
+      "meaning_vi": "bé, nhỏ",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bé, nhỏ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-013-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{新|あたら}しい]]{車|くるま}を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua ô tô mới."
+        }
+      ],
+      "han_viet": "TÂN",
+      "id": "mn-08-013",
+      "kana": "あたらしい",
+      "kanji": "新しい",
+      "kanji_refs": [
+        "k-新"
+      ],
+      "legacy_id": "lesson8_13",
+      "lesson": 8,
+      "meaning_vi": "mới",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mới"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-014-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{寮|りょう}は[[{古|ふる}い]]です。",
+          "source": "ai-draft",
+          "vi": "Ký túc xá này cũ."
+        }
+      ],
+      "han_viet": "CỔ",
+      "id": "mn-08-014",
+      "kana": "ふるい",
+      "kanji": "古い",
+      "kanji_refs": [
+        "k-古"
+      ],
+      "legacy_id": "lesson8_14",
+      "lesson": 8,
+      "meaning_vi": "cũ",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cũ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-015-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "これは[[いい]]{辞書|じしょ}です。",
+          "source": "ai-draft",
+          "vi": "Đây là cuốn từ điển tốt."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-015",
+      "kana": "いい",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_15",
+      "lesson": 8,
+      "meaning_vi": "tốt",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-12-014"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "tốt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-016-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{店|みせ}は[[{悪|わる}く]]ないです。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng này không tệ."
+        }
+      ],
+      "han_viet": "ÁC",
+      "id": "mn-08-016",
+      "kana": "わるい",
+      "kanji": "悪い",
+      "kanji_refs": [
+        "k-悪"
+      ],
+      "legacy_id": "lesson8_16",
+      "lesson": 8,
+      "meaning_vi": "xấu",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xấu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-017-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{今日|きょう}は[[{暑|あつ}い]]です。",
+          "source": "ai-draft",
+          "vi": "Hôm nay trời nóng."
+        }
+      ],
+      "han_viet": "THỬ, NHIỆT",
+      "id": "mn-08-017",
+      "kana": "あつい",
+      "kanji": "暑い, 熱い",
+      "kanji_refs": [
+        "k-暑",
+        "k-熱"
+      ],
+      "legacy_id": "lesson8_17",
+      "lesson": 8,
+      "meaning_vi": "nóng",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nóng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-018-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{北海道|ほっかいどう}は[[{寒|さむ}い]]です。",
+          "source": "ai-draft",
+          "vi": "Hokkaido lạnh."
+        }
+      ],
+      "han_viet": "HÀN",
+      "id": "mn-08-018",
+      "kana": "さむい",
+      "kanji": "寒い",
+      "kanji_refs": [
+        "k-寒"
+      ],
+      "legacy_id": "lesson8_18",
+      "lesson": 8,
+      "meaning_vi": "lạnh, rét (dùng cho thời tiết)",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lạnh, rét (dùng cho thời tiết)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-019-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{水|みず}は[[{冷|つめ}たい]]です。",
+          "source": "ai-draft",
+          "vi": "Nước này lạnh."
+        }
+      ],
+      "han_viet": "LÃNH",
+      "id": "mn-08-019",
+      "kana": "つめたい",
+      "kanji": "冷たい",
+      "kanji_refs": [
+        "k-冷"
+      ],
+      "legacy_id": "lesson8_19",
+      "lesson": 8,
+      "meaning_vi": "lạnh, buốt (dùng cho cảm giác)",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lạnh, buốt (dùng cho cảm giác)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-020-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{日本語|にほんご}は[[{難|むずか}しい]]です。",
+          "source": "ai-draft",
+          "vi": "Tiếng Nhật khó."
+        }
+      ],
+      "han_viet": "NAN",
+      "id": "mn-08-020",
+      "kana": "むずかしい",
+      "kanji": "難しい",
+      "kanji_refs": [
+        "k-難"
+      ],
+      "legacy_id": "lesson8_20",
+      "lesson": 8,
+      "meaning_vi": "khó",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-021-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{本|ほん}は[[{易|やさ}しい]]です。",
+          "source": "ai-draft",
+          "vi": "Cuốn sách này dễ."
+        }
+      ],
+      "han_viet": "DỊ",
+      "id": "mn-08-021",
+      "kana": "やさしい",
+      "kanji": "易しい",
+      "kanji_refs": [
+        "k-易"
+      ],
+      "legacy_id": "lesson8_21",
+      "lesson": 8,
+      "meaning_vi": "dễ",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dễ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-022-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{時計|とけい}は[[{高|たか}い]]です。",
+          "source": "ai-draft",
+          "vi": "Cái đồng hồ này đắt."
+        }
+      ],
+      "han_viet": "CAO",
+      "id": "mn-08-022",
+      "kana": "たかい",
+      "kanji": "高い",
+      "kanji_refs": [
+        "k-高"
+      ],
+      "legacy_id": "lesson8_22",
+      "lesson": 8,
+      "meaning_vi": "đắt, cao",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đắt, cao"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-023-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{店|みせ}の{野菜|やさい}は[[{安|やす}い]]です。",
+          "source": "ai-draft",
+          "vi": "Rau ở cửa hàng này rẻ."
+        }
+      ],
+      "han_viet": "AN",
+      "id": "mn-08-023",
+      "kana": "やすい",
+      "kanji": "安い",
+      "kanji_refs": [
+        "k-安"
+      ],
+      "legacy_id": "lesson8_23",
+      "lesson": 8,
+      "meaning_vi": "rẻ",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rẻ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-024-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{椅子|いす}は[[{低|ひく}い]]です。",
+          "source": "ai-draft",
+          "vi": "Cái ghế này thấp."
+        }
+      ],
+      "han_viet": "ĐÊ",
+      "id": "mn-08-024",
+      "kana": "ひくい",
+      "kanji": "低い",
+      "kanji_refs": [
+        "k-低"
+      ],
+      "legacy_id": "lesson8_24",
+      "lesson": 8,
+      "meaning_vi": "thấp",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thấp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-025-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{映画|えいが}は[[{面白|おもしろ}い]]です。",
+          "source": "ai-draft",
+          "vi": "Bộ phim này hay."
+        }
+      ],
+      "han_viet": "DIỆN BẠCH",
+      "id": "mn-08-025",
+      "kana": "おもしろい",
+      "kanji": "面白い",
+      "kanji_refs": [
+        "k-面",
+        "k-白"
+      ],
+      "legacy_id": "lesson8_25",
+      "lesson": 8,
+      "meaning_vi": "thú vị, hay",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thú vị, hay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-026-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{果物|くだもの}は[[{美味|おい}しい]]です。",
+          "source": "ai-draft",
+          "vi": "Hoa quả này ngon."
+        }
+      ],
+      "han_viet": "MỸ VỊ",
+      "id": "mn-08-026",
+      "kana": "おいしい",
+      "kanji": "美味しい",
+      "kanji_refs": [
+        "k-美",
+        "k-味"
+      ],
+      "legacy_id": "lesson8_26",
+      "lesson": 8,
+      "meaning_vi": "ngon",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngon"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-027-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{今日|きょう}は[[{忙|いそが}しい]]です。",
+          "source": "ai-draft",
+          "vi": "Hôm nay tôi bận."
+        }
+      ],
+      "han_viet": "MANG",
+      "id": "mn-08-027",
+      "kana": "いそがしい",
+      "kanji": "忙しい",
+      "kanji_refs": [
+        "k-忙"
+      ],
+      "legacy_id": "lesson8_27",
+      "lesson": 8,
+      "meaning_vi": "bận",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bận"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-028-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{日本|にほん}の{生活|せいかつ}は[[{楽|たの}しい]]です。",
+          "source": "ai-draft",
+          "vi": "Cuộc sống ở Nhật vui."
+        }
+      ],
+      "han_viet": "LẠC, NHẠC",
+      "id": "mn-08-028",
+      "kana": "たのしい",
+      "kanji": "楽しい",
+      "kanji_refs": [
+        "k-楽"
+      ],
+      "legacy_id": "lesson8_28",
+      "lesson": 8,
+      "meaning_vi": "vui",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vui"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-029-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{白|しろ}い]]{花|はな}ですね。",
+          "source": "ai-draft",
+          "vi": "Hoa màu trắng nhỉ."
+        }
+      ],
+      "han_viet": "BẠCH",
+      "id": "mn-08-029",
+      "kana": "しろい",
+      "kanji": "白い",
+      "kanji_refs": [
+        "k-白"
+      ],
+      "legacy_id": "lesson8_29",
+      "lesson": 8,
+      "meaning_vi": "trắng",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trắng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-030-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{黒|くろ}い]]{鞄|かばん}を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua cái cặp màu đen."
+        }
+      ],
+      "han_viet": "HẮC",
+      "id": "mn-08-030",
+      "kana": "くろい",
+      "kanji": "黒い",
+      "kanji_refs": [
+        "k-黒"
+      ],
+      "legacy_id": "lesson8_30",
+      "lesson": 8,
+      "meaning_vi": "đen",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đen"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-031-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{赤|あか}い]]{傘|かさ}は{私|わたし}のです。",
+          "source": "ai-draft",
+          "vi": "Cái ô màu đỏ là của tôi."
+        }
+      ],
+      "han_viet": "XÍCH",
+      "id": "mn-08-031",
+      "kana": "あかい",
+      "kanji": "赤い",
+      "kanji_refs": [
+        "k-赤"
+      ],
+      "legacy_id": "lesson8_31",
+      "lesson": 8,
+      "meaning_vi": "đỏ",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đỏ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-032-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{青|あお}い]]{車|くるま}はミラーさんのです。",
+          "source": "ai-draft",
+          "vi": "Chiếc ô tô màu xanh là của anh Miller."
+        }
+      ],
+      "han_viet": "THANH",
+      "id": "mn-08-032",
+      "kana": "あおい",
+      "kanji": "青い",
+      "kanji_refs": [
+        "k-青"
+      ],
+      "legacy_id": "lesson8_32",
+      "lesson": 8,
+      "meaning_vi": "xanh da trời",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xanh da trời"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-033-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{桜|さくら}]]は{綺麗|きれい}です。",
+          "source": "ai-draft",
+          "vi": "Hoa anh đào đẹp."
+        }
+      ],
+      "han_viet": "ANH",
+      "id": "mn-08-033",
+      "kana": "さくら",
+      "kanji": "桜",
+      "kanji_refs": [
+        "k-桜"
+      ],
+      "legacy_id": "lesson8_33",
+      "lesson": 8,
+      "meaning_vi": "anh đào (hoa, cây)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh đào (hoa, cây)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-034-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{富士山|ふじさん}は{高|たか}い[[{山|やま}]]です。",
+          "source": "ai-draft",
+          "vi": "Núi Phú Sĩ là ngọn núi cao."
+        }
+      ],
+      "han_viet": "SƠN, SAN",
+      "id": "mn-08-034",
+      "kana": "やま",
+      "kanji": "山",
+      "kanji_refs": [
+        "k-山"
+      ],
+      "legacy_id": "lesson8_34",
+      "lesson": 8,
+      "meaning_vi": "núi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "núi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-035-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{京都|きょうと}は{静|しず}かな[[{町|まち}]]です。",
+          "source": "ai-draft",
+          "vi": "Kyoto là một thành phố yên tĩnh."
+        }
+      ],
+      "han_viet": "ĐINH",
+      "id": "mn-08-035",
+      "kana": "まち",
+      "kanji": "町",
+      "kanji_refs": [
+        "k-町"
+      ],
+      "legacy_id": "lesson8_35",
+      "lesson": 8,
+      "meaning_vi": "thị trấn, thị xã, thành phố",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thị trấn, thị xã, thành phố"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-036-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{食|た}べ{物|もの}]]は{美味|おい}しいです。",
+          "source": "ai-draft",
+          "vi": "Đồ ăn Nhật ngon."
+        }
+      ],
+      "han_viet": "THỰC VẬT",
+      "id": "mn-08-036",
+      "kana": "たべもの",
+      "kanji": "食べ物",
+      "kanji_refs": [
+        "k-食",
+        "k-物"
+      ],
+      "legacy_id": "lesson8_36",
+      "lesson": 8,
+      "meaning_vi": "đồ ăn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đồ ăn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-037-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{京都|きょうと}はいい[[{所|ところ}]]です。",
+          "source": "ai-draft",
+          "vi": "Kyoto là một nơi tốt."
+        }
+      ],
+      "han_viet": "SỞ",
+      "id": "mn-08-037",
+      "kana": "ところ",
+      "kanji": "所",
+      "kanji_refs": [
+        "k-所"
+      ],
+      "legacy_id": "lesson8_37",
+      "lesson": 8,
+      "meaning_vi": "nơi, chỗ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nơi, chỗ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-038-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{寮|りょう}]]の{部屋|へや}は{小|ちい}さいです。",
+          "source": "ai-draft",
+          "vi": "Phòng ở ký túc xá nhỏ."
+        }
+      ],
+      "han_viet": "LIÊU",
+      "id": "mn-08-038",
+      "kana": "りょう",
+      "kanji": "寮",
+      "kanji_refs": [
+        "k-寮"
+      ],
+      "legacy_id": "lesson8_38",
+      "lesson": 8,
+      "meaning_vi": "kí túc xá",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kí túc xá"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-039-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "あの[[レストラン]]は{有名|ゆうめい}です。",
+          "source": "ai-draft",
+          "vi": "Nhà hàng kia nổi tiếng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-039",
+      "kana": "レストラン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_39",
+      "lesson": 8,
+      "meaning_vi": "nhà hàng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà hàng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-040-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{生活|せいかつ}]]はどうですか。",
+          "source": "ai-draft",
+          "vi": "Cuộc sống ở Nhật thế nào?"
+        }
+      ],
+      "han_viet": "SINH HOẠT",
+      "id": "mn-08-040",
+      "kana": "せいかつ",
+      "kanji": "生活",
+      "kanji_refs": [
+        "k-生",
+        "k-活"
+      ],
+      "legacy_id": "lesson8_40",
+      "lesson": 8,
+      "meaning_vi": "cuộc sống, sinh hoạt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-019"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "cuộc sống, sinh hoạt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-08-041-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[{仕事|しごと}]]は{忙|いそが}しいですか。",
+          "source": "ai-draft",
+          "vi": "Công việc có bận không?"
+        }
+      ],
+      "han_viet": "SĨ SỰ",
+      "id": "mn-08-041",
+      "kana": "しごと",
+      "kanji": "仕事",
+      "kanji_refs": [
+        "k-仕",
+        "k-事"
+      ],
+      "legacy_id": "lesson8_41",
+      "lesson": 8,
+      "meaning_vi": "công việc (～をします：làm việc)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "công việc (～をします：làm việc)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-042-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{日本|にほん}の{食|た}べ{物|もの}は[[どう]]ですか。",
+          "source": "ai-draft",
+          "vi": "Đồ ăn Nhật thế nào?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-042",
+      "kana": "どう",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_42",
+      "lesson": 8,
+      "meaning_vi": "thế nào",
+      "particle": null,
+      "pos": {
+        "code": "QP",
+        "label": "Đại từ nghi vấn"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thế nào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-043-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "[[どんな]]{町|まち}ですか。",
+          "source": "ai-draft",
+          "vi": "Đó là thành phố như thế nào?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-043",
+      "kana": "どんな～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_43",
+      "lesson": 8,
+      "meaning_vi": "～ như thế nào",
+      "particle": null,
+      "pos": {
+        "code": "Det",
+        "label": "Từ chỉ định (連体詞)"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ như thế nào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-044-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{本|ほん}は[[とても]]{面白|おもしろ}いです。",
+          "source": "ai-draft",
+          "vi": "Cuốn sách này rất hay."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-044",
+      "kana": "とても",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_44",
+      "lesson": 8,
+      "meaning_vi": "rất, lắm",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rất, lắm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-045-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "この{店|みせ}は[[{余|あま}り]]{高|たか}くないです。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng này không đắt lắm."
+        }
+      ],
+      "han_viet": "DƯ",
+      "id": "mn-08-045",
+      "kana": "あまり",
+      "kanji": "余り",
+      "kanji_refs": [
+        "k-余"
+      ],
+      "legacy_id": "lesson8_45",
+      "lesson": 8,
+      "meaning_vi": "không ～ lắm",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "không ～ lắm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-046-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{京都|きょうと}は{静|しず}かです。[[そして]]、{綺麗|きれい}です。",
+          "source": "ai-draft",
+          "vi": "Kyoto yên tĩnh. Và còn đẹp nữa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-046",
+      "kana": "そして",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_46",
+      "lesson": 8,
+      "meaning_vi": "và, thêm nữa (dùng để nối 2 câu)",
+      "particle": null,
+      "pos": {
+        "code": "Conj",
+        "label": "Từ nối"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "và, thêm nữa (dùng để nối 2 câu)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-08-047-e1",
+          "max_lesson": 8,
+          "review": "user",
+          "ruby": "{日本|にほん}の{生活|せいかつ}は{楽|たの}しいです[[が、]]{忙|いそが}しいです。",
+          "source": "ai-draft",
+          "vi": "Cuộc sống ở Nhật vui nhưng bận rộn."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-08-047",
+      "kana": "～が、～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson8_47",
+      "lesson": 8,
+      "meaning_vi": "～, nhưng ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～, nhưng ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 8,
+  "schema_version": 4
+}

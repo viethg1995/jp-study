@@ -1,0 +1,647 @@
+{
+  "mn-08-001": {
+    "examples": [
+      {
+        "id": "mn-08-001-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "ミラーさんは[[ハンサム]]です。",
+        "source": "ai-draft",
+        "vi": "Anh Miller đẹp trai."
+      }
+    ]
+  },
+  "mn-08-002": {
+    "examples": [
+      {
+        "id": "mn-08-002-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{京都|きょうと}は[[{綺麗|きれい}]]な{町|まち}です。",
+        "source": "ai-draft",
+        "vi": "Kyoto là một thành phố đẹp."
+      }
+    ],
+    "han_viet": "Ỷ LỆ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-003": {
+    "examples": [
+      {
+        "id": "mn-08-003-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{図書館|としょかん}は[[{静|しず}か]]です。",
+        "source": "ai-draft",
+        "vi": "Thư viện yên tĩnh."
+      }
+    ]
+  },
+  "mn-08-004": {
+    "examples": [
+      {
+        "id": "mn-08-004-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{大阪|おおさか}は[[{賑|にぎ}やか]]な{町|まち}です。",
+        "source": "ai-draft",
+        "vi": "Osaka là một thành phố náo nhiệt."
+      }
+    ],
+    "han_viet": "CHẨN",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-005": {
+    "examples": [
+      {
+        "id": "mn-08-005-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{富士山|ふじさん}は[[{有名|ゆうめい}]]な{山|やま}です。",
+        "source": "ai-draft",
+        "vi": "Núi Phú Sĩ là ngọn núi nổi tiếng."
+      }
+    ]
+  },
+  "mn-08-006": {
+    "examples": [
+      {
+        "id": "mn-08-006-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{先生|せんせい}はとても[[{親切|しんせつ}]]です。",
+        "source": "ai-draft",
+        "vi": "Thầy giáo rất tốt bụng."
+      }
+    ]
+  },
+  "mn-08-007": {
+    "examples": [
+      {
+        "id": "mn-08-007-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{母|はは}は[[{元気|げんき}]]です。",
+        "source": "ai-draft",
+        "vi": "Mẹ tôi khỏe."
+      }
+    ]
+  },
+  "mn-08-008": {
+    "examples": [
+      {
+        "id": "mn-08-008-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{暇|ひま}]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay tôi rảnh."
+      }
+    ]
+  },
+  "mn-08-009": {
+    "examples": [
+      {
+        "id": "mn-08-009-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{辞書|じしょ}は[[{便利|べんり}]]です。",
+        "source": "ai-draft",
+        "vi": "Cuốn từ điển này tiện lợi."
+      }
+    ]
+  },
+  "mn-08-010": {
+    "examples": [
+      {
+        "id": "mn-08-010-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{素敵|すてき}]]な{部屋|へや}ですね。",
+        "source": "ai-draft",
+        "vi": "Căn phòng đẹp quá nhỉ."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-011": {
+    "examples": [
+      {
+        "id": "mn-08-011-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{私|わたし}の{家|うち}は[[{大|おお}きい]]です。",
+        "source": "ai-draft",
+        "vi": "Nhà tôi to."
+      }
+    ]
+  },
+  "mn-08-012": {
+    "examples": [
+      {
+        "id": "mn-08-012-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "これは[[{小|ちい}さい]]カメラです。",
+        "source": "ai-draft",
+        "vi": "Đây là cái máy ảnh nhỏ."
+      }
+    ]
+  },
+  "mn-08-013": {
+    "examples": [
+      {
+        "id": "mn-08-013-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{新|あたら}しい]]{車|くるま}を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua ô tô mới."
+      }
+    ]
+  },
+  "mn-08-014": {
+    "examples": [
+      {
+        "id": "mn-08-014-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{寮|りょう}は[[{古|ふる}い]]です。",
+        "source": "ai-draft",
+        "vi": "Ký túc xá này cũ."
+      }
+    ]
+  },
+  "mn-08-015": {
+    "examples": [
+      {
+        "id": "mn-08-015-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "これは[[いい]]{辞書|じしょ}です。",
+        "source": "ai-draft",
+        "vi": "Đây là cuốn từ điển tốt."
+      }
+    ]
+  },
+  "mn-08-016": {
+    "examples": [
+      {
+        "id": "mn-08-016-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{店|みせ}は[[{悪|わる}く]]ないです。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng này không tệ."
+      }
+    ]
+  },
+  "mn-08-017": {
+    "examples": [
+      {
+        "id": "mn-08-017-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{暑|あつ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay trời nóng."
+      }
+    ]
+  },
+  "mn-08-018": {
+    "examples": [
+      {
+        "id": "mn-08-018-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{北海道|ほっかいどう}は[[{寒|さむ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Hokkaido lạnh."
+      }
+    ]
+  },
+  "mn-08-019": {
+    "examples": [
+      {
+        "id": "mn-08-019-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{水|みず}は[[{冷|つめ}たい]]です。",
+        "source": "ai-draft",
+        "vi": "Nước này lạnh."
+      }
+    ]
+  },
+  "mn-08-020": {
+    "examples": [
+      {
+        "id": "mn-08-020-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{日本語|にほんご}は[[{難|むずか}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Tiếng Nhật khó."
+      }
+    ]
+  },
+  "mn-08-021": {
+    "examples": [
+      {
+        "id": "mn-08-021-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{本|ほん}は[[{易|やさ}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Cuốn sách này dễ."
+      }
+    ]
+  },
+  "mn-08-022": {
+    "examples": [
+      {
+        "id": "mn-08-022-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{時計|とけい}は[[{高|たか}い]]です。",
+        "source": "ai-draft",
+        "vi": "Cái đồng hồ này đắt."
+      }
+    ]
+  },
+  "mn-08-023": {
+    "examples": [
+      {
+        "id": "mn-08-023-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{店|みせ}の{野菜|やさい}は[[{安|やす}い]]です。",
+        "source": "ai-draft",
+        "vi": "Rau ở cửa hàng này rẻ."
+      }
+    ]
+  },
+  "mn-08-024": {
+    "examples": [
+      {
+        "id": "mn-08-024-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{椅子|いす}は[[{低|ひく}い]]です。",
+        "source": "ai-draft",
+        "vi": "Cái ghế này thấp."
+      }
+    ]
+  },
+  "mn-08-025": {
+    "examples": [
+      {
+        "id": "mn-08-025-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{映画|えいが}は[[{面白|おもしろ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Bộ phim này hay."
+      }
+    ],
+    "han_viet": "DIỆN BẠCH",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-026": {
+    "examples": [
+      {
+        "id": "mn-08-026-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{果物|くだもの}は[[{美味|おい}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Hoa quả này ngon."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-027": {
+    "examples": [
+      {
+        "id": "mn-08-027-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{忙|いそが}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay tôi bận."
+      }
+    ]
+  },
+  "mn-08-028": {
+    "examples": [
+      {
+        "id": "mn-08-028-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{日本|にほん}の{生活|せいかつ}は[[{楽|たの}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Cuộc sống ở Nhật vui."
+      }
+    ]
+  },
+  "mn-08-029": {
+    "examples": [
+      {
+        "id": "mn-08-029-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{白|しろ}い]]{花|はな}ですね。",
+        "source": "ai-draft",
+        "vi": "Hoa màu trắng nhỉ."
+      }
+    ]
+  },
+  "mn-08-030": {
+    "examples": [
+      {
+        "id": "mn-08-030-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{黒|くろ}い]]{鞄|かばん}を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua cái cặp màu đen."
+      }
+    ]
+  },
+  "mn-08-031": {
+    "examples": [
+      {
+        "id": "mn-08-031-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{赤|あか}い]]{傘|かさ}は{私|わたし}のです。",
+        "source": "ai-draft",
+        "vi": "Cái ô màu đỏ là của tôi."
+      }
+    ]
+  },
+  "mn-08-032": {
+    "examples": [
+      {
+        "id": "mn-08-032-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{青|あお}い]]{車|くるま}はミラーさんのです。",
+        "source": "ai-draft",
+        "vi": "Chiếc ô tô màu xanh là của anh Miller."
+      }
+    ]
+  },
+  "mn-08-033": {
+    "examples": [
+      {
+        "id": "mn-08-033-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{桜|さくら}]]は{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Hoa anh đào đẹp."
+      }
+    ]
+  },
+  "mn-08-034": {
+    "examples": [
+      {
+        "id": "mn-08-034-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{富士山|ふじさん}は{高|たか}い[[{山|やま}]]です。",
+        "source": "ai-draft",
+        "vi": "Núi Phú Sĩ là ngọn núi cao."
+      }
+    ]
+  },
+  "mn-08-035": {
+    "examples": [
+      {
+        "id": "mn-08-035-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{京都|きょうと}は{静|しず}かな[[{町|まち}]]です。",
+        "source": "ai-draft",
+        "vi": "Kyoto là một thành phố yên tĩnh."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "まち: PN→N (JMdict: danh từ thông dụng (town; block))",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-036": {
+    "examples": [
+      {
+        "id": "mn-08-036-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{食|た}べ{物|もの}]]は{美味|おい}しいです。",
+        "source": "ai-draft",
+        "vi": "Đồ ăn Nhật ngon."
+      }
+    ]
+  },
+  "mn-08-037": {
+    "examples": [
+      {
+        "id": "mn-08-037-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{京都|きょうと}はいい[[{所|ところ}]]です。",
+        "source": "ai-draft",
+        "vi": "Kyoto là một nơi tốt."
+      }
+    ]
+  },
+  "mn-08-038": {
+    "examples": [
+      {
+        "id": "mn-08-038-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{寮|りょう}]]の{部屋|へや}は{小|ちい}さいです。",
+        "source": "ai-draft",
+        "vi": "Phòng ở ký túc xá nhỏ."
+      }
+    ]
+  },
+  "mn-08-039": {
+    "examples": [
+      {
+        "id": "mn-08-039-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "あの[[レストラン]]は{有名|ゆうめい}です。",
+        "source": "ai-draft",
+        "vi": "Nhà hàng kia nổi tiếng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "レストラン: PN→N (JMdict: danh từ thông dụng (restaurant (esp. Western-style)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-040": {
+    "examples": [
+      {
+        "id": "mn-08-040-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{生活|せいかつ}]]はどうですか。",
+        "source": "ai-draft",
+        "vi": "Cuộc sống ở Nhật thế nào?"
+      }
+    ]
+  },
+  "mn-08-041": {
+    "examples": [
+      {
+        "id": "mn-08-041-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[{仕事|しごと}]]は{忙|いそが}しいですか。",
+        "source": "ai-draft",
+        "vi": "Công việc có bận không?"
+      }
+    ]
+  },
+  "mn-08-042": {
+    "examples": [
+      {
+        "id": "mn-08-042-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{日本|にほん}の{食|た}べ{物|もの}は[[どう]]ですか。",
+        "source": "ai-draft",
+        "vi": "Đồ ăn Nhật thế nào?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "どう viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-043": {
+    "examples": [
+      {
+        "id": "mn-08-043-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "[[どんな]]{町|まち}ですか。",
+        "source": "ai-draft",
+        "vi": "Đó là thành phố như thế nào?"
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "どんな～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-044": {
+    "examples": [
+      {
+        "id": "mn-08-044-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{本|ほん}は[[とても]]{面白|おもしろ}いです。",
+        "source": "ai-draft",
+        "vi": "Cuốn sách này rất hay."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "迚も là ateji",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-045": {
+    "examples": [
+      {
+        "id": "mn-08-045-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "この{店|みせ}は[[{余|あま}り]]{高|たか}くないです。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng này không đắt lắm."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-046": {
+    "examples": [
+      {
+        "id": "mn-08-046-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{京都|きょうと}は{静|しず}かです。[[そして]]、{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Kyoto yên tĩnh. Và còn đẹp nữa."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "而して cổ",
+      "status": "reviewed"
+    }
+  },
+  "mn-08-047": {
+    "examples": [
+      {
+        "id": "mn-08-047-e1",
+        "max_lesson": 8,
+        "review": "user",
+        "ruby": "{日本|にほん}の{生活|せいかつ}は{楽|たの}しいです[[が、]]{忙|いそが}しいです。",
+        "source": "ai-draft",
+        "vi": "Cuộc sống ở Nhật vui nhưng bận rộn."
+      }
+    ]
+  }
+}

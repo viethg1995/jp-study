@@ -1,0 +1,498 @@
+# by: ai
+# Nghĩa tiếng Việt cho từ ví dụ Kanji bổ sung từ JMdict (lô 7, 2026-11-10) — AI nháp, chờ duyệt.
+吉兆|きっちょう|điềm lành
+夫婦|ふうふ|vợ chồng
+婦人|ふじん|phụ nữ, quý bà
+婦女|ふじょ|phụ nữ, nữ giới
+新婦|しんぷ|cô dâu
+求める|もとめる|mong muốn, yêu cầu
+探求|たんきゅう|tìm kiếm, theo đuổi
+欲求|よっきゅう|nhu cầu, ham muốn
+求人|きゅうじん|tuyển người
+要求|ようきゅう|yêu cầu
+内側|うちがわ|bên trong
+側近|そっきん|người thân cận
+側面|そくめん|mặt bên, khía cạnh
+制度|せいど|chế độ, hệ thống
+制止|せいし|ngăn chặn
+自制|じせい|tự chủ, tự kiềm chế
+規制|きせい|quy chế, hạn chế
+体型|たいけい|vóc dáng
+小型|こがた|cỡ nhỏ
+原型|げんけい|nguyên mẫu
+型式|かたしき|mẫu, kiểu (xe…)
+各位|かくい|quý vị
+各地|かくち|các nơi
+各自|かくじ|mỗi người
+各国|かくこく|các nước
+各種|かくしゅ|các loại
+帰路|きろ|đường về
+路地|ろじ|ngõ, hẻm
+回路|かいろ|mạch điện
+営み|いとなみ|hoạt động, sinh hoạt
+営利|えいり|kinh doanh vì lợi nhuận
+市営|しえい|do thành phố quản lý
+自営|じえい|tự kinh doanh
+示し|しめし|làm gương
+図示|ずし|minh họa bằng hình
+公示|こうし|công bố
+内示|ないし|thông báo nội bộ
+福助|ふくすけ|tượng Fukusuke (người lùn đầu to mang may mắn)
+福音|ふくいん|tin mừng, phúc âm
+祝福|しゅくふく|chúc phúc
+福|ふく|phúc
+商い|あきない|buôn bán
+商事|しょうじ|thương sự, công ty thương mại
+商務|しょうむ|thương vụ
+整う|ととのう|được chuẩn bị, chỉnh tề
+整備|せいび|bảo dưỡng, chỉnh bị
+均整|きんせい|cân đối
+整列|せいれつ|xếp hàng
+記章|きしょう|huy hiệu
+受章|じゅしょう|được trao huân chương
+文章|ぶんしょう|văn chương, đoạn văn
+楽章|がくしょう|chương nhạc
+章|しょう|chương
+令和|れいわ|niên hiệu Reiwa (từ 1/5/2019)
+指令|しれい|chỉ lệnh
+辞令|じれい|quyết định nhân sự
+号令|ごうれい|hiệu lệnh
+等しい|ひとしい|bằng nhau
+下等|かとう|hạ đẳng, kém
+等価|とうか|đẳng giá, tương đương
+一等|いっとう|hạng nhất
+同等|どうとう|ngang bằng
+園芸|えんげい|làm vườn
+学芸|がくげい|học thuật và nghệ thuật
+工芸|こうげい|thủ công mỹ nghệ
+文芸|ぶんげい|văn nghệ
+共|とも|cùng với
+共和|きょうわ|cộng hòa
+公共|こうきょう|công cộng
+共同|きょうどう|cộng đồng, chung
+岩屋|いわや|hang đá
+岩塩|がんえん|muối mỏ
+岩間|いわま|giữa các tảng đá
+岩山|いわやま|núi đá
+予期|よき|dự kiến
+時期|じき|thời kỳ
+疑い|うたがい|nghi ngờ
+嫌疑|けんぎ|hiềm nghi
+容疑|ようぎ|tình nghi
+互い|たがい|lẫn nhau
+偽物|ぎぶつ|đồ giả
+真偽|しんぎ|thật giả
+偽る|いつわる|nói dối, giả vờ
+免れる|まぬかれる|thoát khỏi
+免責|めんせき|miễn trách nhiệm
+冗句|じょうく|câu thừa
+冗多|じょうた|thừa thãi
+冗語|じょうご|lời thừa
+冗費|じょうひ|chi phí thừa
+列国|れっこく|các nước
+列島|れっとう|quần đảo
+列挙|れっきょ|liệt kê
+判事|はんじ|thẩm phán
+公判|こうはん|phiên tòa
+判定|はんてい|phán định
+判断|はんだん|phán đoán
+薬剤|やくざい|dược phẩm
+調剤|ちょうざい|pha chế thuốc
+薬剤師|やくざいし|dược sĩ
+合成洗剤|ごうせいせんざい|bột giặt tổng hợp
+努めて|つとめて|cố gắng hết mức
+努める|つとめる|nỗ lực
+努|ど|nét mác xuống (nguyên tắc thứ ba trong Vĩnh tự bát pháp)
+努力家|どりょくか|người chăm chỉ
+語句|ごく|từ ngữ
+禁句|きんく|từ cấm kỵ
+節句|せっく|lễ tiết theo mùa
+叩き|たたき|cá/thịt băm (có khi áp chảo)
+叩っ|たたっ|(tiền tố) làm mạnh tay
+叩打|こうだ|đánh, vỗ
+叩解|こうかい|nghiền bột giấy
+絶叫|ぜっきょう|hét lên
+叫び|さけび|tiếng kêu
+叫ぶ|さけぶ|hét, kêu
+叫号|きょうごう|kêu to
+包含|ほうがん|bao hàm
+含み|ふくみ|hàm ý
+含有|がんゆう|hàm lượng, chứa
+団地|だんち|khu chung cư
+布団|ふとん|chăn đệm futon
+師団|しだん|sư đoàn
+一団|いちだん|một nhóm
+囲い|かこい|hàng rào
+囲う|かこう|vây quanh
+均一|きんいち|đồng đều
+均等|きんとう|bình đẳng, đều nhau
+均質|きんしつ|đồng chất
+埋蔵|まいぞう|chôn giấu; trữ lượng
+穴埋め|あなうめ|lấp chỗ trống
+基づく|もとづく|dựa trên
+基地|きち|căn cứ
+境目|さかいめ|ranh giới
+境内|けいだい|khuôn viên (đền, chùa)
+境地|きょうち|trạng thái tinh thần
+苦境|くきょう|tình cảnh khó khăn
+奏でる|かなでる|chơi nhạc cụ
+合奏|がっそう|hòa tấu
+奏者|そうしゃ|người chơi nhạc cụ
+契機|けいき|cơ hội, bước ngoặt
+契約|けいやく|hợp đồng
+契約書|けいやくしょ|bản hợp đồng
+契り|ちぎり|lời thề, giao ước
+奮う|ふるう|phấn chấn, gom (dũng khí)
+奮発|ふんぱつ|cố gắng; chịu chi
+奮って|ふるって|nhiệt tình, hăng hái
+宗家|そうか|gia trưởng (dòng phái)
+宗派|しゅうは|tông phái
+宗祖|しゅうそ|người sáng lập tông phái
+宗門|しゅうもん|tông môn
+宣告|せんこく|tuyên án
+宣戦|せんせん|tuyên chiến
+宣言|せんげん|tuyên ngôn
+宣教師|せんきょうし|nhà truyền giáo
+利害|りがい|lợi hại
+無害|むがい|vô hại
+公害|こうがい|ô nhiễm môi trường
+専務|せんむ|giám đốc điều hành
+専任|せんにん|chuyên trách
+専制|せんせい|chuyên chế
+専売|せんばい|độc quyền bán
+尋問|じんもん|thẩm vấn
+尋常|じんじょう|bình thường
+尋ね人|たずねびと|người mất tích
+八尋|やひろ|rất dài, rất lớn
+就く|つく|nhậm chức, bắt đầu làm
+去就|きょしゅう|đi hay ở
+就任|しゅうにん|nhậm chức
+就学|しゅうがく|đi học
+不屈|ふくつ|bất khuất
+理屈|りくつ|lý lẽ
+屈折|くっせつ|khúc xạ, uốn cong
+葉巻|はまき|xì gà
+巻末|かんまつ|cuối sách
+底辺|ていへん|cạnh đáy; tầng lớp dưới
+底値|そこね|giá đáy
+徹底|てってい|triệt để
+根底|こんてい|nền tảng, gốc rễ
+延期|えんき|hoãn lại
+延べ|のべ|tổng cộng; hợp đồng kỳ hạn
+遅延|ちえん|trễ, chậm
+人影|じんえい|bóng người
+投影|とうえい|phản chiếu, chiếu
+徴税|ちょうぜい|thu thuế
+追徴|ついちょう|truy thu
+徴収|ちょうしゅう|thu (phí, thuế)
+象徴|しょうちょう|biểu tượng
+冷徹|れいてつ|điềm tĩnh, sáng suốt
+徹する|てっする|thấm sâu; dốc lòng
+徹底的|てっていてき|triệt để
+応える|こたえる|đáp ứng
+一応|いちおう|tạm thời, đại khái
+悔い|くい|hối tiếc
+悔いる|くいる|hối hận
+悔やむ|くやむ|tiếc thương, hối tiếc
+惑わす|まどわす|làm bối rối
+疑惑|ぎわく|nghi hoặc
+当惑|とうわく|bối rối
+事態|じたい|tình hình
+動態|どうたい|động thái
+変態|へんたい|biến thái; biến hình
+恐慌|きょうこう|khủng hoảng, hoảng loạn
+大慌て|おおあわて|cuống cuồng
+慌て者|あわてもの|người hấp tấp
+大恐慌|だいきょうこう|Đại khủng hoảng
+慢性|まんせい|mãn tính
+慢性的|まんせいてき|kinh niên
+傲慢|ごうまん|ngạo mạn
+不慮|ふりょ|bất ngờ, không lường trước
+苦慮|くりょ|trăn trở
+考慮|こうりょ|cân nhắc
+配慮|はいりょ|quan tâm, chu đáo
+抱負|ほうふ|hoài bão
+抱え|かかえ|một ôm
+抱っこ|だっこ|bế, ôm
+拍子|ひょうし|nhịp
+拍車|はくしゃ|cựa (giày cưỡi ngựa); thúc đẩy
+脈拍|みゃくはく|mạch đập
+下拍|かはく|phách mạnh
+挑む|いどむ|thách đấu
+挑戦|ちょうせん|thử thách
+挑発|ちょうはつ|khiêu khích
+初挑戦|はつちょうせん|lần thử đầu tiên
+一挙|いっきょ|một lần, một mạch
+挙式|きょしき|tổ chức lễ cưới
+捕手|ほしゅ|người bắt bóng (bóng chày)
+捕る|とる|bắt
+捕獲|ほかく|bắt giữ
+手提げ|てさげ|túi xách tay
+提示|ていじ|xuất trình
+提起|ていき|nêu ra
+前提|ぜんてい|tiền đề
+高揚|こうよう|nâng cao (tinh thần)
+揚げ|あげ|chiên ngập dầu
+荷揚げ|にあげ|dỡ hàng
+水揚げ|みずあげ|dỡ hàng lên bờ; sản lượng đánh bắt
+握り|にぎり|nắm, tay cầm
+握力|あくりょく|lực nắm tay
+握らす|にぎらす|cho nắm
+援護|えんご|hỗ trợ
+支援|しえん|hỗ trợ
+声援|せいえん|cổ vũ
+後援|こうえん|bảo trợ
+動揺|どうよう|dao động, lung lay
+揺る|ゆる|lắc
+揺する|ゆする|lắc, rung
+揺らぎ|ゆらぎ|sự rung động
+普段着|ふだんぎ|quần áo thường ngày
+普通預金|ふつうよきん|tiền gửi không kỳ hạn
+普通選挙|ふつうせんきょ|phổ thông đầu phiếu
+日暮れ|ひぐれ|hoàng hôn
+今更|いまさら|bây giờ mới…, đến lúc này
+変更|へんこう|thay đổi
+更改|こうかい|gia hạn, sửa đổi
+更新|こうしん|cập nhật, đổi mới
+条理|じょうり|lẽ phải
+一条|いちじょう|một vệt, một dòng
+信条|しんじょう|tín điều
+条文|じょうぶん|văn bản điều khoản
+栄え|はえ|vinh quang
+見栄|みえ|sĩ diện
+光栄|こうえい|vinh dự
+栄光|えいこう|vinh quang
+極み|きわみ|tột đỉnh
+極右|きょくう|cực hữu
+極寒|ごくかん|giá rét
+構う|かまう|bận tâm
+構図|こうず|bố cục
+機構|きこう|cơ cấu, tổ chức
+構内|こうない|trong khuôn viên
+殴打|おうだ|đánh đập
+殴り込み|なぐりこみ|xông vào tấn công
+横殴り|よこなぐり|đánh ngang
+ぶん殴る|ぶんなぐる|đấm mạnh
+対比|たいひ|so sánh, đối chiếu
+比重|ひじゅう|tỷ trọng
+比|ひ|tỷ lệ
+見比べる|みくらべる|so sánh bằng mắt
+派手|はで|lòe loẹt, phô trương
+清い|きよい|trong sạch
+清掃|せいそう|dọn vệ sinh
+清新|せいしん|tươi mới
+清書|せいしょ|chép sạch
+渋い|しぶい|chát; trầm, tinh tế
+渋る|しぶる|ngần ngại
+渋面|しぶつら|nhăn mặt
+苦渋|くじゅう|cay đắng
+溜め|ため|hố chứa
+液溜|えきだめ|bể chứa chất lỏng
+溜池|ためいけ|hồ chứa nước
+溶岩|ようがん|dung nham
+溶く|とく|hòa tan, pha
+溶接|ようせつ|hàn
+遅滞|ちたい|chậm trễ
+停滞|ていたい|đình trệ
+延滞|えんたい|quá hạn
+沈滞|ちんたい|trì trệ
+潔い|いさぎよい|thanh cao, dứt khoát
+不潔|ふけつ|bẩn thỉu
+清潔|せいけつ|sạch sẽ
+潔癖|けっぺき|ưa sạch sẽ
+激化|げきか|trở nên gay gắt
+過激|かげき|quá khích
+煮物|にもの|món ninh, món hầm
+煮やす|にやす|nấu bên trong
+犯す|おかす|phạm (tội, lỗi)
+主犯|しゅはん|thủ phạm chính
+戦犯|せんぱん|tội phạm chiến tranh
+犯行|はんこう|hành vi phạm tội
+一環|いっかん|một phần, một mắt xích
+環状|かんじょう|hình vòng
+環境保護|かんきょうほご|bảo vệ môi trường
+自然環境|しぜんかんきょう|môi trường tự nhiên
+略す|りゃくす|viết tắt, lược bỏ
+略語|りゃくご|từ viết tắt
+前略|ぜんりゃく|xin lược phần mở đầu (thư)
+戦略|せんりゃく|chiến lược
+畳|じょう|chiếu tatami (đơn vị diện tích phòng)
+四畳半|よじょうはん|phòng bốn chiếu rưỡi
+畳句|じょうく|điệp khúc
+畳字|じょうじ|ký hiệu lặp chữ
+発症|はっしょう|phát bệnh
+重症|じゅうしょう|bệnh nặng
+症|しょう|chứng (bệnh)
+医療|いりょう|y tế
+療法|りょうほう|liệu pháp
+療養|りょうよう|điều dưỡng
+診療|しんりょう|khám chữa bệnh
+性癖|せいへき|tật, thói quen
+口癖|くちぐせ|câu cửa miệng
+出癖|でくせ|thói hay đi ra ngoài
+毛皮|もうひ|lông thú
+皮肉|ひにく|mỉa mai
+皮切り|かわきり|khởi đầu
+全盛|ぜんせい|thời kỳ thịnh vượng nhất
+盛る|もる|xới, bày (thức ăn)
+盛り|さかり|đỉnh điểm, mùa rộ
+盛ん|さかん|thịnh vượng, sôi nổi
+省く|はぶく|bỏ bớt
+自省|じせい|tự xét mình
+火種|ひだね|than mồi lửa
+機種|きしゅ|dòng máy, mẫu máy
+種子|しゅし|hạt giống
+墓穴|ぼけつ|huyệt mộ
+風穴|かざあな|lỗ thông gió
+落とし穴|おとしあな|bẫy, hố bẫy
+競る|せる|cạnh tranh
+競う|きそう|ganh đua
+競売|けいばい|đấu giá
+師範|しはん|người thầy, sư phạm
+規範|きはん|quy phạm, chuẩn mực
+広範|こうはん|rộng rãi
+範|はん|gương mẫu
+戸籍|こせき|hộ tịch
+移籍|いせき|chuyển hộ tịch; chuyển nhượng (cầu thủ)
+書籍|しょせき|sách vở
+本籍|ほんせき|nguyên quán (đăng ký hộ tịch)
+美粧|びしょう|trang điểm đẹp
+粧鏡|しょうきょう|gương trang điểm
+化粧着|けしょうぎ|áo choàng trang điểm
+寝化粧|ねげしょう|trang điểm trước khi ngủ
+緊急|きんきゅう|khẩn cấp
+緊密|きんみつ|chặt chẽ
+緊迫|きんぱく|căng thẳng
+緊縮|きんしゅく|thắt chặt
+繰る|くる|cuộn, kéo sợi
+繰り上げ|くりあげ|đẩy sớm lên
+繰り出す|くりだす|thả ra; kéo nhau đi
+繰り延べ|くりのべ|hoãn lại
+汚職|おしょく|tham nhũng
+無職|むしょく|thất nghiệp
+職務|しょくむ|chức vụ, nhiệm vụ
+不能|ふのう|không thể
+可能|かのう|có thể
+技能|ぎのう|kỹ năng
+機能|きのう|chức năng
+臭気|しゅうき|mùi hôi
+悪臭|あくしゅう|mùi hôi thối
+古臭い|ふるくさい|cũ kỹ, lỗi thời
+水臭い|みずくさい|khách sáo, xa cách
+蒸気|じょうき|hơi nước
+蒸し|むし|hấp
+蒸発|じょうはつ|bốc hơi
+水蒸気|すいじょうき|hơi nước
+折衝|せっしょう|đàm phán
+衝動|しょうどう|xung động, bốc đồng
+要衝|ようしょう|vị trí chiến lược
+衝撃|しょうげき|cú sốc, va chạm
+探訪|たんぼう|tìm hiểu, phóng sự
+来訪|らいほう|đến thăm
+歴訪|れきほう|đi thăm lần lượt
+訪れ|おとずれ|sự đến thăm
+詫び|わび|lời xin lỗi
+詫びる|わびる|xin lỗi
+詫ぶ|わぶ|xin lỗi
+詫状|わびじょう|thư xin lỗi
+不詳|ふしょう|không rõ
+詳報|しょうほう|báo cáo chi tiết
+詳細|しょうさい|chi tiết
+詳述|しょうじゅつ|trình bày chi tiết
+認め|みとめ|sự công nhận
+否認|ひにん|phủ nhận
+認可|にんか|cho phép, cấp phép
+認知|にんち|nhận thức; công nhận
+誤り|あやまり|sai lầm
+誤報|ごほう|tin sai
+下請け|したうけ|thầu phụ
+申請|しんせい|đơn xin, đăng ký
+要請|ようせい|yêu cầu, đề nghị
+請願|せいがん|thỉnh nguyện
+謝る|あやまる|xin lỗi
+謝意|しゃい|lòng biết ơn
+代謝|たいしゃ|trao đổi chất
+月謝|げっしゃ|học phí hàng tháng
+意識|いしき|ý thức
+学識|がくしき|học thức
+見識|けんしき|kiến thức, kiến giải
+認識|にんしき|nhận thức
+移譲|いじょう|chuyển giao
+譲歩|じょうほ|nhượng bộ
+譲渡|じょうと|chuyển nhượng
+分譲|ぶんじょう|bán từng phần (bất động sản)
+責める|せめる|trách móc
+自責|じせき|tự trách
+責務|せきむ|trách nhiệm, nghĩa vụ
+費やす|ついやす|tiêu tốn
+自費|じひ|tự chi trả
+会費|かいひ|hội phí
+短距離|たんきょり|cự ly ngắn
+近距離|きんきょり|khoảng cách gần
+遠距離|えんきょり|khoảng cách xa
+長距離|ちょうきょり|đường dài
+躍り|おどり|sự nhảy lên
+躍起|やっき|hăng hái, cuống cuồng
+一躍|いちやく|nhảy vọt
+記載|きさい|ghi chép
+満載|まんさい|chất đầy
+登載|とうさい|đăng tải
+輩出|はいしゅつ|lớp lớp xuất hiện (nhân tài)
+下輩|かはい|kẻ dưới
+余輩|よはい|chúng tôi
+辺地|へんち|vùng hẻo lánh
+水辺|みずべ|bờ nước
+迷い|まよい|sự do dự
+迷路|めいろ|mê cung
+低迷|ていめい|trì trệ; (mây) sà thấp
+適度|てきど|vừa phải
+適時|てきじ|đúng lúc
+最適|さいてき|tối ưu
+適切|てきせつ|thích hợp
+郷土|きょうど|quê hương
+同郷|どうきょう|đồng hương
+郷里|きょうり|quê nhà
+郷愁|きょうしゅう|nỗi nhớ quê
+鳴門|なると|eo biển có xoáy nước
+部門|ぶもん|bộ phận, lĩnh vực
+門下|もんか|môn đệ
+門戸|もんこ|cửa ngõ
+防ぐ|ふせぐ|phòng ngừa
+防止|ぼうし|ngăn chặn
+防火|ぼうか|phòng cháy
+隠語|いんご|tiếng lóng
+隠居|いんきょ|về hưu, ở ẩn
+見え隠れ|みえかくれ|lúc ẩn lúc hiện
+響き|ひびき|tiếng vang
+響く|ひびく|vang
+反響|はんきょう|tiếng vang; phản hồi
+音響|おんきょう|âm thanh
+預金|よきん|tiền gửi
+預かり|あずかり|giữ hộ
+預貯金|よちょきん|tiền gửi tiết kiệm
+飽和|ほうわ|bão hòa
+飽き|あき|sự chán
+飽食|ほうしょく|ăn no nê
+飽く|あく|chán
+養う|やしなう|nuôi dưỡng
+保養|ほよう|nghỉ dưỡng
+養子|ようし|con nuôi
+驚異|きょうい|kỳ diệu
+驚く|おどろく|ngạc nhiên
+驚かす|おどろかす|làm ngạc nhiên
+驚くほど|おどろくほど|đáng ngạc nhiên
+鮮やか|あざやか|tươi sáng, rực rỡ
+鮮度|せんど|độ tươi
+新鮮|しんせん|tươi mới
+生鮮|せいせん|tươi sống
+悲鳴|ひめい|tiếng thét
+鳴く|なく|kêu, hót
+鳴り|なり|tiếng kêu
+暗黙|あんもく|ngầm
+黙認|もくにん|làm ngơ, ngầm chấp nhận
+黙とう|もくとう|mặc niệm
+寡黙|かもく|ít nói
+齢|よわい|tuổi
+学齢|がくれい|tuổi đi học
+年齢|ねんれい|tuổi
+老齢|ろうれい|tuổi già

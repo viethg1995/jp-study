@@ -1,0 +1,18 @@
+---
+// Bài từ vựng N3 (sách N3 準備 文字語彙, 14 bài).
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import { conjLinks } from "../../../lib/conjugation";
+import LessonView from "../../../components/vocab/LessonView.astro";
+
+export const getStaticPaths = (async () => {
+  const lessons = await getCollection("vocabularyN3");
+  return lessons.map((l) => ({ params: { lesson: String(l.data.lesson) }, props: { data: l.data } }));
+}) satisfies GetStaticPaths;
+
+const { data } = Astro.props;
+const conj = conjLinks((await getCollection("conjEntries")).map((e) => e.data));
+const last = (await getCollection("vocabularyN3")).length;
+---
+
+<LessonView lesson={data.lesson} entries={data.entries} route="vocabulary/n3" lastLesson={last} label="N3 · Bài" conj={conj} />

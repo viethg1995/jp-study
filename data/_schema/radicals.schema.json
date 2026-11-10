@@ -1,0 +1,87 @@
+{
+  "$defs": {
+    "Radical": {
+      "additionalProperties": false,
+      "properties": {
+        "char": {
+          "description": "Chữ bộ thủ (dạng chính)",
+          "title": "Char",
+          "type": "string"
+        },
+        "meaning_vi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Nghĩa tiếng Việt (null nếu nguồn bỏ trống)",
+          "title": "Meaning Vi"
+        },
+        "name_vi": {
+          "description": "Tên Hán-Việt, vd 'Nhân'",
+          "title": "Name Vi",
+          "type": "string"
+        },
+        "number": {
+          "description": "Số thứ tự bộ thủ Khang Hy",
+          "maximum": 214,
+          "minimum": 1,
+          "title": "Number",
+          "type": "integer"
+        },
+        "strokes": {
+          "maximum": 17,
+          "minimum": 1,
+          "title": "Strokes",
+          "type": "integer"
+        },
+        "variants": {
+          "description": "Dạng biến thể, vd 龍 → ['龙']",
+          "items": {
+            "type": "string"
+          },
+          "title": "Variants",
+          "type": "array"
+        }
+      },
+      "required": [
+        "number",
+        "char",
+        "variants",
+        "strokes",
+        "name_vi",
+        "meaning_vi"
+      ],
+      "title": "Radical",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "radicals": {
+      "items": {
+        "$ref": "#/$defs/Radical"
+      },
+      "title": "Radicals",
+      "type": "array"
+    },
+    "schema_version": {
+      "default": 7,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "source": {
+      "title": "Source",
+      "type": "string"
+    }
+  },
+  "required": [
+    "source",
+    "radicals"
+  ],
+  "title": "RadicalFile",
+  "type": "object"
+}

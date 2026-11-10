@@ -1,0 +1,2304 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-001-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{私|わたし}は{毎朝|まいあさ}６{時|じ}に[[{起|お}きます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi thức dậy lúc 6 giờ mỗi sáng."
+        }
+      ],
+      "han_viet": "KHỞI",
+      "id": "mn-04-001",
+      "kana": "おきます",
+      "kanji": "起きます",
+      "kanji_refs": [
+        "k-起"
+      ],
+      "legacy_id": "lesson4_1",
+      "lesson": 4,
+      "meaning_vi": "dậy, thức dậy",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-44-007"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "dậy, thức dậy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-002-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{毎晩|まいばん}１１{時|じ}に[[{寝|ね}ます]]。",
+          "source": "ai-draft",
+          "vi": "Mỗi tối tôi đi ngủ lúc 11 giờ."
+        }
+      ],
+      "han_viet": "TẨM",
+      "id": "mn-04-002",
+      "kana": "ねます",
+      "kanji": "寝ます",
+      "kanji_refs": [
+        "k-寝"
+      ],
+      "legacy_id": "lesson4_2",
+      "lesson": 4,
+      "meaning_vi": "ngủ, đi ngủ",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngủ, đi ngủ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-003-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{月曜日|げつようび}から{金曜日|きんようび}まで[[{働|はたら}きます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi làm việc từ thứ hai đến thứ sáu."
+        }
+      ],
+      "han_viet": "ĐỘNG",
+      "id": "mn-04-003",
+      "kana": "はたらきます",
+      "kanji": "働きます",
+      "kanji_refs": [
+        "k-働"
+      ],
+      "legacy_id": "lesson4_3",
+      "lesson": 4,
+      "meaning_vi": "làm việc",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "làm việc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-004-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{日曜日|にちようび}は[[{休|やす}みます]]。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật tôi nghỉ."
+        }
+      ],
+      "han_viet": "HƯU",
+      "id": "mn-04-004",
+      "kana": "やすみます",
+      "kanji": "休みます",
+      "kanji_refs": [
+        "k-休"
+      ],
+      "legacy_id": "lesson4_4",
+      "lesson": 4,
+      "meaning_vi": "nghỉ, nghỉ ngơi",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-11-004"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghỉ, nghỉ ngơi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-005-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{毎晩|まいばん}[[{勉強|べんきょう}します]]。",
+          "source": "ai-draft",
+          "vi": "Tối nào tôi cũng học."
+        }
+      ],
+      "han_viet": "MIỄN CƯỜNG",
+      "id": "mn-04-005",
+      "kana": "べんきょうします",
+      "kanji": "勉強します",
+      "kanji_refs": [
+        "k-勉",
+        "k-強"
+      ],
+      "legacy_id": "lesson4_5",
+      "lesson": 4,
+      "meaning_vi": "học",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-006-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{会議|かいぎ}は３{時|じ}に[[{終|お}わります]]。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp kết thúc lúc 3 giờ."
+        }
+      ],
+      "han_viet": "CHUNG",
+      "id": "mn-04-006",
+      "kana": "おわります",
+      "kanji": "終わります",
+      "kanji_refs": [
+        "k-終"
+      ],
+      "legacy_id": "lesson4_6",
+      "lesson": 4,
+      "meaning_vi": "hết, kết thúc, xong",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hết, kết thúc, xong"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-007-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[デパート]]は{何時|なんじ}までですか。",
+          "source": "ai-draft",
+          "vi": "Trung tâm thương mại mở cửa đến mấy giờ?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-04-007",
+      "kana": "デパート",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson4_7",
+      "lesson": 4,
+      "meaning_vi": "bách hóa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bách hóa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-008-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{銀行|ぎんこう}]]は９{時|じ}から３{時|じ}までです。",
+          "source": "ai-draft",
+          "vi": "Ngân hàng làm việc từ 9 giờ đến 3 giờ."
+        }
+      ],
+      "han_viet": "NGÂN HÀNH",
+      "id": "mn-04-008",
+      "kana": "ぎんこう",
+      "kanji": "銀行",
+      "kanji_refs": [
+        "k-銀",
+        "k-行"
+      ],
+      "legacy_id": "lesson4_8",
+      "lesson": 4,
+      "meaning_vi": "ngân hàng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngân hàng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-009-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{郵便局|ゆうびんきょく}]]は{何時|なんじ}までですか。",
+          "source": "ai-draft",
+          "vi": "Bưu điện mở cửa đến mấy giờ?"
+        }
+      ],
+      "han_viet": "BƯU TIỆN CỤC",
+      "id": "mn-04-009",
+      "kana": "ゆうびんきょく",
+      "kanji": "郵便局",
+      "kanji_refs": [
+        "k-郵",
+        "k-便",
+        "k-局"
+      ],
+      "legacy_id": "lesson4_9",
+      "lesson": 4,
+      "meaning_vi": "bưu điện",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bưu điện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-010-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{図書館|としょかん}]]は{月曜日|げつようび}が{休|やす}みです。",
+          "source": "ai-draft",
+          "vi": "Thư viện nghỉ vào thứ hai."
+        }
+      ],
+      "han_viet": "ĐỒ THƯ QUÁN",
+      "id": "mn-04-010",
+      "kana": "としょかん",
+      "kanji": "図書館",
+      "kanji_refs": [
+        "k-図",
+        "k-書",
+        "k-館"
+      ],
+      "legacy_id": "lesson4_10",
+      "lesson": 4,
+      "meaning_vi": "thư viện",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thư viện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-011-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{美術館|びじゅつかん}]]は{何時|なんじ}からですか。",
+          "source": "ai-draft",
+          "vi": "Bảo tàng mỹ thuật mở cửa từ mấy giờ?"
+        }
+      ],
+      "han_viet": "MỸ THUẬT QUÁN",
+      "id": "mn-04-011",
+      "kana": "びじゅつかん",
+      "kanji": "美術館",
+      "kanji_refs": [
+        "k-美",
+        "k-術",
+        "k-館"
+      ],
+      "legacy_id": "lesson4_11",
+      "lesson": 4,
+      "meaning_vi": "bảo tàng mỹ thuật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bảo tàng mỹ thuật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-012-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{今|いま}]]、{何時|なんじ}ですか。",
+          "source": "ai-draft",
+          "vi": "Bây giờ là mấy giờ?"
+        }
+      ],
+      "han_viet": "KIM",
+      "id": "mn-04-012",
+      "kana": "いま",
+      "kanji": "今",
+      "kanji_refs": [
+        "k-今"
+      ],
+      "legacy_id": "lesson4_12",
+      "lesson": 4,
+      "meaning_vi": "bây giờ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bây giờ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-013-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{今|いま}４[[{時|じ}]]です。",
+          "source": "ai-draft",
+          "vi": "Bây giờ là 4 giờ."
+        }
+      ],
+      "han_viet": "THỜI",
+      "id": "mn-04-013",
+      "kana": "～じ",
+      "kanji": "～時",
+      "kanji_refs": [
+        "k-時"
+      ],
+      "legacy_id": "lesson4_13",
+      "lesson": 4,
+      "meaning_vi": "～giờ",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～giờ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-014-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{今|いま}３{時|じ}１０[[{分|ぷん}]]です。",
+          "source": "ai-draft",
+          "vi": "Bây giờ là 3 giờ 10 phút."
+        }
+      ],
+      "han_viet": "PHÂN",
+      "id": "mn-04-014",
+      "kana": "～ふん",
+      "kanji": "～分",
+      "kanji_refs": [
+        "k-分"
+      ],
+      "legacy_id": "lesson4_14",
+      "lesson": 4,
+      "meaning_vi": "～ phút",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ phút"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-015-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{今|いま}７{時|じ}[[{半|はん}]]です。",
+          "source": "ai-draft",
+          "vi": "Bây giờ là 7 giờ rưỡi."
+        }
+      ],
+      "han_viet": "BÁN",
+      "id": "mn-04-015",
+      "kana": "はん",
+      "kanji": "半",
+      "kanji_refs": [
+        "k-半"
+      ],
+      "legacy_id": "lesson4_15",
+      "lesson": 4,
+      "meaning_vi": "rưỡi, nửa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rưỡi, nửa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-016-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{銀行|ぎんこう}は[[{何時|なんじ}]]までですか。",
+          "source": "ai-draft",
+          "vi": "Ngân hàng làm việc đến mấy giờ?"
+        }
+      ],
+      "han_viet": "HÀ THỜI",
+      "id": "mn-04-016",
+      "kana": "なんじ",
+      "kanji": "何時",
+      "kanji_refs": [
+        "k-何",
+        "k-時"
+      ],
+      "legacy_id": "lesson4_16",
+      "lesson": 4,
+      "meaning_vi": "mấy giờ",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mấy giờ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-017-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{今|いま}{何時|なんじ}[[{何分|なんぷん}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Bây giờ là mấy giờ mấy phút?"
+        }
+      ],
+      "han_viet": "HÀ PHÂN",
+      "id": "mn-04-017",
+      "kana": "なんぷん",
+      "kanji": "何分",
+      "kanji_refs": [
+        "k-何",
+        "k-分"
+      ],
+      "legacy_id": "lesson4_17",
+      "lesson": 4,
+      "meaning_vi": "mấy phút",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mấy phút"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-018-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{午前|ごぜん}]]９{時|じ}から{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi làm việc từ 9 giờ sáng."
+        }
+      ],
+      "han_viet": "NGỌ TIỀN",
+      "id": "mn-04-018",
+      "kana": "ごぜん",
+      "kanji": "午前",
+      "kanji_refs": [
+        "k-午",
+        "k-前"
+      ],
+      "legacy_id": "lesson4_18",
+      "lesson": 4,
+      "meaning_vi": "sáng, trước 12 giờ trưa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sáng, trước 12 giờ trưa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-019-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{午後|ごご}]]５{時|じ}に{終|お}わります。",
+          "source": "ai-draft",
+          "vi": "Tôi kết thúc công việc lúc 5 giờ chiều."
+        }
+      ],
+      "han_viet": "NGỌ HẬU",
+      "id": "mn-04-019",
+      "kana": "ごご",
+      "kanji": "午後",
+      "kanji_refs": [
+        "k-午",
+        "k-後"
+      ],
+      "legacy_id": "lesson4_19",
+      "lesson": 4,
+      "meaning_vi": "chiều, sau 12 giờ trưa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chiều, sau 12 giờ trưa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-020-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{朝|あさ}]]７{時|じ}に{起|お}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi dậy lúc 7 giờ sáng."
+        }
+      ],
+      "han_viet": "TRIỀU",
+      "id": "mn-04-020",
+      "kana": "あさ",
+      "kanji": "朝",
+      "kanji_refs": [
+        "k-朝"
+      ],
+      "legacy_id": "lesson4_20",
+      "lesson": 4,
+      "meaning_vi": "buổi sáng, sáng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "buổi sáng, sáng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-021-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{昼|ひる}]]１２{時|じ}から{休|やす}みます。",
+          "source": "ai-draft",
+          "vi": "Buổi trưa tôi nghỉ từ 12 giờ."
+        }
+      ],
+      "han_viet": "TRÚ",
+      "id": "mn-04-021",
+      "kana": "ひる",
+      "kanji": "昼",
+      "kanji_refs": [
+        "k-昼"
+      ],
+      "legacy_id": "lesson4_21",
+      "lesson": 4,
+      "meaning_vi": "buổi trưa, trưa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "buổi trưa, trưa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-022-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{晩|ばん}]]１０{時|じ}まで{勉強|べんきょう}します。",
+          "source": "ai-draft",
+          "vi": "Buổi tối tôi học đến 10 giờ."
+        }
+      ],
+      "han_viet": "VÃN(DẠ)",
+      "id": "mn-04-022",
+      "kana": "ばん",
+      "kanji": "晩",
+      "kanji_refs": [
+        "k-晩"
+      ],
+      "legacy_id": "lesson4_22",
+      "lesson": 4,
+      "meaning_vi": "buổi tối, tối",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "buổi tối, tối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-023-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{一昨日|おととい}]]{働|はたら}きました。",
+          "source": "ai-draft",
+          "vi": "Hôm kia tôi đã làm việc."
+        }
+      ],
+      "han_viet": "NHẤT TẠC NHẬT",
+      "id": "mn-04-023",
+      "kana": "おととい",
+      "kanji": "一昨日",
+      "kanji_refs": [
+        "k-一",
+        "k-昨",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_23",
+      "lesson": 4,
+      "meaning_vi": "hôm kia",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hôm kia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-024-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{昨日|きのう}]]{勉強|べんきょう}しました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã học."
+        }
+      ],
+      "han_viet": "TẠC NHẬT",
+      "id": "mn-04-024",
+      "kana": "きのう",
+      "kanji": "昨日",
+      "kanji_refs": [
+        "k-昨",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_24",
+      "lesson": 4,
+      "meaning_vi": "hôm qua",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hôm qua"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-025-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{今日|きょう}]]は{何曜日|なんようび}ですか。",
+          "source": "ai-draft",
+          "vi": "Hôm nay là thứ mấy?"
+        }
+      ],
+      "han_viet": "KIM NHẬT",
+      "id": "mn-04-025",
+      "kana": "きょう",
+      "kanji": "今日",
+      "kanji_refs": [
+        "k-今",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_25",
+      "lesson": 4,
+      "meaning_vi": "hôm nay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hôm nay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-026-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{明日|あした}]]{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày mai tôi làm việc."
+        }
+      ],
+      "han_viet": "MINH NHẬT",
+      "id": "mn-04-026",
+      "kana": "あした",
+      "kanji": "明日",
+      "kanji_refs": [
+        "k-明",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_26",
+      "lesson": 4,
+      "meaning_vi": "ngày mai",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-027-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{明後日|あさって}]]は{試験|しけん}です。",
+          "source": "ai-draft",
+          "vi": "Ngày kia là kỳ thi."
+        }
+      ],
+      "han_viet": "MINH HẬU NHẬT",
+      "id": "mn-04-027",
+      "kana": "あさって",
+      "kanji": "明後日",
+      "kanji_refs": [
+        "k-明",
+        "k-後",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_27",
+      "lesson": 4,
+      "meaning_vi": "ngày kia",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày kia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-028-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{今朝|けさ}]]６{時|じ}に{起|お}きました。",
+          "source": "ai-draft",
+          "vi": "Sáng nay tôi dậy lúc 6 giờ."
+        }
+      ],
+      "han_viet": "KIM TRIỀU",
+      "id": "mn-04-028",
+      "kana": "けさ",
+      "kanji": "今朝",
+      "kanji_refs": [
+        "k-今",
+        "k-朝"
+      ],
+      "legacy_id": "lesson4_28",
+      "lesson": 4,
+      "meaning_vi": "sáng nay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sáng nay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-029-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{今晩|こんばん}]]{勉強|べんきょう}します。",
+          "source": "ai-draft",
+          "vi": "Tối nay tôi sẽ học."
+        }
+      ],
+      "han_viet": "KIM VÃN",
+      "id": "mn-04-029",
+      "kana": "こんばん",
+      "kanji": "今晩",
+      "kanji_refs": [
+        "k-今",
+        "k-晩"
+      ],
+      "legacy_id": "lesson4_29",
+      "lesson": 4,
+      "meaning_vi": "tối nay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tối nay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-030-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{明日|あした}は[[{休|やす}み]]ですか。",
+          "source": "ai-draft",
+          "vi": "Ngày mai có phải là ngày nghỉ không?"
+        }
+      ],
+      "han_viet": "HƯU",
+      "id": "mn-04-030",
+      "kana": "やすみ",
+      "kanji": "休み",
+      "kanji_refs": [
+        "k-休"
+      ],
+      "legacy_id": "lesson4_30",
+      "lesson": 4,
+      "meaning_vi": "nghỉ, nghỉ phép, ngày nghỉ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghỉ, nghỉ phép, ngày nghỉ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-031-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{昼休|ひるやす}み]]は１２{時|じ}から１{時|じ}までです。",
+          "source": "ai-draft",
+          "vi": "Giờ nghỉ trưa từ 12 giờ đến 1 giờ."
+        }
+      ],
+      "han_viet": "TRÚ HƯU",
+      "id": "mn-04-031",
+      "kana": "ひるやすみ",
+      "kanji": "昼休み",
+      "kanji_refs": [
+        "k-昼",
+        "k-休"
+      ],
+      "legacy_id": "lesson4_31",
+      "lesson": 4,
+      "meaning_vi": "nghỉ trưa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghỉ trưa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-032-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{試験|しけん}]]は{何時|なんじ}からですか。",
+          "source": "ai-draft",
+          "vi": "Kỳ thi bắt đầu từ mấy giờ?"
+        }
+      ],
+      "han_viet": "THÍ NGHIỆM",
+      "id": "mn-04-032",
+      "kana": "しけん",
+      "kanji": "試験",
+      "kanji_refs": [
+        "k-試",
+        "k-験"
+      ],
+      "legacy_id": "lesson4_32",
+      "lesson": 4,
+      "meaning_vi": "thi, kỳ thi, kiểm tra",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "ai",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thi, kỳ thi, kiểm tra"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-033-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{会議|かいぎ}]]は{何時|なんじ}に{終|お}わりますか。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp kết thúc lúc mấy giờ?"
+        }
+      ],
+      "han_viet": "HỘI NGHỊ",
+      "id": "mn-04-033",
+      "kana": "かいぎ",
+      "kanji": "会議",
+      "kanji_refs": [
+        "k-会",
+        "k-議"
+      ],
+      "legacy_id": "lesson4_33",
+      "lesson": 4,
+      "meaning_vi": "cuộc họp, hội nghị (～を します： tổ chức cuộc họp, hội nghị)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "ai",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cuộc họp, hội nghị (～を します： tổ chức cuộc họp, hội nghị)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-034-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{映画|えいが}]]は９{時|じ}からです。",
+          "source": "ai-draft",
+          "vi": "Phim bắt đầu từ 9 giờ."
+        }
+      ],
+      "han_viet": "ÁNH HỌA",
+      "id": "mn-04-034",
+      "kana": "えいが",
+      "kanji": "映画",
+      "kanji_refs": [
+        "k-映",
+        "k-画"
+      ],
+      "legacy_id": "lesson4_34",
+      "lesson": 4,
+      "meaning_vi": "phim, điện ảnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "ai",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phim, điện ảnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-035-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{毎朝|まいあさ}]]７{時|じ}に{起|お}きます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi dậy lúc 7 giờ."
+        }
+      ],
+      "han_viet": "MỖI TRIỀU",
+      "id": "mn-04-035",
+      "kana": "まいあさ",
+      "kanji": "毎朝",
+      "kanji_refs": [
+        "k-毎",
+        "k-朝"
+      ],
+      "legacy_id": "lesson4_35",
+      "lesson": 4,
+      "meaning_vi": "hàng sáng, mỗi sáng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hàng sáng, mỗi sáng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-036-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{毎晩|まいばん}]]{勉強|べんきょう}します。",
+          "source": "ai-draft",
+          "vi": "Mỗi tối tôi đều học."
+        }
+      ],
+      "han_viet": "MỖI VÃN",
+      "id": "mn-04-036",
+      "kana": "まいばん",
+      "kanji": "毎晩",
+      "kanji_refs": [
+        "k-毎",
+        "k-晩"
+      ],
+      "legacy_id": "lesson4_36",
+      "lesson": 4,
+      "meaning_vi": "hàng tối, mỗi tối",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hàng tối, mỗi tối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-037-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{毎日|まいにち}]]{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày nào tôi cũng làm việc."
+        }
+      ],
+      "han_viet": "MỖI NHẬT",
+      "id": "mn-04-037",
+      "kana": "まいにち",
+      "kanji": "毎日",
+      "kanji_refs": [
+        "k-毎",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_37",
+      "lesson": 4,
+      "meaning_vi": "hàng ngày, mỗi ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hàng ngày, mỗi ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-038-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{月曜日|げつようび}]]から{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi làm việc từ thứ hai."
+        }
+      ],
+      "han_viet": "NGUYỆT DIỆU NHẬT",
+      "id": "mn-04-038",
+      "kana": "げつようび",
+      "kanji": "月曜日",
+      "kanji_refs": [
+        "k-月",
+        "k-曜",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_38",
+      "lesson": 4,
+      "meaning_vi": "thứ hai",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ hai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-039-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{火曜日|かようび}]]は{会議|かいぎ}です。",
+          "source": "ai-draft",
+          "vi": "Thứ ba có cuộc họp."
+        }
+      ],
+      "han_viet": "HỎA DIỆU NHẬT",
+      "id": "mn-04-039",
+      "kana": "かようび",
+      "kanji": "火曜日",
+      "kanji_refs": [
+        "k-火",
+        "k-曜",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_39",
+      "lesson": 4,
+      "meaning_vi": "thứ ba",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ ba"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-040-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{水曜日|すいようび}]]は{休|やす}みです。",
+          "source": "ai-draft",
+          "vi": "Thứ tư là ngày nghỉ."
+        }
+      ],
+      "han_viet": "THỦY DIỆU NHẬT",
+      "id": "mn-04-040",
+      "kana": "すいようび",
+      "kanji": "水曜日",
+      "kanji_refs": [
+        "k-水",
+        "k-曜",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_40",
+      "lesson": 4,
+      "meaning_vi": "thứ tư",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ tư"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-041-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{木曜日|もくようび}]]に{勉強|べんきょう}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã học vào thứ năm."
+        }
+      ],
+      "han_viet": "MỘC DIỆU NHẬT",
+      "id": "mn-04-041",
+      "kana": "もくようび",
+      "kanji": "木曜日",
+      "kanji_refs": [
+        "k-木",
+        "k-曜",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_41",
+      "lesson": 4,
+      "meaning_vi": "thứ năm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ năm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-042-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{金曜日|きんようび}]]まで{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi làm việc đến thứ sáu."
+        }
+      ],
+      "han_viet": "KIM DIỆU NHẬT",
+      "id": "mn-04-042",
+      "kana": "きんようび",
+      "kanji": "金曜日",
+      "kanji_refs": [
+        "k-金",
+        "k-曜",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_42",
+      "lesson": 4,
+      "meaning_vi": "thứ sáu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ sáu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-043-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{土曜日|どようび}]]は{何時|なんじ}に{起|お}きますか。",
+          "source": "ai-draft",
+          "vi": "Thứ bảy anh/chị dậy lúc mấy giờ?"
+        }
+      ],
+      "han_viet": "THỔ DIỆU NHẬT",
+      "id": "mn-04-043",
+      "kana": "どようび",
+      "kanji": "土曜日",
+      "kanji_refs": [
+        "k-土",
+        "k-曜",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_43",
+      "lesson": 4,
+      "meaning_vi": "thứ bảy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ bảy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-044-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "[[{日曜日|にちようび}]]は{休|やす}みます。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật tôi nghỉ."
+        }
+      ],
+      "han_viet": "NHẬT DIỆU NHẬT",
+      "id": "mn-04-044",
+      "kana": "にちようび",
+      "kanji": "日曜日",
+      "kanji_refs": [
+        "k-日",
+        "k-曜"
+      ],
+      "legacy_id": "lesson4_44",
+      "lesson": 4,
+      "meaning_vi": "chủ nhật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chủ nhật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-04-045-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{試験|しけん}は[[{何曜日|なんようび}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Kỳ thi vào thứ mấy?"
+        }
+      ],
+      "han_viet": "HÀ DIỆU NHẬT",
+      "id": "mn-04-045",
+      "kana": "なんようび",
+      "kanji": "何曜日",
+      "kanji_refs": [
+        "k-何",
+        "k-曜",
+        "k-日"
+      ],
+      "legacy_id": "lesson4_45",
+      "lesson": 4,
+      "meaning_vi": "thứ mấy",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ mấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-046-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "９{時|じ}[[から]]{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi làm việc từ 9 giờ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-04-046",
+      "kana": "～から",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson4_46",
+      "lesson": 4,
+      "meaning_vi": "～ từ",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-09-043"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ từ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-047-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "５{時|じ}[[まで]]{勉強|べんきょう}します。",
+          "source": "ai-draft",
+          "vi": "Tôi học đến 5 giờ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-04-047",
+      "kana": "～まで",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson4_47",
+      "lesson": 4,
+      "meaning_vi": "～ đến",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ đến"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-04-048-e1",
+          "max_lesson": 4,
+          "review": "user",
+          "ruby": "{土曜日|どようび}[[と]]{日曜日|にちようび}は{休|やす}みです。",
+          "source": "ai-draft",
+          "vi": "Thứ bảy và chủ nhật là ngày nghỉ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-04-048",
+      "kana": "～と",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson4_48",
+      "lesson": 4,
+      "meaning_vi": "～ và (dùng để nối hai danh từ)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ và (dùng để nối hai danh từ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 4,
+  "schema_version": 4
+}

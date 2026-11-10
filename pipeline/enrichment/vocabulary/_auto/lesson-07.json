@@ -1,0 +1,590 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THIẾT",
+    "han_viet_source": "source",
+    "id": "mn-07-001",
+    "kanji": "切ります",
+    "kanji_refs": [
+      "k-切"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_1",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỐNG",
+    "han_viet_source": "source",
+    "id": "mn-07-002",
+    "kanji": "送ります",
+    "kanji_refs": [
+      "k-送"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_2",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "THƯỢNG",
+    "han_viet_source": "derived",
+    "id": "mn-07-003",
+    "kanji": "上げます",
+    "kanji_gloss": "to raise; to elevate",
+    "kanji_refs": [
+      "k-上"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson7_3",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "THỞI",
+    "han_viet_source": "unihan",
+    "id": "mn-07-004",
+    "kanji": "貰います",
+    "kanji_gloss": "to receive; to take",
+    "kanji_refs": [
+      "k-貰"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson7_4",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "THẢI",
+    "han_viet_source": "source",
+    "id": "mn-07-005",
+    "kanji": "貸します",
+    "kanji_refs": [
+      "k-貸"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_5",
+    "lesson": 7,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁ",
+    "han_viet_source": "source",
+    "id": "mn-07-006",
+    "kanji": "借ります",
+    "kanji_refs": [
+      "k-借"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_6",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIÁO",
+    "han_viet_source": "source",
+    "id": "mn-07-007",
+    "kanji": "教えます",
+    "kanji_refs": [
+      "k-教"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_7",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TẬP",
+    "han_viet_source": "source",
+    "id": "mn-07-008",
+    "kanji": "習います",
+    "kanji_refs": [
+      "k-習"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_8",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "ĐIỆN THOẠI",
+    "han_viet_source": null,
+    "id": "mn-07-009",
+    "kanji": "かけます",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_9",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỦ",
+    "han_viet_source": "source",
+    "id": "mn-07-010",
+    "kanji": "手",
+    "kanji_refs": [
+      "k-手"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_10",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-011",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "bridge",
+        "kanji": "橋"
+      },
+      {
+        "gloss": "chopsticks",
+        "kanji": "箸"
+      },
+      {
+        "gloss": "beak; bill",
+        "kanji": "嘴"
+      },
+      {
+        "gloss": "end (e.g. of street); tip",
+        "kanji": "端"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_11",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-012",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_12",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (spoon)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-013",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_13",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (knife)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-014",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_14",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (fork)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "鋏": []
+    },
+    "han_viet_source": null,
+    "id": "mn-07-015",
+    "kanji": "鋏",
+    "kanji_gloss": "scissors; shears",
+    "kanji_refs": [
+      "k-鋏"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson7_15",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-016",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_16",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (personal computer; PC)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-017",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_17",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-018",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_18",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (email)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NIÊN HẠ TRẠNG",
+    "han_viet_source": "source",
+    "id": "mn-07-019",
+    "kanji": "年賀状",
+    "kanji_refs": [
+      "k-年",
+      "k-賀",
+      "k-状"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_19",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-020",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_20",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (punch (with the fist))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-021",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_21",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_22",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (cellophane tape; adhesive tape)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-023",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_23",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHỈ",
+    "han_viet_source": "source",
+    "id": "mn-07-024",
+    "kanji": "紙",
+    "kanji_refs": [
+      "k-紙"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_24",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HOA",
+    "han_viet_source": "source",
+    "id": "mn-07-025",
+    "kanji": "花",
+    "kanji_refs": [
+      "k-花"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_25",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-026",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_26",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (shirt (undergarment); undershirt)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-027",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_27",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (present; gift)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ VẬT",
+    "han_viet_source": "source",
+    "id": "mn-07-028",
+    "kanji": "荷物",
+    "kanji_refs": [
+      "k-荷",
+      "k-物"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_28",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIM",
+    "han_viet_source": "source",
+    "id": "mn-07-029",
+    "kanji": "お金",
+    "kanji_refs": [
+      "k-金"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_29",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THIẾT PHÙ",
+    "han_viet_source": "source",
+    "id": "mn-07-030",
+    "kanji": "切符",
+    "kanji_refs": [
+      "k-切",
+      "k-符"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_30",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-031",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_31",
+    "lesson": 7,
+    "pos_reason": "JMdict: danh từ thông dụng (Christmas)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHỤ",
+    "han_viet_source": "source",
+    "id": "mn-07-032",
+    "kanji": "父",
+    "kanji_refs": [
+      "k-父"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_32",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MẪU",
+    "han_viet_source": "source",
+    "id": "mn-07-033",
+    "kanji": "母",
+    "kanji_refs": [
+      "k-母"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_33",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHỤ",
+    "han_viet_source": "source",
+    "id": "mn-07-034",
+    "kanji": "お父さん",
+    "kanji_refs": [
+      "k-父"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_34",
+    "lesson": 7
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MẪU",
+    "han_viet_source": "source",
+    "id": "mn-07-035",
+    "kanji": "お母さん",
+    "kanji_refs": [
+      "k-母"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson7_35",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-036",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_36",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "MÙI",
+    "han_viet_source": "unihan",
+    "id": "mn-07-037",
+    "kanji": "未だ",
+    "kanji_gloss": "still; as yet",
+    "kanji_refs": [
+      "k-未"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson7_37",
+    "lesson": 7
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-07-038",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson7_38",
+    "lesson": 7
+  }
+]

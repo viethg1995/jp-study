@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lesson49_1",
+    "jp": "りようします",
+    "kanji": "利用します",
+    "kanji_vn": "LỢI DỤNG",
+    "vn": "sử dụng, tận dụng, dùng",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson49_2",
+    "jp": "つとめます",
+    "kanji": "勤めます",
+    "kanji_vn": "HỘI XÃ CẦN",
+    "vn": "làm việc ở [công ty]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson49_3",
+    "jp": "かけます",
+    "kanji": "掛けます",
+    "kanji_vn": "QUẢI",
+    "vn": "ngồi [ghế]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson49_4",
+    "jp": "すごします",
+    "kanji": "過ごします",
+    "kanji_vn": "QUÁ",
+    "vn": "tiêu thời gian, trải qua",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson49_5",
+    "jp": "いらっしゃいます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ở, có, đi, đến (tôn kính ngữ của います、いきます và きます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson49_6",
+    "jp": "めしあがります",
+    "kanji": "召し上がります",
+    "kanji_vn": "TRIỆU THƯỢNG",
+    "vn": "ăn, uống (tôn kính ngữ của たべます và のみます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson49_7",
+    "jp": "おっしゃいます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nói (tôn kính ngữ của いいます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson49_8",
+    "jp": "なさいます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "làm (tôn kính ngữ của します)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson49_9",
+    "jp": "ごらんになります",
+    "kanji": "ご覧になります",
+    "kanji_vn": "LÃM",
+    "vn": "xem, nhìn (tôn kính ngữ của みます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson49_10",
+    "jp": "ごぞんじです",
+    "kanji": "ご存じです",
+    "kanji_vn": "TỒN",
+    "vn": "biết (tôn kính ngữ của しっています)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson49_11",
+    "jp": "あいさつ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chào hỏi (～をします：chào hỏi)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson49_12",
+    "jp": "りょかん",
+    "kanji": "旅館",
+    "kanji_vn": "LỮ QUÁN",
+    "vn": "khách sạn kiểu Nhật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson49_13",
+    "jp": "バスてい",
+    "kanji": "バス停",
+    "kanji_vn": "ĐÌNH",
+    "vn": "bến xe buýt, điểm lên xuống xe buýt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson49_14",
+    "jp": "おくさま",
+    "kanji": "奥様",
+    "kanji_vn": "ÁO DẠNG",
+    "vn": "vợ người khác (kính ngữ của おくさん）",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson49_15",
+    "jp": "～さま",
+    "kanji": "～様",
+    "kanji_vn": "DẠNG",
+    "vn": "ngài ~, ông ~, bà ~ (tôn kính ngữ của ～さん)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson49_16",
+    "jp": "たまに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thỉnh thoảng (tần suất nhỏ hơn ときどき)",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson49_17",
+    "jp": "どなたでも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vị nào cũng (kính ngữ của だれでも)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson49_18",
+    "jp": "～といいます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tên là ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  }
+]

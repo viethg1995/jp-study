@@ -1,0 +1,814 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-001-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{先生|せんせい}にレポートを[[{渡|わた}しました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã nộp báo cáo cho giáo viên."
+        }
+      ],
+      "han_viet": "ĐỘ",
+      "id": "mn-46-001",
+      "kana": "わたします",
+      "kanji": "渡します",
+      "kanji_refs": [
+        "k-渡"
+      ],
+      "legacy_id": "lesson46_1",
+      "lesson": 46,
+      "meaning_vi": "đưa cho, giao cho",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đưa cho, giao cho"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-002-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{父|ちち}は{今|いま}{会社|かいしゃ}から[[{帰|かえ}って{来|き}た]]ところです。",
+          "source": "ai-draft",
+          "vi": "Bố tôi vừa mới đi làm về."
+        }
+      ],
+      "han_viet": "QUY LAI",
+      "id": "mn-46-002",
+      "kana": "かえってきます",
+      "kanji": "帰って来ます",
+      "kanji_refs": [
+        "k-帰",
+        "k-来"
+      ],
+      "legacy_id": "lesson46_2",
+      "lesson": 46,
+      "meaning_vi": "về, trở lại",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "về, trở lại"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-003-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "バスはもう[[{出|で}ました]]。",
+          "source": "ai-draft",
+          "vi": "Xe buýt đã chạy rồi."
+        }
+      ],
+      "han_viet": "XUẤT",
+      "id": "mn-46-003",
+      "kana": "でます",
+      "kanji": "出ます",
+      "kanji_refs": [
+        "k-出"
+      ],
+      "legacy_id": "lesson46_3",
+      "lesson": 46,
+      "meaning_vi": "xuất phát, chạy [xe buýt ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-14-019",
+        "mn-16-009",
+        "mn-23-006",
+        "mn-32-013",
+        "mn-40-009"
+      ],
+      "senses": [
+        {
+          "context": "xe buýt ～",
+          "text": "xuất phát, chạy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-004-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{国|くに}から{荷物|にもつ}が[[{届|とど}きました]]。",
+          "source": "ai-draft",
+          "vi": "Hành lý từ quê đã được gửi đến."
+        }
+      ],
+      "han_viet": "GIỚI",
+      "id": "mn-46-004",
+      "kana": "とどきます",
+      "kanji": "届きます",
+      "kanji_refs": [
+        "k-届"
+      ],
+      "legacy_id": "lesson46_4",
+      "lesson": 46,
+      "meaning_vi": "được gởi đến, được chuyển đến [hành lý ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "hành lý ～",
+          "text": "được gởi đến, được chuyển đến"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-005-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{来年|らいねん}{大学|だいがく}に[[{入学|にゅうがく}します]]。",
+          "source": "ai-draft",
+          "vi": "Năm sau tôi nhập học đại học."
+        }
+      ],
+      "han_viet": "NHẬP HỌC",
+      "id": "mn-46-005",
+      "kana": "にゅうがくします",
+      "kanji": "入学します",
+      "kanji_refs": [
+        "k-入",
+        "k-学"
+      ],
+      "legacy_id": "lesson46_5",
+      "lesson": 46,
+      "meaning_vi": "nhập học, vào [(trường) đại học]",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "(trường) đại học",
+          "text": "nhập học, vào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-006-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{去年|きょねん}{大学|だいがく}を[[{卒業|そつぎょう}しました]]。",
+          "source": "ai-draft",
+          "vi": "Năm ngoái tôi đã tốt nghiệp đại học."
+        }
+      ],
+      "han_viet": "TỐT NGHIỆP",
+      "id": "mn-46-006",
+      "kana": "そつぎょうします",
+      "kanji": "卒業します",
+      "kanji_refs": [
+        "k-卒",
+        "k-業"
+      ],
+      "legacy_id": "lesson46_6",
+      "lesson": 46,
+      "meaning_vi": "tốt nghiệp [(trường) đại học]",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "(trường) đại học",
+          "text": "tốt nghiệp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-007-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{今|いま}{肉|にく}を[[{焼|や}いて]]いるところです。",
+          "source": "ai-draft",
+          "vi": "Bây giờ tôi đang nướng thịt."
+        }
+      ],
+      "han_viet": "THIÊU",
+      "id": "mn-46-007",
+      "kana": "やきます",
+      "kanji": "焼きます",
+      "kanji_refs": [
+        "k-焼"
+      ],
+      "legacy_id": "lesson46_7",
+      "lesson": 46,
+      "meaning_vi": "nướng, rán",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nướng, rán"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-008-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "パンが[[{焼|や}けました]]。",
+          "source": "ai-draft",
+          "vi": "Bánh mì đã nướng xong."
+        }
+      ],
+      "han_viet": "THIÊU",
+      "id": "mn-46-008",
+      "kana": "やけます",
+      "kanji": "焼けます",
+      "kanji_refs": [
+        "k-焼"
+      ],
+      "legacy_id": "lesson46_8",
+      "lesson": 46,
+      "meaning_vi": "được nướng [bánh mì ～],[thịt ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "bánh mì ～, thịt ～",
+          "text": "được nướng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-009-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{友達|ともだち}の{家|いえ}に{行|い}きましたが、[[{留守|るす}]]でした。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đến nhà bạn nhưng bạn đi vắng."
+        }
+      ],
+      "han_viet": "LƯU THỦ",
+      "id": "mn-46-009",
+      "kana": "るす",
+      "kanji": "留守",
+      "kanji_refs": [
+        "k-留",
+        "k-守"
+      ],
+      "legacy_id": "lesson46_9",
+      "lesson": 46,
+      "meaning_vi": "đi vắng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đi vắng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-010-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "[[{宅配便|たくはいびん}]]で{荷物|にもつ}を{送|おく}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã gửi hành lý bằng dịch vụ chuyển phát."
+        }
+      ],
+      "han_viet": "TRẠCH PHỐI TIỆN",
+      "id": "mn-46-010",
+      "kana": "たくはいびん",
+      "kanji": "宅配便",
+      "kanji_refs": [
+        "k-宅",
+        "k-配",
+        "k-便"
+      ],
+      "legacy_id": "lesson46_10",
+      "lesson": 46,
+      "meaning_vi": "dịch vụ chuyển đồ đến nhà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dịch vụ chuyển đồ đến nhà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-011-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{事故|じこ}の[[{原因|げんいん}]]はまだ{分|わ}かりません。",
+          "source": "ai-draft",
+          "vi": "Nguyên nhân vụ tai nạn vẫn chưa rõ."
+        }
+      ],
+      "han_viet": "NGUYÊN NHÂN",
+      "id": "mn-46-011",
+      "kana": "げんいん",
+      "kanji": "原因",
+      "kanji_refs": [
+        "k-原",
+        "k-因"
+      ],
+      "legacy_id": "lesson46_11",
+      "lesson": 46,
+      "meaning_vi": "nguyên nhân",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-280"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "nguyên nhân"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-46-012-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "[[こちら]]は{今|いま}{雨|あめ}が{降|ふ}っています。",
+          "source": "ai-draft",
+          "vi": "Ở đây bây giờ trời đang mưa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-46-012",
+      "kana": "こちら",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson46_12",
+      "lesson": 46,
+      "meaning_vi": "đây, đằng này",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-03-005"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "đây, đằng này"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-013-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "{駅|えき}[[の{所|ところ}]]で{待|ま}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang chờ ở chỗ nhà ga."
+        }
+      ],
+      "han_viet": "SỞ",
+      "id": "mn-46-013",
+      "kana": "～のところ",
+      "kanji": "～の所",
+      "kanji_refs": [
+        "k-所"
+      ],
+      "legacy_id": "lesson46_13",
+      "lesson": 46,
+      "meaning_vi": "quanh ～, xung quanh ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quanh ～, xung quanh ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-014-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "[[{半年|はんとし}]]{前|まえ}に{日本|にほん}へ{来|き}たばかりです。",
+          "source": "ai-draft",
+          "vi": "Tôi vừa mới đến Nhật nửa năm trước."
+        }
+      ],
+      "han_viet": "BÁN NIÊN",
+      "id": "mn-46-014",
+      "kana": "はんとし",
+      "kanji": "半年",
+      "kanji_refs": [
+        "k-半",
+        "k-年"
+      ],
+      "legacy_id": "lesson46_14",
+      "lesson": 46,
+      "meaning_vi": "nửa năm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nửa năm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-46-015-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "[[{丁度|ちょうど}]]{今|いま}{電話|でんわ}しようと{思|おも}っていたところです。",
+          "source": "ai-draft",
+          "vi": "Đúng lúc tôi đang định gọi điện."
+        }
+      ],
+      "han_viet": "ĐINH ĐỘ",
+      "id": "mn-46-015",
+      "kana": "ちょうど",
+      "kanji": "丁度",
+      "kanji_refs": [
+        "k-丁",
+        "k-度"
+      ],
+      "legacy_id": "lesson46_15",
+      "lesson": 46,
+      "meaning_vi": "vừa đúng",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vừa đúng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-46-016-e1",
+          "max_lesson": 46,
+          "review": "user",
+          "ruby": "[[たった{今|いま}]]{帰|かえ}って{来|き}たところです。",
+          "source": "ai-draft",
+          "vi": "Tôi vừa mới về."
+        }
+      ],
+      "han_viet": "KIM",
+      "id": "mn-46-016",
+      "kana": "たったいま",
+      "kanji": "たった今",
+      "kanji_refs": [
+        "k-今"
+      ],
+      "legacy_id": "lesson46_16",
+      "lesson": 46,
+      "meaning_vi": "vừa mới rồi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vừa mới rồi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [],
+      "han_viet": null,
+      "id": "mn-46-017",
+      "kana": "いまいいですか。",
+      "kanji": "今いいですか。",
+      "kanji_refs": [
+        "k-今"
+      ],
+      "legacy_id": "lesson46_17",
+      "lesson": 46,
+      "meaning_vi": "Bây giờ nói chuyện có được không ạ?",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": "ai-draft",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "ai",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Bây giờ nói chuyện có được không ạ?"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 46,
+  "schema_version": 4
+}

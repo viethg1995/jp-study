@@ -1,0 +1,173 @@
+[
+  {
+    "id": "lesson15_1",
+    "jp": "おきます",
+    "kanji": "置きます",
+    "kanji_vn": "TRÍ",
+    "vn": "đặt, để",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson15_2",
+    "jp": "つくります",
+    "kanji": "作ります, 造ります",
+    "kanji_vn": "TÁC, TẠO",
+    "vn": "làm, chế tạo, sản xuất",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson15_3",
+    "jp": "うります",
+    "kanji": "売ります",
+    "kanji_vn": "MẠI",
+    "vn": "bán",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson15_4",
+    "jp": "しります",
+    "kanji": "知ります",
+    "kanji_vn": "TRI",
+    "vn": "biết",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson15_5",
+    "jp": "すみます",
+    "kanji": "住みます",
+    "kanji_vn": "TRÚ, TRỤ",
+    "vn": "sống, ở",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson15_6",
+    "jp": "けんきゅうします",
+    "kanji": "研究します",
+    "kanji_vn": "NGHIÊN CỬU",
+    "vn": "nghiên cứu",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson15_7",
+    "jp": "しりょう",
+    "kanji": "資料",
+    "kanji_vn": "TƯ LIỆU",
+    "vn": "tài liệu, tư liệu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_8",
+    "jp": "カタログ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ca-ta-lô",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson15_9",
+    "jp": "じこくひょう",
+    "kanji": "時刻表",
+    "kanji_vn": "THỜI KHẮC BIỂU",
+    "vn": "bảng giờ tàu chạy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_10",
+    "jp": "ふく",
+    "kanji": "服",
+    "kanji_vn": "PHỤC",
+    "vn": "quần áo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_11",
+    "jp": "せいひん",
+    "kanji": "製品",
+    "kanji_vn": "CHẾ PHẨM",
+    "vn": "sản phẩm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_12",
+    "jp": "ソフト",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phần mềm",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson15_13",
+    "jp": "でんしじしょ",
+    "kanji": "電子辞書",
+    "kanji_vn": "ĐIỆN TỪ TỪ ĐIỂN",
+    "vn": "kim từ điển",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_14",
+    "jp": "けいざい",
+    "kanji": "経済",
+    "kanji_vn": "KINH TẾ",
+    "vn": "kinh tế",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_15",
+    "jp": "しやくしょ",
+    "kanji": "市役所",
+    "kanji_vn": "THỊ DỊCH SỞ",
+    "vn": "tòa thị chính",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_16",
+    "jp": "こうこう",
+    "kanji": "高校",
+    "kanji_vn": "CAO HIỆU",
+    "vn": "trường trung học phổ thông, trường cấp 3",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_17",
+    "jp": "はいしゃ",
+    "kanji": "歯医者",
+    "kanji_vn": "XỈ Y GIẢ",
+    "vn": "nha sĩ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_18",
+    "jp": "どくしん",
+    "kanji": "独身",
+    "kanji_vn": "ĐỘC THÂN",
+    "vn": "độc thân",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson15_19",
+    "jp": "すみません",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "xin lỗi",
+    "type": "Thán từ",
+    "type_code": "Int"
+  }
+]

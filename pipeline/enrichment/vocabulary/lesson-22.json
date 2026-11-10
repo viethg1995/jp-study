@@ -1,0 +1,313 @@
+{
+  "mn-22-001": {
+    "examples": [
+      {
+        "id": "mn-22-001-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{着物|きもの}を[[{着|き}て]]いる{人|ひと}は{誰|だれ}ですか。",
+        "source": "ai-draft",
+        "vi": "Người đang mặc kimono là ai?"
+      }
+    ],
+    "pos_code": "V2",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "着ます = 着る (nhất đoạn); nguồn ghi V3 vì nhầm với 来ます",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-002": {
+    "examples": [
+      {
+        "id": "mn-22-002-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{赤|あか}い{靴|くつ}を[[{履|は}いて]]いる{人|ひと}は{妹|いもうと}です。",
+        "source": "ai-draft",
+        "vi": "Người đang đi đôi giày đỏ là em gái tôi."
+      }
+    ],
+    "han_viet": "LÝ",
+    "han_viet_source": "user",
+    "kanji": "履きます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "mặc quần, đi giày",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-003": {
+    "examples": [
+      {
+        "id": "mn-22-003-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{帽子|ぼうし}を[[{被|かぶ}って]]いる{人|ひと}はミラーさんです。",
+        "source": "ai-draft",
+        "vi": "Người đang đội mũ là anh Miller."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-004": {
+    "examples": [
+      {
+        "id": "mn-22-004-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{眼鏡|めがね}を[[{掛|か}けて]]いる{人|ひと}は{誰|だれ}ですか。",
+        "source": "ai-draft",
+        "vi": "Người đang đeo kính là ai?"
+      }
+    ],
+    "han_viet": "QUẢI",
+    "han_viet_source": "user",
+    "kanji": "掛けます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "đeo kính",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-005": {
+    "examples": [
+      {
+        "id": "mn-22-005-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "ネクタイを[[して]]いる{人|ひと}は{課長|かちょう}です。",
+        "source": "ai-draft",
+        "vi": "Người đang đeo cà vạt là tổ trưởng."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "する thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-006": {
+    "examples": [
+      {
+        "id": "mn-22-006-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "これは{私|わたし}が[[{生|う}まれた]]{町|まち}です。",
+        "source": "ai-draft",
+        "vi": "Đây là thị trấn nơi tôi sinh ra."
+      }
+    ]
+  },
+  "mn-22-007": {
+    "examples": [
+      {
+        "id": "mn-22-007-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "これは[[{私|わたし}たち]]が{住|す}んでいる{家|うち}です。",
+        "source": "ai-draft",
+        "vi": "Đây là ngôi nhà chúng tôi đang sống."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-008": {
+    "examples": [
+      {
+        "id": "mn-22-008-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{黒|くろ}い[[コート]]を{着|き}ている{人|ひと}は{誰|だれ}ですか。",
+        "source": "ai-draft",
+        "vi": "Người mặc áo khoác đen là ai?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "コート: PN→N (JMdict: danh từ thông dụng (coat))",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-009": {
+    "examples": [
+      {
+        "id": "mn-22-009-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{母|はは}が{作|つく}った[[セーター]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là cái áo len mẹ đan."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "セーター: PN→N (JMdict: danh từ thông dụng (sweater; jumper))",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-010": {
+    "examples": [
+      {
+        "id": "mn-22-010-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "[[スーツ]]を{着|き}ている{人|ひと}は{課長|かちょう}です。",
+        "source": "ai-draft",
+        "vi": "Người mặc com-lê là tổ trưởng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "スーツ: PN→N (JMdict: danh từ thông dụng (suit (clothing)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-011": {
+    "examples": [
+      {
+        "id": "mn-22-011-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{黒|くろ}い[[{帽子|ぼうし}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua cái mũ màu đen."
+      }
+    ]
+  },
+  "mn-22-012": {
+    "examples": [
+      {
+        "id": "mn-22-012-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "[[{眼鏡|めがね}]]をなくしました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã làm mất kính."
+      }
+    ]
+  },
+  "mn-22-013": {
+    "examples": [
+      {
+        "id": "mn-22-013-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "これは{妹|いもうと}が{作|つく}った[[ケーキ]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là cái bánh em gái tôi làm."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ケーキ: PN→N (JMdict: danh từ thông dụng (cake))",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-014": {
+    "examples": [
+      {
+        "id": "mn-22-014-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{母|はは}が{作|つく}った[[お{弁当|べんとう}]]を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn cơm hộp mẹ làm."
+      }
+    ]
+  },
+  "mn-22-015": {
+    "examples": [
+      {
+        "id": "mn-22-015-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "これは{日本|にほん}で{作|つく}った[[ロボット]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là con rô-bốt được làm ở Nhật."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ロボット: PN→N (JMdict: danh từ thông dụng (robot))",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-016": {
+    "examples": [
+      {
+        "id": "mn-22-016-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "[[ユーモア]]がある{人|ひと}が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích người có khiếu hài hước."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ユーモア: PN→N (JMdict: danh từ thông dụng (humor; humour))",
+      "status": "reviewed"
+    }
+  },
+  "mn-22-017": {
+    "examples": [
+      {
+        "id": "mn-22-017-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{明日|あした}は[[{都合|つごう}]]が{悪|わる}いです。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi không tiện."
+      }
+    ]
+  },
+  "mn-22-018": {
+    "examples": [
+      {
+        "id": "mn-22-018-e1",
+        "max_lesson": 22,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{良|よ}く]]この{店|みせ}で{買|か}い{物|もの}をします。",
+        "source": "ai-draft",
+        "vi": "Tôi hay mua sắm ở cửa hàng này."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  }
+}

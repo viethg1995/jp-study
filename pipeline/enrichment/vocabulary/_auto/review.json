@@ -1,0 +1,3153 @@
+[
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-01-001",
+    "jp": "わたし",
+    "kanji": "私",
+    "kanji_gloss": "I; me",
+    "type_code": "Pro",
+    "vn": "tôi"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-01-002",
+    "jp": "あなた",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "you",
+        "kanji": "貴方"
+      },
+      {
+        "gloss": "beyond; across",
+        "kanji": "彼方"
+      }
+    ],
+    "type_code": "Pro",
+    "vn": "anh/ chị/ ông/ bà"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-01-005",
+    "jp": "～さん",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "Mt.; Mount",
+        "kanji": "山"
+      },
+      {
+        "gloss": "(giving) birth; childbirth",
+        "kanji": "産"
+      }
+    ],
+    "type_code": "Suf",
+    "vn": "anh, chị, ông, bà (hậu tố thêm vào sau tên)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "誰": []
+    },
+    "id": "mn-01-018",
+    "jp": "だれ",
+    "kanji": "誰",
+    "kanji_gloss": "who",
+    "type_code": "QP",
+    "vn": "ai"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-01-019",
+    "jp": "どなた",
+    "kanji": "何方",
+    "kanji_gloss": "who",
+    "type_code": "QP",
+    "vn": "vị nào (cách nói lịch sự của だれ)"
+  },
+  {
+    "flags": [
+      "han_viet_ambiguous",
+      "pos_verify"
+    ],
+    "han_viet_candidates": {
+      "韓": []
+    },
+    "id": "mn-01-035",
+    "jp": "かんこく",
+    "kanji": "韓国",
+    "type_code": "PN",
+    "vn": "Hàn Quốc"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-02-001",
+    "jp": "これ",
+    "kanji": "此れ",
+    "kanji_gloss": "this; this one",
+    "type_code": "Pro",
+    "vn": "cái này, đây (vật ở gần người nói)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-02-002",
+    "jp": "それ",
+    "kanji": "其れ",
+    "kanji_gloss": "that; it",
+    "type_code": "Pro",
+    "vn": "cái đó, đó (vật ở gần người nghe)"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-02-003",
+    "jp": "あれ",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "that; that thing",
+        "kanji": "彼"
+      },
+      {
+        "gloss": "I; me",
+        "kanji": "我"
+      }
+    ],
+    "type_code": "Pro",
+    "vn": "cái kia, kia (vật ở xa cả người nói và người nghe)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-02-005",
+    "jp": "その～",
+    "kanji": "其の",
+    "kanji_gloss": "that; the",
+    "type_code": "Conv",
+    "vn": "~ đó"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "鍵": []
+    },
+    "id": "mn-02-018",
+    "jp": "かぎ",
+    "kanji": "鍵",
+    "kanji_gloss": "key",
+    "type_code": "N",
+    "vn": "chìa khóa"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "鞄": []
+    },
+    "id": "mn-02-021",
+    "jp": "かばん",
+    "kanji": "鞄",
+    "kanji_gloss": "bag; satchel",
+    "type_code": "N",
+    "vn": "cặp sách, túi sách"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "椅": []
+    },
+    "id": "mn-02-029",
+    "jp": "いす",
+    "kanji": "椅子",
+    "kanji_gloss": "chair; seat",
+    "type_code": "N",
+    "vn": "cái ghế"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-02-037",
+    "jp": "そう",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "left and right; right and left",
+        "kanji": "左右"
+      },
+      {
+        "gloss": "surname; family name",
+        "kanji": "姓"
+      },
+      {
+        "gloss": "monk; priest",
+        "kanji": "僧"
+      },
+      {
+        "gloss": "pair",
+        "kanji": "双"
+      },
+      {
+        "gloss": "mourning",
+        "kanji": "喪"
+      }
+    ],
+    "type_code": "N",
+    "vn": "đúng rồi"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "処": []
+    },
+    "id": "mn-03-001",
+    "jp": "ここ",
+    "kanji": "此処",
+    "kanji_gloss": "here; this place",
+    "type_code": "Pro",
+    "vn": "chỗ này, đây"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "処": []
+    },
+    "id": "mn-03-002",
+    "jp": "そこ",
+    "kanji": "其処",
+    "kanji_gloss": "there (place relatively near listener)",
+    "type_code": "Pro",
+    "vn": "chỗ đó, đó"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "処": []
+    },
+    "id": "mn-03-003",
+    "jp": "あそこ",
+    "kanji": "彼処",
+    "kanji_gloss": "there; over there",
+    "type_code": "Pro",
+    "vn": "chỗ kia, kia"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "処": []
+    },
+    "id": "mn-03-004",
+    "jp": "どこ",
+    "kanji": "何処",
+    "kanji_gloss": "where; what place",
+    "type_code": "Pro",
+    "vn": "chỗ nào, đâu"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-03-005",
+    "jp": "こちら",
+    "kanji": "此方",
+    "kanji_gloss": "this way; this direction",
+    "type_code": "Pro",
+    "vn": "phía này, đằng này, chỗ này, đây"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-03-006",
+    "jp": "そちら",
+    "kanji": "其方",
+    "kanji_gloss": "that way; that direction",
+    "type_code": "Pro",
+    "vn": "phía đó, đằng đó, chỗ đó, đó"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-03-007",
+    "jp": "あちら",
+    "kanji": "彼方",
+    "kanji_gloss": "that way; that direction",
+    "type_code": "Pro",
+    "vn": "phía kia, đằng kia, chỗ kia, kia"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-03-008",
+    "jp": "どちら",
+    "kanji": "何方",
+    "kanji_gloss": "which way; which direction",
+    "type_code": "QP",
+    "vn": "phía nào, đằng nào, chỗ nào, đâu"
+  },
+  {
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "販": []
+    },
+    "id": "mn-03-020",
+    "jp": "じどうはんばいき",
+    "kanji": "自動販売機",
+    "type_code": "N",
+    "vn": "máy bán hàng tự động"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-03-024",
+    "jp": "うち",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "one's house; one's home",
+        "kanji": "家"
+      },
+      {
+        "gloss": "inside; within",
+        "kanji": "内"
+      }
+    ],
+    "type_code": "N",
+    "vn": "nhà"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "幾": []
+    },
+    "id": "mn-03-033",
+    "jp": "いくら",
+    "kanji": "幾ら",
+    "kanji_gloss": "how much",
+    "type_code": "QW",
+    "vn": "bao nhiêu tiền"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "昨": []
+    },
+    "id": "mn-04-023",
+    "jp": "おととい",
+    "kanji": "一昨日",
+    "kanji_gloss": "day before yesterday",
+    "type_code": "N",
+    "vn": "hôm kia"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-04-024",
+    "jp": "きのう",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "function; facility",
+        "kanji": "機能"
+      },
+      {
+        "gloss": "yesterday",
+        "kanji": "昨日"
+      }
+    ],
+    "type_code": "N",
+    "vn": "hôm qua"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-04-025",
+    "jp": "きょう",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "imperial capital (esp. Kyoto)",
+        "kanji": "京"
+      },
+      {
+        "gloss": "Lord; Sir",
+        "kanji": "卿"
+      },
+      {
+        "gloss": "border; boundary",
+        "kanji": "境"
+      },
+      {
+        "gloss": "interest; entertainment",
+        "kanji": "興"
+      },
+      {
+        "gloss": "today; this day",
+        "kanji": "今日"
+      }
+    ],
+    "type_code": "N",
+    "vn": "hôm nay"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-04-026",
+    "jp": "あした",
+    "kanji": "明日",
+    "kanji_gloss": "tomorrow",
+    "type_code": "N",
+    "vn": "ngày mai"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-04-027",
+    "jp": "あさって",
+    "kanji": "明後日",
+    "kanji_gloss": "day after tomorrow",
+    "type_code": "N",
+    "vn": "ngày kia"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-04-028",
+    "jp": "けさ",
+    "kanji": "今朝",
+    "kanji_gloss": "this morning",
+    "type_code": "N",
+    "vn": "sáng nay"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-04-046",
+    "jp": "～から",
+    "kanji": "辛",
+    "kanji_gloss": "counter for spiciness of food (e.g. curry)",
+    "type_code": "Suf",
+    "vn": "~ từ"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-04-048",
+    "jp": "～と",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "person",
+        "kanji": "人"
+      },
+      {
+        "gloss": "Metropolis (of Tokyo); (Tokyo) Metropolitan District",
+        "kanji": "都"
+      }
+    ],
+    "type_code": "Suf",
+    "vn": "~ và (dùng để nối hai danh từ)"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-05-029",
+    "jp": "ことし",
+    "kanji": "今年",
+    "kanji_gloss": "this year",
+    "type_code": "N",
+    "vn": "năm nay"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-05-050",
+    "jp": "いつ",
+    "kanji": "何時",
+    "kanji_gloss": "when; at what time",
+    "type_code": "QP",
+    "vn": "bao giờ, khi nào"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "為": []
+    },
+    "id": "mn-06-010",
+    "jp": "します",
+    "kanji": "為します",
+    "kanji_gloss": "to do; to carry out",
+    "type_code": "V3",
+    "vn": "làm"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-06-012",
+    "jp": "ごはん",
+    "kanji": "ご飯",
+    "kanji_gloss": "cooked rice",
+    "type_code": "N",
+    "vn": "cơm, bữa ăn"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-06-029",
+    "jp": "たばこ",
+    "kanji": "煙草",
+    "kanji_gloss": "tobacco; cigarette",
+    "type_code": "N",
+    "vn": "thuốc lá"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "緒": []
+    },
+    "id": "mn-06-041",
+    "jp": "いっしょに",
+    "kanji": "一緒に",
+    "kanji_gloss": "together (with)",
+    "type_code": "Adv",
+    "vn": "cùng, cùng nhau"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-06-042",
+    "jp": "ちょっと",
+    "kanji": "一寸",
+    "kanji_gloss": "a little; a bit",
+    "type_code": "Adv",
+    "vn": "một chút"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-06-043",
+    "jp": "いつも",
+    "kanji": "何時も",
+    "kanji_gloss": "always; all the time",
+    "type_code": "Adv",
+    "vn": "luôn luôn, lúc nào cũng"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-07-003",
+    "jp": "あげます",
+    "kanji": "上げます",
+    "kanji_gloss": "to raise; to elevate",
+    "type_code": "V2",
+    "vn": "cho, tặng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-07-004",
+    "jp": "もらいます",
+    "kanji": "貰います",
+    "kanji_gloss": "to receive; to take",
+    "type_code": "V1",
+    "vn": "nhận"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-07-011",
+    "jp": "はし",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "bridge",
+        "kanji": "橋"
+      },
+      {
+        "gloss": "chopsticks",
+        "kanji": "箸"
+      },
+      {
+        "gloss": "beak; bill",
+        "kanji": "嘴"
+      },
+      {
+        "gloss": "end (e.g. of street); tip",
+        "kanji": "端"
+      }
+    ],
+    "type_code": "N",
+    "vn": "đũa"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "鋏": []
+    },
+    "id": "mn-07-015",
+    "jp": "はさみ",
+    "kanji": "鋏",
+    "kanji_gloss": "scissors; shears",
+    "type_code": "N",
+    "vn": "kéo"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-07-037",
+    "jp": "まだ",
+    "kanji": "未だ",
+    "kanji_gloss": "still; as yet",
+    "type_code": "Adv",
+    "vn": "chưa"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "綺": []
+    },
+    "id": "mn-08-002",
+    "jp": "きれい",
+    "kanji": "綺麗",
+    "kanji_gloss": "pretty; lovely",
+    "type_code": "An",
+    "vn": "đẹp, sạch"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "賑": []
+    },
+    "id": "mn-08-004",
+    "jp": "にぎやか",
+    "kanji": "賑やか",
+    "kanji_gloss": "bustling; busy",
+    "type_code": "An",
+    "vn": "náo nhiệt"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-08-010",
+    "jp": "すてき",
+    "kanji": "素敵",
+    "kanji_gloss": "lovely; wonderful",
+    "type_code": "An",
+    "vn": "đẹp, hay"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "面": []
+    },
+    "id": "mn-08-025",
+    "jp": "おもしろい",
+    "kanji": "面白い",
+    "kanji_gloss": "interesting; fascinating",
+    "type_code": "Ai",
+    "vn": "thú vị, hay"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-08-026",
+    "jp": "おいしい",
+    "kanji": "美味しい",
+    "kanji_gloss": "good(-tasting); nice",
+    "type_code": "Ai",
+    "vn": "ngon"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-08-042",
+    "jp": "どう",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "how; in what way",
+        "kanji": "如何"
+      },
+      {
+        "gloss": "motion",
+        "kanji": "動"
+      },
+      {
+        "gloss": "temple; shrine",
+        "kanji": "堂"
+      },
+      {
+        "gloss": "trunk; torso",
+        "kanji": "胴"
+      },
+      {
+        "gloss": "copper (Cu)",
+        "kanji": "銅"
+      }
+    ],
+    "type_code": "QP",
+    "vn": "thế nào"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "迚": []
+    },
+    "id": "mn-08-044",
+    "jp": "とても",
+    "kanji": "迚も",
+    "kanji_gloss": "very; awfully",
+    "type_code": "Adv",
+    "vn": "rất, lắm"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-08-045",
+    "jp": "あまり",
+    "kanji": "余り",
+    "kanji_gloss": "remainder; remnant",
+    "type_code": "Adv",
+    "vn": "không ~ lắm"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "而": []
+    },
+    "id": "mn-08-046",
+    "jp": "そして",
+    "kanji": "而して",
+    "kanji_gloss": "and; and then",
+    "type_code": "Conj",
+    "vn": "và, thêm nữa (dùng để nối 2 câu)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-09-001",
+    "jp": "わかります",
+    "kanji": "分かります",
+    "kanji_gloss": "to understand; to comprehend",
+    "type_code": "V1",
+    "vn": "hiểu, nắm được"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "仮": []
+    },
+    "id": "mn-09-023",
+    "jp": "ひらがな",
+    "kanji": "平仮名",
+    "kanji_gloss": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words, inflections, etc.)",
+    "type_code": "N",
+    "vn": "chữ Hiragana"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "仮": []
+    },
+    "id": "mn-09-024",
+    "jp": "かたかな",
+    "kanji": "片仮名",
+    "kanji_gloss": "katakana; angular Japanese syllabary used primarily for loanwords",
+    "type_code": "N",
+    "vn": "Chữ Katakana"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-09-037",
+    "jp": "よく",
+    "kanji": "良く",
+    "kanji_gloss": "nicely; properly",
+    "type_code": "Adv",
+    "vn": "tốt, rõ (chỉ mức độ)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-09-038",
+    "jp": "だいたい",
+    "kanji": "大体",
+    "kanji_gloss": "generally; on the whole",
+    "type_code": "Adv",
+    "vn": "đại khái, đại thể"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "沢": []
+    },
+    "id": "mn-09-039",
+    "jp": "たくさん",
+    "kanji": "沢山",
+    "kanji_gloss": "a lot; lots",
+    "type_code": "Adv",
+    "vn": "nhiều"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-09-043",
+    "jp": "～から",
+    "kanji": "辛",
+    "kanji_gloss": "counter for spiciness of food (e.g. curry)",
+    "type_code": "Suf",
+    "vn": "vì ~"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-10-002",
+    "jp": "います",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to shoot (arrow, bolt, dart)",
+        "kanji": "射ます"
+      },
+      {
+        "gloss": "to be (of animate objects); to exist",
+        "kanji": "居ます"
+      },
+      {
+        "gloss": "to cast; to mint",
+        "kanji": "鋳ます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "có, ở (tồn tại, dùng cho người và động vật)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-10-003",
+    "jp": "いろいろ",
+    "kanji": "色々",
+    "kanji_gloss": "various; a variety of",
+    "type_code": "An",
+    "vn": "nhiều, đa dạng"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-10-035",
+    "jp": "うしろ",
+    "kanji": "後ろ",
+    "kanji_gloss": "back; behind",
+    "type_code": "N",
+    "vn": "sau"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-10-043",
+    "jp": "～や～ ~",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "shop; store",
+        "kanji": "屋"
+      },
+      {
+        "gloss": "counter for nights",
+        "kanji": "夜"
+      }
+    ],
+    "type_code": "Suf",
+    "vn": "~và ~, [v.v.]"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-11-001",
+    "jp": "います",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to shoot (arrow, bolt, dart)",
+        "kanji": "射ます"
+      },
+      {
+        "gloss": "to be (of animate objects); to exist",
+        "kanji": "居ます"
+      },
+      {
+        "gloss": "to cast; to mint",
+        "kanji": "鋳ます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "có [con]"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-11-002",
+    "jp": "います",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to shoot (arrow, bolt, dart)",
+        "kanji": "射ます"
+      },
+      {
+        "gloss": "to be (of animate objects); to exist",
+        "kanji": "居ます"
+      },
+      {
+        "gloss": "to cast; to mint",
+        "kanji": "鋳ます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "ở [Nhật]"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-11-003",
+    "jp": "かかります",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to take (a resource, e.g. time or money)",
+        "kanji": "掛かります"
+      },
+      {
+        "gloss": "to contract (a disease); to suffer from",
+        "kanji": "罹ります"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "mất, tốn (thời gian, tiền bạc)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "幾": []
+    },
+    "id": "mn-11-015",
+    "jp": "いくつ",
+    "kanji": "幾つ",
+    "kanji_gloss": "how many",
+    "type_code": "QW",
+    "vn": "mấy cái, bao nhiêu cái"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "檎": []
+    },
+    "id": "mn-11-022",
+    "jp": "りんご",
+    "kanji": "林檎",
+    "kanji_gloss": "apple (fruit)",
+    "type_code": "N",
+    "vn": "táo"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "柑": [
+        "CAM",
+        "CÙM"
+      ]
+    },
+    "id": "mn-11-023",
+    "jp": "みかん",
+    "kanji": "蜜柑",
+    "kanji_gloss": "mandarin (esp. the satsuma mandarin (Citrus unshiu)); mandarin orange",
+    "type_code": "N",
+    "vn": "quýt"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-11-028",
+    "jp": "はがき",
+    "kanji": "葉書",
+    "kanji_gloss": "postcard",
+    "type_code": "N",
+    "vn": "bưu thiếp"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-11-047",
+    "jp": "～ぐらい",
+    "kanji": "位",
+    "kanji_gloss": "approximately; about",
+    "type_code": "Suf",
+    "vn": "khoảng ~"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-11-048",
+    "jp": "どのくらい",
+    "kanji": "どの位",
+    "kanji_gloss": "how long; how far",
+    "type_code": "QW",
+    "vn": "bao lâu"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-11-050",
+    "jp": "みんな",
+    "kanji": "皆",
+    "kanji_gloss": "everyone; everybody",
+    "type_code": "Pro",
+    "vn": "tất cả"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "岳": []
+    },
+    "id": "mn-11-051",
+    "jp": "～だけ",
+    "kanji": "岳",
+    "kanji_gloss": "(high) mountain; Mount",
+    "type_code": "Suf",
+    "vn": "chỉ ~"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-12-032",
+    "jp": "すし",
+    "kanji": "寿司",
+    "kanji_gloss": "sushi; range of dishes made with vinegared rice combined with fish, vegetables, egg, etc.",
+    "type_code": "N",
+    "vn": "Sushi"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-12-033",
+    "jp": "てんぷら",
+    "kanji": "天ぷら",
+    "kanji_gloss": "tempura; deep-fried fish and vegetables in a light batter",
+    "type_code": "N",
+    "vn": "Tempura (món hải sản và rau chiên tẩm bột)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-12-040",
+    "jp": "どちら",
+    "kanji": "何方",
+    "kanji_gloss": "which way; which direction",
+    "type_code": "QP",
+    "vn": "cái nào"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-12-042",
+    "jp": "いちばん",
+    "kanji": "一番",
+    "kanji_gloss": "number one; first",
+    "type_code": "Adv",
+    "vn": "nhất"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-13-020",
+    "jp": "～ごろ",
+    "kanji": "頃",
+    "kanji_gloss": "(approximate) time; around",
+    "type_code": "Suf",
+    "vn": "khoảng ~ (dùng cho thời gian)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "処": []
+    },
+    "id": "mn-13-022",
+    "jp": "どこか",
+    "kanji": "何処か",
+    "kanji_gloss": "somewhere",
+    "type_code": "N",
+    "vn": "đâu đó, chỗ nào đó"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-14-001",
+    "jp": "つけます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to soak (in); to steep",
+        "kanji": "漬けます"
+      },
+      {
+        "gloss": "to attach; to join",
+        "kanji": "付けます"
+      },
+      {
+        "gloss": "to turn on; to switch on",
+        "kanji": "点けます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "bật (điện, máy điều hòa)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-14-034",
+    "jp": "まっすぐ",
+    "kanji": "真っ直ぐ",
+    "kanji_gloss": "straight (ahead); direct",
+    "type_code": "N",
+    "vn": "thẳng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-14-036",
+    "jp": "すぐ",
+    "kanji": "直ぐ",
+    "kanji_gloss": "immediately; at once",
+    "type_code": "Adv",
+    "vn": "ngay, lập tức"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-14-037",
+    "jp": "また",
+    "kanji": "又",
+    "kanji_gloss": "again; once more",
+    "type_code": "Conj",
+    "vn": "lại (~đến)"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-14-038",
+    "jp": "あとで",
+    "kanji": "後で",
+    "kanji_gloss": "later (on); afterwards",
+    "type_code": "Adv",
+    "vn": "sau"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-15-019",
+    "jp": "すみません",
+    "kanji": "済みません",
+    "kanji_gloss": "excuse me; pardon me",
+    "type_code": "Int",
+    "vn": "xin lỗi"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-16-029",
+    "jp": "おなか",
+    "kanji": "お腹",
+    "kanji_gloss": "belly; abdomen",
+    "type_code": "N",
+    "vn": "bụng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-16-041",
+    "jp": "どれ",
+    "kanji": "何れ",
+    "kanji_gloss": "which (of three or more)",
+    "type_code": "QP",
+    "vn": "cái nào~ (dùng với trường hợp ba cái hoặc nhiều hơn)"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-17-023",
+    "jp": "ふろ",
+    "kanji": "風呂",
+    "kanji_gloss": "bath; bathing",
+    "type_code": "N",
+    "vn": "bồn tắm"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-18-001",
+    "jp": "できます",
+    "kanji": "出来ます",
+    "kanji_gloss": "to be able to do; to be possible",
+    "type_code": "V2",
+    "vn": "có thể"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-19-005",
+    "jp": "なります",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to become; to get",
+        "kanji": "成ります"
+      },
+      {
+        "gloss": "to sound; to ring",
+        "kanji": "鳴ります"
+      },
+      {
+        "gloss": "to bear fruit",
+        "kanji": "生ります"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "trở thành, trở nên"
+  },
+  {
+    "flags": [
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "相": [
+        "TƯỚNG",
+        "TƯƠNG"
+      ]
+    },
+    "id": "mn-19-010",
+    "jp": "すもう",
+    "kanji": "相撲",
+    "type_code": "N",
+    "vn": "vật Sumo"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-19-016",
+    "jp": "だんだん",
+    "kanji": "段々",
+    "kanji_gloss": "gradually; by degrees",
+    "type_code": "N",
+    "vn": "dần dần"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-19-017",
+    "jp": "もうすぐ",
+    "kanji": "もう直ぐ",
+    "kanji_gloss": "soon; shortly",
+    "type_code": "Adv",
+    "vn": "sắp"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-19-018",
+    "jp": "おかげさまで",
+    "kanji": "お陰様で",
+    "kanji_gloss": "thankfully; fortunately",
+    "type_code": "Greet",
+    "vn": "nhờ ơn anh/ chị mà ~ ; Nhờ trời ~"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-20-007",
+    "jp": "うん",
+    "kanji": "運",
+    "kanji_gloss": "fortune; luck",
+    "type_code": "N",
+    "vn": "ừ (cách nói thân mật của 「はい」)"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-20-009",
+    "jp": "ことば",
+    "kanji": "言葉",
+    "kanji_gloss": "language; dialect",
+    "type_code": "N",
+    "vn": "từ, tiếng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-20-014",
+    "jp": "こっち",
+    "kanji": "此方",
+    "kanji_gloss": "this way; this direction",
+    "type_code": "Pro",
+    "vn": "phía này, chỗ này (cách nói thân mật của 「こちら」)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-20-015",
+    "jp": "そっち",
+    "kanji": "其方",
+    "kanji_gloss": "that way; that direction",
+    "type_code": "Pro",
+    "vn": "phía đó, chỗ đó (cách nói thân mật của 「そちら」)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-20-016",
+    "jp": "あっち",
+    "kanji": "彼方",
+    "kanji_gloss": "that way; that direction",
+    "type_code": "Pro",
+    "vn": "phía kia, chỗ kia (cách nói thân mật của 「あちら」)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-20-017",
+    "jp": "どっち",
+    "kanji": "何方",
+    "kanji_gloss": "which way; which direction",
+    "type_code": "Pro",
+    "vn": "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-21-008",
+    "jp": "やめます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to stop (an activity); to cease",
+        "kanji": "止めます"
+      },
+      {
+        "gloss": "to resign; to retire",
+        "kanji": "辞めます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "bỏ, thôi [việc công ty]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "駄": []
+    },
+    "id": "mn-21-011",
+    "jp": "むだ",
+    "kanji": "無駄",
+    "kanji_gloss": "futility; waste",
+    "type_code": "An",
+    "vn": "lãng phí, vô ích"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "凄": []
+    },
+    "id": "mn-21-013",
+    "jp": "すごい",
+    "kanji": "凄い",
+    "kanji_gloss": "terrible; dreadful",
+    "type_code": "Ai",
+    "vn": "ghê quá, giỏi quá"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-21-014",
+    "jp": "ほんとう",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "main island",
+        "kanji": "本島"
+      },
+      {
+        "gloss": "truth; reality",
+        "kanji": "本当"
+      }
+    ],
+    "type_code": "N",
+    "vn": "sự thật"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "嘘": []
+    },
+    "id": "mn-21-015",
+    "jp": "うそ",
+    "kanji": "嘘",
+    "kanji_gloss": "lie; fib",
+    "type_code": "N",
+    "vn": "giả dối, nói dối"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-21-032",
+    "jp": "たぶん",
+    "kanji": "多分",
+    "kanji_gloss": "probably; likely",
+    "type_code": "Adv",
+    "vn": "chắc, có thể"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-21-033",
+    "jp": "きっと",
+    "kanji": "屹度",
+    "kanji_gloss": "surely; undoubtedly",
+    "type_code": "Adv",
+    "vn": "chắc chắn, nhất định"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-22-002",
+    "jp": "はきます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to sweep; to brush",
+        "kanji": "掃きます"
+      },
+      {
+        "gloss": "to put on (lower-body clothing, e.g. pants, skirt, footwear); to wear",
+        "kanji": "履きます"
+      },
+      {
+        "gloss": "to vomit; to throw up",
+        "kanji": "吐きます"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "đi, mặc [giầy, quần âu, v.v.]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-22-003",
+    "jp": "かぶります",
+    "kanji": "被ります",
+    "kanji_gloss": "to put on (one's head); to wear",
+    "type_code": "V1",
+    "vn": "đội [mũ, v.v.]"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-22-004",
+    "jp": "かけます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to hang up (e.g. a coat, a picture on the wall); to let hang",
+        "kanji": "掛けます"
+      },
+      {
+        "gloss": "to run; to dash",
+        "kanji": "駆けます"
+      },
+      {
+        "gloss": "to chip; to be chipped",
+        "kanji": "欠けます"
+      },
+      {
+        "gloss": "to wager; to bet",
+        "kanji": "賭けます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "đeo [kính]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "為": []
+    },
+    "id": "mn-22-005",
+    "jp": "します",
+    "kanji": "為します",
+    "kanji_gloss": "to do; to carry out",
+    "type_code": "V3",
+    "vn": "đeo [cà vạt]"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-22-007",
+    "jp": "わたしたち",
+    "kanji": "私たち",
+    "kanji_gloss": "we; us",
+    "type_code": "N",
+    "vn": "chúng tôi, chúng ta"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-22-018",
+    "jp": "よく",
+    "kanji": "良く",
+    "kanji_gloss": "nicely; properly",
+    "type_code": "Adv",
+    "vn": "thường, hay"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-24-001",
+    "jp": "くれます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to give; to let (one) have",
+        "kanji": "呉れます"
+      },
+      {
+        "gloss": "to get dark; to grow dark",
+        "kanji": "暮れます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "cho, tặng (tôi)"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-25-008",
+    "jp": "もし",
+    "kanji": "模試",
+    "kanji_gloss": "mock exam; practice exam",
+    "type_code": "N",
+    "vn": "nếu [~ thì]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-26-005",
+    "jp": "やります",
+    "kanji": "遣ります",
+    "kanji_gloss": "to do; to undertake",
+    "type_code": "V1",
+    "vn": "làm"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-26-016",
+    "jp": "ごみ",
+    "kanji": "塵",
+    "kanji_gloss": "rubbish; trash",
+    "type_code": "N",
+    "vn": "rác"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "随": []
+    },
+    "id": "mn-26-021",
+    "jp": "ずいぶん",
+    "kanji": "随分",
+    "kanji_gloss": "very; extremely",
+    "type_code": "N",
+    "vn": "khá, tương đối"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-26-023",
+    "jp": "いつでも",
+    "kanji": "何時でも",
+    "kanji_gloss": "always; all the time",
+    "type_code": "Adv",
+    "vn": "lúc nào cũng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "処": []
+    },
+    "id": "mn-26-024",
+    "jp": "どこでも",
+    "kanji": "何処でも",
+    "kanji_gloss": "anywhere",
+    "type_code": "Adv",
+    "vn": "ở đâu cũng"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-28-003",
+    "jp": "かみます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to bite",
+        "kanji": "噛みます"
+      },
+      {
+        "gloss": "to blow (one's nose)",
+        "kanji": "擤みます"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "nhai"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "面": []
+    },
+    "id": "mn-28-007",
+    "jp": "まじめ",
+    "kanji": "真面目",
+    "kanji_gloss": "serious; earnest",
+    "type_code": "An",
+    "vn": "nghiêm túc, nghiêm chỉnh"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-28-039",
+    "jp": "しばらく",
+    "kanji": "暫く",
+    "kanji_gloss": "for a moment; for a minute",
+    "type_code": "Adv",
+    "vn": "một khoảng thời gian ngắn, một lúc, một lát"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "抵": []
+    },
+    "id": "mn-28-040",
+    "jp": "たいてい",
+    "kanji": "大抵",
+    "kanji_gloss": "mostly; ordinarily",
+    "type_code": "Adv",
+    "vn": "thường, thông thường"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-28-041",
+    "jp": "それに",
+    "kanji": "其れに",
+    "kanji_gloss": "besides; in addition",
+    "type_code": "Conj",
+    "vn": "thêm nữa là, thêm vào đó là"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-29-013",
+    "jp": "まちがえます",
+    "kanji": "間違えます",
+    "kanji_gloss": "to make a mistake (in); to commit an error",
+    "type_code": "V2",
+    "vn": "nhầm, sai"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-29-016",
+    "jp": "ふきます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to wipe; to dry",
+        "kanji": "拭きます"
+      },
+      {
+        "gloss": "to blow (of the wind)",
+        "kanji": "吹きます"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "lau, chùi"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "碗": []
+    },
+    "id": "mn-29-020",
+    "jp": "ちゃわん",
+    "kanji": "茶碗",
+    "kanji_gloss": "rice bowl; tea cup",
+    "type_code": "N",
+    "vn": "cái bát"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-30-001",
+    "jp": "はります",
+    "kanji": "張ります",
+    "kanji_gloss": "to stick; to paste",
+    "type_code": "V1",
+    "vn": "dán, dán lên"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-30-007",
+    "jp": "まとめます",
+    "kanji": "纏めます",
+    "kanji_gloss": "to collect; to put (it all) together",
+    "type_code": "V2",
+    "vn": "nhóm lại, tóm tắt"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-30-008",
+    "jp": "しまいます",
+    "kanji": "仕舞います",
+    "kanji_gloss": "to finish; to stop",
+    "type_code": "V1",
+    "vn": "cất vào, để vào"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-30-035",
+    "jp": "まだ",
+    "kanji": "未だ",
+    "kanji_gloss": "still; as yet",
+    "type_code": "Adv",
+    "vn": "chưa"
+  },
+  {
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "込": []
+    },
+    "id": "mn-31-005",
+    "jp": "もうしこみます",
+    "kanji": "申し込みます",
+    "type_code": "V1",
+    "vn": "đăng ký"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-31-020",
+    "jp": "かえり",
+    "kanji": "帰り",
+    "kanji_gloss": "return; coming back",
+    "type_code": "N",
+    "vn": "chiều về"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-31-027",
+    "jp": "のぞみ",
+    "kanji": "望み",
+    "kanji_gloss": "wish; desire",
+    "type_code": "N",
+    "vn": "tên của tàu Shinkansen"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-32-005",
+    "jp": "やみます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to cease; to stop",
+        "kanji": "止みます"
+      },
+      {
+        "gloss": "to fall ill",
+        "kanji": "病みます"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "tạnh, ngừng [mưa ~]"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-32-009",
+    "jp": "ひきます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to pull; to tug",
+        "kanji": "引きます"
+      },
+      {
+        "gloss": "to play (a stringed or keyboard instrument)",
+        "kanji": "弾きます"
+      },
+      {
+        "gloss": "to run over (with a vehicle); to knock down",
+        "kanji": "轢きます"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "bị [cảm]"
+  },
+  {
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "込": []
+    },
+    "id": "mn-32-011",
+    "jp": "こみます",
+    "kanji": "込みます",
+    "type_code": "V1",
+    "vn": "đông [đường]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-32-012",
+    "jp": "すきます",
+    "kanji": "空きます",
+    "kanji_gloss": "to become less crowded; to thin out",
+    "type_code": "V1",
+    "vn": "vắng [đường]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-32-016",
+    "jp": "おかしい",
+    "kanji": "可笑しい",
+    "kanji_gloss": "funny; amusing",
+    "type_code": "Ai",
+    "vn": "có vấn đề, không bình thường, buồn cười"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-32-017",
+    "jp": "うるさい",
+    "kanji": "煩い",
+    "kanji_gloss": "noisy; loud",
+    "type_code": "Ai",
+    "vn": "ồn ào, (âm thanh) to"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-32-019",
+    "jp": "やけど",
+    "kanji": "火傷",
+    "kanji_gloss": "burn; scald",
+    "type_code": "N",
+    "vn": "bỏng (～をします：bị bỏng)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "怪": []
+    },
+    "id": "mn-32-020",
+    "jp": "けが",
+    "kanji": "怪我",
+    "kanji_gloss": "injury; wound",
+    "type_code": "N",
+    "vn": "vết thương (～をします：bị thương)"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-32-021",
+    "jp": "せき",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "cough; coughing",
+        "kanji": "咳"
+      },
+      {
+        "gloss": "barrier; gate",
+        "kanji": "関"
+      },
+      {
+        "gloss": "seat",
+        "kanji": "席"
+      },
+      {
+        "gloss": "product",
+        "kanji": "積"
+      },
+      {
+        "gloss": "dam; weir",
+        "kanji": "堰"
+      }
+    ],
+    "type_code": "N",
+    "vn": "ho (～がでます：bị ho)"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-32-037",
+    "jp": "まえ",
+    "kanji": "前",
+    "kanji_gloss": "in front (of); before (e.g. a building)",
+    "type_code": "N",
+    "vn": "trước"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "諦": []
+    },
+    "id": "mn-33-003",
+    "jp": "あきらめます",
+    "kanji": "諦めます",
+    "kanji_gloss": "to give up; to abandon (hope, plans)",
+    "type_code": "V2",
+    "vn": "từ bỏ, đầu hàng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "駄": []
+    },
+    "id": "mn-33-014",
+    "jp": "だめ",
+    "kanji": "駄目",
+    "kanji_gloss": "no good; not serving its purpose",
+    "type_code": "An",
+    "vn": "hỏng, không được, không thể"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "幾": []
+    },
+    "id": "mn-33-036",
+    "jp": "いくら",
+    "kanji": "幾ら",
+    "kanji_gloss": "how much",
+    "type_code": "QW",
+    "vn": "[dù có] ~ bao nhiêu đi nữa"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-34-005",
+    "jp": "つけます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to soak (in); to steep",
+        "kanji": "漬けます"
+      },
+      {
+        "gloss": "to attach; to join",
+        "kanji": "付けます"
+      },
+      {
+        "gloss": "to turn on; to switch on",
+        "kanji": "点けます"
+      }
+    ],
+    "type_code": "V2",
+    "vn": "chấm [xì-dầu]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "醤": []
+    },
+    "id": "mn-34-022",
+    "jp": "しょうゆ",
+    "kanji": "醤油",
+    "kanji_gloss": "soy sauce; soya sauce",
+    "type_code": "N",
+    "vn": "xì dầu"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-34-025",
+    "jp": "～か～",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "acceptable; satisfactory",
+        "kanji": "可"
+      },
+      {
+        "gloss": "department (of a university or hospital)",
+        "kanji": "科"
+      },
+      {
+        "gloss": "lesson",
+        "kanji": "課"
+      }
+    ],
+    "type_code": "Suf",
+    "vn": "~hay ~"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "昨": []
+    },
+    "id": "mn-34-026",
+    "jp": "ゆうべ",
+    "kanji": "昨夜",
+    "kanji_gloss": "last night; yesterday evening",
+    "type_code": "N",
+    "vn": "tối qua, đêm qua"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-34-027",
+    "jp": "さっき",
+    "kanji": "先",
+    "kanji_gloss": "a short while ago; a moment ago",
+    "type_code": "Adv",
+    "vn": "vừa rồi, vừa lúc nãy"
+  },
+  {
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "咲": []
+    },
+    "id": "mn-35-001",
+    "jp": "さきます",
+    "kanji": "咲きます",
+    "type_code": "V1",
+    "vn": "nở [hoa ~]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "仮": []
+    },
+    "id": "mn-35-020",
+    "jp": "ふりがな",
+    "kanji": "振り仮名",
+    "kanji_gloss": "furigana; kana printed above or next to kanji to indicate pronunciation",
+    "type_code": "N",
+    "vn": "Furigana (chữ Kana biểu thị cách đọccủa Hán tự)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-35-025",
+    "jp": "ひも",
+    "kanji": "紐",
+    "kanji_gloss": "string; cord",
+    "type_code": "N",
+    "vn": "sợi dây"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-35-039",
+    "jp": "はる",
+    "kanji": "春",
+    "kanji_gloss": "spring; springtime",
+    "type_code": "N",
+    "vn": "hiệu làm đẹp giả định"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "id": "mn-36-001",
+    "jp": "あいます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to meet; to encounter",
+        "kanji": "会います"
+      },
+      {
+        "gloss": "to come together; to merge",
+        "kanji": "合います"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "gặp [tai nạn~]"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-36-014",
+    "jp": "このごろ",
+    "kanji": "この頃",
+    "kanji_gloss": "these days; nowadays",
+    "type_code": "N",
+    "vn": "gần đây, dạo này"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-36-015",
+    "jp": "やっと",
+    "kanji": "漸と",
+    "kanji_gloss": "at last; finally",
+    "type_code": "Adv",
+    "vn": "cuối cùng thì"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-36-016",
+    "jp": "かなり",
+    "kanji": "可也",
+    "kanji_gloss": "considerably; fairly",
+    "type_code": "N",
+    "vn": "khá, tương đối"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-36-020",
+    "jp": "できるだけ",
+    "kanji": "出来るだけ",
+    "kanji_gloss": "as much as one can; as much as possible",
+    "type_code": "N",
+    "vn": "cố gắng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "殆": []
+    },
+    "id": "mn-36-021",
+    "jp": "ほとんど",
+    "kanji": "殆ど",
+    "kanji_gloss": "almost; nearly",
+    "type_code": "N",
+    "vn": "hầu hết, hầu như"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-37-002",
+    "jp": "しかります",
+    "kanji": "叱ります",
+    "kanji_gloss": "to scold; to chide",
+    "type_code": "V1",
+    "vn": "mắng"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-37-007",
+    "jp": "とります",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to take (a photograph)",
+        "kanji": "撮ります"
+      },
+      {
+        "gloss": "to take; to pick up",
+        "kanji": "取ります"
+      },
+      {
+        "gloss": "to catch (a wild animal, fish, insect, baseball, etc.); to capture",
+        "kanji": "捕ります"
+      },
+      {
+        "gloss": "to adopt (a method, proposal, etc.); to take (a measure, course of action, etc.)",
+        "kanji": "採ります"
+      },
+      {
+        "gloss": "to take (trouble); to attend (to business)",
+        "kanji": "執ります"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "ăn trộm, lấy cắp"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "誰": []
+    },
+    "id": "mn-37-029",
+    "jp": "だれか",
+    "kanji": "誰か",
+    "kanji_gloss": "someone; somebody",
+    "type_code": "N",
+    "vn": "ai đó"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-38-009",
+    "jp": "つきます",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to take (seat, position, course, office, etc.); to assume",
+        "kanji": "就きます"
+      },
+      {
+        "gloss": "to arrive at; to reach",
+        "kanji": "着きます"
+      },
+      {
+        "gloss": "to be lit (of a lamp, burner, etc.); to catch fire",
+        "kanji": "点きます"
+      },
+      {
+        "gloss": "to breathe out; to breathe",
+        "kanji": "吐きます"
+      },
+      {
+        "gloss": "to prick; to stab",
+        "kanji": "突きます"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "nói dối"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-38-021",
+    "jp": "かな",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "money",
+        "kanji": "金"
+      },
+      {
+        "gloss": "kana; Japanese syllabaries (i.e. hiragana and katakana)",
+        "kanji": "仮名"
+      }
+    ],
+    "type_code": "N",
+    "vn": "chữ Kana"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "昨": []
+    },
+    "id": "mn-38-027",
+    "jp": "おととし",
+    "kanji": "一昨年",
+    "kanji_gloss": "year before last",
+    "type_code": "N",
+    "vn": "năm kia"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-39-005",
+    "jp": "びっくりします",
+    "kanji": "吃驚します",
+    "kanji_gloss": "to be surprised; to be amazed",
+    "type_code": "V3",
+    "vn": "ngạc nhiên, giật mình"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-39-008",
+    "jp": "けんかします",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "quarrel; brawl",
+        "kanji": "喧嘩します"
+      },
+      {
+        "gloss": "flower offering; floral tribute",
+        "kanji": "献花します"
+      }
+    ],
+    "type_code": "V3",
+    "vn": "cãi nhau"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "痩": []
+    },
+    "id": "mn-39-011",
+    "jp": "やせます",
+    "kanji": "痩せます",
+    "kanji_gloss": "to become thin; to lose weight",
+    "type_code": "V2",
+    "vn": "gầy đi, giảm cân"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "嬉": []
+    },
+    "id": "mn-39-017",
+    "jp": "うれしい",
+    "kanji": "嬉しい",
+    "kanji_gloss": "happy; glad",
+    "type_code": "Ai",
+    "vn": "vui, mừng"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-39-036",
+    "jp": "せっけん",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "soap",
+        "kanji": "石鹸"
+      },
+      {
+        "gloss": "(official) audience; interview",
+        "kanji": "接見"
+      },
+      {
+        "gloss": "sweeping (over, across); conquering",
+        "kanji": "席巻"
+      }
+    ],
+    "type_code": "N",
+    "vn": "xà phòng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-40-008",
+    "jp": "うまくいきます",
+    "kanji": "上手く行きます",
+    "kanji_gloss": "to go smoothly; to turn out well",
+    "type_code": "V1",
+    "vn": "tốt, thuận lợi"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-40-022",
+    "jp": "まちがい",
+    "kanji": "間違い",
+    "kanji_gloss": "mistake; error",
+    "type_code": "N",
+    "vn": "sai, lỗi"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-41-003",
+    "jp": "やります",
+    "kanji": "遣ります",
+    "kanji_gloss": "to do; to undertake",
+    "type_code": "V1",
+    "vn": "cho, tặng (dùng với người dưới hoặc bằng vai)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "愛": []
+    },
+    "id": "mn-41-007",
+    "jp": "かわいい",
+    "kanji": "可愛い",
+    "kanji_gloss": "cute; adorable",
+    "type_code": "Ai",
+    "vn": "xinh, đáng yêu"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "餌": []
+    },
+    "id": "mn-41-017",
+    "jp": "えさ",
+    "kanji": "餌",
+    "kanji_gloss": "(animal) feed; fodder",
+    "type_code": "N",
+    "vn": "đồ ăn cho động vật, mồi"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-41-018",
+    "jp": "おもちゃ",
+    "kanji": "玩具",
+    "kanji_gloss": "toy",
+    "type_code": "N",
+    "vn": "đồ chơi"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-41-019",
+    "jp": "えほん",
+    "kanji": "絵本",
+    "kanji_gloss": "picture book",
+    "type_code": "N",
+    "vn": "quyển truyện tranh"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-41-033",
+    "jp": "おじ",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "grandfather",
+        "kanji": "祖父"
+      },
+      {
+        "gloss": "uncle",
+        "kanji": "叔父"
+      }
+    ],
+    "type_code": "N",
+    "vn": "chú, cậu, bác (dùng với bản thân)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-41-034",
+    "jp": "おじさん",
+    "kanji": "伯父さん",
+    "kanji_gloss": "uncle",
+    "type_code": "N",
+    "vn": "chú, cậu, bác (dùng với người khác)"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-41-035",
+    "jp": "おば",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "grandmother",
+        "kanji": "祖母"
+      },
+      {
+        "gloss": "aunt",
+        "kanji": "叔母"
+      }
+    ],
+    "type_code": "N",
+    "vn": "cô, dì, bác (dùng với bản thân)"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-41-036",
+    "jp": "おばさん",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "aunt",
+        "kanji": "伯母さん"
+      },
+      {
+        "gloss": "old lady; ma'am",
+        "kanji": "小母さん"
+      }
+    ],
+    "type_code": "N",
+    "vn": "cô, dì, bác (dùng với người khác)"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-41-038",
+    "jp": "～さん",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "Mt.; Mount",
+        "kanji": "山"
+      },
+      {
+        "gloss": "(giving) birth; childbirth",
+        "kanji": "産"
+      }
+    ],
+    "type_code": "Suf",
+    "vn": "ông, bà (dùng sau tên nghề nghiệp, chức danh để biểu thị tính lịch sự)"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-42-023",
+    "jp": "やかん",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "night; nighttime",
+        "kanji": "夜間"
+      },
+      {
+        "gloss": "kettle",
+        "kanji": "薬缶"
+      }
+    ],
+    "type_code": "N",
+    "vn": "cái ấm nước"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-42-024",
+    "jp": "ふた",
+    "kanji": "蓋",
+    "kanji_gloss": "cover; lid",
+    "type_code": "N",
+    "vn": "cái nắp"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "敷": []
+    },
+    "id": "mn-42-029",
+    "jp": "ふろしき",
+    "kanji": "風呂敷",
+    "kanji_gloss": "furoshiki; wrapping cloth",
+    "type_code": "N",
+    "vn": "tấm vải để gói đồ"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-42-030",
+    "jp": "そろばん",
+    "kanji": "算盤",
+    "kanji_gloss": "abacus; soroban",
+    "type_code": "N",
+    "vn": "bàn tính"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-42-036",
+    "jp": "どのくらい",
+    "kanji": "どの位",
+    "kanji_gloss": "how long; how far",
+    "type_code": "QW",
+    "vn": "bao nhiêu"
+  },
+  {
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "増": []
+    },
+    "id": "mn-43-001",
+    "jp": "ふえます",
+    "kanji": "増えます",
+    "type_code": "V2",
+    "vn": "tăng, tăng lên [xuất khẩu ~]"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-43-006",
+    "jp": "とれます",
+    "kanji": "取れます",
+    "kanji_gloss": "to come off (of a button, handle, lid, etc.)",
+    "type_code": "V2",
+    "vn": "tuột [cái cúc bị ~]"
+  },
+  {
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "id": "mn-43-008",
+    "jp": "なくなります",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to die; to pass away",
+        "kanji": "亡くなります"
+      },
+      {
+        "gloss": "to be lost (e.g. luggage); to be missing",
+        "kanji": "無くなります"
+      }
+    ],
+    "type_code": "V1",
+    "vn": "mất, hết [xăng bị ~]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-43-012",
+    "jp": "うまい",
+    "kanji": "上手い",
+    "kanji_gloss": "skillful; skilful",
+    "type_code": "Ai",
+    "vn": "ngon"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-43-013",
+    "jp": "まずい",
+    "kanji": "不味い",
+    "kanji_gloss": "bad(-tasting); unpalatable",
+    "type_code": "Ai",
+    "vn": "dở"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-43-014",
+    "jp": "つまらない",
+    "kanji": "詰らない",
+    "kanji_gloss": "dull; uninteresting",
+    "type_code": "Ai",
+    "vn": "buồn tẻ, không hấp dẫn, không thú vị"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-44-005",
+    "jp": "ぬれます",
+    "kanji": "濡れます",
+    "kanji_gloss": "to get wet",
+    "type_code": "V2",
+    "vn": "ướt [áo sơ mi ~]"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-44-020",
+    "jp": "おかず",
+    "kanji": "お菜",
+    "kanji_gloss": "small dish (usu. one of several accompanying rice); side dish",
+    "type_code": "N",
+    "vn": "thức ăn"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-46-012",
+    "jp": "こちら",
+    "kanji": "此方",
+    "kanji_gloss": "this way; this direction",
+    "type_code": "Pro",
+    "vn": "đây, đằng này"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-46-015",
+    "jp": "ちょうど",
+    "kanji": "丁度",
+    "kanji_gloss": "exactly; precisely",
+    "type_code": "Adv",
+    "vn": "vừa đúng"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-47-008",
+    "jp": "ひどい",
+    "kanji": "酷い",
+    "kanji_gloss": "cruel; heartless",
+    "type_code": "Ai",
+    "vn": "tồi tệ, xấu"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "匂": []
+    },
+    "id": "mn-47-013",
+    "jp": "におい",
+    "kanji": "匂い",
+    "kanji_gloss": "smell; scent",
+    "type_code": "N",
+    "vn": "mùi"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet_candidates": {
+      "拶": [],
+      "挨": []
+    },
+    "id": "mn-49-011",
+    "jp": "あいさつ",
+    "kanji": "挨拶",
+    "kanji_gloss": "greeting; greetings",
+    "type_code": "N",
+    "vn": "chào hỏi (～をします：chào hỏi)"
+  },
+  {
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "id": "mn-49-016",
+    "jp": "たまに",
+    "kanji": "偶に",
+    "kanji_gloss": "occasionally; once in a while",
+    "type_code": "Adv",
+    "vn": "thỉnh thoảng (tần suất nhỏ hơn ときどき)"
+  },
+  {
+    "flags": [
+      "kanji_verify"
+    ],
+    "id": "mn-50-002",
+    "jp": "おります",
+    "kanji": "降ります",
+    "kanji_gloss": "to descend (e.g. a mountain); to go down",
+    "type_code": "V2",
+    "vn": "ở, có (khiêm nhường ngữ của います)"
+  }
+]

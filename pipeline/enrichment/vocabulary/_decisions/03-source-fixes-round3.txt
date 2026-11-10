@@ -1,0 +1,11 @@
+# by: user
+# Vòng 3 — sửa lỗi kanji_vn trong dữ liệu gốc (phát hiện qua báo cáo "chữ Hán nhiều âm") + 3 mục chờ duyệt
+# id | kanji | han_viet | ghi chú      ("-" = không có/để trống, "=" = giữ giá trị _auto)
+15-013|=|ĐIỆN TỬ TỪ THƯ|gốc ghi 子 = TỪ (sai); 辞書 đọc từng chữ là TỪ THƯ (TỪ ĐIỂN là 辞典)
+15-006|=|NGHIÊN CỨU|gốc ghi CỬU (sai)
+38-013|=|TIỂU|gốc ghi NHỎ (nghĩa tiếng Việt, không phải âm Hán)
+25-004|=|TÚC|gốc ghi ĐỦ (nghĩa tiếng Việt, không phải âm Hán)
+17-023|=|PHONG LỮ|thống nhất với 風呂敷 PHONG LỮ PHU
+31-005|=|-|込 là quốc tự, không có âm Hán-Việt
+32-011|=|-|込 là quốc tự, không có âm Hán-Việt
+35-001|=|TIẾU|咲 là dị thể của 笑

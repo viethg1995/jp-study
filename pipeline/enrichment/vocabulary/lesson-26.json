@@ -1,0 +1,460 @@
+{
+  "mn-26-001": {
+    "examples": [
+      {
+        "id": "mn-26-001-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{先生|せんせい}に[[{診|み}て]]もらいました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã được bác sĩ khám."
+      }
+    ]
+  },
+  "mn-26-002": {
+    "examples": [
+      {
+        "id": "mn-26-002-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{何|なに}を[[{探|さが}して]]いるんですか。",
+        "source": "ai-draft",
+        "vi": "Bạn đang tìm gì vậy?"
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "さがします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-003": {
+    "examples": [
+      {
+        "id": "mn-26-003-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "どうして{会議|かいぎ}に[[{遅|おく}れた]]んですか。",
+        "source": "ai-draft",
+        "vi": "Tại sao bạn đến họp muộn vậy?"
+      }
+    ]
+  },
+  "mn-26-004": {
+    "examples": [
+      {
+        "id": "mn-26-004-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "タクシーで{行|い}ったら、[[{間|ま}に{合|あ}います]]よ。",
+        "source": "ai-draft",
+        "vi": "Nếu đi taxi thì sẽ kịp đấy."
+      }
+    ]
+  },
+  "mn-26-005": {
+    "examples": [
+      {
+        "id": "mn-26-005-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{毎日|まいにち}{何|なに}を[[やって]]いるんですか。",
+        "source": "ai-draft",
+        "vi": "Mỗi ngày bạn làm gì vậy?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "やる thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-006": {
+    "examples": [
+      {
+        "id": "mn-26-006-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{道|みち}で{財布|さいふ}を[[{拾|ひろ}いました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nhặt được cái ví trên đường."
+      }
+    ]
+  },
+  "mn-26-007": {
+    "examples": [
+      {
+        "id": "mn-26-007-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{明日|あした}[[{連絡|れんらく}します]]。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi sẽ liên lạc."
+      }
+    ]
+  },
+  "mn-26-008": {
+    "examples": [
+      {
+        "id": "mn-26-008-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{気分|きぶん}がいい]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay tôi thấy khỏe."
+      }
+    ]
+  },
+  "mn-26-009": {
+    "examples": [
+      {
+        "id": "mn-26-009-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{気分|きぶん}が{悪|わる}い]]んです。",
+        "source": "ai-draft",
+        "vi": "Tôi thấy không khỏe."
+      }
+    ]
+  },
+  "mn-26-010": {
+    "examples": [
+      {
+        "id": "mn-26-010-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{子|こ}どもの[[{運動会|うんどうかい}]]はいつですか。",
+        "source": "ai-draft",
+        "vi": "Hội thao của con bạn là khi nào?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "うんどうかい: PN→N (JMdict: danh từ thông dụng (athletic meet (esp. at a school); sports day))",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-011": {
+    "examples": [
+      {
+        "id": "mn-26-011-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{盆踊|ぼんおど}り]]を{見|み}たことがありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng xem múa Bon chưa?"
+      }
+    ]
+  },
+  "mn-26-012": {
+    "examples": [
+      {
+        "id": "mn-26-012-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{公園|こうえん}で[[フリーマーケット]]があるんです。",
+        "source": "ai-draft",
+        "vi": "Ở công viên có chợ đồ cũ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "フリーマーケット: PN→N (JMdict: danh từ thông dụng (flea market))",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-013": {
+    "examples": [
+      {
+        "id": "mn-26-013-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "パーティーの[[{場所|ばしょ}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Địa điểm của bữa tiệc ở đâu?"
+      }
+    ]
+  },
+  "mn-26-014": {
+    "examples": [
+      {
+        "id": "mn-26-014-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[ボランティア]]に{参加|さんか}したいんですが。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn tham gia làm tình nguyện."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ボランティア: PN→N (JMdict: danh từ thông dụng (volunteer))",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-015": {
+    "examples": [
+      {
+        "id": "mn-26-015-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{財布|さいふ}]]をなくしたんです。",
+        "source": "ai-draft",
+        "vi": "Tôi bị mất ví."
+      }
+    ]
+  },
+  "mn-26-016": {
+    "examples": [
+      {
+        "id": "mn-26-016-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[ごみ]]はどこに{捨|す}てたらいいですか。",
+        "source": "ai-draft",
+        "vi": "Rác thì vứt ở đâu được?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "ごみ thường viết kana (塵 là ちり)",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-017": {
+    "examples": [
+      {
+        "id": "mn-26-017-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{国会議事堂|こっかいぎじどう}]]を{見学|けんがく}したいんですが。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn tham quan tòa nhà quốc hội."
+      }
+    ]
+  },
+  "mn-26-018": {
+    "examples": [
+      {
+        "id": "mn-26-018-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{平日|へいじつ}]]は{忙|いそが}しいです。",
+        "source": "ai-draft",
+        "vi": "Ngày thường tôi bận."
+      }
+    ]
+  },
+  "mn-26-019": {
+    "examples": [
+      {
+        "id": "mn-26-019-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{大阪|おおさか}[[{弁|べん}]]が{分|わ}かりますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có hiểu giọng Osaka không?"
+      }
+    ]
+  },
+  "mn-26-020": {
+    "examples": [
+      {
+        "id": "mn-26-020-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{今度|こんど}]]{一緒|いっしょ}に{食事|しょくじ}しませんか。",
+        "source": "ai-draft",
+        "vi": "Lần tới cùng đi ăn nhé?"
+      }
+    ]
+  },
+  "mn-26-021": {
+    "examples": [
+      {
+        "id": "mn-26-021-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{随分|ずいぶん}]]{上手|じょうず}になりましたね。",
+        "source": "ai-draft",
+        "vi": "Bạn đã giỏi lên khá nhiều nhỉ."
+      }
+    ],
+    "han_viet": "TÙY PHÂN",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-022": {
+    "examples": [
+      {
+        "id": "mn-26-022-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[{直接|ちょくせつ}]]{社長|しゃちょう}と{話|はな}したいんですが。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn nói chuyện trực tiếp với giám đốc."
+      }
+    ]
+  },
+  "mn-26-023": {
+    "examples": [
+      {
+        "id": "mn-26-023-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[いつでも]]{来|き}てください。",
+        "source": "ai-draft",
+        "vi": "Lúc nào cũng có thể đến."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-024": {
+    "examples": [
+      {
+        "id": "mn-26-024-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "この{本|ほん}は[[どこでも]]{売|う}っています。",
+        "source": "ai-draft",
+        "vi": "Cuốn sách này ở đâu cũng bán."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-025": {
+    "examples": [
+      {
+        "id": "mn-26-025-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "この{問題|もんだい}は[[だれでも]]{分|わ}かります。",
+        "source": "ai-draft",
+        "vi": "Câu hỏi này ai cũng hiểu."
+      }
+    ]
+  },
+  "mn-26-026": {
+    "examples": [
+      {
+        "id": "mn-26-026-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "{彼|かれ}は[[{何|なん}でも]]{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Anh ấy cái gì cũng ăn."
+      }
+    ]
+  },
+  "mn-26-027": {
+    "examples": [
+      {
+        "id": "mn-26-027-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[こんな]]{鞄|かばん}が{欲|ほ}しいんです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn có cái cặp như thế này."
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "こんな～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-028": {
+    "examples": [
+      {
+        "id": "mn-26-028-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[そんな]]{話|はなし}は{知|し}りませんでした。",
+        "source": "ai-draft",
+        "vi": "Tôi không biết chuyện như thế đó."
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "そんな～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-029": {
+    "examples": [
+      {
+        "id": "mn-26-029-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[あんな]]{車|くるま}に{乗|の}りたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn đi chiếc xe như thế kia."
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "あんな～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-26-030": {
+    "examples": [
+      {
+        "id": "mn-26-030-e1",
+        "max_lesson": 26,
+        "review": "user",
+        "ruby": "[[エドヤストア]]で{買|か}い{物|もの}をしました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua sắm ở cửa hàng Edoya."
+      }
+    ]
+  }
+}

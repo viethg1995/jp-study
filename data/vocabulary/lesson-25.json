@@ -1,0 +1,431 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-25-001-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "{良|よ}く[[{考|かんが}えて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy suy nghĩ kỹ."
+        }
+      ],
+      "han_viet": "KHẢO",
+      "id": "mn-25-001",
+      "kana": "かんがえます",
+      "kanji": "考えます",
+      "kanji_refs": [
+        "k-考"
+      ],
+      "legacy_id": "lesson25_1",
+      "lesson": 25,
+      "meaning_vi": "nghĩ, suy nghĩ",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghĩ, suy nghĩ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-25-002-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "{駅|えき}に[[{着|つ}いたら]]、{電話|でんわ}してください。",
+          "source": "ai-draft",
+          "vi": "Đến nhà ga rồi thì hãy gọi điện."
+        }
+      ],
+      "han_viet": "TRƯỚC",
+      "id": "mn-25-002",
+      "kana": "つきます",
+      "kanji": "着きます",
+      "kanji_refs": [
+        "k-着"
+      ],
+      "legacy_id": "lesson25_2",
+      "lesson": 25,
+      "meaning_vi": "đến",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đến"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-25-003-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "{年|とし}を[[{取|と}って]]も、{働|はたら}きたいです。",
+          "source": "ai-draft",
+          "vi": "Dù có già đi, tôi vẫn muốn làm việc."
+        }
+      ],
+      "han_viet": "THỦ",
+      "id": "mn-25-003",
+      "kana": "とります",
+      "kanji": "取ります",
+      "kanji_refs": [
+        "k-取"
+      ],
+      "legacy_id": "lesson25_3",
+      "lesson": 25,
+      "meaning_vi": "thêm [tuổi]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-14-008",
+        "mn-31-003"
+      ],
+      "senses": [
+        {
+          "context": "tuổi",
+          "text": "thêm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-25-004-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "お{金|かね}が[[{足|た}りなかったら]]、{貸|か}して{上|あ}げます。",
+          "source": "ai-draft",
+          "vi": "Nếu không đủ tiền thì tôi sẽ cho mượn."
+        }
+      ],
+      "han_viet": "TÚC",
+      "id": "mn-25-004",
+      "kana": "たります",
+      "kanji": "足ります",
+      "kanji_refs": [
+        "k-足"
+      ],
+      "legacy_id": "lesson25_4",
+      "lesson": 25,
+      "meaning_vi": "đủ",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đủ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-25-005-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "[[{田舎|いなか}]]に{住|す}みたいです。",
+          "source": "ai-draft",
+          "vi": "Tôi muốn sống ở quê."
+        }
+      ],
+      "han_viet": "ĐIỀN XÁ",
+      "id": "mn-25-005",
+      "kana": "いなか",
+      "kanji": "田舎",
+      "kanji_refs": [
+        "k-田",
+        "k-舎"
+      ],
+      "legacy_id": "lesson25_5",
+      "lesson": 25,
+      "meaning_vi": "quê, nông thôn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quê, nông thôn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-25-006-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "[[チャンス]]があったら、{日本|にほん}で{働|はたら}きたいです。",
+          "source": "ai-draft",
+          "vi": "Nếu có cơ hội, tôi muốn làm việc ở Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-25-006",
+      "kana": "チャンス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson25_6",
+      "lesson": 25,
+      "meaning_vi": "cơ hội",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cơ hội"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-25-007-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "１[[{億|おく}]]{円|えん}あったら、{何|なに}をしますか。",
+          "source": "ai-draft",
+          "vi": "Nếu có 100 triệu yên thì bạn sẽ làm gì?"
+        }
+      ],
+      "han_viet": "ỨC",
+      "id": "mn-25-007",
+      "kana": "おく",
+      "kanji": "億",
+      "kanji_refs": [
+        "k-億"
+      ],
+      "legacy_id": "lesson25_7",
+      "lesson": 25,
+      "meaning_vi": "một trăm triệu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "một trăm triệu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-25-008-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "[[もし]]{雨|あめ}が{降|ふ}ったら、{行|い}きません。",
+          "source": "ai-draft",
+          "vi": "Nếu trời mưa thì tôi không đi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-25-008",
+      "kana": "もし",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson25_8",
+      "lesson": 25,
+      "meaning_vi": "nếu [～ thì]",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "～ thì",
+          "text": "nếu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-25-009-e1",
+          "max_lesson": 25,
+          "review": "user",
+          "ruby": "この{言葉|ことば}の[[{意味|いみ}]]が{分|わ}かりません。",
+          "source": "ai-draft",
+          "vi": "Tôi không hiểu nghĩa của từ này."
+        }
+      ],
+      "han_viet": "Ý VỊ",
+      "id": "mn-25-009",
+      "kana": "いみ",
+      "kanji": "意味",
+      "kanji_refs": [
+        "k-意",
+        "k-味"
+      ],
+      "legacy_id": "lesson25_9",
+      "lesson": 25,
+      "meaning_vi": "nghĩa, ý nghĩa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghĩa, ý nghĩa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 25,
+  "schema_version": 4
+}

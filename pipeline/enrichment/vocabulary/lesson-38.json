@@ -1,0 +1,459 @@
+{
+  "mn-38-001": {
+    "examples": [
+      {
+        "id": "mn-38-001-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{私|わたし}も{旅行|りょこう}に[[{参加|さんか}します]]。",
+        "source": "ai-draft",
+        "vi": "Tôi cũng tham gia chuyến du lịch."
+      }
+    ]
+  },
+  "mn-38-002": {
+    "examples": [
+      {
+        "id": "mn-38-002-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{子|こ}どもを[[{育|そだ}てる]]のは{大変|たいへん}です。",
+        "source": "ai-draft",
+        "vi": "Nuôi con vất vả."
+      }
+    ]
+  },
+  "mn-38-003": {
+    "examples": [
+      {
+        "id": "mn-38-003-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{荷物|にもつ}を[[{運|はこ}ぶ]]のを{手伝|てつだ}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy giúp tôi chuyển đồ đạc."
+      }
+    ]
+  },
+  "mn-38-004": {
+    "examples": [
+      {
+        "id": "mn-38-004-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{父|ちち}は{先週|せんしゅう}[[{入院|にゅういん}しました]]。",
+        "source": "ai-draft",
+        "vi": "Bố tôi đã nhập viện tuần trước."
+      }
+    ]
+  },
+  "mn-38-005": {
+    "examples": [
+      {
+        "id": "mn-38-005-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{母|はは}は{明日|あした}[[{退院|たいいん}します]]。",
+        "source": "ai-draft",
+        "vi": "Mẹ tôi ngày mai sẽ xuất viện."
+      }
+    ]
+  },
+  "mn-38-006": {
+    "examples": [
+      {
+        "id": "mn-38-006-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{電源|でんげん}を[[{入|い}れる]]のを{忘|わす}れました。",
+        "source": "ai-draft",
+        "vi": "Tôi quên bật nguồn điện."
+      }
+    ]
+  },
+  "mn-38-007": {
+    "examples": [
+      {
+        "id": "mn-38-007-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{電気|でんき}を[[{切|き}る]]のを{忘|わす}れないでください。",
+        "source": "ai-draft",
+        "vi": "Đừng quên tắt điện."
+      }
+    ]
+  },
+  "mn-38-008": {
+    "examples": [
+      {
+        "id": "mn-38-008-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{鍵|かぎ}を[[{掛|か}ける]]のを{忘|わす}れました。",
+        "source": "ai-draft",
+        "vi": "Tôi quên khóa cửa."
+      }
+    ]
+  },
+  "mn-38-009": {
+    "examples": [
+      {
+        "id": "mn-38-009-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{嘘|うそ}を[[{吐|つ}く]]のはよくないです。",
+        "source": "ai-draft",
+        "vi": "Nói dối là không tốt."
+      }
+    ],
+    "han_viet": "THỔ",
+    "han_viet_source": "user",
+    "kanji": "吐きます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "うそをつく",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-010": {
+    "examples": [
+      {
+        "id": "mn-38-010-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{朝|あさ}{散歩|さんぽ}するのは[[{気持|きも}ちがいい]]です。",
+        "source": "ai-draft",
+        "vi": "Đi dạo buổi sáng rất dễ chịu."
+      }
+    ]
+  },
+  "mn-38-011": {
+    "examples": [
+      {
+        "id": "mn-38-011-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{船|ふね}に{乗|の}ると[[{気持|きも}ちが{悪|わる}く]]なります。",
+        "source": "ai-draft",
+        "vi": "Đi tàu thủy là tôi thấy khó chịu."
+      }
+    ]
+  },
+  "mn-38-012": {
+    "examples": [
+      {
+        "id": "mn-38-012-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{大|おお}きな]]{家|いえ}に{住|す}むのが{夢|ゆめ}です。",
+        "source": "ai-draft",
+        "vi": "Sống trong một ngôi nhà lớn là ước mơ của tôi."
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "おおきな～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-013": {
+    "examples": [
+      {
+        "id": "mn-38-013-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{小|ちい}さな]]{子|こ}どもを{育|そだ}てるのは{大変|たいへん}です。",
+        "source": "ai-draft",
+        "vi": "Nuôi con nhỏ thật vất vả."
+      }
+    ],
+    "han_viet": "TIỂU",
+    "han_viet_source": "user",
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "note": "gốc ghi NHỎ (nghĩa tiếng Việt, không phải âm Hán)",
+      "pos_by": "user",
+      "pos_note": "ちいさな～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-014": {
+    "examples": [
+      {
+        "id": "mn-38-014-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{赤|あか}ちゃん]]が{寝|ね}ています。",
+        "source": "ai-draft",
+        "vi": "Em bé đang ngủ."
+      }
+    ]
+  },
+  "mn-38-015": {
+    "examples": [
+      {
+        "id": "mn-38-015-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{弟|おとうと}は[[{小学校|しょうがっこう}]]に{通|かよ}っています。",
+        "source": "ai-draft",
+        "vi": "Em trai tôi đang học tiểu học."
+      }
+    ]
+  },
+  "mn-38-016": {
+    "examples": [
+      {
+        "id": "mn-38-016-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{妹|いもうと}は[[{中学校|ちゅうがっこう}]]で{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Em gái tôi đang học trung học cơ sở."
+      }
+    ]
+  },
+  "mn-38-017": {
+    "examples": [
+      {
+        "id": "mn-38-017-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{駅前|えきまえ}]]に{新|あたら}しい{店|みせ}ができました。",
+        "source": "ai-draft",
+        "vi": "Trước nhà ga đã mở một cửa hàng mới."
+      }
+    ]
+  },
+  "mn-38-018": {
+    "examples": [
+      {
+        "id": "mn-38-018-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{海岸|かいがん}]]を{散歩|さんぽ}するのが{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích đi dạo trên bờ biển."
+      }
+    ]
+  },
+  "mn-38-019": {
+    "examples": [
+      {
+        "id": "mn-38-019-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{父|ちち}は[[{工場|こうじょう}]]で{働|はたら}いています。",
+        "source": "ai-draft",
+        "vi": "Bố tôi làm việc ở nhà máy."
+      }
+    ]
+  },
+  "mn-38-020": {
+    "examples": [
+      {
+        "id": "mn-38-020-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{父|ちち}は{小|ちい}さい[[{村|むら}]]で{生|う}まれました。",
+        "source": "ai-draft",
+        "vi": "Bố tôi sinh ra ở một ngôi làng nhỏ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "むら: PN→N (JMdict: danh từ thông dụng (village))",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-021": {
+    "examples": [
+      {
+        "id": "mn-38-021-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{仮名|かな}]]で{書|か}いてください。",
+        "source": "ai-draft",
+        "vi": "Hãy viết bằng chữ Kana."
+      }
+    ],
+    "han_viet": "GIẢ DANH",
+    "han_viet_source": "user",
+    "kanji": "仮名",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-022": {
+    "examples": [
+      {
+        "id": "mn-38-022-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{指輪|ゆびわ}]]をなくしてしまいました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã làm mất nhẫn."
+      }
+    ]
+  },
+  "mn-38-023": {
+    "examples": [
+      {
+        "id": "mn-38-023-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{電源|でんげん}]]を{切|き}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy tắt nguồn điện."
+      }
+    ]
+  },
+  "mn-38-024": {
+    "examples": [
+      {
+        "id": "mn-38-024-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{朝|あさ}{運動|うんどう}するのが{私|わたし}の[[{習慣|しゅうかん}]]です。",
+        "source": "ai-draft",
+        "vi": "Vận động buổi sáng là thói quen của tôi."
+      }
+    ]
+  },
+  "mn-38-025": {
+    "examples": [
+      {
+        "id": "mn-38-025-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "{煙草|たばこ}は[[{健康|けんこう}]]に{悪|わる}いです。",
+        "source": "ai-draft",
+        "vi": "Thuốc lá có hại cho sức khỏe."
+      }
+    ]
+  },
+  "mn-38-026": {
+    "examples": [
+      {
+        "id": "mn-38-026-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "これは{日本|にほん}[[{製|せい}]]のカメラです。",
+        "source": "ai-draft",
+        "vi": "Đây là máy ảnh hàng Nhật."
+      }
+    ]
+  },
+  "mn-38-027": {
+    "examples": [
+      {
+        "id": "mn-38-027-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{一昨年|おととし}]]{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Năm kia tôi đến Nhật."
+      }
+    ],
+    "han_viet": "NHẤT TẠC NIÊN",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-029": {
+    "examples": [
+      {
+        "id": "mn-38-029-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[お{先|さき}に]]{失礼|しつれい}します。",
+        "source": "ai-draft",
+        "vi": "Tôi xin phép về trước."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "おさきに",
+    "kanji": "お先に",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-030": {
+    "examples": [
+      {
+        "id": "mn-38-030-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{原爆|げんばく}ドーム]]は{広島|ひろしま}にあります。",
+        "source": "ai-draft",
+        "vi": "Nhà vòm bom nguyên tử ở Hiroshima."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "げんばくドーム",
+    "kanji": "原爆ドーム",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-031": {
+    "examples": [
+      {
+        "id": "mn-38-031-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[{出雲大社|いずもたいしゃ}]]へ{行|い}ったことがありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng đến đền Izumo chưa?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "いずもたいしゃ",
+    "kanji": "出雲大社",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  },
+  "mn-38-032": {
+    "examples": [
+      {
+        "id": "mn-38-032-e1",
+        "max_lesson": 38,
+        "review": "user",
+        "ruby": "[[チェンマイ]]へ{行|い}くのを{楽|たの}しみにしています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang mong chờ được đi Chiang Mai."
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+---
+// Dropdown có ô tìm kiếm (thay <select> khi danh sách dài). Không biết tiếng Nhật — chỉ nhận nhãn + từ khóa.
+// Chọn một mục → cập nhật <input type="hidden" id={id}> rồi phát sự kiện "change" (bubbles) trên input đó,
+// nên trang chỉ cần nghe "change" như với <select>: đọc event.target.id / .value.
+// Tìm kiếm không phân biệt dấu tiếng Việt, khớp cả nhãn lẫn `keywords`. Bàn phím: ↑ ↓ Enter Esc.
+export interface ComboOption {
+  value: string;
+  label: string;
+  hint?: string; // chữ phụ bên phải (vd ます形), cũng được tìm
+  keywords?: string;
+}
+export interface ComboGroup {
+  title: string | null;
+  options: ComboOption[];
+}
+interface Props {
+  id: string;
+  label: string; // nhãn cho trình đọc màn hình
+  groups: ComboGroup[];
+  value?: string; // mục đang chọn; bỏ trống → hiện placeholder
+  placeholder?: string;
+  searchPlaceholder?: string;
+  class?: string; // độ rộng nút, vd "w-60"
+}
+const { id, label, groups, value = "", placeholder = "Chọn…", searchPlaceholder = "Tìm…", class: cls } = Astro.props;
+const selected = groups.flatMap((g) => g.options).find((o) => o.value === value);
+const listId = `${id}-list`;
+---
+
+<div class:list={["combo relative min-w-0", cls]} data-combo>
+  <input type="hidden" id={id} value={value} />
+  <button
+    type="button"
+    class="combo-trigger flex w-full items-center justify-between gap-2 rounded-md border border-line bg-surface px-3 py-1.5 text-left text-ink hover:border-primary-line focus-visible:outline-2 focus-visible:outline-primary"
+    aria-haspopup="listbox"
+    aria-expanded="false"
+    aria-label={label}
+  >
+    <span class="combo-text truncate" data-placeholder={placeholder}>{selected?.label ?? placeholder}</span>
+    <svg viewBox="0 0 16 16" class="size-4 shrink-0 text-ink-faint" aria-hidden="true">
+      <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <div class="combo-pop absolute top-[calc(100%+2px)] left-0 z-30 hidden w-full min-w-64 overflow-hidden rounded-md border border-line bg-surface">
+    <div class="border-b border-line p-2">
+      <input
+        type="text"
+        class="combo-search w-full rounded border border-line bg-canvas px-2.5 py-1.5 text-sm text-ink placeholder:text-ink-faint focus:border-primary-line focus:outline-none"
+        placeholder={searchPlaceholder}
+        role="combobox"
+        aria-expanded="true"
+        aria-controls={listId}
+        aria-autocomplete="list"
+        autocomplete="off"
+      />
+    </div>
+    <ul id={listId} class="combo-list max-h-72 overflow-y-auto py-1" role="listbox" aria-label={label}>
+      {
+        groups.map((g) => (
+          <>
+            {g.title && (
+              <li class="combo-group px-3 pt-2.5 pb-1 text-xs font-semibold text-ink-faint" role="presentation">
+                {g.title}
+              </li>
+            )}
+            {g.options.map((o) => (
+              <li
+                id={`${id}-opt-${o.value}`}
+                class="combo-opt flex cursor-pointer items-baseline justify-between gap-3 px-3 py-1.5 text-sm text-ink"
+                role="option"
+                aria-selected={o.value === value ? "true" : "false"}
+                data-value={o.value}
+                data-label={o.label}
+                data-search={`${o.label} ${o.hint ?? ""} ${o.keywords ?? ""}`}
+              >
+                <span>{o.label}</span>
+                {o.hint && <span class="jp text-xs text-ink-faint" lang="ja">{o.hint}</span>}
+              </li>
+            ))}
+          </>
+        ))
+      }
+      <li class="combo-empty hidden px-3 py-2 text-sm text-ink-faint" role="presentation">Không tìm thấy</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .combo-pop {
+    box-shadow: var(--shadow-popover);
+  }
+  .combo[data-open] .combo-pop {
+    display: block;
+  }
+  .combo-opt[data-active] {
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+  .combo-opt[aria-selected="true"] {
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+</style>
+
+<script>
+  // Bỏ dấu tiếng Việt + đ → d, chữ thường: "Thể khả năng" → "the kha nang"
+  const fold = (s: string): string =>
+    s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/gi, "d").toLowerCase();
+
+  for (const root of document.querySelectorAll<HTMLElement>("[data-combo]")) {
+    const hidden = root.querySelector<HTMLInputElement>('input[type="hidden"]')!;
+    const trigger = root.querySelector<HTMLButtonElement>(".combo-trigger")!;
+    const text = root.querySelector<HTMLElement>(".combo-text")!;
+    const search = root.querySelector<HTMLInputElement>(".combo-search")!;
+    const opts = [...root.querySelectorAll<HTMLElement>(".combo-opt")];
+    const groups = [...root.querySelectorAll<HTMLElement>(".combo-group")];
+    const empty = root.querySelector<HTMLElement>(".combo-empty")!;
+    const index = new Map(opts.map((o) => [o, fold(o.dataset.search ?? "")]));
+    let active: HTMLElement | null = null;
+
+    const visible = (): HTMLElement[] => opts.filter((o) => !o.hidden);
+    const setActive = (o: HTMLElement | null): void => {
+      active?.removeAttribute("data-active");
+      active = o;
+      if (o) {
+        o.setAttribute("data-active", "");
+        o.scrollIntoView({ block: "nearest" });
+        search.setAttribute("aria-activedescendant", o.id);
+      } else search.removeAttribute("aria-activedescendant");
+    };
+    const filter = (): void => {
+      const q = fold(search.value.trim());
+      for (const o of opts) o.hidden = q !== "" && !index.get(o)!.includes(q);
+      // ẩn tiêu đề nhóm không còn mục nào
+      for (const g of groups) {
+        let n = g.nextElementSibling as HTMLElement | null;
+        let any = false;
+        while (n && n.classList.contains("combo-opt")) {
+          if (!n.hidden) any = true;
+          n = n.nextElementSibling as HTMLElement | null;
+        }
+        g.hidden = !any;
+      }
+      empty.classList.toggle("hidden", visible().length > 0);
+      setActive(visible()[0] ?? null);
+    };
+    const open = (): void => {
+      root.setAttribute("data-open", "");
+      trigger.setAttribute("aria-expanded", "true");
+      search.value = "";
+      filter();
+      setActive(opts.find((o) => o.getAttribute("aria-selected") === "true") ?? visible()[0] ?? null);
+      search.focus();
+    };
+    const close = (refocus: boolean): void => {
+      root.removeAttribute("data-open");
+      trigger.setAttribute("aria-expanded", "false");
+      if (refocus) trigger.focus();
+    };
+    const choose = (o: HTMLElement): void => {
+      for (const x of opts) x.setAttribute("aria-selected", x === o ? "true" : "false");
+      text.textContent = o.dataset.label ?? "";
+      close(true);
+      hidden.value = o.dataset.value ?? "";
+      hidden.dispatchEvent(new Event("change", { bubbles: true }));
+    };
+
+    trigger.addEventListener("click", () => (root.hasAttribute("data-open") ? close(true) : open()));
+    trigger.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault();
+        open();
+      }
+    });
+    search.addEventListener("input", filter);
+    search.addEventListener("keydown", (e) => {
+      const list = visible();
+      const i = active ? list.indexOf(active) : -1;
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setActive(list[Math.min(i + 1, list.length - 1)] ?? null);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setActive(list[Math.max(i - 1, 0)] ?? null);
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (active) choose(active);
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        close(true);
+      } else if (e.key === "Tab") close(false);
+    });
+    for (const o of opts) {
+      o.addEventListener("mousemove", () => active !== o && setActive(o));
+      o.addEventListener("click", () => choose(o));
+    }
+    document.addEventListener("pointerdown", (e) => {
+      if (root.hasAttribute("data-open") && !root.contains(e.target as Node)) close(false);
+    });
+  }
+</script>

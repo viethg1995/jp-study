@@ -1,0 +1,489 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHAI",
+    "han_viet_source": "source",
+    "id": "mn-29-001",
+    "kanji": "開きます",
+    "kanji_refs": [
+      "k-開"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_1",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BẾ",
+    "han_viet_source": "source",
+    "id": "mn-29-002",
+    "kanji": "閉まります",
+    "kanji_refs": [
+      "k-閉"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_2",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "ĐIỆN KHÍ",
+    "han_viet_source": null,
+    "id": "mn-29-003",
+    "kanji": "つきます",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_3",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TIÊU",
+    "han_viet_original": "TIÊUĐIỆN KHÍ",
+    "han_viet_source": "derived",
+    "id": "mn-29-004",
+    "kanji": "消えます",
+    "kanji_refs": [
+      "k-消"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_4",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HOẠI",
+    "han_viet_source": "source",
+    "id": "mn-29-005",
+    "kanji": "壊れます",
+    "kanji_refs": [
+      "k-壊"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_5",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CÁT",
+    "han_viet_source": "source",
+    "id": "mn-29-006",
+    "kanji": "割れます",
+    "kanji_refs": [
+      "k-割"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_6",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TRIẾT",
+    "han_viet_original": "TRIẾTMỘC",
+    "han_viet_source": "derived",
+    "id": "mn-29-007",
+    "kanji": "折れます",
+    "kanji_refs": [
+      "k-折"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_7",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "PHÁ",
+    "han_viet_original": "PHÁCHỈ",
+    "han_viet_source": "unihan",
+    "id": "mn-29-008",
+    "kanji": "破れます",
+    "kanji_refs": [
+      "k-破"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_8",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "Ô",
+    "han_viet_original": "ÔPHỤC",
+    "han_viet_source": "derived",
+    "id": "mn-29-009",
+    "kanji": "汚れます",
+    "kanji_refs": [
+      "k-汚"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_9",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÓ",
+    "han_viet_source": "source",
+    "id": "mn-29-010",
+    "kanji": "付きます",
+    "kanji_refs": [
+      "k-付"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_10",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGOẠI",
+    "han_viet_source": "source",
+    "id": "mn-29-011",
+    "kanji": "外れます",
+    "kanji_refs": [
+      "k-外"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_11",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHỈ",
+    "han_viet_source": "source",
+    "id": "mn-29-012",
+    "kanji": "止まります",
+    "kanji_refs": [
+      "k-止"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_12",
+    "lesson": 29
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "GIAN VI",
+    "han_viet_source": "mixed",
+    "id": "mn-29-013",
+    "kanji": "間違えます",
+    "kanji_gloss": "to make a mistake (in); to commit an error",
+    "kanji_refs": [
+      "k-間",
+      "k-違"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson29_13",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "LẠC",
+    "han_viet_source": "source",
+    "id": "mn-29-014",
+    "kanji": "落とします",
+    "kanji_refs": [
+      "k-落"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_14",
+    "lesson": 29,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "QUẢI",
+    "han_viet_source": "source",
+    "id": "mn-29-015",
+    "kanji": "掛かります",
+    "kanji_refs": [
+      "k-掛"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_15",
+    "lesson": 29
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-29-016",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to wipe; to dry",
+        "kanji": "拭きます"
+      },
+      {
+        "gloss": "to blow (of the wind)",
+        "kanji": "吹きます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson29_16",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỦ HOÁN",
+    "han_viet_source": "source",
+    "id": "mn-29-017",
+    "kanji": "取り替えます",
+    "kanji_refs": [
+      "k-取",
+      "k-替"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_17",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHIẾN",
+    "han_viet_source": "source",
+    "id": "mn-29-018",
+    "kanji": "片づけます",
+    "kanji_refs": [
+      "k-片"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_18",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MÃNH",
+    "han_viet_source": "source",
+    "id": "mn-29-019",
+    "kanji": "皿",
+    "kanji_refs": [
+      "k-皿"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_19",
+    "lesson": 29
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "碗": []
+    },
+    "han_viet_source": null,
+    "id": "mn-29-020",
+    "kanji": "茶碗",
+    "kanji_gloss": "rice bowl; tea cup",
+    "kanji_refs": [
+      "k-茶",
+      "k-碗"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson29_20",
+    "lesson": 29
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-29-021",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson29_21",
+    "lesson": 29,
+    "pos_reason": "JMdict: danh từ thông dụng (glass (drinking vessel); tumbler)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-29-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson29_22",
+    "lesson": 29,
+    "pos_reason": "JMdict: danh từ thông dụng (glass; pane)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẠI",
+    "han_viet_source": "source",
+    "id": "mn-29-023",
+    "kanji": "袋",
+    "kanji_refs": [
+      "k-袋"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_23",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THƯ LOẠI",
+    "han_viet_source": "source",
+    "id": "mn-29-024",
+    "kanji": "書類",
+    "kanji_refs": [
+      "k-書",
+      "k-類"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_24",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHI",
+    "han_viet_source": "source",
+    "id": "mn-29-025",
+    "kanji": "枝",
+    "kanji_refs": [
+      "k-枝"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_25",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DỊCH VIÊN",
+    "han_viet_source": "source",
+    "id": "mn-29-026",
+    "kanji": "駅員",
+    "kanji_refs": [
+      "k-駅",
+      "k-員"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_26",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIAO PHIÊN",
+    "han_viet_source": "source",
+    "id": "mn-29-027",
+    "kanji": "交番",
+    "kanji_refs": [
+      "k-交",
+      "k-番"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_27",
+    "lesson": 29
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-29-028",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson29_28",
+    "lesson": 29,
+    "pos_reason": "JMdict: danh từ thông dụng (speech)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHẢN SỰ",
+    "han_viet_source": "source",
+    "id": "mn-29-029",
+    "kanji": "返事",
+    "kanji_refs": [
+      "k-返",
+      "k-事"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_29",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TIÊN",
+    "han_viet_source": "source",
+    "id": "mn-29-030",
+    "kanji": "お先にどうぞ。",
+    "kanji_refs": [
+      "k-先"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_30",
+    "lesson": 29
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGUYÊN THỊ VẬT NGỮ",
+    "han_viet_source": "source",
+    "id": "mn-29-031",
+    "kanji": "源氏物語",
+    "kanji_refs": [
+      "k-源",
+      "k-氏",
+      "k-物",
+      "k-語"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson29_31",
+    "lesson": 29
+  }
+]

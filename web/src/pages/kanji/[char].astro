@@ -1,0 +1,139 @@
+---
+// Trang một chữ Hán: chữ lớn, Hán-Việt, nghĩa, On/Kun, số nét, bộ thủ, bài học, cách viết (KanjiVG),
+// ví dụ chia Âm On / Âm Kun (từ giáo trình + JMdict), chữ trước/sau.
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import KanjiExamples, { type ExampleRow } from "../../components/kanji/KanjiExamples.astro";
+import KanjiMnemonic from "../../components/kanji/KanjiMnemonic.astro";
+import StrokeOrder from "../../components/kanji/StrokeOrder.astro";
+import type { KanjiComponent, KanjiEntry, KanjiStroke, Radical, VocabEntry } from "../../content.config";
+import Base from "../../layouts/Base.astro";
+import { kunDisplay } from "../../lib/kanji";
+
+export const getStaticPaths = (async () => {
+  const kanji = (await getCollection("kanji")).map((k) => k.data);
+  const strokes = new Map((await getCollection("strokes")).map((s) => [s.data.char, s.data]));
+  const radicals = new Map((await getCollection("radicals")).map((r) => [r.data.number, r.data]));
+  const vocab = new Map<string, VocabEntry>();
+  for (const l of [...(await getCollection("vocabulary")), ...(await getCollection("vocabularyN3"))]) {
+    for (const e of l.data.entries) vocab.set(e.id, e);
+  }
+  return kanji.map((k, i) => ({
+    params: { char: k.char },
+    props: {
+      k,
+      strokes: strokes.get(k.char)?.strokes ?? [],
+      components: strokes.get(k.char)?.components ?? [],
+      radical: k.radical !== null ? (radicals.get(k.radical) ?? null) : null,
+      words: k.vocab_refs.map((id) => vocab.get(id)).filter((e): e is VocabEntry => e !== undefined),
+      prev: kanji[i - 1] ?? null,
+      next: kanji[i + 1] ?? null,
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  k: KanjiEntry;
+  radical: Radical | null;
+  strokes: KanjiStroke[];
+  components: KanjiComponent[];
+  words: VocabEntry[];
+  prev: KanjiEntry | null;
+  next: KanjiEntry | null;
+}
+const { k, radical, strokes, components, words, prev, next } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const kanjiHref = (c: string): string => `${base}/kanji/${c}/`;
+const wordHref = (e: VocabEntry): string =>
+  e.book === "n3" ? `${base}/vocabulary/n3/${e.lesson}/#${e.id}` : `${base}/vocabulary/${e.lesson}/#${e.id}`;
+const byId = new Map(words.map((e) => [e.id, e]));
+const exampleRows: ExampleRow[] = k.examples.map((x) => {
+  const v = x.vocab_id ? byId.get(x.vocab_id) : undefined;
+  return {
+    ...x,
+    href: v ? wordHref(v) : null,
+    badge: v ? (v.book === "n3" ? `N3 · Bài ${v.lesson}` : `Bài ${v.lesson}`) : null,
+  };
+});
+
+const lessons = [
+  ...(k.n5_lesson !== null ? [`Kanji N5 bài ${k.n5_lesson}`] : []),
+  ...(k.n4_lesson !== null ? [`Kanji N4 bài ${k.n4_lesson}`] : []),
+  ...(k.n3_lesson !== null ? [`Kanji N3 bài ${k.n3_lesson}`] : []),
+  ...(k.first_lesson !== null ? [`Từ vựng Minna bài ${k.first_lesson}`] : []),
+];
+const rows: { label: string; value: string; jp?: boolean }[] = [
+  { label: "Âm On", value: k.on.join("、") || "—", jp: true },
+  { label: "Âm Kun", value: k.kun.map(kunDisplay).join("、") || "—", jp: true },
+  { label: "Số nét", value: k.strokes !== null ? String(k.strokes) : "—" },
+  ...(lessons.length ? [{ label: "Xuất hiện", value: lessons.join(" · ") }] : []),
+];
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+---
+
+<Base title={`${k.char} ${k.han_viet[0] ?? ""}`.trim()}>
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    {prev && <a href={kanjiHref(prev.char)} class={navLink}>← <span class="jp">{prev.char}</span></a>}
+    <a href={`${base}/kanji/`} class={navLink}>Danh sách</a>
+    {next && <a href={kanjiHref(next.char)} class={navLink}><span class="jp">{next.char}</span> →</a>}
+  </nav>
+
+  <article class="mx-auto max-w-6xl">
+    <div class="grid items-start gap-6 lg:grid-cols-[minmax(0,7fr)_minmax(0,6fr)]">
+    <div class="flex flex-col gap-6">
+    <header class="flex flex-col items-center gap-6 rounded-lg border border-line bg-surface p-6 sm:flex-row sm:items-start">
+      <div
+        class="jp flex size-36 shrink-0 items-center justify-center rounded-lg border border-line text-[96px] leading-none text-ink"
+        lang="ja"
+      >
+        {k.char}
+      </div>
+      <div class="w-full text-center sm:text-left">
+        <p class="text-2xl font-bold tracking-wider text-ink">{k.han_viet.join(" / ") || "—"}</p>
+        {k.meaning_vi && <p class="mt-1 text-lg text-ink">{k.meaning_vi}</p>}
+        {k.meanings_en.length > 0 && <p class="mt-1 text-sm text-ink-faint">{k.meanings_en.slice(0, 4).join("; ")}</p>}
+
+        <dl class="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-left text-sm">
+          {
+            rows.map((r) => (
+              <>
+                <dt class="text-ink-faint">{r.label}</dt>
+                <dd class:list={["text-ink", { jp: r.jp }]} lang={r.jp ? "ja" : undefined}>
+                  {r.value}
+                </dd>
+              </>
+            ))
+          }
+          {
+            radical && (
+              <>
+                <dt class="text-ink-faint">Bộ thủ</dt>
+                <dd class="text-ink">
+                  <a href={`${base}/kanji/bo-thu/${radical.number}/`} class="text-primary hover:underline">
+                    <span class="jp" lang="ja">{radical.char}</span> {radical.name_vi}
+                  </a>
+                  {radical.meaning_vi && <span class="text-ink-muted"> ({radical.meaning_vi})</span>}
+                  <span class="text-ink-faint"> · bộ số {radical.number}, {radical.strokes} nét</span>
+                </dd>
+              </>
+            )
+          }
+        </dl>
+      </div>
+    </header>
+
+    {(k.story || components.length > 0) && (
+      <KanjiMnemonic char={k.char} story={k.story} strokes={strokes} components={components} />
+    )}
+    </div>
+
+    {strokes.length > 0 && <StrokeOrder char={k.char} strokes={strokes} />}
+    </div>
+
+    {exampleRows.length > 0 && (
+      <div class="mt-8">
+        <KanjiExamples char={k.char} on={k.on} kun={k.kun} rows={exampleRows} />
+      </div>
+    )}
+  </article>
+</Base>

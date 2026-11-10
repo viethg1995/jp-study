@@ -1,0 +1,380 @@
+[
+  {
+    "id": "lesson32_1",
+    "jp": "うんどうします",
+    "kanji": "運動します",
+    "kanji_vn": "VẬN ĐỘNG",
+    "vn": "vận động, tập thể thao",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson32_2",
+    "jp": "せいこうします",
+    "kanji": "成功します",
+    "kanji_vn": "THÀNH CÔNG",
+    "vn": "thành công",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson32_3",
+    "jp": "しっぱいします",
+    "kanji": "失敗します",
+    "kanji_vn": "THẤT BẠITHÍ NGHIỆM",
+    "vn": "thất bại, trượt [thi~]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson32_4",
+    "jp": "ごうかくします",
+    "kanji": "合格します",
+    "kanji_vn": "HỢP CÁCHTHÍ NGHIỆM",
+    "vn": "đỗ [thi~]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson32_5",
+    "jp": "やみます",
+    "kanji": null,
+    "kanji_vn": "VŨ",
+    "vn": "tạnh, ngừng [mưa ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson32_6",
+    "jp": "はれます",
+    "kanji": "晴れます",
+    "kanji_vn": "TÌNH",
+    "vn": "nắng, quang đãng",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson32_7",
+    "jp": "くもります",
+    "kanji": "曇ります",
+    "kanji_vn": "ĐÀM",
+    "vn": "có mây, mây mù",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson32_8",
+    "jp": "つづきます",
+    "kanji": "続きます",
+    "kanji_vn": "TỤCNHIỆT",
+    "vn": "tiếp tục, tiếp diễn [sốt]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson32_9",
+    "jp": "ひきます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bị [cảm]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson32_10",
+    "jp": "ひやします",
+    "kanji": "冷やします",
+    "kanji_vn": "LÃNH",
+    "vn": "làm lạnh",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson32_11",
+    "jp": "こみます",
+    "kanji": "込みます",
+    "kanji_vn": "VÀOĐẠO",
+    "vn": "đông [đường]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson32_12",
+    "jp": "すきます",
+    "kanji": null,
+    "kanji_vn": "ĐẠO",
+    "vn": "vắng [đường]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson32_13",
+    "jp": "でます",
+    "kanji": "出ます",
+    "kanji_vn": "XUẤTTHÍ HỢP",
+    "vn": "tham gia [trận đấu]dự [tiệc]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson32_14",
+    "jp": "むりをします",
+    "kanji": "無理をします",
+    "kanji_vn": "VÔ LÍ",
+    "vn": "gắng sức",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson32_15",
+    "jp": "じゅうぶん",
+    "kanji": "十分",
+    "kanji_vn": "THẬP PHÂN",
+    "vn": "đủ",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson32_16",
+    "jp": "おかしい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "có vấn đề, không bình thường, buồn cười",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson32_17",
+    "jp": "うるさい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ồn ào, (âm thanh) to",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson32_18",
+    "jp": "せんせい",
+    "kanji": "先生",
+    "kanji_vn": "TIÊN SINH",
+    "vn": "bác sĩ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_19",
+    "jp": "やけど",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bỏng (～をします：bị bỏng)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_20",
+    "jp": "けが",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vết thương (～をします：bị thương)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_21",
+    "jp": "せき",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ho (～がでます：bị ho)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_22",
+    "jp": "インフルエンザ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cúm dịch",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson32_23",
+    "jp": "そら",
+    "kanji": "空",
+    "kanji_vn": "KHÔNG",
+    "vn": "bầu trời",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_24",
+    "jp": "たいよう",
+    "kanji": "太陽",
+    "kanji_vn": "THÁI DƯƠNG",
+    "vn": "mặt trời",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_25",
+    "jp": "ほし",
+    "kanji": "星",
+    "kanji_vn": "TINH",
+    "vn": "sao, ngôi sao",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_26",
+    "jp": "かぜ",
+    "kanji": "風",
+    "kanji_vn": "PHONG",
+    "vn": "gió",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_27",
+    "jp": "ひがし",
+    "kanji": "東",
+    "kanji_vn": "ĐÔNG",
+    "vn": "đông",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_28",
+    "jp": "にし",
+    "kanji": "西",
+    "kanji_vn": "TÂY",
+    "vn": "tây",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_29",
+    "jp": "みなみ",
+    "kanji": "南",
+    "kanji_vn": "NAM",
+    "vn": "nam",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_30",
+    "jp": "きた",
+    "kanji": "北",
+    "kanji_vn": "BẮC",
+    "vn": "bắc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_31",
+    "jp": "こくさい～",
+    "kanji": "国際～",
+    "kanji_vn": "QUỐC TẾ",
+    "vn": "~ quốc tế",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson32_32",
+    "jp": "すいどう",
+    "kanji": "水道",
+    "kanji_vn": "THỦY ĐẠO",
+    "vn": "nước máy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_33",
+    "jp": "エンジン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "động cơ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson32_34",
+    "jp": "チーム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đội",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson32_35",
+    "jp": "こんや",
+    "kanji": "今夜",
+    "kanji_vn": "KIM DẠ",
+    "vn": "tối nay, đêm nay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_36",
+    "jp": "ゆうがた",
+    "kanji": "夕方",
+    "kanji_vn": "TỊCH PHƯƠNG",
+    "vn": "chiều tối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_37",
+    "jp": "まえ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "trước",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_38",
+    "jp": "おそく",
+    "kanji": "遅く",
+    "kanji_vn": "TRÌ",
+    "vn": "muộn, khuya",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_39",
+    "jp": "こんなに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "như thế này",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_40",
+    "jp": "そんなに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "như thế đó (về vấn đề có quan hệ với người nghe)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_41",
+    "jp": "あんなに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "như thế kia (về vấn đề không có quan hệ với người nói và người nghe)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson32_42",
+    "jp": "ヨロッパ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "châu Âu",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  }
+]

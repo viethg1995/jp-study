@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lesson43_1",
+    "jp": "ふえます",
+    "kanji": "増えます",
+    "kanji_vn": "TĂNGTHÂU XUẤT",
+    "vn": "tăng, tăng lên [xuất khẩu ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson43_2",
+    "jp": "へります",
+    "kanji": "減ります",
+    "kanji_vn": "GIẢMTHÂU XUẤT",
+    "vn": "giảm, giảm xuống [xuất khẩu ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson43_3",
+    "jp": "あがります",
+    "kanji": "上がります",
+    "kanji_vn": "THƯỢNGTRỊ ĐOẠN",
+    "vn": "tăng, tăng lên [giá ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson43_4",
+    "jp": "さがります",
+    "kanji": "下がります",
+    "kanji_vn": "HẠTRỊ ĐOẠN",
+    "vn": "giảm, giảm xuống [giá ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson43_5",
+    "jp": "きれます",
+    "kanji": "切れます",
+    "kanji_vn": "THIẾT",
+    "vn": "đứt [sợi dây bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson43_6",
+    "jp": "とれます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tuột [cái cúc bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson43_7",
+    "jp": "おちます",
+    "kanji": "落ちます",
+    "kanji_vn": "LẠCHÀ VẬT",
+    "vn": "rơi [hành lý bị ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson43_8",
+    "jp": "なくなります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mất, hết [xăng bị ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson43_9",
+    "jp": "へん",
+    "kanji": "変",
+    "kanji_vn": "BIẾN",
+    "vn": "lạ, kỳ quặc",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson43_10",
+    "jp": "しあわせ",
+    "kanji": "幸せ",
+    "kanji_vn": "HẠNH",
+    "vn": "hạnh phúc",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson43_11",
+    "jp": "らく",
+    "kanji": "楽",
+    "kanji_vn": "LẠC/NHẠC",
+    "vn": "thoải mái, nhàn hạ, dễ dàng",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson43_12",
+    "jp": "うまい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ngon",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson43_13",
+    "jp": "まずい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "dở",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson43_14",
+    "jp": "つまらない",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "buồn tẻ, không hấp dẫn, không thú vị",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson43_15",
+    "jp": "やさしい",
+    "kanji": "優しい",
+    "kanji_vn": "ƯU",
+    "vn": "hiền lành",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson43_16",
+    "jp": "ガソリン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "xăng",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson43_17",
+    "jp": "ひ",
+    "kanji": "火",
+    "kanji_vn": "HỎA",
+    "vn": "lửa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson43_18",
+    "jp": "パンフレット",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tờ rơi, tờ quảng cáo",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson43_19",
+    "jp": "いまにも",
+    "kanji": "今にも",
+    "kanji_vn": "KIM",
+    "vn": "(có vẻ, sắp) ~ đến nơi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson43_20",
+    "jp": "わあ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ôi! (câu nói dùng khi ngạc nhiên hoặc cảm thán điều gì)",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

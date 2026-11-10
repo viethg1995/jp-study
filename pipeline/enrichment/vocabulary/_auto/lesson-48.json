@@ -1,0 +1,165 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "GIÁNG, HẠ",
+    "han_viet_source": "source",
+    "id": "mn-48-001",
+    "kanji": "降ろします,下ろします",
+    "kanji_refs": [
+      "k-降",
+      "k-下"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_1",
+    "lesson": 48,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIỚI",
+    "han_viet_source": "source",
+    "id": "mn-48-002",
+    "kanji": "届けます",
+    "kanji_refs": [
+      "k-届"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_2",
+    "lesson": 48
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẾ THOẠI",
+    "han_viet_source": "source",
+    "id": "mn-48-003",
+    "kanji": "世話をします",
+    "kanji_refs": [
+      "k-世",
+      "k-話"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_3",
+    "lesson": 48
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LỤC ÂM",
+    "han_viet_source": "source",
+    "id": "mn-48-004",
+    "kanji": "録音します",
+    "kanji_refs": [
+      "k-録",
+      "k-音"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_4",
+    "lesson": 48
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HIỀM",
+    "han_viet_source": "source",
+    "id": "mn-48-005",
+    "kanji": "嫌",
+    "kanji_refs": [
+      "k-嫌"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_5",
+    "lesson": 48
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỤC",
+    "han_viet_source": "source",
+    "id": "mn-48-006",
+    "kanji": "塾",
+    "kanji_refs": [
+      "k-塾"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_6",
+    "lesson": 48
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "SINH ĐỒ",
+    "han_viet_source": "source",
+    "id": "mn-48-007",
+    "kanji": "生徒",
+    "kanji_refs": [
+      "k-生",
+      "k-徒"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_7",
+    "lesson": 48
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-48-008",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson48_8",
+    "lesson": 48,
+    "pos_reason": "JMdict: danh từ thông dụng (file (for holding papers))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỰ DO",
+    "han_viet_source": "source",
+    "id": "mn-48-009",
+    "kanji": "自由に",
+    "kanji_refs": [
+      "k-自",
+      "k-由"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_9",
+    "lesson": 48
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIAN",
+    "han_viet_source": "source",
+    "id": "mn-48-010",
+    "kanji": "～間",
+    "kanji_refs": [
+      "k-間"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson48_10",
+    "lesson": 48
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-48-011",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson48_11",
+    "lesson": 48
+  }
+]

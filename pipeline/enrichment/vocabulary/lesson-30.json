@@ -1,0 +1,483 @@
+{
+  "mn-30-001": {
+    "examples": [
+      {
+        "id": "mn-30-001-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{壁|かべ}にポスターが[[{張|は}って]]あります。",
+        "source": "ai-draft",
+        "vi": "Trên tường có dán áp phích."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-002": {
+    "examples": [
+      {
+        "id": "mn-30-002-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{壁|かべ}にカレンダーが[[{掛|か}けて]]あります。",
+        "source": "ai-draft",
+        "vi": "Trên tường có treo lịch."
+      }
+    ]
+  },
+  "mn-30-003": {
+    "examples": [
+      {
+        "id": "mn-30-003-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{部屋|へや}に{花|はな}が[[{飾|かざ}って]]あります。",
+        "source": "ai-draft",
+        "vi": "Trong phòng có trang trí hoa."
+      }
+    ]
+  },
+  "mn-30-004": {
+    "examples": [
+      {
+        "id": "mn-30-004-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{机|つくえ}の{上|うえ}に{本|ほん}が[[{並|なら}べて]]あります。",
+        "source": "ai-draft",
+        "vi": "Trên bàn có xếp sách."
+      }
+    ]
+  },
+  "mn-30-005": {
+    "examples": [
+      {
+        "id": "mn-30-005-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{庭|にわ}に{木|き}を[[{植|う}えました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã trồng cây ngoài vườn."
+      }
+    ]
+  },
+  "mn-30-006": {
+    "examples": [
+      {
+        "id": "mn-30-006-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{使|つか}ったら、{元|もと}の{所|ところ}に[[{戻|もど}して]]ください。",
+        "source": "ai-draft",
+        "vi": "Dùng xong thì hãy để lại chỗ cũ."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "もどします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-007": {
+    "examples": [
+      {
+        "id": "mn-30-007-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{皆|みんな}の{意見|いけん}を[[{纏|まと}めて]]おきます。",
+        "source": "ai-draft",
+        "vi": "Tôi sẽ tổng hợp ý kiến của mọi người trước."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-008": {
+    "examples": [
+      {
+        "id": "mn-30-008-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{鋏|はさみ}を{引|ひ}き{出|だ}しに[[{仕舞|しま}って]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy cất kéo vào ngăn kéo."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-009": {
+    "examples": [
+      {
+        "id": "mn-30-009-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{旅行|りょこう}の{予定|よてい}を[[{決|き}めました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã quyết định kế hoạch du lịch."
+      }
+    ]
+  },
+  "mn-30-010": {
+    "examples": [
+      {
+        "id": "mn-30-010-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{明日|あした}の{授業|じゅぎょう}を[[{予習|よしゅう}して]]おきます。",
+        "source": "ai-draft",
+        "vi": "Tôi chuẩn bị trước bài học ngày mai."
+      }
+    ]
+  },
+  "mn-30-011": {
+    "examples": [
+      {
+        "id": "mn-30-011-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{家|うち}へ{帰|かえ}って、[[{復習|ふくしゅう}します]]。",
+        "source": "ai-draft",
+        "vi": "Về nhà tôi ôn bài."
+      }
+    ]
+  },
+  "mn-30-012": {
+    "examples": [
+      {
+        "id": "mn-30-012-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{窓|まど}は[[そのままにして]]おいてください。",
+        "source": "ai-draft",
+        "vi": "Hãy để nguyên cửa sổ như thế."
+      }
+    ]
+  },
+  "mn-30-013": {
+    "examples": [
+      {
+        "id": "mn-30-013-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{授業|じゅぎょう}]]は９{時|じ}からです。",
+        "source": "ai-draft",
+        "vi": "Giờ học bắt đầu từ 9 giờ."
+      }
+    ]
+  },
+  "mn-30-014": {
+    "examples": [
+      {
+        "id": "mn-30-014-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{先生|せんせい}の[[{講義|こうぎ}]]は{面白|おもしろ}いです。",
+        "source": "ai-draft",
+        "vi": "Bài giảng của thầy hay."
+      }
+    ]
+  },
+  "mn-30-015": {
+    "examples": [
+      {
+        "id": "mn-30-015-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{明日|あした}の[[ミーティング]]の{資料|しりょう}を{準備|じゅんび}しておきます。",
+        "source": "ai-draft",
+        "vi": "Tôi sẽ chuẩn bị trước tài liệu cho cuộc họp ngày mai."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ミーティング: PN→N (JMdict: danh từ thông dụng (meeting))",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-016": {
+    "examples": [
+      {
+        "id": "mn-30-016-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{明日|あした}の[[{予定|よてい}]]を{教|おし}えてください。",
+        "source": "ai-draft",
+        "vi": "Hãy cho tôi biết kế hoạch ngày mai."
+      }
+    ]
+  },
+  "mn-30-017": {
+    "examples": [
+      {
+        "id": "mn-30-017-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[お{知|し}らせ]]を{張|は}っておきます。",
+        "source": "ai-draft",
+        "vi": "Tôi dán bản thông báo trước."
+      }
+    ]
+  },
+  "mn-30-018": {
+    "examples": [
+      {
+        "id": "mn-30-018-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{旅行|りょこう}の{前|まえ}に[[ガイドブック]]を{買|か}っておきます。",
+        "source": "ai-draft",
+        "vi": "Trước chuyến du lịch tôi mua sẵn sách hướng dẫn."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ガイドブック: PN→N (JMdict: danh từ thông dụng (guidebook))",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-019": {
+    "examples": [
+      {
+        "id": "mn-30-019-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{壁|かべ}に[[カレンダー]]が{掛|か}けてあります。",
+        "source": "ai-draft",
+        "vi": "Trên tường có treo lịch."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "カレンダー: PN→N (JMdict: danh từ thông dụng (calendar))",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-020": {
+    "examples": [
+      {
+        "id": "mn-30-020-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{教室|きょうしつ}に[[ポスター]]が{張|は}ってあります。",
+        "source": "ai-draft",
+        "vi": "Trong lớp học có dán áp phích."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ポスター: PN→N (JMdict: danh từ thông dụng (poster))",
+      "status": "reviewed"
+    }
+  },
+  "mn-30-021": {
+    "examples": [
+      {
+        "id": "mn-30-021-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{予定表|よていひょう}]]を{見|み}てください。",
+        "source": "ai-draft",
+        "vi": "Hãy xem lịch làm việc."
+      }
+    ]
+  },
+  "mn-30-022": {
+    "examples": [
+      {
+        "id": "mn-30-022-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "ごみは[[ごみ{箱|ばこ}]]に{捨|す}ててください。",
+        "source": "ai-draft",
+        "vi": "Hãy vứt rác vào thùng rác."
+      }
+    ]
+  },
+  "mn-30-023": {
+    "examples": [
+      {
+        "id": "mn-30-023-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{棚|たな}の{上|うえ}に[[{人形|にんぎょう}]]が{飾|かざ}ってあります。",
+        "source": "ai-draft",
+        "vi": "Trên giá có trưng búp bê."
+      }
+    ]
+  },
+  "mn-30-024": {
+    "examples": [
+      {
+        "id": "mn-30-024-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{花瓶|かびん}]]に{花|はな}を{入|い}れておきました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cắm hoa vào lọ."
+      }
+    ]
+  },
+  "mn-30-025": {
+    "examples": [
+      {
+        "id": "mn-30-025-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{鏡|かがみ}]]を{見|み}てください。",
+        "source": "ai-draft",
+        "vi": "Hãy nhìn vào gương."
+      }
+    ]
+  },
+  "mn-30-026": {
+    "examples": [
+      {
+        "id": "mn-30-026-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{引|ひ}き{出|だ}し]]に{鋏|はさみ}が{入|はい}っています。",
+        "source": "ai-draft",
+        "vi": "Trong ngăn kéo có cái kéo."
+      }
+    ]
+  },
+  "mn-30-027": {
+    "examples": [
+      {
+        "id": "mn-30-027-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{玄関|げんかん}]]に{靴|くつ}を{並|なら}べておきます。",
+        "source": "ai-draft",
+        "vi": "Tôi xếp giày ở cửa vào."
+      }
+    ]
+  },
+  "mn-30-028": {
+    "examples": [
+      {
+        "id": "mn-30-028-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{廊下|ろうか}]]を{走|はし}らないでください。",
+        "source": "ai-draft",
+        "vi": "Đừng chạy ngoài hành lang."
+      }
+    ]
+  },
+  "mn-30-029": {
+    "examples": [
+      {
+        "id": "mn-30-029-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{壁|かべ}]]に{地図|ちず}が{張|は}ってあります。",
+        "source": "ai-draft",
+        "vi": "Trên tường có dán bản đồ."
+      }
+    ]
+  },
+  "mn-30-030": {
+    "examples": [
+      {
+        "id": "mn-30-030-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{池|いけ}]]に{魚|さかな}がいます。",
+        "source": "ai-draft",
+        "vi": "Trong ao có cá."
+      }
+    ]
+  },
+  "mn-30-031": {
+    "examples": [
+      {
+        "id": "mn-30-031-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "[[{元|もと}の{所|ところ}]]に{戻|もど}してください。",
+        "source": "ai-draft",
+        "vi": "Hãy để lại chỗ cũ."
+      }
+    ]
+  },
+  "mn-30-032": {
+    "examples": [
+      {
+        "id": "mn-30-032-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{家|うち}の[[{周|まわ}り]]に{木|き}を{植|う}えました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã trồng cây xung quanh nhà."
+      }
+    ]
+  },
+  "mn-30-033": {
+    "examples": [
+      {
+        "id": "mn-30-033-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{部屋|へや}の[[{真|ま}ん{中|なか}]]にテーブルがあります。",
+        "source": "ai-draft",
+        "vi": "Ở giữa phòng có cái bàn."
+      }
+    ]
+  },
+  "mn-30-034": {
+    "examples": [
+      {
+        "id": "mn-30-034-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{部屋|へや}の[[{隅|すみ}]]に{花瓶|かびん}を{置|お}いてください。",
+        "source": "ai-draft",
+        "vi": "Hãy đặt lọ hoa ở góc phòng."
+      }
+    ]
+  },
+  "mn-30-035": {
+    "examples": [
+      {
+        "id": "mn-30-035-e1",
+        "max_lesson": 30,
+        "review": "user",
+        "ruby": "{宿題|しゅくだい}は[[まだ]]{終|お}わっていません。",
+        "source": "ai-draft",
+        "vi": "Bài tập vẫn chưa xong."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "未だ dễ nhầm; viết kana",
+      "status": "reviewed"
+    }
+  }
+}

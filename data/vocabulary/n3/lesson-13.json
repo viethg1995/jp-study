@@ -1,0 +1,2389 @@
+{
+  "book": "n3",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-602-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{雨|あめ}で{試合|しあい}が{来週|らいしゅう}に[[{延|の}びました]]。",
+          "source": "ai-draft",
+          "vi": "Vì mưa, trận đấu bị hoãn sang tuần sau."
+        }
+      ],
+      "han_viet": "DIÊN",
+      "id": "n3-602",
+      "kana": "のびる",
+      "kanji": "延びる",
+      "kanji_refs": [
+        "k-延"
+      ],
+      "legacy_id": "n3cb-602",
+      "lesson": 13,
+      "meaning_vi": "Trì hoãn, kéo dài",
+      "particle": "が",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trì hoãn, kéo dài"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-603-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{締|し}め{切|き}りを{一週間|いっしゅうかん}[[{延|の}ばして]]もらいました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã được gia hạn hạn chót thêm một tuần."
+        }
+      ],
+      "han_viet": "DIÊN",
+      "id": "n3-603",
+      "kana": "のばす",
+      "kanji": "延ばす",
+      "kanji_refs": [
+        "k-延"
+      ],
+      "legacy_id": "n3cb-603",
+      "lesson": 13,
+      "meaning_vi": "Tăng, kéo dài",
+      "particle": "を",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tăng, kéo dài"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-604-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{今年|ことし}は{誕生日|たんじょうび}と{日曜日|にちようび}が[[{重|かさ}なりました]]。",
+          "source": "ai-draft",
+          "vi": "Năm nay sinh nhật trùng với chủ nhật."
+        }
+      ],
+      "han_viet": "TRỌNG",
+      "id": "n3-604",
+      "kana": "かさなる",
+      "kanji": "重なる",
+      "kanji_refs": [
+        "k-重"
+      ],
+      "legacy_id": "n3cb-604",
+      "lesson": 13,
+      "meaning_vi": "Chồng lên; Trùng nhau; Nhiều (nhấn mạnh)",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chồng lên"
+        },
+        {
+          "context": null,
+          "text": "Trùng nhau"
+        },
+        {
+          "context": null,
+          "text": "Nhiều (nhấn mạnh)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-605-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{本|ほん}を{机|つくえ}の{上|うえ}に[[{重|かさ}ねて]]{置|お}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã xếp chồng sách lên bàn."
+        }
+      ],
+      "han_viet": "TRỌNG",
+      "id": "n3-605",
+      "kana": "かさねる",
+      "kanji": "重ねる",
+      "kanji_refs": [
+        "k-重"
+      ],
+      "legacy_id": "n3cb-605",
+      "lesson": 13,
+      "meaning_vi": "Chồng lên; Trùng nhau; Nhiều (nhấn mạnh)",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chồng lên"
+        },
+        {
+          "context": null,
+          "text": "Trùng nhau"
+        },
+        {
+          "context": null,
+          "text": "Nhiều (nhấn mạnh)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-606-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{私|わたし}の{写真|しゃしん}が{新聞|しんぶん}に[[{載|の}りました]]。",
+          "source": "ai-draft",
+          "vi": "Ảnh của tôi đã được đăng trên báo."
+        }
+      ],
+      "han_viet": "TẢI",
+      "id": "n3-606",
+      "kana": "のる",
+      "kanji": "載る",
+      "kanji_refs": [
+        "k-載"
+      ],
+      "legacy_id": "n3cb-606",
+      "lesson": 13,
+      "meaning_vi": "Chất lên",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chất lên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-607-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{荷物|にもつ}を{車|くるま}に[[{載|の}せて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy chất hành lý lên xe."
+        }
+      ],
+      "han_viet": "TẢI",
+      "id": "n3-607",
+      "kana": "のせる",
+      "kanji": "載せる",
+      "kanji_refs": [
+        "k-載"
+      ],
+      "legacy_id": "n3cb-607",
+      "lesson": 13,
+      "meaning_vi": "Đăng lên",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Đăng lên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-608-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{玄関|げんかん}で{靴|くつ}を[[そろえて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy xếp giày ngay ngắn ở lối vào."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-608",
+      "kana": "そろえる",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-608",
+      "lesson": 13,
+      "meaning_vi": "Sắp xếp, để ngay ngắn; Tập trung (sẵn sàng, đầy đủ)",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Sắp xếp, để ngay ngắn"
+        },
+        {
+          "context": null,
+          "text": "Tập trung (sẵn sàng, đầy đủ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-609-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{会議|かいぎ}の{意見|いけん}を[[まとめて]]{報告|ほうこく}します。",
+          "source": "ai-draft",
+          "vi": "Tôi sẽ tổng hợp ý kiến cuộc họp rồi báo cáo."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-609",
+      "kana": "まとめる",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-609",
+      "lesson": 13,
+      "meaning_vi": "Tổng hợp; Tổng hợp, thống nhất, tập trung",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tổng hợp"
+        },
+        {
+          "context": null,
+          "text": "Tổng hợp, thống nhất, tập trung"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-610-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{仕事|しごと}が[[{溜|た}まって]]、{休|やす}めません。",
+          "source": "ai-draft",
+          "vi": "Công việc dồn lại nên không nghỉ được."
+        }
+      ],
+      "han_viet": "LỰU",
+      "id": "n3-610",
+      "kana": "たまる",
+      "kanji": "溜まる",
+      "kanji_refs": [
+        "k-溜"
+      ],
+      "legacy_id": "n3cb-610",
+      "lesson": 13,
+      "meaning_vi": "Đọng, dồn lại",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Đọng, dồn lại"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-611-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{旅行|りょこう}のためにお{金|かね}を[[{溜|た}めて]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi đang để dành tiền đi du lịch."
+        }
+      ],
+      "han_viet": "LỰU",
+      "id": "n3-611",
+      "kana": "ためる",
+      "kanji": "溜める",
+      "kanji_refs": [
+        "k-溜"
+      ],
+      "legacy_id": "n3cb-611",
+      "lesson": 13,
+      "meaning_vi": "Dồn lại, tích lại, để dành",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Dồn lại, tích lại, để dành"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-612-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{白|しろ}い{米|こめ}に{黒|くろ}い{豆|まめ}が[[{交|ま}じって]]います。",
+          "source": "ai-draft",
+          "vi": "Có lẫn đậu đen trong gạo trắng."
+        }
+      ],
+      "han_viet": "GIAO",
+      "id": "n3-612",
+      "kana": "まじる",
+      "kanji": "交じる",
+      "kanji_refs": [
+        "k-交"
+      ],
+      "legacy_id": "n3cb-612",
+      "lesson": 13,
+      "meaning_vi": "Trộn, kết hợp A với B",
+      "particle": "が/に",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trộn, kết hợp A với B"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-613-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{水|みず}と{油|あぶら}は[[まざりません]]。",
+          "source": "ai-draft",
+          "vi": "Nước và dầu không hòa lẫn vào nhau."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-613",
+      "kana": "まざる",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-613",
+      "lesson": 13,
+      "meaning_vi": "Trộn A, B với nhau; Được trộn lẫn",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trộn A, B với nhau"
+        },
+        {
+          "context": null,
+          "text": "Được trộn lẫn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-614-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{卵|たまご}と{牛乳|ぎゅうにゅう}を{良|よ}く[[まぜて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy trộn đều trứng và sữa."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-614",
+      "kana": "まぜる",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-614",
+      "lesson": 13,
+      "meaning_vi": "Trộn lẫn; Trộn, khuấy mạnh",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trộn lẫn"
+        },
+        {
+          "context": null,
+          "text": "Trộn, khuấy mạnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-615-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{難|むずか}しい{問題|もんだい}がやっと[[{解|と}けました]]。",
+          "source": "ai-draft",
+          "vi": "Cuối cùng bài toán khó cũng đã giải được."
+        }
+      ],
+      "han_viet": "GIẢI",
+      "id": "n3-615",
+      "kana": "とける",
+      "kanji": "解ける",
+      "kanji_refs": [
+        "k-解"
+      ],
+      "legacy_id": "n3cb-615",
+      "lesson": 13,
+      "meaning_vi": "(Được) giải quyết, giải đáp; Tan ra; Được hoà tan",
+      "particle": "が",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "(Được) giải quyết, giải đáp"
+        },
+        {
+          "context": null,
+          "text": "Tan ra"
+        },
+        {
+          "context": null,
+          "text": "Được hoà tan"
+        }
+      ],
+      "transitivity": null,
+      "variants": [
+        "を解く"
+      ]
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-616-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{砂糖|さとう}をお{湯|ゆ}で[[{溶|と}かして]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy hòa tan đường bằng nước nóng."
+        }
+      ],
+      "han_viet": "DUNG",
+      "id": "n3-616",
+      "kana": "とかす",
+      "kanji": "溶かす",
+      "kanji_refs": [
+        "k-溶"
+      ],
+      "legacy_id": "n3cb-616",
+      "lesson": 13,
+      "meaning_vi": "Đánh tan, làm tan ra; Làm tan ra",
+      "particle": "を",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Đánh tan, làm tan ra"
+        },
+        {
+          "context": null,
+          "text": "Làm tan ra"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-617-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "この{料金|りょうきん}には{税金|ぜいきん}が[[{含|ふく}まれて]]います。",
+          "source": "ai-draft",
+          "vi": "Giá này đã bao gồm thuế."
+        }
+      ],
+      "han_viet": "HÀM",
+      "id": "n3-617",
+      "kana": "ふくむ",
+      "kanji": "含む",
+      "kanji_refs": [
+        "k-含"
+      ],
+      "legacy_id": "n3cb-617",
+      "lesson": 13,
+      "meaning_vi": "Chứa, bao gồm",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chứa, bao gồm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-618-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{子|こ}どもを[[{含|ふく}めて]]{十人|じゅうにん}{来|き}ます。",
+          "source": "ai-draft",
+          "vi": "Tính cả trẻ em thì có mười người đến."
+        }
+      ],
+      "han_viet": "HÀM",
+      "id": "n3-618",
+      "kana": "ふくめる",
+      "kanji": "含める",
+      "kanji_refs": [
+        "k-含"
+      ],
+      "legacy_id": "n3cb-618",
+      "lesson": 13,
+      "meaning_vi": "bao gồm, tính cả",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "jmdict"
+      },
+      "related": [
+        "m, bao hm含めると1000 円ぐらい"
+      ],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bao gồm, tính cả"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-619-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{雲|くも}の{間|あいだ}から{月|つき}が[[{現|あらわ}れました]]。",
+          "source": "ai-draft",
+          "vi": "Mặt trăng hiện ra từ giữa những đám mây."
+        }
+      ],
+      "han_viet": "HIỆN",
+      "id": "n3-619",
+      "kana": "あらわれる",
+      "kanji": "現れる",
+      "kanji_refs": [
+        "k-現"
+      ],
+      "legacy_id": "n3cb-619",
+      "lesson": 13,
+      "meaning_vi": "Xuất hiện; Có (hiệu quả, tác dụng)",
+      "particle": "が",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Xuất hiện"
+        },
+        {
+          "context": null,
+          "text": "Có (hiệu quả, tác dụng)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-620-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{気持|きも}ちを{言葉|ことば}で[[{表|あらわ}す]]のは{難|むずか}しいです。",
+          "source": "ai-draft",
+          "vi": "Thể hiện cảm xúc bằng lời thì khó."
+        }
+      ],
+      "han_viet": "BIỂU",
+      "id": "n3-620",
+      "kana": "あらわす",
+      "kanji": "表す",
+      "kanji_refs": [
+        "k-表"
+      ],
+      "legacy_id": "n3cb-620",
+      "lesson": 13,
+      "meaning_vi": "Thể hiện; Biểu thị",
+      "particle": "を",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Thể hiện"
+        },
+        {
+          "context": null,
+          "text": "Biểu thị"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-621-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{風|かぜ}で{桜|さくら}の{花|はな}が[[{散|ち}りました]]。",
+          "source": "ai-draft",
+          "vi": "Hoa anh đào rụng vì gió."
+        }
+      ],
+      "han_viet": "TẢN",
+      "id": "n3-621",
+      "kana": "ちる",
+      "kanji": "散る",
+      "kanji_refs": [
+        "k-散"
+      ],
+      "legacy_id": "n3cb-621",
+      "lesson": 13,
+      "meaning_vi": "Rơi, rụng",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Rơi, rụng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-622-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{子|こ}どもが{部屋|へや}に{玩具|おもちゃ}を[[{散|ち}らして]]います。",
+          "source": "ai-draft",
+          "vi": "Đứa trẻ đang bày đồ chơi khắp phòng."
+        }
+      ],
+      "han_viet": "TẢN",
+      "id": "n3-622",
+      "kana": "ちらす",
+      "kanji": "散らす",
+      "kanji_refs": [
+        "k-散"
+      ],
+      "legacy_id": "n3cb-622",
+      "lesson": 13,
+      "meaning_vi": "Bay, bắn khắp nơi",
+      "particle": "を",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Bay, bắn khắp nơi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-623-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{夜|よ}が[[{明|あ}けて]]、{空|そら}が{明|あか}るくなりました。",
+          "source": "ai-draft",
+          "vi": "Trời rạng sáng, bầu trời đã sáng lên."
+        }
+      ],
+      "han_viet": "MINH",
+      "id": "n3-623",
+      "kana": "あける",
+      "kanji": "明ける",
+      "kanji_refs": [
+        "k-明"
+      ],
+      "legacy_id": "n3cb-623",
+      "lesson": 13,
+      "meaning_vi": "hết, kết thúc (năm); rạng sáng (夜が明ける)",
+      "particle": "が",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "jmdict"
+      },
+      "related": [
+        "明け：Sáng sớm明け：Cuối năm明け：Thứ 2明け：Đi công tác về"
+      ],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hết, kết thúc (năm)"
+        },
+        {
+          "context": null,
+          "text": "rạng sáng (夜が明ける)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-624-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{彼|かれ}はチームの[[リーダー]]です。",
+          "source": "ai-draft",
+          "vi": "Anh ấy là trưởng nhóm của đội."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-624",
+      "kana": "リーダー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-624",
+      "lesson": 13,
+      "meaning_vi": "Thủ lĩnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "合："
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Thủ lĩnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-625-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{週末|しゅうまつ}は[[ボランティア]]で{公園|こうえん}を{掃除|そうじ}しています。",
+          "source": "ai-draft",
+          "vi": "Cuối tuần tôi làm tình nguyện dọn dẹp công viên."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-625",
+      "kana": "ボランティア",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-625",
+      "lesson": 13,
+      "meaning_vi": "Tình nguyện",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-26-014"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tình nguyện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-626-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{家族|かぞく}との[[コミュニケーション]]は{大切|たいせつ}です。",
+          "source": "ai-draft",
+          "vi": "Giao tiếp với gia đình là quan trọng."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-626",
+      "kana": "コミュニケーション",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-626",
+      "lesson": 13,
+      "meaning_vi": "Giao tiếp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "コミュニケーションをとるためにコミュニケーション"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Giao tiếp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-627-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{彼|かれ}は[[ユーモア]]のある{人|ひと}です。",
+          "source": "ai-draft",
+          "vi": "Anh ấy là người có khiếu hài hước."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-627",
+      "kana": "ユーモア",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-627",
+      "lesson": 13,
+      "meaning_vi": "Hài hước",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "≒ おもしろい≒ センス（が・の）ある"
+      ],
+      "review": "auto",
+      "same_word": [
+        "mn-22-016"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hài hước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-628-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "その{知|し}らせを{聞|き}いて[[ショック]]を{受|う}けました。",
+          "source": "ai-draft",
+          "vi": "Nghe tin đó tôi đã bị sốc."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-628",
+      "kana": "ショック",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-628",
+      "lesson": 13,
+      "meaning_vi": "Cú sốc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "ショック！!"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Cú sốc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-629-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{仕事|しごと}で[[ストレス]]が{溜|た}まっています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang bị căng thẳng vì công việc."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-629",
+      "kana": "ストレス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-629",
+      "lesson": 13,
+      "meaning_vi": "Xì trét, căng thẳng, áp lực",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "： やるべきこと、責任からくるプレッシャーを感じるが、",
+        "： 言葉そのまま「ー」の意味だけストレスーーー"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Xì trét, căng thẳng, áp lực"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-630-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{栄養|えいよう}の[[バランス]]を{考|かんが}えて{食|た}べましょう。",
+          "source": "ai-draft",
+          "vi": "Hãy ăn uống chú ý cân bằng dinh dưỡng."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-630",
+      "kana": "バランス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-630",
+      "lesson": 13,
+      "meaning_vi": "Sự cân bằng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Sự cân bằng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-631-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "このクラスは[[レベル]]が{高|たか}いです。",
+          "source": "ai-draft",
+          "vi": "Lớp này trình độ cao."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-631",
+      "kana": "レベル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-631",
+      "lesson": 13,
+      "meaning_vi": "Trình độ, mức độ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trình độ, mức độ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-632-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{給料|きゅうりょう}が[[アップ]]しました。",
+          "source": "ai-draft",
+          "vi": "Lương đã tăng."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-632",
+      "kana": "アップ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-632",
+      "lesson": 13,
+      "meaning_vi": "Tăng; (Chụp) cận cảnh /Đăng lên",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tăng"
+        },
+        {
+          "context": null,
+          "text": "(Chụp) cận cảnh /Đăng lên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-633-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{風邪|かぜ}で{三日間|みっかかん}[[ダウン]]していました。",
+          "source": "ai-draft",
+          "vi": "Tôi bị cảm nằm liệt ba ngày."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-633",
+      "kana": "ダウン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-633",
+      "lesson": 13,
+      "meaning_vi": "Mệt, kiệt sức; Cộng thêm/Trừ đi /Lãi/ Lỗ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Mệt, kiệt sức"
+        },
+        {
+          "context": null,
+          "text": "Cộng thêm/Trừ đi /Lãi/ Lỗ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-634-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{日本語|にほんご}ができることは{仕事|しごと}で[[プラス]]になります。",
+          "source": "ai-draft",
+          "vi": "Biết tiếng Nhật là điểm cộng trong công việc."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-634",
+      "kana": "プラス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-634",
+      "lesson": 13,
+      "meaning_vi": "Điểm cộng / Thiệt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Điểm cộng / Thiệt"
+        }
+      ],
+      "transitivity": null,
+      "variants": [
+        "マイナス"
+      ]
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-635-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[イメージ]]はどうですか。",
+          "source": "ai-draft",
+          "vi": "Hình ảnh về Nhật Bản của bạn thế nào?"
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-635",
+      "kana": "イメージ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-635",
+      "lesson": 13,
+      "meaning_vi": "Hình dung, tưởng tượng; Hình ảnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hình dung, tưởng tượng"
+        },
+        {
+          "context": null,
+          "text": "Hình ảnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-636-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{他人|たにん}の[[プライバシー]]を{守|まも}りましょう。",
+          "source": "ai-draft",
+          "vi": "Hãy tôn trọng sự riêng tư của người khác."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-636",
+      "kana": "プライバシー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-636",
+      "lesson": 13,
+      "meaning_vi": "Sự riêng tư",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "プライバシーが",
+        "を犯す",
+        "侵害"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Sự riêng tư"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-637-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{新|あたら}しい[[オフィス]]は{駅|えき}から{近|ちか}いです。",
+          "source": "ai-draft",
+          "vi": "Văn phòng mới gần nhà ga."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-637",
+      "kana": "オフィス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-637",
+      "lesson": 13,
+      "meaning_vi": "Văn phòng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "ビル",
+        "街"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Văn phòng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-638-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "ゲームの[[ルール]]を{説明|せつめい}します。",
+          "source": "ai-draft",
+          "vi": "Tôi sẽ giải thích luật chơi."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-638",
+      "kana": "ルール",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-638",
+      "lesson": 13,
+      "meaning_vi": "Quy tắc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "：日常、スポーツ",
+        "：会社、団体"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Quy tắc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-639-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{電車|でんしゃ}の{中|なか}の[[マナー]]を{守|まも}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy giữ phép lịch sự trên tàu."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-639",
+      "kana": "マナー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-639",
+      "lesson": 13,
+      "meaning_vi": "Lễ nghi, cách cư xử",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "を守る",
+        "(が/ に) 厳しいマナー"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Lễ nghi, cách cư xử"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-640-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{来週|らいしゅう}の[[スケジュール]]を{確認|かくにん}します。",
+          "source": "ai-draft",
+          "vi": "Tôi sẽ xác nhận lịch trình tuần sau."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-640",
+      "kana": "スケジュール",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-640",
+      "lesson": 13,
+      "meaning_vi": "Thời khoá biểu, lịch trình",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "を立てる",
+        "表：Bảng kế hoạch",
+        "帳：Sổ (ghi) kế hoạch"
+      ],
+      "review": "auto",
+      "same_word": [
+        "mn-50-015"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "Thời khoá biểu, lịch trình"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-641-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "この{歌|うた}の[[タイトル]]を{知|し}っていますか。",
+          "source": "ai-draft",
+          "vi": "Bạn có biết tên bài hát này không?"
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-641",
+      "kana": "タイトル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-641",
+      "lesson": 13,
+      "meaning_vi": "Tiêu đề, đầu đề",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tiêu đề, đầu đề"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-642-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{作文|さくぶん}の[[テーマ]]は「{家族|かぞく}」です。",
+          "source": "ai-draft",
+          "vi": "Chủ đề bài văn là \"Gia đình\"."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-642",
+      "kana": "テーマ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-642",
+      "lesson": 13,
+      "meaning_vi": "Chủ đề, đề tài",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chủ đề, đề tài"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-643-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "この{映画|えいが}は[[ストーリー]]が{面白|おもしろ}いです。",
+          "source": "ai-draft",
+          "vi": "Bộ phim này có cốt truyện thú vị."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-643",
+      "kana": "ストーリー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-643",
+      "lesson": 13,
+      "meaning_vi": "Cốt truyện",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Cốt truyện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-644-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{旅行|りょこう}で[[レンタル]]の{車|くるま}を{使|つか}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã dùng xe thuê khi đi du lịch."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-644",
+      "kana": "レンタル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-644",
+      "lesson": 13,
+      "meaning_vi": "Hàng thuê, đồ thuê; Sự cho thuê",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "→レンタル料がかかる"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hàng thuê, đồ thuê"
+        },
+        {
+          "context": null,
+          "text": "Sự cho thuê"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-645-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "ペットボトルは[[リサイクル]]できます。",
+          "source": "ai-draft",
+          "vi": "Chai nhựa có thể tái chế."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-645",
+      "kana": "リサイクル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-645",
+      "lesson": 13,
+      "meaning_vi": "Tái sử dụng, tái chế",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "リサイクルされて、トイレットペーパーリサイクルショップに"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tái sử dụng, tái chế"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-646-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{彼|かれ}は{私|わたし}の{好|す}きな[[タイプ]]です。",
+          "source": "ai-draft",
+          "vi": "Anh ấy là mẫu người tôi thích."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-646",
+      "kana": "タイプ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-646",
+      "lesson": 13,
+      "meaning_vi": "Kiểu, loại (người); Kiểu, loại (vật); Tuýp, gu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Kiểu, loại (người)"
+        },
+        {
+          "context": null,
+          "text": "Kiểu, loại (vật)"
+        },
+        {
+          "context": null,
+          "text": "Tuýp, gu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-647-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{彼女|かのじょ}はモデルのように[[スタイルがいい]]です。",
+          "source": "ai-draft",
+          "vi": "Cô ấy dáng đẹp như người mẫu."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-647",
+      "kana": "スタイルがいい",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-647",
+      "lesson": 13,
+      "meaning_vi": "Dáng đẹp",
+      "particle": null,
+      "pos": {
+        "code": "Phr",
+        "label": "Cụm từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [
+        "抜群スタイルが悪い"
+      ],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Dáng đẹp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-648-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{目覚|めざ}まし{時計|どけい}を{六時|ろくじ}に[[セット]]しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đặt đồng hồ báo thức lúc 6 giờ."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-648",
+      "kana": "セット",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-648",
+      "lesson": 13,
+      "meaning_vi": "Bộ, set; Thiết lập (đồng hồ)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "≒ 設定"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Bộ, set"
+        },
+        {
+          "context": null,
+          "text": "Thiết lập (đồng hồ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-649-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "コンピューターが[[ウイルス]]に{感染|かんせん}しました。",
+          "source": "ai-draft",
+          "vi": "Máy tính đã bị nhiễm virus."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-649",
+      "kana": "ウイルス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-649",
+      "lesson": 13,
+      "meaning_vi": "Virus (cúm); Virus (máy tính)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Virus (cúm)"
+        },
+        {
+          "context": null,
+          "text": "Virus (máy tính)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-650-e1",
+          "max_lesson": 13,
+          "review": "user",
+          "ruby": "{太陽|たいよう}の[[エネルギー]]を{利用|りよう}します。",
+          "source": "ai-draft",
+          "vi": "Sử dụng năng lượng mặt trời."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-650",
+      "kana": "エネルギー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-650",
+      "lesson": 13,
+      "meaning_vi": "Năng lượng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "資源（原子力/ 熱/ 太陽…）Năng lượng tài nguyênエネルギー（省エネ）Tiết kiệm năng lượng",
+        "不足"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Năng lượng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 13,
+  "schema_version": 4
+}

@@ -1,0 +1,943 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-001-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{日本|にほん}で{働|はたら}く{外国人|がいこくじん}が[[{増|ふ}えて]]います。",
+          "source": "ai-draft",
+          "vi": "Số người nước ngoài làm việc ở Nhật đang tăng."
+        }
+      ],
+      "han_viet": "TĂNG",
+      "id": "mn-43-001",
+      "kana": "ふえます",
+      "kanji": "増えます",
+      "kanji_refs": [
+        "k-増"
+      ],
+      "legacy_id": "lesson43_1",
+      "lesson": 43,
+      "meaning_vi": "tăng, tăng lên [xuất khẩu ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "xuất khẩu ～",
+          "text": "tăng, tăng lên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-002-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{子|こ}どもの{数|かず}が[[{減|へ}って]]います。",
+          "source": "ai-draft",
+          "vi": "Số trẻ em đang giảm."
+        }
+      ],
+      "han_viet": "GIẢM",
+      "id": "mn-43-002",
+      "kana": "へります",
+      "kanji": "減ります",
+      "kanji_refs": [
+        "k-減"
+      ],
+      "legacy_id": "lesson43_2",
+      "lesson": 43,
+      "meaning_vi": "giảm, giảm xuống [xuất khẩu ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "xuất khẩu ～",
+          "text": "giảm, giảm xuống"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-003-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{野菜|やさい}の{値段|ねだん}が[[{上|あ}がりました]]。",
+          "source": "ai-draft",
+          "vi": "Giá rau đã tăng."
+        }
+      ],
+      "han_viet": "THƯỢNG",
+      "id": "mn-43-003",
+      "kana": "あがります",
+      "kanji": "上がります",
+      "kanji_refs": [
+        "k-上"
+      ],
+      "legacy_id": "lesson43_3",
+      "lesson": 43,
+      "meaning_vi": "tăng, tăng lên [giá ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "giá ～",
+          "text": "tăng, tăng lên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-004-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{熱|ねつ}が[[{下|さ}がりました]]。",
+          "source": "ai-draft",
+          "vi": "Đã hạ sốt."
+        }
+      ],
+      "han_viet": "HẠ",
+      "id": "mn-43-004",
+      "kana": "さがります",
+      "kanji": "下がります",
+      "kanji_refs": [
+        "k-下"
+      ],
+      "legacy_id": "lesson43_4",
+      "lesson": 43,
+      "meaning_vi": "giảm, giảm xuống [giá ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "giá ～",
+          "text": "giảm, giảm xuống"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-005-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{紐|ひも}が[[{切|き}れ]]そうです。",
+          "source": "ai-draft",
+          "vi": "Sợi dây sắp đứt."
+        }
+      ],
+      "han_viet": "THIẾT",
+      "id": "mn-43-005",
+      "kana": "きれます",
+      "kanji": "切れます",
+      "kanji_refs": [
+        "k-切"
+      ],
+      "legacy_id": "lesson43_5",
+      "lesson": 43,
+      "meaning_vi": "đứt [sợi dây bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "sợi dây bị ～",
+          "text": "đứt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-006-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "ボタンが[[{取|と}れ]]そうです。",
+          "source": "ai-draft",
+          "vi": "Cúc áo sắp tuột."
+        }
+      ],
+      "han_viet": "THỦ",
+      "id": "mn-43-006",
+      "kana": "とれます",
+      "kanji": "取れます",
+      "kanji_refs": [
+        "k-取"
+      ],
+      "legacy_id": "lesson43_6",
+      "lesson": 43,
+      "meaning_vi": "tuột [cái cúc bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cái cúc bị ～",
+          "text": "tuột"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-007-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{棚|たな}から{荷物|にもつ}が[[{落|お}ち]]そうです。",
+          "source": "ai-draft",
+          "vi": "Hành lý sắp rơi từ trên giá xuống."
+        }
+      ],
+      "han_viet": "LẠC",
+      "id": "mn-43-007",
+      "kana": "おちます",
+      "kanji": "落ちます",
+      "kanji_refs": [
+        "k-落"
+      ],
+      "legacy_id": "lesson43_7",
+      "lesson": 43,
+      "meaning_vi": "rơi [hành lý bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "hành lý bị ～",
+          "text": "rơi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-008-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "ガソリンが[[{無|な}くなり]]そうです。",
+          "source": "ai-draft",
+          "vi": "Xăng sắp hết."
+        }
+      ],
+      "han_viet": "VÔ",
+      "id": "mn-43-008",
+      "kana": "なくなります",
+      "kanji": "無くなります",
+      "kanji_refs": [
+        "k-無"
+      ],
+      "legacy_id": "lesson43_8",
+      "lesson": 43,
+      "meaning_vi": "mất, hết [xăng bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "xăng bị ～",
+          "text": "mất, hết"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-009-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "この{料理|りょうり}は[[{変|へん}]]な{味|あじ}がします。",
+          "source": "ai-draft",
+          "vi": "Món ăn này có vị lạ."
+        }
+      ],
+      "han_viet": "BIẾN",
+      "id": "mn-43-009",
+      "kana": "へん",
+      "kanji": "変",
+      "kanji_refs": [
+        "k-変"
+      ],
+      "legacy_id": "lesson43_9",
+      "lesson": 43,
+      "meaning_vi": "lạ, kỳ quặc",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lạ, kỳ quặc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-010-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{彼女|かのじょ}は[[{幸|しあわ}せ]]そうです。",
+          "source": "ai-draft",
+          "vi": "Cô ấy trông có vẻ hạnh phúc."
+        }
+      ],
+      "han_viet": "HẠNH",
+      "id": "mn-43-010",
+      "kana": "しあわせ",
+      "kanji": "幸せ",
+      "kanji_refs": [
+        "k-幸"
+      ],
+      "legacy_id": "lesson43_10",
+      "lesson": 43,
+      "meaning_vi": "hạnh phúc",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hạnh phúc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-011-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "この{仕事|しごと}は[[{楽|らく}]]そうです。",
+          "source": "ai-draft",
+          "vi": "Công việc này có vẻ nhàn."
+        }
+      ],
+      "han_viet": "LẠC/NHẠC",
+      "id": "mn-43-011",
+      "kana": "らく",
+      "kanji": "楽",
+      "kanji_refs": [
+        "k-楽"
+      ],
+      "legacy_id": "lesson43_11",
+      "lesson": 43,
+      "meaning_vi": "thoải mái, nhàn hạ, dễ dàng",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thoải mái, nhàn hạ, dễ dàng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-012-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "このケーキは[[{美味|うま}]]そうです。",
+          "source": "ai-draft",
+          "vi": "Cái bánh này trông có vẻ ngon."
+        }
+      ],
+      "han_viet": "MỸ VỊ",
+      "id": "mn-43-012",
+      "kana": "うまい",
+      "kanji": "美味い",
+      "kanji_refs": [
+        "k-美",
+        "k-味"
+      ],
+      "legacy_id": "lesson43_12",
+      "lesson": 43,
+      "meaning_vi": "ngon",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngon"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-013-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "この{店|みせ}の{料理|りょうり}は[[{不味|まず}い]]です。",
+          "source": "ai-draft",
+          "vi": "Món ăn của quán này dở."
+        }
+      ],
+      "han_viet": "BẤT VỊ",
+      "id": "mn-43-013",
+      "kana": "まずい",
+      "kanji": "不味い",
+      "kanji_refs": [
+        "k-不",
+        "k-味"
+      ],
+      "legacy_id": "lesson43_13",
+      "lesson": 43,
+      "meaning_vi": "dở",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-014-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "この{映画|えいが}は[[つまらな]]そうです。",
+          "source": "ai-draft",
+          "vi": "Bộ phim này có vẻ chán."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-43-014",
+      "kana": "つまらない",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson43_14",
+      "lesson": 43,
+      "meaning_vi": "buồn tẻ, không hấp dẫn, không thú vị",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "buồn tẻ, không hấp dẫn, không thú vị"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-015-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "{先生|せんせい}は[[{優|やさ}し]]そうです。",
+          "source": "ai-draft",
+          "vi": "Thầy giáo trông có vẻ hiền."
+        }
+      ],
+      "han_viet": "ƯU",
+      "id": "mn-43-015",
+      "kana": "やさしい",
+      "kanji": "優しい",
+      "kanji_refs": [
+        "k-優"
+      ],
+      "legacy_id": "lesson43_15",
+      "lesson": 43,
+      "meaning_vi": "hiền lành",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hiền lành"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-016-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "[[ガソリン]]が{無|な}くなりそうです。",
+          "source": "ai-draft",
+          "vi": "Xăng sắp hết."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-43-016",
+      "kana": "ガソリン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson43_16",
+      "lesson": 43,
+      "meaning_vi": "xăng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xăng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-017-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "[[{火|ひ}]]を{消|け}してください。",
+          "source": "ai-draft",
+          "vi": "Hãy tắt lửa."
+        }
+      ],
+      "han_viet": "HỎA",
+      "id": "mn-43-017",
+      "kana": "ひ",
+      "kanji": "火",
+      "kanji_refs": [
+        "k-火"
+      ],
+      "legacy_id": "lesson43_17",
+      "lesson": 43,
+      "meaning_vi": "lửa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lửa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-018-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "この[[パンフレット]]は{役|やく}に{立|た}ちそうです。",
+          "source": "ai-draft",
+          "vi": "Cuốn sách giới thiệu này có vẻ hữu ích."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-43-018",
+      "kana": "パンフレット",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson43_18",
+      "lesson": 43,
+      "meaning_vi": "tờ rơi, tờ quảng cáo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "n3-419"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "tờ rơi, tờ quảng cáo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-43-019-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "[[{今|いま}にも]]{雨|あめ}が{降|ふ}りそうです。",
+          "source": "ai-draft",
+          "vi": "Trời sắp mưa đến nơi."
+        }
+      ],
+      "han_viet": "KIM",
+      "id": "mn-43-019",
+      "kana": "いまにも",
+      "kanji": "今にも",
+      "kanji_refs": [
+        "k-今"
+      ],
+      "legacy_id": "lesson43_19",
+      "lesson": 43,
+      "meaning_vi": "(có vẻ, sắp) ～ đến nơi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "(có vẻ, sắp) ～ đến nơi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-43-020-e1",
+          "max_lesson": 43,
+          "review": "user",
+          "ruby": "[[わあ]]、{美味|おい}しそうですね。",
+          "source": "ai-draft",
+          "vi": "Ôi, trông ngon quá nhỉ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-43-020",
+      "kana": "わあ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson43_20",
+      "lesson": 43,
+      "meaning_vi": "ôi! (câu nói dùng khi ngạc nhiên hoặc cảm thán điều gì)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ôi! (câu nói dùng khi ngạc nhiên hoặc cảm thán điều gì)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 43,
+  "schema_version": 4
+}

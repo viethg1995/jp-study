@@ -1,0 +1,281 @@
+[
+  {
+    "id": "lesson29_1",
+    "jp": "あきます",
+    "kanji": "開きます",
+    "kanji_vn": "KHAI",
+    "vn": "mở [cửa ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson29_2",
+    "jp": "しまります",
+    "kanji": "閉まります",
+    "kanji_vn": "BẾ",
+    "vn": "đóng [cửa ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson29_3",
+    "jp": "つきます",
+    "kanji": "つきます",
+    "kanji_vn": "ĐIỆN KHÍ",
+    "vn": "sáng [điện ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson29_4",
+    "jp": "きえます",
+    "kanji": "消えます",
+    "kanji_vn": "TIÊUĐIỆN KHÍ",
+    "vn": "tắt [điện ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_5",
+    "jp": "こわれます",
+    "kanji": "壊れます",
+    "kanji_vn": "HOẠI",
+    "vn": "hỏng [cái ghế bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_6",
+    "jp": "われます",
+    "kanji": "割れます",
+    "kanji_vn": "CÁT",
+    "vn": "vỡ [cái cốc bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_7",
+    "jp": "おれます",
+    "kanji": "折れます",
+    "kanji_vn": "TRIẾTMỘC",
+    "vn": "gãy [cái cây bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_8",
+    "jp": "やぶれます",
+    "kanji": "破れます",
+    "kanji_vn": "PHÁCHỈ",
+    "vn": "rách [tờ giấy bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_9",
+    "jp": "よごれます",
+    "kanji": "汚れます",
+    "kanji_vn": "ÔPHỤC",
+    "vn": "bẩn [quần áo bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_10",
+    "jp": "つきます",
+    "kanji": "付きます",
+    "kanji_vn": "PHÓ",
+    "vn": "có, có gắn, có kèm theo [túi]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson29_11",
+    "jp": "はずれます",
+    "kanji": "外れます",
+    "kanji_vn": "NGOẠI",
+    "vn": "tuột, bung [cái cúc bị ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_12",
+    "jp": "とまります",
+    "kanji": "止まります",
+    "kanji_vn": "CHỈ",
+    "vn": "dừng [xe hơi ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson29_13",
+    "jp": "まちがえます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhầm, sai",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_14",
+    "jp": "おとします",
+    "kanji": "落とします",
+    "kanji_vn": "LẠC",
+    "vn": "đánh rơi",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson29_15",
+    "jp": "かかります",
+    "kanji": "掛かります",
+    "kanji_vn": "QUẢI",
+    "vn": "khóa [chìa khóa ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson29_16",
+    "jp": "ふきます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "lau, chùi",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson29_17",
+    "jp": "とりかえます",
+    "kanji": "取り替えます",
+    "kanji_vn": "THỦ HOÁN",
+    "vn": "thay",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_18",
+    "jp": "かたづけます",
+    "kanji": "片づけます",
+    "kanji_vn": "PHIẾN",
+    "vn": "dọn dẹp",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson29_19",
+    "jp": "さら",
+    "kanji": "皿",
+    "kanji_vn": "MÃNH",
+    "vn": "cái đĩa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_20",
+    "jp": "ちゃわん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái bát",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_21",
+    "jp": "コップ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái cốc",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson29_22",
+    "jp": "ガラス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thủy tinh (glass)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson29_23",
+    "jp": "ふくろ",
+    "kanji": "袋",
+    "kanji_vn": "ĐẠI",
+    "vn": "cái túi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_24",
+    "jp": "しょるい",
+    "kanji": "書類",
+    "kanji_vn": "THƯ LOẠI",
+    "vn": "giấy tờ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_25",
+    "jp": "えだ",
+    "kanji": "枝",
+    "kanji_vn": "CHI",
+    "vn": "cành cây",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_26",
+    "jp": "えきいん",
+    "kanji": "駅員",
+    "kanji_vn": "DỊCH VIÊN",
+    "vn": "nhân viên nhà ga",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_27",
+    "jp": "こうばん",
+    "kanji": "交番",
+    "kanji_vn": "GIAO PHIÊN",
+    "vn": "đồn cảnh sát, bốt cảnh sát",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_28",
+    "jp": "スピーチ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "diễn văn",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson29_29",
+    "jp": "へんじ",
+    "kanji": "返事",
+    "kanji_vn": "PHẢN SỰ",
+    "vn": "trả lời, hồi âm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson29_30",
+    "jp": "おさきにどうぞ。",
+    "kanji": "お先にどうぞ。",
+    "kanji_vn": "TIÊN",
+    "vn": "Xin mời anh/chị đi trước.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson29_31",
+    "jp": "げんじものがたり",
+    "kanji": "源氏物語",
+    "kanji_vn": "NGUYÊN THỊ VẬT NGỮ",
+    "vn": "tiểu thuyết được viết bởi Murasaki Shikibu vào thời Heian",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

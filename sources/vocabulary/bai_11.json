@@ -1,0 +1,461 @@
+[
+  {
+    "id": "lesson11_1",
+    "jp": "います",
+    "kanji": null,
+    "kanji_vn": "TỬ CUNG",
+    "vn": "có [con]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson11_2",
+    "jp": "います",
+    "kanji": null,
+    "kanji_vn": "NHẬT BẢN",
+    "vn": "ở [Nhật]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson11_3",
+    "jp": "かかります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mất, tốn (thời gian, tiền bạc)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson11_4",
+    "jp": "やすみます",
+    "kanji": "休みます",
+    "kanji_vn": "HƯUHỘI XÃ",
+    "vn": "nghỉ [làm việc]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson11_5",
+    "jp": "ひとつ",
+    "kanji": "１つ",
+    "kanji_vn": null,
+    "vn": "một cái (dùng để đếm đồ vật)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_6",
+    "jp": "ふたつ",
+    "kanji": "２つ",
+    "kanji_vn": null,
+    "vn": "hai cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_7",
+    "jp": "みっつ",
+    "kanji": "３つ",
+    "kanji_vn": null,
+    "vn": "ba cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_8",
+    "jp": "よっつ",
+    "kanji": "４つ",
+    "kanji_vn": null,
+    "vn": "bốn cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_9",
+    "jp": "いつつ",
+    "kanji": "５つ",
+    "kanji_vn": null,
+    "vn": "năm cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_10",
+    "jp": "むっつ",
+    "kanji": "６つ",
+    "kanji_vn": null,
+    "vn": "sáu cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_11",
+    "jp": "ななつ",
+    "kanji": "７つ",
+    "kanji_vn": null,
+    "vn": "bảy cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_12",
+    "jp": "やっつ",
+    "kanji": "８つ",
+    "kanji_vn": null,
+    "vn": "tám cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_13",
+    "jp": "ここのつ",
+    "kanji": "９つ",
+    "kanji_vn": null,
+    "vn": "chín cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_14",
+    "jp": "とお",
+    "kanji": "10",
+    "kanji_vn": null,
+    "vn": "mười cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_15",
+    "jp": "いくつ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mấy cái, bao nhiêu cái",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson11_16",
+    "jp": "ひとり",
+    "kanji": "１人",
+    "kanji_vn": "NHÂN",
+    "vn": "một người",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_17",
+    "jp": "ふたり",
+    "kanji": "２人",
+    "kanji_vn": "NHÂN",
+    "vn": "hai người",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_18",
+    "jp": "―にん",
+    "kanji": "－人",
+    "kanji_vn": "NHÂN",
+    "vn": "- người",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_19",
+    "jp": "―だい",
+    "kanji": "－台",
+    "kanji_vn": "ĐÀI",
+    "vn": "- cái (dùng để đếm máy móc, xe cộ v.v.)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_20",
+    "jp": "―まい",
+    "kanji": "－枚",
+    "kanji_vn": "MAI",
+    "vn": "tờ, tấm (dùng để đếm những vật mỏng như giấy, con tem v.v.)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_21",
+    "jp": "―かい",
+    "kanji": "―回",
+    "kanji_vn": "HỒI",
+    "vn": "- lần",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_22",
+    "jp": "りんご",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "táo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_23",
+    "jp": "みかん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "quýt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_24",
+    "jp": "サンドイッチ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bánh San Uých",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson11_25",
+    "jp": "カレー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "món [cơm] ca-ri",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson11_26",
+    "jp": "アイスクリーム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "kem",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson11_27",
+    "jp": "きって",
+    "kanji": "切手",
+    "kanji_vn": "THIẾT THỦ",
+    "vn": "tem",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_28",
+    "jp": "はがき",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bưu thiếp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_29",
+    "jp": "ふうとう",
+    "kanji": "封筒",
+    "kanji_vn": "PHONG ĐỒNG",
+    "vn": "phong bì",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_30",
+    "jp": "りょうしん",
+    "kanji": "両親",
+    "kanji_vn": "LƯỠNG THÂN",
+    "vn": "bố mẹ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_31",
+    "jp": "きょうだい",
+    "kanji": "兄弟",
+    "kanji_vn": "HUYNH ĐỆ",
+    "vn": "anh chị em",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_32",
+    "jp": "あに",
+    "kanji": "兄",
+    "kanji_vn": "HUYNH",
+    "vn": "anh trai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_33",
+    "jp": "おにいさん",
+    "kanji": "お兄さん",
+    "kanji_vn": "HUYNH",
+    "vn": "anh trai (dùng cho người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_34",
+    "jp": "あね",
+    "kanji": "姉",
+    "kanji_vn": "TỶ",
+    "vn": "chị gái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_35",
+    "jp": "おねえさん",
+    "kanji": "お姉さん",
+    "kanji_vn": "TỶ",
+    "vn": "chị gái (dùng cho người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_36",
+    "jp": "おとうと",
+    "kanji": "弟",
+    "kanji_vn": "ĐỆ",
+    "vn": "em trai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_37",
+    "jp": "おとうとさん",
+    "kanji": "弟さん",
+    "kanji_vn": "ĐỆ",
+    "vn": "em trai (dùng cho người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_38",
+    "jp": "いもうと",
+    "kanji": "妹",
+    "kanji_vn": "MUỘI",
+    "vn": "em gái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_39",
+    "jp": "いもうとさん",
+    "kanji": "妹さん",
+    "kanji_vn": "MUỘI",
+    "vn": "em gái (dùng cho người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_40",
+    "jp": "がいこく",
+    "kanji": "外国",
+    "kanji_vn": "NGOẠI QUỐC",
+    "vn": "nước ngoài",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson11_41",
+    "jp": "りゅうがくせい",
+    "kanji": "留学生",
+    "kanji_vn": "LƯU HỌC SINH",
+    "vn": "lưu học sinh, sinh viên nước ngoài",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_42",
+    "jp": "クラス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "lớp học",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson11_43",
+    "jp": "―じかん",
+    "kanji": "―時間",
+    "kanji_vn": "THỜI GIAN",
+    "vn": "- tiếng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_44",
+    "jp": "―しゅうかん",
+    "kanji": "―週間",
+    "kanji_vn": "CHU GIAN",
+    "vn": "- tuần",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_45",
+    "jp": "―かげつ",
+    "kanji": "－か月",
+    "kanji_vn": "NGUYỆT",
+    "vn": "- tháng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_46",
+    "jp": "―ねん",
+    "kanji": "―年",
+    "kanji_vn": "NIÊN",
+    "vn": "- năm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_47",
+    "jp": "～ぐらい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khoảng ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson11_48",
+    "jp": "どのくらい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bao lâu",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson11_49",
+    "jp": "ぜんぶで",
+    "kanji": "全部で",
+    "kanji_vn": "TOÀN BỘ",
+    "vn": "tổng cộng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson11_50",
+    "jp": "みんな",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tất cả",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson11_51",
+    "jp": "～だけ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chỉ ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  }
+]

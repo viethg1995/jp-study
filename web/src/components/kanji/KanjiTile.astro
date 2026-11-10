@@ -1,0 +1,20 @@
+---
+// Ô một chữ Hán trên trang danh sách: chữ lớn + âm Hán-Việt. Link tới trang chi tiết.
+import type { KanjiEntry } from "../../content.config";
+
+interface Props {
+  kanji: KanjiEntry;
+  href: string;
+}
+const { kanji, href } = Astro.props;
+const hv = kanji.han_viet[0] ?? "";
+---
+
+<a
+  href={href}
+  class="flex flex-col items-center rounded-lg border border-line bg-surface px-1 pt-2 pb-1.5 transition hover:border-primary"
+  title={kanji.meaning_vi ? `${kanji.char} — ${kanji.meaning_vi}` : kanji.char}
+>
+  <span class="jp text-3xl leading-tight text-ink" lang="ja">{kanji.char}</span>
+  <span class="mt-1 w-full truncate text-center text-[10px] tracking-wide text-ink-faint">{hv || " "}</span>
+</a>

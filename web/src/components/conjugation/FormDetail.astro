@@ -1,0 +1,84 @@
+---
+// Nội dung một thể: tên · bài · cách dùng · quy tắc từng nhóm (khung nổi bật) · bảng ví dụ.
+// Dùng chung cho trang /chia-the/the/<nhóm>/<thể>/ (titleTag h1) và modal ở trang tổng quan (h2).
+import type { ConjEntry, ConjFormDef } from "../../content.config";
+import { KIND_LABEL, entryPath, ruleLines } from "../../lib/conjugation";
+import RubyText from "../jp/RubyText.astro";
+import Tag from "../ui/Tag.astro";
+
+interface Props {
+  f: ConjFormDef;
+  examples: ConjEntry[][]; // theo thứ tự f.rules
+  base: string;
+  titleTag?: "h1" | "h2";
+}
+const { f, examples, base, titleTag = "h1" } = Astro.props;
+const Title = titleTag;
+const Sub = titleTag === "h1" ? "h2" : "h3";
+---
+
+<Title class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+  <span class="text-3xl font-bold text-ink">{f.name_vi}</span>
+  <span class="jp text-xl text-ink-muted" lang="ja">{f.name_ja}</span>
+  <Tag tone="primary">{f.lesson !== null ? `Bài ${f.lesson}` : "N3 · ngoài giáo trình"}</Tag>
+</Title>
+<p class="mt-3 text-lg leading-relaxed text-ink">{f.use_vi}</p>
+
+{
+  f.rules.map((r, i) => (
+    <section class="mt-8">
+      <Sub class="text-lg font-bold text-ink">{KIND_LABEL[r.kind]}</Sub>
+      <div class="mt-3 flex flex-col gap-2 rounded-lg border border-primary-line bg-primary-soft px-5 py-4 text-sm leading-relaxed font-medium text-ink">
+        {ruleLines(r.text).map((l) => (
+          <div>
+            {l.head && <p>{l.head}</p>}
+            {l.items.length > 0 && (
+              <ul class:list={["flex flex-col gap-1", { "mt-1.5": l.head }]}>
+                {l.items.map((it) => (
+                  <li class="flex gap-2">
+                    <span class="text-primary">•</span>
+                    <span class="jp" lang="ja">{it}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+      {(examples[i]?.length ?? 0) > 0 && (
+        <div class="mt-4 overflow-hidden rounded-lg border border-line bg-surface">
+          <table class="w-full table-fixed text-left">
+            <thead class="border-b border-line text-xs text-ink-faint">
+              <tr>
+                <th scope="col" class="w-[38%] px-5 py-2 font-normal">Gốc</th>
+                <th scope="col" class="w-[38%] px-5 py-2 font-normal">{f.name_vi}</th>
+                <th scope="col" class="hidden px-5 py-2 font-normal sm:table-cell">Cách chia</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-line">
+              {examples[i]!.map((e) => {
+                const v = e.forms.find((x) => x.form === f.id);
+                return (
+                  <tr class="hover:bg-primary-soft">
+                    <td class="px-5 py-3 align-baseline">
+                      <a href={`${base}/${entryPath(e)}`} class="hover:underline">
+                        <RubyText ruby={e.ruby} class="text-lg text-ink" />
+                      </a>
+                      <span class="block text-xs text-ink-faint">{e.meaning_vi}</span>
+                    </td>
+                    <td class="px-5 py-3 align-baseline">
+                      {v ? <RubyText ruby={v.ruby} class="text-lg font-semibold text-ink" /> : <span class="text-ink-faint">— không dùng</span>}
+                    </td>
+                    <td class="jp hidden px-5 py-3 align-baseline text-sm text-ink-muted sm:table-cell" lang="ja">
+                      {v?.rule}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </section>
+  ))
+}

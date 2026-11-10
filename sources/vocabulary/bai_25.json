@@ -1,0 +1,83 @@
+[
+  {
+    "id": "lesson25_1",
+    "jp": "かんがえます",
+    "kanji": "考えます",
+    "kanji_vn": "KHẢO",
+    "vn": "nghĩ, suy nghĩ",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson25_2",
+    "jp": "つきます",
+    "kanji": "着きます",
+    "kanji_vn": "TRƯỚC",
+    "vn": "đến",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson25_3",
+    "jp": "とります",
+    "kanji": "取ります",
+    "kanji_vn": "THỦNIÊN",
+    "vn": "thêm [tuổi]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson25_4",
+    "jp": "たります",
+    "kanji": "足ります",
+    "kanji_vn": "ĐỦ",
+    "vn": "đủ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson25_5",
+    "jp": "いなか",
+    "kanji": "田舎",
+    "kanji_vn": "ĐIỀN XÁ",
+    "vn": "quê, nông thôn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson25_6",
+    "jp": "チャンス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cơ hội",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson25_7",
+    "jp": "おく",
+    "kanji": "億",
+    "kanji_vn": "ỨC",
+    "vn": "một trăm triệu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson25_8",
+    "jp": "もし",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nếu [~ thì]",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson25_9",
+    "jp": "いみ",
+    "kanji": "意味",
+    "kanji_vn": "Ý VỊ",
+    "vn": "nghĩa, ý nghĩa",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

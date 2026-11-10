@@ -1,0 +1,434 @@
+[
+  {
+    "id": "lesson4_1",
+    "jp": "おきます",
+    "kanji": "起きます",
+    "kanji_vn": "KHỞI",
+    "vn": "dậy, thức dậy",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson4_2",
+    "jp": "ねます",
+    "kanji": "寝ます",
+    "kanji_vn": "TẨM",
+    "vn": "ngủ, đi ngủ",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson4_3",
+    "jp": "はたらきます",
+    "kanji": "働きます",
+    "kanji_vn": "ĐỘNG",
+    "vn": "làm việc",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson4_4",
+    "jp": "やすみます",
+    "kanji": "休みます",
+    "kanji_vn": "HƯU",
+    "vn": "nghỉ, nghỉ ngơi",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson4_5",
+    "jp": "べんきょうします",
+    "kanji": "勉強します",
+    "kanji_vn": "MIỄN CƯỜNG",
+    "vn": "học",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson4_6",
+    "jp": "おわります",
+    "kanji": "終わります",
+    "kanji_vn": "CHUNG",
+    "vn": "hết, kết thúc, xong",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson4_7",
+    "jp": "デパート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bách hóa",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson4_8",
+    "jp": "ぎんこう",
+    "kanji": "銀行",
+    "kanji_vn": "NGÂN HÀNH",
+    "vn": "ngân hàng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_9",
+    "jp": "ゆうびんきょく",
+    "kanji": "郵便局",
+    "kanji_vn": "BƯU TIỆN CỤC",
+    "vn": "bưu điện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_10",
+    "jp": "としょかん",
+    "kanji": "図書館",
+    "kanji_vn": "ĐỒ THƯ QUÁN",
+    "vn": "thư viện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_11",
+    "jp": "びじゅつかん",
+    "kanji": "美術館",
+    "kanji_vn": "MỸ THUẬT QUÁN",
+    "vn": "bảo tàng mỹ thuật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_12",
+    "jp": "いま",
+    "kanji": "今",
+    "kanji_vn": "KIM",
+    "vn": "bây giờ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_13",
+    "jp": "―じ",
+    "kanji": "－時",
+    "kanji_vn": "THỜI",
+    "vn": "-giờ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_14",
+    "jp": "―ふん",
+    "kanji": "―分",
+    "kanji_vn": "PHÂN",
+    "vn": "- phút",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_15",
+    "jp": "はん",
+    "kanji": "半",
+    "kanji_vn": "BÁN",
+    "vn": "rưỡi, nửa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_16",
+    "jp": "なんじ",
+    "kanji": "何時",
+    "kanji_vn": "HÀ THỜI",
+    "vn": "mấy giờ",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson4_17",
+    "jp": "なんぷん",
+    "kanji": "何分",
+    "kanji_vn": "HÀ PHÂN",
+    "vn": "mấy phút",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson4_18",
+    "jp": "ごぜん",
+    "kanji": "午前",
+    "kanji_vn": "NGỌ TIỀN",
+    "vn": "sáng, trước 12 giờ trưa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_19",
+    "jp": "ごご",
+    "kanji": "午後",
+    "kanji_vn": "NGỌ HẬU",
+    "vn": "chiều, sau 12 giờ trưa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_20",
+    "jp": "あさ",
+    "kanji": "朝",
+    "kanji_vn": "TRIỀU",
+    "vn": "buổi sáng, sáng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_21",
+    "jp": "ひる",
+    "kanji": "昼",
+    "kanji_vn": "TRÚ",
+    "vn": "buổi trưa, trưa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_22",
+    "jp": "ばん",
+    "kanji": "晩",
+    "kanji_vn": "VÃN(DẠ)",
+    "vn": "buổi tối, tối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_23",
+    "jp": "おととい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hôm kia",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_24",
+    "jp": "きのう",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hôm qua",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_25",
+    "jp": "きょう",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hôm nay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_26",
+    "jp": "あした",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ngày mai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_27",
+    "jp": "あさって",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ngày kia",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_28",
+    "jp": "けさ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sáng nay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_29",
+    "jp": "こんばん",
+    "kanji": "今晩",
+    "kanji_vn": "KIM VÃN",
+    "vn": "tối nay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_30",
+    "jp": "やすみ",
+    "kanji": "休み",
+    "kanji_vn": "HƯU",
+    "vn": "nghỉ, nghỉ phép, ngày nghỉ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_31",
+    "jp": "ひるやすみ",
+    "kanji": "昼休み",
+    "kanji_vn": "TRÚ HƯU",
+    "vn": "nghỉ trưa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_32",
+    "jp": "試験",
+    "kanji": "試験",
+    "kanji_vn": "THÍ NGHIỆM",
+    "vn": "thi, kỳ thi, kiểm tra",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_33",
+    "jp": "会議",
+    "kanji": "会議",
+    "kanji_vn": "HỘI NGHỊ",
+    "vn": "cuộc họp, hội nghị (～を します： tổ chức cuộc họp, hội nghị)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_34",
+    "jp": "映画",
+    "kanji": "映画",
+    "kanji_vn": "ÁNH HỌA",
+    "vn": "phim, điện ảnh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_35",
+    "jp": "まいあさ",
+    "kanji": "毎朝",
+    "kanji_vn": "MỖI TRIỀU",
+    "vn": "hàng sáng, mỗi sáng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_36",
+    "jp": "まいばん",
+    "kanji": "毎晩",
+    "kanji_vn": "MỖI VÃN",
+    "vn": "hàng tối, mỗi tối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_37",
+    "jp": "まいにち",
+    "kanji": "毎日",
+    "kanji_vn": "MỖI NHẬT",
+    "vn": "hàng ngày, mỗi ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_38",
+    "jp": "げつようび",
+    "kanji": "月曜日",
+    "kanji_vn": "NGUYỆT DIỆU NHẬT",
+    "vn": "thứ hai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_39",
+    "jp": "かようび",
+    "kanji": "火曜日",
+    "kanji_vn": "HỎA DIỆU NHẬT",
+    "vn": "thứ ba",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_40",
+    "jp": "すいようび",
+    "kanji": "水曜日",
+    "kanji_vn": "THỦY DIỆU NHẬT",
+    "vn": "thứ tư",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_41",
+    "jp": "もくようび",
+    "kanji": "木曜日",
+    "kanji_vn": "MỘC DIỆU NHẬT",
+    "vn": "thứ năm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_42",
+    "jp": "きんようび",
+    "kanji": "金曜日",
+    "kanji_vn": "KIM DIỆU NHẬT",
+    "vn": "thứ sáu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_43",
+    "jp": "どようび",
+    "kanji": "土曜日",
+    "kanji_vn": "THỔ DIỆU NHẬT",
+    "vn": "thứ bảy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_44",
+    "jp": "にちようび",
+    "kanji": "日曜日",
+    "kanji_vn": "NHẬT DIỆU NHẬT",
+    "vn": "chủ nhật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson4_45",
+    "jp": "なんようび",
+    "kanji": "何曜日",
+    "kanji_vn": "HÀ DIỆU NHẬT",
+    "vn": "thứ mấy",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson4_46",
+    "jp": "～から",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ từ",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson4_47",
+    "jp": "～まで",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ đến",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson4_48",
+    "jp": "～と",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ và (dùng để nối hai danh từ)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  }
+]

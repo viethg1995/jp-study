@@ -1,0 +1,111 @@
+---
+// Thẻ từ vựng 2 mặt.
+//   Mặt trước: từ (kanji + kana; công tắc "Nhấn mạnh" chọn chữ nào to) + loại từ (góc phải, hover hiện tên)
+//   Mặt sau  : nghĩa · âm Hán-Việt · câu ví dụ
+// Chế độ Lưới: hiện cả 2 mặt (xem tổng quan). Chế độ Từng thẻ: chỉ 1 mặt, click/Space để lật.
+// Lật thẻ thuần CSS: checkbox ẩn .flip-toggle + <label> bao cả thẻ (global.css). Link bên trong (Trước/Sau) không lật.
+import type { VocabEntry } from "../../content.config";
+import Tooltip from "../ui/Tooltip.astro";
+import CardNav, { type NavLink } from "./CardNav.astro";
+import ExampleBlock from "./ExampleBlock.astro";
+
+interface Props {
+  word: VocabEntry;
+  index: number;
+  total: number;
+  prev: NavLink;
+  next: NavLink;
+  conjHref: string | null; // trang chia thể (động từ, tính từ)
+}
+const { word, index, total, prev, next, conjHref } = Astro.props;
+const ex = word.examples[0];
+// Thông tin phụ (chủ yếu sách N3): tự/tha động từ, trợ từ đi kèm, cách viết khác, trái nghĩa
+const TRANS: Record<string, string> = { 自: "tự động từ", 他: "tha động từ", "自/他": "tự / tha động từ" };
+const meta: { k: string; v: string }[] = [
+  ...(word.transitivity ? [{ k: "Loại:", v: TRANS[word.transitivity] ?? word.transitivity }] : []),
+  ...(word.particle ? [{ k: "Đi với:", v: word.particle }] : []),
+  ...(word.variants.length ? [{ k: "Cách viết khác:", v: word.variants.join("、") }] : []),
+  ...(word.antonyms.length ? [{ k: "Trái nghĩa:", v: word.antonyms.join("、") }] : []),
+];
+const flipId = `flip-${word.id}`;
+---
+
+<article
+  class="word-card relative flex scroll-mt-20 flex-col rounded-lg border border-line bg-surface p-4 sm:p-5"
+  id={word.id}
+>
+  <input type="checkbox" id={flipId} class="flip-toggle sr-only" aria-label="Lật thẻ" />
+
+  <label for={flipId} class="card-faces">
+    <div class="card-front relative">
+      <div class="absolute top-0 right-0">
+        <Tooltip text={word.pos.label}>{word.pos.code}</Tooltip>
+      </div>
+      <h2 class="headword jp flex flex-col pr-12" lang="ja">
+        {
+          word.kanji ? (
+            <>
+              <span class="hw-kana">{word.kana}</span>
+              <span class="hw-kanji">{word.kanji}</span>
+            </>
+          ) : (
+            <span class="hw-solo">{word.kana}</span>
+          )
+        }
+      </h2>
+      <p class="flip-hint text-xs text-ink-faint">Nhấn để xem nghĩa</p>
+    </div>
+
+    <div class="card-back">
+      <p class="back-meaning mt-1 text-base text-ink" title={word.meaning_vi}>
+        {
+          word.senses.map((s, i) => (
+            <>
+              {i > 0 && <span class="text-ink-faint">; </span>}
+              {s.text}
+              {s.context && <span class="ml-1 text-sm text-ink-faint">({s.context})</span>}
+            </>
+          ))
+        }
+      </p>
+      {
+        word.han_viet && (
+          <p class="back-hv mt-1.5 text-xs tracking-wider text-ink-faint" title="Âm Hán-Việt">
+            {word.han_viet}
+          </p>
+        )
+      }
+      {
+        conjHref && (
+          <a
+            href={conjHref}
+            class="back-conj mt-2 inline-flex items-center gap-1 rounded border border-line px-1.5 py-0.5 text-xs text-primary hover:border-primary-line hover:bg-primary-soft"
+          >
+            <span class="jp" lang="ja">活</span> Chia thể →
+          </a>
+        )
+      }
+      {
+        meta.length > 0 && (
+          <ul class="back-meta mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs text-ink-muted">
+            {meta.map((m) => (
+              <li>
+                <span class="text-ink-faint">{m.k}</span> <span class="jp" lang="ja">{m.v}</span>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+      {
+        ex ? (
+          <ExampleBlock example={ex} />
+        ) : word.book === "minna" ? (
+          <p class="mt-3 border-t border-line pt-3 text-xs text-ink-faint">Cụm hội thoại — không có câu ví dụ</p>
+        ) : null
+      }
+      <p class="flip-hint text-xs text-ink-faint">Nhấn để xem từ</p>
+    </div>
+  </label>
+
+  <CardNav index={index} total={total} prev={prev} next={next} />
+</article>

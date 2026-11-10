@@ -1,0 +1,651 @@
+{
+  "mn-06-001": {
+    "examples": [
+      {
+        "id": "mn-06-001-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}パンを[[{食|た}べます]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi ăn bánh mì."
+      }
+    ]
+  },
+  "mn-06-002": {
+    "examples": [
+      {
+        "id": "mn-06-002-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}{牛乳|ぎゅうにゅう}を[[{飲|の}みます]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi uống sữa."
+      }
+    ]
+  },
+  "mn-06-003": {
+    "examples": [
+      {
+        "id": "mn-06-003-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{私|わたし}は{煙草|たばこ}を[[{吸|す}いません]]。",
+        "source": "ai-draft",
+        "vi": "Tôi không hút thuốc lá."
+      }
+    ]
+  },
+  "mn-06-004": {
+    "examples": [
+      {
+        "id": "mn-06-004-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{昨日|きのう}{家|うち}で{映画|えいが}を[[{見|み}ました]]。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã xem phim ở nhà."
+      }
+    ]
+  },
+  "mn-06-005": {
+    "examples": [
+      {
+        "id": "mn-06-005-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}ラジオを[[{聞|き}きます]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi nghe radio."
+      }
+    ]
+  },
+  "mn-06-006": {
+    "examples": [
+      {
+        "id": "mn-06-006-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{図書館|としょかん}で{本|ほん}を[[{読|よ}みます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đọc sách ở thư viện."
+      }
+    ]
+  },
+  "mn-06-007": {
+    "examples": [
+      {
+        "id": "mn-06-007-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "ここに{名前|なまえ}を[[{書|か}きます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi viết tên vào đây."
+      }
+    ]
+  },
+  "mn-06-008": {
+    "examples": [
+      {
+        "id": "mn-06-008-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{駅|えき}で{新聞|しんぶん}を[[{買|か}いました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua báo ở nhà ga."
+      }
+    ]
+  },
+  "mn-06-009": {
+    "examples": [
+      {
+        "id": "mn-06-009-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{庭|にわ}で{写真|しゃしん}を[[{撮|と}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi chụp ảnh ở ngoài vườn."
+      }
+    ]
+  },
+  "mn-06-010": {
+    "examples": [
+      {
+        "id": "mn-06-010-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{日曜日|にちようび}にテニスを[[します]]。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật tôi chơi quần vợt."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "する thường viết kana; 為る cổ",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-011": {
+    "examples": [
+      {
+        "id": "mn-06-011-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{駅|えき}で{友達|ともだち}に[[{会|あ}います]]。",
+        "source": "ai-draft",
+        "vi": "Tôi gặp bạn ở nhà ga."
+      }
+    ]
+  },
+  "mn-06-012": {
+    "examples": [
+      {
+        "id": "mn-06-012-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{家族|かぞく}と[[ご{飯|はん}]]を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn cơm cùng gia đình."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-013": {
+    "examples": [
+      {
+        "id": "mn-06-013-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}７{時|じ}に[[{朝|あさ}ごはん]]を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi ăn sáng lúc 7 giờ."
+      }
+    ]
+  },
+  "mn-06-014": {
+    "examples": [
+      {
+        "id": "mn-06-014-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{食堂|しょくどう}で[[{昼|ひる}ごはん]]を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn trưa ở nhà ăn."
+      }
+    ]
+  },
+  "mn-06-015": {
+    "examples": [
+      {
+        "id": "mn-06-015-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{家|うち}で[[{晩|ばん}ごはん]]を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn tối ở nhà."
+      }
+    ]
+  },
+  "mn-06-016": {
+    "examples": [
+      {
+        "id": "mn-06-016-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{店|みせ}で[[パン]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua bánh mì ở cửa hàng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "パン: PN→N (JMdict: danh từ thông dụng (bread; (sweet) pastry))",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-017": {
+    "examples": [
+      {
+        "id": "mn-06-017-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}[[{卵|たまご}]]を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi ăn trứng."
+      }
+    ]
+  },
+  "mn-06-018": {
+    "examples": [
+      {
+        "id": "mn-06-018-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{昨日|きのう}[[{肉|にく}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã mua thịt."
+      }
+    ]
+  },
+  "mn-06-019": {
+    "examples": [
+      {
+        "id": "mn-06-019-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{魚|さかな}]]を{食|た}べません。",
+        "source": "ai-draft",
+        "vi": "Tôi không ăn cá."
+      }
+    ]
+  },
+  "mn-06-020": {
+    "examples": [
+      {
+        "id": "mn-06-020-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{店|みせ}で[[{野菜|やさい}]]を{買|か}います。",
+        "source": "ai-draft",
+        "vi": "Tôi mua rau ở cửa hàng."
+      }
+    ]
+  },
+  "mn-06-021": {
+    "examples": [
+      {
+        "id": "mn-06-021-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎日|まいにち}[[{果物|くだもの}]]を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Ngày nào tôi cũng ăn hoa quả."
+      }
+    ]
+  },
+  "mn-06-022": {
+    "examples": [
+      {
+        "id": "mn-06-022-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "[[{水|みず}]]を{飲|の}みませんか。",
+        "source": "ai-draft",
+        "vi": "Anh/chị uống nước không?"
+      }
+    ]
+  },
+  "mn-06-023": {
+    "examples": [
+      {
+        "id": "mn-06-023-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{一緒|いっしょ}に[[お{茶|ちゃ}]]を{飲|の}みませんか。",
+        "source": "ai-draft",
+        "vi": "Cùng uống trà nhé?"
+      }
+    ]
+  },
+  "mn-06-024": {
+    "examples": [
+      {
+        "id": "mn-06-024-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}[[{紅茶|こうちゃ}]]を{飲|の}みます。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi uống trà đen."
+      }
+    ]
+  },
+  "mn-06-025": {
+    "examples": [
+      {
+        "id": "mn-06-025-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "[[{牛乳|ぎゅうにゅう}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua sữa."
+      }
+    ]
+  },
+  "mn-06-026": {
+    "examples": [
+      {
+        "id": "mn-06-026-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "[[ジュース]]を{飲|の}みませんか。",
+        "source": "ai-draft",
+        "vi": "Bạn uống nước ép không?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ジュース: PN→N (JMdict: danh từ thông dụng (juice))",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-027": {
+    "examples": [
+      {
+        "id": "mn-06-027-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{毎晩|まいばん}[[ビール]]を{飲|の}みます。",
+        "source": "ai-draft",
+        "vi": "Tối nào tôi cũng uống bia."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ビール: PN→N (JMdict: danh từ thông dụng (beer))",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-028": {
+    "examples": [
+      {
+        "id": "mn-06-028-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{酒|さけ}]]を{飲|の}みません。",
+        "source": "ai-draft",
+        "vi": "Tôi không uống rượu."
+      }
+    ]
+  },
+  "mn-06-029": {
+    "examples": [
+      {
+        "id": "mn-06-029-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{庭|にわ}で[[{煙草|たばこ}]]を{吸|す}います。",
+        "source": "ai-draft",
+        "vi": "Tôi hút thuốc ở ngoài vườn."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-030": {
+    "examples": [
+      {
+        "id": "mn-06-030-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{昨日|きのう}[[{手紙|てがみ}]]を{書|か}きました。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã viết thư."
+      }
+    ]
+  },
+  "mn-06-031": {
+    "examples": [
+      {
+        "id": "mn-06-031-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{明日|あした}[[レポート]]を{書|か}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi viết báo cáo."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "レポート: PN→N (JMdict: danh từ thông dụng (report; paper))",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-032": {
+    "examples": [
+      {
+        "id": "mn-06-032-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{京都|きょうと}で[[{写真|しゃしん}]]を{撮|と}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã chụp ảnh ở Kyoto."
+      }
+    ]
+  },
+  "mn-06-033": {
+    "examples": [
+      {
+        "id": "mn-06-033-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{家|うち}で[[ビデオ]]を{見|み}ます。",
+        "source": "ai-draft",
+        "vi": "Tôi xem video ở nhà."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ビデオ: PN→N (JMdict: danh từ thông dụng (video (esp. a televised image)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-034": {
+    "examples": [
+      {
+        "id": "mn-06-034-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "あの[[{店|みせ}]]で{靴|くつ}を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua giày ở cửa hàng kia."
+      }
+    ]
+  },
+  "mn-06-035": {
+    "examples": [
+      {
+        "id": "mn-06-035-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "[[{庭|にわ}]]でお{茶|ちゃ}を{飲|の}みませんか。",
+        "source": "ai-draft",
+        "vi": "Ra vườn uống trà nhé?"
+      }
+    ]
+  },
+  "mn-06-036": {
+    "examples": [
+      {
+        "id": "mn-06-036-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{今晩|こんばん}[[{宿題|しゅくだい}]]をします。",
+        "source": "ai-draft",
+        "vi": "Tối nay tôi làm bài tập về nhà."
+      }
+    ]
+  },
+  "mn-06-037": {
+    "examples": [
+      {
+        "id": "mn-06-037-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{日曜日|にちようび}に[[テニス]]をしませんか。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật chơi quần vợt nhé?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "テニス: PN→N (JMdict: danh từ thông dụng (tennis))",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-038": {
+    "examples": [
+      {
+        "id": "mn-06-038-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{友達|ともだち}と[[サッカー]]をします。",
+        "source": "ai-draft",
+        "vi": "Tôi chơi bóng đá với bạn."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "サッカー: PN→N (JMdict: danh từ thông dụng (soccer; (association) football))",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-039": {
+    "examples": [
+      {
+        "id": "mn-06-039-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{日曜日|にちようび}に[[{花見|はなみ}]]をしませんか。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật đi ngắm hoa anh đào nhé?"
+      }
+    ]
+  },
+  "mn-06-040": {
+    "examples": [
+      {
+        "id": "mn-06-040-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{明日|あした}[[{何|なに}]]をしますか。",
+        "source": "ai-draft",
+        "vi": "Ngày mai anh/chị làm gì?"
+      }
+    ]
+  },
+  "mn-06-041": {
+    "examples": [
+      {
+        "id": "mn-06-041-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "[[{一緒|いっしょ}に]]{昼|ひる}ごはんを{食|た}べませんか。",
+        "source": "ai-draft",
+        "vi": "Cùng ăn trưa nhé?"
+      }
+    ],
+    "han_viet": "NHẤT TỰ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-042": {
+    "examples": [
+      {
+        "id": "mn-06-042-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "[[ちょっと]]{休|やす}みましょう。",
+        "source": "ai-draft",
+        "vi": "Nghỉ một chút nhé."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "一寸 là ateji",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-043": {
+    "examples": [
+      {
+        "id": "mn-06-043-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{私|わたし}は[[いつも]]{駅|えき}で{新聞|しんぶん}を{買|か}います。",
+        "source": "ai-draft",
+        "vi": "Tôi luôn mua báo ở nhà ga."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-044": {
+    "examples": [
+      {
+        "id": "mn-06-044-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "[[{時々|ときどき}]]{家族|かぞく}と{映画|えいが}を{見|み}ます。",
+        "source": "ai-draft",
+        "vi": "Thỉnh thoảng tôi xem phim cùng gia đình."
+      }
+    ]
+  },
+  "mn-06-045": {
+    "examples": [
+      {
+        "id": "mn-06-045-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "{宿題|しゅくだい}をします。[[それから]]、{寝|ね}ます。",
+        "source": "ai-draft",
+        "vi": "Tôi làm bài tập. Sau đó, tôi đi ngủ."
+      }
+    ]
+  },
+  "mn-06-046": {
+    "examples": [
+      {
+        "id": "mn-06-046-e1",
+        "max_lesson": 6,
+        "review": "user",
+        "ruby": "「{一緒|いっしょ}に{行|い}きませんか。」「[[ええ]]、{行|い}きましょう。」",
+        "source": "ai-draft",
+        "vi": "\"Đi cùng nhé?\" \"Ừ, đi thôi.\""
+      }
+    ]
+  }
+}

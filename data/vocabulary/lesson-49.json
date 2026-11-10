@@ -1,0 +1,852 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-001-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{図書館|としょかん}を[[{利用|りよう}する]]{場合|ばあい}は、カードが{必要|ひつよう}です。",
+          "source": "ai-draft",
+          "vi": "Khi sử dụng thư viện thì cần có thẻ."
+        }
+      ],
+      "han_viet": "LỢI DỤNG",
+      "id": "mn-49-001",
+      "kana": "りようします",
+      "kanji": "利用します",
+      "kanji_refs": [
+        "k-利",
+        "k-用"
+      ],
+      "legacy_id": "lesson49_1",
+      "lesson": 49,
+      "meaning_vi": "sử dụng, tận dụng, dùng",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sử dụng, tận dụng, dùng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-002-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{父|ちち}は{銀行|ぎんこう}に[[{勤|つと}めて]]います。",
+          "source": "ai-draft",
+          "vi": "Bố tôi làm việc ở ngân hàng."
+        }
+      ],
+      "han_viet": "CẦN",
+      "id": "mn-49-002",
+      "kana": "つとめます",
+      "kanji": "勤めます",
+      "kanji_refs": [
+        "k-勤"
+      ],
+      "legacy_id": "lesson49_2",
+      "lesson": 49,
+      "meaning_vi": "làm việc ở [công ty]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "công ty",
+          "text": "làm việc ở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-003-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "どうぞ、こちらにお[[{掛|か}け]]ください。",
+          "source": "ai-draft",
+          "vi": "Xin mời ngồi đây."
+        }
+      ],
+      "han_viet": "QUẢI",
+      "id": "mn-49-003",
+      "kana": "かけます",
+      "kanji": "掛けます",
+      "kanji_refs": [
+        "k-掛"
+      ],
+      "legacy_id": "lesson49_3",
+      "lesson": 49,
+      "meaning_vi": "ngồi [ghế]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-22-004",
+        "mn-30-002",
+        "mn-38-008"
+      ],
+      "senses": [
+        {
+          "context": "ghế",
+          "text": "ngồi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-004-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{休|やす}みはどう[[{過|す}ごされました]]か。",
+          "source": "ai-draft",
+          "vi": "Kỳ nghỉ của ngài trải qua thế nào ạ?"
+        }
+      ],
+      "han_viet": "QUÁ",
+      "id": "mn-49-004",
+      "kana": "すごします",
+      "kanji": "過ごします",
+      "kanji_refs": [
+        "k-過"
+      ],
+      "legacy_id": "lesson49_4",
+      "lesson": 49,
+      "meaning_vi": "tiêu thời gian, trải qua",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiêu thời gian, trải qua"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-49-005-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{社長|しゃちょう}は{今|いま}{会議室|かいぎしつ}に[[いらっしゃいます]]。",
+          "source": "ai-draft",
+          "vi": "Giám đốc hiện đang ở phòng họp."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-49-005",
+      "kana": "いらっしゃいます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson49_5",
+      "lesson": 49,
+      "meaning_vi": "ở, có, đi, đến (tôn kính ngữ của います、いきます và きます)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ở, có, đi, đến (tôn kính ngữ của います、いきます và きます)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-006-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{先生|せんせい}、{何|なに}を[[{召|め}し{上|あ}がります]]か。",
+          "source": "ai-draft",
+          "vi": "Thưa thầy, thầy dùng gì ạ?"
+        }
+      ],
+      "han_viet": "TRIỆU THƯỢNG",
+      "id": "mn-49-006",
+      "kana": "めしあがります",
+      "kanji": "召し上がります",
+      "kanji_refs": [
+        "k-召",
+        "k-上"
+      ],
+      "legacy_id": "lesson49_6",
+      "lesson": 49,
+      "meaning_vi": "ăn, uống (tôn kính ngữ của たべます và のみます)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ăn, uống (tôn kính ngữ của たべます và のみます)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-49-007-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{部長|ぶちょう}がそう[[おっしゃいました]]。",
+          "source": "ai-draft",
+          "vi": "Trưởng phòng đã nói như vậy."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-49-007",
+      "kana": "おっしゃいます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson49_7",
+      "lesson": 49,
+      "meaning_vi": "nói (tôn kính ngữ của いいます)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nói (tôn kính ngữ của いいます)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-49-008-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{週末|しゅうまつ}は{何|なに}を[[なさいます]]か。",
+          "source": "ai-draft",
+          "vi": "Cuối tuần ngài làm gì ạ?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-49-008",
+      "kana": "なさいます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson49_8",
+      "lesson": 49,
+      "meaning_vi": "làm (tôn kính ngữ của します)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "làm (tôn kính ngữ của します)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-009-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "この{写真|しゃしん}を[[ご{覧|らん}になりました]]か。",
+          "source": "ai-draft",
+          "vi": "Ngài đã xem bức ảnh này chưa ạ?"
+        }
+      ],
+      "han_viet": "LÃM",
+      "id": "mn-49-009",
+      "kana": "ごらんになります",
+      "kanji": "ご覧になります",
+      "kanji_refs": [
+        "k-覧"
+      ],
+      "legacy_id": "lesson49_9",
+      "lesson": 49,
+      "meaning_vi": "xem, nhìn (tôn kính ngữ của みます)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xem, nhìn (tôn kính ngữ của みます)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-010-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{先生|せんせい}の{住所|じゅうしょ}を[[ご{存|ぞん}じです]]か。",
+          "source": "ai-draft",
+          "vi": "Ngài có biết địa chỉ của thầy không ạ?"
+        }
+      ],
+      "han_viet": "TỒN",
+      "id": "mn-49-010",
+      "kana": "ごぞんじです",
+      "kanji": "ご存じです",
+      "kanji_refs": [
+        "k-存"
+      ],
+      "legacy_id": "lesson49_10",
+      "lesson": 49,
+      "meaning_vi": "biết (tôn kính ngữ của しっています)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "biết (tôn kính ngữ của しっています)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-49-011-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{社長|しゃちょう}が{最初|さいしょ}に[[{挨拶|あいさつ}]]をなさいます。",
+          "source": "ai-draft",
+          "vi": "Giám đốc sẽ phát biểu chào mừng đầu tiên."
+        }
+      ],
+      "han_viet": "AI TẠT",
+      "id": "mn-49-011",
+      "kana": "あいさつ",
+      "kanji": "挨拶",
+      "kanji_refs": [
+        "k-挨",
+        "k-拶"
+      ],
+      "legacy_id": "lesson49_11",
+      "lesson": 49,
+      "meaning_vi": "chào hỏi (～をします：chào hỏi)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chào hỏi (～をします：chào hỏi)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-012-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{京都|きょうと}で[[{旅館|りょかん}]]に{泊|と}まりました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã trọ ở lữ quán kiểu Nhật ở Kyoto."
+        }
+      ],
+      "han_viet": "LỮ QUÁN",
+      "id": "mn-49-012",
+      "kana": "りょかん",
+      "kanji": "旅館",
+      "kanji_refs": [
+        "k-旅",
+        "k-館"
+      ],
+      "legacy_id": "lesson49_12",
+      "lesson": 49,
+      "meaning_vi": "khách sạn kiểu Nhật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khách sạn kiểu Nhật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-013-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "[[バス{停|てい}]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Bến xe buýt ở đâu?"
+        }
+      ],
+      "han_viet": "ĐÌNH",
+      "id": "mn-49-013",
+      "kana": "バスてい",
+      "kanji": "バス停",
+      "kanji_refs": [
+        "k-停"
+      ],
+      "legacy_id": "lesson49_13",
+      "lesson": 49,
+      "meaning_vi": "bến xe buýt, điểm lên xuống xe buýt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bến xe buýt, điểm lên xuống xe buýt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-014-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "[[{奥様|おくさま}]]はお{元気|げんき}ですか。",
+          "source": "ai-draft",
+          "vi": "Phu nhân có khỏe không ạ?"
+        }
+      ],
+      "han_viet": "ÁO DẠNG",
+      "id": "mn-49-014",
+      "kana": "おくさま",
+      "kanji": "奥様",
+      "kanji_refs": [
+        "k-奥",
+        "k-様"
+      ],
+      "legacy_id": "lesson49_14",
+      "lesson": 49,
+      "meaning_vi": "vợ người khác (kính ngữ của おくさん）",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vợ người khác (kính ngữ của おくさん）"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-49-015-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{田中|たなか}[[{様|さま}]]、お{待|ま}たせしました。",
+          "source": "ai-draft",
+          "vi": "Thưa ngài Tanaka, xin lỗi đã để ngài chờ."
+        }
+      ],
+      "han_viet": "DẠNG",
+      "id": "mn-49-015",
+      "kana": "～さま",
+      "kanji": "～様",
+      "kanji_refs": [
+        "k-様"
+      ],
+      "legacy_id": "lesson49_15",
+      "lesson": 49,
+      "meaning_vi": "ngài ～, ông ～, bà ～ (tôn kính ngữ của ～さん)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngài ～, ông ～, bà ～ (tôn kính ngữ của ～さん)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-49-016-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "[[{偶|たま}に]]{家族|かぞく}と{食事|しょくじ}に{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Thỉnh thoảng tôi đi ăn cùng gia đình."
+        }
+      ],
+      "han_viet": "NGẪU",
+      "id": "mn-49-016",
+      "kana": "たまに",
+      "kanji": "偶に",
+      "kanji_refs": [
+        "k-偶"
+      ],
+      "legacy_id": "lesson49_16",
+      "lesson": 49,
+      "meaning_vi": "thỉnh thoảng (tần suất nhỏ hơn ときどき)",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thỉnh thoảng (tần suất nhỏ hơn ときどき)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-49-017-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "[[どなたでも]]{参加|さんか}できます。",
+          "source": "ai-draft",
+          "vi": "Vị nào cũng có thể tham gia."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-49-017",
+      "kana": "どなたでも",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson49_17",
+      "lesson": 49,
+      "meaning_vi": "vị nào cũng (kính ngữ của だれでも)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vị nào cũng (kính ngữ của だれでも)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-49-018-e1",
+          "max_lesson": 49,
+          "review": "user",
+          "ruby": "{私|わたし}はミラー[[といいます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi tên là Miller."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-49-018",
+      "kana": "～といいます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson49_18",
+      "lesson": 49,
+      "meaning_vi": "tên là ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tên là ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 49,
+  "schema_version": 4
+}

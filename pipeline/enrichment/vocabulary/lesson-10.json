@@ -1,0 +1,637 @@
+{
+  "mn-10-001": {
+    "examples": [
+      {
+        "id": "mn-10-001-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{机|つくえ}の{上|うえ}に{本|ほん}が[[あります]]。",
+        "source": "ai-draft",
+        "vi": "Trên bàn có quyển sách."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "あります: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-002": {
+    "examples": [
+      {
+        "id": "mn-10-002-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{部屋|へや}に{猫|ねこ}が[[{居|い}ます]]。",
+        "source": "ai-draft",
+        "vi": "Trong phòng có con mèo."
+      }
+    ],
+    "han_viet": "CƯ",
+    "han_viet_source": "user",
+    "kanji": "居ます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-003": {
+    "examples": [
+      {
+        "id": "mn-10-003-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "この{店|みせ}には[[{色々|いろいろ}]]な{果物|くだもの}があります。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng này có nhiều loại hoa quả."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-004": {
+    "examples": [
+      {
+        "id": "mn-10-004-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "あそこに[[{男|おとこ}の{人|ひと}]]がいます。",
+        "source": "ai-draft",
+        "vi": "Ở đằng kia có một người đàn ông."
+      }
+    ]
+  },
+  "mn-10-005": {
+    "examples": [
+      {
+        "id": "mn-10-005-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{受付|うけつけ}に[[{女|おんな}の{人|ひと}]]がいます。",
+        "source": "ai-draft",
+        "vi": "Ở quầy lễ tân có một người phụ nữ."
+      }
+    ]
+  },
+  "mn-10-006": {
+    "examples": [
+      {
+        "id": "mn-10-006-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{公園|こうえん}に[[{男|おとこ}の{子|こ}]]がいます。",
+        "source": "ai-draft",
+        "vi": "Ở công viên có một cậu bé."
+      }
+    ]
+  },
+  "mn-10-007": {
+    "examples": [
+      {
+        "id": "mn-10-007-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{教室|きょうしつ}に[[{女|おんな}の{子|こ}]]がいます。",
+        "source": "ai-draft",
+        "vi": "Trong lớp học có một cô bé."
+      }
+    ]
+  },
+  "mn-10-008": {
+    "examples": [
+      {
+        "id": "mn-10-008-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{庭|にわ}に[[{犬|いぬ}]]がいます。",
+        "source": "ai-draft",
+        "vi": "Ngoài vườn có con chó."
+      }
+    ]
+  },
+  "mn-10-009": {
+    "examples": [
+      {
+        "id": "mn-10-009-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{机|つくえ}の{下|した}に[[{猫|ねこ}]]がいます。",
+        "source": "ai-draft",
+        "vi": "Dưới bàn có con mèo."
+      }
+    ]
+  },
+  "mn-10-010": {
+    "examples": [
+      {
+        "id": "mn-10-010-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[パンダ]]はどこにいますか。",
+        "source": "ai-draft",
+        "vi": "Gấu trúc ở đâu?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "パンダ: PN→N (JMdict: danh từ thông dụng (panda))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-011": {
+    "examples": [
+      {
+        "id": "mn-10-011-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{象|ぞう}]]は{大|おお}きいです。",
+        "source": "ai-draft",
+        "vi": "Con voi to."
+      }
+    ]
+  },
+  "mn-10-012": {
+    "examples": [
+      {
+        "id": "mn-10-012-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{家|うち}の{前|まえ}に[[{木|き}]]があります。",
+        "source": "ai-draft",
+        "vi": "Trước nhà có một cái cây."
+      }
+    ]
+  },
+  "mn-10-013": {
+    "examples": [
+      {
+        "id": "mn-10-013-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "この{箱|はこ}の{中|なか}に{色々|いろいろ}な[[{物|もの}]]があります。",
+        "source": "ai-draft",
+        "vi": "Trong hộp này có nhiều đồ vật."
+      }
+    ]
+  },
+  "mn-10-014": {
+    "examples": [
+      {
+        "id": "mn-10-014-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{電池|でんち}]]はどこにありますか。",
+        "source": "ai-draft",
+        "vi": "Pin ở đâu?"
+      }
+    ]
+  },
+  "mn-10-015": {
+    "examples": [
+      {
+        "id": "mn-10-015-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{箱|はこ}]]の{中|なか}にお{金|かね}があります。",
+        "source": "ai-draft",
+        "vi": "Trong hộp có tiền."
+      }
+    ]
+  },
+  "mn-10-016": {
+    "examples": [
+      {
+        "id": "mn-10-016-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[スイッチ]]はドアの{右|みぎ}にあります。",
+        "source": "ai-draft",
+        "vi": "Công tắc ở bên phải cửa."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "スイッチ: PN→N (JMdict: danh từ thông dụng (switch))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-017": {
+    "examples": [
+      {
+        "id": "mn-10-017-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{冷蔵庫|れいぞうこ}]]に{牛乳|ぎゅうにゅう}があります。",
+        "source": "ai-draft",
+        "vi": "Trong tủ lạnh có sữa."
+      }
+    ],
+    "han_viet": "LÃNH TÀNG KHỐ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "蔵 — gốc ghi TÀN",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-018": {
+    "examples": [
+      {
+        "id": "mn-10-018-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[テーブル]]の{上|うえ}に{花|はな}があります。",
+        "source": "ai-draft",
+        "vi": "Trên bàn có hoa."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "テーブル: PN→N (JMdict: danh từ thông dụng (table))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-019": {
+    "examples": [
+      {
+        "id": "mn-10-019-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[ベッド]]の{下|した}に{猫|ねこ}がいます。",
+        "source": "ai-draft",
+        "vi": "Dưới giường có con mèo."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ベッド: PN→N (JMdict: danh từ thông dụng (bed))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-020": {
+    "examples": [
+      {
+        "id": "mn-10-020-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{棚|たな}]]の{上|うえ}に{辞書|じしょ}があります。",
+        "source": "ai-draft",
+        "vi": "Trên giá có cuốn từ điển."
+      }
+    ]
+  },
+  "mn-10-021": {
+    "examples": [
+      {
+        "id": "mn-10-021-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[ドア]]の{前|まえ}に{犬|いぬ}がいます。",
+        "source": "ai-draft",
+        "vi": "Trước cửa có con chó."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ドア: PN→N (JMdict: danh từ thông dụng (door))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-022": {
+    "examples": [
+      {
+        "id": "mn-10-022-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{窓|まど}]]の{近|ちか}くに{机|つくえ}があります。",
+        "source": "ai-draft",
+        "vi": "Gần cửa sổ có cái bàn."
+      }
+    ]
+  },
+  "mn-10-023": {
+    "examples": [
+      {
+        "id": "mn-10-023-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[ポスト]]は{郵便局|ゆうびんきょく}の{前|まえ}にあります。",
+        "source": "ai-draft",
+        "vi": "Hòm thư ở trước bưu điện."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ポスト: PN→N (JMdict: danh từ thông dụng (postbox; mailbox))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-024": {
+    "examples": [
+      {
+        "id": "mn-10-024-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "あの[[ビル]]の{中|なか}に{銀行|ぎんこう}があります。",
+        "source": "ai-draft",
+        "vi": "Trong tòa nhà kia có ngân hàng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ビル: PN→N (JMdict: danh từ thông dụng (multi-floor building; multi-storey building))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-025": {
+    "examples": [
+      {
+        "id": "mn-10-025-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{駅|えき}に[[ATM]]がありますか。",
+        "source": "ai-draft",
+        "vi": "Ở nhà ga có máy ATM không?"
+      }
+    ]
+  },
+  "mn-10-026": {
+    "examples": [
+      {
+        "id": "mn-10-026-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{駅|えき}の{近|ちか}くに[[コンビニ]]があります。",
+        "source": "ai-draft",
+        "vi": "Gần nhà ga có cửa hàng tiện lợi."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "コンビニ: PN→N (JMdict: danh từ thông dụng (convenience store))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-027": {
+    "examples": [
+      {
+        "id": "mn-10-027-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{公園|こうえん}]]に{子|こ}どもがいます。",
+        "source": "ai-draft",
+        "vi": "Ở công viên có trẻ con."
+      }
+    ]
+  },
+  "mn-10-028": {
+    "examples": [
+      {
+        "id": "mn-10-028-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{駅|えき}の{前|まえ}に[[{喫茶店|きっさてん}]]があります。",
+        "source": "ai-draft",
+        "vi": "Trước nhà ga có quán cà phê."
+      }
+    ]
+  },
+  "mn-10-029": {
+    "examples": [
+      {
+        "id": "mn-10-029-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{本|ほん}[[{屋|や}]]は{銀行|ぎんこう}の{隣|となり}です。",
+        "source": "ai-draft",
+        "vi": "Hiệu sách ở bên cạnh ngân hàng."
+      }
+    ]
+  },
+  "mn-10-030": {
+    "examples": [
+      {
+        "id": "mn-10-030-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "タクシー[[{乗|の}り{場|ば}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Bến taxi ở đâu?"
+      }
+    ]
+  },
+  "mn-10-031": {
+    "examples": [
+      {
+        "id": "mn-10-031-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{私|わたし}の[[{県|けん}]]には{山|やま}が{沢山|たくさん}あります。",
+        "source": "ai-draft",
+        "vi": "Tỉnh của tôi có nhiều núi."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "けん: PN→N (JMdict: danh từ thông dụng (matter; affair))",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-032": {
+    "examples": [
+      {
+        "id": "mn-10-032-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{机|つくえ}の[[{上|うえ}]]に{写真|しゃしん}があります。",
+        "source": "ai-draft",
+        "vi": "Trên bàn có bức ảnh."
+      }
+    ]
+  },
+  "mn-10-033": {
+    "examples": [
+      {
+        "id": "mn-10-033-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{椅子|いす}の[[{下|した}]]に{鞄|かばん}があります。",
+        "source": "ai-draft",
+        "vi": "Dưới ghế có cái cặp."
+      }
+    ]
+  },
+  "mn-10-034": {
+    "examples": [
+      {
+        "id": "mn-10-034-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{駅|えき}の[[{前|まえ}]]に{銀行|ぎんこう}があります。",
+        "source": "ai-draft",
+        "vi": "Trước nhà ga có ngân hàng."
+      }
+    ]
+  },
+  "mn-10-035": {
+    "examples": [
+      {
+        "id": "mn-10-035-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{家|うち}の[[{後|うし}ろ]]に{公園|こうえん}があります。",
+        "source": "ai-draft",
+        "vi": "Sau nhà có công viên."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-036": {
+    "examples": [
+      {
+        "id": "mn-10-036-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{銀行|ぎんこう}の[[{右|みぎ}]]に{郵便局|ゆうびんきょく}があります。",
+        "source": "ai-draft",
+        "vi": "Bên phải ngân hàng có bưu điện."
+      }
+    ],
+    "han_viet": "HỮU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "右 — gốc gõ sai HUỮ",
+      "status": "reviewed"
+    }
+  },
+  "mn-10-037": {
+    "examples": [
+      {
+        "id": "mn-10-037-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{郵便局|ゆうびんきょく}の[[{左|ひだり}]]に{本屋|ほんや}があります。",
+        "source": "ai-draft",
+        "vi": "Bên trái bưu điện có hiệu sách."
+      }
+    ]
+  },
+  "mn-10-038": {
+    "examples": [
+      {
+        "id": "mn-10-038-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{箱|はこ}の[[{中|なか}]]に{電池|でんち}があります。",
+        "source": "ai-draft",
+        "vi": "Trong hộp có pin."
+      }
+    ]
+  },
+  "mn-10-039": {
+    "examples": [
+      {
+        "id": "mn-10-039-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "[[{外|そと}]]に{犬|いぬ}がいます。",
+        "source": "ai-draft",
+        "vi": "Ở ngoài có con chó."
+      }
+    ]
+  },
+  "mn-10-040": {
+    "examples": [
+      {
+        "id": "mn-10-040-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{銀行|ぎんこう}の[[{隣|となり}]]に{喫茶店|きっさてん}があります。",
+        "source": "ai-draft",
+        "vi": "Bên cạnh ngân hàng có quán cà phê."
+      }
+    ]
+  },
+  "mn-10-041": {
+    "examples": [
+      {
+        "id": "mn-10-041-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{駅|えき}の[[{近|ちか}く]]にスーパーがあります。",
+        "source": "ai-draft",
+        "vi": "Gần nhà ga có siêu thị."
+      }
+    ]
+  },
+  "mn-10-042": {
+    "examples": [
+      {
+        "id": "mn-10-042-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{本屋|ほんや}と{花屋|はなや}の[[{間|あいだ}]]に{喫茶店|きっさてん}があります。",
+        "source": "ai-draft",
+        "vi": "Giữa hiệu sách và tiệm hoa có quán cà phê."
+      }
+    ]
+  },
+  "mn-10-043": {
+    "examples": [
+      {
+        "id": "mn-10-043-e1",
+        "max_lesson": 10,
+        "review": "user",
+        "ruby": "{箱|はこ}の{中|なか}に{手紙|てがみ}[[や]]{写真|しゃしん}があります。",
+        "source": "ai-draft",
+        "vi": "Trong hộp có thư, ảnh, v.v."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "trợ từ",
+      "status": "reviewed"
+    }
+  }
+}

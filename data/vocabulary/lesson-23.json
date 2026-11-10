@@ -1,0 +1,1106 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-001-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{分|わ}からない{時|とき}は、{先生|せんせい}に[[{聞|き}いて]]ください。",
+          "source": "ai-draft",
+          "vi": "Khi không hiểu, hãy hỏi giáo viên."
+        }
+      ],
+      "han_viet": "VĂN",
+      "id": "mn-23-001",
+      "kana": "ききます",
+      "kanji": "聞きます",
+      "kanji_refs": [
+        "k-聞"
+      ],
+      "legacy_id": "lesson23_1",
+      "lesson": 23,
+      "meaning_vi": "hỏi [giáo viên]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-06-005"
+      ],
+      "senses": [
+        {
+          "context": "giáo viên",
+          "text": "hỏi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-002-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "このつまみを[[{回|まわ}す]]と、{音|おと}が{大|おお}きくなります。",
+          "source": "ai-draft",
+          "vi": "Vặn cái núm này thì âm thanh sẽ to lên."
+        }
+      ],
+      "han_viet": "HỒI",
+      "id": "mn-23-002",
+      "kana": "まわします",
+      "kanji": "回します",
+      "kanji_refs": [
+        "k-回"
+      ],
+      "legacy_id": "lesson23_2",
+      "lesson": 23,
+      "meaning_vi": "vặn (núm)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vặn (núm)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-003-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "このドアは[[{引|ひ}いて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy kéo cánh cửa này."
+        }
+      ],
+      "han_viet": "DẪN",
+      "id": "mn-23-003",
+      "kana": "ひきます",
+      "kanji": "引きます",
+      "kanji_refs": [
+        "k-引"
+      ],
+      "legacy_id": "lesson23_3",
+      "lesson": 23,
+      "meaning_vi": "kéo",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-32-009"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "kéo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-004-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{髪|かみ}の{色|いろ}を[[{変|か}えました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đổi màu tóc."
+        }
+      ],
+      "han_viet": "BIẾN",
+      "id": "mn-23-004",
+      "kana": "かえます",
+      "kanji": "変えます",
+      "kanji_refs": [
+        "k-変"
+      ],
+      "legacy_id": "lesson23_4",
+      "lesson": 23,
+      "meaning_vi": "đổi",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đổi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-005-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "この{絵|え}に[[{触|さわ}らないで]]ください。",
+          "source": "ai-draft",
+          "vi": "Đừng chạm vào bức tranh này."
+        }
+      ],
+      "han_viet": "XÚC",
+      "id": "mn-23-005",
+      "kana": "さわります",
+      "kanji": "触ります",
+      "kanji_refs": [
+        "k-触"
+      ],
+      "legacy_id": "lesson23_5",
+      "lesson": 23,
+      "meaning_vi": "sờ, chạm vào [cửa]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cửa",
+          "text": "sờ, chạm vào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-006-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "このボタンを{押|お}すと、お{釣|つ}りが[[{出|で}ます]]。",
+          "source": "ai-draft",
+          "vi": "Bấm nút này thì tiền thừa sẽ ra."
+        }
+      ],
+      "han_viet": "XUẤT",
+      "id": "mn-23-006",
+      "kana": "でます",
+      "kanji": "出ます",
+      "kanji_refs": [
+        "k-出"
+      ],
+      "legacy_id": "lesson23_6",
+      "lesson": 23,
+      "meaning_vi": "[tiền thừa] ra, chạy ra",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-14-019",
+        "mn-16-009",
+        "mn-32-013",
+        "mn-40-009",
+        "mn-46-003"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "[tiền thừa] ra, chạy ra"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-007-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}{公園|こうえん}を[[{歩|ある}きます]]。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi đi bộ trong công viên."
+        }
+      ],
+      "han_viet": "BỘ",
+      "id": "mn-23-007",
+      "kana": "あるきます",
+      "kanji": "歩きます",
+      "kanji_refs": [
+        "k-歩"
+      ],
+      "legacy_id": "lesson23_7",
+      "lesson": 23,
+      "meaning_vi": "đi bộ",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đi bộ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-008-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "この{橋|はし}を[[{渡|わた}る]]と、{駅|えき}があります。",
+          "source": "ai-draft",
+          "vi": "Đi qua cây cầu này thì có nhà ga."
+        }
+      ],
+      "han_viet": "ĐỘ",
+      "id": "mn-23-008",
+      "kana": "わたります",
+      "kanji": "渡ります",
+      "kanji_refs": [
+        "k-渡"
+      ],
+      "legacy_id": "lesson23_8",
+      "lesson": 23,
+      "meaning_vi": "qua, đi qua [cầu]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cầu",
+          "text": "qua, đi qua"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-009-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{駅|えき}の{前|まえ}で{右|みぎ}へ[[{曲|ま}がります]]。",
+          "source": "ai-draft",
+          "vi": "Tôi rẽ phải ở trước nhà ga."
+        }
+      ],
+      "han_viet": "KHÚC",
+      "id": "mn-23-009",
+      "kana": "まがります",
+      "kanji": "曲がります",
+      "kanji_refs": [
+        "k-曲"
+      ],
+      "legacy_id": "lesson23_9",
+      "lesson": 23,
+      "meaning_vi": "rẽ, quẹo [phải]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "phải",
+          "text": "rẽ, quẹo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-010-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{一人|ひとり}の{時|とき}は[[{寂|さび}しい]]です。",
+          "source": "ai-draft",
+          "vi": "Khi ở một mình tôi thấy buồn."
+        }
+      ],
+      "han_viet": "TỊCH",
+      "id": "mn-23-010",
+      "kana": "さびしい",
+      "kanji": "寂しい",
+      "kanji_refs": [
+        "k-寂"
+      ],
+      "legacy_id": "lesson23_10",
+      "lesson": 23,
+      "meaning_vi": "buồn, cô đơn",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "buồn, cô đơn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-011-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "お[[{湯|ゆ}]]が{出|で}ません。",
+          "source": "ai-draft",
+          "vi": "Nước nóng không chảy ra."
+        }
+      ],
+      "han_viet": "THANG",
+      "id": "mn-23-011",
+      "kana": "ゆ",
+      "kanji": "湯",
+      "kanji_refs": [
+        "k-湯"
+      ],
+      "legacy_id": "lesson23_11",
+      "lesson": 23,
+      "meaning_vi": "nước nóng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nước nóng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-012-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{大|おお}きい[[{音|おと}]]がしました。",
+          "source": "ai-draft",
+          "vi": "Có tiếng động lớn."
+        }
+      ],
+      "han_viet": "ÂM",
+      "id": "mn-23-012",
+      "kana": "おと",
+      "kanji": "音",
+      "kanji_refs": [
+        "k-音"
+      ],
+      "legacy_id": "lesson23_12",
+      "lesson": 23,
+      "meaning_vi": "âm thanh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "âm thanh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-23-013-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{服|ふく}の[[サイズ]]が{分|わ}からない{時|とき}は、{店|みせ}の{人|ひと}に{聞|き}いてください。",
+          "source": "ai-draft",
+          "vi": "Khi không biết cỡ quần áo, hãy hỏi người bán hàng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-23-013",
+      "kana": "サイズ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson23_13",
+      "lesson": 23,
+      "meaning_vi": "cỡ, kích thước",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cỡ, kích thước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-014-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "{車|くるま}が[[{故障|こしょう}]]しました。",
+          "source": "ai-draft",
+          "vi": "Ô tô bị hỏng."
+        }
+      ],
+      "han_viet": "CỐ CHƯỚNG",
+      "id": "mn-23-014",
+      "kana": "こしょう",
+      "kanji": "故障",
+      "kanji_refs": [
+        "k-故",
+        "k-障"
+      ],
+      "legacy_id": "lesson23_14",
+      "lesson": 23,
+      "meaning_vi": "hỏng (～します：bị hỏng)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-266"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "hỏng (～します：bị hỏng)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-015-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "この[[{道|みち}]]を{真|ま}っ{直|す}ぐ{行|い}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy đi thẳng con đường này."
+        }
+      ],
+      "han_viet": "ĐẠO",
+      "id": "mn-23-015",
+      "kana": "みち",
+      "kanji": "道",
+      "kanji_refs": [
+        "k-道"
+      ],
+      "legacy_id": "lesson23_15",
+      "lesson": 23,
+      "meaning_vi": "đường",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đường"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-016-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "[[{交差点|こうさてん}]]を{左|ひだり}へ{曲|ま}がってください。",
+          "source": "ai-draft",
+          "vi": "Hãy rẽ trái ở ngã tư."
+        }
+      ],
+      "han_viet": "GIAO SAI ĐIỂM",
+      "id": "mn-23-016",
+      "kana": "こうさてん",
+      "kanji": "交差点",
+      "kanji_refs": [
+        "k-交",
+        "k-差",
+        "k-点"
+      ],
+      "legacy_id": "lesson23_16",
+      "lesson": 23,
+      "meaning_vi": "ngã tư",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngã tư"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-017-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "[[{信号|しんごう}]]を{渡|わた}ると、{右|みぎ}に{銀行|ぎんこう}があります。",
+          "source": "ai-draft",
+          "vi": "Qua đèn tín hiệu thì bên phải có ngân hàng."
+        }
+      ],
+      "han_viet": "TÍN HIỆU",
+      "id": "mn-23-017",
+      "kana": "しんごう",
+      "kanji": "信号",
+      "kanji_refs": [
+        "k-信",
+        "k-号"
+      ],
+      "legacy_id": "lesson23_17",
+      "lesson": 23,
+      "meaning_vi": "đèn tín hiệu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đèn tín hiệu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-018-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "あの[[{角|かど}]]を{右|みぎ}へ{曲|ま}がってください。",
+          "source": "ai-draft",
+          "vi": "Hãy rẽ phải ở góc kia."
+        }
+      ],
+      "han_viet": "GIÁC",
+      "id": "mn-23-018",
+      "kana": "かど",
+      "kanji": "角",
+      "kanji_refs": [
+        "k-角"
+      ],
+      "legacy_id": "lesson23_18",
+      "lesson": 23,
+      "meaning_vi": "góc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "góc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-019-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "[[{橋|はし}]]を{渡|わた}って、{真|ま}っ{直|す}ぐ{行|い}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy đi qua cầu rồi đi thẳng."
+        }
+      ],
+      "han_viet": "KIỀU",
+      "id": "mn-23-019",
+      "kana": "はし",
+      "kanji": "橋",
+      "kanji_refs": [
+        "k-橋"
+      ],
+      "legacy_id": "lesson23_19",
+      "lesson": 23,
+      "meaning_vi": "cầu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cầu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-020-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "[[{駐車場|ちゅうしゃじょう}]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Bãi đỗ xe ở đâu?"
+        }
+      ],
+      "han_viet": "TRÚ XA TRƯỜNG",
+      "id": "mn-23-020",
+      "kana": "ちゅうしゃじょう",
+      "kanji": "駐車場",
+      "kanji_refs": [
+        "k-駐",
+        "k-車",
+        "k-場"
+      ],
+      "legacy_id": "lesson23_20",
+      "lesson": 23,
+      "meaning_vi": "bãi đỗ xe",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bãi đỗ xe"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-021-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "あの{大|おお}きい[[{建物|たてもの}]]は{図書館|としょかん}です。",
+          "source": "ai-draft",
+          "vi": "Tòa nhà lớn kia là thư viện."
+        }
+      ],
+      "han_viet": "KIẾN VẬT",
+      "id": "mn-23-021",
+      "kana": "たてもの",
+      "kanji": "建物",
+      "kanji_refs": [
+        "k-建",
+        "k-物"
+      ],
+      "legacy_id": "lesson23_21",
+      "lesson": 23,
+      "meaning_vi": "tòa nhà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tòa nhà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-022-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "[[{何回|なんかい}も]]{電話|でんわ}をかけました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã gọi điện nhiều lần."
+        }
+      ],
+      "han_viet": "HÀ HỒI",
+      "id": "mn-23-022",
+      "kana": "なんかいも",
+      "kanji": "何回も",
+      "kanji_refs": [
+        "k-何",
+        "k-回"
+      ],
+      "legacy_id": "lesson23_22",
+      "lesson": 23,
+      "meaning_vi": "nhiều lần",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhiều lần"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-23-023-e1",
+          "max_lesson": 23,
+          "review": "user",
+          "ruby": "２つ[[{目|め}]]の{信号|しんごう}を{右|みぎ}へ{曲|ま}がってください。",
+          "source": "ai-draft",
+          "vi": "Hãy rẽ phải ở đèn tín hiệu thứ hai."
+        }
+      ],
+      "han_viet": "MỤC",
+      "id": "mn-23-023",
+      "kana": "～め",
+      "kanji": "～目",
+      "kanji_refs": [
+        "k-目"
+      ],
+      "legacy_id": "lesson23_23",
+      "lesson": 23,
+      "meaning_vi": "thứ ～ , số ～ (biểu thị thứ tự)",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thứ ～ , số ～ (biểu thị thứ tự)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 23,
+  "schema_version": 4
+}

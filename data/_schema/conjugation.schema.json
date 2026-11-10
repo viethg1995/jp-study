@@ -1,0 +1,305 @@
+{
+  "$defs": {
+    "ConjEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "aliases": {
+          "default": [],
+          "description": "vocab_id các mục trùng (cùng loại + gốc) ở bài khác — dùng chung trang này",
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "book": {
+          "enum": [
+            "minna",
+            "n3"
+          ],
+          "title": "Book",
+          "type": "string"
+        },
+        "forms": {
+          "description": "Theo thứ tự ConjFormDef của nhóm; thể không dùng được thì vắng",
+          "items": {
+            "$ref": "#/$defs/ConjValue"
+          },
+          "title": "Forms",
+          "type": "array"
+        },
+        "han_viet": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Han Viet"
+        },
+        "kana": {
+          "description": "Dạng gốc: thể ます (động từ), dạng い, gốc bỏ な, danh từ",
+          "title": "Kana",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "V1",
+            "V2",
+            "V3",
+            "Ai",
+            "An",
+            "N"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "lesson": {
+          "maximum": 50,
+          "minimum": 1,
+          "title": "Lesson",
+          "type": "integer"
+        },
+        "meaning_vi": {
+          "title": "Meaning Vi",
+          "type": "string"
+        },
+        "ruby": {
+          "title": "Ruby",
+          "type": "string"
+        },
+        "vocab_id": {
+          "description": "ID từ vựng (mn-LL-NNN | n3-NNN)",
+          "title": "Vocab Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "vocab_id",
+        "book",
+        "lesson",
+        "kind",
+        "kana",
+        "ruby",
+        "meaning_vi",
+        "han_viet",
+        "forms"
+      ],
+      "title": "ConjEntry",
+      "type": "object"
+    },
+    "ConjFormDef": {
+      "additionalProperties": false,
+      "properties": {
+        "group": {
+          "enum": [
+            "verb",
+            "adj-i",
+            "adj-na",
+            "noun"
+          ],
+          "title": "Group",
+          "type": "string"
+        },
+        "id": {
+          "description": "Mã thể, duy nhất trong nhóm (nai, te, past…)",
+          "title": "Id",
+          "type": "string"
+        },
+        "lesson": {
+          "anyOf": [
+            {
+              "maximum": 50,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Bài みんなの日本語 học thể này; null = ngoài giáo trình",
+          "title": "Lesson"
+        },
+        "name_ja": {
+          "title": "Name Ja",
+          "type": "string"
+        },
+        "name_vi": {
+          "title": "Name Vi",
+          "type": "string"
+        },
+        "rules": {
+          "items": {
+            "$ref": "#/$defs/ConjRule"
+          },
+          "title": "Rules",
+          "type": "array"
+        },
+        "use_vi": {
+          "description": "Dùng để làm gì",
+          "title": "Use Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "group",
+        "name_vi",
+        "name_ja",
+        "lesson",
+        "use_vi",
+        "rules"
+      ],
+      "title": "ConjFormDef",
+      "type": "object"
+    },
+    "ConjGroupDef": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "enum": [
+            "verb",
+            "adj-i",
+            "adj-na",
+            "noun"
+          ],
+          "title": "Id",
+          "type": "string"
+        },
+        "intro_vi": {
+          "description": "Đoạn giới thiệu: cách nhận biết nhóm, gốc để chia",
+          "items": {
+            "type": "string"
+          },
+          "title": "Intro Vi",
+          "type": "array"
+        },
+        "name_vi": {
+          "title": "Name Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name_vi",
+        "intro_vi"
+      ],
+      "title": "ConjGroupDef",
+      "type": "object"
+    },
+    "ConjRule": {
+      "additionalProperties": false,
+      "properties": {
+        "examples": {
+          "description": "vocab_id của từ minh họa (có trong entries)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Examples",
+          "type": "array"
+        },
+        "kind": {
+          "description": "V = chung cho cả 3 nhóm động từ",
+          "enum": [
+            "V",
+            "V1",
+            "V2",
+            "V3",
+            "Ai",
+            "An",
+            "N"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "text": {
+          "description": "Quy tắc (tiếng Việt), tính từ thể ます / dạng gốc",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "text",
+        "examples"
+      ],
+      "title": "ConjRule",
+      "type": "object"
+    },
+    "ConjValue": {
+      "additionalProperties": false,
+      "properties": {
+        "form": {
+          "description": "ConjFormDef.id",
+          "title": "Form",
+          "type": "string"
+        },
+        "irregular": {
+          "title": "Irregular",
+          "type": "boolean"
+        },
+        "kana": {
+          "title": "Kana",
+          "type": "string"
+        },
+        "ruby": {
+          "description": "Cú pháp {漢字|かな}; từ viết kana thì giống kana",
+          "title": "Ruby",
+          "type": "string"
+        },
+        "rule": {
+          "description": "Quy tắc đã áp dụng cho từ này, vd 'き → か + ない'",
+          "title": "Rule",
+          "type": "string"
+        }
+      },
+      "required": [
+        "form",
+        "kana",
+        "ruby",
+        "rule",
+        "irregular"
+      ],
+      "title": "ConjValue",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "entries": {
+      "items": {
+        "$ref": "#/$defs/ConjEntry"
+      },
+      "title": "Entries",
+      "type": "array"
+    },
+    "forms": {
+      "items": {
+        "$ref": "#/$defs/ConjFormDef"
+      },
+      "title": "Forms",
+      "type": "array"
+    },
+    "groups": {
+      "items": {
+        "$ref": "#/$defs/ConjGroupDef"
+      },
+      "title": "Groups",
+      "type": "array"
+    },
+    "schema_version": {
+      "default": 2,
+      "title": "Schema Version",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "groups",
+    "forms",
+    "entries"
+  ],
+  "title": "ConjugationFile",
+  "type": "object"
+}

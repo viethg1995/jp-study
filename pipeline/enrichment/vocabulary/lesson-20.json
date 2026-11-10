@@ -1,0 +1,307 @@
+{
+  "mn-20-001": {
+    "examples": [
+      {
+        "id": "mn-20-001-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "{明日|あした}、{何|なに}か[[{要|い}る]]？",
+        "source": "ai-draft",
+        "vi": "Ngày mai có cần gì không?"
+      }
+    ]
+  },
+  "mn-20-002": {
+    "examples": [
+      {
+        "id": "mn-20-002-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "{辞書|じしょ}で[[{調|しら}べる]]。",
+        "source": "ai-draft",
+        "vi": "Tôi tra bằng từ điển."
+      }
+    ]
+  },
+  "mn-20-003": {
+    "examples": [
+      {
+        "id": "mn-20-003-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "{昨日|きのう}、{車|くるま}を[[{修理|しゅうり}した]]。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã sửa ô tô."
+      }
+    ]
+  },
+  "mn-20-004": {
+    "examples": [
+      {
+        "id": "mn-20-004-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "[[{僕|ぼく}]]は{学生|がくせい}だ。",
+        "source": "ai-draft",
+        "vi": "Tớ là sinh viên."
+      }
+    ]
+  },
+  "mn-20-005": {
+    "examples": [
+      {
+        "id": "mn-20-005-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "[[{君|きみ}]]も{行|い}く？",
+        "source": "ai-draft",
+        "vi": "Cậu cũng đi chứ?"
+      }
+    ],
+    "meaning_source": "user",
+    "meaning_vi": "cậu, bạn (cách gọi thân mật của あなた, dùng cho người ngang hàng hoặc ít tuổi hơn)",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "thiếu dấu phân cách sau あなた",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-006": {
+    "examples": [
+      {
+        "id": "mn-20-006-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "{田中|たなか}[[{君|くん}]]は{来|こ}ない。",
+        "source": "ai-draft",
+        "vi": "Cậu Tanaka không đến."
+      }
+    ]
+  },
+  "mn-20-007": {
+    "examples": [
+      {
+        "id": "mn-20-007-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "「コーヒー、{飲|の}む？」「[[うん]]、{飲|の}む。」",
+        "source": "ai-draft",
+        "vi": "\"Uống cà phê không?\" \"Ừ, uống.\""
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thán từ うん (JMdict gợi ý sai 運)",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-008": {
+    "examples": [
+      {
+        "id": "mn-20-008-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "「{明日|あした}、{暇|ひま}？」「[[ううん]]、{忙|いそが}しい。」",
+        "source": "ai-draft",
+        "vi": "\"Mai rảnh không?\" \"Không, bận.\""
+      }
+    ]
+  },
+  "mn-20-009": {
+    "examples": [
+      {
+        "id": "mn-20-009-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "この[[{言葉|ことば}]]は{難|むずか}しい。",
+        "source": "ai-draft",
+        "vi": "Từ này khó."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-010": {
+    "examples": [
+      {
+        "id": "mn-20-010-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "[[{着物|きもの}]]を{着|き}たことがある？",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng mặc kimono chưa?"
+      }
+    ]
+  },
+  "mn-20-011": {
+    "examples": [
+      {
+        "id": "mn-20-011-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "[[ビザ]]が{要|い}る？",
+        "source": "ai-draft",
+        "vi": "Có cần visa không?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ビザ: PN→N (JMdict: danh từ thông dụng (visa))",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-012": {
+    "examples": [
+      {
+        "id": "mn-20-012-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "この{映画|えいが}は[[{始|はじ}め]]が{面白|おもしろ}かった。",
+        "source": "ai-draft",
+        "vi": "Phần đầu của bộ phim này hay."
+      }
+    ]
+  },
+  "mn-20-013": {
+    "examples": [
+      {
+        "id": "mn-20-013-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "{映画|えいが}の[[{終|お}わり]]はよくなかった。",
+        "source": "ai-draft",
+        "vi": "Đoạn kết của bộ phim không hay."
+      }
+    ]
+  },
+  "mn-20-014": {
+    "examples": [
+      {
+        "id": "mn-20-014-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "[[こっち]]に{来|き}て。",
+        "source": "ai-draft",
+        "vi": "Lại đây đi."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-015": {
+    "examples": [
+      {
+        "id": "mn-20-015-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "[[そっち]]は{寒|さむ}い？",
+        "source": "ai-draft",
+        "vi": "Bên đó có lạnh không?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-016": {
+    "examples": [
+      {
+        "id": "mn-20-016-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "トイレは[[あっち]]だよ。",
+        "source": "ai-draft",
+        "vi": "Nhà vệ sinh ở đằng kia đấy."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-017": {
+    "examples": [
+      {
+        "id": "mn-20-017-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "コーヒーと{紅茶|こうちゃ}、[[どっち]]がいい？",
+        "source": "ai-draft",
+        "vi": "Cà phê với trà, cái nào được?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-20-018": {
+    "examples": [
+      {
+        "id": "mn-20-018-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "[[みんなで]]{写真|しゃしん}を{撮|と}った。",
+        "source": "ai-draft",
+        "vi": "Mọi người cùng chụp ảnh."
+      }
+    ]
+  },
+  "mn-20-019": {
+    "examples": [
+      {
+        "id": "mn-20-019-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "{日本語|にほんご}は{難|むずか}しい[[けど]]、{面白|おもしろ}い。",
+        "source": "ai-draft",
+        "vi": "Tiếng Nhật khó nhưng thú vị."
+      }
+    ]
+  },
+  "mn-20-020": {
+    "examples": [
+      {
+        "id": "mn-20-020-e1",
+        "max_lesson": 20,
+        "review": "user",
+        "ruby": "もう[[おなかがいっぱいです]]。",
+        "source": "ai-draft",
+        "vi": "Tôi no rồi."
+      }
+    ]
+  }
+}

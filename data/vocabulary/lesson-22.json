@@ -1,0 +1,854 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-22-001-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{着物|きもの}を[[{着|き}て]]いる{人|ひと}は{誰|だれ}ですか。",
+          "source": "ai-draft",
+          "vi": "Người đang mặc kimono là ai?"
+        }
+      ],
+      "han_viet": "TRƯỚC",
+      "id": "mn-22-001",
+      "kana": "きます",
+      "kanji": "着ます",
+      "kanji_refs": [
+        "k-着"
+      ],
+      "legacy_id": "lesson22_1",
+      "lesson": 22,
+      "meaning_vi": "mặc [áo sơ mi, v.v.]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "áo sơ mi, v.v.",
+          "text": "mặc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-002-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{赤|あか}い{靴|くつ}を[[{履|は}いて]]いる{人|ひと}は{妹|いもうと}です。",
+          "source": "ai-draft",
+          "vi": "Người đang đi đôi giày đỏ là em gái tôi."
+        }
+      ],
+      "han_viet": "LÝ",
+      "id": "mn-22-002",
+      "kana": "はきます",
+      "kanji": "履きます",
+      "kanji_refs": [
+        "k-履"
+      ],
+      "legacy_id": "lesson22_2",
+      "lesson": 22,
+      "meaning_vi": "đi, mặc [giầy, quần âu, v.v.]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "giầy, quần âu, v.v.",
+          "text": "đi, mặc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-003-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{帽子|ぼうし}を[[{被|かぶ}って]]いる{人|ひと}はミラーさんです。",
+          "source": "ai-draft",
+          "vi": "Người đang đội mũ là anh Miller."
+        }
+      ],
+      "han_viet": "BỊ",
+      "id": "mn-22-003",
+      "kana": "かぶります",
+      "kanji": "被ります",
+      "kanji_refs": [
+        "k-被"
+      ],
+      "legacy_id": "lesson22_3",
+      "lesson": 22,
+      "meaning_vi": "đội [mũ, v.v.]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "mũ, v.v.",
+          "text": "đội"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-004-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{眼鏡|めがね}を[[{掛|か}けて]]いる{人|ひと}は{誰|だれ}ですか。",
+          "source": "ai-draft",
+          "vi": "Người đang đeo kính là ai?"
+        }
+      ],
+      "han_viet": "QUẢI",
+      "id": "mn-22-004",
+      "kana": "かけます",
+      "kanji": "掛けます",
+      "kanji_refs": [
+        "k-掛"
+      ],
+      "legacy_id": "lesson22_4",
+      "lesson": 22,
+      "meaning_vi": "đeo [kính]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-30-002",
+        "mn-38-008",
+        "mn-49-003"
+      ],
+      "senses": [
+        {
+          "context": "kính",
+          "text": "đeo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-005-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "ネクタイを[[して]]いる{人|ひと}は{課長|かちょう}です。",
+          "source": "ai-draft",
+          "vi": "Người đang đeo cà vạt là tổ trưởng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-22-005",
+      "kana": "します",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson22_5",
+      "lesson": 22,
+      "meaning_vi": "đeo [cà vạt]",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-06-010",
+        "mn-47-006"
+      ],
+      "senses": [
+        {
+          "context": "cà vạt",
+          "text": "đeo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-22-006-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "これは{私|わたし}が[[{生|う}まれた]]{町|まち}です。",
+          "source": "ai-draft",
+          "vi": "Đây là thị trấn nơi tôi sinh ra."
+        }
+      ],
+      "han_viet": "SINH",
+      "id": "mn-22-006",
+      "kana": "うまれます",
+      "kanji": "生まれます",
+      "kanji_refs": [
+        "k-生"
+      ],
+      "legacy_id": "lesson22_6",
+      "lesson": 22,
+      "meaning_vi": "sinh ra",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sinh ra"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-007-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "これは[[{私|わたし}たち]]が{住|す}んでいる{家|うち}です。",
+          "source": "ai-draft",
+          "vi": "Đây là ngôi nhà chúng tôi đang sống."
+        }
+      ],
+      "han_viet": "TƯ",
+      "id": "mn-22-007",
+      "kana": "わたしたち",
+      "kanji": "私たち",
+      "kanji_refs": [
+        "k-私"
+      ],
+      "legacy_id": "lesson22_7",
+      "lesson": 22,
+      "meaning_vi": "chúng tôi, chúng ta",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chúng tôi, chúng ta"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-008-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{黒|くろ}い[[コート]]を{着|き}ている{人|ひと}は{誰|だれ}ですか。",
+          "source": "ai-draft",
+          "vi": "Người mặc áo khoác đen là ai?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-22-008",
+      "kana": "コート",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson22_8",
+      "lesson": 22,
+      "meaning_vi": "áo khoác",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "áo khoác"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-009-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{母|はは}が{作|つく}った[[セーター]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là cái áo len mẹ đan."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-22-009",
+      "kana": "セーター",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson22_9",
+      "lesson": 22,
+      "meaning_vi": "áo len",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "áo len"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-010-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "[[スーツ]]を{着|き}ている{人|ひと}は{課長|かちょう}です。",
+          "source": "ai-draft",
+          "vi": "Người mặc com-lê là tổ trưởng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-22-010",
+      "kana": "スーツ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson22_10",
+      "lesson": 22,
+      "meaning_vi": "com-lê",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "com-lê"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-22-011-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{黒|くろ}い[[{帽子|ぼうし}]]を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua cái mũ màu đen."
+        }
+      ],
+      "han_viet": "MẠO TỬ",
+      "id": "mn-22-011",
+      "kana": "ぼうし",
+      "kanji": "帽子",
+      "kanji_refs": [
+        "k-帽",
+        "k-子"
+      ],
+      "legacy_id": "lesson22_11",
+      "lesson": 22,
+      "meaning_vi": "mũ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mũ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-22-012-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "[[{眼鏡|めがね}]]をなくしました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã làm mất kính."
+        }
+      ],
+      "han_viet": "NHÃN KÝNH",
+      "id": "mn-22-012",
+      "kana": "めがね",
+      "kanji": "眼鏡",
+      "kanji_refs": [
+        "k-眼",
+        "k-鏡"
+      ],
+      "legacy_id": "lesson22_12",
+      "lesson": 22,
+      "meaning_vi": "kính",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kính"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-013-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "これは{妹|いもうと}が{作|つく}った[[ケーキ]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là cái bánh em gái tôi làm."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-22-013",
+      "kana": "ケーキ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson22_13",
+      "lesson": 22,
+      "meaning_vi": "bánh ngọt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bánh ngọt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-22-014-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{母|はは}が{作|つく}った[[お{弁当|べんとう}]]を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn cơm hộp mẹ làm."
+        }
+      ],
+      "han_viet": "BIỆN ĐƯƠNG",
+      "id": "mn-22-014",
+      "kana": "べんとう",
+      "kanji": "お弁当",
+      "kanji_refs": [
+        "k-弁",
+        "k-当"
+      ],
+      "legacy_id": "lesson22_14",
+      "lesson": 22,
+      "meaning_vi": "cơm hộp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cơm hộp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-015-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "これは{日本|にほん}で{作|つく}った[[ロボット]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là con rô-bốt được làm ở Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-22-015",
+      "kana": "ロボット",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson22_15",
+      "lesson": 22,
+      "meaning_vi": "ro bốt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ro bốt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-016-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "[[ユーモア]]がある{人|ひと}が{好|す}きです。",
+          "source": "ai-draft",
+          "vi": "Tôi thích người có khiếu hài hước."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-22-016",
+      "kana": "ユーモア",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson22_16",
+      "lesson": 22,
+      "meaning_vi": "sự hài hước",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "n3-627"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "sự hài hước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-22-017-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{明日|あした}は[[{都合|つごう}]]が{悪|わる}いです。",
+          "source": "ai-draft",
+          "vi": "Ngày mai tôi không tiện."
+        }
+      ],
+      "han_viet": "ĐÔ HỢP",
+      "id": "mn-22-017",
+      "kana": "つごう",
+      "kanji": "都合",
+      "kanji_refs": [
+        "k-都",
+        "k-合"
+      ],
+      "legacy_id": "lesson22_17",
+      "lesson": 22,
+      "meaning_vi": "(sự) thích hợp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "(sự) thích hợp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-22-018-e1",
+          "max_lesson": 22,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{良|よ}く]]この{店|みせ}で{買|か}い{物|もの}をします。",
+          "source": "ai-draft",
+          "vi": "Tôi hay mua sắm ở cửa hàng này."
+        }
+      ],
+      "han_viet": "LƯƠNG",
+      "id": "mn-22-018",
+      "kana": "よく",
+      "kanji": "良く",
+      "kanji_refs": [
+        "k-良"
+      ],
+      "legacy_id": "lesson22_18",
+      "lesson": 22,
+      "meaning_vi": "thường, hay",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-09-037"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "thường, hay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 22,
+  "schema_version": 4
+}

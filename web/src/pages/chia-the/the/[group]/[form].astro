@@ -1,0 +1,68 @@
+---
+// Một thể: cách dùng · quy tắc từng nhóm (khung nổi bật) · bảng ví dụ (gốc → kết quả, cách chia áp dụng).
+// Thể trước/sau theo thứ tự bài học trong cùng nhóm.
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import FormDetail from "../../../../components/conjugation/FormDetail.astro";
+import type { ConjEntry, ConjFormDef, ConjGroupDef } from "../../../../content.config";
+import Base from "../../../../layouts/Base.astro";
+import { GROUP_SLUG, LIST_GROUPS, byLesson, formPath } from "../../../../lib/conjugation";
+
+export const getStaticPaths = (async () => {
+  const groups = (await getCollection("conjGroups")).map((g) => g.data);
+  const forms = (await getCollection("conjForms")).map((f) => f.data).sort((a, b) => a.order - b.order);
+  const entries = new Map((await getCollection("conjEntries")).map((e) => [e.data.vocab_id, e.data]));
+  return groups.flatMap((g) => {
+    const ordered = byLesson(forms.filter((f) => f.group === g.id)).flatMap((s) => s.forms);
+    return ordered.map((f, i) => ({
+      params: { group: GROUP_SLUG[g.id], form: f.id },
+      props: {
+        f,
+        group: g,
+        examples: f.rules.map((r) => r.examples.flatMap((id) => entries.get(id) ?? [])),
+        prev: ordered[i - 1] ?? null,
+        next: ordered[i + 1] ?? null,
+      },
+    }));
+  });
+}) satisfies GetStaticPaths;
+
+interface Props {
+  f: ConjFormDef;
+  group: ConjGroupDef;
+  examples: ConjEntry[][];
+  prev: ConjFormDef | null;
+  next: ConjFormDef | null;
+}
+const { f, group, examples, prev, next } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+---
+
+<Base title={`${f.name_vi} · ${group.name_vi}`}>
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    {prev && <a href={`${base}/${formPath(prev)}`} class={navLink}>← {prev.name_vi}</a>}
+    {next && <a href={`${base}/${formPath(next)}`} class={navLink}>{next.name_vi} →</a>}
+  </nav>
+
+  <article class="mx-auto max-w-4xl">
+    <p class="text-sm text-ink-faint">
+      <a href={`${base}/chia-the/`} class="hover:text-primary hover:underline">Chia thể</a>
+      <span class="mx-1">›</span>
+      {group.name_vi}
+    </p>
+    <div class="mt-2"><FormDetail f={f} examples={examples} base={base} /></div>
+
+    <footer class="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5 text-sm">
+      {prev ? <a href={`${base}/${formPath(prev)}`} class={navLink}>← {prev.name_vi}</a> : <span />}
+      {
+        LIST_GROUPS.includes(group.id) && (
+          <a href={`${base}/chia-the/${GROUP_SLUG[group.id]}/`} class="rounded-md border border-line bg-surface px-3 py-1.5 text-primary hover:bg-primary-soft">
+            Tra bảng chia {group.name_vi.toLowerCase()}
+          </a>
+        )
+      }
+      {next ? <a href={`${base}/${formPath(next)}`} class={navLink}>{next.name_vi} →</a> : <span />}
+    </footer>
+  </article>
+</Base>

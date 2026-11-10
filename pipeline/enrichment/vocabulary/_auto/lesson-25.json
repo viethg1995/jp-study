@@ -1,0 +1,139 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHẢO",
+    "han_viet_source": "source",
+    "id": "mn-25-001",
+    "kanji": "考えます",
+    "kanji_refs": [
+      "k-考"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson25_1",
+    "lesson": 25
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRƯỚC",
+    "han_viet_source": "source",
+    "id": "mn-25-002",
+    "kanji": "着きます",
+    "kanji_refs": [
+      "k-着"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson25_2",
+    "lesson": 25
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "THỦ",
+    "han_viet_original": "THỦNIÊN",
+    "han_viet_source": "derived",
+    "id": "mn-25-003",
+    "kanji": "取ります",
+    "kanji_refs": [
+      "k-取"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson25_3",
+    "lesson": 25
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỦ",
+    "han_viet_source": "source",
+    "id": "mn-25-004",
+    "kanji": "足ります",
+    "kanji_refs": [
+      "k-足"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson25_4",
+    "lesson": 25
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐIỀN XÁ",
+    "han_viet_source": "source",
+    "id": "mn-25-005",
+    "kanji": "田舎",
+    "kanji_refs": [
+      "k-田",
+      "k-舎"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson25_5",
+    "lesson": 25
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-25-006",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson25_6",
+    "lesson": 25,
+    "pos_reason": "JMdict: danh từ thông dụng (chance; opportunity)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ỨC",
+    "han_viet_source": "source",
+    "id": "mn-25-007",
+    "kanji": "億",
+    "kanji_refs": [
+      "k-億"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson25_7",
+    "lesson": 25
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "MÔ THÍ",
+    "han_viet_source": "mixed",
+    "id": "mn-25-008",
+    "kanji": "模試",
+    "kanji_gloss": "mock exam; practice exam",
+    "kanji_refs": [
+      "k-模",
+      "k-試"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson25_8",
+    "lesson": 25
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "Ý VỊ",
+    "han_viet_source": "source",
+    "id": "mn-25-009",
+    "kanji": "意味",
+    "kanji_refs": [
+      "k-意",
+      "k-味"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson25_9",
+    "lesson": 25
+  }
+]

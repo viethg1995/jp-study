@@ -1,0 +1,516 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-001-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{駅|えき}の{前|まえ}で{車|くるま}から{荷物|にもつ}を[[{降|お}ろしました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã dỡ hành lý từ ô tô xuống ở trước nhà ga."
+        }
+      ],
+      "han_viet": "GIÁNG, HẠ",
+      "id": "mn-48-001",
+      "kana": "おろします",
+      "kanji": "降ろします,下ろします",
+      "kanji_refs": [
+        "k-降",
+        "k-下"
+      ],
+      "legacy_id": "lesson48_1",
+      "lesson": 48,
+      "meaning_vi": "cho xuống, hạ xuống",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cho xuống, hạ xuống"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-002-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{息子|むすこ}に{書類|しょるい}を[[{届|とど}けさせます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi bảo con trai mang giấy tờ đến."
+        }
+      ],
+      "han_viet": "GIỚI",
+      "id": "mn-48-002",
+      "kana": "とどけます",
+      "kanji": "届けます",
+      "kanji_refs": [
+        "k-届"
+      ],
+      "legacy_id": "lesson48_2",
+      "lesson": 48,
+      "meaning_vi": "gởi đến, chuyển đến",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gởi đến, chuyển đến"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-003-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{毎日|まいにち}{犬|いぬ}の[[{世話|せわ}をします]]。",
+          "source": "ai-draft",
+          "vi": "Ngày nào tôi cũng chăm sóc chó."
+        }
+      ],
+      "han_viet": "THẾ THOẠI",
+      "id": "mn-48-003",
+      "kana": "せわをします",
+      "kanji": "世話をします",
+      "kanji_refs": [
+        "k-世",
+        "k-話"
+      ],
+      "legacy_id": "lesson48_3",
+      "lesson": 48,
+      "meaning_vi": "chăm sóc",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chăm sóc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-004-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{先生|せんせい}の{話|はなし}を[[{録音|ろくおん}させて]]いただけませんか。",
+          "source": "ai-draft",
+          "vi": "Thầy có thể cho em ghi âm bài giảng được không ạ?"
+        }
+      ],
+      "han_viet": "LỤC ÂM",
+      "id": "mn-48-004",
+      "kana": "ろくおんします",
+      "kanji": "録音します",
+      "kanji_refs": [
+        "k-録",
+        "k-音"
+      ],
+      "legacy_id": "lesson48_4",
+      "lesson": 48,
+      "meaning_vi": "ghi âm",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ghi âm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-005-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{雨|あめ}の{日|ひ}は[[{嫌|いや}]]です。",
+          "source": "ai-draft",
+          "vi": "Tôi ghét ngày mưa."
+        }
+      ],
+      "han_viet": "HIỀM",
+      "id": "mn-48-005",
+      "kana": "いや",
+      "kanji": "嫌",
+      "kanji_refs": [
+        "k-嫌"
+      ],
+      "legacy_id": "lesson48_5",
+      "lesson": 48,
+      "meaning_vi": "ngán, không thích",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngán, không thích"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-006-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{息子|むすこ}を[[{塾|じゅく}]]に{行|い}かせています。",
+          "source": "ai-draft",
+          "vi": "Tôi cho con trai đi học thêm."
+        }
+      ],
+      "han_viet": "THỤC",
+      "id": "mn-48-006",
+      "kana": "じゅく",
+      "kanji": "塾",
+      "kanji_refs": [
+        "k-塾"
+      ],
+      "legacy_id": "lesson48_6",
+      "lesson": 48,
+      "meaning_vi": "cơ sở học thêm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cơ sở học thêm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-007-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{先生|せんせい}は[[{生徒|せいと}]]に{作文|さくぶん}を{書|か}かせました。",
+          "source": "ai-draft",
+          "vi": "Thầy giáo bắt học sinh viết bài văn."
+        }
+      ],
+      "han_viet": "SINH ĐỒ",
+      "id": "mn-48-007",
+      "kana": "せいと",
+      "kanji": "生徒",
+      "kanji_refs": [
+        "k-生",
+        "k-徒"
+      ],
+      "legacy_id": "lesson48_7",
+      "lesson": 48,
+      "meaning_vi": "học sinh, học trò",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "học sinh, học trò"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-48-008-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{部下|ぶか}に[[ファイル]]を{整理|せいり}させます。",
+          "source": "ai-draft",
+          "vi": "Tôi bảo cấp dưới sắp xếp tài liệu."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-48-008",
+      "kana": "ファイル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson48_8",
+      "lesson": 48,
+      "meaning_vi": "kẹp tài liệu, file tài liệu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kẹp tài liệu, file tài liệu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-009-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{子|こ}どもたちを{公園|こうえん}で[[{自由|じゆう}に]]{遊|あそ}ばせます。",
+          "source": "ai-draft",
+          "vi": "Tôi cho bọn trẻ chơi tự do ở công viên."
+        }
+      ],
+      "han_viet": "TỰ DO",
+      "id": "mn-48-009",
+      "kana": "じゆうに",
+      "kanji": "自由に",
+      "kanji_refs": [
+        "k-自",
+        "k-由"
+      ],
+      "legacy_id": "lesson48_9",
+      "lesson": 48,
+      "meaning_vi": "tự do",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tự do"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-48-010-e1",
+          "max_lesson": 48,
+          "review": "user",
+          "ruby": "{子|こ}どもに２{時|じ}[[{間|かん}]]{勉強|べんきょう}させました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã bắt con học 2 tiếng."
+        }
+      ],
+      "han_viet": "GIAN",
+      "id": "mn-48-010",
+      "kana": "～かん",
+      "kanji": "～間",
+      "kanji_refs": [
+        "k-間"
+      ],
+      "legacy_id": "lesson48_10",
+      "lesson": 48,
+      "meaning_vi": "trong ～ (dùng để chỉ khoảng thời gian)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trong ～ (dùng để chỉ khoảng thời gian)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [],
+      "han_viet": null,
+      "id": "mn-48-011",
+      "kana": "いいことですね。",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson48_11",
+      "lesson": 48,
+      "meaning_vi": "Hay nhỉ./ Được đấy nhỉ.",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hay nhỉ./ Được đấy nhỉ."
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 48,
+  "schema_version": 4
+}

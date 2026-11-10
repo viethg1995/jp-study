@@ -1,0 +1,611 @@
+{
+  "mn-03-001": {
+    "examples": [
+      {
+        "id": "mn-03-001-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[ここ]]は{食堂|しょくどう}です。",
+        "source": "ai-draft",
+        "vi": "Đây là nhà ăn."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-002": {
+    "examples": [
+      {
+        "id": "mn-03-002-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[そこ]]は{事務所|じむしょ}です。",
+        "source": "ai-draft",
+        "vi": "Chỗ đó là văn phòng."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-003": {
+    "examples": [
+      {
+        "id": "mn-03-003-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "トイレは[[あそこ]]です。",
+        "source": "ai-draft",
+        "vi": "Nhà vệ sinh ở đằng kia."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-004": {
+    "examples": [
+      {
+        "id": "mn-03-004-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "{受付|うけつけ}は[[どこ]]ですか。",
+        "source": "ai-draft",
+        "vi": "Quầy lễ tân ở đâu?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-005": {
+    "examples": [
+      {
+        "id": "mn-03-005-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[こちら]]はミラーさんです。",
+        "source": "ai-draft",
+        "vi": "Đây là anh Miller."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-006": {
+    "examples": [
+      {
+        "id": "mn-03-006-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "{電話|でんわ}は[[そちら]]です。",
+        "source": "ai-draft",
+        "vi": "Điện thoại ở phía đó."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-007": {
+    "examples": [
+      {
+        "id": "mn-03-007-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "エレベーターは[[あちら]]です。",
+        "source": "ai-draft",
+        "vi": "Thang máy ở phía kia."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-008": {
+    "examples": [
+      {
+        "id": "mn-03-008-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "お{国|くに}は[[どちら]]ですか。",
+        "source": "ai-draft",
+        "vi": "Anh/chị đến từ nước nào?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "nghi vấn từ, viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-009": {
+    "examples": [
+      {
+        "id": "mn-03-009-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{教室|きょうしつ}]]は３{階|がい}です。",
+        "source": "ai-draft",
+        "vi": "Phòng học ở tầng 3."
+      }
+    ]
+  },
+  "mn-03-010": {
+    "examples": [
+      {
+        "id": "mn-03-010-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{食堂|しょくどう}]]は{地下|ちか}です。",
+        "source": "ai-draft",
+        "vi": "Nhà ăn ở tầng hầm."
+      }
+    ]
+  },
+  "mn-03-011": {
+    "examples": [
+      {
+        "id": "mn-03-011-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "ここは[[{事務所|じむしょ}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là văn phòng."
+      }
+    ]
+  },
+  "mn-03-012": {
+    "examples": [
+      {
+        "id": "mn-03-012-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{会議室|かいぎしつ}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Phòng họp ở đâu?"
+      }
+    ]
+  },
+  "mn-03-013": {
+    "examples": [
+      {
+        "id": "mn-03-013-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{受付|うけつけ}]]はあそこです。",
+        "source": "ai-draft",
+        "vi": "Quầy lễ tân ở đằng kia."
+      }
+    ]
+  },
+  "mn-03-014": {
+    "examples": [
+      {
+        "id": "mn-03-014-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[ロビー]]はあそこです。",
+        "source": "ai-draft",
+        "vi": "Sảnh ở đằng kia."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ロビー: PN→N (JMdict: danh từ thông dụng (lobby; lounge))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-015": {
+    "examples": [
+      {
+        "id": "mn-03-015-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "ここは{私|わたし}の[[{部屋|へや}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là phòng của tôi."
+      }
+    ]
+  },
+  "mn-03-016": {
+    "examples": [
+      {
+        "id": "mn-03-016-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[トイレ]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Nhà vệ sinh ở đâu?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "トイレ: PN→N (JMdict: danh từ thông dụng (toilet; restroom))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-017": {
+    "examples": [
+      {
+        "id": "mn-03-017-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{階段|かいだん}]]はあちらです。",
+        "source": "ai-draft",
+        "vi": "Cầu thang ở phía kia."
+      }
+    ]
+  },
+  "mn-03-018": {
+    "examples": [
+      {
+        "id": "mn-03-018-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[エレベーター]]はあちらです。",
+        "source": "ai-draft",
+        "vi": "Thang máy ở phía kia."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "エレベーター: PN→N (JMdict: danh từ thông dụng (elevator; lift))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-019": {
+    "examples": [
+      {
+        "id": "mn-03-019-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[エスカレーター]]はそこです。",
+        "source": "ai-draft",
+        "vi": "Thang cuốn ở chỗ đó."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "エスカレーター: PN→N (JMdict: danh từ thông dụng (escalator))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-020": {
+    "examples": [
+      {
+        "id": "mn-03-020-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{自動販売機|じどうはんばいき}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Máy bán hàng tự động ở đâu?"
+      }
+    ],
+    "han_viet": "TỰ ĐỘNG PHIẾN MẠI CƠ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "kanji_vn gốc dính chữ (ĐỘNGPHIẾN)",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-021": {
+    "examples": [
+      {
+        "id": "mn-03-021-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{電話|でんわ}]]はあそこです。",
+        "source": "ai-draft",
+        "vi": "Điện thoại ở đằng kia."
+      }
+    ]
+  },
+  "mn-03-022": {
+    "examples": [
+      {
+        "id": "mn-03-022-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "ワンさんのお[[{国|くに}]]は{中国|ちゅうごく}です。",
+        "source": "ai-draft",
+        "vi": "Nước của anh Wang là Trung Quốc."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "くに: PN→N (JMdict: danh từ thông dụng (country; state))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-023": {
+    "examples": [
+      {
+        "id": "mn-03-023-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "[[{会社|かいしゃ}]]はどちらですか。",
+        "source": "ai-draft",
+        "vi": "Anh/chị làm ở công ty nào?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "かいしゃ: PN→N (JMdict: danh từ thông dụng (company; corporation))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-024": {
+    "examples": [
+      {
+        "id": "mn-03-024-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "ミラーさんの[[{家|うち}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Nhà anh Miller ở đâu?"
+      }
+    ],
+    "han_viet": "GIA",
+    "han_viet_source": "user",
+    "kanji": "家",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "うち = nhà",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-025": {
+    "examples": [
+      {
+        "id": "mn-03-025-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "この[[{靴|くつ}]]はいくらですか。",
+        "source": "ai-draft",
+        "vi": "Đôi giày này bao nhiêu tiền?"
+      }
+    ]
+  },
+  "mn-03-026": {
+    "examples": [
+      {
+        "id": "mn-03-026-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "この[[ネクタイ]]はいくらですか。",
+        "source": "ai-draft",
+        "vi": "Cái cà vạt này bao nhiêu tiền?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ネクタイ: PN→N (JMdict: danh từ thông dụng (tie; necktie))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-027": {
+    "examples": [
+      {
+        "id": "mn-03-027-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "これはフランスの[[ワイン]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là rượu vang Pháp."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ワイン: PN→N (JMdict: danh từ thông dụng (wine))",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-028": {
+    "examples": [
+      {
+        "id": "mn-03-028-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "{靴|くつ}の[[{売り場|うりば}]]は{地下|ちか}です。",
+        "source": "ai-draft",
+        "vi": "Quầy bán giày ở tầng hầm."
+      }
+    ]
+  },
+  "mn-03-029": {
+    "examples": [
+      {
+        "id": "mn-03-029-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "{食堂|しょくどう}は[[{地下|ちか}]]１{階|かい}です。",
+        "source": "ai-draft",
+        "vi": "Nhà ăn ở tầng hầm 1."
+      }
+    ]
+  },
+  "mn-03-030": {
+    "examples": [
+      {
+        "id": "mn-03-030-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "{会議室|かいぎしつ}は５[[{階|かい}]]です。",
+        "source": "ai-draft",
+        "vi": "Phòng họp ở tầng 5."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～階 tầng",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-031": {
+    "examples": [
+      {
+        "id": "mn-03-031-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "{事務所|じむしょ}は[[{何階|なんがい}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Văn phòng ở tầng mấy?"
+      }
+    ]
+  },
+  "mn-03-032": {
+    "examples": [
+      {
+        "id": "mn-03-032-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "この{傘|かさ}は８００[[{円|えん}]]です。",
+        "source": "ai-draft",
+        "vi": "Cái ô này giá 800 yên."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～円 yên",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-033": {
+    "examples": [
+      {
+        "id": "mn-03-033-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "この{時計|とけい}は[[いくら]]ですか。",
+        "source": "ai-draft",
+        "vi": "Cái đồng hồ này bao nhiêu tiền?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thường viết kana; 幾ら hiếm",
+      "status": "reviewed"
+    }
+  },
+  "mn-03-034": {
+    "examples": [
+      {
+        "id": "mn-03-034-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "この{鉛筆|えんぴつ}は[[{百|ひゃく}]]{円|えん}です。",
+        "source": "ai-draft",
+        "vi": "Cây bút chì này giá 100 yên."
+      }
+    ]
+  },
+  "mn-03-035": {
+    "examples": [
+      {
+        "id": "mn-03-035-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "この{辞書|じしょ}は{三|さん}[[{千|ぜん}]]{円|えん}です。",
+        "source": "ai-draft",
+        "vi": "Cuốn từ điển này giá 3.000 yên."
+      }
+    ]
+  },
+  "mn-03-036": {
+    "examples": [
+      {
+        "id": "mn-03-036-e1",
+        "max_lesson": 3,
+        "review": "user",
+        "ruby": "この{車|くるま}は{二百|にひゃく}[[{万|まん}]]{円|えん}です。",
+        "source": "ai-draft",
+        "vi": "Chiếc ô tô này giá 2 triệu yên."
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+---
+// Bài từ vựng Minna (1–50).
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import { conjLinks } from "../../lib/conjugation";
+import LessonView from "../../components/vocab/LessonView.astro";
+
+export const getStaticPaths = (async () => {
+  const lessons = await getCollection("vocabulary");
+  return lessons.map((l) => ({ params: { lesson: String(l.data.lesson) }, props: { data: l.data } }));
+}) satisfies GetStaticPaths;
+
+const { data } = Astro.props;
+const conj = conjLinks((await getCollection("conjEntries")).map((e) => e.data));
+---
+
+<LessonView lesson={data.lesson} entries={data.entries} route="vocabulary" lastLesson={50} label="Bài" conj={conj} />

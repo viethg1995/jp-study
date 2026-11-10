@@ -1,0 +1,932 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-001-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "{明日|あした}、{何|なに}か[[{要|い}る]]？",
+          "source": "ai-draft",
+          "vi": "Ngày mai có cần gì không?"
+        }
+      ],
+      "han_viet": "YẾU",
+      "id": "mn-20-001",
+      "kana": "いります",
+      "kanji": "要ります",
+      "kanji_refs": [
+        "k-要"
+      ],
+      "legacy_id": "lesson20_1",
+      "lesson": 20,
+      "meaning_vi": "cần [thị thực (visa)]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "thị thực (visa)",
+          "text": "cần"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-002-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "{辞書|じしょ}で[[{調|しら}べる]]。",
+          "source": "ai-draft",
+          "vi": "Tôi tra bằng từ điển."
+        }
+      ],
+      "han_viet": "ĐIỀU",
+      "id": "mn-20-002",
+      "kana": "しらべます",
+      "kanji": "調べます",
+      "kanji_refs": [
+        "k-調"
+      ],
+      "legacy_id": "lesson20_2",
+      "lesson": 20,
+      "meaning_vi": "tìm hiểu, điều tra, xem",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tìm hiểu, điều tra, xem"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-003-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "{昨日|きのう}、{車|くるま}を[[{修理|しゅうり}した]]。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã sửa ô tô."
+        }
+      ],
+      "han_viet": "TU LÝ",
+      "id": "mn-20-003",
+      "kana": "しゅうりします",
+      "kanji": "修理します",
+      "kanji_refs": [
+        "k-修",
+        "k-理"
+      ],
+      "legacy_id": "lesson20_3",
+      "lesson": 20,
+      "meaning_vi": "sửa chữa, tu sửa",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sửa chữa, tu sửa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-004-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "[[{僕|ぼく}]]は{学生|がくせい}だ。",
+          "source": "ai-draft",
+          "vi": "Tớ là sinh viên."
+        }
+      ],
+      "han_viet": "BỘC",
+      "id": "mn-20-004",
+      "kana": "ぼく",
+      "kanji": "僕",
+      "kanji_refs": [
+        "k-僕"
+      ],
+      "legacy_id": "lesson20_4",
+      "lesson": 20,
+      "meaning_vi": "tớ (cách xưng thân mật của わたし được dùng bởi nam giới)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tớ (cách xưng thân mật của わたし được dùng bởi nam giới)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-005-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "[[{君|きみ}]]も{行|い}く？",
+          "source": "ai-draft",
+          "vi": "Cậu cũng đi chứ?"
+        }
+      ],
+      "han_viet": "QUÂN",
+      "id": "mn-20-005",
+      "kana": "きみ",
+      "kanji": "君",
+      "kanji_refs": [
+        "k-君"
+      ],
+      "legacy_id": "lesson20_5",
+      "lesson": 20,
+      "meaning_vi": "cậu, bạn (cách gọi thân mật của あなた, dùng cho người ngang hàng hoặc ít tuổi hơn)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cậu, bạn (cách gọi thân mật của あなた, dùng cho người ngang hàng hoặc ít tuổi hơn)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-006-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "{田中|たなか}[[{君|くん}]]は{来|こ}ない。",
+          "source": "ai-draft",
+          "vi": "Cậu Tanaka không đến."
+        }
+      ],
+      "han_viet": "QUÂN",
+      "id": "mn-20-006",
+      "kana": "～くん",
+      "kanji": "～君",
+      "kanji_refs": [
+        "k-君"
+      ],
+      "legacy_id": "lesson20_6",
+      "lesson": 20,
+      "meaning_vi": "anh～, cậu～ (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「～さん」)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh～, cậu～ (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「～さん」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-007-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "「コーヒー、{飲|の}む？」「[[うん]]、{飲|の}む。」",
+          "source": "ai-draft",
+          "vi": "\"Uống cà phê không?\" \"Ừ, uống.\""
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-007",
+      "kana": "うん",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_7",
+      "lesson": 20,
+      "meaning_vi": "ừ (cách nói thân mật của 「はい」)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ừ (cách nói thân mật của 「はい」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-008-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "「{明日|あした}、{暇|ひま}？」「[[ううん]]、{忙|いそが}しい。」",
+          "source": "ai-draft",
+          "vi": "\"Mai rảnh không?\" \"Không, bận.\""
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-008",
+      "kana": "ううん",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_8",
+      "lesson": 20,
+      "meaning_vi": "không (cách nói thân mật của 「いいえ」)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "không (cách nói thân mật của 「いいえ」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-009-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "この[[{言葉|ことば}]]は{難|むずか}しい。",
+          "source": "ai-draft",
+          "vi": "Từ này khó."
+        }
+      ],
+      "han_viet": "NGÔN DIỆP",
+      "id": "mn-20-009",
+      "kana": "ことば",
+      "kanji": "言葉",
+      "kanji_refs": [
+        "k-言",
+        "k-葉"
+      ],
+      "legacy_id": "lesson20_9",
+      "lesson": 20,
+      "meaning_vi": "từ, tiếng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "từ, tiếng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-010-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "[[{着物|きもの}]]を{着|き}たことがある？",
+          "source": "ai-draft",
+          "vi": "Bạn đã từng mặc kimono chưa?"
+        }
+      ],
+      "han_viet": "TRƯỚC VẬT",
+      "id": "mn-20-010",
+      "kana": "きもの",
+      "kanji": "着物",
+      "kanji_refs": [
+        "k-着",
+        "k-物"
+      ],
+      "legacy_id": "lesson20_10",
+      "lesson": 20,
+      "meaning_vi": "Kimono (trang phục truyền thống của Nhật Bản)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Kimono (trang phục truyền thống của Nhật Bản)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-011-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "[[ビザ]]が{要|い}る？",
+          "source": "ai-draft",
+          "vi": "Có cần visa không?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-011",
+      "kana": "ビザ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_11",
+      "lesson": 20,
+      "meaning_vi": "thị thực, Visa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thị thực, Visa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-012-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "この{映画|えいが}は[[{始|はじ}め]]が{面白|おもしろ}かった。",
+          "source": "ai-draft",
+          "vi": "Phần đầu của bộ phim này hay."
+        }
+      ],
+      "han_viet": "THỦY",
+      "id": "mn-20-012",
+      "kana": "はじめ",
+      "kanji": "始め",
+      "kanji_refs": [
+        "k-始"
+      ],
+      "legacy_id": "lesson20_12",
+      "lesson": 20,
+      "meaning_vi": "ban đầu, đầu tiên",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ban đầu, đầu tiên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-20-013-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "{映画|えいが}の[[{終|お}わり]]はよくなかった。",
+          "source": "ai-draft",
+          "vi": "Đoạn kết của bộ phim không hay."
+        }
+      ],
+      "han_viet": "CHUNG",
+      "id": "mn-20-013",
+      "kana": "おわり",
+      "kanji": "終わり",
+      "kanji_refs": [
+        "k-終"
+      ],
+      "legacy_id": "lesson20_13",
+      "lesson": 20,
+      "meaning_vi": "kết thúc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-190"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "kết thúc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-014-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "[[こっち]]に{来|き}て。",
+          "source": "ai-draft",
+          "vi": "Lại đây đi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-014",
+      "kana": "こっち",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_14",
+      "lesson": 20,
+      "meaning_vi": "phía này, chỗ này (cách nói thân mật của 「こちら」)",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía này, chỗ này (cách nói thân mật của 「こちら」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-015-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "[[そっち]]は{寒|さむ}い？",
+          "source": "ai-draft",
+          "vi": "Bên đó có lạnh không?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-015",
+      "kana": "そっち",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_15",
+      "lesson": 20,
+      "meaning_vi": "phía đó, chỗ đó (cách nói thân mật của 「そちら」)",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía đó, chỗ đó (cách nói thân mật của 「そちら」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-016-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "トイレは[[あっち]]だよ。",
+          "source": "ai-draft",
+          "vi": "Nhà vệ sinh ở đằng kia đấy."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-016",
+      "kana": "あっち",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_16",
+      "lesson": 20,
+      "meaning_vi": "phía kia, chỗ kia (cách nói thân mật của 「あちら」)",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía kia, chỗ kia (cách nói thân mật của 「あちら」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-017-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "コーヒーと{紅茶|こうちゃ}、[[どっち]]がいい？",
+          "source": "ai-draft",
+          "vi": "Cà phê với trà, cái nào được?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-017",
+      "kana": "どっち",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_17",
+      "lesson": 20,
+      "meaning_vi": "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-018-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "[[みんなで]]{写真|しゃしん}を{撮|と}った。",
+          "source": "ai-draft",
+          "vi": "Mọi người cùng chụp ảnh."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-018",
+      "kana": "みんなで",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_18",
+      "lesson": 20,
+      "meaning_vi": "mọi người cùng",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mọi người cùng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-019-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "{日本語|にほんご}は{難|むずか}しい[[けど]]、{面白|おもしろ}い。",
+          "source": "ai-draft",
+          "vi": "Tiếng Nhật khó nhưng thú vị."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-019",
+      "kana": "～けど",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_19",
+      "lesson": 20,
+      "meaning_vi": "nhưng (cách nói thân mật của 「が」)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhưng (cách nói thân mật của 「が」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-20-020-e1",
+          "max_lesson": 20,
+          "review": "user",
+          "ruby": "もう[[おなかがいっぱいです]]。",
+          "source": "ai-draft",
+          "vi": "Tôi no rồi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-20-020",
+      "kana": "おなかがいっぱいです",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson20_20",
+      "lesson": 20,
+      "meaning_vi": "(Tôi) no rồi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "(Tôi) no rồi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 20,
+  "schema_version": 4
+}

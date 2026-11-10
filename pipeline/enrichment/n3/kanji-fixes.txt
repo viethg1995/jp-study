@@ -1,0 +1,5 @@
+# by: user
+# Sửa âm Hán-Việt sai trong sách Kanji N3 (phát hiện khi so với dữ liệu N5–N4, 2026-11-10). Cú pháp: 字|ÂM|ghi chú ('-' = không có âm)
+投|ĐẦU|sách ghi TÍN
+到|ĐÁO|sách ghi ĐẢO
+込|-|sách ghi NHẬP; user xác nhận 込 là quốc tự (国字), không có âm Hán-Việt

@@ -1,0 +1,87 @@
+---
+// Từ ví dụ của một chữ Hán, chia 3 nhóm: Âm On (音) · Âm Kun (訓) · Đặc biệt (熟字訓, không tách được âm).
+// Từ giáo trình: link về thẻ + nhãn bài. Từ bổ sung (JMdict): nghĩa tiếng Việt, chưa dịch → nghĩa tiếng Anh.
+import type { KanjiExample } from "../../content.config";
+import { kunDisplay } from "../../lib/kanji";
+
+export interface ExampleRow extends KanjiExample {
+  href: string | null; // link thẻ từ vựng (từ giáo trình)
+  badge: string | null; // "Bài 9", "N3 · Bài 1"
+}
+interface Props {
+  char: string;
+  on: string[];
+  kun: string[];
+  rows: ExampleRow[];
+}
+const { char, on, kun, rows } = Astro.props;
+
+const groups = [
+  { key: "on", title: "Âm On", jp: "音", readings: on.join("、"), items: rows.filter((r) => r.reading_type === "on") },
+  { key: "kun", title: "Âm Kun", jp: "訓", readings: kun.map(kunDisplay).join("、"), items: rows.filter((r) => r.reading_type === "kun") },
+  { key: "other", title: "Cách đọc đặc biệt", jp: "", readings: "", items: rows.filter((r) => r.reading_type === null) },
+].filter((g) => g.items.length > 0);
+
+// Tô màu chữ đang xét trong từ: 会社員 → [会]社員
+const parts = (w: string): { t: string; hit: boolean }[] =>
+  w.split(new RegExp(`(${char})`)).filter(Boolean).map((t) => ({ t, hit: t === char }));
+---
+
+<section>
+  <h2 class="text-lg font-bold">
+    Ví dụ <span class="text-sm font-normal text-ink-faint">· {rows.length} từ</span>
+  </h2>
+  <div class="grid gap-x-6 lg:grid-cols-2">
+  {
+    groups.map((g) => (
+      <div class="mt-4">
+        <h3 class="flex flex-wrap items-baseline gap-x-2 text-sm font-semibold text-ink-muted">
+          <span>
+            {g.title}
+            {g.jp && (
+              <span class="jp" lang="ja">
+                {" "}
+                ({g.jp})
+              </span>
+            )}
+          </span>
+          {g.readings && (
+            <span class="jp font-normal text-ink-faint" lang="ja">
+              {g.readings}
+            </span>
+          )}
+        </h3>
+        <ul class="mt-2 divide-y divide-line rounded-lg border border-line bg-surface">
+          {g.items.map((e) => {
+            const body = (
+              <>
+                <span class="jp min-w-24 text-lg text-ink" lang="ja">
+                  {parts(e.word).map((p) => (p.hit ? <span class="font-bold text-primary">{p.t}</span> : p.t))}
+                </span>
+                <span class="jp text-sm text-ink-faint" lang="ja">
+                  {e.kana}
+                </span>
+                <span class="min-w-0 flex-1 truncate text-sm text-ink-muted">
+                  {e.meaning_vi ?? <span class="italic text-ink-faint">{e.meaning_en}</span>}
+                </span>
+                {e.badge && <span class="shrink-0 text-xs text-ink-faint">{e.badge}</span>}
+              </>
+            );
+            return (
+              <li>
+                {e.href ? (
+                  <a href={e.href} class="flex items-baseline gap-3 px-4 py-2.5 hover:bg-surface-sunken">
+                    {body}
+                  </a>
+                ) : (
+                  <div class="flex items-baseline gap-3 px-4 py-2.5">{body}</div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    ))
+  }
+  </div>
+</section>

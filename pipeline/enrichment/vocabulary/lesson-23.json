@@ -1,0 +1,302 @@
+{
+  "mn-23-001": {
+    "examples": [
+      {
+        "id": "mn-23-001-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{分|わ}からない{時|とき}は、{先生|せんせい}に[[{聞|き}いて]]ください。",
+        "source": "ai-draft",
+        "vi": "Khi không hiểu, hãy hỏi giáo viên."
+      }
+    ]
+  },
+  "mn-23-002": {
+    "examples": [
+      {
+        "id": "mn-23-002-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "このつまみを[[{回|まわ}す]]と、{音|おと}が{大|おお}きくなります。",
+        "source": "ai-draft",
+        "vi": "Vặn cái núm này thì âm thanh sẽ to lên."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "まわします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-23-003": {
+    "examples": [
+      {
+        "id": "mn-23-003-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "このドアは[[{引|ひ}いて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy kéo cánh cửa này."
+      }
+    ]
+  },
+  "mn-23-004": {
+    "examples": [
+      {
+        "id": "mn-23-004-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{髪|かみ}の{色|いろ}を[[{変|か}えました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đổi màu tóc."
+      }
+    ]
+  },
+  "mn-23-005": {
+    "examples": [
+      {
+        "id": "mn-23-005-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "この{絵|え}に[[{触|さわ}らないで]]ください。",
+        "source": "ai-draft",
+        "vi": "Đừng chạm vào bức tranh này."
+      }
+    ]
+  },
+  "mn-23-006": {
+    "examples": [
+      {
+        "id": "mn-23-006-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "このボタンを{押|お}すと、お{釣|つ}りが[[{出|で}ます]]。",
+        "source": "ai-draft",
+        "vi": "Bấm nút này thì tiền thừa sẽ ra."
+      }
+    ]
+  },
+  "mn-23-007": {
+    "examples": [
+      {
+        "id": "mn-23-007-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}{公園|こうえん}を[[{歩|ある}きます]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi đi bộ trong công viên."
+      }
+    ]
+  },
+  "mn-23-008": {
+    "examples": [
+      {
+        "id": "mn-23-008-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "この{橋|はし}を[[{渡|わた}る]]と、{駅|えき}があります。",
+        "source": "ai-draft",
+        "vi": "Đi qua cây cầu này thì có nhà ga."
+      }
+    ]
+  },
+  "mn-23-009": {
+    "examples": [
+      {
+        "id": "mn-23-009-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{駅|えき}の{前|まえ}で{右|みぎ}へ[[{曲|ま}がります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi rẽ phải ở trước nhà ga."
+      }
+    ]
+  },
+  "mn-23-010": {
+    "examples": [
+      {
+        "id": "mn-23-010-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{一人|ひとり}の{時|とき}は[[{寂|さび}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Khi ở một mình tôi thấy buồn."
+      }
+    ]
+  },
+  "mn-23-011": {
+    "examples": [
+      {
+        "id": "mn-23-011-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "お[[{湯|ゆ}]]が{出|で}ません。",
+        "source": "ai-draft",
+        "vi": "Nước nóng không chảy ra."
+      }
+    ]
+  },
+  "mn-23-012": {
+    "examples": [
+      {
+        "id": "mn-23-012-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{大|おお}きい[[{音|おと}]]がしました。",
+        "source": "ai-draft",
+        "vi": "Có tiếng động lớn."
+      }
+    ]
+  },
+  "mn-23-013": {
+    "examples": [
+      {
+        "id": "mn-23-013-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{服|ふく}の[[サイズ]]が{分|わ}からない{時|とき}は、{店|みせ}の{人|ひと}に{聞|き}いてください。",
+        "source": "ai-draft",
+        "vi": "Khi không biết cỡ quần áo, hãy hỏi người bán hàng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "サイズ: PN→N (JMdict: danh từ thông dụng (size))",
+      "status": "reviewed"
+    }
+  },
+  "mn-23-014": {
+    "examples": [
+      {
+        "id": "mn-23-014-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "{車|くるま}が[[{故障|こしょう}]]しました。",
+        "source": "ai-draft",
+        "vi": "Ô tô bị hỏng."
+      }
+    ]
+  },
+  "mn-23-015": {
+    "examples": [
+      {
+        "id": "mn-23-015-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "この[[{道|みち}]]を{真|ま}っ{直|す}ぐ{行|い}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy đi thẳng con đường này."
+      }
+    ]
+  },
+  "mn-23-016": {
+    "examples": [
+      {
+        "id": "mn-23-016-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "[[{交差点|こうさてん}]]を{左|ひだり}へ{曲|ま}がってください。",
+        "source": "ai-draft",
+        "vi": "Hãy rẽ trái ở ngã tư."
+      }
+    ]
+  },
+  "mn-23-017": {
+    "examples": [
+      {
+        "id": "mn-23-017-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "[[{信号|しんごう}]]を{渡|わた}ると、{右|みぎ}に{銀行|ぎんこう}があります。",
+        "source": "ai-draft",
+        "vi": "Qua đèn tín hiệu thì bên phải có ngân hàng."
+      }
+    ]
+  },
+  "mn-23-018": {
+    "examples": [
+      {
+        "id": "mn-23-018-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "あの[[{角|かど}]]を{右|みぎ}へ{曲|ま}がってください。",
+        "source": "ai-draft",
+        "vi": "Hãy rẽ phải ở góc kia."
+      }
+    ]
+  },
+  "mn-23-019": {
+    "examples": [
+      {
+        "id": "mn-23-019-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "[[{橋|はし}]]を{渡|わた}って、{真|ま}っ{直|す}ぐ{行|い}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy đi qua cầu rồi đi thẳng."
+      }
+    ]
+  },
+  "mn-23-020": {
+    "examples": [
+      {
+        "id": "mn-23-020-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "[[{駐車場|ちゅうしゃじょう}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Bãi đỗ xe ở đâu?"
+      }
+    ]
+  },
+  "mn-23-021": {
+    "examples": [
+      {
+        "id": "mn-23-021-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "あの{大|おお}きい[[{建物|たてもの}]]は{図書館|としょかん}です。",
+        "source": "ai-draft",
+        "vi": "Tòa nhà lớn kia là thư viện."
+      }
+    ]
+  },
+  "mn-23-022": {
+    "examples": [
+      {
+        "id": "mn-23-022-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "[[{何回|なんかい}も]]{電話|でんわ}をかけました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã gọi điện nhiều lần."
+      }
+    ]
+  },
+  "mn-23-023": {
+    "examples": [
+      {
+        "id": "mn-23-023-e1",
+        "max_lesson": 23,
+        "review": "user",
+        "ruby": "２つ[[{目|め}]]の{信号|しんごう}を{右|みぎ}へ{曲|ま}がってください。",
+        "source": "ai-draft",
+        "vi": "Hãy rẽ phải ở đèn tín hiệu thứ hai."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～目 thứ (số thứ tự)",
+      "status": "reviewed"
+    }
+  }
+}

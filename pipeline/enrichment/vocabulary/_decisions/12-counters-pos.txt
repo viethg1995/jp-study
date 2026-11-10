@@ -1,0 +1,32 @@
+# by: user
+# Vòng 12 — trợ số từ / đơn vị đi sau số: nguồn ghi N, Suf hoặc Suf/Cnt → Cnt (2026-11-10)
+# Tiền đề cho dữ liệu "cách đếm số". Hậu tố không đi sau số (～さん, ～語, ～屋, ～中…) giữ Suf.
+# id | CODE | ghi chú
+01-020|Cnt|～歳 tuổi
+03-030|Cnt|～階 tầng
+03-032|Cnt|～円 yên
+04-013|Cnt|～時 giờ
+04-014|Cnt|～分 phút
+05-031|Cnt|～年 năm (năm thứ)
+05-033|Cnt|～月 tháng (tên tháng)
+05-048|Cnt|～日 ngày
+11-018|Cnt|～人 người
+11-019|Cnt|～台 cái (máy móc, xe)
+11-020|Cnt|～枚 tờ, tấm
+11-021|Cnt|～回 lần
+11-043|Cnt|～時間 tiếng
+11-044|Cnt|～週間 tuần
+11-045|Cnt|～か月 tháng
+11-046|Cnt|～年 năm
+18-011|Cnt|～メートル mét
+23-023|Cnt|～目 thứ (số thứ tự)
+31-022|Cnt|～号 số hiệu
+37-027|Cnt|～世紀 thế kỷ
+39-034|Cnt|～号室 phòng số
+40-031|Cnt|～個 cái, viên
+40-032|Cnt|～本 vật dài
+40-033|Cnt|～杯 chén, cốc
+40-034|Cnt|～センチ xăng-ti-mét
+40-035|Cnt|～ミリ mi-li-mét
+40-036|Cnt|～グラム gam
+44-022|Cnt|～倍 lần (gấp)

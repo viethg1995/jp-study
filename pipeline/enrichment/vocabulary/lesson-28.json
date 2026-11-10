@@ -1,0 +1,587 @@
+{
+  "mn-28-001": {
+    "examples": [
+      {
+        "id": "mn-28-001-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "このパンは{良|よ}く[[{売|う}れて]]います。",
+        "source": "ai-draft",
+        "vi": "Bánh mì này bán rất chạy."
+      }
+    ]
+  },
+  "mn-28-002": {
+    "examples": [
+      {
+        "id": "mn-28-002-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{音楽|おんがく}を{聞|き}きながら[[{踊|おど}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi vừa nghe nhạc vừa nhảy."
+      }
+    ]
+  },
+  "mn-28-003": {
+    "examples": [
+      {
+        "id": "mn-28-003-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{良|よ}く[[{噛|か}んで]]{食|た}べてください。",
+        "source": "ai-draft",
+        "vi": "Hãy nhai kỹ rồi ăn."
+      }
+    ],
+    "han_viet": "GIẢO",
+    "han_viet_source": "user",
+    "kanji": "噛みます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "噛",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-004": {
+    "examples": [
+      {
+        "id": "mn-28-004-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{好|す}きな{色|いろ}を[[{選|えら}んで]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy chọn màu bạn thích."
+      }
+    ]
+  },
+  "mn-28-005": {
+    "examples": [
+      {
+        "id": "mn-28-005-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{毎日|まいにち}{電車|でんしゃ}で{大学|だいがく}に[[{通|かよ}います]]。",
+        "source": "ai-draft",
+        "vi": "Hằng ngày tôi đi học đại học bằng tàu điện."
+      }
+    ],
+    "han_viet": "THÔNG",
+    "han_viet_source": "derived",
+    "review": {
+      "by": "user",
+      "note": "kanji_vn gốc dính âm của 大学",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-006": {
+    "examples": [
+      {
+        "id": "mn-28-006-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{先生|せんせい}の{話|はなし}を[[メモして]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy ghi chép lại lời giảng của giáo viên."
+      }
+    ]
+  },
+  "mn-28-007": {
+    "examples": [
+      {
+        "id": "mn-28-007-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{彼|かれ}は[[{真面目|まじめ}]]な{学生|がくせい}です。",
+        "source": "ai-draft",
+        "vi": "Anh ấy là sinh viên nghiêm túc."
+      }
+    ],
+    "han_viet": "CHÂN DIỆN MỤC",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-008": {
+    "examples": [
+      {
+        "id": "mn-28-008-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}は[[{熱心|ねっしん}]]に{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Cô ấy học hành rất nhiệt tình."
+      }
+    ]
+  },
+  "mn-28-009": {
+    "examples": [
+      {
+        "id": "mn-28-009-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{働|はたら}きながら{大学|だいがく}に{通|かよ}っています。[[{偉|えら}い]]ですね。",
+        "source": "ai-draft",
+        "vi": "Vừa làm vừa đi học đại học. Giỏi thật đấy."
+      }
+    ]
+  },
+  "mn-28-010": {
+    "examples": [
+      {
+        "id": "mn-28-010-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{服|ふく}は[[ちょうどいい]]です。",
+        "source": "ai-draft",
+        "vi": "Bộ quần áo này vừa đúng."
+      }
+    ]
+  },
+  "mn-28-011": {
+    "examples": [
+      {
+        "id": "mn-28-011-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "ここは[[{景色|けしき}]]が{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Phong cảnh ở đây đẹp."
+      }
+    ]
+  },
+  "mn-28-012": {
+    "examples": [
+      {
+        "id": "mn-28-012-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{毎月|まいつき}[[{美容院|びよういん}]]へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Hàng tháng tôi đi tiệm làm đẹp."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "びよういん: PN→N (JMdict: danh từ thông dụng (beauty parlour; beauty parlor))",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-013": {
+    "examples": [
+      {
+        "id": "mn-28-013-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{台所|だいどころ}]]で{料理|りょうり}を{作|つく}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi nấu ăn trong bếp."
+      }
+    ]
+  },
+  "mn-28-014": {
+    "examples": [
+      {
+        "id": "mn-28-014-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{彼|かれ}は{仕事|しごと}の[[{経験|けいけん}]]があります。",
+        "source": "ai-draft",
+        "vi": "Anh ấy có kinh nghiệm làm việc."
+      }
+    ]
+  },
+  "mn-28-015": {
+    "examples": [
+      {
+        "id": "mn-28-015-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{彼|かれ}は[[{力|ちから}]]が{強|つよ}いです。",
+        "source": "ai-draft",
+        "vi": "Anh ấy khỏe."
+      }
+    ]
+  },
+  "mn-28-016": {
+    "examples": [
+      {
+        "id": "mn-28-016-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{歌手|かしゅ}は{若|わか}い{人|ひと}に[[{人気|にんき}]]があります。",
+        "source": "ai-draft",
+        "vi": "Ca sĩ này được giới trẻ yêu thích."
+      }
+    ]
+  },
+  "mn-28-017": {
+    "examples": [
+      {
+        "id": "mn-28-017-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{鞄|かばん}は[[{形|かたち}]]が{素敵|すてき}です。",
+        "source": "ai-draft",
+        "vi": "Chiếc cặp này có kiểu dáng đẹp."
+      }
+    ]
+  },
+  "mn-28-018": {
+    "examples": [
+      {
+        "id": "mn-28-018-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{好|す}きな[[{色|いろ}]]は{何|なん}ですか。",
+        "source": "ai-draft",
+        "vi": "Màu bạn thích là màu gì?"
+      }
+    ]
+  },
+  "mn-28-019": {
+    "examples": [
+      {
+        "id": "mn-28-019-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{料理|りょうり}は[[{味|あじ}]]もいいし、{値段|ねだん}も{安|やす}いです。",
+        "source": "ai-draft",
+        "vi": "Món ăn này vừa ngon vừa rẻ."
+      }
+    ]
+  },
+  "mn-28-020": {
+    "examples": [
+      {
+        "id": "mn-28-020-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[ガム]]を{噛|か}みながら{勉強|べんきょう}します。",
+        "source": "ai-draft",
+        "vi": "Tôi vừa nhai kẹo cao su vừa học."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ガム: PN→N (JMdict: danh từ thông dụng (chewing gum))",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-021": {
+    "examples": [
+      {
+        "id": "mn-28-021-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{店|みせ}は[[{品物|しなもの}]]が{多|おお}いです。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng này có nhiều mặt hàng."
+      }
+    ]
+  },
+  "mn-28-022": {
+    "examples": [
+      {
+        "id": "mn-28-022-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{店|みせ}は[[{値段|ねだん}]]が{安|やす}いし、{近|ちか}いです。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng này giá rẻ lại gần."
+      }
+    ]
+  },
+  "mn-28-023": {
+    "examples": [
+      {
+        "id": "mn-28-023-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{会社|かいしゃ}は[[{給料|きゅうりょう}]]がいいです。",
+        "source": "ai-draft",
+        "vi": "Công ty này lương cao."
+      }
+    ]
+  },
+  "mn-28-024": {
+    "examples": [
+      {
+        "id": "mn-28-024-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{会社|かいしゃ}は[[ボーナス]]もいいし、{休|やす}みも{多|おお}いです。",
+        "source": "ai-draft",
+        "vi": "Công ty này thưởng cao lại nhiều ngày nghỉ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ボーナス: PN→N (JMdict: danh từ thông dụng (bonus))",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-025": {
+    "examples": [
+      {
+        "id": "mn-28-025-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{息子|むすこ}は[[ゲーム]]をしながらご{飯|はん}を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Con trai tôi vừa chơi game vừa ăn cơm."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ゲーム: PN→N (JMdict: danh từ thông dụng (game))",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-026": {
+    "examples": [
+      {
+        "id": "mn-28-026-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{好|す}きな[[{番組|ばんぐみ}]]は{何|なん}ですか。",
+        "source": "ai-draft",
+        "vi": "Chương trình bạn thích là gì?"
+      }
+    ]
+  },
+  "mn-28-027": {
+    "examples": [
+      {
+        "id": "mn-28-027-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この[[ドラマ]]は{人気|にんき}があります。",
+        "source": "ai-draft",
+        "vi": "Bộ phim truyền hình này được yêu thích."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ドラマ: PN→N (JMdict: danh từ thông dụng ((non-documentary) television series; TV drama))",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-028": {
+    "examples": [
+      {
+        "id": "mn-28-028-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}は{有名|ゆうめい}な[[{歌手|かしゅ}]]です。",
+        "source": "ai-draft",
+        "vi": "Cô ấy là ca sĩ nổi tiếng."
+      }
+    ]
+  },
+  "mn-28-029": {
+    "examples": [
+      {
+        "id": "mn-28-029-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{電車|でんしゃ}の{中|なか}で[[{小説|しょうせつ}]]を{読|よ}みます。",
+        "source": "ai-draft",
+        "vi": "Tôi đọc tiểu thuyết trên tàu."
+      }
+    ]
+  },
+  "mn-28-030": {
+    "examples": [
+      {
+        "id": "mn-28-030-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{将来|しょうらい}[[{小説家|しょうせつか}]]になりたいです。",
+        "source": "ai-draft",
+        "vi": "Tương lai tôi muốn trở thành nhà văn."
+      }
+    ]
+  },
+  "mn-28-031": {
+    "examples": [
+      {
+        "id": "mn-28-031-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{彼|かれ}は{有名|ゆうめい}な{音楽|おんがく}[[{家|か}]]です。",
+        "source": "ai-draft",
+        "vi": "Anh ấy là nhạc sĩ nổi tiếng."
+      }
+    ]
+  },
+  "mn-28-032": {
+    "examples": [
+      {
+        "id": "mn-28-032-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "コピー[[{機|き}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Máy photo ở đâu?"
+      }
+    ]
+  },
+  "mn-28-033": {
+    "examples": [
+      {
+        "id": "mn-28-033-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{息子|むすこ}]]は{大学|だいがく}に{通|かよ}っています。",
+        "source": "ai-draft",
+        "vi": "Con trai tôi đang học đại học."
+      }
+    ]
+  },
+  "mn-28-034": {
+    "examples": [
+      {
+        "id": "mn-28-034-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{息子|むすこ}さん]]はお{元気|げんき}ですか。",
+        "source": "ai-draft",
+        "vi": "Con trai bạn có khỏe không?"
+      }
+    ]
+  },
+  "mn-28-035": {
+    "examples": [
+      {
+        "id": "mn-28-035-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{娘|むすめ}]]はピアノを{習|なら}っています。",
+        "source": "ai-draft",
+        "vi": "Con gái tôi đang học piano."
+      }
+    ]
+  },
+  "mn-28-036": {
+    "examples": [
+      {
+        "id": "mn-28-036-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{娘|むすめ}さん]]は{何歳|なんさい}ですか。",
+        "source": "ai-draft",
+        "vi": "Con gái bạn bao nhiêu tuổi?"
+      }
+    ]
+  },
+  "mn-28-037": {
+    "examples": [
+      {
+        "id": "mn-28-037-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{自分|じぶん}]]の{部屋|へや}を{掃除|そうじ}します。",
+        "source": "ai-draft",
+        "vi": "Tôi dọn phòng của mình."
+      }
+    ]
+  },
+  "mn-28-038": {
+    "examples": [
+      {
+        "id": "mn-28-038-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{将来|しょうらい}]]{何|なに}になりたいですか。",
+        "source": "ai-draft",
+        "vi": "Tương lai bạn muốn trở thành gì?"
+      }
+    ]
+  },
+  "mn-28-039": {
+    "examples": [
+      {
+        "id": "mn-28-039-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "[[{暫|しばら}く]]{休|やす}みましょう。",
+        "source": "ai-draft",
+        "vi": "Hãy nghỉ một lát."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-040": {
+    "examples": [
+      {
+        "id": "mn-28-040-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{日曜日|にちようび}は[[{大抵|たいてい}]]{家|うち}にいます。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật tôi thường ở nhà."
+      }
+    ],
+    "han_viet": "ĐẠI ĐỂ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-041": {
+    "examples": [
+      {
+        "id": "mn-28-041-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "この{店|みせ}は{安|やす}いです。[[それに]]、{近|ちか}いです。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng này rẻ. Thêm nữa là gần."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-28-042": {
+    "examples": [
+      {
+        "id": "mn-28-042-e1",
+        "max_lesson": 28,
+        "review": "user",
+        "ruby": "{雨|あめ}が{降|ふ}っていました。[[それで]]、{行|い}きませんでした。",
+        "source": "ai-draft",
+        "vi": "Trời đã mưa. Vì thế tôi đã không đi."
+      }
+    ]
+  }
+}

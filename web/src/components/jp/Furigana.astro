@@ -1,0 +1,31 @@
+---
+// Hiển thị câu có furigana. Từ đang học: gạch chân; furigana của nó có class riêng để ẩn/hiện.
+import { groupByTarget, parseRuby } from "../../lib/ruby";
+
+interface Props {
+  ruby: string;
+}
+const { ruby } = Astro.props;
+const groups = groupByTarget(parseRuby(ruby));
+---
+
+<span class="jp sentence" lang="ja">
+  {
+    groups.map((g) => (
+      <span class={g.target ? "target" : undefined}>
+        {g.segs.map((s) =>
+          s.reading ? (
+            <ruby>
+              {s.text}
+              <rp>(</rp>
+              <rt>{s.reading}</rt>
+              <rp>)</rp>
+            </ruby>
+          ) : (
+            s.text
+          ),
+        )}
+      </span>
+    ))
+  }
+</span>

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "lesson7_1",
+    "jp": "きります",
+    "kanji": "切ります",
+    "kanji_vn": "THIẾT",
+    "vn": "cắt",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson7_2",
+    "jp": "おくります",
+    "kanji": "送ります",
+    "kanji_vn": "TỐNG",
+    "vn": "gửi",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson7_3",
+    "jp": "あげます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cho, tặng",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson7_4",
+    "jp": "もらいます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhận",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson7_5",
+    "jp": "かします",
+    "kanji": "貸します",
+    "kanji_vn": "THẢI",
+    "vn": "cho mượn, cho vay",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson7_6",
+    "jp": "かります",
+    "kanji": "借ります",
+    "kanji_vn": "TÁ",
+    "vn": "mượn, vay",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson7_7",
+    "jp": "おしえます",
+    "kanji": "教えます",
+    "kanji_vn": "GIÁO",
+    "vn": "dạy",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson7_8",
+    "jp": "ならいます",
+    "kanji": "習います",
+    "kanji_vn": "TẬP",
+    "vn": "học, tập",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson7_9",
+    "jp": "かけます",
+    "kanji": "かけます",
+    "kanji_vn": "ĐIỆN THOẠI",
+    "vn": "gọi [điện thoại]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson7_10",
+    "jp": "て",
+    "kanji": "手",
+    "kanji_vn": "THỦ",
+    "vn": "tay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_11",
+    "jp": "はし",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đũa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_12",
+    "jp": "スプーン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thìa",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_13",
+    "jp": "ナイフ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "dao",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_14",
+    "jp": "フォーク",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nĩa",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_15",
+    "jp": "はさみ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "kéo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_16",
+    "jp": "パソコン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "máy vi tính cá nhân",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_17",
+    "jp": "ケータイ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "điện thoại di động",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_18",
+    "jp": "メール",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thư điện tử, email",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_19",
+    "jp": "ねんがじょう",
+    "kanji": "年賀状",
+    "kanji_vn": "NIÊN HẠ TRẠNG",
+    "vn": "thiệp mừng năm mới",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_20",
+    "jp": "パンチ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái đục lỗ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_21",
+    "jp": "ホッチキス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái dập ghim",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_22",
+    "jp": "セロテープ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "băng dính",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_23",
+    "jp": "けしゴム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái tẩy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_24",
+    "jp": "かみ",
+    "kanji": "紙",
+    "kanji_vn": "CHỈ",
+    "vn": "giấy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_25",
+    "jp": "はな",
+    "kanji": "花",
+    "kanji_vn": "HOA",
+    "vn": "hoa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_26",
+    "jp": "シャツ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "áo sơ mi",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_27",
+    "jp": "プレゼント",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "quà tặng, tặng phẩm",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_28",
+    "jp": "にもつ",
+    "kanji": "荷物",
+    "kanji_vn": "HÀ VẬT",
+    "vn": "đồ đạc, hành lý",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_29",
+    "jp": "おかね",
+    "kanji": "お金",
+    "kanji_vn": "KIM",
+    "vn": "tiền",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_30",
+    "jp": "きっぷ",
+    "kanji": "切符",
+    "kanji_vn": "THIẾT PHÙ",
+    "vn": "vé",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_31",
+    "jp": "クリスマス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Giáng sinh",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson7_32",
+    "jp": "ちち",
+    "kanji": "父",
+    "kanji_vn": "PHỤ",
+    "vn": "bố (dùng khi nói về bố mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_33",
+    "jp": "はは",
+    "kanji": "母",
+    "kanji_vn": "MẪU",
+    "vn": "mẹ (dùng khi nói về mẹ mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_34",
+    "jp": "おとうさん",
+    "kanji": "お父さん",
+    "kanji_vn": "PHỤ",
+    "vn": "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_35",
+    "jp": "おかあさん",
+    "kanji": "お母さん",
+    "kanji_vn": "MẪU",
+    "vn": "mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson7_36",
+    "jp": "もう",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đã, rồi",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson7_37",
+    "jp": "まだ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chưa",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson7_38",
+    "jp": "これから",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "từ bây giờ, sau đây",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

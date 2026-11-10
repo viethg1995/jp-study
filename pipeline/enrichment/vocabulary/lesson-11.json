@@ -1,0 +1,889 @@
+{
+  "mn-11-001": {
+    "examples": [
+      {
+        "id": "mn-11-001-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{公園|こうえん}に{子|こ}どもが{沢山|たくさん}[[{居|い}ます]]。",
+        "source": "ai-draft",
+        "vi": "Ở công viên có nhiều trẻ con."
+      }
+    ],
+    "han_viet": "CƯ",
+    "han_viet_source": "user",
+    "kanji": "居ます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-002": {
+    "examples": [
+      {
+        "id": "mn-11-002-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{兄|あに}は{日本|にほん}に[[{居|い}ます]]。",
+        "source": "ai-draft",
+        "vi": "Anh trai tôi ở Nhật."
+      }
+    ],
+    "han_viet": "CƯ",
+    "han_viet_source": "user",
+    "kanji": "居ます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-003": {
+    "examples": [
+      {
+        "id": "mn-11-003-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{家|うち}から{会社|かいしゃ}まで１{時間|じかん}[[{掛|か}かります]]。",
+        "source": "ai-draft",
+        "vi": "Từ nhà đến công ty mất 1 tiếng."
+      }
+    ],
+    "han_viet": "QUẢI",
+    "han_viet_source": "user",
+    "kanji": "掛かります",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "mất (thời gian, tiền)",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-004": {
+    "examples": [
+      {
+        "id": "mn-11-004-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{昨日|きのう}{会社|かいしゃ}を[[{休|やす}みました]]。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã nghỉ làm."
+      }
+    ]
+  },
+  "mn-11-005": {
+    "examples": [
+      {
+        "id": "mn-11-005-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{林檎|りんご}を[[{一|ひと}つ]]ください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi một quả táo."
+      }
+    ],
+    "han_viet": "NHẤT",
+    "han_viet_source": "user",
+    "kanji": "一つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi １つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-006": {
+    "examples": [
+      {
+        "id": "mn-11-006-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{蜜柑|みかん}を[[{二|ふた}つ]]{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua hai quả quýt."
+      }
+    ],
+    "han_viet": "NHỊ",
+    "han_viet_source": "user",
+    "kanji": "二つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ２つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-007": {
+    "examples": [
+      {
+        "id": "mn-11-007-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{卵|たまご}を[[{三|みっ}つ]]ください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi ba quả trứng."
+      }
+    ],
+    "han_viet": "TAM",
+    "han_viet_source": "user",
+    "kanji": "三つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ３つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-008": {
+    "examples": [
+      {
+        "id": "mn-11-008-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{箱|はこ}が[[{四|よっ}つ]]あります。",
+        "source": "ai-draft",
+        "vi": "Có bốn cái hộp."
+      }
+    ],
+    "han_viet": "TỨ",
+    "han_viet_source": "user",
+    "kanji": "四つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ４つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-009": {
+    "examples": [
+      {
+        "id": "mn-11-009-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{林檎|りんご}を[[{五|いつ}つ]]{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua năm quả táo."
+      }
+    ],
+    "han_viet": "NGŨ",
+    "han_viet_source": "user",
+    "kanji": "五つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ５つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-010": {
+    "examples": [
+      {
+        "id": "mn-11-010-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{椅子|いす}が[[{六|むっ}つ]]あります。",
+        "source": "ai-draft",
+        "vi": "Có sáu cái ghế."
+      }
+    ],
+    "han_viet": "LỤC",
+    "han_viet_source": "user",
+    "kanji": "六つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ６つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-011": {
+    "examples": [
+      {
+        "id": "mn-11-011-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{机|つくえ}が[[{七|なな}つ]]あります。",
+        "source": "ai-draft",
+        "vi": "Có bảy cái bàn."
+      }
+    ],
+    "han_viet": "THẤT",
+    "han_viet_source": "user",
+    "kanji": "七つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ７つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-012": {
+    "examples": [
+      {
+        "id": "mn-11-012-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{蜜柑|みかん}が[[{八|やっ}つ]]あります。",
+        "source": "ai-draft",
+        "vi": "Có tám quả quýt."
+      }
+    ],
+    "han_viet": "BÁT",
+    "han_viet_source": "user",
+    "kanji": "八つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ８つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-013": {
+    "examples": [
+      {
+        "id": "mn-11-013-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{卵|たまご}が[[{九|ここの}つ]]あります。",
+        "source": "ai-draft",
+        "vi": "Có chín quả trứng."
+      }
+    ],
+    "han_viet": "CỬU",
+    "han_viet_source": "user",
+    "kanji": "九つ",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi ９つ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-014": {
+    "examples": [
+      {
+        "id": "mn-11-014-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{林檎|りんご}を[[{十|とお}]]ください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi mười quả táo."
+      }
+    ],
+    "han_viet": "THẬP",
+    "han_viet_source": "user",
+    "kanji": "十",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "nguồn ghi 10 (とお)",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-015": {
+    "examples": [
+      {
+        "id": "mn-11-015-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{林檎|りんご}を[[いくつ]]{買|か}いましたか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã mua mấy quả táo?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thường viết kana; 幾つ hiếm",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-016": {
+    "examples": [
+      {
+        "id": "mn-11-016-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{兄弟|きょうだい}が[[{一人|ひとり}]]います。",
+        "source": "ai-draft",
+        "vi": "Tôi có một anh/chị/em."
+      }
+    ]
+  },
+  "mn-11-017": {
+    "examples": [
+      {
+        "id": "mn-11-017-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{子|こ}どもが[[{二人|ふたり}]]います。",
+        "source": "ai-draft",
+        "vi": "Tôi có hai đứa con."
+      }
+    ]
+  },
+  "mn-11-018": {
+    "examples": [
+      {
+        "id": "mn-11-018-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{教室|きょうしつ}に{留学生|りゅうがくせい}が５[[{人|にん}]]います。",
+        "source": "ai-draft",
+        "vi": "Trong lớp có 5 du học sinh."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～人 người",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-019": {
+    "examples": [
+      {
+        "id": "mn-11-019-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{家|うち}に{車|くるま}が２[[{台|だい}]]あります。",
+        "source": "ai-draft",
+        "vi": "Nhà tôi có hai chiếc ô tô."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～台 cái (máy móc, xe)",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-020": {
+    "examples": [
+      {
+        "id": "mn-11-020-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{紙|かみ}を１０[[{枚|まい}]]ください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi 10 tờ giấy."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～枚 tờ, tấm",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-021": {
+    "examples": [
+      {
+        "id": "mn-11-021-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "１{週間|しゅうかん}に２[[{回|かい}]]テニスをします。",
+        "source": "ai-draft",
+        "vi": "Một tuần tôi chơi quần vợt 2 lần."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～回 lần",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-022": {
+    "examples": [
+      {
+        "id": "mn-11-022-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{林檎|りんご}]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích táo."
+      }
+    ],
+    "han_viet": "LÂM CẦM",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-023": {
+    "examples": [
+      {
+        "id": "mn-11-023-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{蜜柑|みかん}]]を{沢山|たくさん}{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua nhiều quýt."
+      }
+    ],
+    "han_viet": "MẬT CAM",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-024": {
+    "examples": [
+      {
+        "id": "mn-11-024-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[サンドイッチ]]を{二|ふた}つください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi hai cái bánh sandwich."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "サンドイッチ: PN→N (JMdict: danh từ thông dụng (sandwich))",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-025": {
+    "examples": [
+      {
+        "id": "mn-11-025-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[カレー]]を{一|ひと}つください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi một suất cà ri."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "カレー: PN→N (JMdict: danh từ thông dụng (curry (esp. Japanese curry)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-026": {
+    "examples": [
+      {
+        "id": "mn-11-026-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[アイスクリーム]]を{三|みっ}つください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi ba cây kem."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "アイスクリーム: PN→N (JMdict: danh từ thông dụng (ice cream))",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-027": {
+    "examples": [
+      {
+        "id": "mn-11-027-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "８０{円|えん}の[[{切手|きって}]]を２{枚|まい}ください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi 2 con tem loại 80 yên."
+      }
+    ]
+  },
+  "mn-11-028": {
+    "examples": [
+      {
+        "id": "mn-11-028-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{葉書|はがき}]]を３{枚|まい}{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua 3 tấm bưu thiếp."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-029": {
+    "examples": [
+      {
+        "id": "mn-11-029-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{封筒|ふうとう}]]を５{枚|まい}ください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi 5 cái phong bì."
+      }
+    ]
+  },
+  "mn-11-030": {
+    "examples": [
+      {
+        "id": "mn-11-030-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{両親|りょうしん}]]はベトナムにいます。",
+        "source": "ai-draft",
+        "vi": "Bố mẹ tôi ở Việt Nam."
+      }
+    ]
+  },
+  "mn-11-031": {
+    "examples": [
+      {
+        "id": "mn-11-031-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{兄弟|きょうだい}]]が{何人|なんにん}いますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có mấy anh chị em?"
+      }
+    ]
+  },
+  "mn-11-032": {
+    "examples": [
+      {
+        "id": "mn-11-032-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{兄|あに}]]は{会社員|かいしゃいん}です。",
+        "source": "ai-draft",
+        "vi": "Anh trai tôi là nhân viên công ty."
+      }
+    ]
+  },
+  "mn-11-033": {
+    "examples": [
+      {
+        "id": "mn-11-033-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[お{兄|にい}さん]]は{何歳|なんさい}ですか。",
+        "source": "ai-draft",
+        "vi": "Anh trai bạn bao nhiêu tuổi?"
+      }
+    ]
+  },
+  "mn-11-034": {
+    "examples": [
+      {
+        "id": "mn-11-034-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{姉|あね}]]は{先生|せんせい}です。",
+        "source": "ai-draft",
+        "vi": "Chị gái tôi là giáo viên."
+      }
+    ]
+  },
+  "mn-11-035": {
+    "examples": [
+      {
+        "id": "mn-11-035-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[お{姉|ねえ}さん]]はどこにいますか。",
+        "source": "ai-draft",
+        "vi": "Chị gái bạn đang ở đâu?"
+      }
+    ]
+  },
+  "mn-11-036": {
+    "examples": [
+      {
+        "id": "mn-11-036-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{弟|おとうと}]]は{学生|がくせい}です。",
+        "source": "ai-draft",
+        "vi": "Em trai tôi là sinh viên."
+      }
+    ]
+  },
+  "mn-11-037": {
+    "examples": [
+      {
+        "id": "mn-11-037-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{弟|おとうと}さん]]は{何歳|なんさい}ですか。",
+        "source": "ai-draft",
+        "vi": "Em trai bạn bao nhiêu tuổi?"
+      }
+    ]
+  },
+  "mn-11-038": {
+    "examples": [
+      {
+        "id": "mn-11-038-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{妹|いもうと}]]は{歌|うた}が{上手|じょうず}です。",
+        "source": "ai-draft",
+        "vi": "Em gái tôi hát hay."
+      }
+    ]
+  },
+  "mn-11-039": {
+    "examples": [
+      {
+        "id": "mn-11-039-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{妹|いもうと}さん]]はお{元気|げんき}ですか。",
+        "source": "ai-draft",
+        "vi": "Em gái bạn có khỏe không?"
+      }
+    ]
+  },
+  "mn-11-040": {
+    "examples": [
+      {
+        "id": "mn-11-040-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{外国|がいこく}]]に{友達|ともだち}が{三人|さんにん}います。",
+        "source": "ai-draft",
+        "vi": "Tôi có ba người bạn ở nước ngoài."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "がいこく: PN→N (JMdict: danh từ thông dụng (foreign country))",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-041": {
+    "examples": [
+      {
+        "id": "mn-11-041-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "この{大学|だいがく}に[[{留学生|りゅうがくせい}]]が{沢山|たくさん}います。",
+        "source": "ai-draft",
+        "vi": "Trường đại học này có nhiều du học sinh."
+      }
+    ]
+  },
+  "mn-11-042": {
+    "examples": [
+      {
+        "id": "mn-11-042-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[クラス]]に{学生|がくせい}が２０{人|にん}います。",
+        "source": "ai-draft",
+        "vi": "Lớp có 20 học sinh."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "クラス: PN→N (JMdict: danh từ thông dụng (class))",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-043": {
+    "examples": [
+      {
+        "id": "mn-11-043-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{毎日|まいにち}８[[{時間|じかん}]]{働|はたら}きます。",
+        "source": "ai-draft",
+        "vi": "Mỗi ngày tôi làm việc 8 tiếng."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～時間 tiếng",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-044": {
+    "examples": [
+      {
+        "id": "mn-11-044-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "２[[{週間|しゅうかん}]]{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi về nước 2 tuần."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～週間 tuần",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-045": {
+    "examples": [
+      {
+        "id": "mn-11-045-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "３[[か{月|げつ}]]{日本語|にほんご}を{勉強|べんきょう}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã học tiếng Nhật 3 tháng."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～か月 tháng",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-046": {
+    "examples": [
+      {
+        "id": "mn-11-046-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "２[[{年|ねん}]]{日本|にほん}にいます。",
+        "source": "ai-draft",
+        "vi": "Tôi ở Nhật 2 năm."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～年 năm",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-047": {
+    "examples": [
+      {
+        "id": "mn-11-047-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{駅|えき}まで１０{分|ぷん}[[ぐらい]]{掛|か}かります。",
+        "source": "ai-draft",
+        "vi": "Đến nhà ga mất khoảng 10 phút."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "trợ từ",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-048": {
+    "examples": [
+      {
+        "id": "mn-11-048-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{東京|とうきょう}から{大阪|おおさか}まで[[どのくらい]]{掛|か}かりますか。",
+        "source": "ai-draft",
+        "vi": "Từ Tokyo đến Osaka mất bao lâu?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-049": {
+    "examples": [
+      {
+        "id": "mn-11-049-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{全部|ぜんぶ}で]]５００{円|えん}です。",
+        "source": "ai-draft",
+        "vi": "Tổng cộng là 500 yên."
+      }
+    ]
+  },
+  "mn-11-050": {
+    "examples": [
+      {
+        "id": "mn-11-050-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "[[{皆|みんな}]]で{写真|しゃしん}を{撮|と}りました。",
+        "source": "ai-draft",
+        "vi": "Mọi người cùng chụp ảnh."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-11-051": {
+    "examples": [
+      {
+        "id": "mn-11-051-e1",
+        "max_lesson": 11,
+        "review": "user",
+        "ruby": "{林檎|りんご}を{一|ひと}つ[[だけ]]{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi chỉ mua một quả táo."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "trợ từ (JMdict gợi ý sai 岳)",
+      "status": "reviewed"
+    }
+  }
+}

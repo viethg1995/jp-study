@@ -1,0 +1,1793 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-001-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{先生|せんせい}に[[{褒|ほ}められました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã được thầy khen."
+        }
+      ],
+      "han_viet": "BAO",
+      "id": "mn-37-001",
+      "kana": "ほめます",
+      "kanji": "褒めます",
+      "kanji_refs": [
+        "k-褒"
+      ],
+      "legacy_id": "lesson37_1",
+      "lesson": 37,
+      "meaning_vi": "khen",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khen"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-002-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{母|はは}に[[{叱|しか}られました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi bị mẹ mắng."
+        }
+      ],
+      "han_viet": "SẤT",
+      "id": "mn-37-002",
+      "kana": "しかります",
+      "kanji": "叱ります",
+      "kanji_refs": [
+        "k-叱"
+      ],
+      "legacy_id": "lesson37_2",
+      "lesson": 37,
+      "meaning_vi": "mắng",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mắng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-003-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{友達|ともだち}にパーティーに[[{誘|さそ}われました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi được bạn rủ đi dự tiệc."
+        }
+      ],
+      "han_viet": "DỤ",
+      "id": "mn-37-003",
+      "kana": "さそいます",
+      "kanji": "誘います",
+      "kanji_refs": [
+        "k-誘"
+      ],
+      "legacy_id": "lesson37_3",
+      "lesson": 37,
+      "meaning_vi": "mời, rủ",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mời, rủ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-004-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{結婚式|けっこんしき}に[[{招待|しょうたい}されました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi được mời đến dự đám cưới."
+        }
+      ],
+      "han_viet": "CHIÊU ĐÃI",
+      "id": "mn-37-004",
+      "kana": "しょうたいします",
+      "kanji": "招待します",
+      "kanji_refs": [
+        "k-招",
+        "k-待"
+      ],
+      "legacy_id": "lesson37_4",
+      "lesson": 37,
+      "meaning_vi": "mời",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mời"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-005-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{課長|かちょう}に{仕事|しごと}を[[{頼|たの}まれました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi được tổ trưởng nhờ làm việc."
+        }
+      ],
+      "han_viet": "LẠI",
+      "id": "mn-37-005",
+      "kana": "たのみます",
+      "kanji": "頼みます",
+      "kanji_refs": [
+        "k-頼"
+      ],
+      "legacy_id": "lesson37_5",
+      "lesson": 37,
+      "meaning_vi": "nhờ",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhờ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-006-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{先生|せんせい}に[[{注意|ちゅうい}されました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi bị giáo viên nhắc nhở."
+        }
+      ],
+      "han_viet": "CHÚ Ý",
+      "id": "mn-37-006",
+      "kana": "ちゅういします",
+      "kanji": "注意します",
+      "kanji_refs": [
+        "k-注",
+        "k-意"
+      ],
+      "legacy_id": "lesson37_6",
+      "lesson": 37,
+      "meaning_vi": "chú ý, nhắc nhở",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-33-009"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "chú ý, nhắc nhở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-007-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{電車|でんしゃ}の{中|なか}で{財布|さいふ}を[[{盗|と}られました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi bị trộm ví trên tàu."
+        }
+      ],
+      "han_viet": "ĐẠO",
+      "id": "mn-37-007",
+      "kana": "とります",
+      "kanji": "盗ります",
+      "kanji_refs": [
+        "k-盗"
+      ],
+      "legacy_id": "lesson37_7",
+      "lesson": 37,
+      "meaning_vi": "ăn trộm, lấy cắp",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ăn trộm, lấy cắp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-008-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{電車|でんしゃ}の{中|なか}で{足|あし}を[[{踏|ふ}まれました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi bị giẫm vào chân trên tàu."
+        }
+      ],
+      "han_viet": "ĐẠP",
+      "id": "mn-37-008",
+      "kana": "ふみます",
+      "kanji": "踏みます",
+      "kanji_refs": [
+        "k-踏"
+      ],
+      "legacy_id": "lesson37_8",
+      "lesson": 37,
+      "meaning_vi": "giẫm, giẫm lên, giẫm vào",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giẫm, giẫm lên, giẫm vào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-009-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{弟|おとうと}にカメラを[[{壊|こわ}されました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi bị em trai làm hỏng máy ảnh."
+        }
+      ],
+      "han_viet": "HOẠI",
+      "id": "mn-37-009",
+      "kana": "こわします",
+      "kanji": "壊します",
+      "kanji_refs": [
+        "k-壊"
+      ],
+      "legacy_id": "lesson37_9",
+      "lesson": 37,
+      "meaning_vi": "phá, làm hỏng",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phá, làm hỏng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-010-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{子|こ}どもに{服|ふく}を[[{汚|よご}されました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi bị con làm bẩn quần áo."
+        }
+      ],
+      "han_viet": "Ô",
+      "id": "mn-37-010",
+      "kana": "よごします",
+      "kanji": "汚します",
+      "kanji_refs": [
+        "k-汚"
+      ],
+      "legacy_id": "lesson37_10",
+      "lesson": 37,
+      "meaning_vi": "làm bẩn",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "làm bẩn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-011-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{会議|かいぎ}は{東京|とうきょう}で[[{行|おこな}われます]]。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp được tổ chức ở Tokyo."
+        }
+      ],
+      "han_viet": "HÀNH",
+      "id": "mn-37-011",
+      "kana": "おこないます",
+      "kanji": "行います",
+      "kanji_refs": [
+        "k-行"
+      ],
+      "legacy_id": "lesson37_11",
+      "lesson": 37,
+      "meaning_vi": "thực hiện, tiến hành",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thực hiện, tiến hành"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-012-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{日本|にほん}の{車|くるま}は{世界中|せかいじゅう}に[[{輸出|ゆしゅつ}されて]]います。",
+          "source": "ai-draft",
+          "vi": "Ô tô Nhật được xuất khẩu ra khắp thế giới."
+        }
+      ],
+      "han_viet": "THÂU XUẤT",
+      "id": "mn-37-012",
+      "kana": "ゆしゅつします",
+      "kanji": "輸出します",
+      "kanji_refs": [
+        "k-輸",
+        "k-出"
+      ],
+      "legacy_id": "lesson37_12",
+      "lesson": 37,
+      "meaning_vi": "xuất khẩu",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xuất khẩu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-013-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{石油|せきゆ}は{外国|がいこく}から[[{輸入|ゆにゅう}されて]]います。",
+          "source": "ai-draft",
+          "vi": "Dầu mỏ được nhập khẩu từ nước ngoài."
+        }
+      ],
+      "han_viet": "THÂU NHẬP",
+      "id": "mn-37-013",
+      "kana": "ゆにゅうします",
+      "kanji": "輸入します",
+      "kanji_refs": [
+        "k-輸",
+        "k-入"
+      ],
+      "legacy_id": "lesson37_13",
+      "lesson": 37,
+      "meaning_vi": "nhập khẩu",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhập khẩu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-014-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "この{本|ほん}は{色々|いろいろ}な{言葉|ことば}に[[{翻訳|ほんやく}されて]]います。",
+          "source": "ai-draft",
+          "vi": "Cuốn sách này được dịch ra nhiều thứ tiếng."
+        }
+      ],
+      "han_viet": "PHIÊN DỊCH",
+      "id": "mn-37-014",
+      "kana": "ほんやくします",
+      "kanji": "翻訳します",
+      "kanji_refs": [
+        "k-翻",
+        "k-訳"
+      ],
+      "legacy_id": "lesson37_14",
+      "lesson": 37,
+      "meaning_vi": "dịch (sách, tài liệu)",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dịch (sách, tài liệu)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-015-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{電話|でんわ}はベルによって[[{発明|はつめい}されました]]。",
+          "source": "ai-draft",
+          "vi": "Điện thoại được phát minh bởi Bell."
+        }
+      ],
+      "han_viet": "PHÁT MINH",
+      "id": "mn-37-015",
+      "kana": "はつめいします",
+      "kanji": "発明します",
+      "kanji_refs": [
+        "k-発",
+        "k-明"
+      ],
+      "legacy_id": "lesson37_15",
+      "lesson": 37,
+      "meaning_vi": "phát minh",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phát minh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-016-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "この{島|しま}は１６{世紀|せいき}に[[{発見|はっけん}されました]]。",
+          "source": "ai-draft",
+          "vi": "Hòn đảo này được phát hiện vào thế kỷ 16."
+        }
+      ],
+      "han_viet": "PHÁT KIẾN",
+      "id": "mn-37-016",
+      "kana": "はっけんします",
+      "kanji": "発見します",
+      "kanji_refs": [
+        "k-発",
+        "k-見"
+      ],
+      "legacy_id": "lesson37_16",
+      "lesson": 37,
+      "meaning_vi": "phát kiến, tìm ra, tìm thấy",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phát kiến, tìm ra, tìm thấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-017-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[{米|こめ}]]から{酒|さけ}が{作|つく}られます。",
+          "source": "ai-draft",
+          "vi": "Rượu được làm từ gạo."
+        }
+      ],
+      "han_viet": "MỄ",
+      "id": "mn-37-017",
+      "kana": "こめ",
+      "kanji": "米",
+      "kanji_refs": [
+        "k-米"
+      ],
+      "legacy_id": "lesson37_17",
+      "lesson": 37,
+      "meaning_vi": "gạo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gạo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-018-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "ビールは[[{麦|むぎ}]]から{作|つく}られます。",
+          "source": "ai-draft",
+          "vi": "Bia được làm từ lúa mạch."
+        }
+      ],
+      "han_viet": "MẠCH",
+      "id": "mn-37-018",
+      "kana": "むぎ",
+      "kanji": "麦",
+      "kanji_refs": [
+        "k-麦"
+      ],
+      "legacy_id": "lesson37_18",
+      "lesson": 37,
+      "meaning_vi": "lúa mạch",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lúa mạch"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-019-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[{石油|せきゆ}]]は{色々|いろいろ}な{製品|せいひん}に{使|つか}われています。",
+          "source": "ai-draft",
+          "vi": "Dầu mỏ được dùng cho nhiều sản phẩm."
+        }
+      ],
+      "han_viet": "THẠCH DU",
+      "id": "mn-37-019",
+      "kana": "せきゆ",
+      "kanji": "石油",
+      "kanji_refs": [
+        "k-石",
+        "k-油"
+      ],
+      "legacy_id": "lesson37_19",
+      "lesson": 37,
+      "meaning_vi": "dầu mỏ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dầu mỏ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-020-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "この{製品|せいひん}の[[{原料|げんりょう}]]は{何|なん}ですか。",
+          "source": "ai-draft",
+          "vi": "Nguyên liệu của sản phẩm này là gì?"
+        }
+      ],
+      "han_viet": "NGUYÊN LIỆU",
+      "id": "mn-37-020",
+      "kana": "げんりょう",
+      "kanji": "原料",
+      "kanji_refs": [
+        "k-原",
+        "k-料"
+      ],
+      "legacy_id": "lesson37_20",
+      "lesson": 37,
+      "meaning_vi": "nguyên liệu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nguyên liệu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-021-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[インスタントラーメン]]は{日本|にほん}で{発明|はつめい}されました。",
+          "source": "ai-draft",
+          "vi": "Mì ăn liền được phát minh ở Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-37-021",
+      "kana": "インスタントラーメン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_21",
+      "lesson": 37,
+      "meaning_vi": "mỳ ăn liền, mỳ gói",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mỳ ăn liền, mỳ gói"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-022-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{友達|ともだち}に[[デート]]に{誘|さそ}われました。",
+          "source": "ai-draft",
+          "vi": "Tôi được bạn rủ đi hẹn hò."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-37-022",
+      "kana": "デート",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_22",
+      "lesson": 37,
+      "meaning_vi": "cuộc hẹn hò (của nam nữ)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cuộc hẹn hò (của nam nữ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-023-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[{泥棒|どろぼう}]]に{入|はい}られました。",
+          "source": "ai-draft",
+          "vi": "Nhà tôi bị trộm vào."
+        }
+      ],
+      "han_viet": "NÊ BỔNG",
+      "id": "mn-37-023",
+      "kana": "どろぼう",
+      "kanji": "泥棒",
+      "kanji_refs": [
+        "k-泥",
+        "k-棒"
+      ],
+      "legacy_id": "lesson37_23",
+      "lesson": 37,
+      "meaning_vi": "kẻ trộm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kẻ trộm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-024-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[{警官|けいかん}]]に{道|みち}を{聞|き}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã hỏi đường cảnh sát."
+        }
+      ],
+      "han_viet": "CẢNH QUAN",
+      "id": "mn-37-024",
+      "kana": "けいかん",
+      "kanji": "警官",
+      "kanji_refs": [
+        "k-警",
+        "k-官"
+      ],
+      "legacy_id": "lesson37_24",
+      "lesson": 37,
+      "meaning_vi": "cảnh sát",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cảnh sát"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-025-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "この{歌|うた}は[[{世界中|せかいじゅう}]]で{歌|うた}われています。",
+          "source": "ai-draft",
+          "vi": "Bài hát này được hát khắp thế giới."
+        }
+      ],
+      "han_viet": "THẾ GIỚI TRUNG",
+      "id": "mn-37-025",
+      "kana": "せかいじゅう",
+      "kanji": "世界中",
+      "kanji_refs": [
+        "k-世",
+        "k-界",
+        "k-中"
+      ],
+      "legacy_id": "lesson37_25",
+      "lesson": 37,
+      "meaning_vi": "khắp thế giới, toàn thế giới",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khắp thế giới, toàn thế giới"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-026-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{日本|にほん}[[{中|じゅう}]]を{旅行|りょこう}したいです。",
+          "source": "ai-draft",
+          "vi": "Tôi muốn đi du lịch khắp nước Nhật."
+        }
+      ],
+      "han_viet": "TRUNG",
+      "id": "mn-37-026",
+      "kana": "～じゅう",
+      "kanji": "～中",
+      "kanji_refs": [
+        "k-中"
+      ],
+      "legacy_id": "lesson37_26",
+      "lesson": 37,
+      "meaning_vi": "khắp ～, toàn ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-33-034"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "khắp ～, toàn ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-027-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "この{寺|てら}は８[[{世紀|せいき}]]に{建|た}てられました。",
+          "source": "ai-draft",
+          "vi": "Ngôi chùa này được xây vào thế kỷ 8."
+        }
+      ],
+      "han_viet": "THẾ KỶ",
+      "id": "mn-37-027",
+      "kana": "～せいき",
+      "kanji": "～世紀",
+      "kanji_refs": [
+        "k-世",
+        "k-紀"
+      ],
+      "legacy_id": "lesson37_27",
+      "lesson": 37,
+      "meaning_vi": "thế kỷ ～",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thế kỷ ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-028-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "ブラジルでは[[{何語|なにご}]]が{話|はな}されていますか。",
+          "source": "ai-draft",
+          "vi": "Ở Brazil người ta nói tiếng gì?"
+        }
+      ],
+      "han_viet": "HÀ NGỮ",
+      "id": "mn-37-028",
+      "kana": "なにご",
+      "kanji": "何語",
+      "kanji_refs": [
+        "k-何",
+        "k-語"
+      ],
+      "legacy_id": "lesson37_28",
+      "lesson": 37,
+      "meaning_vi": "tiếng gì",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiếng gì"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-029-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[{誰|だれ}か]]に{傘|かさ}を{持|も}って{行|い}かれました。",
+          "source": "ai-draft",
+          "vi": "Tôi bị ai đó lấy mất ô."
+        }
+      ],
+      "han_viet": "THÙY",
+      "id": "mn-37-029",
+      "kana": "だれか",
+      "kanji": "誰か",
+      "kanji_refs": [
+        "k-誰"
+      ],
+      "legacy_id": "lesson37_29",
+      "lesson": 37,
+      "meaning_vi": "ai đó",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ai đó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [],
+      "han_viet": null,
+      "id": "mn-37-030",
+      "kana": "よかったですね。",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_30",
+      "lesson": 37,
+      "meaning_vi": "Hay quá nhỉ./ Vui quá nhỉ",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hay quá nhỉ./ Vui quá nhỉ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-031-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[オリンピック]]は４{年|ねん}に１{回|かい}{行|おこな}われます。",
+          "source": "ai-draft",
+          "vi": "Thế vận hội được tổ chức 4 năm một lần."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-37-031",
+      "kana": "オリンピック",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_31",
+      "lesson": 37,
+      "meaning_vi": "Olympic",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Olympic"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-032-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[ワールドカップ]]は{世界中|せかいじゅう}で{見|み}られています。",
+          "source": "ai-draft",
+          "vi": "World Cup được xem khắp thế giới."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-37-032",
+      "kana": "ワールドカップ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_32",
+      "lesson": 37,
+      "meaning_vi": "Cúp bóng đá thế giới",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Cúp bóng đá thế giới"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-033-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[{東大寺|とうだいじ}]]は{奈良|なら}にあります。",
+          "source": "ai-draft",
+          "vi": "Chùa Todaiji ở Nara."
+        }
+      ],
+      "han_viet": "ĐÔNG ĐẠI TỰ",
+      "id": "mn-37-033",
+      "kana": "とうだいじ",
+      "kanji": "東大寺",
+      "kanji_refs": [
+        "k-東",
+        "k-大",
+        "k-寺"
+      ],
+      "legacy_id": "lesson37_33",
+      "lesson": 37,
+      "meaning_vi": "Chùa Todaiji",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chùa Todaiji"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-034-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{東大寺|とうだいじ}の[[{大仏|だいぶつ}]]は{有名|ゆうめい}です。",
+          "source": "ai-draft",
+          "vi": "Tượng phật lớn ở chùa Todaiji nổi tiếng."
+        }
+      ],
+      "han_viet": "ĐẠI PHẬT",
+      "id": "mn-37-034",
+      "kana": "だいぶつ",
+      "kanji": "大仏",
+      "kanji_refs": [
+        "k-大",
+        "k-仏"
+      ],
+      "legacy_id": "lesson37_34",
+      "lesson": 37,
+      "meaning_vi": "tượng phật lớn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tượng phật lớn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-37-035-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "この{城|しろ}は[[{江戸時代|えどじだい}]]に{建|た}てられました。",
+          "source": "ai-draft",
+          "vi": "Tòa thành này được xây vào thời Edo."
+        }
+      ],
+      "han_viet": "GIANG HỘ THỜI ĐẠI",
+      "id": "mn-37-035",
+      "kana": "えどじだい",
+      "kanji": "江戸時代",
+      "kanji_refs": [
+        "k-江",
+        "k-戸",
+        "k-時",
+        "k-代"
+      ],
+      "legacy_id": "lesson37_35",
+      "lesson": 37,
+      "meaning_vi": "thời Edo (1603-1868)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thời Edo (1603-1868)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-036-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[ポルトガル]]{語|ご}はブラジルで{話|はな}されています。",
+          "source": "ai-draft",
+          "vi": "Tiếng Bồ Đào Nha được nói ở Brazil."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-37-036",
+      "kana": "ポルトガル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_36",
+      "lesson": 37,
+      "meaning_vi": "Bồ Đào Nha",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Bồ Đào Nha"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-037-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "{石油|せきゆ}は[[サウジアラビア]]から{輸入|ゆにゅう}されています。",
+          "source": "ai-draft",
+          "vi": "Dầu mỏ được nhập khẩu từ Ả Rập Xê Út."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-37-037",
+      "kana": "サウジアラビア",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_37",
+      "lesson": 37,
+      "meaning_vi": "Ả-rập Xê-út (Saudi Arabia)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Ả-rập Xê-út (Saudi Arabia)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-37-038-e1",
+          "max_lesson": 37,
+          "review": "user",
+          "ruby": "[[ロシア]]は{冬|ふゆ}がとても{寒|さむ}いです。",
+          "source": "ai-draft",
+          "vi": "Nước Nga mùa đông rất lạnh."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-37-038",
+      "kana": "ロシア",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson37_38",
+      "lesson": 37,
+      "meaning_vi": "Nga",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Nga"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 37,
+  "schema_version": 4
+}

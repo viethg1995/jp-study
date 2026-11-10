@@ -1,0 +1,371 @@
+[
+  {
+    "id": "lesson35_1",
+    "jp": "さきます",
+    "kanji": "咲きます",
+    "kanji_vn": "TIẾUHOA",
+    "vn": "nở [hoa ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson35_2",
+    "jp": "かわります",
+    "kanji": "変わります",
+    "kanji_vn": "BIẾNSẮC",
+    "vn": "thay đổi, đổi [màu]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson35_3",
+    "jp": "こまります",
+    "kanji": "困ります",
+    "kanji_vn": "KHỐN",
+    "vn": "rắc rối, khó xử, có vấn đề",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson35_4",
+    "jp": "つけます",
+    "kanji": "付けます",
+    "kanji_vn": "PHÓHOÀN",
+    "vn": "vẽ, đánh dấu [tròn]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson35_5",
+    "jp": "なおります",
+    "kanji": "治ります、直ります",
+    "kanji_vn": "TRỊTRỰC",
+    "vn": "khỏi [bệnh]được sửa xong [hỏng hóc ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson35_6",
+    "jp": "クリックします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "click chuột",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson35_7",
+    "jp": "にゅうりょくします",
+    "kanji": "入力します",
+    "kanji_vn": "NHẬP LỰC",
+    "vn": "nhập vào",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson35_8",
+    "jp": "ただしい",
+    "kanji": "正しい",
+    "kanji_vn": "CHÍNH",
+    "vn": "đúng, chính xác",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson35_9",
+    "jp": "むこう",
+    "kanji": "向こう",
+    "kanji_vn": "HƯỚNG",
+    "vn": "bên kia, bên đấy, phía đằng kia",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_10",
+    "jp": "しま",
+    "kanji": "島",
+    "kanji_vn": "ĐẢO",
+    "vn": "đảo, hòn đảo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_11",
+    "jp": "みなと",
+    "kanji": "港",
+    "kanji_vn": "CẢNG",
+    "vn": "cảng, bến cảng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_12",
+    "jp": "きんじょ",
+    "kanji": "近所",
+    "kanji_vn": "CẬN SỞ",
+    "vn": "hàng xóm, khu vực lân cận",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_13",
+    "jp": "おくじょう",
+    "kanji": "屋上",
+    "kanji_vn": "ỐC THƯỢNG",
+    "vn": "mái nhà, nóc nhà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_14",
+    "jp": "かいがい",
+    "kanji": "海外",
+    "kanji_vn": "HẢI NGOẠI",
+    "vn": "nước ngoài hải ngoại",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_15",
+    "jp": "やまのぼり",
+    "kanji": "山登り",
+    "kanji_vn": "SƠN ĐĂNG",
+    "vn": "leo núi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_16",
+    "jp": "れきし",
+    "kanji": "歴史",
+    "kanji_vn": "LỊCH SỬ",
+    "vn": "lịch sử",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_17",
+    "jp": "きかい",
+    "kanji": "機会",
+    "kanji_vn": "CƠ HỘI",
+    "vn": "cơ hội",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson35_18",
+    "jp": "きょか",
+    "kanji": "許可",
+    "kanji_vn": "HỨA KHẢ",
+    "vn": "phép, giấy phép",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_19",
+    "jp": "まる",
+    "kanji": "丸",
+    "kanji_vn": "HOÀN",
+    "vn": "tròn, vòng tròn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_20",
+    "jp": "ふりがな",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Furigana (chữ Kana biểu thị cách đọccủa Hán tự)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_21",
+    "jp": "せつび",
+    "kanji": "設備",
+    "kanji_vn": "THIẾT BỊ",
+    "vn": "thiết bị",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_22",
+    "jp": "レバー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cần, cần gạt",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson35_23",
+    "jp": "キー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phím",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson35_24",
+    "jp": "カーテン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái rèm",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson35_25",
+    "jp": "ひも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sợi dây",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_26",
+    "jp": "すいはんき",
+    "kanji": "炊飯器",
+    "kanji_vn": "XÚY PHẠN KHÍ",
+    "vn": "nồi cơm điện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_27",
+    "jp": "は",
+    "kanji": "葉",
+    "kanji_vn": "DIỆP",
+    "vn": "cái lá",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_28",
+    "jp": "むかし",
+    "kanji": "昔",
+    "kanji_vn": "TÍCH",
+    "vn": "ngày xưa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_29",
+    "jp": "もっと",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hơn, nữa",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson35_30",
+    "jp": "これで終わりましょう。",
+    "kanji": null,
+    "kanji_vn": "CHUNG",
+    "vn": "Chúng ta dừng lại ở đây nhé.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson35_31",
+    "jp": "箱根",
+    "kanji": null,
+    "kanji_vn": "TƯƠNG CĂN",
+    "vn": "một địa điểm nghỉ ngơi ở tỉnh Kanagawa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_32",
+    "jp": "日光",
+    "kanji": null,
+    "kanji_vn": "NHẬT QUANG",
+    "vn": "một địa điểm du lịch ở Tochigi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_33",
+    "jp": "アフリカ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "châu Phi (Africa)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson35_34",
+    "jp": "マンガミュージアム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Bảo tàng truyện tranh quốc tế Kyoto",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson35_35",
+    "jp": "みんなの学校",
+    "kanji": null,
+    "kanji_vn": "HỌC HIỆU",
+    "vn": "tên trường tiếng Nhật giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_36",
+    "jp": "大黒ずし",
+    "kanji": null,
+    "kanji_vn": "ĐẠI HẮC",
+    "vn": "tên quán Sushi giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_37",
+    "jp": "IMCパソコン教室",
+    "kanji": null,
+    "kanji_vn": "GIÁO THẤT",
+    "vn": "tên trường đạo tạo chuyên môn máytính giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_38",
+    "jp": "母の味",
+    "kanji": null,
+    "kanji_vn": "MẪU VỊ",
+    "vn": "tiêu đề cuốn sách giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_39",
+    "jp": "はる",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hiệu làm đẹp giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_40",
+    "jp": "佐藤歯科",
+    "kanji": null,
+    "kanji_vn": "TÁ ĐẰNGXỈ KHOA",
+    "vn": "phòng nha khoa giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson35_41",
+    "jp": "毎日クッキング",
+    "kanji": null,
+    "kanji_vn": "MỖI NHẬT",
+    "vn": "trường dạy nấu ăn giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lesson47_1",
+    "jp": "ふきます",
+    "kanji": "吹きます",
+    "kanji_vn": "XÚYPHONG",
+    "vn": "thổi [gió ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson47_2",
+    "jp": "もえます",
+    "kanji": "燃えます",
+    "kanji_vn": "NHIÊN",
+    "vn": "cháy được [rác ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson47_3",
+    "jp": "なくなります",
+    "kanji": "亡くなります",
+    "kanji_vn": "VONG",
+    "vn": "chết, mất",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson47_4",
+    "jp": "あつまります",
+    "kanji": "集まります",
+    "kanji_vn": "TẬPNHÂN",
+    "vn": "tập trung, tập hợp [người ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson47_5",
+    "jp": "わかれます",
+    "kanji": "別れます",
+    "kanji_vn": "BIỆTNHÂN",
+    "vn": "chia, chia nhỏ, chia ra [người ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson47_6",
+    "jp": "します",
+    "kanji": "します",
+    "kanji_vn": "ÂM/THANHVỊ",
+    "vn": "có [âm thanh/ tiếng]có [vị]có [mùi]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson47_7",
+    "jp": "きびしい",
+    "kanji": "厳しい",
+    "kanji_vn": "NGHIÊM",
+    "vn": "nghiêm, nghiêm khắc, nghiêm ngặt",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson47_8",
+    "jp": "ひどい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tồi tệ, xấu",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson47_9",
+    "jp": "こわい",
+    "kanji": "怖い",
+    "kanji_vn": "BỐ",
+    "vn": "sợ, khiếp",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson47_10",
+    "jp": "じっけん",
+    "kanji": "実験",
+    "kanji_vn": "THỰC NGHIỆM",
+    "vn": "thực nghiệm, thí nghiệm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson47_11",
+    "jp": "データ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "số liệu, dữ liệu",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson47_12",
+    "jp": "じんこう",
+    "kanji": "人口",
+    "kanji_vn": "NHÂN KHẨU",
+    "vn": "dân số",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson47_13",
+    "jp": "におい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mùi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson47_14",
+    "jp": "かがく",
+    "kanji": "科学",
+    "kanji_vn": "KHOA HỌC",
+    "vn": "khoa học",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson47_15",
+    "jp": "いがく",
+    "kanji": "医学",
+    "kanji_vn": "Y HỌC",
+    "vn": "y học",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson47_16",
+    "jp": "ぶんがく",
+    "kanji": "文学",
+    "kanji_vn": "VĂN HỌC",
+    "vn": "văn học",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson47_17",
+    "jp": "パトカー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "xe ô-tô cảnh sát",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson47_18",
+    "jp": "きゅうきゅうしゃ",
+    "kanji": "救急車",
+    "kanji_vn": "CỨU CẤP XA",
+    "vn": "xe cấp cứu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson47_19",
+    "jp": "さんせい",
+    "kanji": "賛成",
+    "kanji_vn": "TÁN THÀNH",
+    "vn": "tán thành, đồng ý",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson47_20",
+    "jp": "はんたい",
+    "kanji": "反対",
+    "kanji_vn": "PHẢN ĐỐI",
+    "vn": "phản đối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson47_21",
+    "jp": "だいとうりょう",
+    "kanji": "大統領",
+    "kanji_vn": "ĐẠI THỐNG LÃNH",
+    "vn": "tổng thống",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson47_22",
+    "jp": "～によると",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "theo ~(biểu thị nguồn thông tin)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  }
+]

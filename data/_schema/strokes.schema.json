@@ -1,0 +1,179 @@
+{
+  "$defs": {
+    "KanjiComponent": {
+      "additionalProperties": false,
+      "properties": {
+        "char": {
+          "description": "Thành phần như viết trong chữ, vd 亻",
+          "minLength": 1,
+          "title": "Char",
+          "type": "string"
+        },
+        "meaning_vi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Nghĩa ngắn, vd 'người'",
+          "title": "Meaning Vi"
+        },
+        "name_vi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Tên Hán-Việt (bộ thủ hoặc âm Hán-Việt), vd 'Nhân'",
+          "title": "Name Vi"
+        },
+        "original": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Dạng gốc nếu là biến thể, vd 亻 → 人",
+          "title": "Original"
+        },
+        "strokes": {
+          "description": "Số thứ tự nét (từ 1) thuộc thành phần",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Strokes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "char",
+        "original",
+        "strokes",
+        "name_vi",
+        "meaning_vi"
+      ],
+      "title": "KanjiComponent",
+      "type": "object"
+    },
+    "KanjiStroke": {
+      "additionalProperties": false,
+      "properties": {
+        "d": {
+          "description": "SVG path (viewBox 0 0 109 109), theo thứ tự viết",
+          "minLength": 1,
+          "title": "D",
+          "type": "string"
+        },
+        "num": {
+          "description": "Vị trí đặt số thứ tự nét (x, y)",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "title": "Num",
+          "type": "array"
+        },
+        "type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Kiểu nét KanjiVG, vd '㇐' (null nếu nguồn bỏ trống)",
+          "title": "Type"
+        }
+      },
+      "required": [
+        "d",
+        "type",
+        "num"
+      ],
+      "title": "KanjiStroke",
+      "type": "object"
+    },
+    "KanjiStrokes": {
+      "additionalProperties": false,
+      "properties": {
+        "char": {
+          "maxLength": 1,
+          "minLength": 1,
+          "title": "Char",
+          "type": "string"
+        },
+        "components": {
+          "description": "Thành phần cấp 1 (KanjiVG); chữ đơn → []",
+          "items": {
+            "$ref": "#/$defs/KanjiComponent"
+          },
+          "title": "Components",
+          "type": "array"
+        },
+        "id": {
+          "description": "Trùng id trong kanji.json",
+          "pattern": "^k-.$",
+          "title": "Id",
+          "type": "string"
+        },
+        "strokes": {
+          "items": {
+            "$ref": "#/$defs/KanjiStroke"
+          },
+          "minItems": 1,
+          "title": "Strokes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "char",
+        "strokes"
+      ],
+      "title": "KanjiStrokes",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "kanji": {
+      "items": {
+        "$ref": "#/$defs/KanjiStrokes"
+      },
+      "title": "Kanji",
+      "type": "array"
+    },
+    "license": {
+      "title": "License",
+      "type": "string"
+    },
+    "schema_version": {
+      "default": 7,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "source": {
+      "title": "Source",
+      "type": "string"
+    }
+  },
+  "required": [
+    "source",
+    "license",
+    "kanji"
+  ],
+  "title": "StrokeFile",
+  "type": "object"
+}

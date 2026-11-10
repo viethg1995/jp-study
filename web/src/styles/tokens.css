@@ -1,0 +1,95 @@
+/*
+ * Design tokens — nguồn duy nhất cho màu, chữ, khoảng cách, bo góc.
+ * Cảm hứng: デジタル庁デザインシステム (Hệ thống thiết kế của Cục Kỹ thuật số Nhật Bản):
+ *   nền trắng · xanh dương = hành động/nhấn mạnh · đỏ = CHỈ lỗi + dấu nhận diện · chữ "sumi" (mực).
+ *
+ * 2 tầng:
+ *   1. Primitive (--p-*)  : bảng màu thô — KHÔNG dùng trực tiếp trong component.
+ *   2. Semantic (@theme)  : theo vai trò (ink, primary, line…) → Tailwind sinh class text-ink, bg-primary-soft…
+ * Component chỉ dùng tầng 2. Đổi màu toàn site = đổi tầng 1.
+ */
+
+:root {
+  /* Xanh dương (key color) */
+  --p-blue-50: #eef3ff;
+  --p-blue-100: #d9e4ff;
+  --p-blue-600: #2a52d6;
+  --p-blue-700: #0031d8;
+  --p-blue-800: #0026a8;
+  /* Đỏ — dành cho lỗi và logo, không dùng để nhấn mạnh nội dung học */
+  --p-red-50: #fdeeee;
+  --p-red-600: #d0101d;
+  --p-red-700: #b00d18;
+  /* Xám "sumi" (mực) */
+  --p-gray-0: #ffffff;
+  --p-gray-25: #f8f8fb;
+  --p-gray-50: #f2f2f5;
+  --p-gray-200: #d9d9de;
+  --p-gray-300: #c4c4cb;
+  --p-gray-500: #757580;
+  --p-gray-700: #4d4d57;
+  --p-gray-900: #1a1a1c;
+  /* Phụ trợ trạng thái (dùng tiết chế) */
+  --p-green-700: #197a4b;
+  --p-yellow-50: #fff8e1;
+  --p-yellow-800: #8a5a00;
+  /* Bảng màu phân loại cho "tô màu từng nét" Kanji — tránh họ đỏ, tương phản ≥ 4.5:1 trên nền trắng */
+  --p-cat-1: #0031d8;
+  --p-cat-2: #00838f;
+  --p-cat-3: #197a4b;
+  --p-cat-4: #6b7a00;
+  --p-cat-5: #a85d00;
+  --p-cat-6: #6a3fbf;
+  --p-cat-7: #a8267a;
+  --p-cat-8: #7a4a24;
+}
+
+@theme {
+  /* Chữ */
+  --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  --font-jp: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+
+  /* Bề mặt */
+  --color-canvas: var(--p-gray-25); /* nền trang */
+  --color-surface: var(--p-gray-0); /* thẻ, panel */
+  --color-surface-sunken: var(--p-gray-50); /* khối phụ bên trong thẻ */
+  --color-line: var(--p-gray-200); /* viền, đường kẻ */
+  --color-line-strong: var(--p-gray-300);
+
+  /* Chữ (tương phản ≥ 4.5:1 trên nền trắng, trừ ink-faint chỉ cho chú thích phụ) */
+  --color-ink: var(--p-gray-900); /* nội dung chính */
+  --color-ink-muted: var(--p-gray-700); /* nội dung bổ trợ */
+  --color-ink-faint: var(--p-gray-500); /* nhãn, meta */
+
+  /* Vai trò */
+  --color-primary: var(--p-blue-700); /* link, nút, điểm nhấn học tập */
+  --color-primary-strong: var(--p-blue-800);
+  --color-primary-soft: var(--p-blue-50);
+  --color-primary-line: var(--p-blue-100);
+  --color-brand: var(--p-red-600); /* dấu nhận diện (logo) */
+  --color-danger: var(--p-red-700);
+  --color-danger-soft: var(--p-red-50);
+  --color-success: var(--p-green-700);
+  --color-notice: var(--p-yellow-800);
+  --color-notice-soft: var(--p-yellow-50);
+  --color-pattern-wave: var(--p-blue-50); /* họa tiết 青海波 trang chủ: màu sóng */
+  --color-pattern-gap: var(--p-gray-0); /* họa tiết 青海波: khoảng trắng giữa sóng */
+  --color-scrim: rgb(26 26 28 / 0.35); /* nền mờ sau menu trượt trên điện thoại */
+}
+
+/* "static": luôn xuất biến dù không có class Tailwind nào dùng — component đọc qua var() trong style */
+@theme static {
+  /* Nét viết Kanji: tô màu từng nét (xoay vòng 8 màu) */
+  --color-stroke-1: var(--p-cat-1);
+  --color-stroke-2: var(--p-cat-2);
+  --color-stroke-3: var(--p-cat-3);
+  --color-stroke-4: var(--p-cat-4);
+  --color-stroke-5: var(--p-cat-5);
+  --color-stroke-6: var(--p-cat-6);
+  --color-stroke-7: var(--p-cat-7);
+  --color-stroke-8: var(--p-cat-8);
+  /* Modal: nền che phía sau + bóng */
+  --color-overlay: rgb(0 0 0 / 0.45);
+  --shadow-modal: 0 24px 64px rgb(0 0 0 / 0.25);
+  --shadow-popover: 0 8px 24px rgb(0 0 0 / 0.12);
+}

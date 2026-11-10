@@ -1,0 +1,1053 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-001-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{昨日|きのう}{交通|こうつう}{事故|じこ}に[[{遭|あ}いました]]。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã gặp tai nạn giao thông."
+        }
+      ],
+      "han_viet": "TAO",
+      "id": "mn-36-001",
+      "kana": "あいます",
+      "kanji": "遭います",
+      "kanji_refs": [
+        "k-遭"
+      ],
+      "legacy_id": "lesson36_1",
+      "lesson": 36,
+      "meaning_vi": "gặp [tai nạn～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "tai nạn～",
+          "text": "gặp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-002-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{毎月|まいつき}{少|すこ}しずつ[[{貯金|ちょきん}して]]います。",
+          "source": "ai-draft",
+          "vi": "Hàng tháng tôi tiết kiệm từng chút một."
+        }
+      ],
+      "han_viet": "TRỮ KIM",
+      "id": "mn-36-002",
+      "kana": "ちょきんします",
+      "kanji": "貯金します",
+      "kanji_refs": [
+        "k-貯",
+        "k-金"
+      ],
+      "legacy_id": "lesson36_2",
+      "lesson": 36,
+      "meaning_vi": "tiết kiệm tiền, để dành tiền",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiết kiệm tiền, để dành tiền"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-003-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "もう７{時|じ}を[[{過|す}ぎました]]。",
+          "source": "ai-draft",
+          "vi": "Đã quá 7 giờ rồi."
+        }
+      ],
+      "han_viet": "QUÁ",
+      "id": "mn-36-003",
+      "kana": "すぎます",
+      "kanji": "過ぎます",
+      "kanji_refs": [
+        "k-過"
+      ],
+      "legacy_id": "lesson36_3",
+      "lesson": 36,
+      "meaning_vi": "quá, qua [7 giờ]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "7 giờ",
+          "text": "quá, qua"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-004-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{日本|にほん}の{生活|せいかつ}に[[{慣|な}れました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã quen với cuộc sống ở Nhật."
+        }
+      ],
+      "han_viet": "QUÁN",
+      "id": "mn-36-004",
+      "kana": "なれます",
+      "kanji": "慣れます",
+      "kanji_refs": [
+        "k-慣"
+      ],
+      "legacy_id": "lesson36_4",
+      "lesson": 36,
+      "meaning_vi": "làm quen với [tập quán]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "tập quán",
+          "text": "làm quen với"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-005-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{牛乳|ぎゅうにゅう}が[[{腐|くさ}って]]います。",
+          "source": "ai-draft",
+          "vi": "Sữa đã bị hỏng."
+        }
+      ],
+      "han_viet": "HỦ",
+      "id": "mn-36-005",
+      "kana": "くさります",
+      "kanji": "腐ります",
+      "kanji_refs": [
+        "k-腐"
+      ],
+      "legacy_id": "lesson36_5",
+      "lesson": 36,
+      "meaning_vi": "bị hỏng, bị thiu [thức ăn～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "thức ăn～",
+          "text": "bị hỏng, bị thiu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-006-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{毎週|まいしゅう}[[{剣道|けんどう}]]を{習|なら}っています。",
+          "source": "ai-draft",
+          "vi": "Hàng tuần tôi học kiếm đạo."
+        }
+      ],
+      "han_viet": "KIẾM ĐẠO",
+      "id": "mn-36-006",
+      "kana": "けんどう",
+      "kanji": "剣道",
+      "kanji_refs": [
+        "k-剣",
+        "k-道"
+      ],
+      "legacy_id": "lesson36_6",
+      "lesson": 36,
+      "meaning_vi": "kiếm đạo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kiếm đạo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-007-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[{柔道|じゅうどう}]]ができるようになりました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã có thể tập Judo."
+        }
+      ],
+      "han_viet": "NHU ĐẠO",
+      "id": "mn-36-007",
+      "kana": "じゅうどう",
+      "kanji": "柔道",
+      "kanji_refs": [
+        "k-柔",
+        "k-道"
+      ],
+      "legacy_id": "lesson36_7",
+      "lesson": 36,
+      "meaning_vi": "Judo (nhu đạo)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Judo (nhu đạo)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-008-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[ラッシュ]]の{時|とき}は{電車|でんしゃ}が{込|こ}みます。",
+          "source": "ai-draft",
+          "vi": "Giờ cao điểm tàu điện rất đông."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-36-008",
+      "kana": "ラッシュ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson36_8",
+      "lesson": 36,
+      "meaning_vi": "giờ cao điểm; tắt đường",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "n3-405"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "giờ cao điểm"
+        },
+        {
+          "context": null,
+          "text": "tắt đường"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-009-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "いつか[[{宇宙|うちゅう}]]へ{行|い}きたいです。",
+          "source": "ai-draft",
+          "vi": "Một ngày nào đó tôi muốn đi vào vũ trụ."
+        }
+      ],
+      "han_viet": "VŨ TRỤ",
+      "id": "mn-36-009",
+      "kana": "うちゅう",
+      "kanji": "宇宙",
+      "kanji_refs": [
+        "k-宇",
+        "k-宙"
+      ],
+      "legacy_id": "lesson36_9",
+      "lesson": 36,
+      "meaning_vi": "vũ trụ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vũ trụ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-010-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "この[[{曲|きょく}]]が{好|す}きです。",
+          "source": "ai-draft",
+          "vi": "Tôi thích bản nhạc này."
+        }
+      ],
+      "han_viet": "KHÚC",
+      "id": "mn-36-010",
+      "kana": "きょく",
+      "kanji": "曲",
+      "kanji_refs": [
+        "k-曲"
+      ],
+      "legacy_id": "lesson36_10",
+      "lesson": 36,
+      "meaning_vi": "bài hát, bản nhạc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bài hát, bản nhạc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-011-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[{毎週|まいしゅう}]]{日曜日|にちようび}にテニスをします。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật hàng tuần tôi chơi quần vợt."
+        }
+      ],
+      "han_viet": "MỖI CHU",
+      "id": "mn-36-011",
+      "kana": "まいしゅう",
+      "kanji": "毎週",
+      "kanji_refs": [
+        "k-毎",
+        "k-週"
+      ],
+      "legacy_id": "lesson36_11",
+      "lesson": 36,
+      "meaning_vi": "hàng tuần",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hàng tuần"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-012-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[{毎月|まいつき}]]{家族|かぞく}に{手紙|てがみ}を{書|か}きます。",
+          "source": "ai-draft",
+          "vi": "Hàng tháng tôi viết thư cho gia đình."
+        }
+      ],
+      "han_viet": "MỖI NGUYỆT",
+      "id": "mn-36-012",
+      "kana": "まいつき",
+      "kanji": "毎月",
+      "kanji_refs": [
+        "k-毎",
+        "k-月"
+      ],
+      "legacy_id": "lesson36_12",
+      "lesson": 36,
+      "meaning_vi": "hàng tháng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hàng tháng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-013-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[{毎年|まいとし}]]{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Hàng năm tôi về nước."
+        }
+      ],
+      "han_viet": "MỖI NIÊN",
+      "id": "mn-36-013",
+      "kana": "まいとし",
+      "kanji": "毎年",
+      "kanji_refs": [
+        "k-毎",
+        "k-年"
+      ],
+      "legacy_id": "lesson36_13",
+      "lesson": 36,
+      "meaning_vi": "hàng năm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hàng năm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-014-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[この{頃|ごろ}]]{漢字|かんじ}が{読|よ}めるようになりました。",
+          "source": "ai-draft",
+          "vi": "Dạo này tôi đã đọc được chữ Hán."
+        }
+      ],
+      "han_viet": "KHOẢNH",
+      "id": "mn-36-014",
+      "kana": "このごろ",
+      "kanji": "この頃",
+      "kanji_refs": [
+        "k-頃"
+      ],
+      "legacy_id": "lesson36_14",
+      "lesson": 36,
+      "meaning_vi": "gần đây, dạo này",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gần đây, dạo này"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-015-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[やっと]]{日本語|にほんご}が{話|はな}せるようになりました。",
+          "source": "ai-draft",
+          "vi": "Cuối cùng tôi đã nói được tiếng Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-36-015",
+      "kana": "やっと",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson36_15",
+      "lesson": 36,
+      "meaning_vi": "cuối cùng thì",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cuối cùng thì"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-016-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{日本語|にほんご}が[[かなり]]{上手|じょうず}になりました。",
+          "source": "ai-draft",
+          "vi": "Tiếng Nhật đã giỏi lên khá nhiều."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-36-016",
+      "kana": "かなり",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson36_16",
+      "lesson": 36,
+      "meaning_vi": "khá, tương đối",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "n3-462"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "khá, tương đối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-017-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{毎日|まいにち}[[{必|かなら}ず]]{運動|うんどう}するようにしています。",
+          "source": "ai-draft",
+          "vi": "Ngày nào tôi cũng cố gắng nhất định vận động."
+        }
+      ],
+      "han_viet": "TẤT",
+      "id": "mn-36-017",
+      "kana": "かならず",
+      "kanji": "必ず",
+      "kanji_refs": [
+        "k-必"
+      ],
+      "legacy_id": "lesson36_17",
+      "lesson": 36,
+      "meaning_vi": "nhất định",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-670"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhất định"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-018-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[{絶対|ぜったい}に]]{遅|おく}れないようにしてください。",
+          "source": "ai-draft",
+          "vi": "Tuyệt đối không được đến muộn."
+        }
+      ],
+      "han_viet": "TUYỆT ĐỐI",
+      "id": "mn-36-018",
+      "kana": "ぜったいに",
+      "kanji": "絶対に",
+      "kanji_refs": [
+        "k-絶",
+        "k-対"
+      ],
+      "legacy_id": "lesson36_18",
+      "lesson": 36,
+      "meaning_vi": "nhất định, tuyệt đối",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhất định, tuyệt đối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-36-019-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{日本語|にほんご}が[[{上手|じょうず}に]]{話|はな}せるようになりたいです。",
+          "source": "ai-draft",
+          "vi": "Tôi muốn có thể nói tiếng Nhật giỏi."
+        }
+      ],
+      "han_viet": "THƯỢNG THỦ",
+      "id": "mn-36-019",
+      "kana": "じょうずに",
+      "kanji": "上手に",
+      "kanji_refs": [
+        "k-上",
+        "k-手"
+      ],
+      "legacy_id": "lesson36_19",
+      "lesson": 36,
+      "meaning_vi": "giỏi, khéo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giỏi, khéo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-020-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[{出来|でき}るだけ]]{毎日|まいにち}{野菜|やさい}を{食|た}べるようにしています。",
+          "source": "ai-draft",
+          "vi": "Tôi cố gắng ăn rau mỗi ngày nhiều nhất có thể."
+        }
+      ],
+      "han_viet": "XUẤT LAI",
+      "id": "mn-36-020",
+      "kana": "できるだけ",
+      "kanji": "出来るだけ",
+      "kanji_refs": [
+        "k-出",
+        "k-来"
+      ],
+      "legacy_id": "lesson36_20",
+      "lesson": 36,
+      "meaning_vi": "cố gắng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cố gắng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-021-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "{宿題|しゅくだい}は[[{殆|ほとん}ど]]{終|お}わりました。",
+          "source": "ai-draft",
+          "vi": "Bài tập đã gần xong."
+        }
+      ],
+      "han_viet": "ĐÃI",
+      "id": "mn-36-021",
+      "kana": "ほとんど",
+      "kanji": "殆ど",
+      "kanji_refs": [
+        "k-殆"
+      ],
+      "legacy_id": "lesson36_21",
+      "lesson": 36,
+      "meaning_vi": "hầu hết, hầu như",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hầu hết, hầu như"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-36-022-e1",
+          "max_lesson": 36,
+          "review": "user",
+          "ruby": "[[ショパン]]の{曲|きょく}が{弾|ひ}けるようになりたいです。",
+          "source": "ai-draft",
+          "vi": "Tôi muốn có thể chơi được nhạc của Chopin."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-36-022",
+      "kana": "ショパン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson36_22",
+      "lesson": 36,
+      "meaning_vi": "Chopin, nhà soạn nhạc người Ba Lan (1810-1849)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chopin, nhà soạn nhạc người Ba Lan (1810-1849)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 36,
+  "schema_version": 4
+}

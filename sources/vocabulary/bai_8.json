@@ -1,0 +1,425 @@
+[
+  {
+    "id": "lesson8_1",
+    "jp": "ハンサム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đẹp trai",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_2",
+    "jp": "きれい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đẹp, sạch",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_3",
+    "jp": "しずか",
+    "kanji": "静か",
+    "kanji_vn": "TĨNH",
+    "vn": "yên tĩnh",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_4",
+    "jp": "にぎやか",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "náo nhiệt",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_5",
+    "jp": "ゆうめい",
+    "kanji": "有名",
+    "kanji_vn": "HỮU DANH",
+    "vn": "nổi tiếng",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_6",
+    "jp": "しんせつ",
+    "kanji": "親切",
+    "kanji_vn": "THÂN THIẾT",
+    "vn": "tốt bụng, thân thiện",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_7",
+    "jp": "げんき",
+    "kanji": "元気",
+    "kanji_vn": "NGUYÊN KHÍ",
+    "vn": "khỏe",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_8",
+    "jp": "ひま",
+    "kanji": "暇",
+    "kanji_vn": "HẠ",
+    "vn": "rảnh rỗi",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_9",
+    "jp": "べんり",
+    "kanji": "便利",
+    "kanji_vn": "TIỆN LỢI",
+    "vn": "tiện lợi",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_10",
+    "jp": "すてき",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đẹp, hay",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson8_11",
+    "jp": "おおきい",
+    "kanji": "大きい",
+    "kanji_vn": "ĐẠI",
+    "vn": "lớn, to",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_12",
+    "jp": "ちいさい",
+    "kanji": "小さい",
+    "kanji_vn": "TIỂU",
+    "vn": "bé, nhỏ",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_13",
+    "jp": "あたらしい",
+    "kanji": "新しい",
+    "kanji_vn": "TÂN",
+    "vn": "mới",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_14",
+    "jp": "ふるい",
+    "kanji": "古い",
+    "kanji_vn": "CỔ",
+    "vn": "cũ",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_15",
+    "jp": "いい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tốt",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_16",
+    "jp": "わるい",
+    "kanji": "悪い",
+    "kanji_vn": "ÁC",
+    "vn": "xấu",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_17",
+    "jp": "あつい",
+    "kanji": "暑い, 熱い",
+    "kanji_vn": "THỬ, NHIỆT",
+    "vn": "nóng",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_18",
+    "jp": "さむい",
+    "kanji": "寒い",
+    "kanji_vn": "HÀN",
+    "vn": "lạnh, rét (dùng cho thời tiết)",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_19",
+    "jp": "つめたい",
+    "kanji": "冷たい",
+    "kanji_vn": "LÃNH",
+    "vn": "lạnh, buốt (dùng cho cảm giác)",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_20",
+    "jp": "むずかしい",
+    "kanji": "難しい",
+    "kanji_vn": "NAN",
+    "vn": "khó",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_21",
+    "jp": "やさしい",
+    "kanji": "易しい",
+    "kanji_vn": "DỊ",
+    "vn": "dễ",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_22",
+    "jp": "たかい",
+    "kanji": "高い",
+    "kanji_vn": "CAO",
+    "vn": "đắt, cao",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_23",
+    "jp": "やすい",
+    "kanji": "安い",
+    "kanji_vn": "AN",
+    "vn": "rẻ",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_24",
+    "jp": "ひくい",
+    "kanji": "低い",
+    "kanji_vn": "ĐÊ",
+    "vn": "thấp",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_25",
+    "jp": "おもしろい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thú vị, hay",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_26",
+    "jp": "おいしい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ngon",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_27",
+    "jp": "いそがしい",
+    "kanji": "忙しい",
+    "kanji_vn": "MANG",
+    "vn": "bận",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_28",
+    "jp": "たのしい",
+    "kanji": "楽しい",
+    "kanji_vn": "LẠC, NHẠC",
+    "vn": "vui",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_29",
+    "jp": "しろい",
+    "kanji": "白い",
+    "kanji_vn": "BẠCH",
+    "vn": "trắng",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_30",
+    "jp": "くろい",
+    "kanji": "黒い",
+    "kanji_vn": "HẮC",
+    "vn": "đen",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_31",
+    "jp": "あかい",
+    "kanji": "赤い",
+    "kanji_vn": "XÍCH",
+    "vn": "đỏ",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_32",
+    "jp": "あおい",
+    "kanji": "青い",
+    "kanji_vn": "THANH",
+    "vn": "xanh da trời",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson8_33",
+    "jp": "さくら",
+    "kanji": "桜",
+    "kanji_vn": "ANH",
+    "vn": "anh đào (hoa, cây)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson8_34",
+    "jp": "やま",
+    "kanji": "山",
+    "kanji_vn": "SƠN, SAN",
+    "vn": "núi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson8_35",
+    "jp": "まち",
+    "kanji": "町",
+    "kanji_vn": "ĐINH",
+    "vn": "thị trấn, thị xã, thành phố",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson8_36",
+    "jp": "たべもの",
+    "kanji": "食べ物",
+    "kanji_vn": "THỰC VẬT",
+    "vn": "đồ ăn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson8_37",
+    "jp": "ところ",
+    "kanji": "所",
+    "kanji_vn": "SỞ",
+    "vn": "nơi, chỗ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson8_38",
+    "jp": "りょう",
+    "kanji": "寮",
+    "kanji_vn": "LIÊU",
+    "vn": "kí túc xá",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson8_39",
+    "jp": "レストラン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhà hàng",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson8_40",
+    "jp": "せいかつ",
+    "kanji": "生活",
+    "kanji_vn": "SINH HOẠT",
+    "vn": "cuộc sống, sinh hoạt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson8_41",
+    "jp": "しごと",
+    "kanji": "仕事",
+    "kanji_vn": "SĨ SỰ",
+    "vn": "công việc (～をします：làm việc)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson8_42",
+    "jp": "どう",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thế nào",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson8_43",
+    "jp": "どんな～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ như thế nào",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson8_44",
+    "jp": "とても",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "rất, lắm",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson8_45",
+    "jp": "あまり",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "không ~ lắm",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson8_46",
+    "jp": "そして",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "và, thêm nữa (dùng để nối 2 câu)",
+    "type": "Từ nối",
+    "type_code": "Conj"
+  },
+  {
+    "id": "lesson8_47",
+    "jp": "～が、～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~, nhưng ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  }
+]

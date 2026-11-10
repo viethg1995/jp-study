@@ -1,0 +1,345 @@
+{
+  "mn-27-001": {
+    "examples": [
+      {
+        "id": "mn-27-001-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{私|わたし}は{犬|いぬ}を[[{飼|か}って]]います。",
+        "source": "ai-draft",
+        "vi": "Tôi đang nuôi chó."
+      }
+    ]
+  },
+  "mn-27-002": {
+    "examples": [
+      {
+        "id": "mn-27-002-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}{公園|こうえん}を[[{走|はし}ります]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi chạy bộ trong công viên."
+      }
+    ]
+  },
+  "mn-27-003": {
+    "examples": [
+      {
+        "id": "mn-27-003-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{部屋|へや}から{海|うみ}が[[{見|み}えます]]。",
+        "source": "ai-draft",
+        "vi": "Từ phòng có thể nhìn thấy biển."
+      }
+    ]
+  },
+  "mn-27-004": {
+    "examples": [
+      {
+        "id": "mn-27-004-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{鳥|とり}の{声|こえ}が[[{聞|き}こえます]]。",
+        "source": "ai-draft",
+        "vi": "Có thể nghe thấy tiếng chim."
+      }
+    ]
+  },
+  "mn-27-005": {
+    "examples": [
+      {
+        "id": "mn-27-005-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{駅|えき}の{前|まえ}に{新|あたら}しいスーパーが[[できました]]。",
+        "source": "ai-draft",
+        "vi": "Trước nhà ga đã mở một siêu thị mới."
+      }
+    ]
+  },
+  "mn-27-006": {
+    "examples": [
+      {
+        "id": "mn-27-006-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{来月|らいげつ}から{日本語|にほんご}{教室|きょうしつ}を[[{開|ひら}きます]]。",
+        "source": "ai-draft",
+        "vi": "Từ tháng sau tôi sẽ mở lớp học tiếng Nhật."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ひらきます: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-27-007": {
+    "examples": [
+      {
+        "id": "mn-27-007-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{試験|しけん}が[[{心配|しんぱい}]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi lo lắng về kỳ thi."
+      }
+    ]
+  },
+  "mn-27-008": {
+    "examples": [
+      {
+        "id": "mn-27-008-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{私|わたし}の{家|うち}では[[ペット]]を{飼|か}うことができません。",
+        "source": "ai-draft",
+        "vi": "Nhà tôi không thể nuôi thú cưng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ペット: PN→N (JMdict: danh từ thông dụng (pet))",
+      "status": "reviewed"
+    }
+  },
+  "mn-27-009": {
+    "examples": [
+      {
+        "id": "mn-27-009-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{庭|にわ}に[[{鳥|とり}]]がいます。",
+        "source": "ai-draft",
+        "vi": "Ngoài vườn có con chim."
+      }
+    ],
+    "han_viet": "ĐIỂU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "鳥 — gốc ghi ĐIẾU",
+      "status": "reviewed"
+    }
+  },
+  "mn-27-010": {
+    "examples": [
+      {
+        "id": "mn-27-010-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{子|こ}どもの[[{声|こえ}]]が{聞|き}こえます。",
+        "source": "ai-draft",
+        "vi": "Có thể nghe thấy tiếng trẻ con."
+      }
+    ]
+  },
+  "mn-27-011": {
+    "examples": [
+      {
+        "id": "mn-27-011-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "[[{波|なみ}]]の{音|おと}が{聞|き}こえます。",
+        "source": "ai-draft",
+        "vi": "Có thể nghe thấy tiếng sóng."
+      }
+    ]
+  },
+  "mn-27-012": {
+    "examples": [
+      {
+        "id": "mn-27-012-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "ここから[[{花火|はなび}]]が{見|み}えます。",
+        "source": "ai-draft",
+        "vi": "Từ đây có thể nhìn thấy pháo hoa."
+      }
+    ]
+  },
+  "mn-27-013": {
+    "examples": [
+      {
+        "id": "mn-27-013-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "この[[{道具|どうぐ}]]は{便利|べんり}です。",
+        "source": "ai-draft",
+        "vi": "Dụng cụ này tiện lợi."
+      }
+    ]
+  },
+  "mn-27-014": {
+    "examples": [
+      {
+        "id": "mn-27-014-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{駅|えき}の{前|まえ}に[[クリーニング]]{屋|や}ができました。",
+        "source": "ai-draft",
+        "vi": "Trước nhà ga đã mở một tiệm giặt là."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "クリーニング: PN→N (JMdict: danh từ thông dụng (cleaning; dry cleaning))",
+      "status": "reviewed"
+    }
+  },
+  "mn-27-015": {
+    "examples": [
+      {
+        "id": "mn-27-015-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{新|あたら}しい[[{家|いえ}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua một ngôi nhà mới."
+      }
+    ]
+  },
+  "mn-27-016": {
+    "examples": [
+      {
+        "id": "mn-27-016-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{新|あたら}しい[[マンション]]に{住|す}みたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn sống ở một căn hộ chung cư mới."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "マンション: PN→N (JMdict: danh từ thông dụng (condominium (usu. mid or high-rise); apartment building))",
+      "status": "reviewed"
+    }
+  },
+  "mn-27-017": {
+    "examples": [
+      {
+        "id": "mn-27-017-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "この[[キッチン]]は{広|ひろ}くて{使|つか}いやすいです。",
+        "source": "ai-draft",
+        "vi": "Nhà bếp này rộng và dễ sử dụng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "キッチン: PN→N (JMdict: danh từ thông dụng (kitchen))",
+      "status": "reviewed"
+    }
+  },
+  "mn-27-018": {
+    "examples": [
+      {
+        "id": "mn-27-018-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{料理|りょうり}[[{教室|きょうしつ}]]で{習|なら}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học ở lớp nấu ăn."
+      }
+    ]
+  },
+  "mn-27-019": {
+    "examples": [
+      {
+        "id": "mn-27-019-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "この[[パーティールーム]]は{何人|なんにん}{入|はい}れますか。",
+        "source": "ai-draft",
+        "vi": "Phòng tiệc này chứa được bao nhiêu người?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "パーティールーム: danh từ thông dụng (JMdict không có) — gốc gán nhầm PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-27-020": {
+    "examples": [
+      {
+        "id": "mn-27-020-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "あの[[{方|かた}]]はどなたですか。",
+        "source": "ai-draft",
+        "vi": "Vị kia là ai ạ?"
+      }
+    ]
+  },
+  "mn-27-021": {
+    "examples": [
+      {
+        "id": "mn-27-021-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "３{年|ねん}[[{後|ご}]]に{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "3 năm sau tôi sẽ về nước."
+      }
+    ]
+  },
+  "mn-27-022": {
+    "examples": [
+      {
+        "id": "mn-27-022-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "５０００{円|えん}[[しか]]ありません。",
+        "source": "ai-draft",
+        "vi": "Tôi chỉ có 5000 yên."
+      }
+    ]
+  },
+  "mn-27-023": {
+    "examples": [
+      {
+        "id": "mn-27-023-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "[[ほかの]]{店|みせ}で{買|か}いましょう。",
+        "source": "ai-draft",
+        "vi": "Hãy mua ở cửa hàng khác."
+      }
+    ]
+  },
+  "mn-27-024": {
+    "examples": [
+      {
+        "id": "mn-27-024-e1",
+        "max_lesson": 27,
+        "review": "user",
+        "ruby": "{富士山|ふじさん}が[[はっきり]]{見|み}えます。",
+        "source": "ai-draft",
+        "vi": "Có thể thấy rõ núi Phú Sĩ."
+      }
+    ]
+  }
+}

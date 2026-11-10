@@ -1,0 +1,844 @@
+# by: user
+# Nghĩa tiếng Việt của Kanji — AI viết nháp dựa trên âm Hán-Việt + nghĩa KANJIDIC2. Cú pháp: 字|nghĩa
+# User duyệt: sửa trực tiếp hoặc tạo file 02-…txt với "# by: user" (file sau ghi đè file trước).
+中|giữa, bên trong
+人|người
+会|gặp gỡ, hội họp
+何|gì, cái gì
+先|trước, đi trước
+初|lần đầu, ban đầu
+前|phía trước, trước
+医|y, chữa bệnh
+名|tên, nổi tiếng
+員|thành viên, nhân viên
+国|nước, quốc gia
+士|người có học, kẻ sĩ
+大|to, lớn
+失|mất, lỗi
+学|học
+富|giàu có, dồi dào
+師|thầy, chuyên gia
+戸|cửa, hộ (nhà)
+教|dạy, giáo dục
+方|phương hướng, phía; người (kính ngữ)
+日|ngày, mặt trời; Nhật Bản
+本|sách; gốc, chính
+来|đến, tới
+歳|tuổi, năm
+生|sống, sinh ra
+病|bệnh, ốm
+研|mài giũa, nghiên cứu
+礼|lễ, lễ nghi
+社|công ty, đền thờ thần
+神|thần, thần linh
+私|tôi; riêng tư
+究|nghiên cứu, tìm tòi
+者|người, kẻ
+行|đi; thực hiện
+誰|ai
+貴|quý, quý giá
+銀|bạc
+院|viện, cơ quan
+韓|Hàn Quốc
+傘|cái ô, dù
+刺|đâm, gai
+土|đất
+子|con, đứa trẻ
+帳|sổ, sổ sách
+手|tay
+新|mới
+時|thời gian, giờ
+書|viết; sách
+机|bàn
+椅|ghế
+産|sản xuất, sinh đẻ
+筆|bút lông, viết
+聞|nghe, hỏi
+英|Anh (nước); anh hùng
+計|đo, tính, kế hoạch
+誌|tạp chí, ghi chép
+語|ngôn ngữ, từ
+車|xe
+辞|từ ngữ; từ chức
+鉛|chì
+鍵|chìa khóa
+雑|tạp, lẫn lộn
+鞄|cặp, túi xách
+万|vạn, mười nghìn
+下|dưới, xuống
+事|việc, sự việc
+付|gắn, kèm theo
+円|tròn; yên (tiền Nhật)
+動|chuyển động
+務|nhiệm vụ, công việc
+千|nghìn
+受|nhận, tiếp nhận
+地|đất, địa điểm
+堂|hội trường, nhà lớn
+場|nơi, địa điểm
+売|bán
+室|phòng
+家|nhà, gia đình
+屋|nhà, mái nhà; cửa hàng
+所|nơi, chỗ
+機|máy, cơ hội
+段|bậc, cấp
+百|trăm
+自|tự mình
+話|nói chuyện, câu chuyện
+議|bàn bạc, thảo luận
+販|buôn bán
+部|bộ phận, phần
+階|tầng, bậc thang
+電|điện
+靴|giày
+食|ăn, đồ ăn
+一|một
+今|bây giờ
+休|nghỉ ngơi
+便|tiện lợi; thư từ
+働|làm việc, lao động
+分|phần, chia; phút
+勉|cố gắng, chăm chỉ
+午|trưa
+半|một nửa, rưỡi
+図|bản đồ, hình vẽ
+寝|ngủ, nằm
+局|cục, văn phòng
+強|mạnh
+後|sau, phía sau
+明|sáng, rõ ràng
+映|chiếu, phản chiếu
+昨|hôm qua, trước
+昼|ban ngày, buổi trưa
+晩|buổi tối
+曜|ngày trong tuần
+月|tháng, mặt trăng
+朝|buổi sáng; triều đại
+木|cây, gỗ
+毎|mỗi
+水|nước
+火|lửa
+画|tranh, nét vẽ
+終|kết thúc
+美|đẹp
+術|kỹ thuật, nghệ thuật
+試|thử, thi
+起|thức dậy, khởi lên
+郵|bưu điện, thư tín
+金|vàng; tiền
+館|tòa nhà lớn, quán
+験|kiểm nghiệm, thử
+去|đi qua, đã qua
+友|bạn
+女|nữ, phụ nữ
+帰|trở về
+年|năm
+幹|thân cây, phần chính
+彼|anh ấy, người kia
+族|dòng tộc, gia tộc
+校|trường học
+歩|đi bộ, bước
+線|đường, tuyến
+船|thuyền, tàu thủy
+誕|sinh ra, ra đời
+転|lăn, xoay, chuyển
+週|tuần
+達|đạt đến; (hậu tố số nhiều)
+鉄|sắt
+飛|bay
+駅|nhà ga
+乳|sữa
+写|chép, chụp (ảnh)
+卵|trứng
+吸|hút, hít
+宿|trọ, chỗ ở
+店|cửa hàng, tiệm
+庭|vườn, sân
+撮|chụp (ảnh)
+果|quả, trái cây; kết quả
+煙|khói
+牛|bò
+物|vật, đồ vật
+真|thật, chân thật
+紅|đỏ thẫm
+紙|giấy
+緒|đầu mối; cùng nhau
+肉|thịt
+花|hoa
+茶|trà
+草|cỏ
+菜|rau
+見|nhìn, xem
+読|đọc
+買|mua
+酒|rượu
+野|đồng ruộng, hoang dã
+題|đề, chủ đề
+飯|cơm, bữa ăn
+飲|uống
+魚|cá
+上|trên, lên
+借|mượn, vay
+切|cắt
+母|mẹ
+父|bố, cha
+状|trạng thái; thư
+符|phù hiệu, vé
+箸|đũa
+習|học, luyện tập
+荷|hành lý, gánh
+貰|nhận (được cho)
+貸|cho mượn, cho vay
+賀|chúc mừng
+送|gửi, tiễn
+鋏|cái kéo
+仕|làm, phục vụ
+低|thấp
+余|dư, thừa
+元|gốc, nguyên, ban đầu
+冷|lạnh, mát
+利|lợi, lợi ích
+古|cũ, cổ
+味|vị
+安|yên ổn; rẻ
+寒|lạnh
+寮|ký túc xá
+小|nhỏ
+山|núi
+忙|bận rộn
+悪|xấu, ác
+敵|kẻ thù, địch
+易|dễ
+暇|thời gian rảnh
+暑|nóng (thời tiết)
+有|có
+桜|hoa anh đào
+楽|vui; âm nhạc; thoải mái
+気|khí, tinh thần
+活|sống, hoạt động
+熱|nóng, nhiệt; sốt
+町|thị trấn, phố
+白|trắng
+素|nguyên chất, giản dị
+綺|lụa hoa, đẹp
+親|cha mẹ; thân thiết
+賑|nhộn nhịp
+赤|đỏ
+難|khó
+青|xanh
+静|yên tĩnh
+面|mặt, bề mặt
+高|cao; đắt
+麗|đẹp, lộng lẫy
+黒|đen
+主|chủ, chính
+仮|tạm thời, giả định
+伎|kỹ năng, nghề diễn
+体|cơ thể
+全|toàn bộ
+内|bên trong
+夫|chồng
+奥|bên trong sâu; vợ (người khác)
+好|thích
+妻|vợ
+嫌|ghét
+字|chữ
+少|ít
+平|bằng phẳng, bình thường
+料|phí; nguyên liệu
+旅|du lịch, chuyến đi
+早|sớm, nhanh
+束|bó; hẹn ước
+歌|bài hát, hát
+沢|đầm lầy; nhiều
+漢|Hán (Trung Hoa)
+然|như thế
+片|mảnh, một phía
+球|quả cầu, bóng
+理|lý, lẽ phải
+用|dùng; việc
+約|hẹn, ước; khoảng
+細|nhỏ, mảnh
+絵|tranh
+舞|múa
+良|tốt
+速|nhanh
+間|khoảng, giữa
+音|âm thanh
+乗|lên (xe), cưỡi
+公|công cộng
+右|phải (bên phải)
+喫|ăn, uống, hút
+園|vườn, công viên
+外|bên ngoài
+居|ở, cư trú
+左|trái (bên trái)
+庫|kho
+棚|kệ, giá
+池|ao
+犬|chó
+猫|mèo
+男|nam, đàn ông
+県|tỉnh
+窓|cửa sổ
+箱|hộp, thùng
+色|màu sắc
+蔵|kho, tàng trữ
+象|con voi; hình tượng
+近|gần
+隣|bên cạnh, láng giềng
+両|cả hai
+兄|anh trai
+台|bệ, đài; (đếm máy móc, xe)
+回|lần, vòng
+妹|em gái
+姉|chị gái
+封|niêm phong, phong bì
+弟|em trai
+掛|treo, móc
+林|rừng thưa
+枚|tờ, tấm (đếm vật mỏng)
+柑|cam, quýt
+檎|quả táo (林檎)
+留|giữ lại, lưu lại
+皆|mọi người, tất cả
+筒|ống
+葉|lá
+蜜|mật
+世|đời, thế giới
+冬|mùa đông
+単|đơn, đơn giản
+司|quản lý, cai quản
+夏|mùa hè
+多|nhiều
+天|trời
+季|mùa
+寿|thọ, sống lâu
+春|mùa xuân
+暖|ấm áp
+曇|mây, trời âm u
+海|biển
+涼|mát mẻ
+温|ấm
+港|cảng
+焼|nướng, đốt
+甘|ngọt
+界|giới, thế giới
+番|lượt, số thứ tự
+祭|lễ hội
+秋|mùa thu
+空|bầu trời; trống rỗng
+節|đốt, mùa, tiết
+簡|đơn giản
+豚|lợn
+身|thân thể, bản thân
+軽|nhẹ
+辛|cay
+遅|chậm, muộn
+遠|xa
+重|nặng, quan trọng
+雨|mưa
+雪|tuyết
+変|thay đổi; lạ
+婚|hôn nhân, kết hôn
+川|sông
+広|rộng
+散|tản ra, rải rác
+末|cuối
+欲|muốn, ham muốn
+正|đúng, chính
+泳|bơi
+狭|hẹp, chật
+疲|mệt mỏi
+結|buộc, kết
+迎|đón
+遊|chơi
+釣|câu (cá)
+頃|khoảng (thời gian)
+伝|truyền, truyền đạt
+住|sống, cư trú
+使|dùng, sử dụng
+入|vào
+出|ra
+又|lại, nữa
+取|lấy
+呼|gọi
+問|hỏi, câu hỏi
+塩|muối
+座|ngồi, chỗ ngồi
+待|chờ, đợi
+急|gấp, vội
+持|cầm, mang
+止|dừng
+消|tắt, xóa, biến mất
+点|điểm, chấm
+直|thẳng; sửa
+砂|cát
+立|đứng
+答|trả lời
+糖|đường (ăn)
+閉|đóng
+開|mở
+降|xuống, rơi
+作|làm, tạo ra
+刻|khắc
+品|hàng hóa, phẩm chất
+市|thành phố; chợ
+役|vai trò, nhiệm vụ
+服|quần áo
+歯|răng
+済|xong, hoàn tất
+独|một mình
+知|biết
+経|trải qua; kinh tế
+置|đặt, để
+表|bề mặt, bảng biểu
+製|chế tạo, sản xuất
+資|tư bản, tài nguyên
+造|tạo ra, chế tạo
+口|miệng
+始|bắt đầu
+寺|chùa
+押|ấn, đẩy
+換|đổi, thay
+暗|tối
+浴|tắm
+目|mắt
+短|ngắn
+緑|xanh lá
+耳|tai
+背|lưng; chiều cao
+腹|bụng
+若|trẻ
+足|chân; đủ
+長|dài; người đứng đầu
+頭|đầu
+顔|mặt, khuôn mặt
+髪|tóc
+鼻|mũi
+丈|chiều dài; vững chắc (丈夫)
+保|bảo vệ, giữ
+危|nguy hiểm
+呂|xương sống; (風呂 bồn tắm)
+張|căng, giăng
+心|tim, lòng
+忘|quên
+払|trả (tiền)
+業|nghề, nghiệp
+残|còn lại
+着|mặc; đến nơi
+禁|cấm
+脱|cởi, thoát
+薬|thuốc
+覚|nhớ; tỉnh giấc
+証|chứng cứ, chứng nhận
+返|trả lại
+配|phân phát; lo lắng (心配)
+険|hiểm trở
+風|gió; phong cách
+予|trước, dự
+弾|chơi (đàn); viên đạn
+捨|vứt bỏ
+洗|rửa, giặt
+現|hiện tại, hiện ra
+祈|cầu nguyện
+記|ghi chép
+課|bài học; khoa, phòng
+趣|thú vị, sở thích
+運|vận chuyển; vận may
+集|tập hợp, thu thập
+馬|ngựa
+度|độ; lần
+弱|yếu
+成|thành, trở thành
+掃|quét
+撲|đánh, vật (相撲)
+様|dạng, cách; ngài (kính ngữ)
+泊|trọ lại qua đêm
+濯|giặt
+登|leo, trèo
+相|lẫn nhau; tướng
+眠|ngủ
+調|điều tra; điều chỉnh
+除|trừ, loại bỏ
+陰|bóng râm, âm
+修|sửa chữa, tu luyện
+僕|tôi (nam)
+君|cậu, bạn; quân vương
+要|cần, quan trọng
+言|nói
+不|không, bất
+交|giao, qua lại
+価|giá, giá trị
+凄|ghê gớm, tuyệt
+勝|thắng
+合|hợp, khớp
+嘘|lời nói dối
+夢|giấc mơ
+当|đúng, trúng
+思|nghĩ
+意|ý, ý nghĩ
+才|tài năng; tuổi
+放|thả, phóng
+最|nhất
+無|không có
+負|thua; gánh
+通|đi qua, thông
+駄|vô dụng (駄目)
+履|mang, đi (giày)
+帽|mũ
+弁|cơm hộp (弁当); biện luận
+眼|mắt
+被|đội, mang; bị
+都|thủ đô, đô thị
+鏡|gương
+信|tin
+号|số hiệu
+寂|cô đơn, vắng lặng
+差|sai khác, chênh lệch
+建|xây dựng
+引|kéo
+故|cố, nguyên cớ; hỏng (故障)
+曲|cong; bài hát
+橋|cầu
+渡|đi qua, băng qua; đưa
+湯|nước nóng
+角|góc; sừng
+触|chạm, sờ
+道|đường, đạo
+障|chướng ngại
+駐|đỗ, đóng lại
+介|giới thiệu, trung gian
+備|chuẩn bị, trang bị
+案|phương án; hướng dẫn
+準|chuẩn
+紹|giới thiệu
+菓|bánh kẹo
+説|giải thích, thuyết
+越|vượt qua
+連|liên kết, dẫn theo
+億|trăm triệu
+田|ruộng
+考|suy nghĩ
+舎|nhà, quán (田舎 quê)
+布|vải
+拾|nhặt
+捜|tìm kiếm
+探|tìm, thám
+接|tiếp xúc
+盆|khay; lễ Obon
+絡|quấn, liên lạc
+診|khám bệnh
+財|tài sản
+踊|nhảy, múa
+随|theo
+具|dụng cụ
+声|giọng, tiếng
+波|sóng
+走|chạy
+飼|nuôi
+鳥|chim
+値|giá trị, giá
+偉|vĩ đại
+力|sức lực
+噛|cắn, nhai
+娘|con gái
+容|dung mạo; chứa
+将|tướng; sắp
+形|hình dạng
+息|hơi thở; con trai (息子)
+抵|chống; đại khái (大抵)
+景|cảnh
+暫|tạm thời, một lúc
+組|nhóm, tổ
+給|cấp, lương
+選|chọn
+割|chia, cắt; tỉ lệ
+壊|làm hỏng, phá
+折|gập, bẻ
+拭|lau
+替|thay, đổi
+枝|cành
+氏|họ; ông (kính xưng)
+汚|bẩn, làm bẩn
+源|nguồn, gốc
+皿|đĩa
+破|làm rách, phá
+碗|bát, chén
+落|rơi, rớt
+袋|túi
+違|khác, sai
+類|loại
+並|xếp hàng, ngang hàng
+周|xung quanh, chu vi
+壁|tường
+定|định, quyết định
+廊|hành lang
+復|phục hồi, trở lại
+戻|quay lại, trả về
+授|truyền dạy, trao
+植|trồng
+決|quyết định
+玄|huyền bí; (玄関 lối vào nhà)
+瓶|bình, chai
+纏|quấn, gom lại (纏める)
+義|nghĩa, đạo nghĩa
+講|giảng
+関|liên quan; cửa ải
+隅|góc
+飾|trang trí
+展|triển lãm, mở rộng
+式|nghi thức, kiểu
+憩|nghỉ ngơi
+支|chống đỡ, chi
+文|văn, câu văn
+泉|suối
+申|nói (khiêm nhường)
+発|phát ra, xuất phát
+続|tiếp tục
+葬|chôn cất, tang lễ
+覧|xem
+込|đông đúc; cho vào
+傷|vết thương
+功|công lao, thành công
+北|phía bắc
+十|mười
+南|phía nam
+咳|ho
+夕|chiều tối
+夜|đêm
+太|béo, to
+怪|kỳ lạ; bị thương (怪我)
+我|ta, bản thân
+敗|thua, thất bại
+星|ngôi sao
+晴|trời quang, nắng
+東|phía đông
+格|cách, tư cách
+煩|phiền phức
+西|phía tây
+陽|mặt trời, dương
+際|lúc, dịp; ranh giới
+則|quy tắc
+募|chiêu mộ, tuyển
+同|giống, cùng
+守|bảo vệ, giữ
+察|xem xét
+席|chỗ ngồi
+常|thường
+徐|từ từ
+投|ném
+注|rót; chú ý
+締|thắt, siết
+規|quy tắc
+諦|bỏ cuộc, từ bỏ
+警|cảnh giác, cảnh sát
+逃|chạy trốn
+非|không phải, phi
+騒|ồn ào
+印|dấu, ấn
+城|thành, lâu đài
+客|khách
+油|dầu
+矢|mũi tên
+磨|mài, đánh (răng)
+紺|xanh đậm
+質|chất, chất lượng
+醤|tương
+黄|vàng (màu)
+丸|tròn
+可|có thể, khả
+史|lịch sử
+向|hướng về
+咲|nở (hoa)
+器|đồ dùng, khí cụ
+困|khó khăn, khốn đốn
+島|đảo
+振|vẫy, lắc
+昔|ngày xưa
+歴|lịch sử, trải qua
+治|chữa trị; cai trị
+炊|nấu (cơm)
+紐|dây
+設|thiết lập
+許|cho phép
+剣|kiếm
+宇|mái nhà; vũ trụ
+宙|không trung
+対|đối, đối với
+必|tất yếu, nhất định
+慣|quen
+柔|mềm mại
+殆|hầu hết (殆ど)
+絶|tuyệt, cắt đứt
+腐|thối, hỏng
+貯|tích trữ
+過|quá, vượt qua
+遭|gặp (sự cố)
+仏|Phật; nước Pháp
+代|thay thế; thời đại; tiền phí
+原|cánh đồng; nguyên
+叱|mắng
+官|quan, quan chức
+招|mời
+棒|cái gậy
+江|sông lớn, vịnh
+泥|bùn
+盗|trộm
+石|đá
+米|gạo; nước Mỹ
+紀|kỷ, ghi chép
+翻|lật; dịch (翻訳)
+褒|khen
+訳|dịch; lý do
+誘|mời, rủ
+踏|giẫm, đạp
+輸|vận chuyển
+頼|nhờ, tin cậy
+麦|lúa mạch
+健|khỏe mạnh
+加|thêm, gia
+参|tham gia; đến (khiêm nhường)
+吐|nôn, nhổ
+岸|bờ
+工|công, thợ
+康|khỏe, yên ổn
+指|ngón tay; chỉ
+村|làng
+育|nuôi dạy
+輪|bánh xe, vòng
+退|rút lui
+倒|đổ, ngã
+勢|thế, sức mạnh
+喧|ồn ào; (喧嘩 cãi nhau)
+嘩|ồn ào
+嬉|vui mừng
+恥|xấu hổ
+悲|buồn
+操|điều khiển; thể dục (体操)
+死|chết
+津|bến cảng; (津波 sóng thần)
+痩|gầy
+硬|cứng
+複|phức, kép
+軟|mềm
+邪|tà; (邪魔 làm phiền)
+離|rời xa
+雷|sấm sét
+震|rung, động đất
+首|cổ
+魔|ma quỷ
+鹸|xà phòng (石鹸)
+二|hai
+以|lấy, dĩ (以上, 以下)
+個|cái (đếm đồ vật)
+到|đến nơi
+報|báo, tin tức
+寄|ghé qua; gửi
+数|số
+杯|chén, cốc (đếm cốc)
+次|tiếp theo
+測|đo
+確|chắc chắn, xác
+裏|mặt sau, phía sau
+談|nói chuyện
+酔|say
+量|lượng
+孫|cháu
+幼|ấu thơ, nhỏ
+情|tình cảm
+愛|yêu
+房|buồng, phòng; chùm
+法|pháp luật, phương pháp
+猿|khỉ
+玉|ngọc, viên tròn
+玩|chơi (玩具 đồ chơi)
+珍|hiếm, quý lạ
+祖|tổ tiên
+祝|chúc mừng
+稚|non nớt (幼稚園 mẫu giáo)
+管|ống; quản lý
+興|hứng thú, hưng thịnh
+餌|mồi, thức ăn (động vật)
+争|tranh giành
+包|bao, gói
+化|hóa, biến đổi
+命|sinh mệnh, mệnh lệnh
+和|hòa; Nhật Bản
+律|luật
+懸|treo; (一生懸命 hết sức)
+戦|chiến tranh
+抜|rút ra, nhổ
+政|chính trị
+敷|trải
+材|vật liệu
+栓|nút, nắp
+沸|sôi
+混|trộn, đông đúc
+的|đích, mục tiêu; (hậu tố -tính)
+盤|cái khay, bàn
+算|tính toán
+缶|lon, hộp thiếc
+蓋|nắp
+詰|nhồi, nhét
+論|luận
+護|bảo vệ, hộ
+優|ưu tú; dịu dàng
+増|tăng
+幸|hạnh phúc
+減|giảm
+乾|khô
+倍|gấp (lần)
+厚|dày
+泣|khóc
+洋|đại dương; phương Tây
+涙|nước mắt
+滑|trơn trượt
+濃|đậm, đặc
+濡|ướt
+笑|cười
+薄|mỏng, nhạt
+収|thu
+梅|mơ, mận (ume)
+領|lãnh thổ; nhận (領収書)
+丁|đinh; (丁寧 lịch sự)
+卒|tốt nghiệp
+因|nguyên nhân
+宅|nhà ở
+届|gửi đến, tới nơi
+亡|mất (qua đời)
+別|khác, riêng
+匂|mùi, ngửi
+厳|nghiêm khắc
+反|ngược lại, phản
+吹|thổi
+実|thật, thực
+怖|sợ
+救|cứu
+燃|cháy
+科|khoa, môn
+統|thống nhất
+賛|tán thành
+酷|tàn khốc, tệ
+塾|lớp học thêm
+徒|đồ đệ; đi bộ
+由|lý do
+録|ghi lại
+停|dừng
+偶|ngẫu nhiên
+勤|làm việc
+召|gọi; mặc, ăn (kính ngữ)
+存|tồn tại; biết (khiêm nhường)
+拶|(挨拶 chào hỏi)
+挨|(挨拶 chào hỏi)
+伺|hỏi, thăm (khiêm nhường)
+再|lại, tái
+拝|bái, kính
+三|ba
+四|bốn
+五|năm
+六|sáu
+七|bảy
+八|tám
+九|chín

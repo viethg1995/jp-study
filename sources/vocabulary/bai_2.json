@@ -1,0 +1,335 @@
+[
+  {
+    "id": "lesson2_1",
+    "jp": "これ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái này, đây (vật ở gần người nói)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson2_2",
+    "jp": "それ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái đó, đó (vật ở gần người nghe)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson2_3",
+    "jp": "あれ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái kia, kia (vật ở xa cả người nói và người nghe)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson2_4",
+    "jp": "この～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ này",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson2_5",
+    "jp": "その～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ đó",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson2_6",
+    "jp": "あの～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ kia",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson2_7",
+    "jp": "ほん",
+    "kanji": "本",
+    "kanji_vn": "BẢN/BỔN",
+    "vn": "sách",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_8",
+    "jp": "じしょ",
+    "kanji": "辞書",
+    "kanji_vn": "TỪ THƯ",
+    "vn": "từ điển",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_9",
+    "jp": "ざっし",
+    "kanji": "雑誌",
+    "kanji_vn": "TẠP CHÍ",
+    "vn": "tạp chí",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_10",
+    "jp": "しんぶん",
+    "kanji": "新聞",
+    "kanji_vn": "TÂN VĂN",
+    "vn": "báo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_11",
+    "jp": "ノート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vở",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_12",
+    "jp": "てちょう",
+    "kanji": "手帳",
+    "kanji_vn": "THỦ TRƯƠNG",
+    "vn": "sổ tay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_13",
+    "jp": "めいし",
+    "kanji": "名刺",
+    "kanji_vn": "DANH THÍCH",
+    "vn": "danh thiếp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_14",
+    "jp": "カード",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thẻ, cạc",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_15",
+    "jp": "えんぴつ",
+    "kanji": "鉛筆",
+    "kanji_vn": "DUYÊN BÚT",
+    "vn": "bút chì",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_16",
+    "jp": "ボールペン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bút bi",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_17",
+    "jp": "シャープペンシル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bút chì kim, bút chì bấm",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_18",
+    "jp": "かぎ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chìa khóa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_19",
+    "jp": "とけい",
+    "kanji": "時計",
+    "kanji_vn": "THỜI KẾ",
+    "vn": "đồng hồ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_20",
+    "jp": "かさ",
+    "kanji": "傘",
+    "kanji_vn": "TẢN",
+    "vn": "ô, dù",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_21",
+    "jp": "かばん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cặp sách, túi sách",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_22",
+    "jp": "CD",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đĩa CD",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_23",
+    "jp": "テレビ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tivi",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_24",
+    "jp": "ラジオ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Radio",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_25",
+    "jp": "カメラ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "máy ảnh",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_26",
+    "jp": "コンピューター",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "máy vi tính",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_27",
+    "jp": "くるま",
+    "kanji": "車",
+    "kanji_vn": "XA",
+    "vn": "ô tô, xe hơi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_28",
+    "jp": "つくえ",
+    "kanji": "机",
+    "kanji_vn": "KỶ",
+    "vn": "cái bàn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_29",
+    "jp": "いす",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái ghế",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_30",
+    "jp": "チョコレート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Socola",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_31",
+    "jp": "コーヒー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cà phê",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson2_32",
+    "jp": "みやげ",
+    "kanji": "土産",
+    "kanji_vn": "THỔ SẢN",
+    "vn": "quà( mua khi đi xa về hoặc mang đi thăm nhà người nào đó)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_33",
+    "jp": "えいご",
+    "kanji": "英語",
+    "kanji_vn": "ANH NGỮ",
+    "vn": "tiếng Anh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_34",
+    "jp": "にほんご",
+    "kanji": "日本語",
+    "kanji_vn": "NHẬT BẢN NGỮ",
+    "vn": "tiếng Nhật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson2_35",
+    "jp": "～ご",
+    "kanji": "～語",
+    "kanji_vn": "NGỮ",
+    "vn": "tiếng ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson2_36",
+    "jp": "なに",
+    "kanji": "何",
+    "kanji_vn": "HÀ",
+    "vn": "cái gì",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson2_37",
+    "jp": "そう",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đúng rồi",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

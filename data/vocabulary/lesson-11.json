@@ -1,0 +1,2417 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-001-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{公園|こうえん}に{子|こ}どもが{沢山|たくさん}[[{居|い}ます]]。",
+          "source": "ai-draft",
+          "vi": "Ở công viên có nhiều trẻ con."
+        }
+      ],
+      "han_viet": "CƯ",
+      "id": "mn-11-001",
+      "kana": "います",
+      "kanji": "居ます",
+      "kanji_refs": [
+        "k-居"
+      ],
+      "legacy_id": "lesson11_1",
+      "lesson": 11,
+      "meaning_vi": "có [con]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-10-002",
+        "mn-11-002"
+      ],
+      "senses": [
+        {
+          "context": "con",
+          "text": "có"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-002-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{兄|あに}は{日本|にほん}に[[{居|い}ます]]。",
+          "source": "ai-draft",
+          "vi": "Anh trai tôi ở Nhật."
+        }
+      ],
+      "han_viet": "CƯ",
+      "id": "mn-11-002",
+      "kana": "います",
+      "kanji": "居ます",
+      "kanji_refs": [
+        "k-居"
+      ],
+      "legacy_id": "lesson11_2",
+      "lesson": 11,
+      "meaning_vi": "ở [Nhật]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-10-002",
+        "mn-11-001"
+      ],
+      "senses": [
+        {
+          "context": "Nhật",
+          "text": "ở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-003-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{家|うち}から{会社|かいしゃ}まで１{時間|じかん}[[{掛|か}かります]]。",
+          "source": "ai-draft",
+          "vi": "Từ nhà đến công ty mất 1 tiếng."
+        }
+      ],
+      "han_viet": "QUẢI",
+      "id": "mn-11-003",
+      "kana": "かかります",
+      "kanji": "掛かります",
+      "kanji_refs": [
+        "k-掛"
+      ],
+      "legacy_id": "lesson11_3",
+      "lesson": 11,
+      "meaning_vi": "mất, tốn (thời gian, tiền bạc)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-29-015"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "mất, tốn (thời gian, tiền bạc)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-004-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{昨日|きのう}{会社|かいしゃ}を[[{休|やす}みました]]。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã nghỉ làm."
+        }
+      ],
+      "han_viet": "HƯU",
+      "id": "mn-11-004",
+      "kana": "やすみます",
+      "kanji": "休みます",
+      "kanji_refs": [
+        "k-休"
+      ],
+      "legacy_id": "lesson11_4",
+      "lesson": 11,
+      "meaning_vi": "nghỉ [làm việc]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-04-004"
+      ],
+      "senses": [
+        {
+          "context": "làm việc",
+          "text": "nghỉ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-005-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{林檎|りんご}を[[{一|ひと}つ]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi một quả táo."
+        }
+      ],
+      "han_viet": "NHẤT",
+      "id": "mn-11-005",
+      "kana": "ひとつ",
+      "kanji": "一つ",
+      "kanji_refs": [
+        "k-一"
+      ],
+      "legacy_id": "lesson11_5",
+      "lesson": 11,
+      "meaning_vi": "một cái (dùng để đếm đồ vật)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "một cái (dùng để đếm đồ vật)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-006-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{蜜柑|みかん}を[[{二|ふた}つ]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua hai quả quýt."
+        }
+      ],
+      "han_viet": "NHỊ",
+      "id": "mn-11-006",
+      "kana": "ふたつ",
+      "kanji": "二つ",
+      "kanji_refs": [
+        "k-二"
+      ],
+      "legacy_id": "lesson11_6",
+      "lesson": 11,
+      "meaning_vi": "hai cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hai cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-007-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{卵|たまご}を[[{三|みっ}つ]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi ba quả trứng."
+        }
+      ],
+      "han_viet": "TAM",
+      "id": "mn-11-007",
+      "kana": "みっつ",
+      "kanji": "三つ",
+      "kanji_refs": [
+        "k-三"
+      ],
+      "legacy_id": "lesson11_7",
+      "lesson": 11,
+      "meaning_vi": "ba cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ba cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-008-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{箱|はこ}が[[{四|よっ}つ]]あります。",
+          "source": "ai-draft",
+          "vi": "Có bốn cái hộp."
+        }
+      ],
+      "han_viet": "TỨ",
+      "id": "mn-11-008",
+      "kana": "よっつ",
+      "kanji": "四つ",
+      "kanji_refs": [
+        "k-四"
+      ],
+      "legacy_id": "lesson11_8",
+      "lesson": 11,
+      "meaning_vi": "bốn cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bốn cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-009-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{林檎|りんご}を[[{五|いつ}つ]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua năm quả táo."
+        }
+      ],
+      "han_viet": "NGŨ",
+      "id": "mn-11-009",
+      "kana": "いつつ",
+      "kanji": "五つ",
+      "kanji_refs": [
+        "k-五"
+      ],
+      "legacy_id": "lesson11_9",
+      "lesson": 11,
+      "meaning_vi": "năm cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "năm cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-010-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{椅子|いす}が[[{六|むっ}つ]]あります。",
+          "source": "ai-draft",
+          "vi": "Có sáu cái ghế."
+        }
+      ],
+      "han_viet": "LỤC",
+      "id": "mn-11-010",
+      "kana": "むっつ",
+      "kanji": "六つ",
+      "kanji_refs": [
+        "k-六"
+      ],
+      "legacy_id": "lesson11_10",
+      "lesson": 11,
+      "meaning_vi": "sáu cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sáu cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-011-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{机|つくえ}が[[{七|なな}つ]]あります。",
+          "source": "ai-draft",
+          "vi": "Có bảy cái bàn."
+        }
+      ],
+      "han_viet": "THẤT",
+      "id": "mn-11-011",
+      "kana": "ななつ",
+      "kanji": "七つ",
+      "kanji_refs": [
+        "k-七"
+      ],
+      "legacy_id": "lesson11_11",
+      "lesson": 11,
+      "meaning_vi": "bảy cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bảy cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-012-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{蜜柑|みかん}が[[{八|やっ}つ]]あります。",
+          "source": "ai-draft",
+          "vi": "Có tám quả quýt."
+        }
+      ],
+      "han_viet": "BÁT",
+      "id": "mn-11-012",
+      "kana": "やっつ",
+      "kanji": "八つ",
+      "kanji_refs": [
+        "k-八"
+      ],
+      "legacy_id": "lesson11_12",
+      "lesson": 11,
+      "meaning_vi": "tám cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tám cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-013-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{卵|たまご}が[[{九|ここの}つ]]あります。",
+          "source": "ai-draft",
+          "vi": "Có chín quả trứng."
+        }
+      ],
+      "han_viet": "CỬU",
+      "id": "mn-11-013",
+      "kana": "ここのつ",
+      "kanji": "九つ",
+      "kanji_refs": [
+        "k-九"
+      ],
+      "legacy_id": "lesson11_13",
+      "lesson": 11,
+      "meaning_vi": "chín cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chín cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-014-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{林檎|りんご}を[[{十|とお}]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi mười quả táo."
+        }
+      ],
+      "han_viet": "THẬP",
+      "id": "mn-11-014",
+      "kana": "とお",
+      "kanji": "十",
+      "kanji_refs": [
+        "k-十"
+      ],
+      "legacy_id": "lesson11_14",
+      "lesson": 11,
+      "meaning_vi": "mười cái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mười cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-015-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{林檎|りんご}を[[いくつ]]{買|か}いましたか。",
+          "source": "ai-draft",
+          "vi": "Bạn đã mua mấy quả táo?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-015",
+      "kana": "いくつ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_15",
+      "lesson": 11,
+      "meaning_vi": "mấy cái, bao nhiêu cái",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mấy cái, bao nhiêu cái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-016-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{兄弟|きょうだい}が[[{一人|ひとり}]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi có một anh/chị/em."
+        }
+      ],
+      "han_viet": "NHÂN",
+      "id": "mn-11-016",
+      "kana": "ひとり",
+      "kanji": "１人",
+      "kanji_refs": [
+        "k-人"
+      ],
+      "legacy_id": "lesson11_16",
+      "lesson": 11,
+      "meaning_vi": "một người",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "một người"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-017-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{子|こ}どもが[[{二人|ふたり}]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi có hai đứa con."
+        }
+      ],
+      "han_viet": "NHÂN",
+      "id": "mn-11-017",
+      "kana": "ふたり",
+      "kanji": "２人",
+      "kanji_refs": [
+        "k-人"
+      ],
+      "legacy_id": "lesson11_17",
+      "lesson": 11,
+      "meaning_vi": "hai người",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hai người"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-018-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{教室|きょうしつ}に{留学生|りゅうがくせい}が５[[{人|にん}]]います。",
+          "source": "ai-draft",
+          "vi": "Trong lớp có 5 du học sinh."
+        }
+      ],
+      "han_viet": "NHÂN",
+      "id": "mn-11-018",
+      "kana": "～にん",
+      "kanji": "～人",
+      "kanji_refs": [
+        "k-人"
+      ],
+      "legacy_id": "lesson11_18",
+      "lesson": 11,
+      "meaning_vi": "～ người",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-01-007"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ người"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-019-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{家|うち}に{車|くるま}が２[[{台|だい}]]あります。",
+          "source": "ai-draft",
+          "vi": "Nhà tôi có hai chiếc ô tô."
+        }
+      ],
+      "han_viet": "ĐÀI",
+      "id": "mn-11-019",
+      "kana": "～だい",
+      "kanji": "～台",
+      "kanji_refs": [
+        "k-台"
+      ],
+      "legacy_id": "lesson11_19",
+      "lesson": 11,
+      "meaning_vi": "～ cái (dùng để đếm máy móc, xe cộ v.v.)",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ cái (dùng để đếm máy móc, xe cộ v.v.)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-020-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{紙|かみ}を１０[[{枚|まい}]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi 10 tờ giấy."
+        }
+      ],
+      "han_viet": "MAI",
+      "id": "mn-11-020",
+      "kana": "～まい",
+      "kanji": "～枚",
+      "kanji_refs": [
+        "k-枚"
+      ],
+      "legacy_id": "lesson11_20",
+      "lesson": 11,
+      "meaning_vi": "tờ, tấm (dùng để đếm những vật mỏng như giấy, con tem v.v.)",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tờ, tấm (dùng để đếm những vật mỏng như giấy, con tem v.v.)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-021-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "１{週間|しゅうかん}に２[[{回|かい}]]テニスをします。",
+          "source": "ai-draft",
+          "vi": "Một tuần tôi chơi quần vợt 2 lần."
+        }
+      ],
+      "han_viet": "HỒI",
+      "id": "mn-11-021",
+      "kana": "～かい",
+      "kanji": "～回",
+      "kanji_refs": [
+        "k-回"
+      ],
+      "legacy_id": "lesson11_21",
+      "lesson": 11,
+      "meaning_vi": "～ lần",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ lần"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-022-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{林檎|りんご}]]が{好|す}きです。",
+          "source": "ai-draft",
+          "vi": "Tôi thích táo."
+        }
+      ],
+      "han_viet": "LÂM CẦM",
+      "id": "mn-11-022",
+      "kana": "りんご",
+      "kanji": "林檎",
+      "kanji_refs": [
+        "k-林",
+        "k-檎"
+      ],
+      "legacy_id": "lesson11_22",
+      "lesson": 11,
+      "meaning_vi": "táo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "táo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-023-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{蜜柑|みかん}]]を{沢山|たくさん}{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua nhiều quýt."
+        }
+      ],
+      "han_viet": "MẬT CAM",
+      "id": "mn-11-023",
+      "kana": "みかん",
+      "kanji": "蜜柑",
+      "kanji_refs": [
+        "k-蜜",
+        "k-柑"
+      ],
+      "legacy_id": "lesson11_23",
+      "lesson": 11,
+      "meaning_vi": "quýt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quýt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-024-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[サンドイッチ]]を{二|ふた}つください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi hai cái bánh sandwich."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-024",
+      "kana": "サンドイッチ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_24",
+      "lesson": 11,
+      "meaning_vi": "bánh San Uých",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bánh San Uých"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-025-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[カレー]]を{一|ひと}つください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi một suất cà ri."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-025",
+      "kana": "カレー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_25",
+      "lesson": 11,
+      "meaning_vi": "món [cơm] ca-ri",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "món [cơm] ca-ri"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-026-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[アイスクリーム]]を{三|みっ}つください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi ba cây kem."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-026",
+      "kana": "アイスクリーム",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_26",
+      "lesson": 11,
+      "meaning_vi": "kem",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kem"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-027-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "８０{円|えん}の[[{切手|きって}]]を２{枚|まい}ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi 2 con tem loại 80 yên."
+        }
+      ],
+      "han_viet": "THIẾT THỦ",
+      "id": "mn-11-027",
+      "kana": "きって",
+      "kanji": "切手",
+      "kanji_refs": [
+        "k-切",
+        "k-手"
+      ],
+      "legacy_id": "lesson11_27",
+      "lesson": 11,
+      "meaning_vi": "tem",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tem"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-028-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{葉書|はがき}]]を３{枚|まい}{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua 3 tấm bưu thiếp."
+        }
+      ],
+      "han_viet": "DIỆP THƯ",
+      "id": "mn-11-028",
+      "kana": "はがき",
+      "kanji": "葉書",
+      "kanji_refs": [
+        "k-葉",
+        "k-書"
+      ],
+      "legacy_id": "lesson11_28",
+      "lesson": 11,
+      "meaning_vi": "bưu thiếp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bưu thiếp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-029-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{封筒|ふうとう}]]を５{枚|まい}ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi 5 cái phong bì."
+        }
+      ],
+      "han_viet": "PHONG ĐỒNG",
+      "id": "mn-11-029",
+      "kana": "ふうとう",
+      "kanji": "封筒",
+      "kanji_refs": [
+        "k-封",
+        "k-筒"
+      ],
+      "legacy_id": "lesson11_29",
+      "lesson": 11,
+      "meaning_vi": "phong bì",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phong bì"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-030-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{両親|りょうしん}]]はベトナムにいます。",
+          "source": "ai-draft",
+          "vi": "Bố mẹ tôi ở Việt Nam."
+        }
+      ],
+      "han_viet": "LƯỠNG THÂN",
+      "id": "mn-11-030",
+      "kana": "りょうしん",
+      "kanji": "両親",
+      "kanji_refs": [
+        "k-両",
+        "k-親"
+      ],
+      "legacy_id": "lesson11_30",
+      "lesson": 11,
+      "meaning_vi": "bố mẹ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bố mẹ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-031-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{兄弟|きょうだい}]]が{何人|なんにん}いますか。",
+          "source": "ai-draft",
+          "vi": "Bạn có mấy anh chị em?"
+        }
+      ],
+      "han_viet": "HUYNH ĐỆ",
+      "id": "mn-11-031",
+      "kana": "きょうだい",
+      "kanji": "兄弟",
+      "kanji_refs": [
+        "k-兄",
+        "k-弟"
+      ],
+      "legacy_id": "lesson11_31",
+      "lesson": 11,
+      "meaning_vi": "anh chị em",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh chị em"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-032-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{兄|あに}]]は{会社員|かいしゃいん}です。",
+          "source": "ai-draft",
+          "vi": "Anh trai tôi là nhân viên công ty."
+        }
+      ],
+      "han_viet": "HUYNH",
+      "id": "mn-11-032",
+      "kana": "あに",
+      "kanji": "兄",
+      "kanji_refs": [
+        "k-兄"
+      ],
+      "legacy_id": "lesson11_32",
+      "lesson": 11,
+      "meaning_vi": "anh trai",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh trai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-033-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[お{兄|にい}さん]]は{何歳|なんさい}ですか。",
+          "source": "ai-draft",
+          "vi": "Anh trai bạn bao nhiêu tuổi?"
+        }
+      ],
+      "han_viet": "HUYNH",
+      "id": "mn-11-033",
+      "kana": "おにいさん",
+      "kanji": "お兄さん",
+      "kanji_refs": [
+        "k-兄"
+      ],
+      "legacy_id": "lesson11_33",
+      "lesson": 11,
+      "meaning_vi": "anh trai (dùng cho người khác)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh trai (dùng cho người khác)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-034-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{姉|あね}]]は{先生|せんせい}です。",
+          "source": "ai-draft",
+          "vi": "Chị gái tôi là giáo viên."
+        }
+      ],
+      "han_viet": "TỶ",
+      "id": "mn-11-034",
+      "kana": "あね",
+      "kanji": "姉",
+      "kanji_refs": [
+        "k-姉"
+      ],
+      "legacy_id": "lesson11_34",
+      "lesson": 11,
+      "meaning_vi": "chị gái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chị gái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-035-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[お{姉|ねえ}さん]]はどこにいますか。",
+          "source": "ai-draft",
+          "vi": "Chị gái bạn đang ở đâu?"
+        }
+      ],
+      "han_viet": "TỶ",
+      "id": "mn-11-035",
+      "kana": "おねえさん",
+      "kanji": "お姉さん",
+      "kanji_refs": [
+        "k-姉"
+      ],
+      "legacy_id": "lesson11_35",
+      "lesson": 11,
+      "meaning_vi": "chị gái (dùng cho người khác)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chị gái (dùng cho người khác)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-036-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{弟|おとうと}]]は{学生|がくせい}です。",
+          "source": "ai-draft",
+          "vi": "Em trai tôi là sinh viên."
+        }
+      ],
+      "han_viet": "ĐỆ",
+      "id": "mn-11-036",
+      "kana": "おとうと",
+      "kanji": "弟",
+      "kanji_refs": [
+        "k-弟"
+      ],
+      "legacy_id": "lesson11_36",
+      "lesson": 11,
+      "meaning_vi": "em trai",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "em trai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-037-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{弟|おとうと}さん]]は{何歳|なんさい}ですか。",
+          "source": "ai-draft",
+          "vi": "Em trai bạn bao nhiêu tuổi?"
+        }
+      ],
+      "han_viet": "ĐỆ",
+      "id": "mn-11-037",
+      "kana": "おとうとさん",
+      "kanji": "弟さん",
+      "kanji_refs": [
+        "k-弟"
+      ],
+      "legacy_id": "lesson11_37",
+      "lesson": 11,
+      "meaning_vi": "em trai (dùng cho người khác)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "em trai (dùng cho người khác)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-038-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{妹|いもうと}]]は{歌|うた}が{上手|じょうず}です。",
+          "source": "ai-draft",
+          "vi": "Em gái tôi hát hay."
+        }
+      ],
+      "han_viet": "MUỘI",
+      "id": "mn-11-038",
+      "kana": "いもうと",
+      "kanji": "妹",
+      "kanji_refs": [
+        "k-妹"
+      ],
+      "legacy_id": "lesson11_38",
+      "lesson": 11,
+      "meaning_vi": "em gái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "em gái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-039-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{妹|いもうと}さん]]はお{元気|げんき}ですか。",
+          "source": "ai-draft",
+          "vi": "Em gái bạn có khỏe không?"
+        }
+      ],
+      "han_viet": "MUỘI",
+      "id": "mn-11-039",
+      "kana": "いもうとさん",
+      "kanji": "妹さん",
+      "kanji_refs": [
+        "k-妹"
+      ],
+      "legacy_id": "lesson11_39",
+      "lesson": 11,
+      "meaning_vi": "em gái (dùng cho người khác)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "em gái (dùng cho người khác)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-040-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{外国|がいこく}]]に{友達|ともだち}が{三人|さんにん}います。",
+          "source": "ai-draft",
+          "vi": "Tôi có ba người bạn ở nước ngoài."
+        }
+      ],
+      "han_viet": "NGOẠI QUỐC",
+      "id": "mn-11-040",
+      "kana": "がいこく",
+      "kanji": "外国",
+      "kanji_refs": [
+        "k-外",
+        "k-国"
+      ],
+      "legacy_id": "lesson11_40",
+      "lesson": 11,
+      "meaning_vi": "nước ngoài",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nước ngoài"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-041-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "この{大学|だいがく}に[[{留学生|りゅうがくせい}]]が{沢山|たくさん}います。",
+          "source": "ai-draft",
+          "vi": "Trường đại học này có nhiều du học sinh."
+        }
+      ],
+      "han_viet": "LƯU HỌC SINH",
+      "id": "mn-11-041",
+      "kana": "りゅうがくせい",
+      "kanji": "留学生",
+      "kanji_refs": [
+        "k-留",
+        "k-学",
+        "k-生"
+      ],
+      "legacy_id": "lesson11_41",
+      "lesson": 11,
+      "meaning_vi": "lưu học sinh, sinh viên nước ngoài",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lưu học sinh, sinh viên nước ngoài"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-042-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[クラス]]に{学生|がくせい}が２０{人|にん}います。",
+          "source": "ai-draft",
+          "vi": "Lớp có 20 học sinh."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-042",
+      "kana": "クラス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_42",
+      "lesson": 11,
+      "meaning_vi": "lớp học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lớp học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-043-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{毎日|まいにち}８[[{時間|じかん}]]{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Mỗi ngày tôi làm việc 8 tiếng."
+        }
+      ],
+      "han_viet": "THỜI GIAN",
+      "id": "mn-11-043",
+      "kana": "～じかん",
+      "kanji": "～時間",
+      "kanji_refs": [
+        "k-時",
+        "k-間"
+      ],
+      "legacy_id": "lesson11_43",
+      "lesson": 11,
+      "meaning_vi": "～ tiếng",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ tiếng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-044-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "２[[{週間|しゅうかん}]]{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi về nước 2 tuần."
+        }
+      ],
+      "han_viet": "CHU GIAN",
+      "id": "mn-11-044",
+      "kana": "～しゅうかん",
+      "kanji": "～週間",
+      "kanji_refs": [
+        "k-週",
+        "k-間"
+      ],
+      "legacy_id": "lesson11_44",
+      "lesson": 11,
+      "meaning_vi": "～ tuần",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ tuần"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-045-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "３[[か{月|げつ}]]{日本語|にほんご}を{勉強|べんきょう}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã học tiếng Nhật 3 tháng."
+        }
+      ],
+      "han_viet": "NGUYỆT",
+      "id": "mn-11-045",
+      "kana": "～かげつ",
+      "kanji": "～か月",
+      "kanji_refs": [
+        "k-月"
+      ],
+      "legacy_id": "lesson11_45",
+      "lesson": 11,
+      "meaning_vi": "～ tháng",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ tháng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-046-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "２[[{年|ねん}]]{日本|にほん}にいます。",
+          "source": "ai-draft",
+          "vi": "Tôi ở Nhật 2 năm."
+        }
+      ],
+      "han_viet": "NIÊN",
+      "id": "mn-11-046",
+      "kana": "～ねん",
+      "kanji": "～年",
+      "kanji_refs": [
+        "k-年"
+      ],
+      "legacy_id": "lesson11_46",
+      "lesson": 11,
+      "meaning_vi": "～ năm",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-05-031"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ năm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-047-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{駅|えき}まで１０{分|ぷん}[[ぐらい]]{掛|か}かります。",
+          "source": "ai-draft",
+          "vi": "Đến nhà ga mất khoảng 10 phút."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-047",
+      "kana": "～ぐらい",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_47",
+      "lesson": 11,
+      "meaning_vi": "khoảng ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khoảng ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-048-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{東京|とうきょう}から{大阪|おおさか}まで[[どのくらい]]{掛|か}かりますか。",
+          "source": "ai-draft",
+          "vi": "Từ Tokyo đến Osaka mất bao lâu?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-048",
+      "kana": "どのくらい",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_48",
+      "lesson": 11,
+      "meaning_vi": "bao lâu",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-42-036"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "bao lâu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-11-049-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{全部|ぜんぶ}で]]５００{円|えん}です。",
+          "source": "ai-draft",
+          "vi": "Tổng cộng là 500 yên."
+        }
+      ],
+      "han_viet": "TOÀN BỘ",
+      "id": "mn-11-049",
+      "kana": "ぜんぶで",
+      "kanji": "全部で",
+      "kanji_refs": [
+        "k-全",
+        "k-部"
+      ],
+      "legacy_id": "lesson11_49",
+      "lesson": 11,
+      "meaning_vi": "tổng cộng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tổng cộng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-050-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "[[{皆|みんな}]]で{写真|しゃしん}を{撮|と}りました。",
+          "source": "ai-draft",
+          "vi": "Mọi người cùng chụp ảnh."
+        }
+      ],
+      "han_viet": "GIAI",
+      "id": "mn-11-050",
+      "kana": "みんな",
+      "kanji": "皆",
+      "kanji_refs": [
+        "k-皆"
+      ],
+      "legacy_id": "lesson11_50",
+      "lesson": 11,
+      "meaning_vi": "tất cả",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tất cả"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-11-051-e1",
+          "max_lesson": 11,
+          "review": "user",
+          "ruby": "{林檎|りんご}を{一|ひと}つ[[だけ]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi chỉ mua một quả táo."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-11-051",
+      "kana": "～だけ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson11_51",
+      "lesson": 11,
+      "meaning_vi": "chỉ ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chỉ ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 11,
+  "schema_version": 4
+}

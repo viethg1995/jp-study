@@ -1,0 +1,447 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỤC",
+    "han_viet_source": "source",
+    "id": "mn-31-001",
+    "kanji": "続けます",
+    "kanji_refs": [
+      "k-続"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_1",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIẾN",
+    "han_viet_source": "source",
+    "id": "mn-31-002",
+    "kanji": "見つけます",
+    "kanji_refs": [
+      "k-見"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_2",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "THỦ",
+    "han_viet_original": "THỦHƯU",
+    "han_viet_source": "derived",
+    "id": "mn-31-003",
+    "kanji": "取ります",
+    "kanji_refs": [
+      "k-取"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_3",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "THỤ",
+    "han_viet_original": "THỤTHÍ NGHIỆM",
+    "han_viet_source": "derived",
+    "id": "mn-31-004",
+    "kanji": "受けます",
+    "kanji_refs": [
+      "k-受"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_4",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "込": []
+    },
+    "han_viet_original": "THÂNVÀO",
+    "han_viet_source": null,
+    "id": "mn-31-005",
+    "kanji": "申し込みます",
+    "kanji_refs": [
+      "k-申",
+      "k-込"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_5",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HƯU KHẾ",
+    "han_viet_source": "source",
+    "id": "mn-31-006",
+    "kanji": "休憩します",
+    "kanji_refs": [
+      "k-休",
+      "k-憩"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_6",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LIÊN HƯU",
+    "han_viet_source": "source",
+    "id": "mn-31-007",
+    "kanji": "連休",
+    "kanji_refs": [
+      "k-連",
+      "k-休"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_7",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁC VĂN",
+    "han_viet_source": "source",
+    "id": "mn-31-008",
+    "kanji": "作文",
+    "kanji_refs": [
+      "k-作",
+      "k-文"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_8",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÁT BIỂU",
+    "han_viet_source": "source",
+    "id": "mn-31-009",
+    "kanji": "発表",
+    "kanji_refs": [
+      "k-発",
+      "k-表"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_9",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "TRIỂN LÃM HỘI",
+    "han_viet_source": "source",
+    "id": "mn-31-010",
+    "kanji": "展覧会",
+    "kanji_refs": [
+      "k-展",
+      "k-覧",
+      "k-会"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_10",
+    "lesson": 31,
+    "pos_reason": "JMdict: danh từ thông dụng (exhibition)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KẾT HÔN THỨC",
+    "han_viet_source": "source",
+    "id": "mn-31-011",
+    "kanji": "結婚式",
+    "kanji_refs": [
+      "k-結",
+      "k-婚",
+      "k-式"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_11",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁNG THỨC",
+    "han_viet_source": "source",
+    "id": "mn-31-012",
+    "kanji": "葬式",
+    "kanji_refs": [
+      "k-葬",
+      "k-式"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_12",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỨC",
+    "han_viet_source": "source",
+    "id": "mn-31-013",
+    "kanji": "式",
+    "kanji_refs": [
+      "k-式"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_13",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "BẢN XÃ",
+    "han_viet_source": "source",
+    "id": "mn-31-014",
+    "kanji": "本社",
+    "kanji_refs": [
+      "k-本",
+      "k-社"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_14",
+    "lesson": 31,
+    "pos_reason": "JMdict: danh từ thông dụng (head office; main office)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHI ĐIẾM",
+    "han_viet_source": "source",
+    "id": "mn-31-015",
+    "kanji": "支店",
+    "kanji_refs": [
+      "k-支",
+      "k-店"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_15",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "GIÁO HỘI",
+    "han_viet_source": "source",
+    "id": "mn-31-016",
+    "kanji": "教会",
+    "kanji_refs": [
+      "k-教",
+      "k-会"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_16",
+    "lesson": 31,
+    "pos_reason": "JMdict: danh từ thông dụng (association; society)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "ĐẠI HỌC VIỆN",
+    "han_viet_source": "source",
+    "id": "mn-31-017",
+    "kanji": "大学院",
+    "kanji_refs": [
+      "k-大",
+      "k-学",
+      "k-院"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_17",
+    "lesson": 31,
+    "pos_reason": "JMdict: danh từ thông dụng (graduate school)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỘNG VẬT VIÊN",
+    "han_viet_source": "source",
+    "id": "mn-31-018",
+    "kanji": "動物園",
+    "kanji_refs": [
+      "k-動",
+      "k-物",
+      "k-園"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_18",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ÔN TUYỀN",
+    "han_viet_source": "source",
+    "id": "mn-31-019",
+    "kanji": "温泉",
+    "kanji_refs": [
+      "k-温",
+      "k-泉"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_19",
+    "lesson": 31
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "QUY",
+    "han_viet_source": "derived",
+    "id": "mn-31-020",
+    "kanji": "帰り",
+    "kanji_gloss": "return; coming back",
+    "kanji_refs": [
+      "k-帰"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson31_20",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỬ",
+    "han_viet_source": "source",
+    "id": "mn-31-021",
+    "kanji": "お子さん",
+    "kanji_refs": [
+      "k-子"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_21",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HIỆU",
+    "han_viet_source": "source",
+    "id": "mn-31-022",
+    "kanji": "ー号",
+    "kanji_refs": [
+      "k-号"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_22",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHƯƠNG",
+    "han_viet_source": "source",
+    "id": "mn-31-023",
+    "kanji": "～の方",
+    "kanji_refs": [
+      "k-方"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_23",
+    "lesson": 31
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-31-024",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson31_24",
+    "lesson": 31
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-31-025",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson31_25",
+    "lesson": 31
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-31-026",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson31_26",
+    "lesson": 31,
+    "pos_reason": "JMdict: danh từ thông dụng (Picasso)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "VỌNG",
+    "han_viet_source": "unihan",
+    "id": "mn-31-027",
+    "kanji": "望み",
+    "kanji_gloss": "wish; desire",
+    "kanji_refs": [
+      "k-望"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson31_27",
+    "lesson": 31
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÂN THẦN HỘ",
+    "han_viet_source": "source",
+    "id": "mn-31-028",
+    "kanji": "新神戸",
+    "kanji_refs": [
+      "k-新",
+      "k-神",
+      "k-戸"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson31_28",
+    "lesson": 31
+  }
+]

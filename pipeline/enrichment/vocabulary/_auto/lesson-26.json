@@ -1,0 +1,483 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIẾN, CHẨN",
+    "han_viet_source": "source",
+    "id": "mn-26-001",
+    "kanji": "見ます, 診ます",
+    "kanji_refs": [
+      "k-見",
+      "k-診"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_1",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "THÁM、SƯU",
+    "han_viet_source": "source",
+    "id": "mn-26-002",
+    "kanji": "探します,捜します",
+    "kanji_refs": [
+      "k-探",
+      "k-捜"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_2",
+    "lesson": 26,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TRÌ",
+    "han_viet_original": "TRÌTHỜI GIAN",
+    "han_viet_source": "derived",
+    "id": "mn-26-003",
+    "kanji": "遅れます",
+    "kanji_refs": [
+      "k-遅"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_3",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "GIAN HỢP",
+    "han_viet_original": "GIAN HỢPTHỜI GIAN",
+    "han_viet_source": "derived",
+    "id": "mn-26-004",
+    "kanji": "間に合います",
+    "kanji_refs": [
+      "k-間",
+      "k-合"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_4",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "KHIẾN",
+    "han_viet_source": "unihan",
+    "id": "mn-26-005",
+    "kanji": "遣ります",
+    "kanji_gloss": "to do; to undertake",
+    "kanji_refs": [
+      "k-遣"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson26_5",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẬP",
+    "han_viet_source": "source",
+    "id": "mn-26-006",
+    "kanji": "拾います",
+    "kanji_refs": [
+      "k-拾"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_6",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LIÊN LẠC",
+    "han_viet_source": "source",
+    "id": "mn-26-007",
+    "kanji": "連絡します",
+    "kanji_refs": [
+      "k-連",
+      "k-絡"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_7",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHÍ PHÂN",
+    "han_viet_source": "source",
+    "id": "mn-26-008",
+    "kanji": "気分がいい",
+    "kanji_refs": [
+      "k-気",
+      "k-分"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_8",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHÍ PHÂN ÁC",
+    "han_viet_source": "source",
+    "id": "mn-26-009",
+    "kanji": "気分が悪い",
+    "kanji_refs": [
+      "k-気",
+      "k-分",
+      "k-悪"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_9",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "VẬN ĐỘNG HỘI",
+    "han_viet_source": "source",
+    "id": "mn-26-010",
+    "kanji": "運動会",
+    "kanji_refs": [
+      "k-運",
+      "k-動",
+      "k-会"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_10",
+    "lesson": 26,
+    "pos_reason": "JMdict: danh từ thông dụng (athletic meet (esp. at a school); sports day)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BỒN DŨNG",
+    "han_viet_source": "source",
+    "id": "mn-26-011",
+    "kanji": "盆踊り",
+    "kanji_refs": [
+      "k-盆",
+      "k-踊"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_11",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-26-012",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson26_12",
+    "lesson": 26,
+    "pos_reason": "JMdict: danh từ thông dụng (flea market)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRƯỜNG SỞ",
+    "han_viet_source": "source",
+    "id": "mn-26-013",
+    "kanji": "場所",
+    "kanji_refs": [
+      "k-場",
+      "k-所"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_13",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-26-014",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson26_14",
+    "lesson": 26,
+    "pos_reason": "JMdict: danh từ thông dụng (volunteer)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÀI BỐ",
+    "han_viet_source": "source",
+    "id": "mn-26-015",
+    "kanji": "財布",
+    "kanji_refs": [
+      "k-財",
+      "k-布"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_15",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "TRẦN",
+    "han_viet_source": "unihan",
+    "id": "mn-26-016",
+    "kanji": "塵",
+    "kanji_gloss": "rubbish; trash",
+    "kanji_refs": [
+      "k-塵"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson26_16",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "QUỐC HỘI NGHỊ SỰ ĐƯỜNG",
+    "han_viet_original": "QUỐC HỘINGHỊ SỰ ĐƯỜNG",
+    "han_viet_source": "derived",
+    "id": "mn-26-017",
+    "kanji": "国会議事堂",
+    "kanji_refs": [
+      "k-国",
+      "k-会",
+      "k-議",
+      "k-事",
+      "k-堂"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_17",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BÌNH NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-26-018",
+    "kanji": "平日",
+    "kanji_refs": [
+      "k-平",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_18",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BIỆN",
+    "han_viet_source": "source",
+    "id": "mn-26-019",
+    "kanji": "～弁",
+    "kanji_refs": [
+      "k-弁"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_19",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIM ĐỘ",
+    "han_viet_source": "source",
+    "id": "mn-26-020",
+    "kanji": "今度",
+    "kanji_refs": [
+      "k-今",
+      "k-度"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_20",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "随": []
+    },
+    "han_viet_source": null,
+    "id": "mn-26-021",
+    "kanji": "随分",
+    "kanji_gloss": "very; extremely",
+    "kanji_refs": [
+      "k-随",
+      "k-分"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson26_21",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRỰC TIẾP",
+    "han_viet_source": "source",
+    "id": "mn-26-022",
+    "kanji": "直接",
+    "kanji_refs": [
+      "k-直",
+      "k-接"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_22",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "HÀ THỜI",
+    "han_viet_source": "derived",
+    "id": "mn-26-023",
+    "kanji": "何時でも",
+    "kanji_gloss": "always; all the time",
+    "kanji_refs": [
+      "k-何",
+      "k-時"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson26_23",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "処": []
+    },
+    "han_viet_source": null,
+    "id": "mn-26-024",
+    "kanji": "何処でも",
+    "kanji_gloss": "anywhere",
+    "kanji_refs": [
+      "k-何",
+      "k-処"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson26_24",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-26-025",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson26_25",
+    "lesson": 26
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ",
+    "han_viet_source": "source",
+    "id": "mn-26-026",
+    "kanji": "何でも",
+    "kanji_refs": [
+      "k-何"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson26_26",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-26-027",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson26_27",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-26-028",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson26_28",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-26-029",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson26_29",
+    "lesson": 26
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-26-030",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson26_30",
+    "lesson": 26
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed",
+      "pos_verify"
+    ],
+    "han_viet": "ĐĂNG",
+    "han_viet_original": "SƠN ĐĂNG",
+    "han_viet_source": "derived",
+    "id": "mn-19-001",
+    "kanji": "登ります",
+    "kanji_refs": [
+      "k-登"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_1",
+    "lesson": 19,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BẠC",
+    "han_viet_source": "source",
+    "id": "mn-19-002",
+    "kanji": "泊まります",
+    "kanji_refs": [
+      "k-泊"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_2",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TẢO TRỪ",
+    "han_viet_source": "source",
+    "id": "mn-19-003",
+    "kanji": "掃除します",
+    "kanji_refs": [
+      "k-掃",
+      "k-除"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_3",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TẨY TRẠC",
+    "han_viet_source": "source",
+    "id": "mn-19-004",
+    "kanji": "洗濯します",
+    "kanji_refs": [
+      "k-洗",
+      "k-濯"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_4",
+    "lesson": 19
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-19-005",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to become; to get",
+        "kanji": "成ります"
+      },
+      {
+        "gloss": "to sound; to ring",
+        "kanji": "鳴ります"
+      },
+      {
+        "gloss": "to bear fruit",
+        "kanji": "生ります"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson19_5",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MIÊN",
+    "han_viet_source": "source",
+    "id": "mn-19-006",
+    "kanji": "眠い",
+    "kanji_refs": [
+      "k-眠"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_6",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CƯỜNG",
+    "han_viet_source": "source",
+    "id": "mn-19-007",
+    "kanji": "強い",
+    "kanji_refs": [
+      "k-強"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_7",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHƯỢC",
+    "han_viet_source": "source",
+    "id": "mn-19-008",
+    "kanji": "弱い",
+    "kanji_refs": [
+      "k-弱"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_8",
+    "lesson": 19
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-19-009",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson19_9",
+    "lesson": 19,
+    "pos_reason": "JMdict: danh từ thông dụng (golf)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "相": [
+        "TƯỚNG",
+        "TƯƠNG"
+      ]
+    },
+    "han_viet_source": null,
+    "id": "mn-19-010",
+    "kanji": "相撲",
+    "kanji_refs": [
+      "k-相",
+      "k-撲"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_10",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRÀ",
+    "han_viet_source": "source",
+    "id": "mn-19-011",
+    "kanji": "お茶",
+    "kanji_refs": [
+      "k-茶"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_11",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-19-012",
+    "kanji": "日",
+    "kanji_refs": [
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_12",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐIỀU TỬ",
+    "han_viet_source": "source",
+    "id": "mn-19-013",
+    "kanji": "調子",
+    "kanji_refs": [
+      "k-調",
+      "k-子"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_13",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHẤT ĐỘ",
+    "han_viet_source": "source",
+    "id": "mn-19-014",
+    "kanji": "一度",
+    "kanji_refs": [
+      "k-一",
+      "k-度"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_14",
+    "lesson": 19
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHẤT ĐỘ",
+    "han_viet_source": "source",
+    "id": "mn-19-015",
+    "kanji": "一度も",
+    "kanji_refs": [
+      "k-一",
+      "k-度"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson19_15",
+    "lesson": 19
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "ĐOẠN ĐOẠN",
+    "han_viet_source": "derived",
+    "id": "mn-19-016",
+    "kanji": "段々",
+    "kanji_gloss": "gradually; by degrees",
+    "kanji_refs": [
+      "k-段"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson19_16",
+    "lesson": 19
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "TRỰC",
+    "han_viet_source": "derived",
+    "id": "mn-19-017",
+    "kanji": "もう直ぐ",
+    "kanji_gloss": "soon; shortly",
+    "kanji_refs": [
+      "k-直"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson19_17",
+    "lesson": 19
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "ÂM DẠNG",
+    "han_viet_source": "mixed",
+    "id": "mn-19-018",
+    "kanji": "お陰様で",
+    "kanji_gloss": "thankfully; fortunately",
+    "kanji_refs": [
+      "k-陰",
+      "k-様"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson19_18",
+    "lesson": 19
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-19-019",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson19_19",
+    "lesson": 19
+  }
+]

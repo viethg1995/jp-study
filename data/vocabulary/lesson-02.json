@@ -1,0 +1,1726 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-001-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "[[これ]]は{辞書|じしょ}です。",
+          "source": "ai-draft",
+          "vi": "Đây là cuốn từ điển."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-001",
+      "kana": "これ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_1",
+      "lesson": 2,
+      "meaning_vi": "cái này, đây (vật ở gần người nói)",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái này, đây (vật ở gần người nói)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-002-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "[[それ]]は{私|わたし}の{傘|かさ}です。",
+          "source": "ai-draft",
+          "vi": "Đó là cái ô của tôi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-002",
+      "kana": "それ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_2",
+      "lesson": 2,
+      "meaning_vi": "cái đó, đó (vật ở gần người nghe)",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái đó, đó (vật ở gần người nghe)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-003-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "[[あれ]]は{誰|だれ}の{車|くるま}ですか。",
+          "source": "ai-draft",
+          "vi": "Kia là xe ô tô của ai?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-003",
+      "kana": "あれ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_3",
+      "lesson": 2,
+      "meaning_vi": "cái kia, kia (vật ở xa cả người nói và người nghe)",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái kia, kia (vật ở xa cả người nói và người nghe)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-004-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "[[この]]{車|くるま}は{私|わたし}のです。",
+          "source": "ai-draft",
+          "vi": "Chiếc xe này là của tôi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-004",
+      "kana": "この～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_4",
+      "lesson": 2,
+      "meaning_vi": "～ này",
+      "particle": null,
+      "pos": {
+        "code": "Det",
+        "label": "Từ chỉ định (連体詞)"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ này"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-005-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "[[その]]{本|ほん}は{誰|だれ}のですか。",
+          "source": "ai-draft",
+          "vi": "Quyển sách đó là của ai?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-005",
+      "kana": "その～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_5",
+      "lesson": 2,
+      "meaning_vi": "～ đó",
+      "particle": null,
+      "pos": {
+        "code": "Det",
+        "label": "Từ chỉ định (連体詞)"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ đó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-006-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "[[あの]]{傘|かさ}はミラーさんのです。",
+          "source": "ai-draft",
+          "vi": "Cái ô kia là của anh Miller."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-006",
+      "kana": "あの～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_6",
+      "lesson": 2,
+      "meaning_vi": "～ kia",
+      "particle": null,
+      "pos": {
+        "code": "Det",
+        "label": "Từ chỉ định (連体詞)"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ kia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-007-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{日本語|にほんご}の[[{本|ほん}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là sách tiếng Nhật."
+        }
+      ],
+      "han_viet": "BẢN/BỔN",
+      "id": "mn-02-007",
+      "kana": "ほん",
+      "kanji": "本",
+      "kanji_refs": [
+        "k-本"
+      ],
+      "legacy_id": "lesson2_7",
+      "lesson": 2,
+      "meaning_vi": "sách",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sách"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-008-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "それは{私|わたし}の[[{辞書|じしょ}]]です。",
+          "source": "ai-draft",
+          "vi": "Đó là từ điển của tôi."
+        }
+      ],
+      "han_viet": "TỪ THƯ",
+      "id": "mn-02-008",
+      "kana": "じしょ",
+      "kanji": "辞書",
+      "kanji_refs": [
+        "k-辞",
+        "k-書"
+      ],
+      "legacy_id": "lesson2_8",
+      "lesson": 2,
+      "meaning_vi": "từ điển",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "từ điển"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-009-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{車|くるま}の[[{雑誌|ざっし}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là tạp chí về ô tô."
+        }
+      ],
+      "han_viet": "TẠP CHÍ",
+      "id": "mn-02-009",
+      "kana": "ざっし",
+      "kanji": "雑誌",
+      "kanji_refs": [
+        "k-雑",
+        "k-誌"
+      ],
+      "legacy_id": "lesson2_9",
+      "lesson": 2,
+      "meaning_vi": "tạp chí",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tạp chí"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-010-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "あれは{英語|えいご}の[[{新聞|しんぶん}]]です。",
+          "source": "ai-draft",
+          "vi": "Kia là tờ báo tiếng Anh."
+        }
+      ],
+      "han_viet": "TÂN VĂN",
+      "id": "mn-02-010",
+      "kana": "しんぶん",
+      "kanji": "新聞",
+      "kanji_refs": [
+        "k-新",
+        "k-聞"
+      ],
+      "legacy_id": "lesson2_10",
+      "lesson": 2,
+      "meaning_vi": "báo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "báo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-011-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{私|わたし}の[[ノート]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là quyển vở của tôi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-011",
+      "kana": "ノート",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_11",
+      "lesson": 2,
+      "meaning_vi": "vở",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-012-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "この[[{手帳|てちょう}]]は{誰|だれ}のですか。",
+          "source": "ai-draft",
+          "vi": "Cuốn sổ tay này là của ai?"
+        }
+      ],
+      "han_viet": "THỦ TRƯƠNG",
+      "id": "mn-02-012",
+      "kana": "てちょう",
+      "kanji": "手帳",
+      "kanji_refs": [
+        "k-手",
+        "k-帳"
+      ],
+      "legacy_id": "lesson2_12",
+      "lesson": 2,
+      "meaning_vi": "sổ tay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sổ tay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-013-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{私|わたし}の[[{名刺|めいし}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là danh thiếp của tôi."
+        }
+      ],
+      "han_viet": "DANH THÍCH",
+      "id": "mn-02-013",
+      "kana": "めいし",
+      "kanji": "名刺",
+      "kanji_refs": [
+        "k-名",
+        "k-刺"
+      ],
+      "legacy_id": "lesson2_13",
+      "lesson": 2,
+      "meaning_vi": "danh thiếp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-083"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "danh thiếp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-014-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "この[[カード]]は{誰|だれ}のですか。",
+          "source": "ai-draft",
+          "vi": "Tấm thẻ này là của ai?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-014",
+      "kana": "カード",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_14",
+      "lesson": 2,
+      "meaning_vi": "thẻ, cạc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thẻ, cạc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-015-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "それは[[{鉛筆|えんぴつ}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Đó là bút chì phải không?"
+        }
+      ],
+      "han_viet": "DUYÊN BÚT",
+      "id": "mn-02-015",
+      "kana": "えんぴつ",
+      "kanji": "鉛筆",
+      "kanji_refs": [
+        "k-鉛",
+        "k-筆"
+      ],
+      "legacy_id": "lesson2_15",
+      "lesson": 2,
+      "meaning_vi": "bút chì",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bút chì"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-016-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "その[[ボールペン]]は{私|わたし}のです。",
+          "source": "ai-draft",
+          "vi": "Cái bút bi đó là của tôi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-016",
+      "kana": "ボールペン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_16",
+      "lesson": 2,
+      "meaning_vi": "bút bi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bút bi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-017-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは[[シャープペンシル]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là bút chì bấm."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-017",
+      "kana": "シャープペンシル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_17",
+      "lesson": 2,
+      "meaning_vi": "bút chì kim, bút chì bấm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bút chì kim, bút chì bấm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-018-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{車|くるま}の[[{鍵|かぎ}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là chìa khóa ô tô."
+        }
+      ],
+      "han_viet": "KIỆN",
+      "id": "mn-02-018",
+      "kana": "かぎ",
+      "kanji": "鍵",
+      "kanji_refs": [
+        "k-鍵"
+      ],
+      "legacy_id": "lesson2_18",
+      "lesson": 2,
+      "meaning_vi": "chìa khóa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chìa khóa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-019-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "その[[{時計|とけい}]]は{私|わたし}のです。",
+          "source": "ai-draft",
+          "vi": "Cái đồng hồ đó là của tôi."
+        }
+      ],
+      "han_viet": "THỜI KẾ",
+      "id": "mn-02-019",
+      "kana": "とけい",
+      "kanji": "時計",
+      "kanji_refs": [
+        "k-時",
+        "k-計"
+      ],
+      "legacy_id": "lesson2_19",
+      "lesson": 2,
+      "meaning_vi": "đồng hồ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đồng hồ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-020-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "この[[{傘|かさ}]]は{誰|だれ}のですか。",
+          "source": "ai-draft",
+          "vi": "Cái ô này là của ai?"
+        }
+      ],
+      "han_viet": "TẢN",
+      "id": "mn-02-020",
+      "kana": "かさ",
+      "kanji": "傘",
+      "kanji_refs": [
+        "k-傘"
+      ],
+      "legacy_id": "lesson2_20",
+      "lesson": 2,
+      "meaning_vi": "ô, dù",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ô, dù"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-021-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "あの[[{鞄|かばん}]]はミラーさんのです。",
+          "source": "ai-draft",
+          "vi": "Cái cặp kia là của anh Miller."
+        }
+      ],
+      "han_viet": "BẠC",
+      "id": "mn-02-021",
+      "kana": "かばん",
+      "kanji": "鞄",
+      "kanji_refs": [
+        "k-鞄"
+      ],
+      "legacy_id": "lesson2_21",
+      "lesson": 2,
+      "meaning_vi": "cặp sách, túi sách",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cặp sách, túi sách"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-022-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{日本語|にほんご}の[[CD]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là đĩa CD tiếng Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-022",
+      "kana": "CD",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_22",
+      "lesson": 2,
+      "meaning_vi": "đĩa CD",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đĩa CD"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-023-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "あれは{日本|にほん}の[[テレビ]]です。",
+          "source": "ai-draft",
+          "vi": "Kia là tivi của Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-023",
+      "kana": "テレビ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_23",
+      "lesson": 2,
+      "meaning_vi": "tivi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tivi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-024-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "それは{私|わたし}の[[ラジオ]]です。",
+          "source": "ai-draft",
+          "vi": "Đó là cái radio của tôi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-024",
+      "kana": "ラジオ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_24",
+      "lesson": 2,
+      "meaning_vi": "Radio",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Radio"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-025-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{日本|にほん}の[[カメラ]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là máy ảnh của Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-025",
+      "kana": "カメラ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_25",
+      "lesson": 2,
+      "meaning_vi": "máy ảnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "máy ảnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-026-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "あの[[コンピューター]]は{誰|だれ}のですか。",
+          "source": "ai-draft",
+          "vi": "Cái máy vi tính kia là của ai?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-026",
+      "kana": "コンピューター",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_26",
+      "lesson": 2,
+      "meaning_vi": "máy vi tính",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "máy vi tính"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-027-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "あれは{私|わたし}の[[{車|くるま}]]です。",
+          "source": "ai-draft",
+          "vi": "Kia là xe ô tô của tôi."
+        }
+      ],
+      "han_viet": "XA",
+      "id": "mn-02-027",
+      "kana": "くるま",
+      "kanji": "車",
+      "kanji_refs": [
+        "k-車"
+      ],
+      "legacy_id": "lesson2_27",
+      "lesson": 2,
+      "meaning_vi": "ô tô, xe hơi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ô tô, xe hơi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-028-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは[[{机|つくえ}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là cái bàn."
+        }
+      ],
+      "han_viet": "KỶ",
+      "id": "mn-02-028",
+      "kana": "つくえ",
+      "kanji": "机",
+      "kanji_refs": [
+        "k-机"
+      ],
+      "legacy_id": "lesson2_28",
+      "lesson": 2,
+      "meaning_vi": "cái bàn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái bàn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-029-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "それは{私|わたし}の[[{椅子|いす}]]です。",
+          "source": "ai-draft",
+          "vi": "Đó là cái ghế của tôi."
+        }
+      ],
+      "han_viet": "Ỷ TỬ",
+      "id": "mn-02-029",
+      "kana": "いす",
+      "kanji": "椅子",
+      "kanji_refs": [
+        "k-椅",
+        "k-子"
+      ],
+      "legacy_id": "lesson2_29",
+      "lesson": 2,
+      "meaning_vi": "cái ghế",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái ghế"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-030-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これはお{土産|みやげ}の[[チョコレート]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là sô-cô-la làm quà."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-030",
+      "kana": "チョコレート",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_30",
+      "lesson": 2,
+      "meaning_vi": "Socola",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Socola"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-031-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "「それは[[コーヒー]]ですか。」「はい、そうです。」",
+          "source": "ai-draft",
+          "vi": "\"Đó là cà phê phải không?\" \"Vâng, đúng vậy.\""
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-031",
+      "kana": "コーヒー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_31",
+      "lesson": 2,
+      "meaning_vi": "cà phê",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cà phê"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-032-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは{日本|にほん}のお[[{土産|みやげ}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là quà từ Nhật Bản."
+        }
+      ],
+      "han_viet": "THỔ SẢN",
+      "id": "mn-02-032",
+      "kana": "みやげ",
+      "kanji": "土産",
+      "kanji_refs": [
+        "k-土",
+        "k-産"
+      ],
+      "legacy_id": "lesson2_32",
+      "lesson": 2,
+      "meaning_vi": "quà( mua khi đi xa về hoặc mang đi thăm nhà người nào đó)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quà( mua khi đi xa về hoặc mang đi thăm nhà người nào đó)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-033-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは[[{英語|えいご}]]の{本|ほん}です。",
+          "source": "ai-draft",
+          "vi": "Đây là sách tiếng Anh."
+        }
+      ],
+      "han_viet": "ANH NGỮ",
+      "id": "mn-02-033",
+      "kana": "えいご",
+      "kanji": "英語",
+      "kanji_refs": [
+        "k-英",
+        "k-語"
+      ],
+      "legacy_id": "lesson2_33",
+      "lesson": 2,
+      "meaning_vi": "tiếng Anh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiếng Anh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-034-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "あの{人|ひと}は[[{日本語|にほんご}]]の{先生|せんせい}です。",
+          "source": "ai-draft",
+          "vi": "Người kia là giáo viên tiếng Nhật."
+        }
+      ],
+      "han_viet": "NHẬT BẢN NGỮ",
+      "id": "mn-02-034",
+      "kana": "にほんご",
+      "kanji": "日本語",
+      "kanji_refs": [
+        "k-日",
+        "k-本",
+        "k-語"
+      ],
+      "legacy_id": "lesson2_34",
+      "lesson": 2,
+      "meaning_vi": "tiếng Nhật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiếng Nhật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-035-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これはベトナム[[{語|ご}]]の{新聞|しんぶん}です。",
+          "source": "ai-draft",
+          "vi": "Đây là báo tiếng Việt."
+        }
+      ],
+      "han_viet": "NGỮ",
+      "id": "mn-02-035",
+      "kana": "～ご",
+      "kanji": "～語",
+      "kanji_refs": [
+        "k-語"
+      ],
+      "legacy_id": "lesson2_35",
+      "lesson": 2,
+      "meaning_vi": "tiếng ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiếng ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-02-036-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "これは[[{何|なん}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Đây là cái gì?"
+        }
+      ],
+      "han_viet": "HÀ",
+      "id": "mn-02-036",
+      "kana": "なに",
+      "kanji": "何",
+      "kanji_refs": [
+        "k-何"
+      ],
+      "legacy_id": "lesson2_36",
+      "lesson": 2,
+      "meaning_vi": "cái gì",
+      "particle": null,
+      "pos": {
+        "code": "QP",
+        "label": "Đại từ nghi vấn"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-06-040"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái gì"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-02-037-e1",
+          "max_lesson": 2,
+          "review": "user",
+          "ruby": "「これはミラーさんの{傘|かさ}ですか。」「はい、[[そう]]です。」",
+          "source": "ai-draft",
+          "vi": "\"Đây là ô của anh Miller phải không?\" \"Vâng, đúng vậy.\""
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-02-037",
+      "kana": "そう",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson2_37",
+      "lesson": 2,
+      "meaning_vi": "đúng rồi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đúng rồi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 2,
+  "schema_version": 4
+}

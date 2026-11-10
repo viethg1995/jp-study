@@ -1,0 +1,1779 @@
+{
+  "radicals": [
+    {
+      "char": "一",
+      "meaning_vi": "Số một",
+      "name_vi": "Nhất",
+      "number": 1,
+      "strokes": 1,
+      "variants": []
+    },
+    {
+      "char": "〡",
+      "meaning_vi": "Nét sổ",
+      "name_vi": "Cổn",
+      "number": 2,
+      "strokes": 1,
+      "variants": []
+    },
+    {
+      "char": "丶",
+      "meaning_vi": "Điểm, chấm",
+      "name_vi": "Chủ",
+      "number": 3,
+      "strokes": 1,
+      "variants": []
+    },
+    {
+      "char": "丿",
+      "meaning_vi": "Nét sổ xiên qua trái",
+      "name_vi": "Phiệt",
+      "number": 4,
+      "strokes": 1,
+      "variants": []
+    },
+    {
+      "char": "乙",
+      "meaning_vi": "Vị trí thứ 2 trong thiên can",
+      "name_vi": "Ất",
+      "number": 5,
+      "strokes": 1,
+      "variants": []
+    },
+    {
+      "char": "亅",
+      "meaning_vi": "Nét sổ có móc",
+      "name_vi": "Quyết",
+      "number": 6,
+      "strokes": 1,
+      "variants": []
+    },
+    {
+      "char": "二",
+      "meaning_vi": "Số hai",
+      "name_vi": "Nhị",
+      "number": 7,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "亠",
+      "meaning_vi": null,
+      "name_vi": "Đầu",
+      "number": 8,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "人",
+      "meaning_vi": "Người",
+      "name_vi": "Nhân",
+      "number": 9,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "儿",
+      "meaning_vi": "Trẻ con",
+      "name_vi": "Nhi",
+      "number": 10,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "入",
+      "meaning_vi": "Vào",
+      "name_vi": "Nhập",
+      "number": 11,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "八",
+      "meaning_vi": "Số tám",
+      "name_vi": "Bát",
+      "number": 12,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "冂",
+      "meaning_vi": "Vùng biên giới xa, hoang địa",
+      "name_vi": "Quynh",
+      "number": 13,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "冖",
+      "meaning_vi": "Trùm chăn lên",
+      "name_vi": "Mịch",
+      "number": 14,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "冫",
+      "meaning_vi": "Nước đá",
+      "name_vi": "Băng",
+      "number": 15,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "几",
+      "meaning_vi": "Ghế tựa",
+      "name_vi": "Kỷ",
+      "number": 16,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "凵",
+      "meaning_vi": "Há miệng",
+      "name_vi": "Khảm",
+      "number": 17,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "刀",
+      "meaning_vi": "Con dao, cây đao (vũ khí)",
+      "name_vi": "Đao",
+      "number": 18,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "力",
+      "meaning_vi": "Sức mạnh",
+      "name_vi": "Lực",
+      "number": 19,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "勹",
+      "meaning_vi": "ba",
+      "name_vi": "Bao",
+      "number": 20,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "匕",
+      "meaning_vi": "Cái thìa, cái muỗng",
+      "name_vi": "Chủy",
+      "number": 21,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "匚",
+      "meaning_vi": "Tủ đựng",
+      "name_vi": "Phương",
+      "number": 22,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "匸",
+      "meaning_vi": "Che đậy, giấu giếm",
+      "name_vi": "Hệ",
+      "number": 23,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "十",
+      "meaning_vi": "Số mười",
+      "name_vi": "Thập",
+      "number": 24,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "卜",
+      "meaning_vi": "Xem bói",
+      "name_vi": "Bốc",
+      "number": 25,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "卩",
+      "meaning_vi": "Đốt tre",
+      "name_vi": "Tiết",
+      "number": 26,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "厂",
+      "meaning_vi": "Sườn núi, vách đá",
+      "name_vi": "Hán, xưởng",
+      "number": 27,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "厶",
+      "meaning_vi": "Riêng tư",
+      "name_vi": "Khư, tư",
+      "number": 28,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "又",
+      "meaning_vi": "Lại nữa, một lần nữa",
+      "name_vi": "Hựu",
+      "number": 29,
+      "strokes": 2,
+      "variants": []
+    },
+    {
+      "char": "口",
+      "meaning_vi": "Cái miệng",
+      "name_vi": "Khẩu",
+      "number": 30,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "囗",
+      "meaning_vi": "Vây quanh",
+      "name_vi": "Vi",
+      "number": 31,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "土",
+      "meaning_vi": "Đất",
+      "name_vi": "Thổ",
+      "number": 32,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "士",
+      "meaning_vi": "Kẻ sỹ",
+      "name_vi": "Sỹ",
+      "number": 33,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "夂",
+      "meaning_vi": "Đến ở phía sau",
+      "name_vi": "Trĩ",
+      "number": 34,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "夊",
+      "meaning_vi": "Đia chậm",
+      "name_vi": "Truy",
+      "number": 35,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "夕",
+      "meaning_vi": "Đêm tối",
+      "name_vi": "Tịch",
+      "number": 36,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "大",
+      "meaning_vi": "To lớn",
+      "name_vi": "Đại",
+      "number": 37,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "女",
+      "meaning_vi": "Con gái, đàn bà",
+      "name_vi": "Nữ",
+      "number": 38,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "子",
+      "meaning_vi": "Con",
+      "name_vi": "Tử",
+      "number": 39,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "宀",
+      "meaning_vi": "Mái nhà, mái che",
+      "name_vi": "Miên",
+      "number": 40,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "寸",
+      "meaning_vi": "Đơn vị",
+      "name_vi": "Thốn",
+      "number": 41,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "小",
+      "meaning_vi": "Nhỏ bé",
+      "name_vi": "Tiểu",
+      "number": 42,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "尢",
+      "meaning_vi": "Yếu đuối",
+      "name_vi": "Uông",
+      "number": 43,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "尸",
+      "meaning_vi": "Xác chết, thây ma",
+      "name_vi": "Thi",
+      "number": 44,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "屮",
+      "meaning_vi": "Mầm non, cỏ non mới mọc",
+      "name_vi": "Triệt",
+      "number": 45,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "山",
+      "meaning_vi": "Núi",
+      "name_vi": "Sơn",
+      "number": 46,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "巛",
+      "meaning_vi": "Sông",
+      "name_vi": "Xuyên",
+      "number": 47,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "工",
+      "meaning_vi": "Người thợ, công việc",
+      "name_vi": "Công",
+      "number": 48,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "己",
+      "meaning_vi": "Bản thân mình",
+      "name_vi": "Kỷ",
+      "number": 49,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "巾",
+      "meaning_vi": "Cái khăn",
+      "name_vi": "Cân",
+      "number": 50,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "干",
+      "meaning_vi": "Thiên can, can dự",
+      "name_vi": "Can",
+      "number": 51,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "幺",
+      "meaning_vi": "Nhỏ nhắn",
+      "name_vi": "Yêu",
+      "number": 52,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "广",
+      "meaning_vi": "Mái nhà",
+      "name_vi": "Nghiễm",
+      "number": 53,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "廴",
+      "meaning_vi": "Bước dài",
+      "name_vi": "Dẫn",
+      "number": 54,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "廾",
+      "meaning_vi": "Chắp tay",
+      "name_vi": "Củng",
+      "number": 55,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "弋",
+      "meaning_vi": "Bắn, chiếm lấy",
+      "name_vi": "Dặc",
+      "number": 56,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "弓",
+      "meaning_vi": "Cái cung",
+      "name_vi": "Cung",
+      "number": 57,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "彐",
+      "meaning_vi": "Đầu con nhím",
+      "name_vi": "Kệ",
+      "number": 58,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "彡",
+      "meaning_vi": "Lông tóc dài",
+      "name_vi": "Sam",
+      "number": 59,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "彳",
+      "meaning_vi": "Bước chân trái",
+      "name_vi": "Xích",
+      "number": 60,
+      "strokes": 3,
+      "variants": []
+    },
+    {
+      "char": "心",
+      "meaning_vi": "Quả tim, tâm trí, tấm lòng",
+      "name_vi": "Tâm",
+      "number": 61,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "戈",
+      "meaning_vi": "Cây qua (một thứ binh khí dài)",
+      "name_vi": "Qua",
+      "number": 62,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "戶",
+      "meaning_vi": "Cửa một cánh",
+      "name_vi": "Hộ 6",
+      "number": 63,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "手",
+      "meaning_vi": "Tay",
+      "name_vi": "Thủ",
+      "number": 64,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "支",
+      "meaning_vi": "Cành nhánh",
+      "name_vi": "Chi",
+      "number": 65,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "攴",
+      "meaning_vi": "Đánh khẽ",
+      "name_vi": "Phộc",
+      "number": 66,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "文",
+      "meaning_vi": "Văn vẻ, văn chương, vẻ sang",
+      "name_vi": "Văn",
+      "number": 67,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "斗",
+      "meaning_vi": "Cái đấu để đong",
+      "name_vi": "Đầu 7",
+      "number": 68,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "斤",
+      "meaning_vi": "Cái búa, rìu",
+      "name_vi": "Cân",
+      "number": 69,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "方",
+      "meaning_vi": "Vuông",
+      "name_vi": "Phương 9",
+      "number": 70,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "无",
+      "meaning_vi": "Không",
+      "name_vi": "Vô",
+      "number": 71,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "日",
+      "meaning_vi": "Ngày, mặt trời",
+      "name_vi": "Nhật",
+      "number": 72,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "曰",
+      "meaning_vi": "Nói rằng",
+      "name_vi": "Viết",
+      "number": 73,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "月",
+      "meaning_vi": "Tháng, mặt trăng",
+      "name_vi": "Nguyệt",
+      "number": 74,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "木",
+      "meaning_vi": "Cây",
+      "name_vi": "Mộc",
+      "number": 75,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "欠",
+      "meaning_vi": "Khiếm khuyết, thiếu vắng",
+      "name_vi": "Khiếm",
+      "number": 76,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "止",
+      "meaning_vi": "Dừng lai",
+      "name_vi": "Chỉ",
+      "number": 77,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "歹",
+      "meaning_vi": "Xấu xa, tệ hại",
+      "name_vi": "Đãi",
+      "number": 78,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "殳",
+      "meaning_vi": "Binh khí dài",
+      "name_vi": "Thù",
+      "number": 79,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "毋",
+      "meaning_vi": "Chớ, đừng",
+      "name_vi": "Vô",
+      "number": 80,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "比",
+      "meaning_vi": "So sánh",
+      "name_vi": "Tỷ",
+      "number": 81,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "毛",
+      "meaning_vi": "Lông",
+      "name_vi": "Mao",
+      "number": 82,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "氏",
+      "meaning_vi": "Họ",
+      "name_vi": "Thị",
+      "number": 83,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "气",
+      "meaning_vi": "Hơi nước",
+      "name_vi": "Khí",
+      "number": 84,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "水",
+      "meaning_vi": "Nước",
+      "name_vi": "Thủy",
+      "number": 85,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "火",
+      "meaning_vi": "Lửa",
+      "name_vi": "Hỏa",
+      "number": 86,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "爪",
+      "meaning_vi": "Móng vuốt cầm thú",
+      "name_vi": "Trảo",
+      "number": 87,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "父",
+      "meaning_vi": "Cha",
+      "name_vi": "Phụ",
+      "number": 88,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "爻",
+      "meaning_vi": "Hào âm, hào dương (kinh dịch)",
+      "name_vi": "Hào",
+      "number": 89,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "爿",
+      "meaning_vi": "Mảnh gỗ, cái giường",
+      "name_vi": "Tường",
+      "number": 90,
+      "strokes": 4,
+      "variants": [
+        "丬"
+      ]
+    },
+    {
+      "char": "片",
+      "meaning_vi": "Mảnh, tấm, miếng",
+      "name_vi": "Phiến",
+      "number": 91,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "牙",
+      "meaning_vi": "Răng",
+      "name_vi": "Nha",
+      "number": 92,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "牛",
+      "meaning_vi": "Trâu",
+      "name_vi": "Ngưu",
+      "number": 93,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "犬",
+      "meaning_vi": "Con chó",
+      "name_vi": "Khuyển",
+      "number": 94,
+      "strokes": 4,
+      "variants": []
+    },
+    {
+      "char": "玄",
+      "meaning_vi": "Màu đen huyền, huyền bí",
+      "name_vi": "Huyền",
+      "number": 95,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "玉",
+      "meaning_vi": "Đá quý, ngọc",
+      "name_vi": "Ngọc",
+      "number": 96,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "瓜",
+      "meaning_vi": "Quả dưa",
+      "name_vi": "Qua",
+      "number": 97,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "瓦",
+      "meaning_vi": "Ngói",
+      "name_vi": "Ngõa",
+      "number": 98,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "甘",
+      "meaning_vi": "Ngọt",
+      "name_vi": "Cam",
+      "number": 99,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "生",
+      "meaning_vi": "Sinh đẻ, sinh sốn",
+      "name_vi": "Sinh",
+      "number": 100,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "用",
+      "meaning_vi": "Sử dụng",
+      "name_vi": "Dụng",
+      "number": 101,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "田",
+      "meaning_vi": "Ruộng",
+      "name_vi": "Điền",
+      "number": 102,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "疋",
+      "meaning_vi": "Đơn vị đo chiều dài, tấm (vải)",
+      "name_vi": "Thất",
+      "number": 103,
+      "strokes": 5,
+      "variants": [
+        "匹"
+      ]
+    },
+    {
+      "char": "疒",
+      "meaning_vi": "Bệnh tật",
+      "name_vi": "Nạch",
+      "number": 104,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "癶",
+      "meaning_vi": "Gạt ngược lại, trở lại",
+      "name_vi": "Bát",
+      "number": 105,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "白",
+      "meaning_vi": "Màu trắng",
+      "name_vi": "Bạch",
+      "number": 106,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "皮",
+      "meaning_vi": "Da",
+      "name_vi": "Bì",
+      "number": 107,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "皿",
+      "meaning_vi": "Bát đĩa",
+      "name_vi": "Mãnh",
+      "number": 108,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "目",
+      "meaning_vi": "Mắt",
+      "name_vi": "Mục",
+      "number": 109,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "矛",
+      "meaning_vi": "Cây giáo để đâm",
+      "name_vi": "Mâu",
+      "number": 110,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "矢",
+      "meaning_vi": "Mũi tên",
+      "name_vi": "Thỉ",
+      "number": 111,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "石",
+      "meaning_vi": "Đá",
+      "name_vi": "Thạch",
+      "number": 112,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "示",
+      "meaning_vi": "Chỉ thị, thần đất",
+      "name_vi": "Thị, kỳ",
+      "number": 113,
+      "strokes": 5,
+      "variants": [
+        "礻"
+      ]
+    },
+    {
+      "char": "禸",
+      "meaning_vi": "Vất chân, lốt chân",
+      "name_vi": "Nhựu",
+      "number": 114,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "禾",
+      "meaning_vi": "Lúa",
+      "name_vi": "Hòa",
+      "number": 115,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "穴",
+      "meaning_vi": "Hang lỗ",
+      "name_vi": "Huyệt",
+      "number": 116,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "立",
+      "meaning_vi": "Đứng, thành lập",
+      "name_vi": "Lập",
+      "number": 117,
+      "strokes": 5,
+      "variants": []
+    },
+    {
+      "char": "竹",
+      "meaning_vi": "Tre trúc",
+      "name_vi": "Trúc",
+      "number": 118,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "米",
+      "meaning_vi": "Gạo",
+      "name_vi": "Mễ",
+      "number": 119,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "糸",
+      "meaning_vi": "Sợi tơ nhỏ",
+      "name_vi": "Mịch",
+      "number": 120,
+      "strokes": 6,
+      "variants": [
+        "糹",
+        "纟"
+      ]
+    },
+    {
+      "char": "缶",
+      "meaning_vi": "Đồ sành",
+      "name_vi": "Phẫu",
+      "number": 121,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "网",
+      "meaning_vi": "Cái lưới",
+      "name_vi": "Võng",
+      "number": 122,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "羊",
+      "meaning_vi": "Con dê",
+      "name_vi": "dương",
+      "number": 123,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "羽",
+      "meaning_vi": "Lông vũ",
+      "name_vi": "Vũ",
+      "number": 124,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "老",
+      "meaning_vi": "Già",
+      "name_vi": "Lão",
+      "number": 125,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "而",
+      "meaning_vi": "Mà, và",
+      "name_vi": "Nhi",
+      "number": 126,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "耒",
+      "meaning_vi": "Cái này",
+      "name_vi": "Lỗi",
+      "number": 127,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "耳",
+      "meaning_vi": "Tai (lỗ tai)",
+      "name_vi": "Nhĩ",
+      "number": 128,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "聿",
+      "meaning_vi": "Cây bút",
+      "name_vi": "Duật",
+      "number": 129,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "肉",
+      "meaning_vi": "Thịt",
+      "name_vi": "Nhục",
+      "number": 130,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "臣",
+      "meaning_vi": "Bầy tôi",
+      "name_vi": "Thần",
+      "number": 131,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "自",
+      "meaning_vi": "Tự bản thân, kể từ",
+      "name_vi": "Tự",
+      "number": 132,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "至",
+      "meaning_vi": "Đến",
+      "name_vi": "Chí",
+      "number": 133,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "臼",
+      "meaning_vi": "Cái cối giã gạo",
+      "name_vi": "Cữu",
+      "number": 134,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "舌",
+      "meaning_vi": "Cái lưỡi",
+      "name_vi": "Thiệt",
+      "number": 135,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "舛",
+      "meaning_vi": "Sai suyễn, sai lầm",
+      "name_vi": "Suyễn",
+      "number": 136,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "舟",
+      "meaning_vi": "Cái thuyền",
+      "name_vi": "Chu",
+      "number": 137,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "艮",
+      "meaning_vi": "Quẻ Cấn (kinh dịch), dừng, bền",
+      "name_vi": "Cấn",
+      "number": 138,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "色",
+      "meaning_vi": "Màu, dáng vẻ, nữ sắc",
+      "name_vi": "Sắc",
+      "number": 139,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "艸",
+      "meaning_vi": "Cỏ",
+      "name_vi": "Thảo",
+      "number": 140,
+      "strokes": 6,
+      "variants": [
+        "艹"
+      ]
+    },
+    {
+      "char": "虍",
+      "meaning_vi": "Vằn vện của con hổ",
+      "name_vi": "Hô",
+      "number": 141,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "虫",
+      "meaning_vi": "Sâu bọ",
+      "name_vi": "Trùng",
+      "number": 142,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "血",
+      "meaning_vi": "Máu",
+      "name_vi": "Huyết",
+      "number": 143,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "行",
+      "meaning_vi": "Đi, thi hành, làm được",
+      "name_vi": "Hành",
+      "number": 144,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "衣",
+      "meaning_vi": "Áo",
+      "name_vi": "Y",
+      "number": 145,
+      "strokes": 6,
+      "variants": [
+        "衤"
+      ]
+    },
+    {
+      "char": "襾",
+      "meaning_vi": "Che đậy, úp lên",
+      "name_vi": "Á",
+      "number": 146,
+      "strokes": 6,
+      "variants": []
+    },
+    {
+      "char": "見",
+      "meaning_vi": "Trông thấy",
+      "name_vi": "Kiến",
+      "number": 147,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "角",
+      "meaning_vi": "Góc, sừng",
+      "name_vi": "Giác",
+      "number": 148,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "言",
+      "meaning_vi": "Nói",
+      "name_vi": "Ngôn",
+      "number": 149,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "谷",
+      "meaning_vi": "Thung lũng",
+      "name_vi": "Cốc",
+      "number": 150,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "豆",
+      "meaning_vi": "Hạt đậu, cây đậu",
+      "name_vi": "Đậu",
+      "number": 151,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "豕",
+      "meaning_vi": "Con heo, con lợn",
+      "name_vi": "Thỉ",
+      "number": 152,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "豸",
+      "meaning_vi": "Loài sâu không chân",
+      "name_vi": "Trãi",
+      "number": 153,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "貝",
+      "meaning_vi": "Vật báu",
+      "name_vi": "Bối",
+      "number": 154,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "赤",
+      "meaning_vi": "Màu đỏ",
+      "name_vi": "Xích",
+      "number": 155,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "走",
+      "meaning_vi": "Đi, chạy",
+      "name_vi": "Tẩu",
+      "number": 156,
+      "strokes": 7,
+      "variants": [
+        "赱"
+      ]
+    },
+    {
+      "char": "足",
+      "meaning_vi": "Chân, đầy đủ",
+      "name_vi": "Túc",
+      "number": 157,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "身",
+      "meaning_vi": "Thân thể, thân mình",
+      "name_vi": "Thân",
+      "number": 158,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "車",
+      "meaning_vi": "Xe",
+      "name_vi": "Xa",
+      "number": 159,
+      "strokes": 7,
+      "variants": [
+        "车"
+      ]
+    },
+    {
+      "char": "辛",
+      "meaning_vi": "cay",
+      "name_vi": "Tân",
+      "number": 160,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "辰",
+      "meaning_vi": "Nhật, nguyệt, tinh, thin (12chi)",
+      "name_vi": "Thần",
+      "number": 161,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "辵",
+      "meaning_vi": "Chợt bước đi, chợt dừng lại",
+      "name_vi": "Sước",
+      "number": 162,
+      "strokes": 7,
+      "variants": [
+        "辶"
+      ]
+    },
+    {
+      "char": "邑",
+      "meaning_vi": "Vùng đất, đất phong cho quan",
+      "name_vi": "Ấp",
+      "number": 163,
+      "strokes": 7,
+      "variants": [
+        "阝"
+      ]
+    },
+    {
+      "char": "酉",
+      "meaning_vi": "Một trong 12 địa chi",
+      "name_vi": "Dậu",
+      "number": 164,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "釆",
+      "meaning_vi": "Phân biệt",
+      "name_vi": "Biện",
+      "number": 165,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "里",
+      "meaning_vi": "Dặm, hàng xóm",
+      "name_vi": "Lý",
+      "number": 166,
+      "strokes": 7,
+      "variants": []
+    },
+    {
+      "char": "金",
+      "meaning_vi": "Kim loại, vàng",
+      "name_vi": "Kim",
+      "number": 167,
+      "strokes": 8,
+      "variants": []
+    },
+    {
+      "char": "長",
+      "meaning_vi": "Dài, lớn",
+      "name_vi": "Trường",
+      "number": 168,
+      "strokes": 8,
+      "variants": [
+        "镸",
+        "长"
+      ]
+    },
+    {
+      "char": "門",
+      "meaning_vi": "Cửa hai cánh",
+      "name_vi": "Môn",
+      "number": 169,
+      "strokes": 8,
+      "variants": [
+        "门"
+      ]
+    },
+    {
+      "char": "阜",
+      "meaning_vi": "Đống đất, gò đất",
+      "name_vi": "Phụ",
+      "number": 170,
+      "strokes": 8,
+      "variants": [
+        "阝"
+      ]
+    },
+    {
+      "char": "隶",
+      "meaning_vi": "Kịp, kịp đến",
+      "name_vi": "Đãi",
+      "number": 171,
+      "strokes": 8,
+      "variants": []
+    },
+    {
+      "char": "隹",
+      "meaning_vi": "Chim đuôi ngắn",
+      "name_vi": "Truy, chuy",
+      "number": 172,
+      "strokes": 8,
+      "variants": []
+    },
+    {
+      "char": "雨",
+      "meaning_vi": "Mưa",
+      "name_vi": "Vũ",
+      "number": 173,
+      "strokes": 8,
+      "variants": []
+    },
+    {
+      "char": "青",
+      "meaning_vi": "Màu xanh",
+      "name_vi": "Thanh",
+      "number": 174,
+      "strokes": 8,
+      "variants": [
+        "靑"
+      ]
+    },
+    {
+      "char": "非",
+      "meaning_vi": "Không",
+      "name_vi": "Phi",
+      "number": 175,
+      "strokes": 8,
+      "variants": []
+    },
+    {
+      "char": "面",
+      "meaning_vi": "Mặt, bề mặt",
+      "name_vi": "Diện",
+      "number": 176,
+      "strokes": 9,
+      "variants": [
+        "靣"
+      ]
+    },
+    {
+      "char": "革",
+      "meaning_vi": "Da thú, thay đổi, cải cách",
+      "name_vi": "Cách",
+      "number": 177,
+      "strokes": 9,
+      "variants": []
+    },
+    {
+      "char": "韋",
+      "meaning_vi": "Da đã thuộc rồi",
+      "name_vi": "Vi",
+      "number": 178,
+      "strokes": 9,
+      "variants": [
+        "韦"
+      ]
+    },
+    {
+      "char": "韭",
+      "meaning_vi": "Rau phỉ (hẹ)",
+      "name_vi": "Phỉ, cửu",
+      "number": 179,
+      "strokes": 9,
+      "variants": []
+    },
+    {
+      "char": "音",
+      "meaning_vi": "Âm thanh,, tiếng",
+      "name_vi": "Âm",
+      "number": 180,
+      "strokes": 9,
+      "variants": []
+    },
+    {
+      "char": "頁",
+      "meaning_vi": "Đầu, trang giấy",
+      "name_vi": "Hiệt",
+      "number": 181,
+      "strokes": 9,
+      "variants": [
+        "页"
+      ]
+    },
+    {
+      "char": "風",
+      "meaning_vi": "Gió",
+      "name_vi": "Phong",
+      "number": 182,
+      "strokes": 9,
+      "variants": [
+        "凬",
+        "风"
+      ]
+    },
+    {
+      "char": "飛",
+      "meaning_vi": "Bay",
+      "name_vi": "Phi",
+      "number": 183,
+      "strokes": 9,
+      "variants": [
+        "飞"
+      ]
+    },
+    {
+      "char": "食",
+      "meaning_vi": "Ăn",
+      "name_vi": "Thực",
+      "number": 184,
+      "strokes": 9,
+      "variants": [
+        "飠",
+        "饣"
+      ]
+    },
+    {
+      "char": "首",
+      "meaning_vi": "Đầu",
+      "name_vi": "Thủ",
+      "number": 185,
+      "strokes": 9,
+      "variants": []
+    },
+    {
+      "char": "香",
+      "meaning_vi": "Mùi hương, hương thơm",
+      "name_vi": "Hương",
+      "number": 186,
+      "strokes": 9,
+      "variants": []
+    },
+    {
+      "char": "馬",
+      "meaning_vi": "Con ngựa",
+      "name_vi": "Mã",
+      "number": 187,
+      "strokes": 10,
+      "variants": [
+        "马"
+      ]
+    },
+    {
+      "char": "骫",
+      "meaning_vi": "Xương",
+      "name_vi": "Cốt",
+      "number": 188,
+      "strokes": 10,
+      "variants": []
+    },
+    {
+      "char": "高",
+      "meaning_vi": "Cao",
+      "name_vi": "Cao",
+      "number": 189,
+      "strokes": 10,
+      "variants": []
+    },
+    {
+      "char": "髟",
+      "meaning_vi": "Tóc dài, sam",
+      "name_vi": "Bưu, tiêu",
+      "number": 190,
+      "strokes": 10,
+      "variants": []
+    },
+    {
+      "char": "鬥",
+      "meaning_vi": "Chống nhau, chiến đấu",
+      "name_vi": "Đấu",
+      "number": 191,
+      "strokes": 10,
+      "variants": []
+    },
+    {
+      "char": "鬯",
+      "meaning_vi": "Rượu nếp, bao đựng cây cung",
+      "name_vi": "Sưởng",
+      "number": 192,
+      "strokes": 10,
+      "variants": []
+    },
+    {
+      "char": "鬲",
+      "meaning_vi": "Tên một con song xưa, cái đỉnh",
+      "name_vi": "Cách",
+      "number": 193,
+      "strokes": 10,
+      "variants": []
+    },
+    {
+      "char": "鬼",
+      "meaning_vi": "Con quỷ",
+      "name_vi": "Quỷ",
+      "number": 194,
+      "strokes": 10,
+      "variants": []
+    },
+    {
+      "char": "魚",
+      "meaning_vi": "con cá",
+      "name_vi": "Ngư",
+      "number": 195,
+      "strokes": 11,
+      "variants": [
+        "鱼"
+      ]
+    },
+    {
+      "char": "鳥",
+      "meaning_vi": "Con chim",
+      "name_vi": "Điểu",
+      "number": 196,
+      "strokes": 11,
+      "variants": []
+    },
+    {
+      "char": "鹵",
+      "meaning_vi": "Đất mặn",
+      "name_vi": "Lỗ",
+      "number": 197,
+      "strokes": 11,
+      "variants": []
+    },
+    {
+      "char": "鹿",
+      "meaning_vi": "Con hươu",
+      "name_vi": "Lộc",
+      "number": 198,
+      "strokes": 11,
+      "variants": []
+    },
+    {
+      "char": "麥",
+      "meaning_vi": "Lúa mạch",
+      "name_vi": "Mạch",
+      "number": 199,
+      "strokes": 11,
+      "variants": [
+        "麦"
+      ]
+    },
+    {
+      "char": "麻",
+      "meaning_vi": "Cây gai",
+      "name_vi": "Ma",
+      "number": 200,
+      "strokes": 11,
+      "variants": []
+    },
+    {
+      "char": "黃",
+      "meaning_vi": "Màu vàng",
+      "name_vi": "Hoàng",
+      "number": 201,
+      "strokes": 12,
+      "variants": []
+    },
+    {
+      "char": "黍",
+      "meaning_vi": "Lúa nếp",
+      "name_vi": "Thử",
+      "number": 202,
+      "strokes": 12,
+      "variants": []
+    },
+    {
+      "char": "黑",
+      "meaning_vi": "Màu đen",
+      "name_vi": "Hắc",
+      "number": 203,
+      "strokes": 12,
+      "variants": []
+    },
+    {
+      "char": "黹",
+      "meaning_vi": "May vá, khâu vá",
+      "name_vi": "Chỉ",
+      "number": 204,
+      "strokes": 12,
+      "variants": []
+    },
+    {
+      "char": "黽",
+      "meaning_vi": "Con ếch, cố gắng",
+      "name_vi": "Mãnh",
+      "number": 205,
+      "strokes": 13,
+      "variants": []
+    },
+    {
+      "char": "鼎",
+      "meaning_vi": "Cái đỉnh",
+      "name_vi": "Đỉnh",
+      "number": 206,
+      "strokes": 13,
+      "variants": []
+    },
+    {
+      "char": "鼓",
+      "meaning_vi": "Cái trống",
+      "name_vi": "Cổ",
+      "number": 207,
+      "strokes": 13,
+      "variants": []
+    },
+    {
+      "char": "鼠",
+      "meaning_vi": "Con chuột",
+      "name_vi": "Thử",
+      "number": 208,
+      "strokes": 13,
+      "variants": []
+    },
+    {
+      "char": "鼻",
+      "meaning_vi": "Cái mũi",
+      "name_vi": "Tỵ",
+      "number": 209,
+      "strokes": 14,
+      "variants": []
+    },
+    {
+      "char": "齊",
+      "meaning_vi": "Ngang bằng, cùng nhau",
+      "name_vi": "Tề",
+      "number": 210,
+      "strokes": 14,
+      "variants": [
+        "斉",
+        "齐"
+      ]
+    },
+    {
+      "char": "齒",
+      "meaning_vi": "Răng",
+      "name_vi": "Xỉ",
+      "number": 211,
+      "strokes": 15,
+      "variants": [
+        "齿",
+        "歯"
+      ]
+    },
+    {
+      "char": "龍",
+      "meaning_vi": "Con rồng",
+      "name_vi": "Long",
+      "number": 212,
+      "strokes": 16,
+      "variants": [
+        "龙"
+      ]
+    },
+    {
+      "char": "龜",
+      "meaning_vi": "Con rùa",
+      "name_vi": "Quy",
+      "number": 213,
+      "strokes": 16,
+      "variants": [
+        "亀",
+        "龟"
+      ]
+    },
+    {
+      "char": "龠",
+      "meaning_vi": "Sáo 3 lỗ",
+      "name_vi": "Dược",
+      "number": 214,
+      "strokes": 17,
+      "variants": []
+    }
+  ],
+  "schema_version": 7,
+  "source": "PDF 214 bộ thủ Kanji (tự tổng hợp)"
+}

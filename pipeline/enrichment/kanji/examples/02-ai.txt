@@ -1,0 +1,402 @@
+# by: ai
+# Nghĩa tiếng Việt cho từ ví dụ Kanji bổ sung từ JMdict (lô 2, 2026-11-10) — AI nháp, chờ duyệt.
+青葉|あおば|lá non, lá xanh
+寒気|かんき|khí lạnh, cái lạnh
+寒さ|さむさ|cái lạnh
+寒波|かんぱ|đợt rét
+悪寒|おかん|ớn lạnh, rùng mình
+暑い|あつい|nóng (thời tiết)
+残暑|ざんしょ|cái nóng cuối hè
+暑さ|あつさ|cái nóng
+酷暑|こくしょ|nắng nóng gay gắt
+嫌悪|けんお|ghê tởm, căm ghét
+死活|しかつ|sống còn
+活字|かつじ|chữ in, con chữ (in ấn)
+活気|かっき|sinh khí, sôi động
+熱い|あつい|nóng (khi chạm vào)
+余地|よち|chỗ trống, dư địa
+余暇|よか|thời gian rảnh
+余波|よは|dư chấn, ảnh hưởng còn lại (sóng sau gió)
+余す|あます|để thừa, để lại
+寮生|りょうせい|học sinh ở ký túc xá
+寮歌|りょうか|bài ca ký túc xá
+寮母|りょうぼ|bà quản lý ký túc xá
+寮父|りょうふ|ông quản lý ký túc xá
+多忙|たぼう|rất bận rộn
+忙中|ぼうちゅう|giữa lúc bận rộn
+忙しげ|せわしげ|có vẻ bận rộn
+大忙し|おおいそがし|cực kỳ bận
+不敵|ふてき|gan dạ, táo bạo
+敵意|てきい|thù địch
+無敵|むてき|vô địch
+政敵|せいてき|đối thủ chính trị
+安易|あんい|dễ dãi, đơn giản
+容易|ようい|dễ dàng
+易い|やすい|dễ
+簡易|かんい|đơn giản, giản tiện
+休暇|きゅうか|kỳ nghỉ, ngày nghỉ
+暇がない|ひまがない|không có thời gian, bận
+暇つぶし|ひまつぶし|giết thời gian
+桜花|おうか|hoa anh đào
+八重桜|やえざくら|anh đào cánh kép
+桜皮|おうひ|vỏ trong cây anh đào
+夜桜|よざくら|ngắm anh đào ban đêm
+味の素|あじのもと|Ajinomoto, bột ngọt
+素子|そし|linh kiện, phần tử (điện tử)
+塩素|えんそ|clo
+綺語|きご|lời hoa mỹ (một trong mười ác nghiệp)
+綺|き|lụa mỏng
+手綺麗|てぎれい|làm khéo, gọn gàng
+口綺麗|くちぎれい|ăn nói thanh lịch
+賑わう|にぎわう|đông đúc, nhộn nhịp
+賑あう|にぎあう|thịnh vượng, buôn bán phát đạt
+賑わい|にぎわい|sự nhộn nhịp, phồn thịnh
+賑わす|にぎわす|làm sôi động, gây xôn xao
+多難|たなん|nhiều gian nan
+無難|ぶなん|an toàn, không có gì sai sót
+苦難|くなん|khổ nạn, gian khổ
+難い|かたい|khó
+美辞麗句|びじれいく|lời lẽ hoa mỹ
+華麗|かれい|lộng lẫy, hoa lệ
+美麗|びれい|mỹ lệ, đẹp đẽ
+麗句|れいく|câu chữ đẹp
+誤字|ごじ|lỗi chính tả, chữ sai
+一字|いちじ|một chữ
+多少|たしょう|ít nhiều, phần nào
+好意|こうい|thiện ý, có cảm tình
+好み|このみ|sở thích, khẩu vị
+好む|このむ|thích, ưa
+好機|こうき|cơ hội tốt
+内気|うちき|nhút nhát, rụt rè
+以内|いない|trong vòng
+早い|はやい|sớm; nhanh
+早期|そうき|giai đoạn đầu, sớm
+早く|はやく|sớm; nhanh
+速さ|はやさ|tốc độ
+加速|かそく|tăng tốc
+主に|おもに|chủ yếu
+主婦|しゅふ|bà nội trợ
+主査|しゅさ|người thẩm tra chính
+亡夫|ぼうふ|người chồng quá cố
+夫人|ふじん|phu nhân, bà
+夫妻|ふさい|vợ chồng
+妻子|さいし|vợ con
+後妻|ごさい|vợ kế
+人妻|ひとづま|người phụ nữ đã có chồng
+和歌|わか|thơ waka (thơ cổ Nhật)
+細工|さいく|đồ thủ công, tay nghề
+細か|こまか|nhỏ, chi tiết
+旅人|たびと|lữ khách
+旅費|りょひ|chi phí đi lại
+旅先|たびさき|nơi đến (khi đi du lịch)
+漢和|かんわ|Hán – Nhật
+漢語|かんご|từ Hán Nhật (từ gốc Hán)
+漢文|かんぶん|Hán văn
+漢方|かんぽう|đông y, thuốc bắc
+仮に|かりに|giả sử
+予約|よやく|đặt trước, hẹn trước
+決め球|きめだま|cú ném quyết định
+四球|しきゅう|bốn bóng hỏng (bóng chày)
+打球|だきゅう|cú đánh bóng
+伎女|ぎじょ|kỹ nữ
+伎楽|ぎがく|kỹ nhạc (kịch múa đeo mặt nạ cổ)
+伎芸|ぎげい|nghệ thuật biểu diễn
+地歌舞伎|じかぶき|kabuki nghiệp dư ở lễ hội địa phương
+奥地|おうち|vùng sâu trong nội địa
+奥山|おくやま|núi sâu
+山奥|やまおく|sâu trong núi
+嫌う|きらう|ghét
+嫌気|いやき|chán ghét
+札束|さつたば|xấp tiền
+結束|けっそく|đoàn kết
+花束|はなたば|bó hoa
+束|たば|bó, xấp
+沢|さわ|suối núi, khe
+光沢|こうたく|độ bóng, ánh
+贅沢|ぜいたく|xa xỉ
+沼沢|しょうたく|đầm lầy
+未然|みぜん|trước khi xảy ra
+破片|はへん|mảnh vỡ
+用いる|もちいる|dùng, sử dụng
+影絵|かげえ|tranh bóng, rối bóng
+絵巻|えまき|tranh cuộn
+舞う|まう|múa; bay lượn
+演舞|えんぶ|biểu diễn múa
+不良|ふりょう|kém, xấu; hư hỏng
+良い|よい|tốt
+良き|よき|điều tốt
+良さ|よさ|điểm tốt, giá trị
+次男|じなん|con trai thứ hai
+男子|だんし|con trai, nam
+一男|いちなん|một con trai; con trai cả
+右派|うは|cánh hữu
+右側|うそく|bên phải
+右手|みぎて|tay phải
+右折|うせつ|rẽ phải
+左派|さは|cánh tả
+左記|さき|như sau, ghi bên trái
+左側|さそく|bên trái
+左右|さゆう|trái phải
+野犬|やけん|chó hoang
+子犬|こいぬ|chó con
+愛犬|あいけん|chó cưng
+番犬|ばんけん|chó giữ nhà
+府県|ふけん|các phủ và tỉnh
+県下|けんか|trong tỉnh
+県議|けんぎ|đại biểu hội đồng tỉnh
+同県|どうけん|cùng tỉnh
+公|おおやけ|công, chính thức, nhà nước
+公使|こうし|công sứ
+公務|こうむ|công vụ
+公募|こうぼ|tuyển công khai, kêu gọi công khai
+花園|はなぞの|vườn hoa
+園内|えんない|trong vườn, trong khuôn viên
+乗馬|じょうば|cưỡi ngựa
+乗り|のり|sự đi, chuyến đi (xe)
+色紙|しきし|giấy shikishi (giấy vuông để xin chữ ký, viết thơ)
+公庫|こうこ|công khố, quỹ tín dụng nhà nước
+国庫|こっこ|quốc khố, ngân khố
+文庫|ぶんこ|thư viện, sách bỏ túi
+車庫|しゃこ|nhà để xe
+事象|じしょう|hiện tượng, sự việc
+具象|ぐしょう|cụ thể, cụ tượng
+気象|きしょう|khí tượng, thời tiết
+喫茶|きっさ|uống trà, quán cà phê
+喫煙|きつえん|hút thuốc
+満喫|まんきつ|tận hưởng
+喫する|きっする|ăn, uống, hút
+別居|べっきょ|ở riêng, ly thân
+居間|いま|phòng khách
+敷居|しきい|ngưỡng cửa
+戸棚|とだな|tủ
+本棚|ほんだな|giá sách
+棚上げ|たなあげ|gác lại, xếp xó
+大陸棚|たいりくだな|thềm lục địa
+乾電池|かんでんち|pin khô
+貯水池|ちょすいち|hồ chứa nước
+電池切れ|でんちぎれ|hết pin
+子猫|こねこ|mèo con
+猫背|ねこぜ|lưng gù
+山猫|やまねこ|mèo rừng
+猫舌|ねこじた|sợ đồ nóng (không ăn được đồ nóng)
+同窓|どうそう|bạn đồng môn
+窓口|まどぐち|quầy, cửa giao dịch
+窓際|まどぎわ|cạnh cửa sổ
+車窓|しゃそう|cửa sổ tàu xe
+本箱|ほんばこ|tủ sách
+重箱|じゅうばこ|hộp đựng đồ ăn nhiều tầng
+大蔵|おおくら|Bộ Tài chính (cũ)
+地蔵|じぞう|Bồ tát Địa Tạng
+内蔵|ないぞう|gắn sẵn bên trong
+冷蔵|れいぞう|bảo quản lạnh
+隣家|りんか|nhà bên cạnh
+近隣|きんりん|láng giềng, vùng lân cận
+隣人|りんじん|hàng xóm
+隣国|りんこく|nước láng giềng
+三度|さんど|ba lần
+三時|さんじ|ba giờ
+三次|さんじ|thứ ba, bậc ba
+三部|さんぶ|ba phần; ba bản
+二度|にど|hai lần
+二期|にき|hai kỳ, hai nhiệm kỳ
+二次|にじ|thứ hai, thứ cấp
+五分|ごぶ|một nửa, 50%
+五体|ごたい|toàn thân
+五感|ごかん|năm giác quan
+五輪|ごりん|Thế vận hội
+四季|しき|bốn mùa
+四人|よにん|bốn người
+四国|しこく|Shikoku (đảo nhỏ nhất trong bốn đảo chính của Nhật)
+四方|しほう|bốn phương
+七夕|しちせき|lễ Thất tịch (Tanabata)
+十七|じゅうしち|mười bảy
+七|しち|bảy
+九九|くく|bảng cửu chương
+九重|くじゅう|chín lớp
+十九|じゅうきゅう|mười chín
+九|く|chín
+八方|はっぽう|tám hướng, mọi phía
+八重|やえ|tám lớp, nhiều lớp
+八丁|はっちょう|khéo léo
+十八|じゅうはち|mười tám
+十六|じゅうろく|mười sáu
+六|む|sáu
+六味|ろくみ|sáu vị (đắng, chua, ngọt, mặn, cay, nhạt)
+六時|ろくじ|sáu giờ
+十二|じゅうに|mười hai
+十五|じゅうご|mười lăm
+十四|じゅうし|mười bốn
+二回|にかい|hai lần
+回し|まわし|đai khố (của đô vật sumo)
+父兄|ふけい|phụ huynh
+姉妹|しまい|chị em gái
+義妹|ぎまい|em dâu, em vợ, em chồng (nữ)
+弟妹|ていまい|em trai và em gái
+義姉|ぎし|chị dâu, chị vợ, chị chồng
+姉さん|あねさん|chị
+弟子|でし|đệ tử, học trò
+子弟|してい|con em
+台地|だいち|cao nguyên
+枝葉|しよう|cành lá; chi tiết vụn vặt
+留める|とどめる|dừng lại, giữ lại
+保留|ほりゅう|bảo lưu, tạm hoãn
+両手|りょうて|hai tay
+両氏|りょうし|cả hai vị
+一両|いちりょう|một toa xe
+両側|りょうがわ|hai bên
+同封|どうふう|gửi kèm (trong thư)
+完封|かんぷう|chặn hoàn toàn; thắng trắng (không để đối phương ghi điểm)
+封書|ふうしょ|thư dán kín
+開封|かいふう|mở (thư, gói)
+掛け|かけ|mua chịu, ghi nợ
+林|はやし|rừng
+林野|りんや|rừng và đồng
+山林|さんりん|rừng núi
+林学|りんがく|lâm học
+二枚|にまい|hai tờ, hai tấm
+一枚|いちまい|một tờ, một tấm
+三枚|さんまい|ba tờ, ba tấm
+枚挙|まいきょ|liệt kê, kể ra
+柑果|かんか|quả họ cam quýt
+夏柑|なつかん|cam mùa hè Nhật (natsumikan)
+晩柑|ばんかん|cam quýt chín muộn
+金柑|きんかん|quất
+冬林檎|ふゆりんご|táo mùa đông
+林檎酸|りんごさん|axit malic
+皆無|かいむ|hoàn toàn không có
+皆様|みなさま|quý vị, mọi người
+皆目|かいもく|hoàn toàn (không)
+皆さん|みなさん|mọi người, các bạn
+筒|つつ|ống
+気筒|きとう|xi lanh
+円筒|えんとう|hình trụ
+水筒|すいとう|bình nước
+蜜|みつ|mật (hoa)
+花蜜|かみつ|mật hoa
+蜜語|みつご|lời thì thầm yêu đương
+山蜜|やまみつ|mật ong rừng
+海路|うみじ|đường biển
+海辺|うみべ|bờ biển
+天の川|あまのかわ|dải Ngân Hà
+時雨|じう|mưa rào cuối thu đầu đông
+雨季|うき|mùa mưa
+大雨|たいう|mưa lớn
+過多|かた|quá nhiều, dư thừa
+多く|おおく|nhiều
+多し|おおし|nhiều
+遠く|とおく|nơi xa
+遠山|えんざん|núi xa
+遠方|えんぽう|phương xa
+軽油|けいゆ|dầu diesel
+手軽|てがる|dễ dàng, đơn giản
+気軽|きがる|thoải mái, không ngại ngần
+身軽|みがる|nhẹ nhàng, nhanh nhẹn
+冬季|とうき|mùa đông
+冬場|ふゆば|mùa đông
+冬期|とうき|mùa đông, học kỳ đông
+真冬|まふゆ|giữa mùa đông
+夏季|かき|mùa hè
+夏期|かき|mùa hè, học kỳ hè
+今夏|こんか|mùa hè này
+冷夏|れいか|mùa hè mát bất thường
+春季|しゅんき|mùa xuân
+春先|はるさき|đầu xuân
+春秋|はるあき|xuân và thu
+来春|らいはる|mùa xuân tới
+秋季|しゅうき|mùa thu
+秋口|あきぐち|đầu thu
+秋風|あきかぜ|gió thu
+大雪|たいせつ|tuyết rơi dày
+初雪|はつゆき|tuyết đầu mùa
+新雪|しんせつ|tuyết mới
+積雪|せきせつ|tuyết phủ
+世論|よろん|dư luận
+下界|げかい|hạ giới
+外界|がいかい|thế giới bên ngoài
+学界|がっかい|giới học thuật
+温まる|ぬくまる|sưởi ấm, ấm lên
+暖かい|あたたかい|ấm áp
+暖冬|だんとう|mùa đông ấm
+温暖|おんだん|ôn hòa, ấm áp
+簡素|かんそ|giản dị, đơn sơ
+書簡|しょかん|thư từ
+簡潔|かんけつ|ngắn gọn, súc tích
+焼死|しょうし|chết cháy
+単に|たんに|đơn thuần, chỉ
+単位|たんい|đơn vị; tín chỉ
+単価|たんか|đơn giá
+単語|たんご|từ vựng, từ
+司る|つかさどる|cai quản, phụ trách
+公司|こうし|công ty (ở Trung Quốc)
+司令|しれい|chỉ huy, tư lệnh
+季語|きご|quý ngữ (từ chỉ mùa trong thơ haiku)
+寿|ことぶき|lời chúc mừng
+天寿|てんじゅ|tuổi trời, thọ trời cho
+寿命|じゅみょう|tuổi thọ
+長寿|ちょうじゅ|trường thọ
+曇る|くもる|trời nhiều mây, âm u
+晴曇|せいどん|nắng và nhiều mây
+曇天|どんてん|trời âm u
+涼風|りょうふう|gió mát
+涼む|すずむ|hóng mát
+清涼|せいりょう|mát mẻ, thanh mát
+涼み|すずみ|sự hóng mát
+寄港|きこう|ghé cảng
+港内|こうない|trong cảng
+軍港|ぐんこう|quân cảng
+甘美|かんび|ngọt ngào
+甘え|あまえ|sự nũng nịu, ỷ lại
+甘味|あまみ|vị ngọt
+甘言|かんげん|lời đường mật
+祭日|さいじつ|ngày lễ
+祭る|まつる|thờ cúng
+祭礼|さいれい|lễ hội (tôn giáo)
+節目|ふしめ|bước ngoặt, cột mốc
+使節|しせつ|sứ giả, phái đoàn
+養豚|ようとん|nuôi lợn
+豚|ぶた|con lợn
+豚菜|ぶたな|cỏ tai mèo (Hypochoeris radicata)
+塩豚|しおぶた|thịt lợn muối
+辛苦|しんく|gian khổ
+辛口|からくち|vị cay; (rượu) vị khô, không ngọt
+辛抱|しんぼう|kiên nhẫn, chịu đựng
+辛勝|しんしょう|thắng sát nút
+山川|さんせん|núi sông
+小川|おがわ|suối nhỏ
+川上|かわかみ|thượng nguồn
+川下|かわしも|hạ nguồn
+広さ|ひろさ|diện tích, độ rộng
+広場|ひろば|quảng trường
+背広|せびろ|com lê
+不正|ふせい|bất chính, gian lận
+水泳|すいえい|bơi lội
+泳ぎ|およぎ|sự bơi
+泳ぐ|およぐ|bơi
+遠泳|えんえい|bơi đường dài
+迎合|げいごう|xu nịnh, chiều theo
+迎え|むかえ|đón
+送迎|そうげい|đưa đón
+出迎え|でむかえ|ra đón
+遊歩|ゆうほ|đi dạo
+遊び|あそび|trò chơi, sự chơi
+遊ぶ|あそぶ|chơi
+外遊|がいゆう|đi nước ngoài
+疲労|ひろう|mệt mỏi
+疲れる|つかれる|mệt
+意欲|いよく|ý chí, hăng hái
+無欲|むよく|không ham muốn, vô dục
+性欲|せいよく|ham muốn tình dục
+欲望|よくぼう|dục vọng
+未婚|みこん|chưa kết hôn
+離婚|りこん|ly hôn
+散布|さんぷ|rải, phun
+散歩|さんぽ|đi dạo
+末に|すえに|cuối cùng, sau khi
+始末|しまつ|xử lý, giải quyết
+期末|きまつ|cuối kỳ
+末期|まっき|giai đoạn cuối
+狭心症|きょうしんしょう|đau thắt ngực
+狭まる|せばまる|thu hẹp lại
+狭める|せばめる|thu hẹp
+偏狭|へんきょう|hẹp hòi
+釣る|つる|câu (cá)

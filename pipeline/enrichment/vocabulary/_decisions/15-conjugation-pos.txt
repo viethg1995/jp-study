@@ -1,0 +1,4 @@
+# by: ai
+# Vòng 15 — sửa từ loại, phát hiện khi chia thể (engine không chia được), 2026-11-10
+# id | CODE | ghi chú
+39-037|N|おおぜい (大勢, nhiều người) là danh từ / trạng từ, không phải tính từ い — 大勢 không tận cùng い

@@ -1,0 +1,11 @@
+---
+// Nhãn ngắn, hover hoặc focus (bàn phím / chạm) hiện chú thích. Thuần CSS — style ở global.css (.tip).
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+---
+
+<span class="tip" tabindex="0" data-tip={text} aria-label={text}>
+  <slot />
+</span>

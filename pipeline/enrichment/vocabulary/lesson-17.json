@@ -1,0 +1,373 @@
+{
+  "mn-17-001": {
+    "examples": [
+      {
+        "id": "mn-17-001-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{漢字|かんじ}を[[{覚|おぼ}えなければなりません]]。",
+        "source": "ai-draft",
+        "vi": "Tôi phải nhớ chữ Hán."
+      }
+    ]
+  },
+  "mn-17-002": {
+    "examples": [
+      {
+        "id": "mn-17-002-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{宿題|しゅくだい}を[[{忘|わす}れないで]]ください。",
+        "source": "ai-draft",
+        "vi": "Đừng quên bài tập về nhà."
+      }
+    ]
+  },
+  "mn-17-003": {
+    "examples": [
+      {
+        "id": "mn-17-003-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{鍵|かぎ}を[[なくさないで]]ください。",
+        "source": "ai-draft",
+        "vi": "Đừng làm mất chìa khóa."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "なくします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-17-004": {
+    "examples": [
+      {
+        "id": "mn-17-004-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "ここでお{金|かね}を[[{払|はら}わなければなりません]]。",
+        "source": "ai-draft",
+        "vi": "Phải trả tiền ở đây."
+      }
+    ]
+  },
+  "mn-17-005": {
+    "examples": [
+      {
+        "id": "mn-17-005-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{金曜日|きんようび}までに{本|ほん}を[[{返|かえ}さなければなりません]]。",
+        "source": "ai-draft",
+        "vi": "Phải trả sách trước thứ sáu."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "かえします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-17-006": {
+    "examples": [
+      {
+        "id": "mn-17-006-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{明日|あした}は[[{出|で}かけなくても]]いいです。",
+        "source": "ai-draft",
+        "vi": "Ngày mai không cần ra ngoài cũng được."
+      }
+    ]
+  },
+  "mn-17-007": {
+    "examples": [
+      {
+        "id": "mn-17-007-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "ここで{靴|くつ}を[[{脱|ぬ}いで]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy cởi giày ở đây."
+      }
+    ]
+  },
+  "mn-17-008": {
+    "examples": [
+      {
+        "id": "mn-17-008-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{雨|あめ}ですから、{傘|かさ}を[[{持|も}って{行|い}きます]]。",
+        "source": "ai-draft",
+        "vi": "Vì trời mưa nên tôi mang ô theo."
+      }
+    ]
+  },
+  "mn-17-009": {
+    "examples": [
+      {
+        "id": "mn-17-009-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{明日|あした}{辞書|じしょ}を[[{持|も}って{来|き}ます]]。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi mang từ điển đến."
+      }
+    ]
+  },
+  "mn-17-010": {
+    "examples": [
+      {
+        "id": "mn-17-010-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{心配|しんぱい}しないで]]ください。",
+        "source": "ai-draft",
+        "vi": "Đừng lo lắng."
+      }
+    ]
+  },
+  "mn-17-011": {
+    "examples": [
+      {
+        "id": "mn-17-011-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{残業|ざんぎょう}しなければなりません]]。",
+        "source": "ai-draft",
+        "vi": "Hôm nay tôi phải làm thêm giờ."
+      }
+    ]
+  },
+  "mn-17-012": {
+    "examples": [
+      {
+        "id": "mn-17-012-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{来週|らいしゅう}{大阪|おおさか}へ[[{出張|しゅっちょう}します]]。",
+        "source": "ai-draft",
+        "vi": "Tuần sau tôi đi công tác Osaka."
+      }
+    ]
+  },
+  "mn-17-013": {
+    "examples": [
+      {
+        "id": "mn-17-013-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{毎日|まいにち}{薬|くすり}を[[{飲|の}まなければなりません]]。",
+        "source": "ai-draft",
+        "vi": "Ngày nào tôi cũng phải uống thuốc."
+      }
+    ]
+  },
+  "mn-17-014": {
+    "examples": [
+      {
+        "id": "mn-17-014-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{今晩|こんばん}はお{風呂|ふろ}に[[{入|はい}らないで]]ください。",
+        "source": "ai-draft",
+        "vi": "Tối nay đừng tắm bồn."
+      }
+    ]
+  },
+  "mn-17-015": {
+    "examples": [
+      {
+        "id": "mn-17-015-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "これは[[{大切|たいせつ}]]な{写真|しゃしん}です。",
+        "source": "ai-draft",
+        "vi": "Đây là bức ảnh quý giá."
+      }
+    ]
+  },
+  "mn-17-016": {
+    "examples": [
+      {
+        "id": "mn-17-016-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{大丈夫|だいじょうぶ}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Bạn có sao không?"
+      }
+    ]
+  },
+  "mn-17-017": {
+    "examples": [
+      {
+        "id": "mn-17-017-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "ここは[[{危|あぶ}ない]]ですから、{入|はい}らないでください。",
+        "source": "ai-draft",
+        "vi": "Ở đây nguy hiểm nên đừng vào."
+      }
+    ]
+  },
+  "mn-17-018": {
+    "examples": [
+      {
+        "id": "mn-17-018-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "ここは[[{禁煙|きんえん}]]です。",
+        "source": "ai-draft",
+        "vi": "Ở đây cấm hút thuốc."
+      }
+    ]
+  },
+  "mn-17-019": {
+    "examples": [
+      {
+        "id": "mn-17-019-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{保険証|ほけんしょう}]]を{見|み}せてください。",
+        "source": "ai-draft",
+        "vi": "Hãy cho tôi xem thẻ bảo hiểm."
+      }
+    ]
+  },
+  "mn-17-020": {
+    "examples": [
+      {
+        "id": "mn-17-020-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{熱|ねつ}]]がありますから、{会社|かいしゃ}を{休|やす}みます。",
+        "source": "ai-draft",
+        "vi": "Vì bị sốt nên tôi nghỉ làm."
+      }
+    ]
+  },
+  "mn-17-021": {
+    "examples": [
+      {
+        "id": "mn-17-021-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{母|はは}は[[{病気|びょうき}]]です。",
+        "source": "ai-draft",
+        "vi": "Mẹ tôi bị ốm."
+      }
+    ]
+  },
+  "mn-17-022": {
+    "examples": [
+      {
+        "id": "mn-17-022-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "この[[{薬|くすり}]]を{飲|の}んでください。",
+        "source": "ai-draft",
+        "vi": "Hãy uống thuốc này."
+      }
+    ]
+  },
+  "mn-17-023": {
+    "examples": [
+      {
+        "id": "mn-17-023-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{風呂|ふろ}]]に{入|はい}ってから、{寝|ね}ます。",
+        "source": "ai-draft",
+        "vi": "Tôi tắm bồn rồi đi ngủ."
+      }
+    ],
+    "han_viet": "PHONG LỮ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "thống nhất với 風呂敷 PHONG LỮ PHU",
+      "status": "reviewed"
+    }
+  },
+  "mn-17-024": {
+    "examples": [
+      {
+        "id": "mn-17-024-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{上着|うわぎ}]]を{脱|ぬ}いでください。",
+        "source": "ai-draft",
+        "vi": "Hãy cởi áo khoác ra."
+      }
+    ]
+  },
+  "mn-17-025": {
+    "examples": [
+      {
+        "id": "mn-17-025-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{下着|したぎ}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua quần áo lót."
+      }
+    ]
+  },
+  "mn-17-026": {
+    "examples": [
+      {
+        "id": "mn-17-026-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[{２，３日|に、さんにち}]]{休|やす}んでください。",
+        "source": "ai-draft",
+        "vi": "Hãy nghỉ 2, 3 ngày."
+      }
+    ]
+  },
+  "mn-17-027": {
+    "examples": [
+      {
+        "id": "mn-17-027-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "[[２，３]]{分|ぷん}{待|ま}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy chờ 2, 3 phút."
+      }
+    ]
+  },
+  "mn-17-028": {
+    "examples": [
+      {
+        "id": "mn-17-028-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{金曜日|きんようび}[[までに]]レポートを{出|だ}してください。",
+        "source": "ai-draft",
+        "vi": "Hãy nộp báo cáo trước thứ sáu."
+      }
+    ]
+  },
+  "mn-17-029": {
+    "examples": [
+      {
+        "id": "mn-17-029-e1",
+        "max_lesson": 17,
+        "review": "user",
+        "ruby": "{明日|あした}は{試験|しけん}です。[[ですから]]、{今晩|こんばん}は{勉強|べんきょう}します。",
+        "source": "ai-draft",
+        "vi": "Ngày mai có thi. Vì vậy tối nay tôi học bài."
+      }
+    ]
+  }
+}

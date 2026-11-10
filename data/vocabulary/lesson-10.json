@@ -1,0 +1,2028 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-001-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{机|つくえ}の{上|うえ}に{本|ほん}が[[あります]]。",
+          "source": "ai-draft",
+          "vi": "Trên bàn có quyển sách."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-001",
+      "kana": "あります",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_1",
+      "lesson": 10,
+      "meaning_vi": "có (tồn tại, dùng cho đồ vật)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-09-002",
+        "mn-21-005",
+        "mn-33-012"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "có (tồn tại, dùng cho đồ vật)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-002-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{部屋|へや}に{猫|ねこ}が[[{居|い}ます]]。",
+          "source": "ai-draft",
+          "vi": "Trong phòng có con mèo."
+        }
+      ],
+      "han_viet": "CƯ",
+      "id": "mn-10-002",
+      "kana": "います",
+      "kanji": "居ます",
+      "kanji_refs": [
+        "k-居"
+      ],
+      "legacy_id": "lesson10_2",
+      "lesson": 10,
+      "meaning_vi": "có, ở (tồn tại, dùng cho người và động vật)",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-11-001",
+        "mn-11-002"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "có, ở (tồn tại, dùng cho người và động vật)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-003-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "この{店|みせ}には[[{色々|いろいろ}]]な{果物|くだもの}があります。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng này có nhiều loại hoa quả."
+        }
+      ],
+      "han_viet": "SẮC SẮC",
+      "id": "mn-10-003",
+      "kana": "いろいろ",
+      "kanji": "色々",
+      "kanji_refs": [
+        "k-色"
+      ],
+      "legacy_id": "lesson10_3",
+      "lesson": 10,
+      "meaning_vi": "nhiều, đa dạng",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhiều, đa dạng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-004-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "あそこに[[{男|おとこ}の{人|ひと}]]がいます。",
+          "source": "ai-draft",
+          "vi": "Ở đằng kia có một người đàn ông."
+        }
+      ],
+      "han_viet": "NAM NHÂN",
+      "id": "mn-10-004",
+      "kana": "おとこのひと",
+      "kanji": "男の人",
+      "kanji_refs": [
+        "k-男",
+        "k-人"
+      ],
+      "legacy_id": "lesson10_4",
+      "lesson": 10,
+      "meaning_vi": "người đàn ông",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "người đàn ông"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-005-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{受付|うけつけ}に[[{女|おんな}の{人|ひと}]]がいます。",
+          "source": "ai-draft",
+          "vi": "Ở quầy lễ tân có một người phụ nữ."
+        }
+      ],
+      "han_viet": "NỮ NHÂN",
+      "id": "mn-10-005",
+      "kana": "おんなのひと",
+      "kanji": "女の人",
+      "kanji_refs": [
+        "k-女",
+        "k-人"
+      ],
+      "legacy_id": "lesson10_5",
+      "lesson": 10,
+      "meaning_vi": "người đàn bà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "người đàn bà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-006-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{公園|こうえん}に[[{男|おとこ}の{子|こ}]]がいます。",
+          "source": "ai-draft",
+          "vi": "Ở công viên có một cậu bé."
+        }
+      ],
+      "han_viet": "NAM TỬ",
+      "id": "mn-10-006",
+      "kana": "おとこのこ",
+      "kanji": "男の子",
+      "kanji_refs": [
+        "k-男",
+        "k-子"
+      ],
+      "legacy_id": "lesson10_6",
+      "lesson": 10,
+      "meaning_vi": "cậu con trai",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cậu con trai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-007-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{教室|きょうしつ}に[[{女|おんな}の{子|こ}]]がいます。",
+          "source": "ai-draft",
+          "vi": "Trong lớp học có một cô bé."
+        }
+      ],
+      "han_viet": "NỮ TỬ",
+      "id": "mn-10-007",
+      "kana": "おんなのこ",
+      "kanji": "女の子",
+      "kanji_refs": [
+        "k-女",
+        "k-子"
+      ],
+      "legacy_id": "lesson10_7",
+      "lesson": 10,
+      "meaning_vi": "cô con gái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cô con gái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-008-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{庭|にわ}に[[{犬|いぬ}]]がいます。",
+          "source": "ai-draft",
+          "vi": "Ngoài vườn có con chó."
+        }
+      ],
+      "han_viet": "KHUYỂN",
+      "id": "mn-10-008",
+      "kana": "いぬ",
+      "kanji": "犬",
+      "kanji_refs": [
+        "k-犬"
+      ],
+      "legacy_id": "lesson10_8",
+      "lesson": 10,
+      "meaning_vi": "chó",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-009-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{机|つくえ}の{下|した}に[[{猫|ねこ}]]がいます。",
+          "source": "ai-draft",
+          "vi": "Dưới bàn có con mèo."
+        }
+      ],
+      "han_viet": "MIÊU",
+      "id": "mn-10-009",
+      "kana": "ねこ",
+      "kanji": "猫",
+      "kanji_refs": [
+        "k-猫"
+      ],
+      "legacy_id": "lesson10_9",
+      "lesson": 10,
+      "meaning_vi": "mèo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mèo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-010-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[パンダ]]はどこにいますか。",
+          "source": "ai-draft",
+          "vi": "Gấu trúc ở đâu?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-010",
+      "kana": "パンダ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_10",
+      "lesson": 10,
+      "meaning_vi": "gấu trúc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gấu trúc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-011-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{象|ぞう}]]は{大|おお}きいです。",
+          "source": "ai-draft",
+          "vi": "Con voi to."
+        }
+      ],
+      "han_viet": "TƯỢNG",
+      "id": "mn-10-011",
+      "kana": "ぞう",
+      "kanji": "象",
+      "kanji_refs": [
+        "k-象"
+      ],
+      "legacy_id": "lesson10_11",
+      "lesson": 10,
+      "meaning_vi": "voi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "voi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-012-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{家|うち}の{前|まえ}に[[{木|き}]]があります。",
+          "source": "ai-draft",
+          "vi": "Trước nhà có một cái cây."
+        }
+      ],
+      "han_viet": "MỘC",
+      "id": "mn-10-012",
+      "kana": "き",
+      "kanji": "木",
+      "kanji_refs": [
+        "k-木"
+      ],
+      "legacy_id": "lesson10_12",
+      "lesson": 10,
+      "meaning_vi": "cây, gỗ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cây, gỗ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-013-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "この{箱|はこ}の{中|なか}に{色々|いろいろ}な[[{物|もの}]]があります。",
+          "source": "ai-draft",
+          "vi": "Trong hộp này có nhiều đồ vật."
+        }
+      ],
+      "han_viet": "VẬT",
+      "id": "mn-10-013",
+      "kana": "もの",
+      "kanji": "物",
+      "kanji_refs": [
+        "k-物"
+      ],
+      "legacy_id": "lesson10_13",
+      "lesson": 10,
+      "meaning_vi": "vật, đồ vật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vật, đồ vật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-014-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{電池|でんち}]]はどこにありますか。",
+          "source": "ai-draft",
+          "vi": "Pin ở đâu?"
+        }
+      ],
+      "han_viet": "ĐIỆN TRÌ",
+      "id": "mn-10-014",
+      "kana": "でんち",
+      "kanji": "電池",
+      "kanji_refs": [
+        "k-電",
+        "k-池"
+      ],
+      "legacy_id": "lesson10_14",
+      "lesson": 10,
+      "meaning_vi": "Pin",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Pin"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-015-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{箱|はこ}]]の{中|なか}にお{金|かね}があります。",
+          "source": "ai-draft",
+          "vi": "Trong hộp có tiền."
+        }
+      ],
+      "han_viet": "TƯƠNG",
+      "id": "mn-10-015",
+      "kana": "はこ",
+      "kanji": "箱",
+      "kanji_refs": [
+        "k-箱"
+      ],
+      "legacy_id": "lesson10_15",
+      "lesson": 10,
+      "meaning_vi": "hộp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hộp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-016-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[スイッチ]]はドアの{右|みぎ}にあります。",
+          "source": "ai-draft",
+          "vi": "Công tắc ở bên phải cửa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-016",
+      "kana": "スイッチ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_16",
+      "lesson": 10,
+      "meaning_vi": "công tắc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "công tắc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-017-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{冷蔵庫|れいぞうこ}]]に{牛乳|ぎゅうにゅう}があります。",
+          "source": "ai-draft",
+          "vi": "Trong tủ lạnh có sữa."
+        }
+      ],
+      "han_viet": "LÃNH TÀNG KHỐ",
+      "id": "mn-10-017",
+      "kana": "れいぞうこ",
+      "kanji": "冷蔵庫",
+      "kanji_refs": [
+        "k-冷",
+        "k-蔵",
+        "k-庫"
+      ],
+      "legacy_id": "lesson10_17",
+      "lesson": 10,
+      "meaning_vi": "tủ lạnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tủ lạnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-018-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[テーブル]]の{上|うえ}に{花|はな}があります。",
+          "source": "ai-draft",
+          "vi": "Trên bàn có hoa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-018",
+      "kana": "テーブル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_18",
+      "lesson": 10,
+      "meaning_vi": "bàn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bàn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-019-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[ベッド]]の{下|した}に{猫|ねこ}がいます。",
+          "source": "ai-draft",
+          "vi": "Dưới giường có con mèo."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-019",
+      "kana": "ベッド",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_19",
+      "lesson": 10,
+      "meaning_vi": "giường",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giường"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-020-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{棚|たな}]]の{上|うえ}に{辞書|じしょ}があります。",
+          "source": "ai-draft",
+          "vi": "Trên giá có cuốn từ điển."
+        }
+      ],
+      "han_viet": "BẰNG",
+      "id": "mn-10-020",
+      "kana": "たな",
+      "kanji": "棚",
+      "kanji_refs": [
+        "k-棚"
+      ],
+      "legacy_id": "lesson10_20",
+      "lesson": 10,
+      "meaning_vi": "giá sách",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giá sách"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-021-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[ドア]]の{前|まえ}に{犬|いぬ}がいます。",
+          "source": "ai-draft",
+          "vi": "Trước cửa có con chó."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-021",
+      "kana": "ドア",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_21",
+      "lesson": 10,
+      "meaning_vi": "cửa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cửa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-022-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{窓|まど}]]の{近|ちか}くに{机|つくえ}があります。",
+          "source": "ai-draft",
+          "vi": "Gần cửa sổ có cái bàn."
+        }
+      ],
+      "han_viet": "SONG",
+      "id": "mn-10-022",
+      "kana": "まど",
+      "kanji": "窓",
+      "kanji_refs": [
+        "k-窓"
+      ],
+      "legacy_id": "lesson10_22",
+      "lesson": 10,
+      "meaning_vi": "cửa sổ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cửa sổ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-023-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[ポスト]]は{郵便局|ゆうびんきょく}の{前|まえ}にあります。",
+          "source": "ai-draft",
+          "vi": "Hòm thư ở trước bưu điện."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-023",
+      "kana": "ポスト",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_23",
+      "lesson": 10,
+      "meaning_vi": "hộp thư, hòm thư",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hộp thư, hòm thư"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-024-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "あの[[ビル]]の{中|なか}に{銀行|ぎんこう}があります。",
+          "source": "ai-draft",
+          "vi": "Trong tòa nhà kia có ngân hàng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-024",
+      "kana": "ビル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_24",
+      "lesson": 10,
+      "meaning_vi": "toà nhà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "toà nhà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-025-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{駅|えき}に[[ATM]]がありますか。",
+          "source": "ai-draft",
+          "vi": "Ở nhà ga có máy ATM không?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-025",
+      "kana": "ATM",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_25",
+      "lesson": 10,
+      "meaning_vi": "máy rút tiền tự động ATM",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "máy rút tiền tự động ATM"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-026-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{駅|えき}の{近|ちか}くに[[コンビニ]]があります。",
+          "source": "ai-draft",
+          "vi": "Gần nhà ga có cửa hàng tiện lợi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-026",
+      "kana": "コンビニ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_26",
+      "lesson": 10,
+      "meaning_vi": "cửa hàng tiện lợi (mở 24/24)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cửa hàng tiện lợi (mở 24/24)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-027-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{公園|こうえん}]]に{子|こ}どもがいます。",
+          "source": "ai-draft",
+          "vi": "Ở công viên có trẻ con."
+        }
+      ],
+      "han_viet": "CÔNG VIÊN",
+      "id": "mn-10-027",
+      "kana": "こうえん",
+      "kanji": "公園",
+      "kanji_refs": [
+        "k-公",
+        "k-園"
+      ],
+      "legacy_id": "lesson10_27",
+      "lesson": 10,
+      "meaning_vi": "công viên",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "công viên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-028-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{駅|えき}の{前|まえ}に[[{喫茶店|きっさてん}]]があります。",
+          "source": "ai-draft",
+          "vi": "Trước nhà ga có quán cà phê."
+        }
+      ],
+      "han_viet": "KHIẾT TRÀ ĐIẾM",
+      "id": "mn-10-028",
+      "kana": "きっさてん",
+      "kanji": "喫茶店",
+      "kanji_refs": [
+        "k-喫",
+        "k-茶",
+        "k-店"
+      ],
+      "legacy_id": "lesson10_28",
+      "lesson": 10,
+      "meaning_vi": "quán giải khát, quán cà-phê",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quán giải khát, quán cà-phê"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-029-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{本|ほん}[[{屋|や}]]は{銀行|ぎんこう}の{隣|となり}です。",
+          "source": "ai-draft",
+          "vi": "Hiệu sách ở bên cạnh ngân hàng."
+        }
+      ],
+      "han_viet": "ỐC",
+      "id": "mn-10-029",
+      "kana": "～や",
+      "kanji": "～屋",
+      "kanji_refs": [
+        "k-屋"
+      ],
+      "legacy_id": "lesson10_29",
+      "lesson": 10,
+      "meaning_vi": "hiệu ～, cửa hàng ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-39-032"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "hiệu ～, cửa hàng ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-030-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "タクシー[[{乗|の}り{場|ば}]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Bến taxi ở đâu?"
+        }
+      ],
+      "han_viet": "THỪA TRƯỜNG",
+      "id": "mn-10-030",
+      "kana": "のりば",
+      "kanji": "乗り場",
+      "kanji_refs": [
+        "k-乗",
+        "k-場"
+      ],
+      "legacy_id": "lesson10_30",
+      "lesson": 10,
+      "meaning_vi": "bến xe, điểm lên xuống xe",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bến xe, điểm lên xuống xe"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-031-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{私|わたし}の[[{県|けん}]]には{山|やま}が{沢山|たくさん}あります。",
+          "source": "ai-draft",
+          "vi": "Tỉnh của tôi có nhiều núi."
+        }
+      ],
+      "han_viet": "HUYỆN",
+      "id": "mn-10-031",
+      "kana": "けん",
+      "kanji": "県",
+      "kanji_refs": [
+        "k-県"
+      ],
+      "legacy_id": "lesson10_31",
+      "lesson": 10,
+      "meaning_vi": "tỉnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tỉnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-032-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{机|つくえ}の[[{上|うえ}]]に{写真|しゃしん}があります。",
+          "source": "ai-draft",
+          "vi": "Trên bàn có bức ảnh."
+        }
+      ],
+      "han_viet": "THƯỢNG",
+      "id": "mn-10-032",
+      "kana": "うえ",
+      "kanji": "上",
+      "kanji_refs": [
+        "k-上"
+      ],
+      "legacy_id": "lesson10_32",
+      "lesson": 10,
+      "meaning_vi": "trên",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-033-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{椅子|いす}の[[{下|した}]]に{鞄|かばん}があります。",
+          "source": "ai-draft",
+          "vi": "Dưới ghế có cái cặp."
+        }
+      ],
+      "han_viet": "HẠ",
+      "id": "mn-10-033",
+      "kana": "した",
+      "kanji": "下",
+      "kanji_refs": [
+        "k-下"
+      ],
+      "legacy_id": "lesson10_33",
+      "lesson": 10,
+      "meaning_vi": "dưới",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dưới"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-034-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{駅|えき}の[[{前|まえ}]]に{銀行|ぎんこう}があります。",
+          "source": "ai-draft",
+          "vi": "Trước nhà ga có ngân hàng."
+        }
+      ],
+      "han_viet": "TIỀN",
+      "id": "mn-10-034",
+      "kana": "まえ",
+      "kanji": "前",
+      "kanji_refs": [
+        "k-前"
+      ],
+      "legacy_id": "lesson10_34",
+      "lesson": 10,
+      "meaning_vi": "trước",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-32-037"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "trước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-035-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{家|うち}の[[{後|うし}ろ]]に{公園|こうえん}があります。",
+          "source": "ai-draft",
+          "vi": "Sau nhà có công viên."
+        }
+      ],
+      "han_viet": "HẬU",
+      "id": "mn-10-035",
+      "kana": "うしろ",
+      "kanji": "後ろ",
+      "kanji_refs": [
+        "k-後"
+      ],
+      "legacy_id": "lesson10_35",
+      "lesson": 10,
+      "meaning_vi": "sau",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sau"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-036-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{銀行|ぎんこう}の[[{右|みぎ}]]に{郵便局|ゆうびんきょく}があります。",
+          "source": "ai-draft",
+          "vi": "Bên phải ngân hàng có bưu điện."
+        }
+      ],
+      "han_viet": "HỮU",
+      "id": "mn-10-036",
+      "kana": "みぎ",
+      "kanji": "右",
+      "kanji_refs": [
+        "k-右"
+      ],
+      "legacy_id": "lesson10_36",
+      "lesson": 10,
+      "meaning_vi": "phải",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phải"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-037-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{郵便局|ゆうびんきょく}の[[{左|ひだり}]]に{本屋|ほんや}があります。",
+          "source": "ai-draft",
+          "vi": "Bên trái bưu điện có hiệu sách."
+        }
+      ],
+      "han_viet": "TẢ",
+      "id": "mn-10-037",
+      "kana": "ひだり",
+      "kanji": "左",
+      "kanji_refs": [
+        "k-左"
+      ],
+      "legacy_id": "lesson10_37",
+      "lesson": 10,
+      "meaning_vi": "trái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-038-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{箱|はこ}の[[{中|なか}]]に{電池|でんち}があります。",
+          "source": "ai-draft",
+          "vi": "Trong hộp có pin."
+        }
+      ],
+      "han_viet": "TRUNG",
+      "id": "mn-10-038",
+      "kana": "なか",
+      "kanji": "中",
+      "kanji_refs": [
+        "k-中"
+      ],
+      "legacy_id": "lesson10_38",
+      "lesson": 10,
+      "meaning_vi": "trong, giữa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trong, giữa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-039-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "[[{外|そと}]]に{犬|いぬ}がいます。",
+          "source": "ai-draft",
+          "vi": "Ở ngoài có con chó."
+        }
+      ],
+      "han_viet": "NGOẠI",
+      "id": "mn-10-039",
+      "kana": "そと",
+      "kanji": "外",
+      "kanji_refs": [
+        "k-外"
+      ],
+      "legacy_id": "lesson10_39",
+      "lesson": 10,
+      "meaning_vi": "ngoài",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngoài"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-040-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{銀行|ぎんこう}の[[{隣|となり}]]に{喫茶店|きっさてん}があります。",
+          "source": "ai-draft",
+          "vi": "Bên cạnh ngân hàng có quán cà phê."
+        }
+      ],
+      "han_viet": "LÂN",
+      "id": "mn-10-040",
+      "kana": "となり",
+      "kanji": "隣",
+      "kanji_refs": [
+        "k-隣"
+      ],
+      "legacy_id": "lesson10_40",
+      "lesson": 10,
+      "meaning_vi": "bên cạnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bên cạnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-041-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{駅|えき}の[[{近|ちか}く]]にスーパーがあります。",
+          "source": "ai-draft",
+          "vi": "Gần nhà ga có siêu thị."
+        }
+      ],
+      "han_viet": "CẬN",
+      "id": "mn-10-041",
+      "kana": "ちかく",
+      "kanji": "近く",
+      "kanji_refs": [
+        "k-近"
+      ],
+      "legacy_id": "lesson10_41",
+      "lesson": 10,
+      "meaning_vi": "gần",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gần"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-10-042-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{本屋|ほんや}と{花屋|はなや}の[[{間|あいだ}]]に{喫茶店|きっさてん}があります。",
+          "source": "ai-draft",
+          "vi": "Giữa hiệu sách và tiệm hoa có quán cà phê."
+        }
+      ],
+      "han_viet": "GIAN",
+      "id": "mn-10-042",
+      "kana": "あいだ",
+      "kanji": "間",
+      "kanji_refs": [
+        "k-間"
+      ],
+      "legacy_id": "lesson10_42",
+      "lesson": 10,
+      "meaning_vi": "giữa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giữa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-10-043-e1",
+          "max_lesson": 10,
+          "review": "user",
+          "ruby": "{箱|はこ}の{中|なか}に{手紙|てがみ}[[や]]{写真|しゃしん}があります。",
+          "source": "ai-draft",
+          "vi": "Trong hộp có thư, ảnh, v.v."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-10-043",
+      "kana": "～や～ ～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson10_43",
+      "lesson": 10,
+      "meaning_vi": "～và ～, [v.v.]",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "v.v.",
+          "text": "～và ～,"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 10,
+  "schema_version": 4
+}

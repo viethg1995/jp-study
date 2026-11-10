@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lesson27_1",
+    "jp": "かいます",
+    "kanji": "飼います",
+    "kanji_vn": "TỰ",
+    "vn": "nuôi (động vật)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson27_2",
+    "jp": "はしります",
+    "kanji": "走ります",
+    "kanji_vn": "TẨUĐẠO",
+    "vn": "chạy [trên đường]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson27_3",
+    "jp": "みえます",
+    "kanji": "見えます",
+    "kanji_vn": "KIẾNSƠN",
+    "vn": "nhìn thấy, có thể nhìn thấy [núi]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson27_4",
+    "jp": "きこえます",
+    "kanji": "聞こえます",
+    "kanji_vn": "VĂNÂM",
+    "vn": "nghe thấy, có thể nghe thấy [âm thanh~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson27_5",
+    "jp": "できます",
+    "kanji": "できます",
+    "kanji_vn": "ĐẠO",
+    "vn": "được xây dựng lên, hoàn thành [con đường~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson27_6",
+    "jp": "ひらきます",
+    "kanji": "開きます",
+    "kanji_vn": "KHAIGIÁO THẤT",
+    "vn": "mở [lớp học]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson27_7",
+    "jp": "しんぱい",
+    "kanji": "心配",
+    "kanji_vn": "TÂM PHỐI",
+    "vn": "lo lắng",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson27_8",
+    "jp": "ペット",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "động vật cảnh (pet)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson27_9",
+    "jp": "とり",
+    "kanji": "鳥",
+    "kanji_vn": "ĐIẾU",
+    "vn": "chim",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_10",
+    "jp": "こえ",
+    "kanji": "声",
+    "kanji_vn": "THANH",
+    "vn": "tiếng nói, giọng nói",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_11",
+    "jp": "なみ",
+    "kanji": "波",
+    "kanji_vn": "BA",
+    "vn": "sóng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_12",
+    "jp": "はなび",
+    "kanji": "花火",
+    "kanji_vn": "HOA HỎA",
+    "vn": "pháo hoa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_13",
+    "jp": "どうぐ",
+    "kanji": "道具",
+    "kanji_vn": "ĐẠO CỤ",
+    "vn": "dụng cụ, công cụ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_14",
+    "jp": "クリーニング",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "giặt ủi",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson27_15",
+    "jp": "いえ",
+    "kanji": "家",
+    "kanji_vn": "GIA",
+    "vn": "nhà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_16",
+    "jp": "マンション",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhà chung cư",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson27_17",
+    "jp": "キッチン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bếp",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson27_18",
+    "jp": "～きょうしつ",
+    "kanji": "～教室",
+    "kanji_vn": "GIÁO THẤT",
+    "vn": "lớp học ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson27_19",
+    "jp": "パーティールーム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phòng tiệc",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson27_20",
+    "jp": "かた",
+    "kanji": "方",
+    "kanji_vn": "PHƯƠNG",
+    "vn": "vị, ngài (kính ngữ của ひと)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_21",
+    "jp": "～ご",
+    "kanji": "～後",
+    "kanji_vn": "HẬU",
+    "vn": "~ sau (khoảng thời gian)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson27_22",
+    "jp": "～しか",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chỉ ~ (dùng với thể phủ định)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson27_23",
+    "jp": "ほかの",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khác",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson27_24",
+    "jp": "はっきり",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "rõ, rõ ràng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  }
+]

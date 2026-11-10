@@ -1,0 +1,264 @@
+{
+  "mn-19-001": {
+    "examples": [
+      {
+        "id": "mn-19-001-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{富士山|ふじさん}に[[{登|のぼ}った]]ことがあります。",
+        "source": "ai-draft",
+        "vi": "Tôi đã từng leo núi Phú Sĩ."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "のぼります: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-19-002": {
+    "examples": [
+      {
+        "id": "mn-19-002-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{京都|きょうと}のホテルに[[{泊|と}まりました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã trọ ở khách sạn ở Kyoto."
+      }
+    ]
+  },
+  "mn-19-003": {
+    "examples": [
+      {
+        "id": "mn-19-003-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{日曜日|にちようび}は{部屋|へや}を[[{掃除|そうじ}したり]]、{洗濯|せんたく}したりします。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật tôi dọn phòng, giặt giũ, v.v."
+      }
+    ]
+  },
+  "mn-19-004": {
+    "examples": [
+      {
+        "id": "mn-19-004-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}[[{洗濯|せんたく}します]]。",
+        "source": "ai-draft",
+        "vi": "Sáng nào tôi cũng giặt giũ."
+      }
+    ]
+  },
+  "mn-19-005": {
+    "examples": [
+      {
+        "id": "mn-19-005-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{暖|あたた}かく[[{成|な}りました]]。",
+        "source": "ai-draft",
+        "vi": "Trời đã trở nên ấm áp."
+      }
+    ],
+    "han_viet": "THÀNH",
+    "han_viet_source": "user",
+    "kanji": "成ります",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "trở thành",
+      "status": "reviewed"
+    }
+  },
+  "mn-19-006": {
+    "examples": [
+      {
+        "id": "mn-19-006-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{昨日|きのう}{寝|ね}ませんでしたから、[[{眠|ねむ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Vì hôm qua không ngủ nên tôi buồn ngủ."
+      }
+    ]
+  },
+  "mn-19-007": {
+    "examples": [
+      {
+        "id": "mn-19-007-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{今日|きょう}は{風|かぜ}が[[{強|つよ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay gió mạnh."
+      }
+    ]
+  },
+  "mn-19-008": {
+    "examples": [
+      {
+        "id": "mn-19-008-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{私|わたし}はお{酒|さけ}に[[{弱|よわ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi uống rượu kém."
+      }
+    ]
+  },
+  "mn-19-009": {
+    "examples": [
+      {
+        "id": "mn-19-009-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "[[ゴルフ]]をしたことがありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng chơi golf chưa?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ゴルフ: PN→N (JMdict: danh từ thông dụng (golf))",
+      "status": "reviewed"
+    }
+  },
+  "mn-19-010": {
+    "examples": [
+      {
+        "id": "mn-19-010-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "[[{相撲|すもう}]]を{見|み}たことがありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng xem Sumo chưa?"
+      }
+    ],
+    "han_viet": "TƯƠNG PHÁC",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-19-011": {
+    "examples": [
+      {
+        "id": "mn-19-011-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "[[お{茶|ちゃ}]]を{習|なら}ったことがあります。",
+        "source": "ai-draft",
+        "vi": "Tôi đã từng học trà đạo."
+      }
+    ]
+  },
+  "mn-19-012": {
+    "examples": [
+      {
+        "id": "mn-19-012-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{休|やす}みの[[{日|ひ}]]は{本|ほん}を{読|よ}んだり、{映画|えいが}を{見|み}たりします。",
+        "source": "ai-draft",
+        "vi": "Ngày nghỉ tôi đọc sách, xem phim, v.v."
+      }
+    ]
+  },
+  "mn-19-013": {
+    "examples": [
+      {
+        "id": "mn-19-013-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{体|からだ}の[[{調子|ちょうし}]]はどうですか。",
+        "source": "ai-draft",
+        "vi": "Tình trạng sức khỏe của bạn thế nào?"
+      }
+    ]
+  },
+  "mn-19-014": {
+    "examples": [
+      {
+        "id": "mn-19-014-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "[[{一度|いちど}]]{北海道|ほっかいどう}へ{行|い}ったことがあります。",
+        "source": "ai-draft",
+        "vi": "Tôi đã từng đi Hokkaido một lần."
+      }
+    ]
+  },
+  "mn-19-015": {
+    "examples": [
+      {
+        "id": "mn-19-015-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{馬|うま}に[[{一度|いちど}も]]{乗|の}ったことがありません。",
+        "source": "ai-draft",
+        "vi": "Tôi chưa từng cưỡi ngựa lần nào."
+      }
+    ]
+  },
+  "mn-19-016": {
+    "examples": [
+      {
+        "id": "mn-19-016-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "[[{段々|だんだん}]]{寒|さむ}くなりました。",
+        "source": "ai-draft",
+        "vi": "Trời dần dần trở nên lạnh."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-19-017": {
+    "examples": [
+      {
+        "id": "mn-19-017-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "[[もう{直|す}ぐ]]{正月|しょうがつ}です。",
+        "source": "ai-draft",
+        "vi": "Sắp đến Tết rồi."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-19-018": {
+    "review": {
+      "by": "user",
+      "note": "お陰様で — giữ, hiển thị kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-19-019": {
+    "examples": [
+      {
+        "id": "mn-19-019-e1",
+        "max_lesson": 19,
+        "review": "user",
+        "ruby": "{日本語|にほんご}は{難|むずか}しいです。[[でも]]、{面白|おもしろ}いです。",
+        "source": "ai-draft",
+        "vi": "Tiếng Nhật khó. Nhưng mà thú vị."
+      }
+    ]
+  }
+}

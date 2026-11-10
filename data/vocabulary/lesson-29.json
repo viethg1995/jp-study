@@ -1,0 +1,1463 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-001-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{窓|まど}が[[{開|あ}いて]]います。",
+          "source": "ai-draft",
+          "vi": "Cửa sổ đang mở."
+        }
+      ],
+      "han_viet": "KHAI",
+      "id": "mn-29-001",
+      "kana": "あきます",
+      "kanji": "開きます",
+      "kanji_refs": [
+        "k-開"
+      ],
+      "legacy_id": "lesson29_1",
+      "lesson": 29,
+      "meaning_vi": "mở [cửa ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-27-006"
+      ],
+      "senses": [
+        {
+          "context": "cửa ～",
+          "text": "mở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-002-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{銀行|ぎんこう}はもう[[{閉|し}まって]]います。",
+          "source": "ai-draft",
+          "vi": "Ngân hàng đã đóng cửa rồi."
+        }
+      ],
+      "han_viet": "BẾ",
+      "id": "mn-29-002",
+      "kana": "しまります",
+      "kanji": "閉まります",
+      "kanji_refs": [
+        "k-閉"
+      ],
+      "legacy_id": "lesson29_2",
+      "lesson": 29,
+      "meaning_vi": "đóng [cửa ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cửa ～",
+          "text": "đóng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-29-003-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{電気|でんき}が[[ついて]]います。",
+          "source": "ai-draft",
+          "vi": "Đèn đang bật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-29-003",
+      "kana": "つきます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson29_3",
+      "lesson": 29,
+      "meaning_vi": "sáng [điện ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "điện ～",
+          "text": "sáng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-004-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{電気|でんき}が[[{消|き}えて]]います。",
+          "source": "ai-draft",
+          "vi": "Đèn đang tắt."
+        }
+      ],
+      "han_viet": "TIÊU",
+      "id": "mn-29-004",
+      "kana": "きえます",
+      "kanji": "消えます",
+      "kanji_refs": [
+        "k-消"
+      ],
+      "legacy_id": "lesson29_4",
+      "lesson": 29,
+      "meaning_vi": "tắt [điện ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "điện ～",
+          "text": "tắt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-005-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "この{椅子|いす}は[[{壊|こわ}れて]]います。",
+          "source": "ai-draft",
+          "vi": "Cái ghế này bị hỏng."
+        }
+      ],
+      "han_viet": "HOẠI",
+      "id": "mn-29-005",
+      "kana": "こわれます",
+      "kanji": "壊れます",
+      "kanji_refs": [
+        "k-壊"
+      ],
+      "legacy_id": "lesson29_5",
+      "lesson": 29,
+      "meaning_vi": "hỏng [cái ghế bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cái ghế bị ～",
+          "text": "hỏng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-006-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "コップが[[{割|わ}れて]]しまいました。",
+          "source": "ai-draft",
+          "vi": "Cái cốc bị vỡ mất rồi."
+        }
+      ],
+      "han_viet": "CÁT",
+      "id": "mn-29-006",
+      "kana": "われます",
+      "kanji": "割れます",
+      "kanji_refs": [
+        "k-割"
+      ],
+      "legacy_id": "lesson29_6",
+      "lesson": 29,
+      "meaning_vi": "vỡ [cái cốc bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cái cốc bị ～",
+          "text": "vỡ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-007-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{木|き}の{枝|えだ}が[[{折|お}れて]]います。",
+          "source": "ai-draft",
+          "vi": "Cành cây bị gãy."
+        }
+      ],
+      "han_viet": "TRIẾT",
+      "id": "mn-29-007",
+      "kana": "おれます",
+      "kanji": "折れます",
+      "kanji_refs": [
+        "k-折"
+      ],
+      "legacy_id": "lesson29_7",
+      "lesson": 29,
+      "meaning_vi": "gãy [cái cây bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cái cây bị ～",
+          "text": "gãy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-008-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{袋|ふくろ}が[[{破|やぶ}れて]]います。",
+          "source": "ai-draft",
+          "vi": "Cái túi bị rách."
+        }
+      ],
+      "han_viet": "PHÁ",
+      "id": "mn-29-008",
+      "kana": "やぶれます",
+      "kanji": "破れます",
+      "kanji_refs": [
+        "k-破"
+      ],
+      "legacy_id": "lesson29_8",
+      "lesson": 29,
+      "meaning_vi": "rách [tờ giấy bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "tờ giấy bị ～",
+          "text": "rách"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-009-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{服|ふく}が[[{汚|よご}れて]]います。",
+          "source": "ai-draft",
+          "vi": "Quần áo bị bẩn."
+        }
+      ],
+      "han_viet": "Ô",
+      "id": "mn-29-009",
+      "kana": "よごれます",
+      "kanji": "汚れます",
+      "kanji_refs": [
+        "k-汚"
+      ],
+      "legacy_id": "lesson29_9",
+      "lesson": 29,
+      "meaning_vi": "bẩn [quần áo bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "quần áo bị ～",
+          "text": "bẩn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-010-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "この{鞄|かばん}はポケットが[[{付|つ}いて]]います。",
+          "source": "ai-draft",
+          "vi": "Chiếc cặp này có gắn túi nhỏ."
+        }
+      ],
+      "han_viet": "PHÓ",
+      "id": "mn-29-010",
+      "kana": "つきます",
+      "kanji": "付きます",
+      "kanji_refs": [
+        "k-付"
+      ],
+      "legacy_id": "lesson29_10",
+      "lesson": 29,
+      "meaning_vi": "có, có gắn, có kèm theo [túi]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "túi",
+          "text": "có, có gắn, có kèm theo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-011-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "ボタンが[[{外|はず}れて]]います。",
+          "source": "ai-draft",
+          "vi": "Cúc áo bị bung ra."
+        }
+      ],
+      "han_viet": "NGOẠI",
+      "id": "mn-29-011",
+      "kana": "はずれます",
+      "kanji": "外れます",
+      "kanji_refs": [
+        "k-外"
+      ],
+      "legacy_id": "lesson29_11",
+      "lesson": 29,
+      "meaning_vi": "tuột, bung [cái cúc bị ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cái cúc bị ～",
+          "text": "tuột, bung"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-012-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{家|うち}の{前|まえ}に{車|くるま}が[[{止|と}まって]]います。",
+          "source": "ai-draft",
+          "vi": "Trước nhà có ô tô đang đỗ."
+        }
+      ],
+      "han_viet": "CHỈ",
+      "id": "mn-29-012",
+      "kana": "とまります",
+      "kanji": "止まります",
+      "kanji_refs": [
+        "k-止"
+      ],
+      "legacy_id": "lesson29_12",
+      "lesson": 29,
+      "meaning_vi": "dừng [xe hơi ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "xe hơi ～",
+          "text": "dừng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-29-013-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{電車|でんしゃ}を[[{間違|まちが}えて]]しまいました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã lên nhầm tàu."
+        }
+      ],
+      "han_viet": "GIAN VI",
+      "id": "mn-29-013",
+      "kana": "まちがえます",
+      "kanji": "間違えます",
+      "kanji_refs": [
+        "k-間",
+        "k-違"
+      ],
+      "legacy_id": "lesson29_13",
+      "lesson": 29,
+      "meaning_vi": "nhầm, sai",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhầm, sai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-014-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{財布|さいふ}を[[{落|お}として]]しまいました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đánh rơi ví mất rồi."
+        }
+      ],
+      "han_viet": "LẠC",
+      "id": "mn-29-014",
+      "kana": "おとします",
+      "kanji": "落とします",
+      "kanji_refs": [
+        "k-落"
+      ],
+      "legacy_id": "lesson29_14",
+      "lesson": 29,
+      "meaning_vi": "đánh rơi",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đánh rơi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-015-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "ドアに{鍵|かぎ}が[[{掛|か}かって]]います。",
+          "source": "ai-draft",
+          "vi": "Cửa đang khóa."
+        }
+      ],
+      "han_viet": "QUẢI",
+      "id": "mn-29-015",
+      "kana": "かかります",
+      "kanji": "掛かります",
+      "kanji_refs": [
+        "k-掛"
+      ],
+      "legacy_id": "lesson29_15",
+      "lesson": 29,
+      "meaning_vi": "khóa [chìa khóa ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-11-003"
+      ],
+      "senses": [
+        {
+          "context": "chìa khóa ～",
+          "text": "khóa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-29-016-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "テーブルを[[{拭|ふ}いて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy lau bàn."
+        }
+      ],
+      "han_viet": "THỨC",
+      "id": "mn-29-016",
+      "kana": "ふきます",
+      "kanji": "拭きます",
+      "kanji_refs": [
+        "k-拭"
+      ],
+      "legacy_id": "lesson29_16",
+      "lesson": 29,
+      "meaning_vi": "lau, chùi",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lau, chùi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-017-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{電池|でんち}を[[{取|と}り{替|か}えて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy thay pin."
+        }
+      ],
+      "han_viet": "THỦ THẾ",
+      "id": "mn-29-017",
+      "kana": "とりかえます",
+      "kanji": "取り替えます",
+      "kanji_refs": [
+        "k-取",
+        "k-替"
+      ],
+      "legacy_id": "lesson29_17",
+      "lesson": 29,
+      "meaning_vi": "thay",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-018-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{部屋|へや}を[[{片|かた}づけて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy dọn dẹp phòng."
+        }
+      ],
+      "han_viet": "PHIẾN",
+      "id": "mn-29-018",
+      "kana": "かたづけます",
+      "kanji": "片づけます",
+      "kanji_refs": [
+        "k-片"
+      ],
+      "legacy_id": "lesson29_18",
+      "lesson": 29,
+      "meaning_vi": "dọn dẹp",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dọn dẹp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-019-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "[[{皿|さら}]]が{割|わ}れてしまいました。",
+          "source": "ai-draft",
+          "vi": "Cái đĩa bị vỡ mất rồi."
+        }
+      ],
+      "han_viet": "MÃNH",
+      "id": "mn-29-019",
+      "kana": "さら",
+      "kanji": "皿",
+      "kanji_refs": [
+        "k-皿"
+      ],
+      "legacy_id": "lesson29_19",
+      "lesson": 29,
+      "meaning_vi": "cái đĩa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái đĩa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-29-020-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "[[{茶碗|ちゃわん}]]を{洗|あら}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy rửa bát."
+        }
+      ],
+      "han_viet": "TRÀ OẢN",
+      "id": "mn-29-020",
+      "kana": "ちゃわん",
+      "kanji": "茶碗",
+      "kanji_refs": [
+        "k-茶",
+        "k-碗"
+      ],
+      "legacy_id": "lesson29_20",
+      "lesson": 29,
+      "meaning_vi": "cái bát",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái bát"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-29-021-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "[[コップ]]が{割|わ}れてしまいました。",
+          "source": "ai-draft",
+          "vi": "Cái cốc bị vỡ mất rồi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-29-021",
+      "kana": "コップ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson29_21",
+      "lesson": 29,
+      "meaning_vi": "cái cốc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái cốc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-29-022-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{窓|まど}の[[ガラス]]が{割|わ}れています。",
+          "source": "ai-draft",
+          "vi": "Kính cửa sổ bị vỡ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-29-022",
+      "kana": "ガラス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson29_22",
+      "lesson": 29,
+      "meaning_vi": "thủy tinh (glass)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thủy tinh (glass)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-023-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "この[[{袋|ふくろ}]]に{入|い}れてください。",
+          "source": "ai-draft",
+          "vi": "Hãy cho vào cái túi này."
+        }
+      ],
+      "han_viet": "ĐẠI",
+      "id": "mn-29-023",
+      "kana": "ふくろ",
+      "kanji": "袋",
+      "kanji_refs": [
+        "k-袋"
+      ],
+      "legacy_id": "lesson29_23",
+      "lesson": 29,
+      "meaning_vi": "cái túi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái túi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-024-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "[[{書類|しょるい}]]をなくしてしまいました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã làm mất giấy tờ."
+        }
+      ],
+      "han_viet": "THƯ LOẠI",
+      "id": "mn-29-024",
+      "kana": "しょるい",
+      "kanji": "書類",
+      "kanji_refs": [
+        "k-書",
+        "k-類"
+      ],
+      "legacy_id": "lesson29_24",
+      "lesson": 29,
+      "meaning_vi": "giấy tờ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-293"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "giấy tờ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-025-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{木|き}の[[{枝|えだ}]]が{折|お}れてしまいました。",
+          "source": "ai-draft",
+          "vi": "Cành cây đã bị gãy mất."
+        }
+      ],
+      "han_viet": "CHI",
+      "id": "mn-29-025",
+      "kana": "えだ",
+      "kanji": "枝",
+      "kanji_refs": [
+        "k-枝"
+      ],
+      "legacy_id": "lesson29_25",
+      "lesson": 29,
+      "meaning_vi": "cành cây",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cành cây"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-026-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "[[{駅員|えきいん}]]に{聞|き}いてください。",
+          "source": "ai-draft",
+          "vi": "Hãy hỏi nhân viên nhà ga."
+        }
+      ],
+      "han_viet": "DỊCH VIÊN",
+      "id": "mn-29-026",
+      "kana": "えきいん",
+      "kanji": "駅員",
+      "kanji_refs": [
+        "k-駅",
+        "k-員"
+      ],
+      "legacy_id": "lesson29_26",
+      "lesson": 29,
+      "meaning_vi": "nhân viên nhà ga",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhân viên nhà ga"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-027-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "[[{交番|こうばん}]]で{道|みち}を{聞|き}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã hỏi đường ở bốt cảnh sát."
+        }
+      ],
+      "han_viet": "GIAO PHIÊN",
+      "id": "mn-29-027",
+      "kana": "こうばん",
+      "kanji": "交番",
+      "kanji_refs": [
+        "k-交",
+        "k-番"
+      ],
+      "legacy_id": "lesson29_27",
+      "lesson": 29,
+      "meaning_vi": "đồn cảnh sát, bốt cảnh sát",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đồn cảnh sát, bốt cảnh sát"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-29-028-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{結婚式|けっこんしき}の[[スピーチ]]を{忘|わす}れてしまいました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã quên mất bài phát biểu trong đám cưới."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-29-028",
+      "kana": "スピーチ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson29_28",
+      "lesson": 29,
+      "meaning_vi": "diễn văn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "diễn văn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-029-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "{友達|ともだち}から[[{返事|へんじ}]]が{来|き}ません。",
+          "source": "ai-draft",
+          "vi": "Bạn tôi chưa hồi âm."
+        }
+      ],
+      "han_viet": "PHẢN SỰ",
+      "id": "mn-29-029",
+      "kana": "へんじ",
+      "kanji": "返事",
+      "kanji_refs": [
+        "k-返",
+        "k-事"
+      ],
+      "legacy_id": "lesson29_29",
+      "lesson": 29,
+      "meaning_vi": "trả lời, hồi âm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trả lời, hồi âm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [],
+      "han_viet": "TIÊN",
+      "id": "mn-29-030",
+      "kana": "おさきにどうぞ。",
+      "kanji": "お先にどうぞ。",
+      "kanji_refs": [
+        "k-先"
+      ],
+      "legacy_id": "lesson29_30",
+      "lesson": 29,
+      "meaning_vi": "Xin mời anh/chị đi trước.",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Xin mời anh/chị đi trước."
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-29-031-e1",
+          "max_lesson": 29,
+          "review": "user",
+          "ruby": "[[{源氏物語|げんじものがたり}]]を{読|よ}んだことがありますか。",
+          "source": "ai-draft",
+          "vi": "Bạn đã từng đọc Truyện kể Genji chưa?"
+        }
+      ],
+      "han_viet": "NGUYÊN THỊ VẬT NGỮ",
+      "id": "mn-29-031",
+      "kana": "げんじものがたり",
+      "kanji": "源氏物語",
+      "kanji_refs": [
+        "k-源",
+        "k-氏",
+        "k-物",
+        "k-語"
+      ],
+      "legacy_id": "lesson29_31",
+      "lesson": 29,
+      "meaning_vi": "tiểu thuyết được viết bởi Murasaki Shikibu vào thời Heian",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiểu thuyết được viết bởi Murasaki Shikibu vào thời Heian"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 29,
+  "schema_version": 4
+}

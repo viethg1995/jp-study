@@ -1,0 +1,530 @@
+{
+  "mn-21-001": {
+    "examples": [
+      {
+        "id": "mn-21-001-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{明日|あした}は{雨|あめ}が{降|ふ}ると[[{思|おも}います]]。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ ngày mai trời sẽ mưa."
+      }
+    ]
+  },
+  "mn-21-002": {
+    "examples": [
+      {
+        "id": "mn-21-002-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{先生|せんせい}は{明日|あした}{試験|しけん}があると[[{言|い}いました]]。",
+        "source": "ai-draft",
+        "vi": "Thầy giáo đã nói rằng ngày mai có bài kiểm tra."
+      }
+    ]
+  },
+  "mn-21-003": {
+    "examples": [
+      {
+        "id": "mn-21-003-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{日本|にほん}が[[{勝|か}つ]]と{思|おも}います。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ Nhật Bản sẽ thắng."
+      }
+    ]
+  },
+  "mn-21-004": {
+    "examples": [
+      {
+        "id": "mn-21-004-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{昨日|きのう}の{試合|しあい}は[[{負|ま}けました]]。",
+        "source": "ai-draft",
+        "vi": "Trận đấu hôm qua đã thua."
+      }
+    ]
+  },
+  "mn-21-005": {
+    "examples": [
+      {
+        "id": "mn-21-005-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{来週|らいしゅう}{京都|きょうと}でお{祭|まつ}りが[[あります]]。",
+        "source": "ai-draft",
+        "vi": "Tuần sau ở Kyoto có lễ hội."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "あります: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-006": {
+    "examples": [
+      {
+        "id": "mn-21-006-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "この{辞書|じしょ}はとても[[{役|やく}に{立|た}ちます]]。",
+        "source": "ai-draft",
+        "vi": "Cuốn từ điển này rất có ích."
+      }
+    ]
+  },
+  "mn-21-007": {
+    "examples": [
+      {
+        "id": "mn-21-007-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "この{時計|とけい}は[[{動|うご}きません]]。",
+        "source": "ai-draft",
+        "vi": "Cái đồng hồ này không chạy."
+      }
+    ]
+  },
+  "mn-21-008": {
+    "examples": [
+      {
+        "id": "mn-21-008-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{来年|らいねん}{会社|かいしゃ}を[[{辞|や}めます]]。",
+        "source": "ai-draft",
+        "vi": "Năm sau tôi sẽ nghỉ việc ở công ty."
+      }
+    ],
+    "han_viet": "TỪ",
+    "han_viet_source": "user",
+    "kanji": "辞めます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "bỏ việc",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-009": {
+    "examples": [
+      {
+        "id": "mn-21-009-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{体|からだ}に[[{気|き}をつけて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy giữ gìn sức khỏe."
+      }
+    ]
+  },
+  "mn-21-010": {
+    "examples": [
+      {
+        "id": "mn-21-010-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{来年|らいねん}アメリカへ[[{留学|りゅうがく}します]]。",
+        "source": "ai-draft",
+        "vi": "Năm sau tôi đi du học Mỹ."
+      }
+    ]
+  },
+  "mn-21-011": {
+    "examples": [
+      {
+        "id": "mn-21-011-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "それは{時間|じかん}の[[{無駄|むだ}]]だと{思|おも}います。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ đó là lãng phí thời gian."
+      }
+    ],
+    "han_viet": "VÔ ĐÀ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-012": {
+    "examples": [
+      {
+        "id": "mn-21-012-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "この{町|まち}は{交通|こうつう}が[[{不便|ふべん}]]です。",
+        "source": "ai-draft",
+        "vi": "Thị trấn này giao thông bất tiện."
+      }
+    ]
+  },
+  "mn-21-013": {
+    "examples": [
+      {
+        "id": "mn-21-013-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{日本語|にほんご}が{上手|じょうず}ですね。[[{凄|すご}い]]です。",
+        "source": "ai-draft",
+        "vi": "Bạn giỏi tiếng Nhật nhỉ. Giỏi quá."
+      }
+    ],
+    "han_viet": "THÊ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-014": {
+    "examples": [
+      {
+        "id": "mn-21-014-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "それは[[{本当|ほんとう}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Điều đó có thật không?"
+      }
+    ],
+    "han_viet": "BẢN ĐƯƠNG",
+    "han_viet_source": "user",
+    "kanji": "本当",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-015": {
+    "examples": [
+      {
+        "id": "mn-21-015-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "それは[[{嘘|うそ}]]だと{思|おも}います。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ đó là lời nói dối."
+      }
+    ],
+    "han_viet": "HƯ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-016": {
+    "examples": [
+      {
+        "id": "mn-21-016-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{自動車|じどうしゃ}]]は{有名|ゆうめい}です。",
+        "source": "ai-draft",
+        "vi": "Ô tô Nhật nổi tiếng."
+      }
+    ]
+  },
+  "mn-21-017": {
+    "examples": [
+      {
+        "id": "mn-21-017-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{東京|とうきょう}は[[{交通|こうつう}]]が{便利|べんり}です。",
+        "source": "ai-draft",
+        "vi": "Tokyo giao thông thuận tiện."
+      }
+    ]
+  },
+  "mn-21-018": {
+    "examples": [
+      {
+        "id": "mn-21-018-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{日本|にほん}は[[{物価|ぶっか}]]が{高|たか}いと{思|おも}います。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ vật giá ở Nhật cao."
+      }
+    ]
+  },
+  "mn-21-019": {
+    "examples": [
+      {
+        "id": "mn-21-019-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{試合|しあい}は{何時|なんじ}から[[{放送|ほうそう}]]しますか。",
+        "source": "ai-draft",
+        "vi": "Trận đấu được phát sóng từ mấy giờ?"
+      }
+    ]
+  },
+  "mn-21-020": {
+    "examples": [
+      {
+        "id": "mn-21-020-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{今朝|けさ}の[[ニュース]]を{見|み}ましたか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã xem bản tin sáng nay chưa?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ニュース: PN→N (JMdict: danh từ thông dụng (news))",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-021": {
+    "examples": [
+      {
+        "id": "mn-21-021-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[アニメ]]は{面白|おもしろ}いと{思|おも}います。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ phim hoạt hình Nhật hay."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "アニメ: PN→N (JMdict: danh từ thông dụng (animation; animated film))",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-022": {
+    "examples": [
+      {
+        "id": "mn-21-022-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{弟|おとうと}は[[マンガ]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Em trai tôi thích truyện tranh."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "マンガ: PN→N (JMdict: danh từ thông dụng (cartoon; comic))",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-023": {
+    "examples": [
+      {
+        "id": "mn-21-023-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "この{服|ふく}の[[デザイン]]は{素敵|すてき}だと{思|おも}います。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ kiểu dáng bộ quần áo này đẹp."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "デザイン: PN→N (JMdict: danh từ thông dụng (design))",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-024": {
+    "examples": [
+      {
+        "id": "mn-21-024-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{昨日|きのう}{面白|おもしろ}い[[{夢|ゆめ}]]を{見|み}ました。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã mơ một giấc mơ thú vị."
+      }
+    ]
+  },
+  "mn-21-025": {
+    "examples": [
+      {
+        "id": "mn-21-025-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{彼|かれ}は[[{天才|てんさい}]]だと{思|おも}います。",
+        "source": "ai-draft",
+        "vi": "Tôi nghĩ anh ấy là thiên tài."
+      }
+    ]
+  },
+  "mn-21-026": {
+    "examples": [
+      {
+        "id": "mn-21-026-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{明日|あした}サッカーの[[{試合|しあい}]]があります。",
+        "source": "ai-draft",
+        "vi": "Ngày mai có trận đấu bóng đá."
+      }
+    ]
+  },
+  "mn-21-027": {
+    "examples": [
+      {
+        "id": "mn-21-027-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{皆|みんな}の[[{意見|いけん}]]を{聞|き}きましょう。",
+        "source": "ai-draft",
+        "vi": "Hãy lắng nghe ý kiến của mọi người."
+      }
+    ]
+  },
+  "mn-21-028": {
+    "examples": [
+      {
+        "id": "mn-21-028-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{社長|しゃちょう}の[[{話|はなし}]]は{長|なが}かったです。",
+        "source": "ai-draft",
+        "vi": "Bài nói chuyện của giám đốc dài."
+      }
+    ]
+  },
+  "mn-21-029": {
+    "examples": [
+      {
+        "id": "mn-21-029-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "[[{地球|ちきゅう}]]は{青|あお}いです。",
+        "source": "ai-draft",
+        "vi": "Trái đất màu xanh."
+      }
+    ]
+  },
+  "mn-21-030": {
+    "examples": [
+      {
+        "id": "mn-21-030-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{今晩|こんばん}は[[{月|つき}]]が{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Tối nay trăng đẹp."
+      }
+    ]
+  },
+  "mn-21-031": {
+    "examples": [
+      {
+        "id": "mn-21-031-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "[[{最近|さいきん}]]{忙|いそが}しいです。",
+        "source": "ai-draft",
+        "vi": "Gần đây tôi bận."
+      }
+    ]
+  },
+  "mn-21-032": {
+    "examples": [
+      {
+        "id": "mn-21-032-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{明日|あした}は[[{多分|たぶん}]]{雨|あめ}でしょう。",
+        "source": "ai-draft",
+        "vi": "Ngày mai có lẽ trời mưa."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-033": {
+    "examples": [
+      {
+        "id": "mn-21-033-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{彼|かれ}は[[きっと]]{来|き}ます。",
+        "source": "ai-draft",
+        "vi": "Anh ấy chắc chắn sẽ đến."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "屹度 là ateji",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-034": {
+    "examples": [
+      {
+        "id": "mn-21-034-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "[[ほんとうに]]ありがとうございました。",
+        "source": "ai-draft",
+        "vi": "Thật sự cảm ơn anh rất nhiều."
+      }
+    ]
+  },
+  "mn-21-035": {
+    "examples": [
+      {
+        "id": "mn-21-035-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{日本|にほん}の{夏|なつ}は[[そんなに]]{暑|あつ}くないです。",
+        "source": "ai-draft",
+        "vi": "Mùa hè ở Nhật không nóng lắm."
+      }
+    ],
+    "pos_code": "Adv",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "そんなに là trạng từ, nguồn ghi N",
+      "status": "reviewed"
+    }
+  },
+  "mn-21-036": {
+    "examples": [
+      {
+        "id": "mn-21-036-e1",
+        "max_lesson": 21,
+        "review": "user",
+        "ruby": "{日本|にほん}の{経済|けいざい}[[について]]{話|はな}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nói về kinh tế Nhật Bản."
+      }
+    ]
+  }
+}

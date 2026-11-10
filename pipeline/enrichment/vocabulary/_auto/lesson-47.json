@@ -1,0 +1,356 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "XUY",
+    "han_viet_original": "XÚYPHONG",
+    "han_viet_source": "unihan",
+    "id": "mn-47-001",
+    "kanji": "吹きます",
+    "kanji_refs": [
+      "k-吹"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_1",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHIÊN",
+    "han_viet_source": "source",
+    "id": "mn-47-002",
+    "kanji": "燃えます",
+    "kanji_refs": [
+      "k-燃"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_2",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VONG",
+    "han_viet_source": "source",
+    "id": "mn-47-003",
+    "kanji": "亡くなります",
+    "kanji_refs": [
+      "k-亡"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_3",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TẬP",
+    "han_viet_original": "TẬPNHÂN",
+    "han_viet_source": "derived",
+    "id": "mn-47-004",
+    "kanji": "集まります",
+    "kanji_refs": [
+      "k-集"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_4",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "BIẾT",
+    "han_viet_original": "BIỆTNHÂN",
+    "han_viet_source": "unihan",
+    "id": "mn-47-005",
+    "kanji": "別れます",
+    "kanji_refs": [
+      "k-別"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_5",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "ÂM/THANHVỊ",
+    "han_viet_source": null,
+    "id": "mn-47-006",
+    "kanji": "します",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_6",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGHIÊM",
+    "han_viet_source": "source",
+    "id": "mn-47-007",
+    "kanji": "厳しい",
+    "kanji_refs": [
+      "k-厳"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_7",
+    "lesson": 47
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "KHỐC",
+    "han_viet_source": "unihan",
+    "id": "mn-47-008",
+    "kanji": "酷い",
+    "kanji_gloss": "cruel; heartless",
+    "kanji_refs": [
+      "k-酷"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson47_8",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BỐ",
+    "han_viet_source": "source",
+    "id": "mn-47-009",
+    "kanji": "怖い",
+    "kanji_refs": [
+      "k-怖"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_9",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỰC NGHIỆM",
+    "han_viet_source": "source",
+    "id": "mn-47-010",
+    "kanji": "実験",
+    "kanji_refs": [
+      "k-実",
+      "k-験"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_10",
+    "lesson": 47
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-47-011",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson47_11",
+    "lesson": 47,
+    "pos_reason": "JMdict: danh từ thông dụng (data; datum)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHÂN KHẨU",
+    "han_viet_source": "source",
+    "id": "mn-47-012",
+    "kanji": "人口",
+    "kanji_refs": [
+      "k-人",
+      "k-口"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_12",
+    "lesson": 47
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "匂": []
+    },
+    "han_viet_source": null,
+    "id": "mn-47-013",
+    "kanji": "匂い",
+    "kanji_gloss": "smell; scent",
+    "kanji_refs": [
+      "k-匂"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson47_13",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "KHOA HỌC",
+    "han_viet_source": "source",
+    "id": "mn-47-014",
+    "kanji": "科学",
+    "kanji_refs": [
+      "k-科",
+      "k-学"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_14",
+    "lesson": 47,
+    "pos_reason": "JMdict: danh từ thông dụng (chemistry)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "Y HỌC",
+    "han_viet_source": "source",
+    "id": "mn-47-015",
+    "kanji": "医学",
+    "kanji_refs": [
+      "k-医",
+      "k-学"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_15",
+    "lesson": 47,
+    "pos_reason": "JMdict: danh từ thông dụng (medicine; medical science)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "VĂN HỌC",
+    "han_viet_source": "source",
+    "id": "mn-47-016",
+    "kanji": "文学",
+    "kanji_refs": [
+      "k-文",
+      "k-学"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_16",
+    "lesson": 47,
+    "pos_reason": "JMdict: danh từ thông dụng (literature)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-47-017",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson47_17",
+    "lesson": 47,
+    "pos_reason": "JMdict: danh từ thông dụng (patrol car; police car)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CỨU CẤP XA",
+    "han_viet_source": "source",
+    "id": "mn-47-018",
+    "kanji": "救急車",
+    "kanji_refs": [
+      "k-救",
+      "k-急",
+      "k-車"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_18",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁN THÀNH",
+    "han_viet_source": "source",
+    "id": "mn-47-019",
+    "kanji": "賛成",
+    "kanji_refs": [
+      "k-賛",
+      "k-成"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_19",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHẢN ĐỐI",
+    "han_viet_source": "source",
+    "id": "mn-47-020",
+    "kanji": "反対",
+    "kanji_refs": [
+      "k-反",
+      "k-対"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_20",
+    "lesson": 47
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẠI THỐNG LÃNH",
+    "han_viet_source": "source",
+    "id": "mn-47-021",
+    "kanji": "大統領",
+    "kanji_refs": [
+      "k-大",
+      "k-統",
+      "k-領"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson47_21",
+    "lesson": 47
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-47-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson47_22",
+    "lesson": 47
+  }
+]

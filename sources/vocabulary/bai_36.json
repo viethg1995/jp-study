@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lesson36_1",
+    "jp": "あいます",
+    "kanji": null,
+    "kanji_vn": "SỰ CỐ",
+    "vn": "gặp [tai nạn~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson36_2",
+    "jp": "ちょきんします",
+    "kanji": "貯金します",
+    "kanji_vn": "TRỮ KIM",
+    "vn": "tiết kiệm tiền, để dành tiền",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson36_3",
+    "jp": "すぎます",
+    "kanji": "過ぎます",
+    "kanji_vn": "QUÁTHÌ",
+    "vn": "quá, qua [7 giờ]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson36_4",
+    "jp": "なれます",
+    "kanji": "慣れます",
+    "kanji_vn": "QUÁNTẬP QUÁN",
+    "vn": "làm quen với [tập quán]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson36_5",
+    "jp": "くさります",
+    "kanji": "腐ります",
+    "kanji_vn": "HỦTHỰC VẬT",
+    "vn": "bị hỏng, bị thiu [thức ăn~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson36_6",
+    "jp": "けんどう",
+    "kanji": "剣道",
+    "kanji_vn": "KIẾM ĐẠO",
+    "vn": "kiếm đạo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_7",
+    "jp": "じゅうどう",
+    "kanji": "柔道",
+    "kanji_vn": "NHU ĐẠO",
+    "vn": "Judo (nhu đạo)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_8",
+    "jp": "ラッシュ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "giờ cao điểm; tắt đường",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson36_9",
+    "jp": "うちゅう",
+    "kanji": "宇宙",
+    "kanji_vn": "VŨ TRỤ",
+    "vn": "vũ trụ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_10",
+    "jp": "きょく",
+    "kanji": "曲",
+    "kanji_vn": "KHÚC",
+    "vn": "bài hát, bản nhạc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_11",
+    "jp": "まいしゅう",
+    "kanji": "毎週",
+    "kanji_vn": "MỖI CHU",
+    "vn": "hàng tuần",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_12",
+    "jp": "まいつき",
+    "kanji": "毎月",
+    "kanji_vn": "MỖI NGUYỆT",
+    "vn": "hàng tháng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_13",
+    "jp": "まいとし",
+    "kanji": "毎年",
+    "kanji_vn": "MỖI NIÊN",
+    "vn": "hàng năm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_14",
+    "jp": "このごろ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "gần đây, dạo này",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_15",
+    "jp": "やっと",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cuối cùng thì",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson36_16",
+    "jp": "かなり",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khá, tương đối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_17",
+    "jp": "かならず",
+    "kanji": "必ず",
+    "kanji_vn": "TẤT",
+    "vn": "nhất định",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson36_18",
+    "jp": "ぜったいに",
+    "kanji": "絶対に",
+    "kanji_vn": "TUYỆT ĐỐI",
+    "vn": "nhất định, tuyệt đối",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson36_19",
+    "jp": "じょうずに",
+    "kanji": "上手に",
+    "kanji_vn": "THƯỢNG THỦ",
+    "vn": "giỏi, khéo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_20",
+    "jp": "できるだけ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cố gắng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_21",
+    "jp": "ほとんど",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hầu hết, hầu như",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson36_22",
+    "jp": "ショパン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Chopin, nhà soạn nhạc người Ba Lan (1810-1849)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  }
+]

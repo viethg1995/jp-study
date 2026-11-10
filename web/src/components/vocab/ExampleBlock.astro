@@ -1,0 +1,15 @@
+---
+// Câu ví dụ của một từ — nội dung bổ trợ, nằm dưới đường kẻ của thẻ.
+import type { VocabExample } from "../../content.config";
+import Furigana from "../jp/Furigana.astro";
+
+interface Props {
+  example: VocabExample;
+}
+const { example } = Astro.props;
+---
+
+<div class="example mt-3 border-t border-line pt-3">
+  <p class="example-jp text-[17px] text-ink"><Furigana ruby={example.ruby} /></p>
+  <p class="example-vi mt-0.5 text-sm text-ink-muted">{example.vi}</p>
+</div>

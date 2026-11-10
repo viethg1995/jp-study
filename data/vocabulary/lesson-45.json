@@ -1,0 +1,706 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-001-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{彼|かれ}の{話|はなし}を[[{信|しん}じて]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi tin lời anh ấy nói."
+        }
+      ],
+      "han_viet": "TÍN",
+      "id": "mn-45-001",
+      "kana": "しんじます",
+      "kanji": "信じます",
+      "kanji_refs": [
+        "k-信"
+      ],
+      "legacy_id": "lesson45_1",
+      "lesson": 45,
+      "meaning_vi": "tin, tin tưởng",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tin, tin tưởng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-45-002-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{予約|よやく}を[[キャンセルする]]{場合|ばあい}は、{電話|でんわ}してください。",
+          "source": "ai-draft",
+          "vi": "Trường hợp hủy đặt chỗ, hãy gọi điện."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-45-002",
+      "kana": "キャンセルします",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson45_2",
+      "lesson": 45,
+      "meaning_vi": "hủy bỏ, hủy",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hủy bỏ, hủy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-003-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{結果|けっか}が{分|わ}かったら、[[{知|し}らせて]]ください。",
+          "source": "ai-draft",
+          "vi": "Biết kết quả rồi thì hãy báo cho tôi."
+        }
+      ],
+      "han_viet": "TRI",
+      "id": "mn-45-003",
+      "kana": "しらせます",
+      "kanji": "知らせます",
+      "kanji_refs": [
+        "k-知"
+      ],
+      "legacy_id": "lesson45_3",
+      "lesson": 45,
+      "meaning_vi": "thông báo, báo",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thông báo, báo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-004-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "[[{保証書|ほしょうしょ}]]をなくさないでください。",
+          "source": "ai-draft",
+          "vi": "Đừng làm mất giấy bảo hành."
+        }
+      ],
+      "han_viet": "BẢO CHỨNG THƯ",
+      "id": "mn-45-004",
+      "kana": "ほしょうしょ",
+      "kanji": "保証書",
+      "kanji_refs": [
+        "k-保",
+        "k-証",
+        "k-書"
+      ],
+      "legacy_id": "lesson45_4",
+      "lesson": 45,
+      "meaning_vi": "giấy bảo hành",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giấy bảo hành"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-005-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "[[{領収書|りょうしゅうしょ}]]をください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi hóa đơn."
+        }
+      ],
+      "han_viet": "LÃNH THÂU THƯ",
+      "id": "mn-45-005",
+      "kana": "りょうしゅうしょ",
+      "kanji": "領収書",
+      "kanji_refs": [
+        "k-領",
+        "k-収",
+        "k-書"
+      ],
+      "legacy_id": "lesson45_5",
+      "lesson": 45,
+      "meaning_vi": "hóa đơn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hóa đơn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-45-006-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{雨|あめ}の{場合|ばあい}は、[[キャンプ]]は{中止|ちゅうし}です。",
+          "source": "ai-draft",
+          "vi": "Trường hợp trời mưa, buổi cắm trại sẽ bị hủy."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-45-006",
+      "kana": "キャンプ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson45_6",
+      "lesson": 45,
+      "meaning_vi": "trại",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trại"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-007-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{雨|あめ}の{場合|ばあい}は、{試合|しあい}は[[{中止|ちゅうし}]]です。",
+          "source": "ai-draft",
+          "vi": "Trường hợp trời mưa, trận đấu sẽ bị hủy."
+        }
+      ],
+      "han_viet": "TRUNG CHỈ",
+      "id": "mn-45-007",
+      "kana": "ちゅうし",
+      "kanji": "中止",
+      "kanji_refs": [
+        "k-中",
+        "k-止"
+      ],
+      "legacy_id": "lesson45_7",
+      "lesson": 45,
+      "meaning_vi": "dừng, đình chỉ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dừng, đình chỉ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-008-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{試験|しけん}で{悪|わる}い[[{点|てん}]]を{取|と}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi bị điểm kém trong kỳ thi."
+        }
+      ],
+      "han_viet": "ĐIỂM",
+      "id": "mn-45-008",
+      "kana": "てん",
+      "kanji": "点",
+      "kanji_refs": [
+        "k-点"
+      ],
+      "legacy_id": "lesson45_8",
+      "lesson": 45,
+      "meaning_vi": "điểm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "điểm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-009-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "[[{梅|うめ}]]の{花|はな}が{咲|さ}いています。",
+          "source": "ai-draft",
+          "vi": "Hoa mơ đang nở."
+        }
+      ],
+      "han_viet": "MAI",
+      "id": "mn-45-009",
+      "kana": "うめ",
+      "kanji": "梅",
+      "kanji_refs": [
+        "k-梅"
+      ],
+      "legacy_id": "lesson45_9",
+      "lesson": 45,
+      "meaning_vi": "hoa mơ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hoa mơ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-010-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{泥棒|どろぼう}の{場合|ばあい}は、[[{110番|ひゃくとおばん}]]に{電話|でんわ}してください。",
+          "source": "ai-draft",
+          "vi": "Trường hợp có trộm, hãy gọi số 110."
+        }
+      ],
+      "han_viet": "PHIÊN",
+      "id": "mn-45-010",
+      "kana": "110はん",
+      "kanji": "110番",
+      "kanji_refs": [
+        "k-番"
+      ],
+      "legacy_id": "lesson45_10",
+      "lesson": 45,
+      "meaning_vi": "số điện thoại",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "số điện thoại"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-011-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{火事|かじ}の{場合|ばあい}は、[[{119番|ひゃくじゅうきゅうばん}]]に{電話|でんわ}してください。",
+          "source": "ai-draft",
+          "vi": "Trường hợp hỏa hoạn, hãy gọi số 119."
+        }
+      ],
+      "han_viet": "PHIÊN",
+      "id": "mn-45-011",
+      "kana": "119ばん",
+      "kanji": "119番",
+      "kanji_refs": [
+        "k-番"
+      ],
+      "legacy_id": "lesson45_11",
+      "lesson": 45,
+      "meaning_vi": "số 119 (báo cháy khi khẩn cấp)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "số 119 (báo cháy khi khẩn cấp)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-012-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "[[{急|きゅう}に]]{雨|あめ}が{降|ふ}ってきました。",
+          "source": "ai-draft",
+          "vi": "Trời đột nhiên đổ mưa."
+        }
+      ],
+      "han_viet": "CẤP",
+      "id": "mn-45-012",
+      "kana": "きゅうに",
+      "kanji": "急に",
+      "kanji_refs": [
+        "k-急"
+      ],
+      "legacy_id": "lesson45_12",
+      "lesson": 45,
+      "meaning_vi": "gấp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gấp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-45-013-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "[[{無理|むり}に]]{食|た}べなくてもいいです。",
+          "source": "ai-draft",
+          "vi": "Không cần cố ăn cũng được."
+        }
+      ],
+      "han_viet": "VÔ LÝ",
+      "id": "mn-45-013",
+      "kana": "むりに",
+      "kanji": "無理に",
+      "kanji_refs": [
+        "k-無",
+        "k-理"
+      ],
+      "legacy_id": "lesson45_13",
+      "lesson": 45,
+      "meaning_vi": "cố, gắng(làm không hợp lý)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cố, gắng(làm không hợp lý)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-45-014-e1",
+          "max_lesson": 45,
+          "review": "user",
+          "ruby": "{国|くに}へ{帰|かえ}るのを[[{楽|たの}しみにしています]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đang mong chờ được về nước."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-45-014",
+      "kana": "たのしみにしています",
+      "kanji": "楽しみにしています",
+      "kanji_refs": [
+        "k-楽"
+      ],
+      "legacy_id": "lesson45_14",
+      "lesson": 45,
+      "meaning_vi": "mong đợi, lấy làm vui",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": "ai-draft",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "ai",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mong đợi, lấy làm vui"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [],
+      "han_viet": "DĨ THƯỢNG",
+      "id": "mn-45-015",
+      "kana": "いじょうです。",
+      "kanji": "以上です。",
+      "kanji_refs": [
+        "k-以",
+        "k-上"
+      ],
+      "legacy_id": "lesson45_15",
+      "lesson": 45,
+      "meaning_vi": "Xin hết.",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Xin hết."
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 45,
+  "schema_version": 4
+}

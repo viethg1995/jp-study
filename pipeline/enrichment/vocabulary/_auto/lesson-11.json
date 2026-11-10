@@ -1,0 +1,815 @@
+[
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "TỬ CUNG",
+    "han_viet_source": null,
+    "id": "mn-11-001",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to shoot (arrow, bolt, dart)",
+        "kanji": "射ます"
+      },
+      {
+        "gloss": "to be (of animate objects); to exist",
+        "kanji": "居ます"
+      },
+      {
+        "gloss": "to cast; to mint",
+        "kanji": "鋳ます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson11_1",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "NHẬT BẢN",
+    "han_viet_source": null,
+    "id": "mn-11-002",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to shoot (arrow, bolt, dart)",
+        "kanji": "射ます"
+      },
+      {
+        "gloss": "to be (of animate objects); to exist",
+        "kanji": "居ます"
+      },
+      {
+        "gloss": "to cast; to mint",
+        "kanji": "鋳ます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson11_2",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-003",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to take (a resource, e.g. time or money)",
+        "kanji": "掛かります"
+      },
+      {
+        "gloss": "to contract (a disease); to suffer from",
+        "kanji": "罹ります"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson11_3",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "HƯU",
+    "han_viet_original": "HƯUHỘI XÃ",
+    "han_viet_source": "derived",
+    "id": "mn-11-004",
+    "kanji": "休みます",
+    "kanji_refs": [
+      "k-休"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_4",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-005",
+    "kanji": "１つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_5",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-006",
+    "kanji": "２つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_6",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-007",
+    "kanji": "３つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_7",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-008",
+    "kanji": "４つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_8",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-009",
+    "kanji": "５つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_9",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-010",
+    "kanji": "６つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_10",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-011",
+    "kanji": "７つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_11",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-012",
+    "kanji": "８つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_12",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-013",
+    "kanji": "９つ",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_13",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-014",
+    "kanji": "10",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_14",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "幾": []
+    },
+    "han_viet_source": null,
+    "id": "mn-11-015",
+    "kanji": "幾つ",
+    "kanji_gloss": "how many",
+    "kanji_refs": [
+      "k-幾"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_15",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHÂN",
+    "han_viet_source": "source",
+    "id": "mn-11-016",
+    "kanji": "１人",
+    "kanji_refs": [
+      "k-人"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_16",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHÂN",
+    "han_viet_source": "source",
+    "id": "mn-11-017",
+    "kanji": "２人",
+    "kanji_refs": [
+      "k-人"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_17",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHÂN",
+    "han_viet_source": "source",
+    "id": "mn-11-018",
+    "kanji": "－人",
+    "kanji_refs": [
+      "k-人"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_18",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐÀI",
+    "han_viet_source": "source",
+    "id": "mn-11-019",
+    "kanji": "－台",
+    "kanji_refs": [
+      "k-台"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_19",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MAI",
+    "han_viet_source": "source",
+    "id": "mn-11-020",
+    "kanji": "－枚",
+    "kanji_refs": [
+      "k-枚"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_20",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỒI",
+    "han_viet_source": "source",
+    "id": "mn-11-021",
+    "kanji": "―回",
+    "kanji_refs": [
+      "k-回"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_21",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "檎": []
+    },
+    "han_viet_source": null,
+    "id": "mn-11-022",
+    "kanji": "林檎",
+    "kanji_gloss": "apple (fruit)",
+    "kanji_refs": [
+      "k-林",
+      "k-檎"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_22",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "柑": [
+        "CAM",
+        "CÙM"
+      ]
+    },
+    "han_viet_source": null,
+    "id": "mn-11-023",
+    "kanji": "蜜柑",
+    "kanji_gloss": "mandarin (esp. the satsuma mandarin (Citrus unshiu)); mandarin orange",
+    "kanji_refs": [
+      "k-蜜",
+      "k-柑"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_23",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-024",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson11_24",
+    "lesson": 11,
+    "pos_reason": "JMdict: danh từ thông dụng (sandwich)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-025",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson11_25",
+    "lesson": 11,
+    "pos_reason": "JMdict: danh từ thông dụng (curry (esp. Japanese curry))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-026",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson11_26",
+    "lesson": 11,
+    "pos_reason": "JMdict: danh từ thông dụng (ice cream)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THIẾT THỦ",
+    "han_viet_source": "source",
+    "id": "mn-11-027",
+    "kanji": "切手",
+    "kanji_refs": [
+      "k-切",
+      "k-手"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_27",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "DIỆP THƯ",
+    "han_viet_source": "derived",
+    "id": "mn-11-028",
+    "kanji": "葉書",
+    "kanji_gloss": "postcard",
+    "kanji_refs": [
+      "k-葉",
+      "k-書"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_28",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHONG ĐỒNG",
+    "han_viet_source": "source",
+    "id": "mn-11-029",
+    "kanji": "封筒",
+    "kanji_refs": [
+      "k-封",
+      "k-筒"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_29",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LƯỠNG THÂN",
+    "han_viet_source": "source",
+    "id": "mn-11-030",
+    "kanji": "両親",
+    "kanji_refs": [
+      "k-両",
+      "k-親"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_30",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HUYNH ĐỆ",
+    "han_viet_source": "source",
+    "id": "mn-11-031",
+    "kanji": "兄弟",
+    "kanji_refs": [
+      "k-兄",
+      "k-弟"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_31",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HUYNH",
+    "han_viet_source": "source",
+    "id": "mn-11-032",
+    "kanji": "兄",
+    "kanji_refs": [
+      "k-兄"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_32",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HUYNH",
+    "han_viet_source": "source",
+    "id": "mn-11-033",
+    "kanji": "お兄さん",
+    "kanji_refs": [
+      "k-兄"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_33",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỶ",
+    "han_viet_source": "source",
+    "id": "mn-11-034",
+    "kanji": "姉",
+    "kanji_refs": [
+      "k-姉"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_34",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỶ",
+    "han_viet_source": "source",
+    "id": "mn-11-035",
+    "kanji": "お姉さん",
+    "kanji_refs": [
+      "k-姉"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_35",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỆ",
+    "han_viet_source": "source",
+    "id": "mn-11-036",
+    "kanji": "弟",
+    "kanji_refs": [
+      "k-弟"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_36",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỆ",
+    "han_viet_source": "source",
+    "id": "mn-11-037",
+    "kanji": "弟さん",
+    "kanji_refs": [
+      "k-弟"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_37",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MUỘI",
+    "han_viet_source": "source",
+    "id": "mn-11-038",
+    "kanji": "妹",
+    "kanji_refs": [
+      "k-妹"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_38",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MUỘI",
+    "han_viet_source": "source",
+    "id": "mn-11-039",
+    "kanji": "妹さん",
+    "kanji_refs": [
+      "k-妹"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_39",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "NGOẠI QUỐC",
+    "han_viet_source": "source",
+    "id": "mn-11-040",
+    "kanji": "外国",
+    "kanji_refs": [
+      "k-外",
+      "k-国"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_40",
+    "lesson": 11,
+    "pos_reason": "JMdict: danh từ thông dụng (foreign country)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LƯU HỌC SINH",
+    "han_viet_source": "source",
+    "id": "mn-11-041",
+    "kanji": "留学生",
+    "kanji_refs": [
+      "k-留",
+      "k-学",
+      "k-生"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_41",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-11-042",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson11_42",
+    "lesson": 11,
+    "pos_reason": "JMdict: danh từ thông dụng (class)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỜI GIAN",
+    "han_viet_source": "source",
+    "id": "mn-11-043",
+    "kanji": "―時間",
+    "kanji_refs": [
+      "k-時",
+      "k-間"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_43",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHU GIAN",
+    "han_viet_source": "source",
+    "id": "mn-11-044",
+    "kanji": "―週間",
+    "kanji_refs": [
+      "k-週",
+      "k-間"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_44",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGUYỆT",
+    "han_viet_source": "source",
+    "id": "mn-11-045",
+    "kanji": "－か月",
+    "kanji_refs": [
+      "k-月"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_45",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NIÊN",
+    "han_viet_source": "source",
+    "id": "mn-11-046",
+    "kanji": "―年",
+    "kanji_refs": [
+      "k-年"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_46",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "VỊ",
+    "han_viet_source": "unihan",
+    "id": "mn-11-047",
+    "kanji": "位",
+    "kanji_gloss": "approximately; about",
+    "kanji_refs": [
+      "k-位"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_47",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "VỊ",
+    "han_viet_source": "unihan",
+    "id": "mn-11-048",
+    "kanji": "どの位",
+    "kanji_gloss": "how long; how far",
+    "kanji_refs": [
+      "k-位"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_48",
+    "lesson": 11
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TOÀN BỘ",
+    "han_viet_source": "source",
+    "id": "mn-11-049",
+    "kanji": "全部で",
+    "kanji_refs": [
+      "k-全",
+      "k-部"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson11_49",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "GIAI",
+    "han_viet_source": "unihan",
+    "id": "mn-11-050",
+    "kanji": "皆",
+    "kanji_gloss": "everyone; everybody",
+    "kanji_refs": [
+      "k-皆"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_50",
+    "lesson": 11
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "岳": []
+    },
+    "han_viet_source": null,
+    "id": "mn-11-051",
+    "kanji": "岳",
+    "kanji_gloss": "(high) mountain; Mount",
+    "kanji_refs": [
+      "k-岳"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson11_51",
+    "lesson": 11
+  }
+]

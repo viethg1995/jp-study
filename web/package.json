@@ -1,0 +1,29 @@
+{
+  "name": "jp-learning-web",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run check:gates && astro check && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "check:schema": "node scripts/check-schema-sync.ts",
+    "check:storage": "node scripts/check-storage-keys.ts",
+    "check:tokens": "node scripts/check-design-tokens.ts",
+    "check:gates": "npm run check:schema && npm run check:storage && npm run check:tokens"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "astro": "7.3.8",
+    "tailwindcss": "^4.3.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@types/node": "^22.20.5",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

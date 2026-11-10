@@ -1,0 +1,539 @@
+{
+  "mn-33-001": {
+    "examples": [
+      {
+        "id": "mn-33-001-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{犬|いぬ}が[[{逃|に}げました]]。",
+        "source": "ai-draft",
+        "vi": "Con chó đã chạy mất."
+      }
+    ]
+  },
+  "mn-33-002": {
+    "examples": [
+      {
+        "id": "mn-33-002-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{教室|きょうしつ}で[[{騒|さわ}ぐ]]な。",
+        "source": "ai-draft",
+        "vi": "Không được làm ồn trong lớp!"
+      }
+    ]
+  },
+  "mn-33-003": {
+    "examples": [
+      {
+        "id": "mn-33-003-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[{諦|あきら}めるな]]。",
+        "source": "ai-draft",
+        "vi": "Đừng bỏ cuộc!"
+      }
+    ],
+    "han_viet": "ĐẾ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-004": {
+    "examples": [
+      {
+        "id": "mn-33-004-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "ボールを[[{投|な}げろ]]。",
+        "source": "ai-draft",
+        "vi": "Ném bóng đi!"
+      }
+    ]
+  },
+  "mn-33-005": {
+    "examples": [
+      {
+        "id": "mn-33-005-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{規則|きそく}を[[{守|まも}って]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy tuân thủ quy tắc."
+      }
+    ]
+  },
+  "mn-33-006": {
+    "examples": [
+      {
+        "id": "mn-33-006-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{会議|かいぎ}は３{時|じ}に[[{始|はじ}まります]]。",
+        "source": "ai-draft",
+        "vi": "Cuộc họp bắt đầu lúc 3 giờ."
+      }
+    ]
+  },
+  "mn-33-007": {
+    "examples": [
+      {
+        "id": "mn-33-007-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{明日|あした}の{会議|かいぎ}に[[{出席|しゅっせき}して]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy tham dự cuộc họp ngày mai."
+      }
+    ]
+  },
+  "mn-33-008": {
+    "examples": [
+      {
+        "id": "mn-33-008-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{田中|たなか}さんに{明日|あした}{休|やす}むと[[{伝|つた}えて]]いただけませんか。",
+        "source": "ai-draft",
+        "vi": "Bạn có thể nhắn với anh Tanaka là ngày mai tôi nghỉ được không?"
+      }
+    ]
+  },
+  "mn-33-009": {
+    "examples": [
+      {
+        "id": "mn-33-009-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{車|くるま}に[[{注意|ちゅうい}して]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy chú ý xe ô tô."
+      }
+    ]
+  },
+  "mn-33-010": {
+    "examples": [
+      {
+        "id": "mn-33-010-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{課長|かちょう}は{今|いま}{席|せき}を[[{外|はず}して]]います。",
+        "source": "ai-draft",
+        "vi": "Tổ trưởng hiện đang không có ở chỗ ngồi."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "はずします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-011": {
+    "examples": [
+      {
+        "id": "mn-33-011-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{課長|かちょう}は３{時|じ}に[[{戻|もど}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tổ trưởng sẽ quay lại lúc 3 giờ."
+      }
+    ]
+  },
+  "mn-33-012": {
+    "examples": [
+      {
+        "id": "mn-33-012-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "ミラーさんから{電話|でんわ}が[[ありました]]。",
+        "source": "ai-draft",
+        "vi": "Có điện thoại từ anh Miller."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "あります: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-013": {
+    "examples": [
+      {
+        "id": "mn-33-013-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "この{紙|かみ}は[[リサイクルします]]。",
+        "source": "ai-draft",
+        "vi": "Giấy này sẽ được tái chế."
+      }
+    ]
+  },
+  "mn-33-014": {
+    "examples": [
+      {
+        "id": "mn-33-014-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "ここで{煙草|たばこ}を{吸|す}っては[[{駄目|だめ}]]です。",
+        "source": "ai-draft",
+        "vi": "Không được hút thuốc ở đây."
+      }
+    ],
+    "han_viet": "ĐÀ MỤC",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-015": {
+    "examples": [
+      {
+        "id": "mn-33-015-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{私|わたし}と[[{同|おな}じ]]{鞄|かばん}ですね。",
+        "source": "ai-draft",
+        "vi": "Chiếc cặp giống của tôi nhỉ."
+      }
+    ]
+  },
+  "mn-33-016": {
+    "examples": [
+      {
+        "id": "mn-33-016-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[{警察|けいさつ}]]に{電話|でんわ}してください。",
+        "source": "ai-draft",
+        "vi": "Hãy gọi cho cảnh sát."
+      }
+    ]
+  },
+  "mn-33-017": {
+    "examples": [
+      {
+        "id": "mn-33-017-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "この[[{席|せき}]]は{空|あ}いていますか。",
+        "source": "ai-draft",
+        "vi": "Chỗ ngồi này có trống không?"
+      }
+    ]
+  },
+  "mn-33-018": {
+    "examples": [
+      {
+        "id": "mn-33-018-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "この[[マーク]]はどういう{意味|いみ}ですか。",
+        "source": "ai-draft",
+        "vi": "Ký hiệu này có nghĩa là gì?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "マーク: PN→N (JMdict: danh từ thông dụng (mark; sign))",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-019": {
+    "examples": [
+      {
+        "id": "mn-33-019-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[ボール]]を{投|な}げるな。",
+        "source": "ai-draft",
+        "vi": "Không được ném bóng!"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ボール: PN→N (JMdict: danh từ thông dụng (ball))",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-020": {
+    "examples": [
+      {
+        "id": "mn-33-020-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "レポートの[[{締|し}め{切|き}り]]は{金曜日|きんようび}です。",
+        "source": "ai-draft",
+        "vi": "Hạn chót nộp báo cáo là thứ sáu."
+      }
+    ]
+  },
+  "mn-33-021": {
+    "examples": [
+      {
+        "id": "mn-33-021-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[{規則|きそく}]]を{守|まも}らなければなりません。",
+        "source": "ai-draft",
+        "vi": "Phải tuân thủ quy tắc."
+      }
+    ]
+  },
+  "mn-33-022": {
+    "examples": [
+      {
+        "id": "mn-33-022-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[{危険|きけん}]]ですから、{入|はい}るな。",
+        "source": "ai-draft",
+        "vi": "Nguy hiểm, cấm vào!"
+      }
+    ]
+  },
+  "mn-33-023": {
+    "examples": [
+      {
+        "id": "mn-33-023-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "あれは「[[{使用禁止|しようきんし}]]」と{読|よ}みます。",
+        "source": "ai-draft",
+        "vi": "Cái kia đọc là \"shiyou kinshi\" (cấm sử dụng)."
+      }
+    ]
+  },
+  "mn-33-024": {
+    "examples": [
+      {
+        "id": "mn-33-024-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "あの{字|じ}は「[[{立入禁止|たちいりきんし}]]」という{意味|いみ}です。",
+        "source": "ai-draft",
+        "vi": "Chữ kia có nghĩa là \"cấm vào\"."
+      }
+    ]
+  },
+  "mn-33-025": {
+    "examples": [
+      {
+        "id": "mn-33-025-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "あそこに「[[{徐行|じょこう}]]」と{書|か}いてあります。",
+        "source": "ai-draft",
+        "vi": "Ở đằng kia có viết \"chạy chậm\"."
+      }
+    ]
+  },
+  "mn-33-026": {
+    "examples": [
+      {
+        "id": "mn-33-026-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[{入口|いりぐち}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Cửa vào ở đâu?"
+      }
+    ]
+  },
+  "mn-33-027": {
+    "examples": [
+      {
+        "id": "mn-33-027-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[{出口|でぐち}]]はあちらです。",
+        "source": "ai-draft",
+        "vi": "Cửa ra ở phía kia."
+      }
+    ]
+  },
+  "mn-33-028": {
+    "examples": [
+      {
+        "id": "mn-33-028-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[{非常口|ひじょうぐち}]]はあそこです。",
+        "source": "ai-draft",
+        "vi": "Cửa thoát hiểm ở đằng kia."
+      }
+    ]
+  },
+  "mn-33-029": {
+    "examples": [
+      {
+        "id": "mn-33-029-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "この{店|みせ}のコーヒーは[[{無料|むりょう}]]です。",
+        "source": "ai-draft",
+        "vi": "Cà phê ở cửa hàng này miễn phí."
+      }
+    ]
+  },
+  "mn-33-030": {
+    "examples": [
+      {
+        "id": "mn-33-030-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{今日|きょう}は３０パーセント[[{割引|わりびき}]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay giảm giá 30%."
+      }
+    ]
+  },
+  "mn-33-031": {
+    "examples": [
+      {
+        "id": "mn-33-031-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "この{店|みせ}はビールが[[{飲|の}み{放題|ほうだい}]]です。",
+        "source": "ai-draft",
+        "vi": "Quán này bia uống thoải mái không giới hạn."
+      }
+    ]
+  },
+  "mn-33-032": {
+    "examples": [
+      {
+        "id": "mn-33-032-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "トイレは[[{使用中|しようちゅう}]]です。",
+        "source": "ai-draft",
+        "vi": "Nhà vệ sinh đang có người dùng."
+      }
+    ]
+  },
+  "mn-33-033": {
+    "examples": [
+      {
+        "id": "mn-33-033-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "アルバイト[[{募集中|ぼしゅうちゅう}]]と{書|か}いてあります。",
+        "source": "ai-draft",
+        "vi": "Có viết \"đang tuyển nhân viên làm thêm\"."
+      }
+    ]
+  },
+  "mn-33-034": {
+    "examples": [
+      {
+        "id": "mn-33-034-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "{課長|かちょう}は{会議|かいぎ}[[{中|ちゅう}]]です。",
+        "source": "ai-draft",
+        "vi": "Tổ trưởng đang họp."
+      }
+    ]
+  },
+  "mn-33-035": {
+    "examples": [
+      {
+        "id": "mn-33-035-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "これは[[どういう]]{意味|いみ}ですか。",
+        "source": "ai-draft",
+        "vi": "Cái này có nghĩa là gì?"
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "どういう～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-036": {
+    "examples": [
+      {
+        "id": "mn-33-036-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[いくら]]{考|かんが}えても、{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Dù có nghĩ bao nhiêu đi nữa cũng không hiểu."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-037": {
+    "examples": [
+      {
+        "id": "mn-33-037-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[もう]]{遅|おく}れません。",
+        "source": "ai-draft",
+        "vi": "Tôi sẽ không đến muộn nữa."
+      }
+    ]
+  },
+  "mn-33-038": {
+    "examples": [
+      {
+        "id": "mn-33-038-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "[[あと]]５{分|ふん}で{会議|かいぎ}が{始|はじ}まります。",
+        "source": "ai-draft",
+        "vi": "Còn 5 phút nữa cuộc họp bắt đầu."
+      }
+    ],
+    "pos_code": "Adv",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "あと～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-33-039": {
+    "examples": [
+      {
+        "id": "mn-33-039-e1",
+        "max_lesson": 33,
+        "review": "user",
+        "ruby": "３０{分|ぷん}[[ほど]]{待|ま}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy chờ khoảng 30 phút."
+      }
+    ]
+  }
+}

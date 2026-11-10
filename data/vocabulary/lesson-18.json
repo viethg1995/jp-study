@@ -1,0 +1,1000 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-18-001-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{私|わたし}は{日本語|にほんご}を{話|はな}すことが[[{出来|でき}ます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể nói tiếng Nhật."
+        }
+      ],
+      "han_viet": "XUẤT LAI",
+      "id": "mn-18-001",
+      "kana": "できます",
+      "kanji": "出来ます",
+      "kanji_refs": [
+        "k-出",
+        "k-来"
+      ],
+      "legacy_id": "lesson18_1",
+      "lesson": 18,
+      "meaning_vi": "có thể",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "có thể"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-002-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{食事|しょくじ}の{前|まえ}に、{手|て}を[[{洗|あら}います]]。",
+          "source": "ai-draft",
+          "vi": "Trước khi ăn, tôi rửa tay."
+        }
+      ],
+      "han_viet": "TẨY",
+      "id": "mn-18-002",
+      "kana": "あらいます",
+      "kanji": "洗います",
+      "kanji_refs": [
+        "k-洗"
+      ],
+      "legacy_id": "lesson18_2",
+      "lesson": 18,
+      "meaning_vi": "rửa",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rửa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-003-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{私|わたし}はピアノを[[{弾|ひ}く]]ことができます。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể chơi piano."
+        }
+      ],
+      "han_viet": "ĐÀN, ĐẠN",
+      "id": "mn-18-003",
+      "kana": "ひきます",
+      "kanji": "弾きます",
+      "kanji_refs": [
+        "k-弾"
+      ],
+      "legacy_id": "lesson18_3",
+      "lesson": 18,
+      "meaning_vi": "chơi (nhạc cụ)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chơi (nhạc cụ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-004-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{私|わたし}の{趣味|しゅみ}は{歌|うた}を[[{歌|うた}う]]ことです。",
+          "source": "ai-draft",
+          "vi": "Sở thích của tôi là hát."
+        }
+      ],
+      "han_viet": "CA",
+      "id": "mn-18-004",
+      "kana": "うたいます",
+      "kanji": "歌います",
+      "kanji_refs": [
+        "k-歌"
+      ],
+      "legacy_id": "lesson18_4",
+      "lesson": 18,
+      "meaning_vi": "hát",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hát"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-005-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{私|わたし}の{趣味|しゅみ}は{切手|きって}を[[{集|あつ}める]]ことです。",
+          "source": "ai-draft",
+          "vi": "Sở thích của tôi là sưu tầm tem."
+        }
+      ],
+      "han_viet": "TẬP",
+      "id": "mn-18-005",
+      "kana": "あつめます",
+      "kanji": "集めます",
+      "kanji_refs": [
+        "k-集"
+      ],
+      "legacy_id": "lesson18_5",
+      "lesson": 18,
+      "meaning_vi": "sưu tầm, thu thập",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sưu tầm, thu thập"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-006-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "ここにごみを[[{捨|す}てないで]]ください。",
+          "source": "ai-draft",
+          "vi": "Đừng vứt rác ở đây."
+        }
+      ],
+      "han_viet": "XẢ",
+      "id": "mn-18-006",
+      "kana": "すてます",
+      "kanji": "捨てます",
+      "kanji_refs": [
+        "k-捨"
+      ],
+      "legacy_id": "lesson18_6",
+      "lesson": 18,
+      "meaning_vi": "vứt, bỏ đi",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vứt, bỏ đi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-007-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{銀行|ぎんこう}でドルを{円|えん}に[[{換|か}えます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đổi đô la sang yên ở ngân hàng."
+        }
+      ],
+      "han_viet": "HOÁN",
+      "id": "mn-18-007",
+      "kana": "かえます",
+      "kanji": "換えます",
+      "kanji_refs": [
+        "k-換"
+      ],
+      "legacy_id": "lesson18_7",
+      "lesson": 18,
+      "meaning_vi": "đổi",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đổi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-008-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{車|くるま}を[[{運転|うんてん}する]]ことができますか。",
+          "source": "ai-draft",
+          "vi": "Bạn có thể lái ô tô không?"
+        }
+      ],
+      "han_viet": "VẬN CHUYỂN",
+      "id": "mn-18-008",
+      "kana": "うんてんします",
+      "kanji": "運転します",
+      "kanji_refs": [
+        "k-運",
+        "k-転"
+      ],
+      "legacy_id": "lesson18_8",
+      "lesson": 18,
+      "meaning_vi": "lái",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-009-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{旅行|りょこう}の{前|まえ}に、ホテルを[[{予約|よやく}します]]。",
+          "source": "ai-draft",
+          "vi": "Trước chuyến du lịch, tôi đặt khách sạn."
+        }
+      ],
+      "han_viet": "DỰ ƯỚC",
+      "id": "mn-18-009",
+      "kana": "よやくします",
+      "kanji": "予約します",
+      "kanji_refs": [
+        "k-予",
+        "k-約"
+      ],
+      "legacy_id": "lesson18_9",
+      "lesson": 18,
+      "meaning_vi": "đặt chỗ, đặt trước",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đặt chỗ, đặt trước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-18-010-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{私|わたし}は[[ピアノ]]を{弾|ひ}くことができます。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể chơi piano."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-18-010",
+      "kana": "ピアノ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson18_10",
+      "lesson": 18,
+      "meaning_vi": "đàn Piano",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đàn Piano"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-18-011-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}５００[[メートル]]{泳|およ}ぎます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi bơi 500 mét."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-18-011",
+      "kana": "～メートル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson18_11",
+      "lesson": 18,
+      "meaning_vi": "～ mét",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ mét"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-012-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "[[{現金|げんきん}]]で{払|はら}うことができますか。",
+          "source": "ai-draft",
+          "vi": "Có thể trả bằng tiền mặt không?"
+        }
+      ],
+      "han_viet": "HIỆN KIM",
+      "id": "mn-18-012",
+      "kana": "げんきん",
+      "kanji": "現金",
+      "kanji_refs": [
+        "k-現",
+        "k-金"
+      ],
+      "legacy_id": "lesson18_12",
+      "lesson": 18,
+      "meaning_vi": "tiền mặt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiền mặt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-013-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{私|わたし}の[[{趣味|しゅみ}]]は{写真|しゃしん}を{撮|と}ることです。",
+          "source": "ai-draft",
+          "vi": "Sở thích của tôi là chụp ảnh."
+        }
+      ],
+      "han_viet": "THÚ VỊ",
+      "id": "mn-18-013",
+      "kana": "しゅみ",
+      "kanji": "趣味",
+      "kanji_refs": [
+        "k-趣",
+        "k-味"
+      ],
+      "legacy_id": "lesson18_13",
+      "lesson": 18,
+      "meaning_vi": "sở thích, thú vui",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-047"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "sở thích, thú vui"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-014-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{寝|ね}る{前|まえ}に、[[{日記|にっき}]]を{書|か}きます。",
+          "source": "ai-draft",
+          "vi": "Trước khi ngủ, tôi viết nhật ký."
+        }
+      ],
+      "han_viet": "NHẬT KÝ",
+      "id": "mn-18-014",
+      "kana": "にっき",
+      "kanji": "日記",
+      "kanji_refs": [
+        "k-日",
+        "k-記"
+      ],
+      "legacy_id": "lesson18_14",
+      "lesson": 18,
+      "meaning_vi": "nhật ký",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhật ký"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-015-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{食事|しょくじ}の{前|まえ}に、お[[{祈|いの}り]]をします。",
+          "source": "ai-draft",
+          "vi": "Trước bữa ăn, tôi cầu nguyện."
+        }
+      ],
+      "han_viet": "KỲ",
+      "id": "mn-18-015",
+      "kana": "いのり",
+      "kanji": "祈り",
+      "kanji_refs": [
+        "k-祈"
+      ],
+      "legacy_id": "lesson18_15",
+      "lesson": 18,
+      "meaning_vi": "việc cầu nguyện (～をします：cầu nguyện)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "việc cầu nguyện (～をします：cầu nguyện)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-016-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "[[{課長|かちょう}]]は{今|いま}{会議|かいぎ}をしています。",
+          "source": "ai-draft",
+          "vi": "Tổ trưởng đang họp."
+        }
+      ],
+      "han_viet": "KHOA TRƯỞNG",
+      "id": "mn-18-016",
+      "kana": "かちょう",
+      "kanji": "課長",
+      "kanji_refs": [
+        "k-課",
+        "k-長"
+      ],
+      "legacy_id": "lesson18_16",
+      "lesson": 18,
+      "meaning_vi": "trưởng phòng, tổ trưởng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trưởng phòng, tổ trưởng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-017-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "[[{部長|ぶちょう}]]の{趣味|しゅみ}はゴルフです。",
+          "source": "ai-draft",
+          "vi": "Sở thích của trưởng phòng là chơi golf."
+        }
+      ],
+      "han_viet": "BỘ TRƯỞNG",
+      "id": "mn-18-017",
+      "kana": "ぶちょう",
+      "kanji": "部長",
+      "kanji_refs": [
+        "k-部",
+        "k-長"
+      ],
+      "legacy_id": "lesson18_17",
+      "lesson": 18,
+      "meaning_vi": "trưởng phòng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trưởng phòng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-018-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "[[{社長|しゃちょう}]]は{今日|きょう}{大阪|おおさか}へ{出張|しゅっちょう}します。",
+          "source": "ai-draft",
+          "vi": "Hôm nay giám đốc đi công tác Osaka."
+        }
+      ],
+      "han_viet": "XÃ TRƯỞNG",
+      "id": "mn-18-018",
+      "kana": "しゃちょう",
+      "kanji": "社長",
+      "kanji_refs": [
+        "k-社",
+        "k-長"
+      ],
+      "legacy_id": "lesson18_18",
+      "lesson": 18,
+      "meaning_vi": "giám đốc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giám đốc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-019-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{動物|どうぶつ}]]が{好|す}きです。",
+          "source": "ai-draft",
+          "vi": "Tôi thích động vật."
+        }
+      ],
+      "han_viet": "ĐỘNG VẬT",
+      "id": "mn-18-019",
+      "kana": "どうぶつ",
+      "kanji": "動物",
+      "kanji_refs": [
+        "k-動",
+        "k-物"
+      ],
+      "legacy_id": "lesson18_19",
+      "lesson": 18,
+      "meaning_vi": "động vật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "động vật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-18-020-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "[[{馬|うま}]]に{乗|の}ることができます。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể cưỡi ngựa."
+        }
+      ],
+      "han_viet": "MÃ",
+      "id": "mn-18-020",
+      "kana": "うま",
+      "kanji": "馬",
+      "kanji_refs": [
+        "k-馬"
+      ],
+      "legacy_id": "lesson18_20",
+      "lesson": 18,
+      "meaning_vi": "ngựa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngựa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-18-021-e1",
+          "max_lesson": 18,
+          "review": "user",
+          "ruby": "[[インターネット]]でホテルを{予約|よやく}することができます。",
+          "source": "ai-draft",
+          "vi": "Có thể đặt khách sạn qua Internet."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-18-021",
+      "kana": "インターネット",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson18_21",
+      "lesson": 18,
+      "meaning_vi": "internet",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "internet"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 18,
+  "schema_version": 4
+}

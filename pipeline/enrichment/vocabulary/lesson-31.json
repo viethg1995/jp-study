@@ -1,0 +1,414 @@
+{
+  "mn-31-001": {
+    "examples": [
+      {
+        "id": "mn-31-001-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{日本語|にほんご}の{勉強|べんきょう}を[[{続|つづ}けよう]]と{思|おも}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi định tiếp tục học tiếng Nhật."
+      }
+    ]
+  },
+  "mn-31-002": {
+    "examples": [
+      {
+        "id": "mn-31-002-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "いいアパートを[[{見|み}つけました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã tìm được một căn hộ tốt."
+      }
+    ]
+  },
+  "mn-31-003": {
+    "examples": [
+      {
+        "id": "mn-31-003-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{来週|らいしゅう}{休|やす}みを[[{取|と}る]]つもりです。",
+        "source": "ai-draft",
+        "vi": "Tuần sau tôi định xin nghỉ."
+      }
+    ],
+    "meaning_source": "user",
+    "meaning_vi": "xin [nghỉ]",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "gõ sai: nghĩ → nghỉ",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-004": {
+    "examples": [
+      {
+        "id": "mn-31-004-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{来年|らいねん}{大学|だいがく}の{試験|しけん}を[[{受|う}けよう]]と{思|おも}っています。",
+        "source": "ai-draft",
+        "vi": "Năm sau tôi định thi đại học."
+      }
+    ]
+  },
+  "mn-31-005": {
+    "examples": [
+      {
+        "id": "mn-31-005-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{日本語|にほんご}{教室|きょうしつ}に[[{申|もう}し{込|こ}みました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đăng ký lớp học tiếng Nhật."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "review": {
+      "by": "user",
+      "note": "込 là quốc tự, không có âm Hán-Việt",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-006": {
+    "examples": [
+      {
+        "id": "mn-31-006-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "ちょっと[[{休憩|きゅうけい}しましょう]]。",
+        "source": "ai-draft",
+        "vi": "Chúng ta giải lao một chút nhé."
+      }
+    ]
+  },
+  "mn-31-007": {
+    "examples": [
+      {
+        "id": "mn-31-007-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[{連休|れんきゅう}]]に{温泉|おんせん}へ{行|い}く{予定|よてい}です。",
+        "source": "ai-draft",
+        "vi": "Kỳ nghỉ dài tôi dự định đi suối nước nóng."
+      }
+    ]
+  },
+  "mn-31-008": {
+    "examples": [
+      {
+        "id": "mn-31-008-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{日本|にほん}の{生活|せいかつ}について[[{作文|さくぶん}]]を{書|か}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã viết bài văn về cuộc sống ở Nhật."
+      }
+    ]
+  },
+  "mn-31-009": {
+    "examples": [
+      {
+        "id": "mn-31-009-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{明日|あした}{会議|かいぎ}で[[{発表|はっぴょう}]]します。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi sẽ phát biểu ở cuộc họp."
+      }
+    ]
+  },
+  "mn-31-010": {
+    "examples": [
+      {
+        "id": "mn-31-010-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{来月|らいげつ}{絵|え}の[[{展覧会|てんらんかい}]]に{行|い}こうと{思|おも}っています。",
+        "source": "ai-draft",
+        "vi": "Tháng sau tôi định đi xem triển lãm tranh."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "てんらんかい: PN→N (JMdict: danh từ thông dụng (exhibition))",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-011": {
+    "examples": [
+      {
+        "id": "mn-31-011-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{来月|らいげつ}{友達|ともだち}の[[{結婚式|けっこんしき}]]に{出|で}ます。",
+        "source": "ai-draft",
+        "vi": "Tháng sau tôi dự lễ cưới của bạn."
+      }
+    ]
+  },
+  "mn-31-012": {
+    "examples": [
+      {
+        "id": "mn-31-012-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{昨日|きのう}{会社|かいしゃ}の{人|ひと}の[[{葬式|そうしき}]]に{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã đi dự đám tang của một người ở công ty."
+      }
+    ]
+  },
+  "mn-31-013": {
+    "examples": [
+      {
+        "id": "mn-31-013-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[{式|しき}]]は１０{時|じ}に{始|はじ}まります。",
+        "source": "ai-draft",
+        "vi": "Buổi lễ bắt đầu lúc 10 giờ."
+      }
+    ]
+  },
+  "mn-31-014": {
+    "examples": [
+      {
+        "id": "mn-31-014-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{来年|らいねん}から[[{本社|ほんしゃ}]]で{働|はたら}く{予定|よてい}です。",
+        "source": "ai-draft",
+        "vi": "Từ năm sau tôi dự định làm việc ở trụ sở chính."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ほんしゃ: PN→N (JMdict: danh từ thông dụng (head office; main office))",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-015": {
+    "examples": [
+      {
+        "id": "mn-31-015-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{来年|らいねん}{大阪|おおさか}の[[{支店|してん}]]で{働|はたら}く{予定|よてい}です。",
+        "source": "ai-draft",
+        "vi": "Năm sau tôi dự định làm việc ở chi nhánh Osaka."
+      }
+    ]
+  },
+  "mn-31-016": {
+    "examples": [
+      {
+        "id": "mn-31-016-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{日曜日|にちようび}に[[{教会|きょうかい}]]へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật tôi đi nhà thờ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "きょうかい: PN→N (JMdict: danh từ thông dụng (association; society))",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-017": {
+    "examples": [
+      {
+        "id": "mn-31-017-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[{大学院|だいがくいん}]]で{勉強|べんきょう}を{続|つづ}けようと{思|おも}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi định tiếp tục học ở cao học."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "だいがくいん: PN→N (JMdict: danh từ thông dụng (graduate school))",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-018": {
+    "examples": [
+      {
+        "id": "mn-31-018-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{子|こ}どもと[[{動物園|どうぶつえん}]]へ{行|い}こうと{思|おも}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi định đi vườn thú cùng con."
+      }
+    ]
+  },
+  "mn-31-019": {
+    "examples": [
+      {
+        "id": "mn-31-019-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{週末|しゅうまつ}は[[{温泉|おんせん}]]に{行|い}くつもりです。",
+        "source": "ai-draft",
+        "vi": "Cuối tuần tôi định đi suối nước nóng."
+      }
+    ]
+  },
+  "mn-31-020": {
+    "examples": [
+      {
+        "id": "mn-31-020-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[{帰|かえ}り]]にスーパーで{買|か}い{物|もの}をします。",
+        "source": "ai-draft",
+        "vi": "Trên đường về tôi mua sắm ở siêu thị."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-021": {
+    "examples": [
+      {
+        "id": "mn-31-021-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[お{子|こ}さん]]は{何歳|なんさい}ですか。",
+        "source": "ai-draft",
+        "vi": "Con của bạn bao nhiêu tuổi?"
+      }
+    ]
+  },
+  "mn-31-022": {
+    "examples": [
+      {
+        "id": "mn-31-022-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "ひかり５[[{号|ごう}]]に{乗|の}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi đi tàu Hikari số 5."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～号 số hiệu",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-023": {
+    "examples": [
+      {
+        "id": "mn-31-023-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{駅|えき}[[の{方|ほう}]]へ{歩|ある}いて{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đi bộ về phía nhà ga."
+      }
+    ]
+  },
+  "mn-31-024": {
+    "examples": [
+      {
+        "id": "mn-31-024-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{昨日|きのう}は[[ずっと]]{家|うち}にいました。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi ở nhà suốt."
+      }
+    ]
+  },
+  "mn-31-025": {
+    "examples": [
+      {
+        "id": "mn-31-025-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "{夏休|なつやす}みに[[バリ]]へ{行|い}くつもりです。",
+        "source": "ai-draft",
+        "vi": "Kỳ nghỉ hè tôi định đi Bali."
+      }
+    ]
+  },
+  "mn-31-026": {
+    "examples": [
+      {
+        "id": "mn-31-026-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[ピカソ]]の{絵|え}を{見|み}に{行|い}こうと{思|おも}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi định đi xem tranh của Picasso."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ピカソ: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-027": {
+    "examples": [
+      {
+        "id": "mn-31-027-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[のぞみ]]で{東京|とうきょう}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi Tokyo bằng tàu Nozomi."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "tên riêng tàu Shinkansen",
+      "status": "reviewed"
+    }
+  },
+  "mn-31-028": {
+    "examples": [
+      {
+        "id": "mn-31-028-e1",
+        "max_lesson": 31,
+        "review": "user",
+        "ruby": "[[{新神戸|しんこうべ}]]で{新幹線|しんかんせん}を{降|お}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi xuống tàu Shinkansen ở ga Shin-Kobe."
+      }
+    ]
+  }
+}

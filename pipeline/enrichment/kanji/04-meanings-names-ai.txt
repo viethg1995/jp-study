@@ -1,0 +1,12 @@
+# by: ai
+# Nghĩa cho chữ Hán mới xuất hiện khi gán kanji cho tên riêng (vòng 14) — AI nháp, chờ duyệt.
+佐|giúp đỡ, phụ tá
+藤|cây tử đằng
+爆|nổ, bùng nổ
+雲|mây
+仙|tiên, thần tiên
+宮|cung điện; đền thờ (thần đạo)
+崎|mũi đất
+照|chiếu sáng; đối chiếu
+京|kinh đô, thủ đô
+博|rộng, bác học; triển lãm (博物館)

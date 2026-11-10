@@ -1,0 +1,75 @@
+---
+// 214 bộ thủ Khang Hy, nhóm theo số nét (1 → 17). Mỗi bộ: chữ + biến thể, số, tên Hán-Việt, nghĩa,
+// số chữ Hán trong dữ liệu thuộc bộ → trang /kanji/bo-thu/<số>/.
+import { getCollection } from "astro:content";
+import Base from "../../../layouts/Base.astro";
+
+const radicals = (await getCollection("radicals")).map((r) => r.data).sort((a, b) => a.number - b.number);
+const kanji = (await getCollection("kanji")).map((k) => k.data);
+const count = new Map<number, number>();
+for (const k of kanji) if (k.radical !== null) count.set(k.radical, (count.get(k.radical) ?? 0) + 1);
+const groups = [...new Set(radicals.map((r) => r.strokes))].map((s) => ({
+  strokes: s,
+  items: radicals.filter((r) => r.strokes === s),
+}));
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title="Bộ thủ">
+  <h1 class="text-2xl font-bold">Bộ thủ</h1>
+  <p class="mt-1 text-sm text-ink-muted">214 bộ thủ Khang Hy, xếp theo số nét</p>
+
+  <nav class="mt-4 flex flex-wrap gap-2 text-sm" aria-label="Số nét">
+    {
+      groups.map((g) => (
+        <a href={`#net-${g.strokes}`} class="rounded-md border border-line bg-surface px-3 py-1 text-primary hover:bg-primary-soft">
+          {g.strokes} nét <span class="text-ink-faint">· {g.items.length}</span>
+        </a>
+      ))
+    }
+  </nav>
+
+  {
+    groups.map((g) => (
+      <section id={`net-${g.strokes}`} class="mt-8 scroll-mt-20">
+        <h2 class="text-lg font-bold">
+          {g.strokes} nét <span class="text-sm font-normal text-ink-faint">· {g.items.length} bộ</span>
+        </h2>
+        <ul class="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
+          {g.items.map((r) => {
+            const n = count.get(r.number) ?? 0;
+            const inner = (
+              <>
+                <span class="jp flex size-12 shrink-0 items-center justify-center rounded-md border border-line text-2xl text-ink" lang="ja">
+                  {r.char}
+                </span>
+                <span class="min-w-0">
+                  <span class="flex items-baseline gap-1.5">
+                    <span class="font-semibold text-ink">{r.name_vi}</span>
+                    <span class="text-xs text-ink-faint">#{r.number}</span>
+                  </span>
+                  <span class="block truncate text-xs text-ink-muted">{r.meaning_vi ?? ""}</span>
+                  <span class="block text-xs text-ink-faint">
+                    {r.variants.length > 0 && <span class="jp" lang="ja">{r.variants.join(" ")} · </span>}
+                    {n > 0 ? `${n} chữ` : "—"}
+                  </span>
+                </span>
+              </>
+            );
+            return (
+              <li>
+                {n > 0 ? (
+                  <a href={`${base}/kanji/bo-thu/${r.number}/`} class="flex h-full gap-3 rounded-lg border border-line bg-surface p-2.5 transition hover:border-primary">
+                    {inner}
+                  </a>
+                ) : (
+                  <div class="flex h-full gap-3 rounded-lg border border-line bg-surface p-2.5">{inner}</div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    ))
+  }
+</Base>

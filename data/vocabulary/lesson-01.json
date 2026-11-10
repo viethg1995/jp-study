@@ -1,0 +1,2087 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-001-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "[[{私|わたし}]]は{学生|がくせい}です。",
+          "source": "ai-draft",
+          "vi": "Tôi là sinh viên."
+        }
+      ],
+      "han_viet": "TƯ",
+      "id": "mn-01-001",
+      "kana": "わたし",
+      "kanji": "私",
+      "kanji_refs": [
+        "k-私"
+      ],
+      "legacy_id": "lesson1_1",
+      "lesson": 1,
+      "meaning_vi": "tôi",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-50-012"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "tôi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-002-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "[[{貴方|あなた}]]は{先生|せんせい}ですか。",
+          "source": "ai-draft",
+          "vi": "Anh/chị là giáo viên phải không?"
+        }
+      ],
+      "han_viet": "QUÝ PHƯƠNG",
+      "id": "mn-01-002",
+      "kana": "あなた",
+      "kanji": "貴方",
+      "kanji_refs": [
+        "k-貴",
+        "k-方"
+      ],
+      "legacy_id": "lesson1_2",
+      "lesson": 1,
+      "meaning_vi": "anh/ chị/ ông/ bà",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh/ chị/ ông/ bà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-003-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "[[あの{人|ひと}]]は{医者|いしゃ}です。",
+          "source": "ai-draft",
+          "vi": "Người kia là bác sĩ."
+        }
+      ],
+      "han_viet": "NHÂN",
+      "id": "mn-01-003",
+      "kana": "あのひと",
+      "kanji": "あの人",
+      "kanji_refs": [
+        "k-人"
+      ],
+      "legacy_id": "lesson1_3",
+      "lesson": 1,
+      "meaning_vi": "người kia, người đó",
+      "particle": null,
+      "pos": {
+        "code": "Pro/Phr",
+        "label": "Đại từ / Cụm từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "người kia, người đó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-004-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "[[あの{方|かた}]]は{先生|せんせい}です。",
+          "source": "ai-draft",
+          "vi": "Vị kia là giáo viên."
+        }
+      ],
+      "han_viet": "PHƯƠNG",
+      "id": "mn-01-004",
+      "kana": "あのかた",
+      "kanji": "あの方",
+      "kanji_refs": [
+        "k-方"
+      ],
+      "legacy_id": "lesson1_4",
+      "lesson": 1,
+      "meaning_vi": "vị kia (cách nói lịch sự của あのひと)",
+      "particle": null,
+      "pos": {
+        "code": "Pro/Phr",
+        "label": "Đại từ / Cụm từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vị kia (cách nói lịch sự của あのひと)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-005-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ミラー[[さん]]は{会社員|かいしゃいん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Miller là nhân viên công ty."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-005",
+      "kana": "～さん",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_5",
+      "lesson": 1,
+      "meaning_vi": "anh, chị, ông, bà (hậu tố thêm vào sau tên)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-41-038"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh, chị, ông, bà (hậu tố thêm vào sau tên)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-006-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "テレーザ[[ちゃん]]は９{歳|さい}です。",
+          "source": "ai-draft",
+          "vi": "Bé Teresa 9 tuổi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-006",
+      "kana": "～ちゃん",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_6",
+      "lesson": 1,
+      "meaning_vi": "hậu tố thêm vào sau tên của trẻ em (thay cho ～さん)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hậu tố thêm vào sau tên của trẻ em (thay cho ～さん)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-007-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワットさんはイギリス[[{人|じん}]]です。",
+          "source": "ai-draft",
+          "vi": "Anh Watt là người Anh."
+        }
+      ],
+      "han_viet": "NHÂN",
+      "id": "mn-01-007",
+      "kana": "～じん",
+      "kanji": "～人",
+      "kanji_refs": [
+        "k-人"
+      ],
+      "legacy_id": "lesson1_7",
+      "lesson": 1,
+      "meaning_vi": "người (nước) ～ (ví dụ: アメリカじん là người Mỹ)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-11-018"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "người (nước) ～ (ví dụ: アメリカじん là người Mỹ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-008-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワット[[{先生|せんせい}]]はイギリス{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Thầy Watt là người Anh."
+        }
+      ],
+      "han_viet": "TIÊN SINH",
+      "id": "mn-01-008",
+      "kana": "せんせい",
+      "kanji": "先生",
+      "kanji_refs": [
+        "k-先",
+        "k-生"
+      ],
+      "legacy_id": "lesson1_8",
+      "lesson": 1,
+      "meaning_vi": "thầy / cô (dùng để gọi hoặc nói về người khác)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-32-018"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "thầy / cô (dùng để gọi hoặc nói về người khác)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-009-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{教師|きょうし}]]です。",
+          "source": "ai-draft",
+          "vi": "Tôi là giáo viên."
+        }
+      ],
+      "han_viet": "GIÁO SƯ",
+      "id": "mn-01-009",
+      "kana": "きょうし",
+      "kanji": "教師",
+      "kanji_refs": [
+        "k-教",
+        "k-師"
+      ],
+      "legacy_id": "lesson1_9",
+      "lesson": 1,
+      "meaning_vi": "giáo viên (dùng khi nói về nghề nghiệp của bản thân)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giáo viên (dùng khi nói về nghề nghiệp của bản thân)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-010-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "マリアさんも[[{学生|がくせい}]]です。",
+          "source": "ai-draft",
+          "vi": "Chị Maria cũng là sinh viên."
+        }
+      ],
+      "han_viet": "HỌC SINH",
+      "id": "mn-01-010",
+      "kana": "がくせい",
+      "kanji": "学生",
+      "kanji_refs": [
+        "k-学",
+        "k-生"
+      ],
+      "legacy_id": "lesson1_10",
+      "lesson": 1,
+      "meaning_vi": "học sinh, sinh viên",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "học sinh, sinh viên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-011-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{会社員|かいしゃいん}]]じゃありません。",
+          "source": "ai-draft",
+          "vi": "Tôi không phải là nhân viên công ty."
+        }
+      ],
+      "han_viet": "HỘI XÃ VIÊN",
+      "id": "mn-01-011",
+      "kana": "かいしゃいん",
+      "kanji": "会社員",
+      "kanji_refs": [
+        "k-会",
+        "k-社",
+        "k-員"
+      ],
+      "legacy_id": "lesson1_11",
+      "lesson": 1,
+      "meaning_vi": "nhân viên công ty",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhân viên công ty"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-012-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ミラーさんはＩＭＣの[[{社員|しゃいん}]]です。",
+          "source": "ai-draft",
+          "vi": "Anh Miller là nhân viên của công ty IMC."
+        }
+      ],
+      "han_viet": "XÃ VIÊN",
+      "id": "mn-01-012",
+      "kana": "しゃいん",
+      "kanji": "社員",
+      "kanji_refs": [
+        "k-社",
+        "k-員"
+      ],
+      "legacy_id": "lesson1_12",
+      "lesson": 1,
+      "meaning_vi": "nhân viên công ty ～ (ví dụ: ＩＭＣのしゃいん)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhân viên công ty ～ (ví dụ: ＩＭＣのしゃいん)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-013-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "あの{人|ひと}は[[{銀行員|ぎんこういん}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Người kia là nhân viên ngân hàng phải không?"
+        }
+      ],
+      "han_viet": "NGÂN HÀNH VIÊN",
+      "id": "mn-01-013",
+      "kana": "ぎんこういん",
+      "kanji": "銀行員",
+      "kanji_refs": [
+        "k-銀",
+        "k-行",
+        "k-員"
+      ],
+      "legacy_id": "lesson1_13",
+      "lesson": 1,
+      "meaning_vi": "nhân viên ngân hàng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhân viên ngân hàng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-014-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワンさんは[[{医者|いしゃ}]]です。",
+          "source": "ai-draft",
+          "vi": "Anh Wang là bác sĩ."
+        }
+      ],
+      "han_viet": "Y GIẢ",
+      "id": "mn-01-014",
+      "kana": "いしゃ",
+      "kanji": "医者",
+      "kanji_refs": [
+        "k-医",
+        "k-者"
+      ],
+      "legacy_id": "lesson1_14",
+      "lesson": 1,
+      "meaning_vi": "bác sĩ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bác sĩ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-015-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "サントスさんは[[{研究者|けんきゅうしゃ}]]じゃありません。",
+          "source": "ai-draft",
+          "vi": "Anh Santos không phải là nhà nghiên cứu."
+        }
+      ],
+      "han_viet": "NGHIÊN CỨU GIẢ",
+      "id": "mn-01-015",
+      "kana": "けんきゅうしゃ",
+      "kanji": "研究者",
+      "kanji_refs": [
+        "k-研",
+        "k-究",
+        "k-者"
+      ],
+      "legacy_id": "lesson1_15",
+      "lesson": 1,
+      "meaning_vi": "nhà nghiên cứu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà nghiên cứu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-016-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{私|わたし}はさくら[[{大学|だいがく}]]の{学生|がくせい}です。",
+          "source": "ai-draft",
+          "vi": "Tôi là sinh viên trường Đại học Sakura."
+        }
+      ],
+      "han_viet": "ĐẠI HỌC",
+      "id": "mn-01-016",
+      "kana": "だいがく",
+      "kanji": "大学",
+      "kanji_refs": [
+        "k-大",
+        "k-学"
+      ],
+      "legacy_id": "lesson1_16",
+      "lesson": 1,
+      "meaning_vi": "đại học, trường đại học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đại học, trường đại học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-017-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワンさんは{神戸|こうべ}[[{病院|びょういん}]]の{医者|いしゃ}です。",
+          "source": "ai-draft",
+          "vi": "Anh Wang là bác sĩ của bệnh viện Kobe."
+        }
+      ],
+      "han_viet": "BỆNH VIỆN",
+      "id": "mn-01-017",
+      "kana": "びょういん",
+      "kanji": "病院",
+      "kanji_refs": [
+        "k-病",
+        "k-院"
+      ],
+      "legacy_id": "lesson1_17",
+      "lesson": 1,
+      "meaning_vi": "bệnh viện",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bệnh viện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-018-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "あの{人|ひと}は[[{誰|だれ}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Người kia là ai?"
+        }
+      ],
+      "han_viet": "THÙY",
+      "id": "mn-01-018",
+      "kana": "だれ",
+      "kanji": "誰",
+      "kanji_refs": [
+        "k-誰"
+      ],
+      "legacy_id": "lesson1_18",
+      "lesson": 1,
+      "meaning_vi": "ai",
+      "particle": null,
+      "pos": {
+        "code": "QP",
+        "label": "Đại từ nghi vấn"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-019-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "あの{方|かた}は[[どなた]]ですか。",
+          "source": "ai-draft",
+          "vi": "Vị kia là ai ạ?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-019",
+      "kana": "どなた",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_19",
+      "lesson": 1,
+      "meaning_vi": "vị nào (cách nói lịch sự của だれ)",
+      "particle": null,
+      "pos": {
+        "code": "QP",
+        "label": "Đại từ nghi vấn"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vị nào (cách nói lịch sự của だれ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-020-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{私|わたし}は２５[[{歳|さい}]]です。",
+          "source": "ai-draft",
+          "vi": "Tôi 25 tuổi."
+        }
+      ],
+      "han_viet": "TUẾ",
+      "id": "mn-01-020",
+      "kana": "～さい",
+      "kanji": "～歳",
+      "kanji_refs": [
+        "k-歳"
+      ],
+      "legacy_id": "lesson1_20",
+      "lesson": 1,
+      "meaning_vi": "～ tuổi",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ tuổi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-021-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "テレーザちゃんは[[{何歳|なんさい}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Bé Teresa mấy tuổi?"
+        }
+      ],
+      "han_viet": "HÀ TUẾ",
+      "id": "mn-01-021",
+      "kana": "なんさい",
+      "kanji": "何歳",
+      "kanji_refs": [
+        "k-何",
+        "k-歳"
+      ],
+      "legacy_id": "lesson1_21",
+      "lesson": 1,
+      "meaning_vi": "mấy tuổi, bao nhiêu tuổi",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mấy tuổi, bao nhiêu tuổi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-022-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{先生|せんせい}は[[おいくつ]]ですか。",
+          "source": "ai-draft",
+          "vi": "Thầy/cô bao nhiêu tuổi ạ?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-022",
+      "kana": "おいくつ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_22",
+      "lesson": 1,
+      "meaning_vi": "mấy tuổi, bao nhiêu tuổi (cách nói lịch sự của なんさい)",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mấy tuổi, bao nhiêu tuổi (cách nói lịch sự của なんさい)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-023-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "[[はい]]、{私|わたし}はミラーです。",
+          "source": "ai-draft",
+          "vi": "Vâng, tôi là Miller."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-023",
+      "kana": "はい",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_23",
+      "lesson": 1,
+      "meaning_vi": "vâng, dạ",
+      "particle": null,
+      "pos": {
+        "code": "Int",
+        "label": "Thán từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vâng, dạ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-024-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "[[いいえ]]、{私|わたし}は{学生|がくせい}じゃありません。",
+          "source": "ai-draft",
+          "vi": "Không, tôi không phải là sinh viên."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-024",
+      "kana": "いいえ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_24",
+      "lesson": 1,
+      "meaning_vi": "không",
+      "particle": null,
+      "pos": {
+        "code": "Int",
+        "label": "Thán từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "không"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [],
+      "han_viet": "SƠ",
+      "id": "mn-01-025",
+      "kana": "はじめまして",
+      "kanji": "初めまして",
+      "kanji_refs": [
+        "k-初"
+      ],
+      "legacy_id": "lesson1_25",
+      "lesson": 1,
+      "meaning_vi": "Rất hân hạnh được gặp anh/chị",
+      "particle": null,
+      "pos": {
+        "code": "Greet",
+        "label": "Cụm từ chào hỏi"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Rất hân hạnh được gặp anh/chị"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-026-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{私|わたし}はアメリカ[[から{来|き}ました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đến từ Mỹ."
+        }
+      ],
+      "han_viet": "LAI",
+      "id": "mn-01-026",
+      "kana": "～からきました",
+      "kanji": "～から来ました",
+      "kanji_refs": [
+        "k-来"
+      ],
+      "legacy_id": "lesson1_26",
+      "lesson": 1,
+      "meaning_vi": "(tôi) đến từ ～",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "(tôi) đến từ ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [],
+      "han_viet": null,
+      "id": "mn-01-027",
+      "kana": "どうぞよろしく",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_27",
+      "lesson": 1,
+      "meaning_vi": "Rất vui khi được làm quen",
+      "particle": null,
+      "pos": {
+        "code": "Greet",
+        "label": "Cụm từ chào hỏi"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Rất vui khi được làm quen"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [],
+      "han_viet": "THẤT LỄ",
+      "id": "mn-01-028",
+      "kana": "しつれいですが",
+      "kanji": "失礼ですが",
+      "kanji_refs": [
+        "k-失",
+        "k-礼"
+      ],
+      "legacy_id": "lesson1_28",
+      "lesson": 1,
+      "meaning_vi": "xin lỗi, … (dùng trước khi hỏi thông tin cá nhân ai đó)",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xin lỗi, … (dùng trước khi hỏi thông tin cá nhân ai đó)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [],
+      "han_viet": "DANH TIỀN",
+      "id": "mn-01-029",
+      "kana": "おなまえは？",
+      "kanji": "お名前は？",
+      "kanji_refs": [
+        "k-名",
+        "k-前"
+      ],
+      "legacy_id": "lesson1_29",
+      "lesson": 1,
+      "meaning_vi": "Tên anh/chị là gì?",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tên anh/chị là gì?"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-030-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "[[こちらはミラーさんです]]。",
+          "source": "ai-draft",
+          "vi": "Đây là anh Miller."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-030",
+      "kana": "こちらは～さんです",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_30",
+      "lesson": 1,
+      "meaning_vi": "Đây là anh/chị/ông/bà ～",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Đây là anh/chị/ông/bà ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-031-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ミラーさんは[[アメリカ]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Miller là người Mỹ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-031",
+      "kana": "アメリカ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_31",
+      "lesson": 1,
+      "meaning_vi": "Mỹ",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Mỹ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-032-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワットさんは[[イギリス]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Watt là người Anh."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-032",
+      "kana": "イギリス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_32",
+      "lesson": 1,
+      "meaning_vi": "Anh",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Anh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-033-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ラオさんは[[インド]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Rao là người Ấn Độ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-033",
+      "kana": "インド",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_33",
+      "lesson": 1,
+      "meaning_vi": "Ấn Độ",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Ấn Độ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-034-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{私|わたし}は[[インドネシア]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Tôi là người Indonesia."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-034",
+      "kana": "インドネシア",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_34",
+      "lesson": 1,
+      "meaning_vi": "Indonesia",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Indonesia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-035-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "イーさんは[[{韓国|かんこく}]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Chị Lee là người Hàn Quốc."
+        }
+      ],
+      "han_viet": "HÀN QUỐC",
+      "id": "mn-01-035",
+      "kana": "かんこく",
+      "kanji": "韓国",
+      "kanji_refs": [
+        "k-韓",
+        "k-国"
+      ],
+      "legacy_id": "lesson1_35",
+      "lesson": 1,
+      "meaning_vi": "Hàn Quốc",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hàn Quốc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-036-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "タワポンさんは[[タイ]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Thawaphon là người Thái."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-036",
+      "kana": "タイ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_36",
+      "lesson": 1,
+      "meaning_vi": "Thái Lan",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Thái Lan"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-037-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワンさんは[[{中国|ちゅうごく}]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Wang là người Trung Quốc."
+        }
+      ],
+      "han_viet": "TRUNG QUỐC",
+      "id": "mn-01-037",
+      "kana": "ちゅうごく",
+      "kanji": "中国",
+      "kanji_refs": [
+        "k-中",
+        "k-国"
+      ],
+      "legacy_id": "lesson1_37",
+      "lesson": 1,
+      "meaning_vi": "Trung Quốc",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trung Quốc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-038-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "シュミットさんは[[ドイツ]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Schmidt là người Đức."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-038",
+      "kana": "ドイツ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_38",
+      "lesson": 1,
+      "meaning_vi": "Đức",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Đức"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-039-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{日本|にほん}]]{人|じん}じゃありません。",
+          "source": "ai-draft",
+          "vi": "Tôi không phải là người Nhật."
+        }
+      ],
+      "han_viet": "NHẬT BẢN",
+      "id": "mn-01-039",
+      "kana": "にほん",
+      "kanji": "日本",
+      "kanji_refs": [
+        "k-日",
+        "k-本"
+      ],
+      "legacy_id": "lesson1_39",
+      "lesson": 1,
+      "meaning_vi": "Nhật Bản",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Nhật Bản"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-040-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "サントスさんは[[ブラジル]]{人|じん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Santos là người Brazil."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-040",
+      "kana": "ブラジル",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_40",
+      "lesson": 1,
+      "meaning_vi": "Braxin",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Braxin"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-041-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ミラーさんは[[ＩＭＣ]]の{社員|しゃいん}です。",
+          "source": "ai-draft",
+          "vi": "Anh Miller là nhân viên công ty IMC."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-041",
+      "kana": "ＩＭＣ / パワーでんき / ブラジルエアー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_41",
+      "lesson": 1,
+      "meaning_vi": "Tên công ty (giả định trong giáo trình)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tên công ty (giả định trong giáo trình)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-01-042-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワットさんは[[ＡＫＣ]]の{研究者|けんきゅうしゃ}です。",
+          "source": "ai-draft",
+          "vi": "Anh Watt là nhà nghiên cứu của AKC."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-01-042",
+      "kana": "ＡＫＣ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson1_42",
+      "lesson": 1,
+      "meaning_vi": "Tên một tổ chức (giả định)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tên một tổ chức (giả định)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-043-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワンさんは[[{神戸|こうべ}{病院|びょういん}]]の{医者|いしゃ}です。",
+          "source": "ai-draft",
+          "vi": "Anh Wang là bác sĩ của bệnh viện Kobe."
+        }
+      ],
+      "han_viet": "THẦN HỘ BỆNH VIỆN",
+      "id": "mn-01-043",
+      "kana": "こうべびょういん",
+      "kanji": "神戸病院",
+      "kanji_refs": [
+        "k-神",
+        "k-戸",
+        "k-病",
+        "k-院"
+      ],
+      "legacy_id": "lesson1_43",
+      "lesson": 1,
+      "meaning_vi": "Bệnh viện Kobe (giả định)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Bệnh viện Kobe (giả định)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-044-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "マリアさんは[[さくら{大学|だいがく}]]の{学生|がくせい}です。",
+          "source": "ai-draft",
+          "vi": "Chị Maria là sinh viên trường Đại học Sakura."
+        }
+      ],
+      "han_viet": "ĐẠI HỌC",
+      "id": "mn-01-044",
+      "kana": "さくらだいがく",
+      "kanji": "さくら大学",
+      "kanji_refs": [
+        "k-大",
+        "k-学"
+      ],
+      "legacy_id": "lesson1_44",
+      "lesson": 1,
+      "meaning_vi": "Trường Đại học Sakura (giả định)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trường Đại học Sakura (giả định)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-01-045-e1",
+          "max_lesson": 1,
+          "review": "user",
+          "ruby": "ワット{先生|せんせい}は[[{富士|ふじ}{大学|だいがく}]]の{先生|せんせい}です。",
+          "source": "ai-draft",
+          "vi": "Thầy Watt là giáo viên trường Đại học Fuji."
+        }
+      ],
+      "han_viet": "PHÚ SĨ ĐẠI HỌC",
+      "id": "mn-01-045",
+      "kana": "ふじだいがく",
+      "kanji": "富士大学",
+      "kanji_refs": [
+        "k-富",
+        "k-士",
+        "k-大",
+        "k-学"
+      ],
+      "legacy_id": "lesson1_45",
+      "lesson": 1,
+      "meaning_vi": "Trường Đại học Phú Sĩ (giả định)",
+      "particle": null,
+      "pos": {
+        "code": "PN",
+        "label": "Danh từ riêng"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trường Đại học Phú Sĩ (giả định)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 1,
+  "schema_version": 4
+}

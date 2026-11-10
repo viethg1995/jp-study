@@ -1,0 +1,312 @@
+[
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "XUẤT LAI",
+    "han_viet_source": "derived",
+    "id": "mn-18-001",
+    "kanji": "出来ます",
+    "kanji_gloss": "to be able to do; to be possible",
+    "kanji_refs": [
+      "k-出",
+      "k-来"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson18_1",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TẨY",
+    "han_viet_source": "source",
+    "id": "mn-18-002",
+    "kanji": "洗います",
+    "kanji_refs": [
+      "k-洗"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_2",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐÀN, ĐẠN",
+    "han_viet_source": "source",
+    "id": "mn-18-003",
+    "kanji": "弾きます",
+    "kanji_refs": [
+      "k-弾"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_3",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CA",
+    "han_viet_source": "source",
+    "id": "mn-18-004",
+    "kanji": "歌います",
+    "kanji_refs": [
+      "k-歌"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_4",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TẬP",
+    "han_viet_source": "source",
+    "id": "mn-18-005",
+    "kanji": "集めます",
+    "kanji_refs": [
+      "k-集"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_5",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "XẢ",
+    "han_viet_source": "source",
+    "id": "mn-18-006",
+    "kanji": "捨てます",
+    "kanji_refs": [
+      "k-捨"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_6",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HOÁN",
+    "han_viet_source": "source",
+    "id": "mn-18-007",
+    "kanji": "換えます",
+    "kanji_refs": [
+      "k-換"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_7",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VẬN CHUYỂN",
+    "han_viet_source": "source",
+    "id": "mn-18-008",
+    "kanji": "運転します",
+    "kanji_refs": [
+      "k-運",
+      "k-転"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_8",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DỰ ƯỚC",
+    "han_viet_source": "source",
+    "id": "mn-18-009",
+    "kanji": "予約します",
+    "kanji_refs": [
+      "k-予",
+      "k-約"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_9",
+    "lesson": 18
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-18-010",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson18_10",
+    "lesson": 18,
+    "pos_reason": "JMdict: danh từ thông dụng (piano (instrument))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-18-011",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson18_11",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HIỆN KIM",
+    "han_viet_source": "source",
+    "id": "mn-18-012",
+    "kanji": "現金",
+    "kanji_refs": [
+      "k-現",
+      "k-金"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_12",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THÚ VỊ",
+    "han_viet_source": "source",
+    "id": "mn-18-013",
+    "kanji": "趣味",
+    "kanji_refs": [
+      "k-趣",
+      "k-味"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_13",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHẬT KÝ",
+    "han_viet_source": "source",
+    "id": "mn-18-014",
+    "kanji": "日記",
+    "kanji_refs": [
+      "k-日",
+      "k-記"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_14",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KỲ",
+    "han_viet_source": "source",
+    "id": "mn-18-015",
+    "kanji": "祈り",
+    "kanji_refs": [
+      "k-祈"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_15",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHOA TRƯỞNG",
+    "han_viet_source": "source",
+    "id": "mn-18-016",
+    "kanji": "課長",
+    "kanji_refs": [
+      "k-課",
+      "k-長"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_16",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BỘ TRƯỞNG",
+    "han_viet_source": "source",
+    "id": "mn-18-017",
+    "kanji": "部長",
+    "kanji_refs": [
+      "k-部",
+      "k-長"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_17",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "XÃ TRƯỞNG",
+    "han_viet_source": "source",
+    "id": "mn-18-018",
+    "kanji": "社長",
+    "kanji_refs": [
+      "k-社",
+      "k-長"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_18",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỘNG VẬT",
+    "han_viet_source": "source",
+    "id": "mn-18-019",
+    "kanji": "動物",
+    "kanji_refs": [
+      "k-動",
+      "k-物"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_19",
+    "lesson": 18
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MÃ",
+    "han_viet_source": "source",
+    "id": "mn-18-020",
+    "kanji": "馬",
+    "kanji_refs": [
+      "k-馬"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson18_20",
+    "lesson": 18
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-18-021",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson18_21",
+    "lesson": 18,
+    "pos_reason": "JMdict: danh từ thông dụng (Internet)",
+    "pos_suggested": "N"
+  }
+]

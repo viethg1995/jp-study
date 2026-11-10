@@ -1,0 +1,209 @@
+[
+  {
+    "id": "lesson23_1",
+    "jp": "ききます",
+    "kanji": "聞きます",
+    "kanji_vn": "VĂNTIÊN SINH",
+    "vn": "hỏi [giáo viên]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson23_2",
+    "jp": "まわします",
+    "kanji": "回します",
+    "kanji_vn": "HỒI",
+    "vn": "vặn (núm)",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson23_3",
+    "jp": "ひきます",
+    "kanji": "引きます",
+    "kanji_vn": "DẪN",
+    "vn": "kéo",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson23_4",
+    "jp": "かえます",
+    "kanji": "変えます",
+    "kanji_vn": "BIẾN",
+    "vn": "đổi",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson23_5",
+    "jp": "さわります",
+    "kanji": "触ります",
+    "kanji_vn": "XÚC",
+    "vn": "sờ, chạm vào [cửa]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson23_6",
+    "jp": "でます",
+    "kanji": "出ます",
+    "kanji_vn": "XUẤTĐIẾU",
+    "vn": "[tiền thừa] ra, chạy ra",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson23_7",
+    "jp": "あるきます",
+    "kanji": "歩きます",
+    "kanji_vn": "BỘ",
+    "vn": "đi bộ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson23_8",
+    "jp": "わたります",
+    "kanji": "渡ります",
+    "kanji_vn": "ĐỘKIỀU",
+    "vn": "qua, đi qua [cầu]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson23_9",
+    "jp": "まがります",
+    "kanji": "曲がります",
+    "kanji_vn": "KHÚCHỮU",
+    "vn": "rẽ, quẹo [phải]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson23_10",
+    "jp": "さびしい",
+    "kanji": "寂しい",
+    "kanji_vn": "TỊCH",
+    "vn": "buồn, cô đơn",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson23_11",
+    "jp": "ゆ",
+    "kanji": "湯",
+    "kanji_vn": "THANG",
+    "vn": "nước nóng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_12",
+    "jp": "おと",
+    "kanji": "音",
+    "kanji_vn": "ÂM",
+    "vn": "âm thanh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_13",
+    "jp": "サイズ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cỡ, kích thước",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson23_14",
+    "jp": "こしょう",
+    "kanji": "故障",
+    "kanji_vn": "CỐ CHƯỚNG",
+    "vn": "hỏng (~します：bị hỏng)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_15",
+    "jp": "みち",
+    "kanji": "道",
+    "kanji_vn": "ĐẠO",
+    "vn": "đường",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_16",
+    "jp": "こうさてん",
+    "kanji": "交差点",
+    "kanji_vn": "GIAO SAI ĐIỂM",
+    "vn": "ngã tư",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_17",
+    "jp": "しんごう",
+    "kanji": "信号",
+    "kanji_vn": "TÍN HIỆU",
+    "vn": "đèn tín hiệu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_18",
+    "jp": "かど",
+    "kanji": "角",
+    "kanji_vn": "GIÁC",
+    "vn": "góc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_19",
+    "jp": "はし",
+    "kanji": "橋",
+    "kanji_vn": "KIỀU",
+    "vn": "cầu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_20",
+    "jp": "ちゅうしゃじょう",
+    "kanji": "駐車場",
+    "kanji_vn": "TRÚ XA TRƯỜNG",
+    "vn": "bãi đỗ xe",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_21",
+    "jp": "たてもの",
+    "kanji": "建物",
+    "kanji_vn": "KIẾN VẬT",
+    "vn": "tòa nhà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson23_22",
+    "jp": "なんかいも",
+    "kanji": "何回も",
+    "kanji_vn": "HÀ HỒI",
+    "vn": "nhiều lần",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson23_23",
+    "jp": "―め",
+    "kanji": "―目",
+    "kanji_vn": "MỤC",
+    "vn": "thứ - , số - (biểu thị thứ tự)",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

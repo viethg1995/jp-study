@@ -1,0 +1,776 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHỞI",
+    "han_viet_source": "source",
+    "id": "mn-04-001",
+    "kanji": "起きます",
+    "kanji_refs": [
+      "k-起"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_1",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TẨM",
+    "han_viet_source": "source",
+    "id": "mn-04-002",
+    "kanji": "寝ます",
+    "kanji_refs": [
+      "k-寝"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_2",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỘNG",
+    "han_viet_source": "source",
+    "id": "mn-04-003",
+    "kanji": "働きます",
+    "kanji_refs": [
+      "k-働"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_3",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HƯU",
+    "han_viet_source": "source",
+    "id": "mn-04-004",
+    "kanji": "休みます",
+    "kanji_refs": [
+      "k-休"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_4",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MIỄN CƯỜNG",
+    "han_viet_source": "source",
+    "id": "mn-04-005",
+    "kanji": "勉強します",
+    "kanji_refs": [
+      "k-勉",
+      "k-強"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_5",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHUNG",
+    "han_viet_source": "source",
+    "id": "mn-04-006",
+    "kanji": "終わります",
+    "kanji_refs": [
+      "k-終"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_6",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-04-007",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson4_7",
+    "lesson": 4,
+    "pos_reason": "JMdict: danh từ thông dụng (department store)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGÂN HÀNH",
+    "han_viet_source": "source",
+    "id": "mn-04-008",
+    "kanji": "銀行",
+    "kanji_refs": [
+      "k-銀",
+      "k-行"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_8",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BƯU TIỆN CỤC",
+    "han_viet_source": "source",
+    "id": "mn-04-009",
+    "kanji": "郵便局",
+    "kanji_refs": [
+      "k-郵",
+      "k-便",
+      "k-局"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_9",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỒ THƯ QUÁN",
+    "han_viet_source": "source",
+    "id": "mn-04-010",
+    "kanji": "図書館",
+    "kanji_refs": [
+      "k-図",
+      "k-書",
+      "k-館"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_10",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỸ THUẬT QUÁN",
+    "han_viet_source": "source",
+    "id": "mn-04-011",
+    "kanji": "美術館",
+    "kanji_refs": [
+      "k-美",
+      "k-術",
+      "k-館"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_11",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIM",
+    "han_viet_source": "source",
+    "id": "mn-04-012",
+    "kanji": "今",
+    "kanji_refs": [
+      "k-今"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_12",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỜI",
+    "han_viet_source": "source",
+    "id": "mn-04-013",
+    "kanji": "－時",
+    "kanji_refs": [
+      "k-時"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_13",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÂN",
+    "han_viet_source": "source",
+    "id": "mn-04-014",
+    "kanji": "―分",
+    "kanji_refs": [
+      "k-分"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_14",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BÁN",
+    "han_viet_source": "source",
+    "id": "mn-04-015",
+    "kanji": "半",
+    "kanji_refs": [
+      "k-半"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_15",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ THỜI",
+    "han_viet_source": "source",
+    "id": "mn-04-016",
+    "kanji": "何時",
+    "kanji_refs": [
+      "k-何",
+      "k-時"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_16",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ PHÂN",
+    "han_viet_source": "source",
+    "id": "mn-04-017",
+    "kanji": "何分",
+    "kanji_refs": [
+      "k-何",
+      "k-分"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_17",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGỌ TIỀN",
+    "han_viet_source": "source",
+    "id": "mn-04-018",
+    "kanji": "午前",
+    "kanji_refs": [
+      "k-午",
+      "k-前"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_18",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGỌ HẬU",
+    "han_viet_source": "source",
+    "id": "mn-04-019",
+    "kanji": "午後",
+    "kanji_refs": [
+      "k-午",
+      "k-後"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_19",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRIỀU",
+    "han_viet_source": "source",
+    "id": "mn-04-020",
+    "kanji": "朝",
+    "kanji_refs": [
+      "k-朝"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_20",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRÚ",
+    "han_viet_source": "source",
+    "id": "mn-04-021",
+    "kanji": "昼",
+    "kanji_refs": [
+      "k-昼"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_21",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VÃN(DẠ)",
+    "han_viet_source": "source",
+    "id": "mn-04-022",
+    "kanji": "晩",
+    "kanji_refs": [
+      "k-晩"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_22",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "昨": []
+    },
+    "han_viet_source": null,
+    "id": "mn-04-023",
+    "kanji": "一昨日",
+    "kanji_gloss": "day before yesterday",
+    "kanji_refs": [
+      "k-一",
+      "k-昨",
+      "k-日"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson4_23",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-04-024",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "function; facility",
+        "kanji": "機能"
+      },
+      {
+        "gloss": "yesterday",
+        "kanji": "昨日"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson4_24",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-04-025",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "imperial capital (esp. Kyoto)",
+        "kanji": "京"
+      },
+      {
+        "gloss": "Lord; Sir",
+        "kanji": "卿"
+      },
+      {
+        "gloss": "border; boundary",
+        "kanji": "境"
+      },
+      {
+        "gloss": "interest; entertainment",
+        "kanji": "興"
+      },
+      {
+        "gloss": "today; this day",
+        "kanji": "今日"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson4_25",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "MINH NHẬT",
+    "han_viet_source": "derived",
+    "id": "mn-04-026",
+    "kanji": "明日",
+    "kanji_gloss": "tomorrow",
+    "kanji_refs": [
+      "k-明",
+      "k-日"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson4_26",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "MINH HẬU NHẬT",
+    "han_viet_source": "derived",
+    "id": "mn-04-027",
+    "kanji": "明後日",
+    "kanji_gloss": "day after tomorrow",
+    "kanji_refs": [
+      "k-明",
+      "k-後",
+      "k-日"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson4_27",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "KIM TRIỀU",
+    "han_viet_source": "derived",
+    "id": "mn-04-028",
+    "kanji": "今朝",
+    "kanji_gloss": "this morning",
+    "kanji_refs": [
+      "k-今",
+      "k-朝"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson4_28",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIM VÃN",
+    "han_viet_source": "source",
+    "id": "mn-04-029",
+    "kanji": "今晩",
+    "kanji_refs": [
+      "k-今",
+      "k-晩"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_29",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HƯU",
+    "han_viet_source": "source",
+    "id": "mn-04-030",
+    "kanji": "休み",
+    "kanji_refs": [
+      "k-休"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_30",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRÚ HƯU",
+    "han_viet_source": "source",
+    "id": "mn-04-031",
+    "kanji": "昼休み",
+    "kanji_refs": [
+      "k-昼",
+      "k-休"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_31",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THÍ NGHIỆM",
+    "han_viet_source": "source",
+    "id": "mn-04-032",
+    "kanji": "試験",
+    "kanji_refs": [
+      "k-試",
+      "k-験"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_32",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỘI NGHỊ",
+    "han_viet_source": "source",
+    "id": "mn-04-033",
+    "kanji": "会議",
+    "kanji_refs": [
+      "k-会",
+      "k-議"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_33",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ÁNH HỌA",
+    "han_viet_source": "source",
+    "id": "mn-04-034",
+    "kanji": "映画",
+    "kanji_refs": [
+      "k-映",
+      "k-画"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_34",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỖI TRIỀU",
+    "han_viet_source": "source",
+    "id": "mn-04-035",
+    "kanji": "毎朝",
+    "kanji_refs": [
+      "k-毎",
+      "k-朝"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_35",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỖI VÃN",
+    "han_viet_source": "source",
+    "id": "mn-04-036",
+    "kanji": "毎晩",
+    "kanji_refs": [
+      "k-毎",
+      "k-晩"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_36",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỖI NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-037",
+    "kanji": "毎日",
+    "kanji_refs": [
+      "k-毎",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_37",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGUYỆT DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-038",
+    "kanji": "月曜日",
+    "kanji_refs": [
+      "k-月",
+      "k-曜",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_38",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỎA DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-039",
+    "kanji": "火曜日",
+    "kanji_refs": [
+      "k-火",
+      "k-曜",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_39",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỦY DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-040",
+    "kanji": "水曜日",
+    "kanji_refs": [
+      "k-水",
+      "k-曜",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_40",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỘC DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-041",
+    "kanji": "木曜日",
+    "kanji_refs": [
+      "k-木",
+      "k-曜",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_41",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIM DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-042",
+    "kanji": "金曜日",
+    "kanji_refs": [
+      "k-金",
+      "k-曜",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_42",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỔ DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-043",
+    "kanji": "土曜日",
+    "kanji_refs": [
+      "k-土",
+      "k-曜",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_43",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHẬT DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-044",
+    "kanji": "日曜日",
+    "kanji_refs": [
+      "k-日",
+      "k-曜"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_44",
+    "lesson": 4
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ DIỆU NHẬT",
+    "han_viet_source": "source",
+    "id": "mn-04-045",
+    "kanji": "何曜日",
+    "kanji_refs": [
+      "k-何",
+      "k-曜",
+      "k-日"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson4_45",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "TÂN",
+    "han_viet_source": "derived",
+    "id": "mn-04-046",
+    "kanji": "辛",
+    "kanji_gloss": "counter for spiciness of food (e.g. curry)",
+    "kanji_refs": [
+      "k-辛"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson4_46",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-04-047",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson4_47",
+    "lesson": 4
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-04-048",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "person",
+        "kanji": "人"
+      },
+      {
+        "gloss": "Metropolis (of Tokyo); (Tokyo) Metropolitan District",
+        "kanji": "都"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson4_48",
+    "lesson": 4
+  }
+]

@@ -1,0 +1,1695 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-001-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[ここ]]は{食堂|しょくどう}です。",
+          "source": "ai-draft",
+          "vi": "Đây là nhà ăn."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-001",
+      "kana": "ここ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_1",
+      "lesson": 3,
+      "meaning_vi": "chỗ này, đây",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chỗ này, đây"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-002-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[そこ]]は{事務所|じむしょ}です。",
+          "source": "ai-draft",
+          "vi": "Chỗ đó là văn phòng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-002",
+      "kana": "そこ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_2",
+      "lesson": 3,
+      "meaning_vi": "chỗ đó, đó",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chỗ đó, đó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-003-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "トイレは[[あそこ]]です。",
+          "source": "ai-draft",
+          "vi": "Nhà vệ sinh ở đằng kia."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-003",
+      "kana": "あそこ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_3",
+      "lesson": 3,
+      "meaning_vi": "chỗ kia, kia",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chỗ kia, kia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-004-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "{受付|うけつけ}は[[どこ]]ですか。",
+          "source": "ai-draft",
+          "vi": "Quầy lễ tân ở đâu?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-004",
+      "kana": "どこ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_4",
+      "lesson": 3,
+      "meaning_vi": "chỗ nào, đâu",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chỗ nào, đâu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-005-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[こちら]]はミラーさんです。",
+          "source": "ai-draft",
+          "vi": "Đây là anh Miller."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-005",
+      "kana": "こちら",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_5",
+      "lesson": 3,
+      "meaning_vi": "phía này, đằng này, chỗ này, đây",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-46-012"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía này, đằng này, chỗ này, đây"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-006-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "{電話|でんわ}は[[そちら]]です。",
+          "source": "ai-draft",
+          "vi": "Điện thoại ở phía đó."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-006",
+      "kana": "そちら",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_6",
+      "lesson": 3,
+      "meaning_vi": "phía đó, đằng đó, chỗ đó, đó",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía đó, đằng đó, chỗ đó, đó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-007-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "エレベーターは[[あちら]]です。",
+          "source": "ai-draft",
+          "vi": "Thang máy ở phía kia."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-007",
+      "kana": "あちら",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_7",
+      "lesson": 3,
+      "meaning_vi": "phía kia, đằng kia, chỗ kia, kia",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía kia, đằng kia, chỗ kia, kia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-008-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "お{国|くに}は[[どちら]]ですか。",
+          "source": "ai-draft",
+          "vi": "Anh/chị đến từ nước nào?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-008",
+      "kana": "どちら",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_8",
+      "lesson": 3,
+      "meaning_vi": "phía nào, đằng nào, chỗ nào, đâu",
+      "particle": null,
+      "pos": {
+        "code": "QP",
+        "label": "Đại từ nghi vấn"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-12-040"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "phía nào, đằng nào, chỗ nào, đâu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-009-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{教室|きょうしつ}]]は３{階|がい}です。",
+          "source": "ai-draft",
+          "vi": "Phòng học ở tầng 3."
+        }
+      ],
+      "han_viet": "GIÁO THẤT",
+      "id": "mn-03-009",
+      "kana": "きょうしつ",
+      "kanji": "教室",
+      "kanji_refs": [
+        "k-教",
+        "k-室"
+      ],
+      "legacy_id": "lesson3_9",
+      "lesson": 3,
+      "meaning_vi": "lớp học, phòng học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lớp học, phòng học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-010-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{食堂|しょくどう}]]は{地下|ちか}です。",
+          "source": "ai-draft",
+          "vi": "Nhà ăn ở tầng hầm."
+        }
+      ],
+      "han_viet": "THỰC ĐƯỜNG",
+      "id": "mn-03-010",
+      "kana": "しょくどう",
+      "kanji": "食堂",
+      "kanji_refs": [
+        "k-食",
+        "k-堂"
+      ],
+      "legacy_id": "lesson3_10",
+      "lesson": 3,
+      "meaning_vi": "nhà ăn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà ăn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-011-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "ここは[[{事務所|じむしょ}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là văn phòng."
+        }
+      ],
+      "han_viet": "SỰ VỤ SỞ",
+      "id": "mn-03-011",
+      "kana": "じむしょ",
+      "kanji": "事務所",
+      "kanji_refs": [
+        "k-事",
+        "k-務",
+        "k-所"
+      ],
+      "legacy_id": "lesson3_11",
+      "lesson": 3,
+      "meaning_vi": "văn phòng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "văn phòng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-012-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{会議室|かいぎしつ}]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Phòng họp ở đâu?"
+        }
+      ],
+      "han_viet": "HỘI NGHỊ THẤT",
+      "id": "mn-03-012",
+      "kana": "かいぎしつ",
+      "kanji": "会議室",
+      "kanji_refs": [
+        "k-会",
+        "k-議",
+        "k-室"
+      ],
+      "legacy_id": "lesson3_12",
+      "lesson": 3,
+      "meaning_vi": "phòng họp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phòng họp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-013-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{受付|うけつけ}]]はあそこです。",
+          "source": "ai-draft",
+          "vi": "Quầy lễ tân ở đằng kia."
+        }
+      ],
+      "han_viet": "THỤ PHÓ",
+      "id": "mn-03-013",
+      "kana": "うけつけ",
+      "kanji": "受付",
+      "kanji_refs": [
+        "k-受",
+        "k-付"
+      ],
+      "legacy_id": "lesson3_13",
+      "lesson": 3,
+      "meaning_vi": "bộ phận tiếp tân, phòng thường trực",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bộ phận tiếp tân, phòng thường trực"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-014-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[ロビー]]はあそこです。",
+          "source": "ai-draft",
+          "vi": "Sảnh ở đằng kia."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-014",
+      "kana": "ロビー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_14",
+      "lesson": 3,
+      "meaning_vi": "hành lang, đại sảnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hành lang, đại sảnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-015-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "ここは{私|わたし}の[[{部屋|へや}]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là phòng của tôi."
+        }
+      ],
+      "han_viet": "BỘ ỐC",
+      "id": "mn-03-015",
+      "kana": "へや",
+      "kanji": "部屋",
+      "kanji_refs": [
+        "k-部",
+        "k-屋"
+      ],
+      "legacy_id": "lesson3_15",
+      "lesson": 3,
+      "meaning_vi": "căn phòng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "căn phòng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-016-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[トイレ]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Nhà vệ sinh ở đâu?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-016",
+      "kana": "トイレ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_16",
+      "lesson": 3,
+      "meaning_vi": "nhà vệ sinh, phòng vệ sinh, toa-lét",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà vệ sinh, phòng vệ sinh, toa-lét"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-017-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{階段|かいだん}]]はあちらです。",
+          "source": "ai-draft",
+          "vi": "Cầu thang ở phía kia."
+        }
+      ],
+      "han_viet": "GIAI ĐOẠN",
+      "id": "mn-03-017",
+      "kana": "かいだん",
+      "kanji": "階段",
+      "kanji_refs": [
+        "k-階",
+        "k-段"
+      ],
+      "legacy_id": "lesson3_17",
+      "lesson": 3,
+      "meaning_vi": "cầu thang",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cầu thang"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-018-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[エレベーター]]はあちらです。",
+          "source": "ai-draft",
+          "vi": "Thang máy ở phía kia."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-018",
+      "kana": "エレベーター",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_18",
+      "lesson": 3,
+      "meaning_vi": "thang máy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thang máy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-019-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[エスカレーター]]はそこです。",
+          "source": "ai-draft",
+          "vi": "Thang cuốn ở chỗ đó."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-019",
+      "kana": "エスカレーター",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_19",
+      "lesson": 3,
+      "meaning_vi": "thang cuốn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thang cuốn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-020-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{自動販売機|じどうはんばいき}]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Máy bán hàng tự động ở đâu?"
+        }
+      ],
+      "han_viet": "TỰ ĐỘNG PHIẾN MẠI CƠ",
+      "id": "mn-03-020",
+      "kana": "じどうはんばいき",
+      "kanji": "自動販売機",
+      "kanji_refs": [
+        "k-自",
+        "k-動",
+        "k-販",
+        "k-売",
+        "k-機"
+      ],
+      "legacy_id": "lesson3_20",
+      "lesson": 3,
+      "meaning_vi": "máy bán hàng tự động",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "máy bán hàng tự động"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-021-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{電話|でんわ}]]はあそこです。",
+          "source": "ai-draft",
+          "vi": "Điện thoại ở đằng kia."
+        }
+      ],
+      "han_viet": "ĐIỆN THOẠI",
+      "id": "mn-03-021",
+      "kana": "でんわ",
+      "kanji": "電話",
+      "kanji_refs": [
+        "k-電",
+        "k-話"
+      ],
+      "legacy_id": "lesson3_21",
+      "lesson": 3,
+      "meaning_vi": "máy điện thoại, điện thoại",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "máy điện thoại, điện thoại"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-022-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "ワンさんのお[[{国|くに}]]は{中国|ちゅうごく}です。",
+          "source": "ai-draft",
+          "vi": "Nước của anh Wang là Trung Quốc."
+        }
+      ],
+      "han_viet": "QUỐC",
+      "id": "mn-03-022",
+      "kana": "くに",
+      "kanji": "国",
+      "kanji_refs": [
+        "k-国"
+      ],
+      "legacy_id": "lesson3_22",
+      "lesson": 3,
+      "meaning_vi": "đất nước (của anh/chị)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đất nước (của anh/chị)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-023-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "[[{会社|かいしゃ}]]はどちらですか。",
+          "source": "ai-draft",
+          "vi": "Anh/chị làm ở công ty nào?"
+        }
+      ],
+      "han_viet": "HỘI XÃ",
+      "id": "mn-03-023",
+      "kana": "かいしゃ",
+      "kanji": "会社",
+      "kanji_refs": [
+        "k-会",
+        "k-社"
+      ],
+      "legacy_id": "lesson3_23",
+      "lesson": 3,
+      "meaning_vi": "công ty",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "công ty"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-024-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "ミラーさんの[[{家|うち}]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Nhà anh Miller ở đâu?"
+        }
+      ],
+      "han_viet": "GIA",
+      "id": "mn-03-024",
+      "kana": "うち",
+      "kanji": "家",
+      "kanji_refs": [
+        "k-家"
+      ],
+      "legacy_id": "lesson3_24",
+      "lesson": 3,
+      "meaning_vi": "nhà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-27-015"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-025-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "この[[{靴|くつ}]]はいくらですか。",
+          "source": "ai-draft",
+          "vi": "Đôi giày này bao nhiêu tiền?"
+        }
+      ],
+      "han_viet": "NGOA",
+      "id": "mn-03-025",
+      "kana": "くつ",
+      "kanji": "靴",
+      "kanji_refs": [
+        "k-靴"
+      ],
+      "legacy_id": "lesson3_25",
+      "lesson": 3,
+      "meaning_vi": "giầy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giầy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-026-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "この[[ネクタイ]]はいくらですか。",
+          "source": "ai-draft",
+          "vi": "Cái cà vạt này bao nhiêu tiền?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-026",
+      "kana": "ネクタイ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_26",
+      "lesson": 3,
+      "meaning_vi": "cà vạt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cà vạt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-027-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "これはフランスの[[ワイン]]です。",
+          "source": "ai-draft",
+          "vi": "Đây là rượu vang Pháp."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-027",
+      "kana": "ワイン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_27",
+      "lesson": 3,
+      "meaning_vi": "rượu vang",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rượu vang"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-028-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "{靴|くつ}の[[{売り場|うりば}]]は{地下|ちか}です。",
+          "source": "ai-draft",
+          "vi": "Quầy bán giày ở tầng hầm."
+        }
+      ],
+      "han_viet": "MẠI TRƯỜNG",
+      "id": "mn-03-028",
+      "kana": "うりば",
+      "kanji": "売り場",
+      "kanji_refs": [
+        "k-売",
+        "k-場"
+      ],
+      "legacy_id": "lesson3_28",
+      "lesson": 3,
+      "meaning_vi": "quầy bán (trong một cửa hàng bách hóa)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quầy bán (trong một cửa hàng bách hóa)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-029-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "{食堂|しょくどう}は[[{地下|ちか}]]１{階|かい}です。",
+          "source": "ai-draft",
+          "vi": "Nhà ăn ở tầng hầm 1."
+        }
+      ],
+      "han_viet": "ĐỊA HẠ",
+      "id": "mn-03-029",
+      "kana": "ちか",
+      "kanji": "地下",
+      "kanji_refs": [
+        "k-地",
+        "k-下"
+      ],
+      "legacy_id": "lesson3_29",
+      "lesson": 3,
+      "meaning_vi": "tầng hầm, dưới mặt đất",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tầng hầm, dưới mặt đất"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-030-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "{会議室|かいぎしつ}は５[[{階|かい}]]です。",
+          "source": "ai-draft",
+          "vi": "Phòng họp ở tầng 5."
+        }
+      ],
+      "han_viet": "GIAI",
+      "id": "mn-03-030",
+      "kana": "～かい",
+      "kanji": "～階",
+      "kanji_refs": [
+        "k-階"
+      ],
+      "legacy_id": "lesson3_30",
+      "lesson": 3,
+      "meaning_vi": "tầng thứ ～",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tầng thứ ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-031-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "{事務所|じむしょ}は[[{何階|なんがい}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Văn phòng ở tầng mấy?"
+        }
+      ],
+      "han_viet": "HÀ GIAI",
+      "id": "mn-03-031",
+      "kana": "なんがい",
+      "kanji": "何階",
+      "kanji_refs": [
+        "k-何",
+        "k-階"
+      ],
+      "legacy_id": "lesson3_31",
+      "lesson": 3,
+      "meaning_vi": "tầng mấy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tầng mấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-032-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "この{傘|かさ}は８００[[{円|えん}]]です。",
+          "source": "ai-draft",
+          "vi": "Cái ô này giá 800 yên."
+        }
+      ],
+      "han_viet": "VIÊN",
+      "id": "mn-03-032",
+      "kana": "～えん",
+      "kanji": "～円",
+      "kanji_refs": [
+        "k-円"
+      ],
+      "legacy_id": "lesson3_32",
+      "lesson": 3,
+      "meaning_vi": "～yên",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～yên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-03-033-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "この{時計|とけい}は[[いくら]]ですか。",
+          "source": "ai-draft",
+          "vi": "Cái đồng hồ này bao nhiêu tiền?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-03-033",
+      "kana": "いくら",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson3_33",
+      "lesson": 3,
+      "meaning_vi": "bao nhiêu tiền",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-33-036"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "bao nhiêu tiền"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-034-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "この{鉛筆|えんぴつ}は[[{百|ひゃく}]]{円|えん}です。",
+          "source": "ai-draft",
+          "vi": "Cây bút chì này giá 100 yên."
+        }
+      ],
+      "han_viet": "BÁCH",
+      "id": "mn-03-034",
+      "kana": "ひゃく",
+      "kanji": "百",
+      "kanji_refs": [
+        "k-百"
+      ],
+      "legacy_id": "lesson3_34",
+      "lesson": 3,
+      "meaning_vi": "trăm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trăm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-035-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "この{辞書|じしょ}は{三|さん}[[{千|ぜん}]]{円|えん}です。",
+          "source": "ai-draft",
+          "vi": "Cuốn từ điển này giá 3.000 yên."
+        }
+      ],
+      "han_viet": "THIÊN",
+      "id": "mn-03-035",
+      "kana": "せん",
+      "kanji": "千",
+      "kanji_refs": [
+        "k-千"
+      ],
+      "legacy_id": "lesson3_35",
+      "lesson": 3,
+      "meaning_vi": "nghìn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghìn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-03-036-e1",
+          "max_lesson": 3,
+          "review": "user",
+          "ruby": "この{車|くるま}は{二百|にひゃく}[[{万|まん}]]{円|えん}です。",
+          "source": "ai-draft",
+          "vi": "Chiếc ô tô này giá 2 triệu yên."
+        }
+      ],
+      "han_viet": "VẠN",
+      "id": "mn-03-036",
+      "kana": "まん",
+      "kanji": "万",
+      "kanji_refs": [
+        "k-万"
+      ],
+      "legacy_id": "lesson3_36",
+      "lesson": 3,
+      "meaning_vi": "mười nghìn, vạn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mười nghìn, vạn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 3,
+  "schema_version": 4
+}

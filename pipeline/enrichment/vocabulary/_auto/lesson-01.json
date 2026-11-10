@@ -1,0 +1,710 @@
+[
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "TƯ",
+    "han_viet_source": "derived",
+    "id": "mn-01-001",
+    "kanji": "私",
+    "kanji_gloss": "I; me",
+    "kanji_refs": [
+      "k-私"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson1_1",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-002",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "you",
+        "kanji": "貴方"
+      },
+      {
+        "gloss": "beyond; across",
+        "kanji": "彼方"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_2",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHÂN",
+    "han_viet_source": "source",
+    "id": "mn-01-003",
+    "kanji": "あの人",
+    "kanji_refs": [
+      "k-人"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_3",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHƯƠNG",
+    "han_viet_source": "source",
+    "id": "mn-01-004",
+    "kanji": "あの方",
+    "kanji_refs": [
+      "k-方"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_4",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-005",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "Mt.; Mount",
+        "kanji": "山"
+      },
+      {
+        "gloss": "(giving) birth; childbirth",
+        "kanji": "産"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_5",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-006",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_6",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHÂN",
+    "han_viet_source": "source",
+    "id": "mn-01-007",
+    "kanji": "～人",
+    "kanji_refs": [
+      "k-人"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_7",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TIÊN SINH",
+    "han_viet_source": "source",
+    "id": "mn-01-008",
+    "kanji": "先生",
+    "kanji_refs": [
+      "k-先",
+      "k-生"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_8",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIÁO SƯ",
+    "han_viet_source": "source",
+    "id": "mn-01-009",
+    "kanji": "教師",
+    "kanji_refs": [
+      "k-教",
+      "k-師"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_9",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỌC SINH",
+    "han_viet_source": "source",
+    "id": "mn-01-010",
+    "kanji": "学生",
+    "kanji_refs": [
+      "k-学",
+      "k-生"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_10",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỘI XÃ VIÊN",
+    "han_viet_source": "source",
+    "id": "mn-01-011",
+    "kanji": "会社員",
+    "kanji_refs": [
+      "k-会",
+      "k-社",
+      "k-員"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_11",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "XÃ VIÊN",
+    "han_viet_source": "source",
+    "id": "mn-01-012",
+    "kanji": "社員",
+    "kanji_refs": [
+      "k-社",
+      "k-員"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_12",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGÂN HÀNH VIÊN",
+    "han_viet_source": "source",
+    "id": "mn-01-013",
+    "kanji": "銀行員",
+    "kanji_refs": [
+      "k-銀",
+      "k-行",
+      "k-員"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_13",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "Y GIẢ",
+    "han_viet_source": "source",
+    "id": "mn-01-014",
+    "kanji": "医者",
+    "kanji_refs": [
+      "k-医",
+      "k-者"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_14",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGHIÊN CỨU GIẢ",
+    "han_viet_source": "source",
+    "id": "mn-01-015",
+    "kanji": "研究者",
+    "kanji_refs": [
+      "k-研",
+      "k-究",
+      "k-者"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_15",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẠI HỌC",
+    "han_viet_source": "source",
+    "id": "mn-01-016",
+    "kanji": "大学",
+    "kanji_refs": [
+      "k-大",
+      "k-学"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_16",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BỆNH VIỆN",
+    "han_viet_source": "source",
+    "id": "mn-01-017",
+    "kanji": "病院",
+    "kanji_refs": [
+      "k-病",
+      "k-院"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_17",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "誰": []
+    },
+    "han_viet_source": null,
+    "id": "mn-01-018",
+    "kanji": "誰",
+    "kanji_gloss": "who",
+    "kanji_refs": [
+      "k-誰"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson1_18",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "HÀ PHƯƠNG",
+    "han_viet_source": "derived",
+    "id": "mn-01-019",
+    "kanji": "何方",
+    "kanji_gloss": "who",
+    "kanji_refs": [
+      "k-何",
+      "k-方"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson1_19",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TUẾ",
+    "han_viet_original": "NHẤT TUẾ",
+    "han_viet_source": "derived",
+    "id": "mn-01-020",
+    "kanji": "－歳",
+    "kanji_refs": [
+      "k-歳"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_20",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ TUẾ",
+    "han_viet_source": "source",
+    "id": "mn-01-021",
+    "kanji": "何歳",
+    "kanji_refs": [
+      "k-何",
+      "k-歳"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_21",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_22",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-023",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_23",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-024",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_24",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "SƠ",
+    "han_viet_source": "derived",
+    "id": "mn-01-025",
+    "kanji": "初めまして",
+    "kanji_refs": [
+      "k-初"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_25",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LAI",
+    "han_viet_source": "derived",
+    "id": "mn-01-026",
+    "kanji": "～から来ました",
+    "kanji_refs": [
+      "k-来"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_26",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-027",
+    "kanji": "どうぞよろしく",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_27",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẤT LỄ",
+    "han_viet_source": "unihan",
+    "id": "mn-01-028",
+    "kanji": "失礼ですが",
+    "kanji_refs": [
+      "k-失",
+      "k-礼"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_28",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DANH TIỀN",
+    "han_viet_source": "derived",
+    "id": "mn-01-029",
+    "kanji": "お名前は？",
+    "kanji_refs": [
+      "k-名",
+      "k-前"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_29",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-030",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_30",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-031",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_31",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng ((United States of) America; United States)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-032",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_32",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (United Kingdom; UK)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-033",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_33",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (India)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-034",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_34",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (Indonesia)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_ambiguous",
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "韓": []
+    },
+    "han_viet_source": null,
+    "id": "mn-01-035",
+    "kanji": "韓国",
+    "kanji_refs": [
+      "k-韓",
+      "k-国"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_35",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (advice; counsel)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-036",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_36",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (tie; necktie)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "TRUNG QUỐC",
+    "han_viet_source": "derived",
+    "id": "mn-01-037",
+    "kanji": "中国",
+    "kanji_refs": [
+      "k-中",
+      "k-国"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_37",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (China)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-038",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_38",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (Germany)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "NHẬT BẢN",
+    "han_viet_source": "derived",
+    "id": "mn-01-039",
+    "kanji": "日本",
+    "kanji_refs": [
+      "k-日",
+      "k-本"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_39",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (Japan)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-040",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_40",
+    "lesson": 1,
+    "pos_reason": "JMdict: danh từ thông dụng (Brazil)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-041",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_41",
+    "lesson": 1
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-01-042",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson1_42",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẦN HỘ BỆNH VIỆN",
+    "han_viet_source": "derived",
+    "id": "mn-01-043",
+    "kanji": "神戸病院",
+    "kanji_refs": [
+      "k-神",
+      "k-戸",
+      "k-病",
+      "k-院"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_43",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẠI HỌC",
+    "han_viet_source": "derived",
+    "id": "mn-01-044",
+    "kanji": "さくら大学",
+    "kanji_refs": [
+      "k-大",
+      "k-学"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_44",
+    "lesson": 1
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÚ SĨ ĐẠI HỌC",
+    "han_viet_source": "mixed",
+    "id": "mn-01-045",
+    "kanji": "富士大学",
+    "kanji_refs": [
+      "k-富",
+      "k-士",
+      "k-大",
+      "k-学"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson1_45",
+    "lesson": 1
+  }
+]

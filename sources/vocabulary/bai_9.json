@@ -1,0 +1,398 @@
+[
+  {
+    "id": "lesson9_1",
+    "jp": "わかります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hiểu, nắm được",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson9_2",
+    "jp": "あります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "có (sở hữu)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson9_3",
+    "jp": "すき",
+    "kanji": "好き",
+    "kanji_vn": "HIẾU/HẢO",
+    "vn": "thích",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson9_4",
+    "jp": "きらい",
+    "kanji": "嫌い",
+    "kanji_vn": "HIỀM",
+    "vn": "ghét, không thích",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson9_5",
+    "jp": "じょうず",
+    "kanji": "上手",
+    "kanji_vn": "THƯỢNG THỦ",
+    "vn": "giỏi, khéo",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson9_6",
+    "jp": "へた",
+    "kanji": "下手",
+    "kanji_vn": "HẠ THỦ",
+    "vn": "kém",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson9_7",
+    "jp": "のみもの",
+    "kanji": "飲み物",
+    "kanji_vn": "ẨM VẬT",
+    "vn": "đồ uống",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_8",
+    "jp": "りょうり",
+    "kanji": "料理",
+    "kanji_vn": "LIỆU LÝ",
+    "vn": "món ăn, việc nấu ăn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_9",
+    "jp": "スポーツ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thể thao (～をします：chơi thể thao)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_10",
+    "jp": "やきゅう",
+    "kanji": "野球",
+    "kanji_vn": "DÃ CẦU",
+    "vn": "bóng chày (～をします：chơi bóng chày)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_11",
+    "jp": "ダンス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhảy, khiêu vũ(～をします：nhảy, khiêu vũ)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_12",
+    "jp": "りょこう",
+    "kanji": "旅行",
+    "kanji_vn": "LỮ HÀNH",
+    "vn": "du lịch, chuyến du lịch",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_13",
+    "jp": "おんがく",
+    "kanji": "音楽",
+    "kanji_vn": "ÂM NHẠC/LẠC",
+    "vn": "âm nhạc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_14",
+    "jp": "うた",
+    "kanji": "歌",
+    "kanji_vn": "CA",
+    "vn": "bài hát",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_15",
+    "jp": "クラシック",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhạc cổ điển",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_16",
+    "jp": "ジャズ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhạc jazz",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_17",
+    "jp": "コンサート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "buổi hòa nhạc",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_18",
+    "jp": "カラオケ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "karaoke",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_19",
+    "jp": "かぶき",
+    "kanji": "歌舞伎",
+    "kanji_vn": "CA VŨ KỸ",
+    "vn": "Kabuki (một loại ca kịch truyền thống của Nhật)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_20",
+    "jp": "え",
+    "kanji": "絵",
+    "kanji_vn": "HỘI",
+    "vn": "tranh, hội họa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_21",
+    "jp": "じ",
+    "kanji": "字",
+    "kanji_vn": "TỰ",
+    "vn": "chữ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_22",
+    "jp": "かんじ",
+    "kanji": "漢字",
+    "kanji_vn": "HÁN TỰ",
+    "vn": "chữ hán",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_23",
+    "jp": "ひらがな",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chữ Hiragana",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_24",
+    "jp": "かたかな",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Chữ Katakana",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_25",
+    "jp": "ローマじ",
+    "kanji": "ローマ字",
+    "kanji_vn": "TỰ",
+    "vn": "chữ La Mã",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_26",
+    "jp": "こまかいおかね",
+    "kanji": "細かいお金",
+    "kanji_vn": "TẾ KIM",
+    "vn": "tiền lẻ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_27",
+    "jp": "チケット",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vé (xem hòa nhạc, xem phim)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_28",
+    "jp": "じかん",
+    "kanji": "時間",
+    "kanji_vn": "THÌ/THỜI GIAN",
+    "vn": "thời gian",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_29",
+    "jp": "ようじ",
+    "kanji": "用事",
+    "kanji_vn": "DỤNG SỰ",
+    "vn": "việc bận, công chuyện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_30",
+    "jp": "やくそく",
+    "kanji": "約束",
+    "kanji_vn": "ƯỚC THÚC",
+    "vn": "cuộc hẹn, lời hứa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_31",
+    "jp": "アルバイト",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "việc làm thêm",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson9_32",
+    "jp": "ごしゅじん",
+    "kanji": "ご主人",
+    "kanji_vn": "CHỦ NHÂN",
+    "vn": "chồng (dùng khi nói về chồng người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_33",
+    "jp": "おっと/しゅじん",
+    "kanji": "夫 /主人",
+    "kanji_vn": "PHU / CHỦ NHÂN",
+    "vn": "chồng (dùng khi nói về chồng mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_34",
+    "jp": "おくさん",
+    "kanji": "奥さん",
+    "kanji_vn": "ÁO",
+    "vn": "vợ (dùng khi nói về vợ người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_35",
+    "jp": "つま/かない",
+    "kanji": "妻/家内",
+    "kanji_vn": "THÊ / GIA NỘI",
+    "vn": "vợ (dùng khi nói về vợ mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_36",
+    "jp": "こども",
+    "kanji": "子ども",
+    "kanji_vn": "TỬ",
+    "vn": "con cái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_37",
+    "jp": "よく",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tốt, rõ (chỉ mức độ)",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson9_38",
+    "jp": "だいたい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đại khái, đại thể",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson9_39",
+    "jp": "たくさん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhiều",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson9_40",
+    "jp": "すこし",
+    "kanji": "少し",
+    "kanji_vn": "THIẾU, THIỂU",
+    "vn": "ít, một ít",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson9_41",
+    "jp": "ぜんぜん",
+    "kanji": "全然",
+    "kanji_vn": "TOÀN NHIÊN",
+    "vn": "hoàn toàn ~ không",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson9_42",
+    "jp": "はやく",
+    "kanji": "早く, 速く",
+    "kanji_vn": "TẢO、TỐC",
+    "vn": "sớm, nhanh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson9_43",
+    "jp": "～から",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vì ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson9_44",
+    "jp": "どうして",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tại sao",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

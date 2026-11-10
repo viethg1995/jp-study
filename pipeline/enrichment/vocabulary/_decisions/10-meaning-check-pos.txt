@@ -1,0 +1,9 @@
+# by: user
+# Vòng 10 — sửa từ loại, phát hiện khi rà check-meanings + từ trùng, 2026-11-10
+# id | CODE | ghi chú
+22-001|V2|着ます = 着る (nhất đoạn); nguồn ghi V3 vì nhầm với 来ます
+41-001|V1|いただきます (nhận) là động từ khiêm nhường của もらいます, không phải thán từ
+50-003|V1|いただきます (ăn, uống, nhận) là động từ khiêm nhường
+21-035|Adv|そんなに là trạng từ, nguồn ghi N
+32-040|Adv|そんなに là trạng từ, nguồn ghi N
+14-037|Adv|また (又, lại ～ đến) là trạng từ, nguồn ghi Conj

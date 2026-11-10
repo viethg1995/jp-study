@@ -1,0 +1,18 @@
+# by: user
+# Vòng 5 — sửa âm Hán-Việt sai (phát hiện khi viết nghĩa Kanji, user xác nhận 2026-11-09)
+# Lỗi từ 2 nguồn: dữ liệu gốc gõ sai (HUỮ, TÀN, ĐIẾU, HOÁN, XUYÊN) và Unihan kVietnamese lẫn âm Nôm (MÀI, NÉO, NHỤA, SỨT, THỞI)
+# id | kanji | han_viet | ghi chú      ("-" = không có/để trống, "=" = giữ giá trị _auto)
+07-004|=|THẾ|貰 — Unihan cho âm Nôm THỞI
+10-017|=|LÃNH TÀNG KHỐ|蔵 — gốc ghi TÀN
+10-036|=|HỮU|右 — gốc gõ sai HUỮ
+27-009|=|ĐIỂU|鳥 — gốc ghi ĐIẾU
+29-017|=|THỦ THẾ|替 — gốc ghi HOÁN (HOÁN là 換)
+34-001|=|MA|磨 — Unihan cho âm Nôm MÀI
+35-025|=|NỮU|紐 — Unihan cho âm Nôm NÉO
+37-002|=|SẤT|叱 — Unihan cho âm Nôm SỨT
+42-025|=|THUYÊN BẠT|栓 — gốc ghi XUYÊN
+44-005|=|NHU|濡 — Unihan cho âm Nôm NHỤA
+14-037|=|HỰU|又 — Unihan cho âm Nôm LẠI
+47-005|=|BIỆT|別 — Unihan cho âm Nôm BIẾT
+42-002|=|PHÍ|沸 — gốc ghi PHẮT/PHI (âm đúng: PHÍ, PHẤT)
+50-008|=|TỨ|伺 — gốc ghi TÝ/TỬ

@@ -1,0 +1,219 @@
+{
+  "mn-24-001": {
+    "examples": [
+      {
+        "id": "mn-24-001-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{友達|ともだち}が{私|わたし}に{本|ほん}を[[くれました]]。",
+        "source": "ai-draft",
+        "vi": "Bạn tôi đã tặng tôi một quyển sách."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "くれる thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-24-002": {
+    "examples": [
+      {
+        "id": "mn-24-002-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{父|ちち}が{自転車|じてんしゃ}を[[{直|なお}して]]くれました。",
+        "source": "ai-draft",
+        "vi": "Bố đã sửa xe đạp cho tôi."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "なおします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-24-003": {
+    "examples": [
+      {
+        "id": "mn-24-003-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{子|こ}どもを{公園|こうえん}へ[[{連|つ}れて{行|い}きます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi dẫn con đi công viên."
+      }
+    ]
+  },
+  "mn-24-004": {
+    "examples": [
+      {
+        "id": "mn-24-004-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{友達|ともだち}を{家|うち}へ[[{連|つ}れて{来|き}ました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã dẫn bạn đến nhà."
+      }
+    ]
+  },
+  "mn-24-005": {
+    "examples": [
+      {
+        "id": "mn-24-005-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{駅|えき}まで{友達|ともだち}を[[{送|おく}りました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã tiễn bạn đến nhà ga."
+      }
+    ]
+  },
+  "mn-24-006": {
+    "examples": [
+      {
+        "id": "mn-24-006-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{友達|ともだち}を{家族|かぞく}に[[{紹介|しょうかい}しました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã giới thiệu bạn với gia đình."
+      }
+    ]
+  },
+  "mn-24-007": {
+    "examples": [
+      {
+        "id": "mn-24-007-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{友達|ともだち}に{京都|きょうと}を[[{案内|あんない}して]]{上|あ}げました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã dẫn bạn đi tham quan Kyoto."
+      }
+    ]
+  },
+  "mn-24-008": {
+    "examples": [
+      {
+        "id": "mn-24-008-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{先生|せんせい}が{使|つか}い{方|かた}を[[{説明|せつめい}して]]くれました。",
+        "source": "ai-draft",
+        "vi": "Thầy giáo đã giải thích cách dùng cho tôi."
+      }
+    ]
+  },
+  "mn-24-009": {
+    "examples": [
+      {
+        "id": "mn-24-009-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "[[おじいさん]]に{手紙|てがみ}を{書|か}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã viết thư cho ông."
+      }
+    ]
+  },
+  "mn-24-010": {
+    "examples": [
+      {
+        "id": "mn-24-010-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "[[おばあさん]]が{料理|りょうり}を{作|つく}ってくれました。",
+        "source": "ai-draft",
+        "vi": "Bà đã nấu ăn cho tôi."
+      }
+    ]
+  },
+  "mn-24-011": {
+    "examples": [
+      {
+        "id": "mn-24-011-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{旅行|りょこう}の[[{準備|じゅんび}]]をしました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã chuẩn bị cho chuyến du lịch."
+      }
+    ]
+  },
+  "mn-24-012": {
+    "examples": [
+      {
+        "id": "mn-24-012-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{友達|ともだち}が[[{引|ひ}っ{越|こ}し]]を{手伝|てつだ}ってくれました。",
+        "source": "ai-draft",
+        "vi": "Bạn đã giúp tôi chuyển nhà."
+      }
+    ]
+  },
+  "mn-24-013": {
+    "examples": [
+      {
+        "id": "mn-24-013-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{友達|ともだち}にお[[{菓子|かし}]]を{上|あ}げました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cho bạn bánh kẹo."
+      }
+    ]
+  },
+  "mn-24-014": {
+    "examples": [
+      {
+        "id": "mn-24-014-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "{日本人|にほんじん}の{家|うち}で[[ホームステイ]]をしました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã ở homestay tại nhà người Nhật."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ホームステイ: PN→N (JMdict: danh từ thông dụng (homestay))",
+      "status": "reviewed"
+    }
+  },
+  "mn-24-015": {
+    "examples": [
+      {
+        "id": "mn-24-015-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "[[{全部|ぜんぶ}]]{食|た}べました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã ăn hết."
+      }
+    ]
+  },
+  "mn-24-016": {
+    "examples": [
+      {
+        "id": "mn-24-016-e1",
+        "max_lesson": 24,
+        "review": "user",
+        "ruby": "[[{自分|じぶん}で]]{料理|りょうり}を{作|つく}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi tự nấu ăn."
+      }
+    ]
+  }
+}

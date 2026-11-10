@@ -1,0 +1,564 @@
+{
+  "mn-42-001": {
+    "examples": [
+      {
+        "id": "mn-42-001-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "プレゼントを{綺麗|きれい}な{紙|かみ}で[[{包|つつ}みました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã gói quà bằng giấy đẹp."
+      }
+    ]
+  },
+  "mn-42-002": {
+    "examples": [
+      {
+        "id": "mn-42-002-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "お{茶|ちゃ}を{飲|の}むためにお{湯|ゆ}を[[{沸|わ}かします]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đun nước sôi để uống trà."
+      }
+    ],
+    "han_viet": "PHÍ",
+    "han_viet_source": "user",
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "note": "沸 — gốc ghi PHẮT/PHI (âm đúng: PHÍ, PHẤT)",
+      "pos_by": "user",
+      "pos_note": "わかします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-003": {
+    "examples": [
+      {
+        "id": "mn-42-003-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{卵|たまご}と{砂糖|さとう}を{良|よ}く[[{混|ま}ぜて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy trộn đều trứng và đường."
+      }
+    ]
+  },
+  "mn-42-004": {
+    "examples": [
+      {
+        "id": "mn-42-004-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "この{機械|きかい}は[[{計算|けいさん}する]]のに{使|つか}います。",
+        "source": "ai-draft",
+        "vi": "Chiếc máy này dùng để tính toán."
+      }
+    ]
+  },
+  "mn-42-005": {
+    "examples": [
+      {
+        "id": "mn-42-005-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{店|みせ}の{前|まえ}に{人|ひと}が[[{並|なら}んで]]います。",
+        "source": "ai-draft",
+        "vi": "Trước cửa hàng có người đang xếp hàng."
+      }
+    ]
+  },
+  "mn-42-006": {
+    "examples": [
+      {
+        "id": "mn-42-006-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "この{鞄|かばん}は[[{丈夫|じょうぶ}]]です。",
+        "source": "ai-draft",
+        "vi": "Chiếc cặp này bền."
+      }
+    ]
+  },
+  "mn-42-007": {
+    "examples": [
+      {
+        "id": "mn-42-007-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{駅|えき}の{近|ちか}くの[[アパート]]に{住|す}んでいます。",
+        "source": "ai-draft",
+        "vi": "Tôi đang sống ở căn hộ gần nhà ga."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "アパート: PN→N (JMdict: danh từ thông dụng (apartment building; apartment block))",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-008": {
+    "examples": [
+      {
+        "id": "mn-42-008-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{将来|しょうらい}[[{弁護士|べんごし}]]になるために、{法律|ほうりつ}を{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học luật để tương lai trở thành luật sư."
+      }
+    ]
+  },
+  "mn-42-009": {
+    "examples": [
+      {
+        "id": "mn-42-009-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{彼|かれ}は{有名|ゆうめい}な[[{音楽家|おんがくか}]]です。",
+        "source": "ai-draft",
+        "vi": "Anh ấy là nhạc sĩ nổi tiếng."
+      }
+    ]
+  },
+  "mn-42-010": {
+    "examples": [
+      {
+        "id": "mn-42-010-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{子|こ}どもたち]]が{公園|こうえん}で{遊|あそ}んでいます。",
+        "source": "ai-draft",
+        "vi": "Bọn trẻ đang chơi ở công viên."
+      }
+    ]
+  },
+  "mn-42-011": {
+    "examples": [
+      {
+        "id": "mn-42-011-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{自然|しぜん}]]を{守|まも}るために、ごみを{捨|す}てないでください。",
+        "source": "ai-draft",
+        "vi": "Để bảo vệ thiên nhiên, đừng vứt rác."
+      }
+    ]
+  },
+  "mn-42-012": {
+    "examples": [
+      {
+        "id": "mn-42-012-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{子|こ}どもの[[{教育|きょういく}]]にお{金|かね}が{掛|か}かります。",
+        "source": "ai-draft",
+        "vi": "Việc học hành của con cái tốn tiền."
+      }
+    ]
+  },
+  "mn-42-013": {
+    "examples": [
+      {
+        "id": "mn-42-013-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{文化|ぶんか}]]を{勉強|べんきょう}するために{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đến để học về văn hóa Nhật."
+      }
+    ]
+  },
+  "mn-42-014": {
+    "examples": [
+      {
+        "id": "mn-42-014-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{社会|しゃかい}]]の{役|やく}に{立|た}つ{仕事|しごと}がしたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn làm công việc có ích cho xã hội."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "しゃかい: PN→N (JMdict: danh từ thông dụng (society; public))",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-015": {
+    "examples": [
+      {
+        "id": "mn-42-015-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{政治|せいじ}]]に{興味|きょうみ}がありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có quan tâm đến chính trị không?"
+      }
+    ]
+  },
+  "mn-42-016": {
+    "examples": [
+      {
+        "id": "mn-42-016-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{法律|ほうりつ}]]を{守|まも}らなければなりません。",
+        "source": "ai-draft",
+        "vi": "Phải tuân thủ pháp luật."
+      }
+    ]
+  },
+  "mn-42-017": {
+    "examples": [
+      {
+        "id": "mn-42-017-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{戦争|せんそう}]]は{絶対|ぜったい}にいけません。",
+        "source": "ai-draft",
+        "vi": "Chiến tranh tuyệt đối không được phép."
+      }
+    ]
+  },
+  "mn-42-018": {
+    "examples": [
+      {
+        "id": "mn-42-018-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{平和|へいわ}]]のために{働|はたら}きたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn làm việc vì hòa bình."
+      }
+    ]
+  },
+  "mn-42-019": {
+    "examples": [
+      {
+        "id": "mn-42-019-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{旅行|りょこう}の[[{目的|もくてき}]]は{何|なん}ですか。",
+        "source": "ai-draft",
+        "vi": "Mục đích chuyến du lịch là gì?"
+      }
+    ]
+  },
+  "mn-42-020": {
+    "examples": [
+      {
+        "id": "mn-42-020-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{論文|ろんぶん}]]を{書|か}くために、{資料|しりょう}を{集|あつ}めています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang thu thập tài liệu để viết luận văn."
+      }
+    ]
+  },
+  "mn-42-021": {
+    "examples": [
+      {
+        "id": "mn-42-021-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{週末|しゅうまつ}の{旅行|りょこう}が{一番|いちばん}の[[{楽|たの}しみ]]です。",
+        "source": "ai-draft",
+        "vi": "Chuyến du lịch cuối tuần là niềm vui lớn nhất của tôi."
+      }
+    ]
+  },
+  "mn-42-022": {
+    "examples": [
+      {
+        "id": "mn-42-022-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[ミキサー]]はジュースを{作|つく}るのに{使|つか}います。",
+        "source": "ai-draft",
+        "vi": "Máy xay sinh tố dùng để làm nước ép."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ミキサー: PN→N (JMdict: danh từ thông dụng (mixer (audio, concrete, etc.)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-023": {
+    "examples": [
+      {
+        "id": "mn-42-023-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{薬缶|やかん}]]でお{湯|ゆ}を{沸|わ}かします。",
+        "source": "ai-draft",
+        "vi": "Tôi đun nước bằng ấm."
+      }
+    ],
+    "han_viet": "DƯỢC PHẪU",
+    "han_viet_source": "user",
+    "kanji": "薬缶",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "薬缶 thiếu âm",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-024": {
+    "examples": [
+      {
+        "id": "mn-42-024-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{蓋|ふた}]]を{開|あ}けてください。",
+        "source": "ai-draft",
+        "vi": "Hãy mở nắp ra."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-025": {
+    "examples": [
+      {
+        "id": "mn-42-025-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{栓抜|せんぬ}き]]はビールを{開|あ}けるのに{使|つか}います。",
+        "source": "ai-draft",
+        "vi": "Cái mở nắp chai dùng để mở bia."
+      }
+    ],
+    "han_viet": "THUYÊN BẠT",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "栓 — gốc ghi XUYÊN",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-026": {
+    "examples": [
+      {
+        "id": "mn-42-026-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{缶切|かんき}り]]がありますか。",
+        "source": "ai-draft",
+        "vi": "Có cái mở đồ hộp không?"
+      }
+    ]
+  },
+  "mn-42-027": {
+    "examples": [
+      {
+        "id": "mn-42-027-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{缶詰|かんづめ}]]を{開|あ}けるのに{缶切|かんき}りを{使|つか}います。",
+        "source": "ai-draft",
+        "vi": "Dùng cái mở hộp để mở đồ hộp."
+      }
+    ]
+  },
+  "mn-42-028": {
+    "examples": [
+      {
+        "id": "mn-42-028-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[のし{袋|ぶくろ}]]にお{金|かね}を{入|い}れます。",
+        "source": "ai-draft",
+        "vi": "Tôi cho tiền vào phong bì mừng."
+      }
+    ]
+  },
+  "mn-42-029": {
+    "examples": [
+      {
+        "id": "mn-42-029-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{風呂敷|ふろしき}]]で{荷物|にもつ}を{包|つつ}みます。",
+        "source": "ai-draft",
+        "vi": "Tôi gói đồ bằng tấm vải furoshiki."
+      }
+    ],
+    "han_viet": "PHONG LỮ PHU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-030": {
+    "examples": [
+      {
+        "id": "mn-42-030-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{算盤|そろばん}]]で{計算|けいさん}します。",
+        "source": "ai-draft",
+        "vi": "Tôi tính toán bằng bàn tính."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-031": {
+    "examples": [
+      {
+        "id": "mn-42-031-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{体温計|たいおんけい}]]で{熱|ねつ}を{測|はか}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi đo nhiệt độ bằng nhiệt kế."
+      }
+    ]
+  },
+  "mn-42-032": {
+    "examples": [
+      {
+        "id": "mn-42-032-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "カレーの[[{材料|ざいりょう}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua nguyên liệu làm cà ri."
+      }
+    ]
+  },
+  "mn-42-033": {
+    "examples": [
+      {
+        "id": "mn-42-033-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[ある]]{日|ひ}、{友達|ともだち}から{手紙|てがみ}が{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Một ngày nọ, tôi nhận được thư từ bạn."
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ある～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-034": {
+    "examples": [
+      {
+        "id": "mn-42-034-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{一生懸命|いっしょうけんめい}]]{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học hết sức mình."
+      }
+    ]
+  },
+  "mn-42-035": {
+    "examples": [
+      {
+        "id": "mn-42-035-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[なぜ]]{日本語|にほんご}を{勉強|べんきょう}していますか。",
+        "source": "ai-draft",
+        "vi": "Tại sao bạn học tiếng Nhật?"
+      }
+    ]
+  },
+  "mn-42-036": {
+    "examples": [
+      {
+        "id": "mn-42-036-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "{結婚式|けっこんしき}に[[どのくらい]]お{金|かね}が{掛|か}かりますか。",
+        "source": "ai-draft",
+        "vi": "Đám cưới tốn bao nhiêu tiền?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-42-037": {
+    "examples": [
+      {
+        "id": "mn-42-037-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[{国連|こくれん}]]で{働|はたら}きたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn làm việc ở Liên Hợp Quốc."
+      }
+    ]
+  },
+  "mn-42-038": {
+    "examples": [
+      {
+        "id": "mn-42-038-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "「[[エリーゼのために]]」はピアノの{曲|きょく}です。",
+        "source": "ai-draft",
+        "vi": "\"Dành cho Elise\" là bản nhạc piano."
+      }
+    ]
+  },
+  "mn-42-039": {
+    "examples": [
+      {
+        "id": "mn-42-039-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[ベートーベン]]の{曲|きょく}を{聞|き}くために、コンサートに{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đi hòa nhạc để nghe nhạc của Beethoven."
+      }
+    ]
+  },
+  "mn-42-040": {
+    "examples": [
+      {
+        "id": "mn-42-040-e1",
+        "max_lesson": 42,
+        "review": "user",
+        "ruby": "[[こどもニュース]]を{見|み}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã xem Bản tin thiếu nhi."
+      }
+    ]
+  }
+}

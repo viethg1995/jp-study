@@ -1,0 +1,353 @@
+[
+  {
+    "id": "lesson41_1",
+    "jp": "いただきます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhận (khiêm nhường ngữ củaもらいます)",
+    "type": "Thán từ",
+    "type_code": "Int"
+  },
+  {
+    "id": "lesson41_2",
+    "jp": "くださいます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Cho, tặng (tôi) (tôn kính ngữ củaくれます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson41_3",
+    "jp": "やります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cho, tặng (dùng với người dưới hoặc bằng vai)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson41_4",
+    "jp": "あげます",
+    "kanji": "上げます",
+    "kanji_vn": "THƯỢNG",
+    "vn": "nâng, nâng lên, tăng lên",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson41_5",
+    "jp": "さげます",
+    "kanji": "下げます",
+    "kanji_vn": "HẠ",
+    "vn": "hạ, hạ xuống, giảm xuống",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson41_6",
+    "jp": "しんせつにします",
+    "kanji": "親切にします",
+    "kanji_vn": "THÂN THIẾT",
+    "vn": "giúp đỡ, đối xử thân thiện",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson41_7",
+    "jp": "かわいい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "xinh, đáng yêu",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson41_8",
+    "jp": "めずらしい",
+    "kanji": "珍しい",
+    "kanji_vn": "TRÂN",
+    "vn": "hiếm, hiếm có",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson41_9",
+    "jp": "おいわい",
+    "kanji": "お祝い",
+    "kanji_vn": "CHÚC",
+    "vn": "mừng, quà mừng (～をします：mừng)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_10",
+    "jp": "おとしだま",
+    "kanji": "お年玉",
+    "kanji_vn": "NIÊN NGỌC",
+    "vn": "tiền mừng tuổi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_11",
+    "jp": "みまい",
+    "kanji": "見舞い",
+    "kanji_vn": "KIẾN VŨ",
+    "vn": "thăm người ốm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_12",
+    "jp": "きょうみ",
+    "kanji": "興味",
+    "kanji_vn": "HƯNG VỊ",
+    "vn": "sở thích, quan tâm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_13",
+    "jp": "じょうほう",
+    "kanji": "情報",
+    "kanji_vn": "TÌNH BÁO",
+    "vn": "thông tin",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_14",
+    "jp": "ぶんぽう",
+    "kanji": "文法",
+    "kanji_vn": "VĂN PHÁP",
+    "vn": "ngữ pháp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_15",
+    "jp": "はつおん",
+    "kanji": "発音",
+    "kanji_vn": "PHÁT ÂM",
+    "vn": "phát âm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_16",
+    "jp": "さる",
+    "kanji": "猿",
+    "kanji_vn": "VIÊN",
+    "vn": "con khỉ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_17",
+    "jp": "えさ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đồ ăn cho động vật, mồi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_18",
+    "jp": "おもちゃ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đồ chơi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_19",
+    "jp": "えほん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "quyển truyện tranh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_20",
+    "jp": "えはがき",
+    "kanji": "絵はがき",
+    "kanji_vn": "HỘI",
+    "vn": "bưu ảnh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_21",
+    "jp": "ドライバー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái tua-vít",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson41_22",
+    "jp": "ハンカチ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khăn mùi xoa, khăn tay",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson41_23",
+    "jp": "くつした",
+    "kanji": "靴下",
+    "kanji_vn": "NGOA HẠ",
+    "vn": "cái tất",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_24",
+    "jp": "てぶくろ",
+    "kanji": "手袋",
+    "kanji_vn": "THỦ ĐẠI",
+    "vn": "cái găng tay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_25",
+    "jp": "ようちえん",
+    "kanji": "幼稚園",
+    "kanji_vn": "ẤU TRĨ VIÊN",
+    "vn": "trường mầm non",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_26",
+    "jp": "だんぼう",
+    "kanji": "暖房",
+    "kanji_vn": "NOÃN PHÒNG",
+    "vn": "thiết bị làm ấm, lò sưởi, máy điều hòa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_27",
+    "jp": "れいぼう",
+    "kanji": "冷房",
+    "kanji_vn": "LÃNH PHÒNG",
+    "vn": "thiết bị làm mát, máy điều hòa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_28",
+    "jp": "おんど",
+    "kanji": "温度",
+    "kanji_vn": "ÔN ĐỘ",
+    "vn": "nhiệt độ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_29",
+    "jp": "そふ",
+    "kanji": "祖父",
+    "kanji_vn": "TỔ PHỤ",
+    "vn": "ông (dùng với bản thân)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_30",
+    "jp": "そぼ",
+    "kanji": "祖母",
+    "kanji_vn": "TỔ MẪU",
+    "vn": "bà (dùng với bản thân)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_31",
+    "jp": "まご",
+    "kanji": "孫",
+    "kanji_vn": "TÔN",
+    "vn": "cháu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_32",
+    "jp": "おまごさん",
+    "kanji": "お孫さん",
+    "kanji_vn": "TÔN",
+    "vn": "cháu (dùng với người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_33",
+    "jp": "おじ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chú, cậu, bác (dùng với bản thân)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_34",
+    "jp": "おじさん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chú, cậu, bác (dùng với người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_35",
+    "jp": "おば",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cô, dì, bác (dùng với bản thân)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_36",
+    "jp": "おばさん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cô, dì, bác (dùng với người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_37",
+    "jp": "かんりにん",
+    "kanji": "管理人",
+    "kanji_vn": "QUẢN LÝ NHÂN",
+    "vn": "người quản lý",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson41_38",
+    "jp": "～さん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ông, bà (dùng sau tên nghề nghiệp, chức danh để biểu thị tính lịch sự)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson41_39",
+    "jp": "このあいだい",
+    "kanji": "この間",
+    "kanji_vn": "GIAN",
+    "vn": "vừa rồi",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

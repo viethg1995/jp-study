@@ -1,0 +1,2426 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-001-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{明日|あした}{銀行|ぎんこう}へ[[{行|い}きます]]。",
+          "source": "ai-draft",
+          "vi": "Ngày mai tôi đi ngân hàng."
+        }
+      ],
+      "han_viet": "HÀNH",
+      "id": "mn-05-001",
+      "kana": "いきます",
+      "kanji": "行きます",
+      "kanji_refs": [
+        "k-行"
+      ],
+      "legacy_id": "lesson5_1",
+      "lesson": 5,
+      "meaning_vi": "đi",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-002-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{先週|せんしゅう}{日本|にほん}へ[[{来|き}ました]]。",
+          "source": "ai-draft",
+          "vi": "Tuần trước tôi đã đến Nhật Bản."
+        }
+      ],
+      "han_viet": "LAI",
+      "id": "mn-05-002",
+      "kana": "きます",
+      "kanji": "来ます",
+      "kanji_refs": [
+        "k-来"
+      ],
+      "legacy_id": "lesson5_2",
+      "lesson": 5,
+      "meaning_vi": "đến",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đến"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-003-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{毎晩|まいばん}９{時|じ}に{家|うち}へ[[{帰|かえ}ります]]。",
+          "source": "ai-draft",
+          "vi": "Mỗi tối tôi về nhà lúc 9 giờ."
+        }
+      ],
+      "han_viet": "QUY",
+      "id": "mn-05-003",
+      "kana": "かえります",
+      "kanji": "帰ります",
+      "kanji_refs": [
+        "k-帰"
+      ],
+      "legacy_id": "lesson5_3",
+      "lesson": 5,
+      "meaning_vi": "về",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "về"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-004-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{電車|でんしゃ}で[[{学校|がっこう}]]へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi đến trường bằng tàu điện."
+        }
+      ],
+      "han_viet": "HỌC HIỆU",
+      "id": "mn-05-004",
+      "kana": "がっこう",
+      "kanji": "学校",
+      "kanji_refs": [
+        "k-学",
+        "k-校"
+      ],
+      "legacy_id": "lesson5_4",
+      "lesson": 5,
+      "meaning_vi": "trường học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trường học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-05-005-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{明日|あした}[[スーパー]]へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày mai tôi đi siêu thị."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-05-005",
+      "kana": "スーパー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson5_5",
+      "lesson": 5,
+      "meaning_vi": "siêu thị",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "siêu thị"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-006-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{駅|えき}]]から{学校|がっこう}まで{歩|ある}いて{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi bộ từ ga đến trường."
+        }
+      ],
+      "han_viet": "DỊCH",
+      "id": "mn-05-006",
+      "kana": "えき",
+      "kanji": "駅",
+      "kanji_refs": [
+        "k-駅"
+      ],
+      "legacy_id": "lesson5_6",
+      "lesson": 5,
+      "meaning_vi": "ga, nhà ga",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ga, nhà ga"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-007-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{飛行機|ひこうき}]]で{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi về nước bằng máy bay."
+        }
+      ],
+      "han_viet": "PHI HÀNH CƠ",
+      "id": "mn-05-007",
+      "kana": "ひこうき",
+      "kanji": "飛行機",
+      "kanji_refs": [
+        "k-飛",
+        "k-行",
+        "k-機"
+      ],
+      "legacy_id": "lesson5_7",
+      "lesson": 5,
+      "meaning_vi": "máy bay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "máy bay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-008-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{船|ふね}]]で{大阪|おおさか}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi Osaka bằng tàu thủy."
+        }
+      ],
+      "han_viet": "THUYỀN",
+      "id": "mn-05-008",
+      "kana": "ふね",
+      "kanji": "船",
+      "kanji_refs": [
+        "k-船"
+      ],
+      "legacy_id": "lesson5_8",
+      "lesson": 5,
+      "meaning_vi": "thuyền, tàu thủy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thuyền, tàu thủy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-009-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{電車|でんしゃ}]]で{会社|かいしゃ}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi làm bằng tàu điện."
+        }
+      ],
+      "han_viet": "ĐIỆN XA",
+      "id": "mn-05-009",
+      "kana": "でんしゃ",
+      "kanji": "電車",
+      "kanji_refs": [
+        "k-電",
+        "k-車"
+      ],
+      "legacy_id": "lesson5_9",
+      "lesson": 5,
+      "meaning_vi": "tàu điện",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tàu điện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-010-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{地下鉄|ちかてつ}]]で{家|うち}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi về nhà bằng tàu điện ngầm."
+        }
+      ],
+      "han_viet": "ĐỊA HẠ THIẾT",
+      "id": "mn-05-010",
+      "kana": "ちかてつ",
+      "kanji": "地下鉄",
+      "kanji_refs": [
+        "k-地",
+        "k-下",
+        "k-鉄"
+      ],
+      "legacy_id": "lesson5_10",
+      "lesson": 5,
+      "meaning_vi": "tàu điện ngầm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tàu điện ngầm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-011-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{新幹線|しんかんせん}]]で{東京|とうきょう}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi Tokyo bằng tàu Shinkansen."
+        }
+      ],
+      "han_viet": "TÂN CÁN TUYẾN",
+      "id": "mn-05-011",
+      "kana": "しんかんせん",
+      "kanji": "新幹線",
+      "kanji_refs": [
+        "k-新",
+        "k-幹",
+        "k-線"
+      ],
+      "legacy_id": "lesson5_11",
+      "lesson": 5,
+      "meaning_vi": "tàu Shinkansen (tàu điện siêu tốc của Nhật)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tàu Shinkansen (tàu điện siêu tốc của Nhật)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-05-012-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[バス]]で{学校|がっこう}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi đến trường bằng xe buýt."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-05-012",
+      "kana": "バス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson5_12",
+      "lesson": 5,
+      "meaning_vi": "xe buýt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xe buýt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-05-013-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[タクシー]]で{家|うち}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi về nhà bằng taxi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-05-013",
+      "kana": "タクシー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson5_13",
+      "lesson": 5,
+      "meaning_vi": "tắc-xi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tắc-xi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-014-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{自転車|じてんしゃ}]]で{学校|がっこう}へ{来|き}ます。",
+          "source": "ai-draft",
+          "vi": "Tôi đến trường bằng xe đạp."
+        }
+      ],
+      "han_viet": "TỰ CHUYỂN XA",
+      "id": "mn-05-014",
+      "kana": "じてんしゃ",
+      "kanji": "自転車",
+      "kanji_refs": [
+        "k-自",
+        "k-転",
+        "k-車"
+      ],
+      "legacy_id": "lesson5_14",
+      "lesson": 5,
+      "meaning_vi": "xe đạp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xe đạp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-015-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{駅|えき}から[[{歩|ある}いて]]{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi đi bộ từ ga về nhà."
+        }
+      ],
+      "han_viet": "BỘ",
+      "id": "mn-05-015",
+      "kana": "あるいて",
+      "kanji": "歩いて",
+      "kanji_refs": [
+        "k-歩"
+      ],
+      "legacy_id": "lesson5_15",
+      "lesson": 5,
+      "meaning_vi": "đi bộ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đi bộ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-016-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{人|ひと}]]と{京都|きょうと}へ{行|い}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đi Kyoto với một người Nhật."
+        }
+      ],
+      "han_viet": "NHÂN",
+      "id": "mn-05-016",
+      "kana": "ひと",
+      "kanji": "人",
+      "kanji_refs": [
+        "k-人"
+      ],
+      "legacy_id": "lesson5_16",
+      "lesson": 5,
+      "meaning_vi": "người",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "người"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-017-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{友達|ともだち}]]と{美術館|びじゅつかん}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi bảo tàng mỹ thuật với bạn."
+        }
+      ],
+      "han_viet": "HỮU ĐẠT",
+      "id": "mn-05-017",
+      "kana": "ともだち",
+      "kanji": "友達",
+      "kanji_refs": [
+        "k-友",
+        "k-達"
+      ],
+      "legacy_id": "lesson5_17",
+      "lesson": 5,
+      "meaning_vi": "bạn, bạn bè",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bạn, bạn bè"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-018-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{彼|かれ}]]と{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đến Nhật Bản cùng anh ấy."
+        }
+      ],
+      "han_viet": "BỈ",
+      "id": "mn-05-018",
+      "kana": "かれ",
+      "kanji": "彼",
+      "kanji_refs": [
+        "k-彼"
+      ],
+      "legacy_id": "lesson5_18",
+      "lesson": 5,
+      "meaning_vi": "anh ấy, bạn trai",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "anh ấy, bạn trai"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-019-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{彼女|かのじょ}]]は{来月|らいげつ}{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tháng sau cô ấy sẽ về nước."
+        }
+      ],
+      "han_viet": "BỈ NỮ",
+      "id": "mn-05-019",
+      "kana": "かのじょ",
+      "kanji": "彼女",
+      "kanji_refs": [
+        "k-彼",
+        "k-女"
+      ],
+      "legacy_id": "lesson5_19",
+      "lesson": 5,
+      "meaning_vi": "chị ấy, bạn gái",
+      "particle": null,
+      "pos": {
+        "code": "Pro",
+        "label": "Đại từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chị ấy, bạn gái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-020-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{家族|かぞく}]]と{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đến Nhật Bản cùng gia đình."
+        }
+      ],
+      "han_viet": "GIA TỘC",
+      "id": "mn-05-020",
+      "kana": "かぞく",
+      "kanji": "家族",
+      "kanji_refs": [
+        "k-家",
+        "k-族"
+      ],
+      "legacy_id": "lesson5_20",
+      "lesson": 5,
+      "meaning_vi": "gia đình",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gia đình"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-021-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{一人|ひとり}で]]{家|うち}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi về nhà một mình."
+        }
+      ],
+      "han_viet": "NHẤT NHÂN",
+      "id": "mn-05-021",
+      "kana": "ひとりで",
+      "kanji": "一人で",
+      "kanji_refs": [
+        "k-一",
+        "k-人"
+      ],
+      "legacy_id": "lesson5_21",
+      "lesson": 5,
+      "meaning_vi": "một mình",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "một mình"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-022-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{先週|せんしゅう}]]{京都|きょうと}へ{行|い}きました。",
+          "source": "ai-draft",
+          "vi": "Tuần trước tôi đã đi Kyoto."
+        }
+      ],
+      "han_viet": "TIÊN CHU",
+      "id": "mn-05-022",
+      "kana": "せんしゅう",
+      "kanji": "先週",
+      "kanji_refs": [
+        "k-先",
+        "k-週"
+      ],
+      "legacy_id": "lesson5_22",
+      "lesson": 5,
+      "meaning_vi": "tuần trước",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tuần trước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-023-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{今週|こんしゅう}]]の{土曜日|どようび}に{大阪|おおさか}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Thứ bảy tuần này tôi đi Osaka."
+        }
+      ],
+      "han_viet": "KIM CHU",
+      "id": "mn-05-023",
+      "kana": "こんしゅう",
+      "kanji": "今週",
+      "kanji_refs": [
+        "k-今",
+        "k-週"
+      ],
+      "legacy_id": "lesson5_23",
+      "lesson": 5,
+      "meaning_vi": "tuần này",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tuần này"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-024-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{来週|らいしゅう}]]{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tuần sau tôi về nước."
+        }
+      ],
+      "han_viet": "LAI CHU",
+      "id": "mn-05-024",
+      "kana": "らいしゅう",
+      "kanji": "来週",
+      "kanji_refs": [
+        "k-来",
+        "k-週"
+      ],
+      "legacy_id": "lesson5_24",
+      "lesson": 5,
+      "meaning_vi": "tuần sau",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tuần sau"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-025-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{先月|せんげつ}]]{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tháng trước tôi đã đến Nhật Bản."
+        }
+      ],
+      "han_viet": "TIÊN NGUYỆT",
+      "id": "mn-05-025",
+      "kana": "せんげつ",
+      "kanji": "先月",
+      "kanji_refs": [
+        "k-先",
+        "k-月"
+      ],
+      "legacy_id": "lesson5_25",
+      "lesson": 5,
+      "meaning_vi": "tháng trước",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tháng trước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-026-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{今月|こんげつ}]]{東京|とうきょう}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tháng này tôi đi Tokyo."
+        }
+      ],
+      "han_viet": "KIM NGUYỆT",
+      "id": "mn-05-026",
+      "kana": "こんげつ",
+      "kanji": "今月",
+      "kanji_refs": [
+        "k-今",
+        "k-月"
+      ],
+      "legacy_id": "lesson5_26",
+      "lesson": 5,
+      "meaning_vi": "tháng này",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tháng này"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-027-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{来月|らいげつ}]]{友達|ともだち}と{京都|きょうと}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tháng sau tôi đi Kyoto với bạn."
+        }
+      ],
+      "han_viet": "LAI NGUYỆT",
+      "id": "mn-05-027",
+      "kana": "らいげつ",
+      "kanji": "来月",
+      "kanji_refs": [
+        "k-来",
+        "k-月"
+      ],
+      "legacy_id": "lesson5_27",
+      "lesson": 5,
+      "meaning_vi": "tháng sau",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tháng sau"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-028-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{去年|きょねん}]]{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Năm ngoái tôi đã đến Nhật Bản."
+        }
+      ],
+      "han_viet": "KHỨ NIÊN",
+      "id": "mn-05-028",
+      "kana": "きょねん",
+      "kanji": "去年",
+      "kanji_refs": [
+        "k-去",
+        "k-年"
+      ],
+      "legacy_id": "lesson5_28",
+      "lesson": 5,
+      "meaning_vi": "năm ngoái",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "năm ngoái"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-05-029-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{今年|ことし}]]の８{月|がつ}に{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tháng 8 năm nay tôi về nước."
+        }
+      ],
+      "han_viet": "KIM NIÊN",
+      "id": "mn-05-029",
+      "kana": "ことし",
+      "kanji": "今年",
+      "kanji_refs": [
+        "k-今",
+        "k-年"
+      ],
+      "legacy_id": "lesson5_29",
+      "lesson": 5,
+      "meaning_vi": "năm nay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "năm nay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-030-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{来年|らいねん}]]アメリカへ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Năm sau tôi đi Mỹ."
+        }
+      ],
+      "han_viet": "LAI NIÊN",
+      "id": "mn-05-030",
+      "kana": "らいねん",
+      "kanji": "来年",
+      "kanji_refs": [
+        "k-来",
+        "k-年"
+      ],
+      "legacy_id": "lesson5_30",
+      "lesson": 5,
+      "meaning_vi": "năm sau",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "năm sau"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-031-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "２０２０[[{年|ねん}]]に{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đến Nhật Bản vào năm 2020."
+        }
+      ],
+      "han_viet": "NIÊN",
+      "id": "mn-05-031",
+      "kana": "～ねん",
+      "kanji": "～年",
+      "kanji_refs": [
+        "k-年"
+      ],
+      "legacy_id": "lesson5_31",
+      "lesson": 5,
+      "meaning_vi": "năm ～",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-11-046"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "năm ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-032-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{何年|なんねん}]]に{日本|にほん}へ{来|き}ましたか。",
+          "source": "ai-draft",
+          "vi": "Anh/chị đã đến Nhật Bản vào năm nào?"
+        }
+      ],
+      "han_viet": "HÀ NIÊN",
+      "id": "mn-05-032",
+      "kana": "なんねん",
+      "kanji": "何年",
+      "kanji_refs": [
+        "k-何",
+        "k-年"
+      ],
+      "legacy_id": "lesson5_32",
+      "lesson": 5,
+      "meaning_vi": "mấy năm",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mấy năm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-033-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "３[[{月|がつ}]]に{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi về nước vào tháng 3."
+        }
+      ],
+      "han_viet": "NGUYỆT",
+      "id": "mn-05-033",
+      "kana": "～がつ",
+      "kanji": "～月",
+      "kanji_refs": [
+        "k-月"
+      ],
+      "legacy_id": "lesson5_33",
+      "lesson": 5,
+      "meaning_vi": "tháng ～",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tháng ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-034-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{何月|なんがつ}]]に{国|くに}へ{帰|かえ}りますか。",
+          "source": "ai-draft",
+          "vi": "Anh/chị về nước vào tháng mấy?"
+        }
+      ],
+      "han_viet": "HÀ NGUYỆT",
+      "id": "mn-05-034",
+      "kana": "なんがつ",
+      "kanji": "何月",
+      "kanji_refs": [
+        "k-何",
+        "k-月"
+      ],
+      "legacy_id": "lesson5_34",
+      "lesson": 5,
+      "meaning_vi": "tháng mấy",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tháng mấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-035-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "４{月|がつ}[[{１日|ついたち}]]に{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đến Nhật Bản vào ngày 1 tháng 4."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-035",
+      "kana": "ついたち",
+      "kanji": "１日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_35",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 1",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 1"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-036-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{２日|ふつか}]]に{東京|とうきょう}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày mồng 2 tôi đi Tokyo."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-036",
+      "kana": "ふつか",
+      "kanji": "２日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_36",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 2, 2 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 2, 2 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-037-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{３日|みっか}]]に{家|うち}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Ngày mồng 3 tôi về nhà."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-037",
+      "kana": "みっか",
+      "kanji": "３日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_37",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 3, 3 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 3, 3 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-038-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{４日|よっか}]]は{休|やす}みです。",
+          "source": "ai-draft",
+          "vi": "Ngày mồng 4 là ngày nghỉ."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-038",
+      "kana": "よっか",
+      "kanji": "４日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_38",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 4, 4 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 4, 4 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-039-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{５日|いつか}]]に{友達|ともだち}と{京都|きょうと}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày mồng 5 tôi đi Kyoto với bạn."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-039",
+      "kana": "いつか",
+      "kanji": "５日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_39",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 5, 5 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 5, 5 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-040-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{６日|むいか}]]に{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Ngày mồng 6 tôi về nước."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-040",
+      "kana": "むいか",
+      "kanji": "６日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_40",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 6, 6 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 6, 6 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-041-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{７日|なのか}]]は{日曜日|にちようび}です。",
+          "source": "ai-draft",
+          "vi": "Ngày mồng 7 là chủ nhật."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-041",
+      "kana": "なのか",
+      "kanji": "７日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_41",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 7, 7 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 7, 7 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-042-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{８日|ようか}]]に{大阪|おおさか}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày mồng 8 tôi đi Osaka."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-042",
+      "kana": "ようか",
+      "kanji": "８日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_42",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 8, 8 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 8, 8 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-043-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{９日|ここのか}]]から{休|やす}みです。",
+          "source": "ai-draft",
+          "vi": "Từ ngày mồng 9 là ngày nghỉ."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-043",
+      "kana": "ここのか",
+      "kanji": "９日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_43",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 9, 9 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 9, 9 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-044-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{１０日|とおか}]]に{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đến Nhật Bản vào ngày mồng 10."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-044",
+      "kana": "とおか",
+      "kanji": "１０日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_44",
+      "lesson": 5,
+      "meaning_vi": "ngày mồng 10, 10 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mồng 10, 10 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-045-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{１４日|じゅうよっか}]]は{私|わたし}の{誕生日|たんじょうび}です。",
+          "source": "ai-draft",
+          "vi": "Ngày 14 là sinh nhật của tôi."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-045",
+      "kana": "じゅうよっか",
+      "kanji": "１４日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_45",
+      "lesson": 5,
+      "meaning_vi": "ngày 14, 14 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày 14, 14 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-046-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{２０日|はつか}]]に{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Ngày 20 tôi về nước."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-046",
+      "kana": "はつか",
+      "kanji": "２０日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_46",
+      "lesson": 5,
+      "meaning_vi": "ngày 20, 20 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày 20, 20 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-047-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{２４日|にじゅうよっか}]]に{友達|ともだち}と{東京|とうきょう}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày 24 tôi đi Tokyo với bạn."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-047",
+      "kana": "にじゅうよっか",
+      "kanji": "２４日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_47",
+      "lesson": 5,
+      "meaning_vi": "ngày 24, 24 ngày",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày 24, 24 ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-048-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "１５[[{日|にち}]]に{京都|きょうと}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày 15 tôi đi Kyoto."
+        }
+      ],
+      "han_viet": "NHẬT",
+      "id": "mn-05-048",
+      "kana": "～にち",
+      "kanji": "～日",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "legacy_id": "lesson5_48",
+      "lesson": 5,
+      "meaning_vi": "ngày ～, ～ ngày",
+      "particle": null,
+      "pos": {
+        "code": "Cnt",
+        "label": "Lượng từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày ～, ～ ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-049-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{試験|しけん}は[[{何日|なんにち}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Kỳ thi vào ngày mấy?"
+        }
+      ],
+      "han_viet": "HÀ NHẬT",
+      "id": "mn-05-049",
+      "kana": "なんにち",
+      "kanji": "何日",
+      "kanji_refs": [
+        "k-何",
+        "k-日"
+      ],
+      "legacy_id": "lesson5_49",
+      "lesson": 5,
+      "meaning_vi": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-05-050-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "{誕生日|たんじょうび}は[[いつ]]ですか。",
+          "source": "ai-draft",
+          "vi": "Sinh nhật của anh/chị là khi nào?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-05-050",
+      "kana": "いつ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson5_50",
+      "lesson": 5,
+      "meaning_vi": "bao giờ, khi nào",
+      "particle": null,
+      "pos": {
+        "code": "QP",
+        "label": "Đại từ nghi vấn"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bao giờ, khi nào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-05-051-e1",
+          "max_lesson": 5,
+          "review": "user",
+          "ruby": "[[{誕生日|たんじょうび}]]は６{月|がつ}１３{日|にち}です。",
+          "source": "ai-draft",
+          "vi": "Sinh nhật của tôi là ngày 13 tháng 6."
+        }
+      ],
+      "han_viet": "ĐẢN SINH NHẬT",
+      "id": "mn-05-051",
+      "kana": "たんじょうび",
+      "kanji": "誕生日",
+      "kanji_refs": [
+        "k-誕",
+        "k-生",
+        "k-日"
+      ],
+      "legacy_id": "lesson5_51",
+      "lesson": 5,
+      "meaning_vi": "sinh nhật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sinh nhật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 5,
+  "schema_version": 4
+}

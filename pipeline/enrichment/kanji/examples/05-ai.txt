@@ -1,0 +1,402 @@
+# by: ai
+# Nghĩa tiếng Việt cho từ ví dụ Kanji bổ sung từ JMdict (lô 5, 2026-11-10) — AI nháp, chờ duyệt.
+不可|ふか|không được, không thể
+可否|かひ|đúng sai, nên hay không
+史家|しか|sử gia
+史学|しがく|sử học
+史実|しじつ|sự thật lịch sử
+咲く|さく|nở (hoa)
+遅咲き|おそざき|nở muộn
+返り咲き|かえりざき|trở lại vị trí cũ, tái xuất
+室咲き|むろざき|hoa trồng trong nhà kính
+離島|りとう|đảo xa
+小島|おじま|đảo nhỏ
+不振|ふしん|trì trệ, sa sút
+振り|ふり|cú vung, sự lắc
+振る|ふる|vẫy, lắc, vung
+三振|さんしん|bị loại sau ba lần đánh trượt (bóng chày)
+今昔|こんせき|xưa và nay
+一昔|ひとむかし|một thời gian dài trước (khoảng mười năm)
+大昔|おおむかし|thời xa xưa
+昔話|むかしばなし|chuyện cổ tích
+前歴|ぜんれき|tiền sử, lý lịch trước đây
+歴代|れきだい|các đời, qua các thời kỳ
+炊事|すいじ|nấu nướng
+自炊|じすい|tự nấu ăn
+小紐|こひも|dây buộc nhỏ (ở eo áo)
+上紐|うわひも|dây buộc bên ngoài (gói hàng)
+下紐|したひも|dây lưng trong
+口紐|くちひも|dây rút miệng túi
+藤|ふじ|hoa tử đằng
+葛藤|かっとう|xung đột, mâu thuẫn
+藤氏|とうし|dòng họ Fujiwara
+藤花|とうか|hoa tử đằng
+設ける|もうける|thiết lập, chuẩn bị
+仮設|かせつ|lắp đặt tạm thời
+敷設|ふせつ|lắp đặt, xây dựng (đường ray, ống)
+私設|しせつ|tư nhân lập
+許し|ゆるし|sự tha thứ; sự cho phép
+特許|とっきょ|bằng sáng chế
+貯水|ちょすい|trữ nước
+貯蔵|ちょぞう|tích trữ, bảo quản
+過ぎ|すぎ|quá, sau (giờ)
+剣|つるぎ|kiếm
+真剣|しんけん|nghiêm túc
+刀剣|とうけん|đao kiếm
+大宇宙|だいうちゅう|đại vũ trụ
+宇宙空間|うちゅうくうかん|không gian vũ trụ
+宇宙開発|うちゅうかいはつ|khám phá vũ trụ
+気宇|きう|độ lượng, tầm vóc tinh thần
+宙|ちゅう|không trung
+宙返り|ちゅうがえり|lộn nhào
+対価|たいか|giá trị tương đương, thù lao
+対地|たいち|đối với mặt đất
+必死|ひっし|liều mạng, hết sức
+必然|ひつぜん|tất yếu
+必見|ひっけん|nhất định phải xem
+慣れ|なれ|sự quen
+慣行|かんこう|thông lệ
+慣習|かんしゅう|tập quán
+柔らか|やわらか|mềm mại
+柔和|にゅうわ|hiền hòa
+柔軟|じゅうなん|mềm dẻo, linh hoạt
+柔らかい|やわらかい|mềm
+危殆|きたい|nguy cấp
+絶えず|たえず|không ngừng
+気絶|きぜつ|ngất xỉu
+絶句|ぜっく|nghẹn lời
+腐心|ふしん|dày công, tốn nhiều tâm sức
+腐食|ふしょく|ăn mòn, mục nát
+遭難|そうなん|gặp nạn
+遭遇|そうぐう|gặp phải, chạm trán
+遭難死|そうなんし|chết do gặp nạn
+遭難者|そうなんしゃ|người gặp nạn
+米価|べいか|giá gạo
+全米|ぜんべい|toàn nước Mỹ
+北米|ほくべい|Bắc Mỹ
+南米|なんべい|Nam Mỹ
+麦芽|ばくが|mạch nha
+小麦|こむぎ|lúa mì
+大麦|おおむぎ|lúa mạch
+麦茶|むぎちゃ|trà lúa mạch
+世代|せだい|thế hệ
+器官|きかん|cơ quan (cơ thể)
+士官|しかん|sĩ quan
+次官|じかん|thứ trưởng
+代官|だいかん|quan trấn thủ địa phương (thời Edo)
+野原|のはら|cánh đồng
+原価|げんか|giá gốc
+禁輸|きんゆ|cấm vận
+空輸|くうゆ|vận chuyển bằng đường hàng không
+輸血|ゆけつ|truyền máu
+石仏|いしぼとけ|tượng Phật bằng đá
+仏語|ふつご|tiếng Pháp
+仏像|ぶつぞう|tượng Phật
+仏文|ふつぶん|văn Pháp, văn học Pháp
+叱り|しかり|sự la mắng
+叱声|しっせい|tiếng quát mắng
+叱正|しっせい|chỉ ra lỗi, góp ý sửa
+叱責|しっせき|khiển trách
+招き|まねき|lời mời
+招く|まねく|mời; dẫn đến
+招待|しょうたい|mời
+招請|しょうせい|mời
+相棒|あいぼう|bạn đồng hành, cộng sự
+鉄棒|てつぼう|xà đơn; gậy sắt
+棒|ぼう|cây gậy
+棒立ち|ぼうだち|đứng sững
+江戸|えど|Edo (tên cũ của Tokyo)
+江|え|vịnh, lạch
+江戸っ子|えどっこ|người Edo chính gốc
+泥酔|でいすい|say mềm
+泥|どろ|bùn
+雲泥の差|うんでいのさ|khác nhau một trời một vực
+泥沼|どろぬま|đầm lầy; vũng lầy (tình thế)
+強盗|ごうとう|kẻ cướp
+盗み|ぬすみ|trộm cắp
+盗作|とうさく|đạo văn
+小石|こいし|sỏi nhỏ
+化石|かせき|hóa thạch
+土石|どせき|đất đá
+紀元|きげん|kỷ nguyên
+紀行|きこう|ký sự du lịch
+風紀|ふうき|phong kỷ, kỷ luật
+世紀末|せいきまつ|cuối thế kỷ
+翻す|ひるがえす|lật lại; thay đổi (ý)
+翻意|ほんい|đổi ý
+翻案|ほんあん|phóng tác, chuyển thể
+褒美|ほうび|phần thưởng
+褒める|ほめる|khen
+ご褒美|ごほうび|phần thưởng
+褒賞|ほうしょう|giải thưởng
+内訳|うちわけ|chi tiết các khoản
+誘因|ゆういん|nguyên nhân, động cơ
+誘い|さそい|lời rủ, lời mời
+誘惑|ゆうわく|cám dỗ
+舞踏|ぶとう|khiêu vũ
+踏む|ふむ|giẫm, đạp
+雑踏|ざっとう|đám đông chen chúc
+踏み絵|ふみえ|tranh thánh bắt giẫm lên (để phát hiện tín đồ Kitô thời Edo)
+信頼|しんらい|tin cậy
+頼み|たのみ|lời nhờ cậy
+頼む|たのむ|nhờ, yêu cầu
+頼り|たより|chỗ dựa
+保育|ほいく|nuôi dạy trẻ
+加工|かこう|gia công, chế biến
+大工|だいく|thợ mộc
+工事|こうじ|công trình xây dựng
+工務|こうむ|công vụ kỹ thuật, công trình
+寒村|かんそん|làng nghèo hẻo lánh
+山村|さんそん|làng núi
+村人|むらびと|dân làng
+村長|むらおさ|trưởng làng
+雨雲|あまぐも|mây mưa
+暗雲|あんうん|mây đen
+青雲|せいうん|trời xanh
+風雲|ふううん|gió mây; thời cuộc
+指示|しし|chỉ định, biểu thị
+指す|さす|chỉ, trỏ
+小指|こゆび|ngón út
+屈指|くっし|hàng đầu, xuất sắc
+加える|くわえる|thêm vào, cộng
+付加|ふか|bổ sung, thêm
+加味|かみ|nêm nếm; tính đến, thêm vào
+退く|しりぞく|lùi lại, rút lui
+辞退|じたい|từ chối, khước từ
+健やか|すこやか|khỏe mạnh
+保健|ほけん|y tế, bảo vệ sức khỏe
+健保|けんぽ|bảo hiểm y tế
+参与|さんよ|tham dự; cố vấn
+参事|さんじ|tham sự, ủy viên
+吐露|とろ|bày tỏ, thổ lộ
+吐く|はく|nôn; khạc
+吐き気|はきけ|buồn nôn
+吐き出す|はきだす|nôn ra, nhổ ra
+岸辺|きしべ|bờ (sông, hồ)
+護岸|ごがん|kè bờ
+対岸|たいがん|bờ bên kia
+小康|しょうこう|tạm lắng, tạm ổn
+不健康|ふけんこう|không khỏe mạnh
+健康的|けんこうてき|lành mạnh
+爆破|ばくは|phá nổ
+起爆|きばく|kích nổ
+原爆|げんばく|bom nguyên tử
+内輪|うちわ|người trong nhà, nội bộ
+花輪|はなわ|vòng hoa
+三輪|さんりん|ba bánh
+悲恋|ひれん|mối tình bi thương
+悲痛|ひつう|đau buồn
+悲観|ひかん|bi quan
+悲願|ひがん|nguyện vọng tha thiết
+複利|ふくり|lãi kép
+複写|ふくしゃ|sao chép
+複合|ふくごう|phức hợp
+複数|ふくすう|số nhiều
+伺う|うかがう|đến thăm; hỏi (khiêm nhường)
+進退伺い|しんたいうかがい|đơn xin từ chức (không chính thức)
+伺候|しこう|hầu cận, chầu
+勢い|いきおい|khí thế, đà
+姿勢|しせい|tư thế; thái độ
+気勢|きせい|khí thế
+体勢|たいせい|tư thế
+喧嘩|けんか|cãi nhau, đánh nhau
+口喧嘩|くちけんか|cãi vã
+喧伝|けんでん|đồn ầm lên
+喧然|けんぜん|ồn ào
+喧嘩師|けんかし|kẻ hay gây gổ
+大喧嘩|おおげんか|trận cãi nhau lớn
+嬉笑|きしょう|cười vui
+嬉しげ|うれしげ|có vẻ vui
+嬉し涙|うれしなみだ|nước mắt hạnh phúc
+嬉遊曲|きゆうきょく|khúc divertimento
+無恥|むち|vô liêm sỉ
+恥|はじ|xấu hổ, nỗi nhục
+恥じる|はじる|xấu hổ
+恥じらう|はじらう|e thẹn
+操る|あやつる|điều khiển, thao túng
+体操|たいそう|thể dục
+節操|せっそう|tiết tháo
+操業|そうぎょう|vận hành (nhà máy…)
+二死|にし|hai lần loại (bóng chày)
+死ぬ|しぬ|chết
+死後|しご|sau khi chết
+興味津々|きょうみしんしん|rất hứng thú
+国津|くにつ|thuộc về đất nước
+大津|おおつ|Ōtsu (thành phố ở Shiga)
+天津|あまつ|thuộc về trời, thiên giới
+痩身|そうしん|thân hình mảnh mai
+痩せる|やせる|gầy đi
+痩果|そうか|quả bế
+痩せた|やせた|gầy
+硬化|こうか|cứng lại, xơ cứng
+硬さ|かたさ|độ cứng
+硬度|こうど|độ cứng
+硬派|こうは|phe cứng rắn
+軟化|なんか|mềm hóa, dịu đi
+軟式|なんしき|kiểu bóng mềm (bóng chày, tennis)
+軟禁|なんきん|giam lỏng
+邪|よこしま|tà ác, gian
+邪道|じゃどう|tà đạo, cách làm sai
+風邪|ふうじゃ|cảm, cúm
+無邪気|むじゃき|ngây thơ
+分離|ぶんり|tách rời
+地雷|じらい|mìn
+機雷|きらい|thủy lôi
+雷雨|らいう|mưa giông
+落雷|らくらい|sét đánh
+身震い|みぶるい|run rẩy
+余震|よしん|dư chấn
+震度|しんど|cường độ động đất
+軽震|けいしん|động đất nhẹ
+手首|てくび|cổ tay
+機首|きしゅ|mũi máy bay
+自首|じしゅ|tự thú
+悪魔|あくま|ác quỷ
+魔女|まじょ|phù thủy
+魔法|まほう|phép thuật
+魔力|まりょく|ma lực
+鹸化|けんか|xà phòng hóa
+水石鹸|みずせっけん|xà phòng nước
+石鹸水|せっけんすい|nước xà phòng
+石鹸玉|せっけんだま|bánh xà phòng
+人数|にんず|số người
+多数|たすう|đa số
+字数|じすう|số chữ
+一個|いっこ|một cái
+個人|こじん|cá nhân
+個体|こたい|cá thể
+個別|こべつ|riêng lẻ, cá biệt
+報いる|むくいる|đền đáp, báo đáp
+予報|よほう|dự báo
+余談|よだん|chuyện ngoài lề
+示談|じだん|hòa giải ngoài tòa
+談話|だんわ|cuộc nói chuyện
+次ぐ|つぐ|tiếp theo, đứng sau
+次期|じき|kỳ tới
+以後|いご|từ nay về sau
+到来|とうらい|đến, tới
+到着|とうちゃく|đến nơi
+周到|しゅうとう|chu đáo
+予測|よそく|dự đoán
+測定|そくてい|đo lường
+目測|もくそく|ước lượng bằng mắt
+観測|かんそく|quan trắc
+仙人|せんにん|tiên ông
+地仙|ちせん|địa tiên
+歌仙|かせん|thi tiên (nhà thơ waka lớn)
+画仙|がせん|họa sĩ bậc thầy
+二宮|にぐう|hai đền Ise
+子宮|しきゅう|tử cung
+東宮|とうぐう|thái tử
+神宮|じんぐう|thần cung (đền Thần đạo liên quan hoàng gia)
+寄与|きよ|đóng góp
+寄付|きふ|quyên góp
+川崎|かわさき|Kawasaki (thành phố)
+崎|さき|mũi đất
+宮崎|みやざき|Miyazaki (thành phố, tỉnh)
+高崎|たかさき|Takasaki (thành phố ở Gunma)
+一杯|いっぱい|một chén, một cốc; đầy
+乾杯|かんぱい|cạn ly
+満杯|まんぱい|đầy ắp
+銀杯|ぎんぱい|cúp bạc
+照る|てる|chiếu sáng
+参照|さんしょう|tham khảo
+対照|たいしょう|đối chiếu
+日照|にっしょう|ánh nắng
+裏面|りめん|mặt sau
+裏目|うらめ|mặt ngược; kết quả ngược mong đợi
+表裏|ひょうり|trong ngoài, hai mặt
+裏側|うらがわ|mặt trái, phía sau
+心酔|しんすい|say mê, ngưỡng mộ
+酔い|よい|cơn say
+酔う|よう|say
+多量|たりょう|số lượng lớn
+無量|むりょう|vô lượng
+雨量|うりょう|lượng mưa
+玉砕|ぎょくさい|chết vinh (không đầu hàng)
+目玉|めだま|nhãn cầu
+水玉|みずたま|giọt nước; chấm bi
+玉|たま|viên, quả cầu
+愛しい|いとしい|đáng yêu, thân thương
+愛す|あいす|yêu
+愛想|あいそ|niềm nở
+愛護|あいご|bảo vệ, chăm sóc
+情け|なさけ|lòng thương
+風情|ふぜい|phong vị, nét thú vị
+事情|じじょう|hoàn cảnh, tình hình
+不法|ふほう|bất hợp pháp
+作法|さほう|phép tắc, lễ nghi
+祝儀|しゅうぎ|lễ mừng; tiền mừng
+祝い|いわい|chúc mừng
+子孫|しそん|con cháu
+ひ孫|ひまご|chắt
+幼い|おさない|còn nhỏ, non nớt
+幼稚|ようち|ấu trĩ; thời thơ ấu
+幼子|おさなご|trẻ nhỏ
+幼少|ようしょう|thời thơ ấu
+官房|かんぼう|văn phòng (chính phủ)
+工房|こうぼう|xưởng, studio
+類人猿|るいじんえん|vượn người
+犬猿の仲|けんえんのなか|như chó với mèo
+小猿|こざる|khỉ con
+猿手|さるて|tay khỉ (dị tật)
+玩味|がんみ|thưởng thức, nghiền ngẫm
+玩菓|がんが|kẹo bán kèm đồ chơi
+愛玩|あいがん|cưng chiều (thú cưng, đồ vật)
+玩物|がんぶつ|đồ chơi
+珍味|ちんみ|cao lương mỹ vị
+珍品|ちんぴん|đồ quý hiếm
+珍重|ちんちょう|quý trọng
+珍|ちん|hiếm, lạ
+先祖|せんぞ|tổ tiên
+祖先|そせん|tổ tiên
+稚拙|ちせつ|vụng về, non kém
+稚子|ちし|thai nhi bị sảy
+管|くだ|ống
+保管|ほかん|bảo quản
+気管|きかん|khí quản
+移管|いかん|chuyển giao quản lý
+興す|おこす|chấn hưng, khởi lập
+復興|ふっこう|phục hưng, tái thiết
+振興|しんこう|chấn hưng, thúc đẩy
+餌木|えぎ|mồi gỗ câu mực
+好餌|こうじ|mồi ngon
+探餌|たんじ|kiếm mồi
+薬餌|やくじ|thuốc men
+化ける|ばける|hóa thành, biến hình
+帰化|きか|nhập tịch
+混む|こむ|đông đúc
+混合|こんごう|hỗn hợp
+混同|こんどう|nhầm lẫn
+器材|きざい|dụng cụ, vật tư
+機材|きざい|máy móc thiết bị
+素材|そざい|nguyên liệu, chất liệu
+資材|しざい|vật liệu
+和む|なごむ|dịu lại, êm ả
+不和|ふわ|bất hòa
+自律|じりつ|tự chủ, tự giác
+規律|きりつ|kỷ luật
+一律|いちりつ|đồng loạt
+不文律|ふぶんりつ|luật bất thành văn
+包囲|ほうい|bao vây
+包み|つつみ|gói, bọc
+内包|ないほう|hàm chứa
+命|いのち|sinh mệnh
+余命|よめい|quãng đời còn lại
+使命|しめい|sứ mệnh
+亡命|ぼうめい|lưu vong, tị nạn
+予算|よさん|ngân sách
+加算|かさん|cộng thêm
+争議|そうぎ|tranh chấp, đình công
+懸念|けねん|lo ngại
+懸命|けんめい|hết sức, cố gắng
+懸案|けんあん|vấn đề còn tồn đọng
+懸垂|けんすい|hít xà
+戦い|たたかい|trận chiến
+不戦|ふせん|không chiến tranh
+海抜|かいばつ|độ cao so với mực nước biển
+抜き|ぬき|bỏ qua, không có
+抜く|ぬく|rút ra, nhổ
+選抜|せんばつ|tuyển chọn
+政|まつりごと|chính sự
+家政|かせい|nữ công gia chánh

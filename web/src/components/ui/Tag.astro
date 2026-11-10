@@ -1,0 +1,21 @@
+---
+// Nhãn nhỏ dạng chữ — mặc định trung tính (không màu) để không tranh sự chú ý với nội dung học.
+// tone: neutral = meta thường · primary = nhấn nhẹ · notice = cần chú ý
+interface Props {
+  tone?: "neutral" | "primary" | "notice";
+  title?: string;
+}
+const { tone = "neutral", title } = Astro.props;
+const TONES = {
+  neutral: "border-line text-ink-faint",
+  primary: "border-primary-line bg-primary-soft text-primary",
+  notice: "border-transparent bg-notice-soft text-notice",
+} as const;
+---
+
+<span
+  class:list={["inline-flex items-center rounded border px-1.5 py-px text-[11px] leading-4 font-medium", TONES[tone]]}
+  title={title}
+>
+  <slot />
+</span>

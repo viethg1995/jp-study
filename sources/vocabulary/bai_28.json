@@ -1,0 +1,380 @@
+[
+  {
+    "id": "lesson28_1",
+    "jp": "うれます",
+    "kanji": "売れます",
+    "kanji_vn": "MẠI",
+    "vn": "bán chạy, được bán [bánh mì ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson28_2",
+    "jp": "おどります",
+    "kanji": "踊ります",
+    "kanji_vn": "DŨNG",
+    "vn": "nhảy, khiêu vũ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson28_3",
+    "jp": "かみます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhai",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson28_4",
+    "jp": "えらびます",
+    "kanji": "選びます",
+    "kanji_vn": "TUYỂN",
+    "vn": "chọn",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson28_5",
+    "jp": "かよいます",
+    "kanji": "通います",
+    "kanji_vn": "THÔNGĐẠI HỌC",
+    "vn": "đi học [đại học]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson28_6",
+    "jp": "メモします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ghi chép",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson28_7",
+    "jp": "まじめ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nghiêm túc, nghiêm chỉnh",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson28_8",
+    "jp": "ねっしん",
+    "kanji": "熱心",
+    "kanji_vn": "NHIỆT TÂM",
+    "vn": "nhiệt tâm, nhiệt tình, hết lòng",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson28_9",
+    "jp": "えらい",
+    "kanji": "偉い",
+    "kanji_vn": "VĨ",
+    "vn": "vĩ đại, đáng kính, đáng khâm phục",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson28_10",
+    "jp": "ちょうどいい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vừa đủ, vừa đúng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson28_11",
+    "jp": "けしき",
+    "kanji": "景色",
+    "kanji_vn": "CẢNH SẮC",
+    "vn": "phong cảnh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_12",
+    "jp": "びよういん",
+    "kanji": "美容院",
+    "kanji_vn": "MỸ DUNG VIỆN",
+    "vn": "hiệu làm đẹp",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson28_13",
+    "jp": "だいどころ",
+    "kanji": "台所",
+    "kanji_vn": "ĐÀI SỞ",
+    "vn": "nhà bếp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_14",
+    "jp": "けいけん",
+    "kanji": "経験",
+    "kanji_vn": "KINH NGHIỆM",
+    "vn": "kinh nghiệm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_15",
+    "jp": "ちから",
+    "kanji": "力",
+    "kanji_vn": "LỰC",
+    "vn": "sức lực, năng lực",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_16",
+    "jp": "にんき",
+    "kanji": "人気",
+    "kanji_vn": "NHÂN KHÍ",
+    "vn": "được yêu thích(がくせいに～があります： được [sinh viên] yêu thích)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_17",
+    "jp": "かたち",
+    "kanji": "形",
+    "kanji_vn": "HÌNH",
+    "vn": "hình, hình dáng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_18",
+    "jp": "いろ",
+    "kanji": "色",
+    "kanji_vn": "SẮC",
+    "vn": "màu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_19",
+    "jp": "あじ",
+    "kanji": "味",
+    "kanji_vn": "VỊ",
+    "vn": "vị",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_20",
+    "jp": "ガム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "kẹo cao su",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson28_21",
+    "jp": "しなもの",
+    "kanji": "品物",
+    "kanji_vn": "PHẨM VẬT",
+    "vn": "hàng hóa, mặt hàng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_22",
+    "jp": "ねだん",
+    "kanji": "値段",
+    "kanji_vn": "TRỊ ĐOẠN",
+    "vn": "giá",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_23",
+    "jp": "きゅうりょう",
+    "kanji": "給料",
+    "kanji_vn": "CẤP LIỆU",
+    "vn": "lương",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_24",
+    "jp": "ボーナス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thưởng",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson28_25",
+    "jp": "ゲーム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "trò chơi, game",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson28_26",
+    "jp": "ばんぐみ",
+    "kanji": "番組",
+    "kanji_vn": "PHIÊN TỔ",
+    "vn": "chương trình (phát thanh, truyền hình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_27",
+    "jp": "ドラマ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "kịch, phim truyền hình",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson28_28",
+    "jp": "かしゅ",
+    "kanji": "歌手",
+    "kanji_vn": "CA THỦ",
+    "vn": "ca sĩ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_29",
+    "jp": "しょうせつ",
+    "kanji": "小説",
+    "kanji_vn": "TIỂU THUYẾT",
+    "vn": "tiểu thuyết",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_30",
+    "jp": "しょうせつか",
+    "kanji": "小説家",
+    "kanji_vn": "TIỂU THUYẾT GIA",
+    "vn": "tiểu thuyết gia, nhà văn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_31",
+    "jp": "～か",
+    "kanji": "～家",
+    "kanji_vn": "GIA",
+    "vn": "nhà ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson28_32",
+    "jp": "～き",
+    "kanji": "～機",
+    "kanji_vn": "CƠ",
+    "vn": "máy ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson28_33",
+    "jp": "むすこ",
+    "kanji": "息子",
+    "kanji_vn": "TỨC TỬ",
+    "vn": "con trai (dùng cho mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_34",
+    "jp": "むすこさん",
+    "kanji": "息子さん",
+    "kanji_vn": "TỨC TỬ",
+    "vn": "con trai (dùng cho người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_35",
+    "jp": "むすめ",
+    "kanji": "娘",
+    "kanji_vn": "NƯƠNG",
+    "vn": "con gái (dùng cho mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_36",
+    "jp": "むすめさん",
+    "kanji": "娘さん",
+    "kanji_vn": "NƯƠNG",
+    "vn": "con gái (dùng cho người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_37",
+    "jp": "じぶん",
+    "kanji": "自分",
+    "kanji_vn": "TỰ PHÂN",
+    "vn": "bản thân, mình",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_38",
+    "jp": "しょうらい",
+    "kanji": "将来",
+    "kanji_vn": "TƯƠNG LAI",
+    "vn": "tương lai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson28_39",
+    "jp": "しばらく",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "một khoảng thời gian ngắn, một lúc, một lát",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson28_40",
+    "jp": "たいてい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thường, thông thường",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson28_41",
+    "jp": "それに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thêm nữa là, thêm vào đó là",
+    "type": "Từ nối",
+    "type_code": "Conj"
+  },
+  {
+    "id": "lesson28_42",
+    "jp": "それで",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thế thì, thế nên",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

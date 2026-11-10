@@ -1,0 +1,33 @@
+[project]
+name = "jp-pipeline"
+version = "0.1.0"
+description = "Chuyển dữ liệu thô trong sources/ thành dữ liệu chuẩn hóa trong data/"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.9",
+    "pymupdf>=1.24",
+    "pymupdf4llm>=2.1",
+    "sudachipy>=0.6",
+    "sudachidict_core",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+jp-pipeline = "jp_pipeline.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["jp_pipeline*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

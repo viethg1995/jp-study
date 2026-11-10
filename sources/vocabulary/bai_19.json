@@ -1,0 +1,173 @@
+[
+  {
+    "id": "lesson19_1",
+    "jp": "のぼります",
+    "kanji": "登ります",
+    "kanji_vn": "SƠN ĐĂNG",
+    "vn": "leo [núi]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson19_2",
+    "jp": "とまります",
+    "kanji": "泊まります",
+    "kanji_vn": "BẠC",
+    "vn": "trọ [ở khách sạn]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson19_3",
+    "jp": "そうじします",
+    "kanji": "掃除します",
+    "kanji_vn": "TẢO TRỪ",
+    "vn": "dọn vệ sinh",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson19_4",
+    "jp": "せんたくします",
+    "kanji": "洗濯します",
+    "kanji_vn": "TẨY TRẠC",
+    "vn": "giặt",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson19_5",
+    "jp": "なります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "trở thành, trở nên",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson19_6",
+    "jp": "ねむい",
+    "kanji": "眠い",
+    "kanji_vn": "MIÊN",
+    "vn": "buồn ngủ",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson19_7",
+    "jp": "つよい",
+    "kanji": "強い",
+    "kanji_vn": "CƯỜNG",
+    "vn": "mạnh",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson19_8",
+    "jp": "よわい",
+    "kanji": "弱い",
+    "kanji_vn": "NHƯỢC",
+    "vn": "yếu",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson19_9",
+    "jp": "ゴルフ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "gôn (～をします:chơi gôn)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson19_10",
+    "jp": "すもう",
+    "kanji": "相撲",
+    "kanji_vn": null,
+    "vn": "vật Sumo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson19_11",
+    "jp": "おちゃ",
+    "kanji": "お茶",
+    "kanji_vn": "TRÀ",
+    "vn": "trà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson19_12",
+    "jp": "ひ",
+    "kanji": "日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson19_13",
+    "jp": "ちょうし",
+    "kanji": "調子",
+    "kanji_vn": "ĐIỀU TỬ",
+    "vn": "tình trạng, trạng thái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson19_14",
+    "jp": "いちど",
+    "kanji": "一度",
+    "kanji_vn": "NHẤT ĐỘ",
+    "vn": "một lần",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson19_15",
+    "jp": "いちども",
+    "kanji": "一度も",
+    "kanji_vn": "NHẤT ĐỘ",
+    "vn": "chưa lần nào",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson19_16",
+    "jp": "だんだん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "dần dần",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson19_17",
+    "jp": "もうすぐ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sắp",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson19_18",
+    "jp": "おかげさまで",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhờ ơn anh/ chị mà ~ ; Nhờ trời ~",
+    "type": "Cụm từ chào hỏi",
+    "type_code": "Greet"
+  },
+  {
+    "id": "lesson19_19",
+    "jp": "でも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhưng",
+    "type": "Từ nối",
+    "type_code": "Conj"
+  }
+]

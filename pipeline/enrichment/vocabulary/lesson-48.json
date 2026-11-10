@@ -1,0 +1,138 @@
+{
+  "mn-48-001": {
+    "examples": [
+      {
+        "id": "mn-48-001-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{駅|えき}の{前|まえ}で{車|くるま}から{荷物|にもつ}を[[{降|お}ろしました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã dỡ hành lý từ ô tô xuống ở trước nhà ga."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "おろします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-48-002": {
+    "examples": [
+      {
+        "id": "mn-48-002-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{息子|むすこ}に{書類|しょるい}を[[{届|とど}けさせます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi bảo con trai mang giấy tờ đến."
+      }
+    ]
+  },
+  "mn-48-003": {
+    "examples": [
+      {
+        "id": "mn-48-003-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{毎日|まいにち}{犬|いぬ}の[[{世話|せわ}をします]]。",
+        "source": "ai-draft",
+        "vi": "Ngày nào tôi cũng chăm sóc chó."
+      }
+    ]
+  },
+  "mn-48-004": {
+    "examples": [
+      {
+        "id": "mn-48-004-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{先生|せんせい}の{話|はなし}を[[{録音|ろくおん}させて]]いただけませんか。",
+        "source": "ai-draft",
+        "vi": "Thầy có thể cho em ghi âm bài giảng được không ạ?"
+      }
+    ]
+  },
+  "mn-48-005": {
+    "examples": [
+      {
+        "id": "mn-48-005-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{雨|あめ}の{日|ひ}は[[{嫌|いや}]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi ghét ngày mưa."
+      }
+    ]
+  },
+  "mn-48-006": {
+    "examples": [
+      {
+        "id": "mn-48-006-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{息子|むすこ}を[[{塾|じゅく}]]に{行|い}かせています。",
+        "source": "ai-draft",
+        "vi": "Tôi cho con trai đi học thêm."
+      }
+    ]
+  },
+  "mn-48-007": {
+    "examples": [
+      {
+        "id": "mn-48-007-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{先生|せんせい}は[[{生徒|せいと}]]に{作文|さくぶん}を{書|か}かせました。",
+        "source": "ai-draft",
+        "vi": "Thầy giáo bắt học sinh viết bài văn."
+      }
+    ]
+  },
+  "mn-48-008": {
+    "examples": [
+      {
+        "id": "mn-48-008-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{部下|ぶか}に[[ファイル]]を{整理|せいり}させます。",
+        "source": "ai-draft",
+        "vi": "Tôi bảo cấp dưới sắp xếp tài liệu."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ファイル: PN→N (JMdict: danh từ thông dụng (file (for holding papers)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-48-009": {
+    "examples": [
+      {
+        "id": "mn-48-009-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{子|こ}どもたちを{公園|こうえん}で[[{自由|じゆう}に]]{遊|あそ}ばせます。",
+        "source": "ai-draft",
+        "vi": "Tôi cho bọn trẻ chơi tự do ở công viên."
+      }
+    ]
+  },
+  "mn-48-010": {
+    "examples": [
+      {
+        "id": "mn-48-010-e1",
+        "max_lesson": 48,
+        "review": "user",
+        "ruby": "{子|こ}どもに２{時|じ}[[{間|かん}]]{勉強|べんきょう}させました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã bắt con học 2 tiếng."
+      }
+    ]
+  }
+}

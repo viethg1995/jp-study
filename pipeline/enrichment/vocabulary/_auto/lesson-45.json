@@ -1,0 +1,224 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "TÍN",
+    "han_viet_source": "source",
+    "id": "mn-45-001",
+    "kanji": "信じます",
+    "kanji_refs": [
+      "k-信"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_1",
+    "lesson": 45,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 2 (ichidan)",
+    "pos_suggested": "V2"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-45-002",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson45_2",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRI",
+    "han_viet_source": "source",
+    "id": "mn-45-003",
+    "kanji": "知らせます",
+    "kanji_refs": [
+      "k-知"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_3",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BẢO CHỨNG THƯ",
+    "han_viet_source": "source",
+    "id": "mn-45-004",
+    "kanji": "保証書",
+    "kanji_refs": [
+      "k-保",
+      "k-証",
+      "k-書"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_4",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LÃNH THÂU THƯ",
+    "han_viet_source": "source",
+    "id": "mn-45-005",
+    "kanji": "領収書",
+    "kanji_refs": [
+      "k-領",
+      "k-収",
+      "k-書"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_5",
+    "lesson": 45
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-45-006",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson45_6",
+    "lesson": 45,
+    "pos_reason": "JMdict: danh từ thông dụng (camp; camping)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRUNG CHỈ",
+    "han_viet_source": "source",
+    "id": "mn-45-007",
+    "kanji": "中止",
+    "kanji_refs": [
+      "k-中",
+      "k-止"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_7",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐIỂM",
+    "han_viet_source": "source",
+    "id": "mn-45-008",
+    "kanji": "点",
+    "kanji_refs": [
+      "k-点"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_8",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MAI",
+    "han_viet_source": "source",
+    "id": "mn-45-009",
+    "kanji": "梅",
+    "kanji_refs": [
+      "k-梅"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_9",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHIÊN",
+    "han_viet_source": "source",
+    "id": "mn-45-010",
+    "kanji": "110番",
+    "kanji_refs": [
+      "k-番"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_10",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHIÊN",
+    "han_viet_source": "source",
+    "id": "mn-45-011",
+    "kanji": "119番",
+    "kanji_refs": [
+      "k-番"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_11",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CẤP",
+    "han_viet_source": "source",
+    "id": "mn-45-012",
+    "kanji": "急に",
+    "kanji_refs": [
+      "k-急"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_12",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VÔ LÍ",
+    "han_viet_source": "source",
+    "id": "mn-45-013",
+    "kanji": "無理に",
+    "kanji_refs": [
+      "k-無",
+      "k-理"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_13",
+    "lesson": 45
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "NHẠC/LẠC",
+    "han_viet_source": null,
+    "id": "mn-45-014",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson45_14",
+    "lesson": 45
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DĨ THƯỢNG",
+    "han_viet_source": "derived",
+    "id": "mn-45-015",
+    "kanji": "以上です。",
+    "kanji_refs": [
+      "k-以",
+      "k-上"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson45_15",
+    "lesson": 45
+  }
+]

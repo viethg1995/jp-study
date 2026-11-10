@@ -1,0 +1,548 @@
+{
+  "mn-37-001": {
+    "examples": [
+      {
+        "id": "mn-37-001-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{先生|せんせい}に[[{褒|ほ}められました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã được thầy khen."
+      }
+    ]
+  },
+  "mn-37-002": {
+    "examples": [
+      {
+        "id": "mn-37-002-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{母|はは}に[[{叱|しか}られました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi bị mẹ mắng."
+      }
+    ],
+    "han_viet": "SẤT",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "叱 — Unihan cho âm Nôm SỨT",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-003": {
+    "examples": [
+      {
+        "id": "mn-37-003-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{友達|ともだち}にパーティーに[[{誘|さそ}われました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi được bạn rủ đi dự tiệc."
+      }
+    ]
+  },
+  "mn-37-004": {
+    "examples": [
+      {
+        "id": "mn-37-004-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{結婚式|けっこんしき}に[[{招待|しょうたい}されました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi được mời đến dự đám cưới."
+      }
+    ]
+  },
+  "mn-37-005": {
+    "examples": [
+      {
+        "id": "mn-37-005-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{課長|かちょう}に{仕事|しごと}を[[{頼|たの}まれました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi được tổ trưởng nhờ làm việc."
+      }
+    ]
+  },
+  "mn-37-006": {
+    "examples": [
+      {
+        "id": "mn-37-006-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{先生|せんせい}に[[{注意|ちゅうい}されました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi bị giáo viên nhắc nhở."
+      }
+    ]
+  },
+  "mn-37-007": {
+    "examples": [
+      {
+        "id": "mn-37-007-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{電車|でんしゃ}の{中|なか}で{財布|さいふ}を[[{盗|と}られました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi bị trộm ví trên tàu."
+      }
+    ],
+    "han_viet": "ĐẠO",
+    "han_viet_source": "user",
+    "kanji": "盗ります",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "ăn trộm",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-008": {
+    "examples": [
+      {
+        "id": "mn-37-008-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{電車|でんしゃ}の{中|なか}で{足|あし}を[[{踏|ふ}まれました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi bị giẫm vào chân trên tàu."
+      }
+    ]
+  },
+  "mn-37-009": {
+    "examples": [
+      {
+        "id": "mn-37-009-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{弟|おとうと}にカメラを[[{壊|こわ}されました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi bị em trai làm hỏng máy ảnh."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "こわします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-010": {
+    "examples": [
+      {
+        "id": "mn-37-010-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{子|こ}どもに{服|ふく}を[[{汚|よご}されました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi bị con làm bẩn quần áo."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "よごします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-011": {
+    "examples": [
+      {
+        "id": "mn-37-011-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{会議|かいぎ}は{東京|とうきょう}で[[{行|おこな}われます]]。",
+        "source": "ai-draft",
+        "vi": "Cuộc họp được tổ chức ở Tokyo."
+      }
+    ]
+  },
+  "mn-37-012": {
+    "examples": [
+      {
+        "id": "mn-37-012-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{日本|にほん}の{車|くるま}は{世界中|せかいじゅう}に[[{輸出|ゆしゅつ}されて]]います。",
+        "source": "ai-draft",
+        "vi": "Ô tô Nhật được xuất khẩu ra khắp thế giới."
+      }
+    ]
+  },
+  "mn-37-013": {
+    "examples": [
+      {
+        "id": "mn-37-013-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{石油|せきゆ}は{外国|がいこく}から[[{輸入|ゆにゅう}されて]]います。",
+        "source": "ai-draft",
+        "vi": "Dầu mỏ được nhập khẩu từ nước ngoài."
+      }
+    ]
+  },
+  "mn-37-014": {
+    "examples": [
+      {
+        "id": "mn-37-014-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "この{本|ほん}は{色々|いろいろ}な{言葉|ことば}に[[{翻訳|ほんやく}されて]]います。",
+        "source": "ai-draft",
+        "vi": "Cuốn sách này được dịch ra nhiều thứ tiếng."
+      }
+    ]
+  },
+  "mn-37-015": {
+    "examples": [
+      {
+        "id": "mn-37-015-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{電話|でんわ}はベルによって[[{発明|はつめい}されました]]。",
+        "source": "ai-draft",
+        "vi": "Điện thoại được phát minh bởi Bell."
+      }
+    ]
+  },
+  "mn-37-016": {
+    "examples": [
+      {
+        "id": "mn-37-016-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "この{島|しま}は１６{世紀|せいき}に[[{発見|はっけん}されました]]。",
+        "source": "ai-draft",
+        "vi": "Hòn đảo này được phát hiện vào thế kỷ 16."
+      }
+    ]
+  },
+  "mn-37-017": {
+    "examples": [
+      {
+        "id": "mn-37-017-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[{米|こめ}]]から{酒|さけ}が{作|つく}られます。",
+        "source": "ai-draft",
+        "vi": "Rượu được làm từ gạo."
+      }
+    ]
+  },
+  "mn-37-018": {
+    "examples": [
+      {
+        "id": "mn-37-018-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "ビールは[[{麦|むぎ}]]から{作|つく}られます。",
+        "source": "ai-draft",
+        "vi": "Bia được làm từ lúa mạch."
+      }
+    ]
+  },
+  "mn-37-019": {
+    "examples": [
+      {
+        "id": "mn-37-019-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[{石油|せきゆ}]]は{色々|いろいろ}な{製品|せいひん}に{使|つか}われています。",
+        "source": "ai-draft",
+        "vi": "Dầu mỏ được dùng cho nhiều sản phẩm."
+      }
+    ]
+  },
+  "mn-37-020": {
+    "examples": [
+      {
+        "id": "mn-37-020-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "この{製品|せいひん}の[[{原料|げんりょう}]]は{何|なん}ですか。",
+        "source": "ai-draft",
+        "vi": "Nguyên liệu của sản phẩm này là gì?"
+      }
+    ]
+  },
+  "mn-37-021": {
+    "examples": [
+      {
+        "id": "mn-37-021-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[インスタントラーメン]]は{日本|にほん}で{発明|はつめい}されました。",
+        "source": "ai-draft",
+        "vi": "Mì ăn liền được phát minh ở Nhật."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "インスタントラーメン: danh từ thông dụng (JMdict không có) — gốc gán nhầm PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-022": {
+    "examples": [
+      {
+        "id": "mn-37-022-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{友達|ともだち}に[[デート]]に{誘|さそ}われました。",
+        "source": "ai-draft",
+        "vi": "Tôi được bạn rủ đi hẹn hò."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "デート: PN→N (JMdict: danh từ thông dụng (date (with someone); (social) outing (for two)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-023": {
+    "examples": [
+      {
+        "id": "mn-37-023-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[{泥棒|どろぼう}]]に{入|はい}られました。",
+        "source": "ai-draft",
+        "vi": "Nhà tôi bị trộm vào."
+      }
+    ]
+  },
+  "mn-37-024": {
+    "examples": [
+      {
+        "id": "mn-37-024-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[{警官|けいかん}]]に{道|みち}を{聞|き}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã hỏi đường cảnh sát."
+      }
+    ]
+  },
+  "mn-37-025": {
+    "examples": [
+      {
+        "id": "mn-37-025-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "この{歌|うた}は[[{世界中|せかいじゅう}]]で{歌|うた}われています。",
+        "source": "ai-draft",
+        "vi": "Bài hát này được hát khắp thế giới."
+      }
+    ]
+  },
+  "mn-37-026": {
+    "examples": [
+      {
+        "id": "mn-37-026-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{日本|にほん}[[{中|じゅう}]]を{旅行|りょこう}したいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn đi du lịch khắp nước Nhật."
+      }
+    ]
+  },
+  "mn-37-027": {
+    "examples": [
+      {
+        "id": "mn-37-027-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "この{寺|てら}は８[[{世紀|せいき}]]に{建|た}てられました。",
+        "source": "ai-draft",
+        "vi": "Ngôi chùa này được xây vào thế kỷ 8."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～世紀 thế kỷ",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-028": {
+    "examples": [
+      {
+        "id": "mn-37-028-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "ブラジルでは[[{何語|なにご}]]が{話|はな}されていますか。",
+        "source": "ai-draft",
+        "vi": "Ở Brazil người ta nói tiếng gì?"
+      }
+    ]
+  },
+  "mn-37-029": {
+    "examples": [
+      {
+        "id": "mn-37-029-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[{誰|だれ}か]]に{傘|かさ}を{持|も}って{行|い}かれました。",
+        "source": "ai-draft",
+        "vi": "Tôi bị ai đó lấy mất ô."
+      }
+    ],
+    "han_viet": "THÙY",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-031": {
+    "examples": [
+      {
+        "id": "mn-37-031-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[オリンピック]]は４{年|ねん}に１{回|かい}{行|おこな}われます。",
+        "source": "ai-draft",
+        "vi": "Thế vận hội được tổ chức 4 năm một lần."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "オリンピック: PN→N (JMdict: danh từ thông dụng (Olympics; Olympic Games))",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-032": {
+    "examples": [
+      {
+        "id": "mn-37-032-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[ワールドカップ]]は{世界中|せかいじゅう}で{見|み}られています。",
+        "source": "ai-draft",
+        "vi": "World Cup được xem khắp thế giới."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ワールドカップ: PN→N (JMdict: danh từ thông dụng (World Cup (e.g. soccer)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-033": {
+    "examples": [
+      {
+        "id": "mn-37-033-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[{東大寺|とうだいじ}]]は{奈良|なら}にあります。",
+        "source": "ai-draft",
+        "vi": "Chùa Todaiji ở Nara."
+      }
+    ]
+  },
+  "mn-37-034": {
+    "examples": [
+      {
+        "id": "mn-37-034-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{東大寺|とうだいじ}の[[{大仏|だいぶつ}]]は{有名|ゆうめい}です。",
+        "source": "ai-draft",
+        "vi": "Tượng phật lớn ở chùa Todaiji nổi tiếng."
+      }
+    ]
+  },
+  "mn-37-035": {
+    "examples": [
+      {
+        "id": "mn-37-035-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "この{城|しろ}は[[{江戸時代|えどじだい}]]に{建|た}てられました。",
+        "source": "ai-draft",
+        "vi": "Tòa thành này được xây vào thời Edo."
+      }
+    ]
+  },
+  "mn-37-036": {
+    "examples": [
+      {
+        "id": "mn-37-036-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[ポルトガル]]{語|ご}はブラジルで{話|はな}されています。",
+        "source": "ai-draft",
+        "vi": "Tiếng Bồ Đào Nha được nói ở Brazil."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ポルトガル: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-037": {
+    "examples": [
+      {
+        "id": "mn-37-037-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "{石油|せきゆ}は[[サウジアラビア]]から{輸入|ゆにゅう}されています。",
+        "source": "ai-draft",
+        "vi": "Dầu mỏ được nhập khẩu từ Ả Rập Xê Út."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "サウジアラビア: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-37-038": {
+    "examples": [
+      {
+        "id": "mn-37-038-e1",
+        "max_lesson": 37,
+        "review": "user",
+        "ruby": "[[ロシア]]は{冬|ふゆ}がとても{寒|さむ}いです。",
+        "source": "ai-draft",
+        "vi": "Nước Nga mùa đông rất lạnh."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ロシア: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  }
+}

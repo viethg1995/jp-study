@@ -1,0 +1,228 @@
+{
+  "mn-49-001": {
+    "examples": [
+      {
+        "id": "mn-49-001-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{図書館|としょかん}を[[{利用|りよう}する]]{場合|ばあい}は、カードが{必要|ひつよう}です。",
+        "source": "ai-draft",
+        "vi": "Khi sử dụng thư viện thì cần có thẻ."
+      }
+    ]
+  },
+  "mn-49-002": {
+    "examples": [
+      {
+        "id": "mn-49-002-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{父|ちち}は{銀行|ぎんこう}に[[{勤|つと}めて]]います。",
+        "source": "ai-draft",
+        "vi": "Bố tôi làm việc ở ngân hàng."
+      }
+    ]
+  },
+  "mn-49-003": {
+    "examples": [
+      {
+        "id": "mn-49-003-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "どうぞ、こちらにお[[{掛|か}け]]ください。",
+        "source": "ai-draft",
+        "vi": "Xin mời ngồi đây."
+      }
+    ]
+  },
+  "mn-49-004": {
+    "examples": [
+      {
+        "id": "mn-49-004-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{休|やす}みはどう[[{過|す}ごされました]]か。",
+        "source": "ai-draft",
+        "vi": "Kỳ nghỉ của ngài trải qua thế nào ạ?"
+      }
+    ]
+  },
+  "mn-49-005": {
+    "examples": [
+      {
+        "id": "mn-49-005-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{社長|しゃちょう}は{今|いま}{会議室|かいぎしつ}に[[いらっしゃいます]]。",
+        "source": "ai-draft",
+        "vi": "Giám đốc hiện đang ở phòng họp."
+      }
+    ]
+  },
+  "mn-49-006": {
+    "examples": [
+      {
+        "id": "mn-49-006-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{先生|せんせい}、{何|なに}を[[{召|め}し{上|あ}がります]]か。",
+        "source": "ai-draft",
+        "vi": "Thưa thầy, thầy dùng gì ạ?"
+      }
+    ]
+  },
+  "mn-49-007": {
+    "examples": [
+      {
+        "id": "mn-49-007-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{部長|ぶちょう}がそう[[おっしゃいました]]。",
+        "source": "ai-draft",
+        "vi": "Trưởng phòng đã nói như vậy."
+      }
+    ]
+  },
+  "mn-49-008": {
+    "examples": [
+      {
+        "id": "mn-49-008-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{週末|しゅうまつ}は{何|なに}を[[なさいます]]か。",
+        "source": "ai-draft",
+        "vi": "Cuối tuần ngài làm gì ạ?"
+      }
+    ]
+  },
+  "mn-49-009": {
+    "examples": [
+      {
+        "id": "mn-49-009-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "この{写真|しゃしん}を[[ご{覧|らん}になりました]]か。",
+        "source": "ai-draft",
+        "vi": "Ngài đã xem bức ảnh này chưa ạ?"
+      }
+    ]
+  },
+  "mn-49-010": {
+    "examples": [
+      {
+        "id": "mn-49-010-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{先生|せんせい}の{住所|じゅうしょ}を[[ご{存|ぞん}じです]]か。",
+        "source": "ai-draft",
+        "vi": "Ngài có biết địa chỉ của thầy không ạ?"
+      }
+    ]
+  },
+  "mn-49-011": {
+    "examples": [
+      {
+        "id": "mn-49-011-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{社長|しゃちょう}が{最初|さいしょ}に[[{挨拶|あいさつ}]]をなさいます。",
+        "source": "ai-draft",
+        "vi": "Giám đốc sẽ phát biểu chào mừng đầu tiên."
+      }
+    ],
+    "han_viet": "AI TẠT",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-49-012": {
+    "examples": [
+      {
+        "id": "mn-49-012-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{京都|きょうと}で[[{旅館|りょかん}]]に{泊|と}まりました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã trọ ở lữ quán kiểu Nhật ở Kyoto."
+      }
+    ]
+  },
+  "mn-49-013": {
+    "examples": [
+      {
+        "id": "mn-49-013-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "[[バス{停|てい}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Bến xe buýt ở đâu?"
+      }
+    ]
+  },
+  "mn-49-014": {
+    "examples": [
+      {
+        "id": "mn-49-014-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "[[{奥様|おくさま}]]はお{元気|げんき}ですか。",
+        "source": "ai-draft",
+        "vi": "Phu nhân có khỏe không ạ?"
+      }
+    ]
+  },
+  "mn-49-015": {
+    "examples": [
+      {
+        "id": "mn-49-015-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{田中|たなか}[[{様|さま}]]、お{待|ま}たせしました。",
+        "source": "ai-draft",
+        "vi": "Thưa ngài Tanaka, xin lỗi đã để ngài chờ."
+      }
+    ]
+  },
+  "mn-49-016": {
+    "examples": [
+      {
+        "id": "mn-49-016-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "[[{偶|たま}に]]{家族|かぞく}と{食事|しょくじ}に{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Thỉnh thoảng tôi đi ăn cùng gia đình."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-49-017": {
+    "examples": [
+      {
+        "id": "mn-49-017-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "[[どなたでも]]{参加|さんか}できます。",
+        "source": "ai-draft",
+        "vi": "Vị nào cũng có thể tham gia."
+      }
+    ]
+  },
+  "mn-49-018": {
+    "examples": [
+      {
+        "id": "mn-49-018-e1",
+        "max_lesson": 49,
+        "review": "user",
+        "ruby": "{私|わたし}はミラー[[といいます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi tên là Miller."
+      }
+    ]
+  }
+}

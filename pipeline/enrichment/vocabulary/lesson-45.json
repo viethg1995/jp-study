@@ -1,0 +1,197 @@
+{
+  "mn-45-001": {
+    "examples": [
+      {
+        "id": "mn-45-001-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{彼|かれ}の{話|はなし}を[[{信|しん}じて]]います。",
+        "source": "ai-draft",
+        "vi": "Tôi tin lời anh ấy nói."
+      }
+    ],
+    "pos_code": "V2",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "しんじます: V1→V2 (JMdict: dạng từ điển thuộc nhóm 2 (ichidan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-45-002": {
+    "examples": [
+      {
+        "id": "mn-45-002-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{予約|よやく}を[[キャンセルする]]{場合|ばあい}は、{電話|でんわ}してください。",
+        "source": "ai-draft",
+        "vi": "Trường hợp hủy đặt chỗ, hãy gọi điện."
+      }
+    ]
+  },
+  "mn-45-003": {
+    "examples": [
+      {
+        "id": "mn-45-003-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{結果|けっか}が{分|わ}かったら、[[{知|し}らせて]]ください。",
+        "source": "ai-draft",
+        "vi": "Biết kết quả rồi thì hãy báo cho tôi."
+      }
+    ]
+  },
+  "mn-45-004": {
+    "examples": [
+      {
+        "id": "mn-45-004-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "[[{保証書|ほしょうしょ}]]をなくさないでください。",
+        "source": "ai-draft",
+        "vi": "Đừng làm mất giấy bảo hành."
+      }
+    ]
+  },
+  "mn-45-005": {
+    "examples": [
+      {
+        "id": "mn-45-005-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "[[{領収書|りょうしゅうしょ}]]をください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi hóa đơn."
+      }
+    ]
+  },
+  "mn-45-006": {
+    "examples": [
+      {
+        "id": "mn-45-006-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{雨|あめ}の{場合|ばあい}は、[[キャンプ]]は{中止|ちゅうし}です。",
+        "source": "ai-draft",
+        "vi": "Trường hợp trời mưa, buổi cắm trại sẽ bị hủy."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "キャンプ: PN→N (JMdict: danh từ thông dụng (camp; camping))",
+      "status": "reviewed"
+    }
+  },
+  "mn-45-007": {
+    "examples": [
+      {
+        "id": "mn-45-007-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{雨|あめ}の{場合|ばあい}は、{試合|しあい}は[[{中止|ちゅうし}]]です。",
+        "source": "ai-draft",
+        "vi": "Trường hợp trời mưa, trận đấu sẽ bị hủy."
+      }
+    ]
+  },
+  "mn-45-008": {
+    "examples": [
+      {
+        "id": "mn-45-008-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{試験|しけん}で{悪|わる}い[[{点|てん}]]を{取|と}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi bị điểm kém trong kỳ thi."
+      }
+    ]
+  },
+  "mn-45-009": {
+    "examples": [
+      {
+        "id": "mn-45-009-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "[[{梅|うめ}]]の{花|はな}が{咲|さ}いています。",
+        "source": "ai-draft",
+        "vi": "Hoa mơ đang nở."
+      }
+    ]
+  },
+  "mn-45-010": {
+    "examples": [
+      {
+        "id": "mn-45-010-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{泥棒|どろぼう}の{場合|ばあい}は、[[{110番|ひゃくとおばん}]]に{電話|でんわ}してください。",
+        "source": "ai-draft",
+        "vi": "Trường hợp có trộm, hãy gọi số 110."
+      }
+    ]
+  },
+  "mn-45-011": {
+    "examples": [
+      {
+        "id": "mn-45-011-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{火事|かじ}の{場合|ばあい}は、[[{119番|ひゃくじゅうきゅうばん}]]に{電話|でんわ}してください。",
+        "source": "ai-draft",
+        "vi": "Trường hợp hỏa hoạn, hãy gọi số 119."
+      }
+    ]
+  },
+  "mn-45-012": {
+    "examples": [
+      {
+        "id": "mn-45-012-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "[[{急|きゅう}に]]{雨|あめ}が{降|ふ}ってきました。",
+        "source": "ai-draft",
+        "vi": "Trời đột nhiên đổ mưa."
+      }
+    ]
+  },
+  "mn-45-013": {
+    "examples": [
+      {
+        "id": "mn-45-013-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "[[{無理|むり}に]]{食|た}べなくてもいいです。",
+        "source": "ai-draft",
+        "vi": "Không cần cố ăn cũng được."
+      }
+    ]
+  },
+  "mn-45-014": {
+    "examples": [
+      {
+        "id": "mn-45-014-e1",
+        "max_lesson": 45,
+        "review": "user",
+        "ruby": "{国|くに}へ{帰|かえ}るのを[[{楽|たの}しみにしています]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đang mong chờ được về nước."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "たのしみにしています",
+    "kanji": "楽しみにしています",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "status": "reviewed"
+    }
+  }
+}

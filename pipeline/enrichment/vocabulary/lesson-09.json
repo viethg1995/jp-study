@@ -1,0 +1,641 @@
+{
+  "mn-09-001": {
+    "examples": [
+      {
+        "id": "mn-09-001-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は{日本語|にほんご}が{少|すこ}し[[{分|わ}かります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi hiểu một chút tiếng Nhật."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-002": {
+    "examples": [
+      {
+        "id": "mn-09-002-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は{車|くるま}が[[あります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi có ô tô."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "あります: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-003": {
+    "examples": [
+      {
+        "id": "mn-09-003-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は{果物|くだもの}が[[{好|す}き]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi thích hoa quả."
+      }
+    ]
+  },
+  "mn-09-004": {
+    "examples": [
+      {
+        "id": "mn-09-004-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は{魚|さかな}が[[{嫌|きら}い]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi ghét cá."
+      }
+    ]
+  },
+  "mn-09-005": {
+    "examples": [
+      {
+        "id": "mn-09-005-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "ミラーさんはテニスが[[{上手|じょうず}]]です。",
+        "source": "ai-draft",
+        "vi": "Anh Miller chơi quần vợt giỏi."
+      }
+    ]
+  },
+  "mn-09-006": {
+    "examples": [
+      {
+        "id": "mn-09-006-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は{歌|うた}が[[{下手|へた}]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi hát dở."
+      }
+    ]
+  },
+  "mn-09-007": {
+    "examples": [
+      {
+        "id": "mn-09-007-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "どんな[[{飲|の}み{物|もの}]]が{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Bạn thích đồ uống gì?"
+      }
+    ]
+  },
+  "mn-09-008": {
+    "examples": [
+      {
+        "id": "mn-09-008-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{母|はは}は[[{料理|りょうり}]]が{上手|じょうず}です。",
+        "source": "ai-draft",
+        "vi": "Mẹ tôi nấu ăn giỏi."
+      }
+    ]
+  },
+  "mn-09-009": {
+    "examples": [
+      {
+        "id": "mn-09-009-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は[[スポーツ]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích thể thao."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "スポーツ: PN→N (JMdict: danh từ thông dụng (sport; sports))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-010": {
+    "examples": [
+      {
+        "id": "mn-09-010-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{野球|やきゅう}]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích bóng chày."
+      }
+    ]
+  },
+  "mn-09-011": {
+    "examples": [
+      {
+        "id": "mn-09-011-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}は[[ダンス]]が{上手|じょうず}です。",
+        "source": "ai-draft",
+        "vi": "Cô ấy nhảy giỏi."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ダンス: PN→N (JMdict: danh từ thông dụng (dance; dancing))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-012": {
+    "examples": [
+      {
+        "id": "mn-09-012-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{父|ちち}は[[{旅行|りょこう}]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Bố tôi thích du lịch."
+      }
+    ]
+  },
+  "mn-09-013": {
+    "examples": [
+      {
+        "id": "mn-09-013-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "どんな[[{音楽|おんがく}]]が{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Bạn thích loại nhạc nào?"
+      }
+    ]
+  },
+  "mn-09-014": {
+    "examples": [
+      {
+        "id": "mn-09-014-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}は[[{歌|うた}]]が{上手|じょうず}です。",
+        "source": "ai-draft",
+        "vi": "Cô ấy hát hay."
+      }
+    ]
+  },
+  "mn-09-015": {
+    "examples": [
+      {
+        "id": "mn-09-015-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[クラシック]]が{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Bạn có thích nhạc cổ điển không?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "クラシック: PN→N (JMdict: danh từ thông dụng (classical music))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-016": {
+    "examples": [
+      {
+        "id": "mn-09-016-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{父|ちち}は[[ジャズ]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Bố tôi thích nhạc jazz."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ジャズ: PN→N (JMdict: danh từ thông dụng (jazz))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-017": {
+    "examples": [
+      {
+        "id": "mn-09-017-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{明日|あした}[[コンサート]]へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi đi xem hòa nhạc."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "コンサート: PN→N (JMdict: danh từ thông dụng (concert))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-018": {
+    "examples": [
+      {
+        "id": "mn-09-018-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は[[カラオケ]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích karaoke."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "カラオケ: PN→N (JMdict: danh từ thông dụng (karaoke))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-019": {
+    "examples": [
+      {
+        "id": "mn-09-019-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{歌舞伎|かぶき}]]が{分|わ}かりますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có hiểu Kabuki không?"
+      }
+    ]
+  },
+  "mn-09-020": {
+    "examples": [
+      {
+        "id": "mn-09-020-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "ワンさんは[[{絵|え}]]が{上手|じょうず}です。",
+        "source": "ai-draft",
+        "vi": "Anh Wang vẽ tranh giỏi."
+      }
+    ]
+  },
+  "mn-09-021": {
+    "examples": [
+      {
+        "id": "mn-09-021-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{字|じ}]]が{下手|へた}です。",
+        "source": "ai-draft",
+        "vi": "Tôi viết chữ xấu."
+      }
+    ]
+  },
+  "mn-09-022": {
+    "examples": [
+      {
+        "id": "mn-09-022-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{漢字|かんじ}]]が{分|わ}かりますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có hiểu chữ Hán không?"
+      }
+    ]
+  },
+  "mn-09-023": {
+    "examples": [
+      {
+        "id": "mn-09-023-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{平仮名|ひらがな}]]が{分|わ}かります。",
+        "source": "ai-draft",
+        "vi": "Tôi hiểu chữ Hiragana."
+      }
+    ],
+    "han_viet": "BÌNH GIẢ DANH",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-024": {
+    "examples": [
+      {
+        "id": "mn-09-024-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{片仮名|かたかな}]]が{少|すこ}し{分|わ}かります。",
+        "source": "ai-draft",
+        "vi": "Tôi hiểu một ít chữ Katakana."
+      }
+    ],
+    "han_viet": "PHIẾN GIẢ DANH",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-025": {
+    "examples": [
+      {
+        "id": "mn-09-025-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[ローマ{字|じ}]]で{名前|なまえ}を{書|か}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi viết tên bằng chữ La Mã."
+      }
+    ]
+  },
+  "mn-09-026": {
+    "examples": [
+      {
+        "id": "mn-09-026-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{細|こま}かいお{金|かね}]]がありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có tiền lẻ không?"
+      }
+    ]
+  },
+  "mn-09-027": {
+    "examples": [
+      {
+        "id": "mn-09-027-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "コンサートの[[チケット]]があります。",
+        "source": "ai-draft",
+        "vi": "Tôi có vé xem hòa nhạc."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "チケット: PN→N (JMdict: danh từ thông dụng (ticket))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-028": {
+    "examples": [
+      {
+        "id": "mn-09-028-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{時間|じかん}]]がありません。",
+        "source": "ai-draft",
+        "vi": "Hôm nay tôi không có thời gian."
+      }
+    ]
+  },
+  "mn-09-029": {
+    "examples": [
+      {
+        "id": "mn-09-029-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{明日|あした}は[[{用事|ようじ}]]があります。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi có việc bận."
+      }
+    ]
+  },
+  "mn-09-030": {
+    "examples": [
+      {
+        "id": "mn-09-030-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{今晩|こんばん}は{友達|ともだち}と[[{約束|やくそく}]]があります。",
+        "source": "ai-draft",
+        "vi": "Tối nay tôi có hẹn với bạn."
+      }
+    ]
+  },
+  "mn-09-031": {
+    "examples": [
+      {
+        "id": "mn-09-031-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[アルバイト]]がありますから、{早|はや}く{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Hôm nay tôi có việc làm thêm nên về sớm."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "アルバイト: PN→N (JMdict: danh từ thông dụng (part-time job; side job))",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-032": {
+    "examples": [
+      {
+        "id": "mn-09-032-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[ご{主人|しゅじん}]]はお{元気|げんき}ですか。",
+        "source": "ai-draft",
+        "vi": "Chồng chị có khỏe không?"
+      }
+    ]
+  },
+  "mn-09-033": {
+    "examples": [
+      {
+        "id": "mn-09-033-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{夫|おっと}]]は{料理|りょうり}が{上手|じょうず}です。",
+        "source": "ai-draft",
+        "vi": "Chồng tôi nấu ăn giỏi."
+      }
+    ]
+  },
+  "mn-09-034": {
+    "examples": [
+      {
+        "id": "mn-09-034-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{奥|おく}さん]]は{日本人|にほんじん}ですか。",
+        "source": "ai-draft",
+        "vi": "Vợ anh là người Nhật phải không?"
+      }
+    ]
+  },
+  "mn-09-035": {
+    "examples": [
+      {
+        "id": "mn-09-035-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{妻|つま}]]は{歌|うた}が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Vợ tôi thích hát."
+      }
+    ]
+  },
+  "mn-09-036": {
+    "examples": [
+      {
+        "id": "mn-09-036-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[{子|こ}ども]]は{音楽|おんがく}が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Con tôi thích âm nhạc."
+      }
+    ]
+  },
+  "mn-09-037": {
+    "examples": [
+      {
+        "id": "mn-09-037-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{英語|えいご}が[[{良|よ}く]]{分|わ}かります。",
+        "source": "ai-draft",
+        "vi": "Tôi hiểu rõ tiếng Anh."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-038": {
+    "examples": [
+      {
+        "id": "mn-09-038-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{日本語|にほんご}が[[{大体|だいたい}]]{分|わ}かります。",
+        "source": "ai-draft",
+        "vi": "Tôi hiểu đại khái tiếng Nhật."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-039": {
+    "examples": [
+      {
+        "id": "mn-09-039-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "お{金|かね}が[[{沢山|たくさん}]]あります。",
+        "source": "ai-draft",
+        "vi": "Tôi có nhiều tiền."
+      }
+    ],
+    "han_viet": "TRẠCH SƠN",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-040": {
+    "examples": [
+      {
+        "id": "mn-09-040-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{漢字|かんじ}が[[{少|すこ}し]]{分|わ}かります。",
+        "source": "ai-draft",
+        "vi": "Tôi hiểu một ít chữ Hán."
+      }
+    ]
+  },
+  "mn-09-041": {
+    "examples": [
+      {
+        "id": "mn-09-041-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "フランス{語|ご}が[[{全然|ぜんぜん}]]{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Tôi hoàn toàn không hiểu tiếng Pháp."
+      }
+    ]
+  },
+  "mn-09-042": {
+    "examples": [
+      {
+        "id": "mn-09-042-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{用事|ようじ}がありますから、[[{早|はや}く]]{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Vì có việc bận nên tôi về sớm."
+      }
+    ]
+  },
+  "mn-09-043": {
+    "examples": [
+      {
+        "id": "mn-09-043-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "{時間|じかん}がありません[[から]]、タクシーで{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Vì không có thời gian nên tôi đi bằng taxi."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "trợ từ",
+      "status": "reviewed"
+    }
+  },
+  "mn-09-044": {
+    "examples": [
+      {
+        "id": "mn-09-044-e1",
+        "max_lesson": 9,
+        "review": "user",
+        "ruby": "[[どうして]]{早|はや}く{帰|かえ}りますか。",
+        "source": "ai-draft",
+        "vi": "Tại sao bạn về sớm?"
+      }
+    ]
+  }
+}

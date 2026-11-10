@@ -1,0 +1,610 @@
+{
+  "mn-02-001": {
+    "examples": [
+      {
+        "id": "mn-02-001-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "[[これ]]は{辞書|じしょ}です。",
+        "source": "ai-draft",
+        "vi": "Đây là cuốn từ điển."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど: kanji 此れ cổ, không dùng",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-002": {
+    "examples": [
+      {
+        "id": "mn-02-002-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "[[それ]]は{私|わたし}の{傘|かさ}です。",
+        "source": "ai-draft",
+        "vi": "Đó là cái ô của tôi."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-003": {
+    "examples": [
+      {
+        "id": "mn-02-003-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "[[あれ]]は{誰|だれ}の{車|くるま}ですか。",
+        "source": "ai-draft",
+        "vi": "Kia là xe ô tô của ai?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-004": {
+    "examples": [
+      {
+        "id": "mn-02-004-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "[[この]]{車|くるま}は{私|わたし}のです。",
+        "source": "ai-draft",
+        "vi": "Chiếc xe này là của tôi."
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "この～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-005": {
+    "examples": [
+      {
+        "id": "mn-02-005-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "[[その]]{本|ほん}は{誰|だれ}のですか。",
+        "source": "ai-draft",
+        "vi": "Quyển sách đó là của ai?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "pos_by": "user",
+      "pos_note": "その～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-006": {
+    "examples": [
+      {
+        "id": "mn-02-006-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "[[あの]]{傘|かさ}はミラーさんのです。",
+        "source": "ai-draft",
+        "vi": "Cái ô kia là của anh Miller."
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "あの～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-007": {
+    "examples": [
+      {
+        "id": "mn-02-007-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{日本語|にほんご}の[[{本|ほん}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là sách tiếng Nhật."
+      }
+    ]
+  },
+  "mn-02-008": {
+    "examples": [
+      {
+        "id": "mn-02-008-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "それは{私|わたし}の[[{辞書|じしょ}]]です。",
+        "source": "ai-draft",
+        "vi": "Đó là từ điển của tôi."
+      }
+    ]
+  },
+  "mn-02-009": {
+    "examples": [
+      {
+        "id": "mn-02-009-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{車|くるま}の[[{雑誌|ざっし}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là tạp chí về ô tô."
+      }
+    ]
+  },
+  "mn-02-010": {
+    "examples": [
+      {
+        "id": "mn-02-010-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "あれは{英語|えいご}の[[{新聞|しんぶん}]]です。",
+        "source": "ai-draft",
+        "vi": "Kia là tờ báo tiếng Anh."
+      }
+    ]
+  },
+  "mn-02-011": {
+    "examples": [
+      {
+        "id": "mn-02-011-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{私|わたし}の[[ノート]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là quyển vở của tôi."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ノート: PN→N (JMdict: danh từ thông dụng (notebook; copy-book))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-012": {
+    "examples": [
+      {
+        "id": "mn-02-012-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "この[[{手帳|てちょう}]]は{誰|だれ}のですか。",
+        "source": "ai-draft",
+        "vi": "Cuốn sổ tay này là của ai?"
+      }
+    ]
+  },
+  "mn-02-013": {
+    "examples": [
+      {
+        "id": "mn-02-013-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{私|わたし}の[[{名刺|めいし}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là danh thiếp của tôi."
+      }
+    ]
+  },
+  "mn-02-014": {
+    "examples": [
+      {
+        "id": "mn-02-014-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "この[[カード]]は{誰|だれ}のですか。",
+        "source": "ai-draft",
+        "vi": "Tấm thẻ này là của ai?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "カード: PN→N (JMdict: danh từ thông dụng (card (information, filing, etc.)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-015": {
+    "examples": [
+      {
+        "id": "mn-02-015-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "それは[[{鉛筆|えんぴつ}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Đó là bút chì phải không?"
+      }
+    ]
+  },
+  "mn-02-016": {
+    "examples": [
+      {
+        "id": "mn-02-016-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "その[[ボールペン]]は{私|わたし}のです。",
+        "source": "ai-draft",
+        "vi": "Cái bút bi đó là của tôi."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ボールペン: PN→N (JMdict: danh từ thông dụng (ball-point pen))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-017": {
+    "examples": [
+      {
+        "id": "mn-02-017-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは[[シャープペンシル]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là bút chì bấm."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "シャープペンシル: PN→N (JMdict: danh từ thông dụng (mechanical pencil; automatic pencil))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-018": {
+    "examples": [
+      {
+        "id": "mn-02-018-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{車|くるま}の[[{鍵|かぎ}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là chìa khóa ô tô."
+      }
+    ],
+    "han_viet": "KIỆN",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-019": {
+    "examples": [
+      {
+        "id": "mn-02-019-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "その[[{時計|とけい}]]は{私|わたし}のです。",
+        "source": "ai-draft",
+        "vi": "Cái đồng hồ đó là của tôi."
+      }
+    ]
+  },
+  "mn-02-020": {
+    "examples": [
+      {
+        "id": "mn-02-020-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "この[[{傘|かさ}]]は{誰|だれ}のですか。",
+        "source": "ai-draft",
+        "vi": "Cái ô này là của ai?"
+      }
+    ]
+  },
+  "mn-02-021": {
+    "examples": [
+      {
+        "id": "mn-02-021-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "あの[[{鞄|かばん}]]はミラーさんのです。",
+        "source": "ai-draft",
+        "vi": "Cái cặp kia là của anh Miller."
+      }
+    ],
+    "han_viet": "BẠC",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "鞄",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-022": {
+    "examples": [
+      {
+        "id": "mn-02-022-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{日本語|にほんご}の[[CD]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là đĩa CD tiếng Nhật."
+      }
+    ]
+  },
+  "mn-02-023": {
+    "examples": [
+      {
+        "id": "mn-02-023-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "あれは{日本|にほん}の[[テレビ]]です。",
+        "source": "ai-draft",
+        "vi": "Kia là tivi của Nhật."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "テレビ: PN→N (JMdict: danh từ thông dụng (television; TV))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-024": {
+    "examples": [
+      {
+        "id": "mn-02-024-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "それは{私|わたし}の[[ラジオ]]です。",
+        "source": "ai-draft",
+        "vi": "Đó là cái radio của tôi."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ラジオ: PN→N (JMdict: danh từ thông dụng (radio))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-025": {
+    "examples": [
+      {
+        "id": "mn-02-025-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{日本|にほん}の[[カメラ]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là máy ảnh của Nhật."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "カメラ: PN→N (JMdict: danh từ thông dụng (camera))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-026": {
+    "examples": [
+      {
+        "id": "mn-02-026-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "あの[[コンピューター]]は{誰|だれ}のですか。",
+        "source": "ai-draft",
+        "vi": "Cái máy vi tính kia là của ai?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "コンピューター: PN→N (JMdict: danh từ thông dụng (computer))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-027": {
+    "examples": [
+      {
+        "id": "mn-02-027-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "あれは{私|わたし}の[[{車|くるま}]]です。",
+        "source": "ai-draft",
+        "vi": "Kia là xe ô tô của tôi."
+      }
+    ]
+  },
+  "mn-02-028": {
+    "examples": [
+      {
+        "id": "mn-02-028-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは[[{机|つくえ}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là cái bàn."
+      }
+    ]
+  },
+  "mn-02-029": {
+    "examples": [
+      {
+        "id": "mn-02-029-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "それは{私|わたし}の[[{椅子|いす}]]です。",
+        "source": "ai-draft",
+        "vi": "Đó là cái ghế của tôi."
+      }
+    ],
+    "han_viet": "Ỷ TỬ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-030": {
+    "examples": [
+      {
+        "id": "mn-02-030-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これはお{土産|みやげ}の[[チョコレート]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là sô-cô-la làm quà."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "チョコレート: PN→N (JMdict: danh từ thông dụng (chocolate))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-031": {
+    "examples": [
+      {
+        "id": "mn-02-031-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "「それは[[コーヒー]]ですか。」「はい、そうです。」",
+        "source": "ai-draft",
+        "vi": "\"Đó là cà phê phải không?\" \"Vâng, đúng vậy.\""
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "コーヒー: PN→N (JMdict: danh từ thông dụng (coffee))",
+      "status": "reviewed"
+    }
+  },
+  "mn-02-032": {
+    "examples": [
+      {
+        "id": "mn-02-032-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは{日本|にほん}のお[[{土産|みやげ}]]です。",
+        "source": "ai-draft",
+        "vi": "Đây là quà từ Nhật Bản."
+      }
+    ]
+  },
+  "mn-02-033": {
+    "examples": [
+      {
+        "id": "mn-02-033-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは[[{英語|えいご}]]の{本|ほん}です。",
+        "source": "ai-draft",
+        "vi": "Đây là sách tiếng Anh."
+      }
+    ]
+  },
+  "mn-02-034": {
+    "examples": [
+      {
+        "id": "mn-02-034-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "あの{人|ひと}は[[{日本語|にほんご}]]の{先生|せんせい}です。",
+        "source": "ai-draft",
+        "vi": "Người kia là giáo viên tiếng Nhật."
+      }
+    ]
+  },
+  "mn-02-035": {
+    "examples": [
+      {
+        "id": "mn-02-035-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これはベトナム[[{語|ご}]]の{新聞|しんぶん}です。",
+        "source": "ai-draft",
+        "vi": "Đây là báo tiếng Việt."
+      }
+    ]
+  },
+  "mn-02-036": {
+    "examples": [
+      {
+        "id": "mn-02-036-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "これは[[{何|なん}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Đây là cái gì?"
+      }
+    ]
+  },
+  "mn-02-037": {
+    "examples": [
+      {
+        "id": "mn-02-037-e1",
+        "max_lesson": 2,
+        "review": "user",
+        "ruby": "「これはミラーさんの{傘|かさ}ですか。」「はい、[[そう]]です。」",
+        "source": "ai-draft",
+        "vi": "\"Đây là ô của anh Miller phải không?\" \"Vâng, đúng vậy.\""
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "phó từ そう, không có kanji",
+      "status": "reviewed"
+    }
+  }
+}

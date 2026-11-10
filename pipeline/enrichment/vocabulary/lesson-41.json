@@ -1,0 +1,572 @@
+{
+  "mn-41-001": {
+    "examples": [
+      {
+        "id": "mn-41-001-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{先生|せんせい}に{本|ほん}を[[いただきました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nhận được sách từ thầy."
+      }
+    ],
+    "meaning_source": "user",
+    "meaning_vi": "nhận (khiêm nhường ngữ của もらいます)",
+    "pos_code": "V1",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "thiếu khoảng trắng",
+      "pos_by": "user",
+      "pos_note": "いただきます (nhận) là động từ khiêm nhường của もらいます, không phải thán từ",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-002": {
+    "examples": [
+      {
+        "id": "mn-41-002-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{社長|しゃちょう}がお{土産|みやげ}を[[くださいました]]。",
+        "source": "ai-draft",
+        "vi": "Giám đốc đã tặng tôi quà."
+      }
+    ]
+  },
+  "mn-41-003": {
+    "examples": [
+      {
+        "id": "mn-41-003-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}{犬|いぬ}に{餌|えさ}を[[やります]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi cho chó ăn."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "やる thường viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-004": {
+    "examples": [
+      {
+        "id": "mn-41-004-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{来月|らいげつ}から{値段|ねだん}を[[{上|あ}げます]]。",
+        "source": "ai-draft",
+        "vi": "Từ tháng sau sẽ tăng giá."
+      }
+    ]
+  },
+  "mn-41-005": {
+    "examples": [
+      {
+        "id": "mn-41-005-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{暖房|だんぼう}の{温度|おんど}を[[{下|さ}げて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy giảm nhiệt độ máy sưởi xuống."
+      }
+    ]
+  },
+  "mn-41-006": {
+    "examples": [
+      {
+        "id": "mn-41-006-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{皆|みんな}に[[{親切|しんせつ}にして]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy đối xử thân thiện với mọi người."
+      }
+    ]
+  },
+  "mn-41-007": {
+    "examples": [
+      {
+        "id": "mn-41-007-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[{可愛|かわい}い]]{犬|いぬ}ですね。",
+        "source": "ai-draft",
+        "vi": "Con chó đáng yêu quá nhỉ."
+      }
+    ],
+    "han_viet": "KHẢ ÁI",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-008": {
+    "examples": [
+      {
+        "id": "mn-41-008-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "これは[[{珍|めずら}しい]]{切手|きって}です。",
+        "source": "ai-draft",
+        "vi": "Đây là con tem hiếm."
+      }
+    ]
+  },
+  "mn-41-009": {
+    "examples": [
+      {
+        "id": "mn-41-009-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{結婚|けっこん}の[[お{祝|いわ}い]]に{時計|とけい}を{上|あ}げました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã tặng đồng hồ làm quà mừng đám cưới."
+      }
+    ]
+  },
+  "mn-41-010": {
+    "examples": [
+      {
+        "id": "mn-41-010-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{正月|しょうがつ}に{祖母|そぼ}から[[お{年玉|としだま}]]を{貰|もら}いました。",
+        "source": "ai-draft",
+        "vi": "Tết tôi đã nhận được tiền mừng tuổi từ bà."
+      }
+    ]
+  },
+  "mn-41-011": {
+    "examples": [
+      {
+        "id": "mn-41-011-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{友達|ともだち}のお[[{見舞|みま}い]]に{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đi thăm bạn ốm."
+      }
+    ]
+  },
+  "mn-41-012": {
+    "examples": [
+      {
+        "id": "mn-41-012-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{日本|にほん}の{文化|ぶんか}に[[{興味|きょうみ}]]があります。",
+        "source": "ai-draft",
+        "vi": "Tôi quan tâm đến văn hóa Nhật."
+      }
+    ]
+  },
+  "mn-41-013": {
+    "examples": [
+      {
+        "id": "mn-41-013-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "インターネットで[[{情報|じょうほう}]]を{調|しら}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi tìm thông tin trên Internet."
+      }
+    ]
+  },
+  "mn-41-014": {
+    "examples": [
+      {
+        "id": "mn-41-014-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "この[[{文法|ぶんぽう}]]を{説明|せつめい}していただけませんか。",
+        "source": "ai-draft",
+        "vi": "Bạn có thể giải thích ngữ pháp này cho tôi được không?"
+      }
+    ]
+  },
+  "mn-41-015": {
+    "examples": [
+      {
+        "id": "mn-41-015-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{先生|せんせい}に[[{発音|はつおん}]]を{直|なお}していただきました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã được thầy sửa phát âm cho."
+      }
+    ]
+  },
+  "mn-41-016": {
+    "examples": [
+      {
+        "id": "mn-41-016-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[{猿|さる}]]に{餌|えさ}をやらないでください。",
+        "source": "ai-draft",
+        "vi": "Đừng cho khỉ ăn."
+      }
+    ]
+  },
+  "mn-41-017": {
+    "examples": [
+      {
+        "id": "mn-41-017-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{猫|ねこ}に[[{餌|えさ}]]をやりました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cho mèo ăn."
+      }
+    ],
+    "han_viet": "NHĨ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-018": {
+    "examples": [
+      {
+        "id": "mn-41-018-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{子|こ}どもに[[{玩具|おもちゃ}]]を{買|か}ってやりました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua đồ chơi cho con."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-019": {
+    "examples": [
+      {
+        "id": "mn-41-019-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{娘|むすめ}に[[{絵本|えほん}]]を{読|よ}んでやりました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đọc truyện tranh cho con gái."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-020": {
+    "examples": [
+      {
+        "id": "mn-41-020-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{旅行|りょこう}{先|さき}から[[{絵|え}はがき]]を{送|おく}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã gửi bưu ảnh từ nơi du lịch."
+      }
+    ]
+  },
+  "mn-41-021": {
+    "examples": [
+      {
+        "id": "mn-41-021-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{子|こ}どもに[[ドライバー]]の{使|つか}い{方|かた}を{教|おし}えてやりました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã dạy con cách dùng tua vít."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ドライバー: PN→N (JMdict: danh từ thông dụng (driver (of a vehicle); motorist))",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-022": {
+    "examples": [
+      {
+        "id": "mn-41-022-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{母|はは}に[[ハンカチ]]をいただきました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nhận được khăn tay từ mẹ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ハンカチ: PN→N (JMdict: danh từ thông dụng (handkerchief))",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-023": {
+    "examples": [
+      {
+        "id": "mn-41-023-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[{靴下|くつした}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua tất."
+      }
+    ]
+  },
+  "mn-41-024": {
+    "examples": [
+      {
+        "id": "mn-41-024-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{寒|さむ}いので[[{手袋|てぶくろ}]]をしています。",
+        "source": "ai-draft",
+        "vi": "Trời lạnh nên tôi đeo găng tay."
+      }
+    ]
+  },
+  "mn-41-025": {
+    "examples": [
+      {
+        "id": "mn-41-025-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{娘|むすめ}は[[{幼稚園|ようちえん}]]に{通|かよ}っています。",
+        "source": "ai-draft",
+        "vi": "Con gái tôi đang học mẫu giáo."
+      }
+    ]
+  },
+  "mn-41-026": {
+    "examples": [
+      {
+        "id": "mn-41-026-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{寒|さむ}いので[[{暖房|だんぼう}]]を{入|い}れました。",
+        "source": "ai-draft",
+        "vi": "Trời lạnh nên tôi đã bật lò sưởi."
+      }
+    ]
+  },
+  "mn-41-027": {
+    "examples": [
+      {
+        "id": "mn-41-027-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{暑|あつ}いので[[{冷房|れいぼう}]]を{入|い}れてください。",
+        "source": "ai-draft",
+        "vi": "Trời nóng nên hãy bật điều hòa."
+      }
+    ]
+  },
+  "mn-41-028": {
+    "examples": [
+      {
+        "id": "mn-41-028-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{部屋|へや}の[[{温度|おんど}]]を{調|しら}べてください。",
+        "source": "ai-draft",
+        "vi": "Hãy kiểm tra nhiệt độ phòng."
+      }
+    ]
+  },
+  "mn-41-029": {
+    "examples": [
+      {
+        "id": "mn-41-029-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[{祖父|そふ}]]は８０{歳|さい}です。",
+        "source": "ai-draft",
+        "vi": "Ông tôi 80 tuổi."
+      }
+    ]
+  },
+  "mn-41-030": {
+    "examples": [
+      {
+        "id": "mn-41-030-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[{祖母|そぼ}]]に{手紙|てがみ}を{書|か}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã viết thư cho bà."
+      }
+    ]
+  },
+  "mn-41-031": {
+    "examples": [
+      {
+        "id": "mn-41-031-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[{孫|まご}]]に{玩具|おもちゃ}を{買|か}ってやりました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua đồ chơi cho cháu."
+      }
+    ]
+  },
+  "mn-41-032": {
+    "examples": [
+      {
+        "id": "mn-41-032-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[お{孫|まご}さん]]はおいくつですか。",
+        "source": "ai-draft",
+        "vi": "Cháu của ông bà bao nhiêu tuổi ạ?"
+      }
+    ]
+  },
+  "mn-41-033": {
+    "examples": [
+      {
+        "id": "mn-41-033-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[おじ]]は{医者|いしゃ}です。",
+        "source": "ai-draft",
+        "vi": "Chú tôi là bác sĩ."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "伯父/叔父 tùy vai vế; giữ kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-034": {
+    "examples": [
+      {
+        "id": "mn-41-034-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[おじさん]]はお{元気|げんき}ですか。",
+        "source": "ai-draft",
+        "vi": "Chú của bạn có khỏe không?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "伯父/叔父 tùy vai vế; giữ kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-035": {
+    "examples": [
+      {
+        "id": "mn-41-035-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[おば]]に{手袋|てぶくろ}を{貰|もら}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nhận găng tay từ cô."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "伯母/叔母 tùy vai vế; giữ kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-036": {
+    "examples": [
+      {
+        "id": "mn-41-036-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[おばさん]]が{料理|りょうり}を{作|つく}ってくださいました。",
+        "source": "ai-draft",
+        "vi": "Cô đã nấu ăn cho tôi."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "伯母/叔母 tùy vai vế; giữ kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-037": {
+    "examples": [
+      {
+        "id": "mn-41-037-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[{管理人|かんりにん}]]さんに{鍵|かぎ}を{借|か}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mượn chìa khóa của người quản lý."
+      }
+    ]
+  },
+  "mn-41-038": {
+    "examples": [
+      {
+        "id": "mn-41-038-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "{郵便屋|ゆうびんや}[[さん]]が{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Bác đưa thư đã đến."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "hậu tố",
+      "status": "reviewed"
+    }
+  },
+  "mn-41-039": {
+    "examples": [
+      {
+        "id": "mn-41-039-e1",
+        "max_lesson": 41,
+        "review": "user",
+        "ruby": "[[この{間|あいだ}]]はありがとうございました。",
+        "source": "ai-draft",
+        "vi": "Cảm ơn bạn về hôm trước."
+      }
+    ]
+  }
+}

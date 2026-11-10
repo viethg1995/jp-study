@@ -1,0 +1,634 @@
+{
+  "mn-32-001": {
+    "examples": [
+      {
+        "id": "mn-32-001-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{毎日|まいにち}[[{運動|うんどう}した]]ほうがいいですよ。",
+        "source": "ai-draft",
+        "vi": "Mỗi ngày nên vận động thì tốt hơn."
+      }
+    ]
+  },
+  "mn-32-002": {
+    "examples": [
+      {
+        "id": "mn-32-002-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{彼|かれ}はきっと[[{成功|せいこう}する]]でしょう。",
+        "source": "ai-draft",
+        "vi": "Anh ấy chắc chắn sẽ thành công."
+      }
+    ]
+  },
+  "mn-32-003": {
+    "examples": [
+      {
+        "id": "mn-32-003-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{試験|しけん}に[[{失敗|しっぱい}する]]かもしれません。",
+        "source": "ai-draft",
+        "vi": "Có lẽ tôi sẽ thi trượt."
+      }
+    ]
+  },
+  "mn-32-004": {
+    "examples": [
+      {
+        "id": "mn-32-004-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{彼|かれ}は{試験|しけん}に[[{合格|ごうかく}する]]でしょう。",
+        "source": "ai-draft",
+        "vi": "Có lẽ anh ấy sẽ đỗ kỳ thi."
+      }
+    ]
+  },
+  "mn-32-005": {
+    "examples": [
+      {
+        "id": "mn-32-005-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{雨|あめ}は{直|す}ぐ[[{止|や}む]]でしょう。",
+        "source": "ai-draft",
+        "vi": "Có lẽ mưa sẽ tạnh ngay."
+      }
+    ],
+    "han_viet": "CHỈ",
+    "han_viet_source": "user",
+    "kanji": "止みます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "tạnh mưa",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-006": {
+    "examples": [
+      {
+        "id": "mn-32-006-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{明日|あした}は[[{晴|は}れる]]でしょう。",
+        "source": "ai-draft",
+        "vi": "Ngày mai có lẽ trời sẽ nắng."
+      }
+    ]
+  },
+  "mn-32-007": {
+    "examples": [
+      {
+        "id": "mn-32-007-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{午後|ごご}から[[{曇|くも}る]]でしょう。",
+        "source": "ai-draft",
+        "vi": "Từ chiều có lẽ trời sẽ có mây."
+      }
+    ]
+  },
+  "mn-32-008": {
+    "examples": [
+      {
+        "id": "mn-32-008-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{熱|ねつ}が[[{続|つづ}いて]]います。",
+        "source": "ai-draft",
+        "vi": "Cơn sốt vẫn kéo dài."
+      }
+    ]
+  },
+  "mn-32-009": {
+    "examples": [
+      {
+        "id": "mn-32-009-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{風邪|かぜ}を[[{引|ひ}いた]]かもしれません。",
+        "source": "ai-draft",
+        "vi": "Có lẽ tôi đã bị cảm."
+      }
+    ],
+    "han_viet": "DẪN",
+    "han_viet_source": "user",
+    "kanji": "引きます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "bị cảm",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-010": {
+    "examples": [
+      {
+        "id": "mn-32-010-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "ビールを[[{冷|ひ}やして]]おきます。",
+        "source": "ai-draft",
+        "vi": "Tôi để bia vào cho lạnh."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ひやします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-011": {
+    "examples": [
+      {
+        "id": "mn-32-011-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{道|みち}が[[{込|こ}んで]]います。",
+        "source": "ai-draft",
+        "vi": "Đường đang đông."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "review": {
+      "by": "user",
+      "note": "込 là quốc tự, không có âm Hán-Việt",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-012": {
+    "examples": [
+      {
+        "id": "mn-32-012-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{道|みち}が[[{空|す}いて]]います。",
+        "source": "ai-draft",
+        "vi": "Đường đang vắng."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-013": {
+    "examples": [
+      {
+        "id": "mn-32-013-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{試合|しあい}に[[{出|で}た]]ほうがいいです。",
+        "source": "ai-draft",
+        "vi": "Bạn nên tham gia trận đấu."
+      }
+    ],
+    "meaning_source": "user",
+    "meaning_vi": "tham gia [trận đấu]; dự [tiệc]",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "gốc: tham gia [trận đấu]dự [tiệc]",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-014": {
+    "examples": [
+      {
+        "id": "mn-32-014-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{無理|むり}をしない]]ほうがいいですよ。",
+        "source": "ai-draft",
+        "vi": "Bạn không nên gắng sức quá."
+      }
+    ]
+  },
+  "mn-32-015": {
+    "examples": [
+      {
+        "id": "mn-32-015-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{時間|じかん}は[[{十分|じゅうぶん}]]あります。",
+        "source": "ai-draft",
+        "vi": "Có đủ thời gian."
+      }
+    ]
+  },
+  "mn-32-016": {
+    "examples": [
+      {
+        "id": "mn-32-016-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{体|からだ}の{調子|ちょうし}が[[おかしい]]んです。",
+        "source": "ai-draft",
+        "vi": "Tình trạng cơ thể tôi có vấn đề."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "可笑しい ít dùng; viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-017": {
+    "examples": [
+      {
+        "id": "mn-32-017-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{隣|となり}の{部屋|へや}が[[{煩|うるさ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Phòng bên cạnh ồn ào."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-018": {
+    "examples": [
+      {
+        "id": "mn-32-018-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{先生|せんせい}]]、{熱|ねつ}があるんです。",
+        "source": "ai-draft",
+        "vi": "Thưa bác sĩ, tôi bị sốt."
+      }
+    ]
+  },
+  "mn-32-019": {
+    "examples": [
+      {
+        "id": "mn-32-019-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{手|て}に[[{火傷|やけど}]]をしました。",
+        "source": "ai-draft",
+        "vi": "Tôi bị bỏng tay."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-020": {
+    "examples": [
+      {
+        "id": "mn-32-020-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{足|あし}に[[{怪我|けが}]]をしました。",
+        "source": "ai-draft",
+        "vi": "Tôi bị thương ở chân."
+      }
+    ],
+    "han_viet": "QUÁI NGÃ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-021": {
+    "examples": [
+      {
+        "id": "mn-32-021-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{咳|せき}]]が{出|で}ます。",
+        "source": "ai-draft",
+        "vi": "Tôi bị ho."
+      }
+    ],
+    "han_viet": "KHÁI",
+    "han_viet_source": "user",
+    "kanji": "咳",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "ho",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-022": {
+    "examples": [
+      {
+        "id": "mn-32-022-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[インフルエンザ]]かもしれません。",
+        "source": "ai-draft",
+        "vi": "Có lẽ tôi bị cúm."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "インフルエンザ: PN→N (JMdict: danh từ thông dụng (influenza; flu))",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-023": {
+    "examples": [
+      {
+        "id": "mn-32-023-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{空|そら}]]が{青|あお}いです。",
+        "source": "ai-draft",
+        "vi": "Bầu trời xanh."
+      }
+    ]
+  },
+  "mn-32-024": {
+    "examples": [
+      {
+        "id": "mn-32-024-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{太陽|たいよう}]]は{東|ひがし}から{出|で}ます。",
+        "source": "ai-draft",
+        "vi": "Mặt trời mọc ở hướng đông."
+      }
+    ]
+  },
+  "mn-32-025": {
+    "examples": [
+      {
+        "id": "mn-32-025-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{今夜|こんや}は[[{星|ほし}]]が{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Đêm nay sao đẹp."
+      }
+    ]
+  },
+  "mn-32-026": {
+    "examples": [
+      {
+        "id": "mn-32-026-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{風|かぜ}]]が{強|つよ}いです。",
+        "source": "ai-draft",
+        "vi": "Hôm nay gió mạnh."
+      }
+    ]
+  },
+  "mn-32-027": {
+    "examples": [
+      {
+        "id": "mn-32-027-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{東|ひがし}]]の{空|そら}が{明|あか}るくなりました。",
+        "source": "ai-draft",
+        "vi": "Bầu trời phía đông đã sáng lên."
+      }
+    ]
+  },
+  "mn-32-028": {
+    "examples": [
+      {
+        "id": "mn-32-028-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{太陽|たいよう}は[[{西|にし}]]に{沈|しず}みます。",
+        "source": "ai-draft",
+        "vi": "Mặt trời lặn ở hướng tây."
+      }
+    ]
+  },
+  "mn-32-029": {
+    "examples": [
+      {
+        "id": "mn-32-029-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{南|みなみ}]]の{島|しま}へ{行|い}きたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn đi đến hòn đảo phía nam."
+      }
+    ]
+  },
+  "mn-32-030": {
+    "examples": [
+      {
+        "id": "mn-32-030-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{北|きた}]]は{寒|さむ}いでしょう。",
+        "source": "ai-draft",
+        "vi": "Phía bắc chắc lạnh."
+      }
+    ]
+  },
+  "mn-32-031": {
+    "examples": [
+      {
+        "id": "mn-32-031-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{国際|こくさい}]]{電話|でんわ}をかけたほうがいいですよ。",
+        "source": "ai-draft",
+        "vi": "Bạn nên gọi điện thoại quốc tế."
+      }
+    ],
+    "pos_code": "Pre",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "こくさい～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-032": {
+    "examples": [
+      {
+        "id": "mn-32-032-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{水道|すいどう}]]の{水|みず}を{飲|の}んでもいいですか。",
+        "source": "ai-draft",
+        "vi": "Có thể uống nước máy không?"
+      }
+    ]
+  },
+  "mn-32-033": {
+    "examples": [
+      {
+        "id": "mn-32-033-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{車|くるま}の[[エンジン]]がおかしいんです。",
+        "source": "ai-draft",
+        "vi": "Động cơ ô tô có vấn đề."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "エンジン: PN→N (JMdict: danh từ thông dụng (engine))",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-034": {
+    "examples": [
+      {
+        "id": "mn-32-034-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{私|わたし}たちの[[チーム]]はきっと{勝|か}つでしょう。",
+        "source": "ai-draft",
+        "vi": "Đội của chúng ta chắc chắn sẽ thắng."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "チーム: PN→N (JMdict: danh từ thông dụng (team))",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-035": {
+    "examples": [
+      {
+        "id": "mn-32-035-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{今夜|こんや}]]は{雪|ゆき}が{降|ふ}るかもしれません。",
+        "source": "ai-draft",
+        "vi": "Đêm nay có thể tuyết rơi."
+      }
+    ]
+  },
+  "mn-32-036": {
+    "examples": [
+      {
+        "id": "mn-32-036-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[{夕方|ゆうがた}]]から{雨|あめ}が{降|ふ}るでしょう。",
+        "source": "ai-draft",
+        "vi": "Từ chiều tối có lẽ trời sẽ mưa."
+      }
+    ]
+  },
+  "mn-32-037": {
+    "examples": [
+      {
+        "id": "mn-32-037-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "３{年|ねん}[[{前|まえ}]]に{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đến Nhật 3 năm trước."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-038": {
+    "examples": [
+      {
+        "id": "mn-32-038-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "{夜|よる}[[{遅|おそ}く]]まで{勉強|べんきょう}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã học đến khuya."
+      }
+    ]
+  },
+  "mn-32-039": {
+    "examples": [
+      {
+        "id": "mn-32-039-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[こんなに]]{難|むずか}しいとは{思|おも}いませんでした。",
+        "source": "ai-draft",
+        "vi": "Tôi không nghĩ là khó như thế này."
+      }
+    ]
+  },
+  "mn-32-040": {
+    "examples": [
+      {
+        "id": "mn-32-040-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[そんなに]]{心配|しんぱい}しないでください。",
+        "source": "ai-draft",
+        "vi": "Đừng lo lắng như thế."
+      }
+    ],
+    "pos_code": "Adv",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "そんなに là trạng từ, nguồn ghi N",
+      "status": "reviewed"
+    }
+  },
+  "mn-32-041": {
+    "examples": [
+      {
+        "id": "mn-32-041-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[あんなに]]{高|たか}い{山|やま}に{登|のぼ}りたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn leo ngọn núi cao như thế kia."
+      }
+    ]
+  },
+  "mn-32-042": {
+    "examples": [
+      {
+        "id": "mn-32-042-e1",
+        "max_lesson": 32,
+        "review": "user",
+        "ruby": "[[ヨーロッパ]]へ{旅行|りょこう}したいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn đi du lịch châu Âu."
+      }
+    ],
+    "kana": "ヨーロッパ",
+    "review": {
+      "by": "user",
+      "kana_by": "user",
+      "kana_note": "nguồn ghi thiếu trường âm: ヨロッパ",
+      "status": "reviewed"
+    }
+  }
+}

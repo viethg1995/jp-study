@@ -1,0 +1,326 @@
+[
+  {
+    "id": "lesson21_1",
+    "jp": "おもいます",
+    "kanji": "思います",
+    "kanji_vn": "TƯ",
+    "vn": "nghĩ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson21_2",
+    "jp": "いいます",
+    "kanji": "言います",
+    "kanji_vn": "NGÔN",
+    "vn": "nói",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson21_3",
+    "jp": "かちます",
+    "kanji": "勝ちます",
+    "kanji_vn": "THẮNG",
+    "vn": "thắng",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson21_4",
+    "jp": "まけます",
+    "kanji": "負けます",
+    "kanji_vn": "PHỤ",
+    "vn": "thua",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson21_5",
+    "jp": "あります",
+    "kanji": "あります",
+    "kanji_vn": "TẾ",
+    "vn": "được tổ chức, diễn ra, có [lễ hội~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson21_6",
+    "jp": "やくにたちます",
+    "kanji": "役に立ちます",
+    "kanji_vn": "DỊCH LẬP",
+    "vn": "giúp ích",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson21_7",
+    "jp": "うごきます",
+    "kanji": "動きます",
+    "kanji_vn": null,
+    "vn": "chuyển động, chạy",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson21_8",
+    "jp": "やめます",
+    "kanji": null,
+    "kanji_vn": "HỘI XÃ",
+    "vn": "bỏ, thôi [việc công ty]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson21_9",
+    "jp": "きをつけます",
+    "kanji": "気をつけます",
+    "kanji_vn": "KHÍ",
+    "vn": "chú ý, bảo trọng",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson21_10",
+    "jp": "りゅうがくします",
+    "kanji": "留学します",
+    "kanji_vn": "LƯU HỌC",
+    "vn": "du học",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson21_11",
+    "jp": "むだ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "lãng phí, vô ích",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson21_12",
+    "jp": "ふべん",
+    "kanji": "不便",
+    "kanji_vn": "BẤT TIỆN",
+    "vn": "bất tiện",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson21_13",
+    "jp": "すごい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ghê quá, giỏi quá",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson21_14",
+    "jp": "ほんとう",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sự thật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_15",
+    "jp": "うそ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "giả dối, nói dối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_16",
+    "jp": "じどうしゃ",
+    "kanji": "自動車",
+    "kanji_vn": "TỰ ĐỘNG XA",
+    "vn": "ô tô, xe hơi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_17",
+    "jp": "こうつう",
+    "kanji": "交通",
+    "kanji_vn": "GIAO THÔNG",
+    "vn": "giao thông",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_18",
+    "jp": "ぶっか",
+    "kanji": "物価",
+    "kanji_vn": "VẬT GIÁ",
+    "vn": "giá cả, mức giá, vật giá",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_19",
+    "jp": "ほうそう",
+    "kanji": "放送",
+    "kanji_vn": "PHÓNG TỐNG",
+    "vn": "phát, phát thanh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_20",
+    "jp": "ニュース",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tin tức, bản tin",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson21_21",
+    "jp": "アニメ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phim hoạt hình ( Nhật Bản)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson21_22",
+    "jp": "マンガ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "truyện tranh",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson21_23",
+    "jp": "デザイン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thiết kế",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson21_24",
+    "jp": "ゆめ",
+    "kanji": "夢",
+    "kanji_vn": "MỘNG",
+    "vn": "giấc mơ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_25",
+    "jp": "てんさい",
+    "kanji": "天才",
+    "kanji_vn": "THIÊN TÀI",
+    "vn": "thiên tài",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_26",
+    "jp": "しあい",
+    "kanji": "試合",
+    "kanji_vn": "THÍ HỢP",
+    "vn": "trận đấu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_27",
+    "jp": "いけん",
+    "kanji": "意見",
+    "kanji_vn": "Ý KIẾN",
+    "vn": "ý kiến",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_28",
+    "jp": "はなし",
+    "kanji": "話",
+    "kanji_vn": "THOẠI",
+    "vn": "câu chuyện, bài nói chuyện (～をします: Nói chuyện)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_29",
+    "jp": "ちきゅう",
+    "kanji": "地球",
+    "kanji_vn": "ĐỊA CẦU",
+    "vn": "trái đất",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_30",
+    "jp": "つき",
+    "kanji": "月",
+    "kanji_vn": "NGUYỆT",
+    "vn": "mặt trăng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_31",
+    "jp": "さいきん",
+    "kanji": "最近",
+    "kanji_vn": "TỐI CẬN",
+    "vn": "gần đây",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson21_32",
+    "jp": "たぶん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chắc, có thể",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson21_33",
+    "jp": "きっと",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chắc chắn, nhất định",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson21_34",
+    "jp": "ほんとうに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thật sự",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_35",
+    "jp": "そんなに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "(không)~ lắm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson21_36",
+    "jp": "～について",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "về~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  }
+]

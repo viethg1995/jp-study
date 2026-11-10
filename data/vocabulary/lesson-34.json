@@ -1,0 +1,1277 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-001-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{毎晩|まいばん}{歯|は}を[[{磨|みが}いて]]から{寝|ね}ます。",
+          "source": "ai-draft",
+          "vi": "Tối nào tôi cũng đánh răng rồi mới ngủ."
+        }
+      ],
+      "han_viet": "MA",
+      "id": "mn-34-001",
+      "kana": "みがきます",
+      "kanji": "磨きます",
+      "kanji_refs": [
+        "k-磨"
+      ],
+      "legacy_id": "lesson34_1",
+      "lesson": 34,
+      "meaning_vi": "mài, đánh [răng]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "răng",
+          "text": "mài, đánh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-002-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{説明書|せつめいしょ}のとおりに、{机|つくえ}を[[{組|く}み{立|た}てて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy lắp ráp cái bàn theo đúng sách hướng dẫn."
+        }
+      ],
+      "han_viet": "TỔ LẬP",
+      "id": "mn-34-002",
+      "kana": "くみたてます",
+      "kanji": "組み立てます",
+      "kanji_refs": [
+        "k-組",
+        "k-立"
+      ],
+      "legacy_id": "lesson34_2",
+      "lesson": 34,
+      "meaning_vi": "lắp, lắp ráp, lắp đặt",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lắp, lắp ráp, lắp đặt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-003-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{紙|かみ}を{半分|はんぶん}に[[{折|お}って]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy gấp tờ giấy làm đôi."
+        }
+      ],
+      "han_viet": "TRIẾT",
+      "id": "mn-34-003",
+      "kana": "おります",
+      "kanji": "折ります",
+      "kanji_refs": [
+        "k-折"
+      ],
+      "legacy_id": "lesson34_3",
+      "lesson": 34,
+      "meaning_vi": "gấp, gập, bẻ gãy",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "gấp, gập, bẻ gãy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-004-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{電車|でんしゃ}を{降|お}りたあとで、{傘|かさ}がないのに[[{気|き}がつきました]]。",
+          "source": "ai-draft",
+          "vi": "Sau khi xuống tàu, tôi nhận ra là không có ô."
+        }
+      ],
+      "han_viet": "KHÍ",
+      "id": "mn-34-004",
+      "kana": "きがつきます",
+      "kanji": "気がつきます",
+      "kanji_refs": [
+        "k-気"
+      ],
+      "legacy_id": "lesson34_4",
+      "lesson": 34,
+      "meaning_vi": "nhận thấy, phát hiện [đồ bỏ quên]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "đồ bỏ quên",
+          "text": "nhận thấy, phát hiện"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-005-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{醤油|しょうゆ}を[[{付|つ}けて]]{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi chấm xì dầu rồi ăn."
+        }
+      ],
+      "han_viet": "PHÓ",
+      "id": "mn-34-005",
+      "kana": "つけます",
+      "kanji": "付けます",
+      "kanji_refs": [
+        "k-付"
+      ],
+      "legacy_id": "lesson34_5",
+      "lesson": 34,
+      "meaning_vi": "chấm [xì-dầu]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-35-004"
+      ],
+      "senses": [
+        {
+          "context": "xì-dầu",
+          "text": "chấm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-006-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{鍵|かぎ}が[[{見|み}つかりました]]。",
+          "source": "ai-draft",
+          "vi": "Đã tìm thấy chìa khóa."
+        }
+      ],
+      "han_viet": "KIẾN",
+      "id": "mn-34-006",
+      "kana": "みつかります",
+      "kanji": "見つかります",
+      "kanji_refs": [
+        "k-見"
+      ],
+      "legacy_id": "lesson34_6",
+      "lesson": 34,
+      "meaning_vi": "được tìm thấy [chìa khóa ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "chìa khóa ～",
+          "text": "được tìm thấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-007-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{分|わ}からない{時|とき}は、{先生|せんせい}に[[{質問|しつもん}して]]ください。",
+          "source": "ai-draft",
+          "vi": "Khi không hiểu hãy hỏi giáo viên."
+        }
+      ],
+      "han_viet": "CHẤT VẤN",
+      "id": "mn-34-007",
+      "kana": "しつもんします",
+      "kanji": "質問します",
+      "kanji_refs": [
+        "k-質",
+        "k-問"
+      ],
+      "legacy_id": "lesson34_7",
+      "lesson": 34,
+      "meaning_vi": "hỏi",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hỏi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-008-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{傘|かさ}を[[さして]]{歩|ある}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi che ô đi bộ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-34-008",
+      "kana": "さします",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson34_8",
+      "lesson": 34,
+      "meaning_vi": "che [ô]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "ô",
+          "text": "che"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-009-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{毎週|まいしゅう}[[スポーツクラブ]]で{泳|およ}いでいます。",
+          "source": "ai-draft",
+          "vi": "Hàng tuần tôi bơi ở câu lạc bộ thể thao."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-34-009",
+      "kana": "スポーツクラブ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson34_9",
+      "lesson": 34,
+      "meaning_vi": "câu lạc bộ thể thao, câu lạc bộ thể hình",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "câu lạc bộ thể thao, câu lạc bộ thể hình"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-010-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "あの[[{城|しろ}]]は{古|ふる}いです。",
+          "source": "ai-draft",
+          "vi": "Tòa thành kia cổ."
+        }
+      ],
+      "han_viet": "THÀNH",
+      "id": "mn-34-010",
+      "kana": "しろ",
+      "kanji": "城",
+      "kanji_refs": [
+        "k-城"
+      ],
+      "legacy_id": "lesson34_10",
+      "lesson": 34,
+      "meaning_vi": "thành",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thành"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-011-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{説明書|せつめいしょ}]]を{読|よ}んだあとで、{使|つか}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy đọc sách hướng dẫn rồi mới dùng."
+        }
+      ],
+      "han_viet": "THUYẾT MINH THƯ",
+      "id": "mn-34-011",
+      "kana": "せつめいしょ",
+      "kanji": "説明書",
+      "kanji_refs": [
+        "k-説",
+        "k-明",
+        "k-書"
+      ],
+      "legacy_id": "lesson34_11",
+      "lesson": 34,
+      "meaning_vi": "quyển hướng dẫn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quyển hướng dẫn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-012-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "この[[{図|ず}]]を{見|み}てください。",
+          "source": "ai-draft",
+          "vi": "Hãy xem hình vẽ này."
+        }
+      ],
+      "han_viet": "ĐỒ",
+      "id": "mn-34-012",
+      "kana": "ず",
+      "kanji": "図",
+      "kanji_refs": [
+        "k-図"
+      ],
+      "legacy_id": "lesson34_12",
+      "lesson": 34,
+      "meaning_vi": "sơ đồ, hình vẽ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sơ đồ, hình vẽ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-013-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "この[[{線|せん}]]の{上|うえ}に{名前|なまえ}を{書|か}いてください。",
+          "source": "ai-draft",
+          "vi": "Hãy viết tên lên trên đường kẻ này."
+        }
+      ],
+      "han_viet": "TUYẾN",
+      "id": "mn-34-013",
+      "kana": "せん",
+      "kanji": "線",
+      "kanji_refs": [
+        "k-線"
+      ],
+      "legacy_id": "lesson34_13",
+      "lesson": 34,
+      "meaning_vi": "đường",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đường"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-014-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{矢印|やじるし}]]のとおりに{行|い}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy đi theo dấu mũi tên."
+        }
+      ],
+      "han_viet": "THỈ ẤN",
+      "id": "mn-34-014",
+      "kana": "やじるし",
+      "kanji": "矢印",
+      "kanji_refs": [
+        "k-矢",
+        "k-印"
+      ],
+      "legacy_id": "lesson34_14",
+      "lesson": 34,
+      "meaning_vi": "dấu mũi tên",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dấu mũi tên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-015-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{黒|くろ}]]のボールペンで{書|か}いてください。",
+          "source": "ai-draft",
+          "vi": "Hãy viết bằng bút bi màu đen."
+        }
+      ],
+      "han_viet": "HẮC",
+      "id": "mn-34-015",
+      "kana": "くろ",
+      "kanji": "黒",
+      "kanji_refs": [
+        "k-黒"
+      ],
+      "legacy_id": "lesson34_15",
+      "lesson": 34,
+      "meaning_vi": "màu đen",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "màu đen"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-016-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{白|しろ}]]のシャツを{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua áo sơ mi màu trắng."
+        }
+      ],
+      "han_viet": "BẠCH",
+      "id": "mn-34-016",
+      "kana": "しろ",
+      "kanji": "白",
+      "kanji_refs": [
+        "k-白"
+      ],
+      "legacy_id": "lesson34_16",
+      "lesson": 34,
+      "meaning_vi": "màu trắng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "màu trắng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-017-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{赤|あか}]]のペンで{直|なお}してください。",
+          "source": "ai-draft",
+          "vi": "Hãy sửa bằng bút màu đỏ."
+        }
+      ],
+      "han_viet": "XÍCH",
+      "id": "mn-34-017",
+      "kana": "あか",
+      "kanji": "赤",
+      "kanji_refs": [
+        "k-赤"
+      ],
+      "legacy_id": "lesson34_17",
+      "lesson": 34,
+      "meaning_vi": "màu đỏ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "màu đỏ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-018-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{青|あお}]]のボタンを{押|お}してください。",
+          "source": "ai-draft",
+          "vi": "Hãy bấm nút màu xanh."
+        }
+      ],
+      "han_viet": "THANH",
+      "id": "mn-34-018",
+      "kana": "あお",
+      "kanji": "青",
+      "kanji_refs": [
+        "k-青"
+      ],
+      "legacy_id": "lesson34_18",
+      "lesson": 34,
+      "meaning_vi": "màu xanh da trời",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "màu xanh da trời"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-019-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{紺|こん}]]のスーツを{着|き}て{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi mặc bộ vest màu xanh lam đi."
+        }
+      ],
+      "han_viet": "CÁM",
+      "id": "mn-34-019",
+      "kana": "こん",
+      "kanji": "紺",
+      "kanji_refs": [
+        "k-紺"
+      ],
+      "legacy_id": "lesson34_19",
+      "lesson": 34,
+      "meaning_vi": "màu xanh lam",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "màu xanh lam"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-020-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{黄色|きいろ}]]の{花|はな}が{咲|さ}いています。",
+          "source": "ai-draft",
+          "vi": "Hoa màu vàng đang nở."
+        }
+      ],
+      "han_viet": "HOÀNG SẮC",
+      "id": "mn-34-020",
+      "kana": "きいろ",
+      "kanji": "黄色",
+      "kanji_refs": [
+        "k-黄",
+        "k-色"
+      ],
+      "legacy_id": "lesson34_20",
+      "lesson": 34,
+      "meaning_vi": "màu vàng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "màu vàng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-021-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{茶色|ちゃいろ}]]の{靴|くつ}を{履|は}いて{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi đôi giày màu nâu."
+        }
+      ],
+      "han_viet": "TRÀ SẮC",
+      "id": "mn-34-021",
+      "kana": "ちゃいろ",
+      "kanji": "茶色",
+      "kanji_refs": [
+        "k-茶",
+        "k-色"
+      ],
+      "legacy_id": "lesson34_21",
+      "lesson": 34,
+      "meaning_vi": "màu nâu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "màu nâu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-022-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{刺身|さしみ}に[[{醤油|しょうゆ}]]を{付|つ}けて{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi chấm xì dầu với sashimi rồi ăn."
+        }
+      ],
+      "han_viet": "TƯƠNG DU",
+      "id": "mn-34-022",
+      "kana": "しょうゆ",
+      "kanji": "醤油",
+      "kanji_refs": [
+        "k-醤",
+        "k-油"
+      ],
+      "legacy_id": "lesson34_22",
+      "lesson": 34,
+      "meaning_vi": "xì dầu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xì dầu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-023-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "{肉|にく}に[[ソース]]を{付|つ}けて{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi chấm nước sốt với thịt rồi ăn."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-34-023",
+      "kana": "ソース",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson34_23",
+      "lesson": 34,
+      "meaning_vi": "nước chấm, nước xốt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nước chấm, nước xốt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-34-024-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[お{客|きゃく}]]さんが{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Khách đã đến."
+        }
+      ],
+      "han_viet": "KHÁCH",
+      "id": "mn-34-024",
+      "kana": "おきゃく",
+      "kanji": "お客",
+      "kanji_refs": [
+        "k-客"
+      ],
+      "legacy_id": "lesson34_24",
+      "lesson": 34,
+      "meaning_vi": "vị [khách]",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "khách",
+          "text": "vị"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-025-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "コーヒー[[か]]{紅茶|こうちゃ}を{選|えら}んでください。",
+          "source": "ai-draft",
+          "vi": "Hãy chọn cà phê hoặc trà."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-34-025",
+      "kana": "～か～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson34_25",
+      "lesson": 34,
+      "meaning_vi": "～hay ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～hay ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-026-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[{昨夜|ゆうべ}]]{遅|おそ}くまでテレビを{見|み}ました。",
+          "source": "ai-draft",
+          "vi": "Tối qua tôi xem tivi đến khuya."
+        }
+      ],
+      "han_viet": "TẠC DẠ",
+      "id": "mn-34-026",
+      "kana": "ゆうべ",
+      "kanji": "昨夜",
+      "kanji_refs": [
+        "k-昨",
+        "k-夜"
+      ],
+      "legacy_id": "lesson34_26",
+      "lesson": 34,
+      "meaning_vi": "tối qua, đêm qua",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tối qua, đêm qua"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-34-027-e1",
+          "max_lesson": 34,
+          "review": "user",
+          "ruby": "[[さっき]]{電話|でんわ}がありました。",
+          "source": "ai-draft",
+          "vi": "Vừa nãy có điện thoại."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-34-027",
+      "kana": "さっき",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson34_27",
+      "lesson": 34,
+      "meaning_vi": "vừa rồi, vừa lúc nãy",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vừa rồi, vừa lúc nãy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 34,
+  "schema_version": 4
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "lesson48_1",
+    "jp": "おろします",
+    "kanji": "降ろします,下ろします",
+    "kanji_vn": "GIÁNG, HẠ",
+    "vn": "cho xuống, hạ xuống",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson48_2",
+    "jp": "とどけます",
+    "kanji": "届けます",
+    "kanji_vn": "GIỚI",
+    "vn": "gởi đến, chuyển đến",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson48_3",
+    "jp": "せわをします",
+    "kanji": "世話をします",
+    "kanji_vn": "THẾ THOẠI",
+    "vn": "chăm sóc",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson48_4",
+    "jp": "ろくおんします",
+    "kanji": "録音します",
+    "kanji_vn": "LỤC ÂM",
+    "vn": "ghi âm",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson48_5",
+    "jp": "いや",
+    "kanji": "嫌",
+    "kanji_vn": "HIỀM",
+    "vn": "ngán, không thích",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson48_6",
+    "jp": "じゅく",
+    "kanji": "塾",
+    "kanji_vn": "THỤC",
+    "vn": "cơ sở học thêm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson48_7",
+    "jp": "せいと",
+    "kanji": "生徒",
+    "kanji_vn": "SINH ĐỒ",
+    "vn": "học sinh, học trò",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson48_8",
+    "jp": "ファイル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "kẹp tài liệu, file tài liệu",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson48_9",
+    "jp": "じゆうに",
+    "kanji": "自由に",
+    "kanji_vn": "TỰ DO",
+    "vn": "tự do",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson48_10",
+    "jp": "～かん",
+    "kanji": "～間",
+    "kanji_vn": "GIAN",
+    "vn": "trong ~ (dùng để chỉ khoảng thời gian)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson48_11",
+    "jp": "いいことですね。",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Hay nhỉ./ Được đấy nhỉ.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  }
+]

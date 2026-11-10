@@ -1,0 +1,604 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BAO",
+    "han_viet_source": "source",
+    "id": "mn-37-001",
+    "kanji": "褒めます",
+    "kanji_refs": [
+      "k-褒"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_1",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "SỨT",
+    "han_viet_source": "unihan",
+    "id": "mn-37-002",
+    "kanji": "叱ります",
+    "kanji_gloss": "to scold; to chide",
+    "kanji_refs": [
+      "k-叱"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson37_2",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DỤ",
+    "han_viet_source": "source",
+    "id": "mn-37-003",
+    "kanji": "誘います",
+    "kanji_refs": [
+      "k-誘"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_3",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHIÊU ĐÃI",
+    "han_viet_source": "source",
+    "id": "mn-37-004",
+    "kanji": "招待します",
+    "kanji_refs": [
+      "k-招",
+      "k-待"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_4",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LẠI",
+    "han_viet_source": "source",
+    "id": "mn-37-005",
+    "kanji": "頼みます",
+    "kanji_refs": [
+      "k-頼"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_5",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHÚ Ý",
+    "han_viet_source": "source",
+    "id": "mn-37-006",
+    "kanji": "注意します",
+    "kanji_refs": [
+      "k-注",
+      "k-意"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_6",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-007",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to take (a photograph)",
+        "kanji": "撮ります"
+      },
+      {
+        "gloss": "to take; to pick up",
+        "kanji": "取ります"
+      },
+      {
+        "gloss": "to catch (a wild animal, fish, insect, baseball, etc.); to capture",
+        "kanji": "捕ります"
+      },
+      {
+        "gloss": "to adopt (a method, proposal, etc.); to take (a measure, course of action, etc.)",
+        "kanji": "採ります"
+      },
+      {
+        "gloss": "to take (trouble); to attend (to business)",
+        "kanji": "執ります"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_7",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẠP",
+    "han_viet_source": "source",
+    "id": "mn-37-008",
+    "kanji": "踏みます",
+    "kanji_refs": [
+      "k-踏"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_8",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "HOẠI",
+    "han_viet_source": "source",
+    "id": "mn-37-009",
+    "kanji": "壊します",
+    "kanji_refs": [
+      "k-壊"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_9",
+    "lesson": 37,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "Ô",
+    "han_viet_source": "source",
+    "id": "mn-37-010",
+    "kanji": "汚します",
+    "kanji_refs": [
+      "k-汚"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_10",
+    "lesson": 37,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀNH",
+    "han_viet_source": "source",
+    "id": "mn-37-011",
+    "kanji": "行います",
+    "kanji_refs": [
+      "k-行"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_11",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THÂU XUẤT",
+    "han_viet_source": "source",
+    "id": "mn-37-012",
+    "kanji": "輸出します",
+    "kanji_refs": [
+      "k-輸",
+      "k-出"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_12",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THÂU NHẬP",
+    "han_viet_source": "source",
+    "id": "mn-37-013",
+    "kanji": "輸入します",
+    "kanji_refs": [
+      "k-輸",
+      "k-入"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_13",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHIÊN DỊCH",
+    "han_viet_source": "source",
+    "id": "mn-37-014",
+    "kanji": "翻訳します",
+    "kanji_refs": [
+      "k-翻",
+      "k-訳"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_14",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÁT MINH",
+    "han_viet_source": "source",
+    "id": "mn-37-015",
+    "kanji": "発明します",
+    "kanji_refs": [
+      "k-発",
+      "k-明"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_15",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÁT KIẾN",
+    "han_viet_source": "source",
+    "id": "mn-37-016",
+    "kanji": "発見します",
+    "kanji_refs": [
+      "k-発",
+      "k-見"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_16",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỄ",
+    "han_viet_source": "source",
+    "id": "mn-37-017",
+    "kanji": "米",
+    "kanji_refs": [
+      "k-米"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_17",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MẠCH",
+    "han_viet_source": "source",
+    "id": "mn-37-018",
+    "kanji": "麦",
+    "kanji_refs": [
+      "k-麦"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_18",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẠCH DU",
+    "han_viet_source": "source",
+    "id": "mn-37-019",
+    "kanji": "石油",
+    "kanji_refs": [
+      "k-石",
+      "k-油"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_19",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGUYÊN LIỆU",
+    "han_viet_source": "source",
+    "id": "mn-37-020",
+    "kanji": "原料",
+    "kanji_refs": [
+      "k-原",
+      "k-料"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_20",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-021",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_21",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_22",
+    "lesson": 37,
+    "pos_reason": "JMdict: danh từ thông dụng (date (with someone); (social) outing (for two))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NÊ BỔNG",
+    "han_viet_source": "source",
+    "id": "mn-37-023",
+    "kanji": "泥棒",
+    "kanji_refs": [
+      "k-泥",
+      "k-棒"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_23",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CẢNH QUAN",
+    "han_viet_source": "source",
+    "id": "mn-37-024",
+    "kanji": "警官",
+    "kanji_refs": [
+      "k-警",
+      "k-官"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_24",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẾ GIỚI TRUNG",
+    "han_viet_source": "source",
+    "id": "mn-37-025",
+    "kanji": "世界中",
+    "kanji_refs": [
+      "k-世",
+      "k-界",
+      "k-中"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_25",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRUNG",
+    "han_viet_source": "source",
+    "id": "mn-37-026",
+    "kanji": "～中",
+    "kanji_refs": [
+      "k-中"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_26",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẾ KỶ",
+    "han_viet_source": "source",
+    "id": "mn-37-027",
+    "kanji": "―世紀",
+    "kanji_refs": [
+      "k-世",
+      "k-紀"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_27",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ NGỮ",
+    "han_viet_source": "source",
+    "id": "mn-37-028",
+    "kanji": "何語",
+    "kanji_refs": [
+      "k-何",
+      "k-語"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_28",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "誰": []
+    },
+    "han_viet_source": null,
+    "id": "mn-37-029",
+    "kanji": "誰か",
+    "kanji_gloss": "someone; somebody",
+    "kanji_refs": [
+      "k-誰"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson37_29",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-030",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_30",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-031",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_31",
+    "lesson": 37,
+    "pos_reason": "JMdict: danh từ thông dụng (Olympics; Olympic Games)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-032",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_32",
+    "lesson": 37,
+    "pos_reason": "JMdict: danh từ thông dụng (World Cup (e.g. soccer))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐÔNG ĐẠI TỰ",
+    "han_viet_source": "source",
+    "id": "mn-37-033",
+    "kanji": "東大寺",
+    "kanji_refs": [
+      "k-東",
+      "k-大",
+      "k-寺"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_33",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẠI PHẬT",
+    "han_viet_source": "source",
+    "id": "mn-37-034",
+    "kanji": "大仏",
+    "kanji_refs": [
+      "k-大",
+      "k-仏"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_34",
+    "lesson": 37
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIANG HỘ THỜI ĐẠI",
+    "han_viet_source": "source",
+    "id": "mn-37-035",
+    "kanji": "江戸時代",
+    "kanji_refs": [
+      "k-江",
+      "k-戸",
+      "k-時",
+      "k-代"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson37_35",
+    "lesson": 37
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-036",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_36",
+    "lesson": 37,
+    "pos_reason": "JMdict: danh từ thông dụng (Portugal)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-037",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_37",
+    "lesson": 37,
+    "pos_reason": "JMdict: danh từ thông dụng (Saudi Arabia)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-37-038",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson37_38",
+    "lesson": 37,
+    "pos_reason": "JMdict: danh từ thông dụng (Russia)",
+    "pos_suggested": "N"
+  }
+]

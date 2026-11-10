@@ -1,0 +1,765 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-24-001-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{友達|ともだち}が{私|わたし}に{本|ほん}を[[くれました]]。",
+          "source": "ai-draft",
+          "vi": "Bạn tôi đã tặng tôi một quyển sách."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-24-001",
+      "kana": "くれます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson24_1",
+      "lesson": 24,
+      "meaning_vi": "cho, tặng (tôi)",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cho, tặng (tôi)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-002-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{父|ちち}が{自転車|じてんしゃ}を[[{直|なお}して]]くれました。",
+          "source": "ai-draft",
+          "vi": "Bố đã sửa xe đạp cho tôi."
+        }
+      ],
+      "han_viet": "TRỰC",
+      "id": "mn-24-002",
+      "kana": "なおします",
+      "kanji": "直します",
+      "kanji_refs": [
+        "k-直"
+      ],
+      "legacy_id": "lesson24_2",
+      "lesson": 24,
+      "meaning_vi": "chữa, sửa",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chữa, sửa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-003-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{子|こ}どもを{公園|こうえん}へ[[{連|つ}れて{行|い}きます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi dẫn con đi công viên."
+        }
+      ],
+      "han_viet": "LIÊN HÀNH",
+      "id": "mn-24-003",
+      "kana": "つれていきます",
+      "kanji": "連れて行きます",
+      "kanji_refs": [
+        "k-連",
+        "k-行"
+      ],
+      "legacy_id": "lesson24_3",
+      "lesson": 24,
+      "meaning_vi": "dẫn đi",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dẫn đi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-004-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{友達|ともだち}を{家|うち}へ[[{連|つ}れて{来|き}ました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã dẫn bạn đến nhà."
+        }
+      ],
+      "han_viet": "LIÊN LAI",
+      "id": "mn-24-004",
+      "kana": "つれてきます",
+      "kanji": "連れて来ます",
+      "kanji_refs": [
+        "k-連",
+        "k-来"
+      ],
+      "legacy_id": "lesson24_4",
+      "lesson": 24,
+      "meaning_vi": "dẫn đến",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dẫn đến"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-005-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{駅|えき}まで{友達|ともだち}を[[{送|おく}りました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã tiễn bạn đến nhà ga."
+        }
+      ],
+      "han_viet": "TỐNG",
+      "id": "mn-24-005",
+      "kana": "おくります",
+      "kanji": "送ります",
+      "kanji_refs": [
+        "k-送"
+      ],
+      "legacy_id": "lesson24_5",
+      "lesson": 24,
+      "meaning_vi": "đưa đi, đưa đến, tiễn [một ai đó]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-07-002"
+      ],
+      "senses": [
+        {
+          "context": "một ai đó",
+          "text": "đưa đi, đưa đến, tiễn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-006-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{友達|ともだち}を{家族|かぞく}に[[{紹介|しょうかい}しました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã giới thiệu bạn với gia đình."
+        }
+      ],
+      "han_viet": "THIỆU GIỚI",
+      "id": "mn-24-006",
+      "kana": "しょうかいします",
+      "kanji": "紹介します",
+      "kanji_refs": [
+        "k-紹",
+        "k-介"
+      ],
+      "legacy_id": "lesson24_6",
+      "lesson": 24,
+      "meaning_vi": "giới thiệu",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giới thiệu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-007-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{友達|ともだち}に{京都|きょうと}を[[{案内|あんない}して]]{上|あ}げました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã dẫn bạn đi tham quan Kyoto."
+        }
+      ],
+      "han_viet": "ÁN NỘI",
+      "id": "mn-24-007",
+      "kana": "あんないします",
+      "kanji": "案内します",
+      "kanji_refs": [
+        "k-案",
+        "k-内"
+      ],
+      "legacy_id": "lesson24_7",
+      "lesson": 24,
+      "meaning_vi": "hướng dẫn, giới thiệu, dẫn đường",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hướng dẫn, giới thiệu, dẫn đường"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-008-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{先生|せんせい}が{使|つか}い{方|かた}を[[{説明|せつめい}して]]くれました。",
+          "source": "ai-draft",
+          "vi": "Thầy giáo đã giải thích cách dùng cho tôi."
+        }
+      ],
+      "han_viet": "THUYẾT MINH",
+      "id": "mn-24-008",
+      "kana": "せつめいします",
+      "kanji": "説明します",
+      "kanji_refs": [
+        "k-説",
+        "k-明"
+      ],
+      "legacy_id": "lesson24_8",
+      "lesson": 24,
+      "meaning_vi": "giải thích, trình bày",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giải thích, trình bày"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-24-009-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "[[おじいさん]]に{手紙|てがみ}を{書|か}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã viết thư cho ông."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-24-009",
+      "kana": "おじいさん／ おじいちゃん",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson24_9",
+      "lesson": 24,
+      "meaning_vi": "ông nội, ông ngoại, ông",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ông nội, ông ngoại, ông"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-24-010-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "[[おばあさん]]が{料理|りょうり}を{作|つく}ってくれました。",
+          "source": "ai-draft",
+          "vi": "Bà đã nấu ăn cho tôi."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-24-010",
+      "kana": "おばあさん／ おばあちゃん",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson24_10",
+      "lesson": 24,
+      "meaning_vi": "bà nội, bà ngoại, bà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bà nội, bà ngoại, bà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-011-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{旅行|りょこう}の[[{準備|じゅんび}]]をしました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã chuẩn bị cho chuyến du lịch."
+        }
+      ],
+      "han_viet": "CHUẨN BỊ",
+      "id": "mn-24-011",
+      "kana": "じゅんび",
+      "kanji": "準備",
+      "kanji_refs": [
+        "k-準",
+        "k-備"
+      ],
+      "legacy_id": "lesson24_11",
+      "lesson": 24,
+      "meaning_vi": "chuẩn bị [～します:chuẩn bị]",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-038"
+      ],
+      "senses": [
+        {
+          "context": "～します:chuẩn bị",
+          "text": "chuẩn bị"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-012-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{友達|ともだち}が[[{引|ひ}っ{越|こ}し]]を{手伝|てつだ}ってくれました。",
+          "source": "ai-draft",
+          "vi": "Bạn đã giúp tôi chuyển nhà."
+        }
+      ],
+      "han_viet": "DẪN VIỆT",
+      "id": "mn-24-012",
+      "kana": "ひっこし",
+      "kanji": "引っ越し",
+      "kanji_refs": [
+        "k-引",
+        "k-越"
+      ],
+      "legacy_id": "lesson24_12",
+      "lesson": 24,
+      "meaning_vi": "sự chuyển nhà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sự chuyển nhà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-013-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{友達|ともだち}にお[[{菓子|かし}]]を{上|あ}げました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã cho bạn bánh kẹo."
+        }
+      ],
+      "han_viet": "QUẢ TỬ",
+      "id": "mn-24-013",
+      "kana": "かし",
+      "kanji": "菓子",
+      "kanji_refs": [
+        "k-菓",
+        "k-子"
+      ],
+      "legacy_id": "lesson24_13",
+      "lesson": 24,
+      "meaning_vi": "bánh kẹo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bánh kẹo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-24-014-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "{日本人|にほんじん}の{家|うち}で[[ホームステイ]]をしました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã ở homestay tại nhà người Nhật."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-24-014",
+      "kana": "ホームステイ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson24_14",
+      "lesson": 24,
+      "meaning_vi": "homestay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "homestay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-015-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "[[{全部|ぜんぶ}]]{食|た}べました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã ăn hết."
+        }
+      ],
+      "han_viet": "TOÀN BỘ",
+      "id": "mn-24-015",
+      "kana": "ぜんぶ",
+      "kanji": "全部",
+      "kanji_refs": [
+        "k-全",
+        "k-部"
+      ],
+      "legacy_id": "lesson24_15",
+      "lesson": 24,
+      "meaning_vi": "toàn bộ, tất cả",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "toàn bộ, tất cả"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-24-016-e1",
+          "max_lesson": 24,
+          "review": "user",
+          "ruby": "[[{自分|じぶん}で]]{料理|りょうり}を{作|つく}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi tự nấu ăn."
+        }
+      ],
+      "han_viet": "TỰ PHÂN",
+      "id": "mn-24-016",
+      "kana": "じぶんで",
+      "kanji": "自分で",
+      "kanji_refs": [
+        "k-自",
+        "k-分"
+      ],
+      "legacy_id": "lesson24_16",
+      "lesson": 24,
+      "meaning_vi": "tự (mình)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tự (mình)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 24,
+  "schema_version": 4
+}

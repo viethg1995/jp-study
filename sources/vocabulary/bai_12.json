@@ -1,0 +1,398 @@
+[
+  {
+    "id": "lesson12_1",
+    "jp": "かんたん",
+    "kanji": "簡単",
+    "kanji_vn": "GIẢN ĐƠN",
+    "vn": "đơn giản, dễ",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson12_2",
+    "jp": "ちかい",
+    "kanji": "近い",
+    "kanji_vn": "CẬN",
+    "vn": "gần",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_3",
+    "jp": "とおい",
+    "kanji": "遠い",
+    "kanji_vn": "VIỄN",
+    "vn": "xa",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_4",
+    "jp": "はやい",
+    "kanji": "速い, 早い",
+    "kanji_vn": "TỐC、TẢO",
+    "vn": "nhanh, sớm",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_5",
+    "jp": "おそい",
+    "kanji": "遅い",
+    "kanji_vn": "TRÌ",
+    "vn": "chậm, muộn",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_6",
+    "jp": "おおい",
+    "kanji": "多い",
+    "kanji_vn": "NHÂN ĐA",
+    "vn": "nhiều [người]",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_7",
+    "jp": "すくない",
+    "kanji": "少ない",
+    "kanji_vn": "NHÂN, THIỂU/THIẾU",
+    "vn": "ít [người]",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_8",
+    "jp": "あたたかい",
+    "kanji": "温かい,暖かい",
+    "kanji_vn": "ÔN、NOÃN",
+    "vn": "ấm",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_9",
+    "jp": "すずしい",
+    "kanji": "涼しい",
+    "kanji_vn": "LƯƠNG",
+    "vn": "mát",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_10",
+    "jp": "あまい",
+    "kanji": "甘い",
+    "kanji_vn": "CAM",
+    "vn": "ngọt",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_11",
+    "jp": "からい",
+    "kanji": "辛い",
+    "kanji_vn": "TÂN",
+    "vn": "cay",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_12",
+    "jp": "おもい",
+    "kanji": "重い",
+    "kanji_vn": "TRỌNG",
+    "vn": "nặng",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_13",
+    "jp": "かるい",
+    "kanji": "軽い",
+    "kanji_vn": "KHINH",
+    "vn": "nhẹ",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_14",
+    "jp": "いい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thích, chọn, dùng [cafe]",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson12_15",
+    "jp": "きせつ",
+    "kanji": "季節",
+    "kanji_vn": "QUÝ TIẾT",
+    "vn": "mùa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_16",
+    "jp": "はる",
+    "kanji": "春",
+    "kanji_vn": "XUÂN",
+    "vn": "mùa xuân",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_17",
+    "jp": "なつ",
+    "kanji": "夏",
+    "kanji_vn": "HẠ",
+    "vn": "mùa hè",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_18",
+    "jp": "あき",
+    "kanji": "秋",
+    "kanji_vn": "THU",
+    "vn": "mùa thu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_19",
+    "jp": "ふゆ",
+    "kanji": "冬",
+    "kanji_vn": "ĐÔNG",
+    "vn": "mùa đông",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_20",
+    "jp": "てんき",
+    "kanji": "天気",
+    "kanji_vn": "THIÊN KHÍ",
+    "vn": "thời tiết",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_21",
+    "jp": "あめ",
+    "kanji": "雨",
+    "kanji_vn": "VŨ",
+    "vn": "mưa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_22",
+    "jp": "ゆき",
+    "kanji": "雪",
+    "kanji_vn": "TUYẾT",
+    "vn": "tuyết",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_23",
+    "jp": "くもり",
+    "kanji": "曇り",
+    "kanji_vn": "ĐÀM",
+    "vn": "có mây",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_24",
+    "jp": "ホテル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khách sạn",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson12_25",
+    "jp": "くうこう",
+    "kanji": "空港",
+    "kanji_vn": "KHÔNG CẢNG",
+    "vn": "sân bay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_26",
+    "jp": "うみ",
+    "kanji": "海",
+    "kanji_vn": "HẢI",
+    "vn": "biển, đại dương",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_27",
+    "jp": "せかい",
+    "kanji": "世界",
+    "kanji_vn": "THẾ GIỚI",
+    "vn": "thế giới",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_28",
+    "jp": "パーティー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tiệc (~をします：tổ chức tiệc)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson12_29",
+    "jp": "まつり",
+    "kanji": "祭り",
+    "kanji_vn": "TẾ",
+    "vn": "lễ hội",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_30",
+    "jp": "すきやき",
+    "kanji": "すき焼き",
+    "kanji_vn": "THIÊU",
+    "vn": "Sukiyaki (món thịt bò nấu rau)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_31",
+    "jp": "さしみ",
+    "kanji": "刺身",
+    "kanji_vn": "THÍCH THÂN",
+    "vn": "Sashimi (món gỏi cá sống)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_32",
+    "jp": "すし",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Sushi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_33",
+    "jp": "てんぷら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Tempura (món hải sản và rau chiên tẩm bột)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_34",
+    "jp": "ぶたにく",
+    "kanji": "豚肉",
+    "kanji_vn": "ĐỒN NHỤC",
+    "vn": "thịt heo, thịt lợn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_35",
+    "jp": "とりにく",
+    "kanji": "とり肉",
+    "kanji_vn": "NHỤC",
+    "vn": "thịt gà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_36",
+    "jp": "ぎゅうにく",
+    "kanji": "牛肉",
+    "kanji_vn": "NGƯU NHỤC",
+    "vn": "thịt bò",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_37",
+    "jp": "レモン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chanh tây",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson12_38",
+    "jp": "いけばな",
+    "kanji": "生け花",
+    "kanji_vn": "SINH HOA",
+    "vn": "Nghệ thuật cắm hoa (～をします：cắm hoa)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_39",
+    "jp": "もみじ",
+    "kanji": "紅葉",
+    "kanji_vn": "HỒNG DIỆP",
+    "vn": "lá đỏ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_40",
+    "jp": "どちら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái nào",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson12_41",
+    "jp": "どちらも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cả hai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson12_42",
+    "jp": "いちばん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhất",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson12_43",
+    "jp": "ずっと",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "(hơn) hẳn , suốt",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson12_44",
+    "jp": "はじめて",
+    "kanji": "初めて",
+    "kanji_vn": "SƠ",
+    "vn": "lần đầu tiên",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  }
+]

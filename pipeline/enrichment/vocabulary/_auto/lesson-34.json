@@ -1,0 +1,451 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "MÀI",
+    "han_viet_original": "MAXỈ",
+    "han_viet_source": "unihan",
+    "id": "mn-34-001",
+    "kanji": "磨きます",
+    "kanji_refs": [
+      "k-磨"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_1",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỔ LẬP",
+    "han_viet_source": "source",
+    "id": "mn-34-002",
+    "kanji": "組み立てます",
+    "kanji_refs": [
+      "k-組",
+      "k-立"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_2",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "TRIẾT",
+    "han_viet_source": "source",
+    "id": "mn-34-003",
+    "kanji": "折ります",
+    "kanji_refs": [
+      "k-折"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_3",
+    "lesson": 34,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "KHÍ",
+    "han_viet_original": "KHÍVONG VẬT",
+    "han_viet_source": "derived",
+    "id": "mn-34-004",
+    "kanji": "気がつきます",
+    "kanji_refs": [
+      "k-気"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_4",
+    "lesson": 34
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-34-005",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to soak (in); to steep",
+        "kanji": "漬けます"
+      },
+      {
+        "gloss": "to attach; to join",
+        "kanji": "付けます"
+      },
+      {
+        "gloss": "to turn on; to switch on",
+        "kanji": "点けます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson34_5",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "KIẾN",
+    "han_viet_source": "source",
+    "id": "mn-34-006",
+    "kanji": "見つかります",
+    "kanji_refs": [
+      "k-見"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_6",
+    "lesson": 34,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHẤT VẤN",
+    "han_viet_source": "source",
+    "id": "mn-34-007",
+    "kanji": "質問します",
+    "kanji_refs": [
+      "k-質",
+      "k-問"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_7",
+    "lesson": 34
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-34-008",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson34_8",
+    "lesson": 34,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-34-009",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson34_9",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THÀNH",
+    "han_viet_source": "source",
+    "id": "mn-34-010",
+    "kanji": "城",
+    "kanji_refs": [
+      "k-城"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_10",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THUYẾT MINH THƯ",
+    "han_viet_source": "source",
+    "id": "mn-34-011",
+    "kanji": "説明書",
+    "kanji_refs": [
+      "k-説",
+      "k-明",
+      "k-書"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_11",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỒ",
+    "han_viet_source": "source",
+    "id": "mn-34-012",
+    "kanji": "図",
+    "kanji_refs": [
+      "k-図"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_12",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TUYẾN",
+    "han_viet_source": "source",
+    "id": "mn-34-013",
+    "kanji": "線",
+    "kanji_refs": [
+      "k-線"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_13",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỈ ẤN",
+    "han_viet_source": "source",
+    "id": "mn-34-014",
+    "kanji": "矢印",
+    "kanji_refs": [
+      "k-矢",
+      "k-印"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_14",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HẮC",
+    "han_viet_source": "source",
+    "id": "mn-34-015",
+    "kanji": "黒",
+    "kanji_refs": [
+      "k-黒"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_15",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BẠCH",
+    "han_viet_source": "source",
+    "id": "mn-34-016",
+    "kanji": "白",
+    "kanji_refs": [
+      "k-白"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_16",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "XÍCH",
+    "han_viet_source": "source",
+    "id": "mn-34-017",
+    "kanji": "赤",
+    "kanji_refs": [
+      "k-赤"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_17",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THANH",
+    "han_viet_source": "source",
+    "id": "mn-34-018",
+    "kanji": "青",
+    "kanji_refs": [
+      "k-青"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_18",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CÁM",
+    "han_viet_source": "source",
+    "id": "mn-34-019",
+    "kanji": "紺",
+    "kanji_refs": [
+      "k-紺"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_19",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HOÀNG SẮC",
+    "han_viet_source": "source",
+    "id": "mn-34-020",
+    "kanji": "黄色",
+    "kanji_refs": [
+      "k-黄",
+      "k-色"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_20",
+    "lesson": 34
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRÀ SẮC",
+    "han_viet_source": "source",
+    "id": "mn-34-021",
+    "kanji": "茶色",
+    "kanji_refs": [
+      "k-茶",
+      "k-色"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_21",
+    "lesson": 34
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "醤": []
+    },
+    "han_viet_source": null,
+    "id": "mn-34-022",
+    "kanji": "醤油",
+    "kanji_gloss": "soy sauce; soya sauce",
+    "kanji_refs": [
+      "k-醤",
+      "k-油"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson34_22",
+    "lesson": 34
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-34-023",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson34_23",
+    "lesson": 34,
+    "pos_reason": "JMdict: danh từ thông dụng (sauce)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHÁCH",
+    "han_viet_source": "source",
+    "id": "mn-34-024",
+    "kanji": "お客",
+    "kanji_refs": [
+      "k-客"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson34_24",
+    "lesson": 34
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-34-025",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "acceptable; satisfactory",
+        "kanji": "可"
+      },
+      {
+        "gloss": "department (of a university or hospital)",
+        "kanji": "科"
+      },
+      {
+        "gloss": "lesson",
+        "kanji": "課"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson34_25",
+    "lesson": 34
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "昨": []
+    },
+    "han_viet_source": null,
+    "id": "mn-34-026",
+    "kanji": "昨夜",
+    "kanji_gloss": "last night; yesterday evening",
+    "kanji_refs": [
+      "k-昨",
+      "k-夜"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson34_26",
+    "lesson": 34
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "TIÊN",
+    "han_viet_source": "derived",
+    "id": "mn-34-027",
+    "kanji": "先",
+    "kanji_gloss": "a short while ago; a moment ago",
+    "kanji_refs": [
+      "k-先"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson34_27",
+    "lesson": 34
+  }
+]

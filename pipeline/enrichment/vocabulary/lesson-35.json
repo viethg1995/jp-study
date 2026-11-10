@@ -1,0 +1,668 @@
+{
+  "mn-35-001": {
+    "examples": [
+      {
+        "id": "mn-35-001-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{春|はる}になれば、{桜|さくら}が[[{咲|さ}きます]]。",
+        "source": "ai-draft",
+        "vi": "Đến mùa xuân thì hoa anh đào nở."
+      }
+    ],
+    "han_viet": "TIẾU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "咲 là dị thể của 笑",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-002": {
+    "examples": [
+      {
+        "id": "mn-35-002-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{秋|あき}になると、{葉|は}の{色|いろ}が[[{変|か}わります]]。",
+        "source": "ai-draft",
+        "vi": "Mùa thu đến thì màu lá thay đổi."
+      }
+    ]
+  },
+  "mn-35-003": {
+    "examples": [
+      {
+        "id": "mn-35-003-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{辞書|じしょ}がなくて[[{困|こま}って]]います。",
+        "source": "ai-draft",
+        "vi": "Không có từ điển nên tôi đang gặp khó khăn."
+      }
+    ]
+  },
+  "mn-35-004": {
+    "examples": [
+      {
+        "id": "mn-35-004-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{大切|たいせつ}な{日|ひ}に{印|しるし}を[[{付|つ}けます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đánh dấu vào những ngày quan trọng."
+      }
+    ]
+  },
+  "mn-35-005": {
+    "examples": [
+      {
+        "id": "mn-35-005-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{薬|くすり}を{飲|の}めば、{直|す}ぐ[[{治|なお}ります]]よ。",
+        "source": "ai-draft",
+        "vi": "Uống thuốc thì sẽ khỏi ngay đấy."
+      }
+    ],
+    "meaning_source": "user",
+    "meaning_vi": "khỏi [bệnh]; được sửa xong [hỏng hóc ～]",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "gốc: khỏi [bệnh]được sửa xong [hỏng hóc ~]",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-006": {
+    "examples": [
+      {
+        "id": "mn-35-006-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "ここを[[クリックすれば]]、{開|ひら}きます。",
+        "source": "ai-draft",
+        "vi": "Click vào đây thì sẽ mở ra."
+      }
+    ]
+  },
+  "mn-35-007": {
+    "examples": [
+      {
+        "id": "mn-35-007-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{名前|なまえ}を[[{入力|にゅうりょく}して]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy nhập tên vào."
+      }
+    ]
+  },
+  "mn-35-008": {
+    "examples": [
+      {
+        "id": "mn-35-008-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{正|ただ}しい]]{答|こた}えを{選|えら}んでください。",
+        "source": "ai-draft",
+        "vi": "Hãy chọn câu trả lời đúng."
+      }
+    ]
+  },
+  "mn-35-009": {
+    "examples": [
+      {
+        "id": "mn-35-009-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{向|む}こう]]に{島|しま}が{見|み}えます。",
+        "source": "ai-draft",
+        "vi": "Phía bên kia có thể nhìn thấy hòn đảo."
+      }
+    ]
+  },
+  "mn-35-010": {
+    "examples": [
+      {
+        "id": "mn-35-010-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "この[[{島|しま}]]は{景色|けしき}が{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Hòn đảo này phong cảnh đẹp."
+      }
+    ]
+  },
+  "mn-35-011": {
+    "examples": [
+      {
+        "id": "mn-35-011-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{港|みなと}]]に{船|ふね}が{止|と}まっています。",
+        "source": "ai-draft",
+        "vi": "Có thuyền đang đậu ở cảng."
+      }
+    ]
+  },
+  "mn-35-012": {
+    "examples": [
+      {
+        "id": "mn-35-012-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{近所|きんじょ}]]に{公園|こうえん}があります。",
+        "source": "ai-draft",
+        "vi": "Gần nhà có công viên."
+      }
+    ]
+  },
+  "mn-35-013": {
+    "examples": [
+      {
+        "id": "mn-35-013-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{屋上|おくじょう}]]から{富士山|ふじさん}が{見|み}えます。",
+        "source": "ai-draft",
+        "vi": "Từ trên sân thượng có thể nhìn thấy núi Phú Sĩ."
+      }
+    ]
+  },
+  "mn-35-014": {
+    "examples": [
+      {
+        "id": "mn-35-014-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{海外|かいがい}]]へ{旅行|りょこう}したいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn đi du lịch nước ngoài."
+      }
+    ]
+  },
+  "mn-35-015": {
+    "examples": [
+      {
+        "id": "mn-35-015-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{山登|やまのぼ}り]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích leo núi."
+      }
+    ]
+  },
+  "mn-35-016": {
+    "examples": [
+      {
+        "id": "mn-35-016-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{歴史|れきし}]]を{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học lịch sử Nhật Bản."
+      }
+    ]
+  },
+  "mn-35-017": {
+    "examples": [
+      {
+        "id": "mn-35-017-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{機会|きかい}]]があれば、{日本|にほん}へ{行|い}きたいです。",
+        "source": "ai-draft",
+        "vi": "Nếu có cơ hội, tôi muốn đi Nhật."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "きかい: PN→N (JMdict: danh từ thông dụng (strange; wonderful))",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-018": {
+    "examples": [
+      {
+        "id": "mn-35-018-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{許可|きょか}]]がなければ、{入|はい}ることができません。",
+        "source": "ai-draft",
+        "vi": "Nếu không có giấy phép thì không thể vào."
+      }
+    ]
+  },
+  "mn-35-019": {
+    "examples": [
+      {
+        "id": "mn-35-019-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{正|ただ}しい{答|こた}えに[[{丸|まる}]]を{付|つ}けてください。",
+        "source": "ai-draft",
+        "vi": "Hãy khoanh tròn vào câu trả lời đúng."
+      }
+    ]
+  },
+  "mn-35-020": {
+    "examples": [
+      {
+        "id": "mn-35-020-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{漢字|かんじ}に[[{振|ふ}り{仮名|がな}]]を{付|つ}けてください。",
+        "source": "ai-draft",
+        "vi": "Hãy thêm furigana cho chữ Hán."
+      }
+    ],
+    "han_viet": "CHẤN GIẢ DANH",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-021": {
+    "examples": [
+      {
+        "id": "mn-35-021-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "この{学校|がっこう}は[[{設備|せつび}]]がいいです。",
+        "source": "ai-draft",
+        "vi": "Trường này có thiết bị tốt."
+      }
+    ]
+  },
+  "mn-35-022": {
+    "examples": [
+      {
+        "id": "mn-35-022-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "この[[レバー]]を{引|ひ}けば、{水|みず}が{出|で}ます。",
+        "source": "ai-draft",
+        "vi": "Kéo cái cần gạt này thì nước sẽ chảy ra."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "レバー: PN→N (JMdict: danh từ thông dụng (liver))",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-023": {
+    "examples": [
+      {
+        "id": "mn-35-023-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "この[[キー]]を{押|お}せば、{電源|でんげん}が{入|はい}ります。",
+        "source": "ai-draft",
+        "vi": "Bấm phím này thì nguồn điện sẽ bật."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "キー: PN→N (JMdict: danh từ thông dụng (key (for a lock)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-024": {
+    "examples": [
+      {
+        "id": "mn-35-024-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[カーテン]]を{閉|し}めてください。",
+        "source": "ai-draft",
+        "vi": "Hãy kéo rèm lại."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "カーテン: PN→N (JMdict: danh từ thông dụng (curtain; curtains))",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-025": {
+    "examples": [
+      {
+        "id": "mn-35-025-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{紐|ひも}]]で{箱|はこ}を{結|むす}んでください。",
+        "source": "ai-draft",
+        "vi": "Hãy buộc hộp bằng dây."
+      }
+    ],
+    "han_viet": "NỮU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "紐 — Unihan cho âm Nôm NÉO",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-026": {
+    "examples": [
+      {
+        "id": "mn-35-026-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{炊飯器|すいはんき}]]でご{飯|はん}を{作|つく}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi nấu cơm bằng nồi cơm điện."
+      }
+    ]
+  },
+  "mn-35-027": {
+    "examples": [
+      {
+        "id": "mn-35-027-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{木|き}の[[{葉|は}]]が{赤|あか}くなりました。",
+        "source": "ai-draft",
+        "vi": "Lá cây đã chuyển màu đỏ."
+      }
+    ]
+  },
+  "mn-35-028": {
+    "examples": [
+      {
+        "id": "mn-35-028-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{昔|むかし}]]、ここは{海|うみ}でした。",
+        "source": "ai-draft",
+        "vi": "Ngày xưa, ở đây là biển."
+      }
+    ]
+  },
+  "mn-35-029": {
+    "examples": [
+      {
+        "id": "mn-35-029-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[もっと]]ゆっくり{話|はな}してください。",
+        "source": "ai-draft",
+        "vi": "Hãy nói chậm hơn nữa."
+      }
+    ]
+  },
+  "mn-35-030": {
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "これでおわりましょう。",
+    "kanji": "これで終わりましょう。",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-031": {
+    "examples": [
+      {
+        "id": "mn-35-031-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{箱根|はこね}]]へ{行|い}けば、{温泉|おんせん}に{入|はい}ることができます。",
+        "source": "ai-draft",
+        "vi": "Nếu đi Hakone thì có thể tắm suối nước nóng."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "はこね",
+    "kanji": "箱根",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-032": {
+    "examples": [
+      {
+        "id": "mn-35-032-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{日光|にっこう}]]へ{行|い}ったことがありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng đi Nikko chưa?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "にっこう",
+    "kanji": "日光",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-033": {
+    "examples": [
+      {
+        "id": "mn-35-033-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[アフリカ]]へ{行|い}ったことがありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng đi châu Phi chưa?"
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "アフリカ: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-034": {
+    "examples": [
+      {
+        "id": "mn-35-034-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "{京都|きょうと}の[[マンガミュージアム]]へ{行|い}けば、{古|ふる}いマンガが{読|よ}めます。",
+        "source": "ai-draft",
+        "vi": "Nếu đến bảo tàng truyện tranh Kyoto thì có thể đọc truyện tranh cũ."
+      }
+    ]
+  },
+  "mn-35-035": {
+    "examples": [
+      {
+        "id": "mn-35-035-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[みんなの{学校|がっこう}]]で{日本語|にほんご}を{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học tiếng Nhật ở trường Minna."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "みんなのがっこう",
+    "kanji": "みんなの学校",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "tên trường giả định",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-036": {
+    "examples": [
+      {
+        "id": "mn-35-036-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{大黒|だいこく}ずし]]の{寿司|すし}は{美味|おい}しいです。",
+        "source": "ai-draft",
+        "vi": "Sushi của quán Daikoku ngon."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "だいこくずし",
+    "kanji": "大黒ずし",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "tên quán giả định",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-037": {
+    "examples": [
+      {
+        "id": "mn-35-037-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[IMCパソコン{教室|きょうしつ}]]でパソコンを{習|なら}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học máy tính ở lớp IMC."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "IMCパソコンきょうしつ",
+    "kanji": "IMCパソコン教室",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "tên trường giả định",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-038": {
+    "examples": [
+      {
+        "id": "mn-35-038-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "「[[{母|はは}の{味|あじ}]]」という{本|ほん}を{読|よ}みました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đọc cuốn sách tên là \"Hương vị của mẹ\"."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "ははのあじ",
+    "kanji": "母の味",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "tên sách giả định",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-039": {
+    "examples": [
+      {
+        "id": "mn-35-039-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[はる]]で{髪|かみ}を{切|き}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cắt tóc ở tiệm Haru."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "tên tiệm giả định",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-040": {
+    "examples": [
+      {
+        "id": "mn-35-040-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{佐藤歯科|さとうしか}]]は{駅|えき}の{近|ちか}くにあります。",
+        "source": "ai-draft",
+        "vi": "Nha khoa Sato ở gần nhà ga."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "さとうしか",
+    "kanji": "佐藤歯科",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "tên phòng khám giả định",
+      "status": "reviewed"
+    }
+  },
+  "mn-35-041": {
+    "examples": [
+      {
+        "id": "mn-35-041-e1",
+        "max_lesson": 35,
+        "review": "user",
+        "ruby": "[[{毎日|まいにち}クッキング]]で{料理|りょうり}を{習|なら}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học nấu ăn ở trường Mainichi Cooking."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "まいにちクッキング",
+    "kanji": "毎日クッキング",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "tên trường giả định",
+      "status": "reviewed"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# by: user
+# Vòng 2 — mục mới phát sinh sau khi bổ sung type_code QP/Greet/Cnt và sửa lỗi scrape kanji_vn
+# id | kanji | han_viet | ghi chú      ("-" = không có/để trống, "=" = giữ giá trị _auto)
+01-018|=|THÙY|Unihan không có âm của 誰
+01-019|-|-|nghi vấn từ, viết kana (何方 ít dùng)
+03-008|-|-|nghi vấn từ, viết kana
+03-020|=|TỰ ĐỘNG PHIẾN MẠI CƠ|kanji_vn gốc dính chữ (ĐỘNGPHIẾN)
+05-050|-|-|いつ viết kana (何時 dễ nhầm なんじ)
+08-042|-|-|どう viết kana
+12-040|-|-|nghi vấn từ, viết kana
+16-002|=|GIÁNG|kanji_vn gốc dính âm của 電車
+16-041|-|-|nghi vấn từ, viết kana
+19-018|=|=|お陰様で — giữ, hiển thị kana
+28-005|=|THÔNG|kanji_vn gốc dính âm của 大学
+43-001|=|TĂNG|kanji_vn gốc dính âm của 輸出

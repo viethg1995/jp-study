@@ -1,0 +1,8 @@
+# by: user
+# Vòng 9 — sửa nghĩa, phát hiện qua `check-meanings` (đối chiếu JMdict) + rà từ trùng, 2026-11-10
+# id | nghĩa mới | ghi chú
+47-005|chia tay [người ～]|別れる = chia tay; nghĩa gốc "chia, chia nhỏ, chia ra" là của 分かれる (đồng âm)
+31-003|xin [nghỉ]|gõ sai: nghĩ → nghỉ
+18-016|trưởng phòng, tổ trưởng|課長 = section chief (trưởng phòng); giữ "tổ trưởng" theo bản dịch giáo trình
+20-005|cậu, bạn (cách gọi thân mật của あなた, dùng cho người ngang hàng hoặc ít tuổi hơn)|thiếu dấu phân cách sau あなた
+41-001|nhận (khiêm nhường ngữ của もらいます)|thiếu khoảng trắng

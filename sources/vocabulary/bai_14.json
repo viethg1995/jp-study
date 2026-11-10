@@ -1,0 +1,362 @@
+[
+  {
+    "id": "lesson14_1",
+    "jp": "つけます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bật (điện, máy điều hòa)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson14_2",
+    "jp": "けします",
+    "kanji": "消します",
+    "kanji_vn": "TIÊU",
+    "vn": "tắt (điện, máy điều hòa)",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson14_3",
+    "jp": "あけます",
+    "kanji": "開けます",
+    "kanji_vn": "KHAI",
+    "vn": "mở (cửa, cửa sổ)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson14_4",
+    "jp": "しめます",
+    "kanji": "閉めます",
+    "kanji_vn": "BẾ",
+    "vn": "đóng (cửa, cửa sổ)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson14_5",
+    "jp": "いそぎます",
+    "kanji": "急ぎます",
+    "kanji_vn": "CẤP",
+    "vn": "vội, gấp",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_6",
+    "jp": "まちます",
+    "kanji": "待ちます",
+    "kanji_vn": "ĐÃI",
+    "vn": "đợi, chờ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_7",
+    "jp": "もちます",
+    "kanji": "持ちます",
+    "kanji_vn": "TRÌ",
+    "vn": "mang, cầm",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_8",
+    "jp": "とります",
+    "kanji": "取ります",
+    "kanji_vn": "THỦ",
+    "vn": "lấy (muối)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_9",
+    "jp": "てつだいます",
+    "kanji": "手伝います",
+    "kanji_vn": "THỦ TRUYỀN",
+    "vn": "giúp (làm việc)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_10",
+    "jp": "よびます",
+    "kanji": "呼びます",
+    "kanji_vn": "HÔ",
+    "vn": "gọi (taxi, tên)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_11",
+    "jp": "はなします",
+    "kanji": "話します",
+    "kanji_vn": "THOẠI",
+    "vn": "nói, nói chuyện",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson14_12",
+    "jp": "つかいます",
+    "kanji": "使います",
+    "kanji_vn": "SỬ",
+    "vn": "dùng, sử dụng",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_13",
+    "jp": "とめます",
+    "kanji": "止めます",
+    "kanji_vn": "CHỈ",
+    "vn": "dừng, đỗ",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson14_14",
+    "jp": "みせます",
+    "kanji": "見せます",
+    "kanji_vn": "KIẾN",
+    "vn": "cho xem, trình",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson14_15",
+    "jp": "おしえます",
+    "kanji": "教えます",
+    "kanji_vn": "TRÚ SỞ GIÁO",
+    "vn": "nói, cho biết [địa chỉ]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson14_16",
+    "jp": "すわります",
+    "kanji": "座ります",
+    "kanji_vn": "TỌA",
+    "vn": "ngồi",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_17",
+    "jp": "たちます",
+    "kanji": "立ちます",
+    "kanji_vn": "LẬP",
+    "vn": "đứng",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_18",
+    "jp": "はいります",
+    "kanji": "入ります",
+    "kanji_vn": "NHẬPKHIẾT TRÀ ĐIẾM",
+    "vn": "vào [quán giải khát]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_19",
+    "jp": "でます",
+    "kanji": "出ます",
+    "kanji_vn": "XUẤTKHIẾT TRÀ ĐIẾM",
+    "vn": "ra, ra khỏi [quán giải khát]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson14_20",
+    "jp": "ふります",
+    "kanji": "降ります",
+    "kanji_vn": "GIÁNGVŨ",
+    "vn": "rơi [mưa~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson14_21",
+    "jp": "コピーします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "copy",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson14_22",
+    "jp": "でんき",
+    "kanji": "電気",
+    "kanji_vn": "ĐIỆN KHÍ",
+    "vn": "điện, đèn điện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_23",
+    "jp": "エアコン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "máy điều hòa",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson14_24",
+    "jp": "パスポート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hộ chiếu",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson14_25",
+    "jp": "なまえ",
+    "kanji": "名前",
+    "kanji_vn": "DANH TIỀN",
+    "vn": "tên",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_26",
+    "jp": "じゅうしょ",
+    "kanji": "住所",
+    "kanji_vn": "TRÚ SỞ",
+    "vn": "địa chỉ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_27",
+    "jp": "ちず",
+    "kanji": "地図",
+    "kanji_vn": "ĐỊA ĐỒ",
+    "vn": "bản đồ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_28",
+    "jp": "しお",
+    "kanji": "塩",
+    "kanji_vn": "DIÊM",
+    "vn": "muối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_29",
+    "jp": "さとう",
+    "kanji": "砂糖",
+    "kanji_vn": "SA ĐƯỜNG",
+    "vn": "đường",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_30",
+    "jp": "もんだい",
+    "kanji": "問題",
+    "kanji_vn": "VẤN ĐỀ",
+    "vn": "câu hỏi, vấn đề",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_31",
+    "jp": "こたえ",
+    "kanji": "答え",
+    "kanji_vn": "ĐÁP",
+    "vn": "câu trả lời",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_32",
+    "jp": "よみかた",
+    "kanji": "読み方",
+    "kanji_vn": "ĐỘC PHƯƠNG",
+    "vn": "cách đọc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_33",
+    "jp": "～かた",
+    "kanji": "～方",
+    "kanji_vn": "PHƯƠNG",
+    "vn": "cách ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson14_34",
+    "jp": "まっすぐ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thẳng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_35",
+    "jp": "ゆっくり",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chậm, thong thả, thoải mái",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson14_36",
+    "jp": "すぐ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ngay, lập tức",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson14_37",
+    "jp": "また",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "lại (~đến)",
+    "type": "Từ nối",
+    "type_code": "Conj"
+  },
+  {
+    "id": "lesson14_38",
+    "jp": "あとで",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sau",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson14_39",
+    "jp": "もう すこし",
+    "kanji": "もう少し",
+    "kanji_vn": "THIẾU",
+    "vn": "thêm một chút nữa thôi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson14_40",
+    "jp": "もう～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thêm~",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  }
+]

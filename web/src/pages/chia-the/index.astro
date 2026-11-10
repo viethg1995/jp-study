@@ -1,0 +1,171 @@
+---
+// Chia thể — tổng quan dạng lộ trình theo bài みんなの日本語. Mỗi nhóm (động từ, tính từ い/な, danh từ) một tab
+// (công tắc CSS); trong tab: phần "trước khi chia" + các thể xếp theo bài học, mỗi thể một dòng → trang riêng.
+import { getCollection } from "astro:content";
+import FormDetail from "../../components/conjugation/FormDetail.astro";
+import RubyText from "../../components/jp/RubyText.astro";
+import Segmented from "../../components/ui/Segmented.astro";
+import type { ConjEntry, ConjFormDef } from "../../content.config";
+import Base from "../../layouts/Base.astro";
+import { GROUP_SLUG, LIST_GROUPS, byLesson, formPath } from "../../lib/conjugation";
+
+const groups = (await getCollection("conjGroups")).map((g) => g.data).sort((a, b) => a.order - b.order);
+const forms = (await getCollection("conjForms")).map((f) => f.data).sort((a, b) => a.order - b.order);
+const all = (await getCollection("conjEntries")).map((e) => e.data);
+const entries = new Map<string, ConjEntry>(all.map((e) => [e.vocab_id, e]));
+const count = (g: string): number =>
+  all.filter((e) => (g === "verb" ? e.kind.startsWith("V") : g === "adj-i" ? e.kind === "Ai" : e.kind === "An")).length;
+// Ví dụ đại diện của một thể: ví dụ đầu của quy tắc đầu
+const sample = (f: ConjFormDef): { from: string; to: string } | null => {
+  const e = entries.get(f.rules[0]?.examples[0] ?? "");
+  const v = e?.forms.find((x) => x.form === f.id);
+  return e && v ? { from: e.ruby, to: v.ruby } : null;
+};
+const examplesOf = (f: ConjFormDef): ConjEntry[][] => f.rules.map((r) => r.examples.flatMap((id) => entries.get(id) ?? []));
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title="Chia thể">
+  <div class="mx-auto max-w-4xl">
+    <h1 class="text-2xl font-bold">Chia thể</h1>
+    <p class="mt-1 text-ink-muted">Các thể xếp theo thứ tự học trong みんなの日本語. Động từ chia từ thể ます.</p>
+
+    <div class="mt-5 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
+      <Segmented name="cgroup" label="Nhóm" checked="cg-verb" options={groups.map((g) => ({ id: `cg-${g.id}`, label: g.name_vi }))} />
+    </div>
+
+    {
+      groups.map((g) => (
+        <section class={`cg-panel cg-panel-${g.id} mt-6`} aria-label={g.name_vi}>
+          <div class="rounded-lg border border-line bg-surface p-5">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h2 class="font-bold text-ink">Trước khi chia {g.name_vi.toLowerCase()}</h2>
+              {LIST_GROUPS.includes(g.id) && (
+                <a href={`${base}/chia-the/${GROUP_SLUG[g.id]}/`} class="text-sm text-primary hover:underline">
+                  Tra bảng chia {count(g.id)} từ →
+                </a>
+              )}
+            </div>
+            <ul class="mt-3 flex flex-col gap-2 text-sm leading-relaxed text-ink">
+              {g.intro_vi.map((p) => (
+                <li class="flex gap-2">
+                  <span class="text-ink-faint">•</span>
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <ol class="roadmap mt-8">
+            {byLesson(forms.filter((f) => f.group === g.id)).map((step) => (
+              <li class="roadmap-step relative grid grid-cols-[4.5rem_minmax(0,1fr)] gap-x-4 pb-8 sm:grid-cols-[5.5rem_minmax(0,1fr)]">
+                <div class="relative z-10 pt-3">
+                  <span class="inline-block rounded-full border border-primary-line bg-primary-soft px-2.5 py-0.5 text-xs font-semibold text-primary">
+                    {step.lesson !== null ? `Bài ${step.lesson}` : "N3"}
+                  </span>
+                </div>
+                <div class="flex flex-col gap-2">
+                  {step.forms.map((f) => {
+                    const s = sample(f);
+                    const pid = `fm-${f.group}-${f.id}`;
+                    return (
+                      <>
+                      <button
+                        type="button"
+                        popovertarget={pid}
+                        class="group flex w-full cursor-pointer flex-col gap-2 rounded-lg border border-line bg-surface px-4 py-3 text-left hover:border-primary-line hover:bg-primary-soft focus-visible:outline-2 focus-visible:outline-primary sm:flex-row sm:items-center sm:gap-6"
+                      >
+                        <div class="min-w-0 flex-1">
+                          <p class="flex flex-wrap items-baseline gap-x-2">
+                            <span class="font-semibold text-ink group-hover:text-primary">{f.name_vi}</span>
+                            <span class="jp text-sm text-ink-faint" lang="ja">{f.name_ja}</span>
+                          </p>
+                          <p class="mt-0.5 text-sm text-ink-muted">{f.use_vi}</p>
+                        </div>
+                        {s && (
+                          <p class="flex shrink-0 items-baseline gap-2 text-base">
+                            <RubyText ruby={s.from} class="text-ink-muted" />
+                            <span class="text-ink-faint">→</span>
+                            <RubyText ruby={s.to} class="font-semibold text-ink" />
+                          </p>
+                        )}
+                      </button>
+                      <div id={pid} popover class="fm-modal" aria-label={f.name_vi}>
+                        <div class="flex items-center justify-between gap-3 border-b border-line px-5 py-3 sm:px-8">
+                          <a href={`${base}/${formPath(f)}`} class="text-sm text-primary hover:underline">Mở trang riêng ↗</a>
+                          <button
+                            type="button"
+                            popovertarget={pid}
+                            popovertargetaction="hide"
+                            class="rounded-md px-2.5 py-1 text-ink-muted hover:bg-primary-soft hover:text-primary"
+                            aria-label="Đóng"
+                          >
+                            ✕
+                          </button>
+                        </div>
+                        <div class="px-5 pt-5 pb-8 sm:px-8">
+                          <FormDetail f={f} examples={examplesOf(f)} base={base} titleTag="h2" />
+                        </div>
+                      </div>
+                      </>
+                    );
+                  })}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style is:global>
+  .cg-panel {
+    display: none;
+  }
+  body:has(#cg-verb:checked) .cg-panel-verb,
+  body:has(#cg-adj-i:checked) .cg-panel-adj-i,
+  body:has(#cg-adj-na:checked) .cg-panel-adj-na,
+  body:has(#cg-noun:checked) .cg-panel-noun {
+    display: block;
+  }
+  /* đường dọc nối các bài */
+  .roadmap-step::before {
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+    bottom: 0;
+    left: 1.25rem;
+    border-left: 2px solid var(--color-line);
+  }
+  .roadmap-step:last-child::before {
+    display: none;
+  }
+  /* Modal (Popover API, không JS): Esc / bấm ra ngoài để đóng */
+  .fm-modal {
+    width: min(56rem, calc(100vw - 2rem));
+    max-height: min(88vh, 60rem);
+    margin: auto;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 0;
+    border: 1px solid var(--color-line);
+    border-radius: 0.75rem;
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    box-shadow: var(--shadow-modal);
+  }
+  .fm-modal::backdrop {
+    background: var(--color-overlay);
+  }
+  .fm-modal > div:first-child {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: inherit;
+  }
+  body:has(.fm-modal:popover-open) {
+    overflow: hidden;
+  }
+</style>

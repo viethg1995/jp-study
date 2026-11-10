@@ -1,0 +1,371 @@
+[
+  {
+    "id": "lesson16_1",
+    "jp": "のります",
+    "kanji": "乗ります",
+    "kanji_vn": "THỪAĐIỆN XA",
+    "vn": "đi, lên [tàu]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson16_2",
+    "jp": "おります",
+    "kanji": "降ります",
+    "kanji_vn": "GIÁNGĐIỆN XA",
+    "vn": "xuống [tàu]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson16_3",
+    "jp": "のりかえます",
+    "kanji": "乗り換えます",
+    "kanji_vn": "THỪA HOÁN",
+    "vn": "chuyển, đổi (tàu)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson16_4",
+    "jp": "あびます",
+    "kanji": "浴びます",
+    "kanji_vn": "DỤC",
+    "vn": "tắm [vòi hoa sen]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson16_5",
+    "jp": "いれます",
+    "kanji": "入れます",
+    "kanji_vn": "NHẬP",
+    "vn": "cho vào, bỏ vào",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson16_6",
+    "jp": "だします",
+    "kanji": "出します",
+    "kanji_vn": "XUẤT",
+    "vn": "lấy ra, đưa ra, gửi",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson16_7",
+    "jp": "おろします",
+    "kanji": "下ろします",
+    "kanji_vn": "HẠKIM",
+    "vn": "rút [tiền]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson16_8",
+    "jp": "はいります",
+    "kanji": "入ります",
+    "kanji_vn": "NHẬPĐẠI HỌC",
+    "vn": "vào, nhập học [đại học]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson16_9",
+    "jp": "でます",
+    "kanji": "出ます",
+    "kanji_vn": "XUẤTĐẠI HỌC",
+    "vn": "ra, tốt nghiệp [đại học]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson16_10",
+    "jp": "おします",
+    "kanji": "押します",
+    "kanji_vn": "ÁP",
+    "vn": "bấm, ấn (nút)",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson16_11",
+    "jp": "のみます",
+    "kanji": "飲みます",
+    "kanji_vn": "ẨM",
+    "vn": "uống (bia, rượu)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson16_12",
+    "jp": "はじめます",
+    "kanji": "始めます",
+    "kanji_vn": "THỦY",
+    "vn": "bắt đầu",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson16_13",
+    "jp": "けんがくします",
+    "kanji": "見学します",
+    "kanji_vn": "KIẾN HỌC",
+    "vn": "tham quan kiến tập",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson16_14",
+    "jp": "でんわします",
+    "kanji": "電話します",
+    "kanji_vn": "ĐIỆN THOẠI",
+    "vn": "gọi điện thoại",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson16_15",
+    "jp": "わかい",
+    "kanji": "若い",
+    "kanji_vn": "NHƯỢC",
+    "vn": "trẻ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_16",
+    "jp": "ながい",
+    "kanji": "長い",
+    "kanji_vn": "TRƯỜNG",
+    "vn": "dài",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson16_17",
+    "jp": "みじかい",
+    "kanji": "短い",
+    "kanji_vn": "ĐOẢN",
+    "vn": "ngắn",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson16_18",
+    "jp": "あかるい",
+    "kanji": "明るい",
+    "kanji_vn": "MINH",
+    "vn": "sáng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_19",
+    "jp": "くらい",
+    "kanji": "暗い",
+    "kanji_vn": "ÁM",
+    "vn": "tối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_20",
+    "jp": "からだ",
+    "kanji": "体",
+    "kanji_vn": "THỂ",
+    "vn": "người, cơ thể",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_21",
+    "jp": "あたま",
+    "kanji": "頭",
+    "kanji_vn": "ĐẦU",
+    "vn": "đầu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_22",
+    "jp": "かみ",
+    "kanji": "髪",
+    "kanji_vn": "PHÁT",
+    "vn": "tóc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_23",
+    "jp": "かお",
+    "kanji": "顔",
+    "kanji_vn": "NHAN",
+    "vn": "mặt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_24",
+    "jp": "め",
+    "kanji": "目",
+    "kanji_vn": "MỤC",
+    "vn": "mắt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_25",
+    "jp": "みみ",
+    "kanji": "耳",
+    "kanji_vn": "NHĨ",
+    "vn": "tai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_26",
+    "jp": "はな",
+    "kanji": "鼻",
+    "kanji_vn": "TỊ",
+    "vn": "mũi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_27",
+    "jp": "くち",
+    "kanji": "口",
+    "kanji_vn": "KHẨU",
+    "vn": "miệng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_28",
+    "jp": "は",
+    "kanji": "歯",
+    "kanji_vn": "XỈ",
+    "vn": "răng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_29",
+    "jp": "おなか",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bụng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_30",
+    "jp": "あし",
+    "kanji": "足",
+    "kanji_vn": "TÚC",
+    "vn": "chân",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_31",
+    "jp": "せ",
+    "kanji": "背",
+    "kanji_vn": "BỐI",
+    "vn": "chiều cao (cơ thể)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_32",
+    "jp": "サービス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "dịch vụ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson16_33",
+    "jp": "ジョギング",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "việc chạy bộ (~をします: chạy bộ)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson16_34",
+    "jp": "シャワー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vòi hoa sen",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson16_35",
+    "jp": "みどり",
+    "kanji": "緑",
+    "kanji_vn": "LỤC",
+    "vn": "màu xanh lá cây",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_36",
+    "jp": "てら",
+    "kanji": "寺",
+    "kanji_vn": "TỰ",
+    "vn": "chùa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_37",
+    "jp": "じんじゃ",
+    "kanji": "神社",
+    "kanji_vn": "THẦN XÃ",
+    "vn": "đền thờ đạo thần",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson16_38",
+    "jp": "一ばん",
+    "kanji": "一番",
+    "kanji_vn": "PHIÊN",
+    "vn": "số ―",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_39",
+    "jp": "どうやって",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "làm thế nào~",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson16_40",
+    "jp": "どの～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái nào~ (dùng với trường hợp từ ba thứ trở lên)",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson16_41",
+    "jp": "どれ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái nào~ (dùng với trường hợp ba cái hoặc nhiều hơn)",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  }
+]

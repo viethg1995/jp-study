@@ -1,0 +1,597 @@
+{
+  "mn-07-001": {
+    "examples": [
+      {
+        "id": "mn-07-001-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "ナイフで{肉|にく}を[[{切|き}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi cắt thịt bằng dao."
+      }
+    ]
+  },
+  "mn-07-002": {
+    "examples": [
+      {
+        "id": "mn-07-002-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{国|くに}の{家族|かぞく}に{手紙|てがみ}を[[{送|おく}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi gửi thư cho gia đình ở quê."
+      }
+    ]
+  },
+  "mn-07-003": {
+    "examples": [
+      {
+        "id": "mn-07-003-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{友達|ともだち}に{本|ほん}を[[{上|あ}げます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi tặng sách cho bạn."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-004": {
+    "examples": [
+      {
+        "id": "mn-07-004-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{友達|ともだち}にお{土産|みやげ}を[[{貰|もら}いました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nhận quà từ bạn."
+      }
+    ],
+    "han_viet": "THẾ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "貰 — Unihan cho âm Nôm THỞI",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-005": {
+    "examples": [
+      {
+        "id": "mn-07-005-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "ミラーさんに{傘|かさ}を[[{貸|か}しました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cho anh Miller mượn ô."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "かします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-006": {
+    "examples": [
+      {
+        "id": "mn-07-006-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{図書館|としょかん}で{本|ほん}を[[{借|か}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi mượn sách ở thư viện."
+      }
+    ]
+  },
+  "mn-07-007": {
+    "examples": [
+      {
+        "id": "mn-07-007-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{私|わたし}はワンさんに{英語|えいご}を[[{教|おし}えます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi dạy tiếng Anh cho anh Wang."
+      }
+    ]
+  },
+  "mn-07-008": {
+    "examples": [
+      {
+        "id": "mn-07-008-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{先生|せんせい}に{日本語|にほんご}を[[{習|なら}います]]。",
+        "source": "ai-draft",
+        "vi": "Tôi học tiếng Nhật với giáo viên."
+      }
+    ]
+  },
+  "mn-07-009": {
+    "examples": [
+      {
+        "id": "mn-07-009-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{毎晩|まいばん}{家族|かぞく}に{電話|でんわ}を[[かけます]]。",
+        "source": "ai-draft",
+        "vi": "Tối nào tôi cũng gọi điện cho gia đình."
+      }
+    ]
+  },
+  "mn-07-010": {
+    "examples": [
+      {
+        "id": "mn-07-010-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[{手|て}]]で{果物|くだもの}を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn hoa quả bằng tay."
+      }
+    ]
+  },
+  "mn-07-011": {
+    "examples": [
+      {
+        "id": "mn-07-011-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[{箸|はし}]]でご{飯|はん}を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn cơm bằng đũa."
+      }
+    ],
+    "han_viet": "TRỨ",
+    "han_viet_source": "user",
+    "kanji": "箸",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-012": {
+    "examples": [
+      {
+        "id": "mn-07-012-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[スプーン]]で{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn bằng thìa."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "スプーン: PN→N (JMdict: danh từ thông dụng (spoon))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-013": {
+    "examples": [
+      {
+        "id": "mn-07-013-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[ナイフ]]で{肉|にく}を{切|き}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi cắt thịt bằng dao."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ナイフ: PN→N (JMdict: danh từ thông dụng (knife))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-014": {
+    "examples": [
+      {
+        "id": "mn-07-014-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[フォーク]]で{肉|にく}を{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi ăn thịt bằng nĩa."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "フォーク: PN→N (JMdict: danh từ thông dụng (fork))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-015": {
+    "examples": [
+      {
+        "id": "mn-07-015-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[{鋏|はさみ}]]で{花|はな}を{切|き}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cắt hoa bằng kéo."
+      }
+    ],
+    "han_viet": "KIỆP",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "鋏",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-016": {
+    "examples": [
+      {
+        "id": "mn-07-016-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[パソコン]]で{手紙|てがみ}を{書|か}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi viết thư bằng máy tính."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "パソコン: PN→N (JMdict: danh từ thông dụng (personal computer; PC))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-017": {
+    "examples": [
+      {
+        "id": "mn-07-017-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[ケータイ]]で{写真|しゃしん}を{撮|と}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi chụp ảnh bằng điện thoại di động."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ケータイ: danh từ thông dụng (JMdict không có) — gốc gán nhầm PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-018": {
+    "examples": [
+      {
+        "id": "mn-07-018-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{友達|ともだち}に[[メール]]を{送|おく}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi gửi email cho bạn."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "メール: PN→N (JMdict: danh từ thông dụng (email))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-019": {
+    "examples": [
+      {
+        "id": "mn-07-019-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{友達|ともだち}に[[{年賀状|ねんがじょう}]]を{送|おく}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã gửi thiệp mừng năm mới cho bạn."
+      }
+    ]
+  },
+  "mn-07-020": {
+    "examples": [
+      {
+        "id": "mn-07-020-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "ミラーさんに[[パンチ]]を{借|か}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mượn cái đục lỗ của anh Miller."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "パンチ: PN→N (JMdict: danh từ thông dụng (punch (with the fist)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-021": {
+    "examples": [
+      {
+        "id": "mn-07-021-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "ワンさんに[[ホッチキス]]を{貸|か}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cho anh Wang mượn cái dập ghim."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ホッチキス: danh từ thông dụng (JMdict không có) — gốc gán nhầm PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-022": {
+    "examples": [
+      {
+        "id": "mn-07-022-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[セロテープ]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua băng dính."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "セロテープ: PN→N (JMdict: danh từ thông dụng (cellophane tape; adhesive tape))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-023": {
+    "examples": [
+      {
+        "id": "mn-07-023-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "ミラーさんに[[けしゴム]]を{貸|か}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã cho anh Miller mượn cục tẩy."
+      }
+    ]
+  },
+  "mn-07-024": {
+    "examples": [
+      {
+        "id": "mn-07-024-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{鋏|はさみ}で[[{紙|かみ}]]を{切|き}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi cắt giấy bằng kéo."
+      }
+    ]
+  },
+  "mn-07-025": {
+    "examples": [
+      {
+        "id": "mn-07-025-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}に[[{花|はな}]]を{上|あ}げました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã tặng hoa cho bạn gái."
+      }
+    ]
+  },
+  "mn-07-026": {
+    "examples": [
+      {
+        "id": "mn-07-026-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{父|ちち}に[[シャツ]]を{上|あ}げました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã tặng áo sơ mi cho bố."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "シャツ: PN→N (JMdict: danh từ thông dụng (shirt (undergarment); undershirt))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-027": {
+    "examples": [
+      {
+        "id": "mn-07-027-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{友達|ともだち}に[[プレゼント]]を{貰|もら}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nhận quà từ bạn."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "プレゼント: PN→N (JMdict: danh từ thông dụng (present; gift))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-028": {
+    "examples": [
+      {
+        "id": "mn-07-028-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{駅|えき}で[[{荷物|にもつ}]]を{送|おく}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã gửi hành lý ở nhà ga."
+      }
+    ]
+  },
+  "mn-07-029": {
+    "examples": [
+      {
+        "id": "mn-07-029-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{銀行|ぎんこう}で[[お{金|かね}]]を{借|か}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã vay tiền ở ngân hàng."
+      }
+    ]
+  },
+  "mn-07-030": {
+    "examples": [
+      {
+        "id": "mn-07-030-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "{駅|えき}で[[{切符|きっぷ}]]を{買|か}います。",
+        "source": "ai-draft",
+        "vi": "Tôi mua vé ở nhà ga."
+      }
+    ]
+  },
+  "mn-07-031": {
+    "examples": [
+      {
+        "id": "mn-07-031-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[クリスマス]]に{家族|かぞく}にカードを{送|おく}ります。",
+        "source": "ai-draft",
+        "vi": "Vào Giáng sinh tôi gửi thiệp cho gia đình."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "クリスマス: PN→N (JMdict: danh từ thông dụng (Christmas))",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-032": {
+    "examples": [
+      {
+        "id": "mn-07-032-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[{父|ちち}]]に{電話|でんわ}をかけました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã gọi điện cho bố."
+      }
+    ]
+  },
+  "mn-07-033": {
+    "examples": [
+      {
+        "id": "mn-07-033-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[{母|はは}]]に{花|はな}を{上|あ}げました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã tặng hoa cho mẹ."
+      }
+    ]
+  },
+  "mn-07-034": {
+    "examples": [
+      {
+        "id": "mn-07-034-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[お{父|とう}さん]]に{何|なに}を{貰|もら}いましたか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã nhận được gì từ bố?"
+      }
+    ]
+  },
+  "mn-07-035": {
+    "examples": [
+      {
+        "id": "mn-07-035-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[お{母|かあ}さん]]に{手紙|てがみ}を{書|か}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã viết thư cho mẹ."
+      }
+    ]
+  },
+  "mn-07-036": {
+    "examples": [
+      {
+        "id": "mn-07-036-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[もう]]{昼|ひる}ごはんを{食|た}べましたか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã ăn trưa chưa?"
+      }
+    ]
+  },
+  "mn-07-037": {
+    "examples": [
+      {
+        "id": "mn-07-037-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "「もう{宿題|しゅくだい}をしましたか。」「いいえ、[[まだ]]です。」",
+        "source": "ai-draft",
+        "vi": "\"Bạn đã làm bài tập chưa?\" \"Chưa, vẫn chưa.\""
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "未だ dễ nhầm いまだ; viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-07-038": {
+    "examples": [
+      {
+        "id": "mn-07-038-e1",
+        "max_lesson": 7,
+        "review": "user",
+        "ruby": "[[これから]]{銀行|ぎんこう}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Bây giờ tôi sẽ đi ngân hàng."
+      }
+    ]
+  }
+}

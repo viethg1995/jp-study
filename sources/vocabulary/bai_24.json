@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lesson24_1",
+    "jp": "くれます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cho, tặng (tôi)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson24_2",
+    "jp": "なおします",
+    "kanji": "直します",
+    "kanji_vn": "TRỰC",
+    "vn": "chữa, sửa",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson24_3",
+    "jp": "つれていきます",
+    "kanji": "連れて行きます",
+    "kanji_vn": "LIÊN HÀNH",
+    "vn": "dẫn đi",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson24_4",
+    "jp": "つれてきます",
+    "kanji": "連れて来ます",
+    "kanji_vn": "LIÊN LAI",
+    "vn": "dẫn đến",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson24_5",
+    "jp": "おくります",
+    "kanji": "送ります",
+    "kanji_vn": "TỐNGNHÂN",
+    "vn": "đưa đi, đưa đến, tiễn [một ai đó]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson24_6",
+    "jp": "しょうかいします",
+    "kanji": "紹介します",
+    "kanji_vn": "THIỆU GIỚI",
+    "vn": "giới thiệu",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson24_7",
+    "jp": "あんないします",
+    "kanji": "案内します",
+    "kanji_vn": "ÁN NỘI",
+    "vn": "hướng dẫn, giới thiệu, dẫn đường",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson24_8",
+    "jp": "せつめいします",
+    "kanji": "説明します",
+    "kanji_vn": "THUYẾT MINH",
+    "vn": "giải thích, trình bày",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson24_9",
+    "jp": "おじいさん／ おじいちゃん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ông nội, ông ngoại, ông",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson24_10",
+    "jp": "おばあさん／ おばあちゃん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bà nội, bà ngoại, bà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson24_11",
+    "jp": "じゅんび",
+    "kanji": "準備",
+    "kanji_vn": "CHUẨN BỊ",
+    "vn": "chuẩn bị [～します:chuẩn bị]",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson24_12",
+    "jp": "ひっこし",
+    "kanji": "引っ越し",
+    "kanji_vn": "DẪN VIỆT",
+    "vn": "sự chuyển nhà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson24_13",
+    "jp": "かし",
+    "kanji": "菓子",
+    "kanji_vn": "QUẢ TỬ",
+    "vn": "bánh kẹo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson24_14",
+    "jp": "ホームステイ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "homestay",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson24_15",
+    "jp": "ぜんぶ",
+    "kanji": "全部",
+    "kanji_vn": "TOÀN BỘ",
+    "vn": "toàn bộ, tất cả",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson24_16",
+    "jp": "じぶんで",
+    "kanji": "自分で",
+    "kanji_vn": "TỰ PHÂN",
+    "vn": "tự (mình)",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

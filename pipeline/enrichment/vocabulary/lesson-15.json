@@ -1,0 +1,272 @@
+{
+  "mn-15-001": {
+    "examples": [
+      {
+        "id": "mn-15-001-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "ここに{荷物|にもつ}を[[{置|お}いて]]もいいですか。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể để hành lý ở đây không?"
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "おきます: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-15-002": {
+    "examples": [
+      {
+        "id": "mn-15-002-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "{母|はは}は{料理|りょうり}を[[{作|つく}って]]います。",
+        "source": "ai-draft",
+        "vi": "Mẹ tôi đang nấu ăn."
+      }
+    ]
+  },
+  "mn-15-003": {
+    "examples": [
+      {
+        "id": "mn-15-003-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "あの{店|みせ}で{切手|きって}を[[{売|う}って]]います。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng kia có bán tem."
+      }
+    ]
+  },
+  "mn-15-004": {
+    "examples": [
+      {
+        "id": "mn-15-004-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "ミラーさんの{住所|じゅうしょ}を[[{知|し}って]]いますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có biết địa chỉ của anh Miller không?"
+      }
+    ]
+  },
+  "mn-15-005": {
+    "examples": [
+      {
+        "id": "mn-15-005-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "{大阪|おおさか}に[[{住|す}んで]]います。",
+        "source": "ai-draft",
+        "vi": "Tôi đang sống ở Osaka."
+      }
+    ]
+  },
+  "mn-15-006": {
+    "examples": [
+      {
+        "id": "mn-15-006-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "{大学|だいがく}で{経済|けいざい}を[[{研究|けんきゅう}して]]います。",
+        "source": "ai-draft",
+        "vi": "Tôi đang nghiên cứu kinh tế ở trường đại học."
+      }
+    ],
+    "han_viet": "NGHIÊN CỨU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "gốc ghi CỬU (sai)",
+      "status": "reviewed"
+    }
+  },
+  "mn-15-007": {
+    "examples": [
+      {
+        "id": "mn-15-007-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "この[[{資料|しりょう}]]をコピーしてもいいですか。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể photo tài liệu này không?"
+      }
+    ]
+  },
+  "mn-15-008": {
+    "examples": [
+      {
+        "id": "mn-15-008-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "この[[カタログ]]を{貰|もら}ってもいいですか。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể lấy cuốn catalogue này không?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "カタログ: PN→N (JMdict: danh từ thông dụng (catalog; catalogue))",
+      "status": "reviewed"
+    }
+  },
+  "mn-15-009": {
+    "examples": [
+      {
+        "id": "mn-15-009-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "[[{時刻表|じこくひょう}]]を{見|み}てもいいですか。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể xem bảng giờ tàu không?"
+      }
+    ]
+  },
+  "mn-15-010": {
+    "examples": [
+      {
+        "id": "mn-15-010-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "ここで[[{服|ふく}]]を{売|う}っています。",
+        "source": "ai-draft",
+        "vi": "Ở đây có bán quần áo."
+      }
+    ]
+  },
+  "mn-15-011": {
+    "examples": [
+      {
+        "id": "mn-15-011-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "この{会社|かいしゃ}の[[{製品|せいひん}]]は{有名|ゆうめい}です。",
+        "source": "ai-draft",
+        "vi": "Sản phẩm của công ty này nổi tiếng."
+      }
+    ]
+  },
+  "mn-15-012": {
+    "examples": [
+      {
+        "id": "mn-15-012-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "この[[ソフト]]を{使|つか}ってもいいですか。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể dùng phần mềm này không?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ソフト: PN→N (JMdict: danh từ thông dụng (soft))",
+      "status": "reviewed"
+    }
+  },
+  "mn-15-013": {
+    "examples": [
+      {
+        "id": "mn-15-013-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "[[{電子辞書|でんしじしょ}]]を{使|つか}ってもいいですか。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể dùng kim từ điển không?"
+      }
+    ],
+    "han_viet": "ĐIỆN TỬ TỪ THƯ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "gốc ghi 子 = TỪ (sai); 辞書 đọc từng chữ là TỪ THƯ (TỪ ĐIỂN là 辞典)",
+      "status": "reviewed"
+    }
+  },
+  "mn-15-014": {
+    "examples": [
+      {
+        "id": "mn-15-014-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{経済|けいざい}]]を{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang học về kinh tế Nhật Bản."
+      }
+    ]
+  },
+  "mn-15-015": {
+    "examples": [
+      {
+        "id": "mn-15-015-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "[[{市役所|しやくしょ}]]へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi đến tòa thị chính."
+      }
+    ]
+  },
+  "mn-15-016": {
+    "examples": [
+      {
+        "id": "mn-15-016-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "{弟|おとうと}は[[{高校|こうこう}]]で{勉強|べんきょう}しています。",
+        "source": "ai-draft",
+        "vi": "Em trai tôi đang học ở trường cấp 3."
+      }
+    ]
+  },
+  "mn-15-017": {
+    "examples": [
+      {
+        "id": "mn-15-017-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "{姉|あね}は[[{歯医者|はいしゃ}]]です。",
+        "source": "ai-draft",
+        "vi": "Chị gái tôi là nha sĩ."
+      }
+    ]
+  },
+  "mn-15-018": {
+    "examples": [
+      {
+        "id": "mn-15-018-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{独身|どくしん}]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi còn độc thân."
+      }
+    ]
+  },
+  "mn-15-019": {
+    "examples": [
+      {
+        "id": "mn-15-019-e1",
+        "max_lesson": 15,
+        "review": "user",
+        "ruby": "[[{済|す}みません]]、ここで{写真|しゃしん}を{撮|と}ってもいいですか。",
+        "source": "ai-draft",
+        "vi": "Xin lỗi, tôi chụp ảnh ở đây có được không?"
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  }
+}

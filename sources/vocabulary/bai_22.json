@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lesson22_1",
+    "jp": "きます",
+    "kanji": "着ます",
+    "kanji_vn": "TRƯỚC",
+    "vn": "mặc [áo sơ mi, v.v.]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson22_2",
+    "jp": "はきます",
+    "kanji": null,
+    "kanji_vn": "NGOA",
+    "vn": "đi, mặc [giầy, quần âu, v.v.]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson22_3",
+    "jp": "かぶります",
+    "kanji": null,
+    "kanji_vn": "MẠO TỬ",
+    "vn": "đội [mũ, v.v.]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson22_4",
+    "jp": "かけます",
+    "kanji": null,
+    "kanji_vn": "NHÃN KÍNH",
+    "vn": "đeo [kính]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson22_5",
+    "jp": "します",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đeo [cà vạt]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson22_6",
+    "jp": "うまれます",
+    "kanji": "生まれます",
+    "kanji_vn": "SINH",
+    "vn": "sinh ra",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson22_7",
+    "jp": "わたしたち",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chúng tôi, chúng ta",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson22_8",
+    "jp": "コート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "áo khoác",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson22_9",
+    "jp": "セーター",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "áo len",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson22_10",
+    "jp": "スーツ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "com-lê",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson22_11",
+    "jp": "ぼうし",
+    "kanji": "帽子",
+    "kanji_vn": "MẠO TỬ",
+    "vn": "mũ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson22_12",
+    "jp": "めがね",
+    "kanji": "眼鏡",
+    "kanji_vn": "NHÃN KÍNH",
+    "vn": "kính",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson22_13",
+    "jp": "ケーキ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bánh ngọt",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson22_14",
+    "jp": "べんとう",
+    "kanji": "お弁当",
+    "kanji_vn": "BIỆN ĐƯƠNG",
+    "vn": "cơm hộp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson22_15",
+    "jp": "ロボット",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ro bốt",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson22_16",
+    "jp": "ユーモア",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sự hài hước",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson22_17",
+    "jp": "つごう",
+    "kanji": "都合",
+    "kanji_vn": "ĐÔ HỢP",
+    "vn": "(sự) thích hợp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson22_18",
+    "jp": "よく",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thường, hay",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  }
+]

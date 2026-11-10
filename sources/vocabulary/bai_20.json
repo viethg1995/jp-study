@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lesson20_1",
+    "jp": "いります",
+    "kanji": "要ります",
+    "kanji_vn": "YẾU",
+    "vn": "cần [thị thực (visa)]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson20_2",
+    "jp": "しらべます",
+    "kanji": "調べます",
+    "kanji_vn": "ĐIỀU",
+    "vn": "tìm hiểu, điều tra, xem",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson20_3",
+    "jp": "しゅうりします",
+    "kanji": "修理します",
+    "kanji_vn": "TU LÝ",
+    "vn": "sửa chữa, tu sửa",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson20_4",
+    "jp": "ぼく",
+    "kanji": "僕",
+    "kanji_vn": "BỘC",
+    "vn": "tớ (cách xưng thân mật của わたし được dùng bởi nam giới)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_5",
+    "jp": "きみ",
+    "kanji": "君",
+    "kanji_vn": "QUÂN",
+    "vn": "cậu, bạn (cách gọi thân mật của あなたdùng cho người ngang hàng hoặc ít tuổi hơn.)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_6",
+    "jp": "～くん",
+    "kanji": "～君",
+    "kanji_vn": "QUÂN",
+    "vn": "anh~, cậu~ (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「～さん」)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson20_7",
+    "jp": "うん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ừ (cách nói thân mật của 「はい」)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_8",
+    "jp": "ううん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "không (cách nói thân mật của 「いいえ」)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_9",
+    "jp": "ことば",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "từ, tiếng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_10",
+    "jp": "きもの",
+    "kanji": "着物",
+    "kanji_vn": "TRƯỚC VẬT",
+    "vn": "Kimono (trang phục truyền thống của Nhật Bản)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_11",
+    "jp": "ビザ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thị thực, Visa",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson20_12",
+    "jp": "はじめ",
+    "kanji": "始め",
+    "kanji_vn": "THỦY",
+    "vn": "ban đầu, đầu tiên",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_13",
+    "jp": "おわり",
+    "kanji": "終わり",
+    "kanji_vn": "CHUNG",
+    "vn": "kết thúc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson20_14",
+    "jp": "こっち",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phía này, chỗ này (cách nói thân mật của 「こちら」)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson20_15",
+    "jp": "そっち",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phía đó, chỗ đó (cách nói thân mật của 「そちら」)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson20_16",
+    "jp": "あっち",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phía kia, chỗ kia (cách nói thân mật của 「あちら」)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson20_17",
+    "jp": "どっち",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson20_18",
+    "jp": "みんなで",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mọi người cùng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson20_19",
+    "jp": "～けど",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhưng (cách nói thân mật của 「が」)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson20_20",
+    "jp": "おなかがいっぱいです",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "(Tôi) no rồi",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "lesson40_1",
+    "jp": "かぞえます",
+    "kanji": "数えます",
+    "kanji_vn": "SỐ",
+    "vn": "đếm",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson40_2",
+    "jp": "はかります",
+    "kanji": "測ります、量ります",
+    "kanji_vn": "TRẮC LƯỢNG",
+    "vn": "đo, cân",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson40_3",
+    "jp": "たしかめます",
+    "kanji": "確かめます",
+    "kanji_vn": "XÁC",
+    "vn": "xác nhận",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson40_4",
+    "jp": "あいます",
+    "kanji": "合います",
+    "kanji_vn": "HỢP",
+    "vn": "vừa, hợp [kích thước ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson40_5",
+    "jp": "しゅっぱつします",
+    "kanji": "出発します",
+    "kanji_vn": "XUẤT PHÁT",
+    "vn": "xuất phát, khởi hành, đi",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson40_6",
+    "jp": "とうちゃくします",
+    "kanji": "到着します",
+    "kanji_vn": "ĐÁO TRƯỚC",
+    "vn": "đến, đến nơi",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson40_7",
+    "jp": "よいます",
+    "kanji": "酔います",
+    "kanji_vn": "TÚY",
+    "vn": "say",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson40_8",
+    "jp": "うまくいきます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tốt, thuận lợi",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson40_9",
+    "jp": "でます",
+    "kanji": "出ます",
+    "kanji_vn": "XUẤTVẤN ĐỀ",
+    "vn": "có [nội dung câu hỏi thi]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson40_10",
+    "jp": "そうだんします",
+    "kanji": "相談します",
+    "kanji_vn": "TƯƠNG ĐÀM",
+    "vn": "nói chuyện, thảo luận",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson40_11",
+    "jp": "ひつよう",
+    "kanji": "必要",
+    "kanji_vn": "TẤT YẾU",
+    "vn": "cần thiết",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson40_12",
+    "jp": "てんきよほう",
+    "kanji": "天気予報",
+    "kanji_vn": "THIÊN KHÍ DỰ BÁO",
+    "vn": "dự báo thời tiết",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_13",
+    "jp": "ぼうねんかい",
+    "kanji": "忘年会",
+    "kanji_vn": "VONG NIÊN HỘI",
+    "vn": "tiệc tất niên",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_14",
+    "jp": "しんねんかい",
+    "kanji": "新年会",
+    "kanji_vn": "TÂN NIÊN HỘI",
+    "vn": "tiệc tân niên",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_15",
+    "jp": "にじかい",
+    "kanji": "二次会",
+    "kanji_vn": "NHỊ THỨ HỘI",
+    "vn": "bữa tiệc thứ hai, “tăng hai”",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_16",
+    "jp": "はっぴょうかい",
+    "kanji": "発表会",
+    "kanji_vn": "PHÁT BIỂU HỘI",
+    "vn": "buổi phát biểu",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_17",
+    "jp": "たいかい",
+    "kanji": "大会",
+    "kanji_vn": "ĐẠI HỘI",
+    "vn": "đại hội, cuộc thi",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_18",
+    "jp": "マラソン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ma ra tông",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_19",
+    "jp": "コンテスト",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cuộc thi",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_20",
+    "jp": "おもて",
+    "kanji": "表",
+    "kanji_vn": "BIỂU",
+    "vn": "phía trước, mặt trước",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_21",
+    "jp": "うら",
+    "kanji": "裏",
+    "kanji_vn": "LÝ",
+    "vn": "phía sau, mặt sau",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_22",
+    "jp": "まちがい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sai, lỗi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_23",
+    "jp": "きず",
+    "kanji": "傷",
+    "kanji_vn": "THƯƠNG",
+    "vn": "vết thương",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_24",
+    "jp": "ズボン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái quần",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_25",
+    "jp": "としより",
+    "kanji": "年寄り",
+    "kanji_vn": "NIÊN KÝ",
+    "vn": "người già, người cao tuổi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_26",
+    "jp": "ながさ",
+    "kanji": "長さ",
+    "kanji_vn": "TRƯỜNG",
+    "vn": "chiều dài",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_27",
+    "jp": "おもさ",
+    "kanji": "重さ",
+    "kanji_vn": "TRỌNG",
+    "vn": "cân nặng, trọng lượng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_28",
+    "jp": "たかさ",
+    "kanji": "高さ",
+    "kanji_vn": "CAO",
+    "vn": "chiều cao",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_29",
+    "jp": "おおきさ",
+    "kanji": "大きさ",
+    "kanji_vn": "ĐẠI",
+    "vn": "cỡ, kích thước",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_30",
+    "jp": "びん",
+    "kanji": "便",
+    "kanji_vn": "TIỆN",
+    "vn": "chuyến bay [―]",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_31",
+    "jp": "―ご",
+    "kanji": "－個",
+    "kanji_vn": "CÁ",
+    "vn": "cái, cục, viên (đơn vị đếm vật nhỏ)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_32",
+    "jp": "―ほん",
+    "kanji": "―本",
+    "kanji_vn": "BỔN",
+    "vn": "― cái (đơn vị đếm vật dài)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_33",
+    "jp": "―はい",
+    "kanji": "―杯",
+    "kanji_vn": "BÔI",
+    "vn": "―chén, ―cốc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_34",
+    "jp": "―センチ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "―xăng-ti-mét",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_35",
+    "jp": "―ミリ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "―mi-li-mét",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_36",
+    "jp": "―グラム",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "- gam",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_37",
+    "jp": "～いじょう",
+    "kanji": "～以上",
+    "kanji_vn": "DĨ THƯỢNG",
+    "vn": "~ trở lên, trên",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson40_38",
+    "jp": "～いか",
+    "kanji": "～以下",
+    "kanji_vn": "DĨ HẠ ~",
+    "vn": "trở xuống, dưới",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson40_39",
+    "jp": "長崎",
+    "kanji": null,
+    "kanji_vn": "TRƯỜNG KHI",
+    "vn": "thủ phủ của tỉnh Nagasaki",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_40",
+    "jp": "仙台",
+    "kanji": null,
+    "kanji_vn": "TIÊN ĐÀI",
+    "vn": "thủ phủ của tỉnh Miyagi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_41",
+    "jp": "ＪＬ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hãng hàng không Nhật Bản (Japan Airlines)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson40_42",
+    "jp": "七夕祭り",
+    "kanji": null,
+    "kanji_vn": "THẤT TỊCH TẾ",
+    "vn": "Lễ hội Tânbata",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson40_43",
+    "jp": "東照宮",
+    "kanji": null,
+    "kanji_vn": "ĐÔNG CHIẾU CUNG",
+    "vn": "tên đền thờ Tokugawa Ieyasu ở Nikko, tỉnh Tochigi",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

@@ -1,0 +1,693 @@
+{
+  "mn-40-001": {
+    "examples": [
+      {
+        "id": "mn-40-001-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{箱|はこ}の{数|かず}を[[{数|かぞ}えて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy đếm số hộp."
+      }
+    ]
+  },
+  "mn-40-002": {
+    "examples": [
+      {
+        "id": "mn-40-002-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{荷物|にもつ}の{重|おも}さを[[{量|はか}って]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy cân trọng lượng hành lý."
+      }
+    ]
+  },
+  "mn-40-003": {
+    "examples": [
+      {
+        "id": "mn-40-003-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{間違|まちが}いがないかどうか[[{確|たし}かめて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy xác nhận xem có sai sót không."
+      }
+    ]
+  },
+  "mn-40-004": {
+    "examples": [
+      {
+        "id": "mn-40-004-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "この{服|ふく}はサイズが[[{合|あ}う]]かどうか{着|き}てみます。",
+        "source": "ai-draft",
+        "vi": "Tôi sẽ mặc thử xem bộ quần áo này có vừa không."
+      }
+    ]
+  },
+  "mn-40-005": {
+    "examples": [
+      {
+        "id": "mn-40-005-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{飛行機|ひこうき}が{何時|なんじ}に[[{出発|しゅっぱつ}する]]か{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Tôi không biết mấy giờ máy bay khởi hành."
+      }
+    ]
+  },
+  "mn-40-006": {
+    "examples": [
+      {
+        "id": "mn-40-006-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{飛行機|ひこうき}が{何時|なんじ}に[[{到着|とうちゃく}する]]か{調|しら}べてください。",
+        "source": "ai-draft",
+        "vi": "Hãy tìm hiểu mấy giờ máy bay đến."
+      }
+    ]
+  },
+  "mn-40-007": {
+    "examples": [
+      {
+        "id": "mn-40-007-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "お{酒|さけ}を{飲|の}んで[[{酔|よ}って]]しまいました。",
+        "source": "ai-draft",
+        "vi": "Tôi uống rượu và say mất rồi."
+      }
+    ]
+  },
+  "mn-40-008": {
+    "examples": [
+      {
+        "id": "mn-40-008-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{仕事|しごと}が[[{上手|うま}く{行|い}く]]かどうか{心配|しんぱい}です。",
+        "source": "ai-draft",
+        "vi": "Tôi lo không biết công việc có suôn sẻ không."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-009": {
+    "examples": [
+      {
+        "id": "mn-40-009-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{試験|しけん}に{何|なに}が[[{出|で}る]]か{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Tôi không biết bài thi sẽ ra cái gì."
+      }
+    ]
+  },
+  "mn-40-010": {
+    "examples": [
+      {
+        "id": "mn-40-010-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{先生|せんせい}に[[{相談|そうだん}して]]みます。",
+        "source": "ai-draft",
+        "vi": "Tôi sẽ thử bàn với giáo viên."
+      }
+    ]
+  },
+  "mn-40-011": {
+    "examples": [
+      {
+        "id": "mn-40-011-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "ビザが[[{必要|ひつよう}]]かどうか{教|おし}えてください。",
+        "source": "ai-draft",
+        "vi": "Hãy cho tôi biết có cần visa hay không."
+      }
+    ]
+  },
+  "mn-40-012": {
+    "examples": [
+      {
+        "id": "mn-40-012-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{天気予報|てんきよほう}]]を{見|み}てから{出|で}かけます。",
+        "source": "ai-draft",
+        "vi": "Tôi xem dự báo thời tiết rồi mới ra ngoài."
+      }
+    ]
+  },
+  "mn-40-013": {
+    "examples": [
+      {
+        "id": "mn-40-013-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{忘年会|ぼうねんかい}]]に{何人|なんにん}{来|く}るか{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Tôi không biết bao nhiêu người sẽ đến tiệc tất niên."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ぼうねんかい: PN→N (JMdict: danh từ thông dụng (year-end party; \"forget-the-year\" party))",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-014": {
+    "examples": [
+      {
+        "id": "mn-40-014-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{新年会|しんねんかい}]]はいつか{決|き}めましょう。",
+        "source": "ai-draft",
+        "vi": "Hãy quyết định khi nào tổ chức tiệc năm mới."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "しんねんかい: danh từ thông dụng (JMdict không có) — gốc gán nhầm PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-015": {
+    "examples": [
+      {
+        "id": "mn-40-015-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{二次会|にじかい}]]に{行|い}くかどうか{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Tôi không biết có đi tăng hai hay không."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "にじかい: danh từ thông dụng (JMdict không có) — gốc gán nhầm PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-016": {
+    "examples": [
+      {
+        "id": "mn-40-016-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{来週|らいしゅう}ピアノの[[{発表会|はっぴょうかい}]]があります。",
+        "source": "ai-draft",
+        "vi": "Tuần sau có buổi biểu diễn piano."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "はっぴょうかい: PN→N (JMdict: danh từ thông dụng ((school) recital; school concert))",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-017": {
+    "examples": [
+      {
+        "id": "mn-40-017-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "スポーツの[[{大会|たいかい}]]に{出|で}てみたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn thử tham gia giải thể thao."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "たいかい: PN→N (JMdict: danh từ thông dụng (mass meeting; convention))",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-018": {
+    "examples": [
+      {
+        "id": "mn-40-018-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[マラソン]]を{走|はし}ってみたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn thử chạy marathon."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "マラソン: PN→N (JMdict: danh từ thông dụng (marathon))",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-019": {
+    "examples": [
+      {
+        "id": "mn-40-019-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "スピーチの[[コンテスト]]に{出|で}ます。",
+        "source": "ai-draft",
+        "vi": "Tôi tham gia cuộc thi hùng biện."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "コンテスト: PN→N (JMdict: danh từ thông dụng (contest))",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-020": {
+    "examples": [
+      {
+        "id": "mn-40-020-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{紙|かみ}の[[{表|おもて}]]に{名前|なまえ}を{書|か}いてください。",
+        "source": "ai-draft",
+        "vi": "Hãy viết tên ở mặt trước tờ giấy."
+      }
+    ]
+  },
+  "mn-40-021": {
+    "examples": [
+      {
+        "id": "mn-40-021-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{紙|かみ}の[[{裏|うら}]]に{住所|じゅうしょ}を{書|か}いてください。",
+        "source": "ai-draft",
+        "vi": "Hãy viết địa chỉ ở mặt sau tờ giấy."
+      }
+    ]
+  },
+  "mn-40-022": {
+    "examples": [
+      {
+        "id": "mn-40-022-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{間違|まちが}い]]がないかどうか{見|み}てください。",
+        "source": "ai-draft",
+        "vi": "Hãy xem có lỗi sai không."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-023": {
+    "examples": [
+      {
+        "id": "mn-40-023-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "この{机|つくえ}に[[{傷|きず}]]があります。",
+        "source": "ai-draft",
+        "vi": "Cái bàn này có vết xước."
+      }
+    ]
+  },
+  "mn-40-024": {
+    "examples": [
+      {
+        "id": "mn-40-024-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "この[[ズボン]]はサイズが{合|あ}うかどうか{履|は}いてみます。",
+        "source": "ai-draft",
+        "vi": "Tôi sẽ mặc thử xem cái quần này có vừa không."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ズボン: PN→N (JMdict: danh từ thông dụng (trousers; pants))",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-025": {
+    "examples": [
+      {
+        "id": "mn-40-025-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "お[[{年寄|としよ}り]]に{席|せき}を{譲|ゆず}りましょう。",
+        "source": "ai-draft",
+        "vi": "Hãy nhường ghế cho người cao tuổi."
+      }
+    ]
+  },
+  "mn-40-026": {
+    "examples": [
+      {
+        "id": "mn-40-026-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "この{紐|ひも}の[[{長|なが}さ]]を{測|はか}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy đo chiều dài sợi dây này."
+      }
+    ]
+  },
+  "mn-40-027": {
+    "examples": [
+      {
+        "id": "mn-40-027-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{荷物|にもつ}の[[{重|おも}さ]]はどのくらいですか。",
+        "source": "ai-draft",
+        "vi": "Trọng lượng hành lý khoảng bao nhiêu?"
+      }
+    ]
+  },
+  "mn-40-028": {
+    "examples": [
+      {
+        "id": "mn-40-028-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{富士山|ふじさん}の[[{高|たか}さ]]を{知|し}っていますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có biết chiều cao của núi Phú Sĩ không?"
+      }
+    ]
+  },
+  "mn-40-029": {
+    "examples": [
+      {
+        "id": "mn-40-029-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "この{箱|はこ}の[[{大|おお}きさ]]を{測|はか}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy đo kích thước cái hộp này."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "おおきさ: PN→N (JMdict: danh từ thông dụng (size; dimensions))",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-030": {
+    "examples": [
+      {
+        "id": "mn-40-030-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{午後|ごご}の[[{便|びん}]]で{大阪|おおさか}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi Osaka bằng chuyến bay buổi chiều."
+      }
+    ]
+  },
+  "mn-40-031": {
+    "examples": [
+      {
+        "id": "mn-40-031-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{林檎|りんご}を３[[{個|こ}]]{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua 3 quả táo."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～個 cái, viên",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-032": {
+    "examples": [
+      {
+        "id": "mn-40-032-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{鉛筆|えんぴつ}を２[[{本|ほん}]]ください。",
+        "source": "ai-draft",
+        "vi": "Cho tôi 2 cây bút chì."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～本 vật dài",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-033": {
+    "examples": [
+      {
+        "id": "mn-40-033-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "コーヒーを１[[{杯|ぱい}]]{飲|の}みました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã uống một cốc cà phê."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～杯 chén, cốc",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-034": {
+    "examples": [
+      {
+        "id": "mn-40-034-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "この{紐|ひも}は５０[[センチ]]あります。",
+        "source": "ai-draft",
+        "vi": "Sợi dây này dài 50 xăng-ti-mét."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～センチ xăng-ti-mét",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-035": {
+    "examples": [
+      {
+        "id": "mn-40-035-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{雨|あめ}が１０[[ミリ]]{降|ふ}りました。",
+        "source": "ai-draft",
+        "vi": "Mưa rơi 10 mi-li-mét."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～ミリ mi-li-mét",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-036": {
+    "examples": [
+      {
+        "id": "mn-40-036-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "{砂糖|さとう}を１００[[グラム]]{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua 100 gam đường."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～グラム gam",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-037": {
+    "examples": [
+      {
+        "id": "mn-40-037-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "１８{歳|さい}[[{以上|いじょう}]]の{人|ひと}は{運転|うんてん}することができます。",
+        "source": "ai-draft",
+        "vi": "Người từ 18 tuổi trở lên có thể lái xe."
+      }
+    ]
+  },
+  "mn-40-038": {
+    "examples": [
+      {
+        "id": "mn-40-038-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "６{歳|さい}[[{以下|いか}]]の{子|こ}どもは{無料|むりょう}です。",
+        "source": "ai-draft",
+        "vi": "Trẻ em từ 6 tuổi trở xuống được miễn phí."
+      }
+    ]
+  },
+  "mn-40-039": {
+    "examples": [
+      {
+        "id": "mn-40-039-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{長崎|ながさき}]]へ{行|い}ったことがありますか。",
+        "source": "ai-draft",
+        "vi": "Bạn đã từng đến Nagasaki chưa?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "ながさき",
+    "kanji": "長崎",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-040": {
+    "examples": [
+      {
+        "id": "mn-40-040-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{仙台|せんだい}]]の{七夕祭|たなばたまつ}りは{有名|ゆうめい}です。",
+        "source": "ai-draft",
+        "vi": "Lễ hội Tanabata ở Sendai nổi tiếng."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "せんだい",
+    "kanji": "仙台",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-041": {
+    "examples": [
+      {
+        "id": "mn-40-041-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[ＪＬ]]１２３{便|びん}は{何時|なんじ}に{着|つ}くか{調|しら}べてください。",
+        "source": "ai-draft",
+        "vi": "Hãy tìm hiểu xem chuyến bay JL123 mấy giờ đến."
+      }
+    ]
+  },
+  "mn-40-042": {
+    "examples": [
+      {
+        "id": "mn-40-042-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{七夕祭|たなばたまつ}り]]を{見|み}に{行|い}きたいです。",
+        "source": "ai-draft",
+        "vi": "Tôi muốn đi xem lễ hội Tanabata."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "たなばたまつり",
+    "kanji": "七夕祭り",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "status": "reviewed"
+    }
+  },
+  "mn-40-043": {
+    "examples": [
+      {
+        "id": "mn-40-043-e1",
+        "max_lesson": 40,
+        "review": "user",
+        "ruby": "[[{東照宮|とうしょうぐう}]]は{日光|にっこう}にあります。",
+        "source": "ai-draft",
+        "vi": "Đền Toshogu ở Nikko."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "とうしょうぐう",
+    "kanji": "東照宮",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  }
+}

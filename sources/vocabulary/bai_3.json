@@ -1,0 +1,326 @@
+[
+  {
+    "id": "lesson3_1",
+    "jp": "ここ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chỗ này, đây",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson3_2",
+    "jp": "そこ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chỗ đó, đó",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson3_3",
+    "jp": "あそこ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chỗ kia, kia",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson3_4",
+    "jp": "どこ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chỗ nào, đâu",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson3_5",
+    "jp": "こちら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phía này, đằng này, chỗ này, đây",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson3_6",
+    "jp": "そちら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phía đó, đằng đó, chỗ đó, đó",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson3_7",
+    "jp": "あちら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phía kia, đằng kia, chỗ kia, kia",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson3_8",
+    "jp": "どちら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phía nào, đằng nào, chỗ nào, đâu",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson3_9",
+    "jp": "きょうしつ",
+    "kanji": "教室",
+    "kanji_vn": "GIÁO THẤT",
+    "vn": "lớp học, phòng học",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_10",
+    "jp": "しょくどう",
+    "kanji": "食堂",
+    "kanji_vn": "THỰC ĐƯỜNG",
+    "vn": "nhà ăn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_11",
+    "jp": "じむしょ",
+    "kanji": "事務所",
+    "kanji_vn": "SỰ VỤ SỞ",
+    "vn": "văn phòng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_12",
+    "jp": "かいぎしつ",
+    "kanji": "会議室",
+    "kanji_vn": "HỘI NGHỊ THẤT",
+    "vn": "phòng họp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_13",
+    "jp": "うけつけ",
+    "kanji": "受付",
+    "kanji_vn": "THỤ PHÓ",
+    "vn": "bộ phận tiếp tân, phòng thường trực",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_14",
+    "jp": "ロビー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hành lang, đại sảnh",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_15",
+    "jp": "へや",
+    "kanji": "部屋",
+    "kanji_vn": "BỘ ỐC",
+    "vn": "căn phòng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_16",
+    "jp": "トイレ",
+    "kanji": null,
+    "kanji_vn": "THỦ TẨY",
+    "vn": "nhà vệ sinh, phòng vệ sinh, toa-lét",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_17",
+    "jp": "かいだん",
+    "kanji": "階段",
+    "kanji_vn": "GIAI ĐOẠN",
+    "vn": "cầu thang",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_18",
+    "jp": "エレベーター",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thang máy",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_19",
+    "jp": "エスカレーター",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thang cuốn",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_20",
+    "jp": "じどうはんばいき",
+    "kanji": "自動販売機",
+    "kanji_vn": "TỰ ĐỘNGPHIẾN MẠI CƠ",
+    "vn": "máy bán hàng tự động",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_21",
+    "jp": "でんわ",
+    "kanji": "電話",
+    "kanji_vn": "ĐIỆN THOẠI",
+    "vn": "máy điện thoại, điện thoại",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_22",
+    "jp": "くに",
+    "kanji": "国",
+    "kanji_vn": "QUỐC",
+    "vn": "đất nước (của anh/chị)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_23",
+    "jp": "かいしゃ",
+    "kanji": "会社",
+    "kanji_vn": "HỘI XÃ",
+    "vn": "công ty",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_24",
+    "jp": "うち",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_25",
+    "jp": "くつ",
+    "kanji": "靴",
+    "kanji_vn": "NGOA",
+    "vn": "giầy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_26",
+    "jp": "ネクタイ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cà vạt",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_27",
+    "jp": "ワイン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "rượu vang",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson3_28",
+    "jp": "うりば",
+    "kanji": "売り場",
+    "kanji_vn": "MẠI TRƯỜNG",
+    "vn": "quầy bán (trong một cửa hàng bách hóa)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_29",
+    "jp": "ちか",
+    "kanji": "地下",
+    "kanji_vn": "ĐỊA HẠ",
+    "vn": "tầng hầm, dưới mặt đất",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_30",
+    "jp": "―かい",
+    "kanji": "－階",
+    "kanji_vn": "GIAI",
+    "vn": "tầng thứ -",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_31",
+    "jp": "なんがい",
+    "kanji": "何階",
+    "kanji_vn": "HÀ GIAI",
+    "vn": "tầng mấy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_32",
+    "jp": "―えん",
+    "kanji": "―円",
+    "kanji_vn": "VIÊN",
+    "vn": "-yên",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_33",
+    "jp": "いくら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bao nhiêu tiền",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson3_34",
+    "jp": "ひゃく",
+    "kanji": "百",
+    "kanji_vn": "BÁCH",
+    "vn": "trăm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_35",
+    "jp": "せん",
+    "kanji": "千",
+    "kanji_vn": "THIÊN",
+    "vn": "nghìn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson3_36",
+    "jp": "まん",
+    "kanji": "万",
+    "kanji_vn": "VẠN",
+    "vn": "mười nghìn, vạn",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

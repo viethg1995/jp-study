@@ -1,0 +1,296 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "TRÍ",
+    "han_viet_source": "source",
+    "id": "mn-15-001",
+    "kanji": "置きます",
+    "kanji_refs": [
+      "k-置"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_1",
+    "lesson": 15,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁC, TẠO",
+    "han_viet_source": "source",
+    "id": "mn-15-002",
+    "kanji": "作ります, 造ります",
+    "kanji_refs": [
+      "k-作",
+      "k-造"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_2",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MẠI",
+    "han_viet_source": "source",
+    "id": "mn-15-003",
+    "kanji": "売ります",
+    "kanji_refs": [
+      "k-売"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_3",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRI",
+    "han_viet_source": "source",
+    "id": "mn-15-004",
+    "kanji": "知ります",
+    "kanji_refs": [
+      "k-知"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_4",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRÚ, TRỤ",
+    "han_viet_source": "source",
+    "id": "mn-15-005",
+    "kanji": "住みます",
+    "kanji_refs": [
+      "k-住"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_5",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGHIÊN CỬU",
+    "han_viet_source": "source",
+    "id": "mn-15-006",
+    "kanji": "研究します",
+    "kanji_refs": [
+      "k-研",
+      "k-究"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_6",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TƯ LIỆU",
+    "han_viet_source": "source",
+    "id": "mn-15-007",
+    "kanji": "資料",
+    "kanji_refs": [
+      "k-資",
+      "k-料"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_7",
+    "lesson": 15
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-15-008",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson15_8",
+    "lesson": 15,
+    "pos_reason": "JMdict: danh từ thông dụng (catalog; catalogue)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỜI KHẮC BIỂU",
+    "han_viet_source": "source",
+    "id": "mn-15-009",
+    "kanji": "時刻表",
+    "kanji_refs": [
+      "k-時",
+      "k-刻",
+      "k-表"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_9",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHỤC",
+    "han_viet_source": "source",
+    "id": "mn-15-010",
+    "kanji": "服",
+    "kanji_refs": [
+      "k-服"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_10",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHẾ PHẨM",
+    "han_viet_source": "source",
+    "id": "mn-15-011",
+    "kanji": "製品",
+    "kanji_refs": [
+      "k-製",
+      "k-品"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_11",
+    "lesson": 15
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-15-012",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson15_12",
+    "lesson": 15,
+    "pos_reason": "JMdict: danh từ thông dụng (soft)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐIỆN TỪ TỪ ĐIỂN",
+    "han_viet_source": "source",
+    "id": "mn-15-013",
+    "kanji": "電子辞書",
+    "kanji_refs": [
+      "k-電",
+      "k-子",
+      "k-辞",
+      "k-書"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_13",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KINH TẾ",
+    "han_viet_source": "source",
+    "id": "mn-15-014",
+    "kanji": "経済",
+    "kanji_refs": [
+      "k-経",
+      "k-済"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_14",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỊ DỊCH SỞ",
+    "han_viet_source": "source",
+    "id": "mn-15-015",
+    "kanji": "市役所",
+    "kanji_refs": [
+      "k-市",
+      "k-役",
+      "k-所"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_15",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CAO HIỆU",
+    "han_viet_source": "source",
+    "id": "mn-15-016",
+    "kanji": "高校",
+    "kanji_refs": [
+      "k-高",
+      "k-校"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_16",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "XỈ Y GIẢ",
+    "han_viet_source": "source",
+    "id": "mn-15-017",
+    "kanji": "歯医者",
+    "kanji_refs": [
+      "k-歯",
+      "k-医",
+      "k-者"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_17",
+    "lesson": 15
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỘC THÂN",
+    "han_viet_source": "source",
+    "id": "mn-15-018",
+    "kanji": "独身",
+    "kanji_refs": [
+      "k-独",
+      "k-身"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson15_18",
+    "lesson": 15
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "TẾ",
+    "han_viet_source": "derived",
+    "id": "mn-15-019",
+    "kanji": "済みません",
+    "kanji_gloss": "excuse me; pardon me",
+    "kanji_refs": [
+      "k-済"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson15_19",
+    "lesson": 15
+  }
+]

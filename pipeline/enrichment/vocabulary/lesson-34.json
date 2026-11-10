@@ -1,0 +1,412 @@
+{
+  "mn-34-001": {
+    "examples": [
+      {
+        "id": "mn-34-001-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{毎晩|まいばん}{歯|は}を[[{磨|みが}いて]]から{寝|ね}ます。",
+        "source": "ai-draft",
+        "vi": "Tối nào tôi cũng đánh răng rồi mới ngủ."
+      }
+    ],
+    "han_viet": "MA",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "磨 — Unihan cho âm Nôm MÀI",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-002": {
+    "examples": [
+      {
+        "id": "mn-34-002-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{説明書|せつめいしょ}のとおりに、{机|つくえ}を[[{組|く}み{立|た}てて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy lắp ráp cái bàn theo đúng sách hướng dẫn."
+      }
+    ]
+  },
+  "mn-34-003": {
+    "examples": [
+      {
+        "id": "mn-34-003-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{紙|かみ}を{半分|はんぶん}に[[{折|お}って]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy gấp tờ giấy làm đôi."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "おります: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-004": {
+    "examples": [
+      {
+        "id": "mn-34-004-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{電車|でんしゃ}を{降|お}りたあとで、{傘|かさ}がないのに[[{気|き}がつきました]]。",
+        "source": "ai-draft",
+        "vi": "Sau khi xuống tàu, tôi nhận ra là không có ô."
+      }
+    ]
+  },
+  "mn-34-005": {
+    "examples": [
+      {
+        "id": "mn-34-005-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{醤油|しょうゆ}を[[{付|つ}けて]]{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi chấm xì dầu rồi ăn."
+      }
+    ],
+    "han_viet": "PHÓ",
+    "han_viet_source": "user",
+    "kanji": "付けます",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "chấm xì dầu",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-006": {
+    "examples": [
+      {
+        "id": "mn-34-006-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{鍵|かぎ}が[[{見|み}つかりました]]。",
+        "source": "ai-draft",
+        "vi": "Đã tìm thấy chìa khóa."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "みつかります: V2→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-007": {
+    "examples": [
+      {
+        "id": "mn-34-007-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{分|わ}からない{時|とき}は、{先生|せんせい}に[[{質問|しつもん}して]]ください。",
+        "source": "ai-draft",
+        "vi": "Khi không hiểu hãy hỏi giáo viên."
+      }
+    ]
+  },
+  "mn-34-008": {
+    "examples": [
+      {
+        "id": "mn-34-008-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{傘|かさ}を[[さして]]{歩|ある}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi che ô đi bộ."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "さします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-009": {
+    "examples": [
+      {
+        "id": "mn-34-009-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{毎週|まいしゅう}[[スポーツクラブ]]で{泳|およ}いでいます。",
+        "source": "ai-draft",
+        "vi": "Hàng tuần tôi bơi ở câu lạc bộ thể thao."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "スポーツクラブ: danh từ thông dụng (JMdict không có) — gốc gán nhầm PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-010": {
+    "examples": [
+      {
+        "id": "mn-34-010-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "あの[[{城|しろ}]]は{古|ふる}いです。",
+        "source": "ai-draft",
+        "vi": "Tòa thành kia cổ."
+      }
+    ]
+  },
+  "mn-34-011": {
+    "examples": [
+      {
+        "id": "mn-34-011-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{説明書|せつめいしょ}]]を{読|よ}んだあとで、{使|つか}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy đọc sách hướng dẫn rồi mới dùng."
+      }
+    ]
+  },
+  "mn-34-012": {
+    "examples": [
+      {
+        "id": "mn-34-012-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "この[[{図|ず}]]を{見|み}てください。",
+        "source": "ai-draft",
+        "vi": "Hãy xem hình vẽ này."
+      }
+    ]
+  },
+  "mn-34-013": {
+    "examples": [
+      {
+        "id": "mn-34-013-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "この[[{線|せん}]]の{上|うえ}に{名前|なまえ}を{書|か}いてください。",
+        "source": "ai-draft",
+        "vi": "Hãy viết tên lên trên đường kẻ này."
+      }
+    ]
+  },
+  "mn-34-014": {
+    "examples": [
+      {
+        "id": "mn-34-014-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{矢印|やじるし}]]のとおりに{行|い}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy đi theo dấu mũi tên."
+      }
+    ]
+  },
+  "mn-34-015": {
+    "examples": [
+      {
+        "id": "mn-34-015-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{黒|くろ}]]のボールペンで{書|か}いてください。",
+        "source": "ai-draft",
+        "vi": "Hãy viết bằng bút bi màu đen."
+      }
+    ]
+  },
+  "mn-34-016": {
+    "examples": [
+      {
+        "id": "mn-34-016-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{白|しろ}]]のシャツを{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua áo sơ mi màu trắng."
+      }
+    ]
+  },
+  "mn-34-017": {
+    "examples": [
+      {
+        "id": "mn-34-017-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{赤|あか}]]のペンで{直|なお}してください。",
+        "source": "ai-draft",
+        "vi": "Hãy sửa bằng bút màu đỏ."
+      }
+    ]
+  },
+  "mn-34-018": {
+    "examples": [
+      {
+        "id": "mn-34-018-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{青|あお}]]のボタンを{押|お}してください。",
+        "source": "ai-draft",
+        "vi": "Hãy bấm nút màu xanh."
+      }
+    ]
+  },
+  "mn-34-019": {
+    "examples": [
+      {
+        "id": "mn-34-019-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{紺|こん}]]のスーツを{着|き}て{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi mặc bộ vest màu xanh lam đi."
+      }
+    ]
+  },
+  "mn-34-020": {
+    "examples": [
+      {
+        "id": "mn-34-020-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{黄色|きいろ}]]の{花|はな}が{咲|さ}いています。",
+        "source": "ai-draft",
+        "vi": "Hoa màu vàng đang nở."
+      }
+    ]
+  },
+  "mn-34-021": {
+    "examples": [
+      {
+        "id": "mn-34-021-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{茶色|ちゃいろ}]]の{靴|くつ}を{履|は}いて{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi đôi giày màu nâu."
+      }
+    ]
+  },
+  "mn-34-022": {
+    "examples": [
+      {
+        "id": "mn-34-022-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{刺身|さしみ}に[[{醤油|しょうゆ}]]を{付|つ}けて{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi chấm xì dầu với sashimi rồi ăn."
+      }
+    ],
+    "han_viet": "TƯƠNG DU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-023": {
+    "examples": [
+      {
+        "id": "mn-34-023-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "{肉|にく}に[[ソース]]を{付|つ}けて{食|た}べます。",
+        "source": "ai-draft",
+        "vi": "Tôi chấm nước sốt với thịt rồi ăn."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ソース: PN→N (JMdict: danh từ thông dụng (sauce))",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-024": {
+    "examples": [
+      {
+        "id": "mn-34-024-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[お{客|きゃく}]]さんが{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Khách đã đến."
+      }
+    ]
+  },
+  "mn-34-025": {
+    "examples": [
+      {
+        "id": "mn-34-025-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "コーヒー[[か]]{紅茶|こうちゃ}を{選|えら}んでください。",
+        "source": "ai-draft",
+        "vi": "Hãy chọn cà phê hoặc trà."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "trợ từ",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-026": {
+    "examples": [
+      {
+        "id": "mn-34-026-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[{昨夜|ゆうべ}]]{遅|おそ}くまでテレビを{見|み}ました。",
+        "source": "ai-draft",
+        "vi": "Tối qua tôi xem tivi đến khuya."
+      }
+    ],
+    "han_viet": "TẠC DẠ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-34-027": {
+    "examples": [
+      {
+        "id": "mn-34-027-e1",
+        "max_lesson": 34,
+        "review": "user",
+        "ruby": "[[さっき]]{電話|でんわ}がありました。",
+        "source": "ai-draft",
+        "vi": "Vừa nãy có điện thoại."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "さっき = 先刻; JMdict gợi ý 先 không chuẩn",
+      "status": "reviewed"
+    }
+  }
+}

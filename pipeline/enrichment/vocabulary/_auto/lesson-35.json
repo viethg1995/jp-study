@@ -1,0 +1,636 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "咲": []
+    },
+    "han_viet_original": "TIẾUHOA",
+    "han_viet_source": null,
+    "id": "mn-35-001",
+    "kanji": "咲きます",
+    "kanji_refs": [
+      "k-咲"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_1",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "BIẾN",
+    "han_viet_original": "BIẾNSẮC",
+    "han_viet_source": "derived",
+    "id": "mn-35-002",
+    "kanji": "変わります",
+    "kanji_refs": [
+      "k-変"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_2",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHỐN",
+    "han_viet_source": "source",
+    "id": "mn-35-003",
+    "kanji": "困ります",
+    "kanji_refs": [
+      "k-困"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_3",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "PHÓ",
+    "han_viet_original": "PHÓHOÀN",
+    "han_viet_source": "derived",
+    "id": "mn-35-004",
+    "kanji": "付けます",
+    "kanji_refs": [
+      "k-付"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_4",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TRỊ, TRỰC",
+    "han_viet_original": "TRỊTRỰC",
+    "han_viet_source": "derived",
+    "id": "mn-35-005",
+    "kanji": "治ります、直ります",
+    "kanji_refs": [
+      "k-治",
+      "k-直"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_5",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-35-006",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_6",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHẬP LỰC",
+    "han_viet_source": "source",
+    "id": "mn-35-007",
+    "kanji": "入力します",
+    "kanji_refs": [
+      "k-入",
+      "k-力"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_7",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHÍNH",
+    "han_viet_source": "source",
+    "id": "mn-35-008",
+    "kanji": "正しい",
+    "kanji_refs": [
+      "k-正"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_8",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HƯỚNG",
+    "han_viet_source": "source",
+    "id": "mn-35-009",
+    "kanji": "向こう",
+    "kanji_refs": [
+      "k-向"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_9",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẢO",
+    "han_viet_source": "source",
+    "id": "mn-35-010",
+    "kanji": "島",
+    "kanji_refs": [
+      "k-島"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_10",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CẢNG",
+    "han_viet_source": "source",
+    "id": "mn-35-011",
+    "kanji": "港",
+    "kanji_refs": [
+      "k-港"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_11",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CẬN SỞ",
+    "han_viet_source": "source",
+    "id": "mn-35-012",
+    "kanji": "近所",
+    "kanji_refs": [
+      "k-近",
+      "k-所"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_12",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ỐC THƯỢNG",
+    "han_viet_source": "source",
+    "id": "mn-35-013",
+    "kanji": "屋上",
+    "kanji_refs": [
+      "k-屋",
+      "k-上"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_13",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HẢI NGOẠI",
+    "han_viet_source": "source",
+    "id": "mn-35-014",
+    "kanji": "海外",
+    "kanji_refs": [
+      "k-海",
+      "k-外"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_14",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "SƠN ĐĂNG",
+    "han_viet_source": "source",
+    "id": "mn-35-015",
+    "kanji": "山登り",
+    "kanji_refs": [
+      "k-山",
+      "k-登"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_15",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LỊCH SỬ",
+    "han_viet_source": "source",
+    "id": "mn-35-016",
+    "kanji": "歴史",
+    "kanji_refs": [
+      "k-歴",
+      "k-史"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_16",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "CƠ HỘI",
+    "han_viet_source": "source",
+    "id": "mn-35-017",
+    "kanji": "機会",
+    "kanji_refs": [
+      "k-機",
+      "k-会"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_17",
+    "lesson": 35,
+    "pos_reason": "JMdict: danh từ thông dụng (strange; wonderful)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỨA KHẢ",
+    "han_viet_source": "source",
+    "id": "mn-35-018",
+    "kanji": "許可",
+    "kanji_refs": [
+      "k-許",
+      "k-可"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_18",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HOÀN",
+    "han_viet_source": "source",
+    "id": "mn-35-019",
+    "kanji": "丸",
+    "kanji_refs": [
+      "k-丸"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_19",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "仮": []
+    },
+    "han_viet_source": null,
+    "id": "mn-35-020",
+    "kanji": "振り仮名",
+    "kanji_gloss": "furigana; kana printed above or next to kanji to indicate pronunciation",
+    "kanji_refs": [
+      "k-振",
+      "k-仮",
+      "k-名"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson35_20",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THIẾT BỊ",
+    "han_viet_source": "source",
+    "id": "mn-35-021",
+    "kanji": "設備",
+    "kanji_refs": [
+      "k-設",
+      "k-備"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_21",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-35-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_22",
+    "lesson": 35,
+    "pos_reason": "JMdict: danh từ thông dụng (liver)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-35-023",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_23",
+    "lesson": 35,
+    "pos_reason": "JMdict: danh từ thông dụng (key (for a lock))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-35-024",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_24",
+    "lesson": 35,
+    "pos_reason": "JMdict: danh từ thông dụng (curtain; curtains)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "NÉO",
+    "han_viet_source": "unihan",
+    "id": "mn-35-025",
+    "kanji": "紐",
+    "kanji_gloss": "string; cord",
+    "kanji_refs": [
+      "k-紐"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson35_25",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "XÚY PHẠN KHÍ",
+    "han_viet_source": "source",
+    "id": "mn-35-026",
+    "kanji": "炊飯器",
+    "kanji_refs": [
+      "k-炊",
+      "k-飯",
+      "k-器"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_26",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DIỆP",
+    "han_viet_source": "source",
+    "id": "mn-35-027",
+    "kanji": "葉",
+    "kanji_refs": [
+      "k-葉"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_27",
+    "lesson": 35
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÍCH",
+    "han_viet_source": "source",
+    "id": "mn-35-028",
+    "kanji": "昔",
+    "kanji_refs": [
+      "k-昔"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson35_28",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-35-029",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_29",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "CHUNG",
+    "han_viet_source": null,
+    "id": "mn-35-030",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_30",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "TƯƠNG CĂN",
+    "han_viet_source": null,
+    "id": "mn-35-031",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_31",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "NHẬT QUANG",
+    "han_viet_source": null,
+    "id": "mn-35-032",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_32",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-35-033",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_33",
+    "lesson": 35,
+    "pos_reason": "JMdict: danh từ thông dụng (Africa)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-35-034",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_34",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "HỌC HIỆU",
+    "han_viet_source": null,
+    "id": "mn-35-035",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_35",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "ĐẠI HẮC",
+    "han_viet_source": null,
+    "id": "mn-35-036",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_36",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "GIÁO THẤT",
+    "han_viet_source": null,
+    "id": "mn-35-037",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_37",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "MẪU VỊ",
+    "han_viet_source": null,
+    "id": "mn-35-038",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_38",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "XUÂN",
+    "han_viet_source": "derived",
+    "id": "mn-35-039",
+    "kanji": "春",
+    "kanji_gloss": "spring; springtime",
+    "kanji_refs": [
+      "k-春"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson35_39",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "TÁ ĐẰNGXỈ KHOA",
+    "han_viet_source": null,
+    "id": "mn-35-040",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_40",
+    "lesson": 35
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "MỖI NHẬT",
+    "han_viet_source": null,
+    "id": "mn-35-041",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson35_41",
+    "lesson": 35
+  }
+]

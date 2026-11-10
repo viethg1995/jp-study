@@ -1,0 +1,2239 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-001-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}パンを[[{食|た}べます]]。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi ăn bánh mì."
+        }
+      ],
+      "han_viet": "THỰC",
+      "id": "mn-06-001",
+      "kana": "たべます",
+      "kanji": "食べます",
+      "kanji_refs": [
+        "k-食"
+      ],
+      "legacy_id": "lesson6_1",
+      "lesson": 6,
+      "meaning_vi": "ăn",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ăn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-002-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}{牛乳|ぎゅうにゅう}を[[{飲|の}みます]]。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi uống sữa."
+        }
+      ],
+      "han_viet": "ẨM",
+      "id": "mn-06-002",
+      "kana": "のみます",
+      "kanji": "飲みます",
+      "kanji_refs": [
+        "k-飲"
+      ],
+      "legacy_id": "lesson6_2",
+      "lesson": 6,
+      "meaning_vi": "uống",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-16-011",
+        "mn-17-013"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "uống"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-003-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{私|わたし}は{煙草|たばこ}を[[{吸|す}いません]]。",
+          "source": "ai-draft",
+          "vi": "Tôi không hút thuốc lá."
+        }
+      ],
+      "han_viet": "HẤP",
+      "id": "mn-06-003",
+      "kana": "すいます",
+      "kanji": "吸います",
+      "kanji_refs": [
+        "k-吸"
+      ],
+      "legacy_id": "lesson6_3",
+      "lesson": 6,
+      "meaning_vi": "hút [thuốc lá]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "thuốc lá",
+          "text": "hút"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-004-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{昨日|きのう}{家|うち}で{映画|えいが}を[[{見|み}ました]]。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã xem phim ở nhà."
+        }
+      ],
+      "han_viet": "KIẾN",
+      "id": "mn-06-004",
+      "kana": "みます",
+      "kanji": "見ます",
+      "kanji_refs": [
+        "k-見"
+      ],
+      "legacy_id": "lesson6_4",
+      "lesson": 6,
+      "meaning_vi": "xem, nhìn, trông",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xem, nhìn, trông"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-005-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}ラジオを[[{聞|き}きます]]。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi nghe radio."
+        }
+      ],
+      "han_viet": "VĂN",
+      "id": "mn-06-005",
+      "kana": "ききます",
+      "kanji": "聞きます",
+      "kanji_refs": [
+        "k-聞"
+      ],
+      "legacy_id": "lesson6_5",
+      "lesson": 6,
+      "meaning_vi": "nghe",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-23-001"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghe"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-006-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{図書館|としょかん}で{本|ほん}を[[{読|よ}みます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đọc sách ở thư viện."
+        }
+      ],
+      "han_viet": "ĐỘC",
+      "id": "mn-06-006",
+      "kana": "よみます",
+      "kanji": "読みます",
+      "kanji_refs": [
+        "k-読"
+      ],
+      "legacy_id": "lesson6_6",
+      "lesson": 6,
+      "meaning_vi": "đọc",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đọc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-007-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "ここに{名前|なまえ}を[[{書|か}きます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi viết tên vào đây."
+        }
+      ],
+      "han_viet": "THƯ",
+      "id": "mn-06-007",
+      "kana": "かきます",
+      "kanji": "書きます",
+      "kanji_refs": [
+        "k-書"
+      ],
+      "legacy_id": "lesson6_7",
+      "lesson": 6,
+      "meaning_vi": "viết, vẽ",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "viết, vẽ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-008-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{駅|えき}で{新聞|しんぶん}を[[{買|か}いました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua báo ở nhà ga."
+        }
+      ],
+      "han_viet": "MÃI",
+      "id": "mn-06-008",
+      "kana": "かいます",
+      "kanji": "買います",
+      "kanji_refs": [
+        "k-買"
+      ],
+      "legacy_id": "lesson6_8",
+      "lesson": 6,
+      "meaning_vi": "mua",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mua"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-009-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{庭|にわ}で{写真|しゃしん}を[[{撮|と}ります]]。",
+          "source": "ai-draft",
+          "vi": "Tôi chụp ảnh ở ngoài vườn."
+        }
+      ],
+      "han_viet": "TOÁT",
+      "id": "mn-06-009",
+      "kana": "とります",
+      "kanji": "撮ります",
+      "kanji_refs": [
+        "k-撮"
+      ],
+      "legacy_id": "lesson6_9",
+      "lesson": 6,
+      "meaning_vi": "chụp [ảnh]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "ảnh",
+          "text": "chụp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-010-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{日曜日|にちようび}にテニスを[[します]]。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật tôi chơi quần vợt."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-010",
+      "kana": "します",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_10",
+      "lesson": 6,
+      "meaning_vi": "làm",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-22-005",
+        "mn-47-006"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "làm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-011-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{駅|えき}で{友達|ともだち}に[[{会|あ}います]]。",
+          "source": "ai-draft",
+          "vi": "Tôi gặp bạn ở nhà ga."
+        }
+      ],
+      "han_viet": "HỘI",
+      "id": "mn-06-011",
+      "kana": "あいます",
+      "kanji": "会います",
+      "kanji_refs": [
+        "k-会"
+      ],
+      "legacy_id": "lesson6_11",
+      "lesson": 6,
+      "meaning_vi": "gặp [bạn]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "bạn",
+          "text": "gặp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-012-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{家族|かぞく}と[[ご{飯|はん}]]を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn cơm cùng gia đình."
+        }
+      ],
+      "han_viet": "PHẠN",
+      "id": "mn-06-012",
+      "kana": "ごはん",
+      "kanji": "ご飯",
+      "kanji_refs": [
+        "k-飯"
+      ],
+      "legacy_id": "lesson6_12",
+      "lesson": 6,
+      "meaning_vi": "cơm, bữa ăn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cơm, bữa ăn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-013-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}７{時|じ}に[[{朝|あさ}ごはん]]を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi ăn sáng lúc 7 giờ."
+        }
+      ],
+      "han_viet": "TRIỀU",
+      "id": "mn-06-013",
+      "kana": "あさごはん",
+      "kanji": "朝ごはん",
+      "kanji_refs": [
+        "k-朝"
+      ],
+      "legacy_id": "lesson6_13",
+      "lesson": 6,
+      "meaning_vi": "cơm sáng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cơm sáng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-014-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{食堂|しょくどう}で[[{昼|ひる}ごはん]]を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn trưa ở nhà ăn."
+        }
+      ],
+      "han_viet": "TRÚ",
+      "id": "mn-06-014",
+      "kana": "ひるごはん",
+      "kanji": "昼ごはん",
+      "kanji_refs": [
+        "k-昼"
+      ],
+      "legacy_id": "lesson6_14",
+      "lesson": 6,
+      "meaning_vi": "cơm trưa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cơm trưa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-015-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{家|うち}で[[{晩|ばん}ごはん]]を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn tối ở nhà."
+        }
+      ],
+      "han_viet": "VÃN",
+      "id": "mn-06-015",
+      "kana": "ばんごはん",
+      "kanji": "晩ごはん",
+      "kanji_refs": [
+        "k-晩"
+      ],
+      "legacy_id": "lesson6_15",
+      "lesson": 6,
+      "meaning_vi": "cơm tối",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cơm tối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-016-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{店|みせ}で[[パン]]を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua bánh mì ở cửa hàng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-016",
+      "kana": "パン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_16",
+      "lesson": 6,
+      "meaning_vi": "bánh mì",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bánh mì"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-017-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}[[{卵|たまご}]]を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi ăn trứng."
+        }
+      ],
+      "han_viet": "NOÃN",
+      "id": "mn-06-017",
+      "kana": "たまご",
+      "kanji": "卵",
+      "kanji_refs": [
+        "k-卵"
+      ],
+      "legacy_id": "lesson6_17",
+      "lesson": 6,
+      "meaning_vi": "trứng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trứng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-018-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{昨日|きのう}[[{肉|にく}]]を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã mua thịt."
+        }
+      ],
+      "han_viet": "NHỤC",
+      "id": "mn-06-018",
+      "kana": "にく",
+      "kanji": "肉",
+      "kanji_refs": [
+        "k-肉"
+      ],
+      "legacy_id": "lesson6_18",
+      "lesson": 6,
+      "meaning_vi": "thịt",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thịt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-019-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{魚|さかな}]]を{食|た}べません。",
+          "source": "ai-draft",
+          "vi": "Tôi không ăn cá."
+        }
+      ],
+      "han_viet": "NGƯ",
+      "id": "mn-06-019",
+      "kana": "さかな",
+      "kanji": "魚",
+      "kanji_refs": [
+        "k-魚"
+      ],
+      "legacy_id": "lesson6_19",
+      "lesson": 6,
+      "meaning_vi": "cá",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cá"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-020-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{店|みせ}で[[{野菜|やさい}]]を{買|か}います。",
+          "source": "ai-draft",
+          "vi": "Tôi mua rau ở cửa hàng."
+        }
+      ],
+      "han_viet": "DÃ THÁI",
+      "id": "mn-06-020",
+      "kana": "やさい",
+      "kanji": "野菜",
+      "kanji_refs": [
+        "k-野",
+        "k-菜"
+      ],
+      "legacy_id": "lesson6_20",
+      "lesson": 6,
+      "meaning_vi": "rau",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rau"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-021-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎日|まいにち}[[{果物|くだもの}]]を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Ngày nào tôi cũng ăn hoa quả."
+        }
+      ],
+      "han_viet": "QUẢ VẬT",
+      "id": "mn-06-021",
+      "kana": "くだもの",
+      "kanji": "果物",
+      "kanji_refs": [
+        "k-果",
+        "k-物"
+      ],
+      "legacy_id": "lesson6_21",
+      "lesson": 6,
+      "meaning_vi": "hoa quả, trái cây",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hoa quả, trái cây"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-022-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "[[{水|みず}]]を{飲|の}みませんか。",
+          "source": "ai-draft",
+          "vi": "Anh/chị uống nước không?"
+        }
+      ],
+      "han_viet": "THỦY",
+      "id": "mn-06-022",
+      "kana": "みず",
+      "kanji": "水",
+      "kanji_refs": [
+        "k-水"
+      ],
+      "legacy_id": "lesson6_22",
+      "lesson": 6,
+      "meaning_vi": "nước",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nước"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-023-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{一緒|いっしょ}に[[お{茶|ちゃ}]]を{飲|の}みませんか。",
+          "source": "ai-draft",
+          "vi": "Cùng uống trà nhé?"
+        }
+      ],
+      "han_viet": "TRÀ",
+      "id": "mn-06-023",
+      "kana": "おちゃ",
+      "kanji": "お茶",
+      "kanji_refs": [
+        "k-茶"
+      ],
+      "legacy_id": "lesson6_23",
+      "lesson": 6,
+      "meaning_vi": "trà (nói chung)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-19-011"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "trà (nói chung)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-024-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}[[{紅茶|こうちゃ}]]を{飲|の}みます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi uống trà đen."
+        }
+      ],
+      "han_viet": "HỒNG TRÀ",
+      "id": "mn-06-024",
+      "kana": "こうちゃ",
+      "kanji": "紅茶",
+      "kanji_refs": [
+        "k-紅",
+        "k-茶"
+      ],
+      "legacy_id": "lesson6_24",
+      "lesson": 6,
+      "meaning_vi": "trà đen",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trà đen"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-025-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "[[{牛乳|ぎゅうにゅう}]]を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua sữa."
+        }
+      ],
+      "han_viet": "NGƯU NHŨ",
+      "id": "mn-06-025",
+      "kana": "ぎゅうにゅう",
+      "kanji": "牛乳",
+      "kanji_refs": [
+        "k-牛",
+        "k-乳"
+      ],
+      "legacy_id": "lesson6_25",
+      "lesson": 6,
+      "meaning_vi": "sữa bò (sữa)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sữa bò (sữa)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-026-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "[[ジュース]]を{飲|の}みませんか。",
+          "source": "ai-draft",
+          "vi": "Bạn uống nước ép không?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-026",
+      "kana": "ジュース",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_26",
+      "lesson": 6,
+      "meaning_vi": "nước hoa quả",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nước hoa quả"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-027-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{毎晩|まいばん}[[ビール]]を{飲|の}みます。",
+          "source": "ai-draft",
+          "vi": "Tối nào tôi cũng uống bia."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-027",
+      "kana": "ビール",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_27",
+      "lesson": 6,
+      "meaning_vi": "bia",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-028-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{酒|さけ}]]を{飲|の}みません。",
+          "source": "ai-draft",
+          "vi": "Tôi không uống rượu."
+        }
+      ],
+      "han_viet": "TỬU",
+      "id": "mn-06-028",
+      "kana": "さけ",
+      "kanji": "酒",
+      "kanji_refs": [
+        "k-酒"
+      ],
+      "legacy_id": "lesson6_28",
+      "lesson": 6,
+      "meaning_vi": "rượu, rượu sake",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "rượu, rượu sake"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-029-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{庭|にわ}で[[{煙草|たばこ}]]を{吸|す}います。",
+          "source": "ai-draft",
+          "vi": "Tôi hút thuốc ở ngoài vườn."
+        }
+      ],
+      "han_viet": "YÊN THẢO",
+      "id": "mn-06-029",
+      "kana": "たばこ",
+      "kanji": "煙草",
+      "kanji_refs": [
+        "k-煙",
+        "k-草"
+      ],
+      "legacy_id": "lesson6_29",
+      "lesson": 6,
+      "meaning_vi": "thuốc lá",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thuốc lá"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-030-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{昨日|きのう}[[{手紙|てがみ}]]を{書|か}きました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã viết thư."
+        }
+      ],
+      "han_viet": "THỦ CHỈ",
+      "id": "mn-06-030",
+      "kana": "てがみ",
+      "kanji": "手紙",
+      "kanji_refs": [
+        "k-手",
+        "k-紙"
+      ],
+      "legacy_id": "lesson6_30",
+      "lesson": 6,
+      "meaning_vi": "thư",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thư"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-031-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{明日|あした}[[レポート]]を{書|か}きます。",
+          "source": "ai-draft",
+          "vi": "Ngày mai tôi viết báo cáo."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-031",
+      "kana": "レポート",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_31",
+      "lesson": 6,
+      "meaning_vi": "báo cáo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "báo cáo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-032-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{京都|きょうと}で[[{写真|しゃしん}]]を{撮|と}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã chụp ảnh ở Kyoto."
+        }
+      ],
+      "han_viet": "TẢ CHÂN",
+      "id": "mn-06-032",
+      "kana": "しゃしん",
+      "kanji": "写真",
+      "kanji_refs": [
+        "k-写",
+        "k-真"
+      ],
+      "legacy_id": "lesson6_32",
+      "lesson": 6,
+      "meaning_vi": "ảnh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ảnh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-033-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{家|うち}で[[ビデオ]]を{見|み}ます。",
+          "source": "ai-draft",
+          "vi": "Tôi xem video ở nhà."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-033",
+      "kana": "ビデオ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_33",
+      "lesson": 6,
+      "meaning_vi": "video, băng video, đầu video",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "video, băng video, đầu video"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-034-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "あの[[{店|みせ}]]で{靴|くつ}を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua giày ở cửa hàng kia."
+        }
+      ],
+      "han_viet": "ĐIẾM",
+      "id": "mn-06-034",
+      "kana": "みせ",
+      "kanji": "店",
+      "kanji_refs": [
+        "k-店"
+      ],
+      "legacy_id": "lesson6_34",
+      "lesson": 6,
+      "meaning_vi": "cửa hàng, tiệm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cửa hàng, tiệm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-035-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "[[{庭|にわ}]]でお{茶|ちゃ}を{飲|の}みませんか。",
+          "source": "ai-draft",
+          "vi": "Ra vườn uống trà nhé?"
+        }
+      ],
+      "han_viet": "ĐÌNH",
+      "id": "mn-06-035",
+      "kana": "にわ",
+      "kanji": "庭",
+      "kanji_refs": [
+        "k-庭"
+      ],
+      "legacy_id": "lesson6_35",
+      "lesson": 6,
+      "meaning_vi": "vườn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vườn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-036-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{今晩|こんばん}[[{宿題|しゅくだい}]]をします。",
+          "source": "ai-draft",
+          "vi": "Tối nay tôi làm bài tập về nhà."
+        }
+      ],
+      "han_viet": "TÚC ĐỀ",
+      "id": "mn-06-036",
+      "kana": "しゅくだい",
+      "kanji": "宿題",
+      "kanji_refs": [
+        "k-宿",
+        "k-題"
+      ],
+      "legacy_id": "lesson6_36",
+      "lesson": 6,
+      "meaning_vi": "bài tập về nhà (～をします: làm bài tập)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bài tập về nhà (～をします: làm bài tập)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-037-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{日曜日|にちようび}に[[テニス]]をしませんか。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật chơi quần vợt nhé?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-037",
+      "kana": "テニス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_37",
+      "lesson": 6,
+      "meaning_vi": "quần vợt (～をします: đánh quần vợt)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quần vợt (～をします: đánh quần vợt)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-038-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{友達|ともだち}と[[サッカー]]をします。",
+          "source": "ai-draft",
+          "vi": "Tôi chơi bóng đá với bạn."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-038",
+      "kana": "サッカー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_38",
+      "lesson": 6,
+      "meaning_vi": "bóng đá (～をします: chơi bóng đá)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bóng đá (～をします: chơi bóng đá)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-039-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{日曜日|にちようび}に[[{花見|はなみ}]]をしませんか。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật đi ngắm hoa anh đào nhé?"
+        }
+      ],
+      "han_viet": "HOA KIẾN",
+      "id": "mn-06-039",
+      "kana": "はなみ",
+      "kanji": "花見",
+      "kanji_refs": [
+        "k-花",
+        "k-見"
+      ],
+      "legacy_id": "lesson6_39",
+      "lesson": 6,
+      "meaning_vi": "việc ngắm hoa anh đào (～をします: ngắm hoa anh đào)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "việc ngắm hoa anh đào (～をします: ngắm hoa anh đào)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-040-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{明日|あした}[[{何|なに}]]をしますか。",
+          "source": "ai-draft",
+          "vi": "Ngày mai anh/chị làm gì?"
+        }
+      ],
+      "han_viet": "HÀ",
+      "id": "mn-06-040",
+      "kana": "なに",
+      "kanji": "何",
+      "kanji_refs": [
+        "k-何"
+      ],
+      "legacy_id": "lesson6_40",
+      "lesson": 6,
+      "meaning_vi": "cái gì, gì",
+      "particle": null,
+      "pos": {
+        "code": "QP",
+        "label": "Đại từ nghi vấn"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-02-036"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái gì, gì"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-041-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "[[{一緒|いっしょ}に]]{昼|ひる}ごはんを{食|た}べませんか。",
+          "source": "ai-draft",
+          "vi": "Cùng ăn trưa nhé?"
+        }
+      ],
+      "han_viet": "NHẤT TỰ",
+      "id": "mn-06-041",
+      "kana": "いっしょに",
+      "kanji": "一緒に",
+      "kanji_refs": [
+        "k-一",
+        "k-緒"
+      ],
+      "legacy_id": "lesson6_41",
+      "lesson": 6,
+      "meaning_vi": "cùng, cùng nhau",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cùng, cùng nhau"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-042-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "[[ちょっと]]{休|やす}みましょう。",
+          "source": "ai-draft",
+          "vi": "Nghỉ một chút nhé."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-042",
+      "kana": "ちょっと",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_42",
+      "lesson": 6,
+      "meaning_vi": "một chút",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "một chút"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-043-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{私|わたし}は[[いつも]]{駅|えき}で{新聞|しんぶん}を{買|か}います。",
+          "source": "ai-draft",
+          "vi": "Tôi luôn mua báo ở nhà ga."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-043",
+      "kana": "いつも",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_43",
+      "lesson": 6,
+      "meaning_vi": "luôn luôn, lúc nào cũng",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "luôn luôn, lúc nào cũng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-06-044-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "[[{時々|ときどき}]]{家族|かぞく}と{映画|えいが}を{見|み}ます。",
+          "source": "ai-draft",
+          "vi": "Thỉnh thoảng tôi xem phim cùng gia đình."
+        }
+      ],
+      "han_viet": "THỜI THỜI",
+      "id": "mn-06-044",
+      "kana": "ときどき",
+      "kanji": "時々",
+      "kanji_refs": [
+        "k-時"
+      ],
+      "legacy_id": "lesson6_44",
+      "lesson": 6,
+      "meaning_vi": "thỉnh thoảng",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thỉnh thoảng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-045-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "{宿題|しゅくだい}をします。[[それから]]、{寝|ね}ます。",
+          "source": "ai-draft",
+          "vi": "Tôi làm bài tập. Sau đó, tôi đi ngủ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-045",
+      "kana": "それから",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_45",
+      "lesson": 6,
+      "meaning_vi": "sau đó, tiếp theo",
+      "particle": null,
+      "pos": {
+        "code": "Conj",
+        "label": "Từ nối"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sau đó, tiếp theo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-06-046-e1",
+          "max_lesson": 6,
+          "review": "user",
+          "ruby": "「{一緒|いっしょ}に{行|い}きませんか。」「[[ええ]]、{行|い}きましょう。」",
+          "source": "ai-draft",
+          "vi": "\"Đi cùng nhé?\" \"Ừ, đi thôi.\""
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-06-046",
+      "kana": "ええ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_46",
+      "lesson": 6,
+      "meaning_vi": "vâng, được (cách nói thân mật của 「はい」)",
+      "particle": null,
+      "pos": {
+        "code": "Int",
+        "label": "Thán từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vâng, được (cách nói thân mật của 「はい」)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [],
+      "han_viet": null,
+      "id": "mn-06-047",
+      "kana": "いいですね。",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_47",
+      "lesson": 6,
+      "meaning_vi": "Được đấy nhỉ./ hay quá.",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Được đấy nhỉ./ hay quá."
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [],
+      "han_viet": null,
+      "id": "mn-06-048",
+      "kana": "わかりました。",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson6_48",
+      "lesson": 6,
+      "meaning_vi": "Tôi hiểu rồi/ vâng ạ.",
+      "particle": null,
+      "pos": {
+        "code": "Conv",
+        "label": "Cụm từ hội thoại"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tôi hiểu rồi/ vâng ạ."
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 6,
+  "schema_version": 4
+}

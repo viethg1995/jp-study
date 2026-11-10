@@ -1,0 +1,30 @@
+# by: ai
+# Ebook Kanji N5 — AI đọc bảng 5 chữ ở trang mở bài (ảnh ai_queue, trang 1,6,12,18, rồi 23+5·(n−5)), thứ tự như sách
+# Bài 8: bảng tổng hợp cuối sách ghi 交, trang mở bài ghi 校 HIỆU → theo trang mở bài
+# bài|chữ|âm Hán-Việt sách (cách nhau dấu cách; - = không có)
+1|一二三四五|NHẤT NHỊ TAM TỨ NGŨ
+2|六七八九十|LỤC THẤT BÁT CỬU THẬP
+3|百千万円何|BÁCH THIÊN VẠN VIÊN HÀ
+4|日月火水木|NHẬT NGUYỆT HỎA THỦY MỘC
+5|金土今年夕|KIM THỔ KIM NIÊN TỊCH
+6|時分半間週|THỜI PHÂN BÁN GIAN CHU
+7|学生先友名|HỌC SINH TIÊN HỮU DANH
+8|大小字本校|ĐẠI TIỂU TỰ BẢN HIỆU
+9|行来帰国人|HÀNH LAI QUY QUỐC NHÂN
+10|父母子男女|PHỤ MẪU TỬ NAM NỮ
+11|上下右左中|THƯỢNG HẠ HỮU TẢ TRUNG
+12|前後外入出|TIỀN HẬU NGOẠI NHẬP XUẤT
+13|南西東北方|NAM TÂY ĐÔNG BẮC PHƯƠNG
+14|口目耳手足|KHẨU MỤC NHĨ THỦ TÚC
+15|牛魚犬鳥馬|NGƯU NGƯ KHUYỂN ĐIỂU MÃ
+16|山川田海空|SƠN XUYÊN ĐIỀN HẢI KHÔNG
+17|花雨天員者|HOA VŨ THIÊN VIÊN GIẢ
+18|見聞書食飲|KIẾN VĂN THƯ THỰC ẨM
+19|買言読話休|MÃI NGÔN ĐỘC THOẠI HƯU
+20|高安長気元|CAO AN TRƯỜNG KHÍ NGUYÊN
+21|新古少多明|TÂN CỔ THIỂU ĐA MINH
+22|米肉茶物好|MỄ NHỤC TRÀ VẬT HẢO
+23|電車自寺町|ĐIỆN XA TỰ TỰ ĐINH
+24|会社病院店|HỘI XÃ BỆNH VIỆN ĐIẾM
+25|毎回午同立|MỖI HỒI NGỌ ĐỒNG LẬP
+26|内暗仕事力|NỘI ÁM SĨ SỰ LỰC

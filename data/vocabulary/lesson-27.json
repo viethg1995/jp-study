@@ -1,0 +1,1129 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-001-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{私|わたし}は{犬|いぬ}を[[{飼|か}って]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi đang nuôi chó."
+        }
+      ],
+      "han_viet": "TỰ",
+      "id": "mn-27-001",
+      "kana": "かいます",
+      "kanji": "飼います",
+      "kanji_refs": [
+        "k-飼"
+      ],
+      "legacy_id": "lesson27_1",
+      "lesson": 27,
+      "meaning_vi": "nuôi (động vật)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nuôi (động vật)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-002-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{毎朝|まいあさ}{公園|こうえん}を[[{走|はし}ります]]。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi chạy bộ trong công viên."
+        }
+      ],
+      "han_viet": "TẨU",
+      "id": "mn-27-002",
+      "kana": "はしります",
+      "kanji": "走ります",
+      "kanji_refs": [
+        "k-走"
+      ],
+      "legacy_id": "lesson27_2",
+      "lesson": 27,
+      "meaning_vi": "chạy [trên đường]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "trên đường",
+          "text": "chạy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-003-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{部屋|へや}から{海|うみ}が[[{見|み}えます]]。",
+          "source": "ai-draft",
+          "vi": "Từ phòng có thể nhìn thấy biển."
+        }
+      ],
+      "han_viet": "KIẾN",
+      "id": "mn-27-003",
+      "kana": "みえます",
+      "kanji": "見えます",
+      "kanji_refs": [
+        "k-見"
+      ],
+      "legacy_id": "lesson27_3",
+      "lesson": 27,
+      "meaning_vi": "nhìn thấy, có thể nhìn thấy [núi]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "núi",
+          "text": "nhìn thấy, có thể nhìn thấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-004-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{鳥|とり}の{声|こえ}が[[{聞|き}こえます]]。",
+          "source": "ai-draft",
+          "vi": "Có thể nghe thấy tiếng chim."
+        }
+      ],
+      "han_viet": "VĂN",
+      "id": "mn-27-004",
+      "kana": "きこえます",
+      "kanji": "聞こえます",
+      "kanji_refs": [
+        "k-聞"
+      ],
+      "legacy_id": "lesson27_4",
+      "lesson": 27,
+      "meaning_vi": "nghe thấy, có thể nghe thấy [âm thanh～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "âm thanh～",
+          "text": "nghe thấy, có thể nghe thấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-005-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{駅|えき}の{前|まえ}に{新|あたら}しいスーパーが[[できました]]。",
+          "source": "ai-draft",
+          "vi": "Trước nhà ga đã mở một siêu thị mới."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-005",
+      "kana": "できます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_5",
+      "lesson": 27,
+      "meaning_vi": "được xây dựng lên, hoàn thành [con đường～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "con đường～",
+          "text": "được xây dựng lên, hoàn thành"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-006-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{来月|らいげつ}から{日本語|にほんご}{教室|きょうしつ}を[[{開|ひら}きます]]。",
+          "source": "ai-draft",
+          "vi": "Từ tháng sau tôi sẽ mở lớp học tiếng Nhật."
+        }
+      ],
+      "han_viet": "KHAI",
+      "id": "mn-27-006",
+      "kana": "ひらきます",
+      "kanji": "開きます",
+      "kanji_refs": [
+        "k-開"
+      ],
+      "legacy_id": "lesson27_6",
+      "lesson": 27,
+      "meaning_vi": "mở [lớp học]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-29-001"
+      ],
+      "senses": [
+        {
+          "context": "lớp học",
+          "text": "mở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-007-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{試験|しけん}が[[{心配|しんぱい}]]です。",
+          "source": "ai-draft",
+          "vi": "Tôi lo lắng về kỳ thi."
+        }
+      ],
+      "han_viet": "TÂM PHỐI",
+      "id": "mn-27-007",
+      "kana": "しんぱい",
+      "kanji": "心配",
+      "kanji_refs": [
+        "k-心",
+        "k-配"
+      ],
+      "legacy_id": "lesson27_7",
+      "lesson": 27,
+      "meaning_vi": "lo lắng",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lo lắng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-008-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{私|わたし}の{家|うち}では[[ペット]]を{飼|か}うことができません。",
+          "source": "ai-draft",
+          "vi": "Nhà tôi không thể nuôi thú cưng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-008",
+      "kana": "ペット",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_8",
+      "lesson": 27,
+      "meaning_vi": "động vật cảnh (pet)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "n3-409"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "động vật cảnh (pet)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-009-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{庭|にわ}に[[{鳥|とり}]]がいます。",
+          "source": "ai-draft",
+          "vi": "Ngoài vườn có con chim."
+        }
+      ],
+      "han_viet": "ĐIỂU",
+      "id": "mn-27-009",
+      "kana": "とり",
+      "kanji": "鳥",
+      "kanji_refs": [
+        "k-鳥"
+      ],
+      "legacy_id": "lesson27_9",
+      "lesson": 27,
+      "meaning_vi": "chim",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chim"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-010-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{子|こ}どもの[[{声|こえ}]]が{聞|き}こえます。",
+          "source": "ai-draft",
+          "vi": "Có thể nghe thấy tiếng trẻ con."
+        }
+      ],
+      "han_viet": "THANH",
+      "id": "mn-27-010",
+      "kana": "こえ",
+      "kanji": "声",
+      "kanji_refs": [
+        "k-声"
+      ],
+      "legacy_id": "lesson27_10",
+      "lesson": 27,
+      "meaning_vi": "tiếng nói, giọng nói",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiếng nói, giọng nói"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-011-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "[[{波|なみ}]]の{音|おと}が{聞|き}こえます。",
+          "source": "ai-draft",
+          "vi": "Có thể nghe thấy tiếng sóng."
+        }
+      ],
+      "han_viet": "BA",
+      "id": "mn-27-011",
+      "kana": "なみ",
+      "kanji": "波",
+      "kanji_refs": [
+        "k-波"
+      ],
+      "legacy_id": "lesson27_11",
+      "lesson": 27,
+      "meaning_vi": "sóng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sóng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-012-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "ここから[[{花火|はなび}]]が{見|み}えます。",
+          "source": "ai-draft",
+          "vi": "Từ đây có thể nhìn thấy pháo hoa."
+        }
+      ],
+      "han_viet": "HOA HỎA",
+      "id": "mn-27-012",
+      "kana": "はなび",
+      "kanji": "花火",
+      "kanji_refs": [
+        "k-花",
+        "k-火"
+      ],
+      "legacy_id": "lesson27_12",
+      "lesson": 27,
+      "meaning_vi": "pháo hoa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "pháo hoa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-013-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "この[[{道具|どうぐ}]]は{便利|べんり}です。",
+          "source": "ai-draft",
+          "vi": "Dụng cụ này tiện lợi."
+        }
+      ],
+      "han_viet": "ĐẠO CỤ",
+      "id": "mn-27-013",
+      "kana": "どうぐ",
+      "kanji": "道具",
+      "kanji_refs": [
+        "k-道",
+        "k-具"
+      ],
+      "legacy_id": "lesson27_13",
+      "lesson": 27,
+      "meaning_vi": "dụng cụ, công cụ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dụng cụ, công cụ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-014-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{駅|えき}の{前|まえ}に[[クリーニング]]{屋|や}ができました。",
+          "source": "ai-draft",
+          "vi": "Trước nhà ga đã mở một tiệm giặt là."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-014",
+      "kana": "クリーニング",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_14",
+      "lesson": 27,
+      "meaning_vi": "giặt ủi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giặt ủi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-015-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{新|あたら}しい[[{家|いえ}]]を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua một ngôi nhà mới."
+        }
+      ],
+      "han_viet": "GIA",
+      "id": "mn-27-015",
+      "kana": "いえ",
+      "kanji": "家",
+      "kanji_refs": [
+        "k-家"
+      ],
+      "legacy_id": "lesson27_15",
+      "lesson": 27,
+      "meaning_vi": "nhà",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-03-024"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-016-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{新|あたら}しい[[マンション]]に{住|す}みたいです。",
+          "source": "ai-draft",
+          "vi": "Tôi muốn sống ở một căn hộ chung cư mới."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-016",
+      "kana": "マンション",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_16",
+      "lesson": 27,
+      "meaning_vi": "nhà chung cư",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhà chung cư"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-017-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "この[[キッチン]]は{広|ひろ}くて{使|つか}いやすいです。",
+          "source": "ai-draft",
+          "vi": "Nhà bếp này rộng và dễ sử dụng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-017",
+      "kana": "キッチン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_17",
+      "lesson": 27,
+      "meaning_vi": "bếp",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bếp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-018-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{料理|りょうり}[[{教室|きょうしつ}]]で{習|なら}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang học ở lớp nấu ăn."
+        }
+      ],
+      "han_viet": "GIÁO THẤT",
+      "id": "mn-27-018",
+      "kana": "～きょうしつ",
+      "kanji": "～教室",
+      "kanji_refs": [
+        "k-教",
+        "k-室"
+      ],
+      "legacy_id": "lesson27_18",
+      "lesson": 27,
+      "meaning_vi": "lớp học ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "lớp học ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-019-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "この[[パーティールーム]]は{何人|なんにん}{入|はい}れますか。",
+          "source": "ai-draft",
+          "vi": "Phòng tiệc này chứa được bao nhiêu người?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-019",
+      "kana": "パーティールーム",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_19",
+      "lesson": 27,
+      "meaning_vi": "phòng tiệc",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phòng tiệc"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-020-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "あの[[{方|かた}]]はどなたですか。",
+          "source": "ai-draft",
+          "vi": "Vị kia là ai ạ?"
+        }
+      ],
+      "han_viet": "PHƯƠNG",
+      "id": "mn-27-020",
+      "kana": "かた",
+      "kanji": "方",
+      "kanji_refs": [
+        "k-方"
+      ],
+      "legacy_id": "lesson27_20",
+      "lesson": 27,
+      "meaning_vi": "vị, ngài (kính ngữ của ひと)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vị, ngài (kính ngữ của ひと)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-27-021-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "３{年|ねん}[[{後|ご}]]に{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "3 năm sau tôi sẽ về nước."
+        }
+      ],
+      "han_viet": "HẬU",
+      "id": "mn-27-021",
+      "kana": "～ご",
+      "kanji": "～後",
+      "kanji_refs": [
+        "k-後"
+      ],
+      "legacy_id": "lesson27_21",
+      "lesson": 27,
+      "meaning_vi": "～ sau (khoảng thời gian)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ sau (khoảng thời gian)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-022-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "５０００{円|えん}[[しか]]ありません。",
+          "source": "ai-draft",
+          "vi": "Tôi chỉ có 5000 yên."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-022",
+      "kana": "～しか",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_22",
+      "lesson": 27,
+      "meaning_vi": "chỉ ～ (dùng với thể phủ định)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chỉ ～ (dùng với thể phủ định)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-023-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "[[ほかの]]{店|みせ}で{買|か}いましょう。",
+          "source": "ai-draft",
+          "vi": "Hãy mua ở cửa hàng khác."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-023",
+      "kana": "ほかの",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_23",
+      "lesson": 27,
+      "meaning_vi": "khác",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khác"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-27-024-e1",
+          "max_lesson": 27,
+          "review": "user",
+          "ruby": "{富士山|ふじさん}が[[はっきり]]{見|み}えます。",
+          "source": "ai-draft",
+          "vi": "Có thể thấy rõ núi Phú Sĩ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-27-024",
+      "kana": "はっきり",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson27_24",
+      "lesson": 27,
+      "meaning_vi": "rõ, rõ ràng",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-664"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "rõ, rõ ràng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 27,
+  "schema_version": 4
+}

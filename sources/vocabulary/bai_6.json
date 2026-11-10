@@ -1,0 +1,434 @@
+[
+  {
+    "id": "lesson6_1",
+    "jp": "たべます",
+    "kanji": "食べます",
+    "kanji_vn": "THỰC",
+    "vn": "ăn",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson6_2",
+    "jp": "のみます",
+    "kanji": "飲みます",
+    "kanji_vn": "ẨM",
+    "vn": "uống",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_3",
+    "jp": "すいます",
+    "kanji": "吸います",
+    "kanji_vn": "HẤP",
+    "vn": "hút [thuốc lá]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_4",
+    "jp": "みます",
+    "kanji": "見ます",
+    "kanji_vn": "KIẾN",
+    "vn": "xem, nhìn, trông",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson6_5",
+    "jp": "ききます",
+    "kanji": "聞きます",
+    "kanji_vn": "VĂN",
+    "vn": "nghe",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_6",
+    "jp": "よみます",
+    "kanji": "読みます",
+    "kanji_vn": "ĐỘC",
+    "vn": "đọc",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_7",
+    "jp": "かきます",
+    "kanji": "書きます",
+    "kanji_vn": "THƯ",
+    "vn": "viết, vẽ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_8",
+    "jp": "かいます",
+    "kanji": "買います",
+    "kanji_vn": "MÃI",
+    "vn": "mua",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_9",
+    "jp": "とります",
+    "kanji": "撮ります",
+    "kanji_vn": "TOÁT TẢ CHÂN",
+    "vn": "chụp [ảnh]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_10",
+    "jp": "します",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "làm",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson6_11",
+    "jp": "あいます",
+    "kanji": "会います",
+    "kanji_vn": "HỘI HỮU ĐẠT",
+    "vn": "gặp [bạn]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson6_12",
+    "jp": "ごはん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cơm, bữa ăn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_13",
+    "jp": "あさごはん",
+    "kanji": "朝ごはん",
+    "kanji_vn": "TRIỀU",
+    "vn": "cơm sáng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_14",
+    "jp": "ひるごはん",
+    "kanji": "昼ごはん",
+    "kanji_vn": "TRÚ",
+    "vn": "cơm trưa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_15",
+    "jp": "ばんごはん",
+    "kanji": "晩ごはん",
+    "kanji_vn": "VÃN",
+    "vn": "cơm tối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_16",
+    "jp": "パン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bánh mì",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson6_17",
+    "jp": "たまご",
+    "kanji": "卵",
+    "kanji_vn": "NOÃN",
+    "vn": "trứng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_18",
+    "jp": "にく",
+    "kanji": "肉",
+    "kanji_vn": "NHỤC",
+    "vn": "thịt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_19",
+    "jp": "さかな",
+    "kanji": "魚",
+    "kanji_vn": "NGƯ",
+    "vn": "cá",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_20",
+    "jp": "やさい",
+    "kanji": "野菜",
+    "kanji_vn": "DÃ THÁI",
+    "vn": "rau",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_21",
+    "jp": "くだもの",
+    "kanji": "果物",
+    "kanji_vn": "QUẢ VẬT",
+    "vn": "hoa quả, trái cây",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_22",
+    "jp": "みず",
+    "kanji": "水",
+    "kanji_vn": "THỦY",
+    "vn": "nước",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_23",
+    "jp": "おちゃ",
+    "kanji": "お茶",
+    "kanji_vn": "TRÀ",
+    "vn": "trà (nói chung)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_24",
+    "jp": "こうちゃ",
+    "kanji": "紅茶",
+    "kanji_vn": "HỒNG TRÀ",
+    "vn": "trà đen",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_25",
+    "jp": "ぎゅうにゅう",
+    "kanji": "牛乳",
+    "kanji_vn": "NGƯU NHŨ",
+    "vn": "sữa bò (sữa)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_26",
+    "jp": "ジュース",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nước hoa quả",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson6_27",
+    "jp": "ビール",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bia",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson6_28",
+    "jp": "さけ",
+    "kanji": "酒",
+    "kanji_vn": "TỬU",
+    "vn": "rượu, rượu sake",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_29",
+    "jp": "たばこ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thuốc lá",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_30",
+    "jp": "てがみ",
+    "kanji": "手紙",
+    "kanji_vn": "THỦ CHỈ",
+    "vn": "thư",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_31",
+    "jp": "レポート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "báo cáo",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson6_32",
+    "jp": "しゃしん",
+    "kanji": "写真",
+    "kanji_vn": "TẢ CHÂN",
+    "vn": "ảnh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_33",
+    "jp": "ビデオ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "video, băng video, đầu video",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson6_34",
+    "jp": "みせ",
+    "kanji": "店",
+    "kanji_vn": "ĐIẾM",
+    "vn": "cửa hàng, tiệm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_35",
+    "jp": "にわ",
+    "kanji": "庭",
+    "kanji_vn": "ĐÌNH",
+    "vn": "vườn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_36",
+    "jp": "しゅくだい",
+    "kanji": "宿題",
+    "kanji_vn": "TÚC ĐỀ",
+    "vn": "bài tập về nhà (～をします: làm bài tập)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_37",
+    "jp": "テニス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "quần vợt (～をします: đánh quần vợt)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson6_38",
+    "jp": "サッカー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bóng đá (～をします: chơi bóng đá)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson6_39",
+    "jp": "はなみ",
+    "kanji": "花見",
+    "kanji_vn": "HOA KIẾN",
+    "vn": "việc ngắm hoa anh đào (～をします: ngắm hoa anh đào)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson6_40",
+    "jp": "なに",
+    "kanji": "何",
+    "kanji_vn": "HÀ",
+    "vn": "cái gì, gì",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson6_41",
+    "jp": "いっしょに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cùng, cùng nhau",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson6_42",
+    "jp": "ちょっと",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "một chút",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson6_43",
+    "jp": "いつも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "luôn luôn, lúc nào cũng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson6_44",
+    "jp": "ときどき",
+    "kanji": "時々",
+    "kanji_vn": "THÌ (KÉP)",
+    "vn": "thỉnh thoảng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson6_45",
+    "jp": "それから",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sau đó, tiếp theo",
+    "type": "Từ nối",
+    "type_code": "Conj"
+  },
+  {
+    "id": "lesson6_46",
+    "jp": "ええ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vâng, được (cách nói thân mật của 「はい」)",
+    "type": "Thán từ",
+    "type_code": "Int"
+  },
+  {
+    "id": "lesson6_47",
+    "jp": "いいですね。",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Được đấy nhỉ./ hay quá.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson6_48",
+    "jp": "わかりました。",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Tôi hiểu rồi/ vâng ạ.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  }
+]

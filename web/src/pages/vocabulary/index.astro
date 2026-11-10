@@ -1,0 +1,51 @@
+---
+// Danh sách bài từ vựng: N5 (Minna 1–25), N4 (Minna 26–50), N3 (sách N3, 14 bài) — neo #n5 #n4 #n3 cho menu.
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+
+const lessons = (await getCollection("vocabulary"))
+  .map((l) => l.data)
+  .sort((a, b) => a.lesson - b.lesson);
+const n3 = (await getCollection("vocabularyN3"))
+  .map((l) => l.data)
+  .sort((a, b) => a.lesson - b.lesson);
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const total = [...lessons, ...n3].reduce((n, l) => n + l.entries.length, 0);
+const groups = [
+  { id: "n5", title: "N5", subtitle: "みんなの日本語 · Bài 1–25", route: "vocabulary", items: lessons.filter((l) => l.lesson <= 25) },
+  { id: "n4", title: "N4", subtitle: "みんなの日本語 · Bài 26–50", route: "vocabulary", items: lessons.filter((l) => l.lesson > 25) },
+  { id: "n3", title: "N3", subtitle: `N3 準備 文字語彙 · Bài 1–${n3.length}`, route: "vocabulary/n3", items: n3 },
+];
+---
+
+<Base title="Từ vựng">
+  <h1 class="text-2xl font-bold">Từ vựng</h1>
+  <p class="mt-1 text-sm text-ink-muted">N5 – N3 · {total} từ</p>
+
+  {
+    groups.map((g) => (
+      <section id={g.id} class="mt-8 scroll-mt-20">
+        <h2 class="flex items-baseline gap-2 text-lg font-bold">
+          {g.title}
+          <span class="text-sm font-normal text-ink-faint">
+            {g.subtitle} · {g.items.reduce((n, l) => n + l.entries.length, 0)} từ
+          </span>
+        </h2>
+        <ul class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+          {g.items.map((l) => (
+            <li>
+              <a
+                href={`${base}/${g.route}/${l.lesson}/`}
+                class="flex items-baseline justify-between rounded-lg border border-line bg-surface p-3 transition hover:border-primary"
+              >
+                <span class="font-semibold">Bài {l.lesson}</span>
+                <span class="text-xs text-ink-faint">{l.entries.length} từ</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</Base>

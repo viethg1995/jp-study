@@ -1,0 +1,675 @@
+{
+  "mn-04-001": {
+    "examples": [
+      {
+        "id": "mn-04-001-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{私|わたし}は{毎朝|まいあさ}６{時|じ}に[[{起|お}きます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi thức dậy lúc 6 giờ mỗi sáng."
+      }
+    ]
+  },
+  "mn-04-002": {
+    "examples": [
+      {
+        "id": "mn-04-002-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{毎晩|まいばん}１１{時|じ}に[[{寝|ね}ます]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi tối tôi đi ngủ lúc 11 giờ."
+      }
+    ]
+  },
+  "mn-04-003": {
+    "examples": [
+      {
+        "id": "mn-04-003-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{月曜日|げつようび}から{金曜日|きんようび}まで[[{働|はたら}きます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi làm việc từ thứ hai đến thứ sáu."
+      }
+    ]
+  },
+  "mn-04-004": {
+    "examples": [
+      {
+        "id": "mn-04-004-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{日曜日|にちようび}は[[{休|やす}みます]]。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật tôi nghỉ."
+      }
+    ]
+  },
+  "mn-04-005": {
+    "examples": [
+      {
+        "id": "mn-04-005-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{毎晩|まいばん}[[{勉強|べんきょう}します]]。",
+        "source": "ai-draft",
+        "vi": "Tối nào tôi cũng học."
+      }
+    ]
+  },
+  "mn-04-006": {
+    "examples": [
+      {
+        "id": "mn-04-006-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{会議|かいぎ}は３{時|じ}に[[{終|お}わります]]。",
+        "source": "ai-draft",
+        "vi": "Cuộc họp kết thúc lúc 3 giờ."
+      }
+    ]
+  },
+  "mn-04-007": {
+    "examples": [
+      {
+        "id": "mn-04-007-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[デパート]]は{何時|なんじ}までですか。",
+        "source": "ai-draft",
+        "vi": "Trung tâm thương mại mở cửa đến mấy giờ?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "デパート: PN→N (JMdict: danh từ thông dụng (department store))",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-008": {
+    "examples": [
+      {
+        "id": "mn-04-008-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{銀行|ぎんこう}]]は９{時|じ}から３{時|じ}までです。",
+        "source": "ai-draft",
+        "vi": "Ngân hàng làm việc từ 9 giờ đến 3 giờ."
+      }
+    ]
+  },
+  "mn-04-009": {
+    "examples": [
+      {
+        "id": "mn-04-009-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{郵便局|ゆうびんきょく}]]は{何時|なんじ}までですか。",
+        "source": "ai-draft",
+        "vi": "Bưu điện mở cửa đến mấy giờ?"
+      }
+    ]
+  },
+  "mn-04-010": {
+    "examples": [
+      {
+        "id": "mn-04-010-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{図書館|としょかん}]]は{月曜日|げつようび}が{休|やす}みです。",
+        "source": "ai-draft",
+        "vi": "Thư viện nghỉ vào thứ hai."
+      }
+    ]
+  },
+  "mn-04-011": {
+    "examples": [
+      {
+        "id": "mn-04-011-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{美術館|びじゅつかん}]]は{何時|なんじ}からですか。",
+        "source": "ai-draft",
+        "vi": "Bảo tàng mỹ thuật mở cửa từ mấy giờ?"
+      }
+    ]
+  },
+  "mn-04-012": {
+    "examples": [
+      {
+        "id": "mn-04-012-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{今|いま}]]、{何時|なんじ}ですか。",
+        "source": "ai-draft",
+        "vi": "Bây giờ là mấy giờ?"
+      }
+    ]
+  },
+  "mn-04-013": {
+    "examples": [
+      {
+        "id": "mn-04-013-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{今|いま}４[[{時|じ}]]です。",
+        "source": "ai-draft",
+        "vi": "Bây giờ là 4 giờ."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～時 giờ",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-014": {
+    "examples": [
+      {
+        "id": "mn-04-014-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{今|いま}３{時|じ}１０[[{分|ぷん}]]です。",
+        "source": "ai-draft",
+        "vi": "Bây giờ là 3 giờ 10 phút."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～分 phút",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-015": {
+    "examples": [
+      {
+        "id": "mn-04-015-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{今|いま}７{時|じ}[[{半|はん}]]です。",
+        "source": "ai-draft",
+        "vi": "Bây giờ là 7 giờ rưỡi."
+      }
+    ]
+  },
+  "mn-04-016": {
+    "examples": [
+      {
+        "id": "mn-04-016-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{銀行|ぎんこう}は[[{何時|なんじ}]]までですか。",
+        "source": "ai-draft",
+        "vi": "Ngân hàng làm việc đến mấy giờ?"
+      }
+    ]
+  },
+  "mn-04-017": {
+    "examples": [
+      {
+        "id": "mn-04-017-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{今|いま}{何時|なんじ}[[{何分|なんぷん}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Bây giờ là mấy giờ mấy phút?"
+      }
+    ]
+  },
+  "mn-04-018": {
+    "examples": [
+      {
+        "id": "mn-04-018-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{午前|ごぜん}]]９{時|じ}から{働|はたら}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi làm việc từ 9 giờ sáng."
+      }
+    ]
+  },
+  "mn-04-019": {
+    "examples": [
+      {
+        "id": "mn-04-019-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{午後|ごご}]]５{時|じ}に{終|お}わります。",
+        "source": "ai-draft",
+        "vi": "Tôi kết thúc công việc lúc 5 giờ chiều."
+      }
+    ]
+  },
+  "mn-04-020": {
+    "examples": [
+      {
+        "id": "mn-04-020-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{朝|あさ}]]７{時|じ}に{起|お}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi dậy lúc 7 giờ sáng."
+      }
+    ]
+  },
+  "mn-04-021": {
+    "examples": [
+      {
+        "id": "mn-04-021-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{昼|ひる}]]１２{時|じ}から{休|やす}みます。",
+        "source": "ai-draft",
+        "vi": "Buổi trưa tôi nghỉ từ 12 giờ."
+      }
+    ]
+  },
+  "mn-04-022": {
+    "examples": [
+      {
+        "id": "mn-04-022-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{晩|ばん}]]１０{時|じ}まで{勉強|べんきょう}します。",
+        "source": "ai-draft",
+        "vi": "Buổi tối tôi học đến 10 giờ."
+      }
+    ]
+  },
+  "mn-04-023": {
+    "examples": [
+      {
+        "id": "mn-04-023-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{一昨日|おととい}]]{働|はたら}きました。",
+        "source": "ai-draft",
+        "vi": "Hôm kia tôi đã làm việc."
+      }
+    ],
+    "han_viet": "NHẤT TẠC NHẬT",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-024": {
+    "examples": [
+      {
+        "id": "mn-04-024-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{昨日|きのう}]]{勉強|べんきょう}しました。",
+        "source": "ai-draft",
+        "vi": "Hôm qua tôi đã học."
+      }
+    ],
+    "han_viet": "TẠC NHẬT",
+    "han_viet_source": "user",
+    "kanji": "昨日",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-025": {
+    "examples": [
+      {
+        "id": "mn-04-025-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{今日|きょう}]]は{何曜日|なんようび}ですか。",
+        "source": "ai-draft",
+        "vi": "Hôm nay là thứ mấy?"
+      }
+    ],
+    "han_viet": "KIM NHẬT",
+    "han_viet_source": "user",
+    "kanji": "今日",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-026": {
+    "examples": [
+      {
+        "id": "mn-04-026-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{明日|あした}]]{働|はたら}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi làm việc."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-027": {
+    "examples": [
+      {
+        "id": "mn-04-027-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{明後日|あさって}]]は{試験|しけん}です。",
+        "source": "ai-draft",
+        "vi": "Ngày kia là kỳ thi."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-028": {
+    "examples": [
+      {
+        "id": "mn-04-028-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{今朝|けさ}]]６{時|じ}に{起|お}きました。",
+        "source": "ai-draft",
+        "vi": "Sáng nay tôi dậy lúc 6 giờ."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-029": {
+    "examples": [
+      {
+        "id": "mn-04-029-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{今晩|こんばん}]]{勉強|べんきょう}します。",
+        "source": "ai-draft",
+        "vi": "Tối nay tôi sẽ học."
+      }
+    ]
+  },
+  "mn-04-030": {
+    "examples": [
+      {
+        "id": "mn-04-030-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{明日|あした}は[[{休|やす}み]]ですか。",
+        "source": "ai-draft",
+        "vi": "Ngày mai có phải là ngày nghỉ không?"
+      }
+    ]
+  },
+  "mn-04-031": {
+    "examples": [
+      {
+        "id": "mn-04-031-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{昼休|ひるやす}み]]は１２{時|じ}から１{時|じ}までです。",
+        "source": "ai-draft",
+        "vi": "Giờ nghỉ trưa từ 12 giờ đến 1 giờ."
+      }
+    ]
+  },
+  "mn-04-032": {
+    "examples": [
+      {
+        "id": "mn-04-032-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{試験|しけん}]]は{何時|なんじ}からですか。",
+        "source": "ai-draft",
+        "vi": "Kỳ thi bắt đầu từ mấy giờ?"
+      }
+    ],
+    "kana": "しけん",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "nguồn ghi kana = 試験",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-033": {
+    "examples": [
+      {
+        "id": "mn-04-033-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{会議|かいぎ}]]は{何時|なんじ}に{終|お}わりますか。",
+        "source": "ai-draft",
+        "vi": "Cuộc họp kết thúc lúc mấy giờ?"
+      }
+    ],
+    "kana": "かいぎ",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "nguồn ghi kana = 会議",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-034": {
+    "examples": [
+      {
+        "id": "mn-04-034-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{映画|えいが}]]は９{時|じ}からです。",
+        "source": "ai-draft",
+        "vi": "Phim bắt đầu từ 9 giờ."
+      }
+    ],
+    "kana": "えいが",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "nguồn ghi kana = 映画",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-035": {
+    "examples": [
+      {
+        "id": "mn-04-035-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{毎朝|まいあさ}]]７{時|じ}に{起|お}きます。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi dậy lúc 7 giờ."
+      }
+    ]
+  },
+  "mn-04-036": {
+    "examples": [
+      {
+        "id": "mn-04-036-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{毎晩|まいばん}]]{勉強|べんきょう}します。",
+        "source": "ai-draft",
+        "vi": "Mỗi tối tôi đều học."
+      }
+    ]
+  },
+  "mn-04-037": {
+    "examples": [
+      {
+        "id": "mn-04-037-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{毎日|まいにち}]]{働|はたら}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày nào tôi cũng làm việc."
+      }
+    ]
+  },
+  "mn-04-038": {
+    "examples": [
+      {
+        "id": "mn-04-038-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{月曜日|げつようび}]]から{働|はたら}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi làm việc từ thứ hai."
+      }
+    ]
+  },
+  "mn-04-039": {
+    "examples": [
+      {
+        "id": "mn-04-039-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{火曜日|かようび}]]は{会議|かいぎ}です。",
+        "source": "ai-draft",
+        "vi": "Thứ ba có cuộc họp."
+      }
+    ]
+  },
+  "mn-04-040": {
+    "examples": [
+      {
+        "id": "mn-04-040-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{水曜日|すいようび}]]は{休|やす}みです。",
+        "source": "ai-draft",
+        "vi": "Thứ tư là ngày nghỉ."
+      }
+    ]
+  },
+  "mn-04-041": {
+    "examples": [
+      {
+        "id": "mn-04-041-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{木曜日|もくようび}]]に{勉強|べんきょう}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã học vào thứ năm."
+      }
+    ]
+  },
+  "mn-04-042": {
+    "examples": [
+      {
+        "id": "mn-04-042-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{金曜日|きんようび}]]まで{働|はたら}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi làm việc đến thứ sáu."
+      }
+    ]
+  },
+  "mn-04-043": {
+    "examples": [
+      {
+        "id": "mn-04-043-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{土曜日|どようび}]]は{何時|なんじ}に{起|お}きますか。",
+        "source": "ai-draft",
+        "vi": "Thứ bảy anh/chị dậy lúc mấy giờ?"
+      }
+    ]
+  },
+  "mn-04-044": {
+    "examples": [
+      {
+        "id": "mn-04-044-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "[[{日曜日|にちようび}]]は{休|やす}みます。",
+        "source": "ai-draft",
+        "vi": "Chủ nhật tôi nghỉ."
+      }
+    ]
+  },
+  "mn-04-045": {
+    "examples": [
+      {
+        "id": "mn-04-045-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{試験|しけん}は[[{何曜日|なんようび}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Kỳ thi vào thứ mấy?"
+      }
+    ]
+  },
+  "mn-04-046": {
+    "examples": [
+      {
+        "id": "mn-04-046-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "９{時|じ}[[から]]{働|はたら}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi làm việc từ 9 giờ."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "trợ từ",
+      "status": "reviewed"
+    }
+  },
+  "mn-04-047": {
+    "examples": [
+      {
+        "id": "mn-04-047-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "５{時|じ}[[まで]]{勉強|べんきょう}します。",
+        "source": "ai-draft",
+        "vi": "Tôi học đến 5 giờ."
+      }
+    ]
+  },
+  "mn-04-048": {
+    "examples": [
+      {
+        "id": "mn-04-048-e1",
+        "max_lesson": 4,
+        "review": "user",
+        "ruby": "{土曜日|どようび}[[と]]{日曜日|にちようび}は{休|やす}みです。",
+        "source": "ai-draft",
+        "vi": "Thứ bảy và chủ nhật là ngày nghỉ."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "trợ từ",
+      "status": "reviewed"
+    }
+  }
+}

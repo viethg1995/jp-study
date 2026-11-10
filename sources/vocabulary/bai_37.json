@@ -1,0 +1,344 @@
+[
+  {
+    "id": "lesson37_1",
+    "jp": "ほめます",
+    "kanji": "褒めます",
+    "kanji_vn": "BAO",
+    "vn": "khen",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson37_2",
+    "jp": "しかります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mắng",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson37_3",
+    "jp": "さそいます",
+    "kanji": "誘います",
+    "kanji_vn": "DỤ",
+    "vn": "mời, rủ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson37_4",
+    "jp": "しょうたいします",
+    "kanji": "招待します",
+    "kanji_vn": "CHIÊU ĐÃI",
+    "vn": "mời",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_5",
+    "jp": "たのみます",
+    "kanji": "頼みます",
+    "kanji_vn": "LẠI",
+    "vn": "nhờ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson37_6",
+    "jp": "ちゅういします",
+    "kanji": "注意します",
+    "kanji_vn": "CHÚ Ý",
+    "vn": "chú ý, nhắc nhở",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_7",
+    "jp": "とります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ăn trộm, lấy cắp",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson37_8",
+    "jp": "ふみます",
+    "kanji": "踏みます",
+    "kanji_vn": "ĐẠP",
+    "vn": "giẫm, giẫm lên, giẫm vào",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson37_9",
+    "jp": "こわします",
+    "kanji": "壊します",
+    "kanji_vn": "HOẠI",
+    "vn": "phá, làm hỏng",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_10",
+    "jp": "よごします",
+    "kanji": "汚します",
+    "kanji_vn": "Ô",
+    "vn": "làm bẩn",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_11",
+    "jp": "おこないます",
+    "kanji": "行います",
+    "kanji_vn": "HÀNH",
+    "vn": "thực hiện, tiến hành",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson37_12",
+    "jp": "ゆしゅつします",
+    "kanji": "輸出します",
+    "kanji_vn": "THÂU XUẤT",
+    "vn": "xuất khẩu",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_13",
+    "jp": "ゆにゅうします",
+    "kanji": "輸入します",
+    "kanji_vn": "THÂU NHẬP",
+    "vn": "nhập khẩu",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_14",
+    "jp": "ほんやくします",
+    "kanji": "翻訳します",
+    "kanji_vn": "PHIÊN DỊCH",
+    "vn": "dịch (sách, tài liệu)",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_15",
+    "jp": "はつめいします",
+    "kanji": "発明します",
+    "kanji_vn": "PHÁT MINH",
+    "vn": "phát minh",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_16",
+    "jp": "はっけんします",
+    "kanji": "発見します",
+    "kanji_vn": "PHÁT KIẾN",
+    "vn": "phát kiến, tìm ra, tìm thấy",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson37_17",
+    "jp": "こめ",
+    "kanji": "米",
+    "kanji_vn": "MỄ",
+    "vn": "gạo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_18",
+    "jp": "むぎ",
+    "kanji": "麦",
+    "kanji_vn": "MẠCH",
+    "vn": "lúa mạch",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_19",
+    "jp": "せきゆ",
+    "kanji": "石油",
+    "kanji_vn": "THẠCH DU",
+    "vn": "dầu mỏ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_20",
+    "jp": "げんりょう",
+    "kanji": "原料",
+    "kanji_vn": "NGUYÊN LIỆU",
+    "vn": "nguyên liệu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_21",
+    "jp": "インスタントラーメン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mỳ ăn liền, mỳ gói",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson37_22",
+    "jp": "デート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cuộc hẹn hò (của nam nữ)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson37_23",
+    "jp": "どろぼう",
+    "kanji": "泥棒",
+    "kanji_vn": "NÊ BỔNG",
+    "vn": "kẻ trộm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_24",
+    "jp": "けいかん",
+    "kanji": "警官",
+    "kanji_vn": "CẢNH QUAN",
+    "vn": "cảnh sát",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_25",
+    "jp": "せかいじゅう",
+    "kanji": "世界中",
+    "kanji_vn": "THẾ GIỚI TRUNG",
+    "vn": "khắp thế giới, toàn thế giới",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_26",
+    "jp": "～じゅう",
+    "kanji": "～中",
+    "kanji_vn": "TRUNG",
+    "vn": "khắp ~, toàn ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson37_27",
+    "jp": "―せいき",
+    "kanji": "―世紀",
+    "kanji_vn": "THẾ KỶ",
+    "vn": "thế kỷ -",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_28",
+    "jp": "なにご",
+    "kanji": "何語",
+    "kanji_vn": "HÀ NGỮ",
+    "vn": "tiếng gì",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_29",
+    "jp": "だれか",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ai đó",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_30",
+    "jp": "よかったですね。",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Hay quá nhỉ./ Vui quá nhỉ",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson37_31",
+    "jp": "オリンピック",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Olympic",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson37_32",
+    "jp": "ワールドカップ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Cúp bóng đá thế giới",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson37_33",
+    "jp": "とうだいじ",
+    "kanji": "東大寺",
+    "kanji_vn": "ĐÔNG ĐẠI TỰ",
+    "vn": "Chùa Todaiji",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_34",
+    "jp": "だいぶつ",
+    "kanji": "大仏",
+    "kanji_vn": "ĐẠI PHẬT",
+    "vn": "tượng phật lớn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_35",
+    "jp": "えどじだい",
+    "kanji": "江戸時代",
+    "kanji_vn": "GIANG HỘ THỜI ĐẠI",
+    "vn": "thời Edo (1603-1868)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson37_36",
+    "jp": "ポルトガル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Bồ Đào Nha",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson37_37",
+    "jp": "サウジアラビア",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Ả-rập Xê-út (Saudi Arabia)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson37_38",
+    "jp": "ロシア",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Nga",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "id": "lesson1_1",
+    "jp": "わたし",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tôi",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson1_2",
+    "jp": "あなた",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "anh/ chị/ ông/ bà",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson1_3",
+    "jp": "あのひと",
+    "kanji": "あの人",
+    "kanji_vn": "NHÂN",
+    "vn": "người kia, người đó",
+    "type": "Đại từ / Cụm từ",
+    "type_code": "Pro/Phr"
+  },
+  {
+    "id": "lesson1_4",
+    "jp": "あのかた",
+    "kanji": "あの方",
+    "kanji_vn": "PHƯƠNG",
+    "vn": "vị kia (cách nói lịch sự của あのひと)",
+    "type": "Đại từ / Cụm từ",
+    "type_code": "Pro/Phr"
+  },
+  {
+    "id": "lesson1_5",
+    "jp": "～さん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "anh, chị, ông, bà (hậu tố thêm vào sau tên)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson1_6",
+    "jp": "～ちゃん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hậu tố thêm vào sau tên của trẻ em (thay cho ～さん)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson1_7",
+    "jp": "～じん",
+    "kanji": "～人",
+    "kanji_vn": "NHÂN",
+    "vn": "người (nước) ~ (ví dụ: アメリカじん là người Mỹ)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson1_8",
+    "jp": "せんせい",
+    "kanji": "先生",
+    "kanji_vn": "TIÊN SINH",
+    "vn": "thầy / cô (dùng để gọi hoặc nói về người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_9",
+    "jp": "きょうし",
+    "kanji": "教師",
+    "kanji_vn": "GIÁO SƯ",
+    "vn": "giáo viên (dùng khi nói về nghề nghiệp của bản thân)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_10",
+    "jp": "がくせい",
+    "kanji": "学生",
+    "kanji_vn": "HỌC SINH",
+    "vn": "học sinh, sinh viên",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_11",
+    "jp": "かいしゃいん",
+    "kanji": "会社員",
+    "kanji_vn": "HỘI XÃ VIÊN",
+    "vn": "nhân viên công ty",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_12",
+    "jp": "しゃいん",
+    "kanji": "社員",
+    "kanji_vn": "XÃ VIÊN",
+    "vn": "nhân viên công ty ~ (ví dụ: ＩＭＣのしゃいん)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_13",
+    "jp": "ぎんこういん",
+    "kanji": "銀行員",
+    "kanji_vn": "NGÂN HÀNH VIÊN",
+    "vn": "nhân viên ngân hàng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_14",
+    "jp": "いしゃ",
+    "kanji": "医者",
+    "kanji_vn": "Y GIẢ",
+    "vn": "bác sĩ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_15",
+    "jp": "けんきゅうしゃ",
+    "kanji": "研究者",
+    "kanji_vn": "NGHIÊN CỨU GIẢ",
+    "vn": "nhà nghiên cứu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_16",
+    "jp": "だいがく",
+    "kanji": "大学",
+    "kanji_vn": "ĐẠI HỌC",
+    "vn": "đại học, trường đại học",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_17",
+    "jp": "びょういん",
+    "kanji": "病院",
+    "kanji_vn": "BỆNH VIỆN",
+    "vn": "bệnh viện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson1_18",
+    "jp": "だれ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ai",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson1_19",
+    "jp": "どなた",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vị nào (cách nói lịch sự của だれ)",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson1_20",
+    "jp": "―さい",
+    "kanji": "－歳",
+    "kanji_vn": "NHẤT TUẾ",
+    "vn": "― tuổi",
+    "type": "Hậu tố / Lượng từ",
+    "type_code": "Suf/Cnt"
+  },
+  {
+    "id": "lesson1_21",
+    "jp": "なんさい",
+    "kanji": "何歳",
+    "kanji_vn": "HÀ TUẾ",
+    "vn": "mấy tuổi, bao nhiêu tuổi",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson1_22",
+    "jp": "おいくつ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mấy tuổi, bao nhiêu tuổi (cách nói lịch sự của なんさい)",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson1_23",
+    "jp": "はい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vâng, dạ",
+    "type": "Thán từ",
+    "type_code": "Int"
+  },
+  {
+    "id": "lesson1_24",
+    "jp": "いいえ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "không",
+    "type": "Thán từ",
+    "type_code": "Int"
+  },
+  {
+    "id": "lesson1_25",
+    "jp": "はじめまして",
+    "kanji": "初めまして",
+    "kanji_vn": null,
+    "vn": "Rất hân hạnh được gặp anh/chị",
+    "type": "Cụm từ chào hỏi",
+    "type_code": "Greet"
+  },
+  {
+    "id": "lesson1_26",
+    "jp": "～からきました",
+    "kanji": "～から来ました",
+    "kanji_vn": null,
+    "vn": "(tôi) đến từ ~",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson1_27",
+    "jp": "どうぞよろしく",
+    "kanji": "どうぞよろしく",
+    "kanji_vn": null,
+    "vn": "Rất vui khi được làm quen",
+    "type": "Cụm từ chào hỏi",
+    "type_code": "Greet"
+  },
+  {
+    "id": "lesson1_28",
+    "jp": "しつれいですが",
+    "kanji": "失礼ですが",
+    "kanji_vn": null,
+    "vn": "xin lỗi, … (dùng trước khi hỏi thông tin cá nhân ai đó)",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson1_29",
+    "jp": "おなまえは？",
+    "kanji": "お名前は？",
+    "kanji_vn": null,
+    "vn": "Tên anh/chị là gì?",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson1_30",
+    "jp": "こちらは～さんです",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Đây là anh/chị/ông/bà ~",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson1_31",
+    "jp": "アメリカ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Mỹ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_32",
+    "jp": "イギリス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Anh",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_33",
+    "jp": "インド",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Ấn Độ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_34",
+    "jp": "インドネシア",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Indonesia",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_35",
+    "jp": "かんこく",
+    "kanji": "韓国",
+    "kanji_vn": null,
+    "vn": "Hàn Quốc",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_36",
+    "jp": "タイ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Thái Lan",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_37",
+    "jp": "ちゅうごく",
+    "kanji": "中国",
+    "kanji_vn": null,
+    "vn": "Trung Quốc",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_38",
+    "jp": "ドイツ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Đức",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_39",
+    "jp": "にほん",
+    "kanji": "日本",
+    "kanji_vn": null,
+    "vn": "Nhật Bản",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_40",
+    "jp": "ブラジル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Braxin",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_41",
+    "jp": "ＩＭＣ / パワーでんき / ブラジルエアー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Tên công ty (giả định trong giáo trình)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_42",
+    "jp": "ＡＫＣ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Tên một tổ chức (giả định)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_43",
+    "jp": "こうべびょういん",
+    "kanji": "神戸病院",
+    "kanji_vn": null,
+    "vn": "Bệnh viện Kobe (giả định)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_44",
+    "jp": "さくらだいがく",
+    "kanji": "さくら大学",
+    "kanji_vn": null,
+    "vn": "Trường Đại học Sakura (giả định)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson1_45",
+    "jp": "ふじだいがく",
+    "kanji": "富士大学",
+    "kanji_vn": null,
+    "vn": "Trường Đại học Phú Sĩ (giả định)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  }
+]

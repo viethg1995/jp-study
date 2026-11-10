@@ -1,0 +1,353 @@
+[
+  {
+    "id": "lesson39_1",
+    "jp": "こたえます",
+    "kanji": "答えます",
+    "kanji_vn": "ĐÁPCHẤT VẤN",
+    "vn": "trả lời [câu hỏi]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson39_2",
+    "jp": "たおれます",
+    "kanji": "倒れます",
+    "kanji_vn": "ĐẢO",
+    "vn": "đổ [nhà cao tầng ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson39_3",
+    "jp": "とおります",
+    "kanji": "通ります",
+    "kanji_vn": "THÔNGĐẠO",
+    "vn": "đi qua (đường)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson39_4",
+    "jp": "しにます",
+    "kanji": "死にます",
+    "kanji_vn": "TỬ",
+    "vn": "chết",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson39_5",
+    "jp": "びっくりします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ngạc nhiên, giật mình",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson39_6",
+    "jp": "がっかりします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thất vọng",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson39_7",
+    "jp": "あんしんします",
+    "kanji": "安心します",
+    "kanji_vn": "AN TÂM",
+    "vn": "yên tâm",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson39_8",
+    "jp": "けんかします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cãi nhau",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson39_9",
+    "jp": "りこんします",
+    "kanji": "離婚します",
+    "kanji_vn": "LY HÔN",
+    "vn": "ly dị, ly hôn",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson39_10",
+    "jp": "ふとります",
+    "kanji": "太ります",
+    "kanji_vn": "THÁI",
+    "vn": "béo lên, tăng cân",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson39_11",
+    "jp": "やせます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "gầy đi, giảm cân",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson39_12",
+    "jp": "ふくざつ",
+    "kanji": "複雑",
+    "kanji_vn": "PHỨC TẠP",
+    "vn": "phức tạp",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson39_13",
+    "jp": "じゃま",
+    "kanji": "邪魔",
+    "kanji_vn": "TÀ MA",
+    "vn": "cản trở, chiếm diện tích",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson39_14",
+    "jp": "かたい",
+    "kanji": "硬い",
+    "kanji_vn": "NGẠNH",
+    "vn": "cứng",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson39_15",
+    "jp": "やわらかい",
+    "kanji": "軟らかい",
+    "kanji_vn": "NHUYỄN",
+    "vn": "mềm",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson39_16",
+    "jp": "きたない",
+    "kanji": "汚い",
+    "kanji_vn": "Ô",
+    "vn": "bẩn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_17",
+    "jp": "うれしい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vui, mừng",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson39_18",
+    "jp": "かなしい",
+    "kanji": "悲しい",
+    "kanji_vn": "BI",
+    "vn": "buồn, đau thương",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson39_19",
+    "jp": "はずかしい",
+    "kanji": "恥ずかしい",
+    "kanji_vn": "SỈ",
+    "vn": "xấu hổ, thẹn, hổ thẹn",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson39_20",
+    "jp": "しゅしょう",
+    "kanji": "首相",
+    "kanji_vn": "THỦ TƯỚNG",
+    "vn": "thủ tướng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_21",
+    "jp": "じしん",
+    "kanji": "地震",
+    "kanji_vn": "ĐỊA CHẤN",
+    "vn": "động đất",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_22",
+    "jp": "つなみ",
+    "kanji": "津波",
+    "kanji_vn": "TÂN BA",
+    "vn": "sóng thần",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_23",
+    "jp": "たいふう",
+    "kanji": "台風",
+    "kanji_vn": "ĐÀI PHONG",
+    "vn": "bão",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_24",
+    "jp": "かみなり",
+    "kanji": "雷",
+    "kanji_vn": "LÔI",
+    "vn": "sấm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_25",
+    "jp": "かじ",
+    "kanji": "火事",
+    "kanji_vn": "HỎA SỰ",
+    "vn": "hỏa hoạn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_26",
+    "jp": "じこ",
+    "kanji": "事故",
+    "kanji_vn": "SỰ CỐ",
+    "vn": "tai nạn, sự cố",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_27",
+    "jp": "ハイキング",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "dã ngoại",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson39_28",
+    "jp": "みあい",
+    "kanji": "見合い",
+    "kanji_vn": "KIẾN HỢP",
+    "vn": "Nam nữ làm quen qua giới thiệu, làm mối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_29",
+    "jp": "そうさ",
+    "kanji": "操作",
+    "kanji_vn": "THAO TÁC",
+    "vn": "thao tác",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_30",
+    "jp": "かいじょう",
+    "kanji": "会場",
+    "kanji_vn": "HỘI TRƯỜNG",
+    "vn": "hội trường, địa điểm tổ chức",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_31",
+    "jp": "～だい",
+    "kanji": "～代",
+    "kanji_vn": "ĐẠI",
+    "vn": "tiền ~, phí ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson39_32",
+    "jp": "～や",
+    "kanji": "～屋",
+    "kanji_vn": "ỐC",
+    "vn": "tiệm~, quầy~, người bán ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson39_33",
+    "jp": "フロント",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bộ phận tiếp tân, bộ phận thường trực",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson39_34",
+    "jp": "―ごうしつ",
+    "kanji": "―号室",
+    "kanji_vn": "HIỆU THẤT",
+    "vn": "phòng số -",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_35",
+    "jp": "タオル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khăn lau, khăn tắm",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson39_36",
+    "jp": "せっけん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "xà phòng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson39_37",
+    "jp": "おおぜい",
+    "kanji": "大勢",
+    "kanji_vn": "ĐẠI THẾ",
+    "vn": "nhiều người",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson39_38",
+    "jp": "お疲れ様でした。",
+    "kanji": null,
+    "kanji_vn": "BÌ DẠNG",
+    "vn": "Chắc anh chị đã mệt vì làm việc.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson39_39",
+    "jp": "伺います。",
+    "kanji": null,
+    "kanji_vn": "TỨ",
+    "vn": "Tôi đến thăm. (cách nói khiêm nhường của いきます)",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  }
+]

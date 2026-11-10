@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lesson50_1",
+    "jp": "まいります",
+    "kanji": "参ります",
+    "kanji_vn": "THAM",
+    "vn": "đi, đến (khiêm nhường ngữ của いきます và きます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson50_2",
+    "jp": "おります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ở, có (khiêm nhường ngữ của います)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson50_3",
+    "jp": "いただきます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ăn, uống, nhận (khiêm nhường ngữ của たべます、のみます và もらいます)",
+    "type": "Thán từ",
+    "type_code": "Int"
+  },
+  {
+    "id": "lesson50_4",
+    "jp": "もうします",
+    "kanji": "申します",
+    "kanji_vn": "THÂN",
+    "vn": "nói (khiêm nhường ngữ của いいます)",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson50_5",
+    "jp": "いたします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "làm (khiêm nhường ngữ của します)",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson50_6",
+    "jp": "はいけんします",
+    "kanji": "拝見します",
+    "kanji_vn": "BÁI KIẾN",
+    "vn": "xem, nhìn (khiêm nhường ngữ của みます)",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson50_7",
+    "jp": "ぞんじます",
+    "kanji": "存じます",
+    "kanji_vn": "TỒN",
+    "vn": "biết (khiêm nhường ngữ của しります)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson50_8",
+    "jp": "うかがいます",
+    "kanji": "伺います",
+    "kanji_vn": "TÝ/TỬ",
+    "vn": "hỏi, nghe, đến thăm(khiêm nhường ngữ của ききます và いきます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson50_9",
+    "jp": "おめにかかります",
+    "kanji": "お目にかかります",
+    "kanji_vn": "MỤC",
+    "vn": "gặp (khiêm nhường ngữ của あいます)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson50_10",
+    "jp": "いれます",
+    "kanji": "入れます",
+    "kanji_vn": "NHẬP",
+    "vn": "pha [cà phê]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson50_11",
+    "jp": "よういします",
+    "kanji": "用意します",
+    "kanji_vn": "DỤNG Ý",
+    "vn": "chuẩn bị",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson50_12",
+    "jp": "わたくし",
+    "kanji": "私",
+    "kanji_vn": "TƯ",
+    "vn": "tôi (khiêm nhường ngữ của わたし)",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson50_13",
+    "jp": "ガイド",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "người hướng dẫn, hướng dẫn viên",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson50_14",
+    "jp": "メールアドレス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "địa chỉ email",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson50_15",
+    "jp": "スケジュール",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thời khóa biểu, lịch làm việc",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson50_16",
+    "jp": "さらいしゅう",
+    "kanji": "再来週",
+    "kanji_vn": "TÁI LAI CHU",
+    "vn": "tuần sau nữa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson50_17",
+    "jp": "さらいげつ",
+    "kanji": "再来月",
+    "kanji_vn": "TÁI LAI NGUYỆT",
+    "vn": "tháng sau nữa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson50_18",
+    "jp": "さらいねん",
+    "kanji": "再来年",
+    "kanji_vn": "TÁI LAI NIÊN",
+    "vn": "năm sau nữa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson50_19",
+    "jp": "はじめに",
+    "kanji": "初めに",
+    "kanji_vn": "SƠ",
+    "vn": "đầu tiên, trước hết",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson50_20",
+    "jp": "江戸東京 博物館",
+    "kanji": null,
+    "kanji_vn": "GIANG HỘ ĐÔNG KINH　BÁC VẬT QUÁN",
+    "vn": "bảo tàng Edo-Tokyo",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

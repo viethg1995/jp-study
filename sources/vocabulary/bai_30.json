@@ -1,0 +1,317 @@
+[
+  {
+    "id": "lesson30_1",
+    "jp": "はります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "dán, dán lên",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson30_2",
+    "jp": "かけます",
+    "kanji": "掛けます",
+    "kanji_vn": "QUẢI",
+    "vn": "treo",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson30_3",
+    "jp": "かざります",
+    "kanji": "飾ります",
+    "kanji_vn": "SỨC",
+    "vn": "trang trí",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson30_4",
+    "jp": "ならべます",
+    "kanji": "並べます",
+    "kanji_vn": "TỊNH",
+    "vn": "xếp thành hàng",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson30_5",
+    "jp": "うえます",
+    "kanji": "植えます",
+    "kanji_vn": "THỰC",
+    "vn": "trồng (cây)",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson30_6",
+    "jp": "もどします",
+    "kanji": "戻します",
+    "kanji_vn": "LỆ",
+    "vn": "đưa về, trả về, để lại vị trí ban đầu",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson30_7",
+    "jp": "まとめます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nhóm lại, tóm tắt",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson30_8",
+    "jp": "しまいます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cất vào, để vào",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson30_9",
+    "jp": "きめます",
+    "kanji": "決めます",
+    "kanji_vn": "QUYẾT",
+    "vn": "quyết định",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson30_10",
+    "jp": "よしゅうします",
+    "kanji": "予習します",
+    "kanji_vn": "DỰ TẬP",
+    "vn": "chuẩn bị bài mới",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson30_11",
+    "jp": "ふくしゅうします",
+    "kanji": "復習します",
+    "kanji_vn": "PHỤC TẬP",
+    "vn": "ôn bài cũ",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson30_12",
+    "jp": "そのままにします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "để nguyên như thế",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson30_13",
+    "jp": "じゅぎょう",
+    "kanji": "授業",
+    "kanji_vn": "THỤ NGHIỆP",
+    "vn": "giờ học",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_14",
+    "jp": "こうぎ",
+    "kanji": "講義",
+    "kanji_vn": "GIẢNG NGHĨA",
+    "vn": "bài giảng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_15",
+    "jp": "ミーティング",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cuộc họp",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson30_16",
+    "jp": "よてい",
+    "kanji": "予定",
+    "kanji_vn": "DỰ ĐỊNH",
+    "vn": "kế hoạch, dự định",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_17",
+    "jp": "おしらせ",
+    "kanji": "お知らせ",
+    "kanji_vn": "TRI",
+    "vn": "bản thông báo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_18",
+    "jp": "ガイドブック",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "sách hướng dẫn du lịch",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson30_19",
+    "jp": "カレンダー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "lịch, tờ lịch",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson30_20",
+    "jp": "ポスター",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "poster, tờ quảng cáo",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson30_21",
+    "jp": "よていひょう",
+    "kanji": "予定表",
+    "kanji_vn": "DỰ ĐỊNH BIỂU",
+    "vn": "lịch làm việc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_22",
+    "jp": "ごみばこ",
+    "kanji": "ごみ箱",
+    "kanji_vn": "TƯƠNG",
+    "vn": "thùng rác",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_23",
+    "jp": "にんぎょう",
+    "kanji": "人形",
+    "kanji_vn": "NHÂN HÌNH",
+    "vn": "con búp bê, con rối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_24",
+    "jp": "かびん",
+    "kanji": "花瓶",
+    "kanji_vn": "HOA BÌNH",
+    "vn": "lọ hoa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_25",
+    "jp": "かがみ",
+    "kanji": "鏡",
+    "kanji_vn": "KÍNH",
+    "vn": "cái gương",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_26",
+    "jp": "ひきだし",
+    "kanji": "引き出し",
+    "kanji_vn": "DẪN XUẤT",
+    "vn": "ngăn kéo",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_27",
+    "jp": "げんかん",
+    "kanji": "玄関",
+    "kanji_vn": "HUYỀN QUAN",
+    "vn": "cửa vào",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_28",
+    "jp": "ろうか",
+    "kanji": "廊下",
+    "kanji_vn": "LANG HẠ",
+    "vn": "hành lang",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_29",
+    "jp": "かべ",
+    "kanji": "壁",
+    "kanji_vn": "BÍCH",
+    "vn": "bức tường",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_30",
+    "jp": "いけ",
+    "kanji": "池",
+    "kanji_vn": "TRÌ",
+    "vn": "cái ao",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_31",
+    "jp": "もとのところ",
+    "kanji": "元の所",
+    "kanji_vn": "NGUYÊN SỞ",
+    "vn": "địa điểm ban đầu, địa điểm gốc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_32",
+    "jp": "まわり",
+    "kanji": "周り",
+    "kanji_vn": "CHU",
+    "vn": "xung quanh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_33",
+    "jp": "まんなか",
+    "kanji": "真ん中",
+    "kanji_vn": "CHÂN TRUNG",
+    "vn": "giữa, trung tâm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_34",
+    "jp": "すみ",
+    "kanji": "隅",
+    "kanji_vn": "NGUNG",
+    "vn": "góc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson30_35",
+    "jp": "まだ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chưa",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  }
+]

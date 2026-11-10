@@ -1,0 +1,308 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THAM",
+    "han_viet_source": "source",
+    "id": "mn-50-001",
+    "kanji": "参ります",
+    "kanji_refs": [
+      "k-参"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_1",
+    "lesson": 50
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "GIÁNG",
+    "han_viet_source": "derived",
+    "id": "mn-50-002",
+    "kanji": "降ります",
+    "kanji_gloss": "to descend (e.g. a mountain); to go down",
+    "kanji_refs": [
+      "k-降"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson50_2",
+    "lesson": 50
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-50-003",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson50_3",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "THÂN",
+    "han_viet_source": "source",
+    "id": "mn-50-004",
+    "kanji": "申します",
+    "kanji_refs": [
+      "k-申"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_4",
+    "lesson": 50,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-50-005",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson50_5",
+    "lesson": 50,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BÁI KIẾN",
+    "han_viet_source": "source",
+    "id": "mn-50-006",
+    "kanji": "拝見します",
+    "kanji_refs": [
+      "k-拝",
+      "k-見"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_6",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "TỒN",
+    "han_viet_source": "source",
+    "id": "mn-50-007",
+    "kanji": "存じます",
+    "kanji_refs": [
+      "k-存"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_7",
+    "lesson": 50,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 2 (ichidan)",
+    "pos_suggested": "V2"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÝ/TỬ",
+    "han_viet_source": "source",
+    "id": "mn-50-008",
+    "kanji": "伺います",
+    "kanji_refs": [
+      "k-伺"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_8",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỤC",
+    "han_viet_source": "source",
+    "id": "mn-50-009",
+    "kanji": "お目にかかります",
+    "kanji_refs": [
+      "k-目"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_9",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHẬP",
+    "han_viet_source": "source",
+    "id": "mn-50-010",
+    "kanji": "入れます",
+    "kanji_refs": [
+      "k-入"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_10",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DỤNG Ý",
+    "han_viet_source": "source",
+    "id": "mn-50-011",
+    "kanji": "用意します",
+    "kanji_refs": [
+      "k-用",
+      "k-意"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_11",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TƯ",
+    "han_viet_source": "source",
+    "id": "mn-50-012",
+    "kanji": "私",
+    "kanji_refs": [
+      "k-私"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_12",
+    "lesson": 50
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-50-013",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson50_13",
+    "lesson": 50,
+    "pos_reason": "JMdict: danh từ thông dụng (guide; tour guide)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-50-014",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson50_14",
+    "lesson": 50,
+    "pos_reason": "JMdict: danh từ thông dụng (email address)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-50-015",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson50_15",
+    "lesson": 50,
+    "pos_reason": "JMdict: danh từ thông dụng (schedule; program)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁI LAI CHU",
+    "han_viet_source": "source",
+    "id": "mn-50-016",
+    "kanji": "再来週",
+    "kanji_refs": [
+      "k-再",
+      "k-来",
+      "k-週"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_16",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁI LAI NGUYỆT",
+    "han_viet_source": "source",
+    "id": "mn-50-017",
+    "kanji": "再来月",
+    "kanji_refs": [
+      "k-再",
+      "k-来",
+      "k-月"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_17",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÁI LAI NIÊN",
+    "han_viet_source": "source",
+    "id": "mn-50-018",
+    "kanji": "再来年",
+    "kanji_refs": [
+      "k-再",
+      "k-来",
+      "k-年"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_18",
+    "lesson": 50
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "SƠ",
+    "han_viet_source": "source",
+    "id": "mn-50-019",
+    "kanji": "初めに",
+    "kanji_refs": [
+      "k-初"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson50_19",
+    "lesson": 50
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "GIANG HỘ ĐÔNG KINH　BÁC VẬT QUÁN",
+    "han_viet_source": null,
+    "id": "mn-50-020",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson50_20",
+    "lesson": 50
+  }
+]

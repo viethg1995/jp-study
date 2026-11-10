@@ -1,0 +1,251 @@
+[
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-24-001",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to give; to let (one) have",
+        "kanji": "呉れます"
+      },
+      {
+        "gloss": "to get dark; to grow dark",
+        "kanji": "暮れます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson24_1",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": "TRỰC",
+    "han_viet_source": "source",
+    "id": "mn-24-002",
+    "kanji": "直します",
+    "kanji_refs": [
+      "k-直"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_2",
+    "lesson": 24,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LIÊN HÀNH",
+    "han_viet_source": "source",
+    "id": "mn-24-003",
+    "kanji": "連れて行きます",
+    "kanji_refs": [
+      "k-連",
+      "k-行"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_3",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LIÊN LAI",
+    "han_viet_source": "source",
+    "id": "mn-24-004",
+    "kanji": "連れて来ます",
+    "kanji_refs": [
+      "k-連",
+      "k-来"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_4",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TỐNG",
+    "han_viet_original": "TỐNGNHÂN",
+    "han_viet_source": "derived",
+    "id": "mn-24-005",
+    "kanji": "送ります",
+    "kanji_refs": [
+      "k-送"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_5",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THIỆU GIỚI",
+    "han_viet_source": "source",
+    "id": "mn-24-006",
+    "kanji": "紹介します",
+    "kanji_refs": [
+      "k-紹",
+      "k-介"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_6",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ÁN NỘI",
+    "han_viet_source": "source",
+    "id": "mn-24-007",
+    "kanji": "案内します",
+    "kanji_refs": [
+      "k-案",
+      "k-内"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_7",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THUYẾT MINH",
+    "han_viet_source": "source",
+    "id": "mn-24-008",
+    "kanji": "説明します",
+    "kanji_refs": [
+      "k-説",
+      "k-明"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_8",
+    "lesson": 24
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-24-009",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson24_9",
+    "lesson": 24
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-24-010",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson24_10",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHUẨN BỊ",
+    "han_viet_source": "source",
+    "id": "mn-24-011",
+    "kanji": "準備",
+    "kanji_refs": [
+      "k-準",
+      "k-備"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_11",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DẪN VIỆT",
+    "han_viet_source": "source",
+    "id": "mn-24-012",
+    "kanji": "引っ越し",
+    "kanji_refs": [
+      "k-引",
+      "k-越"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_12",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "QUẢ TỬ",
+    "han_viet_source": "source",
+    "id": "mn-24-013",
+    "kanji": "菓子",
+    "kanji_refs": [
+      "k-菓",
+      "k-子"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_13",
+    "lesson": 24
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-24-014",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson24_14",
+    "lesson": 24,
+    "pos_reason": "JMdict: danh từ thông dụng (homestay)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TOÀN BỘ",
+    "han_viet_source": "source",
+    "id": "mn-24-015",
+    "kanji": "全部",
+    "kanji_refs": [
+      "k-全",
+      "k-部"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_15",
+    "lesson": 24
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỰ PHÂN",
+    "han_viet_source": "source",
+    "id": "mn-24-016",
+    "kanji": "自分で",
+    "kanji_refs": [
+      "k-自",
+      "k-分"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson24_16",
+    "lesson": 24
+  }
+]

@@ -1,0 +1,461 @@
+[
+  {
+    "id": "lesson5_1",
+    "jp": "いきます",
+    "kanji": "行きます",
+    "kanji_vn": "HÀNH",
+    "vn": "đi",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson5_2",
+    "jp": "きます",
+    "kanji": "来ます",
+    "kanji_vn": "LAI",
+    "vn": "đến",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson5_3",
+    "jp": "かえります",
+    "kanji": "帰ります",
+    "kanji_vn": "QUY",
+    "vn": "về",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson5_4",
+    "jp": "がっこう",
+    "kanji": "学校",
+    "kanji_vn": "HỌC HIỆU",
+    "vn": "trường học",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_5",
+    "jp": "スーパー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "siêu thị",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson5_6",
+    "jp": "えき",
+    "kanji": "駅",
+    "kanji_vn": "DỊCH",
+    "vn": "ga, nhà ga",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_7",
+    "jp": "ひこうき",
+    "kanji": "飛行機",
+    "kanji_vn": "PHI HÀNH CƠ",
+    "vn": "máy bay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_8",
+    "jp": "ふね",
+    "kanji": "船",
+    "kanji_vn": "THUYỀN",
+    "vn": "thuyền, tàu thủy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_9",
+    "jp": "でんしゃ",
+    "kanji": "電車",
+    "kanji_vn": "ĐIỆN XA",
+    "vn": "tàu điện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_10",
+    "jp": "ちかてつ",
+    "kanji": "地下鉄",
+    "kanji_vn": "ĐỊA HẠ THIẾT",
+    "vn": "tàu điện ngầm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_11",
+    "jp": "しんかんせん",
+    "kanji": "新幹線",
+    "kanji_vn": "TÂN CÁN TUYẾN",
+    "vn": "tàu Shinkansen (tàu điện siêu tốc của Nhật)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_12",
+    "jp": "バス",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "xe buýt",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson5_13",
+    "jp": "タクシー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tắc-xi",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson5_14",
+    "jp": "じてんしゃ",
+    "kanji": "自転車",
+    "kanji_vn": "TỰ CHUYỂN XA",
+    "vn": "xe đạp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_15",
+    "jp": "あるいて",
+    "kanji": "歩いて",
+    "kanji_vn": "BỘ",
+    "vn": "đi bộ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_16",
+    "jp": "ひと",
+    "kanji": "人",
+    "kanji_vn": "NHÂN",
+    "vn": "người",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_17",
+    "jp": "ともだち",
+    "kanji": "友達",
+    "kanji_vn": "HỮU ĐẠT",
+    "vn": "bạn, bạn bè",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_18",
+    "jp": "かれ",
+    "kanji": "彼",
+    "kanji_vn": "BỈ",
+    "vn": "anh ấy, bạn trai",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson5_19",
+    "jp": "かのじょ",
+    "kanji": "彼女",
+    "kanji_vn": "BỈ NỮ",
+    "vn": "chị ấy, bạn gái",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson5_20",
+    "jp": "かぞく",
+    "kanji": "家族",
+    "kanji_vn": "GIA TỘC",
+    "vn": "gia đình",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_21",
+    "jp": "ひとりで",
+    "kanji": "一人で",
+    "kanji_vn": "NHẤT NHÂN",
+    "vn": "một mình",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson5_22",
+    "jp": "せんしゅう",
+    "kanji": "先週",
+    "kanji_vn": "TIÊN CHU",
+    "vn": "tuần trước",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_23",
+    "jp": "こんしゅう",
+    "kanji": "今週",
+    "kanji_vn": "KIM CHU",
+    "vn": "tuần này",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_24",
+    "jp": "らいしゅう",
+    "kanji": "来週",
+    "kanji_vn": "LAI CHU",
+    "vn": "tuần sau",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_25",
+    "jp": "せんげつ",
+    "kanji": "先月",
+    "kanji_vn": "TIÊN NGUYỆT",
+    "vn": "tháng trước",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_26",
+    "jp": "こんげつ",
+    "kanji": "今月",
+    "kanji_vn": "KIM NGUYỆT",
+    "vn": "tháng này",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_27",
+    "jp": "らいげつ",
+    "kanji": "来月",
+    "kanji_vn": "LAI NGUYỆT",
+    "vn": "tháng sau",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_28",
+    "jp": "きょねん",
+    "kanji": "去年",
+    "kanji_vn": "KHỨ NIÊN",
+    "vn": "năm ngoái",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_29",
+    "jp": "ことし",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "năm nay",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_30",
+    "jp": "らいねん",
+    "kanji": "来年",
+    "kanji_vn": "LAI NIÊN",
+    "vn": "năm sau",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_31",
+    "jp": "ーねん",
+    "kanji": "ー年",
+    "kanji_vn": "NIÊN",
+    "vn": "năm -",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson5_32",
+    "jp": "なんねん",
+    "kanji": "何年",
+    "kanji_vn": "HÀ NIÊN",
+    "vn": "mấy năm",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson5_33",
+    "jp": "ーがつ",
+    "kanji": "ー月",
+    "kanji_vn": "NGUYỆT",
+    "vn": "tháng -",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson5_34",
+    "jp": "なんがつ",
+    "kanji": "何月",
+    "kanji_vn": "HÀ NGUYỆT",
+    "vn": "tháng mấy",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson5_35",
+    "jp": "ついたち",
+    "kanji": "１日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 1",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_36",
+    "jp": "ふつか",
+    "kanji": "２日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 2, 2 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_37",
+    "jp": "みっか",
+    "kanji": "３日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 3, 3 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_38",
+    "jp": "よっか",
+    "kanji": "４日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 4, 4 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_39",
+    "jp": "いつか",
+    "kanji": "５日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 5, 5 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_40",
+    "jp": "むいか",
+    "kanji": "６日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 6, 6 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_41",
+    "jp": "なのか",
+    "kanji": "７日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 7, 7 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_42",
+    "jp": "ようか",
+    "kanji": "８日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 8, 8 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_43",
+    "jp": "ここのか",
+    "kanji": "９日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 9, 9 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_44",
+    "jp": "とおか",
+    "kanji": "１０日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày mồng 10, 10 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_45",
+    "jp": "じゅうよっか",
+    "kanji": "１４日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày 14, 14 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_46",
+    "jp": "はつか",
+    "kanji": "２０日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày 20, 20 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_47",
+    "jp": "にじゅうよっか",
+    "kanji": "２４日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày 24, 24 ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_48",
+    "jp": "―にち",
+    "kanji": "―日",
+    "kanji_vn": "NHẬT",
+    "vn": "ngày -, - ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson5_49",
+    "jp": "なんにち",
+    "kanji": "何日",
+    "kanji_vn": "HÀ NHẬT",
+    "vn": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson5_50",
+    "jp": "いつ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bao giờ, khi nào",
+    "type": "Đại từ nghi vấn",
+    "type_code": "QP"
+  },
+  {
+    "id": "lesson5_51",
+    "jp": "たんじょうび",
+    "kanji": "誕生日",
+    "kanji_vn": "ĐẢN SINH NHẬT",
+    "vn": "sinh nhật",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

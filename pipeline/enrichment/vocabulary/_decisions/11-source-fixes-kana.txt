@@ -1,0 +1,4 @@
+# by: user
+# Vòng 11 — kana gõ sai trong nguồn (2026-11-10)
+# id | kana mới | ghi chú
+32-042|ヨーロッパ|nguồn ghi thiếu trường âm: ヨロッパ

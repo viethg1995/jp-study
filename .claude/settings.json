@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(/sources/**/*.pdf)",
+      "Read(/sources/audio/**)",
+      "Read(/sources/books/**)",
+      "Read(/sources/_archives/**)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read|Grep|Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-sources.mjs\"",
+            "timeout": 10,
+            "onFailure": "block"
+          }
+        ]
+      }
+    ]
+  }
+}

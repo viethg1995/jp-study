@@ -1,0 +1,53 @@
+---
+// Khung trang: header (logo + ☰ trên điện thoại + slot "header") · menu trái (Sidebar) · nội dung.
+import Sidebar from "../components/layout/Sidebar.astro";
+import { SIDEBAR_BOOT_SCRIPT } from "../lib/storage";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  pattern?: boolean; // nền họa tiết 青海波 phía trên (trang chủ)
+}
+const { title, pattern = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · 日本語</title>
+    <script is:inline set:html={SIDEBAR_BOOT_SCRIPT} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen">
+    <input type="checkbox" id="nav-open" class="sr-only" aria-label="Mở menu" />
+    <header class="sticky top-0 z-30 border-b border-line bg-surface/95 backdrop-blur">
+      <div class="flex h-14 items-center gap-3 px-4">
+        <label for="nav-open" class="nav-burger" title="Menu">
+          <span aria-hidden="true">☰</span>
+          <span class="sr-only">Mở menu</span>
+        </label>
+        <a href={`${base}/`} class="flex shrink-0 items-center gap-2 font-bold text-ink">
+          <span class="size-3 rounded-full bg-brand" aria-hidden="true"></span>
+          <span class="jp">日本語</span>
+        </a>
+        <slot name="header" />
+      </div>
+    </header>
+    <div class="app-shell">
+      <Sidebar />
+      <main class:list={["relative min-w-0 px-4 py-6", { "bg-seigaiha": pattern }]}>
+        <div class="relative mx-auto max-w-5xl">
+          <slot />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

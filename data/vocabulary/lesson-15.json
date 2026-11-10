@@ -1,0 +1,914 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-001-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "ここに{荷物|にもつ}を[[{置|お}いて]]もいいですか。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể để hành lý ở đây không?"
+        }
+      ],
+      "han_viet": "TRÍ",
+      "id": "mn-15-001",
+      "kana": "おきます",
+      "kanji": "置きます",
+      "kanji_refs": [
+        "k-置"
+      ],
+      "legacy_id": "lesson15_1",
+      "lesson": 15,
+      "meaning_vi": "đặt, để",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đặt, để"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-002-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "{母|はは}は{料理|りょうり}を[[{作|つく}って]]います。",
+          "source": "ai-draft",
+          "vi": "Mẹ tôi đang nấu ăn."
+        }
+      ],
+      "han_viet": "TÁC, TẠO",
+      "id": "mn-15-002",
+      "kana": "つくります",
+      "kanji": "作ります, 造ります",
+      "kanji_refs": [
+        "k-作",
+        "k-造"
+      ],
+      "legacy_id": "lesson15_2",
+      "lesson": 15,
+      "meaning_vi": "làm, chế tạo, sản xuất",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "làm, chế tạo, sản xuất"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-003-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "あの{店|みせ}で{切手|きって}を[[{売|う}って]]います。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng kia có bán tem."
+        }
+      ],
+      "han_viet": "MẠI",
+      "id": "mn-15-003",
+      "kana": "うります",
+      "kanji": "売ります",
+      "kanji_refs": [
+        "k-売"
+      ],
+      "legacy_id": "lesson15_3",
+      "lesson": 15,
+      "meaning_vi": "bán",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bán"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-004-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "ミラーさんの{住所|じゅうしょ}を[[{知|し}って]]いますか。",
+          "source": "ai-draft",
+          "vi": "Bạn có biết địa chỉ của anh Miller không?"
+        }
+      ],
+      "han_viet": "TRI",
+      "id": "mn-15-004",
+      "kana": "しります",
+      "kanji": "知ります",
+      "kanji_refs": [
+        "k-知"
+      ],
+      "legacy_id": "lesson15_4",
+      "lesson": 15,
+      "meaning_vi": "biết",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "biết"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-005-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "{大阪|おおさか}に[[{住|す}んで]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi đang sống ở Osaka."
+        }
+      ],
+      "han_viet": "TRÚ, TRỤ",
+      "id": "mn-15-005",
+      "kana": "すみます",
+      "kanji": "住みます",
+      "kanji_refs": [
+        "k-住"
+      ],
+      "legacy_id": "lesson15_5",
+      "lesson": 15,
+      "meaning_vi": "sống, ở",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sống, ở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-006-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "{大学|だいがく}で{経済|けいざい}を[[{研究|けんきゅう}して]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi đang nghiên cứu kinh tế ở trường đại học."
+        }
+      ],
+      "han_viet": "NGHIÊN CỨU",
+      "id": "mn-15-006",
+      "kana": "けんきゅうします",
+      "kanji": "研究します",
+      "kanji_refs": [
+        "k-研",
+        "k-究"
+      ],
+      "legacy_id": "lesson15_6",
+      "lesson": 15,
+      "meaning_vi": "nghiên cứu",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghiên cứu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-007-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "この[[{資料|しりょう}]]をコピーしてもいいですか。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể photo tài liệu này không?"
+        }
+      ],
+      "han_viet": "TƯ LIỆU",
+      "id": "mn-15-007",
+      "kana": "しりょう",
+      "kanji": "資料",
+      "kanji_refs": [
+        "k-資",
+        "k-料"
+      ],
+      "legacy_id": "lesson15_7",
+      "lesson": 15,
+      "meaning_vi": "tài liệu, tư liệu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tài liệu, tư liệu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-15-008-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "この[[カタログ]]を{貰|もら}ってもいいですか。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể lấy cuốn catalogue này không?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-15-008",
+      "kana": "カタログ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson15_8",
+      "lesson": 15,
+      "meaning_vi": "ca-ta-lô",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ca-ta-lô"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-009-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "[[{時刻表|じこくひょう}]]を{見|み}てもいいですか。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể xem bảng giờ tàu không?"
+        }
+      ],
+      "han_viet": "THỜI KHẮC BIỂU",
+      "id": "mn-15-009",
+      "kana": "じこくひょう",
+      "kanji": "時刻表",
+      "kanji_refs": [
+        "k-時",
+        "k-刻",
+        "k-表"
+      ],
+      "legacy_id": "lesson15_9",
+      "lesson": 15,
+      "meaning_vi": "bảng giờ tàu chạy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bảng giờ tàu chạy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-010-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "ここで[[{服|ふく}]]を{売|う}っています。",
+          "source": "ai-draft",
+          "vi": "Ở đây có bán quần áo."
+        }
+      ],
+      "han_viet": "PHỤC",
+      "id": "mn-15-010",
+      "kana": "ふく",
+      "kanji": "服",
+      "kanji_refs": [
+        "k-服"
+      ],
+      "legacy_id": "lesson15_10",
+      "lesson": 15,
+      "meaning_vi": "quần áo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quần áo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-011-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "この{会社|かいしゃ}の[[{製品|せいひん}]]は{有名|ゆうめい}です。",
+          "source": "ai-draft",
+          "vi": "Sản phẩm của công ty này nổi tiếng."
+        }
+      ],
+      "han_viet": "CHẾ PHẨM",
+      "id": "mn-15-011",
+      "kana": "せいひん",
+      "kanji": "製品",
+      "kanji_refs": [
+        "k-製",
+        "k-品"
+      ],
+      "legacy_id": "lesson15_11",
+      "lesson": 15,
+      "meaning_vi": "sản phẩm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-094"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "sản phẩm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-15-012-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "この[[ソフト]]を{使|つか}ってもいいですか。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể dùng phần mềm này không?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-15-012",
+      "kana": "ソフト",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson15_12",
+      "lesson": 15,
+      "meaning_vi": "phần mềm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "phần mềm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-013-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "[[{電子辞書|でんしじしょ}]]を{使|つか}ってもいいですか。",
+          "source": "ai-draft",
+          "vi": "Tôi có thể dùng kim từ điển không?"
+        }
+      ],
+      "han_viet": "ĐIỆN TỬ TỪ THƯ",
+      "id": "mn-15-013",
+      "kana": "でんしじしょ",
+      "kanji": "電子辞書",
+      "kanji_refs": [
+        "k-電",
+        "k-子",
+        "k-辞",
+        "k-書"
+      ],
+      "legacy_id": "lesson15_13",
+      "lesson": 15,
+      "meaning_vi": "kim từ điển",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kim từ điển"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-014-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{経済|けいざい}]]を{勉強|べんきょう}しています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang học về kinh tế Nhật Bản."
+        }
+      ],
+      "han_viet": "KINH TẾ",
+      "id": "mn-15-014",
+      "kana": "けいざい",
+      "kanji": "経済",
+      "kanji_refs": [
+        "k-経",
+        "k-済"
+      ],
+      "legacy_id": "lesson15_14",
+      "lesson": 15,
+      "meaning_vi": "kinh tế",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kinh tế"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-015-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "[[{市役所|しやくしょ}]]へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi đến tòa thị chính."
+        }
+      ],
+      "han_viet": "THỊ DỊCH SỞ",
+      "id": "mn-15-015",
+      "kana": "しやくしょ",
+      "kanji": "市役所",
+      "kanji_refs": [
+        "k-市",
+        "k-役",
+        "k-所"
+      ],
+      "legacy_id": "lesson15_15",
+      "lesson": 15,
+      "meaning_vi": "tòa thị chính",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tòa thị chính"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-016-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "{弟|おとうと}は[[{高校|こうこう}]]で{勉強|べんきょう}しています。",
+          "source": "ai-draft",
+          "vi": "Em trai tôi đang học ở trường cấp 3."
+        }
+      ],
+      "han_viet": "CAO HIỆU",
+      "id": "mn-15-016",
+      "kana": "こうこう",
+      "kanji": "高校",
+      "kanji_refs": [
+        "k-高",
+        "k-校"
+      ],
+      "legacy_id": "lesson15_16",
+      "lesson": 15,
+      "meaning_vi": "trường trung học phổ thông, trường cấp 3",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trường trung học phổ thông, trường cấp 3"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-017-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "{姉|あね}は[[{歯医者|はいしゃ}]]です。",
+          "source": "ai-draft",
+          "vi": "Chị gái tôi là nha sĩ."
+        }
+      ],
+      "han_viet": "XỈ Y GIẢ",
+      "id": "mn-15-017",
+      "kana": "はいしゃ",
+      "kanji": "歯医者",
+      "kanji_refs": [
+        "k-歯",
+        "k-医",
+        "k-者"
+      ],
+      "legacy_id": "lesson15_17",
+      "lesson": 15,
+      "meaning_vi": "nha sĩ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nha sĩ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-15-018-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{独身|どくしん}]]です。",
+          "source": "ai-draft",
+          "vi": "Tôi còn độc thân."
+        }
+      ],
+      "han_viet": "ĐỘC THÂN",
+      "id": "mn-15-018",
+      "kana": "どくしん",
+      "kanji": "独身",
+      "kanji_refs": [
+        "k-独",
+        "k-身"
+      ],
+      "legacy_id": "lesson15_18",
+      "lesson": 15,
+      "meaning_vi": "độc thân",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "độc thân"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-15-019-e1",
+          "max_lesson": 15,
+          "review": "user",
+          "ruby": "[[{済|す}みません]]、ここで{写真|しゃしん}を{撮|と}ってもいいですか。",
+          "source": "ai-draft",
+          "vi": "Xin lỗi, tôi chụp ảnh ở đây có được không?"
+        }
+      ],
+      "han_viet": "TẾ",
+      "id": "mn-15-019",
+      "kana": "すみません",
+      "kanji": "済みません",
+      "kanji_refs": [
+        "k-済"
+      ],
+      "legacy_id": "lesson15_19",
+      "lesson": 15,
+      "meaning_vi": "xin lỗi",
+      "particle": null,
+      "pos": {
+        "code": "Int",
+        "label": "Thán từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xin lỗi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 15,
+  "schema_version": 4
+}

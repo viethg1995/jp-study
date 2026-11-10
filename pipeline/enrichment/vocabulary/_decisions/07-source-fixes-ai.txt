@@ -1,0 +1,16 @@
+# by: user
+# Vòng 7 — lỗi nguồn phát hiện khi rà soát 2026-11-10
+# Cột kanji của số đếm ghi chữ số (１つ…10) → dạng kanji chuẩn; 薬缶 thiếu âm Hán-Việt
+# (Cột kanji chỉ chứa kana — かけます, します, どうぞよろしく… — build tự bỏ, không cần dòng ở đây)
+# id | kanji | han_viet | ghi chú
+11-005|一つ|NHẤT|nguồn ghi １つ
+11-006|二つ|NHỊ|nguồn ghi ２つ
+11-007|三つ|TAM|nguồn ghi ３つ
+11-008|四つ|TỨ|nguồn ghi ４つ
+11-009|五つ|NGŨ|nguồn ghi ５つ
+11-010|六つ|LỤC|nguồn ghi ６つ
+11-011|七つ|THẤT|nguồn ghi ７つ
+11-012|八つ|BÁT|nguồn ghi ８つ
+11-013|九つ|CỬU|nguồn ghi ９つ
+11-014|十|THẬP|nguồn ghi 10 (とお)
+42-023|=|DƯỢC PHẪU|薬缶 thiếu âm

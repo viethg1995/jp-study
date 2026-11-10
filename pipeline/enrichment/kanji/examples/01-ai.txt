@@ -1,0 +1,402 @@
+# by: ai
+# Nghĩa tiếng Việt cho từ ví dụ Kanji bổ sung từ JMdict (dịch từ nghĩa EN, 2026-11-10) — AI nháp, chờ duyệt.
+幾何|きか|hình học
+学ぶ|まなぶ|học, học tập
+本木|もとき|gốc cây, thân gốc
+員数|いんず|số lượng (người, vật); định mức
+何者|なにもの|ai, người thế nào
+他者|たしゃ|người khác
+病む|やむ|bị bệnh, đổ bệnh
+持病|じびょう|bệnh mãn tính, bệnh kinh niên
+大社|おおやしろ|đền lớn, đền nổi tiếng
+私事|しじ|việc riêng, chuyện cá nhân
+私語|しご|nói chuyện riêng, thì thầm (trong giờ học…)
+私費|しひ|chi phí cá nhân, tự túc
+世銀|せぎん|Ngân hàng Thế giới
+輸銀|ゆぎん|ngân hàng xuất nhập khẩu
+銀座|ぎんざ|Ginza (khu phố ở Tokyo)
+医師|いし|bác sĩ
+医科|いか|y khoa, khoa y
+研ぐ|とぐ|mài (dao); vo (gạo)
+研磨|けんま|mài, đánh bóng
+学究|がっきゅう|học giả, người nghiên cứu
+探究|たんきゅう|nghiên cứu, tìm tòi
+師事|しじ|theo học, thụ giáo
+技師|ぎし|kỹ sư
+大師|だいし|đại sư (danh hiệu cao tăng, đặc biệt là Kōbō Daishi)
+失う|うしなう|mất, đánh mất
+儀礼|ぎれい|lễ nghi, nghi thức
+女神|めがみ|nữ thần
+神父|しんぷ|cha xứ, linh mục Công giáo
+初夏|しょか|đầu hè
+士気|しき|sĩ khí, tinh thần (quân đội, đội nhóm)
+剣士|けんし|kiếm sĩ
+力士|りきし|đô vật sumo
+富む|とむ|giàu (về…), phong phú
+国富|こくふ|tài sản quốc gia
+富者|ふしゃ|người giàu
+富貴|ふうき|phú quý, giàu sang
+下戸|げこ|người không uống được rượu
+歳暮|せいぼ|quà cuối năm
+万歳|ばんざい|vạn tuế, hoan hô
+歳月|さいげつ|năm tháng, thời gian
+誰も|だれも|ai cũng; (phủ định) không ai
+誰でも|だれでも|bất cứ ai
+誰にも|だれにも|với bất kỳ ai; (phủ định) không với ai
+兄貴|あにき|anh trai, đại ca
+貴族|きぞく|quý tộc
+貴社|きしゃ|quý công ty
+日韓|にっかん|Nhật – Hàn
+韓国語|かんこくご|tiếng Hàn
+渡韓|とかん|sang Hàn Quốc
+韓語|かんご|tiếng Hàn
+国土|くにつち|đất nước, lãnh thổ
+土器|どき|đồ gốm đất nung
+土地|とち|đất đai, mảnh đất
+聞く|きく|nghe; hỏi
+見聞|けんぶん|kiến văn, hiểu biết, trải nghiệm
+計る|はかる|đo, đong, cân
+和英|わえい|Nhật – Anh
+英和|えいわ|Anh – Nhật
+英字|えいじ|chữ cái tiếng Anh
+英気|えいき|khí lực dồi dào, tinh thần sung mãn
+語り|かたり|lời kể, sự kể chuyện
+地誌|ちし|địa chí
+日誌|にっし|nhật ký (công việc), sổ nhật ký
+誌面|しめん|trang tạp chí
+誌上|しじょう|trên tạp chí
+雑煮|ぞうに|canh bánh dày và rau (món ngày Tết)
+煩雑|はんざつ|phức tạp, rắc rối
+傘下|さんか|dưới trướng, trực thuộc
+日傘|ひがさ|ô che nắng
+傘地|かさじ|vải làm ô
+傘屋|かさや|tiệm ô
+刺し|さし|ống xiên lấy mẫu gạo
+刺す|さす|đâm, chích, châm
+刺激|しげき|kích thích
+記帳|きちょう|ghi sổ, đăng ký vào sổ
+台帳|だいちょう|sổ cái, sổ đăng ký
+通帳|つうちょう|sổ ngân hàng
+メモ帳|メモちょう|sổ ghi chép
+机上|きじょう|trên bàn; (lý thuyết) trên giấy
+机下|きか|kính gửi (từ kính trọng thêm sau tên người nhận thư)
+書机|しょき|bàn viết thấp kiểu Nhật
+机辺|きへん|bên cạnh bàn
+車椅子|くるまいす|xe lăn
+寝椅子|ねいす|ghế dài, ghế sofa
+小椅子|こいす|ghế nhỏ
+座椅子|ざいす|ghế không chân (dùng trên chiếu tatami)
+お産|おさん|sinh con, sinh nở
+筆頭|ふでがしら|đầu bút lông
+筆記|ひっき|ghi chép, viết
+自筆|じひつ|chữ viết tay của chính mình, bút tích
+主筆|しゅひつ|tổng biên tập
+辞す|じす|cáo từ, xin phép ra về; từ chức
+鉛|なまり|chì
+黒鉛|こくえん|than chì
+亜鉛|あえん|kẽm
+無鉛|むえん|không chì (xăng)
+鍵盤|けんばん|bàn phím (đàn, máy chữ)
+打鍵|だけん|gõ phím
+鍵屋|かぎや|thợ khóa
+鍵輪|かぎわ|móc chìa khóa
+小鞄|こかばん|túi nhỏ, cặp nhỏ
+折り鞄|おりかばん|cặp tài liệu
+学生鞄|がくせいかばん|cặp sách học sinh
+万事|ばんじ|mọi việc
+万一|ばんいち|vạn nhất, lỡ như
+万人|ばんじん|mọi người
+万全|ばんぜん|hoàn hảo, chu toàn
+円形|まるがた|hình tròn
+一円|いちえん|một yên
+円安|えんやす|đồng yên yếu, yên mất giá
+円満|えんまん|viên mãn, êm ấm
+千代|ちよ|nghìn năm, nghìn đời
+千葉|ちば|Chiba (thành phố, tỉnh)
+千島|ちしま|quần đảo Kuril
+何千|なんぜん|hàng nghìn
+何百|なんびゃく|hàng trăm
+四百|よんひゃく|bốn trăm
+数百|すうひゃく|vài trăm
+二百十日|にひゃくとおか|ngày thứ 210 (tính từ lập xuân), ngày hay có bão
+自ら|みずから|tự mình
+下部|かぶ|phần dưới
+小屋|こや|túp lều, chòi
+屋根|やね|mái nhà
+室町|むろまち|thời Muromachi (1336–1573)
+付与|ふよ|cấp, trao
+普段|ふだん|thường ngày, thông thường
+危機|きき|khủng hoảng, nguy cơ
+区議|くぎ|đại biểu hội đồng quận
+務める|つとめる|đảm nhiệm, giữ vai trò
+事務|じむ|công việc văn phòng, sự vụ
+義務|ぎむ|nghĩa vụ
+任務|にんむ|nhiệm vụ
+受理|じゅり|tiếp nhận, thụ lý
+受け|うけ|sự được ưa chuộng
+受身|うけみ|thế bị động, thế phòng thủ
+一堂|いちどう|một nơi, cùng một hội trường
+会堂|かいどう|nhà thờ, giáo đường
+本堂|ほんどう|chính điện (chùa)
+市販|しはん|bán ra thị trường
+自販|じはん|bán tự động
+販路|はんろ|kênh tiêu thụ, thị trường
+再販|さいはん|bán lại
+二階|にかい|tầng hai
+一階|いっかい|tầng một
+靴屋|くつや|tiệm giày
+革靴|かわぐつ|giày da
+半靴|はんか|giày thấp cổ
+木場|きば|bãi gỗ
+木戸|きど|cổng gỗ
+並木|なみき|hàng cây ven đường
+下水|げすい|nước thải, cống
+水位|すいい|mực nước
+半ば|なかば|nửa chừng, giữa
+半値|はんね|nửa giá
+半期|はんき|nửa kỳ
+午|うま|Ngọ (con ngựa, chi thứ bảy)
+正午|しょうご|chính ngọ, 12 giờ trưa
+午前中|ごぜんちゅう|trong buổi sáng
+稼働|かどう|vận hành (máy móc)
+働く|はたらく|làm việc
+働き手|はたらきて|người lao động, trụ cột gia đình
+始終|しじゅう|suốt, từ đầu đến cuối
+終始|しゅうし|trước sau, từ đầu đến cuối
+便り|たより|tin tức, thư từ
+昼夜|ちゅうや|ngày đêm
+お昼|おひる|buổi trưa; bữa trưa
+一晩|ひとばん|một đêm
+早朝|そうちょう|sáng sớm
+図る|はかる|lập kế hoạch, mưu tính
+映す|うつす|chiếu, phản chiếu
+映る|うつる|được phản chiếu; hiện lên (ảnh)
+反映|はんえい|phản ánh, phản chiếu
+放映|ほうえい|phát sóng truyền hình
+画家|がか|họa sĩ
+動画|どうが|video
+区画|くかく|khu vực, lô
+会館|かいかん|hội quán, hội trường
+強さ|つよさ|sức mạnh
+強み|つよみ|điểm mạnh
+勉学|べんがく|học tập
+勤勉|きんべん|cần cù, chăm chỉ
+勉強|べんきょう|học
+勉強中|べんきょうちゅう|đang học
+試し|ためし|thử
+試作|しさく|làm thử, sản xuất thử
+治験|ちけん|thử nghiệm lâm sàng
+体験|たいけん|trải nghiệm
+技術|ぎじゅつ|kỹ thuật, công nghệ
+郵便|ゆうびん|bưu điện, bưu chính; thư từ
+郵政|ゆうせい|bưu chính
+郵貯|ゆうちょ|tiết kiệm bưu điện
+郵送|ゆうそう|gửi qua bưu điện
+寝具|しんぐ|chăn ga gối nệm
+寝る|ねる|ngủ
+寝台|ねだい|giường
+寝息|ねいき|hơi thở khi ngủ
+医局|いきょく|phòng bác sĩ (trong bệnh viện)
+局地|きょくち|cục bộ, địa phương
+支局|しきょく|chi nhánh, văn phòng chi nhánh
+時局|じきょく|thời cuộc
+昨今|さくこん|dạo này, gần đây
+美しい|うつくしい|đẹp
+再起|さいき|vực dậy, hồi phục
+奮起|ふんき|phấn chấn, gắng sức
+交友|こうゆう|bạn bè, giao du
+友好|ゆうこう|hữu hảo, hữu nghị
+友愛|ゆうあい|tình bạn, tình hữu ái
+女医|じょい|nữ bác sĩ
+女史|じょし|bà, nữ sĩ (kính xưng phụ nữ có địa vị)
+氏族|しぞく|thị tộc
+部族|ぶぞく|bộ tộc
+一族|いちぞく|gia tộc, họ hàng
+私鉄|してつ|đường sắt tư nhân
+国鉄|こくてつ|đường sắt quốc gia
+製鉄|せいてつ|luyện thép
+鉄工|てっこう|nghề rèn sắt; thợ sắt
+駅伝|えきでん|chạy tiếp sức đường dài
+駅弁|えきべん|cơm hộp bán ở nhà ga
+去る|さる|rời đi
+過去|かこ|quá khứ
+死去|しきょ|qua đời
+去来|きょらい|đến rồi đi (ý nghĩ thoáng qua)
+同船|どうせん|cùng tàu, đi cùng tàu
+船出|ふなで|nhổ neo, ra khơi
+大船|おおふね|thuyền lớn
+船主|せんしゅ|chủ tàu
+徒歩|とほ|đi bộ
+打線|だせん|đội hình đánh bóng (bóng chày)
+無線|むせん|vô tuyến
+線路|せんろ|đường ray
+転ぶ|ころぶ|ngã, té
+移転|いてん|chuyển đi, di dời
+転機|てんき|bước ngoặt
+飛行|ひこう|bay, hàng không
+飛躍|ひやく|bước nhảy vọt
+飛車|ひしゃ|quân xe (cờ shogi)
+幹|みき|thân cây
+基幹|きかん|nòng cốt, then chốt
+幹事|かんじ|người tổ chức, thư ký
+幹部|かんぶ|cán bộ lãnh đạo, ban điều hành
+彼岸|ひがん|tuần lễ xuân phân/thu phân (lễ Phật)
+彼ら|かれら|họ, bọn họ
+彼氏|かれし|bạn trai
+生誕|せいたん|ra đời, sinh (người nổi tiếng)
+誕生|たんじょう|sự ra đời, sinh ra
+お誕生日|おたんじょうび|sinh nhật
+再誕|さいたん|tái sinh
+伝達|でんたつ|truyền đạt
+到達|とうたつ|đạt tới, đến nơi
+通達|つうたつ|thông báo, chỉ thị (từ cấp trên)
+子牛|こうし|con bê
+和牛|わぎゅう|bò Wagyu (bò Nhật)
+牛歩|ぎゅうほ|chậm như rùa
+稚魚|ちぎょ|cá con
+金魚|きんぎょ|cá vàng
+魚介|ぎょかい|hải sản
+魚屋|さかなや|hàng cá, người bán cá
+飲酒|いんしゅ|uống rượu
+飲む|のむ|uống
+読み|よみ|cách đọc; sự đọc
+読む|よむ|đọc
+売買|ばいばい|mua bán
+買い|かい|mua, mua sắm
+買う|かう|mua
+太り肉|ふとりじし|béo, mập mạp
+お店|おみせ|cửa hàng
+同店|どうてん|cửa hàng đó, cùng cửa hàng
+古紙|こし|giấy cũ, giấy tái chế
+和紙|わし|giấy washi (giấy Nhật)
+印紙|いんし|tem thuế
+梅酒|うめしゅ|rượu mơ
+酒場|さかば|quán rượu
+酒屋|さかや|cửa hàng rượu
+洋酒|ようしゅ|rượu Tây
+夕飯|ゆうめし|bữa tối
+昼飯|ひるはん|bữa trưa
+朝飯|あさはん|bữa sáng
+写し|うつし|bản sao
+試写|ししゃ|chiếu thử, buổi chiếu ra mắt
+真の|しんの|thật sự, đích thực
+宿す|やどす|chứa đựng, mang (cảm xúc, thai)
+宿る|やどる|trú ngụ, ẩn chứa
+宿屋|やどや|nhà trọ
+下宿|げしゅく|ở trọ
+呼吸|こきゅう|hô hấp, thở
+吸う|すう|hít; hút (thuốc)
+吸引|きゅういん|hút, hấp thụ
+吸入|きゅうにゅう|hít vào
+庭木|にわき|cây trong vườn
+中庭|なかにわ|sân trong
+前庭|ぜんてい|vườn trước nhà
+煙い|けむい|nhiều khói, cay khói
+煙る|けむる|bốc khói, mờ khói
+乳房|ちぶさ|vú
+乳首|ちくび|núm vú
+母乳|ぼにゅう|sữa mẹ
+乳|ち|sữa
+卵子|らんし|trứng (tế bào trứng)
+卵形|らんけい|hình trứng
+卵管|らんかん|vòi trứng
+産卵|さんらん|đẻ trứng
+撮影|さつえい|chụp ảnh, quay phim
+撮る|とる|chụp (ảnh)
+写真撮影|しゃしんさつえい|chụp ảnh
+撮り|どり|lần chụp, kiểu ảnh
+果て|はて|tận cùng, cuối
+効果|こうか|hiệu quả
+口紅|くちべに|son môi
+紅梅|こうばい|mai đỏ
+紅白|こうはく|đỏ và trắng (màu hỷ)
+緒|お|dây, quai
+一緒|いっしょ|cùng nhau
+内緒|ないしょ|bí mật
+由緒|ゆいしょ|lai lịch, nguồn gốc
+仕草|しぐさ|cử chỉ, điệu bộ
+草履|ぞうり|dép zori (dép quai kẹp truyền thống)
+草木|くさき|cỏ cây
+草花|そうか|hoa cỏ
+菜種|なたね|hạt cải dầu
+山菜|さんさい|rau rừng
+白菜|はくさい|cải thảo
+菜園|さいえん|vườn rau
+大野|おおの|cánh đồng lớn
+下野|げや|từ quan, rời chức vụ
+野暮|やぼ|quê mùa, thô kệch
+保母|ほぼ|cô giữ trẻ, cô giáo mầm non
+父子|ふし|cha con
+父母|ふぼ|cha mẹ
+負荷|ふか|gánh nặng, tải
+荷台|にだい|thùng xe, giá chở hàng
+荷札|にふだ|thẻ hành lý, nhãn hàng
+重荷|おもに|gánh nặng
+移送|いそう|chuyển, vận chuyển
+護送|ごそう|áp giải, hộ tống
+輸送|ゆそう|vận chuyển, vận tải
+習う|ならう|học (từ thầy)
+貸与|たいよ|cho mượn, cho thuê
+貸し|かし|cho vay, cho mượn
+貸す|かす|cho mượn, cho vay
+貸家|かしや|nhà cho thuê
+借地|しゃくち|đất thuê
+借り|かり|mượn, khoản nợ
+借家|しゃくや|nhà thuê
+借金|しゃっきん|khoản nợ, vay tiền
+賀状|がじょう|thiệp chúc Tết
+令状|れいじょう|lệnh, trát
+符号|ふごう|ký hiệu, dấu
+符合|ふごう|trùng khớp, phù hợp
+音符|おんぷ|nốt nhạc
+疑問符|ぎもんふ|dấu chấm hỏi
+割り箸|わりばし|đũa dùng một lần
+火箸|ひばし|đũa sắt gắp than
+太箸|ふとばし|đũa to (dùng dịp lễ Tết)
+横箸|よこばし|cầm ngang đũa xúc như thìa (phạm phép dùng đũa)
+貰い手|もらいて|người nhận
+年賀|ねんが|chúc Tết
+賀正|がせい|Chúc mừng năm mới!
+祝賀|しゅくが|chúc mừng, ăn mừng
+鋏む|はさむ|cắt (bằng kéo)
+和鋏|わばさみ|kéo kiểu Nhật (hình chữ U)
+木鋏|きばさみ|kéo tỉa cây
+紙鋏|かみばさみ|kéo cắt giấy
+下山|げさん|xuống núi
+小山|こやま|đồi nhỏ
+元祖|がんそ|ông tổ, người khởi xướng
+元素|げんそ|nguyên tố
+地元|じもと|địa phương, quê nhà
+不安|ふあん|bất an, lo lắng
+古語|こご|từ cổ
+古都|こと|cố đô
+古今|こきん|xưa nay
+同町|どうちょう|cùng thị trấn
+下町|したまち|khu phố cũ (vùng trũng của thành phố)
+町中|まちなか|trong phố, trung tâm phố
+仕える|つかえる|phục vụ, hầu hạ
+仕手|して|người làm; vai chính (kịch Nō)
+仕方|しかた|cách làm
+低下|ていか|giảm sút, suy giảm
+低利|ていり|lãi suất thấp
+低地|ていち|vùng trũng, vùng thấp
+低減|ていげん|giảm bớt
+静止|せいし|đứng yên, tĩnh
+冷静|れいせい|bình tĩnh
+動静|どうせい|tình hình, động tĩnh
+安静|あんせい|nghỉ ngơi tĩnh dưỡng
+親子|おやこ|cha mẹ và con
+口利き|くちきき|làm trung gian, nói giúp
+不利|ふり|bất lợi
+白紙|はくし|giấy trắng
+白地|しらじ|nền trắng
+目黒|めぐろ|Meguro (quận ở Tokyo)
+黒字|くろじ|có lãi, thặng dư
+有無|うむ|có hay không
+保有|ほゆう|sở hữu, nắm giữ
+固有|こゆう|vốn có, đặc hữu
+有事|ゆうじ|tình huống khẩn cấp
+赤軍|せきぐん|Hồng quân
+赤字|あかじ|thâm hụt, lỗ
+青果|せいか|rau quả
+青木|あおき|cây ô rô Nhật (Aucuba japonica)

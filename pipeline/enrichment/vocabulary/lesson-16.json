@@ -1,0 +1,588 @@
+{
+  "mn-16-001": {
+    "examples": [
+      {
+        "id": "mn-16-001-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{駅|えき}で{電車|でんしゃ}に[[{乗|の}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi lên tàu điện ở nhà ga."
+      }
+    ]
+  },
+  "mn-16-002": {
+    "examples": [
+      {
+        "id": "mn-16-002-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{京都|きょうと}で{電車|でんしゃ}を[[{降|お}ります]]。",
+        "source": "ai-draft",
+        "vi": "Tôi xuống tàu điện ở Kyoto."
+      }
+    ],
+    "han_viet": "GIÁNG",
+    "han_viet_source": "derived",
+    "review": {
+      "by": "user",
+      "note": "kanji_vn gốc dính âm của 電車",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-003": {
+    "examples": [
+      {
+        "id": "mn-16-003-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{大阪|おおさか}で{地下鉄|ちかてつ}に[[{乗|の}り{換|か}えます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi chuyển sang tàu điện ngầm ở Osaka."
+      }
+    ]
+  },
+  "mn-16-004": {
+    "examples": [
+      {
+        "id": "mn-16-004-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{朝|あさ}シャワーを[[{浴|あ}びて]]から、{会社|かいしゃ}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Buổi sáng tôi tắm vòi sen rồi đi làm."
+      }
+    ]
+  },
+  "mn-16-005": {
+    "examples": [
+      {
+        "id": "mn-16-005-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "カードを[[{入|い}れて]]、ボタンを{押|お}します。",
+        "source": "ai-draft",
+        "vi": "Cho thẻ vào rồi bấm nút."
+      }
+    ]
+  },
+  "mn-16-006": {
+    "examples": [
+      {
+        "id": "mn-16-006-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{手紙|てがみ}を[[{出|だ}して]]から、{会社|かいしゃ}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi gửi thư rồi đi làm."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "だします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-007": {
+    "examples": [
+      {
+        "id": "mn-16-007-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{銀行|ぎんこう}でお{金|かね}を[[{下|お}ろします]]。",
+        "source": "ai-draft",
+        "vi": "Tôi rút tiền ở ngân hàng."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "おろします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-008": {
+    "examples": [
+      {
+        "id": "mn-16-008-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{来年|らいねん}{大学|だいがく}に[[{入|はい}ります]]。",
+        "source": "ai-draft",
+        "vi": "Năm sau tôi vào đại học."
+      }
+    ]
+  },
+  "mn-16-009": {
+    "examples": [
+      {
+        "id": "mn-16-009-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{去年|きょねん}{大学|だいがく}を[[{出|で}ました]]。",
+        "source": "ai-draft",
+        "vi": "Năm ngoái tôi đã tốt nghiệp đại học."
+      }
+    ]
+  },
+  "mn-16-010": {
+    "examples": [
+      {
+        "id": "mn-16-010-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "このボタンを[[{押|お}して]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy bấm nút này."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "おします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-011": {
+    "examples": [
+      {
+        "id": "mn-16-011-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{仕事|しごと}が{終|お}わってから、ビールを[[{飲|の}みます]]。",
+        "source": "ai-draft",
+        "vi": "Sau khi xong việc, tôi uống bia."
+      }
+    ]
+  },
+  "mn-16-012": {
+    "examples": [
+      {
+        "id": "mn-16-012-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{会議|かいぎ}を[[{始|はじ}めましょう]]。",
+        "source": "ai-draft",
+        "vi": "Chúng ta bắt đầu cuộc họp nào."
+      }
+    ]
+  },
+  "mn-16-013": {
+    "examples": [
+      {
+        "id": "mn-16-013-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{大学|だいがく}を[[{見学|けんがく}しました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã tham quan trường đại học."
+      }
+    ]
+  },
+  "mn-16-014": {
+    "examples": [
+      {
+        "id": "mn-16-014-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{家|うち}へ{帰|かえ}ってから、{母|はは}に[[{電話|でんわ}します]]。",
+        "source": "ai-draft",
+        "vi": "Về nhà rồi tôi gọi điện cho mẹ."
+      }
+    ]
+  },
+  "mn-16-015": {
+    "examples": [
+      {
+        "id": "mn-16-015-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{先生|せんせい}は[[{若|わか}い]]です。",
+        "source": "ai-draft",
+        "vi": "Thầy giáo còn trẻ."
+      }
+    ]
+  },
+  "mn-16-016": {
+    "examples": [
+      {
+        "id": "mn-16-016-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}は{髪|かみ}が[[{長|なが}い]]です。",
+        "source": "ai-draft",
+        "vi": "Cô ấy có tóc dài."
+      }
+    ]
+  },
+  "mn-16-017": {
+    "examples": [
+      {
+        "id": "mn-16-017-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{弟|おとうと}は{髪|かみ}が[[{短|みじか}い]]です。",
+        "source": "ai-draft",
+        "vi": "Em trai tôi có tóc ngắn."
+      }
+    ]
+  },
+  "mn-16-018": {
+    "examples": [
+      {
+        "id": "mn-16-018-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "この{部屋|へや}は[[{明|あか}るい]]です。",
+        "source": "ai-draft",
+        "vi": "Căn phòng này sáng sủa."
+      }
+    ]
+  },
+  "mn-16-019": {
+    "examples": [
+      {
+        "id": "mn-16-019-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{外|そと}は[[{暗|くら}い]]です。",
+        "source": "ai-draft",
+        "vi": "Bên ngoài trời tối."
+      }
+    ]
+  },
+  "mn-16-020": {
+    "examples": [
+      {
+        "id": "mn-16-020-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{兄|あに}は[[{体|からだ}]]が{大|おお}きいです。",
+        "source": "ai-draft",
+        "vi": "Anh trai tôi to cao."
+      }
+    ]
+  },
+  "mn-16-021": {
+    "examples": [
+      {
+        "id": "mn-16-021-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{彼|かれ}は[[{頭|あたま}]]がいいです。",
+        "source": "ai-draft",
+        "vi": "Anh ấy thông minh."
+      }
+    ]
+  },
+  "mn-16-022": {
+    "examples": [
+      {
+        "id": "mn-16-022-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "[[{髪|かみ}]]が{長|なが}くて、{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Tóc dài và đẹp."
+      }
+    ]
+  },
+  "mn-16-023": {
+    "examples": [
+      {
+        "id": "mn-16-023-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}は[[{顔|かお}]]が{小|ちい}さいです。",
+        "source": "ai-draft",
+        "vi": "Cô ấy có khuôn mặt nhỏ."
+      }
+    ]
+  },
+  "mn-16-024": {
+    "examples": [
+      {
+        "id": "mn-16-024-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{彼女|かのじょ}は[[{目|め}]]が{大|おお}きいです。",
+        "source": "ai-draft",
+        "vi": "Cô ấy có đôi mắt to."
+      }
+    ]
+  },
+  "mn-16-025": {
+    "examples": [
+      {
+        "id": "mn-16-025-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{象|ぞう}は[[{耳|みみ}]]が{大|おお}きいです。",
+        "source": "ai-draft",
+        "vi": "Con voi có đôi tai to."
+      }
+    ]
+  },
+  "mn-16-026": {
+    "examples": [
+      {
+        "id": "mn-16-026-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{象|ぞう}は[[{鼻|はな}]]が{長|なが}いです。",
+        "source": "ai-draft",
+        "vi": "Con voi có cái vòi dài."
+      }
+    ]
+  },
+  "mn-16-027": {
+    "examples": [
+      {
+        "id": "mn-16-027-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "[[{口|くち}]]を{開|あ}けてください。",
+        "source": "ai-draft",
+        "vi": "Hãy há miệng ra."
+      }
+    ]
+  },
+  "mn-16-028": {
+    "examples": [
+      {
+        "id": "mn-16-028-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{寝|ね}る{前|まえ}に[[{歯|は}]]を{磨|みが}きます。",
+        "source": "ai-draft",
+        "vi": "Trước khi ngủ tôi đánh răng."
+      }
+    ]
+  },
+  "mn-16-029": {
+    "examples": [
+      {
+        "id": "mn-16-029-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "[[お{腹|なか}]]が{痛|いた}いです。",
+        "source": "ai-draft",
+        "vi": "Tôi đau bụng."
+      }
+    ],
+    "han_viet": "PHÚC",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "腹 = PHÚC (bảng suy ra ghi PHỤC là sai)",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-030": {
+    "examples": [
+      {
+        "id": "mn-16-030-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{彼|かれ}は[[{足|あし}]]が{長|なが}いです。",
+        "source": "ai-draft",
+        "vi": "Anh ấy có đôi chân dài."
+      }
+    ]
+  },
+  "mn-16-031": {
+    "examples": [
+      {
+        "id": "mn-16-031-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{兄|あに}は[[{背|せ}]]が{高|たか}いです。",
+        "source": "ai-draft",
+        "vi": "Anh trai tôi cao."
+      }
+    ]
+  },
+  "mn-16-032": {
+    "examples": [
+      {
+        "id": "mn-16-032-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "この{店|みせ}は[[サービス]]がいいです。",
+        "source": "ai-draft",
+        "vi": "Cửa hàng này phục vụ tốt."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "サービス: PN→N (JMdict: danh từ thông dụng (service; help))",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-033": {
+    "examples": [
+      {
+        "id": "mn-16-033-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}[[ジョギング]]をしてから、{会社|かいしゃ}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi chạy bộ rồi đi làm."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ジョギング: PN→N (JMdict: danh từ thông dụng (jogging))",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-034": {
+    "examples": [
+      {
+        "id": "mn-16-034-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "[[シャワー]]を{浴|あ}びてから、{寝|ね}ます。",
+        "source": "ai-draft",
+        "vi": "Tôi tắm vòi sen rồi đi ngủ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "シャワー: PN→N (JMdict: danh từ thông dụng (shower))",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-035": {
+    "examples": [
+      {
+        "id": "mn-16-035-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{京都|きょうと}は[[{緑|みどり}]]が{多|おお}いです。",
+        "source": "ai-draft",
+        "vi": "Kyoto có nhiều cây xanh."
+      }
+    ]
+  },
+  "mn-16-036": {
+    "examples": [
+      {
+        "id": "mn-16-036-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{京都|きょうと}の[[{寺|てら}]]は{有名|ゆうめい}です。",
+        "source": "ai-draft",
+        "vi": "Chùa ở Kyoto nổi tiếng."
+      }
+    ]
+  },
+  "mn-16-037": {
+    "examples": [
+      {
+        "id": "mn-16-037-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{京都|きょうと}は[[{神社|じんじゃ}]]が{多|おお}いです。",
+        "source": "ai-draft",
+        "vi": "Kyoto có nhiều đền thờ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "じんじゃ: PN→N (JMdict: danh từ thông dụng (Shinto shrine))",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-038": {
+    "examples": [
+      {
+        "id": "mn-16-038-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "[[{一番|いちばん}]]のバスに{乗|の}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy lên xe buýt số 1."
+      }
+    ],
+    "kana": "いちばん",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "nguồn ghi 一ばん",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-039": {
+    "examples": [
+      {
+        "id": "mn-16-039-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "{大学|だいがく}まで[[どうやって]]{行|い}きますか。",
+        "source": "ai-draft",
+        "vi": "Đến trường đại học đi bằng cách nào?"
+      }
+    ]
+  },
+  "mn-16-040": {
+    "examples": [
+      {
+        "id": "mn-16-040-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "[[どの]]{人|ひと}がミラーさんですか。",
+        "source": "ai-draft",
+        "vi": "Người nào là anh Miller?"
+      }
+    ],
+    "pos_code": "Det",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "どの～: mẫu có chỗ điền, không phải cụm hội thoại",
+      "status": "reviewed"
+    }
+  },
+  "mn-16-041": {
+    "examples": [
+      {
+        "id": "mn-16-041-e1",
+        "max_lesson": 16,
+        "review": "user",
+        "ruby": "ミラーさんの{傘|かさ}は[[どれ]]ですか。",
+        "source": "ai-draft",
+        "vi": "Cái ô của anh Miller là cái nào?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "nghi vấn từ, viết kana",
+      "status": "reviewed"
+    }
+  }
+}

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "lesson34_1",
+    "jp": "みがきます",
+    "kanji": "磨きます",
+    "kanji_vn": "MAXỈ",
+    "vn": "mài, đánh [răng]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson34_2",
+    "jp": "くみたてます",
+    "kanji": "組み立てます",
+    "kanji_vn": "TỔ LẬP",
+    "vn": "lắp, lắp ráp, lắp đặt",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson34_3",
+    "jp": "おります",
+    "kanji": "折ります",
+    "kanji_vn": "TRIẾT",
+    "vn": "gấp, gập, bẻ gãy",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson34_4",
+    "jp": "きがつきます",
+    "kanji": "気がつきます",
+    "kanji_vn": "KHÍVONG VẬT",
+    "vn": "nhận thấy, phát hiện [đồ bỏ quên]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson34_5",
+    "jp": "つけます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chấm [xì-dầu]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson34_6",
+    "jp": "みつかります",
+    "kanji": "見つかります",
+    "kanji_vn": "KIẾN",
+    "vn": "được tìm thấy [chìa khóa ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson34_7",
+    "jp": "しつもんします",
+    "kanji": "質問します",
+    "kanji_vn": "CHẤT VẤN",
+    "vn": "hỏi",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson34_8",
+    "jp": "さします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "che [ô]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson34_9",
+    "jp": "スポーツクラブ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "câu lạc bộ thể thao, câu lạc bộ thể hình",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson34_10",
+    "jp": "しろ",
+    "kanji": "城",
+    "kanji_vn": "THÀNH",
+    "vn": "thành",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_11",
+    "jp": "せつめいしょ",
+    "kanji": "説明書",
+    "kanji_vn": "THUYẾT MINH THƯ",
+    "vn": "quyển hướng dẫn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_12",
+    "jp": "ず",
+    "kanji": "図",
+    "kanji_vn": "ĐỒ",
+    "vn": "sơ đồ, hình vẽ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_13",
+    "jp": "せん",
+    "kanji": "線",
+    "kanji_vn": "TUYẾN",
+    "vn": "đường",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_14",
+    "jp": "やじるし",
+    "kanji": "矢印",
+    "kanji_vn": "THỈ ẤN",
+    "vn": "dấu mũi tên",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_15",
+    "jp": "くろ",
+    "kanji": "黒",
+    "kanji_vn": "HẮC",
+    "vn": "màu đen",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_16",
+    "jp": "しろ",
+    "kanji": "白",
+    "kanji_vn": "BẠCH",
+    "vn": "màu trắng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_17",
+    "jp": "あか",
+    "kanji": "赤",
+    "kanji_vn": "XÍCH",
+    "vn": "màu đỏ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_18",
+    "jp": "あお",
+    "kanji": "青",
+    "kanji_vn": "THANH",
+    "vn": "màu xanh da trời",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_19",
+    "jp": "こん",
+    "kanji": "紺",
+    "kanji_vn": "CÁM",
+    "vn": "màu xanh lam",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_20",
+    "jp": "きいろ",
+    "kanji": "黄色",
+    "kanji_vn": "HOÀNG SẮC",
+    "vn": "màu vàng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_21",
+    "jp": "ちゃいろ",
+    "kanji": "茶色",
+    "kanji_vn": "TRÀ SẮC",
+    "vn": "màu nâu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_22",
+    "jp": "しょうゆ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "xì dầu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_23",
+    "jp": "ソース",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nước chấm, nước xốt",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson34_24",
+    "jp": "おきゃく",
+    "kanji": "お客",
+    "kanji_vn": "KHÁCH",
+    "vn": "vị [khách]",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_25",
+    "jp": "～か～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~hay ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson34_26",
+    "jp": "ゆうべ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tối qua, đêm qua",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson34_27",
+    "jp": "さっき",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vừa rồi, vừa lúc nãy",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  }
+]

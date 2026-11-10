@@ -1,0 +1,290 @@
+[
+  {
+    "id": "lesson38_1",
+    "jp": "さんかします",
+    "kanji": "参加します",
+    "kanji_vn": "THAM GIALỮ HÀNH",
+    "vn": "tham gia [~ đi du lịch]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson38_2",
+    "jp": "そだてます",
+    "kanji": "育てます",
+    "kanji_vn": "DỤC",
+    "vn": "nuôi, trồng",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson38_3",
+    "jp": "はこびます",
+    "kanji": "運びます",
+    "kanji_vn": "VẬN",
+    "vn": "chở, vận chuyển",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson38_4",
+    "jp": "にゅういんします",
+    "kanji": "入院します",
+    "kanji_vn": "NHẬP VIỆN",
+    "vn": "nhập viện",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson38_5",
+    "jp": "たいいんします",
+    "kanji": "退院します",
+    "kanji_vn": "THOÁI VIỆN",
+    "vn": "xuất viện",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson38_6",
+    "jp": "いれます",
+    "kanji": "入れます",
+    "kanji_vn": "NHẬPĐIỆN NGUYÊN",
+    "vn": "bật [công tác điện, nguồn điện]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson38_7",
+    "jp": "きります",
+    "kanji": "切ります",
+    "kanji_vn": "THIẾTĐIỆN NGUYÊN",
+    "vn": "tắt [công tác điện, nguồn điện]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson38_8",
+    "jp": "かけます",
+    "kanji": "掛けます",
+    "kanji_vn": "QUẢI",
+    "vn": "khóa [chìa khóa]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson38_9",
+    "jp": "つきます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "nói dối",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson38_10",
+    "jp": "きもちがいい",
+    "kanji": "気持ちがいい",
+    "kanji_vn": "KHÍ TRÌ",
+    "vn": "dễ chịu, thư giãn",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson38_11",
+    "jp": "きもちがわるい",
+    "kanji": "気持ちが悪い",
+    "kanji_vn": "KHÍ TRÌ ÁC",
+    "vn": "khó chịu",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson38_12",
+    "jp": "おおきな～",
+    "kanji": "大きな～",
+    "kanji_vn": "ĐẠI",
+    "vn": "~ to, ~ lớn",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson38_13",
+    "jp": "ちいさな～",
+    "kanji": "小さな～",
+    "kanji_vn": "NHỎ ~",
+    "vn": "nhỏ, ~ bé",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson38_14",
+    "jp": "あかちゃん",
+    "kanji": "赤ちゃん",
+    "kanji_vn": "XÍCH",
+    "vn": "em bé",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_15",
+    "jp": "しょうがっこう",
+    "kanji": "小学校",
+    "kanji_vn": "TIỂU HỌC HIỆU",
+    "vn": "trường tiểu học",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_16",
+    "jp": "ちゅうがっこう",
+    "kanji": "中学校",
+    "kanji_vn": "TRUNG HỌC HIỆU",
+    "vn": "trường trung học cơ sở",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_17",
+    "jp": "えきまえ",
+    "kanji": "駅前",
+    "kanji_vn": "DỊCH TIỀN",
+    "vn": "khu vực trước nhà ga",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_18",
+    "jp": "かいがん",
+    "kanji": "海岸",
+    "kanji_vn": "HẢI NGẠN",
+    "vn": "bờ biển",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_19",
+    "jp": "こうじょう",
+    "kanji": "工場",
+    "kanji_vn": "CÔNG TRƯỜNG",
+    "vn": "nhà máy",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_20",
+    "jp": "むら",
+    "kanji": "村",
+    "kanji_vn": "THÔN",
+    "vn": "làng",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson38_21",
+    "jp": "かな",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chữ Kana",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_22",
+    "jp": "ゆびわ",
+    "kanji": "指輪",
+    "kanji_vn": "CHỈ LUÂN",
+    "vn": "nhẫn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_23",
+    "jp": "でんげん",
+    "kanji": "電源",
+    "kanji_vn": "ĐIỆN NGUYÊN",
+    "vn": "nguồn điện, công tắc điện",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_24",
+    "jp": "しゅうかん",
+    "kanji": "習慣",
+    "kanji_vn": "TẬP QUÁN",
+    "vn": "tập quán, thói quen",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_25",
+    "jp": "けんこう",
+    "kanji": "健康",
+    "kanji_vn": "KIỆN KHANG",
+    "vn": "sức khỏe",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_26",
+    "jp": "～せい",
+    "kanji": "～製",
+    "kanji_vn": "CHẾ",
+    "vn": "hàng ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson38_27",
+    "jp": "おととし",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "năm kia",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_28",
+    "jp": "いけない。",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Ôi, không được rồi./ ôi, trời ơi.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson38_29",
+    "jp": "お先に",
+    "kanji": null,
+    "kanji_vn": "TIÊN THẤT LỄ",
+    "vn": "tôi xin phép về trước",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_30",
+    "jp": "原爆ドーム",
+    "kanji": null,
+    "kanji_vn": "NGUYÊN BỘC",
+    "vn": "nhà vòm Bom nguyên tử, một di tích",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_31",
+    "jp": "出雲大社",
+    "kanji": null,
+    "kanji_vn": "XUẤT VÂNĐẠI XÃ",
+    "vn": "đền thờ ở thành phố Izumo, tình Shimae",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson38_32",
+    "jp": "チェンマイ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Chiềng Mai (ở Thái Lan)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  }
+]

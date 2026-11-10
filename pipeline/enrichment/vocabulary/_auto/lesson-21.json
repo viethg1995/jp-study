@@ -1,0 +1,579 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TƯ",
+    "han_viet_source": "source",
+    "id": "mn-21-001",
+    "kanji": "思います",
+    "kanji_refs": [
+      "k-思"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_1",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGÔN",
+    "han_viet_source": "source",
+    "id": "mn-21-002",
+    "kanji": "言います",
+    "kanji_refs": [
+      "k-言"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_2",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THẮNG",
+    "han_viet_source": "source",
+    "id": "mn-21-003",
+    "kanji": "勝ちます",
+    "kanji_refs": [
+      "k-勝"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_3",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHỤ",
+    "han_viet_source": "source",
+    "id": "mn-21-004",
+    "kanji": "負けます",
+    "kanji_refs": [
+      "k-負"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_4",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed",
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_original": "TẾ",
+    "han_viet_source": null,
+    "id": "mn-21-005",
+    "kanji": "あります",
+    "kanji_refs": [],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_5",
+    "lesson": 21,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 1 (godan)",
+    "pos_suggested": "V1"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DỊCH LẬP",
+    "han_viet_source": "source",
+    "id": "mn-21-006",
+    "kanji": "役に立ちます",
+    "kanji_refs": [
+      "k-役",
+      "k-立"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_6",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỘNG",
+    "han_viet_source": "derived",
+    "id": "mn-21-007",
+    "kanji": "動きます",
+    "kanji_refs": [
+      "k-動"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_7",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "HỘI XÃ",
+    "han_viet_source": null,
+    "id": "mn-21-008",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to stop (an activity); to cease",
+        "kanji": "止めます"
+      },
+      {
+        "gloss": "to resign; to retire",
+        "kanji": "辞めます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_8",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHÍ",
+    "han_viet_source": "source",
+    "id": "mn-21-009",
+    "kanji": "気をつけます",
+    "kanji_refs": [
+      "k-気"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_9",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LƯU HỌC",
+    "han_viet_source": "source",
+    "id": "mn-21-010",
+    "kanji": "留学します",
+    "kanji_refs": [
+      "k-留",
+      "k-学"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_10",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "駄": []
+    },
+    "han_viet_source": null,
+    "id": "mn-21-011",
+    "kanji": "無駄",
+    "kanji_gloss": "futility; waste",
+    "kanji_refs": [
+      "k-無",
+      "k-駄"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson21_11",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BẤT TIỆN",
+    "han_viet_source": "source",
+    "id": "mn-21-012",
+    "kanji": "不便",
+    "kanji_refs": [
+      "k-不",
+      "k-便"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_12",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "凄": []
+    },
+    "han_viet_source": null,
+    "id": "mn-21-013",
+    "kanji": "凄い",
+    "kanji_gloss": "terrible; dreadful",
+    "kanji_refs": [
+      "k-凄"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson21_13",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-014",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "main island",
+        "kanji": "本島"
+      },
+      {
+        "gloss": "truth; reality",
+        "kanji": "本当"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_14",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "嘘": []
+    },
+    "han_viet_source": null,
+    "id": "mn-21-015",
+    "kanji": "嘘",
+    "kanji_gloss": "lie; fib",
+    "kanji_refs": [
+      "k-嘘"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson21_15",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỰ ĐỘNG XA",
+    "han_viet_source": "source",
+    "id": "mn-21-016",
+    "kanji": "自動車",
+    "kanji_refs": [
+      "k-自",
+      "k-動",
+      "k-車"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_16",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIAO THÔNG",
+    "han_viet_source": "source",
+    "id": "mn-21-017",
+    "kanji": "交通",
+    "kanji_refs": [
+      "k-交",
+      "k-通"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_17",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VẬT GIÁ",
+    "han_viet_source": "source",
+    "id": "mn-21-018",
+    "kanji": "物価",
+    "kanji_refs": [
+      "k-物",
+      "k-価"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_18",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÓNG TỐNG",
+    "han_viet_source": "source",
+    "id": "mn-21-019",
+    "kanji": "放送",
+    "kanji_refs": [
+      "k-放",
+      "k-送"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_19",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-020",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_20",
+    "lesson": 21,
+    "pos_reason": "JMdict: danh từ thông dụng (news)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-021",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_21",
+    "lesson": 21,
+    "pos_reason": "JMdict: danh từ thông dụng (animation; animated film)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_22",
+    "lesson": 21,
+    "pos_reason": "JMdict: danh từ thông dụng (cartoon; comic)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-023",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_23",
+    "lesson": 21,
+    "pos_reason": "JMdict: danh từ thông dụng (design)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỘNG",
+    "han_viet_source": "source",
+    "id": "mn-21-024",
+    "kanji": "夢",
+    "kanji_refs": [
+      "k-夢"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_24",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THIÊN TÀI",
+    "han_viet_source": "source",
+    "id": "mn-21-025",
+    "kanji": "天才",
+    "kanji_refs": [
+      "k-天",
+      "k-才"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_25",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THÍ HỢP",
+    "han_viet_source": "source",
+    "id": "mn-21-026",
+    "kanji": "試合",
+    "kanji_refs": [
+      "k-試",
+      "k-合"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_26",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "Ý KIẾN",
+    "han_viet_source": "source",
+    "id": "mn-21-027",
+    "kanji": "意見",
+    "kanji_refs": [
+      "k-意",
+      "k-見"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_27",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THOẠI",
+    "han_viet_source": "source",
+    "id": "mn-21-028",
+    "kanji": "話",
+    "kanji_refs": [
+      "k-話"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_28",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐỊA CẦU",
+    "han_viet_source": "source",
+    "id": "mn-21-029",
+    "kanji": "地球",
+    "kanji_refs": [
+      "k-地",
+      "k-球"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_29",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGUYỆT",
+    "han_viet_source": "source",
+    "id": "mn-21-030",
+    "kanji": "月",
+    "kanji_refs": [
+      "k-月"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_30",
+    "lesson": 21
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỐI CẬN",
+    "han_viet_source": "source",
+    "id": "mn-21-031",
+    "kanji": "最近",
+    "kanji_refs": [
+      "k-最",
+      "k-近"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson21_31",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "ĐA PHÂN",
+    "han_viet_source": "mixed",
+    "id": "mn-21-032",
+    "kanji": "多分",
+    "kanji_gloss": "probably; likely",
+    "kanji_refs": [
+      "k-多",
+      "k-分"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson21_32",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "NGẬT ĐỘ",
+    "han_viet_source": "mixed",
+    "id": "mn-21-033",
+    "kanji": "屹度",
+    "kanji_gloss": "surely; undoubtedly",
+    "kanji_refs": [
+      "k-屹",
+      "k-度"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson21_33",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-034",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_34",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-035",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_35",
+    "lesson": 21
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-21-036",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson21_36",
+    "lesson": 21
+  }
+]

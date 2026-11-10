@@ -1,0 +1,116 @@
+---
+// Thanh menu bên trái.
+//   Desktop (≥ md): cố định bên trái; nút « » thu gọn thành cột icon (ghi nhớ qua storage.ts, key jp:ui:sidebar).
+//   Điện thoại: menu trượt, mở bằng nút ☰ ở header (checkbox #nav-open, thuần CSS).
+// Icon là chữ Hán (lib/nav.ts). Mục chưa có trang → mờ + nhãn "Sắp có".
+import { NAV, isActive } from "../../lib/nav";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const path = Astro.url.pathname.replace(base, "");
+const href = (h: string): string => `${base}/${h}`;
+---
+
+<aside id="sidebar" class="sidebar" aria-label="Menu chính">
+  <nav class="flex h-full flex-col gap-1 p-2">
+    <ul class="flex flex-col gap-1">
+      {
+        NAV.map((item) => {
+          const active = isActive(item, path);
+          const glyph = (
+            <span class="nav-glyph jp" aria-hidden="true" title={item.glyphMeaning}>
+              {item.glyph}
+            </span>
+          );
+          if (item.href === null) {
+            return (
+              <li>
+                <span class="nav-item nav-disabled" aria-disabled="true" title={`${item.label} — sắp có`}>
+                  {glyph}
+                  <span class="nav-label">{item.label}</span>
+                  <span class="nav-soon">Sắp có</span>
+                </span>
+              </li>
+            );
+          }
+          return (
+            <li class="nav-group">
+              {item.children && (
+                <input
+                  type="checkbox"
+                  id={`nav-group-${item.id}`}
+                  class="nav-group-toggle sr-only"
+                  checked
+                  aria-label={`Thu/xổ mục con của ${item.label}`}
+                />
+              )}
+              <div class="flex items-center">
+                <a
+                  href={href(item.href)}
+                  class="nav-item"
+                  aria-current={active ? "page" : undefined}
+                  title={item.label}
+                >
+                  {glyph}
+                  <span class="nav-label">{item.label}</span>
+                </a>
+                {item.children && (
+                  <label for={`nav-group-${item.id}`} class="nav-expander" title="Thu/xổ mục con">
+                    <span aria-hidden="true">▾</span>
+                  </label>
+                )}
+              </div>
+              {item.children && (
+                <ul class="nav-children">
+                  {item.children.map((c) => (
+                    <li>
+                      <a href={href(c.href)} class="nav-child">
+                        {c.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    <button type="button" id="sidebar-toggle" class="nav-toggle mt-auto" aria-controls="sidebar" aria-expanded="true">
+      <span class="nav-toggle-icon" aria-hidden="true">«</span>
+      <span class="nav-label">Thu gọn</span>
+    </button>
+  </nav>
+</aside>
+<!-- Nền mờ khi mở menu trên điện thoại: bấm vào để đóng -->
+<label for="nav-open" class="nav-backdrop" aria-hidden="true"></label>
+
+<script>
+  import { KEYS, writeString } from "../../lib/storage";
+
+  const root = document.documentElement;
+  const btn = document.getElementById("sidebar-toggle");
+  const sync = (): void => {
+    const collapsed = root.classList.contains("sidebar-collapsed");
+    btn?.setAttribute("aria-expanded", String(!collapsed));
+    const icon = btn?.querySelector(".nav-toggle-icon");
+    const label = btn?.querySelector(".nav-label");
+    if (icon) icon.textContent = collapsed ? "»" : "«";
+    if (label) label.textContent = collapsed ? "Mở rộng" : "Thu gọn";
+    btn?.setAttribute("title", collapsed ? "Mở rộng menu" : "Thu gọn menu");
+  };
+  btn?.addEventListener("click", () => {
+    const collapsed = root.classList.toggle("sidebar-collapsed");
+    writeString(KEYS.sidebar, collapsed ? "collapsed" : "expanded");
+    sync();
+  });
+  sync();
+
+  // Điện thoại: bấm một mục → đóng menu trượt (cần cho link cùng trang như #n5)
+  const navOpen = document.getElementById("nav-open");
+  document.querySelectorAll<HTMLAnchorElement>("#sidebar a").forEach((a) =>
+    a.addEventListener("click", () => {
+      if (navOpen instanceof HTMLInputElement) navOpen.checked = false;
+    }),
+  );
+</script>

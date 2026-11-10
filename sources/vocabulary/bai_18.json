@@ -1,0 +1,191 @@
+[
+  {
+    "id": "lesson18_1",
+    "jp": "できます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "có thể",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson18_2",
+    "jp": "あらいます",
+    "kanji": "洗います",
+    "kanji_vn": "TẨY",
+    "vn": "rửa",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson18_3",
+    "jp": "ひきます",
+    "kanji": "弾きます",
+    "kanji_vn": "ĐÀN, ĐẠN",
+    "vn": "chơi (nhạc cụ)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson18_4",
+    "jp": "うたいます",
+    "kanji": "歌います",
+    "kanji_vn": "CA",
+    "vn": "hát",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson18_5",
+    "jp": "あつめます",
+    "kanji": "集めます",
+    "kanji_vn": "TẬP",
+    "vn": "sưu tầm, thu thập",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson18_6",
+    "jp": "すてます",
+    "kanji": "捨てます",
+    "kanji_vn": "XẢ",
+    "vn": "vứt, bỏ đi",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson18_7",
+    "jp": "かえます",
+    "kanji": "換えます",
+    "kanji_vn": "HOÁN",
+    "vn": "đổi",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson18_8",
+    "jp": "うんてんします",
+    "kanji": "運転します",
+    "kanji_vn": "VẬN CHUYỂN",
+    "vn": "lái",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson18_9",
+    "jp": "よやくします",
+    "kanji": "予約します",
+    "kanji_vn": "DỰ ƯỚC",
+    "vn": "đặt chỗ, đặt trước",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson18_10",
+    "jp": "ピアノ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đàn Piano",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson18_11",
+    "jp": "―メートル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "― mét",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_12",
+    "jp": "げんきん",
+    "kanji": "現金",
+    "kanji_vn": "HIỆN KIM",
+    "vn": "tiền mặt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_13",
+    "jp": "しゅみ",
+    "kanji": "趣味",
+    "kanji_vn": "THÚ VỊ",
+    "vn": "sở thích, thú vui",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_14",
+    "jp": "にっき",
+    "kanji": "日記",
+    "kanji_vn": "NHẬT KÝ",
+    "vn": "nhật ký",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_15",
+    "jp": "いのり",
+    "kanji": "祈り",
+    "kanji_vn": "KỲ",
+    "vn": "việc cầu nguyện (～をします：cầu nguyện)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_16",
+    "jp": "かちょう",
+    "kanji": "課長",
+    "kanji_vn": "KHOA TRƯỞNG",
+    "vn": "tổ trưởng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_17",
+    "jp": "ぶちょう",
+    "kanji": "部長",
+    "kanji_vn": "BỘ TRƯỞNG",
+    "vn": "trưởng phòng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_18",
+    "jp": "しゃちょう",
+    "kanji": "社長",
+    "kanji_vn": "XÃ TRƯỞNG",
+    "vn": "giám đốc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_19",
+    "jp": "どうぶつ",
+    "kanji": "動物",
+    "kanji_vn": "ĐỘNG VẬT",
+    "vn": "động vật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_20",
+    "jp": "うま",
+    "kanji": "馬",
+    "kanji_vn": "MÃ",
+    "vn": "ngựa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson18_21",
+    "jp": "インターネット",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "internet",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  }
+]

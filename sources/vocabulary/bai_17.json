@@ -1,0 +1,263 @@
+[
+  {
+    "id": "lesson17_1",
+    "jp": "おぼえます",
+    "kanji": "覚えます",
+    "kanji_vn": "GIÁC",
+    "vn": "nhớ",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson17_2",
+    "jp": "わすれます",
+    "kanji": "忘れます",
+    "kanji_vn": "VONG",
+    "vn": "quên",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson17_3",
+    "jp": "なくします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "mất, đánh mất",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson17_4",
+    "jp": "はらいます",
+    "kanji": "払います",
+    "kanji_vn": "PHẤT",
+    "vn": "trả tiền",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson17_5",
+    "jp": "かえします",
+    "kanji": "返します",
+    "kanji_vn": "PHẢN",
+    "vn": "trả lại",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson17_6",
+    "jp": "でかけます",
+    "kanji": "出かけます",
+    "kanji_vn": "XUẤT",
+    "vn": "ra ngoài",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson17_7",
+    "jp": "ぬぎます",
+    "kanji": "脱ぎます",
+    "kanji_vn": "THOÁT",
+    "vn": "cởi (quần áo, giầy)",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson17_8",
+    "jp": "もっていきます",
+    "kanji": "持って行きます",
+    "kanji_vn": "TRÌ HÀNH",
+    "vn": "mang đi, mang theo",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson17_9",
+    "jp": "もってきます",
+    "kanji": "持って来ます",
+    "kanji_vn": "TRÌ LAI",
+    "vn": "mang đến",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson17_10",
+    "jp": "しんぱいします",
+    "kanji": "心配します",
+    "kanji_vn": "TÂM PHỐI",
+    "vn": "lo lắng",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson17_11",
+    "jp": "ざんぎょうします",
+    "kanji": "残業します",
+    "kanji_vn": "TÀN NGHIỆP",
+    "vn": "làm thêm, làm quá giờ",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson17_12",
+    "jp": "しゅっちょうします",
+    "kanji": "出張します",
+    "kanji_vn": "XUẤT TRƯƠNG",
+    "vn": "đi công tác",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson17_13",
+    "jp": "のみます",
+    "kanji": "飲みます",
+    "kanji_vn": "ẨMDƯỢC",
+    "vn": "uống [thuốc]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson17_14",
+    "jp": "はいります",
+    "kanji": "入ります",
+    "kanji_vn": "NHẬP",
+    "vn": "tắm bồn [vào bồn tắm]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson17_15",
+    "jp": "たいせつ",
+    "kanji": "大切",
+    "kanji_vn": "ĐẠI THIẾT",
+    "vn": "quan trọng, quý giá",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson17_16",
+    "jp": "だいじょうぶ",
+    "kanji": "大丈夫",
+    "kanji_vn": "ĐẠI TRƯỢNG PHU",
+    "vn": "không sao, không có vấn đề gì",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson17_17",
+    "jp": "あぶない",
+    "kanji": "危ない",
+    "kanji_vn": "NGUY",
+    "vn": "nguy hiểm",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson17_18",
+    "jp": "きんえん",
+    "kanji": "禁煙",
+    "kanji_vn": "CẤM YÊN",
+    "vn": "cấm hút thuốc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_19",
+    "jp": "ほけんしょう",
+    "kanji": "保険証",
+    "kanji_vn": "KIỆN KHANG",
+    "vn": "thẻ bảo hiểm [y tế]",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_20",
+    "jp": "ねつ",
+    "kanji": "熱",
+    "kanji_vn": "NHIỆT",
+    "vn": "sốt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_21",
+    "jp": "びょうき",
+    "kanji": "病気",
+    "kanji_vn": "BỆNH KHÍ",
+    "vn": "ốm, bệnh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_22",
+    "jp": "くすり",
+    "kanji": "薬",
+    "kanji_vn": "DƯỢC",
+    "vn": "thuốc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_23",
+    "jp": "ふろ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bồn tắm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_24",
+    "jp": "うわぎ",
+    "kanji": "上着",
+    "kanji_vn": "THƯỢNG TRƯỚC",
+    "vn": "áo khoác",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_25",
+    "jp": "したぎ",
+    "kanji": "下着",
+    "kanji_vn": "HẠ TRƯỚC",
+    "vn": "quần áo lót",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_26",
+    "jp": "２，３にち",
+    "kanji": "２，３日",
+    "kanji_vn": "NHẬT",
+    "vn": "2,3 ngày, vài ngày",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson17_27",
+    "jp": "２，３～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vài~ (“~” là hậu tố đếm)",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson17_28",
+    "jp": "～までに",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "trước ~ (chỉ thời hạn)",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson17_29",
+    "jp": "ですから",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vì thế, vì vậy, do đó",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

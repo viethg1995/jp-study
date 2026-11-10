@@ -1,0 +1,6 @@
+# by: user
+# Vòng 8 — nghĩa bị dính chữ khi scrape nguồn (thiếu dấu phân cách giữa các nghĩa) → tách bằng ';'
+# id | nghĩa mới | ghi chú
+32-013|tham gia [trận đấu]; dự [tiệc]|gốc: tham gia [trận đấu]dự [tiệc]
+35-005|khỏi [bệnh]; được sửa xong [hỏng hóc ～]|gốc: khỏi [bệnh]được sửa xong [hỏng hóc ~]
+47-006|có [âm thanh/ tiếng]; có [vị]; có [mùi]|gốc: có [âm thanh/ tiếng]có [vị]có [mùi]

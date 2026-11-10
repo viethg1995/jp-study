@@ -1,0 +1,305 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "YẾU",
+    "han_viet_source": "source",
+    "id": "mn-20-001",
+    "kanji": "要ります",
+    "kanji_refs": [
+      "k-要"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_1",
+    "lesson": 20
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐIỀU",
+    "han_viet_source": "source",
+    "id": "mn-20-002",
+    "kanji": "調べます",
+    "kanji_refs": [
+      "k-調"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_2",
+    "lesson": 20
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TU LÝ",
+    "han_viet_source": "source",
+    "id": "mn-20-003",
+    "kanji": "修理します",
+    "kanji_refs": [
+      "k-修",
+      "k-理"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_3",
+    "lesson": 20
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BỘC",
+    "han_viet_source": "source",
+    "id": "mn-20-004",
+    "kanji": "僕",
+    "kanji_refs": [
+      "k-僕"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_4",
+    "lesson": 20
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "QUÂN",
+    "han_viet_source": "source",
+    "id": "mn-20-005",
+    "kanji": "君",
+    "kanji_refs": [
+      "k-君"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_5",
+    "lesson": 20
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "QUÂN",
+    "han_viet_source": "source",
+    "id": "mn-20-006",
+    "kanji": "～君",
+    "kanji_refs": [
+      "k-君"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_6",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "VẬN",
+    "han_viet_source": "derived",
+    "id": "mn-20-007",
+    "kanji": "運",
+    "kanji_gloss": "fortune; luck",
+    "kanji_refs": [
+      "k-運"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson20_7",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-20-008",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson20_8",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "NGÔN DIỆP",
+    "han_viet_source": "derived",
+    "id": "mn-20-009",
+    "kanji": "言葉",
+    "kanji_gloss": "language; dialect",
+    "kanji_refs": [
+      "k-言",
+      "k-葉"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson20_9",
+    "lesson": 20
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRƯỚC VẬT",
+    "han_viet_source": "source",
+    "id": "mn-20-010",
+    "kanji": "着物",
+    "kanji_refs": [
+      "k-着",
+      "k-物"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_10",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-20-011",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson20_11",
+    "lesson": 20,
+    "pos_reason": "JMdict: danh từ thông dụng (visa)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỦY",
+    "han_viet_source": "source",
+    "id": "mn-20-012",
+    "kanji": "始め",
+    "kanji_refs": [
+      "k-始"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_12",
+    "lesson": 20
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHUNG",
+    "han_viet_source": "source",
+    "id": "mn-20-013",
+    "kanji": "終わり",
+    "kanji_refs": [
+      "k-終"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson20_13",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "THỬ PHƯƠNG",
+    "han_viet_source": "mixed",
+    "id": "mn-20-014",
+    "kanji": "此方",
+    "kanji_gloss": "this way; this direction",
+    "kanji_refs": [
+      "k-此",
+      "k-方"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson20_14",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "KÌ PHƯƠNG",
+    "han_viet_source": "mixed",
+    "id": "mn-20-015",
+    "kanji": "其方",
+    "kanji_gloss": "that way; that direction",
+    "kanji_refs": [
+      "k-其",
+      "k-方"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson20_15",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "BỈ PHƯƠNG",
+    "han_viet_source": "derived",
+    "id": "mn-20-016",
+    "kanji": "彼方",
+    "kanji_gloss": "that way; that direction",
+    "kanji_refs": [
+      "k-彼",
+      "k-方"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson20_16",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "HÀ PHƯƠNG",
+    "han_viet_source": "derived",
+    "id": "mn-20-017",
+    "kanji": "何方",
+    "kanji_gloss": "which way; which direction",
+    "kanji_refs": [
+      "k-何",
+      "k-方"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson20_17",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-20-018",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson20_18",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-20-019",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson20_19",
+    "lesson": 20
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-20-020",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson20_20",
+    "lesson": 20
+  }
+]

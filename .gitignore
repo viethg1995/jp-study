@@ -1,0 +1,39 @@
+# ===== Tài liệu có bản quyền — chỉ dùng cá nhân trên máy =====
+sources/books/
+sources/audio/
+sources/_archives/
+sources/_extracted/
+sources/dictionaries/
+sources/grammar/pdf/
+sources/kanji/*.pdf
+*.pdf
+*.mp3
+*.m4a
+*.mp4
+*.zip
+*.rar
+*.skill
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ===== Node / Astro =====
+node_modules/
+web/dist/
+web/.astro/
+
+# ===== Editor / OS =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*

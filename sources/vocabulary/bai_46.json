@@ -1,0 +1,155 @@
+[
+  {
+    "id": "lesson46_1",
+    "jp": "わたします",
+    "kanji": "渡します",
+    "kanji_vn": "ĐỘ",
+    "vn": "đưa cho, giao cho",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson46_2",
+    "jp": "かえってきます",
+    "kanji": "帰って来ます",
+    "kanji_vn": "QUY LAI",
+    "vn": "về, trở lại",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson46_3",
+    "jp": "でます",
+    "kanji": "出ます",
+    "kanji_vn": "XUẤT",
+    "vn": "xuất phát, chạy [xe buýt ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson46_4",
+    "jp": "とどきます",
+    "kanji": "届きます",
+    "kanji_vn": "GIỚIHÀ VẬT",
+    "vn": "được gởi đến, được chuyển đến [hành lý ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson46_5",
+    "jp": "にゅうがくします",
+    "kanji": "入学します",
+    "kanji_vn": "NHẬP HỌCĐẠI HỌC",
+    "vn": "nhập học, vào [(trường) đại học]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson46_6",
+    "jp": "そつぎょうします",
+    "kanji": "卒業します",
+    "kanji_vn": "TỐT NGHIỆPĐẠI HỌC",
+    "vn": "tốt nghiệp [(trường) đại học]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson46_7",
+    "jp": "やきます",
+    "kanji": "焼きます",
+    "kanji_vn": "THIÊU",
+    "vn": "nướng, rán",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson46_8",
+    "jp": "やけます",
+    "kanji": "焼けます",
+    "kanji_vn": "THIÊU",
+    "vn": "được nướng [bánh mì ~],[thịt ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson46_9",
+    "jp": "るす",
+    "kanji": "留守",
+    "kanji_vn": "LƯU THỦ",
+    "vn": "đi vắng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson46_10",
+    "jp": "たくはいびん",
+    "kanji": "宅配便",
+    "kanji_vn": "TRẠCH PHỐI TIỆN",
+    "vn": "dịch vụ chuyển đồ đến nhà",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson46_11",
+    "jp": "げんいん",
+    "kanji": "原因",
+    "kanji_vn": "NGUYÊN NHÂN",
+    "vn": "nguyên nhân",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson46_12",
+    "jp": "こちら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "đây, đằng này",
+    "type": "Đại từ",
+    "type_code": "Pro"
+  },
+  {
+    "id": "lesson46_13",
+    "jp": "～のところ",
+    "kanji": "～の所",
+    "kanji_vn": "SỞ",
+    "vn": "quanh ~, xung quanh ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson46_14",
+    "jp": "はんとし",
+    "kanji": "半年",
+    "kanji_vn": "BÁN NIÊN",
+    "vn": "nửa năm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson46_15",
+    "jp": "ちょうど",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "vừa đúng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson46_16",
+    "jp": "たったいま",
+    "kanji": "たった今",
+    "kanji_vn": "KIM",
+    "vn": "vừa mới rồi",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson46_17",
+    "jp": "今いいですか。",
+    "kanji": null,
+    "kanji_vn": "KIM",
+    "vn": "Bây giờ nói chuyện có được không ạ?",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  }
+]

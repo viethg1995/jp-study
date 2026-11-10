@@ -1,0 +1,402 @@
+# by: ai
+# Nghĩa tiếng Việt cho từ ví dụ Kanji bổ sung từ JMdict (lô 3, 2026-11-10) — AI nháp, chờ duyệt.
+お釣り|おつり|tiền thối, tiền thừa
+釣り合い|つりあい|sự cân bằng
+釣り合う|つりあう|cân bằng, hài hòa
+日頃|ひごろ|thường ngày
+今頃|いまごろ|giờ này, khoảng giờ này
+先頃|さきごろ|hôm trước, gần đây
+区立|くりつ|do quận lập
+使徒|しと|sứ đồ, tông đồ
+使い|つかい|việc vặt, người được sai đi
+急ぎ|いそぎ|sự vội vàng, gấp
+住む|すむ|sống, cư trú
+移住|いじゅう|di cư
+住人|じゅうにん|cư dân
+閉会|へいかい|bế mạc
+閉口|へいこう|bó tay, chịu thua
+打開|だかい|phá thế bế tắc
+開く|あく|mở (cửa)
+未開|みかい|chưa khai hóa, hoang sơ
+下降|かこう|đi xuống, giảm
+待ち|まち|sự chờ đợi
+待つ|まつ|chờ, đợi
+待機|たいき|chờ sẵn, túc trực
+保持|ほじ|duy trì, giữ
+問い|とい|câu hỏi
+問う|とう|hỏi
+不問|ふもん|bỏ qua, không truy cứu
+問答|もんどう|vấn đáp
+回答|かいとう|trả lời, giải đáp
+応答|おうとう|đáp lại, phản hồi
+塩化|えんか|clorua hóa
+塩味|えんみ|vị mặn
+塩基|えんき|bazơ
+塩田|しおた|ruộng muối
+消す|けす|xóa; tắt
+呼応|こおう|hô ứng, hưởng ứng
+呼ぶ|よぶ|gọi
+点呼|てんこ|điểm danh
+一座|いちざ|cả nhóm, mọi người có mặt
+口座|こうざ|tài khoản (ngân hàng)
+座り|すわり|sự ngồi
+座る|すわる|ngồi
+又ね|またね|hẹn gặp lại
+ル又|るまた|bộ thủ số 79 (bên phải)
+猫又|ねこまた|mèo hai đuôi (yêu quái)
+又隣|またどなり|nhà cách một nhà
+先取|せんしゅ|ghi điểm trước
+取る|とる|lấy, cầm
+利点|りてん|ưu điểm, lợi thế
+加点|かてん|cộng điểm
+砂|すな|cát
+土砂|どさ|đất cát
+砂利|ざり|sỏi, đá dăm
+砂防|さぼう|chống xói mòn
+糖分|とうぶん|lượng đường
+糖質|とうしつ|chất đường, carbohydrate
+血糖|けっとう|đường huyết
+製糖|せいとう|sản xuất đường
+作り|つくり|sự làm, chế tạo
+下品|げひん|thô tục
+市場|いちば|chợ
+市議|しぎ|ủy viên hội đồng thành phố
+市部|しぶ|khu vực đô thị
+都市|とし|đô thị, thành phố
+不服|ふふく|bất mãn, không phục
+和服|わふく|trang phục Nhật
+私服|しふく|thường phục
+子役|こやく|diễn viên nhí
+役場|やくば|ủy ban (thị trấn, làng)
+役目|やくめ|vai trò, nhiệm vụ
+位置|いち|vị trí
+置く|おく|đặt, để
+倒置|とうち|đảo ngược
+放置|ほうち|bỏ mặc, để nguyên
+荷造り|にづくり|đóng gói hành lý
+偽造|ぎぞう|làm giả
+造語|ぞうご|từ mới tạo
+人造|じんぞう|nhân tạo
+経る|へる|trải qua
+歯科|しか|nha khoa
+義歯|ぎし|răng giả
+刻み|きざみ|sự thái nhỏ; khắc
+刻む|きざむ|thái nhỏ; khắc
+時刻|じこく|thời khắc, giờ
+手製|てせい|tự làm, làm bằng tay
+製図|せいず|vẽ kỹ thuật
+製紙|せいし|sản xuất giấy
+独り言|ひとりごと|nói một mình
+独自|どくじ|độc đáo, riêng
+単独|たんどく|đơn độc, một mình
+独奏|どくそう|độc tấu
+弁済|べんさい|hoàn trả, trả nợ
+原資|げんし|vốn gốc
+増資|ぞうし|tăng vốn
+耳目|じぼく|tai mắt, sự chú ý
+中耳|ちゅうじ|tai giữa
+耳元|みみもと|bên tai
+耳鼻科|じびか|khoa tai mũi họng
+寺院|じいん|chùa chiền
+山寺|やまでら|chùa trên núi
+国分寺|こくぶんじ|chùa Quốc Phân (thời Nara)
+暗に|あんに|ngầm, gián tiếp
+暗示|あんじ|ám chỉ, gợi ý
+暗記|あんき|học thuộc lòng
+明暗|めいあん|sáng tối
+緑化|りょくか|phủ xanh, trồng cây
+緑地|りょくち|khu đất xanh
+新緑|しんりょく|lá xanh non
+緑色|みどりいろ|màu xanh lá
+原始|げんし|nguyên thủy
+始動|しどう|khởi động
+短期|たんき|ngắn hạn
+短歌|たんか|thơ tanka (31 âm tiết)
+短気|たんき|nóng tính
+短波|たんぱ|sóng ngắn
+老若|ろうじゃく|già trẻ
+若さ|わかさ|tuổi trẻ
+若手|わかて|người trẻ
+若葉|わかば|lá non
+押収|おうしゅう|tịch thu
+押し|おし|sự đẩy
+押す|おす|đẩy, ấn
+腹痛|はらいた|đau bụng
+腹部|ふくぶ|vùng bụng
+切腹|せっぷく|mổ bụng tự sát (seppuku)
+満腹|まんぷく|no bụng
+音頭|おんど|người dẫn xướng
+頭痛|ずつう|đau đầu
+頭部|とうぶ|phần đầu
+会頭|かいとう|chủ tịch hội
+互換|ごかん|tương thích, hoán đổi
+換気|かんき|thông gió
+浴衣|よくい|yukata (kimono mỏng mùa hè)
+浴室|よくしつ|phòng tắm
+入浴|にゅうよく|tắm (bồn)
+浴場|よくじょう|nhà tắm công cộng
+背後|はいご|phía sau
+背く|そむく|làm trái, chống lại
+背丈|せたけ|chiều cao, vóc dáng
+顔面|がんめん|mặt
+似顔|にがお|chân dung
+寝顔|ねがお|khuôn mặt khi ngủ
+真顔|まがお|vẻ mặt nghiêm túc
+理髪|りはつ|cắt tóc
+前髪|まえがみ|tóc mái
+散髪|さんぱつ|cắt tóc
+洗髪|せんぱつ|gội đầu
+鼻息|びそく|hơi thở qua mũi
+鼻血|はなぢ|chảy máu cam
+鼻先|はなさき|chóp mũi
+鼻水|はなみず|nước mũi
+医薬|いやく|thuốc men, y dược
+火薬|かやく|thuốc súng
+薬価|やくか|giá thuốc
+心得|こころえ|hiểu biết, kiến thức (kỹ năng)
+古風|こふう|cổ, kiểu xưa
+保つ|たもつ|giữ, duy trì
+払拭|ふっしき|xóa bỏ, quét sạch
+払い|はらい|sự thanh toán
+払う|はらう|trả (tiền)
+不払い|ふばらい|không trả tiền
+配る|くばる|phân phát
+手配|てはい|sắp xếp, chuẩn bị
+味覚|みかく|vị giác
+知覚|ちかく|tri giác
+険しい|けわしい|dốc đứng, hiểm trở
+保険|ほけん|bảo hiểm
+険悪|けんあく|nguy hiểm, căng thẳng
+張り|ばり|theo phong cách của…
+気丈|きじょう|cứng cỏi, kiên cường
+丈|たけ|chiều cao, chiều dài
+危害|きがい|nguy hại, thương tổn
+危急|ききゅう|nguy cấp
+お風呂|おふろ|bồn tắm, việc tắm
+風呂場|ふろば|phòng tắm
+風呂屋|ふろや|nhà tắm công cộng
+忘れる|わすれる|quên
+忘れ物|わすれもの|đồ bỏ quên
+忘却|ぼうきゃく|quên lãng
+仕業|しわざ|hành vi, việc làm (xấu)
+脱皮|だっぴ|lột xác
+脱ぐ|ぬぐ|cởi
+脱衣|だつい|cởi quần áo
+離脱|りだつ|rời bỏ, ly khai
+証|あかし|bằng chứng
+保証|ほしょう|bảo đảm, bảo hành
+馬場|ばば|bãi tập ngựa, trường đua
+白馬|はくば|ngựa trắng
+競馬|けいば|đua ngựa
+馬主|ばしゅ|chủ ngựa
+集い|つどい|cuộc gặp mặt
+不運|ふうん|không may
+取捨|しゅしゃ|chọn lọc, lấy bỏ
+捨てる|すてる|vứt bỏ
+捨て子|すてご|trẻ bị bỏ rơi
+切り捨て|きりすて|cắt bỏ, hy sinh
+洗う|あらう|rửa, giặt
+記す|しるす|ghi lại
+下記|かき|như dưới đây
+現に|げんに|thực tế, quả thật
+現地|げんち|tại chỗ, địa phương
+現場|げんば|hiện trường
+実弾|じつだん|đạn thật
+弾く|ひく|chơi (đàn)
+弾み|はずみ|đà, sự nảy
+弾む|はずむ|nảy; sôi nổi
+祈念|きねん|cầu nguyện
+祈願|きがん|cầu khấn
+祈祷|きとう|cầu nguyện, khấn
+日課|にっか|việc hằng ngày
+課員|かいん|nhân viên ban
+課税|かぜい|đánh thuế
+趣|おもむき|ý vị, phong vị
+趣向|しゅこう|ý tưởng, cách bày trí
+趣旨|しゅし|ý chính, mục đích
+意趣|いしゅ|hiềm thù
+仕様|しよう|cách làm; thông số kỹ thuật
+弱体|じゃくたい|yếu kém
+弱み|よわみ|điểm yếu
+弱る|よわる|yếu đi
+弱気|よわき|nhút nhát, yếu lòng
+度数|たびかず|số lần
+世相|せそう|thế thái, tình hình xã hội
+不眠|ふみん|mất ngủ
+眠り|ねむり|giấc ngủ
+登山|とざん|leo núi
+登記|とうき|đăng ký (bất động sản…)
+登校|とうこう|đi học, đến trường
+掃く|はく|quét
+掃除|そうじ|dọn dẹp
+一掃|いっそう|quét sạch
+掃海|そうかい|rà phá thủy lôi
+打撲|だぼく|va đập
+撲滅|ぼくめつ|tiêu diệt, bài trừ
+打撲傷|だぼくしょう|vết bầm
+全身打撲|ぜんしんだぼく|bầm dập toàn thân
+一泊|いっぱく|một đêm (lưu trú)
+停泊|ていはく|neo đậu
+宿泊|しゅくはく|lưu trú, trọ
+泊まり|とまり|ngủ lại, lưu trú
+洗濯|せんたく|giặt giũ
+洗濯機|せんたくき|máy giặt
+濯ぎ|すすぎ|giũ, xả (nước)
+除く|のぞく|loại bỏ; ngoại trừ
+免除|めんじょ|miễn
+解除|かいじょ|hủy bỏ, giải trừ
+陰気|いんき|u ám, ảm đạm
+日陰|ひかげ|bóng râm
+木陰|こかげ|bóng cây
+陰り|かげり|bóng tối, dấu hiệu suy giảm
+言う|いう|nói
+予言|よげん|tiên đoán
+修める|おさめる|học, tu dưỡng
+修士|しゅうし|thạc sĩ
+修復|しゅふく|tu sửa, phục hồi
+僕ら|ぼくら|chúng tôi (nam)
+僕たち|ぼくたち|chúng tôi (nam)
+下僕|げぼく|người hầu
+家僕|かぼく|gia nhân
+君子|くんし|quân tử
+君主|くんしゅ|quân chủ
+君が代|きみがよ|Kimigayo (quốc ca Nhật); triều đại của Thiên hoàng
+君たち|きみたち|các cậu, các bạn
+不要|ふよう|không cần thiết
+要は|ようは|tóm lại
+多才|たさい|đa tài
+才能|さいのう|tài năng
+才|さい|tài năng
+鬼才|きさい|kỳ tài, thiên tài
+価値|かち|giá trị
+地価|ちか|giá đất
+時価|じか|giá thị trường
+価格|かかく|giá cả
+凄まじい|すさまじい|khủng khiếp
+凄み|すごみ|vẻ đáng sợ
+凄む|すごむ|dọa nạt
+凄技|すごわざ|kỹ thuật đáng kinh ngạc
+勝利|しょうり|thắng lợi
+勝ち|かち|chiến thắng
+勝つ|かつ|thắng
+勝る|まさる|vượt trội, hơn
+嘘つき|うそつき|kẻ nói dối
+嘘字|うそじ|chữ viết sai
+嘘寝|うそね|giả vờ ngủ
+大嘘|おおうそ|lời nói dối trắng trợn
+夢想|むそう|mộng tưởng
+悪夢|あくむ|ác mộng
+初夢|はつゆめ|giấc mơ đầu năm
+夢中|むちゅう|say mê
+放す|はなす|thả ra
+放つ|はなつ|bắn, phóng
+放る|ほうる|ném
+最も|もっとも|nhất
+最下|さいか|thấp nhất, kém nhất
+自負|じふ|tự hào, tự tin
+負う|おう|cõng, gánh vác
+負け|まけ|thua
+下駄|げた|guốc gỗ geta
+駄菓子|だがし|kẹo bánh rẻ tiền
+駄菓子屋|だがしや|tiệm kẹo bánh rẻ
+都|みやこ|kinh đô
+都度|つど|mỗi lần
+履歴|りれき|lý lịch, lịch sử
+履く|はく|mang (giày), mặc (quần, váy)
+履行|りこう|thi hành, thực hiện (nghĩa vụ)
+無帽|むぼう|không đội mũ
+中帽|なかぼう|mũ bảo hiểm (lót trong)
+制帽|せいぼう|mũ đồng phục
+学帽|がくぼう|mũ học sinh
+弁護|べんご|bào chữa
+代弁|だいべん|nói thay, phát ngôn thay
+近眼|ちかめ|cận thị
+眼科|がんか|khoa mắt
+主眼|しゅがん|mục đích chính
+老眼|ろうがん|viễn thị do tuổi già
+被告|ひこく|bị cáo
+被服|ひふく|quần áo
+被爆|ひばく|bị ném bom; nhiễm phóng xạ
+鏡台|きょうだい|bàn trang điểm
+望遠鏡|ぼうえんきょう|kính viễn vọng
+顕微鏡|けんびきょう|kính hiển vi
+二号|にごう|số hai
+怒号|どごう|tiếng gầm giận dữ
+不信|ふしん|không tin, ngờ vực
+信徒|しんと|tín đồ
+過渡|かと|quá độ
+渡し|わたし|bến đò
+渡す|わたす|đưa, trao; chở qua
+進駐|しんちゅう|đóng quân
+駐日|ちゅうにち|thường trú tại Nhật
+駐車|ちゅうしゃ|đỗ xe
+常駐|じょうちゅう|thường trú
+歌曲|かきょく|ca khúc
+一曲|いっきょく|một bài (nhạc)
+建議|けんぎ|kiến nghị
+建つ|たつ|được xây dựng
+再建|さいけん|tái thiết
+建前|たてまえ|lập trường bề ngoài (đối lập với suy nghĩ thật)
+互角|ごかく|ngang tài ngang sức
+四角|しかく|hình vuông, tứ giác
+多角|たかく|đa giác; đa dạng
+角度|かくど|góc độ
+感触|かんしょく|cảm giác (khi chạm)
+触る|さわる|chạm, sờ
+抵触|ていしょく|vi phạm, xung đột (luật)
+接触|せっしょく|tiếp xúc
+寂然|せきぜん|cô quạnh
+静寂|せいじゃく|tĩnh lặng
+寂|さび|vẻ cổ kính (sabi)
+寂静|せきせい|tĩnh mịch
+差す|さす|chiếu (ánh sáng)
+時差|じさ|chênh lệch múi giờ
+誤差|ごさ|sai số
+交差|こうさ|giao nhau
+引用|いんよう|trích dẫn
+故事|こじ|điển tích
+故意|こい|cố ý
+石橋|せっきょう|cầu đá
+新橋|しんばし|Shinbashi (Tokyo)
+船橋|ふなはし|cầu phao
+鉄橋|てっきょう|cầu sắt
+湯治|とうじ|chữa bệnh bằng suối nước nóng
+湯気|ゆげ|hơi nước
+熱湯|ねっとう|nước sôi
+湯のみ|ゆのみ|chén uống trà
+障る|さわる|có hại, gây trở ngại
+支障|ししょう|trở ngại
+障子|しょうじ|cửa giấy shoji
+障壁|しょうへき|rào cản, bức tường
+紹介|しょうかい|giới thiệu
+紹介文|しょうかいぶん|bài giới thiệu
+紹介者|しょうかいしゃ|người giới thiệu
+自己紹介|じこしょうかい|tự giới thiệu
+越冬|えっとう|qua đông
+越し|ごし|qua, xuyên qua
+思案|しあん|suy nghĩ, cân nhắc
+私案|しあん|đề án riêng
+介護|かいご|chăm sóc, điều dưỡng
+介助|かいじょ|hỗ trợ, giúp đỡ
+介入|かいにゅう|can thiệp
+備え|そなえ|sự chuẩn bị, phòng bị
+不備|ふび|thiếu sót
+予備|よび|dự bị, dự phòng
+基準|きじゅん|tiêu chuẩn
+水準|すいじゅん|mức, trình độ
+準急|じゅんきゅう|tàu bán tốc hành
+照準|しょうじゅん|nhắm, ngắm
+お菓子|おかし|bánh kẹo
+和菓子|わがし|bánh kẹo Nhật
+菓子屋|かしや|tiệm bánh kẹo
+説く|とく|giảng giải, thuyết
+油田|ゆでん|mỏ dầu
+新田|あらた|ruộng mới khai khẩn
+水田|みずた|ruộng nước
+備考|びこう|ghi chú
+思考|しこう|tư duy, suy nghĩ
+再考|さいこう|xem xét lại
+一億|いちおく|một trăm triệu
+十億|じゅうおく|một tỷ
+数億年|すうおくねん|vài trăm triệu năm
+何億|なんおく|hàng trăm triệu

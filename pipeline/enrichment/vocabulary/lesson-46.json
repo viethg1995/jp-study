@@ -1,0 +1,228 @@
+{
+  "mn-46-001": {
+    "examples": [
+      {
+        "id": "mn-46-001-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{先生|せんせい}にレポートを[[{渡|わた}しました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã nộp báo cáo cho giáo viên."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "わたします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-46-002": {
+    "examples": [
+      {
+        "id": "mn-46-002-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{父|ちち}は{今|いま}{会社|かいしゃ}から[[{帰|かえ}って{来|き}た]]ところです。",
+        "source": "ai-draft",
+        "vi": "Bố tôi vừa mới đi làm về."
+      }
+    ]
+  },
+  "mn-46-003": {
+    "examples": [
+      {
+        "id": "mn-46-003-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "バスはもう[[{出|で}ました]]。",
+        "source": "ai-draft",
+        "vi": "Xe buýt đã chạy rồi."
+      }
+    ]
+  },
+  "mn-46-004": {
+    "examples": [
+      {
+        "id": "mn-46-004-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{国|くに}から{荷物|にもつ}が[[{届|とど}きました]]。",
+        "source": "ai-draft",
+        "vi": "Hành lý từ quê đã được gửi đến."
+      }
+    ]
+  },
+  "mn-46-005": {
+    "examples": [
+      {
+        "id": "mn-46-005-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{来年|らいねん}{大学|だいがく}に[[{入学|にゅうがく}します]]。",
+        "source": "ai-draft",
+        "vi": "Năm sau tôi nhập học đại học."
+      }
+    ]
+  },
+  "mn-46-006": {
+    "examples": [
+      {
+        "id": "mn-46-006-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{去年|きょねん}{大学|だいがく}を[[{卒業|そつぎょう}しました]]。",
+        "source": "ai-draft",
+        "vi": "Năm ngoái tôi đã tốt nghiệp đại học."
+      }
+    ]
+  },
+  "mn-46-007": {
+    "examples": [
+      {
+        "id": "mn-46-007-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{今|いま}{肉|にく}を[[{焼|や}いて]]いるところです。",
+        "source": "ai-draft",
+        "vi": "Bây giờ tôi đang nướng thịt."
+      }
+    ]
+  },
+  "mn-46-008": {
+    "examples": [
+      {
+        "id": "mn-46-008-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "パンが[[{焼|や}けました]]。",
+        "source": "ai-draft",
+        "vi": "Bánh mì đã nướng xong."
+      }
+    ]
+  },
+  "mn-46-009": {
+    "examples": [
+      {
+        "id": "mn-46-009-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{友達|ともだち}の{家|いえ}に{行|い}きましたが、[[{留守|るす}]]でした。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đến nhà bạn nhưng bạn đi vắng."
+      }
+    ]
+  },
+  "mn-46-010": {
+    "examples": [
+      {
+        "id": "mn-46-010-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "[[{宅配便|たくはいびん}]]で{荷物|にもつ}を{送|おく}りました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã gửi hành lý bằng dịch vụ chuyển phát."
+      }
+    ]
+  },
+  "mn-46-011": {
+    "examples": [
+      {
+        "id": "mn-46-011-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{事故|じこ}の[[{原因|げんいん}]]はまだ{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Nguyên nhân vụ tai nạn vẫn chưa rõ."
+      }
+    ]
+  },
+  "mn-46-012": {
+    "examples": [
+      {
+        "id": "mn-46-012-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "[[こちら]]は{今|いま}{雨|あめ}が{降|ふ}っています。",
+        "source": "ai-draft",
+        "vi": "Ở đây bây giờ trời đang mưa."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "こそあど",
+      "status": "reviewed"
+    }
+  },
+  "mn-46-013": {
+    "examples": [
+      {
+        "id": "mn-46-013-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "{駅|えき}[[の{所|ところ}]]で{待|ま}っています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang chờ ở chỗ nhà ga."
+      }
+    ]
+  },
+  "mn-46-014": {
+    "examples": [
+      {
+        "id": "mn-46-014-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "[[{半年|はんとし}]]{前|まえ}に{日本|にほん}へ{来|き}たばかりです。",
+        "source": "ai-draft",
+        "vi": "Tôi vừa mới đến Nhật nửa năm trước."
+      }
+    ]
+  },
+  "mn-46-015": {
+    "examples": [
+      {
+        "id": "mn-46-015-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "[[{丁度|ちょうど}]]{今|いま}{電話|でんわ}しようと{思|おも}っていたところです。",
+        "source": "ai-draft",
+        "vi": "Đúng lúc tôi đang định gọi điện."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-46-016": {
+    "examples": [
+      {
+        "id": "mn-46-016-e1",
+        "max_lesson": 46,
+        "review": "user",
+        "ruby": "[[たった{今|いま}]]{帰|かえ}って{来|き}たところです。",
+        "source": "ai-draft",
+        "vi": "Tôi vừa mới về."
+      }
+    ]
+  },
+  "mn-46-017": {
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "いまいいですか。",
+    "kanji": "今いいですか。",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "status": "reviewed"
+    }
+  }
+}

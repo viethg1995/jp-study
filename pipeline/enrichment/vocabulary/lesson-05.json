@@ -1,0 +1,675 @@
+{
+  "mn-05-001": {
+    "examples": [
+      {
+        "id": "mn-05-001-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{明日|あした}{銀行|ぎんこう}へ[[{行|い}きます]]。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi đi ngân hàng."
+      }
+    ]
+  },
+  "mn-05-002": {
+    "examples": [
+      {
+        "id": "mn-05-002-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{先週|せんしゅう}{日本|にほん}へ[[{来|き}ました]]。",
+        "source": "ai-draft",
+        "vi": "Tuần trước tôi đã đến Nhật Bản."
+      }
+    ]
+  },
+  "mn-05-003": {
+    "examples": [
+      {
+        "id": "mn-05-003-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{毎晩|まいばん}９{時|じ}に{家|うち}へ[[{帰|かえ}ります]]。",
+        "source": "ai-draft",
+        "vi": "Mỗi tối tôi về nhà lúc 9 giờ."
+      }
+    ]
+  },
+  "mn-05-004": {
+    "examples": [
+      {
+        "id": "mn-05-004-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{電車|でんしゃ}で[[{学校|がっこう}]]へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi đến trường bằng tàu điện."
+      }
+    ]
+  },
+  "mn-05-005": {
+    "examples": [
+      {
+        "id": "mn-05-005-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{明日|あした}[[スーパー]]へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi đi siêu thị."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "スーパー: PN→N (JMdict: danh từ thông dụng (supermarket))",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-006": {
+    "examples": [
+      {
+        "id": "mn-05-006-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{駅|えき}]]から{学校|がっこう}まで{歩|ある}いて{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi bộ từ ga đến trường."
+      }
+    ]
+  },
+  "mn-05-007": {
+    "examples": [
+      {
+        "id": "mn-05-007-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{飛行機|ひこうき}]]で{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi về nước bằng máy bay."
+      }
+    ]
+  },
+  "mn-05-008": {
+    "examples": [
+      {
+        "id": "mn-05-008-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{船|ふね}]]で{大阪|おおさか}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi Osaka bằng tàu thủy."
+      }
+    ]
+  },
+  "mn-05-009": {
+    "examples": [
+      {
+        "id": "mn-05-009-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{電車|でんしゃ}]]で{会社|かいしゃ}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi làm bằng tàu điện."
+      }
+    ]
+  },
+  "mn-05-010": {
+    "examples": [
+      {
+        "id": "mn-05-010-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{地下鉄|ちかてつ}]]で{家|うち}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi về nhà bằng tàu điện ngầm."
+      }
+    ]
+  },
+  "mn-05-011": {
+    "examples": [
+      {
+        "id": "mn-05-011-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{新幹線|しんかんせん}]]で{東京|とうきょう}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi Tokyo bằng tàu Shinkansen."
+      }
+    ]
+  },
+  "mn-05-012": {
+    "examples": [
+      {
+        "id": "mn-05-012-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[バス]]で{学校|がっこう}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi đến trường bằng xe buýt."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "バス: PN→N (JMdict: danh từ thông dụng (bus))",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-013": {
+    "examples": [
+      {
+        "id": "mn-05-013-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[タクシー]]で{家|うち}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi về nhà bằng taxi."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "タクシー: PN→N (JMdict: danh từ thông dụng (taxi))",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-014": {
+    "examples": [
+      {
+        "id": "mn-05-014-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{自転車|じてんしゃ}]]で{学校|がっこう}へ{来|き}ます。",
+        "source": "ai-draft",
+        "vi": "Tôi đến trường bằng xe đạp."
+      }
+    ]
+  },
+  "mn-05-015": {
+    "examples": [
+      {
+        "id": "mn-05-015-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{駅|えき}から[[{歩|ある}いて]]{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi đi bộ từ ga về nhà."
+      }
+    ]
+  },
+  "mn-05-016": {
+    "examples": [
+      {
+        "id": "mn-05-016-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{人|ひと}]]と{京都|きょうと}へ{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đi Kyoto với một người Nhật."
+      }
+    ]
+  },
+  "mn-05-017": {
+    "examples": [
+      {
+        "id": "mn-05-017-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{友達|ともだち}]]と{美術館|びじゅつかん}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tôi đi bảo tàng mỹ thuật với bạn."
+      }
+    ]
+  },
+  "mn-05-018": {
+    "examples": [
+      {
+        "id": "mn-05-018-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{彼|かれ}]]と{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đến Nhật Bản cùng anh ấy."
+      }
+    ]
+  },
+  "mn-05-019": {
+    "examples": [
+      {
+        "id": "mn-05-019-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{彼女|かのじょ}]]は{来月|らいげつ}{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tháng sau cô ấy sẽ về nước."
+      }
+    ]
+  },
+  "mn-05-020": {
+    "examples": [
+      {
+        "id": "mn-05-020-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{家族|かぞく}]]と{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đến Nhật Bản cùng gia đình."
+      }
+    ]
+  },
+  "mn-05-021": {
+    "examples": [
+      {
+        "id": "mn-05-021-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{一人|ひとり}で]]{家|うち}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi về nhà một mình."
+      }
+    ]
+  },
+  "mn-05-022": {
+    "examples": [
+      {
+        "id": "mn-05-022-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{先週|せんしゅう}]]{京都|きょうと}へ{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Tuần trước tôi đã đi Kyoto."
+      }
+    ]
+  },
+  "mn-05-023": {
+    "examples": [
+      {
+        "id": "mn-05-023-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{今週|こんしゅう}]]の{土曜日|どようび}に{大阪|おおさか}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Thứ bảy tuần này tôi đi Osaka."
+      }
+    ]
+  },
+  "mn-05-024": {
+    "examples": [
+      {
+        "id": "mn-05-024-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{来週|らいしゅう}]]{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tuần sau tôi về nước."
+      }
+    ]
+  },
+  "mn-05-025": {
+    "examples": [
+      {
+        "id": "mn-05-025-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{先月|せんげつ}]]{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tháng trước tôi đã đến Nhật Bản."
+      }
+    ]
+  },
+  "mn-05-026": {
+    "examples": [
+      {
+        "id": "mn-05-026-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{今月|こんげつ}]]{東京|とうきょう}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tháng này tôi đi Tokyo."
+      }
+    ]
+  },
+  "mn-05-027": {
+    "examples": [
+      {
+        "id": "mn-05-027-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{来月|らいげつ}]]{友達|ともだち}と{京都|きょうと}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Tháng sau tôi đi Kyoto với bạn."
+      }
+    ]
+  },
+  "mn-05-028": {
+    "examples": [
+      {
+        "id": "mn-05-028-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{去年|きょねん}]]{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Năm ngoái tôi đã đến Nhật Bản."
+      }
+    ]
+  },
+  "mn-05-029": {
+    "examples": [
+      {
+        "id": "mn-05-029-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{今年|ことし}]]の８{月|がつ}に{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tháng 8 năm nay tôi về nước."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-030": {
+    "examples": [
+      {
+        "id": "mn-05-030-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{来年|らいねん}]]アメリカへ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Năm sau tôi đi Mỹ."
+      }
+    ]
+  },
+  "mn-05-031": {
+    "examples": [
+      {
+        "id": "mn-05-031-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "２０２０[[{年|ねん}]]に{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đến Nhật Bản vào năm 2020."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～年 năm (năm thứ)",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-032": {
+    "examples": [
+      {
+        "id": "mn-05-032-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{何年|なんねん}]]に{日本|にほん}へ{来|き}ましたか。",
+        "source": "ai-draft",
+        "vi": "Anh/chị đã đến Nhật Bản vào năm nào?"
+      }
+    ]
+  },
+  "mn-05-033": {
+    "examples": [
+      {
+        "id": "mn-05-033-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "３[[{月|がつ}]]に{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tôi về nước vào tháng 3."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～月 tháng (tên tháng)",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-034": {
+    "examples": [
+      {
+        "id": "mn-05-034-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{何月|なんがつ}]]に{国|くに}へ{帰|かえ}りますか。",
+        "source": "ai-draft",
+        "vi": "Anh/chị về nước vào tháng mấy?"
+      }
+    ]
+  },
+  "mn-05-035": {
+    "examples": [
+      {
+        "id": "mn-05-035-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "４{月|がつ}[[{１日|ついたち}]]に{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đến Nhật Bản vào ngày 1 tháng 4."
+      }
+    ]
+  },
+  "mn-05-036": {
+    "examples": [
+      {
+        "id": "mn-05-036-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{２日|ふつか}]]に{東京|とうきょう}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày mồng 2 tôi đi Tokyo."
+      }
+    ]
+  },
+  "mn-05-037": {
+    "examples": [
+      {
+        "id": "mn-05-037-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{３日|みっか}]]に{家|うち}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Ngày mồng 3 tôi về nhà."
+      }
+    ]
+  },
+  "mn-05-038": {
+    "examples": [
+      {
+        "id": "mn-05-038-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{４日|よっか}]]は{休|やす}みです。",
+        "source": "ai-draft",
+        "vi": "Ngày mồng 4 là ngày nghỉ."
+      }
+    ]
+  },
+  "mn-05-039": {
+    "examples": [
+      {
+        "id": "mn-05-039-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{５日|いつか}]]に{友達|ともだち}と{京都|きょうと}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày mồng 5 tôi đi Kyoto với bạn."
+      }
+    ]
+  },
+  "mn-05-040": {
+    "examples": [
+      {
+        "id": "mn-05-040-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{６日|むいか}]]に{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Ngày mồng 6 tôi về nước."
+      }
+    ]
+  },
+  "mn-05-041": {
+    "examples": [
+      {
+        "id": "mn-05-041-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{７日|なのか}]]は{日曜日|にちようび}です。",
+        "source": "ai-draft",
+        "vi": "Ngày mồng 7 là chủ nhật."
+      }
+    ]
+  },
+  "mn-05-042": {
+    "examples": [
+      {
+        "id": "mn-05-042-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{８日|ようか}]]に{大阪|おおさか}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày mồng 8 tôi đi Osaka."
+      }
+    ]
+  },
+  "mn-05-043": {
+    "examples": [
+      {
+        "id": "mn-05-043-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{９日|ここのか}]]から{休|やす}みです。",
+        "source": "ai-draft",
+        "vi": "Từ ngày mồng 9 là ngày nghỉ."
+      }
+    ]
+  },
+  "mn-05-044": {
+    "examples": [
+      {
+        "id": "mn-05-044-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{１０日|とおか}]]に{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đến Nhật Bản vào ngày mồng 10."
+      }
+    ]
+  },
+  "mn-05-045": {
+    "examples": [
+      {
+        "id": "mn-05-045-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{１４日|じゅうよっか}]]は{私|わたし}の{誕生日|たんじょうび}です。",
+        "source": "ai-draft",
+        "vi": "Ngày 14 là sinh nhật của tôi."
+      }
+    ]
+  },
+  "mn-05-046": {
+    "examples": [
+      {
+        "id": "mn-05-046-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{２０日|はつか}]]に{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Ngày 20 tôi về nước."
+      }
+    ]
+  },
+  "mn-05-047": {
+    "examples": [
+      {
+        "id": "mn-05-047-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{２４日|にじゅうよっか}]]に{友達|ともだち}と{東京|とうきょう}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày 24 tôi đi Tokyo với bạn."
+      }
+    ]
+  },
+  "mn-05-048": {
+    "examples": [
+      {
+        "id": "mn-05-048-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "１５[[{日|にち}]]に{京都|きょうと}へ{行|い}きます。",
+        "source": "ai-draft",
+        "vi": "Ngày 15 tôi đi Kyoto."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～日 ngày",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-049": {
+    "examples": [
+      {
+        "id": "mn-05-049-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{試験|しけん}は[[{何日|なんにち}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Kỳ thi vào ngày mấy?"
+      }
+    ]
+  },
+  "mn-05-050": {
+    "examples": [
+      {
+        "id": "mn-05-050-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "{誕生日|たんじょうび}は[[いつ]]ですか。",
+        "source": "ai-draft",
+        "vi": "Sinh nhật của anh/chị là khi nào?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "いつ viết kana (何時 dễ nhầm なんじ)",
+      "status": "reviewed"
+    }
+  },
+  "mn-05-051": {
+    "examples": [
+      {
+        "id": "mn-05-051-e1",
+        "max_lesson": 5,
+        "review": "user",
+        "ruby": "[[{誕生日|たんじょうび}]]は６{月|がつ}１３{日|にち}です。",
+        "source": "ai-draft",
+        "vi": "Sinh nhật của tôi là ngày 13 tháng 6."
+      }
+    ]
+  }
+}

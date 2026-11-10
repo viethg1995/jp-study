@@ -1,0 +1,181 @@
+---
+// Cách viết một chữ Hán từ KanjiVG (viewBox 0 0 109 109) — 3 kiểu, thuần CSS, không JS:
+//   1. Hình động: nét lần lượt hiện theo thứ tự; "Viết lại" = checkbox đổi qua lại 2 keyframes giống hệt
+//      nhau → trình duyệt chạy lại animation. Bật/tắt số thứ tự nét bằng :has().
+//   2. Tô màu từng nét: mỗi nét một màu (8 màu xoay vòng) + số thứ tự cùng màu.
+//   3. Bảng từng nét: ô n vẽ nét 1…n, nét mới tô xanh, chấm tròn ở điểm đặt bút.
+import type { KanjiStroke } from "../../content.config";
+
+interface Props {
+  char: string;
+  strokes: KanjiStroke[];
+}
+const { char, strokes } = Astro.props;
+const n = strokes.length;
+// Điểm đặt bút = lệnh M đầu tiên của path
+const start = (d: string): [number, number] | null => {
+  const m = /^M\s*(-?[\d.]+)[,\s]+(-?[\d.]+)/.exec(d);
+  return m ? [Number(m[1]), Number(m[2])] : null;
+};
+const color = (i: number): string => `var(--color-stroke-${(i % 8) + 1})`;
+const STEP = 0.7; // giây giữa 2 nét
+---
+
+<section class="so rounded-lg border border-line bg-surface p-4 sm:p-6" aria-label={`Cách viết chữ ${char}`}>
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <h2 class="text-lg font-bold">
+      Cách viết <span class="text-sm font-normal text-ink-faint">· {n} nét</span>
+    </h2>
+    <div class="flex items-center gap-2 text-sm">
+      <label class="so-btn">
+        <input type="checkbox" class="so-replay sr-only" />
+        ↻ Viết lại
+      </label>
+      <label class="so-btn">
+        <input type="checkbox" class="so-nums sr-only" />
+        Số thứ tự nét
+      </label>
+    </div>
+  </div>
+
+  <div class="mt-4 grid grid-cols-2 gap-4 sm:max-w-md">
+    <figure>
+      <svg viewBox="0 0 109 109" class="so-box so-anim" role="img" aria-label={`Hình động thứ tự viết chữ ${char}`} style={`--step:${STEP}s`}>
+        <path d="M54.5 0V109M0 54.5H109" class="so-guide" />
+        <g class="so-ghost">{strokes.map((s) => <path d={s.d} />)}</g>
+        <g class="so-ink">{strokes.map((s, i) => <path d={s.d} pathLength="1" style={`--i:${i}`} />)}</g>
+        <g class="so-num">{strokes.map((s, i) => <text x={s.num[0]} y={s.num[1]}>{i + 1}</text>)}</g>
+      </svg>
+      <figcaption class="mt-1 text-center text-xs text-ink-faint">Hình động</figcaption>
+    </figure>
+    <figure>
+      <svg viewBox="0 0 109 109" class="so-box so-color" role="img" aria-label={`Chữ ${char} tô màu từng nét`}>
+        <path d="M54.5 0V109M0 54.5H109" class="so-guide" />
+        <g class="so-ink">{strokes.map((s, i) => <path d={s.d} style={`stroke:${color(i)}`} />)}</g>
+        <g class="so-num-color">{strokes.map((s, i) => <text x={s.num[0]} y={s.num[1]} style={`fill:${color(i)}`}>{i + 1}</text>)}</g>
+      </svg>
+      <figcaption class="mt-1 text-center text-xs text-ink-faint">Từng nét một màu</figcaption>
+    </figure>
+  </div>
+
+  <h3 class="mt-6 text-sm font-semibold text-ink-muted">Thứ tự từng nét</h3>
+  <ol class="mt-2 grid grid-cols-[repeat(auto-fill,minmax(3.5rem,1fr))] gap-1.5">
+    {
+      strokes.map((cur, i) => {
+        const p = start(cur.d);
+        return (
+          <li>
+            <svg viewBox="0 0 109 109" class="so-box so-frame" role="img" aria-label={`Nét ${i + 1}/${n}`}>
+              <path d="M54.5 0V109M0 54.5H109" class="so-guide" />
+              <g class="so-done">{strokes.slice(0, i).map((s) => <path d={s.d} />)}</g>
+              <path d={cur.d} class="so-cur" />
+              {p && <circle cx={p[0]} cy={p[1]} r="5" class="so-dot" />}
+            </svg>
+            <span class="block text-center text-[11px] text-ink-faint">{i + 1}</span>
+          </li>
+        );
+      })
+    }
+  </ol>
+</section>
+
+<style>
+  .so-btn {
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid var(--color-line);
+    border-radius: 0.375rem;
+    padding: 0.25rem 0.75rem;
+    color: var(--color-primary);
+  }
+  .so-btn:hover {
+    background: var(--color-primary-soft);
+  }
+  .so-btn:has(input:focus-visible) {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  .so-btn:has(.so-nums:checked) {
+    background: var(--color-primary-soft);
+    border-color: var(--color-primary-line);
+  }
+
+  .so-box {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px solid var(--color-line);
+    border-radius: 0.375rem;
+    background: var(--color-surface);
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .so-guide {
+    stroke: var(--color-line);
+    stroke-width: 0.6;
+    stroke-dasharray: 2 2;
+  }
+  .so-ghost path {
+    stroke: var(--color-surface-sunken);
+    stroke-width: 3.5;
+  }
+  .so-ink path {
+    stroke: var(--color-ink);
+    stroke-width: 3.5;
+  }
+  .so-num text,
+  .so-num-color text {
+    font-size: 8px;
+    font-family: var(--font-sans);
+    stroke: none;
+  }
+  .so-num text {
+    fill: var(--color-ink-faint);
+    display: none;
+  }
+  .so:has(.so-nums:checked) .so-num text {
+    display: inline;
+  }
+
+  /* Hình động: mỗi nét vẽ dần (pathLength=1 → dasharray 1), trễ theo thứ tự nét */
+  .so-anim .so-ink path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: so-draw-a 0.5s ease-in-out calc(var(--i) * var(--step)) both;
+  }
+  .so:has(.so-replay:checked) .so-anim .so-ink path {
+    animation-name: so-draw-b;
+  }
+  @keyframes so-draw-a {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes so-draw-b {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .so-anim .so-ink path {
+      animation: none;
+      stroke-dashoffset: 0;
+    }
+  }
+
+  /* Bảng từng nét */
+  .so-frame .so-done path {
+    stroke: var(--color-ink);
+    stroke-width: 5;
+  }
+  .so-frame .so-cur {
+    stroke: var(--color-primary);
+    stroke-width: 6;
+  }
+  .so-frame .so-dot {
+    fill: var(--color-primary);
+    stroke: var(--color-surface);
+    stroke-width: 1.5;
+  }
+</style>

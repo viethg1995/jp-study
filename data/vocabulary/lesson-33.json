@@ -1,0 +1,1866 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-001-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{犬|いぬ}が[[{逃|に}げました]]。",
+          "source": "ai-draft",
+          "vi": "Con chó đã chạy mất."
+        }
+      ],
+      "han_viet": "ĐÀO",
+      "id": "mn-33-001",
+      "kana": "にげます",
+      "kanji": "逃げます",
+      "kanji_refs": [
+        "k-逃"
+      ],
+      "legacy_id": "lesson33_1",
+      "lesson": 33,
+      "meaning_vi": "chạy trốn, bỏ chạy",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chạy trốn, bỏ chạy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-002-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{教室|きょうしつ}で[[{騒|さわ}ぐ]]な。",
+          "source": "ai-draft",
+          "vi": "Không được làm ồn trong lớp!"
+        }
+      ],
+      "han_viet": "TAO",
+      "id": "mn-33-002",
+      "kana": "さわぎます",
+      "kanji": "騒ぎます",
+      "kanji_refs": [
+        "k-騒"
+      ],
+      "legacy_id": "lesson33_2",
+      "lesson": 33,
+      "meaning_vi": "làm ồn, làm rùm beng",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "làm ồn, làm rùm beng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-003-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[{諦|あきら}めるな]]。",
+          "source": "ai-draft",
+          "vi": "Đừng bỏ cuộc!"
+        }
+      ],
+      "han_viet": "ĐẾ",
+      "id": "mn-33-003",
+      "kana": "あきらめます",
+      "kanji": "諦めます",
+      "kanji_refs": [
+        "k-諦"
+      ],
+      "legacy_id": "lesson33_3",
+      "lesson": 33,
+      "meaning_vi": "từ bỏ, đầu hàng",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "từ bỏ, đầu hàng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-004-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "ボールを[[{投|な}げろ]]。",
+          "source": "ai-draft",
+          "vi": "Ném bóng đi!"
+        }
+      ],
+      "han_viet": "ĐẦU",
+      "id": "mn-33-004",
+      "kana": "なげます",
+      "kanji": "投げます",
+      "kanji_refs": [
+        "k-投"
+      ],
+      "legacy_id": "lesson33_4",
+      "lesson": 33,
+      "meaning_vi": "ném",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ném"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-005-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{規則|きそく}を[[{守|まも}って]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy tuân thủ quy tắc."
+        }
+      ],
+      "han_viet": "THỦ",
+      "id": "mn-33-005",
+      "kana": "まもります",
+      "kanji": "守ります",
+      "kanji_refs": [
+        "k-守"
+      ],
+      "legacy_id": "lesson33_5",
+      "lesson": 33,
+      "meaning_vi": "bảo vệ, tuân thủ, giữ",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bảo vệ, tuân thủ, giữ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-006-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{会議|かいぎ}は３{時|じ}に[[{始|はじ}まります]]。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp bắt đầu lúc 3 giờ."
+        }
+      ],
+      "han_viet": "THỦY",
+      "id": "mn-33-006",
+      "kana": "はじまります",
+      "kanji": "始まります",
+      "kanji_refs": [
+        "k-始"
+      ],
+      "legacy_id": "lesson33_6",
+      "lesson": 33,
+      "meaning_vi": "bắt đầu [buổi lễ ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "buổi lễ ～",
+          "text": "bắt đầu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-007-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{明日|あした}の{会議|かいぎ}に[[{出席|しゅっせき}して]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy tham dự cuộc họp ngày mai."
+        }
+      ],
+      "han_viet": "XUẤT TỊCH",
+      "id": "mn-33-007",
+      "kana": "しゅっせきします",
+      "kanji": "出席します",
+      "kanji_refs": [
+        "k-出",
+        "k-席"
+      ],
+      "legacy_id": "lesson33_7",
+      "lesson": 33,
+      "meaning_vi": "tham dự, tham gia [cuộc họp]",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "cuộc họp",
+          "text": "tham dự, tham gia"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-008-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{田中|たなか}さんに{明日|あした}{休|やす}むと[[{伝|つた}えて]]いただけませんか。",
+          "source": "ai-draft",
+          "vi": "Bạn có thể nhắn với anh Tanaka là ngày mai tôi nghỉ được không?"
+        }
+      ],
+      "han_viet": "TRUYỀN",
+      "id": "mn-33-008",
+      "kana": "つたえます",
+      "kanji": "伝えます",
+      "kanji_refs": [
+        "k-伝"
+      ],
+      "legacy_id": "lesson33_8",
+      "lesson": 33,
+      "meaning_vi": "truyền, truyền đạt",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "truyền, truyền đạt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-009-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{車|くるま}に[[{注意|ちゅうい}して]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy chú ý xe ô tô."
+        }
+      ],
+      "han_viet": "CHÚ Ý",
+      "id": "mn-33-009",
+      "kana": "ちゅういします",
+      "kanji": "注意します",
+      "kanji_refs": [
+        "k-注",
+        "k-意"
+      ],
+      "legacy_id": "lesson33_9",
+      "lesson": 33,
+      "meaning_vi": "chú ý [ô tô]",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-37-006"
+      ],
+      "senses": [
+        {
+          "context": "ô tô",
+          "text": "chú ý"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-010-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{課長|かちょう}は{今|いま}{席|せき}を[[{外|はず}して]]います。",
+          "source": "ai-draft",
+          "vi": "Tổ trưởng hiện đang không có ở chỗ ngồi."
+        }
+      ],
+      "han_viet": "NGOẠI",
+      "id": "mn-33-010",
+      "kana": "はずします",
+      "kanji": "外します",
+      "kanji_refs": [
+        "k-外"
+      ],
+      "legacy_id": "lesson33_10",
+      "lesson": 33,
+      "meaning_vi": "rời, không có ở [chỗ ngồi]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "chỗ ngồi",
+          "text": "rời, không có ở"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-011-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{課長|かちょう}は３{時|じ}に[[{戻|もど}ります]]。",
+          "source": "ai-draft",
+          "vi": "Tổ trưởng sẽ quay lại lúc 3 giờ."
+        }
+      ],
+      "han_viet": "LỆ",
+      "id": "mn-33-011",
+      "kana": "もどります",
+      "kanji": "戻ります",
+      "kanji_refs": [
+        "k-戻"
+      ],
+      "legacy_id": "lesson33_11",
+      "lesson": 33,
+      "meaning_vi": "trở lại, quay trở lại",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "trở lại, quay trở lại"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-012-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "ミラーさんから{電話|でんわ}が[[ありました]]。",
+          "source": "ai-draft",
+          "vi": "Có điện thoại từ anh Miller."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-012",
+      "kana": "あります",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_12",
+      "lesson": 33,
+      "meaning_vi": "có [điện thoại]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-09-002",
+        "mn-10-001",
+        "mn-21-005"
+      ],
+      "senses": [
+        {
+          "context": "điện thoại",
+          "text": "có"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-013-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "この{紙|かみ}は[[リサイクルします]]。",
+          "source": "ai-draft",
+          "vi": "Giấy này sẽ được tái chế."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-013",
+      "kana": "リサイクルします",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_13",
+      "lesson": 33,
+      "meaning_vi": "tái chế",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tái chế"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-014-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "ここで{煙草|たばこ}を{吸|す}っては[[{駄目|だめ}]]です。",
+          "source": "ai-draft",
+          "vi": "Không được hút thuốc ở đây."
+        }
+      ],
+      "han_viet": "ĐÀ MỤC",
+      "id": "mn-33-014",
+      "kana": "だめ",
+      "kanji": "駄目",
+      "kanji_refs": [
+        "k-駄",
+        "k-目"
+      ],
+      "legacy_id": "lesson33_14",
+      "lesson": 33,
+      "meaning_vi": "hỏng, không được, không thể",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hỏng, không được, không thể"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-015-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{私|わたし}と[[{同|おな}じ]]{鞄|かばん}ですね。",
+          "source": "ai-draft",
+          "vi": "Chiếc cặp giống của tôi nhỉ."
+        }
+      ],
+      "han_viet": "ĐỒNG",
+      "id": "mn-33-015",
+      "kana": "おなじ",
+      "kanji": "同じ",
+      "kanji_refs": [
+        "k-同"
+      ],
+      "legacy_id": "lesson33_15",
+      "lesson": 33,
+      "meaning_vi": "giống",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giống"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-016-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[{警察|けいさつ}]]に{電話|でんわ}してください。",
+          "source": "ai-draft",
+          "vi": "Hãy gọi cho cảnh sát."
+        }
+      ],
+      "han_viet": "CẢNH SÁT",
+      "id": "mn-33-016",
+      "kana": "けいさつ",
+      "kanji": "警察",
+      "kanji_refs": [
+        "k-警",
+        "k-察"
+      ],
+      "legacy_id": "lesson33_16",
+      "lesson": 33,
+      "meaning_vi": "cảnh sát",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-074"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "cảnh sát"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-017-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "この[[{席|せき}]]は{空|あ}いていますか。",
+          "source": "ai-draft",
+          "vi": "Chỗ ngồi này có trống không?"
+        }
+      ],
+      "han_viet": "TỊCH",
+      "id": "mn-33-017",
+      "kana": "せき",
+      "kanji": "席",
+      "kanji_refs": [
+        "k-席"
+      ],
+      "legacy_id": "lesson33_17",
+      "lesson": 33,
+      "meaning_vi": "chỗ ngồi, ghế",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chỗ ngồi, ghế"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-018-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "この[[マーク]]はどういう{意味|いみ}ですか。",
+          "source": "ai-draft",
+          "vi": "Ký hiệu này có nghĩa là gì?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-018",
+      "kana": "マーク",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_18",
+      "lesson": 33,
+      "meaning_vi": "ký hiệu (Mark)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "ký hiệu (Mark)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-019-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[ボール]]を{投|な}げるな。",
+          "source": "ai-draft",
+          "vi": "Không được ném bóng!"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-019",
+      "kana": "ボール",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_19",
+      "lesson": 33,
+      "meaning_vi": "quả bóng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quả bóng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-020-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "レポートの[[{締|し}め{切|き}り]]は{金曜日|きんようび}です。",
+          "source": "ai-draft",
+          "vi": "Hạn chót nộp báo cáo là thứ sáu."
+        }
+      ],
+      "han_viet": "ĐẾ THIẾT",
+      "id": "mn-33-020",
+      "kana": "しめきり",
+      "kanji": "締め切り",
+      "kanji_refs": [
+        "k-締",
+        "k-切"
+      ],
+      "legacy_id": "lesson33_20",
+      "lesson": 33,
+      "meaning_vi": "hạn chót, hạn cuối",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-296"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "hạn chót, hạn cuối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-021-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[{規則|きそく}]]を{守|まも}らなければなりません。",
+          "source": "ai-draft",
+          "vi": "Phải tuân thủ quy tắc."
+        }
+      ],
+      "han_viet": "QUY TẮC",
+      "id": "mn-33-021",
+      "kana": "きそく",
+      "kanji": "規則",
+      "kanji_refs": [
+        "k-規",
+        "k-則"
+      ],
+      "legacy_id": "lesson33_21",
+      "lesson": 33,
+      "meaning_vi": "quy tắc, kỷ luật",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quy tắc, kỷ luật"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-022-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[{危険|きけん}]]ですから、{入|はい}るな。",
+          "source": "ai-draft",
+          "vi": "Nguy hiểm, cấm vào!"
+        }
+      ],
+      "han_viet": "NGUY HIỂM",
+      "id": "mn-33-022",
+      "kana": "きけん",
+      "kanji": "危険",
+      "kanji_refs": [
+        "k-危",
+        "k-険"
+      ],
+      "legacy_id": "lesson33_22",
+      "lesson": 33,
+      "meaning_vi": "nguy hiểm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-44-010"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "nguy hiểm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-023-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "あれは「[[{使用禁止|しようきんし}]]」と{読|よ}みます。",
+          "source": "ai-draft",
+          "vi": "Cái kia đọc là \"shiyou kinshi\" (cấm sử dụng)."
+        }
+      ],
+      "han_viet": "SỬ DỤNG CẤM CHỈ",
+      "id": "mn-33-023",
+      "kana": "しようきんし",
+      "kanji": "使用禁止",
+      "kanji_refs": [
+        "k-使",
+        "k-用",
+        "k-禁",
+        "k-止"
+      ],
+      "legacy_id": "lesson33_23",
+      "lesson": 33,
+      "meaning_vi": "cấm sử dụng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cấm sử dụng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-024-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "あの{字|じ}は「[[{立入禁止|たちいりきんし}]]」という{意味|いみ}です。",
+          "source": "ai-draft",
+          "vi": "Chữ kia có nghĩa là \"cấm vào\"."
+        }
+      ],
+      "han_viet": "LẬP NHẬP CẤM CHỈ",
+      "id": "mn-33-024",
+      "kana": "たちいりきんし",
+      "kanji": "立入禁止",
+      "kanji_refs": [
+        "k-立",
+        "k-入",
+        "k-禁",
+        "k-止"
+      ],
+      "legacy_id": "lesson33_24",
+      "lesson": 33,
+      "meaning_vi": "cấm vào",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cấm vào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-025-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "あそこに「[[{徐行|じょこう}]]」と{書|か}いてあります。",
+          "source": "ai-draft",
+          "vi": "Ở đằng kia có viết \"chạy chậm\"."
+        }
+      ],
+      "han_viet": "TỪ HÀNH",
+      "id": "mn-33-025",
+      "kana": "じょこう",
+      "kanji": "徐行",
+      "kanji_refs": [
+        "k-徐",
+        "k-行"
+      ],
+      "legacy_id": "lesson33_25",
+      "lesson": 33,
+      "meaning_vi": "chạy chậm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chạy chậm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-026-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[{入口|いりぐち}]]はどこですか。",
+          "source": "ai-draft",
+          "vi": "Cửa vào ở đâu?"
+        }
+      ],
+      "han_viet": "NHẬP KHẨU",
+      "id": "mn-33-026",
+      "kana": "いりぐち",
+      "kanji": "入口",
+      "kanji_refs": [
+        "k-入",
+        "k-口"
+      ],
+      "legacy_id": "lesson33_26",
+      "lesson": 33,
+      "meaning_vi": "cửa vào",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cửa vào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-027-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[{出口|でぐち}]]はあちらです。",
+          "source": "ai-draft",
+          "vi": "Cửa ra ở phía kia."
+        }
+      ],
+      "han_viet": "XUẤT KHẨU",
+      "id": "mn-33-027",
+      "kana": "でぐち",
+      "kanji": "出口",
+      "kanji_refs": [
+        "k-出",
+        "k-口"
+      ],
+      "legacy_id": "lesson33_27",
+      "lesson": 33,
+      "meaning_vi": "cửa ra",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cửa ra"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-028-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[{非常口|ひじょうぐち}]]はあそこです。",
+          "source": "ai-draft",
+          "vi": "Cửa thoát hiểm ở đằng kia."
+        }
+      ],
+      "han_viet": "PHI THƯỜNG KHẨU",
+      "id": "mn-33-028",
+      "kana": "ひじょうぐち",
+      "kanji": "非常口",
+      "kanji_refs": [
+        "k-非",
+        "k-常",
+        "k-口"
+      ],
+      "legacy_id": "lesson33_28",
+      "lesson": 33,
+      "meaning_vi": "cửa thoát hiểm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cửa thoát hiểm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-029-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "この{店|みせ}のコーヒーは[[{無料|むりょう}]]です。",
+          "source": "ai-draft",
+          "vi": "Cà phê ở cửa hàng này miễn phí."
+        }
+      ],
+      "han_viet": "VÔ LIỆU",
+      "id": "mn-33-029",
+      "kana": "むりょう",
+      "kanji": "無料",
+      "kanji_refs": [
+        "k-無",
+        "k-料"
+      ],
+      "legacy_id": "lesson33_29",
+      "lesson": 33,
+      "meaning_vi": "miễn phí",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "miễn phí"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-030-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{今日|きょう}は３０パーセント[[{割引|わりびき}]]です。",
+          "source": "ai-draft",
+          "vi": "Hôm nay giảm giá 30%."
+        }
+      ],
+      "han_viet": "CÁT DẪN",
+      "id": "mn-33-030",
+      "kana": "わりびき",
+      "kanji": "割引",
+      "kanji_refs": [
+        "k-割",
+        "k-引"
+      ],
+      "legacy_id": "lesson33_30",
+      "lesson": 33,
+      "meaning_vi": "giảm giá",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giảm giá"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-031-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "この{店|みせ}はビールが[[{飲|の}み{放題|ほうだい}]]です。",
+          "source": "ai-draft",
+          "vi": "Quán này bia uống thoải mái không giới hạn."
+        }
+      ],
+      "han_viet": "ẨM PHÓNG ĐỀ",
+      "id": "mn-33-031",
+      "kana": "のみほうだい",
+      "kanji": "飲み放題",
+      "kanji_refs": [
+        "k-飲",
+        "k-放",
+        "k-題"
+      ],
+      "legacy_id": "lesson33_31",
+      "lesson": 33,
+      "meaning_vi": "uống thoải mái không giới hạn",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "uống thoải mái không giới hạn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-032-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "トイレは[[{使用中|しようちゅう}]]です。",
+          "source": "ai-draft",
+          "vi": "Nhà vệ sinh đang có người dùng."
+        }
+      ],
+      "han_viet": "SỬ DỤNG TRUNG",
+      "id": "mn-33-032",
+      "kana": "しようちゅう",
+      "kanji": "使用中",
+      "kanji_refs": [
+        "k-使",
+        "k-用",
+        "k-中"
+      ],
+      "legacy_id": "lesson33_32",
+      "lesson": 33,
+      "meaning_vi": "đang sử dụng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đang sử dụng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-033-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "アルバイト[[{募集中|ぼしゅうちゅう}]]と{書|か}いてあります。",
+          "source": "ai-draft",
+          "vi": "Có viết \"đang tuyển nhân viên làm thêm\"."
+        }
+      ],
+      "han_viet": "MỘ TẬP TRUNG",
+      "id": "mn-33-033",
+      "kana": "ぼしゅうちゅう",
+      "kanji": "募集中",
+      "kanji_refs": [
+        "k-募",
+        "k-集",
+        "k-中"
+      ],
+      "legacy_id": "lesson33_33",
+      "lesson": 33,
+      "meaning_vi": "đang tuyển",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đang tuyển"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-33-034-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "{課長|かちょう}は{会議|かいぎ}[[{中|ちゅう}]]です。",
+          "source": "ai-draft",
+          "vi": "Tổ trưởng đang họp."
+        }
+      ],
+      "han_viet": "TRUNG",
+      "id": "mn-33-034",
+      "kana": "～ちゅう",
+      "kanji": "～中",
+      "kanji_refs": [
+        "k-中"
+      ],
+      "legacy_id": "lesson33_34",
+      "lesson": 33,
+      "meaning_vi": "đang ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-37-026"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "đang ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-035-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "これは[[どういう]]{意味|いみ}ですか。",
+          "source": "ai-draft",
+          "vi": "Cái này có nghĩa là gì?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-035",
+      "kana": "どういう～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_35",
+      "lesson": 33,
+      "meaning_vi": "～ gì, ～ thế nào",
+      "particle": null,
+      "pos": {
+        "code": "Det",
+        "label": "Từ chỉ định (連体詞)"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "～ gì, ～ thế nào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-036-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[いくら]]{考|かんが}えても、{分|わ}かりません。",
+          "source": "ai-draft",
+          "vi": "Dù có nghĩ bao nhiêu đi nữa cũng không hiểu."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-036",
+      "kana": "いくら",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_36",
+      "lesson": 33,
+      "meaning_vi": "[dù có] ～ bao nhiêu đi nữa",
+      "particle": null,
+      "pos": {
+        "code": "QW",
+        "label": "Nghi vấn từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-03-033"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "[dù có] ～ bao nhiêu đi nữa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-037-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[もう]]{遅|おく}れません。",
+          "source": "ai-draft",
+          "vi": "Tôi sẽ không đến muộn nữa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-037",
+      "kana": "もう",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_37",
+      "lesson": 33,
+      "meaning_vi": "không ～ nữa",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-07-036"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "không ～ nữa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-038-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "[[あと]]５{分|ふん}で{会議|かいぎ}が{始|はじ}まります。",
+          "source": "ai-draft",
+          "vi": "Còn 5 phút nữa cuộc họp bắt đầu."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-038",
+      "kana": "あと～",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_38",
+      "lesson": 33,
+      "meaning_vi": "còn ～",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "còn ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-33-039-e1",
+          "max_lesson": 33,
+          "review": "user",
+          "ruby": "３０{分|ぷん}[[ほど]]{待|ま}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy chờ khoảng 30 phút."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-33-039",
+      "kana": "～ほど",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson33_39",
+      "lesson": 33,
+      "meaning_vi": "khoảng ～",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khoảng ～"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 33,
+  "schema_version": 4
+}

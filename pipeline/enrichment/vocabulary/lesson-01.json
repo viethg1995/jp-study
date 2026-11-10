@@ -1,0 +1,621 @@
+{
+  "mn-01-001": {
+    "examples": [
+      {
+        "id": "mn-01-001-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "[[{私|わたし}]]は{学生|がくせい}です。",
+        "source": "ai-draft",
+        "vi": "Tôi là sinh viên."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-002": {
+    "examples": [
+      {
+        "id": "mn-01-002-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "[[{貴方|あなた}]]は{先生|せんせい}ですか。",
+        "source": "ai-draft",
+        "vi": "Anh/chị là giáo viên phải không?"
+      }
+    ],
+    "han_viet": "QUÝ PHƯƠNG",
+    "han_viet_source": "user",
+    "kanji": "貴方",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-003": {
+    "examples": [
+      {
+        "id": "mn-01-003-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "[[あの{人|ひと}]]は{医者|いしゃ}です。",
+        "source": "ai-draft",
+        "vi": "Người kia là bác sĩ."
+      }
+    ]
+  },
+  "mn-01-004": {
+    "examples": [
+      {
+        "id": "mn-01-004-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "[[あの{方|かた}]]は{先生|せんせい}です。",
+        "source": "ai-draft",
+        "vi": "Vị kia là giáo viên."
+      }
+    ]
+  },
+  "mn-01-005": {
+    "examples": [
+      {
+        "id": "mn-01-005-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ミラー[[さん]]は{会社員|かいしゃいん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Miller là nhân viên công ty."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "hậu tố, viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-006": {
+    "examples": [
+      {
+        "id": "mn-01-006-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "テレーザ[[ちゃん]]は９{歳|さい}です。",
+        "source": "ai-draft",
+        "vi": "Bé Teresa 9 tuổi."
+      }
+    ]
+  },
+  "mn-01-007": {
+    "examples": [
+      {
+        "id": "mn-01-007-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワットさんはイギリス[[{人|じん}]]です。",
+        "source": "ai-draft",
+        "vi": "Anh Watt là người Anh."
+      }
+    ]
+  },
+  "mn-01-008": {
+    "examples": [
+      {
+        "id": "mn-01-008-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワット[[{先生|せんせい}]]はイギリス{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Thầy Watt là người Anh."
+      }
+    ]
+  },
+  "mn-01-009": {
+    "examples": [
+      {
+        "id": "mn-01-009-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{教師|きょうし}]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi là giáo viên."
+      }
+    ]
+  },
+  "mn-01-010": {
+    "examples": [
+      {
+        "id": "mn-01-010-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "マリアさんも[[{学生|がくせい}]]です。",
+        "source": "ai-draft",
+        "vi": "Chị Maria cũng là sinh viên."
+      }
+    ]
+  },
+  "mn-01-011": {
+    "examples": [
+      {
+        "id": "mn-01-011-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{会社員|かいしゃいん}]]じゃありません。",
+        "source": "ai-draft",
+        "vi": "Tôi không phải là nhân viên công ty."
+      }
+    ]
+  },
+  "mn-01-012": {
+    "examples": [
+      {
+        "id": "mn-01-012-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ミラーさんはＩＭＣの[[{社員|しゃいん}]]です。",
+        "source": "ai-draft",
+        "vi": "Anh Miller là nhân viên của công ty IMC."
+      }
+    ]
+  },
+  "mn-01-013": {
+    "examples": [
+      {
+        "id": "mn-01-013-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "あの{人|ひと}は[[{銀行員|ぎんこういん}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Người kia là nhân viên ngân hàng phải không?"
+      }
+    ]
+  },
+  "mn-01-014": {
+    "examples": [
+      {
+        "id": "mn-01-014-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワンさんは[[{医者|いしゃ}]]です。",
+        "source": "ai-draft",
+        "vi": "Anh Wang là bác sĩ."
+      }
+    ]
+  },
+  "mn-01-015": {
+    "examples": [
+      {
+        "id": "mn-01-015-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "サントスさんは[[{研究者|けんきゅうしゃ}]]じゃありません。",
+        "source": "ai-draft",
+        "vi": "Anh Santos không phải là nhà nghiên cứu."
+      }
+    ]
+  },
+  "mn-01-016": {
+    "examples": [
+      {
+        "id": "mn-01-016-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{私|わたし}はさくら[[{大学|だいがく}]]の{学生|がくせい}です。",
+        "source": "ai-draft",
+        "vi": "Tôi là sinh viên trường Đại học Sakura."
+      }
+    ]
+  },
+  "mn-01-017": {
+    "examples": [
+      {
+        "id": "mn-01-017-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワンさんは{神戸|こうべ}[[{病院|びょういん}]]の{医者|いしゃ}です。",
+        "source": "ai-draft",
+        "vi": "Anh Wang là bác sĩ của bệnh viện Kobe."
+      }
+    ]
+  },
+  "mn-01-018": {
+    "examples": [
+      {
+        "id": "mn-01-018-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "あの{人|ひと}は[[{誰|だれ}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Người kia là ai?"
+      }
+    ],
+    "han_viet": "THÙY",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "Unihan không có âm của 誰",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-019": {
+    "examples": [
+      {
+        "id": "mn-01-019-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "あの{方|かた}は[[どなた]]ですか。",
+        "source": "ai-draft",
+        "vi": "Vị kia là ai ạ?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "nghi vấn từ, viết kana (何方 ít dùng)",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-020": {
+    "examples": [
+      {
+        "id": "mn-01-020-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{私|わたし}は２５[[{歳|さい}]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi 25 tuổi."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～歳 tuổi",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-021": {
+    "examples": [
+      {
+        "id": "mn-01-021-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "テレーザちゃんは[[{何歳|なんさい}]]ですか。",
+        "source": "ai-draft",
+        "vi": "Bé Teresa mấy tuổi?"
+      }
+    ]
+  },
+  "mn-01-022": {
+    "examples": [
+      {
+        "id": "mn-01-022-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{先生|せんせい}は[[おいくつ]]ですか。",
+        "source": "ai-draft",
+        "vi": "Thầy/cô bao nhiêu tuổi ạ?"
+      }
+    ]
+  },
+  "mn-01-023": {
+    "examples": [
+      {
+        "id": "mn-01-023-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "[[はい]]、{私|わたし}はミラーです。",
+        "source": "ai-draft",
+        "vi": "Vâng, tôi là Miller."
+      }
+    ]
+  },
+  "mn-01-024": {
+    "examples": [
+      {
+        "id": "mn-01-024-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "[[いいえ]]、{私|わたし}は{学生|がくせい}じゃありません。",
+        "source": "ai-draft",
+        "vi": "Không, tôi không phải là sinh viên."
+      }
+    ]
+  },
+  "mn-01-026": {
+    "examples": [
+      {
+        "id": "mn-01-026-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{私|わたし}はアメリカ[[から{来|き}ました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đến từ Mỹ."
+      }
+    ]
+  },
+  "mn-01-030": {
+    "examples": [
+      {
+        "id": "mn-01-030-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "[[こちらはミラーさんです]]。",
+        "source": "ai-draft",
+        "vi": "Đây là anh Miller."
+      }
+    ]
+  },
+  "mn-01-031": {
+    "examples": [
+      {
+        "id": "mn-01-031-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ミラーさんは[[アメリカ]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Miller là người Mỹ."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "アメリカ: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-032": {
+    "examples": [
+      {
+        "id": "mn-01-032-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワットさんは[[イギリス]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Watt là người Anh."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "イギリス: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-033": {
+    "examples": [
+      {
+        "id": "mn-01-033-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ラオさんは[[インド]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Rao là người Ấn Độ."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "インド: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-034": {
+    "examples": [
+      {
+        "id": "mn-01-034-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{私|わたし}は[[インドネシア]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Tôi là người Indonesia."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "インドネシア: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-035": {
+    "examples": [
+      {
+        "id": "mn-01-035-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "イーさんは[[{韓国|かんこく}]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Chị Lee là người Hàn Quốc."
+      }
+    ],
+    "han_viet": "HÀN QUỐC",
+    "han_viet_source": "user",
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "かんこく: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-036": {
+    "examples": [
+      {
+        "id": "mn-01-036-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "タワポンさんは[[タイ]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Thawaphon là người Thái."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "タイ: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-037": {
+    "examples": [
+      {
+        "id": "mn-01-037-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワンさんは[[{中国|ちゅうごく}]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Wang là người Trung Quốc."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ちゅうごく: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-038": {
+    "examples": [
+      {
+        "id": "mn-01-038-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "シュミットさんは[[ドイツ]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Schmidt là người Đức."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ドイツ: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-039": {
+    "examples": [
+      {
+        "id": "mn-01-039-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{日本|にほん}]]{人|じん}じゃありません。",
+        "source": "ai-draft",
+        "vi": "Tôi không phải là người Nhật."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "にほん: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-040": {
+    "examples": [
+      {
+        "id": "mn-01-040-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "サントスさんは[[ブラジル]]{人|じん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Santos là người Brazil."
+      }
+    ],
+    "pos_code": "PN",
+    "pos_source": "source",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ブラジル: tên riêng thật (nước/người) — giữ PN",
+      "status": "reviewed"
+    }
+  },
+  "mn-01-041": {
+    "examples": [
+      {
+        "id": "mn-01-041-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ミラーさんは[[ＩＭＣ]]の{社員|しゃいん}です。",
+        "source": "ai-draft",
+        "vi": "Anh Miller là nhân viên công ty IMC."
+      }
+    ]
+  },
+  "mn-01-042": {
+    "examples": [
+      {
+        "id": "mn-01-042-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワットさんは[[ＡＫＣ]]の{研究者|けんきゅうしゃ}です。",
+        "source": "ai-draft",
+        "vi": "Anh Watt là nhà nghiên cứu của AKC."
+      }
+    ]
+  },
+  "mn-01-043": {
+    "examples": [
+      {
+        "id": "mn-01-043-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワンさんは[[{神戸|こうべ}{病院|びょういん}]]の{医者|いしゃ}です。",
+        "source": "ai-draft",
+        "vi": "Anh Wang là bác sĩ của bệnh viện Kobe."
+      }
+    ]
+  },
+  "mn-01-044": {
+    "examples": [
+      {
+        "id": "mn-01-044-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "マリアさんは[[さくら{大学|だいがく}]]の{学生|がくせい}です。",
+        "source": "ai-draft",
+        "vi": "Chị Maria là sinh viên trường Đại học Sakura."
+      }
+    ]
+  },
+  "mn-01-045": {
+    "examples": [
+      {
+        "id": "mn-01-045-e1",
+        "max_lesson": 1,
+        "review": "user",
+        "ruby": "ワット{先生|せんせい}は[[{富士|ふじ}{大学|だいがく}]]の{先生|せんせい}です。",
+        "source": "ai-draft",
+        "vi": "Thầy Watt là giáo viên trường Đại học Fuji."
+      }
+    ]
+  }
+}

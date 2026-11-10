@@ -1,0 +1,8 @@
+# by: user
+# Vòng 6 — âm Hán-Việt cho các chữ chưa có nguồn (user tra cứu, 2026-11-09)
+# 込, 匂 là quốc tự (国字) → không có âm Hán-Việt: 込みます, 申し込みます, 匂い giữ null
+# id | kanji | han_viet | ghi chú      ("-" = không có/để trống, "=" = giữ giá trị _auto)
+02-021|=|BẠC|鞄
+07-015|=|KIỆP|鋏
+28-003|=|GIẢO|噛
+47-013|=|-|匂 là quốc tự (国字) → không có âm Hán-Việt (user xác nhận)

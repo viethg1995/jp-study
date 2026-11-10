@@ -1,0 +1,402 @@
+# by: ai
+# Nghĩa tiếng Việt cho từ ví dụ Kanji bổ sung từ JMdict (lô 4, 2026-11-10) — AI nháp, chờ duyệt.
+公舎|こうしゃ|nhà công vụ
+校舎|こうしゃ|tòa nhà trường học
+宿舎|しゅくしゃ|nhà trọ, khu nhà ở
+牛舎|ぎゅうしゃ|chuồng bò
+拾得|しゅうとく|nhặt được (đồ thất lạc)
+拾う|ひろう|nhặt
+収拾|しゅうしゅう|thu xếp, kiểm soát (tình hình)
+拾い物|ひろいもの|đồ nhặt được
+探す|さがす|tìm kiếm
+探査|たんさ|thăm dò, khảo sát
+探る|さぐる|lần tìm, dò xét
+探知|たんち|phát hiện, dò ra
+応接|おうせつ|tiếp khách
+接待|せったい|tiếp đãi
+接戦|せっせん|trận đấu sát nút
+家財|かざい|đồ đạc trong nhà
+財務|ざいむ|tài vụ
+管財|かんざい|quản lý tài sản
+財団|ざいだん|quỹ, tổ chức tài đoàn
+布地|ぬのじ|vải
+公布|こうふ|công bố, ban hành
+分布|ぶんぷ|phân bố
+布告|ふこく|bố cáo, tuyên bố
+捜査|そうさ|điều tra (vụ án)
+特捜|とくそう|điều tra đặc biệt
+捜査官|そうさかん|điều tra viên
+捜索|そうさく|lục soát, tìm kiếm (người mất tích)
+盆地|ぼんち|lòng chảo, bồn địa
+盆|ぼん|khay
+盆栽|ぼんさい|cây cảnh bonsai
+お盆|おぼん|lễ Obon (lễ Vu Lan của Nhật)
+絡み|からみ|sự dính líu, vướng mắc
+絡む|からむ|quấn vào, dính líu
+短絡|たんらく|đoản mạch; suy nghĩ giản đơn
+連絡|れんらく|liên lạc
+診る|みる|khám (bệnh)
+打診|だしん|gõ chẩn đoán; thăm dò ý kiến
+健診|けんしん|khám sức khỏe
+受診|じゅしん|đi khám bệnh
+舞踊|ぶよう|múa
+踊り|おどり|điệu múa, nhảy
+踊る|おどる|nhảy, múa
+随意|ずいい|tùy ý
+随時|ずいじ|bất cứ lúc nào, khi cần
+追随|ついずい|theo đuôi, bắt chước
+随一|ずいいち|bậc nhất
+花鳥|かちょう|hoa và chim
+小鳥|ことり|chim nhỏ
+鳥居|とりい|cổng torii (cổng đền Thần đạo)
+水鳥|みずとり|chim nước
+歌声|かせい|giọng hát, tiếng hát
+小声|こごえ|giọng nhỏ, thì thầm
+名声|めいせい|danh tiếng
+完走|かんそう|chạy hết chặng
+走り|はしり|sự chạy
+走る|はしる|chạy
+滑走|かっそう|trượt; chạy đà (máy bay)
+器具|きぐ|dụng cụ
+夜具|やぐ|chăn đệm
+家具|かぐ|đồ nội thất
+飼育|しいく|chăn nuôi
+飼料|しりょう|thức ăn chăn nuôi
+飼い主|かいぬし|chủ nuôi (thú cưng)
+下値|したね|giá thấp nhất
+支給|しきゅう|cấp phát, chi trả
+時給|じきゅう|lương theo giờ
+無給|むきゅう|không lương
+給与|きゅうよ|tiền lương
+予選|よせん|vòng loại
+互選|ごせん|bầu chọn lẫn nhau (trong nội bộ)
+選ぶ|えらぶ|chọn
+容器|ようき|đồ đựng
+容姿|ようし|dung mạo, vóc dáng
+偉人|いじん|vĩ nhân
+偉大|いだい|vĩ đại
+偉業|いぎょう|sự nghiệp vĩ đại
+偉功|いこう|công lớn
+噛む|かむ|cắn, nhai
+噛み付く|かみつく|cắn vào; cáu gắt
+歯噛み|はがみ|nghiến răng
+噛み傷|かみきず|vết cắn
+孫娘|まごむすめ|cháu gái (con của con)
+一人娘|ひとりむすめ|con gái một
+娘婿|むすめむこ|con rể
+主将|しゅしょう|chủ tướng; đội trưởng
+大将|たいしょう|đại tướng
+将校|しょうこう|sĩ quan
+将軍|しょうぐん|tướng quân
+図形|ずけい|hình vẽ, hình học
+固形|こけい|thể rắn
+地形|ちけい|địa hình
+利息|りそく|tiền lãi
+子息|しそく|con trai (của người khác)
+抵当|ていとう|thế chấp
+抵抗|ていこう|chống cự, kháng cự
+抵当権|ていとうけん|quyền thế chấp
+夜景|やけい|cảnh đêm
+景気|けいき|tình hình kinh tế
+光景|こうけい|quang cảnh
+景品|けいひん|quà tặng kèm
+暫定|ざんてい|tạm thời
+暫時|ざんじ|một lát
+暫定値|ざんていち|số liệu tạm thời
+暫定案|ざんていあん|phương án tạm thời
+改組|かいそ|tái tổ chức
+組む|くむ|bắt chéo (tay, chân); lập nhóm
+組成|そせい|thành phần, cấu tạo
+小皿|こざら|đĩa nhỏ
+受け皿|うけざら|đĩa lót
+皿洗い|さらあらい|rửa bát
+灰皿|はいざら|gạt tàn
+汚名|おめい|tiếng xấu
+衣類|いるい|quần áo
+類似|るいじ|tương tự
+人類|じんるい|nhân loại
+分割|ぶんかつ|chia cắt, chia nhỏ
+下落|げらく|sụt giảm (giá)
+落ち|おち|sót, thiếu sót
+落下|らっか|rơi xuống
+破壊|はかい|phá hoại
+拭く|ふく|lau
+拭う|ぬぐう|lau, chùi
+拭き|ふき|đồ lau
+代替|だいたい|thay thế
+替え|かえ|sự thay đổi, đồ thay
+両替|りょうがえ|đổi tiền
+替える|かえる|thay, đổi
+小枝|こえだ|cành nhỏ
+大枝|おおえだ|cành lớn
+枝豆|えだまめ|đậu nành non (edamame)
+氏名|うじな|họ tên
+セ氏|セし|độ C
+同氏|どうし|vị đó, ông/bà ấy
+源|みなもと|nguồn, gốc
+源氏|げんじ|Genji (nhân vật trong Truyện Genji)
+打破|だは|đánh đổ, phá bỏ
+大破|たいは|hư hỏng nặng
+お碗|おわん|cái bát
+碗|わん|cái bát
+楽茶碗|らくちゃわん|chén trà gốm Raku
+飯茶碗|めしぢゃわん|bát cơm
+紙袋|かみぶくろ|túi giấy
+胃袋|いぶくろ|dạ dày
+相違|そうい|khác biệt
+授かる|さずかる|được ban, được trao
+授与|じゅよ|trao tặng
+授受|じゅじゅ|trao nhận
+教授|きょうじゅ|giáo sư
+定か|さだか|rõ ràng, chắc chắn
+不定|ふてい|không cố định, bất định
+仮定|かてい|giả định
+復帰|ふっき|trở lại, phục hồi
+反復|はんぷく|lặp lại
+回復|かいふく|hồi phục
+大関|おおぜき|ōzeki (hạng thứ hai trong sumo)
+機関|きかん|động cơ; cơ quan
+関与|かんよ|tham gia, liên quan
+並列|へいれつ|xếp hàng; song song
+並び|ならび|hàng, dãy
+並ぶ|ならぶ|xếp hàng
+周囲|しゅうい|xung quanh
+周期|しゅうき|chu kỳ
+周知|しゅうち|ai cũng biết
+一周|いっしゅう|một vòng
+壁画|へきが|bích họa
+壁紙|かべがみ|giấy dán tường
+壁面|へきめん|mặt tường
+外壁|がいへき|tường ngoài
+画廊|がろう|phòng tranh
+回廊|かいろう|hành lang
+歩廊|ほろう|hành lang, sân ga
+側廊|そくろう|lối đi bên (nhà thờ)
+戻し|もどし|trả lại
+戻す|もどす|trả lại, đặt lại
+戻り|もどり|sự quay lại
+移植|いしょく|cấy ghép; trồng chuyển
+誤植|ごしょく|lỗi in
+植林|しょくりん|trồng rừng
+植物|しょくぶつ|thực vật
+玄人|くろと|người sành nghề, chuyên gia
+玄米|げんまい|gạo lứt
+玄冬|げんとう|mùa đông
+玄同|げんどう|giấu tài để hòa đồng với người thường
+瓶|びん|chai, lọ
+瓶詰め|びんづめ|đóng chai
+魔法瓶|まほうびん|phích nước
+火炎瓶|かえんびん|bom xăng
+纏る|まつる|khâu viền (mũi giấu chỉ)
+半纏|はんてん|áo khoác ngắn hanten
+纏足|てんそく|bó chân
+纏頭|てんとう|tiền boa
+意義|いぎ|ý nghĩa
+疑義|ぎぎ|nghi vấn
+講和|こうわ|giảng hòa
+講師|こうし|giảng viên
+講座|こうざ|khóa học, bài giảng
+受講|じゅこう|tham gia khóa học
+四隅|しぐう|bốn góc
+一隅|いちぐう|một góc
+片隅|かたすみ|góc, xó
+隅々|すみずみ|mọi ngóc ngách
+服飾|ふくしょく|trang phục và phụ kiện
+飾る|かざる|trang trí
+着飾る|きかざる|ăn diện
+恋文|こいぶみ|thư tình
+支える|ささえる|chống đỡ, hỗ trợ
+支持|しじ|ủng hộ
+支部|しぶ|chi bộ, chi nhánh
+支度|したく|chuẩn bị
+泉|いずみ|suối, mạch nước
+泉水|せんすい|hồ nước trong vườn
+源泉|げんせん|nguồn suối; nguồn gốc
+天然温泉|てんねんおんせん|suối nước nóng tự nhiên
+持続|じぞく|duy trì, kéo dài
+込む|こむ|đông đúc
+仕込み|しこみ|huấn luyện; chuẩn bị (nguyên liệu)
+儀式|ぎしき|nghi thức
+和式|わしき|kiểu Nhật (đặc biệt là bồn cầu ngồi xổm)
+申す|もうす|nói (khiêm nhường)
+個展|こてん|triển lãm cá nhân
+展示|てんじ|trưng bày
+展望|てんぼう|tầm nhìn, triển vọng
+展開|てんかい|triển khai, diễn biến
+憩い|いこい|sự nghỉ ngơi
+憩う|いこう|nghỉ ngơi
+休憩所|きゅうけいじょ|trạm nghỉ
+葬る|ほうむる|chôn cất
+火葬|かそう|hỏa táng
+葬儀|そうぎ|tang lễ
+埋葬|まいそう|mai táng
+一覧|いちらん|danh sách; xem qua
+回覧|かいらん|chuyền tay đọc
+観覧|かんらん|tham quan, xem
+夕日|ゆうひ|mặt trời lặn
+夕刊|ゆうかん|báo buổi chiều
+北部|ほくぶ|phía bắc
+北側|きたがわ|phía bắc
+北口|きたぐち|cửa bắc
+北国|きたぐに|xứ bắc
+南部|なんぶ|phía nam
+南北|なんぼく|nam bắc
+南方|なんぽう|phương nam
+南東|なんとう|đông nam
+東部|とうぶ|phía đông
+西部|せいぶ|phía tây
+北西|ほくせい|tây bắc
+南西|なんせい|tây nam
+東西|とうざい|đông tây
+一夜|ひとよ|một đêm
+丸太|まるた|khúc gỗ tròn
+太る|ふとる|béo lên, tăng cân
+土星|どせい|sao Thổ
+星座|せいざ|chòm sao
+火星|かせい|sao Hỏa
+惑星|わくせい|hành tinh
+晴天|せいてん|trời quang
+晴れ|はれ|trời nắng
+晴らす|はらす|giải tỏa, xua tan
+晴れる|はれる|trời quang, hửng nắng
+敗れる|やぶれる|bị đánh bại
+腐敗|ふはい|thối rữa; tham nhũng
+一敗|いっぱい|một trận thua
+負傷|ふしょう|bị thương
+無傷|むきず|không bị thương, nguyên vẹn
+傷口|きずぐち|miệng vết thương
+功名|こうめい|công danh
+功績|こうせき|công trạng
+奏功|そうこう|thành công
+咳く|せく|ho
+空咳|からせき|ho khan
+咳止め|せきどめ|thuốc ho
+咳払い|せきばらい|đằng hắng
+怪しい|あやしい|đáng ngờ
+怪物|かいぶつ|quái vật
+怪談|かいだん|chuyện ma
+怪しむ|あやしむ|nghi ngờ
+我が|わが|của tôi, của chúng ta
+無我|むが|vô ngã
+自我|じが|bản ngã
+煩悩|ぼんのう|phiền não
+煩う|わずらう|lo lắng, băn khoăn
+煩わしい|わずらわしい|phiền phức
+陽子|ようし|proton
+陽気|ようき|vui vẻ
+山陽|さんよう|vùng Sanyō (sườn nam núi)
+陰陽|いんよう|âm dương
+手際|てぎわ|sự khéo léo
+間際|まぎわ|ngay trước khi
+交際|こうさい|giao thiệp; hẹn hò
+学際|がくさい|liên ngành
+同化|どうか|đồng hóa
+同地|どうち|cùng nơi, nơi đó
+同士|どうし|bạn cùng…, đồng chí
+投下|とうか|thả xuống
+投げ|なげ|cú ném
+投与|とうよ|cho dùng (thuốc)
+投機|とうき|đầu cơ
+座席|ざせき|chỗ ngồi
+保守|ほしゅ|bảo trì; bảo thủ
+子守|こもり|trông trẻ
+注ぐ|そそぐ|rót, đổ vào
+内規|ないき|nội quy
+新規|しんき|mới
+正規|せいき|chính quy
+法規|ほうき|luật lệ
+逃亡|とうぼう|trốn chạy
+逃げ|にげ|sự trốn chạy
+逃す|のがす|bỏ lỡ
+逃走|とうそう|bỏ trốn
+察知|さっち|nhận biết, đoán ra
+査察|ささつ|thanh tra
+検察|けんさつ|kiểm sát, công tố
+考察|こうさつ|khảo sát, xem xét
+常に|つねに|luôn luôn
+常務|じょうむ|giám đốc điều hành
+常時|じょうじ|thường xuyên
+会則|かいそく|điều lệ hội
+原則|げんそく|nguyên tắc
+反則|はんそく|phạm luật
+変則|へんそく|bất thường
+募る|つのる|tăng dần; chiêu mộ
+募金|ぼきん|quyên góp
+応募|おうぼ|ứng tuyển, đăng ký dự thi
+徐々に|じょじょに|dần dần
+徐歩|じょほ|đi chậm
+徐冷|じょれい|làm nguội chậm
+最徐行|さいじょこう|chạy cực chậm
+締約|ていやく|ký kết hiệp ước
+締め|しめ|sự buộc, siết
+締結|ていけつ|ký kết
+締める|しめる|thắt, buộc
+諦める|あきらめる|từ bỏ
+仮諦|けたい|giả đế (mọi vật đều tạm bợ)
+四諦|したい|Tứ diệu đế
+苦諦|くたい|khổ đế
+府警|ふけい|cảnh sát phủ (Osaka, Kyoto)
+警備|けいび|bảo vệ, canh gác
+警護|けいご|hộ vệ
+非礼|ひれい|vô lễ
+非行|ひこう|hành vi sai trái, phạm pháp
+非難|ひなん|chỉ trích
+物騒|ぶっそう|nguy hiểm, bất an
+騒ぎ|さわぎ|sự ồn ào, náo động
+騒ぐ|さわぐ|làm ồn
+騒動|そうどう|náo loạn
+客員|かくいん|thành viên khách mời
+客観|かくかん|khách quan
+客車|かくしゃ|toa hành khách
+客間|きゃくま|phòng khách
+黄金|おうごん|vàng
+黄身|きみ|lòng đỏ trứng
+黄色い|きいろい|màu vàng
+黄金時代|おうごんじだい|thời kỳ hoàng kim
+油絵|あぶらえ|tranh sơn dầu
+原油|げんゆ|dầu thô
+油断|ゆだん|lơ là, chủ quan
+地質|ちしつ|địa chất
+気質|きしつ|khí chất, tính khí
+印税|いんぜい|tiền bản quyền (sách)
+古城|こじょう|lâu đài cổ
+城主|じょうしゅ|lãnh chúa thành
+城内|じょうない|trong thành
+開城|かいじょう|đầu hàng giao thành
+弓矢|きゅうし|cung tên
+矢先|やさき|đầu mũi tên; ngay lúc định…
+矢|や|mũi tên
+根矢|ねや|đầu mũi tên
+磨き|みがき|đánh bóng
+磨く|みがく|đánh bóng; mài giũa
+歯磨き|はみがき|đánh răng
+紺屋|こんや|thợ nhuộm
+濃紺|のうこん|xanh đậm, xanh tím than
+紺ソ|こんソ|tất màu xanh đậm
+紺地|こんじ|nền xanh đậm
+肉醤|ししびしお|mắm thịt, mắm cá
+魚醤|ぎょしょう|nước mắm
+醤|ひしお|tương lên men (như miso)
+生醤油|きじょうゆ|nước tương nguyên chất
+光る|ひかる|sáng, lấp lánh
+光学|こうがく|quang học
+光年|こうねん|năm ánh sáng
+外科|げか|ngoại khoa
+一丸|いちがん|đồng lòng, một khối
+丸い|まるい|tròn
+丸み|まるみ|độ tròn
+根気|こんき|kiên nhẫn, bền bỉ
+島根|しまね|Shimane (tỉnh)
+大根|だいこん|củ cải trắng
+意向|いこう|ý hướng, ý định
+向き|むき|hướng
+困惑|こんわく|bối rối
+困る|こまる|khó khăn, rắc rối
+困難|こんなん|khó khăn
+貧困|ひんこん|nghèo khổ
+器物|うつわもの|đồ đựng, vật dụng
+機器|きき|thiết bị
+大佐|たいさ|đại tá
+中佐|ちゅうさ|trung tá
+少佐|しょうさ|thiếu tá
+補佐|ほさ|phụ tá, trợ lý

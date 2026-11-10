@@ -1,0 +1,353 @@
+[
+  {
+    "id": "lesson33_1",
+    "jp": "にげます",
+    "kanji": "逃げます",
+    "kanji_vn": "ĐÀO",
+    "vn": "chạy trốn, bỏ chạy",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson33_2",
+    "jp": "さわぎます",
+    "kanji": "騒ぎます",
+    "kanji_vn": "TAO",
+    "vn": "làm ồn, làm rùm beng",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson33_3",
+    "jp": "あきらめます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "từ bỏ, đầu hàng",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson33_4",
+    "jp": "なげます",
+    "kanji": "投げます",
+    "kanji_vn": "ĐẦU",
+    "vn": "ném",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson33_5",
+    "jp": "まもります",
+    "kanji": "守ります",
+    "kanji_vn": "THỦ",
+    "vn": "bảo vệ, tuân thủ, giữ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson33_6",
+    "jp": "はじまります",
+    "kanji": "始まります",
+    "kanji_vn": "THỨC THỦY",
+    "vn": "bắt đầu [buổi lễ ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson33_7",
+    "jp": "しゅっせきします",
+    "kanji": "出席します",
+    "kanji_vn": "XUẤT TỊCHHỘI NGHỊ",
+    "vn": "tham dự, tham gia [cuộc họp]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson33_8",
+    "jp": "つたえます",
+    "kanji": "伝えます",
+    "kanji_vn": "TRUYỀN",
+    "vn": "truyền, truyền đạt",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson33_9",
+    "jp": "ちゅういします",
+    "kanji": "注意します",
+    "kanji_vn": "CHÚ ÝXA",
+    "vn": "chú ý [ô tô]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson33_10",
+    "jp": "はずします",
+    "kanji": "外します",
+    "kanji_vn": "NGOẠITỊCH",
+    "vn": "rời, không có ở [chỗ ngồi]",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson33_11",
+    "jp": "もどります",
+    "kanji": "戻ります",
+    "kanji_vn": "LỆ",
+    "vn": "trở lại, quay trở lại",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson33_12",
+    "jp": "あります",
+    "kanji": null,
+    "kanji_vn": "ĐIỆN THOẠI",
+    "vn": "có [điện thoại]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson33_13",
+    "jp": "リサイクルします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tái chế",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson33_14",
+    "jp": "だめ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hỏng, không được, không thể",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson33_15",
+    "jp": "おなじ",
+    "kanji": "同じ",
+    "kanji_vn": "ĐỒNG",
+    "vn": "giống",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_16",
+    "jp": "けいさつ",
+    "kanji": "警察",
+    "kanji_vn": "CẢNH SÁT",
+    "vn": "cảnh sát",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_17",
+    "jp": "せき",
+    "kanji": "席",
+    "kanji_vn": "TỊCH",
+    "vn": "chỗ ngồi, ghế",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_18",
+    "jp": "マーク",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ký hiệu (Mark)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson33_19",
+    "jp": "ボール",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "quả bóng",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson33_20",
+    "jp": "しめきり",
+    "kanji": "締め切り",
+    "kanji_vn": "ĐẾ THIẾT",
+    "vn": "hạn chót, hạn cuối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_21",
+    "jp": "きそく",
+    "kanji": "規則",
+    "kanji_vn": "QUY TẮC",
+    "vn": "quy tắc, kỷ luật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_22",
+    "jp": "きけん",
+    "kanji": "危険",
+    "kanji_vn": "NGUY HIỂM",
+    "vn": "nguy hiểm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_23",
+    "jp": "しようきんし",
+    "kanji": "使用禁止",
+    "kanji_vn": "SỬ DỤNG CẤM CHỈ",
+    "vn": "cấm sử dụng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_24",
+    "jp": "たちいりきんし",
+    "kanji": "立入禁止",
+    "kanji_vn": "LẬP NHẬP CẤM CHỈ",
+    "vn": "cấm vào",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_25",
+    "jp": "じょこう",
+    "kanji": "徐行",
+    "kanji_vn": "TỪ HÀNH",
+    "vn": "chạy chậm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_26",
+    "jp": "いりぐち",
+    "kanji": "入口",
+    "kanji_vn": "NHẬP KHẨU",
+    "vn": "cửa vào",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_27",
+    "jp": "でぐち",
+    "kanji": "出口",
+    "kanji_vn": "XUẤT KHẨU",
+    "vn": "cửa ra",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_28",
+    "jp": "ひじょうぐち",
+    "kanji": "非常口",
+    "kanji_vn": "PHI THƯỜNG KHẨU",
+    "vn": "cửa thoát hiểm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_29",
+    "jp": "むりょう",
+    "kanji": "無料",
+    "kanji_vn": "VÔ LIỆU",
+    "vn": "miễn phí",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_30",
+    "jp": "わりびき",
+    "kanji": "割引",
+    "kanji_vn": "CÁT DẪN",
+    "vn": "giảm giá",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_31",
+    "jp": "のみほうだい",
+    "kanji": "飲み放題",
+    "kanji_vn": "ẨM PHÓNG ĐỀ",
+    "vn": "uống thoải mái không giới hạn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_32",
+    "jp": "しようちゅう",
+    "kanji": "使用中",
+    "kanji_vn": "SỬ DỤNG TRUNG",
+    "vn": "đang sử dụng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_33",
+    "jp": "ぼしゅうちゅう",
+    "kanji": "募集中",
+    "kanji_vn": "MỘ TẬP TRUNG",
+    "vn": "đang tuyển",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson33_34",
+    "jp": "～ちゅう",
+    "kanji": "～中",
+    "kanji_vn": "TRUNG",
+    "vn": "đang ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson33_35",
+    "jp": "どういう～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ gì, ~ thế nào",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson33_36",
+    "jp": "いくら",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "[dù có] ~ bao nhiêu đi nữa",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson33_37",
+    "jp": "もう",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "không ~ nữa",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson33_38",
+    "jp": "あと～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "còn ~",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson33_39",
+    "jp": "～ほど",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khoảng ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  }
+]

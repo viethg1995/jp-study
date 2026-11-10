@@ -1,0 +1,336 @@
+{
+  "mn-47-001": {
+    "examples": [
+      {
+        "id": "mn-47-001-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{外|そと}は{風|かぜ}が{強|つよ}く[[{吹|ふ}いて]]います。",
+        "source": "ai-draft",
+        "vi": "Bên ngoài gió đang thổi mạnh."
+      }
+    ]
+  },
+  "mn-47-002": {
+    "examples": [
+      {
+        "id": "mn-47-002-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "[[{燃|も}える]]ごみは{月曜日|げつようび}に{出|だ}してください。",
+        "source": "ai-draft",
+        "vi": "Rác cháy được hãy bỏ vào thứ hai."
+      }
+    ]
+  },
+  "mn-47-003": {
+    "examples": [
+      {
+        "id": "mn-47-003-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{祖父|そふ}が{去年|きょねん}[[{亡|な}くなりました]]。",
+        "source": "ai-draft",
+        "vi": "Ông tôi đã mất năm ngoái."
+      }
+    ]
+  },
+  "mn-47-004": {
+    "examples": [
+      {
+        "id": "mn-47-004-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{駅|えき}の{前|まえ}に{人|ひと}が{大勢|おおぜい}[[{集|あつ}まって]]います。",
+        "source": "ai-draft",
+        "vi": "Trước nhà ga có rất nhiều người đang tập trung."
+      }
+    ]
+  },
+  "mn-47-005": {
+    "examples": [
+      {
+        "id": "mn-47-005-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "ここで２つのグループに[[{別|わか}れましょう]]。",
+        "source": "ai-draft",
+        "vi": "Ở đây hãy chia thành hai nhóm."
+      }
+    ],
+    "han_viet": "BIỆT",
+    "han_viet_source": "user",
+    "meaning_source": "user",
+    "meaning_vi": "chia tay [người ～]",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "別れる = chia tay; nghĩa gốc \"chia, chia nhỏ, chia ra\" là của 分かれる (đồng âm)",
+      "note": "別 — Unihan cho âm Nôm BIẾT",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-006": {
+    "examples": [
+      {
+        "id": "mn-47-006-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{台所|だいどころ}からいい{匂|にお}いが[[します]]ね。",
+        "source": "ai-draft",
+        "vi": "Từ nhà bếp có mùi thơm nhỉ."
+      }
+    ],
+    "meaning_source": "user",
+    "meaning_vi": "có [âm thanh/ tiếng]; có [vị]; có [mùi]",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "gốc: có [âm thanh/ tiếng]có [vị]có [mùi]",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-007": {
+    "examples": [
+      {
+        "id": "mn-47-007-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{父|ちち}はとても[[{厳|きび}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Bố tôi rất nghiêm khắc."
+      }
+    ]
+  },
+  "mn-47-008": {
+    "examples": [
+      {
+        "id": "mn-47-008-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{昨日|きのう}の{台風|たいふう}は[[{酷|ひど}かった]]そうです。",
+        "source": "ai-draft",
+        "vi": "Nghe nói cơn bão hôm qua rất khủng khiếp."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-009": {
+    "examples": [
+      {
+        "id": "mn-47-009-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{地震|じしん}は[[{怖|こわ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Động đất thật đáng sợ."
+      }
+    ]
+  },
+  "mn-47-010": {
+    "examples": [
+      {
+        "id": "mn-47-010-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{大学|だいがく}で[[{実験|じっけん}]]をしています。",
+        "source": "ai-draft",
+        "vi": "Tôi đang làm thí nghiệm ở trường đại học."
+      }
+    ]
+  },
+  "mn-47-011": {
+    "examples": [
+      {
+        "id": "mn-47-011-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "この[[データ]]によると、{人口|じんこう}が{減|へ}っているそうです。",
+        "source": "ai-draft",
+        "vi": "Theo dữ liệu này, nghe nói dân số đang giảm."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "データ: PN→N (JMdict: danh từ thông dụng (data; datum))",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-012": {
+    "examples": [
+      {
+        "id": "mn-47-012-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{人口|じんこう}]]は{減|へ}っているそうです。",
+        "source": "ai-draft",
+        "vi": "Nghe nói dân số Nhật đang giảm."
+      }
+    ]
+  },
+  "mn-47-013": {
+    "examples": [
+      {
+        "id": "mn-47-013-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "この{花|はな}はいい[[{匂|にお}い]]がします。",
+        "source": "ai-draft",
+        "vi": "Bông hoa này có mùi thơm."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "review": {
+      "by": "user",
+      "note": "匂 là quốc tự (国字) → không có âm Hán-Việt (user xác nhận)",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-014": {
+    "examples": [
+      {
+        "id": "mn-47-014-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{科学|かがく}]]は{進|すす}んでいるそうです。",
+        "source": "ai-draft",
+        "vi": "Nghe nói khoa học Nhật Bản rất tiến bộ."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "かがく: PN→N (JMdict: danh từ thông dụng (chemistry))",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-015": {
+    "examples": [
+      {
+        "id": "mn-47-015-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{兄|あに}は{大学|だいがく}で[[{医学|いがく}]]を{勉強|べんきょう}しているそうです。",
+        "source": "ai-draft",
+        "vi": "Nghe nói anh trai tôi đang học y ở đại học."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "いがく: PN→N (JMdict: danh từ thông dụng (medicine; medical science))",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-016": {
+    "examples": [
+      {
+        "id": "mn-47-016-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{日本|にほん}の[[{文学|ぶんがく}]]に{興味|きょうみ}があります。",
+        "source": "ai-draft",
+        "vi": "Tôi quan tâm đến văn học Nhật Bản."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ぶんがく: PN→N (JMdict: danh từ thông dụng (literature))",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-017": {
+    "examples": [
+      {
+        "id": "mn-47-017-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "[[パトカー]]の{音|おと}がします。",
+        "source": "ai-draft",
+        "vi": "Có tiếng xe cảnh sát."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "パトカー: PN→N (JMdict: danh từ thông dụng (patrol car; police car))",
+      "status": "reviewed"
+    }
+  },
+  "mn-47-018": {
+    "examples": [
+      {
+        "id": "mn-47-018-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "[[{救急車|きゅうきゅうしゃ}]]を{呼|よ}んでください。",
+        "source": "ai-draft",
+        "vi": "Hãy gọi xe cấp cứu."
+      }
+    ]
+  },
+  "mn-47-019": {
+    "examples": [
+      {
+        "id": "mn-47-019-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{私|わたし}はその{意見|いけん}に[[{賛成|さんせい}]]です。",
+        "source": "ai-draft",
+        "vi": "Tôi tán thành ý kiến đó."
+      }
+    ]
+  },
+  "mn-47-020": {
+    "examples": [
+      {
+        "id": "mn-47-020-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{多|おお}くの{人|ひと}がその{計画|けいかく}に[[{反対|はんたい}]]しています。",
+        "source": "ai-draft",
+        "vi": "Nhiều người phản đối kế hoạch đó."
+      }
+    ]
+  },
+  "mn-47-021": {
+    "examples": [
+      {
+        "id": "mn-47-021-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "[[{大統領|だいとうりょう}]]が{来週|らいしゅう}{日本|にほん}に{来|く}るそうです。",
+        "source": "ai-draft",
+        "vi": "Nghe nói tuần sau tổng thống sẽ đến Nhật."
+      }
+    ]
+  },
+  "mn-47-022": {
+    "examples": [
+      {
+        "id": "mn-47-022-e1",
+        "max_lesson": 47,
+        "review": "user",
+        "ruby": "{天気予報|てんきよほう}[[によると]]、{明日|あした}は{雨|あめ}だそうです。",
+        "source": "ai-draft",
+        "vi": "Theo dự báo thời tiết, ngày mai trời mưa."
+      }
+    ]
+  }
+}

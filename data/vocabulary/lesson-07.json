@@ -1,0 +1,1775 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-001-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "ナイフで{肉|にく}を[[{切|き}ります]]。",
+          "source": "ai-draft",
+          "vi": "Tôi cắt thịt bằng dao."
+        }
+      ],
+      "han_viet": "THIẾT",
+      "id": "mn-07-001",
+      "kana": "きります",
+      "kanji": "切ります",
+      "kanji_refs": [
+        "k-切"
+      ],
+      "legacy_id": "lesson7_1",
+      "lesson": 7,
+      "meaning_vi": "cắt",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-38-007"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "cắt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-002-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{国|くに}の{家族|かぞく}に{手紙|てがみ}を[[{送|おく}ります]]。",
+          "source": "ai-draft",
+          "vi": "Tôi gửi thư cho gia đình ở quê."
+        }
+      ],
+      "han_viet": "TỐNG",
+      "id": "mn-07-002",
+      "kana": "おくります",
+      "kanji": "送ります",
+      "kanji_refs": [
+        "k-送"
+      ],
+      "legacy_id": "lesson7_2",
+      "lesson": 7,
+      "meaning_vi": "gửi",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-24-005"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "gửi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-003-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{友達|ともだち}に{本|ほん}を[[{上|あ}げます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi tặng sách cho bạn."
+        }
+      ],
+      "han_viet": "THƯỢNG",
+      "id": "mn-07-003",
+      "kana": "あげます",
+      "kanji": "上げます",
+      "kanji_refs": [
+        "k-上"
+      ],
+      "legacy_id": "lesson7_3",
+      "lesson": 7,
+      "meaning_vi": "cho, tặng",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-41-004"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "cho, tặng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-004-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{友達|ともだち}にお{土産|みやげ}を[[{貰|もら}いました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã nhận quà từ bạn."
+        }
+      ],
+      "han_viet": "THẾ",
+      "id": "mn-07-004",
+      "kana": "もらいます",
+      "kanji": "貰います",
+      "kanji_refs": [
+        "k-貰"
+      ],
+      "legacy_id": "lesson7_4",
+      "lesson": 7,
+      "meaning_vi": "nhận",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nhận"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-005-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "ミラーさんに{傘|かさ}を[[{貸|か}しました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã cho anh Miller mượn ô."
+        }
+      ],
+      "han_viet": "THẢI",
+      "id": "mn-07-005",
+      "kana": "かします",
+      "kanji": "貸します",
+      "kanji_refs": [
+        "k-貸"
+      ],
+      "legacy_id": "lesson7_5",
+      "lesson": 7,
+      "meaning_vi": "cho mượn, cho vay",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cho mượn, cho vay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-006-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{図書館|としょかん}で{本|ほん}を[[{借|か}ります]]。",
+          "source": "ai-draft",
+          "vi": "Tôi mượn sách ở thư viện."
+        }
+      ],
+      "han_viet": "TÁ",
+      "id": "mn-07-006",
+      "kana": "かります",
+      "kanji": "借ります",
+      "kanji_refs": [
+        "k-借"
+      ],
+      "legacy_id": "lesson7_6",
+      "lesson": 7,
+      "meaning_vi": "mượn, vay",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mượn, vay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-007-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{私|わたし}はワンさんに{英語|えいご}を[[{教|おし}えます]]。",
+          "source": "ai-draft",
+          "vi": "Tôi dạy tiếng Anh cho anh Wang."
+        }
+      ],
+      "han_viet": "GIÁO",
+      "id": "mn-07-007",
+      "kana": "おしえます",
+      "kanji": "教えます",
+      "kanji_refs": [
+        "k-教"
+      ],
+      "legacy_id": "lesson7_7",
+      "lesson": 7,
+      "meaning_vi": "dạy",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-14-015"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "dạy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-008-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{先生|せんせい}に{日本語|にほんご}を[[{習|なら}います]]。",
+          "source": "ai-draft",
+          "vi": "Tôi học tiếng Nhật với giáo viên."
+        }
+      ],
+      "han_viet": "TẬP",
+      "id": "mn-07-008",
+      "kana": "ならいます",
+      "kanji": "習います",
+      "kanji_refs": [
+        "k-習"
+      ],
+      "legacy_id": "lesson7_8",
+      "lesson": 7,
+      "meaning_vi": "học, tập",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "học, tập"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-009-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{毎晩|まいばん}{家族|かぞく}に{電話|でんわ}を[[かけます]]。",
+          "source": "ai-draft",
+          "vi": "Tối nào tôi cũng gọi điện cho gia đình."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-009",
+      "kana": "かけます",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_9",
+      "lesson": 7,
+      "meaning_vi": "gọi [điện thoại]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "điện thoại",
+          "text": "gọi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-010-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[{手|て}]]で{果物|くだもの}を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn hoa quả bằng tay."
+        }
+      ],
+      "han_viet": "THỦ",
+      "id": "mn-07-010",
+      "kana": "て",
+      "kanji": "手",
+      "kanji_refs": [
+        "k-手"
+      ],
+      "legacy_id": "lesson7_10",
+      "lesson": 7,
+      "meaning_vi": "tay",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-011-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[{箸|はし}]]でご{飯|はん}を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn cơm bằng đũa."
+        }
+      ],
+      "han_viet": "TRỨ",
+      "id": "mn-07-011",
+      "kana": "はし",
+      "kanji": "箸",
+      "kanji_refs": [
+        "k-箸"
+      ],
+      "legacy_id": "lesson7_11",
+      "lesson": 7,
+      "meaning_vi": "đũa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "user",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đũa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-012-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[スプーン]]で{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn bằng thìa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-012",
+      "kana": "スプーン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_12",
+      "lesson": 7,
+      "meaning_vi": "thìa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thìa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-013-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[ナイフ]]で{肉|にく}を{切|き}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi cắt thịt bằng dao."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-013",
+      "kana": "ナイフ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_13",
+      "lesson": 7,
+      "meaning_vi": "dao",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dao"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-014-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[フォーク]]で{肉|にく}を{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn thịt bằng nĩa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-014",
+      "kana": "フォーク",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_14",
+      "lesson": 7,
+      "meaning_vi": "nĩa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nĩa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-015-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[{鋏|はさみ}]]で{花|はな}を{切|き}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã cắt hoa bằng kéo."
+        }
+      ],
+      "han_viet": "KIỆP",
+      "id": "mn-07-015",
+      "kana": "はさみ",
+      "kanji": "鋏",
+      "kanji_refs": [
+        "k-鋏"
+      ],
+      "legacy_id": "lesson7_15",
+      "lesson": 7,
+      "meaning_vi": "kéo",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "kéo"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-016-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[パソコン]]で{手紙|てがみ}を{書|か}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi viết thư bằng máy tính."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-016",
+      "kana": "パソコン",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_16",
+      "lesson": 7,
+      "meaning_vi": "máy vi tính cá nhân",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "máy vi tính cá nhân"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-017-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[ケータイ]]で{写真|しゃしん}を{撮|と}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi chụp ảnh bằng điện thoại di động."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-017",
+      "kana": "ケータイ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_17",
+      "lesson": 7,
+      "meaning_vi": "điện thoại di động",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "điện thoại di động"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-018-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{友達|ともだち}に[[メール]]を{送|おく}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi gửi email cho bạn."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-018",
+      "kana": "メール",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_18",
+      "lesson": 7,
+      "meaning_vi": "thư điện tử, email",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thư điện tử, email"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-019-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{友達|ともだち}に[[{年賀状|ねんがじょう}]]を{送|おく}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã gửi thiệp mừng năm mới cho bạn."
+        }
+      ],
+      "han_viet": "NIÊN HẠ TRẠNG",
+      "id": "mn-07-019",
+      "kana": "ねんがじょう",
+      "kanji": "年賀状",
+      "kanji_refs": [
+        "k-年",
+        "k-賀",
+        "k-状"
+      ],
+      "legacy_id": "lesson7_19",
+      "lesson": 7,
+      "meaning_vi": "thiệp mừng năm mới",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thiệp mừng năm mới"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-020-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "ミラーさんに[[パンチ]]を{借|か}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mượn cái đục lỗ của anh Miller."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-020",
+      "kana": "パンチ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_20",
+      "lesson": 7,
+      "meaning_vi": "cái đục lỗ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái đục lỗ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-021-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "ワンさんに[[ホッチキス]]を{貸|か}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã cho anh Wang mượn cái dập ghim."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-021",
+      "kana": "ホッチキス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_21",
+      "lesson": 7,
+      "meaning_vi": "cái dập ghim",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái dập ghim"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-022-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[セロテープ]]を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua băng dính."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-022",
+      "kana": "セロテープ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_22",
+      "lesson": 7,
+      "meaning_vi": "băng dính",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "băng dính"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-023-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "ミラーさんに[[けしゴム]]を{貸|か}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã cho anh Miller mượn cục tẩy."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-023",
+      "kana": "けしゴム",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_23",
+      "lesson": 7,
+      "meaning_vi": "cái tẩy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "cái tẩy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-024-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{鋏|はさみ}で[[{紙|かみ}]]を{切|き}ります。",
+          "source": "ai-draft",
+          "vi": "Tôi cắt giấy bằng kéo."
+        }
+      ],
+      "han_viet": "CHỈ",
+      "id": "mn-07-024",
+      "kana": "かみ",
+      "kanji": "紙",
+      "kanji_refs": [
+        "k-紙"
+      ],
+      "legacy_id": "lesson7_24",
+      "lesson": 7,
+      "meaning_vi": "giấy",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "giấy"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-025-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{彼女|かのじょ}に[[{花|はな}]]を{上|あ}げました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã tặng hoa cho bạn gái."
+        }
+      ],
+      "han_viet": "HOA",
+      "id": "mn-07-025",
+      "kana": "はな",
+      "kanji": "花",
+      "kanji_refs": [
+        "k-花"
+      ],
+      "legacy_id": "lesson7_25",
+      "lesson": 7,
+      "meaning_vi": "hoa",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hoa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-026-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{父|ちち}に[[シャツ]]を{上|あ}げました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã tặng áo sơ mi cho bố."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-026",
+      "kana": "シャツ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_26",
+      "lesson": 7,
+      "meaning_vi": "áo sơ mi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "áo sơ mi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-027-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{友達|ともだち}に[[プレゼント]]を{貰|もら}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã nhận quà từ bạn."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-027",
+      "kana": "プレゼント",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_27",
+      "lesson": 7,
+      "meaning_vi": "quà tặng, tặng phẩm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "quà tặng, tặng phẩm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-028-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{駅|えき}で[[{荷物|にもつ}]]を{送|おく}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã gửi hành lý ở nhà ga."
+        }
+      ],
+      "han_viet": "HÀ VẬT",
+      "id": "mn-07-028",
+      "kana": "にもつ",
+      "kanji": "荷物",
+      "kanji_refs": [
+        "k-荷",
+        "k-物"
+      ],
+      "legacy_id": "lesson7_28",
+      "lesson": 7,
+      "meaning_vi": "đồ đạc, hành lý",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "đồ đạc, hành lý"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-029-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{銀行|ぎんこう}で[[お{金|かね}]]を{借|か}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã vay tiền ở ngân hàng."
+        }
+      ],
+      "han_viet": "KIM",
+      "id": "mn-07-029",
+      "kana": "おかね",
+      "kanji": "お金",
+      "kanji_refs": [
+        "k-金"
+      ],
+      "legacy_id": "lesson7_29",
+      "lesson": 7,
+      "meaning_vi": "tiền",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tiền"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-030-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "{駅|えき}で[[{切符|きっぷ}]]を{買|か}います。",
+          "source": "ai-draft",
+          "vi": "Tôi mua vé ở nhà ga."
+        }
+      ],
+      "han_viet": "THIẾT PHÙ",
+      "id": "mn-07-030",
+      "kana": "きっぷ",
+      "kanji": "切符",
+      "kanji_refs": [
+        "k-切",
+        "k-符"
+      ],
+      "legacy_id": "lesson7_30",
+      "lesson": 7,
+      "meaning_vi": "vé",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "vé"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-031-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[クリスマス]]に{家族|かぞく}にカードを{送|おく}ります。",
+          "source": "ai-draft",
+          "vi": "Vào Giáng sinh tôi gửi thiệp cho gia đình."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-031",
+      "kana": "クリスマス",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_31",
+      "lesson": 7,
+      "meaning_vi": "Giáng sinh",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Giáng sinh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-032-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[{父|ちち}]]に{電話|でんわ}をかけました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã gọi điện cho bố."
+        }
+      ],
+      "han_viet": "PHỤ",
+      "id": "mn-07-032",
+      "kana": "ちち",
+      "kanji": "父",
+      "kanji_refs": [
+        "k-父"
+      ],
+      "legacy_id": "lesson7_32",
+      "lesson": 7,
+      "meaning_vi": "bố (dùng khi nói về bố mình)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bố (dùng khi nói về bố mình)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-033-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[{母|はは}]]に{花|はな}を{上|あ}げました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã tặng hoa cho mẹ."
+        }
+      ],
+      "han_viet": "MẪU",
+      "id": "mn-07-033",
+      "kana": "はは",
+      "kanji": "母",
+      "kanji_refs": [
+        "k-母"
+      ],
+      "legacy_id": "lesson7_33",
+      "lesson": 7,
+      "meaning_vi": "mẹ (dùng khi nói về mẹ mình)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mẹ (dùng khi nói về mẹ mình)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-034-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[お{父|とう}さん]]に{何|なに}を{貰|もら}いましたか。",
+          "source": "ai-draft",
+          "vi": "Bạn đã nhận được gì từ bố?"
+        }
+      ],
+      "han_viet": "PHỤ",
+      "id": "mn-07-034",
+      "kana": "おとうさん",
+      "kanji": "お父さん",
+      "kanji_refs": [
+        "k-父"
+      ],
+      "legacy_id": "lesson7_34",
+      "lesson": 7,
+      "meaning_vi": "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-07-035-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[お{母|かあ}さん]]に{手紙|てがみ}を{書|か}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã viết thư cho mẹ."
+        }
+      ],
+      "han_viet": "MẪU",
+      "id": "mn-07-035",
+      "kana": "おかあさん",
+      "kanji": "お母さん",
+      "kanji_refs": [
+        "k-母"
+      ],
+      "legacy_id": "lesson7_35",
+      "lesson": 7,
+      "meaning_vi": "mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-036-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[もう]]{昼|ひる}ごはんを{食|た}べましたか。",
+          "source": "ai-draft",
+          "vi": "Bạn đã ăn trưa chưa?"
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-036",
+      "kana": "もう",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_36",
+      "lesson": 7,
+      "meaning_vi": "đã, rồi",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-33-037"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "đã, rồi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-037-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "「もう{宿題|しゅくだい}をしましたか。」「いいえ、[[まだ]]です。」",
+          "source": "ai-draft",
+          "vi": "\"Bạn đã làm bài tập chưa?\" \"Chưa, vẫn chưa.\""
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-037",
+      "kana": "まだ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_37",
+      "lesson": 7,
+      "meaning_vi": "chưa",
+      "particle": null,
+      "pos": {
+        "code": "Adv",
+        "label": "Trạng từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-30-035"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "chưa"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-07-038-e1",
+          "max_lesson": 7,
+          "review": "user",
+          "ruby": "[[これから]]{銀行|ぎんこう}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Bây giờ tôi sẽ đi ngân hàng."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-07-038",
+      "kana": "これから",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson7_38",
+      "lesson": 7,
+      "meaning_vi": "từ bây giờ, sau đây",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "từ bây giờ, sau đây"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 7,
+  "schema_version": 4
+}

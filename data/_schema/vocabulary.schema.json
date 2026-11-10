@@ -1,0 +1,411 @@
+{
+  "$defs": {
+    "PartOfSpeech": {
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "description": "Mã chuẩn trong POS_LABELS (có thể ghép bằng '/', vd 'Pro/Phr')",
+          "title": "Code",
+          "type": "string"
+        },
+        "label": {
+          "description": "Nhãn tiếng Việt chuẩn, sinh từ code bằng pos_label()",
+          "title": "Label",
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "label"
+      ],
+      "title": "PartOfSpeech",
+      "type": "object"
+    },
+    "Sense": {
+      "additionalProperties": false,
+      "properties": {
+        "context": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Ngữ cảnh dùng, từ [ … ] cuối nghĩa gốc, vd 'điện thoại' trong 'gọi [điện thoại]'",
+          "title": "Context"
+        },
+        "text": {
+          "description": "Nghĩa (không kèm ngữ cảnh) — dùng cho quiz, tìm kiếm",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text",
+        "context"
+      ],
+      "title": "Sense",
+      "type": "object"
+    },
+    "VocabEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "antonyms": {
+          "default": [],
+          "description": "Từ trái nghĩa (対) — N3",
+          "items": {
+            "type": "string"
+          },
+          "title": "Antonyms",
+          "type": "array"
+        },
+        "book": {
+          "default": "minna",
+          "enum": [
+            "minna",
+            "n3"
+          ],
+          "title": "Book",
+          "type": "string"
+        },
+        "display": {
+          "description": "Giáo trình viết dạng nào → mặc định hiển thị",
+          "enum": [
+            "kanji",
+            "kana"
+          ],
+          "title": "Display",
+          "type": "string"
+        },
+        "examples": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/VocabExample"
+          },
+          "title": "Examples",
+          "type": "array"
+        },
+        "han_viet": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Âm Hán-Việt viết hoa, vd 'HỘI XÃ VIÊN'",
+          "title": "Han Viet"
+        },
+        "id": {
+          "description": "mn-LL-NNN (Minna) | n3-NNN (N3) — khóa localStorage, KHÔNG được đổi",
+          "title": "Id",
+          "type": "string"
+        },
+        "kana": {
+          "description": "Cách viết kana như giáo trình (có thể kèm ～)",
+          "title": "Kana",
+          "type": "string"
+        },
+        "kanji": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Dạng kanji; null nếu từ viết bằng kana",
+          "title": "Kanji"
+        },
+        "kanji_refs": {
+          "description": "ID kanji (k-字) theo thứ tự xuất hiện, không trùng",
+          "items": {
+            "type": "string"
+          },
+          "title": "Kanji Refs",
+          "type": "array"
+        },
+        "legacy_id": {
+          "description": "ID gốc trong nguồn (Minna: lessonL_N · N3: n3cb-NNN)",
+          "title": "Legacy Id",
+          "type": "string"
+        },
+        "lesson": {
+          "maximum": 50,
+          "minimum": 1,
+          "title": "Lesson",
+          "type": "integer"
+        },
+        "meaning_vi": {
+          "description": "Nghĩa hiển thị đầy đủ (giữ [ngữ cảnh]); chỗ trống viết '～'",
+          "title": "Meaning Vi",
+          "type": "string"
+        },
+        "particle": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Trợ từ đi kèm (が, を, が/を…) — N3",
+          "title": "Particle"
+        },
+        "pos": {
+          "$ref": "#/$defs/PartOfSpeech"
+        },
+        "provenance": {
+          "$ref": "#/$defs/VocabProvenance"
+        },
+        "related": {
+          "default": [],
+          "description": "Từ/cụm liên quan (高齢化社会…) — N3",
+          "items": {
+            "type": "string"
+          },
+          "title": "Related",
+          "type": "array"
+        },
+        "review": {
+          "enum": [
+            "auto",
+            "ai",
+            "user"
+          ],
+          "title": "Review",
+          "type": "string"
+        },
+        "same_word": {
+          "description": "ID các mục cùng kana + kanji ở bài khác (thường là nghĩa/cách dùng mới) — liên kết 2 chiều",
+          "items": {
+            "type": "string"
+          },
+          "title": "Same Word",
+          "type": "array"
+        },
+        "senses": {
+          "description": "meaning_vi tách theo ';' — mỗi nghĩa tách phần ngữ cảnh cuối",
+          "items": {
+            "$ref": "#/$defs/Sense"
+          },
+          "title": "Senses",
+          "type": "array"
+        },
+        "transitivity": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "(自) tự động từ / (他) tha động từ — N3",
+          "title": "Transitivity"
+        },
+        "variants": {
+          "default": [],
+          "description": "Cách viết khác: 降りる/下りる — N3",
+          "items": {
+            "type": "string"
+          },
+          "title": "Variants",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "legacy_id",
+        "lesson",
+        "kana",
+        "kanji",
+        "display",
+        "han_viet",
+        "meaning_vi",
+        "senses",
+        "pos",
+        "kanji_refs",
+        "same_word",
+        "provenance",
+        "review"
+      ],
+      "title": "VocabEntry",
+      "type": "object"
+    },
+    "VocabExample": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "mn-LL-NNN-eK",
+          "title": "Id",
+          "type": "string"
+        },
+        "max_lesson": {
+          "description": "Câu chỉ dùng từ vựng từ bài 1 đến bài này",
+          "maximum": 50,
+          "minimum": 1,
+          "title": "Max Lesson",
+          "type": "integer"
+        },
+        "review": {
+          "enum": [
+            "auto",
+            "ai",
+            "user"
+          ],
+          "title": "Review",
+          "type": "string"
+        },
+        "ruby": {
+          "description": "Câu tiếng Nhật, cú pháp {漢字|かな} và [[từ đang học]]",
+          "title": "Ruby",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "ai-draft",
+            "tatoeba",
+            "user"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "vi": {
+          "description": "Bản dịch tiếng Việt",
+          "title": "Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "ruby",
+        "vi",
+        "max_lesson",
+        "source",
+        "review"
+      ],
+      "title": "VocabExample",
+      "type": "object"
+    },
+    "VocabProvenance": {
+      "additionalProperties": false,
+      "properties": {
+        "han_viet": {
+          "anyOf": [
+            {
+              "enum": [
+                "source",
+                "jmdict",
+                "derived",
+                "unihan",
+                "mixed",
+                "ai-draft",
+                "user",
+                "none"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Han Viet"
+        },
+        "kanji": {
+          "anyOf": [
+            {
+              "enum": [
+                "source",
+                "jmdict",
+                "derived",
+                "unihan",
+                "mixed",
+                "ai-draft",
+                "user",
+                "none"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Kanji"
+        },
+        "meaning": {
+          "description": "Nguồn của meaning_vi: source = như dữ liệu gốc; ai-draft / user = đã sửa",
+          "enum": [
+            "source",
+            "ai-draft",
+            "user"
+          ],
+          "title": "Meaning",
+          "type": "string"
+        },
+        "pos": {
+          "description": "source = như dữ liệu gốc; jmdict = sửa theo JMdict; ai-draft = AI quyết định; user = người duyệt",
+          "enum": [
+            "source",
+            "jmdict",
+            "ai-draft",
+            "user"
+          ],
+          "title": "Pos",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kanji",
+        "han_viet",
+        "pos",
+        "meaning"
+      ],
+      "title": "VocabProvenance",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "book": {
+      "default": "minna",
+      "enum": [
+        "minna",
+        "n3"
+      ],
+      "title": "Book",
+      "type": "string"
+    },
+    "entries": {
+      "items": {
+        "$ref": "#/$defs/VocabEntry"
+      },
+      "title": "Entries",
+      "type": "array"
+    },
+    "lesson": {
+      "maximum": 50,
+      "minimum": 1,
+      "title": "Lesson",
+      "type": "integer"
+    },
+    "schema_version": {
+      "default": 4,
+      "title": "Schema Version",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "lesson",
+    "entries"
+  ],
+  "title": "VocabLesson",
+  "type": "object"
+}

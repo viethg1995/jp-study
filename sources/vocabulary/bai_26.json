@@ -1,0 +1,272 @@
+[
+  {
+    "id": "lesson26_1",
+    "jp": "みます",
+    "kanji": "見ます, 診ます",
+    "kanji_vn": "KIẾN, CHẨN",
+    "vn": "xem, khám bệnh",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson26_2",
+    "jp": "さがします",
+    "kanji": "探します,捜します",
+    "kanji_vn": "THÁM、SƯU",
+    "vn": "tìm, tìm kiếm",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson26_3",
+    "jp": "おくれます",
+    "kanji": "遅れます",
+    "kanji_vn": "TRÌTHỜI GIAN",
+    "vn": "chậm, muộn [giờ]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson26_4",
+    "jp": "まにあいます",
+    "kanji": "間に合います",
+    "kanji_vn": "GIAN HỢPTHỜI GIAN",
+    "vn": "kịp [giờ]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson26_5",
+    "jp": "やります",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "làm",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson26_6",
+    "jp": "ひろいます",
+    "kanji": "拾います",
+    "kanji_vn": "THẬP",
+    "vn": "nhặt, lượm",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson26_7",
+    "jp": "れんらくします",
+    "kanji": "連絡します",
+    "kanji_vn": "LIÊN LẠC",
+    "vn": "liên lạc",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson26_8",
+    "jp": "きぶんがいい",
+    "kanji": "気分がいい",
+    "kanji_vn": "KHÍ PHÂN",
+    "vn": "cảm thấy tốt, cảm thấy khỏe",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson26_9",
+    "jp": "きぶんがわるい",
+    "kanji": "気分が悪い",
+    "kanji_vn": "KHÍ PHÂN ÁC",
+    "vn": "cảm thấy không tốt, cảm thấy mệt",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson26_10",
+    "jp": "うんどうかい",
+    "kanji": "運動会",
+    "kanji_vn": "VẬN ĐỘNG HỘI",
+    "vn": "hội thi thể thao",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson26_11",
+    "jp": "ぼんおどり",
+    "kanji": "盆踊り",
+    "kanji_vn": "BỒN DŨNG",
+    "vn": "múa Bon",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_12",
+    "jp": "フリーマーケット",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chợ trời, chợ đồ cũ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson26_13",
+    "jp": "ばしょ",
+    "kanji": "場所",
+    "kanji_vn": "TRƯỜNG SỞ",
+    "vn": "địa điểm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_14",
+    "jp": "ボランティア",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tình nguyện viên",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson26_15",
+    "jp": "さいふ",
+    "kanji": "財布",
+    "kanji_vn": "TÀI BỐ",
+    "vn": "cái ví",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_16",
+    "jp": "ごみ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "rác",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_17",
+    "jp": "こっかいぎじどう",
+    "kanji": "国会議事堂",
+    "kanji_vn": "QUỐC HỘINGHỊ SỰ ĐƯỜNG",
+    "vn": "tòa nhà quốc hội",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_18",
+    "jp": "へいじつ",
+    "kanji": "平日",
+    "kanji_vn": "BÌNH NHẬT",
+    "vn": "ngày thường",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_19",
+    "jp": "～べん",
+    "kanji": "～弁",
+    "kanji_vn": "BIỆN",
+    "vn": "tiếng ~, giọng ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson26_20",
+    "jp": "こんど",
+    "kanji": "今度",
+    "kanji_vn": "KIM ĐỘ",
+    "vn": "lần tới",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_21",
+    "jp": "ずいぶん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "khá, tương đối",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_22",
+    "jp": "ちょくせつ",
+    "kanji": "直接",
+    "kanji_vn": "TRỰC TIẾP",
+    "vn": "trực tiếp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson26_23",
+    "jp": "いつでも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "lúc nào cũng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson26_24",
+    "jp": "どこでも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ở đâu cũng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson26_25",
+    "jp": "だれでも",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ai cũng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson26_26",
+    "jp": "なんでも",
+    "kanji": "何でも",
+    "kanji_vn": "HÀ",
+    "vn": "cái gì cũng",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson26_27",
+    "jp": "こんな～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ như thế này",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson26_28",
+    "jp": "そんな～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ như thế đó (gần người nghe)",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson26_29",
+    "jp": "あんな～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "~ như thế kia (xa cả người nói và người nghe)",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson26_30",
+    "jp": "エドヤストア",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tên một cửa hàng (giả định)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  }
+]

@@ -1,0 +1,549 @@
+{
+  "mn-39-001": {
+    "examples": [
+      {
+        "id": "mn-39-001-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{先生|せんせい}の{質問|しつもん}に[[{答|こた}えて]]ください。",
+        "source": "ai-draft",
+        "vi": "Hãy trả lời câu hỏi của giáo viên."
+      }
+    ]
+  },
+  "mn-39-002": {
+    "examples": [
+      {
+        "id": "mn-39-002-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{地震|じしん}でビルが[[{倒|たお}れました]]。",
+        "source": "ai-draft",
+        "vi": "Tòa nhà đổ vì động đất."
+      }
+    ]
+  },
+  "mn-39-003": {
+    "examples": [
+      {
+        "id": "mn-39-003-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "この{道|みち}は{車|くるま}が{沢山|たくさん}[[{通|とお}ります]]。",
+        "source": "ai-draft",
+        "vi": "Con đường này có nhiều xe qua lại."
+      }
+    ]
+  },
+  "mn-39-004": {
+    "examples": [
+      {
+        "id": "mn-39-004-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{事故|じこ}で{人|ひと}が[[{死|し}にました]]。",
+        "source": "ai-draft",
+        "vi": "Đã có người chết vì tai nạn."
+      }
+    ]
+  },
+  "mn-39-005": {
+    "examples": [
+      {
+        "id": "mn-39-005-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "ニュースを{聞|き}いて、[[びっくりしました]]。",
+        "source": "ai-draft",
+        "vi": "Nghe tin tức tôi giật mình."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "吃驚 là ateji",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-006": {
+    "examples": [
+      {
+        "id": "mn-39-006-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{試験|しけん}に{落|お}ちて、[[がっかりしました]]。",
+        "source": "ai-draft",
+        "vi": "Thi trượt, tôi thất vọng."
+      }
+    ]
+  },
+  "mn-39-007": {
+    "examples": [
+      {
+        "id": "mn-39-007-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{家族|かぞく}の{声|こえ}を{聞|き}いて、[[{安心|あんしん}しました]]。",
+        "source": "ai-draft",
+        "vi": "Nghe giọng gia đình tôi yên tâm."
+      }
+    ]
+  },
+  "mn-39-008": {
+    "examples": [
+      {
+        "id": "mn-39-008-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{兄|あに}と[[{喧嘩|けんか}して]]、{母|はは}に{叱|しか}られました。",
+        "source": "ai-draft",
+        "vi": "Cãi nhau với anh trai, tôi bị mẹ mắng."
+      }
+    ],
+    "han_viet": "HUYÊN HOA",
+    "han_viet_source": "user",
+    "kanji": "喧嘩します",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-009": {
+    "examples": [
+      {
+        "id": "mn-39-009-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{友達|ともだち}が[[{離婚|りこん}しました]]。",
+        "source": "ai-draft",
+        "vi": "Bạn tôi đã ly hôn."
+      }
+    ]
+  },
+  "mn-39-010": {
+    "examples": [
+      {
+        "id": "mn-39-010-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{毎日|まいにち}ケーキを{食|た}べて、[[{太|ふと}りました]]。",
+        "source": "ai-draft",
+        "vi": "Ngày nào cũng ăn bánh ngọt nên tôi béo lên."
+      }
+    ]
+  },
+  "mn-39-011": {
+    "examples": [
+      {
+        "id": "mn-39-011-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{病気|びょうき}で[[{痩|や}せました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi gầy đi vì bệnh."
+      }
+    ],
+    "han_viet": "SẤU",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-012": {
+    "examples": [
+      {
+        "id": "mn-39-012-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "この{問題|もんだい}は[[{複雑|ふくざつ}]]で、{分|わ}かりません。",
+        "source": "ai-draft",
+        "vi": "Câu hỏi này phức tạp nên tôi không hiểu."
+      }
+    ]
+  },
+  "mn-39-013": {
+    "examples": [
+      {
+        "id": "mn-39-013-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "この{机|つくえ}は[[{邪魔|じゃま}]]です。",
+        "source": "ai-draft",
+        "vi": "Cái bàn này chiếm chỗ."
+      }
+    ]
+  },
+  "mn-39-014": {
+    "examples": [
+      {
+        "id": "mn-39-014-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "このパンは[[{硬|かた}くて]]、{食|た}べられません。",
+        "source": "ai-draft",
+        "vi": "Bánh mì này cứng quá, không ăn được."
+      }
+    ]
+  },
+  "mn-39-015": {
+    "examples": [
+      {
+        "id": "mn-39-015-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "この{肉|にく}は[[{軟|やわ}らかくて]]、{美味|おい}しいです。",
+        "source": "ai-draft",
+        "vi": "Thịt này mềm và ngon."
+      }
+    ]
+  },
+  "mn-39-016": {
+    "examples": [
+      {
+        "id": "mn-39-016-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{部屋|へや}が[[{汚|きたな}い]]ので、{掃除|そうじ}します。",
+        "source": "ai-draft",
+        "vi": "Vì phòng bẩn nên tôi dọn dẹp."
+      }
+    ]
+  },
+  "mn-39-017": {
+    "examples": [
+      {
+        "id": "mn-39-017-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{合格|ごうかく}の{知|し}らせを{聞|き}いて、[[{嬉|うれ}しかった]]です。",
+        "source": "ai-draft",
+        "vi": "Nghe tin đỗ tôi rất vui."
+      }
+    ],
+    "han_viet": "HI",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-018": {
+    "examples": [
+      {
+        "id": "mn-39-018-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{友達|ともだち}が{国|くに}へ{帰|かえ}って、[[{悲|かな}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Bạn về nước nên tôi buồn."
+      }
+    ]
+  },
+  "mn-39-019": {
+    "examples": [
+      {
+        "id": "mn-39-019-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{皆|みんな}の{前|まえ}で{間違|まちが}えて、[[{恥|は}ずかしかった]]です。",
+        "source": "ai-draft",
+        "vi": "Bị nhầm trước mặt mọi người, tôi xấu hổ."
+      }
+    ]
+  },
+  "mn-39-020": {
+    "examples": [
+      {
+        "id": "mn-39-020-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{首相|しゅしょう}]]がアメリカへ{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Thủ tướng đã sang Mỹ."
+      }
+    ]
+  },
+  "mn-39-021": {
+    "examples": [
+      {
+        "id": "mn-39-021-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{地震|じしん}]]で{電車|でんしゃ}が{止|と}まりました。",
+        "source": "ai-draft",
+        "vi": "Tàu điện dừng vì động đất."
+      }
+    ]
+  },
+  "mn-39-022": {
+    "examples": [
+      {
+        "id": "mn-39-022-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{津波|つなみ}]]で{家|いえ}が{壊|こわ}れました。",
+        "source": "ai-draft",
+        "vi": "Nhà bị phá hủy vì sóng thần."
+      }
+    ]
+  },
+  "mn-39-023": {
+    "examples": [
+      {
+        "id": "mn-39-023-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{台風|たいふう}]]で{学校|がっこう}が{休|やす}みになりました。",
+        "source": "ai-draft",
+        "vi": "Trường được nghỉ vì bão."
+      }
+    ]
+  },
+  "mn-39-024": {
+    "examples": [
+      {
+        "id": "mn-39-024-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{雷|かみなり}]]の{音|おと}にびっくりしました。",
+        "source": "ai-draft",
+        "vi": "Tôi giật mình vì tiếng sấm."
+      }
+    ]
+  },
+  "mn-39-025": {
+    "examples": [
+      {
+        "id": "mn-39-025-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{火事|かじ}]]で{家|いえ}が{焼|や}けました。",
+        "source": "ai-draft",
+        "vi": "Nhà bị cháy vì hỏa hoạn."
+      }
+    ]
+  },
+  "mn-39-026": {
+    "examples": [
+      {
+        "id": "mn-39-026-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{事故|じこ}]]で{電車|でんしゃ}が{遅|おく}れました。",
+        "source": "ai-draft",
+        "vi": "Tàu điện bị trễ vì tai nạn."
+      }
+    ]
+  },
+  "mn-39-027": {
+    "examples": [
+      {
+        "id": "mn-39-027-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{友達|ともだち}と[[ハイキング]]に{行|い}って、{疲|つか}れました。",
+        "source": "ai-draft",
+        "vi": "Đi leo núi dã ngoại với bạn nên tôi mệt."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ハイキング: PN→N (JMdict: danh từ thông dụng (hiking))",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-028": {
+    "examples": [
+      {
+        "id": "mn-39-028-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "お[[{見合|みあ}い]]で{結婚|けっこん}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã kết hôn qua mai mối."
+      }
+    ]
+  },
+  "mn-39-029": {
+    "examples": [
+      {
+        "id": "mn-39-029-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "この{機械|きかい}の[[{操作|そうさ}]]は{簡単|かんたん}です。",
+        "source": "ai-draft",
+        "vi": "Thao tác của chiếc máy này đơn giản."
+      }
+    ]
+  },
+  "mn-39-030": {
+    "examples": [
+      {
+        "id": "mn-39-030-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{会場|かいじょう}]]には{人|ひと}が{大勢|おおぜい}いました。",
+        "source": "ai-draft",
+        "vi": "Ở hội trường có rất nhiều người."
+      }
+    ]
+  },
+  "mn-39-031": {
+    "examples": [
+      {
+        "id": "mn-39-031-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "タクシー[[{代|だい}]]は{会社|かいしゃ}が{払|はら}います。",
+        "source": "ai-draft",
+        "vi": "Tiền taxi do công ty trả."
+      }
+    ]
+  },
+  "mn-39-032": {
+    "examples": [
+      {
+        "id": "mn-39-032-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "パン[[{屋|や}]]でパンを{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi mua bánh mì ở tiệm bánh mì."
+      }
+    ]
+  },
+  "mn-39-033": {
+    "examples": [
+      {
+        "id": "mn-39-033-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[フロント]]に{鍵|かぎ}を{預|あず}けてください。",
+        "source": "ai-draft",
+        "vi": "Hãy gửi chìa khóa ở quầy lễ tân."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "フロント: PN→N (JMdict: danh từ thông dụng (front (aspect, weather, war-front, etc.)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-034": {
+    "examples": [
+      {
+        "id": "mn-39-034-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "３０５[[{号室|ごうしつ}]]はどこですか。",
+        "source": "ai-draft",
+        "vi": "Phòng số 305 ở đâu?"
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～号室 phòng số",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-035": {
+    "examples": [
+      {
+        "id": "mn-39-035-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[タオル]]がないので、{困|こま}っています。",
+        "source": "ai-draft",
+        "vi": "Vì không có khăn tắm nên tôi đang gặp khó khăn."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "タオル: PN→N (JMdict: danh từ thông dụng (towel))",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-036": {
+    "examples": [
+      {
+        "id": "mn-39-036-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "[[{石鹸|せっけん}]]で{手|て}を{洗|あら}ってください。",
+        "source": "ai-draft",
+        "vi": "Hãy rửa tay bằng xà phòng."
+      }
+    ],
+    "han_viet": "THẠCH KIỀM",
+    "han_viet_source": "user",
+    "kanji": "石鹸",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-037": {
+    "examples": [
+      {
+        "id": "mn-39-037-e1",
+        "max_lesson": 39,
+        "review": "user",
+        "ruby": "{駅|えき}に{人|ひと}が[[{大勢|おおぜい}]]います。",
+        "source": "ai-draft",
+        "vi": "Ở nhà ga có rất nhiều người."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "おおぜい (大勢, nhiều người) là danh từ / trạng từ, không phải tính từ い — 大勢 không tận cùng い",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-038": {
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "おつかれさまでした。",
+    "kanji": "お疲れ様でした。",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "status": "reviewed"
+    }
+  },
+  "mn-39-039": {
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "うかがいます。",
+    "kanji": "伺います。",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "status": "reviewed"
+    }
+  }
+}

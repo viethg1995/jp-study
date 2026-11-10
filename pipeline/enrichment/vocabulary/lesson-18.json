@@ -1,0 +1,290 @@
+{
+  "mn-18-001": {
+    "examples": [
+      {
+        "id": "mn-18-001-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{私|わたし}は{日本語|にほんご}を{話|はな}すことが[[{出来|でき}ます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể nói tiếng Nhật."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-18-002": {
+    "examples": [
+      {
+        "id": "mn-18-002-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{食事|しょくじ}の{前|まえ}に、{手|て}を[[{洗|あら}います]]。",
+        "source": "ai-draft",
+        "vi": "Trước khi ăn, tôi rửa tay."
+      }
+    ]
+  },
+  "mn-18-003": {
+    "examples": [
+      {
+        "id": "mn-18-003-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{私|わたし}はピアノを[[{弾|ひ}く]]ことができます。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể chơi piano."
+      }
+    ]
+  },
+  "mn-18-004": {
+    "examples": [
+      {
+        "id": "mn-18-004-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{私|わたし}の{趣味|しゅみ}は{歌|うた}を[[{歌|うた}う]]ことです。",
+        "source": "ai-draft",
+        "vi": "Sở thích của tôi là hát."
+      }
+    ]
+  },
+  "mn-18-005": {
+    "examples": [
+      {
+        "id": "mn-18-005-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{私|わたし}の{趣味|しゅみ}は{切手|きって}を[[{集|あつ}める]]ことです。",
+        "source": "ai-draft",
+        "vi": "Sở thích của tôi là sưu tầm tem."
+      }
+    ]
+  },
+  "mn-18-006": {
+    "examples": [
+      {
+        "id": "mn-18-006-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "ここにごみを[[{捨|す}てないで]]ください。",
+        "source": "ai-draft",
+        "vi": "Đừng vứt rác ở đây."
+      }
+    ]
+  },
+  "mn-18-007": {
+    "examples": [
+      {
+        "id": "mn-18-007-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{銀行|ぎんこう}でドルを{円|えん}に[[{換|か}えます]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đổi đô la sang yên ở ngân hàng."
+      }
+    ]
+  },
+  "mn-18-008": {
+    "examples": [
+      {
+        "id": "mn-18-008-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{車|くるま}を[[{運転|うんてん}する]]ことができますか。",
+        "source": "ai-draft",
+        "vi": "Bạn có thể lái ô tô không?"
+      }
+    ]
+  },
+  "mn-18-009": {
+    "examples": [
+      {
+        "id": "mn-18-009-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{旅行|りょこう}の{前|まえ}に、ホテルを[[{予約|よやく}します]]。",
+        "source": "ai-draft",
+        "vi": "Trước chuyến du lịch, tôi đặt khách sạn."
+      }
+    ]
+  },
+  "mn-18-010": {
+    "examples": [
+      {
+        "id": "mn-18-010-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{私|わたし}は[[ピアノ]]を{弾|ひ}くことができます。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể chơi piano."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ピアノ: PN→N (JMdict: danh từ thông dụng (piano (instrument)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-18-011": {
+    "examples": [
+      {
+        "id": "mn-18-011-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{毎朝|まいあさ}５００[[メートル]]{泳|およ}ぎます。",
+        "source": "ai-draft",
+        "vi": "Mỗi sáng tôi bơi 500 mét."
+      }
+    ],
+    "pos_code": "Cnt",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "～メートル mét",
+      "status": "reviewed"
+    }
+  },
+  "mn-18-012": {
+    "examples": [
+      {
+        "id": "mn-18-012-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "[[{現金|げんきん}]]で{払|はら}うことができますか。",
+        "source": "ai-draft",
+        "vi": "Có thể trả bằng tiền mặt không?"
+      }
+    ]
+  },
+  "mn-18-013": {
+    "examples": [
+      {
+        "id": "mn-18-013-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{私|わたし}の[[{趣味|しゅみ}]]は{写真|しゃしん}を{撮|と}ることです。",
+        "source": "ai-draft",
+        "vi": "Sở thích của tôi là chụp ảnh."
+      }
+    ]
+  },
+  "mn-18-014": {
+    "examples": [
+      {
+        "id": "mn-18-014-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{寝|ね}る{前|まえ}に、[[{日記|にっき}]]を{書|か}きます。",
+        "source": "ai-draft",
+        "vi": "Trước khi ngủ, tôi viết nhật ký."
+      }
+    ]
+  },
+  "mn-18-015": {
+    "examples": [
+      {
+        "id": "mn-18-015-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{食事|しょくじ}の{前|まえ}に、お[[{祈|いの}り]]をします。",
+        "source": "ai-draft",
+        "vi": "Trước bữa ăn, tôi cầu nguyện."
+      }
+    ]
+  },
+  "mn-18-016": {
+    "examples": [
+      {
+        "id": "mn-18-016-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "[[{課長|かちょう}]]は{今|いま}{会議|かいぎ}をしています。",
+        "source": "ai-draft",
+        "vi": "Tổ trưởng đang họp."
+      }
+    ],
+    "meaning_source": "user",
+    "meaning_vi": "trưởng phòng, tổ trưởng",
+    "review": {
+      "by": "user",
+      "meaning_by": "user",
+      "meaning_note": "課長 = section chief (trưởng phòng); giữ \"tổ trưởng\" theo bản dịch giáo trình",
+      "status": "reviewed"
+    }
+  },
+  "mn-18-017": {
+    "examples": [
+      {
+        "id": "mn-18-017-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "[[{部長|ぶちょう}]]の{趣味|しゅみ}はゴルフです。",
+        "source": "ai-draft",
+        "vi": "Sở thích của trưởng phòng là chơi golf."
+      }
+    ]
+  },
+  "mn-18-018": {
+    "examples": [
+      {
+        "id": "mn-18-018-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "[[{社長|しゃちょう}]]は{今日|きょう}{大阪|おおさか}へ{出張|しゅっちょう}します。",
+        "source": "ai-draft",
+        "vi": "Hôm nay giám đốc đi công tác Osaka."
+      }
+    ]
+  },
+  "mn-18-019": {
+    "examples": [
+      {
+        "id": "mn-18-019-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "{私|わたし}は[[{動物|どうぶつ}]]が{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích động vật."
+      }
+    ]
+  },
+  "mn-18-020": {
+    "examples": [
+      {
+        "id": "mn-18-020-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "[[{馬|うま}]]に{乗|の}ることができます。",
+        "source": "ai-draft",
+        "vi": "Tôi có thể cưỡi ngựa."
+      }
+    ]
+  },
+  "mn-18-021": {
+    "examples": [
+      {
+        "id": "mn-18-021-e1",
+        "max_lesson": 18,
+        "review": "user",
+        "ruby": "[[インターネット]]でホテルを{予約|よやく}することができます。",
+        "source": "ai-draft",
+        "vi": "Có thể đặt khách sạn qua Internet."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "インターネット: PN→N (JMdict: danh từ thông dụng (Internet))",
+      "status": "reviewed"
+    }
+  }
+}

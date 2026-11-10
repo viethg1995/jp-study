@@ -1,0 +1,327 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRƯỚC",
+    "han_viet_source": "source",
+    "id": "mn-22-001",
+    "kanji": "着ます",
+    "kanji_refs": [
+      "k-着"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson22_1",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "NGOA",
+    "han_viet_source": null,
+    "id": "mn-22-002",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to sweep; to brush",
+        "kanji": "掃きます"
+      },
+      {
+        "gloss": "to put on (lower-body clothing, e.g. pants, skirt, footwear); to wear",
+        "kanji": "履きます"
+      },
+      {
+        "gloss": "to vomit; to throw up",
+        "kanji": "吐きます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_2",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "BỊ",
+    "han_viet_original": "MẠO TỬ",
+    "han_viet_source": "unihan",
+    "id": "mn-22-003",
+    "kanji": "被ります",
+    "kanji_gloss": "to put on (one's head); to wear",
+    "kanji_refs": [
+      "k-被"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson22_3",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "NHÃN KÍNH",
+    "han_viet_source": null,
+    "id": "mn-22-004",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to hang up (e.g. a coat, a picture on the wall); to let hang",
+        "kanji": "掛けます"
+      },
+      {
+        "gloss": "to run; to dash",
+        "kanji": "駆けます"
+      },
+      {
+        "gloss": "to chip; to be chipped",
+        "kanji": "欠けます"
+      },
+      {
+        "gloss": "to wager; to bet",
+        "kanji": "賭けます"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_4",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "為": []
+    },
+    "han_viet_source": null,
+    "id": "mn-22-005",
+    "kanji": "為します",
+    "kanji_gloss": "to do; to carry out",
+    "kanji_refs": [
+      "k-為"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson22_5",
+    "lesson": 22
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "SINH",
+    "han_viet_source": "source",
+    "id": "mn-22-006",
+    "kanji": "生まれます",
+    "kanji_refs": [
+      "k-生"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson22_6",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "TƯ",
+    "han_viet_source": "derived",
+    "id": "mn-22-007",
+    "kanji": "私たち",
+    "kanji_gloss": "we; us",
+    "kanji_refs": [
+      "k-私"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson22_7",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-22-008",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_8",
+    "lesson": 22,
+    "pos_reason": "JMdict: danh từ thông dụng (coat)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-22-009",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_9",
+    "lesson": 22,
+    "pos_reason": "JMdict: danh từ thông dụng (sweater; jumper)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-22-010",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_10",
+    "lesson": 22,
+    "pos_reason": "JMdict: danh từ thông dụng (suit (clothing))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MẠO TỬ",
+    "han_viet_source": "source",
+    "id": "mn-22-011",
+    "kanji": "帽子",
+    "kanji_refs": [
+      "k-帽",
+      "k-子"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson22_11",
+    "lesson": 22
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHÃN KÍNH",
+    "han_viet_source": "source",
+    "id": "mn-22-012",
+    "kanji": "眼鏡",
+    "kanji_refs": [
+      "k-眼",
+      "k-鏡"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson22_12",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-22-013",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_13",
+    "lesson": 22,
+    "pos_reason": "JMdict: danh từ thông dụng (cake)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BIỆN ĐƯƠNG",
+    "han_viet_source": "source",
+    "id": "mn-22-014",
+    "kanji": "お弁当",
+    "kanji_refs": [
+      "k-弁",
+      "k-当"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson22_14",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-22-015",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_15",
+    "lesson": 22,
+    "pos_reason": "JMdict: danh từ thông dụng (robot)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-22-016",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson22_16",
+    "lesson": 22,
+    "pos_reason": "JMdict: danh từ thông dụng (humor; humour)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐÔ HỢP",
+    "han_viet_source": "source",
+    "id": "mn-22-017",
+    "kanji": "都合",
+    "kanji_refs": [
+      "k-都",
+      "k-合"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson22_17",
+    "lesson": 22
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "LƯƠNG",
+    "han_viet_source": "unihan",
+    "id": "mn-22-018",
+    "kanji": "良く",
+    "kanji_gloss": "nicely; properly",
+    "kanji_refs": [
+      "k-良"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson22_18",
+    "lesson": 22
+  }
+]

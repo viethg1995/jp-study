@@ -1,0 +1,362 @@
+[
+  {
+    "id": "lesson42_1",
+    "jp": "つつみます",
+    "kanji": "包みます",
+    "kanji_vn": "BAO",
+    "vn": "bọc, gói",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson42_2",
+    "jp": "わかします",
+    "kanji": "沸かします",
+    "kanji_vn": "PHẮT/PHI",
+    "vn": "đun sôi",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson42_3",
+    "jp": "まぜます",
+    "kanji": "混ぜます",
+    "kanji_vn": "HỖN",
+    "vn": "trộn, khuấy",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson42_4",
+    "jp": "けいさんします",
+    "kanji": "計算します",
+    "kanji_vn": "KẾ TOÁN",
+    "vn": "tính toán, làm tính",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson42_5",
+    "jp": "ならびます",
+    "kanji": "並びます",
+    "kanji_vn": "TỊNH",
+    "vn": "xếp hàng",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson42_6",
+    "jp": "じょうぶ",
+    "kanji": "丈夫",
+    "kanji_vn": "TRƯỢNG PHU",
+    "vn": "chắc, bền",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson42_7",
+    "jp": "アパート",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phòng trọ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson42_8",
+    "jp": "べんごし",
+    "kanji": "弁護士",
+    "kanji_vn": "BIỆN HỘ SĨ",
+    "vn": "luật sư",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_9",
+    "jp": "おんがくか",
+    "kanji": "音楽家",
+    "kanji_vn": "ÂM NHẠC GIA",
+    "vn": "nhạc sĩ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_10",
+    "jp": "こどもたち",
+    "kanji": "子どもたち",
+    "kanji_vn": "TỬ",
+    "vn": "trẻ em, trẻ con, bọn trẻ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_11",
+    "jp": "しぜん",
+    "kanji": "自然",
+    "kanji_vn": "TỰ NHIÊN",
+    "vn": "tự nhiên, thiên nhiên",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_12",
+    "jp": "きょういく",
+    "kanji": "教育",
+    "kanji_vn": "GIÁO DỤC",
+    "vn": "giáo dục, việc học hành",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_13",
+    "jp": "ぶんか",
+    "kanji": "文化",
+    "kanji_vn": "VĂN HÓA",
+    "vn": "văn hóa",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_14",
+    "jp": "しゃかい",
+    "kanji": "社会",
+    "kanji_vn": "XÃ HỘI",
+    "vn": "xã hội",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson42_15",
+    "jp": "せいじ",
+    "kanji": "政治",
+    "kanji_vn": "CHÍNH TRỊ",
+    "vn": "chính trị",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_16",
+    "jp": "ほうりつ",
+    "kanji": "法律",
+    "kanji_vn": "PHÁP LUẬT",
+    "vn": "pháp luật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_17",
+    "jp": "せんそう",
+    "kanji": "戦争",
+    "kanji_vn": "CHIẾN TRANH",
+    "vn": "chiến tranh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_18",
+    "jp": "へいわ",
+    "kanji": "平和",
+    "kanji_vn": "BÌNH HÒA",
+    "vn": "hòa bình",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_19",
+    "jp": "もくてき",
+    "kanji": "目的",
+    "kanji_vn": "MỤC ĐÍCH",
+    "vn": "mục đích",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_20",
+    "jp": "ろんぶん",
+    "kanji": "論文",
+    "kanji_vn": "LUẬN VĂN",
+    "vn": "luận văn, bài báo học thuật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_21",
+    "jp": "たのしみ",
+    "kanji": "楽しみ",
+    "kanji_vn": "LẠC",
+    "vn": "niềm vui",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_22",
+    "jp": "ミキサー",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "máy trộn (mixer)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson42_23",
+    "jp": "やかん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái ấm nước",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_24",
+    "jp": "ふた",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "cái nắp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_25",
+    "jp": "せんぬき",
+    "kanji": "栓抜き",
+    "kanji_vn": "XUYÊN BẠT",
+    "vn": "cái mở nắp chai",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_26",
+    "jp": "かんきり",
+    "kanji": "缶切り",
+    "kanji_vn": "PHẪU THIẾT",
+    "vn": "cái mở đồ hộp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_27",
+    "jp": "かんづめ",
+    "kanji": "缶詰",
+    "kanji_vn": "PHẪU CẬT",
+    "vn": "đồ hộp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_28",
+    "jp": "のしぶくろ",
+    "kanji": "のし袋",
+    "kanji_vn": "ĐẠI",
+    "vn": "phong bì bỏ tiền mừng, bao lì xì",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_29",
+    "jp": "ふろしき",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tấm vải để gói đồ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_30",
+    "jp": "そろばん",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bàn tính",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_31",
+    "jp": "たいおんけい",
+    "kanji": "体温計",
+    "kanji_vn": "THỂ ÔN KẾ",
+    "vn": "máy đo nhiệt độ cơ thể",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_32",
+    "jp": "ざいりょう",
+    "kanji": "材料",
+    "kanji_vn": "TÀI LIỆU",
+    "vn": "nguyên liệu",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_33",
+    "jp": "ある～",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "có ~, một ~",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  },
+  {
+    "id": "lesson42_34",
+    "jp": "いっしょうけんめい",
+    "kanji": "一生懸命",
+    "kanji_vn": "NHẤT SINH HUYỀN MỆNH",
+    "vn": "hết sức, chăm chỉ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_35",
+    "jp": "なぜ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tại sao",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_36",
+    "jp": "どのくらい",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "bao nhiêu",
+    "type": "Nghi vấn từ",
+    "type_code": "QW"
+  },
+  {
+    "id": "lesson42_37",
+    "jp": "こくれん",
+    "kanji": "国連",
+    "kanji_vn": "QUỐC LIÊN",
+    "vn": "Liên hợp Quốc",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_38",
+    "jp": "エリーゼのために",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Dành cho Elise (tên bản nhạc)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson42_39",
+    "jp": "ベートーベン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Beethoven (1770-1827), nhà soạn nhạc người Đức",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson42_40",
+    "jp": "こどもニュース",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Bản tin thiếu nhi (chương trình tin tức giả định)",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "mn-50-001": {
+    "examples": [
+      {
+        "id": "mn-50-001-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{明日|あした}そちらへ[[{参|まい}ります]]。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi sẽ đến chỗ ngài."
+      }
+    ]
+  },
+  "mn-50-002": {
+    "examples": [
+      {
+        "id": "mn-50-002-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{父|ちち}は{今|いま}{家|いえ}に[[{居|お}ります]]。",
+        "source": "ai-draft",
+        "vi": "Bố tôi hiện đang ở nhà."
+      }
+    ],
+    "han_viet": "CƯ",
+    "han_viet_source": "user",
+    "kanji": "居ります",
+    "kanji_source": "user",
+    "review": {
+      "by": "user",
+      "note": "khiêm nhường ngữ của います",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-003": {
+    "examples": [
+      {
+        "id": "mn-50-003-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "では、[[いただきます]]。",
+        "source": "ai-draft",
+        "vi": "Vậy, tôi xin phép dùng bữa."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "user",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "いただきます (ăn, uống, nhận) là động từ khiêm nhường",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-004": {
+    "examples": [
+      {
+        "id": "mn-50-004-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{私|わたくし}はミラーと[[{申|もう}します]]。",
+        "source": "ai-draft",
+        "vi": "Tôi tên là Miller."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "もうします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-005": {
+    "examples": [
+      {
+        "id": "mn-50-005-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{私|わたくし}がご{案内|あんない}[[いたします]]。",
+        "source": "ai-draft",
+        "vi": "Tôi xin phép hướng dẫn ngài."
+      }
+    ],
+    "pos_code": "V1",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "いたします: V3→V1 (JMdict: dạng từ điển thuộc nhóm 1 (godan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-006": {
+    "examples": [
+      {
+        "id": "mn-50-006-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "お{手紙|てがみ}を[[{拝見|はいけん}しました]]。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đọc thư của ngài."
+      }
+    ]
+  },
+  "mn-50-007": {
+    "examples": [
+      {
+        "id": "mn-50-007-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{社長|しゃちょう}のお{名前|なまえ}は[[{存|ぞん}じて]]おります。",
+        "source": "ai-draft",
+        "vi": "Tôi biết tên của giám đốc."
+      }
+    ],
+    "pos_code": "V2",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ぞんじます: V1→V2 (JMdict: dạng từ điển thuộc nhóm 2 (ichidan))",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-008": {
+    "examples": [
+      {
+        "id": "mn-50-008-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{明日|あした}お{宅|たく}に[[{伺|うかが}います]]。",
+        "source": "ai-draft",
+        "vi": "Ngày mai tôi sẽ đến thăm nhà ngài."
+      }
+    ],
+    "han_viet": "TỨ",
+    "han_viet_source": "user",
+    "review": {
+      "by": "user",
+      "note": "伺 — gốc ghi TÝ/TỬ",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-009": {
+    "examples": [
+      {
+        "id": "mn-50-009-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{先週|せんしゅう}{社長|しゃちょう}に[[お{目|め}にかかりました]]。",
+        "source": "ai-draft",
+        "vi": "Tuần trước tôi đã được gặp giám đốc."
+      }
+    ]
+  },
+  "mn-50-010": {
+    "examples": [
+      {
+        "id": "mn-50-010-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "コーヒーを[[{入|い}れましょう]]か。",
+        "source": "ai-draft",
+        "vi": "Để tôi pha cà phê nhé?"
+      }
+    ]
+  },
+  "mn-50-011": {
+    "examples": [
+      {
+        "id": "mn-50-011-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{会議|かいぎ}の{資料|しりょう}を[[{用意|ようい}して]]おきます。",
+        "source": "ai-draft",
+        "vi": "Tôi sẽ chuẩn bị trước tài liệu họp."
+      }
+    ]
+  },
+  "mn-50-012": {
+    "examples": [
+      {
+        "id": "mn-50-012-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "[[{私|わたくし}]]は{田中|たなか}と{申|もう}します。",
+        "source": "ai-draft",
+        "vi": "Tôi tên là Tanaka."
+      }
+    ]
+  },
+  "mn-50-013": {
+    "examples": [
+      {
+        "id": "mn-50-013-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{京都|きょうと}は[[ガイド]]が{案内|あんない}いたします。",
+        "source": "ai-draft",
+        "vi": "Ở Kyoto, hướng dẫn viên sẽ dẫn đường cho quý khách."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ガイド: PN→N (JMdict: danh từ thông dụng (guide; tour guide))",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-014": {
+    "examples": [
+      {
+        "id": "mn-50-014-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "[[メールアドレス]]を{教|おし}えていただけませんか。",
+        "source": "ai-draft",
+        "vi": "Ngài có thể cho tôi biết địa chỉ email được không?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "メールアドレス: PN→N (JMdict: danh từ thông dụng (email address))",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-015": {
+    "examples": [
+      {
+        "id": "mn-50-015-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "{来週|らいしゅう}の[[スケジュール]]を{拝見|はいけん}しました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã xem lịch trình tuần sau."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "スケジュール: PN→N (JMdict: danh từ thông dụng (schedule; program))",
+      "status": "reviewed"
+    }
+  },
+  "mn-50-016": {
+    "examples": [
+      {
+        "id": "mn-50-016-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "[[{再来週|さらいしゅう}]]{出張|しゅっちょう}いたします。",
+        "source": "ai-draft",
+        "vi": "Tuần sau nữa tôi sẽ đi công tác."
+      }
+    ]
+  },
+  "mn-50-017": {
+    "examples": [
+      {
+        "id": "mn-50-017-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "[[{再来月|さらいげつ}]]{国|くに}へ{帰|かえ}ります。",
+        "source": "ai-draft",
+        "vi": "Tháng sau nữa tôi về nước."
+      }
+    ]
+  },
+  "mn-50-018": {
+    "examples": [
+      {
+        "id": "mn-50-018-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "[[{再来年|さらいねん}]]{大学|だいがく}を{卒業|そつぎょう}します。",
+        "source": "ai-draft",
+        "vi": "Năm sau nữa tôi tốt nghiệp đại học."
+      }
+    ]
+  },
+  "mn-50-019": {
+    "examples": [
+      {
+        "id": "mn-50-019-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "[[{初|はじ}めに]]{社長|しゃちょう}がご{挨拶|あいさつ}いたします。",
+        "source": "ai-draft",
+        "vi": "Trước tiên giám đốc xin phát biểu."
+      }
+    ]
+  },
+  "mn-50-020": {
+    "examples": [
+      {
+        "id": "mn-50-020-e1",
+        "max_lesson": 50,
+        "review": "user",
+        "ruby": "[[{江戸東京博物館|えどとうきょうはくぶつかん}]]へ{行|い}きました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã đến bảo tàng Edo-Tokyo."
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kana": "えどとうきょうはくぶつかん",
+    "kanji": "江戸東京博物館",
+    "kanji_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "-",
+      "note": "địa danh",
+      "status": "reviewed"
+    }
+  }
+}

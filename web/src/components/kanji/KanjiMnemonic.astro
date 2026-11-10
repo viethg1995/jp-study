@@ -1,0 +1,72 @@
+---
+// Mẹo nhớ: câu chuyện gợi hình + thành phần cấu tạo (KanjiVG). Nét của mỗi thành phần tô một màu,
+// khớp màu với nhãn thành phần bên cạnh. Đây là mẹo ghi nhớ, không phải nguồn gốc chữ.
+import type { KanjiComponent, KanjiStroke } from "../../content.config";
+
+interface Props {
+  char: string;
+  story: string | null;
+  strokes: KanjiStroke[];
+  components: KanjiComponent[];
+}
+const { char, story, strokes, components } = Astro.props;
+const color = (i: number): string => `var(--color-stroke-${(i % 8) + 1})`;
+// số nét (1-based) → chỉ số thành phần
+const owner = new Map<number, number>();
+components.forEach((c, i) => c.strokes.forEach((n) => owner.set(n, i)));
+---
+
+<section class="rounded-lg border border-line bg-surface p-4 sm:p-6" aria-label={`Mẹo nhớ chữ ${char}`}>
+  <h2 class="flex flex-wrap items-baseline gap-x-2 text-lg font-bold">
+    Mẹo nhớ <span class="text-xs font-normal text-ink-faint">gợi ý để ghi nhớ, không phải nguồn gốc chữ</span>
+  </h2>
+
+  <div class="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center">
+    {
+      components.length > 0 && strokes.length > 0 && (
+        <svg viewBox="0 0 109 109" class="mn-box size-32 shrink-0 self-center sm:self-auto" role="img" aria-label={`Chữ ${char} tô màu theo thành phần`}>
+          {strokes.map((s, i) => {
+            const c = owner.get(i + 1);
+            return <path d={s.d} style={c !== undefined ? `stroke:${color(c)}` : undefined} class:list={{ "mn-rest": c === undefined }} />;
+          })}
+        </svg>
+      )
+    }
+    <div class="min-w-0">
+      {
+        components.length > 0 && (
+          <p class="flex flex-wrap items-center gap-2 text-sm">
+            {components.map((c, i) => (
+              <>
+                {i > 0 && <span class="text-ink-faint">+</span>}
+                <span class="inline-flex items-baseline gap-1.5 rounded-md border border-line px-2 py-1">
+                  <span class="jp text-lg font-bold leading-none" lang="ja" style={`color:${color(i)}`}>
+                    {c.char}
+                  </span>
+                  {c.name_vi && <span class="font-semibold text-ink-muted">{c.name_vi}</span>}
+                  {c.meaning_vi && <span class="text-ink-faint">{c.meaning_vi}</span>}
+                </span>
+              </>
+            ))}
+          </p>
+        )
+      }
+      {story && <p class:list={["text-base leading-relaxed text-ink", { "mt-3": components.length > 0 }]}>{story}</p>}
+    </div>
+  </div>
+</section>
+
+<style>
+  .mn-box {
+    border: 1px solid var(--color-line);
+    border-radius: 0.375rem;
+    background: var(--color-surface);
+    fill: none;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .mn-rest {
+    stroke: var(--color-ink-faint);
+  }
+</style>

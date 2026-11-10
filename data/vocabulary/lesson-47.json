@@ -1,0 +1,1059 @@
+{
+  "book": "minna",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-001-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{外|そと}は{風|かぜ}が{強|つよ}く[[{吹|ふ}いて]]います。",
+          "source": "ai-draft",
+          "vi": "Bên ngoài gió đang thổi mạnh."
+        }
+      ],
+      "han_viet": "XUY",
+      "id": "mn-47-001",
+      "kana": "ふきます",
+      "kanji": "吹きます",
+      "kanji_refs": [
+        "k-吹"
+      ],
+      "legacy_id": "lesson47_1",
+      "lesson": 47,
+      "meaning_vi": "thổi [gió ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "gió ～",
+          "text": "thổi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-002-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "[[{燃|も}える]]ごみは{月曜日|げつようび}に{出|だ}してください。",
+          "source": "ai-draft",
+          "vi": "Rác cháy được hãy bỏ vào thứ hai."
+        }
+      ],
+      "han_viet": "NHIÊN",
+      "id": "mn-47-002",
+      "kana": "もえます",
+      "kanji": "燃えます",
+      "kanji_refs": [
+        "k-燃"
+      ],
+      "legacy_id": "lesson47_2",
+      "lesson": 47,
+      "meaning_vi": "cháy được [rác ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "rác ～",
+          "text": "cháy được"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-003-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{祖父|そふ}が{去年|きょねん}[[{亡|な}くなりました]]。",
+          "source": "ai-draft",
+          "vi": "Ông tôi đã mất năm ngoái."
+        }
+      ],
+      "han_viet": "VONG",
+      "id": "mn-47-003",
+      "kana": "なくなります",
+      "kanji": "亡くなります",
+      "kanji_refs": [
+        "k-亡"
+      ],
+      "legacy_id": "lesson47_3",
+      "lesson": 47,
+      "meaning_vi": "chết, mất",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chết, mất"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-004-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{駅|えき}の{前|まえ}に{人|ひと}が{大勢|おおぜい}[[{集|あつ}まって]]います。",
+          "source": "ai-draft",
+          "vi": "Trước nhà ga có rất nhiều người đang tập trung."
+        }
+      ],
+      "han_viet": "TẬP",
+      "id": "mn-47-004",
+      "kana": "あつまります",
+      "kanji": "集まります",
+      "kanji_refs": [
+        "k-集"
+      ],
+      "legacy_id": "lesson47_4",
+      "lesson": 47,
+      "meaning_vi": "tập trung, tập hợp [người ～]",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "người ～",
+          "text": "tập trung, tập hợp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-005-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "ここで２つのグループに[[{別|わか}れましょう]]。",
+          "source": "ai-draft",
+          "vi": "Ở đây hãy chia thành hai nhóm."
+        }
+      ],
+      "han_viet": "BIỆT",
+      "id": "mn-47-005",
+      "kana": "わかれます",
+      "kanji": "別れます",
+      "kanji_refs": [
+        "k-別"
+      ],
+      "legacy_id": "lesson47_5",
+      "lesson": 47,
+      "meaning_vi": "chia tay [người ～]",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "user",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": "người ～",
+          "text": "chia tay"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-47-006-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{台所|だいどころ}からいい{匂|にお}いが[[します]]ね。",
+          "source": "ai-draft",
+          "vi": "Từ nhà bếp có mùi thơm nhỉ."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-47-006",
+      "kana": "します",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson47_6",
+      "lesson": 47,
+      "meaning_vi": "có [âm thanh/ tiếng]; có [vị]; có [mùi]",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "user",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [
+        "mn-06-010",
+        "mn-22-005"
+      ],
+      "senses": [
+        {
+          "context": "âm thanh/ tiếng",
+          "text": "có"
+        },
+        {
+          "context": "vị",
+          "text": "có"
+        },
+        {
+          "context": "mùi",
+          "text": "có"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-007-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{父|ちち}はとても[[{厳|きび}しい]]です。",
+          "source": "ai-draft",
+          "vi": "Bố tôi rất nghiêm khắc."
+        }
+      ],
+      "han_viet": "NGHIÊM",
+      "id": "mn-47-007",
+      "kana": "きびしい",
+      "kanji": "厳しい",
+      "kanji_refs": [
+        "k-厳"
+      ],
+      "legacy_id": "lesson47_7",
+      "lesson": 47,
+      "meaning_vi": "nghiêm, nghiêm khắc, nghiêm ngặt",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "nghiêm, nghiêm khắc, nghiêm ngặt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-47-008-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{昨日|きのう}の{台風|たいふう}は[[{酷|ひど}かった]]そうです。",
+          "source": "ai-draft",
+          "vi": "Nghe nói cơn bão hôm qua rất khủng khiếp."
+        }
+      ],
+      "han_viet": "KHỐC",
+      "id": "mn-47-008",
+      "kana": "ひどい",
+      "kanji": "酷い",
+      "kanji_refs": [
+        "k-酷"
+      ],
+      "legacy_id": "lesson47_8",
+      "lesson": 47,
+      "meaning_vi": "tồi tệ, xấu",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "unihan",
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tồi tệ, xấu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-009-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{地震|じしん}は[[{怖|こわ}い]]です。",
+          "source": "ai-draft",
+          "vi": "Động đất thật đáng sợ."
+        }
+      ],
+      "han_viet": "BỐ",
+      "id": "mn-47-009",
+      "kana": "こわい",
+      "kanji": "怖い",
+      "kanji_refs": [
+        "k-怖"
+      ],
+      "legacy_id": "lesson47_9",
+      "lesson": 47,
+      "meaning_vi": "sợ, khiếp",
+      "particle": null,
+      "pos": {
+        "code": "Ai",
+        "label": "Tính từ い"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "sợ, khiếp"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-010-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{大学|だいがく}で[[{実験|じっけん}]]をしています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang làm thí nghiệm ở trường đại học."
+        }
+      ],
+      "han_viet": "THỰC NGHIỆM",
+      "id": "mn-47-010",
+      "kana": "じっけん",
+      "kanji": "実験",
+      "kanji_refs": [
+        "k-実",
+        "k-験"
+      ],
+      "legacy_id": "lesson47_10",
+      "lesson": 47,
+      "meaning_vi": "thực nghiệm, thí nghiệm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "thực nghiệm, thí nghiệm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-47-011-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "この[[データ]]によると、{人口|じんこう}が{減|へ}っているそうです。",
+          "source": "ai-draft",
+          "vi": "Theo dữ liệu này, nghe nói dân số đang giảm."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-47-011",
+      "kana": "データ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson47_11",
+      "lesson": 47,
+      "meaning_vi": "số liệu, dữ liệu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "số liệu, dữ liệu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-012-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{人口|じんこう}]]は{減|へ}っているそうです。",
+          "source": "ai-draft",
+          "vi": "Nghe nói dân số Nhật đang giảm."
+        }
+      ],
+      "han_viet": "NHÂN KHẨU",
+      "id": "mn-47-012",
+      "kana": "じんこう",
+      "kanji": "人口",
+      "kanji_refs": [
+        "k-人",
+        "k-口"
+      ],
+      "legacy_id": "lesson47_12",
+      "lesson": 47,
+      "meaning_vi": "dân số",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "dân số"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-47-013-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "この{花|はな}はいい[[{匂|にお}い]]がします。",
+          "source": "ai-draft",
+          "vi": "Bông hoa này có mùi thơm."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-47-013",
+      "kana": "におい",
+      "kanji": "匂い",
+      "kanji_refs": [
+        "k-匂"
+      ],
+      "legacy_id": "lesson47_13",
+      "lesson": 47,
+      "meaning_vi": "mùi",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": "jmdict",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "mùi"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-014-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{科学|かがく}]]は{進|すす}んでいるそうです。",
+          "source": "ai-draft",
+          "vi": "Nghe nói khoa học Nhật Bản rất tiến bộ."
+        }
+      ],
+      "han_viet": "KHOA HỌC",
+      "id": "mn-47-014",
+      "kana": "かがく",
+      "kanji": "科学",
+      "kanji_refs": [
+        "k-科",
+        "k-学"
+      ],
+      "legacy_id": "lesson47_14",
+      "lesson": 47,
+      "meaning_vi": "khoa học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "khoa học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-015-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{兄|あに}は{大学|だいがく}で[[{医学|いがく}]]を{勉強|べんきょう}しているそうです。",
+          "source": "ai-draft",
+          "vi": "Nghe nói anh trai tôi đang học y ở đại học."
+        }
+      ],
+      "han_viet": "Y HỌC",
+      "id": "mn-47-015",
+      "kana": "いがく",
+      "kanji": "医学",
+      "kanji_refs": [
+        "k-医",
+        "k-学"
+      ],
+      "legacy_id": "lesson47_15",
+      "lesson": 47,
+      "meaning_vi": "y học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "y học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-016-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{文学|ぶんがく}]]に{興味|きょうみ}があります。",
+          "source": "ai-draft",
+          "vi": "Tôi quan tâm đến văn học Nhật Bản."
+        }
+      ],
+      "han_viet": "VĂN HỌC",
+      "id": "mn-47-016",
+      "kana": "ぶんがく",
+      "kanji": "文学",
+      "kanji_refs": [
+        "k-文",
+        "k-学"
+      ],
+      "legacy_id": "lesson47_16",
+      "lesson": 47,
+      "meaning_vi": "văn học",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "văn học"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-47-017-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "[[パトカー]]の{音|おと}がします。",
+          "source": "ai-draft",
+          "vi": "Có tiếng xe cảnh sát."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-47-017",
+      "kana": "パトカー",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson47_17",
+      "lesson": 47,
+      "meaning_vi": "xe ô-tô cảnh sát",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xe ô-tô cảnh sát"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-018-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "[[{救急車|きゅうきゅうしゃ}]]を{呼|よ}んでください。",
+          "source": "ai-draft",
+          "vi": "Hãy gọi xe cấp cứu."
+        }
+      ],
+      "han_viet": "CỨU CẤP XA",
+      "id": "mn-47-018",
+      "kana": "きゅうきゅうしゃ",
+      "kanji": "救急車",
+      "kanji_refs": [
+        "k-救",
+        "k-急",
+        "k-車"
+      ],
+      "legacy_id": "lesson47_18",
+      "lesson": 47,
+      "meaning_vi": "xe cấp cứu",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "xe cấp cứu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-019-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{私|わたし}はその{意見|いけん}に[[{賛成|さんせい}]]です。",
+          "source": "ai-draft",
+          "vi": "Tôi tán thành ý kiến đó."
+        }
+      ],
+      "han_viet": "TÁN THÀNH",
+      "id": "mn-47-019",
+      "kana": "さんせい",
+      "kanji": "賛成",
+      "kanji_refs": [
+        "k-賛",
+        "k-成"
+      ],
+      "legacy_id": "lesson47_19",
+      "lesson": 47,
+      "meaning_vi": "tán thành, đồng ý",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-058"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "tán thành, đồng ý"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-020-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{多|おお}くの{人|ひと}がその{計画|けいかく}に[[{反対|はんたい}]]しています。",
+          "source": "ai-draft",
+          "vi": "Nhiều người phản đối kế hoạch đó."
+        }
+      ],
+      "han_viet": "PHẢN ĐỐI",
+      "id": "mn-47-020",
+      "kana": "はんたい",
+      "kanji": "反対",
+      "kanji_refs": [
+        "k-反",
+        "k-対"
+      ],
+      "legacy_id": "lesson47_20",
+      "lesson": 47,
+      "meaning_vi": "phản đối",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "n3-059"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "phản đối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "mn-47-021-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "[[{大統領|だいとうりょう}]]が{来週|らいしゅう}{日本|にほん}に{来|く}るそうです。",
+          "source": "ai-draft",
+          "vi": "Nghe nói tuần sau tổng thống sẽ đến Nhật."
+        }
+      ],
+      "han_viet": "ĐẠI THỐNG LÃNH",
+      "id": "mn-47-021",
+      "kana": "だいとうりょう",
+      "kanji": "大統領",
+      "kanji_refs": [
+        "k-大",
+        "k-統",
+        "k-領"
+      ],
+      "legacy_id": "lesson47_21",
+      "lesson": 47,
+      "meaning_vi": "tổng thống",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "source",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "tổng thống"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "minna",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "mn-47-022-e1",
+          "max_lesson": 47,
+          "review": "user",
+          "ruby": "{天気予報|てんきよほう}[[によると]]、{明日|あした}は{雨|あめ}だそうです。",
+          "source": "ai-draft",
+          "vi": "Theo dự báo thời tiết, ngày mai trời mưa."
+        }
+      ],
+      "han_viet": null,
+      "id": "mn-47-022",
+      "kana": "～によると",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "lesson47_22",
+      "lesson": 47,
+      "meaning_vi": "theo ～(biểu thị nguồn thông tin)",
+      "particle": null,
+      "pos": {
+        "code": "Suf",
+        "label": "Hậu tố"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "source"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "theo ～(biểu thị nguồn thông tin)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 47,
+  "schema_version": 4
+}

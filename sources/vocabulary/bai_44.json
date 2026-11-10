@@ -1,0 +1,245 @@
+[
+  {
+    "id": "lesson44_1",
+    "jp": "なきます",
+    "kanji": "泣きます",
+    "kanji_vn": "KHẤP",
+    "vn": "khóc",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson44_2",
+    "jp": "わらいます",
+    "kanji": "笑います",
+    "kanji_vn": "TIẾU",
+    "vn": "cười",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson44_3",
+    "jp": "ねむります",
+    "kanji": "眠ります",
+    "kanji_vn": "MIÊN",
+    "vn": "ngủ",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson44_4",
+    "jp": "かわきます",
+    "kanji": "乾きます",
+    "kanji_vn": "CAN",
+    "vn": "khô [áo sơ mi ~]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson44_5",
+    "jp": "ぬれます",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "ướt [áo sơ mi ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson44_6",
+    "jp": "すべります",
+    "kanji": "滑ります",
+    "kanji_vn": "HOẠT",
+    "vn": "trượt",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson44_7",
+    "jp": "おきます",
+    "kanji": "起きます",
+    "kanji_vn": "KHỞISỰ CỐ",
+    "vn": "xảy ra [tai nạn ~]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson44_8",
+    "jp": "ちょうせつします",
+    "kanji": "調節します",
+    "kanji_vn": "ĐIỀU TIẾT",
+    "vn": "điều tiết, điều chỉnh",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson44_9",
+    "jp": "あんぜん",
+    "kanji": "安全",
+    "kanji_vn": "AN TOÀN",
+    "vn": "an toàn",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson44_10",
+    "jp": "きけん",
+    "kanji": "危険",
+    "kanji_vn": "NGUY HIỂM",
+    "vn": "nguy hiểm",
+    "type": "Tính từ な",
+    "type_code": "An"
+  },
+  {
+    "id": "lesson44_11",
+    "jp": "こい",
+    "kanji": "濃い",
+    "kanji_vn": "NỒNG",
+    "vn": "nồng, đậm",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson44_12",
+    "jp": "うすい",
+    "kanji": "薄い",
+    "kanji_vn": "BẠC",
+    "vn": "nhạt, loãng",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson44_13",
+    "jp": "あつい",
+    "kanji": "厚い",
+    "kanji_vn": "HẬU",
+    "vn": "dày",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson44_14",
+    "jp": "ふとい",
+    "kanji": "太い",
+    "kanji_vn": "THÁI",
+    "vn": "đậm",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson44_15",
+    "jp": "ほそい",
+    "kanji": "細い",
+    "kanji_vn": "TẾ",
+    "vn": "mảnh, gầy",
+    "type": "Tính từ い",
+    "type_code": "Ai"
+  },
+  {
+    "id": "lesson44_16",
+    "jp": "くうき",
+    "kanji": "空気",
+    "kanji_vn": "KHÔNG KHÍ",
+    "vn": "không khí",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_17",
+    "jp": "なみだ",
+    "kanji": "涙",
+    "kanji_vn": "LỆ",
+    "vn": "nước mắt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_18",
+    "jp": "わしょく",
+    "kanji": "和食",
+    "kanji_vn": "HÒA THỰC",
+    "vn": "món ăn Nhật",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_19",
+    "jp": "ようしょく",
+    "kanji": "洋食",
+    "kanji_vn": "DƯƠNG THỰC",
+    "vn": "món ăn Âu Mỹ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_20",
+    "jp": "おかず",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "thức ăn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_21",
+    "jp": "りょう",
+    "kanji": "量",
+    "kanji_vn": "LƯỢNG",
+    "vn": "lượng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_22",
+    "jp": "―ばい",
+    "kanji": "―倍",
+    "kanji_vn": "BỘI",
+    "vn": "- lần",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_23",
+    "jp": "シングル",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phòng đơn (1 giường)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson44_24",
+    "jp": "ツイン",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "phòng đôi (2 giường)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson44_25",
+    "jp": "せんたくもの",
+    "kanji": "洗濯物",
+    "kanji_vn": "TẨY TRẠC VẬT",
+    "vn": "quần áo giặt",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_26",
+    "jp": "DVD",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "DVD",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson44_27",
+    "jp": "ホテルひろしま",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tên khách sạn giả định",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

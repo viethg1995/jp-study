@@ -1,0 +1,338 @@
+[
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DU",
+    "han_viet_source": "source",
+    "id": "mn-13-001",
+    "kanji": "遊びます",
+    "kanji_refs": [
+      "k-遊"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_1",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VỊNH",
+    "han_viet_source": "source",
+    "id": "mn-13-002",
+    "kanji": "泳ぎます",
+    "kanji_refs": [
+      "k-泳"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_2",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGHINH",
+    "han_viet_source": "source",
+    "id": "mn-13-003",
+    "kanji": "迎えます",
+    "kanji_refs": [
+      "k-迎"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_3",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BÌ",
+    "han_viet_source": "source",
+    "id": "mn-13-004",
+    "kanji": "疲れます",
+    "kanji_refs": [
+      "k-疲"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_4",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KẾT HÔN",
+    "han_viet_source": "source",
+    "id": "mn-13-005",
+    "kanji": "結婚します",
+    "kanji_refs": [
+      "k-結",
+      "k-婚"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_5",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MÃI VẬT",
+    "han_viet_source": "source",
+    "id": "mn-13-006",
+    "kanji": "買い物します",
+    "kanji_refs": [
+      "k-買",
+      "k-物"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_6",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỰC SỰ",
+    "han_viet_source": "source",
+    "id": "mn-13-007",
+    "kanji": "食事します",
+    "kanji_refs": [
+      "k-食",
+      "k-事"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_7",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "TẢN BỘ",
+    "han_viet_original": "TÁN BỘCÔNG VIÊN",
+    "han_viet_source": "mixed",
+    "id": "mn-13-008",
+    "kanji": "散歩します",
+    "kanji_refs": [
+      "k-散",
+      "k-歩"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_8",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐẠI BIẾN",
+    "han_viet_source": "source",
+    "id": "mn-13-009",
+    "kanji": "大変",
+    "kanji_refs": [
+      "k-大",
+      "k-変"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_9",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "DỤC",
+    "han_viet_source": "source",
+    "id": "mn-13-010",
+    "kanji": "欲しい",
+    "kanji_refs": [
+      "k-欲"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_10",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "QUẢNG",
+    "han_viet_source": "source",
+    "id": "mn-13-011",
+    "kanji": "広い",
+    "kanji_refs": [
+      "k-広"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_11",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HIỆP",
+    "han_viet_source": "source",
+    "id": "mn-13-012",
+    "kanji": "狭い",
+    "kanji_refs": [
+      "k-狭"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_12",
+    "lesson": 13
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-13-013",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson13_13",
+    "lesson": 13,
+    "pos_reason": "JMdict: danh từ thông dụng ((swimming) pool)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "XUYÊN",
+    "han_viet_source": "source",
+    "id": "mn-13-014",
+    "kanji": "川",
+    "kanji_refs": [
+      "k-川"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_14",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỸ THUẬT",
+    "han_viet_source": "source",
+    "id": "mn-13-015",
+    "kanji": "美術",
+    "kanji_refs": [
+      "k-美",
+      "k-術"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_15",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ĐIẾU",
+    "han_viet_source": "source",
+    "id": "mn-13-016",
+    "kanji": "釣り",
+    "kanji_refs": [
+      "k-釣"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_16",
+    "lesson": 13
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-13-017",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson13_17",
+    "lesson": 13,
+    "pos_reason": "JMdict: danh từ thông dụng (skiing)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHU MẠT",
+    "han_viet_source": "source",
+    "id": "mn-13-018",
+    "kanji": "週末",
+    "kanji_refs": [
+      "k-週",
+      "k-末"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_18",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHÍNH NGUYỆT",
+    "han_viet_source": "source",
+    "id": "mn-13-019",
+    "kanji": "正月",
+    "kanji_refs": [
+      "k-正",
+      "k-月"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_19",
+    "lesson": 13
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "KHOẢNH",
+    "han_viet_source": "unihan",
+    "id": "mn-13-020",
+    "kanji": "頃",
+    "kanji_gloss": "(approximate) time; around",
+    "kanji_refs": [
+      "k-頃"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson13_20",
+    "lesson": 13
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HÀ",
+    "han_viet_source": "source",
+    "id": "mn-13-021",
+    "kanji": "何か",
+    "kanji_refs": [
+      "k-何"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson13_21",
+    "lesson": 13
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "処": []
+    },
+    "han_viet_source": null,
+    "id": "mn-13-022",
+    "kanji": "何処か",
+    "kanji_gloss": "somewhere",
+    "kanji_refs": [
+      "k-何",
+      "k-処"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson13_22",
+    "lesson": 13
+  }
+]

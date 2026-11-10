@@ -1,0 +1,254 @@
+[
+  {
+    "id": "lesson31_1",
+    "jp": "つづけます",
+    "kanji": "続けます",
+    "kanji_vn": "TỤC",
+    "vn": "tiếp tục",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson31_2",
+    "jp": "みつけます",
+    "kanji": "見つけます",
+    "kanji_vn": "KIẾN",
+    "vn": "tìm, tìm thấy",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson31_3",
+    "jp": "とります",
+    "kanji": "取ります",
+    "kanji_vn": "THỦHƯU",
+    "vn": "xin [nghĩ]",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson31_4",
+    "jp": "うけます",
+    "kanji": "受けます",
+    "kanji_vn": "THỤTHÍ NGHIỆM",
+    "vn": "thi [kỳ thi]",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson31_5",
+    "jp": "もうしこみます",
+    "kanji": "申し込みます",
+    "kanji_vn": "THÂNVÀO",
+    "vn": "đăng ký",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson31_6",
+    "jp": "きゅうけいします",
+    "kanji": "休憩します",
+    "kanji_vn": "HƯU KHẾ",
+    "vn": "nghỉ, giải lao",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson31_7",
+    "jp": "れんきゅう",
+    "kanji": "連休",
+    "kanji_vn": "LIÊN HƯU",
+    "vn": "ngày nghỉ liền nhau",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_8",
+    "jp": "さくぶん",
+    "kanji": "作文",
+    "kanji_vn": "TÁC VĂN",
+    "vn": "bài văn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_9",
+    "jp": "はっぴょう",
+    "kanji": "発表",
+    "kanji_vn": "PHÁT BIỂU",
+    "vn": "phát biểu, công bố",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_10",
+    "jp": "てんらんかい",
+    "kanji": "展覧会",
+    "kanji_vn": "TRIỂN LÃM HỘI",
+    "vn": "triển lãm",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson31_11",
+    "jp": "けっこんしき",
+    "kanji": "結婚式",
+    "kanji_vn": "KẾT HÔN THỨC",
+    "vn": "lễ cưới, đám cưới",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_12",
+    "jp": "そうしき",
+    "kanji": "葬式",
+    "kanji_vn": "TÁNG THỨC",
+    "vn": "lễ tang, đám tang",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_13",
+    "jp": "しき",
+    "kanji": "式",
+    "kanji_vn": "THỨC",
+    "vn": "lễ, đám",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_14",
+    "jp": "ほんしゃ",
+    "kanji": "本社",
+    "kanji_vn": "BẢN XÃ",
+    "vn": "trụ sở chính",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson31_15",
+    "jp": "してん",
+    "kanji": "支店",
+    "kanji_vn": "CHI ĐIẾM",
+    "vn": "chi nhánh",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_16",
+    "jp": "きょうかい",
+    "kanji": "教会",
+    "kanji_vn": "GIÁO HỘI",
+    "vn": "nhà thờ",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson31_17",
+    "jp": "だいがくいん",
+    "kanji": "大学院",
+    "kanji_vn": "ĐẠI HỌC VIỆN",
+    "vn": "cao học, sở giáo dục trên đại học",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson31_18",
+    "jp": "どうぶつえん",
+    "kanji": "動物園",
+    "kanji_vn": "ĐỘNG VẬT VIÊN",
+    "vn": "vườn thú, vườn bách thú",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_19",
+    "jp": "おんせん",
+    "kanji": "温泉",
+    "kanji_vn": "ÔN TUYỀN",
+    "vn": "suối nước nóng",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_20",
+    "jp": "かえり",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "chiều về",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_21",
+    "jp": "おこさん",
+    "kanji": "お子さん",
+    "kanji_vn": "TỬ",
+    "vn": "con (dùng nói về con người khác)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_22",
+    "jp": "ーごう",
+    "kanji": "ー号",
+    "kanji_vn": "HIỆU",
+    "vn": "số(hiệu)~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson31_23",
+    "jp": "～のほう",
+    "kanji": "～の方",
+    "kanji_vn": "PHƯƠNG",
+    "vn": "phía ~, hướng ~",
+    "type": "Hậu tố",
+    "type_code": "Suf"
+  },
+  {
+    "id": "lesson31_24",
+    "jp": "ずっと",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "suốt, liền",
+    "type": "Trạng từ",
+    "type_code": "Adv"
+  },
+  {
+    "id": "lesson31_25",
+    "jp": "バリ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Ba li (hòn đảo ở Indonesia)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson31_26",
+    "jp": "ピカソ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "Pablo Picasso, danh họa người Tây Ban Nha (1881-1973)",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson31_27",
+    "jp": "のぞみ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "tên của tàu Shinkansen",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson31_28",
+    "jp": "しんこうべ",
+    "kanji": "新神戸",
+    "kanji_vn": "TÂN THẦN HỘ",
+    "vn": "tên ga ở tỉnh Hyogo",
+    "type": "Danh từ",
+    "type_code": "N"
+  }
+]

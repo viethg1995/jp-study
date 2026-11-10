@@ -1,0 +1,175 @@
+---
+// Trang một bài từ vựng (dùng chung Minna và N3): thanh chuyển bài, bảng "Hiển thị", danh sách thẻ.
+// Trang (pages/) lấy dữ liệu rồi truyền vào — component không gọi getCollection.
+import type { VocabEntry } from "../../content.config";
+import Base from "../../layouts/Base.astro";
+import Segmented from "../ui/Segmented.astro";
+import type { NavLink } from "./CardNav.astro";
+import WordCard from "./WordCard.astro";
+
+interface Props {
+  lesson: number;
+  entries: VocabEntry[];
+  route: string; // đường dẫn bài, vd "vocabulary" hoặc "vocabulary/n3" (không có "/" đầu/cuối)
+  lastLesson: number;
+  label: string; // tiền tố tên bài, vd "Bài" hoặc "N3 · Bài"
+  conj: Map<string, string>; // vocab_id → trang chia thể (không có "/" đầu), chỉ động từ / tính từ
+}
+const { lesson: n, entries, route, lastLesson, label, conj } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const lessonHref = (k: number): string => `${base}/${route}/${k}/`;
+
+// Chế độ "Từng thẻ": nút Trước/Sau là link #id (CSS :target), quay vòng trong bài (cuối → đầu, đầu → cuối).
+// Chuyển bài dùng nút ở header. Thứ tự ngẫu nhiên do script cuối file xử lý.
+const navOf = (i: number): { prev: NavLink; next: NavLink } => {
+  const k = entries.length;
+  return {
+    prev: { href: `#${entries[(i - 1 + k) % k]?.id}`, label: "Trước" },
+    next: { href: `#${entries[(i + 1) % k]?.id}`, label: "Sau" },
+  };
+};
+
+const toggles = [
+  { id: "toggle-furigana", label: "Ẩn furigana" },
+  { id: "toggle-target-reading", label: "Hiện furigana từ đang học" },
+  { id: "toggle-vi", label: "Che bản dịch (rê chuột để xem)" },
+];
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+---
+
+<Base title={`${label} ${n}`}>
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    {n > 1 && <a href={lessonHref(n - 1)} class={navLink}>← Bài {n - 1}</a>}
+    <span class="font-semibold">{label} {n}</span>
+    {n < lastLesson && <a href={lessonHref(n + 1)} class={navLink}>Bài {n + 1} →</a>}
+  </nav>
+
+  <div class="flex flex-wrap items-baseline justify-between gap-2">
+    <h1 class="text-2xl font-bold">
+      {label} {n} <span class="text-base font-normal text-ink-faint">· {entries.length} từ</span>
+    </h1>
+  </div>
+
+  <fieldset class="mt-3 flex flex-wrap gap-x-5 gap-y-2 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
+    <legend class="px-1 text-xs text-ink-faint">Hiển thị</legend>
+    <div class="flex w-full flex-wrap items-center gap-x-6 gap-y-2">
+      <Segmented
+        name="view"
+        label="Chế độ xem"
+        checked="view-grid"
+        options={[
+          { id: "view-grid", label: "Lưới" },
+          { id: "view-single", label: "Từng thẻ" },
+        ]}
+      />
+      <Segmented
+        name="order"
+        label="Thứ tự"
+        checked="order-seq"
+        options={[
+          { id: "order-seq", label: "Tuần tự" },
+          { id: "order-random", label: "Ngẫu nhiên" },
+        ]}
+      />
+      <Segmented
+        name="focus"
+        label="Nhấn mạnh từ vựng"
+        checked="focus-kanji"
+        options={[
+          { id: "focus-kanji", label: "Kanji" },
+          { id: "focus-kana", label: "Hiragana" },
+        ]}
+      />
+    </div>
+    {
+      toggles.map((t) => (
+        <label class="flex cursor-pointer items-center gap-2">
+          <input type="checkbox" id={t.id} class="accent-primary" />
+          {t.label}
+        </label>
+      ))
+    }
+  </fieldset>
+
+  <div class="word-list mt-4 grid gap-3 md:grid-cols-2">
+    {entries.map((w, i) => <WordCard word={w} index={i + 1} total={entries.length} conjHref={conj.has(w.id) ? `${base}/${conj.get(w.id)}` : null} {...navOf(i)} />)}
+  </div>
+</Base>
+
+<script>
+  // 1) Chế độ Lưới: click một thẻ → chuyển sang "Từng thẻ" và mở đúng thẻ đó (không lật).
+  // 2) Nút Trước/Sau (data-step) đi theo thứ tự đang chọn: tuần tự hoặc ngẫu nhiên (xáo trộn mỗi lần bật).
+  // Không JS: link #id vẫn chạy tuần tự + quay vòng.
+  const ids = [...document.querySelectorAll<HTMLElement>(".word-list .word-card")].map((el) => el.id);
+  const viewSingle = document.getElementById("view-single") as HTMLInputElement | null;
+  const viewGrid = document.getElementById("view-grid") as HTMLInputElement | null;
+  const random = document.getElementById("order-random") as HTMLInputElement | null;
+  let order = [...ids];
+
+  const shuffle = (): string[] => {
+    const a = [...ids];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j] as string, a[i] as string];
+    }
+    return a;
+  };
+  // Thẻ đang xem do JS quản lý (class .is-current) thay vì :target → đổi thẻ KHÔNG cuộn trang (hết co giật).
+  // URL #id vẫn cập nhật bằng history.pushState (không cuộn) để chia sẻ link / nút Back hoạt động.
+  const list = document.querySelector(".word-list");
+  list?.classList.add("js-cards");
+  const fromHash = (): string | null => {
+    const h = decodeURIComponent(location.hash.slice(1));
+    return ids.includes(h) ? h : null;
+  };
+  let cur = fromHash() ?? ids[0] ?? "";
+  const current = (): string => cur;
+  const updateCounter = (): void => {
+    const pos = document.getElementById(cur)?.querySelector(".card-pos");
+    if (pos) pos.textContent = `${order.indexOf(cur) + 1} / ${order.length}`;
+  };
+  const show = (id: string): void => {
+    document.querySelector(".word-card.is-current")?.classList.remove("is-current");
+    document.getElementById(id)?.classList.add("is-current");
+    cur = id;
+    updateCounter();
+  };
+  const go = (id: string, scroll = false): void => {
+    const flip = document.getElementById(`flip-${id}`) as HTMLInputElement | null;
+    if (flip) flip.checked = false; // luôn mở thẻ ở mặt trước
+    show(id);
+    if (location.hash.slice(1) !== id) history.pushState(null, "", `#${id}`);
+    if (scroll) document.getElementById(id)?.scrollIntoView({ block: "start" });
+  };
+  show(cur);
+
+  document.addEventListener("click", (e) => {
+    const t = e.target as HTMLElement;
+    const step = t.closest<HTMLAnchorElement>(".card-nav a[data-step]");
+    if (step) {
+      e.preventDefault();
+      const i = order.indexOf(current());
+      const k = order.length;
+      go(order[(i + Number(step.dataset.step) + k) % k] ?? "");
+      return;
+    }
+    if (viewGrid?.checked && viewSingle) {
+      const card = t.closest<HTMLElement>(".word-list .word-card");
+      if (card && !t.closest("a, .tip")) {
+        e.preventDefault(); // chặn label lật thẻ
+        viewSingle.checked = true;
+        go(card.id, true); // từ Lưới sang: cuộn tới thẻ một lần
+      }
+    }
+  });
+  random?.addEventListener("change", () => {
+    order = random.checked ? shuffle() : [...ids];
+    updateCounter();
+  });
+  document.getElementById("order-seq")?.addEventListener("change", () => {
+    order = [...ids];
+    updateCounter();
+  });
+  // Nút Back/Forward của trình duyệt → hiện lại thẻ theo #id (không cuộn)
+  window.addEventListener("popstate", () => show(fromHash() ?? ids[0] ?? ""));
+</script>

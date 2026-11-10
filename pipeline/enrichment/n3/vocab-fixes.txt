@@ -1,0 +1,170 @@
+# by: user
+# Sửa từ vựng N3 sau khi phân tích PDF theo bố cục (2026-11-10). Cú pháp: NNN|field|giá trị|ghi chú
+# field: word, reading, meaning, pos, drop
+049|reading|おもいで|furigana bắt nhầm sang thẻ dưới (おもいだ); JMdict: おもいで
+# --- Thẻ đặc biệt / lỗi trích (N3-2) ---
+106|word|叫び声|thẻ in 叫ぶ / 声 tách dòng; nghĩa "tiếng hét" = 叫び声
+106|reading|さけびごえ|
+618|meaning|bao gồm, tính cả|nghĩa trích ra là rác ("ồ à")
+664|meaning|rõ ràng, rõ rệt|thẻ không có dòng nghĩa trích được
+668|meaning|lẫn nhau, với nhau|thẻ không có dòng nghĩa trích được
+# --- Cụm/mẫu câu thiếu cách đọc: giữ cụm, điền cách đọc cả cụm ---
+418|reading|メッセージがのこる|
+422|reading|データをあつめる|
+548|reading|へんこうする|
+# --- Cụm có ký hiệu ＋/〜: tách lấy từ chính ---
+470|word|ぴったり|sách: 時間＋ぴったり
+470|reading|ぴったり|
+470|pos|Adv|
+490|word|案外|sách: 案外+ A,〜V
+490|reading|あんがい|
+490|pos|Adv|
+506|word|予防|sách: 大変なことを予防
+506|reading|よぼう|
+506|pos|N|
+528|word|提案する|sách: に＋を提案（を）する
+528|reading|ていあんする|
+528|particle|に/を|
+528|pos|V3|
+612|word|交じる|sách: A がB に交じる
+612|reading|まじる|
+612|particle|が/に|
+612|pos|V1|
+616|word|溶かす|sách: 固いものを溶かす
+616|reading|とかす|
+616|particle|を|
+616|pos|V1|
+661|word|ぐっすり|sách: ぐっすり＋（眠る）
+661|reading|ぐっすり|
+661|pos|Adv|
+679|word|一体|sách: 一体＋何
+679|reading|いったい|
+679|pos|Adv|
+440|word|正確な|sách: 正確な＋情報 (cách đọc ghép sai)
+440|reading|せいかくな|
+440|pos|An|
+447|word|激しい|sách: 激しい＋V
+447|reading|はげしい|
+447|pos|Ai|
+460|word|大変|sách: 大変+V (rất, cực)
+460|reading|たいへん|
+460|pos|Adv|
+420|word|インタビューする|sách: 〜にインタビュー（を）する
+420|reading|インタビューする|
+420|particle|に|
+420|pos|V3|
+683|word|そのうえ|sách: A そのうえ、B
+683|reading|そのうえ|
+683|pos|Conj|
+686|word|それとも|sách: A それともB？
+686|reading|それとも|
+686|pos|Conj|
+# --- Động từ viết kana, trợ từ dính đầu (をつかむ…) → tách trợ từ, sửa từ loại ---
+113|word|おごる|
+113|reading|おごる|
+113|particle|に/を|
+113|pos|V1|
+320|word|つかむ|
+320|reading|つかむ|
+320|particle|を|
+320|pos|V1|
+341|word|譲る|sách: に＋を譲る
+341|reading|ゆずる|
+341|particle|に/を|
+341|pos|V1|
+344|word|だます|
+344|reading|だます|
+344|particle|を|
+344|pos|V1|
+352|word|つめる|
+352|reading|つめる|
+352|particle|を|
+352|pos|V2|
+355|word|ふる|
+355|reading|ふる|
+355|particle|を|
+355|pos|V1|
+356|word|めくる|
+356|reading|めくる|
+356|particle|を|
+356|pos|V1|
+597|word|つながる|
+597|reading|つながる|
+597|particle|が|
+597|pos|V1|
+598|word|つなぐ|
+598|reading|つなぐ|
+598|particle|を|
+598|pos|V1|
+599|word|つなげる|
+599|reading|つなげる|
+599|particle|を|
+599|pos|V2|
+614|word|まぜる|
+614|reading|まぜる|
+614|particle|を|
+614|pos|V2|
+658|word|ゆでる|
+658|reading|ゆでる|
+658|particle|を|
+658|pos|V2|
+# --- Mẫu câu với trạng từ: giữ mẫu, từ loại = trạng từ ---
+463|pos|Adv|ずいぶん〜なる
+465|pos|Adv|だいぶ〜なる
+482|pos|Adv|やっと〜た
+484|pos|Adv|ついに〜た
+494|pos|Adv|つい〜てしまった
+672|pos|Adv|ただ〜するだけ
+674|pos|Adv|決して〜ない
+676|pos|Adv|全く〜ない
+677|pos|Adv|どんなに〜か
+# --- Phát hiện khi viết câu ví dụ ---
+097|pos|V1|かぐ (嗅ぐ) là động từ nhóm 1; JMdict lẫn với 家具
+154|pos|V1|ふく (拭く, lau) là động từ nhóm 1
+230|word|お礼|sách: （お）礼 — chuẩn hóa dạng thường dùng
+230|reading|おれい|
+231|word|お詫び|sách: （お）詫び
+231|reading|おわび|
+319|pos|V1|かく (掻く, gãi) là động từ nhóm 1
+441|word|確か|sách: 確か（+に）
+441|reading|たしか|
+459|word|非常に|sách: 非常(に)
+459|reading|ひじょうに|
+459|pos|Adv|
+474|word|すぐ|sách: すぐ（に）
+474|reading|すぐ|
+474|pos|Adv|
+536|reading|しるし|nghĩa "ký hiệu" đọc しるし (いん là con dấu)
+537|word|合図する|sách: 合図（を）する
+537|reading|あいずする|
+634|pos|N|プラス là danh từ (điểm cộng), nguồn suy Conj
+667|meaning|riêng rẽ, riêng biệt|nghĩa trích lẫn sang thẻ khác ("Sự ra đời...")
+673|word|少なくとも|sách: 少なくとも（＋数字）, cách đọc ghép sai
+673|reading|すくなくとも|
+675|word|ちっとも|sách in ちょっとも (không tồn tại); nghĩa "không một chút gì" = ちっとも
+675|reading|ちっとも|
+680|pos|Det|たった (連体詞)
+681|pos|Det|ほんの (連体詞)
+684|pos|Conj|また (ngoài ra) là từ nối
+# --- Nghĩa lẫn sang thẻ khác / sai khi trích (phát hiện khi viết câu ví dụ) ---
+080|meaning|đường cao tốc|nghĩa trích dính chú thích ("Xe to, xe ô tô qua lại…")
+173|meaning|làm lạnh, để lạnh; làm bình tĩnh lại|
+226|meaning|chăm sóc; giúp đỡ|dính nghĩa thẻ khác ("Thế giới, thế gian; Lắng nghe")
+231|meaning|xin lỗi|dính "Ngoại tình" của thẻ khác
+319|meaning|gãi; toát (mồ hôi); ngáy; xấu hổ (恥をかく)|
+364|meaning|làm sai, nhầm|dính "Tha thứ" của 許す
+365|meaning|tha thứ; cho phép|thiếu nghĩa 1 (bị dính sang 間違える)
+375|meaning|vỡ, nứt; chia ra, tách ra|nghĩa trích lẫn với 割る
+376|meaning|làm vỡ; chia, tách|nghĩa trích chỉ còn "3 Chia"
+382|meaning|chệch, không trúng; bị loại ra; tuột ra|
+383|meaning|tháo ra, bỏ ra; làm chệch, bỏ lỡ; loại ra|nghĩa trích trùng với 外れる
+571|meaning|chuyển, dời; làm lây (bệnh)|nghĩa trích lẫn ("Bị lây lây sang")
+577|meaning|hướng ～ về, chĩa về|nghĩa trích sai ("Phù hợp")
+623|meaning|hết, kết thúc (năm); rạng sáng (夜が明ける)|nghĩa trích sai ("Cuối, sau")
+385|meaning|chảy; trôi; (nhạc) được phát; lan truyền (tin đồn)|nghĩa trích trùng với 流す
+386|meaning|cho chảy, xả (nước); thả trôi; bật (nhạc); lan truyền (tin)|
+# --- Cụm từ: xác nhận từ loại Phr ---
+418|pos|Phr|
+422|pos|Phr|
+534|pos|Phr|
+647|pos|Phr|

@@ -1,0 +1,2613 @@
+{
+  "book": "n3",
+  "entries": [
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-551-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{地球|ちきゅう}の[[{環境|かんきょう}]]を{守|まも}りましょう。",
+          "source": "ai-draft",
+          "vi": "Hãy bảo vệ môi trường trái đất."
+        }
+      ],
+      "han_viet": "HOÀN CẢNH",
+      "id": "n3-551",
+      "kana": "かんきょう",
+      "kanji": "環境",
+      "kanji_refs": [
+        "k-環",
+        "k-境"
+      ],
+      "legacy_id": "n3cb-551",
+      "lesson": 12,
+      "meaning_vi": "Môi trường (tự nhiên); Môi trường (xung quanh)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Môi trường (tự nhiên)"
+        },
+        {
+          "context": null,
+          "text": "Môi trường (xung quanh)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-552-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{日本|にほん}は[[{資源|しげん}]]が{少|すく}ない{国|くに}です。",
+          "source": "ai-draft",
+          "vi": "Nhật Bản là nước ít tài nguyên."
+        }
+      ],
+      "han_viet": "TƯ NGUYÊN",
+      "id": "n3-552",
+      "kana": "しげん",
+      "kanji": "資源",
+      "kanji_refs": [
+        "k-資",
+        "k-源"
+      ],
+      "legacy_id": "n3cb-552",
+      "lesson": 12,
+      "meaning_vi": "Tài nguyên",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tài nguyên"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-553-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{最近|さいきん}、{寝|ね}る{時間|じかん}が[[{不足|ふそく}する]]ことが{多|おお}いです。",
+          "source": "ai-draft",
+          "vi": "Gần đây tôi thường thiếu ngủ."
+        }
+      ],
+      "han_viet": "BẤT TÚC",
+      "id": "n3-553",
+      "kana": "ふそくする",
+      "kanji": "不足する",
+      "kanji_refs": [
+        "k-不",
+        "k-足"
+      ],
+      "legacy_id": "n3cb-553",
+      "lesson": 12,
+      "meaning_vi": "Không đủ, thiếu",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Không đủ, thiếu"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-554-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{一日|いちにち}に[[{平均|へいきん}する]]と、{三時間|さんじかん}{勉強|べんきょう}しています。",
+          "source": "ai-draft",
+          "vi": "Tính trung bình mỗi ngày tôi học ba tiếng."
+        }
+      ],
+      "han_viet": "BÌNH QUÂN",
+      "id": "n3-554",
+      "kana": "へいきんする",
+      "kanji": "平均する",
+      "kanji_refs": [
+        "k-平",
+        "k-均"
+      ],
+      "legacy_id": "n3cb-554",
+      "lesson": 12,
+      "meaning_vi": "Trung bình",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "１０年に１度、大きな地震が"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trung bình"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-555-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "クラスの{男女|だんじょ}の[[{割合|わりあい}]]は{半分|はんぶん}ずつです。",
+          "source": "ai-draft",
+          "vi": "Tỷ lệ nam nữ trong lớp là một nửa mỗi bên."
+        }
+      ],
+      "han_viet": "CÁT HỢP",
+      "id": "n3-555",
+      "kana": "わりあい",
+      "kanji": "割合",
+      "kanji_refs": [
+        "k-割",
+        "k-合"
+      ],
+      "legacy_id": "n3cb-555",
+      "lesson": 12,
+      "meaning_vi": "Tỷ lệ; Rất (Hơn mức mình nghĩ)",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tỷ lệ"
+        },
+        {
+          "context": null,
+          "text": "Rất (Hơn mức mình nghĩ)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-556-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{祖父|そふ}は{駅前|えきまえ}で[[{商売|しょうばい}する]]{店|みせ}を{持|も}っていました。",
+          "source": "ai-draft",
+          "vi": "Ông tôi từng có cửa hàng buôn bán trước ga."
+        }
+      ],
+      "han_viet": "THƯƠNG MẠI",
+      "id": "n3-556",
+      "kana": "しょうばいする",
+      "kanji": "商売する",
+      "kanji_refs": [
+        "k-商",
+        "k-売"
+      ],
+      "legacy_id": "n3cb-556",
+      "lesson": 12,
+      "meaning_vi": "Kinh doanh, buôn bán",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Kinh doanh, buôn bán"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-557-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "この[[{商品|しょうひん}]]は{良|よ}く{売|う}れています。",
+          "source": "ai-draft",
+          "vi": "Sản phẩm này bán rất chạy."
+        }
+      ],
+      "han_viet": "THƯƠNG PHẨM",
+      "id": "n3-557",
+      "kana": "しょうひん",
+      "kanji": "商品",
+      "kanji_refs": [
+        "k-商",
+        "k-品"
+      ],
+      "legacy_id": "n3cb-557",
+      "lesson": 12,
+      "meaning_vi": "Sản phẩm",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Sản phẩm"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-558-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{値段|ねだん}より[[{質|しつ}]]が{大切|たいせつ}です。",
+          "source": "ai-draft",
+          "vi": "Chất lượng quan trọng hơn giá cả."
+        }
+      ],
+      "han_viet": "CHẤT",
+      "id": "n3-558",
+      "kana": "しつ",
+      "kanji": "質",
+      "kanji_refs": [
+        "k-質"
+      ],
+      "legacy_id": "n3cb-558",
+      "lesson": 12,
+      "meaning_vi": "Chất lượng",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chất lượng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-559-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "この{服|ふく}は{新|あたら}しい[[{型|かた}]]です。",
+          "source": "ai-draft",
+          "vi": "Bộ quần áo này là mẫu mới."
+        }
+      ],
+      "han_viet": "HÌNH",
+      "id": "n3-559",
+      "kana": "かた",
+      "kanji": "型",
+      "kanji_refs": [
+        "k-型"
+      ],
+      "legacy_id": "n3cb-559",
+      "lesson": 12,
+      "meaning_vi": "Mẫu, kiểu, cỡ",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "→ 新型",
+        "ジェット機",
+        "ジェット機",
+        "コロナウィルス",
+        "テレビ"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Mẫu, kiểu, cỡ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-560-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "この{工場|こうじょう}では{車|くるま}を[[{生産|せいさん}]]しています。",
+          "source": "ai-draft",
+          "vi": "Nhà máy này đang sản xuất ô tô."
+        }
+      ],
+      "han_viet": "SINH SẢN",
+      "id": "n3-560",
+      "kana": "せいさん",
+      "kanji": "生産",
+      "kanji_refs": [
+        "k-生",
+        "k-産"
+      ],
+      "legacy_id": "n3cb-560",
+      "lesson": 12,
+      "meaning_vi": "Sản xuất",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Sản xuất"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-561-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{夏|なつ}は{電気|でんき}の[[{消費|しょうひ}]]が{増|ふ}えます。",
+          "source": "ai-draft",
+          "vi": "Mùa hè lượng tiêu thụ điện tăng."
+        }
+      ],
+      "han_viet": "TIÊU PHÍ",
+      "id": "n3-561",
+      "kana": "しょうひ",
+      "kanji": "消費",
+      "kanji_refs": [
+        "k-消",
+        "k-費"
+      ],
+      "legacy_id": "n3cb-561",
+      "lesson": 12,
+      "meaning_vi": "Tiêu hao; Thuế VAT",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tiêu hao"
+        },
+        {
+          "context": null,
+          "text": "Thuế VAT"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-562-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{東京|とうきょう}は[[{物価|ぶっか}]]が{高|たか}いです。",
+          "source": "ai-draft",
+          "vi": "Vật giá ở Tokyo cao."
+        }
+      ],
+      "han_viet": "VẬT GIÁ",
+      "id": "n3-562",
+      "kana": "ぶっか",
+      "kanji": "物価",
+      "kanji_refs": [
+        "k-物",
+        "k-価"
+      ],
+      "legacy_id": "n3cb-562",
+      "lesson": 12,
+      "meaning_vi": "Vật giá, giá cả",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-21-018"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "Vật giá, giá cả"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-563-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{不景気|ふけいき}で{会社|かいしゃ}が[[{倒産|とうさん}する]]かもしれません。",
+          "source": "ai-draft",
+          "vi": "Vì kinh tế suy thoái, công ty có thể phá sản."
+        }
+      ],
+      "han_viet": "ĐẢO SẢN",
+      "id": "n3-563",
+      "kana": "とうさんする",
+      "kanji": "倒産する",
+      "kanji_refs": [
+        "k-倒",
+        "k-産"
+      ],
+      "legacy_id": "n3cb-563",
+      "lesson": 12,
+      "meaning_vi": "Phá sản",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Phá sản"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-564-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{日本|にほん}の[[{文化|ぶんか}]]を{勉強|べんきょう}しています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang học văn hóa Nhật Bản."
+        }
+      ],
+      "han_viet": "VĂN HÓA",
+      "id": "n3-564",
+      "kana": "ぶんか",
+      "kanji": "文化",
+      "kanji_refs": [
+        "k-文",
+        "k-化"
+      ],
+      "legacy_id": "n3cb-564",
+      "lesson": 12,
+      "meaning_vi": "Văn hoá",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "文化文化遺産文化交流"
+      ],
+      "review": "auto",
+      "same_word": [
+        "mn-42-013"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "Văn hoá"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [
+        "・中央政府"
+      ],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-565-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{私|わたし}は[[{地方|ちほう}]]の{小|ちい}さい{町|まち}で{生|う}まれました。",
+          "source": "ai-draft",
+          "vi": "Tôi sinh ra ở một thị trấn nhỏ ở địa phương."
+        }
+      ],
+      "han_viet": "ĐỊA PHƯƠNG",
+      "id": "n3-565",
+      "kana": "ちほう",
+      "kanji": "地方",
+      "kanji_refs": [
+        "k-地",
+        "k-方"
+      ],
+      "legacy_id": "n3cb-565",
+      "lesson": 12,
+      "meaning_vi": "Vùng, khu vực; Địa phương, quê",
+      "particle": null,
+      "pos": {
+        "code": "N",
+        "label": "Danh từ"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Vùng, khu vực"
+        },
+        {
+          "context": null,
+          "text": "Địa phương, quê"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-566-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{国|くに}と{国|くに}が[[{戦争|せんそう}する]]のは{悲|かな}しいことです。",
+          "source": "ai-draft",
+          "vi": "Các nước gây chiến với nhau là điều đáng buồn."
+        }
+      ],
+      "han_viet": "CHIẾN TRANH",
+      "id": "n3-566",
+      "kana": "せんそうする",
+      "kanji": "戦争する",
+      "kanji_refs": [
+        "k-戦",
+        "k-争"
+      ],
+      "legacy_id": "n3cb-566",
+      "lesson": 12,
+      "meaning_vi": "Chiến tranh",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chiến tranh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-567-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{世界|せかい}が[[{平和|へいわ}]]になってほしいです。",
+          "source": "ai-draft",
+          "vi": "Tôi mong thế giới hòa bình."
+        }
+      ],
+      "han_viet": "BÌNH HÒA",
+      "id": "n3-567",
+      "kana": "へいわ",
+      "kanji": "平和",
+      "kanji_refs": [
+        "k-平",
+        "k-和"
+      ],
+      "legacy_id": "n3cb-567",
+      "lesson": 12,
+      "meaning_vi": "Hoà bình; Hoà hợp, hiền hoà",
+      "particle": null,
+      "pos": {
+        "code": "An",
+        "label": "Tính từ な"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [
+        "mn-42-018"
+      ],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hoà bình"
+        },
+        {
+          "context": null,
+          "text": "Hoà hợp, hiền hoà"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-568-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{山|やま}を[[{越|こ}える]]と、{海|うみ}が{見|み}えます。",
+          "source": "ai-draft",
+          "vi": "Vượt qua núi sẽ nhìn thấy biển."
+        }
+      ],
+      "han_viet": "VIỆT",
+      "id": "n3-568",
+      "kana": "こえる",
+      "kanji": "越える",
+      "kanji_refs": [
+        "k-越"
+      ],
+      "legacy_id": "n3cb-568",
+      "lesson": 12,
+      "meaning_vi": "Vượt qua, vượt quá",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Vượt qua, vượt quá"
+        }
+      ],
+      "transitivity": null,
+      "variants": [
+        "超える"
+      ]
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-569-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{約束|やくそく}の{時間|じかん}が[[{過|す}ぎて]]しまいました。",
+          "source": "ai-draft",
+          "vi": "Đã quá giờ hẹn mất rồi."
+        }
+      ],
+      "han_viet": "QUÁ",
+      "id": "n3-569",
+      "kana": "すぎる",
+      "kanji": "過ぎる",
+      "kanji_refs": [
+        "k-過"
+      ],
+      "legacy_id": "n3cb-569",
+      "lesson": 12,
+      "meaning_vi": "Đi qua; Quá, vượt quá",
+      "particle": "が",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Đi qua"
+        },
+        {
+          "context": null,
+          "text": "Quá, vượt quá"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-570-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{来月|らいげつ}、{新|あたら}しい{事務所|じむしょ}に[[{移|うつ}ります]]。",
+          "source": "ai-draft",
+          "vi": "Tháng sau chúng tôi chuyển đến văn phòng mới."
+        }
+      ],
+      "han_viet": "DI",
+      "id": "n3-570",
+      "kana": "うつる",
+      "kanji": "移る",
+      "kanji_refs": [
+        "k-移"
+      ],
+      "legacy_id": "n3cb-570",
+      "lesson": 12,
+      "meaning_vi": "Di chuyển",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Di chuyển"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-571-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{机|つくえ}を{窓|まど}の{近|ちか}くに[[{移|うつ}しました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã dời bàn đến gần cửa sổ."
+        }
+      ],
+      "han_viet": "DI",
+      "id": "n3-571",
+      "kana": "うつす",
+      "kanji": "移す",
+      "kanji_refs": [
+        "k-移"
+      ],
+      "legacy_id": "n3cb-571",
+      "lesson": 12,
+      "meaning_vi": "chuyển, dời; làm lây (bệnh)",
+      "particle": "を",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "chuyển, dời"
+        },
+        {
+          "context": null,
+          "text": "làm lây (bệnh)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-572-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{日曜日|にちようび}は{子|こ}どもを[[{連|つ}れて]]{公園|こうえん}に{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật tôi dẫn con đi công viên."
+        }
+      ],
+      "han_viet": "LIÊN",
+      "id": "n3-572",
+      "kana": "つれる",
+      "kanji": "連れる",
+      "kanji_refs": [
+        "k-連"
+      ],
+      "legacy_id": "n3cb-572",
+      "lesson": 12,
+      "meaning_vi": "Dẫn",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "連れて行って もらえませんか？連れて来ることに"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Dẫn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-573-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{帰|かえ}りにスーパーに[[{寄|よ}りました]]。",
+          "source": "ai-draft",
+          "vi": "Trên đường về tôi ghé siêu thị."
+        }
+      ],
+      "han_viet": "KÝ",
+      "id": "n3-573",
+      "kana": "よる",
+      "kanji": "寄る",
+      "kanji_refs": [
+        "k-寄"
+      ],
+      "legacy_id": "n3cb-573",
+      "lesson": 12,
+      "meaning_vi": "Tiến về phía ～; Lệch; Ghé vào",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tiến về phía ～"
+        },
+        {
+          "context": null,
+          "text": "Lệch"
+        },
+        {
+          "context": null,
+          "text": "Ghé vào"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-574-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{机|つくえ}を{壁|かべ}のほうに[[{寄|よ}せて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy dịch bàn về phía tường."
+        }
+      ],
+      "han_viet": "KÝ",
+      "id": "n3-574",
+      "kana": "よせる",
+      "kanji": "寄せる",
+      "kanji_refs": [
+        "k-寄"
+      ],
+      "legacy_id": "n3cb-574",
+      "lesson": 12,
+      "meaning_vi": "Di chuyển ～ về phía",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Di chuyển ～ về phía"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-575-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{子|こ}どもにお{菓子|かし}を[[{与|あた}えすぎないで]]ください。",
+          "source": "ai-draft",
+          "vi": "Đừng cho trẻ ăn quá nhiều bánh kẹo."
+        }
+      ],
+      "han_viet": "DỮ",
+      "id": "n3-575",
+      "kana": "あたえる",
+      "kanji": "与える",
+      "kanji_refs": [
+        "k-与"
+      ],
+      "legacy_id": "n3cb-575",
+      "lesson": 12,
+      "meaning_vi": "Trao, cho; Đem lại, gây ra",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Trao, cho"
+        },
+        {
+          "context": null,
+          "text": "Đem lại, gây ra"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-576-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{彼|かれ}は{窓|まど}のほうを[[{向|む}いて]]{座|すわ}っています。",
+          "source": "ai-draft",
+          "vi": "Anh ấy ngồi quay mặt về phía cửa sổ."
+        }
+      ],
+      "han_viet": "HƯỚNG",
+      "id": "n3-576",
+      "kana": "むく",
+      "kanji": "向く",
+      "kanji_refs": [
+        "k-向"
+      ],
+      "legacy_id": "n3cb-576",
+      "lesson": 12,
+      "meaning_vi": "Hướng về",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hướng về"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-577-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "カメラを{私|わたし}のほうに[[{向|む}けないで]]ください。",
+          "source": "ai-draft",
+          "vi": "Đừng chĩa máy ảnh về phía tôi."
+        }
+      ],
+      "han_viet": "HƯỚNG",
+      "id": "n3-577",
+      "kana": "むける",
+      "kanji": "向ける",
+      "kanji_refs": [
+        "k-向"
+      ],
+      "legacy_id": "n3cb-577",
+      "lesson": 12,
+      "meaning_vi": "hướng ～ về, chĩa về",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "user",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "hướng ～ về, chĩa về"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-578-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "この{仕事|しごと}は{彼|かれ}に[[{任|まか}せましょう]]。",
+          "source": "ai-draft",
+          "vi": "Hãy giao công việc này cho anh ấy."
+        }
+      ],
+      "han_viet": "NHIỆM",
+      "id": "n3-578",
+      "kana": "まかせる",
+      "kanji": "任せる",
+      "kanji_refs": [
+        "k-任"
+      ],
+      "legacy_id": "n3cb-578",
+      "lesson": 12,
+      "meaning_vi": "Giao phó",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Giao phó"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-579-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{交通|こうつう}ルールを[[{守|まも}って]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy tuân thủ luật giao thông."
+        }
+      ],
+      "han_viet": "THỦ",
+      "id": "n3-579",
+      "kana": "まもる",
+      "kanji": "守る",
+      "kanji_refs": [
+        "k-守"
+      ],
+      "legacy_id": "n3cb-579",
+      "lesson": 12,
+      "meaning_vi": "Bảo vệ; Tuân thủ",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Bảo vệ"
+        },
+        {
+          "context": null,
+          "text": "Tuân thủ"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-580-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{兄弟|きょうだい}が{玩具|おもちゃ}を[[{争|あらそ}って]]います。",
+          "source": "ai-draft",
+          "vi": "Anh em đang tranh giành đồ chơi."
+        }
+      ],
+      "han_viet": "TRANH",
+      "id": "n3-580",
+      "kana": "あらそう",
+      "kanji": "争う",
+      "kanji_refs": [
+        "k-争"
+      ],
+      "legacy_id": "n3cb-580",
+      "lesson": 12,
+      "meaning_vi": "Tranh cãi, tranh chấp, tranh giành; Cạnh tranh",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tranh cãi, tranh chấp, tranh giành"
+        },
+        {
+          "context": null,
+          "text": "Cạnh tranh"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-581-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{両親|りょうしん}は{私|わたし}が{医者|いしゃ}になることを[[{望|のぞ}んで]]います。",
+          "source": "ai-draft",
+          "vi": "Bố mẹ mong tôi trở thành bác sĩ."
+        }
+      ],
+      "han_viet": "VỌNG",
+      "id": "n3-581",
+      "kana": "のぞむ",
+      "kanji": "望む",
+      "kanji_refs": [
+        "k-望"
+      ],
+      "legacy_id": "n3cb-581",
+      "lesson": 12,
+      "meaning_vi": "Hi vọng, kỳ vọng",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [
+        "＋望む： 平和、元気",
+        "＋希望： 仕事、給料"
+      ],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hi vọng, kỳ vọng"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-582-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{私|わたし}は{貴方|あなた}の{言葉|ことば}を[[{信|しん}じる]]。",
+          "source": "ai-draft",
+          "vi": "Tôi tin lời bạn."
+        }
+      ],
+      "han_viet": "TÍN",
+      "id": "n3-582",
+      "kana": "しんじる",
+      "kanji": "信じる",
+      "kanji_refs": [
+        "k-信"
+      ],
+      "legacy_id": "n3cb-582",
+      "lesson": 12,
+      "meaning_vi": "Tin tưởng, tin vào; Tín",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Tin tưởng, tin vào"
+        },
+        {
+          "context": null,
+          "text": "Tín"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-583-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "ここは{英語|えいご}が[[{通|つう}じる]]{店|みせ}です。",
+          "source": "ai-draft",
+          "vi": "Đây là cửa hàng nói tiếng Anh vẫn hiểu được."
+        }
+      ],
+      "han_viet": "THÔNG",
+      "id": "n3-583",
+      "kana": "つうじる",
+      "kanji": "通じる",
+      "kanji_refs": [
+        "k-通"
+      ],
+      "legacy_id": "n3cb-583",
+      "lesson": 12,
+      "meaning_vi": "Hiểu; Dẫn đến, xuyên qua; Kết nối (điện thoại)",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hiểu"
+        },
+        {
+          "context": null,
+          "text": "Dẫn đến, xuyên qua"
+        },
+        {
+          "context": null,
+          "text": "Kết nối (điện thoại)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-584-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{毎日|まいにち}{同|おな}じ{料理|りょうり}で、[[{飽|あ}きて]]しまいました。",
+          "source": "ai-draft",
+          "vi": "Ngày nào cũng một món nên tôi chán rồi."
+        }
+      ],
+      "han_viet": "BÃO",
+      "id": "n3-584",
+      "kana": "あきる",
+      "kanji": "飽きる",
+      "kanji_refs": [
+        "k-飽"
+      ],
+      "legacy_id": "n3cb-584",
+      "lesson": 12,
+      "meaning_vi": "Chán",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Chán"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-585-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "いいアイデアを[[{思|おも}いつきました]]。",
+          "source": "ai-draft",
+          "vi": "Tôi đã nghĩ ra một ý tưởng hay."
+        }
+      ],
+      "han_viet": "TƯ",
+      "id": "n3-585",
+      "kana": "おもいつく",
+      "kanji": "思いつく",
+      "kanji_refs": [
+        "k-思"
+      ],
+      "legacy_id": "n3cb-585",
+      "lesson": 12,
+      "meaning_vi": "Nghĩ ra",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Nghĩ ra"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-586-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{弟|おとうと}はゲームに[[{熱中|ねっちゅう}する]]と、{何|なに}も{聞|き}こえません。",
+          "source": "ai-draft",
+          "vi": "Em trai mà mải mê chơi game thì chẳng nghe thấy gì."
+        }
+      ],
+      "han_viet": "NHIỆT TRUNG",
+      "id": "n3-586",
+      "kana": "ねっちゅうする",
+      "kanji": "熱中する",
+      "kanji_refs": [
+        "k-熱",
+        "k-中"
+      ],
+      "legacy_id": "n3cb-586",
+      "lesson": 12,
+      "meaning_vi": "Mải mê, chăm chú; Say nắng, shock nhiệt",
+      "particle": null,
+      "pos": {
+        "code": "V3",
+        "label": "Động từ nhóm 3"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Mải mê, chăm chú"
+        },
+        {
+          "context": null,
+          "text": "Say nắng, shock nhiệt"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-587-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{祖母|そぼ}は{田舎|いなか}で{一人|ひとり}で[[{暮|く}らして]]います。",
+          "source": "ai-draft",
+          "vi": "Bà tôi sống một mình ở quê."
+        }
+      ],
+      "han_viet": "MỘ",
+      "id": "n3-587",
+      "kana": "くらす",
+      "kanji": "暮らす",
+      "kanji_refs": [
+        "k-暮"
+      ],
+      "legacy_id": "n3cb-587",
+      "lesson": 12,
+      "meaning_vi": "Sống, sinh sống",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "mixed",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Sống, sinh sống"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-588-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{寒|さむ}いので、マフラーを[[{巻|ま}いて]]{出|で}かけます。",
+          "source": "ai-draft",
+          "vi": "Vì lạnh nên tôi quàng khăn rồi ra ngoài."
+        }
+      ],
+      "han_viet": "QUYỂN",
+      "id": "n3-588",
+      "kana": "まく",
+      "kanji": "巻く",
+      "kanji_refs": [
+        "k-巻"
+      ],
+      "legacy_id": "n3cb-588",
+      "lesson": 12,
+      "meaning_vi": "Quấn, cuốn",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Quấn, cuốn"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [
+        "ほどく結んでもらう。・「東京とニューヨークを結ぶ飛行機は、１日何便ですか」・（条約/ 契約…）を結ぶ。"
+      ],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-589-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{靴|くつ}の{紐|ひも}を[[{結|むす}んで]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy buộc dây giày."
+        }
+      ],
+      "han_viet": "KẾT",
+      "id": "n3-589",
+      "kana": "むすぶ",
+      "kanji": "結ぶ",
+      "kanji_refs": [
+        "k-結"
+      ],
+      "legacy_id": "n3cb-589",
+      "lesson": 12,
+      "meaning_vi": "Buộc, thắt; Nối (chuyến); Ký kết (hợp đồng)",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Buộc, thắt"
+        },
+        {
+          "context": null,
+          "text": "Nối (chuyến)"
+        },
+        {
+          "context": null,
+          "text": "Ký kết (hợp đồng)"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-590-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{宿題|しゅくだい}がやっと[[{済|す}みました]]。",
+          "source": "ai-draft",
+          "vi": "Cuối cùng bài tập cũng đã xong."
+        }
+      ],
+      "han_viet": "TẾ",
+      "id": "n3-590",
+      "kana": "すむ",
+      "kanji": "済む",
+      "kanji_refs": [
+        "k-済"
+      ],
+      "legacy_id": "n3cb-590",
+      "lesson": 12,
+      "meaning_vi": "Xong, hoàn thành",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Xong, hoàn thành"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-591-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{昼|ひる}ご{飯|はん}はパンで[[{済|す}ませる]]ことが{多|おお}いです。",
+          "source": "ai-draft",
+          "vi": "Bữa trưa tôi thường ăn tạm bánh mì cho xong."
+        }
+      ],
+      "han_viet": "TẾ",
+      "id": "n3-591",
+      "kana": "すませる",
+      "kanji": "済ませる",
+      "kanji_refs": [
+        "k-済"
+      ],
+      "legacy_id": "n3cb-591",
+      "lesson": 12,
+      "meaning_vi": "Hoàn tất; Không làm ～ cũng xong; Cũng xong cũng được; Cắt được, sắc",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hoàn tất"
+        },
+        {
+          "context": null,
+          "text": "Không làm ～ cũng xong"
+        },
+        {
+          "context": null,
+          "text": "Cũng xong cũng được"
+        },
+        {
+          "context": null,
+          "text": "Cắt được, sắc"
+        }
+      ],
+      "transitivity": null,
+      "variants": [
+        "を済ます"
+      ]
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-592-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{携帯電話|けいたいでんわ}の{電池|でんち}が[[{切|き}れました]]。",
+          "source": "ai-draft",
+          "vi": "Điện thoại di động hết pin rồi."
+        }
+      ],
+      "han_viet": "THIẾT",
+      "id": "n3-592",
+      "kana": "きれる",
+      "kanji": "切れる",
+      "kanji_refs": [
+        "k-切"
+      ],
+      "legacy_id": "n3cb-592",
+      "lesson": 12,
+      "meaning_vi": "Hết hạn, hết hiệu lực; Hết",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Hết hạn, hết hiệu lực"
+        },
+        {
+          "context": null,
+          "text": "Hết"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-593-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{私|わたし}の{気持|きも}ちが{彼女|かのじょ}に[[{伝|つた}わりました]]。",
+          "source": "ai-draft",
+          "vi": "Tình cảm của tôi đã truyền đến cô ấy."
+        }
+      ],
+      "han_viet": "TRUYỀN",
+      "id": "n3-593",
+      "kana": "つたわる",
+      "kanji": "伝わる",
+      "kanji_refs": [
+        "k-伝"
+      ],
+      "legacy_id": "n3cb-593",
+      "lesson": 12,
+      "meaning_vi": "Lưu truyền truyền đạt; Được truyền vào, du nhập; Truyền đạt, chuyển lời",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Lưu truyền truyền đạt"
+        },
+        {
+          "context": null,
+          "text": "Được truyền vào, du nhập"
+        },
+        {
+          "context": null,
+          "text": "Truyền đạt, chuyển lời"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-594-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{田中|たなか}さんによろしく[[{伝|つた}えて]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi gửi lời hỏi thăm anh Tanaka."
+        }
+      ],
+      "han_viet": "TRUYỀN",
+      "id": "n3-594",
+      "kana": "つたえる",
+      "kanji": "伝える",
+      "kanji_refs": [
+        "k-伝"
+      ],
+      "legacy_id": "n3cb-594",
+      "lesson": 12,
+      "meaning_vi": "Lưu truyền truyền đạt; Được truyền vào, du nhập; Truyền đạt, chuyển lời",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Lưu truyền truyền đạt"
+        },
+        {
+          "context": null,
+          "text": "Được truyền vào, du nhập"
+        },
+        {
+          "context": null,
+          "text": "Truyền đạt, chuyển lời"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-595-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{雨|あめ}の{日|ひ}が{一週間|いっしゅうかん}[[{続|つづ}きました]]。",
+          "source": "ai-draft",
+          "vi": "Những ngày mưa kéo dài suốt một tuần."
+        }
+      ],
+      "han_viet": "TỤC",
+      "id": "n3-595",
+      "kana": "つづく",
+      "kanji": "続く",
+      "kanji_refs": [
+        "k-続"
+      ],
+      "legacy_id": "n3cb-595",
+      "lesson": 12,
+      "meaning_vi": "Liên tục trải dài; Tiếp, tiếp theo; Liên tục",
+      "particle": null,
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Liên tục trải dài"
+        },
+        {
+          "context": null,
+          "text": "Tiếp, tiếp theo"
+        },
+        {
+          "context": null,
+          "text": "Liên tục"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-596-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{毎日|まいにち}{日本語|にほんご}の{勉強|べんきょう}を[[{続|つづ}けて]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi tiếp tục học tiếng Nhật mỗi ngày."
+        }
+      ],
+      "han_viet": "TỤC",
+      "id": "n3-596",
+      "kana": "つづける",
+      "kanji": "続ける",
+      "kanji_refs": [
+        "k-続"
+      ],
+      "legacy_id": "n3cb-596",
+      "lesson": 12,
+      "meaning_vi": "(Kéo dài) liền, liên tục; Tiếp tục",
+      "particle": null,
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "(Kéo dài) liền, liên tục"
+        },
+        {
+          "context": null,
+          "text": "Tiếp tục"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-597-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "この{道|みち}は{駅|えき}に[[つながって]]います。",
+          "source": "ai-draft",
+          "vi": "Con đường này nối với nhà ga."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-597",
+      "kana": "つながる",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-597",
+      "lesson": 12,
+      "meaning_vi": "Nối, kết nối; Được kết nối, dẫn đến; (Kéo dài) liên tục; Kết nối (điện thoại, mạng)",
+      "particle": "が",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Nối, kết nối"
+        },
+        {
+          "context": null,
+          "text": "Được kết nối, dẫn đến"
+        },
+        {
+          "context": null,
+          "text": "(Kéo dài) liên tục"
+        },
+        {
+          "context": null,
+          "text": "Kết nối (điện thoại, mạng)"
+        }
+      ],
+      "transitivity": null,
+      "variants": [
+        "をつなぐ"
+      ]
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-598-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{子|こ}どもと{手|て}を[[つないで]]{歩|ある}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi nắm tay con đi bộ."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-598",
+      "kana": "つなぐ",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-598",
+      "lesson": 12,
+      "meaning_vi": "Nối, kết nối",
+      "particle": "を",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Nối, kết nối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kana",
+      "examples": [
+        {
+          "id": "n3-599-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{二|ふた}つの{机|つくえ}を[[つなげて]]ください。",
+          "source": "ai-draft",
+          "vi": "Hãy ghép hai cái bàn lại với nhau."
+        }
+      ],
+      "han_viet": null,
+      "id": "n3-599",
+      "kana": "つなげる",
+      "kanji": null,
+      "kanji_refs": [],
+      "legacy_id": "n3cb-599",
+      "lesson": 12,
+      "meaning_vi": "Kết nối",
+      "particle": "を",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": null,
+        "kanji": null,
+        "meaning": "source",
+        "pos": "user"
+      },
+      "related": [],
+      "review": "user",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Kết nối"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-600-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{髪|かみ}がだいぶ[[{伸|の}びました]]。",
+          "source": "ai-draft",
+          "vi": "Tóc đã dài ra nhiều."
+        }
+      ],
+      "han_viet": "THÂN",
+      "id": "n3-600",
+      "kana": "のびる",
+      "kanji": "伸びる",
+      "kanji_refs": [
+        "k-伸"
+      ],
+      "legacy_id": "n3cb-600",
+      "lesson": 12,
+      "meaning_vi": "Dài ra; Kéo dài kéo dãn; Tăng lên; Kéo dài, làm phẳng; Nở, trương; Giãn, gião",
+      "particle": "が",
+      "pos": {
+        "code": "V2",
+        "label": "Động từ nhóm 2"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Dài ra"
+        },
+        {
+          "context": null,
+          "text": "Kéo dài kéo dãn"
+        },
+        {
+          "context": null,
+          "text": "Tăng lên"
+        },
+        {
+          "context": null,
+          "text": "Kéo dài, làm phẳng"
+        },
+        {
+          "context": null,
+          "text": "Nở, trương"
+        },
+        {
+          "context": null,
+          "text": "Giãn, gião"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    },
+    {
+      "antonyms": [],
+      "book": "n3",
+      "display": "kanji",
+      "examples": [
+        {
+          "id": "n3-601-e1",
+          "max_lesson": 12,
+          "review": "user",
+          "ruby": "{会議|かいぎ}を{来週|らいしゅう}まで[[{伸|の}ばしました]]。",
+          "source": "ai-draft",
+          "vi": "Đã hoãn cuộc họp đến tuần sau."
+        }
+      ],
+      "han_viet": "THÂN",
+      "id": "n3-601",
+      "kana": "のばす",
+      "kanji": "伸ばす",
+      "kanji_refs": [
+        "k-伸"
+      ],
+      "legacy_id": "n3cb-601",
+      "lesson": 12,
+      "meaning_vi": "Dài ra; Kéo dài kéo dãn; Tăng lên; Kéo dài, làm phẳng; Nở, trương; Giãn, gião",
+      "particle": "を",
+      "pos": {
+        "code": "V1",
+        "label": "Động từ nhóm 1"
+      },
+      "provenance": {
+        "han_viet": "derived",
+        "kanji": "source",
+        "meaning": "source",
+        "pos": "jmdict"
+      },
+      "related": [],
+      "review": "auto",
+      "same_word": [],
+      "senses": [
+        {
+          "context": null,
+          "text": "Dài ra"
+        },
+        {
+          "context": null,
+          "text": "Kéo dài kéo dãn"
+        },
+        {
+          "context": null,
+          "text": "Tăng lên"
+        },
+        {
+          "context": null,
+          "text": "Kéo dài, làm phẳng"
+        },
+        {
+          "context": null,
+          "text": "Nở, trương"
+        },
+        {
+          "context": null,
+          "text": "Giãn, gião"
+        }
+      ],
+      "transitivity": null,
+      "variants": []
+    }
+  ],
+  "lesson": 12,
+  "schema_version": 4
+}

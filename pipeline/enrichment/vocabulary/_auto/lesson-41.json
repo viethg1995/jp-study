@@ -1,0 +1,640 @@
+[
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-001",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_1",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-002",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_2",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "KHIẾN",
+    "han_viet_source": "unihan",
+    "id": "mn-41-003",
+    "kanji": "遣ります",
+    "kanji_gloss": "to do; to undertake",
+    "kanji_refs": [
+      "k-遣"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson41_3",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THƯỢNG",
+    "han_viet_source": "source",
+    "id": "mn-41-004",
+    "kanji": "上げます",
+    "kanji_refs": [
+      "k-上"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_4",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HẠ",
+    "han_viet_source": "source",
+    "id": "mn-41-005",
+    "kanji": "下げます",
+    "kanji_refs": [
+      "k-下"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_5",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THÂN THIẾT",
+    "han_viet_source": "source",
+    "id": "mn-41-006",
+    "kanji": "親切にします",
+    "kanji_refs": [
+      "k-親",
+      "k-切"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_6",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "愛": []
+    },
+    "han_viet_source": null,
+    "id": "mn-41-007",
+    "kanji": "可愛い",
+    "kanji_gloss": "cute; adorable",
+    "kanji_refs": [
+      "k-可",
+      "k-愛"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson41_7",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRÂN",
+    "han_viet_source": "source",
+    "id": "mn-41-008",
+    "kanji": "珍しい",
+    "kanji_refs": [
+      "k-珍"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_8",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "CHÚC",
+    "han_viet_source": "source",
+    "id": "mn-41-009",
+    "kanji": "お祝い",
+    "kanji_refs": [
+      "k-祝"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_9",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NIÊN NGỌC",
+    "han_viet_source": "source",
+    "id": "mn-41-010",
+    "kanji": "お年玉",
+    "kanji_refs": [
+      "k-年",
+      "k-玉"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_10",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIẾN VŨ",
+    "han_viet_source": "source",
+    "id": "mn-41-011",
+    "kanji": "見舞い",
+    "kanji_refs": [
+      "k-見",
+      "k-舞"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_11",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HƯNG VỊ",
+    "han_viet_source": "source",
+    "id": "mn-41-012",
+    "kanji": "興味",
+    "kanji_refs": [
+      "k-興",
+      "k-味"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_12",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÌNH BÁO",
+    "han_viet_source": "source",
+    "id": "mn-41-013",
+    "kanji": "情報",
+    "kanji_refs": [
+      "k-情",
+      "k-報"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_13",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VĂN PHÁP",
+    "han_viet_source": "source",
+    "id": "mn-41-014",
+    "kanji": "文法",
+    "kanji_refs": [
+      "k-文",
+      "k-法"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_14",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "PHÁT ÂM",
+    "han_viet_source": "source",
+    "id": "mn-41-015",
+    "kanji": "発音",
+    "kanji_refs": [
+      "k-発",
+      "k-音"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_15",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VIÊN",
+    "han_viet_source": "source",
+    "id": "mn-41-016",
+    "kanji": "猿",
+    "kanji_refs": [
+      "k-猿"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_16",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "餌": []
+    },
+    "han_viet_source": null,
+    "id": "mn-41-017",
+    "kanji": "餌",
+    "kanji_gloss": "(animal) feed; fodder",
+    "kanji_refs": [
+      "k-餌"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson41_17",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "NGOẠN CỤ",
+    "han_viet_source": "mixed",
+    "id": "mn-41-018",
+    "kanji": "玩具",
+    "kanji_gloss": "toy",
+    "kanji_refs": [
+      "k-玩",
+      "k-具"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson41_18",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "HỘI BẢN",
+    "han_viet_source": "derived",
+    "id": "mn-41-019",
+    "kanji": "絵本",
+    "kanji_gloss": "picture book",
+    "kanji_refs": [
+      "k-絵",
+      "k-本"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson41_19",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỘI",
+    "han_viet_source": "source",
+    "id": "mn-41-020",
+    "kanji": "絵はがき",
+    "kanji_refs": [
+      "k-絵"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_20",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-021",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_21",
+    "lesson": 41,
+    "pos_reason": "JMdict: danh từ thông dụng (driver (of a vehicle); motorist)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_22",
+    "lesson": 41,
+    "pos_reason": "JMdict: danh từ thông dụng (handkerchief)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NGOA HẠ",
+    "han_viet_source": "source",
+    "id": "mn-41-023",
+    "kanji": "靴下",
+    "kanji_refs": [
+      "k-靴",
+      "k-下"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_23",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THỦ ĐẠI",
+    "han_viet_source": "source",
+    "id": "mn-41-024",
+    "kanji": "手袋",
+    "kanji_refs": [
+      "k-手",
+      "k-袋"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_24",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ẤU TRĨ VIÊN",
+    "han_viet_source": "source",
+    "id": "mn-41-025",
+    "kanji": "幼稚園",
+    "kanji_refs": [
+      "k-幼",
+      "k-稚",
+      "k-園"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_25",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NOÃN PHÒNG",
+    "han_viet_source": "source",
+    "id": "mn-41-026",
+    "kanji": "暖房",
+    "kanji_refs": [
+      "k-暖",
+      "k-房"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_26",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LÃNH PHÒNG",
+    "han_viet_source": "source",
+    "id": "mn-41-027",
+    "kanji": "冷房",
+    "kanji_refs": [
+      "k-冷",
+      "k-房"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_27",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ÔN ĐỘ",
+    "han_viet_source": "source",
+    "id": "mn-41-028",
+    "kanji": "温度",
+    "kanji_refs": [
+      "k-温",
+      "k-度"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_28",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỔ PHỤ",
+    "han_viet_source": "source",
+    "id": "mn-41-029",
+    "kanji": "祖父",
+    "kanji_refs": [
+      "k-祖",
+      "k-父"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_29",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TỔ MẪU",
+    "han_viet_source": "source",
+    "id": "mn-41-030",
+    "kanji": "祖母",
+    "kanji_refs": [
+      "k-祖",
+      "k-母"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_30",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÔN",
+    "han_viet_source": "source",
+    "id": "mn-41-031",
+    "kanji": "孫",
+    "kanji_refs": [
+      "k-孫"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_31",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TÔN",
+    "han_viet_source": "source",
+    "id": "mn-41-032",
+    "kanji": "お孫さん",
+    "kanji_refs": [
+      "k-孫"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_32",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-033",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "grandfather",
+        "kanji": "祖父"
+      },
+      {
+        "gloss": "uncle",
+        "kanji": "叔父"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_33",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "BÁ PHỤ",
+    "han_viet_source": "mixed",
+    "id": "mn-41-034",
+    "kanji": "伯父さん",
+    "kanji_gloss": "uncle",
+    "kanji_refs": [
+      "k-伯",
+      "k-父"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson41_34",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-035",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "grandmother",
+        "kanji": "祖母"
+      },
+      {
+        "gloss": "aunt",
+        "kanji": "叔母"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_35",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-036",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "aunt",
+        "kanji": "伯母さん"
+      },
+      {
+        "gloss": "old lady; ma'am",
+        "kanji": "小母さん"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_36",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "QUẢN LÝ NHÂN",
+    "han_viet_source": "source",
+    "id": "mn-41-037",
+    "kanji": "管理人",
+    "kanji_refs": [
+      "k-管",
+      "k-理",
+      "k-人"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_37",
+    "lesson": 41
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-41-038",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "Mt.; Mount",
+        "kanji": "山"
+      },
+      {
+        "gloss": "(giving) birth; childbirth",
+        "kanji": "産"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson41_38",
+    "lesson": 41
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "GIAN",
+    "han_viet_source": "source",
+    "id": "mn-41-039",
+    "kanji": "この間",
+    "kanji_refs": [
+      "k-間"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson41_39",
+    "lesson": 41
+  }
+]

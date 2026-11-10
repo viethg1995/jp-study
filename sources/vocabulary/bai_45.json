@@ -1,0 +1,137 @@
+[
+  {
+    "id": "lesson45_1",
+    "jp": "しんじます",
+    "kanji": "信じます",
+    "kanji_vn": "TÍN",
+    "vn": "tin, tin tưởng",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson45_2",
+    "jp": "キャンセルします",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "hủy bỏ, hủy",
+    "type": "Động từ nhóm 3",
+    "type_code": "V3"
+  },
+  {
+    "id": "lesson45_3",
+    "jp": "しらせます",
+    "kanji": "知らせます",
+    "kanji_vn": "TRI",
+    "vn": "thông báo, báo",
+    "type": "Động từ nhóm 2",
+    "type_code": "V2"
+  },
+  {
+    "id": "lesson45_4",
+    "jp": "ほしょうしょ",
+    "kanji": "保証書",
+    "kanji_vn": "BẢO CHỨNG THƯ",
+    "vn": "giấy bảo hành",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_5",
+    "jp": "りょうしゅうしょ",
+    "kanji": "領収書",
+    "kanji_vn": "LÃNH THÂU THƯ",
+    "vn": "hóa đơn",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_6",
+    "jp": "キャンプ",
+    "kanji": null,
+    "kanji_vn": null,
+    "vn": "trại",
+    "type": "Danh từ riêng",
+    "type_code": "PN"
+  },
+  {
+    "id": "lesson45_7",
+    "jp": "ちゅうし",
+    "kanji": "中止",
+    "kanji_vn": "TRUNG CHỈ",
+    "vn": "dừng, đình chỉ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_8",
+    "jp": "てん",
+    "kanji": "点",
+    "kanji_vn": "ĐIỂM",
+    "vn": "điểm",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_9",
+    "jp": "うめ",
+    "kanji": "梅",
+    "kanji_vn": "MAI",
+    "vn": "hoa mơ",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_10",
+    "jp": "110はん",
+    "kanji": "110番",
+    "kanji_vn": "PHIÊN",
+    "vn": "số điện thoại",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_11",
+    "jp": "119ばん",
+    "kanji": "119番",
+    "kanji_vn": "PHIÊN",
+    "vn": "số 119 (báo cháy khi khẩn cấp)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_12",
+    "jp": "きゅうに",
+    "kanji": "急に",
+    "kanji_vn": "CẤP",
+    "vn": "gấp",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_13",
+    "jp": "むりに",
+    "kanji": "無理に",
+    "kanji_vn": "VÔ LÍ",
+    "vn": "cố, gắng(làm không hợp lý)",
+    "type": "Danh từ",
+    "type_code": "N"
+  },
+  {
+    "id": "lesson45_14",
+    "jp": "楽しみにしています",
+    "kanji": null,
+    "kanji_vn": "NHẠC/LẠC",
+    "vn": "mong đợi, lấy làm vui",
+    "type": "Động từ nhóm 1",
+    "type_code": "V1"
+  },
+  {
+    "id": "lesson45_15",
+    "jp": "いじょうです。",
+    "kanji": "以上です。",
+    "kanji_vn": null,
+    "vn": "Xin hết.",
+    "type": "Cụm từ hội thoại",
+    "type_code": "Conv"
+  }
+]

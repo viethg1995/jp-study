@@ -1,0 +1,575 @@
+{
+  "mn-12-001": {
+    "examples": [
+      {
+        "id": "mn-12-001-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{試験|しけん}は[[{簡単|かんたん}]]でした。",
+        "source": "ai-draft",
+        "vi": "Kỳ thi đã dễ."
+      }
+    ]
+  },
+  "mn-12-002": {
+    "examples": [
+      {
+        "id": "mn-12-002-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{駅|えき}は{家|うち}から[[{近|ちか}い]]です。",
+        "source": "ai-draft",
+        "vi": "Nhà ga gần nhà tôi."
+      }
+    ]
+  },
+  "mn-12-003": {
+    "examples": [
+      {
+        "id": "mn-12-003-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{空港|くうこう}は[[{遠|とお}い]]です。",
+        "source": "ai-draft",
+        "vi": "Sân bay xa."
+      }
+    ]
+  },
+  "mn-12-004": {
+    "examples": [
+      {
+        "id": "mn-12-004-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{新幹線|しんかんせん}はバスより[[{速|はや}い]]です。",
+        "source": "ai-draft",
+        "vi": "Tàu Shinkansen nhanh hơn xe buýt."
+      }
+    ]
+  },
+  "mn-12-005": {
+    "examples": [
+      {
+        "id": "mn-12-005-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "バスは{電車|でんしゃ}より[[{遅|おそ}い]]です。",
+        "source": "ai-draft",
+        "vi": "Xe buýt chậm hơn tàu điện."
+      }
+    ]
+  },
+  "mn-12-006": {
+    "examples": [
+      {
+        "id": "mn-12-006-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{東京|とうきょう}は{人|ひと}が[[{多|おお}い]]です。",
+        "source": "ai-draft",
+        "vi": "Tokyo đông người."
+      }
+    ]
+  },
+  "mn-12-007": {
+    "examples": [
+      {
+        "id": "mn-12-007-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "この{町|まち}は{人|ひと}が[[{少|すく}ない]]です。",
+        "source": "ai-draft",
+        "vi": "Thị trấn này ít người."
+      }
+    ]
+  },
+  "mn-12-008": {
+    "examples": [
+      {
+        "id": "mn-12-008-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{暖|あたた}かい]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay trời ấm."
+      }
+    ]
+  },
+  "mn-12-009": {
+    "examples": [
+      {
+        "id": "mn-12-009-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{秋|あき}は[[{涼|すず}しい]]です。",
+        "source": "ai-draft",
+        "vi": "Mùa thu mát mẻ."
+      }
+    ]
+  },
+  "mn-12-010": {
+    "examples": [
+      {
+        "id": "mn-12-010-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "このケーキは[[{甘|あま}い]]です。",
+        "source": "ai-draft",
+        "vi": "Cái bánh này ngọt."
+      }
+    ]
+  },
+  "mn-12-011": {
+    "examples": [
+      {
+        "id": "mn-12-011-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "タイ{料理|りょうり}は[[{辛|から}い]]です。",
+        "source": "ai-draft",
+        "vi": "Món ăn Thái cay."
+      }
+    ]
+  },
+  "mn-12-012": {
+    "examples": [
+      {
+        "id": "mn-12-012-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "この{荷物|にもつ}は[[{重|おも}い]]です。",
+        "source": "ai-draft",
+        "vi": "Hành lý này nặng."
+      }
+    ]
+  },
+  "mn-12-013": {
+    "examples": [
+      {
+        "id": "mn-12-013-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "この{鞄|かばん}は[[{軽|かる}い]]です。",
+        "source": "ai-draft",
+        "vi": "Cái cặp này nhẹ."
+      }
+    ]
+  },
+  "mn-12-014": {
+    "examples": [
+      {
+        "id": "mn-12-014-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "コーヒーと{紅茶|こうちゃ}とどちらが[[いい]]ですか。",
+        "source": "ai-draft",
+        "vi": "Cà phê và trà đen, bạn chọn cái nào?"
+      }
+    ]
+  },
+  "mn-12-015": {
+    "examples": [
+      {
+        "id": "mn-12-015-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{日本|にほん}で、どの[[{季節|きせつ}]]が{一番|いちばん}{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Ở Nhật, bạn thích mùa nào nhất?"
+      }
+    ]
+  },
+  "mn-12-016": {
+    "examples": [
+      {
+        "id": "mn-12-016-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{春|はる}]]は{暖|あたた}かいです。",
+        "source": "ai-draft",
+        "vi": "Mùa xuân ấm áp."
+      }
+    ]
+  },
+  "mn-12-017": {
+    "examples": [
+      {
+        "id": "mn-12-017-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{夏|なつ}]]は{暑|あつ}いです。",
+        "source": "ai-draft",
+        "vi": "Mùa hè nóng."
+      }
+    ]
+  },
+  "mn-12-018": {
+    "examples": [
+      {
+        "id": "mn-12-018-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{秋|あき}]]が{一番|いちばん}{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích mùa thu nhất."
+      }
+    ]
+  },
+  "mn-12-019": {
+    "examples": [
+      {
+        "id": "mn-12-019-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{冬|ふゆ}]]は{寒|さむ}いです。",
+        "source": "ai-draft",
+        "vi": "Mùa đông lạnh."
+      }
+    ]
+  },
+  "mn-12-020": {
+    "examples": [
+      {
+        "id": "mn-12-020-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{昨日|きのう}は[[{天気|てんき}]]がよかったです。",
+        "source": "ai-draft",
+        "vi": "Hôm qua thời tiết đẹp."
+      }
+    ]
+  },
+  "mn-12-021": {
+    "examples": [
+      {
+        "id": "mn-12-021-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{昨日|きのう}は[[{雨|あめ}]]でした。",
+        "source": "ai-draft",
+        "vi": "Hôm qua trời mưa."
+      }
+    ]
+  },
+  "mn-12-022": {
+    "examples": [
+      {
+        "id": "mn-12-022-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{北海道|ほっかいどう}は[[{雪|ゆき}]]が{多|おお}いです。",
+        "source": "ai-draft",
+        "vi": "Hokkaido có nhiều tuyết."
+      }
+    ]
+  },
+  "mn-12-023": {
+    "examples": [
+      {
+        "id": "mn-12-023-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{今日|きょう}は[[{曇|くも}り]]です。",
+        "source": "ai-draft",
+        "vi": "Hôm nay trời nhiều mây."
+      }
+    ]
+  },
+  "mn-12-024": {
+    "examples": [
+      {
+        "id": "mn-12-024-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "この[[ホテル]]は{駅|えき}から{近|ちか}いです。",
+        "source": "ai-draft",
+        "vi": "Khách sạn này gần nhà ga."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "ホテル: PN→N (JMdict: danh từ thông dụng (hotel))",
+      "status": "reviewed"
+    }
+  },
+  "mn-12-025": {
+    "examples": [
+      {
+        "id": "mn-12-025-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{空港|くうこう}]]まで１{時間|じかん}{掛|か}かります。",
+        "source": "ai-draft",
+        "vi": "Đến sân bay mất 1 tiếng."
+      }
+    ]
+  },
+  "mn-12-026": {
+    "examples": [
+      {
+        "id": "mn-12-026-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{海|うみ}]]は{綺麗|きれい}でした。",
+        "source": "ai-draft",
+        "vi": "Biển đã rất đẹp."
+      }
+    ]
+  },
+  "mn-12-027": {
+    "examples": [
+      {
+        "id": "mn-12-027-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{世界|せかい}]]で{一番|いちばん}{高|たか}い{山|やま}はどこですか。",
+        "source": "ai-draft",
+        "vi": "Ngọn núi cao nhất thế giới ở đâu?"
+      }
+    ]
+  },
+  "mn-12-028": {
+    "examples": [
+      {
+        "id": "mn-12-028-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{昨日|きのう}の[[パーティー]]は{楽|たの}しかったです。",
+        "source": "ai-draft",
+        "vi": "Bữa tiệc hôm qua rất vui."
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "パーティー: PN→N (JMdict: danh từ thông dụng (party (social gathering)))",
+      "status": "reviewed"
+    }
+  },
+  "mn-12-029": {
+    "examples": [
+      {
+        "id": "mn-12-029-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{京都|きょうと}の[[{祭|まつ}り]]は{賑|にぎ}やかでした。",
+        "source": "ai-draft",
+        "vi": "Lễ hội ở Kyoto đã rất náo nhiệt."
+      }
+    ]
+  },
+  "mn-12-030": {
+    "examples": [
+      {
+        "id": "mn-12-030-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[すき{焼|や}き]]は{美味|おい}しいです。",
+        "source": "ai-draft",
+        "vi": "Sukiyaki ngon."
+      }
+    ]
+  },
+  "mn-12-031": {
+    "examples": [
+      {
+        "id": "mn-12-031-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{刺身|さしみ}]]が{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Bạn có thích sashimi không?"
+      }
+    ]
+  },
+  "mn-12-032": {
+    "examples": [
+      {
+        "id": "mn-12-032-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{寿司|すし}]]と{天|てん}ぷらとどちらが{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Sushi và tempura, bạn thích món nào hơn?"
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-12-033": {
+    "examples": [
+      {
+        "id": "mn-12-033-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{天|てん}ぷら]]は{美味|おい}しかったです。",
+        "source": "ai-draft",
+        "vi": "Món tempura đã rất ngon."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-12-034": {
+    "examples": [
+      {
+        "id": "mn-12-034-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{豚肉|ぶたにく}]]は{牛肉|ぎゅうにく}より{安|やす}いです。",
+        "source": "ai-draft",
+        "vi": "Thịt lợn rẻ hơn thịt bò."
+      }
+    ]
+  },
+  "mn-12-035": {
+    "examples": [
+      {
+        "id": "mn-12-035-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[とり{肉|にく}]]を{買|か}いました。",
+        "source": "ai-draft",
+        "vi": "Tôi đã mua thịt gà."
+      }
+    ]
+  },
+  "mn-12-036": {
+    "examples": [
+      {
+        "id": "mn-12-036-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{牛肉|ぎゅうにく}]]は{高|たか}いです。",
+        "source": "ai-draft",
+        "vi": "Thịt bò đắt."
+      }
+    ]
+  },
+  "mn-12-037": {
+    "examples": [
+      {
+        "id": "mn-12-037-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[レモン]]と{林檎|りんご}とどちらが{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Chanh và táo, bạn thích cái nào hơn?"
+      }
+    ],
+    "pos_code": "N",
+    "pos_source": "jmdict",
+    "review": {
+      "by": "user",
+      "pos_by": "user",
+      "pos_note": "レモン: PN→N (JMdict: danh từ thông dụng (lemon))",
+      "status": "reviewed"
+    }
+  },
+  "mn-12-038": {
+    "examples": [
+      {
+        "id": "mn-12-038-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{生|い}け{花|ばな}]]は{楽|たの}しいです。",
+        "source": "ai-draft",
+        "vi": "Cắm hoa thú vị."
+      }
+    ]
+  },
+  "mn-12-039": {
+    "examples": [
+      {
+        "id": "mn-12-039-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{京都|きょうと}の[[{紅葉|もみじ}]]は{綺麗|きれい}です。",
+        "source": "ai-draft",
+        "vi": "Lá đỏ ở Kyoto đẹp."
+      }
+    ]
+  },
+  "mn-12-040": {
+    "examples": [
+      {
+        "id": "mn-12-040-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{夏|なつ}と{冬|ふゆ}と[[どちら]]が{好|す}きですか。",
+        "source": "ai-draft",
+        "vi": "Mùa hè và mùa đông, bạn thích mùa nào hơn?"
+      }
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "kanji": null,
+    "kanji_source": "none",
+    "review": {
+      "by": "user",
+      "note": "nghi vấn từ, viết kana",
+      "status": "reviewed"
+    }
+  },
+  "mn-12-041": {
+    "examples": [
+      {
+        "id": "mn-12-041-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[どちらも]]{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Tôi thích cả hai."
+      }
+    ]
+  },
+  "mn-12-042": {
+    "examples": [
+      {
+        "id": "mn-12-042-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{季節|きせつ}で{春|はる}が[[{一番|いちばん}]]{好|す}きです。",
+        "source": "ai-draft",
+        "vi": "Trong các mùa, tôi thích mùa xuân nhất."
+      }
+    ],
+    "review": {
+      "by": "user",
+      "status": "reviewed"
+    }
+  },
+  "mn-12-043": {
+    "examples": [
+      {
+        "id": "mn-12-043-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "{東京|とうきょう}は{大阪|おおさか}より[[ずっと]]{大|おお}きいです。",
+        "source": "ai-draft",
+        "vi": "Tokyo lớn hơn Osaka nhiều."
+      }
+    ]
+  },
+  "mn-12-044": {
+    "examples": [
+      {
+        "id": "mn-12-044-e1",
+        "max_lesson": 12,
+        "review": "user",
+        "ruby": "[[{初|はじ}めて]]{日本|にほん}へ{来|き}ました。",
+        "source": "ai-draft",
+        "vi": "Tôi đến Nhật lần đầu tiên."
+      }
+    ]
+  }
+}

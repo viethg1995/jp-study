@@ -1,0 +1,333 @@
+[
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "増": []
+    },
+    "han_viet_original": "TĂNGTHÂU XUẤT",
+    "han_viet_source": null,
+    "id": "mn-43-001",
+    "kanji": "増えます",
+    "kanji_refs": [
+      "k-増"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_1",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "GIẢM",
+    "han_viet_original": "GIẢMTHÂU XUẤT",
+    "han_viet_source": "unihan",
+    "id": "mn-43-002",
+    "kanji": "減ります",
+    "kanji_refs": [
+      "k-減"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_2",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "THƯỢNG",
+    "han_viet_original": "THƯỢNGTRỊ ĐOẠN",
+    "han_viet_source": "derived",
+    "id": "mn-43-003",
+    "kanji": "上がります",
+    "kanji_refs": [
+      "k-上"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_3",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "HẠ",
+    "han_viet_original": "HẠTRỊ ĐOẠN",
+    "han_viet_source": "derived",
+    "id": "mn-43-004",
+    "kanji": "下がります",
+    "kanji_refs": [
+      "k-下"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_4",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THIẾT",
+    "han_viet_source": "source",
+    "id": "mn-43-005",
+    "kanji": "切れます",
+    "kanji_refs": [
+      "k-切"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_5",
+    "lesson": 43
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "THỦ",
+    "han_viet_source": "derived",
+    "id": "mn-43-006",
+    "kanji": "取れます",
+    "kanji_gloss": "to come off (of a button, handle, lid, etc.)",
+    "kanji_refs": [
+      "k-取"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson43_6",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed",
+      "pos_verify"
+    ],
+    "han_viet": "LẠC",
+    "han_viet_original": "LẠCHÀ VẬT",
+    "han_viet_source": "derived",
+    "id": "mn-43-007",
+    "kanji": "落ちます",
+    "kanji_refs": [
+      "k-落"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_7",
+    "lesson": 43,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 2 (ichidan)",
+    "pos_suggested": "V2"
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-43-008",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to die; to pass away",
+        "kanji": "亡くなります"
+      },
+      {
+        "gloss": "to be lost (e.g. luggage); to be missing",
+        "kanji": "無くなります"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson43_8",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "BIẾN",
+    "han_viet_source": "source",
+    "id": "mn-43-009",
+    "kanji": "変",
+    "kanji_refs": [
+      "k-変"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_9",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HẠNH",
+    "han_viet_source": "source",
+    "id": "mn-43-010",
+    "kanji": "幸せ",
+    "kanji_refs": [
+      "k-幸"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_10",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "LẠC/NHẠC",
+    "han_viet_source": "source",
+    "id": "mn-43-011",
+    "kanji": "楽",
+    "kanji_refs": [
+      "k-楽"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_11",
+    "lesson": 43
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "THƯỢNG THỦ",
+    "han_viet_source": "derived",
+    "id": "mn-43-012",
+    "kanji": "上手い",
+    "kanji_gloss": "skillful; skilful",
+    "kanji_refs": [
+      "k-上",
+      "k-手"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson43_12",
+    "lesson": 43
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "BẤT VỊ",
+    "han_viet_source": "derived",
+    "id": "mn-43-013",
+    "kanji": "不味い",
+    "kanji_gloss": "bad(-tasting); unpalatable",
+    "kanji_refs": [
+      "k-不",
+      "k-味"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson43_13",
+    "lesson": 43
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "CẬT",
+    "han_viet_source": "derived",
+    "id": "mn-43-014",
+    "kanji": "詰らない",
+    "kanji_gloss": "dull; uninteresting",
+    "kanji_refs": [
+      "k-詰"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson43_14",
+    "lesson": 43
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "ƯU",
+    "han_viet_source": "source",
+    "id": "mn-43-015",
+    "kanji": "優しい",
+    "kanji_refs": [
+      "k-優"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_15",
+    "lesson": 43
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-43-016",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson43_16",
+    "lesson": 43,
+    "pos_reason": "JMdict: danh từ thông dụng (gasoline; petrol)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "HỎA",
+    "han_viet_source": "source",
+    "id": "mn-43-017",
+    "kanji": "火",
+    "kanji_refs": [
+      "k-火"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_17",
+    "lesson": 43
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-43-018",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson43_18",
+    "lesson": 43,
+    "pos_reason": "JMdict: danh từ thông dụng (pamphlet; brochure)",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIM",
+    "han_viet_source": "source",
+    "id": "mn-43-019",
+    "kanji": "今にも",
+    "kanji_refs": [
+      "k-今"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson43_19",
+    "lesson": 43
+  },
+  {
+    "display": "kana",
+    "flags": [],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-43-020",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson43_20",
+    "lesson": 43
+  }
+]

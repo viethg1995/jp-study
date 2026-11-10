@@ -1,0 +1,28 @@
+---
+// Chữ có furigana từ cú pháp {漢字|かな} (không có [[…]]). Dùng cho bảng chia thể.
+import { parseRuby } from "../../lib/ruby";
+
+interface Props {
+  ruby: string;
+  class?: string;
+}
+const { ruby, class: cls } = Astro.props;
+const segs = parseRuby(ruby);
+---
+
+<span class:list={["jp", cls]} lang="ja">
+  {
+    segs.map((s) =>
+      s.reading ? (
+        <ruby>
+          {s.text}
+          <rp>(</rp>
+          <rt>{s.reading}</rt>
+          <rp>)</rp>
+        </ruby>
+      ) : (
+        s.text
+      ),
+    )
+  }
+</span>

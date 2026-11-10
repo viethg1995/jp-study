@@ -1,0 +1,372 @@
+[
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_ambiguous",
+      "han_viet_source_fixed"
+    ],
+    "han_viet": null,
+    "han_viet_original": "SỰ CỐ",
+    "han_viet_source": null,
+    "id": "mn-36-001",
+    "kanji": null,
+    "kanji_candidates": [
+      {
+        "gloss": "to meet; to encounter",
+        "kanji": "会います"
+      },
+      {
+        "gloss": "to come together; to merge",
+        "kanji": "合います"
+      }
+    ],
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson36_1",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TRỮ KIM",
+    "han_viet_source": "source",
+    "id": "mn-36-002",
+    "kanji": "貯金します",
+    "kanji_refs": [
+      "k-貯",
+      "k-金"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_2",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed",
+      "pos_verify"
+    ],
+    "han_viet": "QUÁ",
+    "han_viet_original": "QUÁTHÌ",
+    "han_viet_source": "derived",
+    "id": "mn-36-003",
+    "kanji": "過ぎます",
+    "kanji_refs": [
+      "k-過"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_3",
+    "lesson": 36,
+    "pos_reason": "JMdict: dạng từ điển thuộc nhóm 2 (ichidan)",
+    "pos_suggested": "V2"
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "QUÁN",
+    "han_viet_original": "QUÁNTẬP QUÁN",
+    "han_viet_source": "derived",
+    "id": "mn-36-004",
+    "kanji": "慣れます",
+    "kanji_refs": [
+      "k-慣"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_4",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [
+      "han_viet_source_fixed"
+    ],
+    "han_viet": "HỦ",
+    "han_viet_original": "HỦTHỰC VẬT",
+    "han_viet_source": "unihan",
+    "id": "mn-36-005",
+    "kanji": "腐ります",
+    "kanji_refs": [
+      "k-腐"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_5",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KIẾM ĐẠO",
+    "han_viet_source": "source",
+    "id": "mn-36-006",
+    "kanji": "剣道",
+    "kanji_refs": [
+      "k-剣",
+      "k-道"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_6",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "NHU ĐẠO",
+    "han_viet_source": "source",
+    "id": "mn-36-007",
+    "kanji": "柔道",
+    "kanji_refs": [
+      "k-柔",
+      "k-道"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_7",
+    "lesson": 36
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-36-008",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson36_8",
+    "lesson": 36,
+    "pos_reason": "JMdict: danh từ thông dụng (rush (of people or activity))",
+    "pos_suggested": "N"
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "VŨ TRỤ",
+    "han_viet_source": "source",
+    "id": "mn-36-009",
+    "kanji": "宇宙",
+    "kanji_refs": [
+      "k-宇",
+      "k-宙"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_9",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "KHÚC",
+    "han_viet_source": "source",
+    "id": "mn-36-010",
+    "kanji": "曲",
+    "kanji_refs": [
+      "k-曲"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_10",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỖI CHU",
+    "han_viet_source": "source",
+    "id": "mn-36-011",
+    "kanji": "毎週",
+    "kanji_refs": [
+      "k-毎",
+      "k-週"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_11",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỖI NGUYỆT",
+    "han_viet_source": "source",
+    "id": "mn-36-012",
+    "kanji": "毎月",
+    "kanji_refs": [
+      "k-毎",
+      "k-月"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_12",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "MỖI NIÊN",
+    "han_viet_source": "source",
+    "id": "mn-36-013",
+    "kanji": "毎年",
+    "kanji_refs": [
+      "k-毎",
+      "k-年"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_13",
+    "lesson": 36
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify"
+    ],
+    "han_viet": "KHOẢNH",
+    "han_viet_source": "unihan",
+    "id": "mn-36-014",
+    "kanji": "この頃",
+    "kanji_gloss": "these days; nowadays",
+    "kanji_refs": [
+      "k-頃"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson36_14",
+    "lesson": 36
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "TIỆM",
+    "han_viet_source": "unihan",
+    "id": "mn-36-015",
+    "kanji": "漸と",
+    "kanji_gloss": "at last; finally",
+    "kanji_refs": [
+      "k-漸"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson36_15",
+    "lesson": 36
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "KHẢ DÃ",
+    "han_viet_source": "mixed",
+    "id": "mn-36-016",
+    "kanji": "可也",
+    "kanji_gloss": "considerably; fairly",
+    "kanji_refs": [
+      "k-可",
+      "k-也"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson36_16",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TẤT",
+    "han_viet_source": "source",
+    "id": "mn-36-017",
+    "kanji": "必ず",
+    "kanji_refs": [
+      "k-必"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_17",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "TUYỆT ĐỐI",
+    "han_viet_source": "source",
+    "id": "mn-36-018",
+    "kanji": "絶対に",
+    "kanji_refs": [
+      "k-絶",
+      "k-対"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_18",
+    "lesson": 36
+  },
+  {
+    "display": "kanji",
+    "flags": [],
+    "han_viet": "THƯỢNG THỦ",
+    "han_viet_source": "source",
+    "id": "mn-36-019",
+    "kanji": "上手に",
+    "kanji_refs": [
+      "k-上",
+      "k-手"
+    ],
+    "kanji_source": "source",
+    "legacy_id": "lesson36_19",
+    "lesson": 36
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually"
+    ],
+    "han_viet": "XUẤT LAI",
+    "han_viet_source": "derived",
+    "id": "mn-36-020",
+    "kanji": "出来るだけ",
+    "kanji_gloss": "as much as one can; as much as possible",
+    "kanji_refs": [
+      "k-出",
+      "k-来"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson36_20",
+    "lesson": 36
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "kanji_verify",
+      "kana_usually",
+      "han_viet_ambiguous"
+    ],
+    "han_viet": null,
+    "han_viet_candidates": {
+      "殆": []
+    },
+    "han_viet_source": null,
+    "id": "mn-36-021",
+    "kanji": "殆ど",
+    "kanji_gloss": "almost; nearly",
+    "kanji_refs": [
+      "k-殆"
+    ],
+    "kanji_source": "jmdict",
+    "legacy_id": "lesson36_21",
+    "lesson": 36
+  },
+  {
+    "display": "kana",
+    "flags": [
+      "pos_verify"
+    ],
+    "han_viet": null,
+    "han_viet_source": null,
+    "id": "mn-36-022",
+    "kanji": null,
+    "kanji_refs": [],
+    "kanji_source": null,
+    "legacy_id": "lesson36_22",
+    "lesson": 36,
+    "pos_reason": "JMdict: danh từ thông dụng (Chopin)",
+    "pos_suggested": "N"
+  }
+]

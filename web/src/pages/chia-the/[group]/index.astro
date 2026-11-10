@@ -1,0 +1,259 @@
+---
+// Bảng chia thể của một nhóm (động từ / tính từ い / tính từ な), theo bài.
+// HTML chỉ chứa thể mặc định; chọn thể khác (Combobox #cf-form) → script tải lười /chia-the/<nhóm>/<thể>.json (≈20 KB, giữ trong bộ nhớ)
+// rồi thay ô kết quả. Lọc nhóm động từ / che kết quả: script đặt data-* trên #cf-root, CSS đọc.
+// (Trước đây nhúng cả 20 thể vào mỗi dòng → 3,4 MB, 34k phần tử, trình duyệt lag.)
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import RubyText from "../../../components/jp/RubyText.astro";
+import Combobox, { type ComboGroup } from "../../../components/ui/Combobox.astro";
+import Tag from "../../../components/ui/Tag.astro";
+import type { ConjGroup } from "../../../content.config";
+import Base from "../../../layouts/Base.astro";
+import { GROUP_OF_KIND, GROUP_SLUG, KIND_LABEL, LIST_GROUPS, VERB_FORM_SECTIONS, bySource, entryPath } from "../../../lib/conjugation";
+
+export const getStaticPaths = (() =>
+  LIST_GROUPS.map((g) => ({ params: { group: GROUP_SLUG[g] }, props: { group: g } }))) satisfies GetStaticPaths;
+
+interface Props {
+  group: ConjGroup;
+}
+const { group } = Astro.props;
+const info = (await getCollection("conjGroups")).find((g) => g.data.id === group)!.data;
+const forms = (await getCollection("conjForms"))
+  .map((f) => f.data)
+  .filter((f) => f.group === group)
+  .sort((a, b) => a.order - b.order);
+const entries = (await getCollection("conjEntries"))
+  .map((e) => e.data)
+  .filter((e) => GROUP_OF_KIND[e.kind] === group)
+  .sort((a, b) => a.order - b.order);
+const sections = bySource(entries);
+const kinds = group === "verb" ? (["V1", "V2", "V3"] as const) : [];
+const defaultForm = group === "verb" ? "te" : forms[0]!.id;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Dropdown chọn thể (động từ chia nhóm) và chọn bài — Combobox có ô tìm kiếm
+const formGroups: ComboGroup[] = (
+  group === "verb"
+    ? VERB_FORM_SECTIONS.map((sec) => ({ title: sec.title, forms: sec.ids.flatMap((id) => forms.filter((f) => f.id === id)) }))
+    : [{ title: null, forms }]
+).map((g) => ({ title: g.title, options: g.forms.map((f) => ({ value: f.id, label: f.name_vi, hint: f.name_ja })) }));
+const lessonGroups: ComboGroup[] = [
+  { title: "Minna no Nihongo", options: sections.filter((x) => x.id.startsWith("mn-")).map((x) => ({ value: x.id, label: x.title.replace("Minna · ", "") })) },
+  { title: "N3", options: sections.filter((x) => x.id.startsWith("n3-")).map((x) => ({ value: x.id, label: x.title, keywords: x.title.replace("N3 · ", "") })) },
+].filter((g) => g.options.length > 0);
+const ROMAN: Record<string, string> = { V1: "I", V2: "II", V3: "III" };
+const chip =
+  "min-w-9 cursor-pointer rounded-md border border-line px-2.5 py-1 text-center has-checked:border-primary has-checked:bg-primary has-checked:text-surface has-focus-visible:outline-2 has-focus-visible:outline-primary";
+---
+
+<Base title={`Chia thể · ${info.name_vi}`}>
+  <nav slot="header" class="ml-auto text-sm">
+    <a href={`${base}/chia-the/`} class="rounded px-2 py-1 text-primary hover:bg-primary-soft">Quy tắc chia thể</a>
+  </nav>
+
+  <h1 class="text-2xl font-bold">Bảng chia · {info.name_vi}</h1>
+  <p class="mt-1 text-sm text-ink-muted">
+    {entries.length} từ trong giáo trình. Chọn một thể để xem cả bảng; bấm vào từ để xem đủ các thể.
+  </p>
+
+  <div class="z-10 mt-4 flex flex-wrap sm:sticky sm:top-14 items-center gap-x-5 gap-y-3 rounded-lg border border-line bg-surface px-4 py-3 text-sm">
+    <div class="flex w-full min-w-0 items-center gap-2 sm:w-auto">
+      <span class="shrink-0 text-ink-muted">Thể:</span>
+      <Combobox id="cf-form" label="Chọn thể" groups={formGroups} value={defaultForm} searchPlaceholder="Tìm thể: ない, khả năng…" class="flex-1 sm:w-60 sm:flex-none" />
+    </div>
+    <div class="flex w-full min-w-0 items-center gap-2 sm:w-auto">
+      <span class="shrink-0 text-ink-muted">Bài:</span>
+      <Combobox id="cf-lesson" label="Đến bài" groups={lessonGroups} placeholder="Đến bài…" searchPlaceholder="Tìm bài: 14, N3 2…" class="flex-1 sm:w-64 sm:flex-none" />
+    </div>
+    {
+      kinds.length > 0 && (
+        <div class="flex flex-wrap items-center gap-1.5" role="radiogroup" aria-label="Nhóm động từ">
+          <span class="mr-1 text-ink-muted">Nhóm:</span>
+          <label class={chip}>
+            <input type="radio" name="ck" id="ck-all" class="sr-only" checked />
+            Tất cả
+          </label>
+          {kinds.map((k) => (
+            <label class={chip} title={KIND_LABEL[k]}>
+              <input type="radio" name="ck" id={`ck-${k}`} class="sr-only" aria-label={KIND_LABEL[k]} />
+              {ROMAN[k]}
+            </label>
+          ))}
+        </div>
+      )
+    }
+    <label class="flex cursor-pointer items-center gap-2 text-ink-muted">
+      <input type="checkbox" id="cf-hide" class="accent-primary" />
+      Che kết quả
+    </label>
+  </div>
+
+  <div id="cf-root" data-kind="all" data-src={`${base}/chia-the/${GROUP_SLUG[group]}/`}>
+  {
+    sections.map((s) => (
+      <section id={s.id} class="cf-section mt-6 scroll-mt-20 sm:scroll-mt-36" style={`contain-intrinsic-size: auto ${s.items.length * 70 + 30}px`}>
+        <h2 class="mb-2 text-sm font-semibold text-ink-muted">{s.title}</h2>
+        <ul class="divide-y divide-line overflow-hidden rounded-lg border border-line bg-surface">
+          {s.items.map((e) => (
+            <li class={`cf-row ck-${e.kind}`}>
+              <a
+                href={`${base}/${entryPath(e)}`}
+                class="grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] items-baseline gap-x-4 gap-y-1 px-4 py-2.5 hover:bg-primary-soft sm:grid-cols-[minmax(0,3fr)_minmax(0,4fr)_minmax(0,3fr)]"
+              >
+                <span class="flex items-baseline gap-2">
+                  <RubyText ruby={e.ruby} class="text-lg text-ink" />
+                  {group === "verb" && <Tag>{KIND_LABEL[e.kind]}</Tag>}
+                </span>
+                <span class="cf-res text-right sm:order-last sm:text-left" data-id={e.vocab_id}>
+                  {(() => {
+                    const v = e.forms.find((x) => x.form === defaultForm);
+                    return v ? (
+                      <>
+                        <RubyText ruby={v.ruby} class="text-lg font-semibold text-ink" />
+                        <span class="block text-xs text-ink-faint">{v.rule}</span>
+                      </>
+                    ) : (
+                      <span class="text-ink-faint">— không dùng</span>
+                    );
+                  })()}
+                </span>
+                <span class="col-span-2 text-sm text-ink-muted sm:col-span-1">{e.meaning_vi}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+  </div>
+</Base>
+
+<script>
+  // Tải lười dữ liệu từng thể; dựng furigana từ cú pháp {漢字|かな}
+  import { parseRuby } from "../../../lib/ruby";
+
+  type FormData = Record<string, [string, string] | null>;
+  const root = document.getElementById("cf-root");
+  if (root) {
+    const src = root.dataset.src ?? "";
+    const cache = new Map<string, Promise<FormData>>();
+    const load = (form: string): Promise<FormData> => {
+      let p = cache.get(form);
+      if (!p) {
+        p = fetch(`${src}${form}.json`).then((r) => {
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          return r.json() as Promise<FormData>;
+        });
+        p.catch(() => cache.delete(form));
+        cache.set(form, p);
+      }
+      return p;
+    };
+    const rubyEl = (ruby: string): HTMLElement => {
+      const span = document.createElement("span");
+      span.className = "jp text-lg font-semibold text-ink";
+      span.lang = "ja";
+      for (const s of parseRuby(ruby)) {
+        if (!s.reading) {
+          span.append(s.text);
+          continue;
+        }
+        const r = document.createElement("ruby");
+        const rt = document.createElement("rt");
+        rt.textContent = s.reading;
+        r.append(s.text, rt);
+        span.append(r);
+      }
+      return span;
+    };
+    let current = 0;
+    const show = async (form: string): Promise<void> => {
+      const ticket = ++current;
+      root.setAttribute("aria-busy", "true");
+      try {
+        const data = await load(form);
+        if (ticket !== current) return; // người học đã chọn thể khác trong lúc tải
+        for (const cell of root.querySelectorAll<HTMLElement>(".cf-res")) {
+          const v = data[cell.dataset.id ?? ""];
+          if (v) {
+            const rule = document.createElement("span");
+            rule.className = "block text-xs text-ink-faint";
+            rule.textContent = v[1];
+            cell.replaceChildren(rubyEl(v[0]), rule);
+          } else {
+            const na = document.createElement("span");
+            na.className = "text-ink-faint";
+            na.textContent = "— không dùng";
+            cell.replaceChildren(na);
+          }
+        }
+      } catch {
+        if (ticket === current) alert("Không tải được dữ liệu thể này, thử lại sau.");
+      } finally {
+        if (ticket === current) root.removeAttribute("aria-busy");
+      }
+    };
+    document.addEventListener("change", (ev) => {
+      const t = ev.target as HTMLInputElement;
+      if (t.id === "cf-form") void show(t.value);
+      else if (t.id === "cf-lesson" && t.value) {
+        // Cuộn tức thì rồi chỉnh lại 1 lần: các bài phía trên dùng content-visibility nên kích thước chỉ là ước lượng
+        const target = document.getElementById(t.value);
+        if (target) {
+          // Các bài phía trên dùng content-visibility: kích thước thật chỉ có sau khi vẽ → cuộn, đợi 1 khung hình,
+          // đo lại; lệch so với scroll-margin thì cuộn tiếp (tối đa 20 lần), ổn định 2 khung liền thì dừng.
+          const want = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+          let tries = 0;
+          let stable = 0;
+          target.scrollIntoView();
+          const settle = (): void => {
+            const off = Math.abs(target.getBoundingClientRect().top - want);
+            if (off <= 2) {
+              if (++stable >= 2) return;
+            } else {
+              stable = 0;
+              target.scrollIntoView();
+            }
+            if (++tries < 20) requestAnimationFrame(settle);
+          };
+          requestAnimationFrame(settle);
+        }
+        history.replaceState(null, "", `#${t.value}`);
+      } else if (t.name === "ck") root.dataset.kind = t.id.replace(/^ck-/, "");
+      else if (t.id === "cf-hide") root.toggleAttribute("data-hide", t.checked);
+    });
+    // Trình duyệt giữ lựa chọn khi quay lại trang (back/forward) → đồng bộ lại
+    const kind = document.querySelector<HTMLInputElement>('input[name="ck"]:checked');
+    if (kind) root.dataset.kind = kind.id.replace(/^ck-/, "");
+    root.toggleAttribute("data-hide", document.querySelector<HTMLInputElement>("#cf-hide")?.checked ?? false);
+  }
+</script>
+
+
+<style>
+  /* Bài ngoài màn hình: trình duyệt hoãn vẽ */
+  .cf-section {
+    content-visibility: auto; /* contain-intrinsic-size ước lượng theo số từ, đặt inline */
+  }
+  #cf-root[data-kind="V1"] .cf-row:not(.ck-V1),
+  #cf-root[data-kind="V2"] .cf-row:not(.ck-V2),
+  #cf-root[data-kind="V3"] .cf-row:not(.ck-V3),
+  #cf-root[data-kind="V1"] .cf-section:not(:has(.ck-V1)),
+  #cf-root[data-kind="V2"] .cf-section:not(:has(.ck-V2)),
+  #cf-root[data-kind="V3"] .cf-section:not(:has(.ck-V3)) {
+    display: none;
+  }
+  #cf-root[aria-busy] .cf-res {
+    opacity: 0.4;
+  }
+  #cf-root[data-hide] .cf-res {
+    filter: blur(6px);
+    transition: filter 0.15s;
+  }
+  #cf-root[data-hide] .cf-row:hover .cf-res,
+  #cf-root[data-hide] .cf-row:focus-within .cf-res {
+    filter: none;
+  }
+</style>
