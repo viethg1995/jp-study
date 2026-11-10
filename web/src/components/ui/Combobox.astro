@@ -6,7 +6,7 @@
 export interface ComboOption {
   value: string;
   label: string;
-  hint?: string; // chữ phụ bên phải (vd ます形), cũng được tìm
+  hint?: string; // chữ phụ (vd ます形): không hiển thị, chỉ để tìm
   keywords?: string;
 }
 export interface ComboGroup {
@@ -21,8 +21,9 @@ interface Props {
   placeholder?: string;
   searchPlaceholder?: string;
   class?: string; // độ rộng nút, vd "w-60"
+  align?: "left" | "right"; // mép bám của danh sách xổ ra (right khi nút nằm sát mép phải)
 }
-const { id, label, groups, value = "", placeholder = "Chọn…", searchPlaceholder = "Tìm…", class: cls } = Astro.props;
+const { id, label, groups, value = "", placeholder = "Chọn…", searchPlaceholder = "Tìm…", class: cls, align = "left" } = Astro.props;
 const selected = groups.flatMap((g) => g.options).find((o) => o.value === value);
 const listId = `${id}-list`;
 ---
@@ -42,7 +43,7 @@ const listId = `${id}-list`;
     </svg>
   </button>
 
-  <div class="combo-pop absolute top-[calc(100%+2px)] left-0 z-30 hidden w-full min-w-64 overflow-hidden rounded-md border border-line bg-surface">
+  <div class:list={["combo-pop absolute top-[calc(100%+2px)] z-30 hidden w-full min-w-64 overflow-hidden rounded-md border border-line bg-surface", align === "right" ? "right-0" : "left-0"]}>
     <div class="border-b border-line p-2">
       <input
         type="text"
@@ -55,27 +56,26 @@ const listId = `${id}-list`;
         autocomplete="off"
       />
     </div>
-    <ul id={listId} class="combo-list max-h-72 overflow-y-auto py-1" role="listbox" aria-label={label}>
+    <ul id={listId} class="combo-list relative max-h-72 overflow-y-auto py-1" role="listbox" aria-label={label}>
       {
         groups.map((g) => (
           <>
             {g.title && (
-              <li class="combo-group px-3 pt-2.5 pb-1 text-xs font-semibold text-ink-faint" role="presentation">
+              <li class="combo-group px-3 pt-2 pb-1 text-sm font-bold text-ink" role="presentation">
                 {g.title}
               </li>
             )}
             {g.options.map((o) => (
               <li
                 id={`${id}-opt-${o.value}`}
-                class="combo-opt flex cursor-pointer items-baseline justify-between gap-3 px-3 py-1.5 text-sm text-ink"
+                class:list={["combo-opt cursor-pointer truncate py-1.5 pr-3 text-sm text-ink", g.title ? "pl-7" : "pl-3"]}
                 role="option"
                 aria-selected={o.value === value ? "true" : "false"}
                 data-value={o.value}
                 data-label={o.label}
                 data-search={`${o.label} ${o.hint ?? ""} ${o.keywords ?? ""}`}
               >
-                <span>{o.label}</span>
-                {o.hint && <span class="jp text-xs text-ink-faint" lang="ja">{o.hint}</span>}
+                {o.label}
               </li>
             ))}
           </>
@@ -116,6 +116,15 @@ const listId = `${id}-list`;
     const opts = [...root.querySelectorAll<HTMLElement>(".combo-opt")];
     const groups = [...root.querySelectorAll<HTMLElement>(".combo-group")];
     const empty = root.querySelector<HTMLElement>(".combo-empty")!;
+    const list = root.querySelector<HTMLElement>(".combo-list")!;
+    // Chỉ cuộn danh sách (scrollIntoView sẽ cuộn cả khung popup/trang)
+    const reveal = (o: HTMLElement): void => {
+      const head = o.previousElementSibling?.classList.contains("combo-group") ? (o.previousElementSibling as HTMLElement) : null;
+      const top = (head && !head.hidden ? head : o).offsetTop;
+      const bottom = o.offsetTop + o.offsetHeight;
+      if (top < list.scrollTop) list.scrollTop = top;
+      else if (bottom > list.scrollTop + list.clientHeight) list.scrollTop = bottom - list.clientHeight;
+    };
     const index = new Map(opts.map((o) => [o, fold(o.dataset.search ?? "")]));
     let active: HTMLElement | null = null;
 
@@ -125,7 +134,7 @@ const listId = `${id}-list`;
       active = o;
       if (o) {
         o.setAttribute("data-active", "");
-        o.scrollIntoView({ block: "nearest" });
+        reveal(o);
         search.setAttribute("aria-activedescendant", o.id);
       } else search.removeAttribute("aria-activedescendant");
     };

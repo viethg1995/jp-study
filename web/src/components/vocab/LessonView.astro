@@ -162,14 +162,18 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
       }
     }
   });
+  // Đổi thứ tự (bật Ngẫu nhiên = xáo lại mỗi lần): sắp lại cả danh sách (lưới cũng đổi theo, bằng CSS order —
+  // không di chuyển DOM) rồi về thẻ 1. Trước đây chỉ xáo ngầm và giữ thẻ đang xem → thẻ đó nhảy tới vị trí ngẫu nhiên.
+  const reorder = (next: string[]): void => {
+    order = next;
+    order.forEach((id, i) => document.getElementById(id)?.style.setProperty("order", String(i)));
+    const first = order[0];
+    if (first) go(first);
+  };
   random?.addEventListener("change", () => {
-    order = random.checked ? shuffle() : [...ids];
-    updateCounter();
+    if (random.checked) reorder(shuffle());
   });
-  document.getElementById("order-seq")?.addEventListener("change", () => {
-    order = [...ids];
-    updateCounter();
-  });
+  document.getElementById("order-seq")?.addEventListener("change", () => reorder([...ids]));
   // Nút Back/Forward của trình duyệt → hiện lại thẻ theo #id (không cuộn)
   window.addEventListener("popstate", () => show(fromHash() ?? ids[0] ?? ""));
 </script>

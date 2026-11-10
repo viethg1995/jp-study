@@ -2,6 +2,7 @@
 // 214 bộ thủ Khang Hy, nhóm theo số nét (1 → 17). Mỗi bộ: chữ + biến thể, số, tên Hán-Việt, nghĩa,
 // số chữ Hán trong dữ liệu thuộc bộ → trang /kanji/bo-thu/<số>/.
 import { getCollection } from "astro:content";
+import Combobox from "../../../components/ui/Combobox.astro";
 import Base from "../../../layouts/Base.astro";
 
 const radicals = (await getCollection("radicals")).map((r) => r.data).sort((a, b) => a.number - b.number);
@@ -16,18 +17,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title="Bộ thủ">
-  <h1 class="text-2xl font-bold">Bộ thủ</h1>
-  <p class="mt-1 text-sm text-ink-muted">214 bộ thủ Khang Hy, xếp theo số nét</p>
-
-  <nav class="mt-4 flex flex-wrap gap-2 text-sm" aria-label="Số nét">
-    {
-      groups.map((g) => (
-        <a href={`#net-${g.strokes}`} class="rounded-md border border-line bg-surface px-3 py-1 text-primary hover:bg-primary-soft">
-          {g.strokes} nét <span class="text-ink-faint">· {g.items.length}</span>
-        </a>
-      ))
-    }
-  </nav>
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <h1 class="text-2xl font-bold">Bộ thủ</h1>
+    <div class="flex items-center gap-2 text-sm">
+      <span class="text-ink-muted">Số nét:</span>
+      <Combobox
+        id="rad-strokes"
+        label="Đến nhóm số nét"
+        groups={[{ title: null, options: groups.map((g) => ({ value: `net-${g.strokes}`, label: `${g.strokes} nét · ${g.items.length} bộ`, keywords: String(g.strokes) })) }]}
+        placeholder="Chọn số nét…"
+        searchPlaceholder="Tìm: 3, 10…"
+        class="w-48"
+        align="right"
+      />
+    </div>
+  </div>
 
   {
     groups.map((g) => (
@@ -73,3 +77,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     ))
   }
 </Base>
+
+<script>
+  // Chọn số nét → cuộn tới nhóm
+  document.getElementById("rad-strokes")?.addEventListener("change", (ev) => {
+    const v = (ev.target as HTMLInputElement).value;
+    document.getElementById(v)?.scrollIntoView();
+    history.replaceState(null, "", `#${v}`);
+  });
+</script>
