@@ -1,0 +1,12 @@
+# Mọi file text lưu trong repo bằng LF (kể cả trên Windows).
+# Pipeline Python trên Windows ghi CRLF → git tự đổi về LF khi commit, không sinh diff rác.
+* text=auto eol=lf
+
+# Nhị phân: không đụng tới xuống dòng
+*.xlsx binary
+*.png  binary
+*.jpg  binary
+*.webp binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
