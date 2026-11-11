@@ -3,6 +3,7 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import { conjLinks } from "../../lib/conjugation";
+import { counterLinks } from "../../lib/counters";
 import LessonView from "../../components/vocab/LessonView.astro";
 
 export const getStaticPaths = (async () => {
@@ -12,6 +13,7 @@ export const getStaticPaths = (async () => {
 
 const { data } = Astro.props;
 const conj = conjLinks((await getCollection("conjEntries")).map((e) => e.data));
+const counters = counterLinks((await getCollection("counterItems")).map((c) => c.data));
 ---
 
-<LessonView lesson={data.lesson} entries={data.entries} route="vocabulary" lastLesson={50} label="Bài" conj={conj} />
+<LessonView lesson={data.lesson} entries={data.entries} route="vocabulary" lastLesson={50} label="Bài" conj={conj} counters={counters} />

@@ -1,0 +1,11 @@
+# 匹 — Động vật nhỏ
+c-hiki-e01|{家|うち}に{猫|ねこ}が[[{1匹|いっぴき}]]います。|Nhà tôi có một con mèo.
+c-hiki-e02|{犬|いぬ}を[[{2匹|にひき}]]{飼|か}っています。|Tôi nuôi hai con chó.
+c-hiki-e03|{川|かわ}で{魚|さかな}を[[{3匹|さんびき}]]{釣|つ}りました。|Tôi đã câu được ba con cá ở sông.
+c-hiki-e04|{池|いけ}に{金魚|きんぎょ}が[[{4匹|よんひき}]]います。|Trong ao có bốn con cá vàng.
+c-hiki-e05|{子猫|こねこ}が[[{6匹|ろっぴき}]]{生|う}まれました。|Sáu chú mèo con đã ra đời.
+c-hiki-e06|{庭|にわ}に{虫|むし}が[[{8匹|はっぴき}]]いました。|Trong vườn có tám con côn trùng.
+c-hiki-e07|{水槽|すいそう}に{魚|さかな}が[[{10匹|じゅっぴき}]]います。|Trong bể cá có mười con cá.
+c-hiki-e08|{犬|いぬ}を[[{何匹|なんびき}]]{飼|か}っていますか。|Bạn nuôi mấy con chó?
+c-hiki-e09|この{店|みせ}には{猫|ねこ}が[[{20匹|にじゅっぴき}]]います。|Cửa hàng này có hai mươi con mèo.
+c-hiki-e10|{池|いけ}に{鯉|こい}が[[{100匹|ひゃっぴき}]]ぐらいいます。|Trong ao có khoảng một trăm con cá chép.

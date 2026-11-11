@@ -66,7 +66,12 @@ export const NAV: NavItem[] = [
     glyph: "数",
     glyphMeaning: "数 — số",
     description: "Số đếm, trợ số từ (～人, ～枚, ～本…), biến âm và ví dụ",
-    href: null,
+    href: "dem-so/",
+    children: [
+      { label: "Trợ số từ", href: "dem-so/" },
+      { label: "Số đếm", href: "dem-so/so-dem/" },
+      { label: "Biến âm", href: "dem-so/bien-am/" },
+    ],
   },
   {
     id: "conjunctions",

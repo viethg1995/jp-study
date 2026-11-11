@@ -1,0 +1,11 @@
+# 日 — Ngày
+c-nichi-e01|{4月|しがつ}[[{1日|ついたち}]]から{会社|かいしゃ}で{働|はたら}きます。|Tôi bắt đầu làm ở công ty từ mùng 1 tháng 4.
+c-nichi-e02|{今日|きょう}は[[{何日|なんにち}]]ですか。|Hôm nay là ngày mấy?
+c-nichi-e03|{誕生日|たんじょうび}は{5月|ごがつ}[[{20日|はつか}]]です。|Sinh nhật tôi là ngày 20 tháng 5.
+c-nichi-e04|{旅行|りょこう}は[[{3日|みっか}]]からです。|Chuyến du lịch bắt đầu từ ngày mùng 3.
+c-nichi-e05|{休|やす}みは[[{4日|よっか}]]までです。|Kỳ nghỉ kéo dài đến ngày mùng 4.
+c-nichi-e06|[[{1日|いちにち}]]に{3回|さんかい}{薬|くすり}を{飲|の}みます。|Một ngày tôi uống thuốc ba lần.
+c-nichi-e07|{来月|らいげつ}の[[{8日|ようか}]]に{国|くに}へ{帰|かえ}ります。|Ngày mùng 8 tháng sau tôi về nước.
+c-nichi-e08|{試験|しけん}は{7月|しちがつ}[[{14日|じゅうよっか}]]です。|Kỳ thi là ngày 14 tháng 7.
+c-nichi-e09|[[{10日|とおか}]]に{友達|ともだち}が{来|き}ます。|Ngày mùng 10 bạn tôi sẽ đến.
+c-nichi-e10|{京都|きょうと}に[[{2日|ふつか}]]いました。|Tôi đã ở Kyoto hai ngày.

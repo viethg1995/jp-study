@@ -1,0 +1,3451 @@
+{
+  "by": "ai",
+  "note": "Bảng trợ số từ (AI soạn từ sources/counters/*.md + bổ sung theo từ vựng Minna, chờ duyệt). Mỗi ô ghi tay; pipeline kiểm từng ô với quy tắc biến âm (sound-rules.json).",
+  "counters": [
+    {
+      "id": "c-tsu",
+      "char": "つ",
+      "kana": "つ",
+      "name_vi": "Đếm chung (số thuần Nhật)",
+      "use_vi": "Đếm đồ vật nói chung khi không có hoặc không nhớ trợ số từ riêng - cũng dùng cho ý kiến, câu hỏi, lỗi…",
+      "items_vi": [
+        "táo",
+        "trứng",
+        "bánh",
+        "hộp",
+        "câu hỏi",
+        "phòng"
+      ],
+      "category": "general",
+      "sound_group": "native",
+      "sound_note_vi": "Số thuần Nhật: cả 10 cách đọc đều phải học thuộc, không theo quy tắc biến âm.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "ひとつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "ふたつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "みっつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よっつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "いつつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "むっつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "やっつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "ここのつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "とお",
+          "alt": [],
+          "irregular": true,
+          "note": "Không có つ."
+        }
+      ],
+      "question": {
+        "kana": "いくつ",
+        "alt": [],
+        "note": "Hỏi số lượng: いくつ (không dùng なんつ). Lịch sự khi hỏi tuổi: おいくつ."
+      },
+      "large_vi": [
+        "～つ chỉ đếm từ 1 đến 10. Từ 11 trở lên dùng số Hán không kèm つ: 11 → じゅういち, 20 → にじゅう, 100 → ひゃく.",
+        "Với đồ vật nhỏ, từ 11 trở lên thường chuyển sang ～個: じゅういっこ, にじゅっこ, ひゃっこ.",
+        "Vì vậy ～つ không có hàng trăm, nghìn, vạn."
+      ],
+      "notes_vi": [
+        "Đặt sau danh từ + trợ từ: りんごを みっつ ください.",
+        "ひとつ còn có nghĩa 'một' (ひとつ質問があります = Tôi có một câu hỏi).",
+        "Cách nói tuổi trẻ nhỏ bằng ～つ (みっつ = 3 tuổi) vẫn gặp trong văn nói."
+      ]
+    },
+    {
+      "id": "c-nin",
+      "char": "人",
+      "kana": "にん",
+      "name_vi": "Người",
+      "use_vi": "Đếm số người.",
+      "items_vi": [
+        "người",
+        "học sinh",
+        "khách",
+        "anh chị em"
+      ],
+      "category": "people",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm, nhưng 1, 2 dùng từ riêng (ひとり, ふたり) và 4 đọc よ (よにん).",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "ひとり",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "ふたり",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よにん",
+          "alt": [],
+          "irregular": true,
+          "note": "Không đọc よんにん."
+        },
+        {
+          "n": 5,
+          "kana": "ごにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななにん",
+          "alt": [
+            "しちにん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうにん",
+          "alt": [
+            "くにん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういちにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 14,
+          "kana": "じゅうよにん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅうにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんにん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんにん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Từ 3 trở đi: số + にん, không biến âm: 30人 さんじゅうにん, 100人 ひゃくにん, 1000人 せんにん, 10000人 いちまんにん.",
+        "Số tận cùng bằng 4 luôn đọc よ: 14人 じゅうよにん, 24人 にじゅうよにん.",
+        "11, 12 người đọc じゅういちにん, じゅうににん (không dùng ひとり, ふたり)."
+      ],
+      "notes_vi": [
+        "人 đọc じん khi chỉ quốc tịch (ベトナムじん = người Việt Nam), khác ～にん dùng để đếm.",
+        "ひとりで = một mình - ふたりで = hai người cùng nhau.",
+        "Cách nói lịch sự ở nhà hàng, khách sạn: ～名 (めい), vd 3名様 さんめいさま."
+      ]
+    },
+    {
+      "id": "c-dai",
+      "char": "台",
+      "kana": "だい",
+      "name_vi": "Máy móc, xe cộ",
+      "use_vi": "Đếm máy móc, thiết bị, xe cộ.",
+      "items_vi": [
+        "ô tô",
+        "xe đạp",
+        "máy tính",
+        "tivi",
+        "máy giặt",
+        "tủ lạnh"
+      ],
+      "category": "objects",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm ở mọi số.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういちだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅうだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんだい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんだい",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Hàng chục, trăm, nghìn, vạn đều ghép nguyên: 20台 にじゅうだい, 100台 ひゃくだい, 1000台 せんだい, 10000台 いちまんだい."
+      ],
+      "notes_vi": [
+        "Xe đạp, ô tô, máy bay nhỏ… đều dùng 台 - tàu điện tính theo toa thì dùng ～両 (りょう)."
+      ]
+    },
+    {
+      "id": "c-mai",
+      "char": "枚",
+      "kana": "まい",
+      "name_vi": "Vật mỏng, dẹt",
+      "use_vi": "Đếm vật mỏng, phẳng.",
+      "items_vi": [
+        "giấy",
+        "tem",
+        "vé",
+        "ảnh",
+        "áo sơ mi",
+        "đĩa"
+      ],
+      "category": "objects",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm ở mọi số — trợ số từ dễ nhất.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういちまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅうまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんまい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんまい",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Ghép nguyên ở mọi hàng: 20枚 にじゅうまい, 100枚 ひゃくまい, 1000枚 せんまい, 10000枚 いちまんまい."
+      ],
+      "notes_vi": [
+        "Áo sơ mi, áo phông dùng 枚 - áo khoác, bộ quần áo dùng ～着.",
+        "Đĩa, khăn, chăn mỏng cũng đếm bằng 枚."
+      ]
+    },
+    {
+      "id": "c-kai-times",
+      "char": "回",
+      "kana": "かい",
+      "name_vi": "Số lần",
+      "use_vi": "Đếm số lần xảy ra, lặp lại.",
+      "items_vi": [
+        "lần",
+        "lượt",
+        "kỳ thi",
+        "buổi"
+      ],
+      "category": "frequency",
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 thành っ (いっかい, ろっかい, はっかい, じゅっかい) - 3 giữ k (さんかい).",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっかい",
+          "alt": [
+            "はちかい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっかい",
+          "alt": [
+            "じっかい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっかい",
+          "alt": [
+            "にじっかい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんかい",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Số tận cùng 1, 6, 8 và các số tròn chục, tròn trăm thành っ: 11回 じゅういっかい, 20回 にじゅっかい, 100回 ひゃっかい.",
+        "1000 và 10000 giữ nguyên: せんかい, いちまんかい."
+      ],
+      "notes_vi": [
+        "Tần suất: 1週間に2回 = 2 lần một tuần (に đứng sau khoảng thời gian).",
+        "Phân biệt với ～階 (tầng): 3回 さんかい nhưng 3階 さんがい."
+      ]
+    },
+    {
+      "id": "c-kai-floor",
+      "char": "階",
+      "kana": "かい",
+      "name_vi": "Tầng nhà",
+      "use_vi": "Đếm, gọi tên tầng của tòa nhà.",
+      "items_vi": [
+        "tầng",
+        "tầng hầm (地下1階)"
+      ],
+      "category": "place",
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k, nhưng 3 và 何 thành g: さんがい, なんがい.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんがい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっかい",
+          "alt": [
+            "はちかい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっかい",
+          "alt": [
+            "じっかい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 13,
+          "kana": "じゅうさんがい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっかい",
+          "alt": [
+            "にじっかい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっかい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんがい",
+        "alt": [
+          "なんかい"
+        ],
+        "note": null
+      },
+      "large_vi": [
+        "Số tận cùng 3 cũng thành g: 13階 じゅうさんがい, 23階 にじゅうさんがい.",
+        "Tòa nhà cao: 20階 にじゅっかい, 100階 ひゃっかい. Nhà chọc trời Nhật thường dưới 100 tầng."
+      ],
+      "notes_vi": [
+        "Tầng 1 ở Nhật là tầng trệt (1階 = tầng mặt đất).",
+        "Tầng hầm: 地下1階 ちかいっかい, viết tắt B1.",
+        "Khác ～回 (số lần): 3回 さんかい."
+      ]
+    },
+    {
+      "id": "c-hon",
+      "char": "本",
+      "kana": "ほん",
+      "name_vi": "Vật dài, thon",
+      "use_vi": "Đếm vật dài, hình trụ.",
+      "items_vi": [
+        "bút",
+        "chai",
+        "cây",
+        "ô dù",
+        "cà vạt",
+        "chuối",
+        "tuyến tàu"
+      ],
+      "category": "objects",
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h: 1, 6, 8, 10 → っぽん - 3 và 何 → ぼん.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっぽん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にほん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんぼん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんほん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごほん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっぽん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななほん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっぽん",
+          "alt": [
+            "はちほん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうほん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっぽん",
+          "alt": [
+            "じっぽん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっぽん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 13,
+          "kana": "じゅうさんぼん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっぽん",
+          "alt": [
+            "にじっぽん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっぽん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんぼん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんぼん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんぼん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Biến âm theo chữ số cuối: 11本 じゅういっぽん, 13本 じゅうさんぼん, 16本 じゅうろっぽん, 20本 にじゅっぽん.",
+        "100本 ひゃっぽん, 300本 さんびゃっぽん - 1000本 せんぼん, 10000本 いちまんぼん (sau ん → ぼん)."
+      ],
+      "notes_vi": [
+        "Cũng dùng cho cuộc gọi điện thoại, bộ phim, cú sút, tuyến đường: 電話を1本 = một cuộc gọi.",
+        "Phân biệt với 本 (ほん) = sách - sách đếm bằng ～冊."
+      ]
+    },
+    {
+      "id": "c-hai",
+      "char": "杯",
+      "kana": "はい",
+      "name_vi": "Cốc, chén, bát",
+      "use_vi": "Đếm lượng đồ uống, thức ăn đựng trong cốc, chén, bát.",
+      "items_vi": [
+        "cốc nước",
+        "tách cà phê",
+        "bát cơm",
+        "thìa đường",
+        "ly bia"
+      ],
+      "category": "objects",
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h giống 本: 1, 6, 8, 10 → っぱい - 3 và 何 → ばい.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっぱい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にはい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんはい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごはい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっぱい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななはい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっぱい",
+          "alt": [
+            "はちはい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうはい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっぱい",
+          "alt": [
+            "じっぱい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっぱい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっぱい",
+          "alt": [
+            "にじっぱい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっぱい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんばい",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "11杯 じゅういっぱい, 20杯 にじゅっぱい, 100杯 ひゃっぱい, 1000杯 せんばい (sau ん → ばい)."
+      ],
+      "notes_vi": [
+        "いっぱい còn là trạng từ 'đầy, nhiều': おなかがいっぱいです = No bụng rồi.",
+        "Phân biệt 3杯 さんばい với ～倍 (lần, gấp): 3倍 さんばい — cùng cách đọc, khác nghĩa."
+      ]
+    },
+    {
+      "id": "c-ko",
+      "char": "個",
+      "kana": "こ",
+      "name_vi": "Vật nhỏ, tròn",
+      "use_vi": "Đếm đồ vật nhỏ, khối nhỏ - dùng được cả khi số lớn hơn 10 thay cho ～つ.",
+      "items_vi": [
+        "trứng",
+        "táo",
+        "kẹo",
+        "viên đá",
+        "hộp",
+        "cục xà phòng"
+      ],
+      "category": "objects",
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 → っこ - 3 giữ さんこ.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっこ",
+          "alt": [
+            "はちこ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっこ",
+          "alt": [
+            "じっこ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっこ",
+          "alt": [
+            "にじっこ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんこ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんこ",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "11個 じゅういっこ, 16個 じゅうろっこ, 20個 にじゅっこ, 100個 ひゃっこ, 1000個 せんこ, 10000個 いちまんこ."
+      ],
+      "notes_vi": [
+        "Với 1–10 có thể thay bằng ～つ (りんご3つ = りんご3個) - trên 10 thường dùng 個."
+      ]
+    },
+    {
+      "id": "c-satsu",
+      "char": "冊",
+      "kana": "さつ",
+      "name_vi": "Sách, vở",
+      "use_vi": "Đếm sách, vở, tạp chí.",
+      "items_vi": [
+        "sách",
+        "vở",
+        "tạp chí",
+        "từ điển",
+        "album"
+      ],
+      "category": "objects",
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っさつ - 6 giữ ろくさつ.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっさつ",
+          "alt": [
+            "はちさつ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっさつ",
+          "alt": [
+            "じっさつ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっさつ",
+          "alt": [
+            "にじっさつ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくさつ",
+          "alt": [
+            "ひゃっさつ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんさつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんさつ",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "11冊 じゅういっさつ, 18冊 じゅうはっさつ, 20冊 にじゅっさつ - 100冊 ひゃくさつ (hoặc ひゃっさつ) - 1000冊 せんさつ."
+      ],
+      "notes_vi": [
+        "Báo (新聞) đếm bằng ～部 hoặc ～枚, không dùng 冊."
+      ]
+    },
+    {
+      "id": "c-hiki",
+      "char": "匹",
+      "kana": "ひき",
+      "name_vi": "Động vật nhỏ",
+      "use_vi": "Đếm động vật nhỏ và vừa, cá, côn trùng.",
+      "items_vi": [
+        "chó",
+        "mèo",
+        "cá",
+        "côn trùng",
+        "chuột"
+      ],
+      "category": "animals",
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h giống 本: 1, 6, 8, 10 → っぴき - 3 và 何 → びき.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっぴき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にひき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんびき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんひき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごひき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっぴき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななひき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっぴき",
+          "alt": [
+            "はちひき"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうひき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっぴき",
+          "alt": [
+            "じっぴき"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっぴき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっぴき",
+          "alt": [
+            "にじっぴき"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっぴき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんびき",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんびき",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "11匹 じゅういっぴき, 20匹 にじゅっぴき, 100匹 ひゃっぴき, 1000匹 せんびき."
+      ],
+      "notes_vi": [
+        "Động vật lớn (bò, ngựa, voi) dùng ～頭 (とう) - chim dùng ～羽 (わ)."
+      ]
+    },
+    {
+      "id": "c-ken",
+      "char": "軒",
+      "kana": "けん",
+      "name_vi": "Nhà, cửa hàng",
+      "use_vi": "Đếm ngôi nhà, cửa hàng, quán.",
+      "items_vi": [
+        "nhà",
+        "cửa hàng",
+        "quán ăn",
+        "tiệm"
+      ],
+      "category": "place",
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 → っけん - 3 và 何 thành g: さんげん, なんげん.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんげん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっけん",
+          "alt": [
+            "はちけん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっけん",
+          "alt": [
+            "じっけん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっけん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんげん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんげん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "20軒 にじゅっけん, 100軒 ひゃっけん - sau ん thành げん: 13軒 じゅうさんげん, 1000軒 せんげん."
+      ],
+      "notes_vi": [
+        "一軒家 いっけんや = nhà riêng (không phải chung cư)."
+      ]
+    },
+    {
+      "id": "c-chaku",
+      "char": "着",
+      "kana": "ちゃく",
+      "name_vi": "Quần áo (bộ, chiếc)",
+      "use_vi": "Đếm áo khoác, bộ quần áo, váy liền.",
+      "items_vi": [
+        "áo khoác",
+        "bộ vest",
+        "váy",
+        "kimono"
+      ],
+      "category": "objects",
+      "sound_group": "t",
+      "sound_note_vi": "Nhóm t: 1, 8, 10 → っちゃく.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうちゃく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっちゃく",
+          "alt": [
+            "じっちゃく"
+          ],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんちゃく",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Hàng chục theo chữ số cuối: 11着 じゅういっちゃく, 20着 にじゅっちゃく. Số lượng quần áo hàng trăm, hàng nghìn ít gặp ngoài kho hàng."
+      ],
+      "notes_vi": [
+        "Áo sơ mi, áo phông thường đếm bằng ～枚.",
+        "1着 còn nghĩa 'về nhất' trong cuộc đua (いっちゃく)."
+      ]
+    },
+    {
+      "id": "c-soku",
+      "char": "足",
+      "kana": "そく",
+      "name_vi": "Đôi (giày, tất)",
+      "use_vi": "Đếm đôi giày, tất, dép.",
+      "items_vi": [
+        "giày",
+        "tất",
+        "dép",
+        "ủng"
+      ],
+      "category": "objects",
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っそく - 3 và 何 thành z: さんぞく, なんぞく.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんぞく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうそく",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっそく",
+          "alt": [
+            "じっそく"
+          ],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんぞく",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "11足 じゅういっそく, 13足 じゅうさんぞく, 20足 にじゅっそく. Hàng trăm trở lên ít gặp ngoài cửa hàng."
+      ],
+      "notes_vi": [
+        "足 (あし) nghĩa gốc là 'chân' - khi đếm đọc そく."
+      ]
+    },
+    {
+      "id": "c-ji",
+      "char": "時",
+      "kana": "じ",
+      "name_vi": "Giờ (thời điểm)",
+      "use_vi": "Nói giờ đồng hồ: mấy giờ.",
+      "items_vi": [
+        "giờ"
+      ],
+      "category": "time",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm, nhưng 4, 7, 9 đọc よ, しち, く: よじ, しちじ, くじ.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よじ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "しちじ",
+          "alt": [
+            "ななじ"
+          ],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "くじ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういちじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 12,
+          "kana": "じゅうにじ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 14,
+          "kana": "じゅうよじ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 17,
+          "kana": "じゅうしちじ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 19,
+          "kana": "じゅうくじ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 24,
+          "kana": "にじゅうよじ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんじ",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Giờ chỉ đến 12, hoặc 24 khi dùng giờ 24 tiếng: 13時 じゅうさんじ, 20時 にじゅうじ.",
+        "Số tận cùng 4, 7, 9 giữ cách đọc riêng: 14時 じゅうよじ, 17時 じゅうしちじ, 19時 じゅうくじ, 24時 にじゅうよじ.",
+        "Không có hàng trăm, nghìn. Đếm số tiếng (khoảng thời gian) dùng ～時間."
+      ],
+      "notes_vi": [
+        "午前 (ごぜん) = sáng, 午後 (ごご) = chiều, đặt trước giờ: 午後3時.",
+        "半 (はん) = rưỡi: 7時半 しちじはん.",
+        "～時ごろ = khoảng ～ giờ - ～時に = vào lúc ～ giờ."
+      ]
+    },
+    {
+      "id": "c-fun",
+      "char": "分",
+      "kana": "ふん",
+      "name_vi": "Phút",
+      "use_vi": "Nói phút (thời điểm) và đếm số phút (khoảng thời gian).",
+      "items_vi": [
+        "phút"
+      ],
+      "category": "time",
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h nhưng sau ん thành ぷん: 1, 3, 4, 6, 8, 10 → ぷん - 2, 5, 7, 9 → ふん.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっぷん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にふん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんぷん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんぷん",
+          "alt": [
+            "よんふん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごふん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっぷん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななふん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっぷん",
+          "alt": [
+            "はちふん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうふん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっぷん",
+          "alt": [
+            "じっぷん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっぷん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 15,
+          "kana": "じゅうごふん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっぷん",
+          "alt": [
+            "にじっぷん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 30,
+          "kana": "さんじゅっぷん",
+          "alt": [
+            "さんじっぷん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 45,
+          "kana": "よんじゅうごふん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃっぷん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんぷん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんぷん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Chữ số cuối quyết định: 11分 じゅういっぷん, 13分 じゅうさんぷん, 15分 じゅうごふん, 20分 にじゅっぷん, 30分 さんじゅっぷん.",
+        "Khoảng thời gian dài: 100分 ひゃっぷん, 1000分 せんぷん (sau ん → ぷん)."
+      ],
+      "notes_vi": [
+        "Thời điểm: 7時10分 しちじじゅっぷん. Khoảng thời gian: 10分 hoặc 10分間 (じゅっぷんかん).",
+        "30分 = 半 (はん): 7時半."
+      ]
+    },
+    {
+      "id": "c-jikan",
+      "char": "時間",
+      "kana": "じかん",
+      "name_vi": "Giờ (khoảng thời gian)",
+      "use_vi": "Đếm số tiếng đồng hồ.",
+      "items_vi": [
+        "tiếng",
+        "giờ học",
+        "giờ làm việc"
+      ],
+      "category": "time",
+      "sound_group": "none",
+      "sound_note_vi": "Giống ～時: không biến âm, 4 → よ, 9 → く (よじかん, くじかん).",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よじかん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななじかん",
+          "alt": [
+            "しちじかん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "くじかん",
+          "alt": [
+            "きゅうじかん"
+          ],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 14,
+          "kana": "じゅうよじかん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 24,
+          "kana": "にじゅうよじかん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんじかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんじかん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Hàng chục ghép nguyên, riêng số tận cùng 4 đọc よ: 24時間 にじゅうよじかん (cả ngày).",
+        "100時間 ひゃくじかん, 1000時間 せんじかん — không biến âm."
+      ],
+      "notes_vi": [
+        "Khác ～時: 3時 = 3 giờ (thời điểm), 3時間 = 3 tiếng (khoảng thời gian).",
+        "Nửa tiếng = 30分 - 1 tiếng rưỡi = 1時間半 いちじかんはん."
+      ]
+    },
+    {
+      "id": "c-nichi",
+      "char": "日",
+      "kana": "にち",
+      "name_vi": "Ngày",
+      "use_vi": "Ngày trong tháng và số ngày.",
+      "items_vi": [
+        "ngày sinh nhật",
+        "ngày thi",
+        "số ngày nghỉ",
+        "số ngày ở lại"
+      ],
+      "category": "date",
+      "sound_group": "special",
+      "sound_note_vi": "Ngày 1–10, 14, 20, 24 đọc bằng gốc thuần Nhật — phải học thuộc.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "ついたち",
+          "alt": [
+            "いちにち"
+          ],
+          "irregular": true,
+          "note": "Mùng 1 = ついたち - '1 ngày' (khoảng thời gian) = いちにち."
+        },
+        {
+          "n": 2,
+          "kana": "ふつか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "みっか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よっか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "いつか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "むいか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "なのか",
+          "alt": [
+            "なぬか"
+          ],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "ようか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "ここのか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "とおか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういちにち",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 12,
+          "kana": "じゅうににち",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 14,
+          "kana": "じゅうよっか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 17,
+          "kana": "じゅうしちにち",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 19,
+          "kana": "じゅうくにち",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "はつか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 24,
+          "kana": "にじゅうよっか",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 30,
+          "kana": "さんじゅうにち",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 31,
+          "kana": "さんじゅういちにち",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんにち",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Ngày 11 trở đi: số + にち, trừ 14 じゅうよっか, 20 はつか, 24 にじゅうよっか.",
+        "Đếm số ngày (khoảng thời gian) đọc giống ngày trong tháng, trừ 1 ngày = いちにち - thường thêm 間: 3日間 みっかかん.",
+        "Số ngày lớn ghép nguyên: 100日 ひゃくにち, 1000日 せんにち."
+      ],
+      "notes_vi": [
+        "Thứ tự viết ngày tháng: 2026年11月11日 (năm → tháng → ngày).",
+        "Hỏi ngày: 何日 なんにち - hỏi thứ: 何曜日 なんようび."
+      ]
+    },
+    {
+      "id": "c-gatsu",
+      "char": "月",
+      "kana": "がつ",
+      "name_vi": "Tháng (tên tháng)",
+      "use_vi": "Gọi tên tháng trong năm.",
+      "items_vi": [
+        "tháng 1 … tháng 12"
+      ],
+      "category": "date",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm, nhưng 4, 7, 9 đọc し, しち, く: しがつ, しちがつ, くがつ.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "しがつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "しちがつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "くがつ",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういちがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 12,
+          "kana": "じゅうにがつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんがつ",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Chỉ có 12 tháng nên không có hàng trăm, nghìn.",
+        "Đếm số tháng (khoảng thời gian) dùng ～か月: 3か月 さんかげつ, 100か月 ít gặp."
+      ],
+      "notes_vi": [
+        "Không nhầm với ～か月: 3月 = tháng Ba, 3か月 = 3 tháng."
+      ]
+    },
+    {
+      "id": "c-kagetsu",
+      "char": "か月",
+      "kana": "かげつ",
+      "name_vi": "Số tháng",
+      "use_vi": "Đếm số tháng (khoảng thời gian).",
+      "items_vi": [
+        "tháng (khoảng thời gian)"
+      ],
+      "category": "time",
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 → っかげつ.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろっかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっかげつ",
+          "alt": [
+            "はちかげつ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっかげつ",
+          "alt": [
+            "じっかげつ"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 18,
+          "kana": "じゅうはっかげつ",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっかげつ",
+          "alt": [
+            "にじっかげつ"
+          ],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんかげつ",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Hàng chục theo chữ số cuối: 11か月 じゅういっかげつ, 18か月 じゅうはっかげつ, 20か月 にじゅっかげつ.",
+        "Khoảng thời gian dài hơn thường đổi sang năm (～年), nên hàng trăm, nghìn tháng ít dùng."
+      ],
+      "notes_vi": [
+        "Cách viết khác: ヶ月, カ月, ケ月, 箇月 — đều đọc かげつ.",
+        "Nửa năm: 6か月 ろっかげつ = 半年 はんとし."
+      ]
+    },
+    {
+      "id": "c-shuukan",
+      "char": "週間",
+      "kana": "しゅうかん",
+      "name_vi": "Số tuần",
+      "use_vi": "Đếm số tuần (khoảng thời gian).",
+      "items_vi": [
+        "tuần"
+      ],
+      "category": "time",
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っしゅうかん.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっしゅうかん",
+          "alt": [
+            "じっしゅうかん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっしゅうかん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅっしゅうかん",
+          "alt": [
+            "にじっしゅうかん"
+          ],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんしゅうかん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "11週間 じゅういっしゅうかん, 20週間 にじゅっしゅうかん. Khoảng thời gian dài hơn thường nói bằng tháng hoặc năm."
+      ],
+      "notes_vi": [
+        "Tuần này/tuần sau: 今週 こんしゅう, 来週 らいしゅう (không có 間)."
+      ]
+    },
+    {
+      "id": "c-nen",
+      "char": "年",
+      "kana": "ねん",
+      "name_vi": "Năm",
+      "use_vi": "Năm dương lịch (2026年) và số năm (3年 = 3 năm).",
+      "items_vi": [
+        "năm"
+      ],
+      "category": "time",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm - 4 → よねん, 9 → きゅうねん (hoặc くねん).",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よねん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななねん",
+          "alt": [
+            "しちねん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうねん",
+          "alt": [
+            "くねん"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 14,
+          "kana": "じゅうよねん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅうねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2000,
+          "kana": "にせんねん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2024,
+          "kana": "にせんにじゅうよねん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんねん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Năm dương lịch đọc như số thường + ねん: 1998年 せんきゅうひゃくきゅうじゅうはちねん, 2026年 にせんにじゅうろくねん.",
+        "Số tận cùng 4 đọc よ: 2024年 にせんにじゅうよねん, 14年 じゅうよねん.",
+        "100年 ひゃくねん, 1000年 せんねん — không biến âm."
+      ],
+      "notes_vi": [
+        "Khoảng thời gian thường thêm 間: 3年間 さんねんかん.",
+        "Năm học/lớp: 1年生 いちねんせい = học sinh năm nhất."
+      ]
+    },
+    {
+      "id": "c-sai",
+      "char": "歳",
+      "kana": "さい",
+      "name_vi": "Tuổi",
+      "use_vi": "Nói tuổi.",
+      "items_vi": [
+        "tuổi"
+      ],
+      "category": "age",
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っさい. 20 tuổi đọc riêng là はたち.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いっさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はっさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅっさい",
+          "alt": [
+            "じっさい"
+          ],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういっさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 18,
+          "kana": "じゅうはっさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "はたち",
+          "alt": [
+            "にじゅっさい",
+            "にじっさい"
+          ],
+          "irregular": true,
+          "note": "20 tuổi = はたち (二十歳)."
+        },
+        {
+          "n": 21,
+          "kana": "にじゅういっさい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくさい",
+          "alt": [
+            "ひゃっさい"
+          ],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんさい",
+        "alt": [
+          "おいくつ"
+        ],
+        "note": "Hỏi lịch sự: おいくつですか."
+      },
+      "large_vi": [
+        "Theo chữ số cuối: 11歳 じゅういっさい, 18歳 じゅうはっさい, 30歳 さんじゅっさい, 48歳 よんじゅうはっさい.",
+        "100歳 ひゃくさい (hoặc ひゃっさい)."
+      ],
+      "notes_vi": [
+        "歳 cũng viết giản lược là 才.",
+        "Hỏi tuổi trẻ nhỏ thân mật: いくつ？"
+      ]
+    },
+    {
+      "id": "c-en",
+      "char": "円",
+      "kana": "えん",
+      "name_vi": "Yên (tiền)",
+      "use_vi": "Đơn vị tiền Nhật.",
+      "items_vi": [
+        "tiền",
+        "giá"
+      ],
+      "category": "money",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm - riêng 4 đọc よえん.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よえん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 14,
+          "kana": "じゅうよえん",
+          "alt": [],
+          "irregular": true,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10000,
+          "kana": "いちまんえん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "いくら",
+        "alt": [
+          "なんえん"
+        ],
+        "note": "Hỏi giá dùng いくら - なんえん chỉ khi hỏi 'mấy yên' (mệnh giá đồng xu)."
+      },
+      "large_vi": [
+        "Giá tiền đọc như số lớn + えん: 300円 さんびゃくえん, 3,500円 さんぜんごひゃくえん, 10,000円 いちまんえん.",
+        "Số tận cùng 4: 4円 よえん, 14円 じゅうよえん - nhưng 40円 よんじゅうえん, 400円 よんひゃくえん."
+      ],
+      "notes_vi": [
+        "Ký hiệu ¥ - tiếng Việt gọi là 'yên'.",
+        "Tờ tiền: 千円札 せんえんさつ, 一万円札 いちまんえんさつ."
+      ]
+    },
+    {
+      "id": "c-ban",
+      "char": "番",
+      "kana": "ばん",
+      "name_vi": "Số thứ tự",
+      "use_vi": "Số thứ tự, số hiệu (số 1, số 2…).",
+      "items_vi": [
+        "thứ hạng",
+        "số hiệu",
+        "số nhà ga, cổng"
+      ],
+      "category": "order",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 11,
+          "kana": "じゅういちばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅうばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんばん",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんばん",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Ghép nguyên ở mọi hàng: 20番 にじゅうばん, 100番 ひゃくばん, 1000番 せんばん."
+      ],
+      "notes_vi": [
+        "いちばん còn là trạng từ 'nhất': いちばん好きです.",
+        "Thứ tự trong dãy dùng ～目: 3番目 さんばんめ = thứ ba, 2人目 ふたりめ = người thứ hai."
+      ]
+    },
+    {
+      "id": "c-bai",
+      "char": "倍",
+      "kana": "ばい",
+      "name_vi": "Lần (gấp)",
+      "use_vi": "Gấp bao nhiêu lần.",
+      "items_vi": [
+        "gấp đôi",
+        "gấp ba"
+      ],
+      "category": "frequency",
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm.",
+      "readings": [
+        {
+          "n": 1,
+          "kana": "いちばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "kana": "にばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "kana": "さんばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "kana": "よんばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "kana": "ごばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "kana": "ろくばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "kana": "ななばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "kana": "はちばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "kana": "きゅうばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 10,
+          "kana": "じゅうばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 20,
+          "kana": "にじゅうばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 100,
+          "kana": "ひゃくばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        },
+        {
+          "n": 1000,
+          "kana": "せんばい",
+          "alt": [],
+          "irregular": false,
+          "note": null
+        }
+      ],
+      "question": {
+        "kana": "なんばい",
+        "alt": [],
+        "note": null
+      },
+      "large_vi": [
+        "Ghép nguyên: 20倍 にじゅうばい, 100倍 ひゃくばい, 1000倍 せんばい."
+      ],
+      "notes_vi": [
+        "Gấp đôi thường nói 2倍 にばい hoặc 倍 ばい một mình.",
+        "Cùng cách đọc với 3杯 さんばい nhưng khác nghĩa."
+      ]
+    }
+  ]
+}

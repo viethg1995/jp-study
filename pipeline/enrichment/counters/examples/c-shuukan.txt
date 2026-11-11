@@ -1,0 +1,11 @@
+# 週間 — Số tuần
+c-shuukan-e01|[[{1週間|いっしゅうかん}]]に{2回|にかい}プールへ{行|い}きます。|Một tuần tôi đi bể bơi hai lần.
+c-shuukan-e02|{夏休|なつやす}みは[[{何週間|なんしゅうかん}]]ですか。|Kỳ nghỉ hè dài mấy tuần?
+c-shuukan-e03|[[{3週間|さんしゅうかん}]]{旅行|りょこう}しました。|Tôi đã đi du lịch ba tuần.
+c-shuukan-e04|[[{2週間|にしゅうかん}]]{前|まえ}に{国|くに}から{来|き}ました。|Tôi đến từ nước mình hai tuần trước.
+c-shuukan-e05|{病気|びょうき}で[[{6週間|ろくしゅうかん}]]{休|やす}みました。|Vì bệnh tôi đã nghỉ sáu tuần.
+c-shuukan-e06|{日本語|にほんご}の{授業|じゅぎょう}は[[{8週間|はっしゅうかん}]]です。|Khóa học tiếng Nhật kéo dài tám tuần.
+c-shuukan-e07|[[{10週間|じゅっしゅうかん}]]{毎日|まいにち}{走|はし}りました。|Tôi đã chạy mỗi ngày trong mười tuần.
+c-shuukan-e08|{本|ほん}を[[{4週間|よんしゅうかん}]]{借|か}りました。|Tôi đã mượn sách bốn tuần.
+c-shuukan-e09|{試験|しけん}まで[[{5週間|ごしゅうかん}]]あります。|Còn năm tuần nữa là đến kỳ thi.
+c-shuukan-e10|{工事|こうじ}は[[{20週間|にじゅっしゅうかん}]]かかります。|Công trình mất hai mươi tuần.

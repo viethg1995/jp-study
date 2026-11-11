@@ -1,0 +1,526 @@
+{
+  "$defs": {
+    "Counter": {
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "enum": [
+            "general",
+            "people",
+            "animals",
+            "objects",
+            "place",
+            "time",
+            "date",
+            "frequency",
+            "money",
+            "age",
+            "order"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "char": {
+          "description": "Trợ số từ (chữ Hán hoặc kana), vd 本, つ, か月",
+          "title": "Char",
+          "type": "string"
+        },
+        "examples": {
+          "items": {
+            "$ref": "#/$defs/CounterExample"
+          },
+          "minItems": 10,
+          "title": "Examples",
+          "type": "array"
+        },
+        "id": {
+          "description": "c-{slug} — khóa localStorage, KHÔNG được đổi",
+          "title": "Id",
+          "type": "string"
+        },
+        "items_vi": {
+          "description": "Ví dụ vật được đếm: bút, chai, cây…",
+          "items": {
+            "type": "string"
+          },
+          "title": "Items Vi",
+          "type": "array"
+        },
+        "kana": {
+          "description": "Cách đọc gốc, vd ほん",
+          "title": "Kana",
+          "type": "string"
+        },
+        "kanji_refs": {
+          "description": "ID kanji (k-字) trong trợ số từ",
+          "items": {
+            "type": "string"
+          },
+          "title": "Kanji Refs",
+          "type": "array"
+        },
+        "large_vi": {
+          "description": "Cách đếm hàng chục, trăm, nghìn, vạn với trợ số từ này",
+          "items": {
+            "type": "string"
+          },
+          "title": "Large Vi",
+          "type": "array"
+        },
+        "lesson": {
+          "anyOf": [
+            {
+              "maximum": 50,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Bài みんなの日本語 có trợ số từ này trong từ vựng; null = ngoài danh sách từ",
+          "title": "Lesson"
+        },
+        "name_vi": {
+          "description": "Tên ngắn: 'Vật dài, thon'",
+          "title": "Name Vi",
+          "type": "string"
+        },
+        "notes_vi": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Notes Vi",
+          "type": "array"
+        },
+        "question": {
+          "$ref": "#/$defs/CounterQuestion",
+          "description": "Từ để hỏi số lượng: なんぼん, いくつ…"
+        },
+        "readings": {
+          "description": "Bảng cách đọc, tăng dần theo n; có đủ 1–10",
+          "items": {
+            "$ref": "#/$defs/CounterReading"
+          },
+          "title": "Readings",
+          "type": "array"
+        },
+        "sound_group": {
+          "enum": [
+            "h",
+            "k",
+            "s",
+            "t",
+            "none",
+            "native",
+            "special"
+          ],
+          "title": "Sound Group",
+          "type": "string"
+        },
+        "sound_note_vi": {
+          "description": "Biến âm của riêng trợ số từ này",
+          "title": "Sound Note Vi",
+          "type": "string"
+        },
+        "use_vi": {
+          "description": "Dùng để đếm gì",
+          "title": "Use Vi",
+          "type": "string"
+        },
+        "vocab_refs": {
+          "description": "ID từ vựng ～X tương ứng (mn-LL-NNN)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Vocab Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "char",
+        "kana",
+        "name_vi",
+        "use_vi",
+        "items_vi",
+        "category",
+        "lesson",
+        "vocab_refs",
+        "kanji_refs",
+        "sound_group",
+        "sound_note_vi",
+        "readings",
+        "question",
+        "large_vi",
+        "notes_vi",
+        "examples"
+      ],
+      "title": "Counter",
+      "type": "object"
+    },
+    "CounterExample": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "c-{slug}-eNN | num-eNN — ghi cứng, không sinh từ vị trí",
+          "title": "Id",
+          "type": "string"
+        },
+        "review": {
+          "enum": [
+            "auto",
+            "ai",
+            "user"
+          ],
+          "title": "Review",
+          "type": "string"
+        },
+        "ruby": {
+          "description": "Câu tiếng Nhật, cú pháp {漢字|かな}; [[…]] bao cụm số + trợ số từ",
+          "title": "Ruby",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "ai-draft",
+            "user"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "vi": {
+          "title": "Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "ruby",
+        "vi",
+        "source",
+        "review"
+      ],
+      "title": "CounterExample",
+      "type": "object"
+    },
+    "CounterQuestion": {
+      "additionalProperties": false,
+      "properties": {
+        "alt": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Alt",
+          "type": "array"
+        },
+        "kana": {
+          "description": "なんぼん, いくつ… (hiragana)",
+          "title": "Kana",
+          "type": "string"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Note"
+        }
+      },
+      "required": [
+        "kana",
+        "alt",
+        "note"
+      ],
+      "title": "CounterQuestion",
+      "type": "object"
+    },
+    "CounterReading": {
+      "additionalProperties": false,
+      "properties": {
+        "alt": {
+          "description": "Cách đọc khác cũng đúng (hiragana)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Alt",
+          "type": "array"
+        },
+        "irregular": {
+          "description": "Bất quy tắc — không suy ra được từ quy tắc biến âm của nhóm",
+          "title": "Irregular",
+          "type": "boolean"
+        },
+        "kana": {
+          "description": "Cách đọc chuẩn (hiragana)",
+          "title": "Kana",
+          "type": "string"
+        },
+        "n": {
+          "description": "Số được đếm (1–10 bắt buộc; thêm 11, 14, 20, 100, 1000, 10000…)",
+          "minimum": 1,
+          "title": "N",
+          "type": "integer"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Ghi chú ngắn cho ô này (tiếng Việt)",
+          "title": "Note"
+        }
+      },
+      "required": [
+        "n",
+        "kana",
+        "alt",
+        "irregular",
+        "note"
+      ],
+      "title": "CounterReading",
+      "type": "object"
+    },
+    "NumberReading": {
+      "additionalProperties": false,
+      "properties": {
+        "alt": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Alt",
+          "type": "array"
+        },
+        "display": {
+          "description": "Số viết theo kiểu Nhật: 10,000 · 2.5 · 1/2 · 50% · -5 · 090-1234-5678 · 第1",
+          "title": "Display",
+          "type": "string"
+        },
+        "irregular": {
+          "description": "Biến âm / ngoại lệ cần học thuộc",
+          "title": "Irregular",
+          "type": "boolean"
+        },
+        "kana": {
+          "title": "Kana",
+          "type": "string"
+        },
+        "kanji": {
+          "description": "Cách viết chữ Hán / cách viết trong câu, vd 三百, 2分の1",
+          "title": "Kanji",
+          "type": "string"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Note"
+        }
+      },
+      "required": [
+        "display",
+        "kanji",
+        "kana",
+        "alt",
+        "irregular",
+        "note"
+      ],
+      "title": "NumberReading",
+      "type": "object"
+    },
+    "NumberSection": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "intro_vi": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Intro Vi",
+          "type": "array"
+        },
+        "items": {
+          "items": {
+            "$ref": "#/$defs/NumberReading"
+          },
+          "title": "Items",
+          "type": "array"
+        },
+        "title_vi": {
+          "title": "Title Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title_vi",
+        "intro_vi",
+        "items"
+      ],
+      "title": "NumberSection",
+      "type": "object"
+    },
+    "NumberSystem": {
+      "additionalProperties": false,
+      "properties": {
+        "intro_vi": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Intro Vi",
+          "type": "array"
+        },
+        "tabs": {
+          "items": {
+            "$ref": "#/$defs/NumberTab"
+          },
+          "title": "Tabs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "intro_vi",
+        "tabs"
+      ],
+      "title": "NumberSystem",
+      "type": "object"
+    },
+    "NumberTab": {
+      "additionalProperties": false,
+      "properties": {
+        "examples": {
+          "description": "Câu ví dụ của tab (id num-eNN)",
+          "items": {
+            "$ref": "#/$defs/CounterExample"
+          },
+          "title": "Examples",
+          "type": "array"
+        },
+        "id": {
+          "description": "basic | hundreds | large | fraction | other",
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "description": "Nhãn tab ngắn",
+          "title": "Label",
+          "type": "string"
+        },
+        "sections": {
+          "items": {
+            "$ref": "#/$defs/NumberSection"
+          },
+          "title": "Sections",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "sections",
+        "examples"
+      ],
+      "title": "NumberTab",
+      "type": "object"
+    },
+    "SoundRule": {
+      "additionalProperties": false,
+      "properties": {
+        "counters": {
+          "description": "ID trợ số từ thuộc nhóm (pipeline tính)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Counters",
+          "type": "array"
+        },
+        "group": {
+          "enum": [
+            "h",
+            "k",
+            "s",
+            "t",
+            "none",
+            "native",
+            "special"
+          ],
+          "title": "Group",
+          "type": "string"
+        },
+        "name_vi": {
+          "title": "Name Vi",
+          "type": "string"
+        },
+        "rule_vi": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Rule Vi",
+          "type": "array"
+        },
+        "summary_vi": {
+          "description": "Một dòng: 1, 6, 8, 10 → っ …",
+          "title": "Summary Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "name_vi",
+        "summary_vi",
+        "rule_vi",
+        "counters"
+      ],
+      "title": "SoundRule",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "counters": {
+      "items": {
+        "$ref": "#/$defs/Counter"
+      },
+      "title": "Counters",
+      "type": "array"
+    },
+    "numbers": {
+      "$ref": "#/$defs/NumberSystem"
+    },
+    "schema_version": {
+      "default": 2,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "sound_rules": {
+      "items": {
+        "$ref": "#/$defs/SoundRule"
+      },
+      "title": "Sound Rules",
+      "type": "array"
+    }
+  },
+  "required": [
+    "numbers",
+    "sound_rules",
+    "counters"
+  ],
+  "title": "CounterFile",
+  "type": "object"
+}

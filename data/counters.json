@@ -1,0 +1,6659 @@
+{
+  "counters": [
+    {
+      "category": "general",
+      "char": "つ",
+      "examples": [
+        {
+          "id": "c-tsu-e01",
+          "review": "auto",
+          "ruby": "りんごを[[{1つ|ひとつ}]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi một quả táo."
+        },
+        {
+          "id": "c-tsu-e02",
+          "review": "auto",
+          "ruby": "{卵|たまご}を[[{2つ|ふたつ}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua hai quả trứng."
+        },
+        {
+          "id": "c-tsu-e03",
+          "review": "auto",
+          "ruby": "みかんを[[{3つ|みっつ}]]{食|た}べました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã ăn ba quả quýt."
+        },
+        {
+          "id": "c-tsu-e04",
+          "review": "auto",
+          "ruby": "{部屋|へや}が[[{4つ|よっつ}]]あります。",
+          "source": "ai-draft",
+          "vi": "Có bốn căn phòng."
+        },
+        {
+          "id": "c-tsu-e05",
+          "review": "auto",
+          "ruby": "ケーキを[[{5つ|いつつ}]]お{願|ねが}いします。",
+          "source": "ai-draft",
+          "vi": "Làm ơn cho tôi năm cái bánh ngọt."
+        },
+        {
+          "id": "c-tsu-e06",
+          "review": "auto",
+          "ruby": "{箱|はこ}が[[{6つ|むっつ}]]あります。",
+          "source": "ai-draft",
+          "vi": "Có sáu cái hộp."
+        },
+        {
+          "id": "c-tsu-e07",
+          "review": "auto",
+          "ruby": "{質問|しつもん}が[[{7つ|ななつ}]]あります。",
+          "source": "ai-draft",
+          "vi": "Có bảy câu hỏi."
+        },
+        {
+          "id": "c-tsu-e08",
+          "review": "auto",
+          "ruby": "おにぎりを[[{8つ|やっつ}]]{作|つく}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã làm tám nắm cơm."
+        },
+        {
+          "id": "c-tsu-e09",
+          "review": "auto",
+          "ruby": "{机|つくえ}の{上|うえ}にコップが[[{9つ|ここのつ}]]あります。",
+          "source": "ai-draft",
+          "vi": "Trên bàn có chín cái cốc."
+        },
+        {
+          "id": "c-tsu-e10",
+          "review": "auto",
+          "ruby": "りんごはいくつありますか。…[[{2つ|ふたつ}]]です。",
+          "source": "ai-draft",
+          "vi": "Có mấy quả táo? … Hai quả."
+        },
+        {
+          "id": "c-tsu-e11",
+          "review": "auto",
+          "ruby": "{子|こ}どもの{時|とき}、{人形|にんぎょう}を[[{10|とお}]]{持|も}っていました。",
+          "source": "ai-draft",
+          "vi": "Hồi nhỏ tôi có mười con búp bê."
+        }
+      ],
+      "id": "c-tsu",
+      "items_vi": [
+        "táo",
+        "trứng",
+        "bánh",
+        "hộp",
+        "câu hỏi",
+        "phòng"
+      ],
+      "kana": "つ",
+      "kanji_refs": [],
+      "large_vi": [
+        "～つ chỉ đếm từ 1 đến 10. Từ 11 trở lên dùng số Hán không kèm つ: 11 → じゅういち, 20 → にじゅう, 100 → ひゃく.",
+        "Với đồ vật nhỏ, từ 11 trở lên thường chuyển sang ～個: じゅういっこ, にじゅっこ, ひゃっこ.",
+        "Vì vậy ～つ không có hàng trăm, nghìn, vạn."
+      ],
+      "lesson": null,
+      "name_vi": "Đếm chung (số thuần Nhật)",
+      "notes_vi": [
+        "Đặt sau danh từ + trợ từ: りんごを みっつ ください.",
+        "ひとつ còn có nghĩa 'một' (ひとつ質問があります = Tôi có một câu hỏi).",
+        "Cách nói tuổi trẻ nhỏ bằng ～つ (みっつ = 3 tuổi) vẫn gặp trong văn nói."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "いくつ",
+        "note": "Hỏi số lượng: いくつ (không dùng なんつ). Lịch sự khi hỏi tuổi: おいくつ."
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ひとつ",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ふたつ",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "みっつ",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "よっつ",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "いつつ",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "むっつ",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ななつ",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "やっつ",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ここのつ",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "とお",
+          "n": 10,
+          "note": "Không có つ."
+        }
+      ],
+      "sound_group": "native",
+      "sound_note_vi": "Số thuần Nhật: cả 10 cách đọc đều phải học thuộc, không theo quy tắc biến âm.",
+      "use_vi": "Đếm đồ vật nói chung khi không có hoặc không nhớ trợ số từ riêng - cũng dùng cho ý kiến, câu hỏi, lỗi…",
+      "vocab_refs": []
+    },
+    {
+      "category": "people",
+      "char": "人",
+      "examples": [
+        {
+          "id": "c-nin-e01",
+          "review": "auto",
+          "ruby": "{私|わたし}は[[{1人|ひとり}]]で{住|す}んでいます。",
+          "source": "ai-draft",
+          "vi": "Tôi sống một mình."
+        },
+        {
+          "id": "c-nin-e02",
+          "review": "auto",
+          "ruby": "{兄弟|きょうだい}が[[{2人|ふたり}]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi có hai anh chị em."
+        },
+        {
+          "id": "c-nin-e03",
+          "review": "auto",
+          "ruby": "{教室|きょうしつ}に{学生|がくせい}が[[{3人|さんにん}]]います。",
+          "source": "ai-draft",
+          "vi": "Trong lớp có ba học sinh."
+        },
+        {
+          "id": "c-nin-e04",
+          "review": "auto",
+          "ruby": "{家族|かぞく}は[[{4人|よにん}]]です。",
+          "source": "ai-draft",
+          "vi": "Gia đình tôi có bốn người."
+        },
+        {
+          "id": "c-nin-e05",
+          "review": "auto",
+          "ruby": "{日本人|にほんじん}の{友達|ともだち}が[[{7人|ななにん}]]います。",
+          "source": "ai-draft",
+          "vi": "Tôi có bảy người bạn Nhật."
+        },
+        {
+          "id": "c-nin-e06",
+          "review": "auto",
+          "ruby": "{会議|かいぎ}に[[{9人|きゅうにん}]]{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Có chín người đã đến cuộc họp."
+        },
+        {
+          "id": "c-nin-e07",
+          "review": "auto",
+          "ruby": "このクラスには[[{14人|じゅうよにん}]]の{学生|がくせい}がいます。",
+          "source": "ai-draft",
+          "vi": "Lớp này có mười bốn học sinh."
+        },
+        {
+          "id": "c-nin-e08",
+          "review": "auto",
+          "ruby": "{会社|かいしゃ}に{社員|しゃいん}が[[{100人|ひゃくにん}]]ぐらいいます。",
+          "source": "ai-draft",
+          "vi": "Công ty có khoảng một trăm nhân viên."
+        },
+        {
+          "id": "c-nin-e09",
+          "review": "auto",
+          "ruby": "パーティーに[[{何人|なんにん}]]{来|き}ますか。",
+          "source": "ai-draft",
+          "vi": "Có bao nhiêu người đến bữa tiệc?"
+        },
+        {
+          "id": "c-nin-e10",
+          "review": "auto",
+          "ruby": "この{大学|だいがく}には{留学生|りゅうがくせい}が[[{1000人|せんにん}]]います。",
+          "source": "ai-draft",
+          "vi": "Trường đại học này có một nghìn du học sinh."
+        }
+      ],
+      "id": "c-nin",
+      "items_vi": [
+        "người",
+        "học sinh",
+        "khách",
+        "anh chị em"
+      ],
+      "kana": "にん",
+      "kanji_refs": [
+        "k-人"
+      ],
+      "large_vi": [
+        "Từ 3 trở đi: số + にん, không biến âm: 30人 さんじゅうにん, 100人 ひゃくにん, 1000人 せんにん, 10000人 いちまんにん.",
+        "Số tận cùng bằng 4 luôn đọc よ: 14人 じゅうよにん, 24人 にじゅうよにん.",
+        "11, 12 người đọc じゅういちにん, じゅうににん (không dùng ひとり, ふたり)."
+      ],
+      "lesson": 11,
+      "name_vi": "Người",
+      "notes_vi": [
+        "人 đọc じん khi chỉ quốc tịch (ベトナムじん = người Việt Nam), khác ～にん dùng để đếm.",
+        "ひとりで = một mình - ふたりで = hai người cùng nhau.",
+        "Cách nói lịch sự ở nhà hàng, khách sạn: ～名 (めい), vd 3名様 さんめいさま."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんにん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ひとり",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ふたり",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんにん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "よにん",
+          "n": 4,
+          "note": "Không đọc よんにん."
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごにん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくにん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [
+            "しちにん"
+          ],
+          "irregular": false,
+          "kana": "ななにん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちにん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [
+            "くにん"
+          ],
+          "irregular": false,
+          "kana": "きゅうにん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうにん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういちにん",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうよにん",
+          "n": 14,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじゅうにん",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくにん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんにん",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんにん",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm, nhưng 1, 2 dùng từ riêng (ひとり, ふたり) và 4 đọc よ (よにん).",
+      "use_vi": "Đếm số người.",
+      "vocab_refs": [
+        "mn-11-018"
+      ]
+    },
+    {
+      "category": "objects",
+      "char": "台",
+      "examples": [
+        {
+          "id": "c-dai-e01",
+          "review": "auto",
+          "ruby": "{家|うち}に{車|くるま}が[[{1台|いちだい}]]あります。",
+          "source": "ai-draft",
+          "vi": "Nhà tôi có một chiếc ô tô."
+        },
+        {
+          "id": "c-dai-e02",
+          "review": "auto",
+          "ruby": "{自転車|じてんしゃ}を[[{2台|にだい}]]{持|も}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi có hai chiếc xe đạp."
+        },
+        {
+          "id": "c-dai-e03",
+          "review": "auto",
+          "ruby": "{事務所|じむしょ}にパソコンが[[{3台|さんだい}]]あります。",
+          "source": "ai-draft",
+          "vi": "Văn phòng có ba máy tính."
+        },
+        {
+          "id": "c-dai-e04",
+          "review": "auto",
+          "ruby": "{駐車場|ちゅうしゃじょう}に{車|くるま}が[[{4台|よんだい}]]{止|と}まっています。",
+          "source": "ai-draft",
+          "vi": "Có bốn chiếc ô tô đang đỗ ở bãi xe."
+        },
+        {
+          "id": "c-dai-e05",
+          "review": "auto",
+          "ruby": "この{店|みせ}でテレビが[[{6台|ろくだい}]]{売|う}れました。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng này đã bán được sáu chiếc tivi."
+        },
+        {
+          "id": "c-dai-e06",
+          "review": "auto",
+          "ruby": "{工場|こうじょう}に{機械|きかい}が[[{8台|はちだい}]]あります。",
+          "source": "ai-draft",
+          "vi": "Nhà máy có tám cái máy."
+        },
+        {
+          "id": "c-dai-e07",
+          "review": "auto",
+          "ruby": "{教室|きょうしつ}にコンピューターが[[{20台|にじゅうだい}]]あります。",
+          "source": "ai-draft",
+          "vi": "Phòng học có hai mươi máy vi tính."
+        },
+        {
+          "id": "c-dai-e08",
+          "review": "auto",
+          "ruby": "この{会社|かいしゃ}は{1日|いちにち}に{車|くるま}を[[{100台|ひゃくだい}]]{作|つく}ります。",
+          "source": "ai-draft",
+          "vi": "Công ty này mỗi ngày sản xuất một trăm chiếc ô tô."
+        },
+        {
+          "id": "c-dai-e09",
+          "review": "auto",
+          "ruby": "{家|うち}にエアコンが[[{何台|なんだい}]]ありますか。",
+          "source": "ai-draft",
+          "vi": "Nhà bạn có mấy cái điều hòa?"
+        },
+        {
+          "id": "c-dai-e10",
+          "review": "auto",
+          "ruby": "{冷蔵庫|れいぞうこ}は[[{1台|いちだい}]]で{十分|じゅうぶん}です。",
+          "source": "ai-draft",
+          "vi": "Một cái tủ lạnh là đủ."
+        }
+      ],
+      "id": "c-dai",
+      "items_vi": [
+        "ô tô",
+        "xe đạp",
+        "máy tính",
+        "tivi",
+        "máy giặt",
+        "tủ lạnh"
+      ],
+      "kana": "だい",
+      "kanji_refs": [
+        "k-台"
+      ],
+      "large_vi": [
+        "Hàng chục, trăm, nghìn, vạn đều ghép nguyên: 20台 にじゅうだい, 100台 ひゃくだい, 1000台 せんだい, 10000台 いちまんだい."
+      ],
+      "lesson": 11,
+      "name_vi": "Máy móc, xe cộ",
+      "notes_vi": [
+        "Xe đạp, ô tô, máy bay nhỏ… đều dùng 台 - tàu điện tính theo toa thì dùng ～両 (りょう)."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんだい",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちだい",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にだい",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんだい",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんだい",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごだい",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくだい",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななだい",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちだい",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうだい",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうだい",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういちだい",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじゅうだい",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくだい",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんだい",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんだい",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm ở mọi số.",
+      "use_vi": "Đếm máy móc, thiết bị, xe cộ.",
+      "vocab_refs": [
+        "mn-11-019"
+      ]
+    },
+    {
+      "category": "objects",
+      "char": "枚",
+      "examples": [
+        {
+          "id": "c-mai-e01",
+          "review": "auto",
+          "ruby": "{紙|かみ}を[[{1枚|いちまい}]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi một tờ giấy."
+        },
+        {
+          "id": "c-mai-e02",
+          "review": "auto",
+          "ruby": "{切手|きって}を[[{3枚|さんまい}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua ba con tem."
+        },
+        {
+          "id": "c-mai-e03",
+          "review": "auto",
+          "ruby": "シャツを[[{4枚|よんまい}]]{洗|あら}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã giặt bốn cái áo sơ mi."
+        },
+        {
+          "id": "c-mai-e04",
+          "review": "auto",
+          "ruby": "{映画|えいが}のチケットを[[{2枚|にまい}]]{予約|よやく}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đặt hai vé xem phim."
+        },
+        {
+          "id": "c-mai-e05",
+          "review": "auto",
+          "ruby": "{写真|しゃしん}を[[{6枚|ろくまい}]]{撮|と}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã chụp sáu tấm ảnh."
+        },
+        {
+          "id": "c-mai-e06",
+          "review": "auto",
+          "ruby": "{皿|さら}を[[{8枚|はちまい}]]{並|なら}べてください。",
+          "source": "ai-draft",
+          "vi": "Hãy xếp tám cái đĩa."
+        },
+        {
+          "id": "c-mai-e07",
+          "review": "auto",
+          "ruby": "はがきを[[{10枚|じゅうまい}]]{書|か}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã viết mười tấm bưu thiếp."
+        },
+        {
+          "id": "c-mai-e08",
+          "review": "auto",
+          "ruby": "コピーを[[{20枚|にじゅうまい}]]お{願|ねが}いします。",
+          "source": "ai-draft",
+          "vi": "Làm ơn photo hai mươi bản."
+        },
+        {
+          "id": "c-mai-e09",
+          "review": "auto",
+          "ruby": "{紙|かみ}は[[{何枚|なんまい}]]{要|い}りますか。",
+          "source": "ai-draft",
+          "vi": "Cần bao nhiêu tờ giấy?"
+        },
+        {
+          "id": "c-mai-e10",
+          "review": "auto",
+          "ruby": "{旅行|りょこう}で{写真|しゃしん}を[[{100枚|ひゃくまい}]]{以上|いじょう}{撮|と}りました。",
+          "source": "ai-draft",
+          "vi": "Trong chuyến du lịch tôi đã chụp hơn một trăm tấm ảnh."
+        }
+      ],
+      "id": "c-mai",
+      "items_vi": [
+        "giấy",
+        "tem",
+        "vé",
+        "ảnh",
+        "áo sơ mi",
+        "đĩa"
+      ],
+      "kana": "まい",
+      "kanji_refs": [
+        "k-枚"
+      ],
+      "large_vi": [
+        "Ghép nguyên ở mọi hàng: 20枚 にじゅうまい, 100枚 ひゃくまい, 1000枚 せんまい, 10000枚 いちまんまい."
+      ],
+      "lesson": 11,
+      "name_vi": "Vật mỏng, dẹt",
+      "notes_vi": [
+        "Áo sơ mi, áo phông dùng 枚 - áo khoác, bộ quần áo dùng ～着.",
+        "Đĩa, khăn, chăn mỏng cũng đếm bằng 枚."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんまい",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまい",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にまい",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんまい",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんまい",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごまい",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくまい",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななまい",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちまい",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうまい",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうまい",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういちまい",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじゅうまい",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくまい",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんまい",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんまい",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm ở mọi số — trợ số từ dễ nhất.",
+      "use_vi": "Đếm vật mỏng, phẳng.",
+      "vocab_refs": [
+        "mn-11-020"
+      ]
+    },
+    {
+      "category": "frequency",
+      "char": "回",
+      "examples": [
+        {
+          "id": "c-kai-times-e01",
+          "review": "auto",
+          "ruby": "{1週間|いっしゅうかん}に[[{1回|いっかい}]]プールで{泳|およ}ぎます。",
+          "source": "ai-draft",
+          "vi": "Mỗi tuần tôi bơi ở bể bơi một lần."
+        },
+        {
+          "id": "c-kai-times-e02",
+          "review": "auto",
+          "ruby": "{日本|にほん}へ[[{2回|にかい}]]{行|い}ったことがあります。",
+          "source": "ai-draft",
+          "vi": "Tôi đã từng đi Nhật hai lần."
+        },
+        {
+          "id": "c-kai-times-e03",
+          "review": "auto",
+          "ruby": "{1日|いちにち}に[[{3回|さんかい}]]{薬|くすり}を{飲|の}んでください。",
+          "source": "ai-draft",
+          "vi": "Hãy uống thuốc ba lần một ngày."
+        },
+        {
+          "id": "c-kai-times-e04",
+          "review": "auto",
+          "ruby": "この{映画|えいが}は[[{6回|ろっかい}]]{見|み}ました。",
+          "source": "ai-draft",
+          "vi": "Bộ phim này tôi đã xem sáu lần."
+        },
+        {
+          "id": "c-kai-times-e05",
+          "review": "auto",
+          "ruby": "{漢字|かんじ}を[[{8回|はっかい}]]{書|か}いて{覚|おぼ}えました。",
+          "source": "ai-draft",
+          "vi": "Tôi viết chữ Hán tám lần để nhớ."
+        },
+        {
+          "id": "c-kai-times-e06",
+          "review": "auto",
+          "ruby": "この{言葉|ことば}を[[{10回|じゅっかい}]]{言|い}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy nói từ này mười lần."
+        },
+        {
+          "id": "c-kai-times-e07",
+          "review": "auto",
+          "ruby": "{1年|いちねん}に[[{4回|よんかい}]]{試験|しけん}があります。",
+          "source": "ai-draft",
+          "vi": "Một năm có bốn kỳ thi."
+        },
+        {
+          "id": "c-kai-times-e08",
+          "review": "auto",
+          "ruby": "{富士山|ふじさん}に[[{何回|なんかい}]]{登|のぼ}りましたか。",
+          "source": "ai-draft",
+          "vi": "Bạn đã leo núi Phú Sĩ mấy lần?"
+        },
+        {
+          "id": "c-kai-times-e09",
+          "review": "auto",
+          "ruby": "この{歌|うた}を[[{20回|にじゅっかい}]]{聞|き}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã nghe bài hát này hai mươi lần."
+        },
+        {
+          "id": "c-kai-times-e10",
+          "review": "auto",
+          "ruby": "{毎日|まいにち}{縄跳|なわと}びを[[{100回|ひゃっかい}]]します。",
+          "source": "ai-draft",
+          "vi": "Mỗi ngày tôi nhảy dây một trăm lần."
+        }
+      ],
+      "id": "c-kai-times",
+      "items_vi": [
+        "lần",
+        "lượt",
+        "kỳ thi",
+        "buổi"
+      ],
+      "kana": "かい",
+      "kanji_refs": [
+        "k-回"
+      ],
+      "large_vi": [
+        "Số tận cùng 1, 6, 8 và các số tròn chục, tròn trăm thành っ: 11回 じゅういっかい, 20回 にじゅっかい, 100回 ひゃっかい.",
+        "1000 và 10000 giữ nguyên: せんかい, いちまんかい."
+      ],
+      "lesson": 11,
+      "name_vi": "Số lần",
+      "notes_vi": [
+        "Tần suất: 1週間に2回 = 2 lần một tuần (に đứng sau khoảng thời gian).",
+        "Phân biệt với ～階 (tầng): 3回 さんかい nhưng 3階 さんがい."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんかい",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっかい",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にかい",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんかい",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんかい",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごかい",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっかい",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななかい",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちかい"
+          ],
+          "irregular": false,
+          "kana": "はっかい",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうかい",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっかい"
+          ],
+          "irregular": false,
+          "kana": "じゅっかい",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっかい",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっかい"
+          ],
+          "irregular": false,
+          "kana": "にじゅっかい",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっかい",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんかい",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんかい",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 thành っ (いっかい, ろっかい, はっかい, じゅっかい) - 3 giữ k (さんかい).",
+      "use_vi": "Đếm số lần xảy ra, lặp lại.",
+      "vocab_refs": [
+        "mn-11-021"
+      ]
+    },
+    {
+      "category": "place",
+      "char": "階",
+      "examples": [
+        {
+          "id": "c-kai-floor-e01",
+          "review": "auto",
+          "ruby": "{受付|うけつけ}は[[{1階|いっかい}]]です。",
+          "source": "ai-draft",
+          "vi": "Quầy lễ tân ở tầng một."
+        },
+        {
+          "id": "c-kai-floor-e02",
+          "review": "auto",
+          "ruby": "{私|わたし}の{部屋|へや}は[[{2階|にかい}]]にあります。",
+          "source": "ai-draft",
+          "vi": "Phòng tôi ở tầng hai."
+        },
+        {
+          "id": "c-kai-floor-e03",
+          "review": "auto",
+          "ruby": "{靴|くつ}{売|う}り{場|ば}は[[{3階|さんがい}]]です。",
+          "source": "ai-draft",
+          "vi": "Quầy bán giày ở tầng ba."
+        },
+        {
+          "id": "c-kai-floor-e04",
+          "review": "auto",
+          "ruby": "{会議室|かいぎしつ}は[[{6階|ろっかい}]]にあります。",
+          "source": "ai-draft",
+          "vi": "Phòng họp ở tầng sáu."
+        },
+        {
+          "id": "c-kai-floor-e05",
+          "review": "auto",
+          "ruby": "レストランは[[{8階|はっかい}]]です。",
+          "source": "ai-draft",
+          "vi": "Nhà hàng ở tầng tám."
+        },
+        {
+          "id": "c-kai-floor-e06",
+          "review": "auto",
+          "ruby": "エレベーターで[[{10階|じゅっかい}]]まで{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi đi thang máy lên tầng mười."
+        },
+        {
+          "id": "c-kai-floor-e07",
+          "review": "auto",
+          "ruby": "すみません、トイレは[[{何階|なんがい}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Xin lỗi, nhà vệ sinh ở tầng mấy ạ?"
+        },
+        {
+          "id": "c-kai-floor-e08",
+          "review": "auto",
+          "ruby": "このビルは[[{13階|じゅうさんがい}]]まであります。",
+          "source": "ai-draft",
+          "vi": "Tòa nhà này cao đến tầng mười ba."
+        },
+        {
+          "id": "c-kai-floor-e09",
+          "review": "auto",
+          "ruby": "{私|わたし}の{会社|かいしゃ}はビルの[[{20階|にじゅっかい}]]にあります。",
+          "source": "ai-draft",
+          "vi": "Công ty tôi ở tầng hai mươi của tòa nhà."
+        },
+        {
+          "id": "c-kai-floor-e10",
+          "review": "auto",
+          "ruby": "{本屋|ほんや}は[[{4階|よんかい}]]にあります。",
+          "source": "ai-draft",
+          "vi": "Hiệu sách ở tầng bốn."
+        }
+      ],
+      "id": "c-kai-floor",
+      "items_vi": [
+        "tầng",
+        "tầng hầm (地下1階)"
+      ],
+      "kana": "かい",
+      "kanji_refs": [
+        "k-階"
+      ],
+      "large_vi": [
+        "Số tận cùng 3 cũng thành g: 13階 じゅうさんがい, 23階 にじゅうさんがい.",
+        "Tòa nhà cao: 20階 にじゅっかい, 100階 ひゃっかい. Nhà chọc trời Nhật thường dưới 100 tầng."
+      ],
+      "lesson": 3,
+      "name_vi": "Tầng nhà",
+      "notes_vi": [
+        "Tầng 1 ở Nhật là tầng trệt (1階 = tầng mặt đất).",
+        "Tầng hầm: 地下1階 ちかいっかい, viết tắt B1.",
+        "Khác ～回 (số lần): 3回 さんかい."
+      ],
+      "question": {
+        "alt": [
+          "なんかい"
+        ],
+        "kana": "なんがい",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっかい",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にかい",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんがい",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんかい",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごかい",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっかい",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななかい",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちかい"
+          ],
+          "irregular": false,
+          "kana": "はっかい",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうかい",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっかい"
+          ],
+          "irregular": false,
+          "kana": "じゅっかい",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっかい",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうさんがい",
+          "n": 13,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっかい"
+          ],
+          "irregular": false,
+          "kana": "にじゅっかい",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっかい",
+          "n": 100,
+          "note": null
+        }
+      ],
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k, nhưng 3 và 何 thành g: さんがい, なんがい.",
+      "use_vi": "Đếm, gọi tên tầng của tòa nhà.",
+      "vocab_refs": [
+        "mn-03-030"
+      ]
+    },
+    {
+      "category": "objects",
+      "char": "本",
+      "examples": [
+        {
+          "id": "c-hon-e01",
+          "review": "auto",
+          "ruby": "ペンを[[{1本|いっぽん}]]{貸|か}してください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi mượn một cây bút."
+        },
+        {
+          "id": "c-hon-e02",
+          "review": "auto",
+          "ruby": "ビールを[[{2本|にほん}]]{飲|の}みました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã uống hai chai bia."
+        },
+        {
+          "id": "c-hon-e03",
+          "review": "auto",
+          "ruby": "{傘|かさ}が[[{3本|さんぼん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Có ba cái ô."
+        },
+        {
+          "id": "c-hon-e04",
+          "review": "auto",
+          "ruby": "バナナを[[{6本|ろっぽん}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua sáu quả chuối."
+        },
+        {
+          "id": "c-hon-e05",
+          "review": "auto",
+          "ruby": "{庭|にわ}に{木|き}が[[{8本|はっぽん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Trong vườn có tám cái cây."
+        },
+        {
+          "id": "c-hon-e06",
+          "review": "auto",
+          "ruby": "{鉛筆|えんぴつ}を[[{10本|じゅっぽん}]]{持|も}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi có mười cây bút chì."
+        },
+        {
+          "id": "c-hon-e07",
+          "review": "auto",
+          "ruby": "ネクタイを[[{4本|よんほん}]]{持|も}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi có bốn chiếc cà vạt."
+        },
+        {
+          "id": "c-hon-e08",
+          "review": "auto",
+          "ruby": "{水|みず}を[[{何本|なんぼん}]]{買|か}いますか。",
+          "source": "ai-draft",
+          "vi": "Bạn mua mấy chai nước?"
+        },
+        {
+          "id": "c-hon-e09",
+          "review": "auto",
+          "ruby": "パーティーのためにジュースを[[{20本|にじゅっぽん}]]{用意|ようい}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã chuẩn bị hai mươi chai nước ép cho bữa tiệc."
+        },
+        {
+          "id": "c-hon-e10",
+          "review": "auto",
+          "ruby": "{公園|こうえん}に{桜|さくら}の{木|き}が[[{1000本|せんぼん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Trong công viên có một nghìn cây anh đào."
+        }
+      ],
+      "id": "c-hon",
+      "items_vi": [
+        "bút",
+        "chai",
+        "cây",
+        "ô dù",
+        "cà vạt",
+        "chuối",
+        "tuyến tàu"
+      ],
+      "kana": "ほん",
+      "kanji_refs": [
+        "k-本"
+      ],
+      "large_vi": [
+        "Biến âm theo chữ số cuối: 11本 じゅういっぽん, 13本 じゅうさんぼん, 16本 じゅうろっぽん, 20本 にじゅっぽん.",
+        "100本 ひゃっぽん, 300本 さんびゃっぽん - 1000本 せんぼん, 10000本 いちまんぼん (sau ん → ぼん)."
+      ],
+      "lesson": 40,
+      "name_vi": "Vật dài, thon",
+      "notes_vi": [
+        "Cũng dùng cho cuộc gọi điện thoại, bộ phim, cú sút, tuyến đường: 電話を1本 = một cuộc gọi.",
+        "Phân biệt với 本 (ほん) = sách - sách đếm bằng ～冊."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんぼん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっぽん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にほん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんぼん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんほん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごほん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっぽん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななほん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちほん"
+          ],
+          "irregular": false,
+          "kana": "はっぽん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうほん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっぽん"
+          ],
+          "irregular": false,
+          "kana": "じゅっぽん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっぽん",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうさんぼん",
+          "n": 13,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっぽん"
+          ],
+          "irregular": false,
+          "kana": "にじゅっぽん",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっぽん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんぼん",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんぼん",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h: 1, 6, 8, 10 → っぽん - 3 và 何 → ぼん.",
+      "use_vi": "Đếm vật dài, hình trụ.",
+      "vocab_refs": [
+        "mn-40-032"
+      ]
+    },
+    {
+      "category": "objects",
+      "char": "杯",
+      "examples": [
+        {
+          "id": "c-hai-e01",
+          "review": "auto",
+          "ruby": "コーヒーを[[{1杯|いっぱい}]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi một tách cà phê."
+        },
+        {
+          "id": "c-hai-e02",
+          "review": "auto",
+          "ruby": "ご{飯|はん}を[[{2杯|にはい}]]{食|た}べました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã ăn hai bát cơm."
+        },
+        {
+          "id": "c-hai-e03",
+          "review": "auto",
+          "ruby": "{水|みず}を[[{3杯|さんばい}]]{飲|の}みました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã uống ba cốc nước."
+        },
+        {
+          "id": "c-hai-e04",
+          "review": "auto",
+          "ruby": "{毎朝|まいあさ}お{茶|ちゃ}を[[{4杯|よんはい}]]{飲|の}みます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi uống bốn tách trà."
+        },
+        {
+          "id": "c-hai-e05",
+          "review": "auto",
+          "ruby": "{砂糖|さとう}を[[{6杯|ろっぱい}]]{入|い}れます。",
+          "source": "ai-draft",
+          "vi": "Cho sáu thìa đường vào."
+        },
+        {
+          "id": "c-hai-e06",
+          "review": "auto",
+          "ruby": "{昨日|きのう}ビールを[[{8杯|はっぱい}]]も{飲|の}みました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi uống những tám ly bia."
+        },
+        {
+          "id": "c-hai-e07",
+          "review": "auto",
+          "ruby": "{店|みせ}でラーメンが[[{10杯|じゅっぱい}]]{売|う}れました。",
+          "source": "ai-draft",
+          "vi": "Quán đã bán được mười bát mì ramen."
+        },
+        {
+          "id": "c-hai-e08",
+          "review": "auto",
+          "ruby": "コーヒーを{1日|いちにち}に[[{何杯|なんばい}]]{飲|の}みますか。",
+          "source": "ai-draft",
+          "vi": "Một ngày bạn uống mấy tách cà phê?"
+        },
+        {
+          "id": "c-hai-e09",
+          "review": "auto",
+          "ruby": "この{店|みせ}は{昼|ひる}にうどんを[[{100杯|ひゃっぱい}]]{作|つく}ります。",
+          "source": "ai-draft",
+          "vi": "Quán này buổi trưa nấu một trăm bát mì udon."
+        },
+        {
+          "id": "c-hai-e10",
+          "review": "auto",
+          "ruby": "{1日|いちにち}にラーメンを[[{1000杯|せんばい}]]{売|う}る{店|みせ}です。",
+          "source": "ai-draft",
+          "vi": "Đây là quán bán một nghìn bát ramen mỗi ngày."
+        }
+      ],
+      "id": "c-hai",
+      "items_vi": [
+        "cốc nước",
+        "tách cà phê",
+        "bát cơm",
+        "thìa đường",
+        "ly bia"
+      ],
+      "kana": "はい",
+      "kanji_refs": [
+        "k-杯"
+      ],
+      "large_vi": [
+        "11杯 じゅういっぱい, 20杯 にじゅっぱい, 100杯 ひゃっぱい, 1000杯 せんばい (sau ん → ばい)."
+      ],
+      "lesson": 40,
+      "name_vi": "Cốc, chén, bát",
+      "notes_vi": [
+        "いっぱい còn là trạng từ 'đầy, nhiều': おなかがいっぱいです = No bụng rồi.",
+        "Phân biệt 3杯 さんばい với ～倍 (lần, gấp): 3倍 さんばい — cùng cách đọc, khác nghĩa."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんばい",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっぱい",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にはい",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんばい",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんはい",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごはい",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっぱい",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななはい",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちはい"
+          ],
+          "irregular": false,
+          "kana": "はっぱい",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうはい",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっぱい"
+          ],
+          "irregular": false,
+          "kana": "じゅっぱい",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっぱい",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっぱい"
+          ],
+          "irregular": false,
+          "kana": "にじゅっぱい",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっぱい",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんばい",
+          "n": 1000,
+          "note": null
+        }
+      ],
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h giống 本: 1, 6, 8, 10 → っぱい - 3 và 何 → ばい.",
+      "use_vi": "Đếm lượng đồ uống, thức ăn đựng trong cốc, chén, bát.",
+      "vocab_refs": [
+        "mn-40-033"
+      ]
+    },
+    {
+      "category": "objects",
+      "char": "個",
+      "examples": [
+        {
+          "id": "c-ko-e01",
+          "review": "auto",
+          "ruby": "{卵|たまご}を[[{1個|いっこ}]]{使|つか}います。",
+          "source": "ai-draft",
+          "vi": "Dùng một quả trứng."
+        },
+        {
+          "id": "c-ko-e02",
+          "review": "auto",
+          "ruby": "りんごを[[{2個|にこ}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua hai quả táo."
+        },
+        {
+          "id": "c-ko-e03",
+          "review": "auto",
+          "ruby": "あめを[[{3個|さんこ}]]もらいました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã nhận được ba viên kẹo."
+        },
+        {
+          "id": "c-ko-e04",
+          "review": "auto",
+          "ruby": "{箱|はこ}にみかんが[[{6個|ろっこ}]]{入|はい}っています。",
+          "source": "ai-draft",
+          "vi": "Trong hộp có sáu quả quýt."
+        },
+        {
+          "id": "c-ko-e05",
+          "review": "auto",
+          "ruby": "{石鹸|せっけん}を[[{8個|はっこ}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua tám bánh xà phòng."
+        },
+        {
+          "id": "c-ko-e06",
+          "review": "auto",
+          "ruby": "ケーキを[[{10個|じゅっこ}]]{注文|ちゅうもん}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đặt mười cái bánh ngọt."
+        },
+        {
+          "id": "c-ko-e07",
+          "review": "auto",
+          "ruby": "{卵|たまご}が[[{12個|じゅうにこ}]]{入|はい}ったパックを{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua một vỉ mười hai quả trứng."
+        },
+        {
+          "id": "c-ko-e08",
+          "review": "auto",
+          "ruby": "{荷物|にもつ}は[[{何個|なんこ}]]ありますか。",
+          "source": "ai-draft",
+          "vi": "Bạn có mấy kiện hành lý?"
+        },
+        {
+          "id": "c-ko-e09",
+          "review": "auto",
+          "ruby": "{袋|ふくろ}にあめが[[{20個|にじゅっこ}]]{入|はい}っています。",
+          "source": "ai-draft",
+          "vi": "Trong túi có hai mươi viên kẹo."
+        },
+        {
+          "id": "c-ko-e10",
+          "review": "auto",
+          "ruby": "{工場|こうじょう}で{毎日|まいにち}パンを[[{1000個|せんこ}]]{作|つく}ります。",
+          "source": "ai-draft",
+          "vi": "Nhà máy mỗi ngày làm một nghìn cái bánh mì."
+        }
+      ],
+      "id": "c-ko",
+      "items_vi": [
+        "trứng",
+        "táo",
+        "kẹo",
+        "viên đá",
+        "hộp",
+        "cục xà phòng"
+      ],
+      "kana": "こ",
+      "kanji_refs": [
+        "k-個"
+      ],
+      "large_vi": [
+        "11個 じゅういっこ, 16個 じゅうろっこ, 20個 にじゅっこ, 100個 ひゃっこ, 1000個 せんこ, 10000個 いちまんこ."
+      ],
+      "lesson": null,
+      "name_vi": "Vật nhỏ, tròn",
+      "notes_vi": [
+        "Với 1–10 có thể thay bằng ～つ (りんご3つ = りんご3個) - trên 10 thường dùng 個."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんこ",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっこ",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にこ",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんこ",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんこ",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごこ",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっこ",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななこ",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちこ"
+          ],
+          "irregular": false,
+          "kana": "はっこ",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうこ",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっこ"
+          ],
+          "irregular": false,
+          "kana": "じゅっこ",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっこ",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっこ"
+          ],
+          "irregular": false,
+          "kana": "にじゅっこ",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっこ",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんこ",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんこ",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 → っこ - 3 giữ さんこ.",
+      "use_vi": "Đếm đồ vật nhỏ, khối nhỏ - dùng được cả khi số lớn hơn 10 thay cho ～つ.",
+      "vocab_refs": []
+    },
+    {
+      "category": "objects",
+      "char": "冊",
+      "examples": [
+        {
+          "id": "c-satsu-e01",
+          "review": "auto",
+          "ruby": "{本|ほん}を[[{1冊|いっさつ}]]{借|か}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mượn một quyển sách."
+        },
+        {
+          "id": "c-satsu-e02",
+          "review": "auto",
+          "ruby": "ノートを[[{2冊|にさつ}]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi hai quyển vở."
+        },
+        {
+          "id": "c-satsu-e03",
+          "review": "auto",
+          "ruby": "{雑誌|ざっし}を[[{3冊|さんさつ}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua ba cuốn tạp chí."
+        },
+        {
+          "id": "c-satsu-e04",
+          "review": "auto",
+          "ruby": "{辞書|じしょ}を[[{4冊|よんさつ}]]{持|も}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi có bốn cuốn từ điển."
+        },
+        {
+          "id": "c-satsu-e05",
+          "review": "auto",
+          "ruby": "{先月|せんげつ}{本|ほん}を[[{6冊|ろくさつ}]]{読|よ}みました。",
+          "source": "ai-draft",
+          "vi": "Tháng trước tôi đã đọc sáu quyển sách."
+        },
+        {
+          "id": "c-satsu-e06",
+          "review": "auto",
+          "ruby": "{図書館|としょかん}で{本|ほん}を[[{8冊|はっさつ}]]{借|か}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mượn tám quyển sách ở thư viện."
+        },
+        {
+          "id": "c-satsu-e07",
+          "review": "auto",
+          "ruby": "{漫画|まんが}を[[{10冊|じゅっさつ}]]{持|も}ってきました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mang đến mười cuốn truyện tranh."
+        },
+        {
+          "id": "c-satsu-e08",
+          "review": "auto",
+          "ruby": "{1か月|いっかげつ}に{本|ほん}を[[{何冊|なんさつ}]]{読|よ}みますか。",
+          "source": "ai-draft",
+          "vi": "Một tháng bạn đọc mấy quyển sách?"
+        },
+        {
+          "id": "c-satsu-e09",
+          "review": "auto",
+          "ruby": "{本棚|ほんだな}に{本|ほん}が[[{20冊|にじゅっさつ}]]あります。",
+          "source": "ai-draft",
+          "vi": "Trên giá sách có hai mươi quyển sách."
+        },
+        {
+          "id": "c-satsu-e10",
+          "review": "auto",
+          "ruby": "{私|わたし}の{部屋|へや}には{本|ほん}が[[{100冊|ひゃくさつ}]]ぐらいあります。",
+          "source": "ai-draft",
+          "vi": "Trong phòng tôi có khoảng một trăm quyển sách."
+        }
+      ],
+      "id": "c-satsu",
+      "items_vi": [
+        "sách",
+        "vở",
+        "tạp chí",
+        "từ điển",
+        "album"
+      ],
+      "kana": "さつ",
+      "kanji_refs": [
+        "k-冊"
+      ],
+      "large_vi": [
+        "11冊 じゅういっさつ, 18冊 じゅうはっさつ, 20冊 にじゅっさつ - 100冊 ひゃくさつ (hoặc ひゃっさつ) - 1000冊 せんさつ."
+      ],
+      "lesson": null,
+      "name_vi": "Sách, vở",
+      "notes_vi": [
+        "Báo (新聞) đếm bằng ～部 hoặc ～枚, không dùng 冊."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんさつ",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっさつ",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にさつ",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんさつ",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんさつ",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごさつ",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくさつ",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななさつ",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちさつ"
+          ],
+          "irregular": false,
+          "kana": "はっさつ",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうさつ",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっさつ"
+          ],
+          "irregular": false,
+          "kana": "じゅっさつ",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっさつ",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっさつ"
+          ],
+          "irregular": false,
+          "kana": "にじゅっさつ",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [
+            "ひゃっさつ"
+          ],
+          "irregular": false,
+          "kana": "ひゃくさつ",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんさつ",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんさつ",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っさつ - 6 giữ ろくさつ.",
+      "use_vi": "Đếm sách, vở, tạp chí.",
+      "vocab_refs": []
+    },
+    {
+      "category": "animals",
+      "char": "匹",
+      "examples": [
+        {
+          "id": "c-hiki-e01",
+          "review": "auto",
+          "ruby": "{家|うち}に{猫|ねこ}が[[{1匹|いっぴき}]]います。",
+          "source": "ai-draft",
+          "vi": "Nhà tôi có một con mèo."
+        },
+        {
+          "id": "c-hiki-e02",
+          "review": "auto",
+          "ruby": "{犬|いぬ}を[[{2匹|にひき}]]{飼|か}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi nuôi hai con chó."
+        },
+        {
+          "id": "c-hiki-e03",
+          "review": "auto",
+          "ruby": "{川|かわ}で{魚|さかな}を[[{3匹|さんびき}]]{釣|つ}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã câu được ba con cá ở sông."
+        },
+        {
+          "id": "c-hiki-e04",
+          "review": "auto",
+          "ruby": "{池|いけ}に{金魚|きんぎょ}が[[{4匹|よんひき}]]います。",
+          "source": "ai-draft",
+          "vi": "Trong ao có bốn con cá vàng."
+        },
+        {
+          "id": "c-hiki-e05",
+          "review": "auto",
+          "ruby": "{子猫|こねこ}が[[{6匹|ろっぴき}]]{生|う}まれました。",
+          "source": "ai-draft",
+          "vi": "Sáu chú mèo con đã ra đời."
+        },
+        {
+          "id": "c-hiki-e06",
+          "review": "auto",
+          "ruby": "{庭|にわ}に{虫|むし}が[[{8匹|はっぴき}]]いました。",
+          "source": "ai-draft",
+          "vi": "Trong vườn có tám con côn trùng."
+        },
+        {
+          "id": "c-hiki-e07",
+          "review": "auto",
+          "ruby": "{水槽|すいそう}に{魚|さかな}が[[{10匹|じゅっぴき}]]います。",
+          "source": "ai-draft",
+          "vi": "Trong bể cá có mười con cá."
+        },
+        {
+          "id": "c-hiki-e08",
+          "review": "auto",
+          "ruby": "{犬|いぬ}を[[{何匹|なんびき}]]{飼|か}っていますか。",
+          "source": "ai-draft",
+          "vi": "Bạn nuôi mấy con chó?"
+        },
+        {
+          "id": "c-hiki-e09",
+          "review": "auto",
+          "ruby": "この{店|みせ}には{猫|ねこ}が[[{20匹|にじゅっぴき}]]います。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng này có hai mươi con mèo."
+        },
+        {
+          "id": "c-hiki-e10",
+          "review": "auto",
+          "ruby": "{池|いけ}に{鯉|こい}が[[{100匹|ひゃっぴき}]]ぐらいいます。",
+          "source": "ai-draft",
+          "vi": "Trong ao có khoảng một trăm con cá chép."
+        }
+      ],
+      "id": "c-hiki",
+      "items_vi": [
+        "chó",
+        "mèo",
+        "cá",
+        "côn trùng",
+        "chuột"
+      ],
+      "kana": "ひき",
+      "kanji_refs": [
+        "k-匹"
+      ],
+      "large_vi": [
+        "11匹 じゅういっぴき, 20匹 にじゅっぴき, 100匹 ひゃっぴき, 1000匹 せんびき."
+      ],
+      "lesson": null,
+      "name_vi": "Động vật nhỏ",
+      "notes_vi": [
+        "Động vật lớn (bò, ngựa, voi) dùng ～頭 (とう) - chim dùng ～羽 (わ)."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんびき",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっぴき",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にひき",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんびき",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんひき",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごひき",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっぴき",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななひき",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちひき"
+          ],
+          "irregular": false,
+          "kana": "はっぴき",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうひき",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっぴき"
+          ],
+          "irregular": false,
+          "kana": "じゅっぴき",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっぴき",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっぴき"
+          ],
+          "irregular": false,
+          "kana": "にじゅっぴき",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっぴき",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんびき",
+          "n": 1000,
+          "note": null
+        }
+      ],
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h giống 本: 1, 6, 8, 10 → っぴき - 3 và 何 → びき.",
+      "use_vi": "Đếm động vật nhỏ và vừa, cá, côn trùng.",
+      "vocab_refs": []
+    },
+    {
+      "category": "place",
+      "char": "軒",
+      "examples": [
+        {
+          "id": "c-ken-e01",
+          "review": "auto",
+          "ruby": "{駅|えき}の{前|まえ}に{本屋|ほんや}が[[{1軒|いっけん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Trước nhà ga có một hiệu sách."
+        },
+        {
+          "id": "c-ken-e02",
+          "review": "auto",
+          "ruby": "この{通|とお}りにはコンビニが[[{2軒|にけん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Con phố này có hai cửa hàng tiện lợi."
+        },
+        {
+          "id": "c-ken-e03",
+          "review": "auto",
+          "ruby": "{近|ちか}くにラーメン{屋|や}が[[{3軒|さんげん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Gần đây có ba quán mì ramen."
+        },
+        {
+          "id": "c-ken-e04",
+          "review": "auto",
+          "ruby": "{今日|きょう}は{店|みせ}を[[{4軒|よんけん}]]{回|まわ}りました。",
+          "source": "ai-draft",
+          "vi": "Hôm nay tôi đã đi bốn cửa hàng."
+        },
+        {
+          "id": "c-ken-e05",
+          "review": "auto",
+          "ruby": "この{村|むら}には{家|いえ}が[[{6軒|ろっけん}]]しかありません。",
+          "source": "ai-draft",
+          "vi": "Làng này chỉ có sáu ngôi nhà."
+        },
+        {
+          "id": "c-ken-e06",
+          "review": "auto",
+          "ruby": "{駅|えき}の{近|ちか}くに{喫茶店|きっさてん}が[[{8軒|はっけん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Gần nhà ga có tám quán cà phê."
+        },
+        {
+          "id": "c-ken-e07",
+          "review": "auto",
+          "ruby": "この{町|まち}には{病院|びょういん}が[[{10軒|じゅっけん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Thị trấn này có mười bệnh viện."
+        },
+        {
+          "id": "c-ken-e08",
+          "review": "auto",
+          "ruby": "この{辺|へん}にスーパーは[[{何軒|なんげん}]]ありますか。",
+          "source": "ai-draft",
+          "vi": "Quanh đây có mấy siêu thị?"
+        },
+        {
+          "id": "c-ken-e09",
+          "review": "auto",
+          "ruby": "この{商店街|しょうてんがい}には{店|みせ}が[[{100軒|ひゃっけん}]]ぐらいあります。",
+          "source": "ai-draft",
+          "vi": "Khu phố mua sắm này có khoảng một trăm cửa hàng."
+        },
+        {
+          "id": "c-ken-e10",
+          "review": "auto",
+          "ruby": "{東京|とうきょう}にはこの{会社|かいしゃ}の{店|みせ}が[[{1000軒|せんげん}]]{以上|いじょう}あります。",
+          "source": "ai-draft",
+          "vi": "Ở Tokyo có hơn một nghìn cửa hàng của công ty này."
+        }
+      ],
+      "id": "c-ken",
+      "items_vi": [
+        "nhà",
+        "cửa hàng",
+        "quán ăn",
+        "tiệm"
+      ],
+      "kana": "けん",
+      "kanji_refs": [
+        "k-軒"
+      ],
+      "large_vi": [
+        "20軒 にじゅっけん, 100軒 ひゃっけん - sau ん thành げん: 13軒 じゅうさんげん, 1000軒 せんげん."
+      ],
+      "lesson": null,
+      "name_vi": "Nhà, cửa hàng",
+      "notes_vi": [
+        "一軒家 いっけんや = nhà riêng (không phải chung cư)."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんげん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっけん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にけん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんげん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんけん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごけん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっけん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななけん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちけん"
+          ],
+          "irregular": false,
+          "kana": "はっけん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうけん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっけん"
+          ],
+          "irregular": false,
+          "kana": "じゅっけん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっけん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんげん",
+          "n": 1000,
+          "note": null
+        }
+      ],
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 → っけん - 3 và 何 thành g: さんげん, なんげん.",
+      "use_vi": "Đếm ngôi nhà, cửa hàng, quán.",
+      "vocab_refs": []
+    },
+    {
+      "category": "objects",
+      "char": "着",
+      "examples": [
+        {
+          "id": "c-chaku-e01",
+          "review": "auto",
+          "ruby": "{新|あたら}しいスーツを[[{1着|いっちゃく}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua một bộ vest mới."
+        },
+        {
+          "id": "c-chaku-e02",
+          "review": "auto",
+          "ruby": "コートを[[{2着|にちゃく}]]{持|も}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi có hai chiếc áo khoác."
+        },
+        {
+          "id": "c-chaku-e03",
+          "review": "auto",
+          "ruby": "ワンピースを[[{3着|さんちゃく}]]{試|ため}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã thử ba chiếc váy liền."
+        },
+        {
+          "id": "c-chaku-e04",
+          "review": "auto",
+          "ruby": "{旅行|りょこう}に{服|ふく}を[[{4着|よんちゃく}]]{持|も}っていきます。",
+          "source": "ai-draft",
+          "vi": "Tôi mang bốn bộ quần áo đi du lịch."
+        },
+        {
+          "id": "c-chaku-e05",
+          "review": "auto",
+          "ruby": "{着物|きもの}を[[{6着|ろくちゃく}]]{持|も}っています。",
+          "source": "ai-draft",
+          "vi": "Tôi có sáu bộ kimono."
+        },
+        {
+          "id": "c-chaku-e06",
+          "review": "auto",
+          "ruby": "{店|みせ}でジャケットが[[{8着|はっちゃく}]]{売|う}れました。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng đã bán được tám chiếc áo khoác."
+        },
+        {
+          "id": "c-chaku-e07",
+          "review": "auto",
+          "ruby": "{冬|ふゆ}の{服|ふく}を[[{10着|じゅっちゃく}]]{洗|あら}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã giặt mười bộ quần áo mùa đông."
+        },
+        {
+          "id": "c-chaku-e08",
+          "review": "auto",
+          "ruby": "スーツを[[{何着|なんちゃく}]]{持|も}っていますか。",
+          "source": "ai-draft",
+          "vi": "Bạn có mấy bộ vest?"
+        },
+        {
+          "id": "c-chaku-e09",
+          "review": "auto",
+          "ruby": "{制服|せいふく}を[[{20着|にじゅっちゃく}]]{注文|ちゅうもん}しました。",
+          "source": "ai-draft",
+          "vi": "Đã đặt hai mươi bộ đồng phục."
+        },
+        {
+          "id": "c-chaku-e10",
+          "review": "auto",
+          "ruby": "{店|みせ}にコートが[[{11着|じゅういっちゃく}]]{残|のこ}っています。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng còn lại mười một chiếc áo khoác."
+        }
+      ],
+      "id": "c-chaku",
+      "items_vi": [
+        "áo khoác",
+        "bộ vest",
+        "váy",
+        "kimono"
+      ],
+      "kana": "ちゃく",
+      "kanji_refs": [
+        "k-着"
+      ],
+      "large_vi": [
+        "Hàng chục theo chữ số cuối: 11着 じゅういっちゃく, 20着 にじゅっちゃく. Số lượng quần áo hàng trăm, hàng nghìn ít gặp ngoài kho hàng."
+      ],
+      "lesson": null,
+      "name_vi": "Quần áo (bộ, chiếc)",
+      "notes_vi": [
+        "Áo sơ mi, áo phông thường đếm bằng ～枚.",
+        "1着 còn nghĩa 'về nhất' trong cuộc đua (いっちゃく)."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんちゃく",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっちゃく",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にちゃく",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんちゃく",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんちゃく",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごちゃく",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくちゃく",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななちゃく",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はっちゃく",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうちゃく",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっちゃく"
+          ],
+          "irregular": false,
+          "kana": "じゅっちゃく",
+          "n": 10,
+          "note": null
+        }
+      ],
+      "sound_group": "t",
+      "sound_note_vi": "Nhóm t: 1, 8, 10 → っちゃく.",
+      "use_vi": "Đếm áo khoác, bộ quần áo, váy liền.",
+      "vocab_refs": []
+    },
+    {
+      "category": "objects",
+      "char": "足",
+      "examples": [
+        {
+          "id": "c-soku-e01",
+          "review": "auto",
+          "ruby": "{新|あたら}しい{靴|くつ}を[[{1足|いっそく}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua một đôi giày mới."
+        },
+        {
+          "id": "c-soku-e02",
+          "review": "auto",
+          "ruby": "{靴下|くつした}を[[{3足|さんぞく}]]ください。",
+          "source": "ai-draft",
+          "vi": "Cho tôi ba đôi tất."
+        },
+        {
+          "id": "c-soku-e03",
+          "review": "auto",
+          "ruby": "{靴|くつ}を[[{何足|なんぞく}]]{持|も}っていますか。",
+          "source": "ai-draft",
+          "vi": "Bạn có mấy đôi giày?"
+        },
+        {
+          "id": "c-soku-e04",
+          "review": "auto",
+          "ruby": "{玄関|げんかん}に{靴|くつ}が[[{2足|にそく}]]あります。",
+          "source": "ai-draft",
+          "vi": "Ở lối vào có hai đôi giày."
+        },
+        {
+          "id": "c-soku-e05",
+          "review": "auto",
+          "ruby": "スリッパを[[{6足|ろくそく}]]{用意|ようい}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã chuẩn bị sáu đôi dép đi trong nhà."
+        },
+        {
+          "id": "c-soku-e06",
+          "review": "auto",
+          "ruby": "{靴下|くつした}を[[{8足|はっそく}]]{洗|あら}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã giặt tám đôi tất."
+        },
+        {
+          "id": "c-soku-e07",
+          "review": "auto",
+          "ruby": "この{店|みせ}で{靴下|くつした}を[[{10足|じゅっそく}]]{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua mười đôi tất ở cửa hàng này."
+        },
+        {
+          "id": "c-soku-e08",
+          "review": "auto",
+          "ruby": "{子|こ}どもの{靴|くつ}が[[{4足|よんそく}]]あります。",
+          "source": "ai-draft",
+          "vi": "Có bốn đôi giày trẻ em."
+        },
+        {
+          "id": "c-soku-e09",
+          "review": "auto",
+          "ruby": "{店|みせ}に{靴|くつ}が[[{20足|にじゅっそく}]]{並|なら}んでいます。",
+          "source": "ai-draft",
+          "vi": "Trong cửa hàng bày hai mươi đôi giày."
+        },
+        {
+          "id": "c-soku-e10",
+          "review": "auto",
+          "ruby": "{妹|いもうと}は{靴|くつ}を[[{13足|じゅうさんぞく}]]{持|も}っています。",
+          "source": "ai-draft",
+          "vi": "Em gái tôi có mười ba đôi giày."
+        }
+      ],
+      "id": "c-soku",
+      "items_vi": [
+        "giày",
+        "tất",
+        "dép",
+        "ủng"
+      ],
+      "kana": "そく",
+      "kanji_refs": [
+        "k-足"
+      ],
+      "large_vi": [
+        "11足 じゅういっそく, 13足 じゅうさんぞく, 20足 にじゅっそく. Hàng trăm trở lên ít gặp ngoài cửa hàng."
+      ],
+      "lesson": null,
+      "name_vi": "Đôi (giày, tất)",
+      "notes_vi": [
+        "足 (あし) nghĩa gốc là 'chân' - khi đếm đọc そく."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんぞく",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっそく",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にそく",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんぞく",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんそく",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごそく",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくそく",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななそく",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はっそく",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうそく",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっそく"
+          ],
+          "irregular": false,
+          "kana": "じゅっそく",
+          "n": 10,
+          "note": null
+        }
+      ],
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っそく - 3 và 何 thành z: さんぞく, なんぞく.",
+      "use_vi": "Đếm đôi giày, tất, dép.",
+      "vocab_refs": []
+    },
+    {
+      "category": "time",
+      "char": "時",
+      "examples": [
+        {
+          "id": "c-ji-e01",
+          "review": "auto",
+          "ruby": "{毎朝|まいあさ}[[{7時|しちじ}]]に{起|お}きます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi dậy lúc 7 giờ."
+        },
+        {
+          "id": "c-ji-e02",
+          "review": "auto",
+          "ruby": "{今|いま}[[{何時|なんじ}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Bây giờ là mấy giờ?"
+        },
+        {
+          "id": "c-ji-e03",
+          "review": "auto",
+          "ruby": "{会議|かいぎ}は[[{4時|よじ}]]に{始|はじ}まります。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp bắt đầu lúc 4 giờ."
+        },
+        {
+          "id": "c-ji-e04",
+          "review": "auto",
+          "ruby": "{銀行|ぎんこう}は[[{9時|くじ}]]からです。",
+          "source": "ai-draft",
+          "vi": "Ngân hàng mở cửa từ 9 giờ."
+        },
+        {
+          "id": "c-ji-e05",
+          "review": "auto",
+          "ruby": "{昼休|ひるやす}みは[[{12時|じゅうにじ}]]からです。",
+          "source": "ai-draft",
+          "vi": "Giờ nghỉ trưa bắt đầu từ 12 giờ."
+        },
+        {
+          "id": "c-ji-e06",
+          "review": "auto",
+          "ruby": "{毎晩|まいばん}[[{11時|じゅういちじ}]]に{寝|ね}ます。",
+          "source": "ai-draft",
+          "vi": "Tối nào tôi cũng ngủ lúc 11 giờ."
+        },
+        {
+          "id": "c-ji-e07",
+          "review": "auto",
+          "ruby": "{授業|じゅぎょう}は[[{1時|いちじ}]]{半|はん}に{終|お}わります。",
+          "source": "ai-draft",
+          "vi": "Giờ học kết thúc lúc 1 rưỡi."
+        },
+        {
+          "id": "c-ji-e08",
+          "review": "auto",
+          "ruby": "{電車|でんしゃ}は[[{6時|ろくじ}]]{10分|じゅっぷん}に{出|で}ます。",
+          "source": "ai-draft",
+          "vi": "Tàu điện chạy lúc 6 giờ 10 phút."
+        },
+        {
+          "id": "c-ji-e09",
+          "review": "auto",
+          "ruby": "{映画|えいが}は[[{19時|じゅうくじ}]]からです。",
+          "source": "ai-draft",
+          "vi": "Bộ phim bắt đầu lúc 19 giờ."
+        },
+        {
+          "id": "c-ji-e10",
+          "review": "auto",
+          "ruby": "{午後|ごご}[[{3時|さんじ}]]に{駅|えき}で{会|あ}いましょう。",
+          "source": "ai-draft",
+          "vi": "Hãy gặp nhau ở ga lúc 3 giờ chiều."
+        }
+      ],
+      "id": "c-ji",
+      "items_vi": [
+        "giờ"
+      ],
+      "kana": "じ",
+      "kanji_refs": [
+        "k-時"
+      ],
+      "large_vi": [
+        "Giờ chỉ đến 12, hoặc 24 khi dùng giờ 24 tiếng: 13時 じゅうさんじ, 20時 にじゅうじ.",
+        "Số tận cùng 4, 7, 9 giữ cách đọc riêng: 14時 じゅうよじ, 17時 じゅうしちじ, 19時 じゅうくじ, 24時 にじゅうよじ.",
+        "Không có hàng trăm, nghìn. Đếm số tiếng (khoảng thời gian) dùng ～時間."
+      ],
+      "lesson": 4,
+      "name_vi": "Giờ (thời điểm)",
+      "notes_vi": [
+        "午前 (ごぜん) = sáng, 午後 (ごご) = chiều, đặt trước giờ: 午後3時.",
+        "半 (はん) = rưỡi: 7時半 しちじはん.",
+        "～時ごろ = khoảng ～ giờ - ～時に = vào lúc ～ giờ."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんじ",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちじ",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじ",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんじ",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "よじ",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごじ",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくじ",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [
+            "ななじ"
+          ],
+          "irregular": true,
+          "kana": "しちじ",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちじ",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "くじ",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうじ",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういちじ",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうにじ",
+          "n": 12,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうよじ",
+          "n": 14,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうしちじ",
+          "n": 17,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうくじ",
+          "n": 19,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "にじゅうよじ",
+          "n": 24,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm, nhưng 4, 7, 9 đọc よ, しち, く: よじ, しちじ, くじ.",
+      "use_vi": "Nói giờ đồng hồ: mấy giờ.",
+      "vocab_refs": [
+        "mn-04-013"
+      ]
+    },
+    {
+      "category": "time",
+      "char": "分",
+      "examples": [
+        {
+          "id": "c-fun-e01",
+          "review": "auto",
+          "ruby": "[[{1分|いっぷん}]]{待|ま}ってください。",
+          "source": "ai-draft",
+          "vi": "Xin chờ một phút."
+        },
+        {
+          "id": "c-fun-e02",
+          "review": "auto",
+          "ruby": "{駅|えき}まで{歩|ある}いて[[{3分|さんぷん}]]です。",
+          "source": "ai-draft",
+          "vi": "Đi bộ đến ga mất 3 phút."
+        },
+        {
+          "id": "c-fun-e03",
+          "review": "auto",
+          "ruby": "{今|いま}{8時|はちじ}[[{6分|ろっぷん}]]です。",
+          "source": "ai-draft",
+          "vi": "Bây giờ là 8 giờ 6 phút."
+        },
+        {
+          "id": "c-fun-e04",
+          "review": "auto",
+          "ruby": "{会社|かいしゃ}まで{電車|でんしゃ}で[[{40分|よんじゅっぷん}]]かかります。",
+          "source": "ai-draft",
+          "vi": "Đến công ty đi tàu mất 40 phút."
+        },
+        {
+          "id": "c-fun-e05",
+          "review": "auto",
+          "ruby": "{毎日|まいにち}[[{10分|じゅっぷん}]]{日本語|にほんご}を{勉強|べんきょう}します。",
+          "source": "ai-draft",
+          "vi": "Mỗi ngày tôi học tiếng Nhật 10 phút."
+        },
+        {
+          "id": "c-fun-e06",
+          "review": "auto",
+          "ruby": "{家|うち}から{学校|がっこう}まで[[{何分|なんぷん}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Từ nhà đến trường mất mấy phút?"
+        },
+        {
+          "id": "c-fun-e07",
+          "review": "auto",
+          "ruby": "バスは{7時|しちじ}[[{8分|はっぷん}]]に{来|き}ます。",
+          "source": "ai-draft",
+          "vi": "Xe buýt đến lúc 7 giờ 8 phút."
+        },
+        {
+          "id": "c-fun-e08",
+          "review": "auto",
+          "ruby": "ラーメンは[[{5分|ごふん}]]でできます。",
+          "source": "ai-draft",
+          "vi": "Mì ramen nấu 5 phút là xong."
+        },
+        {
+          "id": "c-fun-e09",
+          "review": "auto",
+          "ruby": "{映画|えいが}は[[{100分|ひゃっぷん}]]ぐらいです。",
+          "source": "ai-draft",
+          "vi": "Bộ phim dài khoảng 100 phút."
+        },
+        {
+          "id": "c-fun-e10",
+          "review": "auto",
+          "ruby": "{会議|かいぎ}は{2時|にじ}[[{15分|じゅうごふん}]]からです。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp bắt đầu từ 2 giờ 15 phút."
+        }
+      ],
+      "id": "c-fun",
+      "items_vi": [
+        "phút"
+      ],
+      "kana": "ふん",
+      "kanji_refs": [
+        "k-分"
+      ],
+      "large_vi": [
+        "Chữ số cuối quyết định: 11分 じゅういっぷん, 13分 じゅうさんぷん, 15分 じゅうごふん, 20分 にじゅっぷん, 30分 さんじゅっぷん.",
+        "Khoảng thời gian dài: 100分 ひゃっぷん, 1000分 せんぷん (sau ん → ぷん)."
+      ],
+      "lesson": 4,
+      "name_vi": "Phút",
+      "notes_vi": [
+        "Thời điểm: 7時10分 しちじじゅっぷん. Khoảng thời gian: 10分 hoặc 10分間 (じゅっぷんかん).",
+        "30分 = 半 (はん): 7時半."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんぷん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっぷん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にふん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんぷん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [
+            "よんふん"
+          ],
+          "irregular": false,
+          "kana": "よんぷん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごふん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっぷん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななふん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちふん"
+          ],
+          "irregular": false,
+          "kana": "はっぷん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうふん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっぷん"
+          ],
+          "irregular": false,
+          "kana": "じゅっぷん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっぷん",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうごふん",
+          "n": 15,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっぷん"
+          ],
+          "irregular": false,
+          "kana": "にじゅっぷん",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [
+            "さんじっぷん"
+          ],
+          "irregular": false,
+          "kana": "さんじゅっぷん",
+          "n": 30,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんじゅうごふん",
+          "n": 45,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃっぷん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんぷん",
+          "n": 1000,
+          "note": null
+        }
+      ],
+      "sound_group": "h",
+      "sound_note_vi": "Nhóm h nhưng sau ん thành ぷん: 1, 3, 4, 6, 8, 10 → ぷん - 2, 5, 7, 9 → ふん.",
+      "use_vi": "Nói phút (thời điểm) và đếm số phút (khoảng thời gian).",
+      "vocab_refs": [
+        "mn-04-014"
+      ]
+    },
+    {
+      "category": "time",
+      "char": "時間",
+      "examples": [
+        {
+          "id": "c-jikan-e01",
+          "review": "auto",
+          "ruby": "{毎日|まいにち}[[{8時間|はちじかん}]]{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Mỗi ngày tôi làm việc 8 tiếng."
+        },
+        {
+          "id": "c-jikan-e02",
+          "review": "auto",
+          "ruby": "{東京|とうきょう}まで[[{何時間|なんじかん}]]かかりますか。",
+          "source": "ai-draft",
+          "vi": "Đến Tokyo mất mấy tiếng?"
+        },
+        {
+          "id": "c-jikan-e03",
+          "review": "auto",
+          "ruby": "{昨日|きのう}は[[{4時間|よじかん}]]{勉強|べんきょう}しました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đã học 4 tiếng."
+        },
+        {
+          "id": "c-jikan-e04",
+          "review": "auto",
+          "ruby": "{毎晩|まいばん}[[{7時間|ななじかん}]]{寝|ね}ます。",
+          "source": "ai-draft",
+          "vi": "Mỗi tối tôi ngủ 7 tiếng."
+        },
+        {
+          "id": "c-jikan-e05",
+          "review": "auto",
+          "ruby": "{飛行機|ひこうき}で[[{9時間|くじかん}]]かかりました。",
+          "source": "ai-draft",
+          "vi": "Đi máy bay mất 9 tiếng."
+        },
+        {
+          "id": "c-jikan-e06",
+          "review": "auto",
+          "ruby": "{駅|えき}で[[{1時間|いちじかん}]]{待|ま}ちました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đợi ở ga 1 tiếng."
+        },
+        {
+          "id": "c-jikan-e07",
+          "review": "auto",
+          "ruby": "このコンビニは[[{24時間|にじゅうよじかん}]]{開|あ}いています。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng tiện lợi này mở cửa 24 giờ."
+        },
+        {
+          "id": "c-jikan-e08",
+          "review": "auto",
+          "ruby": "{会議|かいぎ}は[[{2時間|にじかん}]]ぐらいです。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp kéo dài khoảng 2 tiếng."
+        },
+        {
+          "id": "c-jikan-e09",
+          "review": "auto",
+          "ruby": "{日本語|にほんご}を[[{100時間|ひゃくじかん}]]{勉強|べんきょう}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã học tiếng Nhật 100 tiếng."
+        },
+        {
+          "id": "c-jikan-e10",
+          "review": "auto",
+          "ruby": "{新幹線|しんかんせん}で[[{3時間|さんじかん}]]かかります。",
+          "source": "ai-draft",
+          "vi": "Đi tàu Shinkansen mất 3 tiếng."
+        }
+      ],
+      "id": "c-jikan",
+      "items_vi": [
+        "tiếng",
+        "giờ học",
+        "giờ làm việc"
+      ],
+      "kana": "じかん",
+      "kanji_refs": [
+        "k-時",
+        "k-間"
+      ],
+      "large_vi": [
+        "Hàng chục ghép nguyên, riêng số tận cùng 4 đọc よ: 24時間 にじゅうよじかん (cả ngày).",
+        "100時間 ひゃくじかん, 1000時間 せんじかん — không biến âm."
+      ],
+      "lesson": 11,
+      "name_vi": "Giờ (khoảng thời gian)",
+      "notes_vi": [
+        "Khác ～時: 3時 = 3 giờ (thời điểm), 3時間 = 3 tiếng (khoảng thời gian).",
+        "Nửa tiếng = 30分 - 1 tiếng rưỡi = 1時間半 いちじかんはん."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんじかん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちじかん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじかん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんじかん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "よじかん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごじかん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくじかん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [
+            "しちじかん"
+          ],
+          "irregular": false,
+          "kana": "ななじかん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちじかん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [
+            "きゅうじかん"
+          ],
+          "irregular": true,
+          "kana": "くじかん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうじかん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうよじかん",
+          "n": 14,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "にじゅうよじかん",
+          "n": 24,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくじかん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんじかん",
+          "n": 1000,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Giống ～時: không biến âm, 4 → よ, 9 → く (よじかん, くじかん).",
+      "use_vi": "Đếm số tiếng đồng hồ.",
+      "vocab_refs": [
+        "mn-11-043"
+      ]
+    },
+    {
+      "category": "date",
+      "char": "日",
+      "examples": [
+        {
+          "id": "c-nichi-e01",
+          "review": "auto",
+          "ruby": "{4月|しがつ}[[{1日|ついたち}]]から{会社|かいしゃ}で{働|はたら}きます。",
+          "source": "ai-draft",
+          "vi": "Tôi bắt đầu làm ở công ty từ mùng 1 tháng 4."
+        },
+        {
+          "id": "c-nichi-e02",
+          "review": "auto",
+          "ruby": "{今日|きょう}は[[{何日|なんにち}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Hôm nay là ngày mấy?"
+        },
+        {
+          "id": "c-nichi-e03",
+          "review": "auto",
+          "ruby": "{誕生日|たんじょうび}は{5月|ごがつ}[[{20日|はつか}]]です。",
+          "source": "ai-draft",
+          "vi": "Sinh nhật tôi là ngày 20 tháng 5."
+        },
+        {
+          "id": "c-nichi-e04",
+          "review": "auto",
+          "ruby": "{旅行|りょこう}は[[{3日|みっか}]]からです。",
+          "source": "ai-draft",
+          "vi": "Chuyến du lịch bắt đầu từ ngày mùng 3."
+        },
+        {
+          "id": "c-nichi-e05",
+          "review": "auto",
+          "ruby": "{休|やす}みは[[{4日|よっか}]]までです。",
+          "source": "ai-draft",
+          "vi": "Kỳ nghỉ kéo dài đến ngày mùng 4."
+        },
+        {
+          "id": "c-nichi-e06",
+          "review": "auto",
+          "ruby": "[[{1日|いちにち}]]に{3回|さんかい}{薬|くすり}を{飲|の}みます。",
+          "source": "ai-draft",
+          "vi": "Một ngày tôi uống thuốc ba lần."
+        },
+        {
+          "id": "c-nichi-e07",
+          "review": "auto",
+          "ruby": "{来月|らいげつ}の[[{8日|ようか}]]に{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Ngày mùng 8 tháng sau tôi về nước."
+        },
+        {
+          "id": "c-nichi-e08",
+          "review": "auto",
+          "ruby": "{試験|しけん}は{7月|しちがつ}[[{14日|じゅうよっか}]]です。",
+          "source": "ai-draft",
+          "vi": "Kỳ thi là ngày 14 tháng 7."
+        },
+        {
+          "id": "c-nichi-e09",
+          "review": "auto",
+          "ruby": "[[{10日|とおか}]]に{友達|ともだち}が{来|き}ます。",
+          "source": "ai-draft",
+          "vi": "Ngày mùng 10 bạn tôi sẽ đến."
+        },
+        {
+          "id": "c-nichi-e10",
+          "review": "auto",
+          "ruby": "{京都|きょうと}に[[{2日|ふつか}]]いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã ở Kyoto hai ngày."
+        }
+      ],
+      "id": "c-nichi",
+      "items_vi": [
+        "ngày sinh nhật",
+        "ngày thi",
+        "số ngày nghỉ",
+        "số ngày ở lại"
+      ],
+      "kana": "にち",
+      "kanji_refs": [
+        "k-日"
+      ],
+      "large_vi": [
+        "Ngày 11 trở đi: số + にち, trừ 14 じゅうよっか, 20 はつか, 24 にじゅうよっか.",
+        "Đếm số ngày (khoảng thời gian) đọc giống ngày trong tháng, trừ 1 ngày = いちにち - thường thêm 間: 3日間 みっかかん.",
+        "Số ngày lớn ghép nguyên: 100日 ひゃくにち, 1000日 せんにち."
+      ],
+      "lesson": 5,
+      "name_vi": "Ngày",
+      "notes_vi": [
+        "Thứ tự viết ngày tháng: 2026年11月11日 (năm → tháng → ngày).",
+        "Hỏi ngày: 何日 なんにち - hỏi thứ: 何曜日 なんようび."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんにち",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [
+            "いちにち"
+          ],
+          "irregular": true,
+          "kana": "ついたち",
+          "n": 1,
+          "note": "Mùng 1 = ついたち - '1 ngày' (khoảng thời gian) = いちにち."
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ふつか",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "みっか",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "よっか",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "いつか",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "むいか",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [
+            "なぬか"
+          ],
+          "irregular": true,
+          "kana": "なのか",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ようか",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "ここのか",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "とおか",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういちにち",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうににち",
+          "n": 12,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうよっか",
+          "n": 14,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうしちにち",
+          "n": 17,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうくにち",
+          "n": 19,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "はつか",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "にじゅうよっか",
+          "n": 24,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんじゅうにち",
+          "n": 30,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんじゅういちにち",
+          "n": 31,
+          "note": null
+        }
+      ],
+      "sound_group": "special",
+      "sound_note_vi": "Ngày 1–10, 14, 20, 24 đọc bằng gốc thuần Nhật — phải học thuộc.",
+      "use_vi": "Ngày trong tháng và số ngày.",
+      "vocab_refs": [
+        "mn-05-048"
+      ]
+    },
+    {
+      "category": "date",
+      "char": "月",
+      "examples": [
+        {
+          "id": "c-gatsu-e01",
+          "review": "auto",
+          "ruby": "[[{4月|しがつ}]]から{大学生|だいがくせい}です。",
+          "source": "ai-draft",
+          "vi": "Từ tháng Tư tôi là sinh viên đại học."
+        },
+        {
+          "id": "c-gatsu-e02",
+          "review": "auto",
+          "ruby": "{誕生日|たんじょうび}は[[{何月|なんがつ}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Sinh nhật bạn vào tháng mấy?"
+        },
+        {
+          "id": "c-gatsu-e03",
+          "review": "auto",
+          "ruby": "[[{7月|しちがつ}]]に{夏休|なつやす}みが{始|はじ}まります。",
+          "source": "ai-draft",
+          "vi": "Kỳ nghỉ hè bắt đầu vào tháng Bảy."
+        },
+        {
+          "id": "c-gatsu-e04",
+          "review": "auto",
+          "ruby": "[[{9月|くがつ}]]に{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đến Nhật vào tháng Chín."
+        },
+        {
+          "id": "c-gatsu-e05",
+          "review": "auto",
+          "ruby": "[[{1月|いちがつ}]]はとても{寒|さむ}いです。",
+          "source": "ai-draft",
+          "vi": "Tháng Một rất lạnh."
+        },
+        {
+          "id": "c-gatsu-e06",
+          "review": "auto",
+          "ruby": "[[{3月|さんがつ}]]に{卒業|そつぎょう}します。",
+          "source": "ai-draft",
+          "vi": "Tôi sẽ tốt nghiệp vào tháng Ba."
+        },
+        {
+          "id": "c-gatsu-e07",
+          "review": "auto",
+          "ruby": "[[{6月|ろくがつ}]]は{雨|あめ}が{多|おお}いです。",
+          "source": "ai-draft",
+          "vi": "Tháng Sáu mưa nhiều."
+        },
+        {
+          "id": "c-gatsu-e08",
+          "review": "auto",
+          "ruby": "[[{8月|はちがつ}]]に{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Tháng Tám tôi về nước."
+        },
+        {
+          "id": "c-gatsu-e09",
+          "review": "auto",
+          "ruby": "[[{11月|じゅういちがつ}]]に{京都|きょうと}へ{行|い}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đi Kyoto vào tháng Mười một."
+        },
+        {
+          "id": "c-gatsu-e10",
+          "review": "auto",
+          "ruby": "[[{12月|じゅうにがつ}]]は{忙|いそが}しいです。",
+          "source": "ai-draft",
+          "vi": "Tháng Mười hai bận rộn."
+        }
+      ],
+      "id": "c-gatsu",
+      "items_vi": [
+        "tháng 1 … tháng 12"
+      ],
+      "kana": "がつ",
+      "kanji_refs": [
+        "k-月"
+      ],
+      "large_vi": [
+        "Chỉ có 12 tháng nên không có hàng trăm, nghìn.",
+        "Đếm số tháng (khoảng thời gian) dùng ～か月: 3か月 さんかげつ, 100か月 ít gặp."
+      ],
+      "lesson": 5,
+      "name_vi": "Tháng (tên tháng)",
+      "notes_vi": [
+        "Không nhầm với ～か月: 3月 = tháng Ba, 3か月 = 3 tháng."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんがつ",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちがつ",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にがつ",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんがつ",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "しがつ",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごがつ",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくがつ",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "しちがつ",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちがつ",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "くがつ",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうがつ",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういちがつ",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうにがつ",
+          "n": 12,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm, nhưng 4, 7, 9 đọc し, しち, く: しがつ, しちがつ, くがつ.",
+      "use_vi": "Gọi tên tháng trong năm.",
+      "vocab_refs": [
+        "mn-05-033"
+      ]
+    },
+    {
+      "category": "time",
+      "char": "か月",
+      "examples": [
+        {
+          "id": "c-kagetsu-e01",
+          "review": "auto",
+          "ruby": "{日本|にほん}に[[{1か月|いっかげつ}]]いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã ở Nhật một tháng."
+        },
+        {
+          "id": "c-kagetsu-e02",
+          "review": "auto",
+          "ruby": "{日本語|にほんご}を[[{何か月|なんかげつ}]]{勉強|べんきょう}しましたか。",
+          "source": "ai-draft",
+          "vi": "Bạn đã học tiếng Nhật mấy tháng?"
+        },
+        {
+          "id": "c-kagetsu-e03",
+          "review": "auto",
+          "ruby": "[[{3か月|さんかげつ}]]{前|まえ}に{引|ひ}っ{越|こ}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã chuyển nhà ba tháng trước."
+        },
+        {
+          "id": "c-kagetsu-e04",
+          "review": "auto",
+          "ruby": "{東京|とうきょう}に[[{6か月|ろっかげつ}]]{住|す}んでいました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã sống ở Tokyo sáu tháng."
+        },
+        {
+          "id": "c-kagetsu-e05",
+          "review": "auto",
+          "ruby": "[[{8か月|はっかげつ}]]{働|はたら}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã làm việc tám tháng."
+        },
+        {
+          "id": "c-kagetsu-e06",
+          "review": "auto",
+          "ruby": "[[{10か月|じゅっかげつ}]]で{日本語|にほんご}が{上手|じょうず}になりました。",
+          "source": "ai-draft",
+          "vi": "Sau mười tháng tiếng Nhật của tôi đã giỏi lên."
+        },
+        {
+          "id": "c-kagetsu-e07",
+          "review": "auto",
+          "ruby": "[[{2か月|にかげつ}]]に{1回|いっかい}{国|くに}へ{電話|でんわ}します。",
+          "source": "ai-draft",
+          "vi": "Hai tháng tôi gọi điện về nước một lần."
+        },
+        {
+          "id": "c-kagetsu-e08",
+          "review": "auto",
+          "ruby": "{赤|あか}ちゃんは[[{4か月|よんかげつ}]]です。",
+          "source": "ai-draft",
+          "vi": "Em bé được bốn tháng."
+        },
+        {
+          "id": "c-kagetsu-e09",
+          "review": "auto",
+          "ruby": "この{仕事|しごと}は[[{18か月|じゅうはっかげつ}]]かかります。",
+          "source": "ai-draft",
+          "vi": "Công việc này mất mười tám tháng."
+        },
+        {
+          "id": "c-kagetsu-e10",
+          "review": "auto",
+          "ruby": "[[{11か月|じゅういっかげつ}]]{前|まえ}に{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đến Nhật mười một tháng trước."
+        }
+      ],
+      "id": "c-kagetsu",
+      "items_vi": [
+        "tháng (khoảng thời gian)"
+      ],
+      "kana": "かげつ",
+      "kanji_refs": [
+        "k-月"
+      ],
+      "large_vi": [
+        "Hàng chục theo chữ số cuối: 11か月 じゅういっかげつ, 18か月 じゅうはっかげつ, 20か月 にじゅっかげつ.",
+        "Khoảng thời gian dài hơn thường đổi sang năm (～年), nên hàng trăm, nghìn tháng ít dùng."
+      ],
+      "lesson": 11,
+      "name_vi": "Số tháng",
+      "notes_vi": [
+        "Cách viết khác: ヶ月, カ月, ケ月, 箇月 — đều đọc かげつ.",
+        "Nửa năm: 6か月 ろっかげつ = 半年 はんとし."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんかげつ",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっかげつ",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にかげつ",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんかげつ",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんかげつ",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごかげつ",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろっかげつ",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななかげつ",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [
+            "はちかげつ"
+          ],
+          "irregular": false,
+          "kana": "はっかげつ",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうかげつ",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっかげつ"
+          ],
+          "irregular": false,
+          "kana": "じゅっかげつ",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっかげつ",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうはっかげつ",
+          "n": 18,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっかげつ"
+          ],
+          "irregular": false,
+          "kana": "にじゅっかげつ",
+          "n": 20,
+          "note": null
+        }
+      ],
+      "sound_group": "k",
+      "sound_note_vi": "Nhóm k: 1, 6, 8, 10 → っかげつ.",
+      "use_vi": "Đếm số tháng (khoảng thời gian).",
+      "vocab_refs": [
+        "mn-11-045"
+      ]
+    },
+    {
+      "category": "time",
+      "char": "週間",
+      "examples": [
+        {
+          "id": "c-shuukan-e01",
+          "review": "auto",
+          "ruby": "[[{1週間|いっしゅうかん}]]に{2回|にかい}プールへ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Một tuần tôi đi bể bơi hai lần."
+        },
+        {
+          "id": "c-shuukan-e02",
+          "review": "auto",
+          "ruby": "{夏休|なつやす}みは[[{何週間|なんしゅうかん}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Kỳ nghỉ hè dài mấy tuần?"
+        },
+        {
+          "id": "c-shuukan-e03",
+          "review": "auto",
+          "ruby": "[[{3週間|さんしゅうかん}]]{旅行|りょこう}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã đi du lịch ba tuần."
+        },
+        {
+          "id": "c-shuukan-e04",
+          "review": "auto",
+          "ruby": "[[{2週間|にしゅうかん}]]{前|まえ}に{国|くに}から{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đến từ nước mình hai tuần trước."
+        },
+        {
+          "id": "c-shuukan-e05",
+          "review": "auto",
+          "ruby": "{病気|びょうき}で[[{6週間|ろくしゅうかん}]]{休|やす}みました。",
+          "source": "ai-draft",
+          "vi": "Vì bệnh tôi đã nghỉ sáu tuần."
+        },
+        {
+          "id": "c-shuukan-e06",
+          "review": "auto",
+          "ruby": "{日本語|にほんご}の{授業|じゅぎょう}は[[{8週間|はっしゅうかん}]]です。",
+          "source": "ai-draft",
+          "vi": "Khóa học tiếng Nhật kéo dài tám tuần."
+        },
+        {
+          "id": "c-shuukan-e07",
+          "review": "auto",
+          "ruby": "[[{10週間|じゅっしゅうかん}]]{毎日|まいにち}{走|はし}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã chạy mỗi ngày trong mười tuần."
+        },
+        {
+          "id": "c-shuukan-e08",
+          "review": "auto",
+          "ruby": "{本|ほん}を[[{4週間|よんしゅうかん}]]{借|か}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mượn sách bốn tuần."
+        },
+        {
+          "id": "c-shuukan-e09",
+          "review": "auto",
+          "ruby": "{試験|しけん}まで[[{5週間|ごしゅうかん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Còn năm tuần nữa là đến kỳ thi."
+        },
+        {
+          "id": "c-shuukan-e10",
+          "review": "auto",
+          "ruby": "{工事|こうじ}は[[{20週間|にじゅっしゅうかん}]]かかります。",
+          "source": "ai-draft",
+          "vi": "Công trình mất hai mươi tuần."
+        }
+      ],
+      "id": "c-shuukan",
+      "items_vi": [
+        "tuần"
+      ],
+      "kana": "しゅうかん",
+      "kanji_refs": [
+        "k-週",
+        "k-間"
+      ],
+      "large_vi": [
+        "11週間 じゅういっしゅうかん, 20週間 にじゅっしゅうかん. Khoảng thời gian dài hơn thường nói bằng tháng hoặc năm."
+      ],
+      "lesson": 11,
+      "name_vi": "Số tuần",
+      "notes_vi": [
+        "Tuần này/tuần sau: 今週 こんしゅう, 来週 らいしゅう (không có 間)."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんしゅうかん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっしゅうかん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にしゅうかん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんしゅうかん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんしゅうかん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごしゅうかん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくしゅうかん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななしゅうかん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はっしゅうかん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうしゅうかん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっしゅうかん"
+          ],
+          "irregular": false,
+          "kana": "じゅっしゅうかん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっしゅうかん",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじっしゅうかん"
+          ],
+          "irregular": false,
+          "kana": "にじゅっしゅうかん",
+          "n": 20,
+          "note": null
+        }
+      ],
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っしゅうかん.",
+      "use_vi": "Đếm số tuần (khoảng thời gian).",
+      "vocab_refs": [
+        "mn-11-044"
+      ]
+    },
+    {
+      "category": "time",
+      "char": "年",
+      "examples": [
+        {
+          "id": "c-nen-e01",
+          "review": "auto",
+          "ruby": "{今年|ことし}は[[{2026年|にせんにじゅうろくねん}]]です。",
+          "source": "ai-draft",
+          "vi": "Năm nay là năm 2026."
+        },
+        {
+          "id": "c-nen-e02",
+          "review": "auto",
+          "ruby": "{日本|にほん}に[[{何年|なんねん}]]{住|す}んでいますか。",
+          "source": "ai-draft",
+          "vi": "Bạn sống ở Nhật mấy năm rồi?"
+        },
+        {
+          "id": "c-nen-e03",
+          "review": "auto",
+          "ruby": "{日本語|にほんご}を[[{4年|よねん}]]{勉強|べんきょう}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã học tiếng Nhật 4 năm."
+        },
+        {
+          "id": "c-nen-e04",
+          "review": "auto",
+          "ruby": "[[{1年|いちねん}]]に{1回|いっかい}{国|くに}へ{帰|かえ}ります。",
+          "source": "ai-draft",
+          "vi": "Một năm tôi về nước một lần."
+        },
+        {
+          "id": "c-nen-e05",
+          "review": "auto",
+          "ruby": "この{会社|かいしゃ}で[[{3年|さんねん}]]{働|はたら}いています。",
+          "source": "ai-draft",
+          "vi": "Tôi làm ở công ty này 3 năm rồi."
+        },
+        {
+          "id": "c-nen-e06",
+          "review": "auto",
+          "ruby": "[[{2024年|にせんにじゅうよねん}]]に{結婚|けっこん}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi kết hôn năm 2024."
+        },
+        {
+          "id": "c-nen-e07",
+          "review": "auto",
+          "ruby": "この{寺|てら}は[[{1000年|せんねん}]]{前|まえ}にできました。",
+          "source": "ai-draft",
+          "vi": "Ngôi chùa này được xây từ một nghìn năm trước."
+        },
+        {
+          "id": "c-nen-e08",
+          "review": "auto",
+          "ruby": "[[{10年|じゅうねん}]]{前|まえ}に{東京|とうきょう}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Tôi đến Tokyo mười năm trước."
+        },
+        {
+          "id": "c-nen-e09",
+          "review": "auto",
+          "ruby": "この{店|みせ}は[[{100年|ひゃくねん}]]{前|まえ}からあります。",
+          "source": "ai-draft",
+          "vi": "Cửa hàng này có từ một trăm năm trước."
+        },
+        {
+          "id": "c-nen-e10",
+          "review": "auto",
+          "ruby": "[[{7年|ななねん}]]{前|まえ}に{大学|だいがく}を{卒業|そつぎょう}しました。",
+          "source": "ai-draft",
+          "vi": "Tôi tốt nghiệp đại học bảy năm trước."
+        }
+      ],
+      "id": "c-nen",
+      "items_vi": [
+        "năm"
+      ],
+      "kana": "ねん",
+      "kanji_refs": [
+        "k-年"
+      ],
+      "large_vi": [
+        "Năm dương lịch đọc như số thường + ねん: 1998年 せんきゅうひゃくきゅうじゅうはちねん, 2026年 にせんにじゅうろくねん.",
+        "Số tận cùng 4 đọc よ: 2024年 にせんにじゅうよねん, 14年 じゅうよねん.",
+        "100年 ひゃくねん, 1000年 せんねん — không biến âm."
+      ],
+      "lesson": 5,
+      "name_vi": "Năm",
+      "notes_vi": [
+        "Khoảng thời gian thường thêm 間: 3年間 さんねんかん.",
+        "Năm học/lớp: 1年生 いちねんせい = học sinh năm nhất."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんねん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちねん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にねん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんねん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "よねん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごねん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくねん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [
+            "しちねん"
+          ],
+          "irregular": false,
+          "kana": "ななねん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちねん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [
+            "くねん"
+          ],
+          "irregular": false,
+          "kana": "きゅうねん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうねん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうよねん",
+          "n": 14,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじゅうねん",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくねん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんねん",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にせんねん",
+          "n": 2000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "にせんにじゅうよねん",
+          "n": 2024,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm - 4 → よねん, 9 → きゅうねん (hoặc くねん).",
+      "use_vi": "Năm dương lịch (2026年) và số năm (3年 = 3 năm).",
+      "vocab_refs": [
+        "mn-05-031",
+        "mn-11-046"
+      ]
+    },
+    {
+      "category": "age",
+      "char": "歳",
+      "examples": [
+        {
+          "id": "c-sai-e01",
+          "review": "auto",
+          "ruby": "{弟|おとうと}は[[{8歳|はっさい}]]です。",
+          "source": "ai-draft",
+          "vi": "Em trai tôi 8 tuổi."
+        },
+        {
+          "id": "c-sai-e02",
+          "review": "auto",
+          "ruby": "お{子|こ}さんは[[{何歳|なんさい}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Con của anh chị mấy tuổi?"
+        },
+        {
+          "id": "c-sai-e03",
+          "review": "auto",
+          "ruby": "{日本|にほん}では[[{20歳|はたち}]]からお{酒|さけ}を{飲|の}んでもいいです。",
+          "source": "ai-draft",
+          "vi": "Ở Nhật từ 20 tuổi được phép uống rượu."
+        },
+        {
+          "id": "c-sai-e04",
+          "review": "auto",
+          "ruby": "{娘|むすめ}は[[{1歳|いっさい}]]です。",
+          "source": "ai-draft",
+          "vi": "Con gái tôi một tuổi."
+        },
+        {
+          "id": "c-sai-e05",
+          "review": "auto",
+          "ruby": "{兄|あに}は[[{10歳|じゅっさい}]]のとき{日本|にほん}へ{来|き}ました。",
+          "source": "ai-draft",
+          "vi": "Anh trai tôi đến Nhật khi 10 tuổi."
+        },
+        {
+          "id": "c-sai-e06",
+          "review": "auto",
+          "ruby": "{息子|むすこ}は[[{6歳|ろくさい}]]で{小学校|しょうがっこう}に{入|はい}ります。",
+          "source": "ai-draft",
+          "vi": "Con trai tôi vào tiểu học lúc 6 tuổi."
+        },
+        {
+          "id": "c-sai-e07",
+          "review": "auto",
+          "ruby": "{祖母|そぼ}は[[{100歳|ひゃくさい}]]です。",
+          "source": "ai-draft",
+          "vi": "Bà tôi 100 tuổi."
+        },
+        {
+          "id": "c-sai-e08",
+          "review": "auto",
+          "ruby": "{私|わたし}は[[{18歳|じゅうはっさい}]]で{大学|だいがく}に{入|はい}りました。",
+          "source": "ai-draft",
+          "vi": "Tôi vào đại học năm 18 tuổi."
+        },
+        {
+          "id": "c-sai-e09",
+          "review": "auto",
+          "ruby": "{妹|いもうと}は[[{3歳|さんさい}]]です。",
+          "source": "ai-draft",
+          "vi": "Em gái tôi 3 tuổi."
+        },
+        {
+          "id": "c-sai-e10",
+          "review": "auto",
+          "ruby": "{父|ちち}は[[{48歳|よんじゅうはっさい}]]です。",
+          "source": "ai-draft",
+          "vi": "Bố tôi 48 tuổi."
+        }
+      ],
+      "id": "c-sai",
+      "items_vi": [
+        "tuổi"
+      ],
+      "kana": "さい",
+      "kanji_refs": [
+        "k-歳"
+      ],
+      "large_vi": [
+        "Theo chữ số cuối: 11歳 じゅういっさい, 18歳 じゅうはっさい, 30歳 さんじゅっさい, 48歳 よんじゅうはっさい.",
+        "100歳 ひゃくさい (hoặc ひゃっさい)."
+      ],
+      "lesson": 1,
+      "name_vi": "Tuổi",
+      "notes_vi": [
+        "歳 cũng viết giản lược là 才.",
+        "Hỏi tuổi trẻ nhỏ thân mật: いくつ？"
+      ],
+      "question": {
+        "alt": [
+          "おいくつ"
+        ],
+        "kana": "なんさい",
+        "note": "Hỏi lịch sự: おいくつですか."
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いっさい",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にさい",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんさい",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんさい",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごさい",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくさい",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななさい",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はっさい",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうさい",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [
+            "じっさい"
+          ],
+          "irregular": false,
+          "kana": "じゅっさい",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういっさい",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうはっさい",
+          "n": 18,
+          "note": null
+        },
+        {
+          "alt": [
+            "にじゅっさい",
+            "にじっさい"
+          ],
+          "irregular": true,
+          "kana": "はたち",
+          "n": 20,
+          "note": "20 tuổi = はたち (二十歳)."
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじゅういっさい",
+          "n": 21,
+          "note": null
+        },
+        {
+          "alt": [
+            "ひゃっさい"
+          ],
+          "irregular": false,
+          "kana": "ひゃくさい",
+          "n": 100,
+          "note": null
+        }
+      ],
+      "sound_group": "s",
+      "sound_note_vi": "Nhóm s: 1, 8, 10 → っさい. 20 tuổi đọc riêng là はたち.",
+      "use_vi": "Nói tuổi.",
+      "vocab_refs": [
+        "mn-01-020"
+      ]
+    },
+    {
+      "category": "money",
+      "char": "円",
+      "examples": [
+        {
+          "id": "c-en-e01",
+          "review": "auto",
+          "ruby": "このりんごは[[{100円|ひゃくえん}]]です。",
+          "source": "ai-draft",
+          "vi": "Quả táo này giá 100 yên."
+        },
+        {
+          "id": "c-en-e02",
+          "review": "auto",
+          "ruby": "このかばんは[[{3,500円|さんぜんごひゃくえん}]]です。",
+          "source": "ai-draft",
+          "vi": "Cái túi này giá 3.500 yên."
+        },
+        {
+          "id": "c-en-e03",
+          "review": "auto",
+          "ruby": "このあめはいくらですか。…[[{84円|はちじゅうよえん}]]です。",
+          "source": "ai-draft",
+          "vi": "Cái kẹo này bao nhiêu tiền? … 84 yên."
+        },
+        {
+          "id": "c-en-e04",
+          "review": "auto",
+          "ruby": "コーヒーは[[{400円|よんひゃくえん}]]です。",
+          "source": "ai-draft",
+          "vi": "Cà phê giá 400 yên."
+        },
+        {
+          "id": "c-en-e05",
+          "review": "auto",
+          "ruby": "[[{1,000円|せんえん}]]で{本|ほん}を{買|か}いました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã mua sách với giá 1.000 yên."
+        },
+        {
+          "id": "c-en-e06",
+          "review": "auto",
+          "ruby": "{財布|さいふ}に[[{10,000円|いちまんえん}]]あります。",
+          "source": "ai-draft",
+          "vi": "Trong ví có 10.000 yên."
+        },
+        {
+          "id": "c-en-e07",
+          "review": "auto",
+          "ruby": "{電車|でんしゃ}の{切符|きっぷ}は[[{300円|さんびゃくえん}]]でした。",
+          "source": "ai-draft",
+          "vi": "Vé tàu điện giá 300 yên."
+        },
+        {
+          "id": "c-en-e08",
+          "review": "auto",
+          "ruby": "このシャツは[[{1,800円|せんはっぴゃくえん}]]です。",
+          "source": "ai-draft",
+          "vi": "Chiếc áo sơ mi này giá 1.800 yên."
+        },
+        {
+          "id": "c-en-e09",
+          "review": "auto",
+          "ruby": "お{釣|つ}りは[[{4円|よえん}]]です。",
+          "source": "ai-draft",
+          "vi": "Tiền thừa là 4 yên."
+        },
+        {
+          "id": "c-en-e10",
+          "review": "auto",
+          "ruby": "{昼|ひる}ご{飯|はん}は[[{650円|ろっぴゃくごじゅうえん}]]でした。",
+          "source": "ai-draft",
+          "vi": "Bữa trưa hết 650 yên."
+        }
+      ],
+      "id": "c-en",
+      "items_vi": [
+        "tiền",
+        "giá"
+      ],
+      "kana": "えん",
+      "kanji_refs": [
+        "k-円"
+      ],
+      "large_vi": [
+        "Giá tiền đọc như số lớn + えん: 300円 さんびゃくえん, 3,500円 さんぜんごひゃくえん, 10,000円 いちまんえん.",
+        "Số tận cùng 4: 4円 よえん, 14円 じゅうよえん - nhưng 40円 よんじゅうえん, 400円 よんひゃくえん."
+      ],
+      "lesson": 3,
+      "name_vi": "Yên (tiền)",
+      "notes_vi": [
+        "Ký hiệu ¥ - tiếng Việt gọi là 'yên'.",
+        "Tờ tiền: 千円札 せんえんさつ, 一万円札 いちまんえんさつ."
+      ],
+      "question": {
+        "alt": [
+          "なんえん"
+        ],
+        "kana": "いくら",
+        "note": "Hỏi giá dùng いくら - なんえん chỉ khi hỏi 'mấy yên' (mệnh giá đồng xu)."
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちえん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にえん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんえん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "よえん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごえん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくえん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななえん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちえん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうえん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうえん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": true,
+          "kana": "じゅうよえん",
+          "n": 14,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくえん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんえん",
+          "n": 1000,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちまんえん",
+          "n": 10000,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm - riêng 4 đọc よえん.",
+      "use_vi": "Đơn vị tiền Nhật.",
+      "vocab_refs": [
+        "mn-03-032"
+      ]
+    },
+    {
+      "category": "order",
+      "char": "番",
+      "examples": [
+        {
+          "id": "c-ban-e01",
+          "review": "auto",
+          "ruby": "{山田|やまだ}さんはクラスで[[{1番|いちばん}]]です。",
+          "source": "ai-draft",
+          "vi": "Anh Yamada đứng nhất lớp."
+        },
+        {
+          "id": "c-ban-e02",
+          "review": "auto",
+          "ruby": "あなたは[[{何番|なんばん}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Bạn là số mấy?"
+        },
+        {
+          "id": "c-ban-e03",
+          "review": "auto",
+          "ruby": "[[{3番|さんばん}]]の{方|かた}、どうぞ。",
+          "source": "ai-draft",
+          "vi": "Mời người số 3."
+        },
+        {
+          "id": "c-ban-e04",
+          "review": "auto",
+          "ruby": "{電車|でんしゃ}は[[{2番|にばん}]]{線|せん}から{出|で}ます。",
+          "source": "ai-draft",
+          "vi": "Tàu điện chạy từ đường ray số 2."
+        },
+        {
+          "id": "c-ban-e05",
+          "review": "auto",
+          "ruby": "{答|こた}えは[[{4番|よんばん}]]です。",
+          "source": "ai-draft",
+          "vi": "Đáp án là số 4."
+        },
+        {
+          "id": "c-ban-e06",
+          "review": "auto",
+          "ruby": "[[{7番|ななばん}]]のバスに{乗|の}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy đi xe buýt số 7."
+        },
+        {
+          "id": "c-ban-e07",
+          "review": "auto",
+          "ruby": "{私|わたし}の{席|せき}は[[{9番|きゅうばん}]]です。",
+          "source": "ai-draft",
+          "vi": "Ghế của tôi là số 9."
+        },
+        {
+          "id": "c-ban-e08",
+          "review": "auto",
+          "ruby": "{質問|しつもん}の[[{8番|はちばん}]]がわかりません。",
+          "source": "ai-draft",
+          "vi": "Tôi không hiểu câu hỏi số 8."
+        },
+        {
+          "id": "c-ban-e09",
+          "review": "auto",
+          "ruby": "{私|わたし}の{番号|ばんごう}は[[{20番|にじゅうばん}]]です。",
+          "source": "ai-draft",
+          "vi": "Số của tôi là số 20."
+        },
+        {
+          "id": "c-ban-e10",
+          "review": "auto",
+          "ruby": "{部屋|へや}の{鍵|かぎ}は[[{100番|ひゃくばん}]]です。",
+          "source": "ai-draft",
+          "vi": "Chìa khóa phòng là số 100."
+        }
+      ],
+      "id": "c-ban",
+      "items_vi": [
+        "thứ hạng",
+        "số hiệu",
+        "số nhà ga, cổng"
+      ],
+      "kana": "ばん",
+      "kanji_refs": [
+        "k-番"
+      ],
+      "large_vi": [
+        "Ghép nguyên ở mọi hàng: 20番 にじゅうばん, 100番 ひゃくばん, 1000番 せんばん."
+      ],
+      "lesson": null,
+      "name_vi": "Số thứ tự",
+      "notes_vi": [
+        "いちばん còn là trạng từ 'nhất': いちばん好きです.",
+        "Thứ tự trong dãy dùng ～目: 3番目 さんばんめ = thứ ba, 2人目 ふたりめ = người thứ hai."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんばん",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちばん",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にばん",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんばん",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんばん",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごばん",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくばん",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななばん",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちばん",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうばん",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうばん",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅういちばん",
+          "n": 11,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじゅうばん",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくばん",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんばん",
+          "n": 1000,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm.",
+      "use_vi": "Số thứ tự, số hiệu (số 1, số 2…).",
+      "vocab_refs": []
+    },
+    {
+      "category": "frequency",
+      "char": "倍",
+      "examples": [
+        {
+          "id": "c-bai-e01",
+          "review": "auto",
+          "ruby": "{東京|とうきょう}の{家賃|やちん}は{私|わたし}の{町|まち}の[[{2倍|にばい}]]です。",
+          "source": "ai-draft",
+          "vi": "Tiền thuê nhà ở Tokyo gấp đôi ở thị trấn của tôi."
+        },
+        {
+          "id": "c-bai-e02",
+          "review": "auto",
+          "ruby": "{兄|あに}は{私|わたし}の[[{3倍|さんばい}]]{食|た}べます。",
+          "source": "ai-draft",
+          "vi": "Anh trai tôi ăn gấp ba tôi."
+        },
+        {
+          "id": "c-bai-e03",
+          "review": "auto",
+          "ruby": "{去年|きょねん}の[[{何倍|なんばい}]]ですか。",
+          "source": "ai-draft",
+          "vi": "Gấp mấy lần năm ngoái?"
+        },
+        {
+          "id": "c-bai-e04",
+          "review": "auto",
+          "ruby": "{今年|ことし}は{雨|あめ}が{去年|きょねん}の[[{4倍|よんばい}]]{降|ふ}りました。",
+          "source": "ai-draft",
+          "vi": "Năm nay mưa nhiều gấp bốn năm ngoái."
+        },
+        {
+          "id": "c-bai-e05",
+          "review": "auto",
+          "ruby": "この{部屋|へや}は{私|わたし}の{部屋|へや}の[[{5倍|ごばい}]]{広|ひろ}いです。",
+          "source": "ai-draft",
+          "vi": "Căn phòng này rộng gấp năm phòng tôi."
+        },
+        {
+          "id": "c-bai-e06",
+          "review": "auto",
+          "ruby": "{値段|ねだん}が[[{10倍|じゅうばい}]]になりました。",
+          "source": "ai-draft",
+          "vi": "Giá đã tăng gấp mười."
+        },
+        {
+          "id": "c-bai-e07",
+          "review": "auto",
+          "ruby": "{新幹線|しんかんせん}はバスの[[{6倍|ろくばい}]]{速|はや}いです。",
+          "source": "ai-draft",
+          "vi": "Tàu Shinkansen nhanh gấp sáu xe buýt."
+        },
+        {
+          "id": "c-bai-e08",
+          "review": "auto",
+          "ruby": "この{町|まち}の{人口|じんこう}は{10年|じゅうねん}{前|まえ}の[[{20倍|にじゅうばい}]]になりました。",
+          "source": "ai-draft",
+          "vi": "Dân số thị trấn này đã tăng gấp 20 lần so với mười năm trước."
+        },
+        {
+          "id": "c-bai-e09",
+          "review": "auto",
+          "ruby": "{兄|あに}の{給料|きゅうりょう}は{私|わたし}の[[{8倍|はちばい}]]です。",
+          "source": "ai-draft",
+          "vi": "Lương của anh tôi gấp tám lần tôi."
+        },
+        {
+          "id": "c-bai-e10",
+          "review": "auto",
+          "ruby": "この{薬|くすり}は{水|みず}で[[{100倍|ひゃくばい}]]に{薄|うす}めて{使|つか}います。",
+          "source": "ai-draft",
+          "vi": "Thuốc này pha loãng với nước 100 lần rồi mới dùng."
+        }
+      ],
+      "id": "c-bai",
+      "items_vi": [
+        "gấp đôi",
+        "gấp ba"
+      ],
+      "kana": "ばい",
+      "kanji_refs": [
+        "k-倍"
+      ],
+      "large_vi": [
+        "Ghép nguyên: 20倍 にじゅうばい, 100倍 ひゃくばい, 1000倍 せんばい."
+      ],
+      "lesson": 44,
+      "name_vi": "Lần (gấp)",
+      "notes_vi": [
+        "Gấp đôi thường nói 2倍 にばい hoặc 倍 ばい một mình.",
+        "Cùng cách đọc với 3杯 さんばい nhưng khác nghĩa."
+      ],
+      "question": {
+        "alt": [],
+        "kana": "なんばい",
+        "note": null
+      },
+      "readings": [
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "いちばい",
+          "n": 1,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にばい",
+          "n": 2,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "さんばい",
+          "n": 3,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "よんばい",
+          "n": 4,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ごばい",
+          "n": 5,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ろくばい",
+          "n": 6,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ななばい",
+          "n": 7,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "はちばい",
+          "n": 8,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "きゅうばい",
+          "n": 9,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "じゅうばい",
+          "n": 10,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "にじゅうばい",
+          "n": 20,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "ひゃくばい",
+          "n": 100,
+          "note": null
+        },
+        {
+          "alt": [],
+          "irregular": false,
+          "kana": "せんばい",
+          "n": 1000,
+          "note": null
+        }
+      ],
+      "sound_group": "none",
+      "sound_note_vi": "Không biến âm.",
+      "use_vi": "Gấp bao nhiêu lần.",
+      "vocab_refs": [
+        "mn-44-022"
+      ]
+    }
+  ],
+  "numbers": {
+    "intro_vi": [
+      "Người Nhật viết 3,500 (phẩy nhóm hàng nghìn) và 2.5 (chấm thập phân) — ngược với tiếng Việt."
+    ],
+    "tabs": [
+      {
+        "examples": [
+          {
+            "id": "num-e14",
+            "review": "auto",
+            "ruby": "{私|わたし}は[[{25|にじゅうご}]]{歳|さい}です。",
+            "source": "ai-draft",
+            "vi": "Tôi 25 tuổi."
+          },
+          {
+            "id": "num-e15",
+            "review": "auto",
+            "ruby": "{次|つぎ}のバスは[[{73|ななじゅうさん}]]{番|ばん}です。",
+            "source": "ai-draft",
+            "vi": "Chuyến xe buýt tiếp theo là xe số 73."
+          }
+        ],
+        "id": "basic",
+        "label": "0 – 99",
+        "sections": [
+          {
+            "id": "basic",
+            "intro_vi": [
+              "4, 7, 9 có hai cách đọc. Đọc số đứng một mình hoặc đếm thì mặc định dùng よん, なな, きゅう.",
+              "し (4), しち (7), く (9) chỉ còn trong một số từ cố định như 4月 しがつ, 7時 しちじ, 9時 くじ, nên phải học thuộc theo từng trợ số từ."
+            ],
+            "items": [
+              {
+                "alt": [
+                  "れい"
+                ],
+                "display": "0",
+                "irregular": false,
+                "kana": "ゼロ",
+                "kanji": "〇・零",
+                "note": "れい dùng trong văn viết, nhiệt độ, toán - ゼロ dùng trong số điện thoại, điểm số (còn đọc まる)."
+              },
+              {
+                "alt": [],
+                "display": "1",
+                "irregular": false,
+                "kana": "いち",
+                "kanji": "一",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "2",
+                "irregular": false,
+                "kana": "に",
+                "kanji": "二",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "3",
+                "irregular": false,
+                "kana": "さん",
+                "kanji": "三",
+                "note": null
+              },
+              {
+                "alt": [
+                  "し"
+                ],
+                "display": "4",
+                "irregular": true,
+                "kana": "よん",
+                "kanji": "四",
+                "note": "Mặc định よん (し đồng âm với 死 'chết'). し: 4月 しがつ - よ: 4人 よにん, 4時 よじ, 4年 よねん, 4円 よえん."
+              },
+              {
+                "alt": [],
+                "display": "5",
+                "irregular": false,
+                "kana": "ご",
+                "kanji": "五",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "6",
+                "irregular": false,
+                "kana": "ろく",
+                "kanji": "六",
+                "note": null
+              },
+              {
+                "alt": [
+                  "しち"
+                ],
+                "display": "7",
+                "irregular": true,
+                "kana": "なな",
+                "kanji": "七",
+                "note": "Mặc định なな. しち: 7時 しちじ, 7月 しちがつ (ngày mùng 7 đọc riêng là なのか, không dùng しち)."
+              },
+              {
+                "alt": [],
+                "display": "8",
+                "irregular": false,
+                "kana": "はち",
+                "kanji": "八",
+                "note": null
+              },
+              {
+                "alt": [
+                  "く"
+                ],
+                "display": "9",
+                "irregular": true,
+                "kana": "きゅう",
+                "kanji": "九",
+                "note": "Mặc định きゅう. く: 9時 くじ, 9月 くがつ, 9時間 くじかん."
+              },
+              {
+                "alt": [],
+                "display": "10",
+                "irregular": false,
+                "kana": "じゅう",
+                "kanji": "十",
+                "note": null
+              }
+            ],
+            "title_vi": "Số cơ bản 0–10"
+          },
+          {
+            "id": "tens",
+            "intro_vi": [
+              "Công thức: [chục] + じゅう + [đơn vị]. 10 đọc じゅう, không đọc いちじゅう.",
+              "40, 70, 90 dùng cách đọc mặc định của 4, 7, 9: よんじゅう, ななじゅう, きゅうじゅう."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "11",
+                "irregular": false,
+                "kana": "じゅういち",
+                "kanji": "十一",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "15",
+                "irregular": false,
+                "kana": "じゅうご",
+                "kanji": "十五",
+                "note": null
+              },
+              {
+                "alt": [
+                  "じゅうく"
+                ],
+                "display": "19",
+                "irregular": false,
+                "kana": "じゅうきゅう",
+                "kanji": "十九",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "20",
+                "irregular": false,
+                "kana": "にじゅう",
+                "kanji": "二十",
+                "note": "20 tuổi đọc riêng là はたち."
+              },
+              {
+                "alt": [],
+                "display": "21",
+                "irregular": false,
+                "kana": "にじゅういち",
+                "kanji": "二十一",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "30",
+                "irregular": false,
+                "kana": "さんじゅう",
+                "kanji": "三十",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "35",
+                "irregular": false,
+                "kana": "さんじゅうご",
+                "kanji": "三十五",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "40",
+                "irregular": false,
+                "kana": "よんじゅう",
+                "kanji": "四十",
+                "note": "Không đọc しじゅう (cách cũ)."
+              },
+              {
+                "alt": [],
+                "display": "50",
+                "irregular": false,
+                "kana": "ごじゅう",
+                "kanji": "五十",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "60",
+                "irregular": false,
+                "kana": "ろくじゅう",
+                "kanji": "六十",
+                "note": null
+              },
+              {
+                "alt": [
+                  "しちじゅう"
+                ],
+                "display": "70",
+                "irregular": false,
+                "kana": "ななじゅう",
+                "kanji": "七十",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "80",
+                "irregular": false,
+                "kana": "はちじゅう",
+                "kanji": "八十",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "90",
+                "irregular": false,
+                "kana": "きゅうじゅう",
+                "kanji": "九十",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "99",
+                "irregular": false,
+                "kana": "きゅうじゅうきゅう",
+                "kanji": "九十九",
+                "note": null
+              }
+            ],
+            "title_vi": "Hàng chục 11–99"
+          }
+        ]
+      },
+      {
+        "examples": [
+          {
+            "id": "num-e01",
+            "review": "auto",
+            "ruby": "このかばんは[[{3,500円|さんぜんごひゃくえん}]]です。",
+            "source": "ai-draft",
+            "vi": "Cái túi này giá 3.500 yên."
+          },
+          {
+            "id": "num-e02",
+            "review": "auto",
+            "ruby": "{私|わたし}の{部屋|へや}は[[{805|はっぴゃくご}]]{号室|ごうしつ}です。",
+            "source": "ai-draft",
+            "vi": "Phòng tôi là phòng số 805."
+          },
+          {
+            "id": "num-e03",
+            "review": "auto",
+            "ruby": "この{本|ほん}は[[{1,800円|せんはっぴゃくえん}]]でした。",
+            "source": "ai-draft",
+            "vi": "Quyển sách này giá 1.800 yên."
+          },
+          {
+            "id": "num-e06",
+            "review": "auto",
+            "ruby": "{富士山|ふじさん}の{高|たか}さは[[{3,776|さんぜんななひゃくななじゅうろく}]]メートルです。",
+            "source": "ai-draft",
+            "vi": "Núi Phú Sĩ cao 3.776 mét."
+          },
+          {
+            "id": "num-e12",
+            "review": "auto",
+            "ruby": "{今年|ことし}は[[{2026年|にせんにじゅうろくねん}]]です。",
+            "source": "ai-draft",
+            "vi": "Năm nay là năm 2026."
+          },
+          {
+            "id": "num-e13",
+            "review": "auto",
+            "ruby": "{学校|がっこう}の{学生|がくせい}は{全部|ぜんぶ}で[[{600人|ろっぴゃくにん}]]です。",
+            "source": "ai-draft",
+            "vi": "Trường có tất cả 600 học sinh."
+          }
+        ],
+        "id": "hundreds",
+        "label": "Trăm · nghìn",
+        "sections": [
+          {
+            "id": "hundreds",
+            "intro_vi": [
+              "100 đọc ひゃく, không đọc いちひゃく.",
+              "Biến âm: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく. Hỏi 'mấy trăm': 何百 なんびゃく (biến âm như 3)."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "100",
+                "irregular": false,
+                "kana": "ひゃく",
+                "kanji": "百",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "200",
+                "irregular": false,
+                "kana": "にひゃく",
+                "kanji": "二百",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "300",
+                "irregular": true,
+                "kana": "さんびゃく",
+                "kanji": "三百",
+                "note": "ひゃく → びゃく"
+              },
+              {
+                "alt": [],
+                "display": "400",
+                "irregular": false,
+                "kana": "よんひゃく",
+                "kanji": "四百",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "500",
+                "irregular": false,
+                "kana": "ごひゃく",
+                "kanji": "五百",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "600",
+                "irregular": true,
+                "kana": "ろっぴゃく",
+                "kanji": "六百",
+                "note": "ろく + ひゃく → ろっぴゃく"
+              },
+              {
+                "alt": [],
+                "display": "700",
+                "irregular": false,
+                "kana": "ななひゃく",
+                "kanji": "七百",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "800",
+                "irregular": true,
+                "kana": "はっぴゃく",
+                "kanji": "八百",
+                "note": "はち + ひゃく → はっぴゃく"
+              },
+              {
+                "alt": [],
+                "display": "900",
+                "irregular": false,
+                "kana": "きゅうひゃく",
+                "kanji": "九百",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "105",
+                "irregular": false,
+                "kana": "ひゃくご",
+                "kanji": "百五",
+                "note": "Hàng chục bằng 0 thì bỏ qua, không đọc 'linh' như tiếng Việt."
+              },
+              {
+                "alt": [],
+                "display": "999",
+                "irregular": false,
+                "kana": "きゅうひゃくきゅうじゅうきゅう",
+                "kanji": "九百九十九",
+                "note": null
+              }
+            ],
+            "title_vi": "Hàng trăm 百 (ひゃく)"
+          },
+          {
+            "id": "thousands",
+            "intro_vi": [
+              "1.000 đọc せん. いっせん chỉ dùng khi cần nói rõ 'một nghìn' trong số lớn, vd 1000万 いっせんまん.",
+              "Biến âm: 3000 さんぜん, 8000 はっせん. Hỏi 'mấy nghìn': 何千 なんぜん."
+            ],
+            "items": [
+              {
+                "alt": [
+                  "いっせん"
+                ],
+                "display": "1,000",
+                "irregular": false,
+                "kana": "せん",
+                "kanji": "千",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "2,000",
+                "irregular": false,
+                "kana": "にせん",
+                "kanji": "二千",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "3,000",
+                "irregular": true,
+                "kana": "さんぜん",
+                "kanji": "三千",
+                "note": "せん → ぜん"
+              },
+              {
+                "alt": [],
+                "display": "4,000",
+                "irregular": false,
+                "kana": "よんせん",
+                "kanji": "四千",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "5,000",
+                "irregular": false,
+                "kana": "ごせん",
+                "kanji": "五千",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "6,000",
+                "irregular": false,
+                "kana": "ろくせん",
+                "kanji": "六千",
+                "note": "Không biến âm (khác 600 ろっぴゃく)."
+              },
+              {
+                "alt": [],
+                "display": "7,000",
+                "irregular": false,
+                "kana": "ななせん",
+                "kanji": "七千",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "8,000",
+                "irregular": true,
+                "kana": "はっせん",
+                "kanji": "八千",
+                "note": "はち + せん → はっせん"
+              },
+              {
+                "alt": [],
+                "display": "9,000",
+                "irregular": false,
+                "kana": "きゅうせん",
+                "kanji": "九千",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "2,026",
+                "irregular": false,
+                "kana": "にせんにじゅうろく",
+                "kanji": "二千二十六",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "3,800",
+                "irregular": false,
+                "kana": "さんぜんはっぴゃく",
+                "kanji": "三千八百",
+                "note": "Hai lần biến âm trong một số."
+              }
+            ],
+            "title_vi": "Hàng nghìn 千 (せん)"
+          }
+        ]
+      },
+      {
+        "examples": [
+          {
+            "id": "num-e04",
+            "review": "auto",
+            "ruby": "{新|あたら}しいパソコンは[[{98,000円|きゅうまんはっせんえん}]]です。",
+            "source": "ai-draft",
+            "vi": "Máy tính mới giá 98.000 yên."
+          },
+          {
+            "id": "num-e05",
+            "review": "auto",
+            "ruby": "{日本|にほん}の{人口|じんこう}は{約|やく}[[{1億2,000万人|いちおくにせんまんにん}]]です。",
+            "source": "ai-draft",
+            "vi": "Dân số Nhật Bản khoảng 120 triệu người."
+          },
+          {
+            "id": "num-e07",
+            "review": "auto",
+            "ruby": "{毎月|まいつき}[[{60,000円|ろくまんえん}]]{貯金|ちょきん}しています。",
+            "source": "ai-draft",
+            "vi": "Mỗi tháng tôi tiết kiệm 60.000 yên."
+          },
+          {
+            "id": "num-e08",
+            "review": "auto",
+            "ruby": "この{車|くるま}は[[{300万円|さんびゃくまんえん}]]ぐらいです。",
+            "source": "ai-draft",
+            "vi": "Chiếc xe này khoảng 3 triệu yên."
+          },
+          {
+            "id": "num-e10",
+            "review": "auto",
+            "ruby": "この{町|まち}には[[{15,000人|いちまんごせんにん}]]が{住|す}んでいます。",
+            "source": "ai-draft",
+            "vi": "Thị trấn này có 15.000 người sinh sống."
+          },
+          {
+            "id": "num-e11",
+            "review": "auto",
+            "ruby": "{飛行機|ひこうき}の{切符|きっぷ}は[[{120,000円|じゅうにまんえん}]]でした。",
+            "source": "ai-draft",
+            "vi": "Vé máy bay giá 120.000 yên."
+          }
+        ],
+        "id": "large",
+        "label": "Vạn · ức",
+        "sections": [
+          {
+            "id": "large",
+            "intro_vi": [
+              "Tiếng Việt nhóm số theo 3 chữ số (nghìn, triệu, tỷ) - tiếng Nhật nhóm theo 4 chữ số: 万 = 10.000, 億 = 100.000.000.",
+              "万 và 億 bắt buộc có いち: いちまん, いちおく (khác 十, 百, 千 không đọc いち)."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "10,000",
+                "irregular": true,
+                "kana": "いちまん",
+                "kanji": "一万",
+                "note": "Phải có いち: いちまん, không nói まん."
+              },
+              {
+                "alt": [],
+                "display": "30,000",
+                "irregular": false,
+                "kana": "さんまん",
+                "kanji": "三万",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "100,000",
+                "irregular": false,
+                "kana": "じゅうまん",
+                "kanji": "十万",
+                "note": "100 nghìn = 10 vạn."
+              },
+              {
+                "alt": [],
+                "display": "1,000,000",
+                "irregular": false,
+                "kana": "ひゃくまん",
+                "kanji": "百万",
+                "note": "1 triệu = 100 vạn."
+              },
+              {
+                "alt": [
+                  "いっせんまん"
+                ],
+                "display": "10,000,000",
+                "irregular": false,
+                "kana": "せんまん",
+                "kanji": "千万",
+                "note": "10 triệu = 1000 vạn - thường nói いっせんまん."
+              },
+              {
+                "alt": [],
+                "display": "100,000,000",
+                "irregular": true,
+                "kana": "いちおく",
+                "kanji": "一億",
+                "note": "100 triệu. Phải có いち."
+              },
+              {
+                "alt": [],
+                "display": "1,000,000,000",
+                "irregular": false,
+                "kana": "じゅうおく",
+                "kanji": "十億",
+                "note": "1 tỷ = 10 億."
+              },
+              {
+                "alt": [],
+                "display": "12,345",
+                "irregular": false,
+                "kana": "いちまんにせんさんびゃくよんじゅうご",
+                "kanji": "一万二千三百四十五",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "250,000",
+                "irregular": false,
+                "kana": "にじゅうごまん",
+                "kanji": "二十五万",
+                "note": null
+              }
+            ],
+            "title_vi": "Hàng vạn 万 (まん) và 億 (おく)"
+          },
+          {
+            "id": "big",
+            "intro_vi": [
+              "Tách số theo nhóm 4 chữ số từ phải sang, mỗi nhóm gắn 万 hoặc 億: 12,345,678 → 1234万 5678.",
+              "Đổi nhanh: 10 nghìn = 1万 · 100 nghìn = 10万 · 1 triệu = 100万 · 10 triệu = 1000万 · 100 triệu = 1億 · 1 tỷ = 10億.",
+              "Chữ số 0 ở giữa không đọc: 105 = ひゃくご, 10,050 = いちまんごじゅう."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "10,050",
+                "irregular": false,
+                "kana": "いちまんごじゅう",
+                "kanji": "一万五十",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "123,456",
+                "irregular": false,
+                "kana": "じゅうにまんさんぜんよんひゃくごじゅうろく",
+                "kanji": "十二万三千四百五十六",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "12,345,678",
+                "irregular": false,
+                "kana": "せんにひゃくさんじゅうよんまんごせんろっぴゃくななじゅうはち",
+                "kanji": "千二百三十四万五千六百七十八",
+                "note": "1234万 + 5678"
+              }
+            ],
+            "title_vi": "Cách đọc số lớn"
+          }
+        ]
+      },
+      {
+        "examples": [
+          {
+            "id": "num-e09",
+            "review": "auto",
+            "ruby": "{答|こた}えは[[{2.5|にてんご}]]です。",
+            "source": "ai-draft",
+            "vi": "Đáp án là 2,5."
+          },
+          {
+            "id": "num-e16",
+            "review": "auto",
+            "ruby": "{熱|ねつ}が[[{37.5|さんじゅうななてんご}]]{度|ど}あります。",
+            "source": "ai-draft",
+            "vi": "Tôi sốt 37,5 độ."
+          },
+          {
+            "id": "num-e17",
+            "review": "auto",
+            "ruby": "{砂糖|さとう}を[[{1.5|いってんご}]]キロ{買|か}いました。",
+            "source": "ai-draft",
+            "vi": "Tôi đã mua 1,5 cân đường."
+          },
+          {
+            "id": "num-e18",
+            "review": "auto",
+            "ruby": "ケーキの[[{3分の1|さんぶんのいち}]]を{食|た}べました。",
+            "source": "ai-draft",
+            "vi": "Tôi đã ăn một phần ba cái bánh."
+          },
+          {
+            "id": "num-e19",
+            "review": "auto",
+            "ruby": "{日本|にほん}の{消費税|しょうひぜい}は[[{10%|じゅっパーセント}]]です。",
+            "source": "ai-draft",
+            "vi": "Thuế tiêu dùng ở Nhật là 10%."
+          },
+          {
+            "id": "num-e20",
+            "review": "auto",
+            "ruby": "クラスの[[{80%|はちじゅっパーセント}]]の{学生|がくせい}が{合格|ごうかく}しました。",
+            "source": "ai-draft",
+            "vi": "80% học sinh trong lớp đã đỗ."
+          }
+        ],
+        "id": "fraction",
+        "label": "Thập phân · %",
+        "sections": [
+          {
+            "id": "decimal",
+            "intro_vi": [
+              "Dấu chấm đọc là 点 (てん). Phần trước dấu chấm đọc như số thường, phần sau đọc từng chữ số.",
+              "Người Nhật dùng dấu chấm cho phần thập phân (2.5) và dấu phẩy để nhóm hàng nghìn (2,500), ngược với tiếng Việt.",
+              "Trước てん, số 1, 8, 10 thường ngắt: いってん, はってん, じゅってん."
+            ],
+            "items": [
+              {
+                "alt": [
+                  "ゼロてんご"
+                ],
+                "display": "0.5",
+                "irregular": false,
+                "kana": "れいてんご",
+                "kanji": "〇・五",
+                "note": null
+              },
+              {
+                "alt": [
+                  "いちてんご"
+                ],
+                "display": "1.5",
+                "irregular": true,
+                "kana": "いってんご",
+                "kanji": "一・五",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "2.5",
+                "irregular": false,
+                "kana": "にてんご",
+                "kanji": "二・五",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "3.14",
+                "irregular": false,
+                "kana": "さんてんいちよん",
+                "kanji": "三・一四",
+                "note": "Chữ số sau dấu chấm đọc rời: いち・よん, không đọc じゅうよん."
+              },
+              {
+                "alt": [
+                  "はちてんに"
+                ],
+                "display": "8.2",
+                "irregular": true,
+                "kana": "はってんに",
+                "kanji": "八・二",
+                "note": null
+              },
+              {
+                "alt": [
+                  "じってんご"
+                ],
+                "display": "10.5",
+                "irregular": true,
+                "kana": "じゅってんご",
+                "kanji": "十・五",
+                "note": null
+              },
+              {
+                "alt": [
+                  "ゼロてんゼロいち"
+                ],
+                "display": "0.01",
+                "irregular": false,
+                "kana": "れいてんれいいち",
+                "kanji": "〇・〇一",
+                "note": null
+              }
+            ],
+            "title_vi": "Số thập phân"
+          },
+          {
+            "id": "fraction",
+            "intro_vi": [
+              "Đọc mẫu số trước, tử số sau: [mẫu] + 分の + [tử]. 3/4 viết là 4分の3, đọc よんぶんのさん.",
+              "分 trong phân số luôn đọc ぶん, không biến âm như ～分 (phút)."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "1/2",
+                "irregular": false,
+                "kana": "にぶんのいち",
+                "kanji": "2分の1",
+                "note": "Một nửa — hay nói 半分 (はんぶん)."
+              },
+              {
+                "alt": [],
+                "display": "1/3",
+                "irregular": false,
+                "kana": "さんぶんのいち",
+                "kanji": "3分の1",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "2/3",
+                "irregular": false,
+                "kana": "さんぶんのに",
+                "kanji": "3分の2",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "3/4",
+                "irregular": false,
+                "kana": "よんぶんのさん",
+                "kanji": "4分の3",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "1/10",
+                "irregular": false,
+                "kana": "じゅうぶんのいち",
+                "kanji": "10分の1",
+                "note": null
+              }
+            ],
+            "title_vi": "Phân số"
+          },
+          {
+            "id": "percent",
+            "intro_vi": [
+              "% đọc là パーセント. Trước パ, số 1, 8, 10, 100 thường ngắt っ.",
+              "Cách nói khác hay gặp: 割 (わり) = 10%: 3割 さんわり = 30%, 半額 はんがく = giảm nửa giá."
+            ],
+            "items": [
+              {
+                "alt": [
+                  "いっパーセント"
+                ],
+                "display": "1%",
+                "irregular": false,
+                "kana": "いちパーセント",
+                "kanji": "1%",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "5%",
+                "irregular": false,
+                "kana": "ごパーセント",
+                "kanji": "5%",
+                "note": null
+              },
+              {
+                "alt": [
+                  "じっパーセント"
+                ],
+                "display": "10%",
+                "irregular": true,
+                "kana": "じゅっパーセント",
+                "kanji": "10%",
+                "note": null
+              },
+              {
+                "alt": [
+                  "ごじっパーセント"
+                ],
+                "display": "50%",
+                "irregular": true,
+                "kana": "ごじゅっパーセント",
+                "kanji": "50%",
+                "note": null
+              },
+              {
+                "alt": [
+                  "ひゃっパーセント"
+                ],
+                "display": "100%",
+                "irregular": false,
+                "kana": "ひゃくパーセント",
+                "kanji": "100%",
+                "note": null
+              },
+              {
+                "alt": [
+                  "ゼロてんごパーセント"
+                ],
+                "display": "0.5%",
+                "irregular": false,
+                "kana": "れいてんごパーセント",
+                "kanji": "0.5%",
+                "note": null
+              }
+            ],
+            "title_vi": "Phần trăm"
+          }
+        ]
+      },
+      {
+        "examples": [
+          {
+            "id": "num-e21",
+            "review": "auto",
+            "ruby": "{今朝|けさ}は[[{-3|マイナスさん}]]{度|ど}でした。",
+            "source": "ai-draft",
+            "vi": "Sáng nay âm 3 độ."
+          },
+          {
+            "id": "num-e22",
+            "review": "auto",
+            "ruby": "[[{2番目|にばんめ}]]の{角|かど}を{右|みぎ}へ{曲|ま}がってください。",
+            "source": "ai-draft",
+            "vi": "Hãy rẽ phải ở góc phố thứ hai."
+          },
+          {
+            "id": "num-e23",
+            "review": "auto",
+            "ruby": "{電話番号|でんわばんごう}は[[{090-1234-5678|ゼロきゅうゼロのいちにいさんよんのごうろくななはち}]]です。",
+            "source": "ai-draft",
+            "vi": "Số điện thoại là 090-1234-5678."
+          }
+        ],
+        "id": "other",
+        "label": "Số khác",
+        "sections": [
+          {
+            "id": "negative",
+            "intro_vi": [
+              "Đọc マイナス + số. Nhiệt độ âm còn nói 零下 (れいか): 零下3度 = âm 3 độ."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "-3",
+                "irregular": false,
+                "kana": "マイナスさん",
+                "kanji": "マイナス3",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "-10",
+                "irregular": false,
+                "kana": "マイナスじゅう",
+                "kanji": "マイナス10",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "-2.5",
+                "irregular": false,
+                "kana": "マイナスにてんご",
+                "kanji": "マイナス2.5",
+                "note": null
+              }
+            ],
+            "title_vi": "Số âm"
+          },
+          {
+            "id": "ordinal",
+            "intro_vi": [
+              "Thêm 目 (め) sau số + trợ số từ: 2つ目 = cái thứ hai, 3人目 = người thứ ba, 2番目 = thứ hai.",
+              "Hoặc đặt 第 (だい) trước số: 第1 = thứ nhất (văn viết, tên chương, kỳ)."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "1番目",
+                "irregular": false,
+                "kana": "いちばんめ",
+                "kanji": "1番目",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "2つ目",
+                "irregular": false,
+                "kana": "ふたつめ",
+                "kanji": "2つ目",
+                "note": "Theo cách đọc của ～つ."
+              },
+              {
+                "alt": [],
+                "display": "3人目",
+                "irregular": false,
+                "kana": "さんにんめ",
+                "kanji": "3人目",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "第1",
+                "irregular": false,
+                "kana": "だいいち",
+                "kanji": "第1",
+                "note": "第1課 đọc だいいっか (課 biến âm như nhóm k)."
+              }
+            ],
+            "title_vi": "Số thứ tự"
+          },
+          {
+            "id": "digits",
+            "intro_vi": [
+              "Số điện thoại, số tài khoản, mã số đọc rời từng chữ số. Dấu gạch đọc là の.",
+              "Số 2 và 5 thường kéo dài thành にい, ごう cho đủ nhịp - 0 đọc ゼロ (còn gặp まる)."
+            ],
+            "items": [
+              {
+                "alt": [],
+                "display": "090-1234-5678",
+                "irregular": false,
+                "kana": "ゼロきゅうゼロの いちにいさんよんの ごうろくななはち",
+                "kanji": "090-1234-5678",
+                "note": null
+              },
+              {
+                "alt": [],
+                "display": "03-5678-9012",
+                "irregular": false,
+                "kana": "ゼロさんの ごうろくななはちの きゅうゼロいちにい",
+                "kanji": "03-5678-9012",
+                "note": null
+              }
+            ],
+            "title_vi": "Đọc từng chữ số"
+          }
+        ]
+      }
+    ]
+  },
+  "schema_version": 2,
+  "sound_rules": [
+    {
+      "counters": [
+        "c-hon",
+        "c-hai",
+        "c-hiki",
+        "c-fun"
+      ],
+      "group": "h",
+      "name_vi": "Âm đầu h (は・ひ・ふ・へ・ほ)",
+      "rule_vi": [
+        "1 いち → いっ, 6 ろく → ろっ, 8 はち → はっ, 10 じゅう → じゅっ (hoặc じっ), 100 ひゃく → ひゃっ - âm h đổi thành p: いっぽん, ろっぴき, はっぱい, じゅっぷん, ひゃっぽん.",
+        "Sau âm ん (3 さん, 1000 せん, 10000 まん, 何 なん): h đổi thành b hoặc p tùy từ. 本, 匹, 杯 → b (さんぼん, さんびき, さんばい) - 分 → p (さんぷん, なんぷん).",
+        "4 よん giữ nguyên âm h (よんほん, よんひき, よんはい) - riêng 分 → よんぷん.",
+        "2, 5, 7, 9 không đổi: にほん, ごひき, ななはい, きゅうふん."
+      ],
+      "summary_vi": "1, 6, 8, 10, 100 → っ + p · 3, 1000, 10000, 何 → b hoặc p"
+    },
+    {
+      "counters": [
+        "c-kai-times",
+        "c-kai-floor",
+        "c-ko",
+        "c-ken",
+        "c-kagetsu"
+      ],
+      "group": "k",
+      "name_vi": "Âm đầu k (か・き・く・け・こ)",
+      "rule_vi": [
+        "1, 6, 8, 10, 100 thành âm ngắt っ, âm k giữ nguyên: いっこ, ろっかい, はっかげつ, じゅっこ, ひゃっかい.",
+        "Sau さん và なん thường giữ k (さんこ, さんかい, なんかい) - riêng 階 và 軒 đổi thành g: さんがい, なんがい, さんげん, なんげん.",
+        "8 còn đọc はち trong văn nói: はちかい, はちこ."
+      ],
+      "summary_vi": "1, 6, 8, 10, 100 → っ · 3 và 何: giữ k hoặc thành g (階, 軒)"
+    },
+    {
+      "counters": [
+        "c-satsu",
+        "c-soku",
+        "c-shuukan",
+        "c-sai"
+      ],
+      "group": "s",
+      "name_vi": "Âm đầu s (さ・し・す・せ・そ)",
+      "rule_vi": [
+        "1, 8, 10 thành っ: いっさつ, はっさい, じゅっしゅうかん. 6 không đổi: ろくさつ, ろくさい.",
+        "Sau さん thường giữ s (さんさつ, さんさい) - riêng 足 đổi thành z: さんぞく, なんぞく.",
+        "100: ひゃくさつ và ひゃっさつ đều dùng."
+      ],
+      "summary_vi": "1, 8, 10 → っ · 6 giữ ろく"
+    },
+    {
+      "counters": [
+        "c-chaku"
+      ],
+      "group": "t",
+      "name_vi": "Âm đầu t (た・ち・つ・て・と)",
+      "rule_vi": [
+        "1, 8, 10 thành っ: いっちゃく, はっちゃく, じゅっちゃく. Các số khác giữ nguyên: さんちゃく, ろくちゃく."
+      ],
+      "summary_vi": "1, 8, 10 → っ"
+    },
+    {
+      "counters": [
+        "c-nin",
+        "c-dai",
+        "c-mai",
+        "c-ji",
+        "c-jikan",
+        "c-gatsu",
+        "c-nen",
+        "c-en",
+        "c-ban",
+        "c-bai"
+      ],
+      "group": "none",
+      "name_vi": "Không biến âm",
+      "rule_vi": [
+        "Trợ số từ bắt đầu bằng m, n, d, b, j, g, e, y… (枚, 人, 台, 番, 倍, 時, 月, 円, 年) không làm số biến âm: いちまい, ろくだい, はちばん.",
+        "Cần nhớ cách đọc 4, 7, 9 riêng của từng trợ số từ (đánh dấu ★ trong bảng): 4人 よにん, 4時 よじ, 4月 しがつ, 4年 よねん, 4円 よえん - 7時 しちじ, 7月 しちがつ - 9時 くじ, 9月 くがつ."
+      ],
+      "summary_vi": "Số + trợ số từ ghép nguyên - chỉ cần chọn đúng cách đọc 4, 7, 9"
+    },
+    {
+      "counters": [
+        "c-tsu"
+      ],
+      "group": "native",
+      "name_vi": "Số đếm thuần Nhật",
+      "rule_vi": [
+        "～つ dùng số thuần Nhật: ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお.",
+        "Chỉ đếm được đến 10 - từ 11 trở lên dùng số Hán (じゅういち…) hoặc chuyển sang ～個.",
+        "Gốc số thuần Nhật cũng xuất hiện trong ひとり, ふたり (～人) và ふつか, みっか… (～日)."
+      ],
+      "summary_vi": "ひとつ … とお: học thuộc 1–10"
+    },
+    {
+      "counters": [
+        "c-nichi"
+      ],
+      "group": "special",
+      "name_vi": "Ngày trong tháng",
+      "rule_vi": [
+        "Ngày 1–10 dùng gốc thuần Nhật: ついたち, ふつか, みっか, よっか, いつか, むいか, なのか, ようか, ここのか, とおか.",
+        "Ngày 14 じゅうよっか, 20 はつか, 24 にじゅうよっか cũng đọc riêng. Các ngày khác: số + にち (じゅういちにち, さんじゅうにち).",
+        "Ngày 17, 19 dùng しち, く: じゅうしちにち, じゅうくにち."
+      ],
+      "summary_vi": "1–10, 14, 20, 24 đọc riêng (ついたち, ふつか… はつか)"
+    }
+  ]
+}

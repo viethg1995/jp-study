@@ -1,0 +1,33 @@
+---
+// Danh sách câu ví dụ. Cụm số + trợ số từ tô xanh VÀ hiện furigana (khác thẻ từ vựng: ở đây cách đọc
+// của cụm số — 13本 じゅうさんぼん — chính là nội dung cần học, không có ở chỗ khác).
+import type { CounterExample } from "../../content.config";
+import Furigana from "../jp/Furigana.astro";
+
+interface Props {
+  examples: CounterExample[];
+}
+const { examples } = Astro.props;
+---
+
+<ol class="counter-examples flex flex-col divide-y divide-line rounded-lg border border-line bg-surface">
+  {
+    examples.map((e, i) => (
+      <li class="flex gap-3 px-4 py-3">
+        <span class="w-5 shrink-0 pt-1 text-right text-xs text-ink-faint tabular-nums">{i + 1}</span>
+        <div class="min-w-0">
+          <p class="text-[17px] text-ink">
+            <Furigana ruby={e.ruby} />
+          </p>
+          <p class="mt-0.5 text-sm text-ink-muted">{e.vi}</p>
+        </div>
+      </li>
+    ))
+  }
+</ol>
+
+<style is:global>
+  .counter-examples .sentence .target rt {
+    display: revert;
+  }
+</style>

@@ -148,7 +148,8 @@ def cmd_build(_: argparse.Namespace) -> int:
                 _write_json(out_dir / f"lesson-{lesson:02d}.json", doc.model_dump(mode="json"))
         print(f"  liên kết Minna ↔ N3: {sum(1 for e in n3_entries if any(i.startswith('mn-') for i in e.same_word))} từ N3")
     rc = _build_kanji(entries + n3_entries, kanjidic, n3_kanji)
-    return rc or _build_conjugation(entries + n3_entries)
+    rc = rc or _build_conjugation(entries + n3_entries)
+    return rc or _build_counters(entries)
 
 
 def _build_conjugation(vocab: list) -> int:  # type: ignore[type-arg]
@@ -170,6 +171,45 @@ def _build_conjugation(vocab: list) -> int:  # type: ignore[type-arg]
     print(f"  chia thể  : {rep.entries} từ {dict(kinds)} | trùng bỏ qua {rep.duplicates} "
           f"| không gắn furigana {len(rep.no_ruby or [])}{' ' + ', '.join((rep.no_ruby or [])[:10]) if rep.no_ruby else ''}")
     return 0
+
+
+def _build_counters(vocab: list) -> int:  # type: ignore[type-arg]
+    """enrichment/counters/ (bảng cách đọc, số đếm, biến âm, câu ví dụ) + từ vựng Minna → data/counters.json."""
+    from jp_pipeline.schemas import CounterFile
+    from jp_pipeline.transform.counters import build_counters, parse_examples
+
+    root = paths.ENRICH_COUNTERS
+    spec = _read_json(root / "counters.json")["counters"]  # type: ignore[index]
+    numbers = {k: v for k, v in _read_json(root / "numbers.json").items() if k not in ("by", "note")}  # type: ignore[union-attr]
+    rules = _read_json(root / "sound-rules.json")["rules"]  # type: ignore[index]
+    text = "\n".join(f.read_text(encoding="utf-8") for f in sorted((root / "examples").glob("*.txt")))
+    try:
+        examples = parse_examples(text)
+    except ValueError as ex:
+        print(f"ĐẾM SỐ FAIL — câu ví dụ: {ex}")
+        return 1
+    doc, rep = build_counters(spec, numbers, rules, examples, vocab)
+    _write_json(root / "_report.json", {"errors": rep.errors, "warnings": rep.warnings})
+    if rep.errors:
+        print(f"ĐẾM SỐ FAIL — {len(rep.errors)} lỗi (không ghi {paths.OUT_COUNTERS.name}):")
+        for e in rep.errors[:30]:
+            print(f"  - {e}")
+        return 1
+    _write_json(paths.OUT_COUNTERS, doc.model_dump(mode="json"))
+    _write_json(paths.DATA_SCHEMA / "counters.schema.json", CounterFile.model_json_schema())
+    n_ex = sum(len(c.examples) for c in doc.counters) + sum(len(t.examples) for t in doc.numbers.tabs)
+    print(f"  đếm số    : {len(doc.counters)} trợ số từ, {n_ex} câu ví dụ | cảnh báo {len(rep.warnings)} "
+          f"(chi tiết: {(root / '_report.json').relative_to(paths.ROOT)})")
+    return 0
+
+
+def cmd_build_counters(_: argparse.Namespace) -> int:
+    """Chỉ dựng data/counters.json từ data/vocabulary/ đã có (không cần từ điển)."""
+    from jp_pipeline.schemas import VocabLesson
+
+    vocab = [e for f in sorted(paths.OUT_VOCABULARY.glob("lesson-*.json"))
+             for e in VocabLesson.model_validate(_read_json(f)).entries]
+    return _build_counters(vocab)
 
 
 def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]]]:  # type: ignore[type-arg]
@@ -1274,6 +1314,8 @@ def main() -> int:
     sub.add_parser("check", help="Kiểm tra sources/ đã đủ chưa").set_defaults(func=cmd_check)
     sub.add_parser("build", help="sources/ → data/").set_defaults(func=cmd_build)
     sub.add_parser("status", help="Bảng tóm tắt route các PDF").set_defaults(func=cmd_status)
+    sub.add_parser("build-counters", help="Chỉ dựng data/counters.json (số đếm, trợ số từ)").set_defaults(
+        func=cmd_build_counters)
 
     def pdf_filters(p: argparse.ArgumentParser) -> None:
         p.add_argument("--only", help="Lọc theo tên/đường dẫn, vd: kanji hoặc \"books/N5/*\"")

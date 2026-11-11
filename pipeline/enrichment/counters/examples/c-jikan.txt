@@ -1,0 +1,11 @@
+# 時間 — Giờ (khoảng thời gian)
+c-jikan-e01|{毎日|まいにち}[[{8時間|はちじかん}]]{働|はたら}きます。|Mỗi ngày tôi làm việc 8 tiếng.
+c-jikan-e02|{東京|とうきょう}まで[[{何時間|なんじかん}]]かかりますか。|Đến Tokyo mất mấy tiếng?
+c-jikan-e03|{昨日|きのう}は[[{4時間|よじかん}]]{勉強|べんきょう}しました。|Hôm qua tôi đã học 4 tiếng.
+c-jikan-e04|{毎晩|まいばん}[[{7時間|ななじかん}]]{寝|ね}ます。|Mỗi tối tôi ngủ 7 tiếng.
+c-jikan-e05|{飛行機|ひこうき}で[[{9時間|くじかん}]]かかりました。|Đi máy bay mất 9 tiếng.
+c-jikan-e06|{駅|えき}で[[{1時間|いちじかん}]]{待|ま}ちました。|Tôi đã đợi ở ga 1 tiếng.
+c-jikan-e07|このコンビニは[[{24時間|にじゅうよじかん}]]{開|あ}いています。|Cửa hàng tiện lợi này mở cửa 24 giờ.
+c-jikan-e08|{会議|かいぎ}は[[{2時間|にじかん}]]ぐらいです。|Cuộc họp kéo dài khoảng 2 tiếng.
+c-jikan-e09|{日本語|にほんご}を[[{100時間|ひゃくじかん}]]{勉強|べんきょう}しました。|Tôi đã học tiếng Nhật 100 tiếng.
+c-jikan-e10|{新幹線|しんかんせん}で[[{3時間|さんじかん}]]かかります。|Đi tàu Shinkansen mất 3 tiếng.

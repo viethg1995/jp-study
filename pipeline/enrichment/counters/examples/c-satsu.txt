@@ -1,0 +1,11 @@
+# 冊 — Sách, vở
+c-satsu-e01|{本|ほん}を[[{1冊|いっさつ}]]{借|か}りました。|Tôi đã mượn một quyển sách.
+c-satsu-e02|ノートを[[{2冊|にさつ}]]ください。|Cho tôi hai quyển vở.
+c-satsu-e03|{雑誌|ざっし}を[[{3冊|さんさつ}]]{買|か}いました。|Tôi đã mua ba cuốn tạp chí.
+c-satsu-e04|{辞書|じしょ}を[[{4冊|よんさつ}]]{持|も}っています。|Tôi có bốn cuốn từ điển.
+c-satsu-e05|{先月|せんげつ}{本|ほん}を[[{6冊|ろくさつ}]]{読|よ}みました。|Tháng trước tôi đã đọc sáu quyển sách.
+c-satsu-e06|{図書館|としょかん}で{本|ほん}を[[{8冊|はっさつ}]]{借|か}りました。|Tôi đã mượn tám quyển sách ở thư viện.
+c-satsu-e07|{漫画|まんが}を[[{10冊|じゅっさつ}]]{持|も}ってきました。|Tôi đã mang đến mười cuốn truyện tranh.
+c-satsu-e08|{1か月|いっかげつ}に{本|ほん}を[[{何冊|なんさつ}]]{読|よ}みますか。|Một tháng bạn đọc mấy quyển sách?
+c-satsu-e09|{本棚|ほんだな}に{本|ほん}が[[{20冊|にじゅっさつ}]]あります。|Trên giá sách có hai mươi quyển sách.
+c-satsu-e10|{私|わたし}の{部屋|へや}には{本|ほん}が[[{100冊|ひゃくさつ}]]ぐらいあります。|Trong phòng tôi có khoảng một trăm quyển sách.

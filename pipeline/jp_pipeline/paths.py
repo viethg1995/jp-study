@@ -31,6 +31,8 @@ TESSERACT_DIR = Path(r"C:\Program Files\Tesseract-OCR")  # cài qua winget UB-Ma
 ENRICH_VOCAB = ROOT / "pipeline" / "enrichment" / "vocabulary"
 ENRICH_KANJI = ROOT / "pipeline" / "enrichment" / "kanji"
 ENRICH_CONJ = ROOT / "pipeline" / "enrichment" / "conjugation"  # forms.json: quy tắc chia thể
+# counters.json (bảng trợ số từ), numbers.json (số đếm), sound-rules.json (biến âm), examples/*.txt (câu ví dụ)
+ENRICH_COUNTERS = ROOT / "pipeline" / "enrichment" / "counters"
 ENRICH_VOCAB_AUTO = ENRICH_VOCAB / "_auto"
 ENRICH_VOCAB_DECISIONS = ENRICH_VOCAB / "_decisions"  # áp theo thứ tự tên file: 01-, 02-…
 
