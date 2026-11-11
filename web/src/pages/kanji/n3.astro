@@ -1,0 +1,11 @@
+---
+// Kanji N3 — xem theo giáo trình Kanji hoặc theo bài từ vựng.
+import { getCollection } from "astro:content";
+import KanjiLevelPage from "../../components/kanji/KanjiLevelPage.astro";
+import { n3VocabLessonMap } from "../../lib/kanji";
+
+const all = (await getCollection("kanji")).map((k) => k.data);
+const n3VocabLesson = n3VocabLessonMap(all, (await getCollection("vocabularyN3")).map((l) => l.data));
+---
+
+<KanjiLevelPage level="n3" all={all} n3VocabLesson={n3VocabLesson} />

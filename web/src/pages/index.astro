@@ -4,13 +4,14 @@ import Furigana from "../components/jp/Furigana.astro";
 import Base from "../layouts/Base.astro";
 import { NAV } from "../lib/nav";
 import { QUOTES } from "../lib/quotes";
+import { DEFAULT_DESCRIPTION, SITE_NAME, SITE_TAGLINE } from "../lib/seo";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const HERO = ["日本へ行きたい。", "将来はお金持ちになりたい。"]; // tiêu đề không furigana
 const sections = NAV.filter((n) => !n.home);
 ---
 
-<Base title="Trang chủ" pattern>
+<Base title={`${SITE_TAGLINE} · 日本語`} fullTitle pattern jsonLd={{ "@context": "https://schema.org", "@type": "WebSite", name: SITE_NAME, description: DEFAULT_DESCRIPTION, inLanguage: "vi", url: Astro.site ? new URL(import.meta.env.BASE_URL, Astro.site).href : undefined }}>
   <section class="flex flex-col items-center py-10 text-center [container-type:inline-size] sm:py-16">
     <h1 class="hero-title hero-glow jp text-[clamp(1.25rem,6.8cqi,3rem)] leading-tight font-bold text-ink">
       {HERO.map((line) => <span class="block">{line}</span>)}

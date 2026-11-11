@@ -133,7 +133,7 @@ def cmd_build(_: argparse.Namespace) -> int:
     print(f"  cảnh báo  : {len(report.warnings)} | chờ duyệt: {len(report.pending_review)} "
           f"| chữ Hán nhiều âm: {len(report.han_viet_conflicts)}")
     print(f"  chi tiết  : {(paths.ENRICH_VOCAB_AUTO / 'build-report.json').relative_to(paths.ROOT)}")
-    n3_entries, n3_kanji = _build_n3(entries)
+    n3_entries, n3_kanji, n3_places = _build_n3(entries)
     if n3_entries:
         from jp_pipeline.transform.vocab_build import cross_link_books
 
@@ -147,7 +147,7 @@ def cmd_build(_: argparse.Namespace) -> int:
                 doc = VocabLesson(book=book, lesson=lesson, entries=items)  # type: ignore[arg-type]
                 _write_json(out_dir / f"lesson-{lesson:02d}.json", doc.model_dump(mode="json"))
         print(f"  liên kết Minna ↔ N3: {sum(1 for e in n3_entries if any(i.startswith('mn-') for i in e.same_word))} từ N3")
-    rc = _build_kanji(entries + n3_entries, kanjidic, n3_kanji)
+    rc = _build_kanji(entries + n3_entries, kanjidic, n3_kanji, n3_places)
     rc = rc or _build_conjugation(entries + n3_entries)
     return rc or _build_counters(entries)
 
@@ -212,8 +212,8 @@ def cmd_build_counters(_: argparse.Namespace) -> int:
     return _build_counters(vocab)
 
 
-def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]]]:  # type: ignore[type-arg]
-    """Từ vựng N3 → data/vocabulary/n3/lesson-XX.json; trả (entries, {字: (bài N3, Hán-Việt)}) cho Kanji.
+def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]], dict[str, list[tuple[int, int]]]]:  # type: ignore[type-arg]
+    """Từ vựng N3 → data/vocabulary/n3/lesson-XX.json; trả (entries, {字: (bài N3, Hán-Việt)}, {字: [(bài, thứ tự)]}) cho Kanji.
     Cần sources/_extracted/books/N3/_parsed/ (chạy parse-n3) — thiếu thì bỏ qua N3."""
     from jp_pipeline.dictionaries import load_jmdict
     from jp_pipeline.schemas import VocabLesson
@@ -226,7 +226,7 @@ def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]]]:  #
     parsed = paths.EXTRACTED / "books" / "N3" / "_parsed"
     if not (parsed / "vocab.json").exists():
         print("N3: chưa có dữ liệu đã phân tích (python -m jp_pipeline parse-n3) — bỏ qua.")
-        return [], {}
+        return [], {}, {}
     enrich = paths.ROOT / "pipeline" / "enrichment" / "n3"
 
     # Kanji N3: {字: (bài, Hán-Việt)} — chuẩn hóa dấu + sửa lỗi sách (kanji-fixes.txt: 字|ÂM, '-' = không có)
@@ -239,7 +239,10 @@ def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]]]:  #
                 ch, hv = (x.strip() for x in [*ln.split("|"), ""][:2])
                 kfix[ch] = None if hv in ("-", "") else hv
     n3_kanji: dict[str, tuple[int, str | None]] = {}
+    n3_places: dict[str, list[tuple[int, int]]] = {}  # {字: [(bài, thứ tự)]} — chữ có thể dạy ở nhiều bài (個: 1, 21)
     for k in (N3KanjiRaw.model_validate(x) for x in _read_json(parsed / "kanji.json")):  # type: ignore[union-attr]
+        if k.char and k.order is not None:
+            n3_places.setdefault(k.char, []).append((k.lesson, k.order))
         if k.char and k.char not in n3_kanji:
             hv = kfix[k.char] if k.char in kfix else normalize_han_viet(k.han_viet)
             n3_kanji[k.char] = (k.lesson, hv)
@@ -283,7 +286,7 @@ def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]]]:  #
     print(f"OK — N3: {len(entries)} từ, {len(by_lesson)} bài → {out_dir.relative_to(paths.ROOT)}/ | "
           f"từ loại {pos_src} | Hán-Việt {sum(1 for e in entries if e.han_viet)}/{sum(1 for e in entries if e.kanji)} "
           f"| cảnh báo {len(warnings)}")
-    return entries, n3_kanji
+    return entries, n3_kanji, n3_places
 
 
 def _hanviet_files() -> dict[str, tuple[str | None, str]]:
@@ -293,7 +296,7 @@ def _hanviet_files() -> dict[str, tuple[str | None, str]]:
     return parse_hanviet_files([(f.name, f.read_text(encoding="utf-8")) for f in sorted(d.glob("*.txt"))])
 
 
-def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None) -> int:  # type: ignore[type-arg]
+def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_places: dict | None = None) -> int:  # type: ignore[type-arg]
     """data/kanji/radicals.json + kanji.json (+ JSON Schema)."""
     from jp_pipeline.dictionaries import load_unihan_vi
     from jp_pipeline.schemas import KanjiFile, RadicalFile
@@ -318,7 +321,7 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None) -> int: 
     ebook = parse_lesson_files(
         [(f.name, f.read_text(encoding="utf-8")) for f in sorted((paths.ENRICH_KANJI / "lessons").glob("*.txt"))]
     )
-    kanji, report = build_kanji(entries, kanjidic, unihan, meanings, n3, _hanviet_files(), ebook)
+    kanji, report = build_kanji(entries, kanjidic, unihan, meanings, n3, _hanviet_files(), ebook, n3_places)
     kanji, ex_report = _kanji_examples(kanji, entries, kanjidic)
     stories = parse_stories(
         [(f.name, f.read_text(encoding="utf-8")) for f in sorted((paths.ENRICH_KANJI / "stories").glob("*.txt"))]
@@ -1004,13 +1007,25 @@ def cmd_parse_n3(args: argparse.Namespace) -> int:
     _write_json(out_dir / "vocab.json", [e.model_dump() for e in entries])
     print(f"Tổng {len(entries)} từ → {(out_dir / 'vocab.json').relative_to(paths.ROOT)}")
 
+    from jp_pipeline.transform.n3_kanji import _parse_cards, summary_chars
     from jp_pipeline.transform.n3_kanji import parse_lesson as parse_kanji_lesson
 
     kpdfs = [p for p in _discover_pdfs() if _re.search(r"N3/KANJI/N3CB mới Kanji Bài \d+\.pdf$", _rel(p))]
     kanji = []
     for pdf in sorted(kpdfs, key=lambda p: int(_re.search(r"Bài (\d+)", _rel(p)).group(1))):  # type: ignore[union-attr]
         lesson = int(_re.search(r"Bài (\d+)", _rel(pdf)).group(1))  # type: ignore[union-attr]
-        kanji.extend(parse_kanji_lesson(page_spans(pdf), lesson))
+        spans = page_spans(pdf)
+        got_k = parse_kanji_lesson(spans, lesson)
+        kanji.extend(got_k)
+        # đối chiếu thẻ ↔ bảng tổng hợp đầu bài (thứ tự chuẩn)
+        summ = summary_chars(spans)
+        cards = _parse_cards(spans, lesson)
+        extra = [f"{c.no}{c.char or '?'}({c.han_viet},{len(c.examples)}vd,{c.on},{c.kun})" for c in cards if c.char not in summ]
+        dup = sorted({c.char for c in cards if c.char and [x.char for x in cards].count(c.char) > 1})
+        miss = [k.char for k in got_k if "card_missing" in k.flags]
+        if not summ or extra or dup or miss:
+            print(f"Kanji bài {lesson:>2}: bảng {''.join(summ) or '(không có)'} | thẻ thừa/loại: {extra} "
+                  f"| trùng: {dup} | thiếu thẻ: {miss}")
     _write_json(out_dir / "kanji.json", [k.model_dump() for k in kanji])
     by_lesson: dict[int, int] = {}
     for k in kanji:

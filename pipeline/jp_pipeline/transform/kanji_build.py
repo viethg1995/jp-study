@@ -16,7 +16,7 @@ from pathlib import Path
 from pydantic import BaseModel
 
 from jp_pipeline.dictionaries import KanjiInfo
-from jp_pipeline.schemas import KanjiEntry, Radical, VocabEntry
+from jp_pipeline.schemas import KanjiEntry, KanjiLessonRef, Radical, VocabEntry
 from jp_pipeline.transform.vocab_auto import cjk_chars, kanji_forms, normalize_han_viet
 
 # Số nét theo nhóm bộ thủ Khang Hy (chuẩn): (bộ đầu, bộ cuối, số nét)
@@ -196,8 +196,11 @@ def build_kanji(
     n3: dict[str, tuple[int, str | None]] | None = None,
     hv_files: dict[str, tuple[str | None, str]] | None = None,
     ebook: dict[str, dict[str, tuple[int, int]]] | None = None,
+    n3_places: dict[str, list[tuple[int, int]]] | None = None,
 ) -> tuple[list[KanjiEntry], KanjiBuildReport]:
-    """n3: {字: (bài Kanji N3, âm Hán-Việt sách N3 đã chuẩn hóa/sửa)} — chữ chỉ có ở N3 vẫn được tạo mục."""
+    """n3: {字: (bài Kanji N3, âm Hán-Việt sách N3 đã chuẩn hóa/sửa)} — chữ chỉ có ở N3 vẫn được tạo mục.
+    n3_places: {字: [(bài, thứ tự trong bài), …]} — mọi bài Kanji N3 có chữ (bảng tổng hợp đầu bài)."""
+    n3_places = n3_places or {}
     meanings = meanings or {}
     n3 = n3 or {}
     hv_files = hv_files or {}
@@ -276,6 +279,7 @@ def build_kanji(
                 radical=info.radical if info else None,
                 first_lesson=first_minna(ch),
                 n3_lesson=n3[ch][0] if ch in n3 else None,
+                n3_lessons=[KanjiLessonRef(lesson=l, order=o) for l, o in sorted(n3_places.get(ch, []))],
                 n4_lesson=ebook["N4"][ch][0] if ch in ebook.get("N4", {}) else None,
                 n4_order=ebook["N4"][ch][1] if ch in ebook.get("N4", {}) else None,
                 n5_lesson=ebook["N5"][ch][0] if ch in ebook.get("N5", {}) else None,

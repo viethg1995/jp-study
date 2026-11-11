@@ -143,6 +143,14 @@
           "description": "Bài Kanji N3 dạy chữ này (null: không có trong N3)",
           "title": "N3 Lesson"
         },
+        "n3_lessons": {
+          "description": "Mọi bài Kanji N3 có chữ này (1 chữ có thể dạy ở 2 bài, vd 個: 1 và 21), tăng dần; n3_lesson = bài đầu",
+          "items": {
+            "$ref": "#/$defs/KanjiLessonRef"
+          },
+          "title": "N3 Lessons",
+          "type": "array"
+        },
         "n4_lesson": {
           "anyOf": [
             {
@@ -410,6 +418,31 @@
       ],
       "title": "KanjiExample",
       "type": "object"
+    },
+    "KanjiLessonRef": {
+      "additionalProperties": false,
+      "properties": {
+        "lesson": {
+          "description": "Số bài",
+          "maximum": 50,
+          "minimum": 1,
+          "title": "Lesson",
+          "type": "integer"
+        },
+        "order": {
+          "description": "Thứ tự chữ trong bài (như sách)",
+          "maximum": 20,
+          "minimum": 1,
+          "title": "Order",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "lesson",
+        "order"
+      ],
+      "title": "KanjiLessonRef",
+      "type": "object"
     }
   },
   "additionalProperties": false,
@@ -422,7 +455,7 @@
       "type": "array"
     },
     "schema_version": {
-      "default": 7,
+      "default": 8,
       "title": "Schema Version",
       "type": "integer"
     }

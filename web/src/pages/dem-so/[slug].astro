@@ -7,6 +7,7 @@ import ReadingTable from "../../components/counters/ReadingTable.astro";
 import Tag from "../../components/ui/Tag.astro";
 import type { Counter, SoundRule } from "../../content.config";
 import Base from "../../layouts/Base.astro";
+import { clip } from "../../lib/seo";
 import { CATEGORY_LABEL, counterPath, counterSlug } from "../../lib/counters";
 
 export const getStaticPaths = (async () => {
@@ -38,7 +39,7 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
 const vocabHref = (id: string): string => `${base}/vocabulary/${Number(id.slice(3, 5))}/#${id}`;
 ---
 
-<Base title={`～${c.char} ${c.name_vi}`}>
+<Base title={`～${c.char} ${c.name_vi} · Trợ số từ`} description={clip(`Trợ số từ ～${c.char} (${c.kana}): ${c.use_vi} Bảng cách đọc 1–10, biến âm và câu ví dụ.`)}>
   <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
     {prev && <a href={`${base}/${counterPath(prev)}`} class={navLink}>← <span class="jp">～{prev.char}</span></a>}
     <a href={`${base}/dem-so/`} class={navLink}>Đếm số</a>

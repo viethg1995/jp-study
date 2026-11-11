@@ -369,6 +369,10 @@ body:has(#toggle-vi:checked) .example-vi.is-revealed {
   background: var(--color-surface-sunken);
   color: var(--color-ink);
 }
+.nav-child[aria-current="page"] {
+  color: var(--color-primary);
+  font-weight: 600;
+}
 /* Nhóm mục con thu/xổ được (checkbox ẩn .nav-group-toggle + nút ▾) */
 .nav-expander {
   display: inline-flex;

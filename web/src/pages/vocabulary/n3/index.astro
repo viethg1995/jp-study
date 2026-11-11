@@ -1,0 +1,12 @@
+---
+// Từ vựng N3: sách N3 準備 文字語彙, theo bài.
+import { getCollection } from "astro:content";
+import LevelPage from "../../../components/vocab/LevelPage.astro";
+
+const lessons = (await getCollection("vocabularyN3"))
+  .map((l) => l.data)
+  .sort((a, b) => a.lesson - b.lesson)
+  .map((l) => ({ lesson: l.lesson, count: l.entries.length }));
+---
+
+<LevelPage level="n3" subtitle="N3 準備 文字語彙" route="vocabulary/n3" lessons={lessons} />

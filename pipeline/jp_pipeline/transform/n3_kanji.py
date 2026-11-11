@@ -5,6 +5,8 @@
   Hán-Việt    đậm, chữ in hoa Latin, x < 200
   âm On       '音：…' ở x≈79;  âm Kun '訓：…' + dòng nối '・ばす' (x < 240)
   ví dụ       x ≥ 240, dòng đầu có '例：'; nhiều ví dụ cùng dòng cách nhau bằng khoảng trắng lớn
+  bảng tổng hợp  trang 1, chữ Hán cỡ ≥ 40 xếp hàng ngang = THỨ TỰ CHUẨN của bài (số thứ tự trên thẻ
+                 có khi in lặp/sai, vd bài 4 có số '11' thừa) → `order`, thẻ không có trong bảng → loại.
 Hàm thuần: list[Span] của MỘT file bài → list[N3KanjiRaw].
 """
 
@@ -25,6 +27,7 @@ HEADER_Y, FOOTER_Y = 60.0, 760.0
 class N3KanjiRaw(BaseModel):
     lesson: int
     no: int
+    order: int | None = None  # vị trí (1-based) trong bảng tổng hợp đầu bài; None: không có bảng
     char: str
     han_viet: str | None
     on: list[str]
@@ -72,7 +75,53 @@ def _example_items(spans: list[Span]) -> list[str]:
     return [c for c in cleaned if c and c != "例"]
 
 
+SUMMARY_SIZE = 40.0
+
+
+def summary_chars(spans: list[Span]) -> list[str]:
+    """Bảng tổng hợp đầu bài (chữ cỡ ≥ 40, trang đầu tiên có) theo thứ tự đọc: hàng trên→dưới, trái→phải."""
+    big = [s for s in spans if s.size >= SUMMARY_SIZE]
+    if not big:
+        return []
+    first = min(s.page for s in big)
+    out: list[str] = []
+    for ln in _cluster_lines([s for s in big if s.page == first], tol=10):
+        for s in ln:
+            out += [c for c in s.text if KANJI_CHAR.match(c)]
+    return out
+
+
 def parse_lesson(spans: list[Span], lesson: int) -> list[N3KanjiRaw]:
+    cards = _parse_cards(spans, lesson)
+    summary = summary_chars(spans)
+    if not summary:
+        return cards
+    pos = {c: i + 1 for i, c in enumerate(summary)}
+    out: list[N3KanjiRaw] = []
+    seen: set[str] = set()
+    for k in cards:
+        if k.char in pos and k.char not in seen:
+            seen.add(k.char)
+            out.append(k.model_copy(update={"order": pos[k.char]}))
+        elif out:
+            # thẻ không khớp bảng / chữ trùng = phần sau của thẻ trước bị tách vì số thứ tự in lặp
+            # (bài 15 逆, 19 腹, 25 頭, 29 部) → gộp vào thẻ trước; thẻ rỗng thì gộp cũng không đổi gì
+            p = out[-1]
+            out[-1] = p.model_copy(update={
+                "han_viet": p.han_viet or k.han_viet,
+                "on": list(dict.fromkeys(p.on + k.on)),
+                "kun": list(dict.fromkeys(p.kun + k.kun)),
+                "examples": p.examples + [e for e in k.examples if not p.char or p.char in e],
+                "flags": [f for f in p.flags if f != "han_viet_missing" or not k.han_viet] + ["merged_split_card"],
+            })
+    for c in summary:  # chữ có trong bảng nhưng không bắt được thẻ → vẫn giữ (chỉ chữ + thứ tự)
+        if c not in seen:
+            out.append(N3KanjiRaw(lesson=lesson, no=0, order=pos[c], char=c, han_viet=None, on=[], kun=[],
+                                  examples=[], flags=["card_missing"]))
+    return sorted(out, key=lambda k: k.order or 0)
+
+
+def _parse_cards(spans: list[Span], lesson: int) -> list[N3KanjiRaw]:
     body = [s for s in spans if HEADER_Y < s.y0 < FOOTER_Y]
     raw_nums = [s for s in body if s.bold and s.x0 < 110 and s.text.isdigit()]
     nums: list[Span] = []
@@ -105,6 +154,10 @@ def parse_lesson(spans: list[Span], lesson: int) -> list[N3KanjiRaw]:
                 if s.x0 < 240 and s.text.startswith("・") and s.y0 > ky - 30 and not s.bold
             ]
         on = [t for sp in on_sp for t in re.split(r"[、,，・\s]+", re.sub(r"^音\s*[：:]\s*", "", sp.text)) if t]
+        # '音：トウ 訓：アタマ' cùng một span (bài 25 頭) → phần 訓 chuyển sang Kun (katakana → hiragana)
+        kun_inline = [re.sub(r"^訓\s*[：:]\s*", "", t) for t in on if t.startswith("訓")]
+        on = [t for t in on if not t.startswith("訓")]
+        kun_lines += ["".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in t) for t in kun_inline]
         ex_spans = [s for s in card if s.x0 >= 240]
         examples = _example_items(ex_spans)
         char = chars[0].text if chars else ""

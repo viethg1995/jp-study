@@ -1,0 +1,30 @@
+---
+// Dải link chuyển giữa các trang cùng phần (vd N5 · N4 · N3) — đặt ở slot "header". Mỗi mục là một trang riêng.
+interface Tab {
+  label: string;
+  href: string; // đã ghép BASE_URL
+  active: boolean;
+}
+interface Props {
+  tabs: Tab[];
+  label: string; // aria-label
+}
+const { tabs, label } = Astro.props;
+---
+
+<nav slot="header" class="ml-auto flex items-center gap-1 text-sm" aria-label={label}>
+  {
+    tabs.map((t) => (
+      <a
+        href={t.href}
+        aria-current={t.active ? "page" : undefined}
+        class:list={[
+          "rounded px-2.5 py-1",
+          t.active ? "bg-primary font-semibold text-surface" : "text-primary hover:bg-primary-soft",
+        ]}
+      >
+        {t.label}
+      </a>
+    ))
+  }
+</nav>

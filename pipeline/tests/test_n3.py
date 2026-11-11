@@ -122,3 +122,27 @@ def test_cross_link_books() -> None:
 
     a, b = cross_link_books([v("mn-01-001", "しゅみ", "趣味", "minna")], [v("n3-047", "しゅみ", "趣味", "n3"), v("n3-048", "きょうみ", "興味", "n3")])
     assert a[0].same_word == ["n3-047"] and b[0].same_word == ["mn-01-001"] and b[1].same_word == []
+
+
+def _kspan(page: int, x0: float, y0: float, size: float, text: str, bold: bool = False) -> Span:
+    return Span(page=page, x0=x0, y0=y0, x1=x0 + size * len(text), y1=y0 + size, size=size, bold=bold, text=text)
+
+
+def test_kanji_order_from_summary_and_merge_split_card() -> None:
+    """Thứ tự theo bảng tổng hợp đầu bài; số in lặp (thẻ 2 không chữ) → gộp vào thẻ trước; số thừa rỗng → bỏ."""
+    from jp_pipeline.transform.n3_kanji import parse_lesson as parse_kanji
+
+    spans = [
+        _kspan(1, 120, 336, 60, "逆 迎"),  # bảng tổng hợp
+        _kspan(2, 136, 100, 18, "逆", bold=True), _kspan(2, 86, 105, 13, "1", bold=True),
+        _kspan(2, 125, 130, 18, "NGHỊCH", bold=True),
+        _kspan(2, 86, 200, 13, "1", bold=True),  # số in lặp → nửa sau của thẻ 逆
+        _kspan(2, 79, 210, 11, "音：ギャク 訓：サカ"),
+        _kspan(2, 136, 300, 18, "迎", bold=True), _kspan(2, 86, 305, 13, "3", bold=True),  # số in sai
+        _kspan(2, 125, 330, 18, "NGHÊNH", bold=True),
+        _kspan(2, 86, 500, 13, "3", bold=True),  # số thừa, thẻ rỗng
+    ]
+    out = parse_kanji(spans, lesson=15)
+    assert [(k.char, k.order) for k in out] == [("逆", 1), ("迎", 2)]
+    assert out[0].han_viet == "NGHỊCH" and out[0].on == ["ギャク"] and out[0].kun == ["さか"]
+    assert "merged_split_card" in out[0].flags

@@ -176,7 +176,8 @@ class VocabLesson(_Strict):
 
 # ---------------------------------------------------------------- Kanji & bộ thủ
 
-KANJI_SCHEMA_VERSION = 7  # v7: story (mẹo nhớ), components (thành phần KanjiVG trong strokes.json)
+KANJI_SCHEMA_VERSION = 8  # v8: n3_lessons (mọi bài Kanji N3 có chữ + thứ tự trong bài, theo bảng tổng hợp đầu bài)
+# v7: story (mẹo nhớ), components (thành phần KanjiVG trong strokes.json)
 # v6: examples (từ ví dụ chia Âm On / Âm Kun, ≥5/chữ)
 # v5: n4_order, n5_order (thứ tự chữ trong bài như sách)
 # v4: n4_lesson, n5_lesson (ebook Kanji theo cấp)
@@ -216,6 +217,11 @@ class KanjiExample(_Strict):
     source: Literal["vocab", "jmdict"]
 
 
+class KanjiLessonRef(_Strict):
+    lesson: int = Field(ge=1, le=50, description="Số bài")
+    order: int = Field(ge=1, le=20, description="Thứ tự chữ trong bài (như sách)")
+
+
 class KanjiEntry(_Strict):
     id: str = Field(description="k-字 — khóa localStorage, KHÔNG được đổi")
     char: str
@@ -238,6 +244,7 @@ class KanjiEntry(_Strict):
     n5_lesson: int | None = Field(default=None, ge=1, le=50, description="Bài Ebook Kanji N5 dạy chữ này")
     n4_order: int | None = Field(default=None, ge=1, le=20, description="Thứ tự chữ trong bài Ebook Kanji N4")
     n5_order: int | None = Field(default=None, ge=1, le=20, description="Thứ tự chữ trong bài Ebook Kanji N5")
+    n3_lessons: list[KanjiLessonRef] = Field(default_factory=list, description="Mọi bài Kanji N3 có chữ này (1 chữ có thể dạy ở 2 bài, vd 個: 1 và 21), tăng dần; n3_lesson = bài đầu")
     vocab_refs: list[str] = Field(description="ID từ vựng chứa chữ này (mn-LL-NNN, n3-NNN), Minna trước")
     examples: list[KanjiExample] = Field(default_factory=list, description="Từ ví dụ: từ giáo trình trước, bổ sung JMdict cho đủ ≥5")
     story: str | None = Field(default=None, description="Mẹo nhớ (câu chuyện gợi hình từ thành phần) — không phải từ nguyên")

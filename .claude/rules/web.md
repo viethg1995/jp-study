@@ -11,6 +11,7 @@ paths:
 - `astro.config.mjs` phải có `site` và `base` đúng với đường dẫn GitHub Pages — lấy từ biến môi trường `SITE_URL`, `BASE_PATH` (mặc định localhost, `/`). Link nội bộ luôn ghép `import.meta.env.BASE_URL`.
 - **Astro ghim 7.3.8** (bản 7.4+ đòi Node ≥ 22.23.4, máy đang Node 22.21). Nâng Node rồi mới nâng Astro.
 - Schema zod ở `web/src/lib/schemas.ts` (chỉ import `astro/zod`, để Node chạy được gate) phải khớp `schemas.py` — `npm run check:schema` so với `data/_schema/`; gate **không** so ràng buộc (min/max/regex) và danh sách `POS_CODES`, phần đó vẫn phải tự giữ khớp. `content.config.ts` chỉ khai báo collection. Parser ruby ở `web/src/lib/ruby.ts` phải khớp `transform/examples.py`.
+- **SEO:** mỗi trang truyền `description` cho `Base` (trang động tự soạn từ dữ liệu, cắt bằng `clip()` ở `lib/seo.ts`); `Base` tự sinh canonical (bỏ query), Open Graph, favicon. Mỗi trang đúng một `<h1>`. `sitemap.xml` do integration trong `astro.config.mjs` ghi lúc build (bỏ 404 và endpoint `.json`); `robots.txt` ở `pages/robots.txt.ts`. Trang không cần index → `noindex`.
 - Công tắc hiển thị (ẩn furigana, che bản dịch, lọc chờ duyệt) làm bằng CSS `:has()` + checkbox — không cần JS.
 - Stack: Preact (island), Tailwind CSS, Pagefind (tìm kiếm), `@vite-pwa/astro` (offline), `localStorage` (trạng thái).
 

@@ -1,0 +1,13 @@
+---
+// Từ vựng N5: Minna bài 1–25.
+import { getCollection } from "astro:content";
+import LevelPage from "../../components/vocab/LevelPage.astro";
+
+const lessons = (await getCollection("vocabulary"))
+  .map((l) => l.data)
+  .filter((l) => l.lesson <= 25)
+  .sort((a, b) => a.lesson - b.lesson)
+  .map((l) => ({ lesson: l.lesson, count: l.entries.length }));
+---
+
+<LevelPage level="n5" subtitle="みんなの日本語 · Bài 1–25" route="vocabulary" lessons={lessons} />

@@ -63,7 +63,11 @@ const href = (h: string): string => `${base}/${h}`;
                 <ul class="nav-children">
                   {item.children.map((c) => (
                     <li>
-                      <a href={href(c.href)} class="nav-child">
+                      <a
+                        href={href(c.href)}
+                        class="nav-child"
+                        aria-current={path.replace(/^\//, "") === c.href ? "page" : undefined}
+                      >
                         {c.label}
                       </a>
                     </li>
@@ -106,7 +110,7 @@ const href = (h: string): string => `${base}/${h}`;
   });
   sync();
 
-  // Điện thoại: bấm một mục → đóng menu trượt (cần cho link cùng trang như #n5)
+  // Điện thoại: bấm một mục → đóng menu trượt (cần cho link cùng trang)
   const navOpen = document.getElementById("nav-open");
   document.querySelectorAll<HTMLAnchorElement>("#sidebar a").forEach((a) =>
     a.addEventListener("click", () => {

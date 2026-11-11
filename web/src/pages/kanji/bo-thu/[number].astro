@@ -5,6 +5,7 @@ import { getCollection } from "astro:content";
 import type { KanjiEntry, Radical } from "../../../content.config";
 import KanjiTile from "../../../components/kanji/KanjiTile.astro";
 import Base from "../../../layouts/Base.astro";
+import { clip } from "../../../lib/seo";
 
 export const getStaticPaths = (async () => {
   const radicals = (await getCollection("radicals")).map((r) => r.data);
@@ -23,7 +24,7 @@ const { r, items } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={`Bộ ${r.name_vi} ${r.char}`}>
+<Base title={`Bộ ${r.name_vi} ${r.char}`} description={clip(`Bộ thủ ${r.char} ${r.name_vi}${r.meaning_vi ? ` (${r.meaning_vi})` : ""} — bộ số ${r.number}, ${r.strokes} nét. ${items.length} chữ Hán thuộc bộ: ${items.slice(0, 12).map((k) => k.char).join(" ")}.`)}>
   <nav slot="header" class="ml-auto text-sm">
     <a href={`${base}/kanji/bo-thu/#net-${r.strokes}`} class="rounded px-2 py-1 text-primary hover:bg-primary-soft">← Bộ thủ</a>
   </nav>

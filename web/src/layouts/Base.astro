@@ -1,15 +1,27 @@
 ---
 // Khung trang: header (logo + ☰ trên điện thoại + slot "header") · menu trái (Sidebar) · nội dung.
+// <head> gồm thẻ SEO: description, canonical (bỏ query ?ds=…), Open Graph/Twitter, JSON-LD (tùy chọn).
 import Sidebar from "../components/layout/Sidebar.astro";
 import { SIDEBAR_BOOT_SCRIPT } from "../lib/storage";
+import { DEFAULT_DESCRIPTION, SITE_NAME, clip } from "../lib/seo";
 import "../styles/global.css";
 
 interface Props {
   title: string;
+  description?: string;
   pattern?: boolean; // nền họa tiết 青海波 phía trên (trang chủ)
+  noindex?: boolean; // trang không cần lên Google (404…)
+  fullTitle?: boolean; // true: dùng nguyên title, không nối " · 日本語"
+  jsonLd?: Record<string, unknown>;
 }
-const { title, pattern = false } = Astro.props;
+const { title, description, pattern = false, noindex = false, fullTitle = false, jsonLd } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const pageTitle = fullTitle ? title : `${title} · 日本語`;
+const desc = clip(description ?? DEFAULT_DESCRIPTION);
+// Thư mục build dạng /a/b/ → canonical luôn có "/" cuối (trừ file có đuôi, vd 404.html)
+const path = /\/$|\.[a-z0-9]+$/i.test(Astro.url.pathname) ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const canonical = Astro.site ? new URL(path, Astro.site).href : null;
+const gscToken = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
 ---
 
 <!doctype html>
@@ -17,7 +29,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} · 日本語</title>
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    {noindex && <meta name="robots" content="noindex" />}
+    {canonical && !noindex && <link rel="canonical" href={canonical} />}
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+    <link rel="sitemap" href={`${base}/sitemap.xml`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={desc} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta name="twitter:card" content="summary" />
+    {gscToken && <meta name="google-site-verification" content={gscToken} />}
+    {jsonLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />}
     <script is:inline set:html={SIDEBAR_BOOT_SCRIPT} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,7 +62,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
         </label>
         <a href={`${base}/`} class="flex shrink-0 items-center gap-2 font-bold text-ink">
           <span class="size-3 rounded-full bg-brand" aria-hidden="true"></span>
-          <span class="jp">日本語</span>
+          <span class="jp" lang="ja">日本語</span>
         </a>
         <slot name="header" />
       </div>

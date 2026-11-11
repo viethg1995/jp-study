@@ -6,6 +6,7 @@ import RubyText from "../../../components/jp/RubyText.astro";
 import Tag from "../../../components/ui/Tag.astro";
 import type { ConjEntry, ConjFormDef } from "../../../content.config";
 import Base from "../../../layouts/Base.astro";
+import { clip, plainRuby as plain } from "../../../lib/seo";
 import { GROUP_OF_KIND, GROUP_SLUG, KIND_LABEL, LIST_GROUPS, VERB_FORM_SECTIONS, entryPath, formPath, sourceLabel, vocabPath } from "../../../lib/conjugation";
 
 export const getStaticPaths = (async () => {
@@ -38,13 +39,12 @@ const group = GROUP_OF_KIND[e.kind];
 const values = new Map(e.forms.map((v) => [v.form, v]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
-const plain = (r: string): string => r.replace(/\{([^{}|]+)\|[^{}|]+\}/g, "$1");
 // Chia nhóm hiển thị cho động từ: lịch sự (ます) · thể thường · thể khác
 const SECTIONS: { title: string; ids: string[] }[] =
   group === "verb" ? VERB_FORM_SECTIONS : [{ title: "Các thể", ids: defs.map((d) => d.id) }];
 ---
 
-<Base title={`${plain(e.ruby)} · Chia thể`}>
+<Base title={`${plain(e.ruby)} · Chia thể`} description={clip(`Bảng chia ${plain(e.ruby)} (${e.meaning_vi}) — ${KIND_LABEL[e.kind].toLowerCase()}: thể ます, thể て, thể ない, thể từ điển, thể た… kèm furigana và quy tắc chia.`)}>
   <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
     {prev && <a href={`${base}/${entryPath(prev)}`} class={navLink}>← <RubyText ruby={plain(prev.ruby)} /></a>}
     {LIST_GROUPS.includes(group) && <a href={`${base}/chia-the/${GROUP_SLUG[group]}/`} class={navLink}>Bảng chia</a>}
@@ -53,7 +53,7 @@ const SECTIONS: { title: string; ids: string[] }[] =
 
   <article class="mx-auto max-w-4xl">
     <header class="flex flex-wrap items-end gap-x-6 gap-y-3 rounded-lg border border-line bg-surface p-5 sm:p-6">
-      <RubyText ruby={e.ruby} class="conj-head text-4xl text-ink" />
+      <h1><RubyText ruby={e.ruby} class="conj-head text-4xl text-ink" /></h1>
       <div class="min-w-0 flex-1">
         <p class="text-lg text-ink">{e.meaning_vi}</p>
         <p class="mt-1 flex flex-wrap items-center gap-2 text-sm text-ink-faint">

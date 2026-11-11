@@ -71,7 +71,7 @@ export const vocabLesson = z.object({
 });
 
 // ---------------------------------------------------------------- Kanji & bộ thủ (KanjiFile / RadicalFile)
-export const KANJI_SCHEMA_VERSION = 7; // v7: story (mẹo nhớ), components (thành phần KanjiVG)
+export const KANJI_SCHEMA_VERSION = 8; // v8: n3_lessons; v7: story (mẹo nhớ), components (thành phần KanjiVG)
 
 export const kanjiExample = z.object({
   word: z.string().min(1),
@@ -83,6 +83,11 @@ export const kanjiExample = z.object({
   meaning_en: z.string().nullable(),
   vocab_id: z.string().regex(/^(mn-\d{2}-\d{3}|n3-\d{3})$/).nullable(),
   source: z.enum(["vocab", "jmdict"]),
+});
+
+export const kanjiLessonRef = z.object({
+  lesson: z.number().int().min(1).max(50),
+  order: z.number().int().min(1).max(20),
 });
 
 export const kanjiEntry = z.object({
@@ -105,6 +110,7 @@ export const kanjiEntry = z.object({
   n5_lesson: z.number().int().min(1).max(50).nullable().default(null),
   n4_order: z.number().int().min(1).max(20).nullable().default(null),
   n5_order: z.number().int().min(1).max(20).nullable().default(null),
+  n3_lessons: z.array(kanjiLessonRef).default([]),
   vocab_refs: z.array(z.string().regex(/^(mn-\d{2}-\d{3}|n3-\d{3})$/)),
   examples: z.array(kanjiExample).default([]),
   story: z.string().nullable().default(null),
