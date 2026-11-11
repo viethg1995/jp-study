@@ -1,0 +1,74 @@
+{
+  "by": "ai",
+  "note": "Quy tắc biến âm theo âm đầu của trợ số từ (AI soạn, chờ duyệt). transform/counters.py:candidates() cài đặt đúng các quy tắc này để kiểm bảng cách đọc.",
+  "rules": [
+    {
+      "group": "h",
+      "name_vi": "Âm đầu h (は・ひ・ふ・へ・ほ)",
+      "summary_vi": "1, 6, 8, 10, 100 → っ + p · 3, 1000, 10000, 何 → b hoặc p",
+      "rule_vi": [
+        "1 いち → いっ, 6 ろく → ろっ, 8 はち → はっ, 10 じゅう → じゅっ (hoặc じっ), 100 ひゃく → ひゃっ - âm h đổi thành p: いっぽん, ろっぴき, はっぱい, じゅっぷん, ひゃっぽん.",
+        "Sau âm ん (3 さん, 1000 せん, 10000 まん, 何 なん): h đổi thành b hoặc p tùy từ. 本, 匹, 杯 → b (さんぼん, さんびき, さんばい) - 分 → p (さんぷん, なんぷん).",
+        "4 よん giữ nguyên âm h (よんほん, よんひき, よんはい) - riêng 分 → よんぷん.",
+        "2, 5, 7, 9 không đổi: にほん, ごひき, ななはい, きゅうふん."
+      ]
+    },
+    {
+      "group": "k",
+      "name_vi": "Âm đầu k (か・き・く・け・こ)",
+      "summary_vi": "1, 6, 8, 10, 100 → っ · 3 và 何: giữ k hoặc thành g (階, 軒)",
+      "rule_vi": [
+        "1, 6, 8, 10, 100 thành âm ngắt っ, âm k giữ nguyên: いっこ, ろっかい, はっかげつ, じゅっこ, ひゃっかい.",
+        "Sau さん và なん thường giữ k (さんこ, さんかい, なんかい) - riêng 階 và 軒 đổi thành g: さんがい, なんがい, さんげん, なんげん.",
+        "8 còn đọc はち trong văn nói: はちかい, はちこ."
+      ]
+    },
+    {
+      "group": "s",
+      "name_vi": "Âm đầu s (さ・し・す・せ・そ)",
+      "summary_vi": "1, 8, 10 → っ · 6 giữ ろく",
+      "rule_vi": [
+        "1, 8, 10 thành っ: いっさつ, はっさい, じゅっしゅうかん. 6 không đổi: ろくさつ, ろくさい.",
+        "Sau さん thường giữ s (さんさつ, さんさい) - riêng 足 đổi thành z: さんぞく, なんぞく.",
+        "100: ひゃくさつ và ひゃっさつ đều dùng."
+      ]
+    },
+    {
+      "group": "t",
+      "name_vi": "Âm đầu t (た・ち・つ・て・と)",
+      "summary_vi": "1, 8, 10 → っ",
+      "rule_vi": [
+        "1, 8, 10 thành っ: いっちゃく, はっちゃく, じゅっちゃく. Các số khác giữ nguyên: さんちゃく, ろくちゃく."
+      ]
+    },
+    {
+      "group": "none",
+      "name_vi": "Không biến âm",
+      "summary_vi": "Số + trợ số từ ghép nguyên - chỉ cần chọn đúng cách đọc 4, 7, 9",
+      "rule_vi": [
+        "Trợ số từ bắt đầu bằng m, n, d, b, j, g, e, y… (枚, 人, 台, 番, 倍, 時, 月, 円, 年) không làm số biến âm: いちまい, ろくだい, はちばん.",
+        "Cần nhớ cách đọc 4, 7, 9 riêng của từng trợ số từ (đánh dấu ★ trong bảng): 4人 よにん, 4時 よじ, 4月 しがつ, 4年 よねん, 4円 よえん - 7時 しちじ, 7月 しちがつ - 9時 くじ, 9月 くがつ."
+      ]
+    },
+    {
+      "group": "native",
+      "name_vi": "Số đếm thuần Nhật",
+      "summary_vi": "ひとつ … とお: học thuộc 1–10",
+      "rule_vi": [
+        "～つ dùng số thuần Nhật: ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお.",
+        "Chỉ đếm được đến 10 - từ 11 trở lên dùng số Hán (じゅういち…) hoặc chuyển sang ～個.",
+        "Gốc số thuần Nhật cũng xuất hiện trong ひとり, ふたり (～人) và ふつか, みっか… (～日)."
+      ]
+    },
+    {
+      "group": "special",
+      "name_vi": "Ngày trong tháng",
+      "summary_vi": "1–10, 14, 20, 24 đọc riêng (ついたち, ふつか… はつか)",
+      "rule_vi": [
+        "Ngày 1–10 dùng gốc thuần Nhật: ついたち, ふつか, みっか, よっか, いつか, むいか, なのか, ようか, ここのか, とおか.",
+        "Ngày 14 じゅうよっか, 20 はつか, 24 にじゅうよっか cũng đọc riêng. Các ngày khác: số + にち (じゅういちにち, さんじゅうにち).",
+        "Ngày 17, 19 dùng しち, く: じゅうしちにち, じゅうくにち."
+      ]
+    }
+  ]
+}

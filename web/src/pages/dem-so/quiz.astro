@@ -1,0 +1,237 @@
+---
+// Quiz đếm số: hiện "số + trợ số từ", chọn 1 trong 4 cách đọc. Câu hỏi + đáp án nhiễu sinh lúc build (lib/counter-quiz.ts).
+// Điểm chỉ giữ trong phiên (không lưu localStorage). Lọc: trợ số từ, nhóm âm, chỉ ô cần nhớ / tất cả.
+import { getCollection } from "astro:content";
+import Combobox from "../../components/ui/Combobox.astro";
+import Segmented from "../../components/ui/Segmented.astro";
+import type { SoundGroup } from "../../content.config";
+import Base from "../../layouts/Base.astro";
+import { buildQuizItems } from "../../lib/counter-quiz";
+import { DISPLAY_GROUPS } from "../../lib/counters";
+
+const counters = (await getCollection("counterItems")).map((c) => c.data).sort((a, b) => a.order - b.order);
+const items = buildQuizItems(counters);
+
+// Nhóm âm gộp như trang Biến âm
+const GROUPS: { id: string; label: string; groups: SoundGroup[] }[] = [
+  { id: "g-all", label: "Tất cả", groups: [] },
+  { id: "g-h", label: "は h", groups: ["h"] },
+  { id: "g-k", label: "か k", groups: ["k"] },
+  { id: "g-st", label: "さ・た", groups: ["s", "t"] },
+  { id: "g-none", label: "Không đổi", groups: ["none"] },
+  { id: "g-own", label: "Đọc riêng", groups: ["native", "special"] },
+];
+const groupMap = Object.fromEntries(GROUPS.map((g) => [g.id, g.groups]));
+const counterGroups = [
+  { title: null, options: [{ value: "", label: "Tất cả trợ số từ" }] },
+  ...DISPLAY_GROUPS.map((g) => ({
+    title: g.label,
+    options: counters
+      .filter((c) => g.cats.includes(c.category))
+      .map((c) => ({ value: c.id, label: `～${c.char} · ${c.name_vi}`, keywords: `${c.kana} ${c.char}` })),
+  })).filter((g) => g.options.length > 0),
+];
+const changedCount = items.filter((i) => i.changed).length;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+---
+
+<Base title="Luyện đếm số" description="Luyện đếm tiếng Nhật: chọn cách đọc đúng của số + trợ số từ, có biến âm.">
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/dem-so/`} class={navLink}>Đếm số</a>
+    <a href={`${base}/dem-so/bien-am/`} class={navLink}>Biến âm</a>
+  </nav>
+
+  <div class="mx-auto max-w-2xl">
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+      <h1 class="text-2xl font-bold">Luyện đếm số</h1>
+      <p class="text-sm text-ink-muted">
+        Đúng <b id="q-right" class="font-semibold text-ink tabular-nums">0</b> / <span id="q-total" class="tabular-nums">0</span>
+        <button type="button" id="q-reset" class="ml-2 rounded px-2 py-0.5 text-primary hover:bg-primary-soft">Làm lại</button>
+      </p>
+    </div>
+
+    <div class="mt-4 flex flex-col gap-3 text-sm">
+      <Combobox id="q-counter" label="Trợ số từ" groups={counterGroups} value="" placeholder="Tất cả trợ số từ" searchPlaceholder="Tìm: 本, ほん, người…" class="w-full sm:w-80" />
+      <Segmented name="q-group" label="Nhóm âm" options={GROUPS.map((g) => ({ id: g.id, label: g.label }))} checked="g-all" wrap />
+      <Segmented
+        name="q-mode"
+        label="Ô hỏi"
+        options={[
+          { id: "m-changed", label: `Cần nhớ (${changedCount})` },
+          { id: "m-all", label: `Tất cả (${items.length})` },
+        ]}
+        checked="m-changed"
+      />
+    </div>
+
+    <section id="q-card" class="mt-6 rounded-lg border border-line bg-surface p-6" aria-live="polite">
+      <p class="text-center">
+        <span id="q-prompt" class="jp text-5xl font-bold text-ink" lang="ja"></span>
+      </p>
+      <p id="q-hint" class="mt-2 text-center text-sm text-ink-muted"></p>
+      <p class="mt-1 text-center text-sm text-ink-faint">Đọc thế nào?</p>
+
+      <div id="q-options" class="mt-5 grid grid-cols-2 gap-2"></div>
+
+      <div id="q-feedback" class="mt-5 hidden rounded-md px-4 py-3 text-sm leading-relaxed">
+        <p id="q-verdict" class="font-semibold"></p>
+        <p id="q-alt" class="mt-1 hidden text-ink-muted"></p>
+        <p id="q-note" class="mt-1 hidden text-ink-muted"></p>
+        <p class="mt-2"><a id="q-link" class="text-primary hover:underline" href="#">Xem bảng cách đọc →</a></p>
+      </div>
+
+      <div class="mt-5 flex items-center justify-between gap-2">
+        <p class="text-xs text-ink-faint">Phím 1–4 để chọn · Enter: câu tiếp</p>
+        <button type="button" id="q-next" class="rounded-md bg-primary px-4 py-2 text-sm font-semibold text-surface hover:bg-primary-strong disabled:opacity-40" disabled>Câu tiếp →</button>
+      </div>
+    </section>
+
+    <p id="q-empty" class="mt-6 hidden rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">
+      Không có câu nào khớp bộ lọc. Thử chọn "Tất cả" ở mục Ô hỏi hoặc nhóm âm khác.
+    </p>
+  </div>
+
+  <script type="application/json" id="q-data" set:html={JSON.stringify({ items, groupMap, base })} />
+</Base>
+
+<style>
+  .q-opt[data-state="right"] {
+    border-color: var(--color-success);
+    color: var(--color-success);
+    font-weight: 600;
+  }
+  .q-opt[data-state="wrong"] {
+    border-color: var(--color-danger);
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
+  }
+</style>
+
+<script>
+  import type { QuizItem } from "../../lib/counter-quiz";
+
+  interface Data {
+    items: QuizItem[];
+    groupMap: Record<string, string[]>;
+    base: string;
+  }
+  const data = JSON.parse(document.getElementById("q-data")!.textContent ?? "{}") as Data;
+  const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
+  const card = $("q-card"), empty = $("q-empty");
+  const prompt = $("q-prompt"), hint = $("q-hint"), optionsBox = $("q-options");
+  const feedback = $("q-feedback"), verdict = $("q-verdict"), altLine = $("q-alt"), noteLine = $("q-note");
+  const link = $<HTMLAnchorElement>("q-link"), next = $<HTMLButtonElement>("q-next");
+  const rightEl = $("q-right"), totalEl = $("q-total");
+
+  let deck: QuizItem[] = [];
+  let current: QuizItem | null = null;
+  let answered = false;
+  let right = 0, total = 0;
+
+  const shuffle = <T,>(xs: T[]): T[] => {
+    const a = [...xs];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j]!, a[i]!];
+    }
+    return a;
+  };
+  const checkedId = (name: string): string => document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.id ?? "";
+
+  function filtered(): QuizItem[] {
+    const counter = $<HTMLInputElement>("q-counter").value;
+    const groups = data.groupMap[checkedId("q-group")] ?? [];
+    const onlyChanged = checkedId("q-mode") === "m-changed";
+    return data.items.filter(
+      (it) => (!counter || it.counter === counter) && (groups.length === 0 || groups.includes(it.group)) && (!onlyChanged || it.changed),
+    );
+  }
+
+  function ask(): void {
+    if (deck.length === 0) deck = shuffle(filtered());
+    // tránh lặp lại đúng câu vừa hỏi khi xáo lại bộ
+    if (deck.length > 1 && deck[deck.length - 1]?.id === current?.id) deck.unshift(deck.pop()!);
+    current = deck.pop() ?? null;
+    card.hidden = current === null;
+    empty.classList.toggle("hidden", current !== null);
+    if (!current) return;
+
+    answered = false;
+    prompt.textContent = `${current.display}${current.char}`;
+    hint.textContent = `～${current.char} · ${current.name}`;
+    // 3 nhiễu lấy ngẫu nhiên trong 5 mục gần đúng nhất
+    const choices = shuffle([current.answer, ...shuffle(current.pool.slice(0, 5)).slice(0, 3)]);
+    optionsBox.replaceChildren(
+      ...choices.map((kana, i) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "q-opt jp rounded-md border border-line bg-surface px-3 py-3 text-lg text-ink hover:border-primary-line hover:bg-primary-soft";
+        b.lang = "ja";
+        b.dataset.kana = kana;
+        b.innerHTML = `<span class="mr-1.5 text-xs text-ink-faint">${i + 1}</span>`;
+        b.append(kana);
+        b.addEventListener("click", () => choose(b));
+        return b;
+      }),
+    );
+    feedback.classList.add("hidden");
+    next.disabled = true;
+  }
+
+  function choose(btn: HTMLButtonElement): void {
+    if (answered || !current) return;
+    answered = true;
+    const ok = btn.dataset.kana === current.answer;
+    total++;
+    if (ok) right++;
+    rightEl.textContent = String(right);
+    totalEl.textContent = String(total);
+
+    for (const b of optionsBox.querySelectorAll<HTMLButtonElement>(".q-opt")) {
+      b.disabled = true;
+      if (b.dataset.kana === current.answer) b.dataset.state = "right";
+      else if (b === btn) b.dataset.state = "wrong";
+    }
+    feedback.classList.remove("hidden");
+    feedback.classList.toggle("bg-primary-soft", ok);
+    feedback.classList.toggle("bg-danger-soft", !ok);
+    verdict.className = ok ? "font-semibold text-success" : "font-semibold text-danger";
+    verdict.textContent = ok ? "Đúng!" : `Chưa đúng — ${current.display}${current.char} đọc là ${current.answer}`;
+    altLine.classList.toggle("hidden", current.alt.length === 0);
+    altLine.textContent = `Cũng đúng: ${current.alt.join(", ")}`;
+    noteLine.classList.toggle("hidden", !current.note);
+    noteLine.textContent = current.note ?? "";
+    link.href = `${data.base}/${current.href}`;
+    link.textContent = `Xem bảng cách đọc ～${current.char} →`;
+    next.disabled = false;
+    next.focus();
+  }
+
+  const restart = (): void => {
+    deck = [];
+    current = null;
+    ask();
+  };
+  next.addEventListener("click", ask);
+  $("q-reset").addEventListener("click", () => {
+    right = total = 0;
+    rightEl.textContent = totalEl.textContent = "0";
+    restart();
+  });
+  $("q-counter").addEventListener("change", restart);
+  for (const r of document.querySelectorAll<HTMLInputElement>('input[name="q-group"], input[name="q-mode"]')) r.addEventListener("change", restart);
+
+  document.addEventListener("keydown", (e) => {
+    const t = e.target as HTMLElement | null;
+    if (t?.closest("input[type=text], [data-combo][data-open]")) return;
+    if (/^[1-4]$/.test(e.key) && !answered) {
+      optionsBox.querySelectorAll<HTMLButtonElement>(".q-opt")[Number(e.key) - 1]?.click();
+    } else if (e.key === "Enter" && answered && t !== next) {
+      e.preventDefault();
+      ask();
+    }
+  });
+
+  ask();
+</script>

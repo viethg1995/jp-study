@@ -3,6 +3,7 @@
 // Trang (pages/) lấy dữ liệu rồi truyền vào — component không gọi getCollection.
 import type { VocabEntry } from "../../content.config";
 import Base from "../../layouts/Base.astro";
+import { clip } from "../../lib/seo";
 import Segmented from "../ui/Segmented.astro";
 import type { NavLink } from "./CardNav.astro";
 import WordCard from "./WordCard.astro";
@@ -14,10 +15,13 @@ interface Props {
   lastLesson: number;
   label: string; // tiền tố tên bài, vd "Bài" hoặc "N3 · Bài"
   conj: Map<string, string>; // vocab_id → trang chia thể (không có "/" đầu), chỉ động từ / tính từ
+  counters?: Map<string, string>; // vocab_id → trang trợ số từ (không có "/" đầu)
 }
-const { lesson: n, entries, route, lastLesson, label, conj } = Astro.props;
+const { lesson: n, entries, route, lastLesson, label, conj, counters = new Map<string, string>() } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const lessonHref = (k: number): string => `${base}/${route}/${k}/`;
+// Trang danh sách bài cùng cấp: N3 có route riêng; Minna 1–25 → N5, 26–50 → N4
+const listHref = `${base}/${route === "vocabulary" ? `vocabulary/${n <= 25 ? "n5" : "n4"}` : route}/`;
 
 // Chế độ "Từng thẻ": nút Trước/Sau là link #id (CSS :target), quay vòng trong bài (cuối → đầu, đầu → cuối).
 // Chuyển bài dùng nút ở header. Thứ tự ngẫu nhiên do script cuối file xử lý.
@@ -35,12 +39,19 @@ const toggles = [
   { id: "toggle-vi", label: "Che bản dịch (rê chuột để xem)" },
 ];
 const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const book = route === "vocabulary" ? "みんなの日本語" : "N3";
+const description = clip(
+  `Từ vựng ${book} ${label.replace(/^N3 · /, "")} ${n}: ${entries.length} từ có nghĩa tiếng Việt, furigana, câu ví dụ — ${entries
+    .slice(0, 8)
+    .map((e) => `${e.kanji ?? e.kana} (${e.meaning_vi})`)
+    .join(", ")}.`,
+);
 ---
 
-<Base title={`${label} ${n}`}>
+<Base title={`Từ vựng ${label} ${n}`} description={description}>
   <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
     {n > 1 && <a href={lessonHref(n - 1)} class={navLink}>← Bài {n - 1}</a>}
-    <span class="font-semibold">{label} {n}</span>
+    <a href={listHref} class={navLink} title="Danh sách bài cùng cấp">{label} {n}</a>
     {n < lastLesson && <a href={lessonHref(n + 1)} class={navLink}>Bài {n + 1} →</a>}
   </nav>
 
@@ -92,7 +103,7 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
   </fieldset>
 
   <div class="word-list mt-4 grid gap-3 md:grid-cols-2">
-    {entries.map((w, i) => <WordCard word={w} index={i + 1} total={entries.length} conjHref={conj.has(w.id) ? `${base}/${conj.get(w.id)}` : null} {...navOf(i)} />)}
+    {entries.map((w, i) => <WordCard word={w} index={i + 1} total={entries.length} conjHref={conj.has(w.id) ? `${base}/${conj.get(w.id)}` : null} counterHref={counters.has(w.id) ? `${base}/${counters.get(w.id)}` : null} {...navOf(i)} />)}
   </div>
 </Base>
 
@@ -142,6 +153,25 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
     if (scroll) document.getElementById(id)?.scrollIntoView({ block: "start" });
   };
   show(cur);
+
+  // "Che bản dịch": chạm/click vào dòng bị che → bật/tắt hiện (cần cho mobile, không có hover).
+  // Bắt ở pha capture và chặn lan truyền để click KHÔNG lật thẻ / chuyển Lưới → Từng thẻ.
+  const toggleVi = document.getElementById("toggle-vi") as HTMLInputElement | null;
+  window.addEventListener(
+    "click",
+    (e) => {
+      if (!toggleVi?.checked) return;
+      const vi = (e.target as HTMLElement).closest<HTMLElement>(".example-vi");
+      if (!vi) return;
+      e.preventDefault();
+      e.stopPropagation();
+      vi.classList.toggle("is-revealed");
+    },
+    true,
+  );
+  toggleVi?.addEventListener("change", () => {
+    document.querySelectorAll(".example-vi.is-revealed").forEach((el) => el.classList.remove("is-revealed"));
+  });
 
   document.addEventListener("click", (e) => {
     const t = e.target as HTMLElement;

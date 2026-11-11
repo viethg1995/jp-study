@@ -1,84 +1,53 @@
 ---
-// Danh sách Kanji — 2 cách xem (công tắc CSS, không JS):
-//   Giáo trình Kanji: N5 (ebook N5), N4 (ebook N4), N3 (sách Kanji N3) theo bài như sách
-//   Bài từ vựng:      chữ gặp lần đầu ở bài từ vựng Minna (N5/N4) / từ vựng N3
+// Tổng quan Kanji: thẻ N5 / N4 / N3 / Bộ thủ → mỗi phần một trang riêng (/kanji/n5/…, /kanji/bo-thu/).
+// Không vẽ toàn bộ ô chữ ở đây để trang nhẹ, menu con mở thẳng trang cấp độ (không phải neo #… trên trang dài).
 import { getCollection } from "astro:content";
-import KanjiTile from "../../components/kanji/KanjiTile.astro";
-import Segmented from "../../components/ui/Segmented.astro";
+import LevelTabs from "../../components/ui/LevelTabs.astro";
 import Base from "../../layouts/Base.astro";
-import { groupByCurriculum, groupByVocab, groupSize, type KanjiGroup } from "../../lib/kanji";
+import { groupSize, levelGroups, n3VocabLessonMap } from "../../lib/kanji";
+import { LEVELS, LEVEL_LABEL, levelTabs } from "../../lib/levels";
 
 const all = (await getCollection("kanji")).map((k) => k.data);
-const n3Lesson = new Map<string, number>();
-for (const l of await getCollection("vocabularyN3")) for (const e of l.data.entries) n3Lesson.set(e.id, l.data.lesson);
-const n3VocabLesson = new Map<string, number>();
-for (const k of all) {
-  const ls = k.vocab_refs.map((id) => n3Lesson.get(id)).filter((x): x is number => x !== undefined);
-  if (ls.length) n3VocabLesson.set(k.char, Math.min(...ls));
-}
-const views: { id: string; cls: string; groups: KanjiGroup[] }[] = [
-  { id: "kview-book", cls: "kview-book", groups: groupByCurriculum(all) },
-  { id: "kview-vocab", cls: "kview-vocab", groups: groupByVocab(all, n3VocabLesson) },
-];
+const n3VocabLesson = n3VocabLessonMap(all, (await getCollection("vocabularyN3")).map((l) => l.data));
+const radicals = (await getCollection("radicals")).length;
+const cards = LEVELS.map((level) => {
+  const { book, vocab } = levelGroups(all, n3VocabLesson, level);
+  return {
+    level,
+    book: book ? { subtitle: book.subtitle, n: groupSize(book), lessons: book.lessons.length } : null,
+    vocab: vocab ? groupSize(vocab) : 0,
+  };
+});
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const card = "flex h-full flex-col gap-1 rounded-lg border border-line bg-surface p-4 transition hover:border-primary";
 ---
 
-<Base title="Kanji">
-  <div class="flex flex-wrap items-baseline justify-between gap-3">
-    <div>
-      <h1 class="text-2xl font-bold">Kanji</h1>
-      <p class="mt-1 text-sm text-ink-muted">{all.length} chữ Hán · N5 – N3</p>
-    </div>
-    <a href={`${base}/kanji/bo-thu/`} class="rounded-md border border-line bg-surface px-3 py-1.5 text-sm text-primary hover:bg-primary-soft">
-      <span class="jp" lang="ja">部</span> Bộ thủ →
-    </a>
-  </div>
+<Base title="Kanji" description="Kanji N5, N4, N3 cho người Việt: âm Hán-Việt, nghĩa, âm On/Kun, số nét, bộ thủ, thứ tự nét viết và từ vựng ví dụ theo giáo trình.">
+  <LevelTabs label="Cấp độ" tabs={[...levelTabs(base, "kanji", null), { label: "Bộ thủ", href: `${base}/kanji/bo-thu/`, active: false }]} />
 
-  <div class="mt-4 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
-    <Segmented
-      name="kview"
-      label="Xem theo"
-      checked="kview-book"
-      options={[
-        { id: "kview-book", label: "Giáo trình Kanji" },
-        { id: "kview-vocab", label: "Bài từ vựng" },
-      ]}
-    />
-  </div>
+  <h1 class="text-2xl font-bold">Kanji</h1>
+  <p class="mt-1 text-sm text-ink-muted">{all.length} chữ Hán · N5 – N3</p>
 
-  {
-    views.map((v) => (
-      <div class={v.cls}>
-        <nav class="mt-4 flex flex-wrap gap-2 text-sm" aria-label="Nhóm">
-          {v.groups.map((g) => (
-            <a href={`#${g.id}`} class="rounded-md border border-line bg-surface px-3 py-1 text-primary hover:bg-primary-soft">
-              {g.title} <span class="text-ink-faint">· {groupSize(g)}</span>
-            </a>
-          ))}
-        </nav>
-        {v.groups.map((g) => (
-          <section id={g.id} class="mt-8 scroll-mt-20">
-            <h2 class="flex items-baseline gap-2 text-lg font-bold">
-              {g.title}
-              <span class="text-sm font-normal text-ink-faint">
-                {g.subtitle} · {groupSize(g)} chữ
-              </span>
-            </h2>
-            {g.lessons.map((l) => (
-              <div class="mt-4">
-                <h3 class="mb-2 text-sm font-semibold text-ink-muted">{l.label}</h3>
-                <ul class="grid grid-cols-[repeat(auto-fill,minmax(4.25rem,1fr))] gap-2">
-                  {l.items.map((k) => (
-                    <li>
-                      <KanjiTile kanji={k} href={`${base}/kanji/${k.char}/`} />
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </section>
-        ))}
-      </div>
-    ))
-  }
+  <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    {
+      cards.map((c) => (
+        <li>
+          <a href={`${base}/kanji/${c.level}/`} class={card}>
+            <span class="text-xl font-bold text-ink">{LEVEL_LABEL[c.level]}</span>
+            <span class="text-sm text-ink-muted">{c.book ? c.book.subtitle : "Theo bài từ vựng"}</span>
+            <span class="mt-auto pt-2 text-xs text-ink-faint">
+              {c.book ? `${c.book.lessons} bài · ${c.book.n} chữ` : `${c.vocab} chữ`}
+            </span>
+          </a>
+        </li>
+      ))
+    }
+    <li>
+      <a href={`${base}/kanji/bo-thu/`} class={card}>
+        <span class="text-xl font-bold text-ink"><span class="jp" lang="ja">部</span> Bộ thủ</span>
+        <span class="text-sm text-ink-muted">214 bộ Khang Hy, nhóm theo số nét</span>
+        <span class="mt-auto pt-2 text-xs text-ink-faint">{radicals} bộ</span>
+      </a>
+    </li>
+  </ul>
 </Base>

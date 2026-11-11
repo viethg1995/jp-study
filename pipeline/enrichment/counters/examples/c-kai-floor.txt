@@ -1,0 +1,11 @@
+# 階 — Tầng nhà
+c-kai-floor-e01|{受付|うけつけ}は[[{1階|いっかい}]]です。|Quầy lễ tân ở tầng một.
+c-kai-floor-e02|{私|わたし}の{部屋|へや}は[[{2階|にかい}]]にあります。|Phòng tôi ở tầng hai.
+c-kai-floor-e03|{靴|くつ}{売|う}り{場|ば}は[[{3階|さんがい}]]です。|Quầy bán giày ở tầng ba.
+c-kai-floor-e04|{会議室|かいぎしつ}は[[{6階|ろっかい}]]にあります。|Phòng họp ở tầng sáu.
+c-kai-floor-e05|レストランは[[{8階|はっかい}]]です。|Nhà hàng ở tầng tám.
+c-kai-floor-e06|エレベーターで[[{10階|じゅっかい}]]まで{行|い}きます。|Tôi đi thang máy lên tầng mười.
+c-kai-floor-e07|すみません、トイレは[[{何階|なんがい}]]ですか。|Xin lỗi, nhà vệ sinh ở tầng mấy ạ?
+c-kai-floor-e08|このビルは[[{13階|じゅうさんがい}]]まであります。|Tòa nhà này cao đến tầng mười ba.
+c-kai-floor-e09|{私|わたし}の{会社|かいしゃ}はビルの[[{20階|にじゅっかい}]]にあります。|Công ty tôi ở tầng hai mươi của tòa nhà.
+c-kai-floor-e10|{本屋|ほんや}は[[{4階|よんかい}]]にあります。|Hiệu sách ở tầng bốn.

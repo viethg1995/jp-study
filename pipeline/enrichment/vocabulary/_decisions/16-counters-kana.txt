@@ -1,0 +1,4 @@
+# by: ai
+# Vòng 16 — kana trợ số từ gõ sai trong nguồn (2026-11-11), phát hiện khi dựng data/counters.json
+# id | kana mới | ghi chú
+40-031|～こ|nguồn ghi ～ご; 個 đếm vật đọc こ (いっこ, にこ…), câu ví dụ đã duyệt cũng đọc こ

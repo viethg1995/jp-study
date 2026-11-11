@@ -1,0 +1,11 @@
+# 月 — Tháng (tên tháng)
+c-gatsu-e01|[[{4月|しがつ}]]から{大学生|だいがくせい}です。|Từ tháng Tư tôi là sinh viên đại học.
+c-gatsu-e02|{誕生日|たんじょうび}は[[{何月|なんがつ}]]ですか。|Sinh nhật bạn vào tháng mấy?
+c-gatsu-e03|[[{7月|しちがつ}]]に{夏休|なつやす}みが{始|はじ}まります。|Kỳ nghỉ hè bắt đầu vào tháng Bảy.
+c-gatsu-e04|[[{9月|くがつ}]]に{日本|にほん}へ{来|き}ました。|Tôi đến Nhật vào tháng Chín.
+c-gatsu-e05|[[{1月|いちがつ}]]はとても{寒|さむ}いです。|Tháng Một rất lạnh.
+c-gatsu-e06|[[{3月|さんがつ}]]に{卒業|そつぎょう}します。|Tôi sẽ tốt nghiệp vào tháng Ba.
+c-gatsu-e07|[[{6月|ろくがつ}]]は{雨|あめ}が{多|おお}いです。|Tháng Sáu mưa nhiều.
+c-gatsu-e08|[[{8月|はちがつ}]]に{国|くに}へ{帰|かえ}ります。|Tháng Tám tôi về nước.
+c-gatsu-e09|[[{11月|じゅういちがつ}]]に{京都|きょうと}へ{行|い}きました。|Tôi đã đi Kyoto vào tháng Mười một.
+c-gatsu-e10|[[{12月|じゅうにがつ}]]は{忙|いそが}しいです。|Tháng Mười hai bận rộn.

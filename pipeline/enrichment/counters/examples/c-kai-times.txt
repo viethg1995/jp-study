@@ -1,0 +1,11 @@
+# 回 — Số lần
+c-kai-times-e01|{1週間|いっしゅうかん}に[[{1回|いっかい}]]プールで{泳|およ}ぎます。|Mỗi tuần tôi bơi ở bể bơi một lần.
+c-kai-times-e02|{日本|にほん}へ[[{2回|にかい}]]{行|い}ったことがあります。|Tôi đã từng đi Nhật hai lần.
+c-kai-times-e03|{1日|いちにち}に[[{3回|さんかい}]]{薬|くすり}を{飲|の}んでください。|Hãy uống thuốc ba lần một ngày.
+c-kai-times-e04|この{映画|えいが}は[[{6回|ろっかい}]]{見|み}ました。|Bộ phim này tôi đã xem sáu lần.
+c-kai-times-e05|{漢字|かんじ}を[[{8回|はっかい}]]{書|か}いて{覚|おぼ}えました。|Tôi viết chữ Hán tám lần để nhớ.
+c-kai-times-e06|この{言葉|ことば}を[[{10回|じゅっかい}]]{言|い}ってください。|Hãy nói từ này mười lần.
+c-kai-times-e07|{1年|いちねん}に[[{4回|よんかい}]]{試験|しけん}があります。|Một năm có bốn kỳ thi.
+c-kai-times-e08|{富士山|ふじさん}に[[{何回|なんかい}]]{登|のぼ}りましたか。|Bạn đã leo núi Phú Sĩ mấy lần?
+c-kai-times-e09|この{歌|うた}を[[{20回|にじゅっかい}]]{聞|き}きました。|Tôi đã nghe bài hát này hai mươi lần.
+c-kai-times-e10|{毎日|まいにち}{縄跳|なわと}びを[[{100回|ひゃっかい}]]します。|Mỗi ngày tôi nhảy dây một trăm lần.

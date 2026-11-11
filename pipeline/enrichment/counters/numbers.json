@@ -1,0 +1,917 @@
+{
+  "by": "ai",
+  "note": "Số đếm chia tab (AI soạn, chờ duyệt). Cách đọc kiểm bằng transform/counters.py:number_pattern(). examples = id câu trong examples/num.txt.",
+  "intro_vi": [
+    "Người Nhật viết 3,500 (phẩy nhóm hàng nghìn) và 2.5 (chấm thập phân) — ngược với tiếng Việt."
+  ],
+  "tabs": [
+    {
+      "id": "basic",
+      "label": "0 – 99",
+      "sections": [
+        {
+          "id": "basic",
+          "title_vi": "Số cơ bản 0–10",
+          "intro_vi": [
+            "4, 7, 9 có hai cách đọc. Đọc số đứng một mình hoặc đếm thì mặc định dùng よん, なな, きゅう.",
+            "し (4), しち (7), く (9) chỉ còn trong một số từ cố định như 4月 しがつ, 7時 しちじ, 9時 くじ, nên phải học thuộc theo từng trợ số từ."
+          ],
+          "items": [
+            {
+              "display": "0",
+              "kanji": "〇・零",
+              "kana": "ゼロ",
+              "alt": [
+                "れい"
+              ],
+              "irregular": false,
+              "note": "れい dùng trong văn viết, nhiệt độ, toán - ゼロ dùng trong số điện thoại, điểm số (còn đọc まる)."
+            },
+            {
+              "display": "1",
+              "kanji": "一",
+              "kana": "いち",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "2",
+              "kanji": "二",
+              "kana": "に",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "3",
+              "kanji": "三",
+              "kana": "さん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "4",
+              "kanji": "四",
+              "kana": "よん",
+              "alt": [
+                "し"
+              ],
+              "irregular": true,
+              "note": "Mặc định よん (し đồng âm với 死 'chết'). し: 4月 しがつ - よ: 4人 よにん, 4時 よじ, 4年 よねん, 4円 よえん."
+            },
+            {
+              "display": "5",
+              "kanji": "五",
+              "kana": "ご",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "6",
+              "kanji": "六",
+              "kana": "ろく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "7",
+              "kanji": "七",
+              "kana": "なな",
+              "alt": [
+                "しち"
+              ],
+              "irregular": true,
+              "note": "Mặc định なな. しち: 7時 しちじ, 7月 しちがつ (ngày mùng 7 đọc riêng là なのか, không dùng しち)."
+            },
+            {
+              "display": "8",
+              "kanji": "八",
+              "kana": "はち",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "9",
+              "kanji": "九",
+              "kana": "きゅう",
+              "alt": [
+                "く"
+              ],
+              "irregular": true,
+              "note": "Mặc định きゅう. く: 9時 くじ, 9月 くがつ, 9時間 くじかん."
+            },
+            {
+              "display": "10",
+              "kanji": "十",
+              "kana": "じゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        },
+        {
+          "id": "tens",
+          "title_vi": "Hàng chục 11–99",
+          "intro_vi": [
+            "Công thức: [chục] + じゅう + [đơn vị]. 10 đọc じゅう, không đọc いちじゅう.",
+            "40, 70, 90 dùng cách đọc mặc định của 4, 7, 9: よんじゅう, ななじゅう, きゅうじゅう."
+          ],
+          "items": [
+            {
+              "display": "11",
+              "kanji": "十一",
+              "kana": "じゅういち",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "15",
+              "kanji": "十五",
+              "kana": "じゅうご",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "19",
+              "kanji": "十九",
+              "kana": "じゅうきゅう",
+              "alt": [
+                "じゅうく"
+              ],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "20",
+              "kanji": "二十",
+              "kana": "にじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": "20 tuổi đọc riêng là はたち."
+            },
+            {
+              "display": "21",
+              "kanji": "二十一",
+              "kana": "にじゅういち",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "30",
+              "kanji": "三十",
+              "kana": "さんじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "35",
+              "kanji": "三十五",
+              "kana": "さんじゅうご",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "40",
+              "kanji": "四十",
+              "kana": "よんじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": "Không đọc しじゅう (cách cũ)."
+            },
+            {
+              "display": "50",
+              "kanji": "五十",
+              "kana": "ごじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "60",
+              "kanji": "六十",
+              "kana": "ろくじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "70",
+              "kanji": "七十",
+              "kana": "ななじゅう",
+              "alt": [
+                "しちじゅう"
+              ],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "80",
+              "kanji": "八十",
+              "kana": "はちじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "90",
+              "kanji": "九十",
+              "kana": "きゅうじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "99",
+              "kanji": "九十九",
+              "kana": "きゅうじゅうきゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        "num-e14",
+        "num-e15"
+      ]
+    },
+    {
+      "id": "hundreds",
+      "label": "Trăm · nghìn",
+      "sections": [
+        {
+          "id": "hundreds",
+          "title_vi": "Hàng trăm 百 (ひゃく)",
+          "intro_vi": [
+            "100 đọc ひゃく, không đọc いちひゃく.",
+            "Biến âm: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく. Hỏi 'mấy trăm': 何百 なんびゃく (biến âm như 3)."
+          ],
+          "items": [
+            {
+              "display": "100",
+              "kanji": "百",
+              "kana": "ひゃく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "200",
+              "kanji": "二百",
+              "kana": "にひゃく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "300",
+              "kanji": "三百",
+              "kana": "さんびゃく",
+              "alt": [],
+              "irregular": true,
+              "note": "ひゃく → びゃく"
+            },
+            {
+              "display": "400",
+              "kanji": "四百",
+              "kana": "よんひゃく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "500",
+              "kanji": "五百",
+              "kana": "ごひゃく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "600",
+              "kanji": "六百",
+              "kana": "ろっぴゃく",
+              "alt": [],
+              "irregular": true,
+              "note": "ろく + ひゃく → ろっぴゃく"
+            },
+            {
+              "display": "700",
+              "kanji": "七百",
+              "kana": "ななひゃく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "800",
+              "kanji": "八百",
+              "kana": "はっぴゃく",
+              "alt": [],
+              "irregular": true,
+              "note": "はち + ひゃく → はっぴゃく"
+            },
+            {
+              "display": "900",
+              "kanji": "九百",
+              "kana": "きゅうひゃく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "105",
+              "kanji": "百五",
+              "kana": "ひゃくご",
+              "alt": [],
+              "irregular": false,
+              "note": "Hàng chục bằng 0 thì bỏ qua, không đọc 'linh' như tiếng Việt."
+            },
+            {
+              "display": "999",
+              "kanji": "九百九十九",
+              "kana": "きゅうひゃくきゅうじゅうきゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        },
+        {
+          "id": "thousands",
+          "title_vi": "Hàng nghìn 千 (せん)",
+          "intro_vi": [
+            "1.000 đọc せん. いっせん chỉ dùng khi cần nói rõ 'một nghìn' trong số lớn, vd 1000万 いっせんまん.",
+            "Biến âm: 3000 さんぜん, 8000 はっせん. Hỏi 'mấy nghìn': 何千 なんぜん."
+          ],
+          "items": [
+            {
+              "display": "1,000",
+              "kanji": "千",
+              "kana": "せん",
+              "alt": [
+                "いっせん"
+              ],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "2,000",
+              "kanji": "二千",
+              "kana": "にせん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "3,000",
+              "kanji": "三千",
+              "kana": "さんぜん",
+              "alt": [],
+              "irregular": true,
+              "note": "せん → ぜん"
+            },
+            {
+              "display": "4,000",
+              "kanji": "四千",
+              "kana": "よんせん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "5,000",
+              "kanji": "五千",
+              "kana": "ごせん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "6,000",
+              "kanji": "六千",
+              "kana": "ろくせん",
+              "alt": [],
+              "irregular": false,
+              "note": "Không biến âm (khác 600 ろっぴゃく)."
+            },
+            {
+              "display": "7,000",
+              "kanji": "七千",
+              "kana": "ななせん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "8,000",
+              "kanji": "八千",
+              "kana": "はっせん",
+              "alt": [],
+              "irregular": true,
+              "note": "はち + せん → はっせん"
+            },
+            {
+              "display": "9,000",
+              "kanji": "九千",
+              "kana": "きゅうせん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "2,026",
+              "kanji": "二千二十六",
+              "kana": "にせんにじゅうろく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "3,800",
+              "kanji": "三千八百",
+              "kana": "さんぜんはっぴゃく",
+              "alt": [],
+              "irregular": false,
+              "note": "Hai lần biến âm trong một số."
+            }
+          ]
+        }
+      ],
+      "examples": [
+        "num-e01",
+        "num-e02",
+        "num-e03",
+        "num-e06",
+        "num-e12",
+        "num-e13"
+      ]
+    },
+    {
+      "id": "large",
+      "label": "Vạn · ức",
+      "sections": [
+        {
+          "id": "large",
+          "title_vi": "Hàng vạn 万 (まん) và 億 (おく)",
+          "intro_vi": [
+            "Tiếng Việt nhóm số theo 3 chữ số (nghìn, triệu, tỷ) - tiếng Nhật nhóm theo 4 chữ số: 万 = 10.000, 億 = 100.000.000.",
+            "万 và 億 bắt buộc có いち: いちまん, いちおく (khác 十, 百, 千 không đọc いち)."
+          ],
+          "items": [
+            {
+              "display": "10,000",
+              "kanji": "一万",
+              "kana": "いちまん",
+              "alt": [],
+              "irregular": true,
+              "note": "Phải có いち: いちまん, không nói まん."
+            },
+            {
+              "display": "30,000",
+              "kanji": "三万",
+              "kana": "さんまん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "100,000",
+              "kanji": "十万",
+              "kana": "じゅうまん",
+              "alt": [],
+              "irregular": false,
+              "note": "100 nghìn = 10 vạn."
+            },
+            {
+              "display": "1,000,000",
+              "kanji": "百万",
+              "kana": "ひゃくまん",
+              "alt": [],
+              "irregular": false,
+              "note": "1 triệu = 100 vạn."
+            },
+            {
+              "display": "10,000,000",
+              "kanji": "千万",
+              "kana": "せんまん",
+              "alt": [
+                "いっせんまん"
+              ],
+              "irregular": false,
+              "note": "10 triệu = 1000 vạn - thường nói いっせんまん."
+            },
+            {
+              "display": "100,000,000",
+              "kanji": "一億",
+              "kana": "いちおく",
+              "alt": [],
+              "irregular": true,
+              "note": "100 triệu. Phải có いち."
+            },
+            {
+              "display": "1,000,000,000",
+              "kanji": "十億",
+              "kana": "じゅうおく",
+              "alt": [],
+              "irregular": false,
+              "note": "1 tỷ = 10 億."
+            },
+            {
+              "display": "12,345",
+              "kanji": "一万二千三百四十五",
+              "kana": "いちまんにせんさんびゃくよんじゅうご",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "250,000",
+              "kanji": "二十五万",
+              "kana": "にじゅうごまん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        },
+        {
+          "id": "big",
+          "title_vi": "Cách đọc số lớn",
+          "intro_vi": [
+            "Tách số theo nhóm 4 chữ số từ phải sang, mỗi nhóm gắn 万 hoặc 億: 12,345,678 → 1234万 5678.",
+            "Đổi nhanh: 10 nghìn = 1万 · 100 nghìn = 10万 · 1 triệu = 100万 · 10 triệu = 1000万 · 100 triệu = 1億 · 1 tỷ = 10億.",
+            "Chữ số 0 ở giữa không đọc: 105 = ひゃくご, 10,050 = いちまんごじゅう."
+          ],
+          "items": [
+            {
+              "display": "10,050",
+              "kanji": "一万五十",
+              "kana": "いちまんごじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "123,456",
+              "kanji": "十二万三千四百五十六",
+              "kana": "じゅうにまんさんぜんよんひゃくごじゅうろく",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "12,345,678",
+              "kanji": "千二百三十四万五千六百七十八",
+              "kana": "せんにひゃくさんじゅうよんまんごせんろっぴゃくななじゅうはち",
+              "alt": [],
+              "irregular": false,
+              "note": "1234万 + 5678"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        "num-e04",
+        "num-e05",
+        "num-e07",
+        "num-e08",
+        "num-e10",
+        "num-e11"
+      ]
+    },
+    {
+      "id": "fraction",
+      "label": "Thập phân · %",
+      "sections": [
+        {
+          "id": "decimal",
+          "title_vi": "Số thập phân",
+          "intro_vi": [
+            "Dấu chấm đọc là 点 (てん). Phần trước dấu chấm đọc như số thường, phần sau đọc từng chữ số.",
+            "Người Nhật dùng dấu chấm cho phần thập phân (2.5) và dấu phẩy để nhóm hàng nghìn (2,500), ngược với tiếng Việt.",
+            "Trước てん, số 1, 8, 10 thường ngắt: いってん, はってん, じゅってん."
+          ],
+          "items": [
+            {
+              "display": "0.5",
+              "kanji": "〇・五",
+              "kana": "れいてんご",
+              "alt": [
+                "ゼロてんご"
+              ],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "1.5",
+              "kanji": "一・五",
+              "kana": "いってんご",
+              "alt": [
+                "いちてんご"
+              ],
+              "irregular": true,
+              "note": null
+            },
+            {
+              "display": "2.5",
+              "kanji": "二・五",
+              "kana": "にてんご",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "3.14",
+              "kanji": "三・一四",
+              "kana": "さんてんいちよん",
+              "alt": [],
+              "irregular": false,
+              "note": "Chữ số sau dấu chấm đọc rời: いち・よん, không đọc じゅうよん."
+            },
+            {
+              "display": "8.2",
+              "kanji": "八・二",
+              "kana": "はってんに",
+              "alt": [
+                "はちてんに"
+              ],
+              "irregular": true,
+              "note": null
+            },
+            {
+              "display": "10.5",
+              "kanji": "十・五",
+              "kana": "じゅってんご",
+              "alt": [
+                "じってんご"
+              ],
+              "irregular": true,
+              "note": null
+            },
+            {
+              "display": "0.01",
+              "kanji": "〇・〇一",
+              "kana": "れいてんれいいち",
+              "alt": [
+                "ゼロてんゼロいち"
+              ],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        },
+        {
+          "id": "fraction",
+          "title_vi": "Phân số",
+          "intro_vi": [
+            "Đọc mẫu số trước, tử số sau: [mẫu] + 分の + [tử]. 3/4 viết là 4分の3, đọc よんぶんのさん.",
+            "分 trong phân số luôn đọc ぶん, không biến âm như ～分 (phút)."
+          ],
+          "items": [
+            {
+              "display": "1/2",
+              "kanji": "2分の1",
+              "kana": "にぶんのいち",
+              "alt": [],
+              "irregular": false,
+              "note": "Một nửa — hay nói 半分 (はんぶん)."
+            },
+            {
+              "display": "1/3",
+              "kanji": "3分の1",
+              "kana": "さんぶんのいち",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "2/3",
+              "kanji": "3分の2",
+              "kana": "さんぶんのに",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "3/4",
+              "kanji": "4分の3",
+              "kana": "よんぶんのさん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "1/10",
+              "kanji": "10分の1",
+              "kana": "じゅうぶんのいち",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        },
+        {
+          "id": "percent",
+          "title_vi": "Phần trăm",
+          "intro_vi": [
+            "% đọc là パーセント. Trước パ, số 1, 8, 10, 100 thường ngắt っ.",
+            "Cách nói khác hay gặp: 割 (わり) = 10%: 3割 さんわり = 30%, 半額 はんがく = giảm nửa giá."
+          ],
+          "items": [
+            {
+              "display": "1%",
+              "kanji": "1%",
+              "kana": "いちパーセント",
+              "alt": [
+                "いっパーセント"
+              ],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "5%",
+              "kanji": "5%",
+              "kana": "ごパーセント",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "10%",
+              "kanji": "10%",
+              "kana": "じゅっパーセント",
+              "alt": [
+                "じっパーセント"
+              ],
+              "irregular": true,
+              "note": null
+            },
+            {
+              "display": "50%",
+              "kanji": "50%",
+              "kana": "ごじゅっパーセント",
+              "alt": [
+                "ごじっパーセント"
+              ],
+              "irregular": true,
+              "note": null
+            },
+            {
+              "display": "100%",
+              "kanji": "100%",
+              "kana": "ひゃくパーセント",
+              "alt": [
+                "ひゃっパーセント"
+              ],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "0.5%",
+              "kanji": "0.5%",
+              "kana": "れいてんごパーセント",
+              "alt": [
+                "ゼロてんごパーセント"
+              ],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        "num-e09",
+        "num-e16",
+        "num-e17",
+        "num-e18",
+        "num-e19",
+        "num-e20"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Số khác",
+      "sections": [
+        {
+          "id": "negative",
+          "title_vi": "Số âm",
+          "intro_vi": [
+            "Đọc マイナス + số. Nhiệt độ âm còn nói 零下 (れいか): 零下3度 = âm 3 độ."
+          ],
+          "items": [
+            {
+              "display": "-3",
+              "kanji": "マイナス3",
+              "kana": "マイナスさん",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "-10",
+              "kanji": "マイナス10",
+              "kana": "マイナスじゅう",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "-2.5",
+              "kanji": "マイナス2.5",
+              "kana": "マイナスにてんご",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        },
+        {
+          "id": "ordinal",
+          "title_vi": "Số thứ tự",
+          "intro_vi": [
+            "Thêm 目 (め) sau số + trợ số từ: 2つ目 = cái thứ hai, 3人目 = người thứ ba, 2番目 = thứ hai.",
+            "Hoặc đặt 第 (だい) trước số: 第1 = thứ nhất (văn viết, tên chương, kỳ)."
+          ],
+          "items": [
+            {
+              "display": "1番目",
+              "kanji": "1番目",
+              "kana": "いちばんめ",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "2つ目",
+              "kanji": "2つ目",
+              "kana": "ふたつめ",
+              "alt": [],
+              "irregular": false,
+              "note": "Theo cách đọc của ～つ."
+            },
+            {
+              "display": "3人目",
+              "kanji": "3人目",
+              "kana": "さんにんめ",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "第1",
+              "kanji": "第1",
+              "kana": "だいいち",
+              "alt": [],
+              "irregular": false,
+              "note": "第1課 đọc だいいっか (課 biến âm như nhóm k)."
+            }
+          ]
+        },
+        {
+          "id": "digits",
+          "title_vi": "Đọc từng chữ số",
+          "intro_vi": [
+            "Số điện thoại, số tài khoản, mã số đọc rời từng chữ số. Dấu gạch đọc là の.",
+            "Số 2 và 5 thường kéo dài thành にい, ごう cho đủ nhịp - 0 đọc ゼロ (còn gặp まる)."
+          ],
+          "items": [
+            {
+              "display": "090-1234-5678",
+              "kanji": "090-1234-5678",
+              "kana": "ゼロきゅうゼロの いちにいさんよんの ごうろくななはち",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            },
+            {
+              "display": "03-5678-9012",
+              "kanji": "03-5678-9012",
+              "kana": "ゼロさんの ごうろくななはちの きゅうゼロいちにい",
+              "alt": [],
+              "irregular": false,
+              "note": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        "num-e21",
+        "num-e22",
+        "num-e23"
+      ]
+    }
+  ]
+}

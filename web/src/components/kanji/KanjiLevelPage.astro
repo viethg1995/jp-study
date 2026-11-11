@@ -1,0 +1,84 @@
+---
+// Trang Kanji của MỘT cấp (N5 / N4 / N3) — 2 cách xem (công tắc CSS, không JS):
+//   Giáo trình Kanji: theo bài như sách Kanji của cấp đó
+//   Bài từ vựng:      chữ gặp lần đầu ở bài từ vựng (Minna 1–25 / 26–50 / từ vựng N3)
+// Trang (pages/) lấy dữ liệu rồi truyền vào.
+import type { KanjiEntry } from "../../lib/schemas";
+import { groupSize, levelGroups, type KanjiGroup } from "../../lib/kanji";
+import { LEVEL_LABEL, levelTabs, type Level } from "../../lib/levels";
+import Base from "../../layouts/Base.astro";
+import LevelTabs from "../ui/LevelTabs.astro";
+import Segmented from "../ui/Segmented.astro";
+import KanjiTile from "./KanjiTile.astro";
+
+interface Props {
+  level: Level;
+  all: KanjiEntry[];
+  n3VocabLesson: Map<string, number>;
+}
+const { level, all, n3VocabLesson } = Astro.props;
+const { book, vocab } = levelGroups(all, n3VocabLesson, level);
+const views: { cls: string; group: KanjiGroup | null }[] = [
+  { cls: "kview-book", group: book },
+  { cls: "kview-vocab", group: vocab },
+];
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const title = `Kanji ${LEVEL_LABEL[level]}`;
+---
+
+<Base title={title} description={`Danh sách Kanji ${LEVEL_LABEL[level]} theo giáo trình và theo bài từ vựng: âm Hán-Việt, nghĩa tiếng Việt, âm On/Kun, số nét, thứ tự nét viết.`}>
+  <LevelTabs label="Cấp độ" tabs={[...levelTabs(base, "kanji", level), { label: "Bộ thủ", href: `${base}/kanji/bo-thu/`, active: false }]} />
+
+  <h1 class="text-2xl font-bold">{title}</h1>
+
+  <div class="mt-4 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
+    <Segmented
+      name="kview"
+      label="Xem theo"
+      checked="kview-book"
+      options={[
+        { id: "kview-book", label: "Giáo trình Kanji" },
+        { id: "kview-vocab", label: "Bài từ vựng" },
+      ]}
+    />
+  </div>
+
+  {
+    views.map(({ cls, group: g }) => (
+      <section class={cls}>
+        {g === null ? (
+          <p class="mt-6 text-sm text-ink-muted">Chưa có dữ liệu.</p>
+        ) : (
+          <>
+            <p class="mt-4 text-sm text-ink-muted">
+              {g.subtitle} · {groupSize(g)} chữ
+            </p>
+            {g.lessons.map((l) => (
+              <div id={`${g.id}-${l.lesson}`} class="mt-5 scroll-mt-20">
+                <h2 class="mb-2 text-sm font-semibold text-ink-muted">{l.label}</h2>
+                <ul class="grid grid-cols-[repeat(auto-fill,minmax(4.25rem,1fr))] gap-2">
+                  {l.items.map((k) => (
+                    <li>
+                      <KanjiTile kanji={k} href={`${base}/kanji/${k.char}/?ds=${g.id}.${l.lesson}`} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </>
+        )}
+      </section>
+    ))
+  }
+</Base>
+
+<script>
+  // Quay về từ trang chi tiết bằng neo "#tv-n5-11" (cách xem Bài từ vựng) → bật cách xem đó rồi cuộn tới bài
+  // (nhóm đang bị ẩn nên trình duyệt không tự cuộn được).
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (id.startsWith("tv-")) {
+    const radio = document.getElementById("kview-vocab");
+    if (radio instanceof HTMLInputElement) radio.checked = true;
+    document.getElementById(id)?.scrollIntoView();
+  }
+</script>

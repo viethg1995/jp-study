@@ -1,0 +1,100 @@
+---
+// Đếm số — trang chọn trợ số từ. Số đếm và biến âm là hai trang riêng, chỉ có lối vào ở đầu trang.
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { DISPLAY_GROUPS, counterPath, isChanged, readingOf } from "../../lib/counters";
+
+const counters = (await getCollection("counterItems")).map((c) => c.data).sort((a, b) => a.order - b.order);
+const groups = DISPLAY_GROUPS.map((g) => ({ label: g.label, items: counters.filter((c) => g.cats.includes(c.category)) })).filter(
+  (g) => g.items.length > 0,
+);
+// Bảng nhanh: trợ số từ hay gặp nhất, đủ các kiểu biến âm (thuần Nhật, không đổi, h, k)
+const QUICK = ["c-tsu", "c-nin", "c-mai", "c-hon", "c-ko", "c-kai-times"];
+const quick = QUICK.flatMap((id) => counters.find((c) => c.id === id) ?? []);
+const NUMS = Array.from({ length: 10 }, (_, i) => i + 1);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const entry = "group rounded-lg border border-line bg-surface px-5 py-4 hover:border-primary-line hover:bg-primary-soft";
+---
+
+<Base title="Đếm số" description="Cách đếm trong tiếng Nhật: số đếm, các trợ số từ thông dụng (～個, ～枚, ～本, ～人…), quy tắc biến âm và bài luyện tập.">
+  <div class="mx-auto max-w-4xl">
+    <h1 class="text-2xl font-bold">Đếm số</h1>
+    <p class="mt-1 text-ink-muted">
+      Tiếng Nhật đếm bằng <b class="font-semibold text-ink">số + trợ số từ</b>. Trợ số từ thay đổi theo thứ được đếm.
+    </p>
+
+    <div class="mt-6 grid gap-3 sm:grid-cols-3">
+      <a href={`${base}/dem-so/so-dem/`} class={entry}>
+        <p class="text-xs text-ink-faint">Bước 1</p>
+        <p class="mt-0.5 font-semibold text-ink group-hover:text-primary">Số đếm →</p>
+        <p class="jp mt-1 text-sm text-ink-muted" lang="ja">いち・に・さん … ひゃく・せん・まん</p>
+      </a>
+      <a href={`${base}/dem-so/bien-am/`} class={entry}>
+        <p class="text-xs text-ink-faint">Bước 2</p>
+        <p class="mt-0.5 font-semibold text-ink group-hover:text-primary">Biến âm →</p>
+        <p class="jp mt-1 text-sm text-ink-muted" lang="ja">いっぽん・さんぼん・ろっぽん</p>
+      </a>
+      <a href={`${base}/dem-so/quiz/`} class={entry}>
+        <p class="text-xs text-ink-faint">Bước 3</p>
+        <p class="mt-0.5 font-semibold text-ink group-hover:text-primary">Luyện tập →</p>
+        <p class="mt-1 text-sm text-ink-muted">Chọn cách đọc đúng: <span class="jp" lang="ja">8本</span> là…?</p>
+      </a>
+    </div>
+
+    <h2 class="mt-10 text-lg font-bold">Bảng nhanh 1 – 10</h2>
+    <p class="mt-1 text-sm text-ink-muted">Chữ xanh: biến âm hoặc cách đọc riêng, cần học thuộc.</p>
+    <div class="relative mt-3 overflow-x-auto rounded-lg border border-line bg-surface">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-line">
+            <th class="w-8" />
+            {quick.map((c) => (
+              <th class="px-2 py-2">
+                <a href={`${base}/${counterPath(c)}`} class="jp text-base font-bold text-ink underline decoration-line-strong decoration-dotted underline-offset-4 hover:text-primary hover:decoration-primary" lang="ja">～{c.char}</a>
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {NUMS.map((n) => (
+            <tr class="border-b border-line">
+              <th class="px-2 py-1.5 text-right font-medium text-ink tabular-nums">{n}</th>
+              {quick.map((c) => {
+                const r = readingOf(c, n);
+                return (
+                  <td class:list={["jp px-2 py-1.5 text-center whitespace-nowrap", r && isChanged(c, r) ? "font-semibold text-primary" : "text-ink"]} lang="ja">
+                    {r?.kana ?? ""}
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+          <tr>
+            <th class="px-2 py-1.5 text-right font-medium text-ink-faint">?</th>
+            {quick.map((c) => <td class="jp px-2 py-1.5 text-center whitespace-nowrap text-ink-muted" lang="ja">{c.question.kana}</td>)}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="mt-10 text-lg font-bold">Bạn muốn đếm gì?</h2>
+    {
+      groups.map((g) => (
+        <section class="mt-5" aria-label={g.label}>
+          <h3 class="text-sm text-ink-faint">{g.label}</h3>
+          <div class="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
+            {g.items.map((c) => (
+              <a href={`${base}/${counterPath(c)}`} class="group rounded-lg border border-line bg-surface px-4 py-3 hover:border-primary-line hover:bg-primary-soft">
+                <p class="flex items-baseline gap-2">
+                  <span class="jp text-2xl font-bold text-ink group-hover:text-primary" lang="ja">{c.char}</span>
+                  <span class="jp text-sm text-ink-faint" lang="ja">{c.kana}</span>
+                </p>
+                <p class="mt-0.5 text-sm text-ink-muted">{c.name_vi}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+</Base>

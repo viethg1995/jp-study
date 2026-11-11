@@ -1,0 +1,110 @@
+---
+// Số đếm — 5 tab (0–99 · trăm/nghìn · vạn/ức · thập phân/% · số khác). Mỗi tab: các bảng + câu ví dụ của tab.
+// Tab bằng radio + CSS :has(), không cần JS.
+import { getEntry } from "astro:content";
+import ExampleList from "../../components/counters/ExampleList.astro";
+import Segmented from "../../components/ui/Segmented.astro";
+import type { NumberSection } from "../../content.config";
+import Base from "../../layouts/Base.astro";
+
+const numbers = (await getEntry("numbers", "numbers"))?.data;
+if (!numbers) throw new Error("thiếu numbers trong data/counters.json");
+const tabs = numbers.tabs;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+// Số ngắn (0–9.000, thập phân, %) → lưới ô gọn; số dài (12,345,678, số điện thoại) → bảng
+const compact = (s: NumberSection): boolean => s.items.every((it) => it.kana.length <= 9 && it.display.length <= 6);
+// Lưới gọn: cách đọc > 6 kana (きゅうじゅうきゅう) bị xuống dòng trong ô 3 cột trên mobile → 2 cột
+const gridCols = (s: NumberSection): string => (s.items.some((it) => it.kana.length > 6) ? "grid-cols-2" : "grid-cols-3");
+const panelCss = tabs
+  .map((t) => `body:has(#nt-${t.id}:checked) .nt-panel-${t.id} { display: flex; }`)
+  .join("\n");
+---
+
+<Base title="Số đếm" description="Số đếm tiếng Nhật: cách đọc số từ 1 đến hàng vạn, hàng ức, số đếm thuần Nhật ひとつ、ふたつ…">
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/dem-so/`} class={navLink}>← Đếm số</a>
+  </nav>
+
+  <div class="mx-auto max-w-3xl">
+    <h1 class="text-2xl font-bold">Số đếm</h1>
+    {numbers.intro_vi.map((p) => <p class="mt-1 text-ink-muted">{p}</p>)}
+
+    <div class="mt-5 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
+      <Segmented name="ntab" label="Phần" checked={`nt-${tabs[0]?.id}`} options={tabs.map((t) => ({ id: `nt-${t.id}`, label: t.label }))} wrap />
+    </div>
+
+    {
+      tabs.map((t) => (
+        <div class={`nt-panel nt-panel-${t.id} mt-6 flex-col gap-10`}>
+          {t.sections.map((s) => (
+            <section aria-labelledby={`sec-${s.id}`}>
+              <h2 id={`sec-${s.id}`} class="text-lg font-bold">{s.title_vi}</h2>
+              {s.intro_vi.length > 0 && (
+                <ul class="mt-1.5 flex flex-col gap-1 text-[15px] leading-relaxed text-ink-muted">
+                  {s.intro_vi.map((p) => <li>{p}</li>)}
+                </ul>
+              )}
+              {compact(s) ? (
+                <>
+                  <div class={`mt-3 grid ${gridCols(s)} gap-2 sm:grid-cols-5`}>
+                    {s.items.map((it) => (
+                      <div class="rounded-lg border border-line bg-surface px-2 py-2.5 text-center">
+                        <p class="text-lg font-bold text-ink tabular-nums">{it.display}</p>
+                        <p class:list={["jp text-sm", it.irregular ? "font-semibold text-primary" : "text-ink"]} lang="ja">{it.kana}</p>
+                        {it.alt.length > 0 && <p class="jp text-xs text-ink-faint" lang="ja">{it.alt.join(" / ")}</p>}
+                      </div>
+                    ))}
+                  </div>
+                  {s.items.some((it) => it.note) && (
+                    <ul class="mt-3 flex flex-col gap-1.5 text-sm leading-relaxed text-ink-muted">
+                      {s.items.filter((it) => it.note).map((it) => (
+                        <li><b class="font-semibold text-ink">{it.display}</b> — {it.note}</li>
+                      ))}
+                    </ul>
+                  )}
+                </>
+              ) : (
+                <div class="mt-3 overflow-hidden rounded-lg border border-line bg-surface">
+                  <table class="w-full text-sm">
+                    <tbody>
+                      {s.items.map((it) => (
+                        <tr class="border-b border-line align-top last:border-b-0">
+                          <td class="w-32 px-4 py-2 text-right font-semibold whitespace-nowrap text-ink tabular-nums">{it.display}</td>
+                          <td class="px-2 py-2">
+                            <span class:list={["jp text-base", it.irregular ? "font-semibold text-primary" : "text-ink"]} lang="ja">{it.kana}</span>
+                            {it.alt.length > 0 && <span class="jp ml-2 text-xs text-ink-faint" lang="ja">({it.alt.join(", ")})</span>}
+                            {it.note && <p class="mt-0.5 text-sm text-ink-muted">{it.note}</p>}
+                          </td>
+                          <td class="jp hidden px-4 py-2 text-right text-ink-faint sm:table-cell" lang="ja">
+                            {it.kanji !== it.display ? it.kanji : ""}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </section>
+          ))}
+
+          {t.examples.length > 0 && (
+            <section aria-label="Ví dụ">
+              <h2 class="text-lg font-bold">Ví dụ</h2>
+              <div class="mt-3"><ExampleList examples={t.examples} /></div>
+            </section>
+          )}
+        </div>
+      ))
+    }
+
+    <p class="mt-8 text-sm text-ink-faint">Chữ xanh: biến âm hoặc cách đọc cần học thuộc. Trong ngoặc: cách đọc khác cũng đúng.</p>
+  </div>
+</Base>
+
+<style is:global>
+  .nt-panel {
+    display: none;
+  }
+</style>
+<style is:inline set:html={panelCss}></style>

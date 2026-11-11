@@ -71,7 +71,7 @@ export const vocabLesson = z.object({
 });
 
 // ---------------------------------------------------------------- Kanji & bộ thủ (KanjiFile / RadicalFile)
-export const KANJI_SCHEMA_VERSION = 7; // v7: story (mẹo nhớ), components (thành phần KanjiVG)
+export const KANJI_SCHEMA_VERSION = 8; // v8: n3_lessons; v7: story (mẹo nhớ), components (thành phần KanjiVG)
 
 export const kanjiExample = z.object({
   word: z.string().min(1),
@@ -83,6 +83,11 @@ export const kanjiExample = z.object({
   meaning_en: z.string().nullable(),
   vocab_id: z.string().regex(/^(mn-\d{2}-\d{3}|n3-\d{3})$/).nullable(),
   source: z.enum(["vocab", "jmdict"]),
+});
+
+export const kanjiLessonRef = z.object({
+  lesson: z.number().int().min(1).max(50),
+  order: z.number().int().min(1).max(20),
 });
 
 export const kanjiEntry = z.object({
@@ -105,6 +110,7 @@ export const kanjiEntry = z.object({
   n5_lesson: z.number().int().min(1).max(50).nullable().default(null),
   n4_order: z.number().int().min(1).max(20).nullable().default(null),
   n5_order: z.number().int().min(1).max(20).nullable().default(null),
+  n3_lessons: z.array(kanjiLessonRef).default([]),
   vocab_refs: z.array(z.string().regex(/^(mn-\d{2}-\d{3}|n3-\d{3})$/)),
   examples: z.array(kanjiExample).default([]),
   story: z.string().nullable().default(null),
@@ -223,3 +229,95 @@ export type KanjiStroke = z.infer<typeof kanjiStroke>;
 export type KanjiStrokes = z.infer<typeof kanjiStrokes>;
 export type KanjiExample = z.infer<typeof kanjiExample>;
 export type KanjiComponent = z.infer<typeof kanjiComponent>;
+
+// Số đếm & trợ số từ — data/counters.json (bảng cách đọc ghi cứng ở pipeline/enrichment/counters/)
+export const COUNTER_SCHEMA_VERSION = 2; // v2: số đếm chia tab, display chuỗi
+export const soundGroup = z.enum(["h", "k", "s", "t", "none", "native", "special"]);
+export const counterCategory = z.enum([
+  "general", "people", "animals", "objects", "place", "time", "date", "frequency", "money", "age", "order",
+]);
+export const counterReading = z.object({
+  n: z.number().int().min(1),
+  kana: z.string(),
+  alt: z.array(z.string()),
+  irregular: z.boolean(),
+  note: z.string().nullable(),
+});
+export const counterQuestion = z.object({
+  kana: z.string(),
+  alt: z.array(z.string()),
+  note: z.string().nullable(),
+});
+export const counterExample = z.object({
+  id: z.string(),
+  ruby: z.string(),
+  vi: z.string(),
+  source: z.enum(["ai-draft", "user"]),
+  review: reviewStatus,
+});
+export const numberReading = z.object({
+  display: z.string(),
+  kanji: z.string(),
+  kana: z.string(),
+  alt: z.array(z.string()),
+  irregular: z.boolean(),
+  note: z.string().nullable(),
+});
+export const numberSection = z.object({
+  id: z.string(),
+  title_vi: z.string(),
+  intro_vi: z.array(z.string()),
+  items: z.array(numberReading),
+});
+export const numberTab = z.object({
+  id: z.string(),
+  label: z.string(),
+  sections: z.array(numberSection),
+  examples: z.array(counterExample),
+});
+export const numberSystem = z.object({
+  intro_vi: z.array(z.string()),
+  tabs: z.array(numberTab),
+});
+export const soundRule = z.object({
+  group: soundGroup,
+  name_vi: z.string(),
+  summary_vi: z.string(),
+  rule_vi: z.array(z.string()),
+  counters: z.array(z.string()),
+});
+export const counter = z.object({
+  id: z.string().regex(/^c-[a-z0-9]+(-[a-z0-9]+)*$/),
+  char: z.string(),
+  kana: z.string(),
+  name_vi: z.string(),
+  use_vi: z.string(),
+  items_vi: z.array(z.string()),
+  category: counterCategory,
+  lesson: z.number().int().min(1).max(50).nullable(),
+  vocab_refs: z.array(z.string()),
+  kanji_refs: z.array(z.string()),
+  sound_group: soundGroup,
+  sound_note_vi: z.string(),
+  readings: z.array(counterReading),
+  question: counterQuestion,
+  large_vi: z.array(z.string()),
+  notes_vi: z.array(z.string()),
+  examples: z.array(counterExample).min(10),
+});
+export const counterFile = z.object({
+  schema_version: z.literal(COUNTER_SCHEMA_VERSION),
+  numbers: numberSystem,
+  sound_rules: z.array(soundRule),
+  counters: z.array(counter),
+});
+
+export type SoundGroup = z.infer<typeof soundGroup>;
+export type CounterReading = z.infer<typeof counterReading>;
+export type CounterExample = z.infer<typeof counterExample>;
+export type NumberSection = z.infer<typeof numberSection>;
+export type NumberTab = z.infer<typeof numberTab>;
+export type NumberSystem = z.infer<typeof numberSystem>;
+export type SoundRule = z.infer<typeof soundRule>;
+export type Counter = z.infer<typeof counter>;
+export type CounterFile = z.infer<typeof counterFile>;

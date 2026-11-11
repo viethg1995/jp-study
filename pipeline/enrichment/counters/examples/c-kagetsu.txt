@@ -1,0 +1,11 @@
+# か月 — Số tháng
+c-kagetsu-e01|{日本|にほん}に[[{1か月|いっかげつ}]]いました。|Tôi đã ở Nhật một tháng.
+c-kagetsu-e02|{日本語|にほんご}を[[{何か月|なんかげつ}]]{勉強|べんきょう}しましたか。|Bạn đã học tiếng Nhật mấy tháng?
+c-kagetsu-e03|[[{3か月|さんかげつ}]]{前|まえ}に{引|ひ}っ{越|こ}しました。|Tôi đã chuyển nhà ba tháng trước.
+c-kagetsu-e04|{東京|とうきょう}に[[{6か月|ろっかげつ}]]{住|す}んでいました。|Tôi đã sống ở Tokyo sáu tháng.
+c-kagetsu-e05|[[{8か月|はっかげつ}]]{働|はたら}きました。|Tôi đã làm việc tám tháng.
+c-kagetsu-e06|[[{10か月|じゅっかげつ}]]で{日本語|にほんご}が{上手|じょうず}になりました。|Sau mười tháng tiếng Nhật của tôi đã giỏi lên.
+c-kagetsu-e07|[[{2か月|にかげつ}]]に{1回|いっかい}{国|くに}へ{電話|でんわ}します。|Hai tháng tôi gọi điện về nước một lần.
+c-kagetsu-e08|{赤|あか}ちゃんは[[{4か月|よんかげつ}]]です。|Em bé được bốn tháng.
+c-kagetsu-e09|この{仕事|しごと}は[[{18か月|じゅうはっかげつ}]]かかります。|Công việc này mất mười tám tháng.
+c-kagetsu-e10|[[{11か月|じゅういっかげつ}]]{前|まえ}に{日本|にほん}へ{来|き}ました。|Tôi đến Nhật mười một tháng trước.

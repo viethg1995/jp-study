@@ -450,10 +450,13 @@
         "vi": "Tôi đã mua 3 quả táo."
       }
     ],
+    "kana": "～こ",
     "pos_code": "Cnt",
     "pos_source": "user",
     "review": {
       "by": "user",
+      "kana_by": "ai",
+      "kana_note": "nguồn ghi ～ご; 個 đếm vật đọc こ (いっこ, にこ…), câu ví dụ đã duyệt cũng đọc こ",
       "pos_by": "user",
       "pos_note": "～個 cái, viên",
       "status": "reviewed"

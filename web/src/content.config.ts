@@ -4,17 +4,22 @@ import { file, glob } from "astro/loaders";
 import { z } from "astro/zod";
 import {
   CONJ_SCHEMA_VERSION,
+  COUNTER_SCHEMA_VERSION,
   KANJI_SCHEMA_VERSION,
   conjEntry,
   conjFormDef,
   conjGroupDef,
+  counter,
   kanjiEntry,
   kanjiStrokes,
+  numberSystem,
   radical,
+  soundRule,
   vocabLesson,
 } from "./lib/schemas.ts";
 
 export { POS_CODES, SCHEMA_VERSION, KANJI_SCHEMA_VERSION } from "./lib/schemas.ts";
+export type { Counter, CounterExample, CounterReading, NumberSection, NumberSystem, NumberTab, SoundGroup, SoundRule } from "./lib/schemas.ts";
 export type { ConjEntry, ConjFormDef, ConjGroup, ConjGroupDef, ConjKind, ConjValue } from "./lib/schemas.ts";
 export type { VocabEntry, VocabExample, VocabSense, KanjiComponent, KanjiEntry, KanjiExample, KanjiStroke, KanjiStrokes, Radical } from "./lib/schemas.ts";
 
@@ -80,4 +85,32 @@ const conjEntries = defineCollection({
   schema: conjEntry.extend({ order: z.number().int() }),
 });
 
-export const collections = { vocabulary, vocabularyN3, kanji, radicals, strokes, conjGroups, conjForms, conjEntries };
+// Số đếm & trợ số từ — 1 file, tách 3 collection: số đếm (1 mục "numbers"), quy tắc biến âm (khóa group), trợ số từ (khóa id)
+function counters(key: "numbers" | "sound_rules" | "counters") {
+  return (text: string): Record<string, Record<string, unknown>> => {
+    const doc = JSON.parse(text) as { schema_version: number } & Record<string, unknown>;
+    if (doc.schema_version !== COUNTER_SCHEMA_VERSION) {
+      throw new Error(`counters: schema_version ${doc.schema_version} ≠ ${COUNTER_SCHEMA_VERSION}`);
+    }
+    if (key === "numbers") return { numbers: doc.numbers as Record<string, unknown> };
+    const items = (doc[key] ?? []) as Record<string, unknown>[];
+    const id = (x: Record<string, unknown>): string => String(key === "sound_rules" ? x.group : x.id);
+    return Object.fromEntries(items.map((x, i) => [id(x), { ...x, order: i }]));
+  };
+}
+const numbers = defineCollection({
+  loader: file("../data/counters.json", { parser: counters("numbers") }),
+  schema: numberSystem,
+});
+const soundRules = defineCollection({
+  loader: file("../data/counters.json", { parser: counters("sound_rules") }),
+  schema: soundRule.extend({ order: z.number().int() }),
+});
+const counterItems = defineCollection({
+  loader: file("../data/counters.json", { parser: counters("counters") }),
+  schema: counter.extend({ order: z.number().int() }),
+});
+
+export const collections = {
+  vocabulary, vocabularyN3, kanji, radicals, strokes, conjGroups, conjForms, conjEntries, numbers, soundRules, counterItems,
+};

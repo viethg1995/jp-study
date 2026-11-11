@@ -6,6 +6,7 @@ import { getCollection } from "astro:content";
 import FormDetail from "../../../../components/conjugation/FormDetail.astro";
 import type { ConjEntry, ConjFormDef, ConjGroupDef } from "../../../../content.config";
 import Base from "../../../../layouts/Base.astro";
+import { clip } from "../../../../lib/seo";
 import { GROUP_SLUG, LIST_GROUPS, byLesson, formPath } from "../../../../lib/conjugation";
 
 export const getStaticPaths = (async () => {
@@ -39,7 +40,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
 ---
 
-<Base title={`${f.name_vi} · ${group.name_vi}`}>
+<Base title={`${f.name_vi} · ${group.name_vi}`} description={clip(`${f.name_vi} (${f.name_ja}) — ${group.name_vi.toLowerCase()}: ${f.use_vi} Quy tắc chia từng nhóm và ví dụ.`)}>
   <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
     {prev && <a href={`${base}/${formPath(prev)}`} class={navLink}>← {prev.name_vi}</a>}
     {next && <a href={`${base}/${formPath(next)}`} class={navLink}>{next.name_vi} →</a>}

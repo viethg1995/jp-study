@@ -1,0 +1,39 @@
+---
+// Trang danh sách bài từ vựng của MỘT cấp (N5 / N4 / N3). Trang (pages/) lấy dữ liệu rồi truyền vào.
+import Base from "../../layouts/Base.astro";
+import LevelTabs from "../ui/LevelTabs.astro";
+import { LEVEL_LABEL, levelTabs, type Level } from "../../lib/levels";
+
+interface Props {
+  level: Level;
+  subtitle: string;
+  route: string; // đường dẫn bài, vd "vocabulary" hoặc "vocabulary/n3" (không có "/" đầu/cuối)
+  lessons: { lesson: number; count: number }[];
+}
+const { level, subtitle, route, lessons } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const total = lessons.reduce((n, l) => n + l.count, 0);
+---
+
+<Base title={`Từ vựng ${LEVEL_LABEL[level]}`} description={`Từ vựng tiếng Nhật ${LEVEL_LABEL[level]} (${subtitle}): ${lessons.length} bài, ${total} từ có nghĩa tiếng Việt, âm Hán-Việt, furigana và câu ví dụ.`}>
+  <LevelTabs label="Cấp độ" tabs={levelTabs(base, "vocabulary", level)} />
+
+  <h1 class="text-2xl font-bold">Từ vựng {LEVEL_LABEL[level]}</h1>
+  <p class="mt-1 text-sm text-ink-muted">{subtitle} · {lessons.length} bài · {total} từ</p>
+
+  <ul class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+    {
+      lessons.map((l) => (
+        <li>
+          <a
+            href={`${base}/${route}/${l.lesson}/`}
+            class="flex items-baseline justify-between rounded-lg border border-line bg-surface p-3 transition hover:border-primary"
+          >
+            <span class="font-semibold">Bài {l.lesson}</span>
+            <span class="text-xs text-ink-faint">{l.count} từ</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

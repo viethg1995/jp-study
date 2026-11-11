@@ -1,0 +1,59 @@
+---
+// Bảng cách đọc một trợ số từ: viết (10,000本) · cách đọc (ô biến âm tô xanh, bất quy tắc có ★) · cách đọc khác.
+import type { Counter } from "../../content.config";
+import { formatNumberJa, isChanged } from "../../lib/counters";
+
+interface Props {
+  c: Counter;
+}
+const { c } = Astro.props;
+const basic = c.readings.filter((r) => r.n <= 10);
+const large = c.readings.filter((r) => r.n > 10);
+const groups = [
+  { title: "1 – 10", rows: basic },
+  { title: "Từ 11 trở lên", rows: large },
+].filter((g) => g.rows.length > 0);
+---
+
+<div class="grid gap-4 sm:grid-cols-2">
+  {
+    groups.map((g) => (
+      <div class="overflow-hidden rounded-lg border border-line bg-surface">
+        <p class="border-b border-line px-4 py-2 text-xs font-semibold tracking-wide text-ink-faint uppercase">{g.title}</p>
+        <table class="w-full text-sm">
+          <tbody>
+            {g.rows.map((r) => {
+              const changed = isChanged(c, r);
+              return (
+                <tr class="border-b border-line last:border-b-0">
+                  <td class="jp w-28 py-2 pr-2 pl-4 whitespace-nowrap text-ink-muted tabular-nums" lang="ja">
+                    {formatNumberJa(r.n)}{c.char}
+                  </td>
+                  <td class="py-2 pr-4 pl-2">
+                    <span class:list={["jp text-base", changed ? "font-semibold text-primary" : "text-ink"]} lang="ja">
+                      {r.kana}
+                    </span>
+                    {r.irregular && (
+                      <span class="ml-1 text-primary" title="Bất quy tắc — học thuộc">
+                        ★
+                      </span>
+                    )}
+                    {r.alt.length > 0 && (
+                      <span class="jp ml-2 text-xs text-ink-faint" lang="ja">
+                        ({r.alt.join(", ")})
+                      </span>
+                    )}
+                    {r.note && <p class="mt-0.5 text-sm text-ink-muted">{r.note}</p>}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    ))
+  }
+</div>
+<p class="mt-2 text-sm text-ink-faint">
+  Chữ xanh: khác với ghép thẳng số + trợ số từ (biến âm) · ★ bất quy tắc, phải học thuộc · trong ngoặc: cách đọc khác cũng đúng.
+</p>

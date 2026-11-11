@@ -8,7 +8,8 @@ import KanjiMnemonic from "../../components/kanji/KanjiMnemonic.astro";
 import StrokeOrder from "../../components/kanji/StrokeOrder.astro";
 import type { KanjiComponent, KanjiEntry, KanjiStroke, Radical, VocabEntry } from "../../content.config";
 import Base from "../../layouts/Base.astro";
-import { kunDisplay } from "../../lib/kanji";
+import { clip } from "../../lib/seo";
+import { kanjiNavs, kunDisplay, n3VocabLessonMap, type KanjiNav, type KanjiNavLink } from "../../lib/kanji";
 
 export const getStaticPaths = (async () => {
   const kanji = (await getCollection("kanji")).map((k) => k.data);
@@ -18,7 +19,8 @@ export const getStaticPaths = (async () => {
   for (const l of [...(await getCollection("vocabulary")), ...(await getCollection("vocabularyN3"))]) {
     for (const e of l.data.entries) vocab.set(e.id, e);
   }
-  return kanji.map((k, i) => ({
+  const navs = kanjiNavs(kanji, n3VocabLessonMap(kanji, (await getCollection("vocabularyN3")).map((l) => l.data)));
+  return kanji.map((k) => ({
     params: { char: k.char },
     props: {
       k,
@@ -26,8 +28,7 @@ export const getStaticPaths = (async () => {
       components: strokes.get(k.char)?.components ?? [],
       radical: k.radical !== null ? (radicals.get(k.radical) ?? null) : null,
       words: k.vocab_refs.map((id) => vocab.get(id)).filter((e): e is VocabEntry => e !== undefined),
-      prev: kanji[i - 1] ?? null,
-      next: kanji[i + 1] ?? null,
+      navs: navs.get(k.char) ?? [],
     },
   }));
 }) satisfies GetStaticPaths;
@@ -38,12 +39,12 @@ interface Props {
   strokes: KanjiStroke[];
   components: KanjiComponent[];
   words: VocabEntry[];
-  prev: KanjiEntry | null;
-  next: KanjiEntry | null;
+  navs: KanjiNav[]; // ngữ cảnh danh sách chứa chữ; [0] mặc định, script chọn theo ?ds=
 }
-const { k, radical, strokes, components, words, prev, next } = Astro.props;
+const { k, radical, strokes, components, words, navs } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const kanjiHref = (c: string): string => `${base}/kanji/${c}/`;
+const nav = navs[0] ?? null;
+const navHref = (l: KanjiNavLink): string => `${base}/kanji/${l.char}/?ds=${l.key}`;
 const wordHref = (e: VocabEntry): string =>
   e.book === "n3" ? `${base}/vocabulary/n3/${e.lesson}/#${e.id}` : `${base}/vocabulary/${e.lesson}/#${e.id}`;
 const byId = new Map(words.map((e) => [e.id, e]));
@@ -59,7 +60,7 @@ const exampleRows: ExampleRow[] = k.examples.map((x) => {
 const lessons = [
   ...(k.n5_lesson !== null ? [`Kanji N5 bài ${k.n5_lesson}`] : []),
   ...(k.n4_lesson !== null ? [`Kanji N4 bài ${k.n4_lesson}`] : []),
-  ...(k.n3_lesson !== null ? [`Kanji N3 bài ${k.n3_lesson}`] : []),
+  ...(k.n3_lessons.length > 0 ? [`Kanji N3 bài ${k.n3_lessons.map((r) => r.lesson).join(", ")}`] : []),
   ...(k.first_lesson !== null ? [`Từ vựng Minna bài ${k.first_lesson}`] : []),
 ];
 const rows: { label: string; value: string; jp?: boolean }[] = [
@@ -69,25 +70,47 @@ const rows: { label: string; value: string; jp?: boolean }[] = [
   ...(lessons.length ? [{ label: "Xuất hiện", value: lessons.join(" · ") }] : []),
 ];
 const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const description = clip(
+  [
+    `Chữ Hán ${k.char}${k.han_viet.length ? ` (${k.han_viet.join(", ")})` : ""}${k.meaning_vi ? `: ${k.meaning_vi}` : ""}.`,
+    k.on.length ? `Âm On ${k.on.join("、")}.` : "",
+    k.kun.length ? `Âm Kun ${k.kun.map(kunDisplay).join("、")}.` : "",
+    k.strokes !== null ? `${k.strokes} nét.` : "",
+    "Từ vựng ví dụ, thứ tự nét viết.",
+  ].join(" "),
+);
 ---
 
-<Base title={`${k.char} ${k.han_viet[0] ?? ""}`.trim()}>
-  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
-    {prev && <a href={kanjiHref(prev.char)} class={navLink}>← <span class="jp">{prev.char}</span></a>}
-    <a href={`${base}/kanji/`} class={navLink}>Danh sách</a>
-    {next && <a href={kanjiHref(next.char)} class={navLink}><span class="jp">{next.char}</span> →</a>}
+<Base title={`${k.char} ${k.han_viet[0] ?? ""} · Kanji`.replace(/ +/g, " ")} description={description}>
+  <!-- Trước/sau theo danh sách đang xem: mặc định navs[0]; script đổi theo ?ds= (link từ trang danh sách) -->
+  <nav
+    slot="header"
+    id="kanji-nav"
+    class="ml-auto flex items-center gap-2 text-sm"
+    data-base={base}
+    data-navs={JSON.stringify(navs)}
+  >
+    <a id="kn-prev" href={nav?.prev ? navHref(nav.prev) : "#"} class={navLink} hidden={!nav?.prev}>
+      ← <span class="jp">{nav?.prev?.char}</span>
+    </a>
+    <a id="kn-list" href={nav ? `${base}/${nav.listHref}` : `${base}/kanji/`} class={navLink} title="Về danh sách">
+      {nav?.label ?? "Danh sách"}
+    </a>
+    <a id="kn-next" href={nav?.next ? navHref(nav.next) : "#"} class={navLink} hidden={!nav?.next}>
+      <span class="jp">{nav?.next?.char}</span> →
+    </a>
   </nav>
 
   <article class="mx-auto max-w-6xl">
     <div class="grid items-start gap-6 lg:grid-cols-[minmax(0,7fr)_minmax(0,6fr)]">
     <div class="flex flex-col gap-6">
     <header class="flex flex-col items-center gap-6 rounded-lg border border-line bg-surface p-6 sm:flex-row sm:items-start">
-      <div
+      <h1
         class="jp flex size-36 shrink-0 items-center justify-center rounded-lg border border-line text-[96px] leading-none text-ink"
         lang="ja"
       >
         {k.char}
-      </div>
+      </h1>
       <div class="w-full text-center sm:text-left">
         <p class="text-2xl font-bold tracking-wider text-ink">{k.han_viet.join(" / ") || "—"}</p>
         {k.meaning_vi && <p class="mt-1 text-lg text-ink">{k.meaning_vi}</p>}
@@ -137,3 +160,34 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
     )}
   </article>
 </Base>
+
+<script>
+  import type { KanjiNav, KanjiNavLink } from "../../lib/kanji";
+
+  // Chọn ngữ cảnh danh sách theo ?ds= (vd "tv-n5.11") rồi thay link trước/sau/danh sách.
+  const el = document.getElementById("kanji-nav");
+  const ds = new URLSearchParams(location.search).get("ds");
+  if (el && ds) {
+    const base = el.dataset.base ?? "";
+    const navs = JSON.parse(el.dataset.navs ?? "[]") as KanjiNav[];
+    const nav = navs.find((n) => n.key === ds);
+    if (nav) {
+      const setLink = (id: string, l: KanjiNavLink | null): void => {
+        const a = document.getElementById(id);
+        if (!(a instanceof HTMLAnchorElement)) return;
+        a.hidden = l === null;
+        if (l === null) return;
+        a.href = `${base}/kanji/${l.char}/?ds=${l.key}`;
+        const c = a.querySelector(".jp");
+        if (c) c.textContent = l.char;
+      };
+      setLink("kn-prev", nav.prev);
+      setLink("kn-next", nav.next);
+      const list = document.getElementById("kn-list");
+      if (list instanceof HTMLAnchorElement) {
+        list.href = `${base}/${nav.listHref}`;
+        list.textContent = nav.label;
+      }
+    }
+  }
+</script>

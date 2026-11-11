@@ -27,9 +27,9 @@ export const NAV: NavItem[] = [
     description: "Từ vựng theo bài: kanji, furigana, âm Hán-Việt, câu ví dụ, flashcard",
     href: "vocabulary/",
     children: [
-      { label: "N5 · Bài 1–25", href: "vocabulary/#n5" },
-      { label: "N4 · Bài 26–50", href: "vocabulary/#n4" },
-      { label: "N3 · Bài 1–14", href: "vocabulary/#n3" },
+      { label: "N5 · Bài 1–25", href: "vocabulary/n5/" },
+      { label: "N4 · Bài 26–50", href: "vocabulary/n4/" },
+      { label: "N3 · Bài 1–14", href: "vocabulary/n3/" },
     ],
   },
   {
@@ -40,9 +40,9 @@ export const NAV: NavItem[] = [
     description: "Chữ Hán trong từ vựng: âm On/Kun, Hán-Việt, bộ thủ, số nét",
     href: "kanji/",
     children: [
-      { label: "N5", href: "kanji/#gt-n5" },
-      { label: "N4", href: "kanji/#gt-n4" },
-      { label: "N3", href: "kanji/#gt-n3" },
+      { label: "N5", href: "kanji/n5/" },
+      { label: "N4", href: "kanji/n4/" },
+      { label: "N3", href: "kanji/n3/" },
       { label: "Bộ thủ", href: "kanji/bo-thu/" },
     ],
   },
@@ -66,7 +66,13 @@ export const NAV: NavItem[] = [
     glyph: "数",
     glyphMeaning: "数 — số",
     description: "Số đếm, trợ số từ (～人, ～枚, ～本…), biến âm và ví dụ",
-    href: null,
+    href: "dem-so/",
+    children: [
+      { label: "Trợ số từ", href: "dem-so/" },
+      { label: "Số đếm", href: "dem-so/so-dem/" },
+      { label: "Biến âm", href: "dem-so/bien-am/" },
+      { label: "Luyện tập", href: "dem-so/quiz/" },
+    ],
   },
   {
     id: "conjunctions",

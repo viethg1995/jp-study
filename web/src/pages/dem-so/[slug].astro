@@ -1,0 +1,126 @@
+---
+// Một trợ số từ: dùng để đếm gì · biến âm · bảng cách đọc (+ số lớn hơn 10) · lưu ý · câu ví dụ.
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import ExampleList from "../../components/counters/ExampleList.astro";
+import ReadingTable from "../../components/counters/ReadingTable.astro";
+import Tag from "../../components/ui/Tag.astro";
+import type { Counter, SoundRule } from "../../content.config";
+import Base from "../../layouts/Base.astro";
+import { clip } from "../../lib/seo";
+import { CATEGORY_LABEL, counterPath, counterSlug } from "../../lib/counters";
+
+export const getStaticPaths = (async () => {
+  const all = (await getCollection("counterItems")).map((c) => c.data).sort((a, b) => a.order - b.order);
+  const rules = (await getCollection("soundRules")).map((r) => r.data);
+  const kanji = new Set((await getCollection("kanji")).map((k) => k.data.id));
+  return all.map((c, i) => ({
+    params: { slug: counterSlug(c) },
+    props: {
+      c,
+      rule: rules.find((r) => r.group === c.sound_group) ?? null,
+      kanji: c.kanji_refs.filter((k) => kanji.has(k)).map((k) => k.slice(2)),
+      prev: all[i - 1] ?? null,
+      next: all[i + 1] ?? null,
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  c: Counter;
+  rule: SoundRule | null;
+  kanji: string[];
+  prev: Counter | null;
+  next: Counter | null;
+}
+const { c, rule, kanji, prev, next } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const vocabHref = (id: string): string => `${base}/vocabulary/${Number(id.slice(3, 5))}/#${id}`;
+---
+
+<Base title={`～${c.char} ${c.name_vi} · Trợ số từ`} description={clip(`Trợ số từ ～${c.char} (${c.kana}): ${c.use_vi} Bảng cách đọc 1–10, biến âm và câu ví dụ.`)}>
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    {prev && <a href={`${base}/${counterPath(prev)}`} class={navLink}>← <span class="jp">～{prev.char}</span></a>}
+    <a href={`${base}/dem-so/`} class={navLink}>Đếm số</a>
+    {next && <a href={`${base}/${counterPath(next)}`} class={navLink}><span class="jp">～{next.char}</span> →</a>}
+  </nav>
+
+  <article class="mx-auto max-w-4xl">
+    <header class="rounded-lg border border-line bg-surface p-6">
+      <h1 class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+        <span class="jp text-4xl font-bold text-ink" lang="ja">～{c.char}</span>
+        <span class="jp text-xl text-ink-muted" lang="ja">{c.kana}</span>
+        <span class="text-xl font-semibold text-ink">{c.name_vi}</span>
+      </h1>
+      <p class="mt-2 flex flex-wrap gap-1.5">
+        <Tag>{CATEGORY_LABEL[c.category]}</Tag>
+        {c.lesson !== null && <Tag tone="primary">Bài {c.lesson}</Tag>}
+      </p>
+      <p class="mt-3 text-lg leading-relaxed text-ink">{c.use_vi}</p>
+      {c.items_vi.length > 0 && <p class="mt-1 text-sm text-ink-muted">Ví dụ: {c.items_vi.join(", ")}.</p>}
+      {
+        (c.vocab_refs.length > 0 || kanji.length > 0) && (
+          <p class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+            {c.vocab_refs.map((id) => (
+              <a href={vocabHref(id)} class="text-primary hover:underline">Từ vựng bài {Number(id.slice(3, 5))} →</a>
+            ))}
+            {kanji.map((k) => (
+              <a href={`${base}/kanji/${k}/`} class="text-primary hover:underline">Kanji <span class="jp" lang="ja">{k}</span> →</a>
+            ))}
+          </p>
+        )
+      }
+    </header>
+
+    <section class="mt-8" aria-labelledby="bien-am">
+      <h2 id="bien-am" class="text-lg font-bold">Biến âm</h2>
+      <div class="mt-3 rounded-lg border border-primary-line bg-primary-soft px-5 py-4 text-sm leading-relaxed text-ink">
+        <p class="font-semibold">{c.sound_note_vi}</p>
+        {
+          rule && (
+            <p class="mt-1.5 text-ink-muted">
+              Nhóm <a href={`${base}/dem-so/bien-am/`} class="text-primary hover:underline">{rule.name_vi} →</a>
+            </p>
+          )
+        }
+      </div>
+    </section>
+
+    <section class="mt-8" aria-labelledby="bang">
+      <h2 id="bang" class="text-lg font-bold">Cách đọc</h2>
+      <div class="mt-3"><ReadingTable c={c} /></div>
+      <p class="mt-3 text-sm text-ink">
+        Hỏi số lượng: <span class="jp font-semibold" lang="ja">{c.question.kana}</span>
+        {c.question.alt.length > 0 && <span class="jp text-ink-faint" lang="ja"> ({c.question.alt.join(", ")})</span>}
+        {c.question.note && <span class="text-ink-muted"> — {c.question.note}</span>}
+      </p>
+      {
+        c.large_vi.length > 0 && (
+          <>
+            <h3 class="mt-5 font-semibold text-ink">Số lớn hơn 10</h3>
+            <ul class="mt-1.5 flex flex-col gap-1.5 text-sm leading-relaxed text-ink">
+              {c.large_vi.map((l) => <li class="flex gap-2"><span class="text-ink-faint">•</span><span>{l}</span></li>)}
+            </ul>
+          </>
+        )
+      }
+    </section>
+
+    {
+      c.notes_vi.length > 0 && (
+        <section class="mt-8" aria-labelledby="luu-y">
+          <h2 id="luu-y" class="text-lg font-bold">Lưu ý</h2>
+          <ul class="mt-2 flex flex-col gap-1.5 text-sm leading-relaxed text-ink">
+            {c.notes_vi.map((l) => <li class="flex gap-2"><span class="text-ink-faint">•</span><span>{l}</span></li>)}
+          </ul>
+        </section>
+      )
+    }
+
+    <section class="mt-8" aria-labelledby="vi-du">
+      <h2 id="vi-du" class="text-lg font-bold">Ví dụ</h2>
+      <div class="mt-3"><ExampleList examples={c.examples} /></div>
+    </section>
+  </article>
+</Base>
