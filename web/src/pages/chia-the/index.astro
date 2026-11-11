@@ -73,7 +73,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
                       <button
                         type="button"
                         popovertarget={pid}
-                        class="group flex w-full cursor-pointer flex-col gap-2 rounded-lg border border-line bg-surface px-4 py-3 text-left hover:border-primary-line hover:bg-primary-soft focus-visible:outline-2 focus-visible:outline-primary sm:flex-row sm:items-center sm:gap-6"
+                        class="fm-trigger group flex w-full cursor-pointer flex-col gap-2 rounded-lg border border-line bg-surface px-4 py-3 text-left hover:border-primary-line hover:bg-primary-soft focus-visible:outline-2 focus-visible:outline-primary sm:flex-row sm:items-center sm:gap-6"
                       >
                         <div class="min-w-0 flex-1">
                           <p class="flex flex-wrap items-baseline gap-x-2">
@@ -92,7 +92,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
                       </button>
                       <div id={pid} popover class="fm-modal" aria-label={f.name_vi}>
                         <div class="flex items-center justify-between gap-3 border-b border-line px-5 py-3 sm:px-8">
-                          <a href={`${base}/${formPath(f)}`} class="text-sm text-primary hover:underline">Mở trang riêng ↗</a>
+                          <a href={`${base}/${formPath(f)}`} target="_blank" rel="noopener" class="text-sm text-primary hover:underline">Mở trang riêng ↗</a>
                           <button
                             type="button"
                             popovertarget={pid}
@@ -167,5 +167,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   }
   body:has(.fm-modal:popover-open) {
     overflow: hidden;
+  }
+  /* Modal đang mở: bấm vào thể khác ở nền chỉ đóng modal (light dismiss), không mở modal của thể đó */
+  body:has(.fm-modal:popover-open) .fm-trigger {
+    pointer-events: none;
   }
 </style>
