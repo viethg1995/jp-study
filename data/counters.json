@@ -1818,7 +1818,7 @@
       "large_vi": [
         "11個 じゅういっこ, 16個 じゅうろっこ, 20個 にじゅっこ, 100個 ひゃっこ, 1000個 せんこ, 10000個 いちまんこ."
       ],
-      "lesson": null,
+      "lesson": 40,
       "name_vi": "Vật nhỏ, tròn",
       "notes_vi": [
         "Với 1–10 có thể thay bằng ～つ (りんご3つ = りんご3個) - trên 10 thường dùng 個."
@@ -1944,7 +1944,9 @@
       "sound_group": "k",
       "sound_note_vi": "Nhóm k: 1, 6, 8, 10 → っこ - 3 giữ さんこ.",
       "use_vi": "Đếm đồ vật nhỏ, khối nhỏ - dùng được cả khi số lớn hơn 10 thay cho ～つ.",
-      "vocab_refs": []
+      "vocab_refs": [
+        "mn-40-031"
+      ]
     },
     {
       "category": "objects",
