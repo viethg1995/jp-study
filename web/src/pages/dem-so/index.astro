@@ -23,7 +23,7 @@ const entry = "group rounded-lg border border-line bg-surface px-5 py-4 hover:bo
       Tiếng Nhật đếm bằng <b class="font-semibold text-ink">số + trợ số từ</b>. Trợ số từ thay đổi theo thứ được đếm.
     </p>
 
-    <div class="mt-6 grid gap-3 sm:grid-cols-2">
+    <div class="mt-6 grid gap-3 sm:grid-cols-3">
       <a href={`${base}/dem-so/so-dem/`} class={entry}>
         <p class="text-xs text-ink-faint">Bước 1</p>
         <p class="mt-0.5 font-semibold text-ink group-hover:text-primary">Số đếm →</p>
@@ -33,6 +33,11 @@ const entry = "group rounded-lg border border-line bg-surface px-5 py-4 hover:bo
         <p class="text-xs text-ink-faint">Bước 2</p>
         <p class="mt-0.5 font-semibold text-ink group-hover:text-primary">Biến âm →</p>
         <p class="jp mt-1 text-sm text-ink-muted" lang="ja">いっぽん・さんぼん・ろっぽん</p>
+      </a>
+      <a href={`${base}/dem-so/quiz/`} class={entry}>
+        <p class="text-xs text-ink-faint">Bước 3</p>
+        <p class="mt-0.5 font-semibold text-ink group-hover:text-primary">Luyện tập →</p>
+        <p class="mt-1 text-sm text-ink-muted">Chọn cách đọc đúng: <span class="jp" lang="ja">8本</span> là…?</p>
       </a>
     </div>
 

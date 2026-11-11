@@ -71,6 +71,7 @@ export const NAV: NavItem[] = [
       { label: "Trợ số từ", href: "dem-so/" },
       { label: "Số đếm", href: "dem-so/so-dem/" },
       { label: "Biến âm", href: "dem-so/bien-am/" },
+      { label: "Luyện tập", href: "dem-so/quiz/" },
     ],
   },
   {
