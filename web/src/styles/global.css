@@ -256,7 +256,17 @@ body:has(#toggle-target-reading:checked) .sentence .target rt {
 body:has(#toggle-vi:checked) .example-vi {
   filter: blur(5px);
 }
-body:has(#toggle-vi:checked) .example-vi:hover {
+body:has(#toggle-vi:checked) .example-vi {
+  cursor: pointer;
+}
+/* Desktop: rê chuột để xem. Cảm ứng: chạm để bật/tắt (.is-revealed, JS ở LessonView) —
+   không dùng :hover trên cảm ứng vì :hover "dính" sau khi chạm. */
+@media (hover: hover) {
+  body:has(#toggle-vi:checked) .example-vi:hover {
+    filter: none;
+  }
+}
+body:has(#toggle-vi:checked) .example-vi.is-revealed {
   filter: none;
 }
 

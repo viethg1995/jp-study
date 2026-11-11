@@ -14,8 +14,9 @@ interface Props {
   lastLesson: number;
   label: string; // tiền tố tên bài, vd "Bài" hoặc "N3 · Bài"
   conj: Map<string, string>; // vocab_id → trang chia thể (không có "/" đầu), chỉ động từ / tính từ
+  counters?: Map<string, string>; // vocab_id → trang trợ số từ (không có "/" đầu)
 }
-const { lesson: n, entries, route, lastLesson, label, conj } = Astro.props;
+const { lesson: n, entries, route, lastLesson, label, conj, counters = new Map<string, string>() } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const lessonHref = (k: number): string => `${base}/${route}/${k}/`;
 
@@ -92,7 +93,7 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
   </fieldset>
 
   <div class="word-list mt-4 grid gap-3 md:grid-cols-2">
-    {entries.map((w, i) => <WordCard word={w} index={i + 1} total={entries.length} conjHref={conj.has(w.id) ? `${base}/${conj.get(w.id)}` : null} {...navOf(i)} />)}
+    {entries.map((w, i) => <WordCard word={w} index={i + 1} total={entries.length} conjHref={conj.has(w.id) ? `${base}/${conj.get(w.id)}` : null} counterHref={counters.has(w.id) ? `${base}/${counters.get(w.id)}` : null} {...navOf(i)} />)}
   </div>
 </Base>
 
@@ -142,6 +143,25 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
     if (scroll) document.getElementById(id)?.scrollIntoView({ block: "start" });
   };
   show(cur);
+
+  // "Che bản dịch": chạm/click vào dòng bị che → bật/tắt hiện (cần cho mobile, không có hover).
+  // Bắt ở pha capture và chặn lan truyền để click KHÔNG lật thẻ / chuyển Lưới → Từng thẻ.
+  const toggleVi = document.getElementById("toggle-vi") as HTMLInputElement | null;
+  window.addEventListener(
+    "click",
+    (e) => {
+      if (!toggleVi?.checked) return;
+      const vi = (e.target as HTMLElement).closest<HTMLElement>(".example-vi");
+      if (!vi) return;
+      e.preventDefault();
+      e.stopPropagation();
+      vi.classList.toggle("is-revealed");
+    },
+    true,
+  );
+  toggleVi?.addEventListener("change", () => {
+    document.querySelectorAll(".example-vi.is-revealed").forEach((el) => el.classList.remove("is-revealed"));
+  });
 
   document.addEventListener("click", (e) => {
     const t = e.target as HTMLElement;
