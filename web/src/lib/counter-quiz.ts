@@ -4,6 +4,7 @@
 // rồi LOẠI mọi cách đọc có trong kana/alt → không bao giờ coi một cách đọc đúng là sai.
 import type { Counter, CounterReading } from "../content.config";
 import { counterPath, formatNumberJa, isChanged, numberKana } from "./counters";
+import type { QuizItem as Item } from "./quiz/types";
 
 export interface QuizItem {
   id: string; // c-hon-3 — chỉ để phân biệt trong phiên, không lưu
@@ -90,4 +91,24 @@ export function buildQuizItems(counters: Counter[]): QuizItem[] {
       href: counterPath(c),
     })),
   );
+}
+
+/**
+ * Câu hỏi đếm số theo kiểu chung lib/quiz (kind "n-ctr"). Q2: chỉ để kiểm lõi với dữ liệu thật;
+ * Q3 chuyển trang /dem-so/quiz/ sang dùng hàm này.
+ */
+export function toQuizItems(items: readonly QuizItem[]): Item[] {
+  return items.map((q) => ({
+    id: `n-ctr:${q.id}`,
+    kind: "n-ctr",
+    prompt: `${q.display}${q.char}`,
+    promptLang: "ja",
+    hint: `～${q.char} · ${q.name}`,
+    answer: q.answer,
+    accepted: q.alt,
+    pool: q.pool,
+    explain: q.note,
+    href: q.href,
+    tags: { counter: q.counter, group: q.group, changed: q.changed ? 1 : 0 },
+  }));
 }
