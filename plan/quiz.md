@@ -133,6 +133,15 @@ Chọn nhiều phần + loại câu + khoảng bài → trộn deck. Thêm vào 
 | Q4-2 | Điền chỗ trống (`v-cloze`) | **Làm ngay phần từ đích giữ nguyên dạng** (1.731/2.257 câu ví dụ: danh từ, tính từ な, trạng từ…); **hoãn** 526 câu từ đích đã biến đổi (chủ yếu động từ) sang sau Q6 — khi đó chia luôn đáp án nhiễu. |
 | Q4-3 | Nhiễu câu hỏi đọc (`v-read`) | **4 lựa chọn = 1 đúng + 3 nhiễu máy sinh** (trường âm, っ, dấu đục, âm nhỏ ゃゅょ) — kiểu bẫy JLPT 漢字読み. Chỉ khi máy sinh không đủ 3 dạng hợp lệ mới bù bằng cách đọc của từ thật. Dạng máy sinh trùng một cách đọc đúng của chính chữ đó bị loại. |
 
+**Sai khác so với spec Q4 (ghi nhận khi triển khai 2026-11-12):**
+
+| # | Spec | Thực tế | Lý do / xử lý |
+|---|---|---|---|
+| 1 | Câu đọc: 3 nhiễu máy sinh (Q4-3) | 942/1.604 câu (59%) đủ 3 nhiễu máy sinh; còn lại máy sinh 0–2 dạng, bù bằng cách đọc của từ thật | Từ ngắn / toàn âm n, m, r, y, w (なに, いま, でんわ) ít biến thể. Đã bỏ dạng vô lý (よせいる, たべまっす, いじょうでいす) — chấp nhận tỉ lệ thấp hơn. Test giữ mốc ≥ 900 để bắt hồi quy. Muốn tăng: thêm loại lỗi mới trong `kana.ts` (vd bỏ ん giữa từ) |
+| 2 | File câu hỏi < 350KB gốc | 200–403KB gốc (5 file > 350KB: n5-nghia, n5-tu, n5-dien, n4-nghia, n4-tu); gzip ≤ 47KB | Dung lượng thực tải về khớp ước tính (26–52KB gzip); phần vượt chỉ tốn thêm vài ms parse JSON. Giữ định dạng `Deck` đơn giản. Test: < 450KB gốc, < 60KB gzip. Cách giảm nếu cần: đưa `question`/`kind` lên cấp Deck (~-8%) hoặc bảng chuỗi dùng chung (~-55%) |
+| 3 | Điền từ: mọi từ đích giữ nguyên dạng | Bỏ thêm danh từ riêng (`PN`) | Câu dịch giữ nguyên tên → lộ đáp án (新神戸 / "ga Shin-Kobe"), phát hiện khi soát ảnh chụp |
+| 4 | (spec không nêu) | Câu điền từ có thể có nhiều đáp án hợp ngữ pháp ("＿は学生です": わたし / あなた) | Câu dịch tiếng Việt luôn hiện làm gợi ý → đáp án xác định theo nghĩa. **Cần user kiểm tay** vài lượt loại "Điền từ"; nếu gây nhầm thì thêm luật loại nhiễu cùng nhóm đại từ / cùng nghĩa ngữ cảnh |
+
 ## 5. Task tuần tự
 
 Mỗi task: làm → test → `npm run build` pass → commit → cập nhật STATUS. Không sang task sau khi task trước chưa xanh.
