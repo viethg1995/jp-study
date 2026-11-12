@@ -32,7 +32,7 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 
   <fieldset class="rounded-lg border border-line bg-surface px-4 pt-1 pb-3 text-sm text-ink-muted">
     <legend class="px-1 text-xs text-ink-faint">Tùy chọn luyện tập</legend>
-    <div class="flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
+    <div class="quiz-options flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
       <slot name="filters" />
       <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
         <Segmented
@@ -118,3 +118,27 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     </div>
   </section>
 </div>
+
+<style>
+  /*
+   * Mọi điều khiển trong bảng tùy chọn cao bằng nhau (2rem): nút chọn một / chọn nhiều, select, ô nhập số, Combobox.
+   * Bộ lọc nằm trong slot (do trang render) nên phải dùng :global, neo vào .quiz-options để không ảnh hưởng trang khác.
+   */
+  .quiz-options :global(select),
+  .quiz-options :global(input[type="number"]),
+  .quiz-options :global(.combo-trigger),
+  .quiz-options :global([role="radiogroup"] label),
+  .quiz-options :global([role="group"] label) {
+    box-sizing: border-box;
+    height: 2rem;
+  }
+  .quiz-options :global([role="radiogroup"] label),
+  .quiz-options :global([role="group"] label) {
+    display: inline-flex;
+    align-items: center;
+  }
+  /* Segmented liền một dải: viền nằm ở khung ngoài → nút bên trong thấp hơn 2px để cả dải cao 2rem */
+  .quiz-options :global([role="radiogroup"] > div.overflow-hidden label) {
+    height: calc(2rem - 2px);
+  }
+</style>

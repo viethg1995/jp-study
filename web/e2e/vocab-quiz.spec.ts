@@ -1,5 +1,5 @@
 // E2E quiz từ vựng /vocabulary/quiz/ (Q4): tải deck theo bộ lọc, URL, loại câu, nút "Luyện tập bài này".
-import { expect, test } from "./fixtures";
+import { expect, optionHeights, test } from "./fixtures";
 
 const card = '[data-q="card"]';
 const prompt = '[data-q="prompt"]';
@@ -190,4 +190,12 @@ test("số câu tự nhập: 7 → lượt 7 câu; gõ số trong ô không ch�
   await page.locator("label:has(#q-size-10)").click();
   await expect(page.locator('[data-q="size-box"]')).toBeHidden();
   await expect(page.locator('[data-q="of"]')).toHaveText(" / 10");
+});
+
+test("bảng tùy chọn: mọi điều khiển cao bằng nhau 32px (Cấp, Bài, Loại câu, Số câu, ô nhập số)", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?loai=doc,nghia");
+  await page.locator("label:has(#q-size-custom)").click();
+  const hs = await optionHeights(page);
+  expect(hs.length).toBeGreaterThanOrEqual(5);
+  expect(new Set(hs)).toEqual(new Set([32]));
 });

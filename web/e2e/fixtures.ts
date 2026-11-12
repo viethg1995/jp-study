@@ -38,3 +38,13 @@ export async function tokenColor(page: Page, token: string, prop: "color" | "bac
     [token, prop] as const,
   );
 }
+
+/** Chiều cao (px) của mọi điều khiển trong bảng "Tùy chọn luyện tập" — phải bằng nhau (2rem). */
+export async function optionHeights(page: Page): Promise<number[]> {
+  return page
+    .locator(
+      // dải liền (overflow-hidden) đo cả dải; dải xuống dòng (flex-wrap) đo từng nút — khung của nó cao theo số dòng
+      ".quiz-options select, .quiz-options input[type=number], .quiz-options .combo-trigger, .quiz-options [role=radiogroup] > div.overflow-hidden, .quiz-options [role=radiogroup] > div.flex-wrap > label, .quiz-options [role=group] label",
+    )
+    .evaluateAll((els) => els.filter((e) => (e as HTMLElement).offsetParent !== null).map((e) => Math.round(e.getBoundingClientRect().height)));
+}

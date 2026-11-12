@@ -1,5 +1,5 @@
 // E2E quiz đếm số /dem-so/quiz/ — khung QuizRunner (plan/quiz.md Q3, checklist §6).
-import { expect, test, tokenColor } from "./fixtures";
+import { expect, optionHeights, test, tokenColor } from "./fixtures";
 
 const card = '[data-q="card"]';
 const opt = ".q-opt";
@@ -116,4 +116,10 @@ test("quiz một loại: không hiện nhãn loại câu; bảng tùy chọn có
   await expect(page.locator('[data-q="kind"]')).toBeHidden();
   await expect(page.locator("fieldset legend")).toHaveText("Tùy chọn luyện tập");
   await expect(page.locator("fieldset").getByText("Trợ số từ:")).toBeVisible();
+});
+
+test("bảng tùy chọn: mọi điều khiển cao bằng nhau 32px (Combobox, Nhóm âm, Ô hỏi, Số câu)", async ({ page }) => {
+  const hs = await optionHeights(page);
+  expect(hs.length).toBeGreaterThanOrEqual(4);
+  expect(new Set(hs)).toEqual(new Set([32]));
 });
