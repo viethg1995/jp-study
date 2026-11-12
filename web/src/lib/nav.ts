@@ -45,6 +45,7 @@ export const NAV: NavItem[] = [
       { label: "N4", href: "kanji/n4/" },
       { label: "N3", href: "kanji/n3/" },
       { label: "Bộ thủ", href: "kanji/bo-thu/" },
+      { label: "Luyện tập", href: "kanji/quiz/" },
     ],
   },
   {

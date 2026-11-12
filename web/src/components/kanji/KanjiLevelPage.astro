@@ -29,7 +29,10 @@ const title = `Kanji ${LEVEL_LABEL[level]}`;
 <Base title={title} description={`Danh sách Kanji ${LEVEL_LABEL[level]} theo giáo trình và theo bài từ vựng: âm Hán-Việt, nghĩa tiếng Việt, âm On/Kun, số nét, thứ tự nét viết.`}>
   <LevelTabs label="Cấp độ" tabs={[...levelTabs(base, "kanji", level), { label: "Bộ thủ", href: `${base}/kanji/bo-thu/`, active: false }]} />
 
-  <h1 class="text-2xl font-bold">{title}</h1>
+  <div class="flex flex-wrap items-baseline justify-between gap-3">
+    <h1 class="text-2xl font-bold">{title}</h1>
+    <a href={`${base}/kanji/quiz/?cap=${level}`} class="text-sm text-primary hover:underline" data-level-quiz>Luyện tập Kanji {LEVEL_LABEL[level]} →</a>
+  </div>
 
   <div class="mt-4 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
     <Segmented
@@ -55,7 +58,16 @@ const title = `Kanji ${LEVEL_LABEL[level]}`;
             </p>
             {g.lessons.map((l) => (
               <div id={`${g.id}-${l.lesson}`} class="mt-5 scroll-mt-20">
-                <h2 class="mb-2 text-sm font-semibold text-ink-muted">{l.label}</h2>
+                <div class="mb-2 flex items-baseline justify-between gap-3">
+                  <h2 class="text-sm font-semibold text-ink-muted">{l.label}</h2>
+                  <a
+                    href={`${base}/kanji/quiz/?cap=${level}&xep=${g.id.slice(0, 2)}&tu=${l.lesson}&den=${l.lesson}`}
+                    class="text-xs text-primary hover:underline"
+                    data-lesson-quiz
+                  >
+                    Luyện tập →
+                  </a>
+                </div>
                 <ul class="grid grid-cols-[repeat(auto-fill,minmax(4.25rem,1fr))] gap-2">
                   {l.items.map((k) => (
                     <li>

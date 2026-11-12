@@ -2,7 +2,8 @@
 // nhưng không đi qua astro:content nên chạy được bằng `node --test`.
 import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { type Counter, counterFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
+import { type KanjiSource, kanjiSource } from "../lib/quiz/kanji.ts";
+import { type Counter, counterFile, kanjiFile, radicalFile, strokeFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
 
 const DATA = fileURLToPath(new URL("../../../data/", import.meta.url));
 
@@ -23,4 +24,12 @@ export function loadVocab(): VocabEntry[] {
     for (const f of files) out.push(...vocabLesson.parse(readJson(dir + f)).entries);
   }
   return out;
+}
+
+/** Dữ liệu cho quiz Kanji/bộ thủ: kanji.json + radicals.json + thành phần (strokes.json) + bài từ vựng N3. */
+export function loadKanjiSource(): KanjiSource {
+  const kanji = kanjiFile.parse(readJson("kanji/kanji.json")).kanji;
+  const radicals = radicalFile.parse(readJson("kanji/radicals.json")).radicals;
+  const strokes = strokeFile.parse(readJson("kanji/strokes.json")).kanji;
+  return kanjiSource(kanji, radicals, strokes, loadVocab().filter((e) => e.book === "n3"));
 }

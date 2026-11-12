@@ -1,0 +1,165 @@
+---
+// Quiz Kanji (Q5): cấp → xếp theo (giáo trình Kanji / bài từ vựng, Q5-2) → khoảng bài → loại câu (chọn nhiều).
+// Câu hỏi sinh lúc build thành file /kanji/quiz/<xếp>-<cấp>-<loại>.json (lib/quiz/kanji.ts), trang chỉ tải file đang chọn.
+// Bộ lọc ghi lên URL (D6): ?cap=n5&xep=gt&tu=1&den=5&loai=hv,nghia — không localStorage.
+// Không có dòng Furigana: đề và đáp án các loại câu ở đây không có furigana.
+import QuizRunner from "../../../components/quiz/QuizRunner.astro";
+import Segmented from "../../../components/ui/Segmented.astro";
+import Base from "../../../layouts/Base.astro";
+import type { ParamDef } from "../../../lib/quiz/params";
+import { KANJI_KIND_LABEL, KANJI_KINDS, KANJI_LEVELS, KANJI_VIEW_LABEL, KANJI_VIEWS, type KanjiKindSlug, kanjiLessonRanges } from "../../../lib/quiz/kanji";
+import { loadKanjiSource } from "./_source";
+
+const ranges = kanjiLessonRanges(await loadKanjiSource());
+const slugs = Object.keys(KANJI_KINDS) as KanjiKindSlug[];
+const params: ParamDef[] = [
+  { param: "cap", tag: "level", type: "enum", options: Object.fromEntries(KANJI_LEVELS.map((l) => [l, l])) },
+  { param: "xep", tag: "view", type: "enum", options: Object.fromEntries(KANJI_VIEWS.map((v) => [v, v])) },
+  { param: "tu", tag: "lesson", type: "min", lo: 1, hi: 50 },
+  { param: "den", tag: "lesson", type: "max", lo: 1, hi: 50 },
+  { param: "loai", tag: "kind", type: "enum", options: { ...KANJI_KINDS }, multi: true },
+];
+const KIND_HINT: Record<KanjiKindSlug, string> = {
+  hv: "学 → HỌC",
+  nghia: "学 → học",
+  chu: "HỌC · học → 学",
+  doc: "大学 → だいがく",
+  bo: "問 → 口 (Khẩu)",
+};
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const select = "rounded-md border border-line bg-surface px-2 py-1 text-ink";
+// Chọn nhiều: nền nhạt + ✓ (quy ước ở .claude/rules/web.md — như quiz từ vựng)
+const chip =
+  "group relative inline-flex cursor-pointer items-center gap-1 rounded-full border border-line bg-surface px-3 py-1 whitespace-nowrap text-ink hover:border-primary-line has-checked:border-primary has-checked:bg-primary-soft has-checked:font-semibold has-checked:text-primary has-focus-visible:outline-2 has-focus-visible:outline-primary";
+const kindLabels = Object.fromEntries(slugs.map((s) => [KANJI_KINDS[s], KANJI_KIND_LABEL[s]]));
+---
+
+<Base title="Luyện tập Kanji" description="Luyện Kanji N5–N3: âm Hán-Việt, nghĩa, nhận mặt chữ, cách đọc trong từ, bộ thủ — chọn theo bài giáo trình Kanji hoặc bài từ vựng.">
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/kanji/`} class={navLink}>Kanji</a>
+    <a href={`${base}/kanji/bo-thu/quiz/`} class={navLink}>Luyện bộ thủ</a>
+  </nav>
+
+  <div class="mx-auto max-w-2xl">
+    <h1 class="text-2xl font-bold">Luyện tập Kanji</h1>
+
+    <div class="mt-4">
+      <QuizRunner question="Chọn đáp án đúng" linkLabel="Xem trang chữ →" kindLabels={kindLabels} balanceKinds>
+        <Fragment slot="filters">
+          <Segmented name="q-level" label="Cấp" options={KANJI_LEVELS.map((l) => ({ id: `cap-${l}`, label: l.toUpperCase() }))} checked="cap-n5" />
+          <Segmented name="q-view" label="Xếp theo" options={KANJI_VIEWS.map((v) => ({ id: `xep-${v}`, label: KANJI_VIEW_LABEL[v] }))} checked="xep-gt" />
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <label for="q-from" class="seg-label shrink-0">Bài:</label>
+            <div class="flex items-center gap-2">
+              <select id="q-from" class={select} aria-label="Từ bài"></select>
+              <span>–</span>
+              <select id="q-to" class={select} aria-label="Đến bài"></select>
+            </div>
+          </div>
+          <div class="flex items-baseline gap-3" role="group" aria-label="Loại câu (chọn nhiều để trộn)">
+            <span class="seg-label shrink-0">Loại câu:</span>
+            <div>
+              <div class="flex flex-wrap gap-1.5">
+                {
+                  slugs.map((s) => (
+                    <label class={chip} title={KIND_HINT[s]}>
+                      <input type="checkbox" name="q-kind" value={s} id={`loai-${s}`} class="sr-only" checked={s === "hv"} />
+                      <span class="hidden group-has-[:checked]:inline" aria-hidden="true">✓</span>
+                      {KANJI_KIND_LABEL[s]}
+                    </label>
+                  ))
+                }
+              </div>
+              <p class="mt-1.5 text-xs text-ink-faint">Chọn nhiều để trộn — mỗi lượt chia đều số câu cho các loại.</p>
+            </div>
+          </div>
+        </Fragment>
+      </QuizRunner>
+    </div>
+  </div>
+
+  <script type="application/json" id="q-config" set:html={JSON.stringify({ params, ranges, kinds: KANJI_KINDS })} />
+</Base>
+
+<script>
+  import { readFilter, writeFilter, type ParamDef } from "../../../lib/quiz/params";
+  import { mountQuiz } from "../../../lib/quiz/runner";
+  import type { Filter } from "../../../lib/quiz/types";
+
+  type Level = "n5" | "n4" | "n3";
+  type View = "gt" | "tv";
+  const cfg = JSON.parse(document.getElementById("q-config")!.textContent ?? "{}") as {
+    params: ParamDef[];
+    ranges: Record<View, Record<Level, { from: number; to: number }>>;
+    kinds: Record<string, string>;
+  };
+  const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+  const fromSel = document.getElementById("q-from") as HTMLSelectElement;
+  const toSel = document.getElementById("q-to") as HTMLSelectElement;
+  const kindBoxes = [...document.querySelectorAll<HTMLInputElement>('input[name="q-kind"]')];
+  const kindSlug = Object.fromEntries(Object.entries(cfg.kinds).map(([slug, kind]) => [kind, slug]));
+  const checked = (name: string, prefix: string): string =>
+    document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.id.replace(prefix, "") ?? "";
+  const level = (): Level => (checked("q-level", "cap-") || "n5") as Level;
+  const view = (): View => (checked("q-view", "xep-") || "gt") as View;
+
+  /** Điền danh sách bài theo cách xếp + cấp; giữ giá trị nếu còn trong khoảng, không thì về cả khoảng. */
+  function fillLessons(from?: number, to?: number): void {
+    const r = cfg.ranges[view()][level()];
+    const inRange = (n: number | undefined): n is number => n !== undefined && n >= r.from && n <= r.to;
+    for (const sel of [fromSel, toSel]) {
+      sel.replaceChildren(
+        ...Array.from({ length: r.to - r.from + 1 }, (_, i) => {
+          const o = document.createElement("option");
+          o.value = o.textContent = String(r.from + i);
+          return o;
+        }),
+      );
+    }
+    fromSel.value = String(inRange(from) ? from : r.from);
+    toSel.value = String(inRange(to) ? to : r.to);
+  }
+
+  // URL → điều khiển
+  const fromUrl = readFilter(location.search, cfg.params);
+  const first = (tag: string): string | undefined => (Array.isArray(fromUrl[tag]) ? String((fromUrl[tag] as unknown[])[0]) : undefined);
+  (document.getElementById(`cap-${first("level") ?? "n5"}`) as HTMLInputElement).checked = true;
+  (document.getElementById(`xep-${first("view") ?? "gt"}`) as HTMLInputElement).checked = true;
+  const lesson = fromUrl.lesson && !Array.isArray(fromUrl.lesson) ? (fromUrl.lesson as { min?: number; max?: number }) : {};
+  fillLessons(lesson.min, lesson.max);
+  if (Array.isArray(fromUrl.kind)) {
+    const want = new Set(fromUrl.kind.map((k) => kindSlug[String(k)]));
+    for (const b of kindBoxes) b.checked = want.has(b.value);
+  }
+
+  // Điều khiển → bộ lọc, file Deck, URL
+  const quiz = mountQuiz(document.querySelector<HTMLElement>("[data-quiz]")!);
+  function apply(): void {
+    const lv = level(), vw = view();
+    let from = Number(fromSel.value), to = Number(toSel.value);
+    if (from > to) [from, to] = [to, from];
+    const slugs = kindBoxes.filter((b) => b.checked).map((b) => b.value);
+    const kinds = slugs.map((s) => cfg.kinds[s]!);
+    const filter: Filter = { lesson: { min: from, max: to }, kind: kinds };
+    const qs = writeFilter({ level: [lv], view: [vw], lesson: { min: from, max: to }, kind: kinds }, cfg.params);
+    history.replaceState(null, "", `?${qs}`);
+    quiz.setFilter(filter, slugs.map((s) => `${base}kanji/quiz/${vw}-${lv}-${s}.json`));
+  }
+  for (const r of document.querySelectorAll<HTMLInputElement>('input[name="q-level"], input[name="q-view"]')) {
+    r.addEventListener("change", () => {
+      fillLessons();
+      apply();
+    });
+  }
+  fromSel.addEventListener("change", () => {
+    if (Number(fromSel.value) > Number(toSel.value)) toSel.value = fromSel.value;
+    apply();
+  });
+  toSel.addEventListener("change", () => {
+    if (Number(toSel.value) < Number(fromSel.value)) fromSel.value = toSel.value;
+    apply();
+  });
+  for (const b of kindBoxes) b.addEventListener("change", apply);
+  apply();
+</script>

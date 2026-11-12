@@ -1,6 +1,6 @@
 // Phần chạy trên trình duyệt của components/quiz/QuizRunner.astro — chỉ vẽ DOM theo Session (session.ts).
 // Trang gọi: const quiz = mountQuiz(root); quiz.setFilter(filter) — lần đầu và mỗi khi bộ lọc đổi.
-import { parseRuby } from "../ruby";
+import { groupByTarget, parseRuby } from "../ruby";
 import { isRuby } from "./validate";
 import { filterItems } from "./core";
 import { mulberry32, randomSeed } from "./random";
@@ -22,17 +22,29 @@ const OPTION_CLASS =
   "data-[state=right]:border-success data-[state=right]:font-semibold data-[state=right]:text-success " +
   "data-[state=wrong]:border-danger data-[state=wrong]:bg-danger-soft data-[state=wrong]:text-danger";
 
-/** Vẽ chuỗi ruby {漢字|かな} thành <ruby> bằng DOM (không innerHTML); chuỗi thường giữ nguyên văn. */
+/**
+ * Vẽ chuỗi ruby {漢字|かな} thành <ruby> bằng DOM (không innerHTML); chuỗi thường giữ nguyên văn.
+ * Phần [[…]] (chữ đang hỏi, vd [[大]]学) tô màu nhấn + gạch chân.
+ */
 export function renderRuby(el: HTMLElement, s: string): void {
+  const segs = isRuby(s) ? parseRuby(s) : [{ text: s, reading: null, target: false }];
   el.replaceChildren(
-    ...(isRuby(s) ? parseRuby(s) : [{ text: s, reading: null }]).map((seg) => {
-      if (!seg.reading) return document.createTextNode(seg.text);
-      const ruby = document.createElement("ruby");
-      const rt = document.createElement("rt");
-      rt.textContent = seg.reading;
-      ruby.append(seg.text, rt);
-      return ruby;
-    }),
+    ...groupByTarget(segs).map((g) => {
+      const nodes = g.segs.map((seg) => {
+        if (!seg.reading) return document.createTextNode(seg.text);
+        const ruby = document.createElement("ruby");
+        const rt = document.createElement("rt");
+        rt.textContent = seg.reading;
+        ruby.append(seg.text, rt);
+        return ruby;
+      });
+      if (!g.target) return nodes;
+      const mark = document.createElement("span");
+      mark.dataset.q = "target";
+      mark.className = "text-primary underline decoration-2 underline-offset-8";
+      mark.append(...nodes);
+      return [mark];
+    }).flat(),
   );
   const ja = JA.test(s);
   el.lang = ja ? "ja" : "vi";
