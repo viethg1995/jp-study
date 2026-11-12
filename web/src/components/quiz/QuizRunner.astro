@@ -20,8 +20,10 @@ interface Props {
   kindLabels?: Record<string, string>;
   /** Trộn đều theo loại câu: mỗi lượt chia số câu ngang nhau cho các kind đang có. */
   balanceKinds?: boolean;
+  /** Thêm dòng "Furigana: Hiện / Ẩn" — ẩn cách đọc trên câu hỏi và các lựa chọn; phần phản hồi/giải thích luôn hiện. */
+  furiganaToggle?: boolean;
 }
-const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false } = Astro.props;
+const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, furiganaToggle = false } = Astro.props;
 if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
 const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 ---
@@ -64,6 +66,19 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
           <span data-q="size-error" class="hidden text-danger">Nhập số từ 1 đến 100</span>
         </label>
       </div>
+      {
+        furiganaToggle && (
+          <Segmented
+            name="q-furi"
+            label="Furigana"
+            options={[
+              { id: "q-furi-on", label: "Hiện" },
+              { id: "q-furi-off", label: "Ẩn" },
+            ]}
+            checked="q-furi-on"
+          />
+        )
+      }
     </div>
   </fieldset>
 
@@ -120,6 +135,11 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 </div>
 
 <style>
+  /* Ẩn furigana (thuần CSS): chỉ câu hỏi + các lựa chọn; phản hồi, giải thích, tổng kết vẫn hiện cách đọc.
+     visibility (không display) để bật/tắt giữa chừng không làm nhảy bố cục — như công tắc ở trang bài. */
+  :global([data-quiz]:has(#q-furi-off:checked) :is([data-q="prompt"], [data-q="options"]) rt) {
+    visibility: hidden;
+  }
   /*
    * Mọi điều khiển trong bảng tùy chọn cao bằng nhau (2rem): nút chọn một / chọn nhiều, select, ô nhập số, Combobox.
    * Bộ lọc nằm trong slot (do trang render) nên phải dùng :global, neo vào .quiz-options để không ảnh hưởng trang khác.

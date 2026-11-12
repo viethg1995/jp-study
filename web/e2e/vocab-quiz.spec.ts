@@ -199,3 +199,35 @@ test("bảng tùy chọn: mọi điều khiển cao bằng nhau 32px (Cấp, Bà
   expect(hs.length).toBeGreaterThanOrEqual(5);
   expect(new Set(hs)).toEqual(new Set([32]));
 });
+
+test("Furigana: Ẩn → ẩn cách đọc ở câu hỏi và lựa chọn; phản hồi vẫn hiện; Hiện → hiện lại", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&loai=tu,dien");
+  await expect(page.locator(card)).toBeVisible();
+  await expect(page.locator("#q-furi-on")).toBeChecked();
+  await page.locator("label:has(#q-furi-off)").click();
+  const askRt = page.locator('[data-q="prompt"] rt, [data-q="options"] rt');
+  let checkedAsk = false, checkedFeedback = false;
+  for (let i = 0; i < 30 && !(checkedAsk && checkedFeedback); i++) {
+    if ((await askRt.count()) > 0) {
+      for (const v of await askRt.evaluateAll((els) => els.map((e) => getComputedStyle(e).visibility))) expect(v).toBe("hidden");
+      checkedAsk = true;
+    }
+    await page.keyboard.press("1");
+    const fbRt = page.locator('[data-q="feedback"] rt');
+    if ((await fbRt.count()) > 0) {
+      await expect(fbRt.first()).toBeVisible();
+      checkedFeedback = true;
+    }
+    await page.keyboard.press("Enter");
+    if (await page.locator('[data-q="summary"]').isVisible()) await page.locator('[data-q="restart"]').click();
+  }
+  expect(checkedAsk && checkedFeedback).toBe(true);
+  await page.locator("label:has(#q-furi-on)").click();
+  if ((await askRt.count()) > 0) await expect(askRt.first()).toBeVisible();
+});
+
+test("quiz đếm số không có dòng Furigana (câu hỏi không có furigana)", async ({ page }) => {
+  await page.goto("dem-so/quiz/");
+  await expect(page.locator(card)).toBeVisible();
+  await expect(page.locator("#q-furi-off")).toHaveCount(0);
+});

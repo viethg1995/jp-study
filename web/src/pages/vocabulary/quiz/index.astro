@@ -40,7 +40,7 @@ const kindLabels = Object.fromEntries(slugs.map((s) => [VOCAB_KINDS[s], VOCAB_KI
     <h1 class="text-2xl font-bold">Luyện tập từ vựng</h1>
 
     <div class="mt-4">
-      <QuizRunner question="Chọn đáp án đúng" kindLabels={kindLabels} balanceKinds>
+      <QuizRunner question="Chọn đáp án đúng" kindLabels={kindLabels} balanceKinds furiganaToggle>
         <Fragment slot="filters">
           <Segmented name="q-level" label="Cấp" options={VOCAB_LEVELS.map((l) => ({ id: `cap-${l}`, label: LEVEL_LESSONS[l].label }))} checked="cap-n5" />
           <div class="flex flex-wrap items-center gap-x-3 gap-y-2">

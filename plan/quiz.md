@@ -146,6 +146,7 @@ Chọn nhiều phần + loại câu + khoảng bài → trộn deck. Thêm vào 
 - Loại câu chọn nhiều trước đây trông như nút chọn một và tỉ lệ trộn lệch theo số câu mỗi loại (N5: Nghĩa 844, Đọc 557) → nút bo tròn nền nhạt + ✓, dòng "Chọn nhiều để trộn"; nhãn loại câu ở góc thẻ; **trộn đều**: `createQueue(…, groupOf)` bốc lần lượt từng loại (20 câu / 5 loại = 4 câu mỗi loại; loại hết câu thì nghỉ đến vòng mới).
 - Bộ lọc đặt trong khung nền "Tùy chọn luyện tập", nhãn thẳng cột, dòng ngăn cách (áp dụng cả quiz đếm số).
 - Số câu thêm **"Tự nhập"** (1–100; bỏ "Không giới hạn", thêm nút 100; số sai báo lỗi, giữ lượt đang làm; gõ số trong ô không bị coi là chọn đáp án).
+- Thêm dòng **"Furigana: Hiện / Ẩn"** (prop `furiganaToggle` của QuizRunner, thuần CSS): ẩn cách đọc ở câu hỏi + lựa chọn; phản hồi, giải thích, tổng kết vẫn hiện. Chỉ bật ở quiz từ vựng (quiz đếm số không có furigana). Không lưu URL/localStorage.
 - Test: unit +5 (trộn đều), e2e +4 (trộn đều 4/4/4/4/4, ✓, tự nhập, nhãn loại) → unit 99, e2e 26 × 2 màn hình.
 
 ## 5. Task tuần tự
