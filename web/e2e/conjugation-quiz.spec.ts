@@ -96,6 +96,12 @@ test("đang làm bài: khóa nhóm từ, bài, thể, nút Chọn hết; Furigan
   for (const sel of ["#nhom-tinh-tu-i", "#sach-n3", "#q-upto", "#dt-V1", "#the-verb-te", "#loai-the", 'button[data-forms="none"]']) {
     await expect(page.locator(sel)).toBeDisabled();
   }
+  // khung thu gọn: tóm tắt + dòng Furigana
+  await expect(page.locator('[data-q="locked-summary"]')).toHaveText(
+    "Nhóm từ: Động từ · Sách: Minna · Đã học tới: Bài 50 · Nhóm: Tất cả · Thể: Tất cả · Loại câu: Chia · Số câu: 10",
+  );
+  await expect(page.locator(".quiz-options > *:visible")).toHaveCount(1);
+  await expect(page.locator("#q-upto")).toBeHidden();
   await page.locator("label:has(#q-furi-off)").click();
   const rts = page.locator('[data-q="prompt"] rt, [data-q="options"] rt');
   if ((await rts.count()) > 0) {

@@ -74,7 +74,9 @@ test("Kết thúc lượt sớm → tổng kết số câu đã làm; Lượt m�
 
 test("đang làm bài: mọi tùy chọn bị khóa (Combobox, Nhóm âm, Ô hỏi, Số câu); Đổi tùy chọn → mở khóa", async ({ page }) => {
   await startQuiz(page);
-  await expect(page.locator('[data-q="locked-note"]')).toBeVisible();
+  // khung thu gọn: chỉ còn 1 dòng tóm tắt (không có dòng Furigana ở quiz này)
+  await expect(page.locator('[data-q="locked-summary"]')).toHaveText("Trợ số từ: Tất cả trợ số từ · Nhóm âm: Tất cả · Ô hỏi: Cần nhớ (149) · Số câu: 10");
+  await expect(page.locator(".quiz-options > *:visible")).toHaveCount(0);
   await expect(page.locator(".combo-trigger")).toBeDisabled();
   for (const id of ["#g-h", "#m-all", "#q-size-20", "#q-size-custom"]) await expect(page.locator(id)).toBeDisabled();
   await backToSetup(page);

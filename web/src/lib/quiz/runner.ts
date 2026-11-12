@@ -79,7 +79,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const base = (import.meta.env.BASE_URL ?? "/").replace(/\/?$/, "/");
   const rng = mulberry32(randomSeed());
 
-  const startBar = q("start-bar"), startBtn = q<HTMLButtonElement>("start"), lockedNote = q("locked-note");
+  const startBar = q("start-bar"), startBtn = q<HTMLButtonElement>("start"), lockedNote = q("locked-note"), lockedSummary = q("locked-summary");
   const optionsPanel = root.querySelector<HTMLElement>(".quiz-options")!;
 
   let all: QuizItem[] | null = null;
@@ -90,6 +90,38 @@ export function mountQuiz(root: HTMLElement): QuizController {
   /** File cần tải khi bấm Bắt đầu (setFilter / data-src); null = dùng `all` có sẵn. */
   let pending: { decks: readonly string[]; toItems?: (data: unknown[]) => QuizItem[] } | null = null;
   let disabledByLock: (HTMLInputElement | HTMLSelectElement | HTMLButtonElement)[] = [];
+  let hiddenByLock: HTMLElement[] = [];
+
+  /**
+   * Tóm tắt tùy chọn đang chọn từ chính các dòng của bảng (không cần trang khai báo):
+   * "Nhóm từ: Động từ · Đã học tới: Bài 50 · Thể: Tất cả · Số câu: 20". Dòng đang ẩn bị bỏ qua.
+   */
+  function summarize(): string {
+    const parts: string[] = [];
+    const clean = (el: Element): string => (el.textContent ?? "").replace("✓", "").replace(/\s+/g, " ").trim();
+    for (const row of optionsPanel.children) {
+      if (!(row instanceof HTMLElement) || row.hidden || row.matches("[data-q-keep]") || row.offsetParent === null) continue;
+      const label = row.querySelector(".seg-label")?.textContent?.replace(/:\s*$/, "").trim();
+      if (!label) continue;
+      let value: string;
+      const boxes = [...row.querySelectorAll<HTMLInputElement>('input[type="checkbox"]')].filter((b) => !b.closest("label")?.hidden);
+      const radio = row.querySelector<HTMLInputElement>('input[type="radio"]:checked');
+      const selects = [...row.querySelectorAll("select")];
+      const combo = row.querySelector(".combo-text");
+      if (boxes.length > 0) {
+        const on = boxes.filter((b) => b.checked).map((b) => clean(b.closest("label")!));
+        value = on.length === boxes.length && boxes.length > 1 ? "Tất cả" : on.length > 3 ? `${on.slice(0, 3).join(", ")}… (${on.length})` : on.join(", ") || "—";
+      } else if (radio) {
+        value = radio.id === "q-size-custom" ? sizeInput.value : clean(radio.closest("label")!);
+      } else if (selects.length > 0) {
+        value = selects.map((x) => x.selectedOptions[0]?.textContent?.trim() ?? "").join(" – ");
+      } else if (combo) {
+        value = clean(combo);
+      } else continue;
+      parts.push(`${label}: ${value}`);
+    }
+    return parts.join(" · ");
+  }
 
   /** Số câu tự nhập: số nguyên 1–100 (lượt dài hơn không ai làm hết), sai → null. */
   const customSize = (): number | null => {
@@ -122,10 +154,16 @@ export function mountQuiz(root: HTMLElement): QuizController {
         (el) => !el.disabled && !el.closest("[data-q-keep]"),
       );
       for (const el of disabledByLock) el.disabled = true;
+      lockedSummary.textContent = summarize();
+      // thu gọn: chỉ còn tóm tắt + dòng Furigana; nhớ dòng nào mình ẩn để mở lại đúng (trang tự ẩn dòng bằng hidden)
+      hiddenByLock = [...optionsPanel.children].filter((el): el is HTMLElement => el instanceof HTMLElement && !el.hidden && !el.matches("[data-q-keep]"));
+      for (const el of hiddenByLock) el.hidden = true;
       optionsPanel.dataset.locked = "";
     } else {
       for (const el of disabledByLock) el.disabled = false;
       disabledByLock = [];
+      for (const el of hiddenByLock) el.hidden = false;
+      hiddenByLock = [];
       delete optionsPanel.dataset.locked;
     }
     startBar.classList.toggle("hidden", on);

@@ -36,8 +36,13 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 
   <fieldset class="rounded-lg border border-line bg-surface px-4 pt-1 pb-3 text-sm text-ink-muted">
     <legend class="px-1 text-xs text-ink-faint">
-      Tùy chọn luyện tập<span data-q="locked-note" class="hidden"> · đã khóa trong lúc làm bài (Kết thúc lượt → Đổi tùy chọn)</span>
+      Tùy chọn luyện tập
     </legend>
+    <!-- Đang làm bài: khung thu gọn — 1 dòng tóm tắt (runner điền) + dòng Furigana; các dòng khác ẩn -->
+    <div data-q="locked-note" class="hidden border-b border-line py-2.5 last:border-b-0">
+      <p data-q="locked-summary" class="text-ink"></p>
+      <p class="mt-1 text-xs text-ink-faint">Muốn đổi: Kết thúc lượt → Đổi tùy chọn.</p>
+    </div>
     <div class="quiz-options flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
       <slot name="filters" />
       <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
@@ -147,13 +152,6 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 </div>
 
 <style>
-  /* Đang làm bài: tùy chọn bị khóa (input đã disabled ở runner) — làm mờ, trừ dòng Furigana */
-  .quiz-options[data-locked] > :global(:not([data-q-keep])) {
-    opacity: 0.55;
-  }
-  .quiz-options[data-locked] > :global(:not([data-q-keep]) label) {
-    cursor: not-allowed;
-  }
   /* Ẩn furigana (thuần CSS): chỉ câu hỏi + các lựa chọn; phản hồi, giải thích, tổng kết vẫn hiện cách đọc.
      visibility (không display) để bật/tắt giữa chừng không làm nhảy bố cục — như công tắc ở trang bài. */
   :global([data-quiz]:has(#q-furi-off:checked) :is([data-q="prompt"], [data-q="options"]) rt) {

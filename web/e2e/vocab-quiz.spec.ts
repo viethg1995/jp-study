@@ -74,8 +74,11 @@ test("đang làm bài: khóa Cấp, Bài, Loại câu, Số câu; Furigana vẫn
   await expect(page.locator("#q-furi-off")).toBeEnabled();
   await page.locator("label:has(#q-furi-off)").click();
   await expect(page.locator("#q-furi-off")).toBeChecked();
+  await expect(page.locator('[data-q="locked-summary"]')).toHaveText("Cấp: N5 · Bài: 1 – 25 · Loại câu: Từ · Số câu: 10");
   await backToSetup(page);
   await expect(page.locator(card)).toBeHidden();
+  await expect(page.locator("#cap-n4")).toBeVisible(); // mở lại đủ các dòng
+  await expect(page.locator("#q-from")).toBeVisible();
   await expect(page.locator("#cap-n4")).toBeEnabled();
   await page.locator("label:has(#cap-n4)").click();
   await expect(page).toHaveURL(/cap=n4/);
