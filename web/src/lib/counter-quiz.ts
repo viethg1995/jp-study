@@ -94,8 +94,7 @@ export function buildQuizItems(counters: Counter[]): QuizItem[] {
 }
 
 /**
- * Câu hỏi đếm số theo kiểu chung lib/quiz (kind "n-ctr"). Q2: chỉ để kiểm lõi với dữ liệu thật;
- * Q3 chuyển trang /dem-so/quiz/ sang dùng hàm này.
+ * Câu hỏi đếm số theo kiểu chung lib/quiz (kind "n-ctr") — trang /dem-so/quiz/ dùng hàm này.
  */
 export function toQuizItems(items: readonly QuizItem[]): Item[] {
   return items.map((q) => ({

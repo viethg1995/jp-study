@@ -1,0 +1,87 @@
+---
+// Khung quiz dùng chung (plan/quiz.md, Q3): số câu/lượt, thẻ câu hỏi, 4 lựa chọn, phản hồi, tổng kết, làm lại câu sai.
+// Trang đặt bộ lọc riêng vào slot "filters", rồi trong script của trang gọi mountQuiz(root).setFilter(filter)
+// (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ) hoặc `src` (file JSON Deck, tải lười — deck lớn).
+// Script thường, không Preact (D1).
+import Segmented from "../ui/Segmented.astro";
+import type { QuizItem } from "../../lib/quiz/types";
+
+interface Props {
+  items?: QuizItem[];
+  /** URL đầy đủ (đã ghép BASE_URL) tới file Deck JSON. */
+  src?: string;
+  /** Câu dẫn dưới câu hỏi, vd "Đọc thế nào?". */
+  question?: string;
+  /** Chữ trên link sang trang chi tiết. */
+  linkLabel?: string;
+}
+const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →" } = Astro.props;
+if (!items === !src) throw new Error("QuizRunner: cần đúng một trong `items` hoặc `src`");
+const btn = "rounded-md px-4 py-2 text-sm font-semibold";
+---
+
+<div data-quiz data-src={src} data-link-label={linkLabel}>
+  {items && <script type="application/json" data-quiz-items set:html={JSON.stringify(items)} />}
+
+  <div class="flex flex-col gap-3 text-sm">
+    <slot name="filters" />
+    <Segmented
+      name="q-size"
+      label="Số câu"
+      options={[
+        { id: "q-size-10", label: "10" },
+        { id: "q-size-20", label: "20" },
+        { id: "q-size-all", label: "Không giới hạn" },
+      ]}
+      checked="q-size-10"
+    />
+  </div>
+
+  <p data-q="loading" class="mt-6 rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">Đang tải câu hỏi…</p>
+
+  <p data-q="empty" class="mt-6 hidden rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">
+    Không có câu nào khớp bộ lọc. Thử nới bộ lọc ở trên.
+  </p>
+
+  <section data-q="card" class="mt-6 hidden rounded-lg border border-line bg-surface p-6" aria-live="polite">
+    <div class="flex items-baseline justify-between gap-2 text-sm text-ink-muted">
+      <span>Câu <b data-q="index" class="font-semibold text-ink tabular-nums">1</b><span data-q="of"></span></span>
+      <span>
+        Đúng <b data-q="right" class="font-semibold text-ink tabular-nums">0</b> / <span data-q="total" class="tabular-nums">0</span>
+        <button type="button" data-q="finish" class="ml-2 rounded px-2 py-0.5 text-primary hover:bg-primary-soft">Kết thúc lượt</button>
+      </span>
+    </div>
+
+    <p class="mt-4 text-center"><span data-q="prompt" class="font-bold text-ink"></span></p>
+    <p data-q="hint" class="mt-2 text-center text-sm text-ink-muted"></p>
+    <p class="mt-1 text-center text-sm text-ink-faint">{question}</p>
+
+    <div data-q="options" class="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2"></div>
+
+    <div data-q="feedback" class="mt-5 hidden rounded-md px-4 py-3 text-sm leading-relaxed">
+      <p data-q="verdict" class="font-semibold"></p>
+      <p data-q="accepted" class="mt-1 hidden text-ink-muted"></p>
+      <p data-q="explain" class="mt-1 hidden text-ink-muted"></p>
+      <p class="mt-2"><a data-q="link" class="text-primary hover:underline" href="#">{linkLabel}</a></p>
+    </div>
+
+    <div class="mt-5 flex items-center justify-between gap-2">
+      <p class="hidden text-xs text-ink-faint sm:block">Phím 1–4 để chọn · Enter: câu tiếp</p>
+      <button type="button" data-q="next" class:list={[btn, "ml-auto shrink-0 whitespace-nowrap bg-primary text-surface hover:bg-primary-strong disabled:opacity-40"]} disabled>Câu tiếp →</button>
+    </div>
+  </section>
+
+  <section data-q="summary" class="mt-6 hidden rounded-lg border border-line bg-surface p-6">
+    <h2 class="text-center text-lg font-semibold">Kết quả lượt</h2>
+    <p class="mt-2 text-center text-4xl font-bold tabular-nums"><span data-q="sum-right">0</span> / <span data-q="sum-total">0</span></p>
+    <p data-q="sum-perfect" class="mt-2 hidden text-center text-success">Đúng hết, giỏi lắm!</p>
+    <div data-q="sum-wrong-box" class="mt-5 hidden">
+      <h3 class="text-sm font-semibold text-ink-muted">Câu sai</h3>
+      <ul data-q="sum-wrong" class="mt-2 divide-y divide-line text-sm"></ul>
+    </div>
+    <div class="mt-6 flex flex-wrap justify-center gap-2">
+      <button type="button" data-q="retry" class:list={[btn, "hidden border border-primary text-primary hover:bg-primary-soft"]}>Làm lại câu sai</button>
+      <button type="button" data-q="restart" class:list={[btn, "bg-primary text-surface hover:bg-primary-strong"]}>Lượt mới</button>
+    </div>
+  </section>
+</div>
