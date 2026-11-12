@@ -206,6 +206,51 @@ Chọn nhiều phần + loại câu + khoảng bài → trộn deck. Thêm vào 
 
 **Lỗi dữ liệu bộ thủ (sửa ở pipeline `radicals.json`, không sửa `data/`):** tên dính số từ PDF — 戶 "Hộ 6", 斗 "Đầu 7", 方 "Phương 9"; thiếu biến thể quen thuộc (人 không có 亻, 水 không có 氵, 心 không có 忄… — chỉ 27/214 bộ có `variants`) → quiz "Tên bộ" hỏi 水 mà không kèm 氵.
 
+### Q6 — spec (chờ duyệt, 2026-11-12)
+
+**Số liệu** (`data/conjugation.json`, đo 2026-11-12):
+
+| Mục | Số |
+|---|---|
+| Từ | 714: động từ 531 (nhóm I 279, II 156, III 96), tính từ い 86, tính từ な 95, danh từ 2 (あめ, がくせい — chỉ làm mẫu). Minna 445, N3 269 (bài N3 1–14) |
+| Thể | Động từ 20 thể (ます bài 4 … sai khiến bài 48; bị bắt làm `lesson` = null), tính từ い 11, な 12. Tổng 12.697 ô chia, 1.422 ô bất quy tắc (V3 1.344, V1 50 — 行きます…, い 27 — いい, V2 1) |
+| Trùng kana | 154 từ có thể khả năng = bị động (V2 たべられる) — chỉ cặp này |
+| Thiếu thể | 9 từ: わかります/できます/みえます/きこえます không có khả năng; あります thiếu 9 thể; kính ngữ (くださいます, いらっしゃいます, おっしゃいます, なさいます) thiếu 5 thể |
+| Duyệt | Quy tắc `enrichment/conjugation/forms.json` là `ai`, chờ duyệt (D4: vẫn đưa vào quiz) |
+| Dung lượng | File bảng tra hiện có `/chia-the/dong-tu/te.json` (531 từ × 1 thể) = 33KB gốc / **5,6KB gzip** |
+
+**Loại câu:**
+
+| Loại | Hỏi → chọn | Nhiễu (sinh bằng quy tắc "lỗi hay gặp", luôn loại mọi dạng đúng) |
+|---|---|---|
+| `c-to` Chia | {書|か}きます · **Thể て** → {書|か}いて | V1: biến âm て/た sai (かって, かんで, かして) + chia như V2 (かきて). V2: chia như V1 (たべって, たべらない, たべれる) — bẫy 帰ります/食べます. V3: dạng chia theo quy tắc thường (きない ← こない, しれる ← できる). い: chia như な (たかいでした, たかいじゃない, たかじゃない); いい → いくない. な: chia như い (しずかかった, しずかくない). Bù: thể khác của chính từ (て ↔ た, ない ↔ なかった) |
+| `c-which` Nhận thể | たべさせる → **Thể nào?** | Tên thể khác cùng nhóm từ, ưu tiên thể có đuôi giống (られる / させる / させられる; たら / ば). Khả năng ↔ bị động trùng kana → **cả hai đều đúng** (`accepted`). Không hỏi thể dùng làm đề (ます với Minna) |
+| `c-group` Nhóm động từ | かえります → **Nhóm I / II / III** | Chỉ động từ. **3 lựa chọn** (Q6-3). Bẫy hay gặp: かえります/はいります/きります (I, trông như II), おきます/みます/かります (II, hàng い) |
+
+Đề `c-to`: từ ở dạng gốc của giáo trình — Minna: thể ます; N3: thể từ điển. Gợi ý: nghĩa + bài. Sau khi trả lời: quy tắc của ô (`rule`, vd "き → いて"), ô bất quy tắc ghi "Bất quy tắc". Có dòng **Furigana: Hiện / Ẩn** (đáp án là chữ có furigana).
+
+**Trang `/chia-the/quiz/`** — bộ lọc (URL):
+- **Nhóm từ** (chọn một): Động từ · Tính từ い · Tính từ な. Danh từ bỏ (2 từ). `?nhom=dong-tu`
+- **Sách** (chọn một): Minna · N3.
+  - Minna → **Đã học tới bài** B (1–50, mặc định 50): chỉ từ có bài ≤ B **và** thể có bài ≤ B (thể bị bắt làm chỉ khi B = 50). `?sach=minna&bai=20`
+  - N3 → **Bài** từ–đến (1–14), mọi thể. `?sach=n3&tu=1&den=5`
+- **Nhóm động từ** (chọn nhiều, chỉ khi Động từ): I · II · III. `?dt=1,2`
+- **Thể** (chọn nhiều): chỉ hiện thể đã học tới bài B; mặc định tất cả. `?the=te,ta,nai`
+- **Loại câu** (chọn nhiều, trộn đều): Chia · Nhận thể · Nhóm động từ.
+- Nút "Luyện tập thể này →" ở trang `/chia-the/the/<nhóm>/<thể>/` và "Luyện tập →" ở bảng tra `/chia-the/dong-tu|tinh-tu-i|tinh-tu-na/`; menu "Luyện tập" dưới Chia thể.
+
+**Quyết định cần chốt:**
+
+| # | Bối cảnh | Đề xuất | Nếu không theo / phương án khác |
+|---|---|---|---|
+| Q6-1 | Động từ 531 × 20 thể = 10.620 câu `c-to`. Đóng gói sẵn như Q4/Q5: mỗi câu ~350B → mỗi thể ~25KB gzip, chọn đủ 20 thể ≈ **500KB gzip** | **Sinh câu trên trình duyệt** từ bảng chia gọn: 1 file mỗi nhóm từ (động từ ~110KB gzip, đủ 20 thể; tính từ ~15KB), hàm sinh câu `lib/quiz/conjugation.ts` chạy ở client (~4KB JS). Nhiễu lọc theo đúng bài đã học (không đưa thể chưa học vào `c-which`). Unit test vẫn chạy hàm sinh trên **toàn bộ** dữ liệu + `checkDeck` như Q4/Q5. Runner thêm tham số chuyển JSON → câu hỏi | Đóng gói sẵn: tải nặng gấp ~5 lần khi chọn nhiều thể; nhiễu `c-which` lấy cả thể chưa học |
+| Q6-2 | Minna xếp thể theo bài (ます 4 … sai khiến 48); N3 không xếp thể theo bài | Minna: **"Đã học tới bài B"** lọc cả từ lẫn thể (D6). N3: lọc bài từ vựng, mọi thể | Chỉ lọc thể (bỏ "đã học tới bài"): người học bài 15 vẫn gặp từ bài 40 |
+| Q6-3 | `c-group` chỉ có 3 đáp án (I/II/III); khung hiện tại luôn 4 lựa chọn | **Cho phép câu 3 lựa chọn** (runner hiện theo số lựa chọn, phím 1–3; `checkDeck` cho phép pool 2 với kind `c-group`) | Bỏ `c-group`; hoặc ép 4 lựa chọn bằng lựa chọn vô lý ("Tính từ い") — lộ đáp án |
+| Q6-4 | Nhiễu `c-to` cần "chia sai theo nhóm khác" → phải viết bộ chia động từ/tính từ bằng TS (pipeline Python đã có, nhưng web không gọi được) | **Viết bộ "chia sai" nhỏ trong TS** chỉ cho nhiễu (đáp án đúng luôn lấy từ `data/`); test: mọi nhiễu ≠ mọi dạng đúng của từ; bảng ca đã biết (書きます→て có かって/かきて, không có かいて; 帰ります↔食べます; いい; しずか) | Chỉ dùng "thể khác của chính từ" làm nhiễu: dễ đoán (độ dài/đuôi khác hẳn) |
+| Q6-5 | `c-which`: たべられる vừa khả năng vừa bị động | **Cả hai đúng**; giải thích ghi "V2: khả năng = bị động". Không hỏi `c-which` cho thể ます-family? → **vẫn hỏi** ません/ました/ませんでした/ましょう (người mới cần), chỉ bỏ ます (trùng đề) | Bỏ hẳn từ V2 ở 2 thể này: mất 154 × 2 câu dễ nhầm nhất |
+
+**Test:** unit — sinh câu cho mọi từ × thể × loại → `checkDeck` 0 lỗi, ≤ 2% câu thiếu nhiễu; bảng ca đã biết (Q6-4); 154 cặp khả năng/bị động có `accepted`; lọc bài B: không câu nào có thể/từ bài > B; 9 từ thiếu thể không sinh câu thể đó. E2E `conjugation-quiz.spec.ts` theo checklist §6 + câu 3 lựa chọn (phím 4 không chọn gì) + lọc bài + nút "Luyện tập" + Furigana.
+
 ## 5. Task tuần tự
 
 Mỗi task: làm → test → `npm run build` pass → commit → cập nhật STATUS. Không sang task sau khi task trước chưa xanh.
@@ -219,7 +264,7 @@ Mỗi task: làm → test → `npm run build` pass → commit → cập nhật S
 | **Q4** ✅ | **Quiz từ vựng** `/vocabulary/quiz/` | **Xong 2026-11-12** — `lib/quiz/kana.ts` (lỗi đọc máy sinh: trường âm, っ, âm nhỏ, đục; giữ đuôi ます/です), `lib/quiz/vocab.ts` (5 loại: đọc, nghĩa, từ, Hán-Việt, điền từ; gộp từ lặp → tag `lesson` nhiều giá trị; "Cũng đúng" theo tiêu chí chặt, loại nhiễu theo tiêu chí rộng), 15 file `/vocabulary/quiz/<cấp>-<loại>.json` (200–400KB gốc, ≤ 47KB gzip), trang lọc cấp / khoảng bài / loại câu (URL `cap`, `tu`, `den`, `loai`), nút "Luyện tập bài này", menu "Luyện tập". Đọc: 942/1.604 câu đủ 3 nhiễu máy sinh, còn lại bù cách đọc từ thật. Điền từ: bỏ danh từ riêng (câu dịch lộ tên). Test: unit 94 (15 deck × checkDeck, kích thước, trường hợp đã biết), e2e `vocab-quiz.spec.ts` 11 test × 2 màn hình; mẫu 100 câu đã soát |
 | Q4b | Điền từ cho từ đích **đã biến đổi** (526 câu, chủ yếu động từ) | Sau Q6: chia đáp án nhiễu cùng thể với từ đích (行きました → 食べました, 見ました) |
 | **Q5** ✅ | **Quiz Kanji + bộ thủ** — spec chi tiết ở §4 "Q5 — spec": `lib/quiz/kanji.ts` (`k-hv`, `k-mean`, `k-char`, `k-read`, `r-of`, `r-name`, `r-char`), 32 file Deck, trang `/kanji/quiz/` + `/kanji/bo-thu/quiz/`; link từ `/kanji/n5|n4|n3` và `/kanji/bo-thu/` | **Xong 2026-11-12** — `lib/quiz/kanji.ts` (7 loại; giống hình = chung thành phần KanjiVG → cùng bộ → số nét gần; nhớ đệm → 32 deck ~2s), `[deck].json.ts` 30 file `/kanji/quiz/<gt|tv>-<cấp>-<loại>.json` + 2 file `/kanji/bo-thu/quiz/<ten|chu>.json`, trang `/kanji/quiz/` (cấp, xếp theo, bài, loại câu) + `/kanji/bo-thu/quiz/` (phạm vi N5 145 / N4 165 / N3 174 / 214, loại câu), nút "Luyện tập" ở `/kanji/n5|n4|n3` (cả cấp + từng bài, 2 cách xếp) và `/kanji/bo-thu/`, menu. Test: unit 53 (32 deck × checkDeck + kích thước, khoảng bài, 個 nhiều bài, 2 âm HV, 込匂, Q5-4, 休/憩, 聞 giống hình, 大学 たいがく/おおがく, 問 → 口 nhiễu 門, 何 → 亻, 書 → 曰, 几/己), e2e `kanji-quiz.spec.ts` 12 × 2 màn hình (cả `BASE_PATH=/jp-study/`) |
-| **Q6** | **Quiz chia thể**: `lib/quiz/conjugation.ts` (quy tắc sinh lỗi nhóm/biến âm), `c-to`, `c-which`, `c-group`; endpoint theo nhóm; trang `/chia-the/quiz/` lọc nhóm từ + thể + bài; mục 6 trong STATUS hết TODO | Test bất biến; test bảng lỗi: 書きます→て có nhiễu かきて/かって, không có かいて; V2 たべられる ở `c-which` nhận cả 可能 và 受身; ngoại lệ (いきます→いって, ある, いい) đúng; kiểm tay |
+| **Q6** | **Quiz chia thể** (spec chi tiết ở §4 "Q6 — spec"): `lib/quiz/conjugation.ts` (quy tắc sinh lỗi nhóm/biến âm), `c-to`, `c-which`, `c-group`; endpoint theo nhóm; trang `/chia-the/quiz/` lọc nhóm từ + thể + bài; mục 6 trong STATUS hết TODO | Test bất biến; test bảng lỗi: 書きます→て có nhiễu かきて/かって, không có かいて; V2 たべられる ở `c-which` nhận cả 可能 và 受身; ngoại lệ (いきます→いって, ある, いい) đúng; kiểm tay |
 | **Q7** | **Quiz số đếm** `n-num` trên `/dem-so/quiz/` (tab hoặc loại câu) | Test bất biến; số 4/7/9 nhận mọi cách đọc hợp lệ |
 | **Q8** | **Trang tổng `/luyen-tap/`** + mục menu + thẻ trang chủ; trộn nhiều deck | Test trộn deck không trùng `id`; kiểm tay; SEO (`description`, 1 `<h1>`) |
 | **Q9** | (tùy D2) **Gõ kana**: chuyển romaji → kana khi gõ, chấm theo `answer` + `accepted` | Unit test chuyển romaji (しゃ, っ, ん trước nguyên âm…) |
