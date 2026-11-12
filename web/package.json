@@ -5,9 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run check:gates && astro check && astro build",
+    "build": "npm run check:gates && npm run test && astro check && astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "test": "node --import ./scripts/register-ts.mjs --test \"src/**/*.test.ts\"",
     "check:schema": "node scripts/check-schema-sync.ts",
     "check:storage": "node scripts/check-storage-keys.ts",
     "check:tokens": "node scripts/check-design-tokens.ts",

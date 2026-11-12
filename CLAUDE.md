@@ -70,6 +70,7 @@ Các file dưới tự nạp khi đụng file khớp `paths:`. Nếu task chạm
 | `pytest` | Hồi quy pipeline | `cd pipeline && pytest` |
 | `check:schema` | zod (`web/src/lib/schemas.ts`) lệch JSON Schema Pydantic (`data/_schema/`): trường, kiểu, nullable, enum, const | `cd web && npm run check:schema` |
 | `check:storage` | Dùng `localStorage` ngoài `lib/storage.ts`, key thiếu `jp:`, key chưa đăng ký | `cd web && npm run check:storage` |
+| `test` (web) | Hồi quy hàm thuần `web/src/lib/` (quiz: đáp án nhiễu không trùng đáp án đúng…) | `cd web && npm run test` |
 | `astro check` + build | Lỗi type/zod/build web — phải pass trước khi push (đã gồm 2 gate trên) | `cd web && npm run build` |
 
 ## Coding conventions

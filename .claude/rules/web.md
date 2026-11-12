@@ -5,7 +5,7 @@ paths:
 
 # Frontend (`web/`, Astro + TypeScript)
 
-- Mặc định là HTML tĩnh; chỉ dùng island (Preact) cho phần cần tương tác: flashcard, quiz, SRS, tìm kiếm.
+- Mặc định là HTML tĩnh. Phần tương tác (flashcard, quiz) dùng **script thường** (`<script>` + TS module trong `lib/`), không Preact — quyết định D1 ở `plan/quiz.md` (nhẹ hơn ~6KB gzip, không hydrate). Preact island chỉ cân nhắc khi state phức tạp (SRS).
 - TypeScript strict, không dùng `any`.
 - Font tiếng Nhật: `"Noto Sans JP"`. Mobile-first.
 - `astro.config.mjs` phải có `site` và `base` đúng với đường dẫn GitHub Pages — lấy từ biến môi trường `SITE_URL`, `BASE_PATH` (mặc định localhost, `/`). Link nội bộ luôn ghép `import.meta.env.BASE_URL`.
@@ -13,7 +13,7 @@ paths:
 - Schema zod ở `web/src/lib/schemas.ts` (chỉ import `astro/zod`, để Node chạy được gate) phải khớp `schemas.py` — `npm run check:schema` so với `data/_schema/`; gate **không** so ràng buộc (min/max/regex) và danh sách `POS_CODES`, phần đó vẫn phải tự giữ khớp. `content.config.ts` chỉ khai báo collection. Parser ruby ở `web/src/lib/ruby.ts` phải khớp `transform/examples.py`.
 - **SEO:** mỗi trang truyền `description` cho `Base` (trang động tự soạn từ dữ liệu, cắt bằng `clip()` ở `lib/seo.ts`); `Base` tự sinh canonical (bỏ query), Open Graph, favicon. Mỗi trang đúng một `<h1>`. `sitemap.xml` do integration trong `astro.config.mjs` ghi lúc build (bỏ 404 và endpoint `.json`); `robots.txt` ở `pages/robots.txt.ts`. Trang không cần index → `noindex`.
 - Công tắc hiển thị (ẩn furigana, che bản dịch, lọc chờ duyệt) làm bằng CSS `:has()` + checkbox — không cần JS.
-- Stack: Preact (island), Tailwind CSS, Pagefind (tìm kiếm), `@vite-pwa/astro` (offline), `localStorage` (trạng thái).
+- Stack: script thường (tương tác), Tailwind CSS, Pagefind (tìm kiếm), `@vite-pwa/astro` (offline), `localStorage` (trạng thái).
 
 ## localStorage
 
@@ -28,9 +28,16 @@ Mọi truy cập `localStorage`/`sessionStorage` đi qua `src/lib/storage.ts`. M
 ```bash
 cd web
 npm run dev                        # http://localhost:4321
-npm run build                      # check:gates + astro check + build — phải pass trước khi push
+npm run build                      # check:gates + test + astro check + build — phải pass trước khi push
 npm run check:gates                # chỉ chạy gate schema + localStorage (nhanh)
+npm run test                       # unit test (node --test, không thư viện ngoài)
 ```
+
+## Test
+
+- File `src/**/*.test.ts`, chạy bằng `node:test` + `node:assert/strict`; `npm run build` đã gồm `npm run test`.
+- `scripts/register-ts.mjs` thêm đuôi `.ts` cho import tương đối (Vite cho phép bỏ đuôi, Node thì không). Module được test chỉ `import type` từ `content.config`/`astro:*` — import giá trị từ `astro:content` sẽ không chạy được dưới Node.
+- Đọc `data/` trong test qua `src/test/data.ts` (parse bằng zod ở `lib/schemas.ts`, như content collection). Test chạy trên **dữ liệu thật**: kiểm bất biến (vd đáp án đúng không lọt vào đáp án nhiễu), không chụp snapshot cả file.
 
 ## Hệ thống thiết kế (chi tiết: `plan/design-system.md`)
 
