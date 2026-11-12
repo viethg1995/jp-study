@@ -37,3 +37,6 @@ Thumbs.db
 *.log
 .env
 .env.*
+
+# Template/tham khảo có license riêng — không commit
+plan/refs/

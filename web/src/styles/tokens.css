@@ -33,6 +33,26 @@
   --p-green-700: #197a4b;
   --p-yellow-50: #fff8e1;
   --p-yellow-800: #8a5a00;
+  /* Bảng màu "vui" — CHỈ cho trang /sensei/ (landing page tri ân, không theo phong cách Nhật của site) */
+  --p-fun-sun: #ffc93c;
+  --p-fun-sun-soft: #fff3c4;
+  --p-fun-coral: #ff6b6b;
+  --p-fun-coral-deep: #e8454f;
+  --p-fun-pink: #ff8fb8;
+  --p-fun-pink-soft: #ffe3ee;
+  --p-fun-peach: #ffd8c2;
+  --p-fun-sky: #3ec1f0;
+  --p-fun-sky-soft: #ddf5ff;
+  --p-fun-mint: #3ccf91;
+  --p-fun-mint-soft: #d9f8ea;
+  --p-fun-violet: #8b5cf6;
+  --p-fun-violet-soft: #eee6ff;
+  --p-fun-ink: #2a1f3d;
+  --p-fun-shadow: rgb(42 31 61 / 0.14);
+  --p-fun-glow: rgb(149 0 162 / 0.15);
+  --p-fun-plum: #b620e0;
+  --p-fun-amber: #e07f22;
+  --p-fun-lime: #c6f36b;
   /* Bảng màu phân loại cho "tô màu từng nét" Kanji — tránh họ đỏ, tương phản ≥ 4.5:1 trên nền trắng */
   --p-cat-1: #0031d8;
   --p-cat-2: #00838f;
@@ -74,6 +94,26 @@
   --color-notice-soft: var(--p-yellow-50);
   --color-pattern-wave: var(--p-blue-50); /* họa tiết 青海波 trang chủ: màu sóng */
   --color-pattern-gap: var(--p-gray-0); /* họa tiết 青海波: khoảng trắng giữa sóng */
+  /* Trang /sensei/ — dùng qua var(--color-fun-*) trong <style> của trang */
+  --color-fun-sun: var(--p-fun-sun);
+  --color-fun-sun-soft: var(--p-fun-sun-soft);
+  --color-fun-coral: var(--p-fun-coral);
+  --color-fun-coral-deep: var(--p-fun-coral-deep);
+  --color-fun-pink: var(--p-fun-pink);
+  --color-fun-pink-soft: var(--p-fun-pink-soft);
+  --color-fun-peach: var(--p-fun-peach);
+  --color-fun-sky: var(--p-fun-sky);
+  --color-fun-sky-soft: var(--p-fun-sky-soft);
+  --color-fun-mint: var(--p-fun-mint);
+  --color-fun-mint-soft: var(--p-fun-mint-soft);
+  --color-fun-violet: var(--p-fun-violet);
+  --color-fun-violet-soft: var(--p-fun-violet-soft);
+  --color-fun-ink: var(--p-fun-ink);
+  --color-fun-shadow: var(--p-fun-shadow);
+  --color-fun-glow: var(--p-fun-glow);
+  --color-fun-plum: var(--p-fun-plum);
+  --color-fun-amber: var(--p-fun-amber);
+  --color-fun-lime: var(--p-fun-lime);
   --color-scrim: rgb(26 26 28 / 0.35); /* nền mờ sau menu trượt trên điện thoại */
 }
 

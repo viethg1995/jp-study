@@ -37,6 +37,7 @@ Cập nhật khi hoàn thành từng hạng mục.
 | Duyệt toàn bộ: quyết định 01–12, câu ví dụ 50 bài (1.571 câu), nghĩa 841 Kanji | Xong — user duyệt 2026-11-10; 0 mục ai-draft |
 | Web: Astro skeleton — danh sách bài + từ vựng theo bài (furigana, công tắc CSS) | Xong |
 | Web: thẻ từ vựng — design tokens, nhấn mạnh Kanji/Hiragana, chế độ Lưới / Từng thẻ (Trước/Sau, sang bài kế, thẻ 2 mặt click để lật — thuần CSS) | Xong |
+| Web: landing page tri ân /sensei/ (Loan sensei — bảng màu riêng `fun-*` không theo phong cách Nhật; hero, số liệu, banner やまない雨はない, hành trình, chuyện lớp N4 dạng chat, polaroid, CTA nhắn tin) + mục menu 師 | Xong 2026-11-12 — câu chuyện là bản nháp AI viết theo yêu cầu, user sửa cho đúng; ảnh cover/avatar cắt từ ảnh chụp màn hình FB (thay bằng ảnh gốc) |
 
 ## TODO — N3 (chờ triển khai)
 
