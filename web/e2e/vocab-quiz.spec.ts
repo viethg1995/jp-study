@@ -128,3 +128,66 @@ test("không cuộn ngang (nghĩa dài, câu ví dụ dài)", async ({ page }) =
     expect(overflow, loai).toBeLessThanOrEqual(0);
   }
 });
+
+test("trộn đều: chọn 5 loại, lượt 20 câu → mỗi loại đúng 4 câu; nhãn loại câu hiện trên thẻ", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&loai=doc,nghia,tu,hv,dien");
+  await page.locator("label:has(#q-size-20)").click();
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 20");
+  const counts: Record<string, number> = {};
+  for (let i = 0; i < 20; i++) {
+    const badge = page.locator('[data-q="kind"]');
+    await expect(badge).toBeVisible();
+    const k = (await badge.textContent()) ?? "";
+    counts[k] = (counts[k] ?? 0) + 1;
+    await page.keyboard.press("1");
+    await page.keyboard.press("Enter");
+  }
+  expect(counts).toEqual({ "Đọc": 4, "Nghĩa": 4, "Từ": 4, "Hán-Việt": 4, "Điền từ": 4 });
+  await expect(page.locator('[data-q="summary"]')).toBeVisible();
+});
+
+test("loại câu chọn nhiều: nút đang chọn có ✓, có dòng giải thích trộn đều", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?loai=doc,hv");
+  await expect(page.locator("label:has(#loai-doc)")).toContainText("✓");
+  await expect(page.locator("label:has(#loai-hv)")).toContainText("✓");
+  await expect(page.locator("label:has(#loai-nghia) span[aria-hidden]")).toBeHidden();
+  await expect(page.getByText("Chọn nhiều để trộn")).toBeVisible();
+});
+
+test("số câu tự nhập: 7 → lượt 7 câu; gõ số trong ô không chọn đáp án; số sai báo lỗi, giữ lượt cũ", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&loai=nghia");
+  await expect(page.locator('[data-q="card"]')).toBeVisible();
+  await page.locator("label:has(#q-size-custom)").click();
+  const input = page.locator('[data-q="size-input"]');
+  await expect(input).toBeVisible();
+  await expect(input).toBeFocused();
+  await input.fill("7");
+  await input.press("Enter");
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 7");
+  await expect(page.locator('[data-q="total"]')).toHaveText("0"); // gõ "7" không bị coi là chọn đáp án
+  await input.fill("0");
+  await input.press("Enter");
+  await expect(page.locator('[data-q="size-error"]')).toBeVisible();
+  await expect(input).toHaveAttribute("aria-invalid", "true");
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 7");
+  // ô type=number tự chặn chữ; còn lại phải tự kiểm: ngoài khoảng, số lẻ
+  for (const bad of ["1000", "2.5"]) {
+    await input.fill(bad);
+    await input.press("Enter");
+    await expect(page.locator('[data-q="size-error"]'), bad).toBeVisible();
+    await expect(page.locator('[data-q="of"]')).toHaveText(" / 7");
+  }
+  await input.fill("3");
+  await input.press("Enter");
+  await expect(page.locator('[data-q="size-error"]')).toBeHidden();
+  await page.locator('[data-q="prompt"]').click(); // rời ô nhập
+  for (let i = 0; i < 3; i++) {
+    await page.keyboard.press("1");
+    await page.keyboard.press("Enter");
+  }
+  await expect(page.locator('[data-q="summary"]')).toBeVisible();
+  await expect(page.locator('[data-q="sum-total"]')).toHaveText("3");
+  await page.locator("label:has(#q-size-10)").click();
+  await expect(page.locator('[data-q="size-box"]')).toBeHidden();
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 10");
+});

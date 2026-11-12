@@ -1,6 +1,7 @@
 ---
-// Khung quiz dùng chung (plan/quiz.md, Q3): số câu/lượt, thẻ câu hỏi, 4 lựa chọn, phản hồi, tổng kết, làm lại câu sai.
-// Trang đặt bộ lọc riêng vào slot "filters", rồi trong script của trang gọi mountQuiz(root).setFilter(filter, decks?)
+// Khung quiz dùng chung (plan/quiz.md, Q3): bảng tùy chọn, số câu/lượt, thẻ câu hỏi, 4 lựa chọn, phản hồi,
+// tổng kết, làm lại câu sai. Trang đặt bộ lọc riêng vào slot "filters" (mỗi dòng một phần tử; nhãn dòng dùng
+// class `seg-label` để thẳng cột — Segmented đã có sẵn), rồi trong script gọi mountQuiz(root).setFilter(filter, decks?)
 // (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ), `src` (một file Deck), hoặc không truyền gì
 // và trang chọn file Deck theo bộ lọc qua setFilter(filter, decks) — deck lớn chia nhiều file (vd từ vựng cấp × loại).
 // Script thường, không Preact (D1).
@@ -15,28 +16,56 @@ interface Props {
   question?: string;
   /** Chữ trên link sang trang chi tiết. */
   linkLabel?: string;
+  /** Tên hiển thị theo kind ({ "v-read": "Đọc" }) → nhãn loại câu ở góc thẻ. Không truyền → không hiện nhãn. */
+  kindLabels?: Record<string, string>;
+  /** Trộn đều theo loại câu: mỗi lượt chia số câu ngang nhau cho các kind đang có. */
+  balanceKinds?: boolean;
 }
-const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →" } = Astro.props;
+const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false } = Astro.props;
 if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
 const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 ---
 
-<div data-quiz data-src={src} data-link-label={linkLabel}>
+<div data-quiz data-src={src} data-link-label={linkLabel} data-balance={balanceKinds ? "kind" : undefined}>
   {items && <script type="application/json" data-quiz-items set:html={JSON.stringify(items)} />}
+  {kindLabels && <script type="application/json" data-quiz-kinds set:html={JSON.stringify(kindLabels)} />}
 
-  <div class="flex flex-col gap-3 text-sm">
-    <slot name="filters" />
-    <Segmented
-      name="q-size"
-      label="Số câu"
-      options={[
-        { id: "q-size-10", label: "10" },
-        { id: "q-size-20", label: "20" },
-        { id: "q-size-all", label: "Không giới hạn" },
-      ]}
-      checked="q-size-10"
-    />
-  </div>
+  <fieldset class="rounded-lg border border-line bg-surface px-4 pt-1 pb-3 text-sm text-ink-muted">
+    <legend class="px-1 text-xs text-ink-faint">Tùy chọn luyện tập</legend>
+    <div class="flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
+      <slot name="filters" />
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+        <Segmented
+          name="q-size"
+          label="Số câu"
+          options={[
+            { id: "q-size-10", label: "10" },
+            { id: "q-size-20", label: "20" },
+            { id: "q-size-custom", label: "Tự nhập" },
+            { id: "q-size-all", label: "Không giới hạn" },
+          ]}
+          checked="q-size-10"
+          wrap
+        />
+        <!-- thẳng cột với các nút: lùi bằng độ rộng nhãn (4.75rem) + khoảng cách (0.75rem) -->
+        <label class="hidden basis-full items-center gap-2 pl-[5.5rem]" data-q="size-box">
+          <input
+            type="number"
+            data-q="size-input"
+            min="1"
+            max="999"
+            step="1"
+            inputmode="numeric"
+            value="30"
+            class="w-20 rounded-md border border-line bg-surface px-2 py-1 text-ink aria-[invalid=true]:border-danger"
+            aria-label="Số câu một lượt (1–999)"
+          />
+          <span>câu</span>
+          <span data-q="size-error" class="hidden text-danger">Nhập số từ 1 đến 999</span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
 
   <p data-q="loading" class="mt-6 rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">Đang tải câu hỏi…</p>
 
@@ -45,9 +74,12 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
   </p>
 
   <section data-q="card" class="mt-6 hidden rounded-lg border border-line bg-surface p-6" aria-live="polite">
-    <div class="flex items-baseline justify-between gap-2 text-sm text-ink-muted">
-      <span>Câu <b data-q="index" class="font-semibold text-ink tabular-nums">1</b><span data-q="of"></span></span>
-      <span>
+    <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 text-sm text-ink-muted">
+      <span class="flex items-baseline gap-2 whitespace-nowrap">
+        <span>Câu <b data-q="index" class="font-semibold text-ink tabular-nums">1</b><span data-q="of"></span></span>
+        <span data-q="kind" class="hidden rounded border border-line px-1.5 py-0.5 text-xs text-ink-muted"></span>
+      </span>
+      <span class="whitespace-nowrap">
         Đúng <b data-q="right" class="font-semibold text-ink tabular-nums">0</b> / <span data-q="total" class="tabular-nums">0</span>
         <button type="button" data-q="finish" class="ml-2 rounded px-2 py-0.5 text-primary hover:bg-primary-soft">Kết thúc lượt</button>
       </span>

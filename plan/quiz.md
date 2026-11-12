@@ -142,6 +142,12 @@ Chọn nhiều phần + loại câu + khoảng bài → trộn deck. Thêm vào 
 | 3 | Điền từ: mọi từ đích giữ nguyên dạng | Bỏ thêm danh từ riêng (`PN`) | Câu dịch giữ nguyên tên → lộ đáp án (新神戸 / "ga Shin-Kobe"), phát hiện khi soát ảnh chụp |
 | 4 | (spec không nêu) | Câu điền từ có thể có nhiều đáp án hợp ngữ pháp ("＿は学生です": わたし / あなた) | Câu dịch tiếng Việt luôn hiện làm gợi ý → đáp án xác định theo nghĩa. **Cần user kiểm tay** vài lượt loại "Điền từ"; nếu gây nhầm thì thêm luật loại nhiễu cùng nhóm đại từ / cùng nghĩa ngữ cảnh |
 
+**Chỉnh sau khi user test tay Q4 (2026-11-12):**
+- Loại câu chọn nhiều trước đây trông như nút chọn một và tỉ lệ trộn lệch theo số câu mỗi loại (N5: Nghĩa 844, Đọc 557) → nút bo tròn nền nhạt + ✓, dòng "Chọn nhiều để trộn"; nhãn loại câu ở góc thẻ; **trộn đều**: `createQueue(…, groupOf)` bốc lần lượt từng loại (20 câu / 5 loại = 4 câu mỗi loại; loại hết câu thì nghỉ đến vòng mới).
+- Bộ lọc đặt trong khung nền "Tùy chọn luyện tập", nhãn thẳng cột, dòng ngăn cách (áp dụng cả quiz đếm số).
+- Số câu thêm **"Tự nhập"** (1–999; số sai báo lỗi, giữ lượt đang làm; gõ số trong ô không bị coi là chọn đáp án).
+- Test: unit +5 (trộn đều), e2e +4 (trộn đều 4/4/4/4/4, ✓, tự nhập, nhãn loại) → unit 99, e2e 26 × 2 màn hình.
+
 ## 5. Task tuần tự
 
 Mỗi task: làm → test → `npm run build` pass → commit → cập nhật STATUS. Không sang task sau khi task trước chưa xanh.

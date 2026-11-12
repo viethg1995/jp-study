@@ -56,6 +56,10 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const feedback = q("feedback"), verdict = q("verdict"), accepted = q("accepted"), explain = q("explain");
   const link = q<HTMLAnchorElement>("link"), next = q<HTMLButtonElement>("next"), question = q("question");
   const defaultQuestion = question.textContent ?? "";
+  const kindBadge = q("kind"), sizeBox = q("size-box"), sizeInput = q<HTMLInputElement>("size-input"), sizeError = q("size-error");
+  const kindsEl = root.querySelector("script[data-quiz-kinds]");
+  const kindLabels = kindsEl ? (JSON.parse(kindsEl.textContent ?? "{}") as Record<string, string>) : {};
+  const groupOf = root.dataset.balance === "kind" ? (it: QuizItem): string => it.kind : undefined;
   const base = (import.meta.env.BASE_URL ?? "/").replace(/\/?$/, "/");
   const rng = mulberry32(randomSeed());
 
@@ -63,9 +67,18 @@ export function mountQuiz(root: HTMLElement): QuizController {
   let filter: Filter | null = null;
   let session: Session | null = null;
 
+  /** Số câu tự nhập: số nguyên 1–999, sai → null. */
+  const customSize = (): number | null => {
+    const raw = sizeInput.value.trim();
+    const n = Number(raw);
+    return /^\d+$/.test(raw) && n >= 1 && n <= 999 ? n : null;
+  };
+  const sizeId = (): string => root.querySelector<HTMLInputElement>('input[name="q-size"]:checked')?.id ?? "q-size-10";
   const roundSize = (): number | null => {
-    const id = root.querySelector<HTMLInputElement>('input[name="q-size"]:checked')?.id ?? "q-size-10";
-    return id === "q-size-all" ? null : Number(id.replace("q-size-", "")) || 10;
+    const id = sizeId();
+    if (id === "q-size-all") return null;
+    if (id === "q-size-custom") return customSize() ?? 10;
+    return Number(id.replace("q-size-", "")) || 10;
   };
   const show = (el: HTMLElement | null): void => {
     for (const x of [card, summary, empty, loading]) x.classList.toggle("hidden", x !== el);
@@ -74,7 +87,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
   function start(items?: QuizItem[], limit?: number | null): void {
     if (!all || !filter) return;
     const pool = items ?? filterItems(all, filter);
-    session = createSession(pool, rng, limit === undefined ? roundSize() : limit);
+    session = createSession(pool, rng, limit === undefined ? roundSize() : limit, groupOf);
     render();
   }
 
@@ -91,6 +104,9 @@ export function mountQuiz(root: HTMLElement): QuizController {
     show(card);
     q("index").textContent = String(s.total + 1);
     q("of").textContent = s.limit === null ? "" : ` / ${s.limit}`;
+    const kindLabel = kindLabels[cur.item.kind];
+    kindBadge.classList.toggle("hidden", !kindLabel);
+    kindBadge.textContent = kindLabel ?? "";
     q("right").textContent = String(s.right);
     q("total").textContent = String(s.total);
 
@@ -195,11 +211,40 @@ export function mountQuiz(root: HTMLElement): QuizController {
     const wrong = session?.wrong() ?? [];
     if (wrong.length > 0) start(wrong, wrong.length);
   });
-  for (const r of root.querySelectorAll<HTMLInputElement>('input[name="q-size"]')) r.addEventListener("change", () => start());
+  // Số câu: chọn sẵn → lượt mới ngay; "Tự nhập" → hiện ô nhập, lượt mới khi số hợp lệ (Enter / rời ô)
+  const applyCustom = (): void => {
+    const ok = customSize() !== null;
+    sizeInput.setAttribute("aria-invalid", ok ? "false" : "true");
+    sizeError.classList.toggle("hidden", ok);
+    if (ok) start();
+  };
+  for (const r of root.querySelectorAll<HTMLInputElement>('input[name="q-size"]')) {
+    r.addEventListener("change", () => {
+      const custom = sizeId() === "q-size-custom";
+      sizeBox.classList.toggle("hidden", !custom);
+      sizeBox.classList.toggle("flex", custom);
+      if (custom) {
+        sizeInput.focus();
+        sizeInput.select();
+        applyCustom();
+      } else {
+        sizeError.classList.add("hidden");
+        start();
+      }
+    });
+  }
+  sizeInput.addEventListener("change", applyCustom);
+  sizeInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      applyCustom();
+    }
+  });
 
   document.addEventListener("keydown", (e) => {
     const t = e.target as HTMLElement | null;
-    if (t?.closest("input[type=text], input[type=search], textarea, [data-combo][data-open]")) return;
+    // đang gõ (ô số câu, ô tìm, select bài) → phím số không phải chọn đáp án
+    if (t?.closest("input:not([type=radio]):not([type=checkbox]), textarea, select, [data-combo][data-open]")) return;
     if (!session?.current || card.classList.contains("hidden")) return;
     if (/^[1-9]$/.test(e.key) && !session.answered) {
       choose(Number(e.key) - 1);

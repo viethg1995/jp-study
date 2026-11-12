@@ -69,22 +69,52 @@ export interface Queue<T> {
  * Hàng đợi câu hỏi: bốc không lặp đến hết deck, hết thì trộn lại vòng mới
  * (câu đầu vòng mới ≠ câu cuối vòng cũ). `limit` = số câu một lượt; null = không giới hạn.
  * "Làm lại câu sai" = createQueue(câu sai, …).
+ *
+ * `groupOf` (trộn đều): bốc lần lượt từng nhóm (vd loại câu), thứ tự nhóm trộn lại mỗi lượt quay —
+ * 20 câu / 5 nhóm → mỗi nhóm 4 câu, không phụ thuộc nhóm nào nhiều câu hơn. Nhóm hết câu trong vòng
+ * thì tạm nghỉ đến khi mọi nhóm hết (vòng mới), nên không lặp câu trong nhóm nhỏ.
  */
-export function createQueue<T extends { id: string }>(items: readonly T[], rng: Rng, limit: number | null = null): Queue<T> {
-  let bag: T[] = [];
+export function createQueue<T extends { id: string }>(
+  items: readonly T[],
+  rng: Rng,
+  limit: number | null = null,
+  groupOf?: (item: T) => string,
+): Queue<T> {
+  const groups = new Map<string, T[]>();
+  for (const it of items) {
+    const k = groupOf ? groupOf(it) : "";
+    (groups.get(k) ?? groups.set(k, []).get(k)!).push(it);
+  }
+  const bags = new Map<string, T[]>();
+  let turn: string[] = [];
   let last: T | null = null;
   let asked = 0;
+
+  /** Trộn lại túi của một nhóm; tránh câu sắp bốc (cuối túi) trùng câu vừa hỏi. */
+  const refill = (k: string): void => {
+    const bag = shuffle(groups.get(k)!, rng);
+    if (bag.length > 1 && last !== null && bag[bag.length - 1]!.id === last.id) {
+      [bag[0], bag[bag.length - 1]] = [bag[bag.length - 1]!, bag[0]!];
+    }
+    bags.set(k, bag);
+  };
+  const withItems = (): string[] => [...groups.keys()].filter((k) => (bags.get(k)?.length ?? 0) > 0);
+
   return {
     next() {
       if (items.length === 0 || (limit !== null && asked >= limit)) return null;
-      if (bag.length === 0) {
-        bag = shuffle(items, rng);
-        // bag bốc từ cuối: nếu câu sắp bốc trùng câu vừa hỏi thì đổi chỗ với câu đầu
-        if (bag.length > 1 && last !== null && bag[bag.length - 1]!.id === last.id) {
-          [bag[0], bag[bag.length - 1]] = [bag[bag.length - 1]!, bag[0]!];
+      turn = turn.filter((k) => (bags.get(k)?.length ?? 0) > 0);
+      if (turn.length === 0) {
+        if (withItems().length === 0) for (const k of groups.keys()) refill(k); // vòng mới
+        turn = shuffle(withItems(), rng);
+        // nhóm sắp bốc (cuối turn) sẽ ra đúng câu vừa hỏi (nhóm 1 câu qua vòng) → đổi với nhóm khác
+        const top = (k: string): string | undefined => bags.get(k)!.at(-1)?.id;
+        if (turn.length > 1 && last !== null && top(turn[turn.length - 1]!) === last.id) {
+          [turn[0], turn[turn.length - 1]] = [turn[turn.length - 1]!, turn[0]!];
         }
       }
-      last = bag.pop()!;
+      const k = turn.pop()!;
+      last = bags.get(k)!.pop()!;
       asked++;
       return last;
     },

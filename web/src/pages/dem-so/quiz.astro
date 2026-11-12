@@ -58,7 +58,10 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
     <div class="mt-4">
       <QuizRunner items={items} question="Đọc thế nào?" linkLabel="Xem bảng cách đọc →">
         <Fragment slot="filters">
-          <Combobox id="q-counter" label="Trợ số từ" groups={counterGroups} value="" placeholder="Tất cả trợ số từ" searchPlaceholder="Tìm: 本, ほん, người…" class="w-full sm:w-80" />
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <span class="seg-label shrink-0">Trợ số từ:</span>
+            <Combobox id="q-counter" label="Trợ số từ" groups={counterGroups} value="" placeholder="Tất cả trợ số từ" searchPlaceholder="Tìm: 本, ほん, người…" class="w-full sm:w-72" />
+          </div>
           <Segmented name="q-group" label="Nhóm âm" options={GROUPS.map((g) => ({ id: g.id, label: g.label }))} checked="g-all" wrap />
           <Segmented
             name="q-mode"

@@ -135,3 +135,55 @@ describe("createQueue", () => {
     assert.equal(one.next()!.id, "x");
   });
 });
+
+describe("createQueue — trộn đều theo nhóm", () => {
+  // nhóm lệch nhau: A 50 câu, B 30, C 10
+  const deck = [
+    ...Array.from({ length: 50 }, (_, i) => item(`a${i}`, {}, "A")),
+    ...Array.from({ length: 30 }, (_, i) => item(`b${i}`, {}, "B")),
+    ...Array.from({ length: 10 }, (_, i) => item(`c${i}`, {}, "C")),
+  ];
+  const count = (ids: string[]): Record<string, number> =>
+    ids.reduce<Record<string, number>>((m, id) => ((m[id[0]!.toUpperCase()] = (m[id[0]!.toUpperCase()] ?? 0) + 1), m), {});
+
+  test("21 câu / 3 nhóm → mỗi nhóm 7, dù nhóm A gấp 5 lần nhóm C", () => {
+    for (let seed = 0; seed < 20; seed++) {
+      const q = createQueue(deck, mulberry32(seed), 21, (x) => x.kind);
+      const ids = Array.from({ length: 21 }, () => q.next()!.id);
+      assert.deepEqual(count(ids), { A: 7, B: 7, C: 7 }, `seed ${seed}`);
+    }
+  });
+
+  test("20 câu / 3 nhóm → 7/7/6 (chênh tối đa 1)", () => {
+    const q = createQueue(deck, mulberry32(1), 20, (x) => x.kind);
+    const c = Object.values(count(Array.from({ length: 20 }, () => q.next()!.id))).sort();
+    assert.deepEqual(c, [6, 7, 7]);
+  });
+
+  test("nhóm nhỏ hết câu thì nghỉ, không lặp câu trong vòng; hết mọi nhóm mới sang vòng mới", () => {
+    const q = createQueue(deck, mulberry32(2), null, (x) => x.kind);
+    const first = Array.from({ length: 90 }, () => q.next()!.id);
+    assert.equal(new Set(first).size, 90); // một vòng đủ 90 câu, không lặp
+    const c = count(first.slice(0, 30));
+    assert.deepEqual(c, { A: 10, B: 10, C: 10 }); // 30 câu đầu chia đều
+    assert.ok(q.next()); // sang vòng mới
+  });
+
+  test("không hỏi 2 câu giống nhau liền nhau khi qua vòng", () => {
+    const small = [item("x", {}, "A"), item("y", {}, "B")];
+    for (let seed = 0; seed < 30; seed++) {
+      const q = createQueue(small, mulberry32(seed), null, (x) => x.kind);
+      let prev = "";
+      for (let i = 0; i < 12; i++) {
+        const id = q.next()!.id;
+        assert.notEqual(id, prev);
+        prev = id;
+      }
+    }
+  });
+
+  test("không có groupOf → như cũ (một nhóm)", () => {
+    const q = createQueue(deck, mulberry32(3), 90);
+    assert.equal(new Set(Array.from({ length: 90 }, () => q.next()!.id)).size, 90);
+  });
+});

@@ -111,3 +111,9 @@ test("không cuộn ngang; nút Câu tiếp không xuống dòng", async ({ page
   const lineHeight = await next.evaluate((b) => parseFloat(getComputedStyle(b).lineHeight));
   expect(box!.height).toBeLessThan(lineHeight * 2);
 });
+
+test("quiz một loại: không hiện nhãn loại câu; bảng tùy chọn có nhãn 'Trợ số từ'", async ({ page }) => {
+  await expect(page.locator('[data-q="kind"]')).toBeHidden();
+  await expect(page.locator("fieldset legend")).toHaveText("Tùy chọn luyện tập");
+  await expect(page.locator("fieldset").getByText("Trợ số từ:")).toBeVisible();
+});

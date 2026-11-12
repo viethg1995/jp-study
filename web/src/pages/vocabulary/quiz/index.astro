@@ -25,8 +25,10 @@ const KIND_HINT: Record<VocabKindSlug, string> = {
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
 const select = "rounded-md border border-line bg-surface px-2 py-1 text-ink";
+// Chọn nhiều: nền nhạt + ✓ (khác hẳn nút chọn một — nền đặc — của Cấp / Số câu)
 const chip =
-  "relative cursor-pointer rounded-md border border-line px-3 py-1 whitespace-nowrap has-checked:border-primary has-checked:bg-primary has-checked:text-surface has-focus-visible:outline-2 has-focus-visible:outline-primary";
+  "group relative inline-flex cursor-pointer items-center gap-1 rounded-full border border-line bg-surface px-3 py-1 whitespace-nowrap text-ink hover:border-primary-line has-checked:border-primary has-checked:bg-primary-soft has-checked:font-semibold has-checked:text-primary has-focus-visible:outline-2 has-focus-visible:outline-primary";
+const kindLabels = Object.fromEntries(slugs.map((s) => [VOCAB_KINDS[s], VOCAB_KIND_LABEL[s]]));
 ---
 
 <Base title="Luyện tập từ vựng" description="Luyện từ vựng みんなの日本語 N5–N4 và N3: cách đọc, nghĩa, âm Hán-Việt, điền từ vào câu — chọn theo bài.">
@@ -38,26 +40,32 @@ const chip =
     <h1 class="text-2xl font-bold">Luyện tập từ vựng</h1>
 
     <div class="mt-4">
-      <QuizRunner question="Chọn đáp án đúng">
+      <QuizRunner question="Chọn đáp án đúng" kindLabels={kindLabels} balanceKinds>
         <Fragment slot="filters">
           <Segmented name="q-level" label="Cấp" options={VOCAB_LEVELS.map((l) => ({ id: `cap-${l}`, label: LEVEL_LESSONS[l].label }))} checked="cap-n5" />
-          <div class="flex flex-wrap items-center gap-2">
-            <label for="q-from">Bài:</label>
-            <select id="q-from" class={select} aria-label="Từ bài"></select>
-            <span>–</span>
-            <select id="q-to" class={select} aria-label="Đến bài"></select>
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <label for="q-from" class="seg-label shrink-0">Bài:</label>
+            <div class="flex items-center gap-2">
+              <select id="q-from" class={select} aria-label="Từ bài"></select>
+              <span>–</span>
+              <select id="q-to" class={select} aria-label="Đến bài"></select>
+            </div>
           </div>
-          <div class="flex items-baseline gap-3" role="group" aria-label="Loại câu">
-            <span class="shrink-0">Loại câu:</span>
-            <div class="flex flex-wrap gap-1.5">
-              {
-                slugs.map((s) => (
-                  <label class={chip} title={KIND_HINT[s]}>
-                    <input type="checkbox" name="q-kind" value={s} id={`loai-${s}`} class="sr-only" checked={s === "nghia"} />
-                    {VOCAB_KIND_LABEL[s]}
-                  </label>
-                ))
-              }
+          <div class="flex items-baseline gap-3" role="group" aria-label="Loại câu (chọn nhiều để trộn)">
+            <span class="seg-label shrink-0">Loại câu:</span>
+            <div>
+              <div class="flex flex-wrap gap-1.5">
+                {
+                  slugs.map((s) => (
+                    <label class={chip} title={KIND_HINT[s]}>
+                      <input type="checkbox" name="q-kind" value={s} id={`loai-${s}`} class="sr-only" checked={s === "nghia"} />
+                      <span class="hidden group-has-[:checked]:inline" aria-hidden="true">✓</span>
+                      {VOCAB_KIND_LABEL[s]}
+                    </label>
+                  ))
+                }
+              </div>
+              <p class="mt-1.5 text-xs text-ink-faint">Chọn nhiều để trộn — mỗi lượt chia đều số câu cho các loại.</p>
             </div>
           </div>
         </Fragment>
