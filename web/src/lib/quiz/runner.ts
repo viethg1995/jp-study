@@ -12,8 +12,10 @@ export interface QuizController {
    * Đặt bộ lọc và bắt đầu lượt mới (gọi trước khi tải xong cũng được — áp dụng khi có dữ liệu).
    * `decks`: URL các file Deck cần dùng (tải song song, nhớ đệm theo URL); bỏ trống = giữ dữ liệu hiện có
    * (nhúng sẵn / data-src). Mảng rỗng = không có câu nào.
+   * `toItems`: file không phải Deck (bảng chia gọn của quiz chia thể, Q6-1) → hàm sinh câu chạy trên trình duyệt,
+   * nhận JSON các file theo thứ tự `decks`; gọi lại mỗi lần setFilter (file vẫn nhớ đệm, không tải lại).
    */
-  setFilter(filter: Filter, decks?: readonly string[]): void;
+  setFilter(filter: Filter, decks?: readonly string[], toItems?: (data: unknown[]) => QuizItem[]): void;
 }
 
 const JA = /[぀-ヿ㐀-鿿豈-﫿々]/u;
@@ -266,16 +268,14 @@ export function mountQuiz(root: HTMLElement): QuizController {
   });
 
   // Nạp dữ liệu: nhúng sẵn, data-src, hoặc danh sách file Deck theo bộ lọc (setFilter)
-  const cache = new Map<string, Promise<QuizItem[]>>();
-  const fetchDeck = (url: string): Promise<QuizItem[]> => {
+  const cache = new Map<string, Promise<unknown>>();
+  const fetchJson = (url: string): Promise<unknown> => {
     let p = cache.get(url);
     if (!p) {
-      p = fetch(url)
-        .then((r) => {
-          if (!r.ok) throw new Error(`${r.status} ${url}`);
-          return r.json() as Promise<Deck>;
-        })
-        .then((d) => d.items);
+      p = fetch(url).then((r) => {
+        if (!r.ok) throw new Error(`${r.status} ${url}`);
+        return r.json() as Promise<unknown>;
+      });
       // lỗi mạng: không giữ trong cache để lần đổi bộ lọc sau thử lại
       p.catch(() => cache.delete(url));
       cache.set(url, p);
@@ -283,15 +283,16 @@ export function mountQuiz(root: HTMLElement): QuizController {
     return p;
   };
   let token = 0;
-  const loadDecks = (urls: readonly string[]): void => {
+  const deckItems = (data: unknown[]): QuizItem[] => data.flatMap((d) => (d as Deck).items);
+  const loadDecks = (urls: readonly string[], toItems: (data: unknown[]) => QuizItem[] = deckItems): void => {
     const my = ++token;
     all = null;
     loading.textContent = "Đang tải câu hỏi…";
     show(loading);
-    Promise.all(urls.map(fetchDeck))
-      .then((lists) => {
+    Promise.all(urls.map(fetchJson))
+      .then((data) => {
         if (my !== token) return; // bộ lọc đã đổi trong lúc tải
-        all = lists.flat();
+        all = toItems(data);
         start();
       })
       .catch(() => {
@@ -304,9 +305,9 @@ export function mountQuiz(root: HTMLElement): QuizController {
   else if (root.dataset.src) loadDecks([root.dataset.src]);
 
   return {
-    setFilter(f, decks) {
+    setFilter(f, decks, toItems) {
       filter = f;
-      if (decks) loadDecks(decks);
+      if (decks) loadDecks(decks, toItems);
       else start();
     },
   };

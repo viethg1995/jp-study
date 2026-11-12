@@ -3,7 +3,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { type KanjiSource, kanjiSource } from "../lib/quiz/kanji.ts";
-import { type Counter, counterFile, kanjiFile, radicalFile, strokeFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
+import { type ConjugationFile, conjugationFile, type Counter, counterFile, kanjiFile, radicalFile, strokeFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
 
 const DATA = fileURLToPath(new URL("../../../data/", import.meta.url));
 
@@ -32,4 +32,9 @@ export function loadKanjiSource(): KanjiSource {
   const radicals = radicalFile.parse(readJson("kanji/radicals.json")).radicals;
   const strokes = strokeFile.parse(readJson("kanji/strokes.json")).kanji;
   return kanjiSource(kanji, radicals, strokes, loadVocab().filter((e) => e.book === "n3"));
+}
+
+/** data/conjugation.json (nhóm, thể, bảng chia từng từ). */
+export function loadConjugation(): ConjugationFile {
+  return conjugationFile.parse(readJson("conjugation.json"));
 }

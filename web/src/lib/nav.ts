@@ -60,6 +60,7 @@ export const NAV: NavItem[] = [
       { label: "Động từ", href: "chia-the/dong-tu/" },
       { label: "Tính từ い", href: "chia-the/tinh-tu-i/" },
       { label: "Tính từ な", href: "chia-the/tinh-tu-na/" },
+      { label: "Luyện tập", href: "chia-the/quiz/" },
     ],
   },
   {

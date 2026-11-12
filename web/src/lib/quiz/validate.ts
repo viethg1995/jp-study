@@ -13,6 +13,8 @@ export interface DeckIssue {
 
 /** Số đáp án nhiễu tối thiểu để có 4 lựa chọn. */
 export const MIN_POOL = 3;
+/** Loại câu chỉ có 3 lựa chọn (Q6-3: nhóm động từ I/II/III). */
+export const MIN_POOL_BY_KIND: Readonly<Record<string, number>> = { "c-group": 2 };
 
 // Toàn chuỗi phải là dãy token ruby hợp lệ — parseRuby bỏ qua ký tự lạ ({ lẻ, | ngoài ngoặc) nên không tự báo lỗi.
 const RUBY_FULL = /^(?:\[\[|\]\]|\{[^{}|[\]]+\|[^{}|[\]]+\}|[^[\]{}|])*$/u;
@@ -76,7 +78,7 @@ export function checkDeck(items: readonly QuizItem[]): DeckIssue[] {
     // 2. đủ nhiễu khác nhau, không trùng
     const distinct = new Set(it.pool.map(shown));
     if (distinct.size !== it.pool.length) add("pool-too-small", `pool có mục trùng: ${it.pool.join(", ")}`);
-    else if (distinct.size < MIN_POOL) add("pool-too-small", `chỉ ${distinct.size} đáp án nhiễu`);
+    else if (distinct.size < (MIN_POOL_BY_KIND[it.kind] ?? MIN_POOL)) add("pool-too-small", `chỉ ${distinct.size} đáp án nhiễu`);
 
     // 5. câu hỏi không lộ đáp án (cả chữ hiển thị lẫn furigana của prompt)
     if (leaks(it)) add("leak", `"${it.answer}" lộ trong "${it.prompt}"`);

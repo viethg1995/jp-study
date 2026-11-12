@@ -206,7 +206,7 @@ Chọn nhiều phần + loại câu + khoảng bài → trộn deck. Thêm vào 
 
 **Lỗi dữ liệu bộ thủ (sửa ở pipeline `radicals.json`, không sửa `data/`):** tên dính số từ PDF — 戶 "Hộ 6", 斗 "Đầu 7", 方 "Phương 9"; thiếu biến thể quen thuộc (人 không có 亻, 水 không có 氵, 心 không có 忄… — chỉ 27/214 bộ có `variants`) → quiz "Tên bộ" hỏi 水 mà không kèm 氵.
 
-### Q6 — spec (chờ duyệt, 2026-11-12)
+### Q6 — spec (đã chốt Q6-1…Q6-5 theo đề xuất, 2026-11-12)
 
 **Số liệu** (`data/conjugation.json`, đo 2026-11-12):
 
@@ -251,6 +251,16 @@ Chọn nhiều phần + loại câu + khoảng bài → trộn deck. Thêm vào 
 
 **Test:** unit — sinh câu cho mọi từ × thể × loại → `checkDeck` 0 lỗi, ≤ 2% câu thiếu nhiễu; bảng ca đã biết (Q6-4); 154 cặp khả năng/bị động có `accepted`; lọc bài B: không câu nào có thể/từ bài > B; 9 từ thiếu thể không sinh câu thể đó. E2E `conjugation-quiz.spec.ts` theo checklist §6 + câu 3 lựa chọn (phím 4 không chọn gì) + lọc bài + nút "Luyện tập" + Furigana.
 
+**Sai khác so với spec Q6** (khi triển khai):
+
+| # | Spec | Thực tế | Lý do |
+|---|---|---|---|
+| 1 | Bảng động từ ~110KB gzip | **71KB** gzip (725KB gốc); tính từ い 7KB, な 9KB | Ước lượng cũ dư |
+| 2 | Hàm sinh chạy `checkDeck` như Q4/Q5 | Trên trình duyệt **không** gọi `checkDeck` (chiếm ~60% thời gian): nhiễu đã loại trùng đáp án + kiểm ruby lúc sinh, chỉ bỏ câu thiếu nhiễu / tự lộ; unit test chạy `checkDeck` trên toàn bộ dữ liệu (0 lỗi). Trường hợp nặng nhất (531 động từ × 20 thể × 3 loại) ~0,2–0,3s | Sinh lại mỗi lần đổi bộ lọc |
+| 3 | (spec không nêu) | Bỏ 5 câu Chia thể mệnh lệnh của động từ kính ngữ (くださいます → ください…) | Đáp án nằm sẵn trong đề (quy tắc 5) |
+| 4 | Nhiễu bù = thể khác của chính từ | Bù theo **cùng độ lịch sự** với đáp án rồi độ dài gần nhất (hỏi thể て → する/した/しろ, không phải しません); `c-which` cũng ưu tiên tên thể cùng độ lịch sự | Bù thể lịch sự cho câu thể thường lộ ngay |
+| 5 | (spec không nêu) | URL chỉ ghi `the` / `dt` khi **không** chọn đủ; mobile: dòng "Thể" đặt nhãn trên, "Nhóm từ" xuống dòng (375px tràn 20px) | URL gọn; không cuộn ngang |
+
 ## 5. Task tuần tự
 
 Mỗi task: làm → test → `npm run build` pass → commit → cập nhật STATUS. Không sang task sau khi task trước chưa xanh.
@@ -264,7 +274,7 @@ Mỗi task: làm → test → `npm run build` pass → commit → cập nhật S
 | **Q4** ✅ | **Quiz từ vựng** `/vocabulary/quiz/` | **Xong 2026-11-12** — `lib/quiz/kana.ts` (lỗi đọc máy sinh: trường âm, っ, âm nhỏ, đục; giữ đuôi ます/です), `lib/quiz/vocab.ts` (5 loại: đọc, nghĩa, từ, Hán-Việt, điền từ; gộp từ lặp → tag `lesson` nhiều giá trị; "Cũng đúng" theo tiêu chí chặt, loại nhiễu theo tiêu chí rộng), 15 file `/vocabulary/quiz/<cấp>-<loại>.json` (200–400KB gốc, ≤ 47KB gzip), trang lọc cấp / khoảng bài / loại câu (URL `cap`, `tu`, `den`, `loai`), nút "Luyện tập bài này", menu "Luyện tập". Đọc: 942/1.604 câu đủ 3 nhiễu máy sinh, còn lại bù cách đọc từ thật. Điền từ: bỏ danh từ riêng (câu dịch lộ tên). Test: unit 94 (15 deck × checkDeck, kích thước, trường hợp đã biết), e2e `vocab-quiz.spec.ts` 11 test × 2 màn hình; mẫu 100 câu đã soát |
 | Q4b | Điền từ cho từ đích **đã biến đổi** (526 câu, chủ yếu động từ) | Sau Q6: chia đáp án nhiễu cùng thể với từ đích (行きました → 食べました, 見ました) |
 | **Q5** ✅ | **Quiz Kanji + bộ thủ** — spec chi tiết ở §4 "Q5 — spec": `lib/quiz/kanji.ts` (`k-hv`, `k-mean`, `k-char`, `k-read`, `r-of`, `r-name`, `r-char`), 32 file Deck, trang `/kanji/quiz/` + `/kanji/bo-thu/quiz/`; link từ `/kanji/n5|n4|n3` và `/kanji/bo-thu/` | **Xong 2026-11-12** — `lib/quiz/kanji.ts` (7 loại; giống hình = chung thành phần KanjiVG → cùng bộ → số nét gần; nhớ đệm → 32 deck ~2s), `[deck].json.ts` 30 file `/kanji/quiz/<gt|tv>-<cấp>-<loại>.json` + 2 file `/kanji/bo-thu/quiz/<ten|chu>.json`, trang `/kanji/quiz/` (cấp, xếp theo, bài, loại câu) + `/kanji/bo-thu/quiz/` (phạm vi N5 145 / N4 165 / N3 174 / 214, loại câu), nút "Luyện tập" ở `/kanji/n5|n4|n3` (cả cấp + từng bài, 2 cách xếp) và `/kanji/bo-thu/`, menu. Test: unit 53 (32 deck × checkDeck + kích thước, khoảng bài, 個 nhiều bài, 2 âm HV, 込匂, Q5-4, 休/憩, 聞 giống hình, 大学 たいがく/おおがく, 問 → 口 nhiễu 門, 何 → 亻, 書 → 曰, 几/己), e2e `kanji-quiz.spec.ts` 12 × 2 màn hình (cả `BASE_PATH=/jp-study/`) |
-| **Q6** | **Quiz chia thể** (spec chi tiết ở §4 "Q6 — spec"): `lib/quiz/conjugation.ts` (quy tắc sinh lỗi nhóm/biến âm), `c-to`, `c-which`, `c-group`; endpoint theo nhóm; trang `/chia-the/quiz/` lọc nhóm từ + thể + bài; mục 6 trong STATUS hết TODO | Test bất biến; test bảng lỗi: 書きます→て có nhiễu かきて/かって, không có かいて; V2 たべられる ở `c-which` nhận cả 可能 và 受身; ngoại lệ (いきます→いって, ある, いい) đúng; kiểm tay |
+| **Q6** ✅ | **Quiz chia thể** (spec chi tiết ở §4 "Q6 — spec"): `lib/quiz/conjugation.ts` (quy tắc sinh lỗi nhóm/biến âm), `c-to`, `c-which`, `c-group`; endpoint theo nhóm; trang `/chia-the/quiz/` lọc nhóm từ + thể + bài; mục 6 trong STATUS hết TODO | **Xong 2026-11-12** — `lib/quiz/conjugation.ts` (bảng chia gọn `buildConjTable`, bộ chia sai `godan`/`ichidan`/biến âm て/い↔な, `conjItems` chạy trên trình duyệt), endpoint `/chia-the/quiz/<dong-tu|tinh-tu-i|tinh-tu-na>.json`, runner `setFilter(filter, decks, toItems)`, `checkDeck` cho phép câu 3 lựa chọn (`MIN_POOL_BY_KIND`), trang `/chia-the/quiz/` (nhóm từ, sách, đã học tới bài / bài N3, nhóm động từ, thể + Chọn hết/Bỏ chọn, loại câu, Furigana), nút "Luyện tập" ở trang thể + bảng chia, menu. Test: unit 23 (toàn bộ dữ liệu × checkDeck, 書きます/行きます/帰ります/食べます/いい/長い/きれい, 154 cặp khả năng = bị động, lọc bài 15/50, N3, 3 lựa chọn; thử bỏ bước loại trùng → 6 test đỏ), e2e `conjugation-quiz.spec.ts` 10 × 2 màn hình (cả `BASE_PATH`) |
 | **Q7** | **Quiz số đếm** `n-num` trên `/dem-so/quiz/` (tab hoặc loại câu) | Test bất biến; số 4/7/9 nhận mọi cách đọc hợp lệ |
 | **Q8** | **Trang tổng `/luyen-tap/`** + mục menu + thẻ trang chủ; trộn nhiều deck | Test trộn deck không trùng `id`; kiểm tay; SEO (`description`, 1 `<h1>`) |
 | **Q9** | (tùy D2) **Gõ kana**: chuyển romaji → kana khi gõ, chấm theo `answer` + `accepted` | Unit test chuyển romaji (しゃ, っ, ん trước nguyên âm…) |

@@ -52,6 +52,15 @@ const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
       <span class="mx-1">›</span>
       {group.name_vi}
     </p>
+    {
+      LIST_GROUPS.includes(f.group) && (
+        <p class="mt-2 text-sm">
+          <a href={`${base}/chia-the/quiz/?nhom=${GROUP_SLUG[f.group]}&the=${f.id}`} class="text-primary hover:underline" data-form-quiz>
+            Luyện tập {f.name_vi} →
+          </a>
+        </p>
+      )
+    }
     <div class="mt-2"><FormDetail f={f} examples={examples} base={base} /></div>
 
     <footer class="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5 text-sm">
