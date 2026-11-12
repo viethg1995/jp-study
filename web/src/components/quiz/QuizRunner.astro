@@ -1,7 +1,8 @@
 ---
 // Khung quiz dùng chung (plan/quiz.md, Q3): số câu/lượt, thẻ câu hỏi, 4 lựa chọn, phản hồi, tổng kết, làm lại câu sai.
-// Trang đặt bộ lọc riêng vào slot "filters", rồi trong script của trang gọi mountQuiz(root).setFilter(filter)
-// (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ) hoặc `src` (file JSON Deck, tải lười — deck lớn).
+// Trang đặt bộ lọc riêng vào slot "filters", rồi trong script của trang gọi mountQuiz(root).setFilter(filter, decks?)
+// (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ), `src` (một file Deck), hoặc không truyền gì
+// và trang chọn file Deck theo bộ lọc qua setFilter(filter, decks) — deck lớn chia nhiều file (vd từ vựng cấp × loại).
 // Script thường, không Preact (D1).
 import Segmented from "../ui/Segmented.astro";
 import type { QuizItem } from "../../lib/quiz/types";
@@ -10,13 +11,13 @@ interface Props {
   items?: QuizItem[];
   /** URL đầy đủ (đã ghép BASE_URL) tới file Deck JSON. */
   src?: string;
-  /** Câu dẫn dưới câu hỏi, vd "Đọc thế nào?". */
+  /** Câu dẫn mặc định dưới câu hỏi, vd "Đọc thế nào?" (câu hỏi có `question` riêng thì dùng của câu hỏi). */
   question?: string;
   /** Chữ trên link sang trang chi tiết. */
   linkLabel?: string;
 }
 const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →" } = Astro.props;
-if (!items === !src) throw new Error("QuizRunner: cần đúng một trong `items` hoặc `src`");
+if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
 const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 ---
 
@@ -54,7 +55,7 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 
     <p class="mt-4 text-center"><span data-q="prompt" class="font-bold text-ink"></span></p>
     <p data-q="hint" class="mt-2 text-center text-sm text-ink-muted"></p>
-    <p class="mt-1 text-center text-sm text-ink-faint">{question}</p>
+    <p data-q="question" class="mt-1 text-center text-sm text-ink-faint">{question}</p>
 
     <div data-q="options" class="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2"></div>
 

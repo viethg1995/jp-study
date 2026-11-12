@@ -28,7 +28,11 @@ describe("isValidRuby / rubyForms", () => {
     for (const s of ["かな", "{漢字|かんじ}です", "{明日|あした}[[{行|い}きます]]。", ""]) assert.ok(isValidRuby(s), s);
   });
   test("cú pháp sai", () => {
-    for (const s of ["{漢字", "漢字|かな", "{漢字|}", "[[あ", "あ]]", "[[あ[[い]]]]", "{a|b|c}"]) assert.ok(!isValidRuby(s), s);
+    for (const s of ["{漢字", "漢字|かな", "{漢字|}", "[[あ", "あ]]x{a|b}", "[[あ[[い]]]]", "{a|b|c}", "a}b"]) assert.ok(!isValidRuby(s), s);
+  });
+  test("chuỗi thường có ngoặc vuông lẻ là hợp lệ, hiển thị nguyên văn", () => {
+    assert.ok(isValidRuby("hút [thuốc lá]"));
+    assert.deepEqual(rubyForms("chậm, muộn [giờ]"), { text: "chậm, muộn [giờ]", reading: "chậm, muộn [giờ]" });
   });
   test("chữ hiển thị và cách đọc", () => {
     assert.deepEqual(rubyForms("{先生|せんせい}です"), { text: "先生です", reading: "せんせいです" });

@@ -34,19 +34,21 @@ export function isCorrect(item: Pick<QuizItem, "answer" | "accepted">, choice: s
   return [item.answer, ...item.accepted].some((a) => normalize(a) === c);
 }
 
-function tagOf(item: QuizItem, tag: string): TagValue | undefined {
+function tagOf(item: QuizItem, tag: string): TagValue | TagValue[] | undefined {
   return tag === "kind" ? item.kind : item.tags[tag];
 }
 
-function ruleMatches(value: TagValue | undefined, rule: TagRule): boolean {
+function ruleMatches(value: TagValue | TagValue[] | undefined, rule: TagRule): boolean {
   if (value === undefined) return false;
+  // tag nhiều giá trị (vd từ có ở bài 5 và 30): khớp nếu một giá trị khớp
+  if (Array.isArray(value)) return value.some((v) => ruleMatches(v, rule));
   if (Array.isArray(rule)) return rule.includes(value);
   const { min, max } = rule as { min?: number; max?: number };
   if (typeof value !== "number") return false;
   return (min === undefined || value >= min) && (max === undefined || value <= max);
 }
 
-/** Câu khớp mọi luật trong filter (thiếu tag mà có luật → không khớp). */
+/** Câu khớp mọi luật trong filter (thiếu tag mà có luật → không khớp; tag mảng → khớp nếu một giá trị khớp). */
 export function matches(item: QuizItem, filter: Filter): boolean {
   return Object.entries(filter).every(([tag, rule]) => ruleMatches(tagOf(item, tag), rule));
 }

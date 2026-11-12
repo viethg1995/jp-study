@@ -1,0 +1,147 @@
+---
+// Quiz từ vựng (Q4): chọn cấp → khoảng bài → loại câu (chọn nhiều). Câu hỏi sinh lúc build thành file
+// /vocabulary/quiz/<cấp>-<loại>.json (lib/quiz/vocab.ts), trang chỉ tải file của loại câu đang chọn.
+// Bộ lọc ghi lên URL (D6): ?cap=n5&tu=1&den=10&loai=doc,nghia — không localStorage.
+import QuizRunner from "../../../components/quiz/QuizRunner.astro";
+import Segmented from "../../../components/ui/Segmented.astro";
+import Base from "../../../layouts/Base.astro";
+import type { ParamDef } from "../../../lib/quiz/params";
+import { LEVEL_LESSONS, VOCAB_KIND_LABEL, VOCAB_KINDS, VOCAB_LEVELS, type VocabKindSlug } from "../../../lib/quiz/vocab";
+
+const slugs = Object.keys(VOCAB_KINDS) as VocabKindSlug[];
+const params: ParamDef[] = [
+  { param: "cap", tag: "level", type: "enum", options: Object.fromEntries(VOCAB_LEVELS.map((l) => [l, l])) },
+  { param: "tu", tag: "lesson", type: "min", lo: 1, hi: 50 },
+  { param: "den", tag: "lesson", type: "max", lo: 1, hi: 50 },
+  { param: "loai", tag: "kind", type: "enum", options: { ...VOCAB_KINDS }, multi: true },
+];
+const KIND_HINT: Record<VocabKindSlug, string> = {
+  doc: "先生 → せんせい",
+  nghia: "先生 → giáo viên",
+  tu: "giáo viên → 先生",
+  hv: "学生 → HỌC SINH",
+  dien: "điền từ vào câu ví dụ",
+};
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const select = "rounded-md border border-line bg-surface px-2 py-1 text-ink";
+const chip =
+  "relative cursor-pointer rounded-md border border-line px-3 py-1 whitespace-nowrap has-checked:border-primary has-checked:bg-primary has-checked:text-surface has-focus-visible:outline-2 has-focus-visible:outline-primary";
+---
+
+<Base title="Luyện tập từ vựng" description="Luyện từ vựng みんなの日本語 N5–N4 và N3: cách đọc, nghĩa, âm Hán-Việt, điền từ vào câu — chọn theo bài.">
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/vocabulary/`} class={navLink}>Từ vựng</a>
+  </nav>
+
+  <div class="mx-auto max-w-2xl">
+    <h1 class="text-2xl font-bold">Luyện tập từ vựng</h1>
+
+    <div class="mt-4">
+      <QuizRunner question="Chọn đáp án đúng">
+        <Fragment slot="filters">
+          <Segmented name="q-level" label="Cấp" options={VOCAB_LEVELS.map((l) => ({ id: `cap-${l}`, label: LEVEL_LESSONS[l].label }))} checked="cap-n5" />
+          <div class="flex flex-wrap items-center gap-2">
+            <label for="q-from">Bài:</label>
+            <select id="q-from" class={select} aria-label="Từ bài"></select>
+            <span>–</span>
+            <select id="q-to" class={select} aria-label="Đến bài"></select>
+          </div>
+          <div class="flex items-baseline gap-3" role="group" aria-label="Loại câu">
+            <span class="shrink-0">Loại câu:</span>
+            <div class="flex flex-wrap gap-1.5">
+              {
+                slugs.map((s) => (
+                  <label class={chip} title={KIND_HINT[s]}>
+                    <input type="checkbox" name="q-kind" value={s} id={`loai-${s}`} class="sr-only" checked={s === "nghia"} />
+                    {VOCAB_KIND_LABEL[s]}
+                  </label>
+                ))
+              }
+            </div>
+          </div>
+        </Fragment>
+      </QuizRunner>
+    </div>
+  </div>
+
+  <script type="application/json" id="q-config" set:html={JSON.stringify({ params, levels: LEVEL_LESSONS, kinds: VOCAB_KINDS })} />
+</Base>
+
+<script>
+  import { readFilter, writeFilter, type ParamDef } from "../../../lib/quiz/params";
+  import { mountQuiz } from "../../../lib/quiz/runner";
+  import type { Filter } from "../../../lib/quiz/types";
+
+  type Level = "n5" | "n4" | "n3";
+  const cfg = JSON.parse(document.getElementById("q-config")!.textContent ?? "{}") as {
+    params: ParamDef[];
+    levels: Record<Level, { from: number; to: number; label: string }>;
+    kinds: Record<string, string>;
+  };
+  const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+  const fromSel = document.getElementById("q-from") as HTMLSelectElement;
+  const toSel = document.getElementById("q-to") as HTMLSelectElement;
+  const kindBoxes = [...document.querySelectorAll<HTMLInputElement>('input[name="q-kind"]')];
+  const kindSlug = Object.fromEntries(Object.entries(cfg.kinds).map(([slug, kind]) => [kind, slug]));
+
+  const level = (): Level => (document.querySelector<HTMLInputElement>('input[name="q-level"]:checked')?.id.replace("cap-", "") ?? "n5") as Level;
+
+  /** Điền danh sách bài theo cấp; giữ giá trị nếu còn nằm trong khoảng, không thì về cả cấp. */
+  function fillLessons(from?: number, to?: number): void {
+    const r = cfg.levels[level()];
+    const inRange = (n: number | undefined): n is number => n !== undefined && n >= r.from && n <= r.to;
+    for (const sel of [fromSel, toSel]) {
+      sel.replaceChildren(
+        ...Array.from({ length: r.to - r.from + 1 }, (_, i) => {
+          const o = document.createElement("option");
+          o.value = o.textContent = String(r.from + i);
+          return o;
+        }),
+      );
+    }
+    fromSel.value = String(inRange(from) ? from : r.from);
+    toSel.value = String(inRange(to) ? to : r.to);
+  }
+
+  // URL → điều khiển
+  const fromUrl = readFilter(location.search, cfg.params);
+  const urlLevel = Array.isArray(fromUrl.level) ? (String(fromUrl.level[0]) as Level) : "n5";
+  (document.getElementById(`cap-${urlLevel}`) as HTMLInputElement).checked = true;
+  const lesson = fromUrl.lesson && !Array.isArray(fromUrl.lesson) ? (fromUrl.lesson as { min?: number; max?: number }) : {};
+  fillLessons(lesson.min, lesson.max);
+  if (Array.isArray(fromUrl.kind)) {
+    const want = new Set(fromUrl.kind.map((k) => kindSlug[String(k)]));
+    for (const b of kindBoxes) b.checked = want.has(b.value);
+  }
+
+  // Điều khiển → bộ lọc, file Deck, URL
+  const quiz = mountQuiz(document.querySelector<HTMLElement>("[data-quiz]")!);
+  function apply(): void {
+    const lv = level();
+    let from = Number(fromSel.value), to = Number(toSel.value);
+    if (from > to) [from, to] = [to, from];
+    const slugs = kindBoxes.filter((b) => b.checked).map((b) => b.value);
+    const kinds = slugs.map((s) => cfg.kinds[s]!);
+    const filter: Filter = { lesson: { min: from, max: to }, kind: kinds };
+    const qs = writeFilter({ level: [lv], lesson: { min: from, max: to }, kind: kinds }, cfg.params);
+    history.replaceState(null, "", `?${qs}`);
+    quiz.setFilter(filter, slugs.map((s) => `${base}vocabulary/quiz/${lv}-${s}.json`));
+  }
+  for (const r of document.querySelectorAll<HTMLInputElement>('input[name="q-level"]')) {
+    r.addEventListener("change", () => {
+      fillLessons();
+      apply();
+    });
+  }
+  fromSel.addEventListener("change", () => {
+    if (Number(fromSel.value) > Number(toSel.value)) toSel.value = fromSel.value;
+    apply();
+  });
+  toSel.addEventListener("change", () => {
+    if (Number(toSel.value) < Number(fromSel.value)) fromSel.value = toSel.value;
+    apply();
+  });
+  for (const b of kindBoxes) b.addEventListener("change", apply);
+  apply();
+</script>

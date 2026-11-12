@@ -78,6 +78,15 @@ describe("filterItems", () => {
   test("kết hợp nhiều luật (AND)", () => {
     assert.deepEqual(ids({ kind: ["v-read"], level: ["n5"], lesson: { min: 1 } }), ["a"]);
   });
+  test("tag nhiều giá trị: khớp nếu một giá trị khớp (từ có ở bài 5 và 30)", () => {
+    const multi = [item("m", { lesson: [5, 30], level: ["n5", "n4"] })];
+    const f = (x: Parameters<typeof filterItems>[1]): number => filterItems(multi, x).length;
+    assert.equal(f({ lesson: { min: 30, max: 30 } }), 1);
+    assert.equal(f({ lesson: { min: 1, max: 4 } }), 0);
+    assert.equal(f({ lesson: { min: 6, max: 29 } }), 0);
+    assert.equal(f({ level: ["n4"] }), 1);
+    assert.equal(f({ level: ["n3"] }), 0);
+  });
   test("khoảng số với giá trị chuỗi → không khớp", () => {
     assert.deepEqual(ids({ level: { min: 1 } }), []);
   });

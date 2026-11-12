@@ -30,6 +30,7 @@ export const NAV: NavItem[] = [
       { label: "N5 · Bài 1–25", href: "vocabulary/n5/" },
       { label: "N4 · Bài 26–50", href: "vocabulary/n4/" },
       { label: "N3 · Bài 1–14", href: "vocabulary/n3/" },
+      { label: "Luyện tập", href: "vocabulary/quiz/" },
     ],
   },
   {

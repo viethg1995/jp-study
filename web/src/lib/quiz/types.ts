@@ -13,6 +13,8 @@ export interface QuizItem {
   promptLang: "ja" | "vi";
   /** Dòng phụ dưới câu hỏi: "Thể て", "Bài 5"… */
   hint: string | null;
+  /** Câu dẫn riêng ("Đọc thế nào?"); không có → dùng câu dẫn chung của trang (prop `question` của QuizRunner). */
+  question?: string;
   /** Đáp án hiện trong 4 lựa chọn (có thể chứa ruby). */
   answer: string;
   /** Cách trả lời đúng khác — không đưa vào lựa chọn, nhưng chấm là đúng và hiện ở phần giải thích. */
@@ -23,8 +25,8 @@ export interface QuizItem {
   explain: string | null;
   /** Trang chi tiết, tương đối với BASE_URL, không có "/" đầu. */
   href: string;
-  /** Giá trị để lọc: { level: "n5", lesson: 5, group: "V1" }. */
-  tags: Record<string, TagValue>;
+  /** Giá trị để lọc: { level: "n5", lesson: [5, 30], group: "V1" }. Mảng = nhiều giá trị (khớp nếu một giá trị khớp). */
+  tags: Record<string, TagValue | TagValue[]>;
 }
 
 /** File JSON tĩnh một deck (tải lười). */

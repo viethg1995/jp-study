@@ -1,14 +1,19 @@
 // Phần chạy trên trình duyệt của components/quiz/QuizRunner.astro — chỉ vẽ DOM theo Session (session.ts).
 // Trang gọi: const quiz = mountQuiz(root); quiz.setFilter(filter) — lần đầu và mỗi khi bộ lọc đổi.
 import { parseRuby } from "../ruby";
+import { isRuby } from "./validate";
 import { filterItems } from "./core";
 import { mulberry32, randomSeed } from "./random";
 import { type Question, type Session, createSession } from "./session";
 import type { Deck, Filter, QuizItem } from "./types";
 
 export interface QuizController {
-  /** Đặt bộ lọc và bắt đầu lượt mới (gọi trước khi tải xong cũng được — áp dụng khi có dữ liệu). */
-  setFilter(filter: Filter): void;
+  /**
+   * Đặt bộ lọc và bắt đầu lượt mới (gọi trước khi tải xong cũng được — áp dụng khi có dữ liệu).
+   * `decks`: URL các file Deck cần dùng (tải song song, nhớ đệm theo URL); bỏ trống = giữ dữ liệu hiện có
+   * (nhúng sẵn / data-src). Mảng rỗng = không có câu nào.
+   */
+  setFilter(filter: Filter, decks?: readonly string[]): void;
 }
 
 const JA = /[぀-ヿ㐀-鿿豈-﫿々]/u;
@@ -17,10 +22,10 @@ const OPTION_CLASS =
   "data-[state=right]:border-success data-[state=right]:font-semibold data-[state=right]:text-success " +
   "data-[state=wrong]:border-danger data-[state=wrong]:bg-danger-soft data-[state=wrong]:text-danger";
 
-/** Vẽ chuỗi ruby {漢字|かな} thành <ruby> bằng DOM (không innerHTML). */
+/** Vẽ chuỗi ruby {漢字|かな} thành <ruby> bằng DOM (không innerHTML); chuỗi thường giữ nguyên văn. */
 export function renderRuby(el: HTMLElement, s: string): void {
   el.replaceChildren(
-    ...parseRuby(s).map((seg) => {
+    ...(isRuby(s) ? parseRuby(s) : [{ text: s, reading: null }]).map((seg) => {
       if (!seg.reading) return document.createTextNode(seg.text);
       const ruby = document.createElement("ruby");
       const rt = document.createElement("rt");
@@ -49,7 +54,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const card = q("card"), summary = q("summary"), empty = q("empty"), loading = q("loading");
   const prompt = q("prompt"), hint = q("hint"), optionsBox = q("options");
   const feedback = q("feedback"), verdict = q("verdict"), accepted = q("accepted"), explain = q("explain");
-  const link = q<HTMLAnchorElement>("link"), next = q<HTMLButtonElement>("next");
+  const link = q<HTMLAnchorElement>("link"), next = q<HTMLButtonElement>("next"), question = q("question");
+  const defaultQuestion = question.textContent ?? "";
   const base = (import.meta.env.BASE_URL ?? "/").replace(/\/?$/, "/");
   const rng = mulberry32(randomSeed());
 
@@ -92,6 +98,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
     const long = cur.item.prompt.length > 12;
     prompt.classList.toggle("text-5xl", cur.item.promptLang === "ja" && !long);
     prompt.classList.toggle("text-2xl", cur.item.promptLang !== "ja" || long);
+    question.textContent = cur.item.question ?? defaultQuestion;
     hint.textContent = cur.item.hint ?? "";
     hint.classList.toggle("hidden", !cur.item.hint);
 
@@ -202,29 +209,49 @@ export function mountQuiz(root: HTMLElement): QuizController {
     }
   });
 
-  // Nạp dữ liệu: nhúng sẵn hoặc tải file Deck
-  const inline = root.querySelector("script[data-quiz-items]");
-  const ready = (items: QuizItem[]): void => {
-    all = items;
-    start();
+  // Nạp dữ liệu: nhúng sẵn, data-src, hoặc danh sách file Deck theo bộ lọc (setFilter)
+  const cache = new Map<string, Promise<QuizItem[]>>();
+  const fetchDeck = (url: string): Promise<QuizItem[]> => {
+    let p = cache.get(url);
+    if (!p) {
+      p = fetch(url)
+        .then((r) => {
+          if (!r.ok) throw new Error(`${r.status} ${url}`);
+          return r.json() as Promise<Deck>;
+        })
+        .then((d) => d.items);
+      // lỗi mạng: không giữ trong cache để lần đổi bộ lọc sau thử lại
+      p.catch(() => cache.delete(url));
+      cache.set(url, p);
+    }
+    return p;
   };
-  if (inline) ready(JSON.parse(inline.textContent ?? "[]") as QuizItem[]);
-  else if (root.dataset.src) {
-    fetch(root.dataset.src)
-      .then((r) => {
-        if (!r.ok) throw new Error(String(r.status));
-        return r.json() as Promise<Deck>;
+  let token = 0;
+  const loadDecks = (urls: readonly string[]): void => {
+    const my = ++token;
+    all = null;
+    loading.textContent = "Đang tải câu hỏi…";
+    show(loading);
+    Promise.all(urls.map(fetchDeck))
+      .then((lists) => {
+        if (my !== token) return; // bộ lọc đã đổi trong lúc tải
+        all = lists.flat();
+        start();
       })
-      .then((deck) => ready(deck.items))
       .catch(() => {
-        loading.textContent = "Không tải được câu hỏi. Kiểm tra kết nối rồi tải lại trang.";
+        if (my === token) loading.textContent = "Không tải được câu hỏi. Kiểm tra kết nối rồi thử lại.";
       });
-  }
+  };
+
+  const inline = root.querySelector("script[data-quiz-items]");
+  if (inline) all = JSON.parse(inline.textContent ?? "[]") as QuizItem[];
+  else if (root.dataset.src) loadDecks([root.dataset.src]);
 
   return {
-    setFilter(f) {
+    setFilter(f, decks) {
       filter = f;
-      start();
+      if (decks) loadDecks(decks);
+      else start();
     },
   };
 }

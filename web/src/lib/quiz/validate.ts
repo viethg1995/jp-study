@@ -17,8 +17,17 @@ export const MIN_POOL = 3;
 // Toàn chuỗi phải là dãy token ruby hợp lệ — parseRuby bỏ qua ký tự lạ ({ lẻ, | ngoài ngoặc) nên không tự báo lỗi.
 const RUBY_FULL = /^(?:\[\[|\]\]|\{[^{}|[\]]+\|[^{}|[\]]+\}|[^[\]{}|])*$/u;
 
-/** Chuỗi ruby hợp lệ: token đúng cú pháp và [[ ]] đóng mở đúng cặp, không lồng. */
+/**
+ * Chuỗi có dùng cú pháp ruby không ({…|…} hoặc [[…]]). Chuỗi thường (nghĩa tiếng Việt "hút [thuốc lá]")
+ * hiển thị nguyên văn — parseRuby sẽ làm mất dấu [ ] lẻ nên không được đưa qua parser.
+ */
+export function isRuby(s: string): boolean {
+  return s.includes("{") || s.includes("[[");
+}
+
+/** Chuỗi hợp lệ: chuỗi thường luôn hợp lệ; chuỗi ruby phải đúng cú pháp và [[ ]] đóng mở đúng cặp, không lồng. */
 export function isValidRuby(s: string): boolean {
+  if (!isRuby(s)) return !s.includes("}") && !s.includes("|");
   if (!RUBY_FULL.test(s)) return false;
   let open = false;
   for (const m of s.matchAll(/\[\[|\]\]/g)) {
@@ -30,8 +39,17 @@ export function isValidRuby(s: string): boolean {
 
 /** Chữ hiển thị (bỏ furigana) và cách đọc (furigana thay cho chữ có ruby). */
 export function rubyForms(s: string): { text: string; reading: string } {
+  if (!isRuby(s)) return { text: s, reading: s };
   const segs = parseRuby(s);
   return { text: segs.map((x) => x.text).join(""), reading: segs.map((x) => x.reading ?? x.text).join("") };
+}
+
+/** Quy tắc 5: đáp án (chữ hoặc cách đọc) xuất hiện trong chữ hoặc furigana của câu hỏi. Hàm sinh câu hỏi dùng để lọc trước. */
+export function leaks(it: Pick<QuizItem, "prompt" | "answer">): boolean {
+  const p = rubyForms(it.prompt), a = rubyForms(it.answer);
+  const hay = [normalize(p.text), normalize(p.reading)];
+  const needles = [...new Set([normalize(a.text), normalize(a.reading)])].filter((n) => n.length > 0);
+  return needles.some((n) => hay.some((h) => h.includes(n)));
 }
 
 export function checkDeck(items: readonly QuizItem[]): DeckIssue[] {
@@ -61,10 +79,7 @@ export function checkDeck(items: readonly QuizItem[]): DeckIssue[] {
     else if (distinct.size < MIN_POOL) add("pool-too-small", `chỉ ${distinct.size} đáp án nhiễu`);
 
     // 5. câu hỏi không lộ đáp án (cả chữ hiển thị lẫn furigana của prompt)
-    const p = rubyForms(it.prompt), a = rubyForms(it.answer);
-    const hay = [normalize(p.text), normalize(p.reading)];
-    const needles = [...new Set([normalize(a.text), normalize(a.reading)])].filter((n) => n.length > 0);
-    if (needles.some((n) => hay.some((h) => h.includes(n)))) add("leak", `"${it.answer}" lộ trong "${it.prompt}"`);
+    if (leaks(it)) add("leak", `"${it.answer}" lộ trong "${it.prompt}"`);
   }
   return issues;
 }
