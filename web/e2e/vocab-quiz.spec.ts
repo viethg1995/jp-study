@@ -38,7 +38,7 @@ test("chọn nhiều loại câu → tải nhiều file, câu hỏi trộn loạ
   await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=5&loai=doc,nghia,tu");
   await expect(page.locator(card)).toBeVisible();
   expect(loaded.sort()).toEqual(["n5-doc.json", "n5-nghia.json", "n5-tu.json"]);
-  await page.locator("label:has(#q-size-all)").click();
+  await page.locator("label:has(#q-size-20)").click();
   const questions = new Set<string>();
   for (let i = 0; i < 15; i++) {
     questions.add((await page.locator('[data-q="question"]').textContent()) ?? "");
@@ -171,7 +171,7 @@ test("số câu tự nhập: 7 → lượt 7 câu; gõ số trong ô không ch�
   await expect(input).toHaveAttribute("aria-invalid", "true");
   await expect(page.locator('[data-q="of"]')).toHaveText(" / 7");
   // ô type=number tự chặn chữ; còn lại phải tự kiểm: ngoài khoảng, số lẻ
-  for (const bad of ["1000", "2.5"]) {
+  for (const bad of ["101", "2.5"]) {
     await input.fill(bad);
     await input.press("Enter");
     await expect(page.locator('[data-q="size-error"]'), bad).toBeVisible();

@@ -67,16 +67,15 @@ export function mountQuiz(root: HTMLElement): QuizController {
   let filter: Filter | null = null;
   let session: Session | null = null;
 
-  /** Số câu tự nhập: số nguyên 1–999, sai → null. */
+  /** Số câu tự nhập: số nguyên 1–100 (lượt dài hơn không ai làm hết), sai → null. */
   const customSize = (): number | null => {
     const raw = sizeInput.value.trim();
     const n = Number(raw);
-    return /^\d+$/.test(raw) && n >= 1 && n <= 999 ? n : null;
+    return /^\d+$/.test(raw) && n >= 1 && n <= 100 ? n : null;
   };
   const sizeId = (): string => root.querySelector<HTMLInputElement>('input[name="q-size"]:checked')?.id ?? "q-size-10";
   const roundSize = (): number | null => {
     const id = sizeId();
-    if (id === "q-size-all") return null;
     if (id === "q-size-custom") return customSize() ?? 10;
     return Number(id.replace("q-size-", "")) || 10;
   };

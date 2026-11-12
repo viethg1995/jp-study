@@ -41,8 +41,8 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
           options={[
             { id: "q-size-10", label: "10" },
             { id: "q-size-20", label: "20" },
+            { id: "q-size-100", label: "100" },
             { id: "q-size-custom", label: "Tự nhập" },
-            { id: "q-size-all", label: "Không giới hạn" },
           ]}
           checked="q-size-10"
           wrap
@@ -53,15 +53,15 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
             type="number"
             data-q="size-input"
             min="1"
-            max="999"
+            max="100"
             step="1"
             inputmode="numeric"
             value="30"
             class="w-20 rounded-md border border-line bg-surface px-2 py-1 text-ink aria-[invalid=true]:border-danger"
-            aria-label="Số câu một lượt (1–999)"
+            aria-label="Số câu một lượt (1–100)"
           />
           <span>câu</span>
-          <span data-q="size-error" class="hidden text-danger">Nhập số từ 1 đến 999</span>
+          <span data-q="size-error" class="hidden text-danger">Nhập số từ 1 đến 100</span>
         </label>
       </div>
     </div>

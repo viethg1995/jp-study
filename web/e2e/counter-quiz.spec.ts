@@ -83,11 +83,11 @@ test("URL → bộ lọc: ?tro=hon&o=tat-ca chỉ hỏi ～本, Combobox không 
   }
 });
 
-test("đổi bộ lọc → URL cập nhật; Không giới hạn → bỏ ' / N'", async ({ page }) => {
+test("đổi bộ lọc → URL cập nhật; 100 câu → ' / 100'", async ({ page }) => {
   await page.locator("label:has(#g-h)").click();
   await expect(page).toHaveURL(/nhom=h/);
-  await page.locator("label:has(#q-size-all)").click();
-  await expect(page.locator('[data-q="of"]')).toHaveText("");
+  await page.locator("label:has(#q-size-100)").click();
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 100");
 });
 
 test("bộ lọc không còn câu → thông báo rỗng", async ({ page }) => {
