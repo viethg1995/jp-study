@@ -31,6 +31,7 @@ npm run dev                        # http://localhost:4321
 npm run build                      # check:gates + test + astro check + build — phải pass trước khi push
 npm run check:gates                # chỉ chạy gate schema + localStorage (nhanh)
 npm run test                       # unit test (node --test, không thư viện ngoài)
+npm run test:e2e                   # e2e Playwright trên dist/ (chạy sau build)
 ```
 
 ## Test
@@ -38,6 +39,10 @@ npm run test                       # unit test (node --test, không thư viện 
 - File `src/**/*.test.ts`, chạy bằng `node:test` + `node:assert/strict`; `npm run build` đã gồm `npm run test`.
 - `scripts/register-ts.mjs` thêm đuôi `.ts` cho import tương đối (Vite cho phép bỏ đuôi, Node thì không). Module được test chỉ `import type` từ `content.config`/`astro:*` — import giá trị từ `astro:content` sẽ không chạy được dưới Node.
 - Đọc `data/` trong test qua `src/test/data.ts` (parse bằng zod ở `lib/schemas.ts`, như content collection). Test chạy trên **dữ liệu thật**: kiểm bất biến (vd đáp án đúng không lọt vào đáp án nhiễu), không chụp snapshot cả file.
+- **E2E** (`e2e/*.spec.ts`, Playwright ghim **1.64.1**): chạy trên bản build tĩnh `dist/` qua `scripts/serve-dist.mjs` (server tĩnh nhỏ, hỗ trợ `BASE_PATH`; không dùng `astro preview` vì bản này chạy nền và từ chối khi đã có server khác). Hai project: `desktop` 1280px, `mobile` 375px. Fixture `e2e/fixtures.ts`: chặn mạng ngoài (Google Fonts trả CSS rỗng) và tự fail khi trang có lỗi JS/console.
+  - Máy mới: `npx playwright install --only-shell chromium` (tải vào `~/.cache/ms-playwright`, ngoài repo).
+  - Thử với đường dẫn GitHub Pages: `BASE_PATH=/jp-study/ npx astro build && BASE_PATH=/jp-study/ npm run test:e2e`, xong build lại bản thường.
+  - Mỗi trang quiz mới (Q4–Q8) phải có file spec e2e; checklist kiểm tay ở `plan/quiz.md` §6 làm tự động hết mức có thể.
 
 ## Hệ thống thiết kế (chi tiết: `plan/design-system.md`)
 

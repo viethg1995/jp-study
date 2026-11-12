@@ -64,5 +64,5 @@ Cập nhật khi hoàn thành từng hạng mục.
 | 9 | Pipeline: ngữ pháp 50 bài | nguồn `sources/grammar/md/`; ưu tiên sau mục 6–8 |
 | 10 | Extract: PDF scan → OCR | chỉ khi cần nội dung sách scan |
 | 11 | Web: trang từ nối | Kanji, chia thể, đếm số đã xong; từ nối làm sau mục 8 |
-| 12 | Web: SRS, quiz, PWA, tìm kiếm | Quiz cho mọi phần: kế hoạch + task Q0–Q11 ở [quiz.md](quiz.md) (đã chốt D1–D6; Q1 hạ tầng test, Q2 lõi `lib/quiz/`, Q3 `QuizRunner` + chuyển quiz đếm số xong 2026-11-12); đếm số xong (7c) |
+| 12 | Web: SRS, quiz, PWA, tìm kiếm | Quiz cho mọi phần: kế hoạch + task Q0–Q11 ở [quiz.md](quiz.md) (đã chốt D1–D6; Q1 hạ tầng test, Q2 lõi `lib/quiz/`, Q3 `QuizRunner` + chuyển quiz đếm số, e2e Playwright xong 2026-11-12); đếm số xong (7c) |
 | 13 | Web: deploy GitHub Pages | Xong — https://viethg1995.github.io/jp-study/ ; `.github/workflows/deploy.yml` build `web/` mỗi lần push `main` (không chạy pipeline) |

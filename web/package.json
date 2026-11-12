@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "check": "astro check",
     "test": "node --import ./scripts/register-ts.mjs --test \"src/**/*.test.ts\"",
+    "test:e2e": "playwright test",
     "check:schema": "node scripts/check-schema-sync.ts",
     "check:storage": "node scripts/check-storage-keys.ts",
     "check:tokens": "node scripts/check-design-tokens.ts",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "@playwright/test": "1.64.1",
     "@types/node": "^22.20.5",
     "typescript": "^6.0.3"
   },
