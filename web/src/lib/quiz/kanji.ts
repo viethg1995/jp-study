@@ -140,7 +140,8 @@ function explainOf(k: KanjiEntry): string {
   if (k.han_viet.length) parts.push(k.han_viet.join(", "));
   if (k.meaning_vi) parts.push(k.meaning_vi);
   const read = [k.on.length ? `On: ${k.on.join("、")}` : "", k.kun.length ? `Kun: ${[...new Set(k.kun.map((x) => kunDisplay(x.replace(/-/g, ""))))].slice(0, 4).join("、")}` : ""].filter(Boolean);
-  return `${parts.join(" · ")}${read.length ? ` — ${read.join(" · ")}` : ""}`;
+  // mỗi ý một dòng (QuizRunner hiện explain với whitespace-pre-line)
+  return [parts.join(" · "), ...read].join("\n");
 }
 
 interface Ctx {

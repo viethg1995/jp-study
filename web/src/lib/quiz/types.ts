@@ -21,7 +21,7 @@ export interface QuizItem {
   accepted: string[];
   /** Đáp án nhiễu, "giống thật nhất" xếp trước; không chứa answer/accepted (checkDeck). */
   pool: string[];
-  /** Giải thích hiện sau khi trả lời. */
+  /** Giải thích hiện sau khi trả lời; "\n" = xuống dòng. */
   explain: string | null;
   /** Trang chi tiết, tương đối với BASE_URL, không có "/" đầu. */
   href: string;
