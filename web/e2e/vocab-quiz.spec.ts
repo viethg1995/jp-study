@@ -1,13 +1,21 @@
-// E2E quiz từ vựng /vocabulary/quiz/ (Q4): tải deck theo bộ lọc, URL, loại câu, nút "Luyện tập bài này".
-import { expect, optionHeights, test } from "./fixtures";
+// E2E quiz từ vựng /vocabulary/quiz/ (Q4): tải deck khi bấm Bắt đầu, URL, loại câu, nút "Luyện tập bài này",
+// khóa tùy chọn trong lúc làm bài (trừ Furigana).
+import { backToSetup, expect, optionHeights, startQuiz, test } from "./fixtures";
 
 const card = '[data-q="card"]';
 const prompt = '[data-q="prompt"]';
 
-test("mặc định: N5, bài 1–25, loại Nghĩa → câu hỏi tiếng Nhật, đáp án tiếng Việt; URL ghi bộ lọc", async ({ page }) => {
+test("mặc định: N5, bài 1–25, loại Nghĩa; chưa tải deck trước khi bấm Bắt đầu", async ({ page }) => {
+  const loaded: string[] = [];
+  page.on("request", (r) => {
+    if (r.url().endsWith(".json")) loaded.push(r.url().split("/").pop()!);
+  });
   await page.goto("vocabulary/quiz/");
-  await expect(page.locator(card)).toBeVisible();
   await expect(page).toHaveURL(/cap=n5&tu=1&den=25&loai=nghia/);
+  await expect(page.locator(card)).toBeHidden();
+  expect(loaded).toEqual([]);
+  await startQuiz(page);
+  expect(loaded).toEqual(["n5-nghia.json"]);
   await expect(page.locator('[data-q="question"]')).toHaveText("Nghĩa là gì?");
   await expect(page.locator(prompt)).toHaveAttribute("lang", "ja");
   await expect(page.locator(".q-opt")).toHaveCount(4);
@@ -15,12 +23,12 @@ test("mặc định: N5, bài 1–25, loại Nghĩa → câu hỏi tiếng Nhậ
 
 test("URL ?cap=n4&tu=30&den=30&loai=hv → Hán-Việt bài 30, đáp án viết hoa", async ({ page }) => {
   await page.goto("vocabulary/quiz/?cap=n4&tu=30&den=30&loai=hv");
-  await expect(page.locator(card)).toBeVisible();
   await expect(page.locator("#cap-n4")).toBeChecked();
   await expect(page.locator("#q-from")).toHaveValue("30");
   await expect(page.locator("#q-to")).toHaveValue("30");
   await expect(page.locator("#loai-hv")).toBeChecked();
   await expect(page.locator("#loai-nghia")).not.toBeChecked();
+  await startQuiz(page);
   for (let i = 0; i < 4; i++) {
     await expect(page.locator('[data-q="hint"]')).toContainText("Bài 30");
     const opts = await page.locator(".q-opt").allTextContents();
@@ -36,9 +44,9 @@ test("chọn nhiều loại câu → tải nhiều file, câu hỏi trộn loạ
     if (r.url().endsWith(".json")) loaded.push(r.url().split("/").pop()!);
   });
   await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=5&loai=doc,nghia,tu");
-  await expect(page.locator(card)).toBeVisible();
-  expect(loaded.sort()).toEqual(["n5-doc.json", "n5-nghia.json", "n5-tu.json"]);
   await page.locator("label:has(#q-size-20)").click();
+  await startQuiz(page);
+  expect(loaded.sort()).toEqual(["n5-doc.json", "n5-nghia.json", "n5-tu.json"]);
   const questions = new Set<string>();
   for (let i = 0; i < 15; i++) {
     questions.add((await page.locator('[data-q="question"]').textContent()) ?? "");
@@ -50,24 +58,42 @@ test("chọn nhiều loại câu → tải nhiều file, câu hỏi trộn loạ
 
 test("đổi cấp → khoảng bài về cả cấp mới (N3: 1–14), URL cập nhật", async ({ page }) => {
   await page.goto("vocabulary/quiz/?cap=n5&tu=3&den=7");
-  await expect(page.locator(card)).toBeVisible();
   await page.locator("label:has(#cap-n3)").click();
   await expect(page.locator("#q-from")).toHaveValue("1");
   await expect(page.locator("#q-to")).toHaveValue("14");
   await expect(page).toHaveURL(/cap=n3&tu=1&den=14/);
-  await expect(page.locator(card)).toBeVisible();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="hint"]')).toContainText("N3 · Bài");
 });
 
-test("bỏ hết loại câu → thông báo rỗng, không lỗi", async ({ page }) => {
+test("đang làm bài: khóa Cấp, Bài, Loại câu, Số câu; Furigana vẫn đổi được; Đổi tùy chọn → mở khóa", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?loai=tu");
+  await startQuiz(page);
+  await expect(page.locator('[data-q="start"]')).toBeHidden();
+  for (const sel of ["#cap-n4", "#q-from", "#q-to", "#loai-doc", "#q-size-20", "#q-size-custom"]) await expect(page.locator(sel)).toBeDisabled();
+  await expect(page.locator("#q-furi-off")).toBeEnabled();
+  await page.locator("label:has(#q-furi-off)").click();
+  await expect(page.locator("#q-furi-off")).toBeChecked();
+  await backToSetup(page);
+  await expect(page.locator(card)).toBeHidden();
+  await expect(page.locator("#cap-n4")).toBeEnabled();
+  await page.locator("label:has(#cap-n4)").click();
+  await expect(page).toHaveURL(/cap=n4/);
+  await startQuiz(page);
+  await expect(page.locator('[data-q="hint"]')).toContainText(/Bài (2[6-9]|[34]\d|50)/);
+});
+
+test("bỏ hết loại câu → bấm Bắt đầu báo rỗng, không lỗi", async ({ page }) => {
   await page.goto("vocabulary/quiz/");
-  await expect(page.locator(card)).toBeVisible();
   await page.locator("label:has(#loai-nghia)").click();
+  await page.locator('[data-q="start"]').click();
   await expect(page.locator('[data-q="empty"]')).toBeVisible();
+  await expect(page.locator("#loai-nghia")).toBeEnabled();
 });
 
 test("điền từ: câu có chỗ trống, gợi ý là câu dịch tiếng Việt", async ({ page }) => {
   await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=3&loai=dien");
-  await expect(page.locator(card)).toBeVisible();
+  await startQuiz(page);
   await expect(page.locator(prompt)).toContainText("＿＿＿");
   await expect(page.locator('[data-q="question"]')).toHaveText("Điền từ thích hợp");
   await expect(page.locator('[data-q="hint"]')).not.toBeEmpty();
@@ -79,25 +105,27 @@ test("mạng chậm → hiện 'Đang tải câu hỏi…' rồi mới ra câu h
     await route.continue();
   });
   await page.goto("vocabulary/quiz/?loai=doc");
+  await page.locator('[data-q="start"]').click();
   await expect(page.locator('[data-q="loading"]')).toBeVisible();
   await expect(page.locator('[data-q="loading"]')).toHaveText("Đang tải câu hỏi…");
   await expect(page.locator(card)).toBeVisible({ timeout: 15_000 });
 });
 
-test("lỗi mạng → báo lỗi; đổi bộ lọc thì thử tải lại", async ({ page, jsErrors }) => {
+test("lỗi mạng → báo lỗi, mở khóa tùy chọn; bấm Bắt đầu lại thì tải lại", async ({ page, jsErrors }) => {
   let fail = true;
   await page.route("**/vocabulary/quiz/*.json", (route) => (fail ? route.abort() : route.continue()));
   await page.goto("vocabulary/quiz/?loai=doc");
+  await page.locator('[data-q="start"]').click();
   await expect(page.locator('[data-q="loading"]')).toContainText("Không tải được");
+  await expect(page.locator("#loai-nghia")).toBeEnabled();
   fail = false;
-  await page.locator("label:has(#loai-nghia)").click();
-  await expect(page.locator(card)).toBeVisible();
+  await startQuiz(page);
   jsErrors.length = 0; // lỗi tải tài nguyên do cố ý chặn — không phải lỗi trang
 });
 
 test("trả lời → link tới đúng thẻ từ trong trang bài", async ({ page }) => {
   await page.goto("vocabulary/quiz/?cap=n5&tu=4&den=4&loai=nghia");
-  await expect(page.locator(card)).toBeVisible();
+  await startQuiz(page);
   await page.keyboard.press("1");
   const href = await page.locator('[data-q="link"]').getAttribute("href");
   expect(href).toMatch(/\/vocabulary\/4\/#mn-04-\d{3}$/);
@@ -110,19 +138,20 @@ test("nút 'Luyện tập bài này' ở bài 5 (Minna) và N3 bài 2 mở quiz 
   await page.goto("vocabulary/5/");
   await page.locator("[data-lesson-quiz]").click();
   await expect(page).toHaveURL(/vocabulary\/quiz\/\?cap=n5&tu=5&den=5/);
-  await expect(page.locator(card)).toBeVisible();
+  await startQuiz(page);
   await expect(page.locator('[data-q="hint"]')).toContainText("Bài 5");
 
   await page.goto("vocabulary/n3/2/");
   await page.locator("[data-lesson-quiz]").click();
   await expect(page).toHaveURL(/cap=n3&tu=2&den=2/);
+  await startQuiz(page);
   await expect(page.locator('[data-q="hint"]')).toContainText("N3 · Bài 2");
 });
 
 test("không cuộn ngang (nghĩa dài, câu ví dụ dài)", async ({ page }) => {
   for (const loai of ["nghia", "dien"]) {
     await page.goto(`vocabulary/quiz/?cap=n3&loai=${loai}`);
-    await expect(page.locator(card)).toBeVisible();
+    await startQuiz(page);
     await page.keyboard.press("1");
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     expect(overflow, loai).toBeLessThanOrEqual(0);
@@ -132,6 +161,7 @@ test("không cuộn ngang (nghĩa dài, câu ví dụ dài)", async ({ page }) =
 test("trộn đều: chọn 5 loại, lượt 20 câu → mỗi loại đúng 4 câu; nhãn loại câu hiện trên thẻ", async ({ page }) => {
   await page.goto("vocabulary/quiz/?cap=n5&loai=doc,nghia,tu,hv,dien");
   await page.locator("label:has(#q-size-20)").click();
+  await startQuiz(page);
   await expect(page.locator('[data-q="of"]')).toHaveText(" / 20");
   const counts: Record<string, number> = {};
   for (let i = 0; i < 20; i++) {
@@ -154,41 +184,37 @@ test("loại câu chọn nhiều: nút đang chọn có ✓, có dòng giải th
   await expect(page.getByText("Chọn nhiều để trộn")).toBeVisible();
 });
 
-test("số câu tự nhập: 7 → lượt 7 câu; gõ số trong ô không chọn đáp án; số sai báo lỗi, giữ lượt cũ", async ({ page }) => {
+test("số câu tự nhập: số sai báo lỗi và không cho bắt đầu; 3 → lượt 3 câu; Đổi tùy chọn → 10 câu", async ({ page }) => {
   await page.goto("vocabulary/quiz/?cap=n5&loai=nghia");
-  await expect(page.locator('[data-q="card"]')).toBeVisible();
   await page.locator("label:has(#q-size-custom)").click();
   const input = page.locator('[data-q="size-input"]');
   await expect(input).toBeVisible();
   await expect(input).toBeFocused();
-  await input.fill("7");
-  await input.press("Enter");
-  await expect(page.locator('[data-q="of"]')).toHaveText(" / 7");
-  await expect(page.locator('[data-q="total"]')).toHaveText("0"); // gõ "7" không bị coi là chọn đáp án
-  await input.fill("0");
-  await input.press("Enter");
-  await expect(page.locator('[data-q="size-error"]')).toBeVisible();
-  await expect(input).toHaveAttribute("aria-invalid", "true");
-  await expect(page.locator('[data-q="of"]')).toHaveText(" / 7");
-  // ô type=number tự chặn chữ; còn lại phải tự kiểm: ngoài khoảng, số lẻ
-  for (const bad of ["101", "2.5"]) {
+  // ô type=number tự chặn chữ; còn lại phải tự kiểm: 0, ngoài khoảng, số lẻ
+  for (const bad of ["0", "101", "2.5"]) {
     await input.fill(bad);
     await input.press("Enter");
     await expect(page.locator('[data-q="size-error"]'), bad).toBeVisible();
-    await expect(page.locator('[data-q="of"]')).toHaveText(" / 7");
+    await expect(input).toHaveAttribute("aria-invalid", "true");
+    await page.locator('[data-q="start"]').click();
+    await expect(page.locator(card), bad).toBeHidden();
   }
   await input.fill("3");
   await input.press("Enter");
   await expect(page.locator('[data-q="size-error"]')).toBeHidden();
-  await page.locator('[data-q="prompt"]').click(); // rời ô nhập
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 3");
+  await expect(page.locator('[data-q="total"]')).toHaveText("0");
   for (let i = 0; i < 3; i++) {
     await page.keyboard.press("1");
     await page.keyboard.press("Enter");
   }
   await expect(page.locator('[data-q="summary"]')).toBeVisible();
   await expect(page.locator('[data-q="sum-total"]')).toHaveText("3");
+  await backToSetup(page);
   await page.locator("label:has(#q-size-10)").click();
   await expect(page.locator('[data-q="size-box"]')).toBeHidden();
+  await startQuiz(page);
   await expect(page.locator('[data-q="of"]')).toHaveText(" / 10");
 });
 
@@ -202,9 +228,9 @@ test("bảng tùy chọn: mọi điều khiển cao bằng nhau 32px (Cấp, Bà
 
 test("Furigana: Ẩn → ẩn cách đọc ở câu hỏi và lựa chọn; phản hồi vẫn hiện; Hiện → hiện lại", async ({ page }) => {
   await page.goto("vocabulary/quiz/?cap=n5&loai=tu,dien");
-  await expect(page.locator(card)).toBeVisible();
   await expect(page.locator("#q-furi-on")).toBeChecked();
-  await page.locator("label:has(#q-furi-off)").click();
+  await startQuiz(page);
+  await page.locator("label:has(#q-furi-off)").click(); // đổi được giữa lượt
   const askRt = page.locator('[data-q="prompt"] rt, [data-q="options"] rt');
   let checkedAsk = false, checkedFeedback = false;
   for (let i = 0; i < 30 && !(checkedAsk && checkedFeedback); i++) {
@@ -228,6 +254,5 @@ test("Furigana: Ẩn → ẩn cách đọc ở câu hỏi và lựa chọn; ph�
 
 test("quiz đếm số không có dòng Furigana (câu hỏi không có furigana)", async ({ page }) => {
   await page.goto("dem-so/quiz/");
-  await expect(page.locator(card)).toBeVisible();
   await expect(page.locator("#q-furi-off")).toHaveCount(0);
 });

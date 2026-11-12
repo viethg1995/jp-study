@@ -1,5 +1,7 @@
 // Phần chạy trên trình duyệt của components/quiz/QuizRunner.astro — chỉ vẽ DOM theo Session (session.ts).
 // Trang gọi: const quiz = mountQuiz(root); quiz.setFilter(filter) — lần đầu và mỗi khi bộ lọc đổi.
+// Luồng: THIẾT LẬP (chỉ bảng tùy chọn + nút "Bắt đầu") → bấm Bắt đầu: tải câu hỏi, KHÓA mọi tùy chọn trừ dòng
+// [data-q-keep] (Furigana) → hết lượt: "Lượt mới" / "Làm lại câu sai" giữ tùy chọn, "Đổi tùy chọn" mở khóa về thiết lập.
 import { groupByTarget, parseRuby } from "../ruby";
 import { isRuby } from "./validate";
 import { filterItems } from "./core";
@@ -9,7 +11,7 @@ import type { Deck, Filter, QuizItem } from "./types";
 
 export interface QuizController {
   /**
-   * Đặt bộ lọc và bắt đầu lượt mới (gọi trước khi tải xong cũng được — áp dụng khi có dữ liệu).
+   * Ghi nhận bộ lọc (chỉ có tác dụng ở bước thiết lập; tải + bắt đầu khi người học bấm "Bắt đầu").
    * `decks`: URL các file Deck cần dùng (tải song song, nhớ đệm theo URL); bỏ trống = giữ dữ liệu hiện có
    * (nhúng sẵn / data-src). Mảng rỗng = không có câu nào.
    * `toItems`: file không phải Deck (bảng chia gọn của quiz chia thể, Q6-1) → hàm sinh câu chạy trên trình duyệt,
@@ -77,9 +79,17 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const base = (import.meta.env.BASE_URL ?? "/").replace(/\/?$/, "/");
   const rng = mulberry32(randomSeed());
 
+  const startBar = q("start-bar"), startBtn = q<HTMLButtonElement>("start"), lockedNote = q("locked-note");
+  const optionsPanel = root.querySelector<HTMLElement>(".quiz-options")!;
+
   let all: QuizItem[] | null = null;
   let filter: Filter | null = null;
   let session: Session | null = null;
+  /** Đang làm bài (đã bấm Bắt đầu) — tùy chọn bị khóa. */
+  let running = false;
+  /** File cần tải khi bấm Bắt đầu (setFilter / data-src); null = dùng `all` có sẵn. */
+  let pending: { decks: readonly string[]; toItems?: (data: unknown[]) => QuizItem[] } | null = null;
+  let disabledByLock: (HTMLInputElement | HTMLSelectElement | HTMLButtonElement)[] = [];
 
   /** Số câu tự nhập: số nguyên 1–100 (lượt dài hơn không ai làm hết), sai → null. */
   const customSize = (): number | null => {
@@ -102,6 +112,54 @@ export function mountQuiz(root: HTMLElement): QuizController {
     const pool = items ?? filterItems(all, filter);
     session = createSession(pool, rng, limit === undefined ? roundSize() : limit, groupOf);
     render();
+  }
+
+  /** Khóa / mở bảng tùy chọn; dòng [data-q-keep] (Furigana) luôn dùng được. */
+  function lock(on: boolean): void {
+    running = on;
+    if (on) {
+      disabledByLock = [...optionsPanel.querySelectorAll<HTMLInputElement | HTMLSelectElement | HTMLButtonElement>("input, select, button")].filter(
+        (el) => !el.disabled && !el.closest("[data-q-keep]"),
+      );
+      for (const el of disabledByLock) el.disabled = true;
+      optionsPanel.dataset.locked = "";
+    } else {
+      for (const el of disabledByLock) el.disabled = false;
+      disabledByLock = [];
+      delete optionsPanel.dataset.locked;
+    }
+    startBar.classList.toggle("hidden", on);
+    lockedNote.classList.toggle("hidden", !on);
+  }
+
+  /** Nút "Bắt đầu": kiểm số câu tự nhập → khóa → tải (nếu cần) → lượt đầu. */
+  function begin(): void {
+    if (running || !filter) return;
+    if (sizeId() === "q-size-custom" && !applyCustom()) {
+      sizeInput.focus();
+      return;
+    }
+    lock(true);
+    const go = (): void => {
+      if (filterItems(all ?? [], filter!).length === 0) {
+        lock(false);
+        show(empty);
+        return;
+      }
+      start();
+      card.scrollIntoView({ block: "start", behavior: "smooth" });
+    };
+    if (pending) loadDecks(pending.decks, go, pending.toItems);
+    else go();
+  }
+
+  /** "Đổi tùy chọn": bỏ lượt, mở khóa, về bước thiết lập. */
+  function setup(): void {
+    token++; // bỏ kết quả tải đang dở (nếu có)
+    session = null;
+    lock(false);
+    show(null);
+    startBtn.focus();
   }
 
   function render(): void {
@@ -220,17 +278,19 @@ export function mountQuiz(root: HTMLElement): QuizController {
     render();
   });
   q("restart").addEventListener("click", () => start());
+  q("setup").addEventListener("click", setup);
+  startBtn.addEventListener("click", begin);
   q("retry").addEventListener("click", () => {
     const wrong = session?.wrong() ?? [];
     if (wrong.length > 0) start(wrong, wrong.length);
   });
-  // Số câu: chọn sẵn → lượt mới ngay; "Tự nhập" → hiện ô nhập, lượt mới khi số hợp lệ (Enter / rời ô)
-  const applyCustom = (): void => {
+  // Số câu (chỉ ở bước thiết lập): "Tự nhập" → hiện ô nhập, báo lỗi ngay khi số sai; Bắt đầu kiểm lại
+  function applyCustom(): boolean {
     const ok = customSize() !== null;
     sizeInput.setAttribute("aria-invalid", ok ? "false" : "true");
     sizeError.classList.toggle("hidden", ok);
-    if (ok) start();
-  };
+    return ok;
+  }
   for (const r of root.querySelectorAll<HTMLInputElement>('input[name="q-size"]')) {
     r.addEventListener("change", () => {
       const custom = sizeId() === "q-size-custom";
@@ -242,7 +302,6 @@ export function mountQuiz(root: HTMLElement): QuizController {
         applyCustom();
       } else {
         sizeError.classList.add("hidden");
-        start();
       }
     });
   }
@@ -284,31 +343,37 @@ export function mountQuiz(root: HTMLElement): QuizController {
   };
   let token = 0;
   const deckItems = (data: unknown[]): QuizItem[] => data.flatMap((d) => (d as Deck).items);
-  const loadDecks = (urls: readonly string[], toItems: (data: unknown[]) => QuizItem[] = deckItems): void => {
+  const loadDecks = (urls: readonly string[], then: () => void, toItems: (data: unknown[]) => QuizItem[] = deckItems): void => {
     const my = ++token;
     all = null;
     loading.textContent = "Đang tải câu hỏi…";
     show(loading);
     Promise.all(urls.map(fetchJson))
       .then((data) => {
-        if (my !== token) return; // bộ lọc đã đổi trong lúc tải
+        if (my !== token) return; // đã về bước thiết lập trong lúc tải
         all = toItems(data);
-        start();
+        then();
       })
       .catch(() => {
-        if (my === token) loading.textContent = "Không tải được câu hỏi. Kiểm tra kết nối rồi thử lại.";
+        if (my !== token) return;
+        // mở khóa để người học bấm Bắt đầu thử lại (file lỗi không nằm trong cache)
+        lock(false);
+        loading.textContent = "Không tải được câu hỏi. Kiểm tra kết nối rồi bấm Bắt đầu để thử lại.";
       });
   };
 
   const inline = root.querySelector("script[data-quiz-items]");
   if (inline) all = JSON.parse(inline.textContent ?? "[]") as QuizItem[];
-  else if (root.dataset.src) loadDecks([root.dataset.src]);
+  else if (root.dataset.src) pending = { decks: [root.dataset.src] };
+  show(null);
+  startBtn.disabled = false; // sẵn sàng nhận "Bắt đầu" (nút disabled sẵn trong HTML)
 
   return {
     setFilter(f, decks, toItems) {
+      if (running) return; // tùy chọn đã khóa — không đổi giữa lượt
       filter = f;
-      if (decks) loadDecks(decks, toItems);
-      else start();
+      if (decks) pending = { decks, toItems };
+      show(null); // đổi tùy chọn → ẩn thông báo rỗng / lỗi cũ
     },
   };
 }

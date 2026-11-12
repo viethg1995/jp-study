@@ -4,6 +4,8 @@
 // class `seg-label` để thẳng cột — Segmented đã có sẵn), rồi trong script gọi mountQuiz(root).setFilter(filter, decks?)
 // (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ), `src` (một file Deck), hoặc không truyền gì
 // và trang chọn file Deck theo bộ lọc qua setFilter(filter, decks) — deck lớn chia nhiều file (vd từ vựng cấp × loại).
+// Luồng: mở trang chỉ thấy bảng tùy chọn + nút "Bắt đầu"; bấm Bắt đầu mới tải câu hỏi và hiện khung quiz; trong lúc
+// làm bài mọi tùy chọn bị khóa trừ Furigana (dòng [data-q-keep]); tổng kết có "Đổi tùy chọn" để mở khóa.
 // Script thường, không Preact (D1).
 import Segmented from "../ui/Segmented.astro";
 import type { QuizItem } from "../../lib/quiz/types";
@@ -33,7 +35,9 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
   {kindLabels && <script type="application/json" data-quiz-kinds set:html={JSON.stringify(kindLabels)} />}
 
   <fieldset class="rounded-lg border border-line bg-surface px-4 pt-1 pb-3 text-sm text-ink-muted">
-    <legend class="px-1 text-xs text-ink-faint">Tùy chọn luyện tập</legend>
+    <legend class="px-1 text-xs text-ink-faint">
+      Tùy chọn luyện tập<span data-q="locked-note" class="hidden"> · đã khóa trong lúc làm bài (Kết thúc lượt → Đổi tùy chọn)</span>
+    </legend>
     <div class="quiz-options flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
       <slot name="filters" />
       <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
@@ -68,21 +72,28 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
       </div>
       {
         furiganaToggle && (
-          <Segmented
-            name="q-furi"
-            label="Furigana"
-            options={[
-              { id: "q-furi-on", label: "Hiện" },
-              { id: "q-furi-off", label: "Ẩn" },
-            ]}
-            checked="q-furi-on"
-          />
+          <div data-q-keep>
+            <Segmented
+              name="q-furi"
+              label="Furigana"
+              options={[
+                { id: "q-furi-on", label: "Hiện" },
+                { id: "q-furi-off", label: "Ẩn" },
+              ]}
+              checked="q-furi-on"
+            />
+          </div>
         )
       }
     </div>
   </fieldset>
 
-  <p data-q="loading" class="mt-6 rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">Đang tải câu hỏi…</p>
+  <div data-q="start-bar" class="mt-4 flex justify-end">
+    <!-- disabled tới khi script gắn xong (runner bật) — bấm sớm lúc JS chưa tải sẽ không có tác dụng -->
+    <button type="button" data-q="start" class:list={[btn, "bg-primary px-6 text-surface hover:bg-primary-strong disabled:opacity-40"]} disabled>Bắt đầu →</button>
+  </div>
+
+  <p data-q="loading" class="mt-6 hidden rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">Đang tải câu hỏi…</p>
 
   <p data-q="empty" class="mt-6 hidden rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">
     Không có câu nào khớp bộ lọc. Thử nới bộ lọc ở trên.
@@ -130,11 +141,19 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     <div class="mt-6 flex flex-wrap justify-center gap-2">
       <button type="button" data-q="retry" class:list={[btn, "hidden border border-primary text-primary hover:bg-primary-soft"]}>Làm lại câu sai</button>
       <button type="button" data-q="restart" class:list={[btn, "bg-primary text-surface hover:bg-primary-strong"]}>Lượt mới</button>
+      <button type="button" data-q="setup" class:list={[btn, "border border-line text-ink hover:bg-primary-soft"]}>Đổi tùy chọn</button>
     </div>
   </section>
 </div>
 
 <style>
+  /* Đang làm bài: tùy chọn bị khóa (input đã disabled ở runner) — làm mờ, trừ dòng Furigana */
+  .quiz-options[data-locked] > :global(:not([data-q-keep])) {
+    opacity: 0.55;
+  }
+  .quiz-options[data-locked] > :global(:not([data-q-keep]) label) {
+    cursor: not-allowed;
+  }
   /* Ẩn furigana (thuần CSS): chỉ câu hỏi + các lựa chọn; phản hồi, giải thích, tổng kết vẫn hiện cách đọc.
      visibility (không display) để bật/tắt giữa chừng không làm nhảy bố cục — như công tắc ở trang bài. */
   :global([data-quiz]:has(#q-furi-off:checked) :is([data-q="prompt"], [data-q="options"]) rt) {

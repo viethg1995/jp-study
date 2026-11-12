@@ -261,6 +261,8 @@ Chọn nhiều phần + loại câu + khoảng bài → trộn deck. Thêm vào 
 | 4 | Nhiễu bù = thể khác của chính từ | Bù theo **cùng độ lịch sự** với đáp án rồi độ dài gần nhất (hỏi thể て → する/した/しろ, không phải しません); `c-which` cũng ưu tiên tên thể cùng độ lịch sự | Bù thể lịch sự cho câu thể thường lộ ngay |
 | 5 | (spec không nêu) | URL chỉ ghi `the` / `dt` khi **không** chọn đủ; mobile: dòng "Thể" đặt nhãn trên, "Nhóm từ" xuống dòng (375px tràn 20px) | URL gọn; không cuộn ngang |
 
+**Luồng làm bài (user yêu cầu 2026-11-12, áp dụng cho mọi trang quiz qua `QuizRunner`):** mở trang chỉ thấy bảng "Tùy chọn luyện tập" + nút **Bắt đầu** (chưa tải deck; nút `disabled` tới khi script sẵn sàng) → bấm Bắt đầu mới tải câu hỏi, hiện khung quiz và cuộn tới thẻ → trong lúc làm bài mọi tùy chọn bị **khóa** (input `disabled`, làm mờ, tiêu đề khung ghi "đã khóa") **trừ Furigana** (dòng `[data-q-keep]`) → tổng kết: "Làm lại câu sai" / "Lượt mới" giữ tùy chọn, **"Đổi tùy chọn"** mở khóa về bước thiết lập. Bộ lọc rỗng hoặc lỗi tải → mở khóa, bấm Bắt đầu để thử lại. Số câu tự nhập sai → không cho bắt đầu.
+
 ## 5. Task tuần tự
 
 Mỗi task: làm → test → `npm run build` pass → commit → cập nhật STATUS. Không sang task sau khi task trước chưa xanh.
@@ -289,7 +291,7 @@ Mỗi task: làm → test → `npm run build` pass → commit → cập nhật S
 
 - [ ] Desktop + mobile (375px): không cuộn ngang, nút đáp án đủ lớn, tiếng Nhật dùng Noto Sans JP.
 - [ ] Phím 1–4 chọn, Enter sang câu, không bắt phím khi đang gõ trong ô lọc.
-- [ ] Đổi bộ lọc → lượt mới; bộ lọc không còn câu → hiện thông báo, không lỗi.
+- [ ] Mở trang chỉ có bảng tùy chọn + "Bắt đầu" (chưa tải deck); bấm Bắt đầu → khung quiz, tùy chọn khóa trừ Furigana; tổng kết → "Đổi tùy chọn" mở khóa; bộ lọc không còn câu → Bắt đầu báo rỗng, tùy chọn vẫn mở.
 - [ ] Trả lời đúng/sai → màu theo token (đỏ chỉ cho sai), hiện giải thích + link chi tiết đúng.
 - [ ] Hết lượt → tổng kết, "Làm lại câu sai" chỉ chứa câu sai.
 - [ ] Không hiện thông tin biên tập (`ai-draft`, `review`).

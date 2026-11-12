@@ -48,3 +48,16 @@ export async function optionHeights(page: Page): Promise<number[]> {
     )
     .evaluateAll((els) => els.filter((e) => (e as HTMLElement).offsetParent !== null).map((e) => Math.round(e.getBoundingClientRect().height)));
 }
+
+/** Bấm "Bắt đầu" (bảng tùy chọn → khung quiz) và chờ câu hỏi đầu tiên. */
+export async function startQuiz(page: Page): Promise<void> {
+  await page.locator('[data-q="start"]').click();
+  await expect(page.locator('[data-q="card"]')).toBeVisible();
+}
+
+/** Từ tổng kết hoặc giữa lượt: Kết thúc lượt → "Đổi tùy chọn" (mở khóa bảng tùy chọn). */
+export async function backToSetup(page: Page): Promise<void> {
+  if (await page.locator('[data-q="card"]').isVisible()) await page.locator('[data-q="finish"]').click();
+  await page.locator('[data-q="setup"]').click();
+  await expect(page.locator('[data-q="start"]')).toBeVisible();
+}
