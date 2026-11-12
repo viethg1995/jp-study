@@ -5,7 +5,7 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { z } from "astro/zod";
-import { conjugationFile, counterFile, kanjiFile, radicalFile, strokeFile, vocabLesson } from "../src/lib/schemas.ts";
+import { conjugationFile, counterFile, kanjiFile, radicalFile, strokeFile, translationFile, vocabLesson } from "../src/lib/schemas.ts";
 
 type Json = Record<string, unknown>;
 type Shape =
@@ -101,6 +101,7 @@ const pairs: [string, z.ZodType][] = [
   ["strokes.schema.json", strokeFile],
   ["conjugation.schema.json", conjugationFile],
   ["counters.schema.json", counterFile],
+  ["translation.schema.json", translationFile],
 ];
 
 let failed = 0;

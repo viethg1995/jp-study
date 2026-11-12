@@ -149,7 +149,8 @@ def cmd_build(_: argparse.Namespace) -> int:
         print(f"  liên kết Minna ↔ N3: {sum(1 for e in n3_entries if any(i.startswith('mn-') for i in e.same_word))} từ N3")
     rc = _build_kanji(entries + n3_entries, kanjidic, n3_kanji, n3_places)
     rc = rc or _build_conjugation(entries + n3_entries)
-    return rc or _build_counters(entries)
+    rc = rc or _build_counters(entries)
+    return rc or _build_translation()
 
 
 def _build_conjugation(vocab: list) -> int:  # type: ignore[type-arg]
@@ -201,6 +202,29 @@ def _build_counters(vocab: list) -> int:  # type: ignore[type-arg]
     print(f"  đếm số    : {len(doc.counters)} trợ số từ, {n_ex} câu ví dụ | cảnh báo {len(rep.warnings)} "
           f"(chi tiết: {(root / '_report.json').relative_to(paths.ROOT)})")
     return 0
+
+
+def _build_translation() -> int:
+    """enrichment/translation/exercises/*.json → data/translation.json (đề luyện dịch, AI chấm qua worker/)."""
+    from jp_pipeline.schemas import TranslationFile
+    from jp_pipeline.transform.translation import build_translation
+
+    files = sorted((paths.ENRICH_TRANSLATION / "exercises").glob("*.json"))
+    try:
+        doc = build_translation({f.name: _read_json(f) for f in files})
+    except ValueError as ex:
+        print(f"LUYỆN DỊCH FAIL — {ex}")
+        return 1
+    _write_json(paths.OUT_TRANSLATION, doc.model_dump(mode="json"))
+    _write_json(paths.DATA_SCHEMA / "translation.schema.json", TranslationFile.model_json_schema())
+    drafts = sum(1 for e in doc.exercises if e.review == "auto")
+    print(f"  luyện dịch: {len(doc.exercises)} đề | chờ duyệt {drafts}")
+    return 0
+
+
+def cmd_build_translation(_: argparse.Namespace) -> int:
+    """Chỉ dựng data/translation.json (không cần từ điển/sources)."""
+    return _build_translation()
 
 
 def cmd_build_counters(_: argparse.Namespace) -> int:
@@ -1331,6 +1355,8 @@ def main() -> int:
     sub.add_parser("status", help="Bảng tóm tắt route các PDF").set_defaults(func=cmd_status)
     sub.add_parser("build-counters", help="Chỉ dựng data/counters.json (số đếm, trợ số từ)").set_defaults(
         func=cmd_build_counters)
+    sub.add_parser("build-translation", help="Chỉ dựng data/translation.json (đề luyện dịch)").set_defaults(
+        func=cmd_build_translation)
 
     def pdf_filters(p: argparse.ArgumentParser) -> None:
         p.add_argument("--only", help="Lọc theo tên/đường dẫn, vd: kanji hoặc \"books/N5/*\"")

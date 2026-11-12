@@ -33,6 +33,8 @@ ENRICH_KANJI = ROOT / "pipeline" / "enrichment" / "kanji"
 ENRICH_CONJ = ROOT / "pipeline" / "enrichment" / "conjugation"  # forms.json: quy tắc chia thể
 # counters.json (bảng trợ số từ), numbers.json (số đếm), sound-rules.json (biến âm), examples/*.txt (câu ví dụ)
 ENRICH_COUNTERS = ROOT / "pipeline" / "enrichment" / "counters"
+# exercises/lesson-LL.json: đề luyện dịch (người soạn/duyệt) → data/translation.json
+ENRICH_TRANSLATION = ROOT / "pipeline" / "enrichment" / "translation"
 ENRICH_VOCAB_AUTO = ENRICH_VOCAB / "_auto"
 ENRICH_VOCAB_DECISIONS = ENRICH_VOCAB / "_decisions"  # áp theo thứ tự tên file: 01-, 02-…
 
@@ -51,4 +53,5 @@ OUT_KANJI = DATA / "kanji"
 OUT_GRAMMAR = DATA / "grammar"
 OUT_COUNTERS = DATA / "counters.json"
 OUT_CONJUGATION = DATA / "conjugation.json"
+OUT_TRANSLATION = DATA / "translation.json"
 DATA_SCHEMA = DATA / "_schema"  # JSON Schema xuất từ schemas.py — web dùng để kiểm tra đồng bộ

@@ -496,3 +496,56 @@ class CounterFile(_Strict):
     numbers: NumberSystem
     sound_rules: list[SoundRule]
     counters: list[Counter]
+
+
+# ── Luyện dịch (đề dịch Việt/Anh → Nhật, chấm bằng AI qua Cloudflare Worker) ────────────────────────
+TRANSLATION_SCHEMA_VERSION = 1
+
+TRANSLATION_ID = re.compile(r"^t-\d{2}-\d{2}$")  # t-LL-NN: bài LL, đề thứ NN — ghi cứng, không sinh từ vị trí
+GRAMMAR_ID = re.compile(r"^g-\d{2}-\d+$")
+
+
+class TranslationSentence(_Strict):
+    prompt: str = Field(min_length=1, description="Câu đề (tiếng Việt hoặc tiếng Anh, theo prompt_lang của đề)")
+    references: list[str] = Field(min_length=1, description="Bản dịch mẫu tiếng Nhật (chữ thường, không ruby); nhiều cách đúng → nhiều mục")
+    note_vi: str | None = Field(description="Ghi chú cho AI chấm và người học (vd: chấp nhận cả thể thường)")
+
+    @field_validator("references")
+    @classmethod
+    def _refs(cls, v: list[str]) -> list[str]:
+        bad = [r for r in v if not r.strip() or "{" in r or "[[" in r]
+        if bad:
+            raise ValueError(f"bản dịch mẫu rỗng hoặc chứa cú pháp ruby: {bad}")
+        return v
+
+
+class TranslationExercise(_Strict):
+    id: str = Field(description="t-LL-NN — khóa cache/localStorage, KHÔNG được đổi")
+    lesson: int = Field(ge=1, le=50, description="Bài みんなの日本語 mà đề luyện")
+    title_vi: str = Field(min_length=1)
+    prompt_lang: Literal["vi", "en"] = Field(description="Ngôn ngữ của câu đề")
+    focus_vi: list[str] = Field(description="Điểm ngữ pháp/từ vựng đề nhắm tới — hiện cho người học và gửi cho AI")
+    grammar_refs: list[str] = Field(description="ID ngữ pháp g-LL-N liên quan")
+    sentences: list[TranslationSentence] = Field(min_length=1, max_length=12)
+    source: Literal["ai-draft", "user"]
+    review: ReviewStatus
+
+    @field_validator("id")
+    @classmethod
+    def _tid(cls, v: str) -> str:
+        if not TRANSLATION_ID.match(v):
+            raise ValueError(f"id không đúng dạng t-LL-NN: {v!r}")
+        return v
+
+    @field_validator("grammar_refs")
+    @classmethod
+    def _grefs(cls, v: list[str]) -> list[str]:
+        bad = [g for g in v if not GRAMMAR_ID.match(g)]
+        if bad:
+            raise ValueError(f"grammar_refs không hợp lệ: {bad}")
+        return v
+
+
+class TranslationFile(_Strict):
+    schema_version: int = TRANSLATION_SCHEMA_VERSION
+    exercises: list[TranslationExercise]

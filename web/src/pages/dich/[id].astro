@@ -1,0 +1,225 @@
+---
+// Một đề luyện dịch: đoạn văn (vi/en) → ô nhập tiếng Nhật → POST lên máy chấm (Cloudflare Worker, thư mục worker/).
+// URL máy chấm: PUBLIC_GRADER_URL (lúc build). Có PUBLIC_TURNSTILE_SITE_KEY → hiện captcha Turnstile.
+// Kết quả AI chỉ hiện trên trang, không lưu. Bản dịch mẫu ẩn đến khi chấm xong.
+import { getCollection } from "astro:content";
+import type { TranslationExercise } from "../../content.config";
+import Tag from "../../components/ui/Tag.astro";
+import Base from "../../layouts/Base.astro";
+import { clip } from "../../lib/seo";
+import { MAX_ANSWER_CHARS, exercisePath } from "../../lib/translation";
+
+export async function getStaticPaths() {
+  const all = (await getCollection("translation")).map((e) => e.data).sort((a, b) => a.id.localeCompare(b.id));
+  return all.map((ex, i) => ({ params: { id: ex.id }, props: { ex, prev: all[i - 1] ?? null, next: all[i + 1] ?? null } }));
+}
+
+interface Props {
+  ex: TranslationExercise;
+  prev: TranslationExercise | null;
+  next: TranslationExercise | null;
+}
+const { ex, prev, next } = Astro.props;
+const graderUrl = (import.meta.env.PUBLIC_GRADER_URL as string | undefined)?.replace(/\/$/, "") ?? "";
+const siteKey = (import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | undefined) ?? "";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const langLabel = ex.prompt_lang === "vi" ? "tiếng Việt" : "tiếng Anh";
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const payload = { id: ex.id, graderUrl, references: ex.sentences.map((s) => s.references) };
+---
+
+<Base
+  title={`Luyện dịch: ${ex.title_vi}`}
+  description={clip(`Bài ${ex.lesson} みんなの日本語 — dịch sang tiếng Nhật: ${ex.sentences.map((s) => s.prompt).join(" ")}`)}
+>
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/dich/`} class={navLink}>Tất cả đề</a>
+  </nav>
+
+  <div class="mx-auto max-w-2xl">
+    <p class="text-sm text-ink-faint">Bài {ex.lesson} · Dịch từ {langLabel} sang tiếng Nhật</p>
+    <h1 class="mt-1 text-2xl font-bold">{ex.title_vi}</h1>
+    {
+      ex.focus_vi.length > 0 && (
+        <p class="mt-2 flex flex-wrap gap-1.5">
+          {ex.focus_vi.map((f) => (
+            <span class="jp" lang="ja">
+              <Tag>{f}</Tag>
+            </span>
+          ))}
+        </p>
+      )
+    }
+
+    <section class="mt-5 rounded-lg border border-line bg-surface p-5">
+      <h2 class="text-sm font-semibold text-ink-faint">Đề</h2>
+      <ol class="mt-2 list-decimal space-y-1 pl-5 text-lg leading-relaxed text-ink" lang={ex.prompt_lang}>
+        {ex.sentences.map((s) => <li>{s.prompt}</li>)}
+      </ol>
+    </section>
+
+    <form id="t-form" class="mt-5">
+      <label for="t-answer" class="text-sm font-semibold text-ink">Bản dịch tiếng Nhật của bạn</label>
+      <textarea
+        id="t-answer"
+        name="answer"
+        rows="6"
+        maxlength={MAX_ANSWER_CHARS}
+        lang="ja"
+        required
+        class="jp mt-2 block w-full rounded-lg border border-line bg-surface p-3 text-lg leading-relaxed text-ink focus:border-primary focus:outline-none"
+        placeholder="Viết lần lượt từng câu, có thể xuống dòng sau mỗi câu…"></textarea>
+      <p class="mt-1 text-right text-xs text-ink-faint"><span id="t-count">0</span> / {MAX_ANSWER_CHARS}</p>
+
+      {siteKey && <div class="cf-turnstile mt-3" data-sitekey={siteKey} data-language="vi" />}
+
+      <div class="mt-3 flex flex-wrap items-center gap-3">
+        <button
+          type="submit"
+          id="t-submit"
+          class="rounded-md bg-primary px-5 py-2 font-semibold text-surface hover:bg-primary-strong disabled:opacity-40"
+          disabled={!graderUrl}
+        >
+          Chấm bài
+        </button>
+        <p id="t-status" class="text-sm text-ink-muted" aria-live="polite">
+          {!graderUrl && "Máy chấm chưa được cấu hình."}
+        </p>
+      </div>
+    </form>
+
+    <section id="t-result" class="mt-6 hidden" aria-live="polite">
+      <div id="t-summary" class="rounded-lg px-4 py-3"></div>
+      <ol id="t-sentences" class="mt-4 space-y-3"></ol>
+      <p class="mt-4 text-xs text-ink-faint">Nhận xét do AI tạo, có thể sai. Hỏi giáo viên khi chưa chắc.</p>
+    </section>
+
+    <nav class="mt-10 flex justify-between gap-3 text-sm">
+      {prev ? <a href={`${base}/${exercisePath(prev.id)}`} class={navLink}>← {prev.title_vi}</a> : <span />}
+      {next && <a href={`${base}/${exercisePath(next.id)}`} class={navLink}>{next.title_vi} →</a>}
+    </nav>
+  </div>
+
+  <script type="application/json" id="t-data" set:html={JSON.stringify(payload)} />
+  {siteKey && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />}
+</Base>
+
+<style>
+  [data-verdict="correct"] .t-verdict {
+    color: var(--color-success);
+  }
+  [data-verdict="minor"] .t-verdict {
+    color: var(--color-notice);
+  }
+  [data-verdict="wrong"] .t-verdict,
+  [data-verdict="missing"] .t-verdict {
+    color: var(--color-danger);
+  }
+</style>
+
+<script>
+  import { ERROR_LABELS, VERDICT_LABELS, type GradeResponse, type GradeResult } from "../../lib/translation";
+
+  interface Data {
+    id: string;
+    graderUrl: string;
+    references: string[][];
+  }
+  interface TurnstileApi {
+    reset(): void;
+  }
+
+  const data = JSON.parse(document.getElementById("t-data")!.textContent ?? "{}") as Data;
+  const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
+  const form = $<HTMLFormElement>("t-form");
+  const answer = $<HTMLTextAreaElement>("t-answer");
+  const submit = $<HTMLButtonElement>("t-submit");
+  const status = $("t-status"), count = $("t-count");
+  const resultBox = $("t-result"), summary = $("t-summary"), list = $("t-sentences");
+
+  answer.addEventListener("input", () => (count.textContent = String(answer.value.length)));
+
+  /** Tạo phần tử, nội dung qua textContent (không dùng innerHTML với chữ do AI sinh). */
+  function el<K extends keyof HTMLElementTagNameMap>(tag: K, cls: string, text?: string): HTMLElementTagNameMap[K] {
+    const e = document.createElement(tag);
+    e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+
+  function render(r: GradeResult): void {
+    const tone = r.overall === "good" ? "bg-primary-soft" : r.overall === "minor" ? "bg-notice-soft" : "bg-danger-soft";
+    summary.className = `rounded-lg px-4 py-3 ${tone}`;
+    const right = r.sentences.filter((s) => s.verdict === "correct").length;
+    summary.replaceChildren(
+      el("p", "font-semibold text-ink", `Đúng ${right} / ${r.sentences.length} câu`),
+      el("p", "mt-1 text-sm text-ink-muted", r.summary_vi),
+    );
+
+    list.replaceChildren(
+      ...r.sentences.map((s) => {
+        const li = el("li", "rounded-lg border border-line bg-surface p-4");
+        li.dataset.verdict = s.verdict;
+        const head = el("p", "flex items-baseline gap-2 text-sm");
+        head.append(el("span", "text-ink-faint", `Câu ${s.index}`), el("span", "t-verdict font-semibold", VERDICT_LABELS[s.verdict]));
+        li.append(head);
+
+        if (s.learner) li.append(el("p", "jp mt-1 text-lg text-ink", s.learner));
+        if (s.verdict !== "correct" && s.corrected && s.corrected !== s.learner) {
+          const fix = el("p", "mt-1 text-sm text-ink-muted", "Sửa: ");
+          fix.append(el("span", "jp text-lg font-semibold text-primary", s.corrected));
+          li.append(fix);
+        }
+        if (s.errors.length > 0) {
+          const ul = el("ul", "mt-2 space-y-1 text-sm");
+          for (const err of s.errors) {
+            const item = el("li", "text-ink-muted");
+            item.append(el("span", "mr-1 text-xs font-medium text-ink-faint", `[${ERROR_LABELS[err.type] ?? err.type}]`));
+            if (err.excerpt) item.append(el("span", "jp mr-1 text-danger", `「${err.excerpt}」`));
+            item.append(document.createTextNode(err.explanation_vi));
+            ul.append(item);
+          }
+          li.append(ul);
+        }
+        const refs = data.references[s.index - 1] ?? [];
+        if (refs.length > 0) {
+          const det = el("details", "mt-2 text-sm");
+          det.append(el("summary", "cursor-pointer text-primary", "Bản dịch mẫu"));
+          for (const ref of refs) det.append(el("p", "jp mt-1 text-ink", ref));
+          li.append(det);
+        }
+        return li;
+      }),
+    );
+    resultBox.classList.remove("hidden");
+    resultBox.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const text = answer.value.trim();
+    if (!text || !data.graderUrl) return;
+    submit.disabled = true;
+    status.textContent = "Đang chấm… (có thể mất 10–20 giây)";
+    const token = new FormData(form).get("cf-turnstile-response");
+    try {
+      const res = await fetch(`${data.graderUrl}/grade`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ exerciseId: data.id, answer: text, turnstileToken: typeof token === "string" ? token : undefined }),
+      });
+      const body = (await res.json()) as GradeResponse;
+      if (body.ok) {
+        render(body.result);
+        status.textContent = "";
+      } else {
+        status.textContent = body.message_vi;
+      }
+    } catch {
+      status.textContent = "Không kết nối được máy chấm. Kiểm tra mạng rồi thử lại.";
+    } finally {
+      submit.disabled = false;
+      (window as unknown as { turnstile?: TurnstileApi }).turnstile?.reset();
+    }
+  });
+</script>

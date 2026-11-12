@@ -1,0 +1,39 @@
+[
+  {
+    "id": "t-02-01",
+    "lesson": 2,
+    "title_vi": "Đồ vật của ai?",
+    "prompt_lang": "vi",
+    "focus_vi": ["これ / それ / あれ", "この N", "何の N", "だれの"],
+    "grammar_refs": [],
+    "sentences": [
+      {
+        "prompt": "Đây là quyển sách.",
+        "references": ["これは本です。"],
+        "note_vi": null
+      },
+      {
+        "prompt": "Đó là sách về cái gì?",
+        "references": ["それは何の本ですか。"],
+        "note_vi": null
+      },
+      {
+        "prompt": "Đó là sách tiếng Nhật.",
+        "references": ["それは日本語の本です。", "これは日本語の本です。"],
+        "note_vi": "Chấp nhận これ hoặc それ tùy vị trí người nói."
+      },
+      {
+        "prompt": "Cái ô này là của ai?",
+        "references": ["この傘はだれのですか。", "この傘はだれの傘ですか。"],
+        "note_vi": null
+      },
+      {
+        "prompt": "Đó là của tôi.",
+        "references": ["それはわたしのです。", "わたしのです。"],
+        "note_vi": null
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  }
+]

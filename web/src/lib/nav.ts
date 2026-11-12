@@ -76,6 +76,14 @@ export const NAV: NavItem[] = [
     ],
   },
   {
+    id: "translation",
+    label: "Luyện dịch",
+    glyph: "訳",
+    glyphMeaning: "訳 — dịch",
+    description: "Dịch đoạn văn tiếng Việt, tiếng Anh sang tiếng Nhật, AI chấm và chỉ ra câu sai",
+    href: "dich/",
+  },
+  {
     id: "conjunctions",
     label: "Từ nối",
     glyph: "接",

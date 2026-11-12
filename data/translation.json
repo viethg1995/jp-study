@@ -1,0 +1,160 @@
+{
+  "exercises": [
+    {
+      "focus_vi": [
+        "N1 は N2 です",
+        "N1 は N2 じゃありません",
+        "N1 の N2",
+        "N も"
+      ],
+      "grammar_refs": [],
+      "id": "t-01-01",
+      "lesson": 1,
+      "prompt_lang": "vi",
+      "review": "auto",
+      "sentences": [
+        {
+          "note_vi": "Có thể lược わたしは.",
+          "prompt": "Tôi là Lan.",
+          "references": [
+            "わたしはランです。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "Tôi là sinh viên người Việt Nam.",
+          "references": [
+            "わたしはベトナムの学生です。",
+            "わたしはベトナム人の学生です。"
+          ]
+        },
+        {
+          "note_vi": "Nói về người khác thì dùng 教師 hay 先生 đều được.",
+          "prompt": "Anh Tanaka không phải là giáo viên.",
+          "references": [
+            "田中さんは先生じゃありません。",
+            "田中さんは先生ではありません。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "Anh Tanaka là nhân viên công ty.",
+          "references": [
+            "田中さんは会社員です。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "Chị Mai cũng là sinh viên.",
+          "references": [
+            "マイさんも学生です。"
+          ]
+        }
+      ],
+      "source": "ai-draft",
+      "title_vi": "Giới thiệu bản thân"
+    },
+    {
+      "focus_vi": [
+        "N1 は N2 ですか",
+        "いいえ、～じゃありません",
+        "N1 の N2"
+      ],
+      "grammar_refs": [],
+      "id": "t-01-02",
+      "lesson": 1,
+      "prompt_lang": "en",
+      "review": "auto",
+      "sentences": [
+        {
+          "note_vi": "Có thể lược あなたは hoặc thay bằng tên + さん.",
+          "prompt": "Are you Japanese?",
+          "references": [
+            "あなたは日本人ですか。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "No, I am not Japanese.",
+          "references": [
+            "いいえ、日本人じゃありません。",
+            "いいえ、わたしは日本人ではありません。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "I am Vietnamese.",
+          "references": [
+            "わたしはベトナム人です。",
+            "ベトナム人です。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "Mr. Kimura is a teacher at Sakura University.",
+          "references": [
+            "木村さんはさくら大学の先生です。"
+          ]
+        }
+      ],
+      "source": "ai-draft",
+      "title_vi": "Hỏi quốc tịch, nghề nghiệp"
+    },
+    {
+      "focus_vi": [
+        "これ / それ / あれ",
+        "この N",
+        "何の N",
+        "だれの"
+      ],
+      "grammar_refs": [],
+      "id": "t-02-01",
+      "lesson": 2,
+      "prompt_lang": "vi",
+      "review": "auto",
+      "sentences": [
+        {
+          "note_vi": null,
+          "prompt": "Đây là quyển sách.",
+          "references": [
+            "これは本です。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "Đó là sách về cái gì?",
+          "references": [
+            "それは何の本ですか。"
+          ]
+        },
+        {
+          "note_vi": "Chấp nhận これ hoặc それ tùy vị trí người nói.",
+          "prompt": "Đó là sách tiếng Nhật.",
+          "references": [
+            "それは日本語の本です。",
+            "これは日本語の本です。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "Cái ô này là của ai?",
+          "references": [
+            "この傘はだれのですか。",
+            "この傘はだれの傘ですか。"
+          ]
+        },
+        {
+          "note_vi": null,
+          "prompt": "Đó là của tôi.",
+          "references": [
+            "それはわたしのです。",
+            "わたしのです。"
+          ]
+        }
+      ],
+      "source": "ai-draft",
+      "title_vi": "Đồ vật của ai?"
+    }
+  ],
+  "schema_version": 1
+}

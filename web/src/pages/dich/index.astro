@@ -1,0 +1,54 @@
+---
+// Luyện dịch — danh sách đề theo bài. Mỗi đề: đoạn văn tiếng Việt/Anh → học viên dịch sang tiếng Nhật → AI chấm.
+import { getCollection } from "astro:content";
+import Tag from "../../components/ui/Tag.astro";
+import Base from "../../layouts/Base.astro";
+import { exercisePath } from "../../lib/translation";
+
+const exercises = (await getCollection("translation")).map((e) => e.data).sort((a, b) => a.id.localeCompare(b.id));
+const lessons = [...new Set(exercises.map((e) => e.lesson))].sort((a, b) => a - b);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title="Luyện dịch" description="Luyện dịch câu tiếng Việt, tiếng Anh sang tiếng Nhật theo từng bài みんなの日本語, có AI chấm và chỉ ra câu sai.">
+  <div class="mx-auto max-w-3xl">
+    <h1 class="text-2xl font-bold">Luyện dịch</h1>
+    <p class="mt-1 text-ink-muted">
+      Đọc đoạn văn tiếng Việt hoặc tiếng Anh, dịch sang tiếng Nhật rồi bấm <b class="font-semibold text-ink">Chấm bài</b>. AI sẽ so
+      với bản dịch mẫu và chỉ ra câu sai.
+    </p>
+
+    {exercises.length === 0 && <p class="mt-6 text-ink-muted">Chưa có đề nào.</p>}
+
+    {
+      lessons.map((lesson) => (
+        <section class="mt-8">
+          <h2 class="text-lg font-bold">Bài {lesson}</h2>
+          <ul class="mt-3 grid gap-3 sm:grid-cols-2">
+            {exercises
+              .filter((e) => e.lesson === lesson)
+              .map((e) => (
+                <li>
+                  <a
+                    href={`${base}/${exercisePath(e.id)}`}
+                    class="group block h-full rounded-lg border border-line bg-surface px-5 py-4 hover:border-primary-line hover:bg-primary-soft"
+                  >
+                    <p class="flex items-center gap-2">
+                      <span class="font-semibold text-ink group-hover:text-primary">{e.title_vi}</span>
+                      <Tag>{e.prompt_lang === "vi" ? "Việt → Nhật" : "Anh → Nhật"}</Tag>
+                    </p>
+                    <p class="mt-1 text-sm text-ink-muted">{e.sentences.length} câu</p>
+                    {e.focus_vi.length > 0 && (
+                      <p class="jp mt-1 text-sm text-ink-faint" lang="ja">
+                        {e.focus_vi.join(" · ")}
+                      </p>
+                    )}
+                  </a>
+                </li>
+              ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>
