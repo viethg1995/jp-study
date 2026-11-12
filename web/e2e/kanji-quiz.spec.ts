@@ -113,9 +113,35 @@ test.describe("/kanji/bo-thu/quiz/", () => {
   test("mặc định: phạm vi Kanji N5, cả 2 loại câu; URL ghi bộ lọc", async ({ page }) => {
     await page.goto("kanji/bo-thu/quiz/");
     await expect(page.locator(card)).toBeVisible();
-    await expect(page).toHaveURL(/pham-vi=n5&loai=ten,chu/);
+    await expect(page).toHaveURL(/pham-vi=n5&net-tu=1&net-den=17&loai=ten,chu/);
+    await expect(page.locator("[data-radical-count]")).toHaveText("Đang chọn: 145 bộ");
     await expect(page.locator("label:has(#pv-n5)")).toContainText("145");
     await expect(page.locator("label:has(#pv-tat-ca)")).toContainText("214");
+  });
+
+  test("Số nét: URL net-tu=3&net-den=3 → chỉ hỏi bộ 3 nét, đếm 31 bộ; đổi ô chọn → URL + số đếm cập nhật", async ({ page }) => {
+    await page.goto("kanji/bo-thu/quiz/?pham-vi=tat-ca&net-tu=3&net-den=3");
+    await expect(page.locator(card)).toBeVisible();
+    await expect(page.locator("#q-snet-from")).toHaveValue("3");
+    await expect(page.locator("#q-snet-to")).toHaveValue("3");
+    await expect(page.locator("[data-radical-count]")).toHaveText("Đang chọn: 31 bộ");
+    for (let i = 0; i < 5; i++) {
+      await expect(page.locator('[data-q="hint"]')).toHaveText("3 nét");
+      await page.keyboard.press("1");
+      await page.keyboard.press("Enter");
+    }
+    await page.locator("#q-snet-to").selectOption("4");
+    await expect(page).toHaveURL(/net-tu=3&net-den=4/);
+    await expect(page.locator("[data-radical-count]")).toHaveText("Đang chọn: 65 bộ");
+    // "từ" lớn hơn "đến" → kéo "đến" theo
+    await page.locator("#q-snet-from").selectOption("6");
+    await expect(page.locator("#q-snet-to")).toHaveValue("6");
+  });
+
+  test("phạm vi + số nét không còn bộ nào → 'Đang chọn: 0 bộ' và thông báo rỗng", async ({ page }) => {
+    await page.goto("kanji/bo-thu/quiz/?pham-vi=n5&net-tu=17&net-den=17");
+    await expect(page.locator("[data-radical-count]")).toHaveText("Đang chọn: 0 bộ");
+    await expect(page.locator('[data-q="empty"]')).toBeVisible();
   });
 
   test("Tên bộ: hỏi chữ bộ → chọn 'Tên · nghĩa'; link sang trang bộ thủ", async ({ page }) => {
