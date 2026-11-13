@@ -1,0 +1,148 @@
+---
+// Quiz bộ thủ (Q5-1): không theo bài — lọc phạm vi "bộ có trong Kanji tới cấp X" (tag `scope`), khoảng số nét
+// (tag `strokes`) + loại câu. Dòng "Đang chọn: N bộ" đếm theo cả phạm vi lẫn số nét.
+// Câu hỏi sinh lúc build: /kanji/bo-thu/quiz/<ten|chu>.json (lib/quiz/kanji.ts buildRadicalDeck).
+// URL: ?pham-vi=n4&net-tu=1&net-den=4&loai=ten,chu — không localStorage.
+import QuizRunner from "../../../../components/quiz/QuizRunner.astro";
+import Segmented from "../../../../components/ui/Segmented.astro";
+import Base from "../../../../layouts/Base.astro";
+import type { ParamDef } from "../../../../lib/quiz/params";
+import { RADICAL_KIND_LABEL, RADICAL_KINDS, RADICAL_SCOPES, type RadicalKindSlug, type RadicalScope, radicalScopes } from "../../../../lib/quiz/kanji";
+import { loadKanjiSource } from "../../quiz/_source";
+
+const src = await loadKanjiSource();
+const scopeOf = radicalScopes(src);
+const total = src.radicals.length;
+const countUpTo = (max: number): number => src.radicals.filter((r) => (scopeOf.get(r.number) ?? 4) <= max).length;
+const SCOPE_LABEL: Record<RadicalScope, string> = {
+  n5: `Kanji N5 (${countUpTo(1)})`,
+  n4: `Tới N4 (${countUpTo(2)})`,
+  n3: `Tới N3 (${countUpTo(3)})`,
+  "tat-ca": `Cả ${total} bộ`,
+};
+const scopes = Object.keys(RADICAL_SCOPES) as RadicalScope[];
+const slugs = Object.keys(RADICAL_KINDS) as RadicalKindSlug[];
+const params: ParamDef[] = [
+  { param: "pham-vi", tag: "ui-scope", type: "enum", options: Object.fromEntries(scopes.map((s) => [s, s])) },
+  { param: "net-tu", tag: "strokes", type: "min", lo: 1, hi: 17 },
+  { param: "net-den", tag: "strokes", type: "max", lo: 1, hi: 17 },
+  { param: "loai", tag: "kind", type: "enum", options: { ...RADICAL_KINDS }, multi: true },
+];
+// Nhóm số nét 1 → 17 kèm số bộ (cả 214); đếm theo phạm vi tính trên trình duyệt từ `radicalTags`
+const strokeGroups = [...new Set(src.radicals.map((r) => r.strokes))].sort((a, b) => a - b);
+const perStroke = new Map(strokeGroups.map((n) => [n, src.radicals.filter((r) => r.strokes === n).length]));
+const radicalTags = src.radicals.map((r) => [r.strokes, scopeOf.get(r.number) ?? 4]);
+const select = "rounded-md border border-line bg-surface px-2 py-1 text-ink";
+const KIND_HINT: Record<RadicalKindSlug, string> = { ten: "氵 → Thủy · nước", chu: "Thủy · nước → 水 氵" };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const chip =
+  "group relative inline-flex cursor-pointer items-center gap-1 rounded-full border border-line bg-surface px-3 py-1 whitespace-nowrap text-ink hover:border-primary-line has-checked:border-primary has-checked:bg-primary-soft has-checked:font-semibold has-checked:text-primary has-focus-visible:outline-2 has-focus-visible:outline-primary";
+const kindLabels = Object.fromEntries(slugs.map((s) => [RADICAL_KINDS[s], RADICAL_KIND_LABEL[s]]));
+---
+
+<Base title="Luyện tập bộ thủ" description="Luyện 214 bộ thủ Kanji: nhìn bộ đoán tên Hán-Việt và nghĩa, hoặc từ tên chọn đúng bộ — lọc theo bộ có trong Kanji N5, N4, N3.">
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/kanji/bo-thu/`} class={navLink}>Bộ thủ</a>
+    <a href={`${base}/kanji/quiz/`} class={navLink}>Luyện Kanji</a>
+  </nav>
+
+  <div class="mx-auto max-w-2xl">
+    <h1 class="text-2xl font-bold">Luyện tập bộ thủ</h1>
+
+    <div class="mt-4">
+      <QuizRunner question="Chọn đáp án đúng" linkLabel="Xem bộ thủ →" kindLabels={kindLabels} balanceKinds>
+        <Fragment slot="filters">
+          <Segmented name="q-scope" label="Phạm vi" options={scopes.map((s) => ({ id: `pv-${s}`, label: SCOPE_LABEL[s] }))} checked="pv-n5" wrap />
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <label for="q-snet-from" class="seg-label shrink-0">Số nét:</label>
+            <div class="flex items-center gap-2">
+              <select id="q-snet-from" class={select} aria-label="Từ số nét">
+                {strokeGroups.map((n) => <option value={n} selected={n === strokeGroups[0]}>{n} nét ({perStroke.get(n)})</option>)}
+              </select>
+              <span>–</span>
+              <select id="q-snet-to" class={select} aria-label="Đến số nét">
+                {strokeGroups.map((n) => <option value={n} selected={n === strokeGroups.at(-1)}>{n} nét ({perStroke.get(n)})</option>)}
+              </select>
+            </div>
+            <span class="text-xs text-ink-faint" data-radical-count aria-live="polite"></span>
+          </div>
+          <div class="flex items-baseline gap-3" role="group" aria-label="Loại câu (chọn nhiều để trộn)">
+            <span class="seg-label shrink-0">Loại câu:</span>
+            <div class="flex flex-wrap gap-1.5">
+              {
+                slugs.map((s) => (
+                  <label class={chip} title={KIND_HINT[s]}>
+                    <input type="checkbox" name="q-kind" value={s} id={`loai-${s}`} class="sr-only" checked />
+                    <span class="hidden group-has-[:checked]:inline" aria-hidden="true">✓</span>
+                    {RADICAL_KIND_LABEL[s]}
+                  </label>
+                ))
+              }
+            </div>
+          </div>
+        </Fragment>
+      </QuizRunner>
+    </div>
+  </div>
+
+  <script type="application/json" id="q-config" set:html={JSON.stringify({ params, scopes: RADICAL_SCOPES, kinds: RADICAL_KINDS, radicalTags })} />
+</Base>
+
+<script>
+  import { readFilter, writeFilter, type ParamDef } from "../../../../lib/quiz/params";
+  import { mountQuiz } from "../../../../lib/quiz/runner";
+  import type { Filter } from "../../../../lib/quiz/types";
+
+  const cfg = JSON.parse(document.getElementById("q-config")!.textContent ?? "{}") as {
+    params: ParamDef[];
+    scopes: Record<string, number>;
+    kinds: Record<string, string>;
+    /** [số nét, phạm vi] của từng bộ — đếm "Đang chọn: N bộ". */
+    radicalTags: [number, number][];
+  };
+  const fromSel = document.getElementById("q-snet-from") as HTMLSelectElement;
+  const toSel = document.getElementById("q-snet-to") as HTMLSelectElement;
+  const countEl = document.querySelector<HTMLElement>("[data-radical-count]")!;
+  const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+  const kindBoxes = [...document.querySelectorAll<HTMLInputElement>('input[name="q-kind"]')];
+  const kindSlug = Object.fromEntries(Object.entries(cfg.kinds).map(([slug, kind]) => [kind, slug]));
+  const scope = (): string => document.querySelector<HTMLInputElement>('input[name="q-scope"]:checked')?.id.replace("pv-", "") ?? "n5";
+
+  // URL → điều khiển
+  const fromUrl = readFilter(location.search, cfg.params);
+  if (Array.isArray(fromUrl["ui-scope"])) (document.getElementById(`pv-${String(fromUrl["ui-scope"][0])}`) as HTMLInputElement).checked = true;
+  const net = fromUrl.strokes && !Array.isArray(fromUrl.strokes) ? (fromUrl.strokes as { min?: number; max?: number }) : {};
+  if (net.min !== undefined) fromSel.value = String(net.min);
+  if (net.max !== undefined) toSel.value = String(net.max);
+  if (Array.isArray(fromUrl.kind)) {
+    const want = new Set(fromUrl.kind.map((k) => kindSlug[String(k)]));
+    for (const b of kindBoxes) b.checked = want.has(b.value);
+  }
+
+  const quiz = mountQuiz(document.querySelector<HTMLElement>("[data-quiz]")!);
+  function apply(): void {
+    const sc = scope();
+    const slugs = kindBoxes.filter((b) => b.checked).map((b) => b.value);
+    const kinds = slugs.map((s) => cfg.kinds[s]!);
+    const max = cfg.scopes[sc] ?? 1;
+    let lo = Number(fromSel.value), hi = Number(toSel.value);
+    if (lo > hi) [lo, hi] = [hi, lo];
+    const n = cfg.radicalTags.filter(([st, scope]) => scope <= max && st >= lo && st <= hi).length;
+    countEl.textContent = `Đang chọn: ${n} bộ`;
+    const filter: Filter = { scope: { max }, strokes: { min: lo, max: hi }, kind: kinds };
+    const qs = writeFilter({ "ui-scope": [sc], strokes: { min: lo, max: hi }, kind: kinds }, cfg.params);
+    history.replaceState(null, "", `?${qs}`);
+    quiz.setFilter(filter, slugs.map((s) => `${base}kanji/bo-thu/quiz/${s}.json`));
+  }
+  for (const el of document.querySelectorAll<HTMLInputElement>('input[name="q-scope"], input[name="q-kind"]')) el.addEventListener("change", apply);
+  fromSel.addEventListener("change", () => {
+    if (Number(fromSel.value) > Number(toSel.value)) toSel.value = fromSel.value;
+    apply();
+  });
+  toSel.addEventListener("change", () => {
+    if (Number(toSel.value) < Number(fromSel.value)) fromSel.value = toSel.value;
+    apply();
+  });
+  apply();
+</script>

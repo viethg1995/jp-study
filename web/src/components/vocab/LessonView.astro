@@ -22,6 +22,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const lessonHref = (k: number): string => `${base}/${route}/${k}/`;
 // Trang danh sách bài cùng cấp: N3 có route riêng; Minna 1–25 → N5, 26–50 → N4
 const listHref = `${base}/${route === "vocabulary" ? `vocabulary/${n <= 25 ? "n5" : "n4"}` : route}/`;
+// Quiz từ vựng lọc sẵn đúng bài này (D6)
+const quizLevel = route === "vocabulary" ? (n <= 25 ? "n5" : "n4") : "n3";
+const quizHref = `${base}/vocabulary/quiz/?cap=${quizLevel}&tu=${n}&den=${n}`;
 
 // Chế độ "Từng thẻ": nút Trước/Sau là link #id (CSS :target), quay vòng trong bài (cuối → đầu, đầu → cuối).
 // Chuyển bài dùng nút ở header. Thứ tự ngẫu nhiên do script cuối file xử lý.
@@ -59,6 +62,9 @@ const description = clip(
     <h1 class="text-2xl font-bold">
       {label} {n} <span class="text-base font-normal text-ink-faint">· {entries.length} từ</span>
     </h1>
+    <a href={quizHref} class="rounded-md border border-primary px-3 py-1 text-sm font-semibold text-primary hover:bg-primary-soft" data-lesson-quiz>
+      Luyện tập bài này →
+    </a>
   </div>
 
   <fieldset class="mt-3 flex flex-wrap gap-x-5 gap-y-2 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">

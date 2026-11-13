@@ -18,7 +18,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 <Base title="Bộ thủ" description="Bộ thủ Kanji: tên Hán-Việt, ý nghĩa, số nét và các chữ Hán thuộc từng bộ trong dữ liệu N5–N3.">
   <div class="flex flex-wrap items-center justify-between gap-3">
-    <h1 class="text-2xl font-bold">Bộ thủ</h1>
+    <div class="flex items-baseline gap-3">
+      <h1 class="text-2xl font-bold">Bộ thủ</h1>
+      <a href={`${base}/kanji/bo-thu/quiz/`} class="text-sm text-primary hover:underline" data-radical-quiz>Luyện tập →</a>
+    </div>
     <div class="flex items-center gap-2 text-sm">
       <span class="text-ink-muted">Số nét:</span>
       <Combobox

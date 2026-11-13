@@ -108,3 +108,9 @@ const panelCss = tabs
   }
 </style>
 <style is:inline set:html={panelCss}></style>
+
+<script>
+  // Link từ quiz số đếm (Q7): /dem-so/so-dem/#hundreds → mở đúng tab (tab là radio + CSS, mặc định tab đầu)
+  const tab = document.getElementById(`nt-${decodeURIComponent(location.hash.slice(1))}`);
+  if (location.hash && tab instanceof HTMLInputElement && tab.type === "radio") tab.checked = true;
+</script>

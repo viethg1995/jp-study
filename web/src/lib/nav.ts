@@ -30,6 +30,7 @@ export const NAV: NavItem[] = [
       { label: "N5 · Bài 1–25", href: "vocabulary/n5/" },
       { label: "N4 · Bài 26–50", href: "vocabulary/n4/" },
       { label: "N3 · Bài 1–14", href: "vocabulary/n3/" },
+      { label: "Luyện tập", href: "vocabulary/quiz/" },
     ],
   },
   {
@@ -44,6 +45,7 @@ export const NAV: NavItem[] = [
       { label: "N4", href: "kanji/n4/" },
       { label: "N3", href: "kanji/n3/" },
       { label: "Bộ thủ", href: "kanji/bo-thu/" },
+      { label: "Luyện tập", href: "kanji/quiz/" },
     ],
   },
   {
@@ -58,6 +60,7 @@ export const NAV: NavItem[] = [
       { label: "Động từ", href: "chia-the/dong-tu/" },
       { label: "Tính từ い", href: "chia-the/tinh-tu-i/" },
       { label: "Tính từ な", href: "chia-the/tinh-tu-na/" },
+      { label: "Luyện tập", href: "chia-the/quiz/" },
     ],
   },
   {
@@ -73,6 +76,14 @@ export const NAV: NavItem[] = [
       { label: "Biến âm", href: "dem-so/bien-am/" },
       { label: "Luyện tập", href: "dem-so/quiz/" },
     ],
+  },
+  {
+    id: "practice",
+    label: "Luyện tập",
+    glyph: "練",
+    glyphMeaning: "練 — luyện tập",
+    description: "Ôn tổng hợp từ vựng, Kanji, chia thể, đếm số theo bài đã học",
+    href: "luyen-tap/",
   },
   {
     id: "conjunctions",
