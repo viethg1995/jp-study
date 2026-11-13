@@ -45,7 +45,7 @@ const kindLabels = Object.fromEntries(slugs.map((s) => [KANJI_KINDS[s], KANJI_KI
     <h1 class="text-2xl font-bold">Luyện tập Kanji</h1>
 
     <div class="mt-4">
-      <QuizRunner question="Chọn đáp án đúng" linkLabel="Xem trang chữ →" kindLabels={kindLabels} balanceKinds>
+      <QuizRunner question="Chọn đáp án đúng" linkLabel="Xem trang chữ →" kindLabels={kindLabels} balanceKinds typing>
         <Fragment slot="filters">
           <Segmented name="q-level" label="Cấp" options={KANJI_LEVELS.map((l) => ({ id: `cap-${l}`, label: l.toUpperCase() }))} checked="cap-n5" />
           <Segmented name="q-view" label="Xếp theo" options={KANJI_VIEWS.map((v) => ({ id: `xep-${v}`, label: KANJI_VIEW_LABEL[v] }))} checked="xep-gt" />

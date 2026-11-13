@@ -55,7 +55,7 @@ const kindLabels = Object.fromEntries(kindSlugs.map((s) => [CONJ_KINDS[s], CONJ_
     <h1 class="text-2xl font-bold">Luyện tập chia thể</h1>
 
     <div class="mt-4">
-      <QuizRunner question="Chọn đáp án đúng" linkLabel="Xem bảng chia →" kindLabels={kindLabels} balanceKinds furiganaToggle>
+      <QuizRunner question="Chọn đáp án đúng" linkLabel="Xem bảng chia →" kindLabels={kindLabels} balanceKinds furiganaToggle typing>
         <Fragment slot="filters">
           <Segmented name="q-group" label="Nhóm từ" options={CONJ_GROUPS.map((g) => ({ id: `nhom-${CONJ_GROUP_SLUG[g]}`, label: CONJ_GROUP_LABEL[g] }))} checked="nhom-dong-tu" wrap />
           <Segmented name="q-book" label="Sách" options={[{ id: "sach-minna", label: "Minna" }, { id: "sach-n3", label: "N3" }]} checked="sach-minna" />

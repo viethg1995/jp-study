@@ -2,6 +2,8 @@
 import { createQueue, makeOptions } from "./core";
 import type { Rng } from "./random";
 import type { QuizItem } from "./types";
+import { toKana } from "./romaji";
+import { typedCorrect, typedKey } from "./typing";
 
 export interface Question {
   item: QuizItem;
@@ -28,6 +30,11 @@ export interface Session {
   readonly done: boolean;
   /** Trả lời câu hiện tại bằng vị trí lựa chọn; null nếu không hợp lệ (đã trả lời, vị trí sai, không có câu). */
   answer(index: number): AnswerResult | null;
+  /**
+   * Trả lời bằng chữ gõ (Q9: romaji hoặc kana). `choice` = chữ đã chuyển kana. null nếu không hợp lệ hoặc ô trống
+   * (không chấm — tránh Enter nhầm). `giveUp` = "Không biết": tính sai, không cần chữ.
+   */
+  answerTyped(input: string, giveUp?: boolean): AnswerResult | null;
   /** Sang câu tiếp; trả về câu mới hoặc null nếu lượt xong. */
   next(): Question | null;
   /** Kết thúc lượt sớm (chế độ không giới hạn). */
@@ -69,6 +76,15 @@ export function createSession(
     return current;
   };
 
+  const grade = (ok: boolean, choice: string): AnswerResult => {
+    const item = current!.item;
+    answered = true;
+    total++;
+    if (ok) right++;
+    else if (!wrongIds.has(item.id)) wrongIds.set(item.id, item);
+    return { item, choice, ok };
+  };
+
   const session: Session = {
     get current() {
       return current;
@@ -88,12 +104,11 @@ export function createSession(
     },
     answer(index) {
       if (!current || answered || index < 0 || index >= current.options.length) return null;
-      answered = true;
-      total++;
-      const ok = index === current.correct;
-      if (ok) right++;
-      else if (!wrongIds.has(current.item.id)) wrongIds.set(current.item.id, current.item);
-      return { item: current.item, choice: current.options[index]!, ok };
+      return grade(index === current.correct, current.options[index]!);
+    },
+    answerTyped(input, giveUp = false) {
+      if (!current || answered || (!giveUp && typedKey(input) === null)) return null;
+      return grade(!giveUp && typedCorrect(current.item, input), giveUp ? "" : toKana(input, true));
     },
     next() {
       return ask();

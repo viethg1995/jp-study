@@ -4,13 +4,17 @@
 // [data-q-keep] (Furigana) → hết lượt: "Lượt mới" / "Làm lại câu sai" giữ tùy chọn, "Đổi tùy chọn" mở khóa về thiết lập.
 // Câu hay sai (Q10): mỗi câu trả lời ghi vào jp:quiz:wrong (lib/quiz/wrong.ts qua lib/storage.ts); dòng "Câu hỏi" chọn
 // "Câu hay sai" → áp thêm lên bộ lọc của trang, URL ?on=sai (runner tự gắn sau khi trang ghi URL trong setFilter).
+// Gõ kana (Q9): dòng "Trả lời" chọn "Gõ kana" → câu loại gõ được (typing.ts) hiện ô nhập thay 4 lựa chọn, romaji chuyển
+// kana ngay khi gõ (romaji.ts), chấm bằng Session.answerTyped; URL ?tra-loi=go (gắn như ?on=sai).
 import { groupByTarget, parseRuby } from "../ruby";
 import { isRuby } from "./validate";
 import { filterItems, partOf } from "./core";
 import { mulberry32, randomSeed } from "./random";
-import { type Question, type Session, createSession } from "./session";
+import { type AnswerResult, type Question, type Session, createSession } from "./session";
 import type { Deck, Filter, QuizItem } from "./types";
 import { KEYS, readString, storageAvailable, writeString } from "../storage";
+import { toKana } from "./romaji";
+import { isTypable } from "./typing";
 import { REMEMBER_STREAK, type WrongStore, clearWrong, countWrong, parseStore, recordAnswer, reviewItems } from "./wrong";
 
 export interface QuizController {
@@ -100,6 +104,15 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const emptyText = empty.textContent ?? "";
   const loadStore = (): WrongStore => parseStore(readString(KEYS.quizWrong));
   const reviewing = (): boolean => canStore && reviewWrong.checked;
+  // Gõ kana (Q9) — trang không bật `typing` thì không có dòng "Trả lời"
+  const ansType = root.querySelector<HTMLInputElement>("#q-ans-type");
+  const answerRow = root.querySelector<HTMLElement>('[data-q="answer-row"]');
+  const typeBox = q<HTMLFormElement>("type-box"), typeInput = q<HTMLInputElement>("type-input");
+  const typeSubmit = q<HTMLButtonElement>("type-submit"), typeGiveup = q<HTMLButtonElement>("type-giveup");
+  const typedLine = q("typed"), typeNote = q("type-note"), kbdHint = q("kbd-hint");
+  const typingMode = (): boolean => !!ansType?.checked;
+  /** Câu hiện tại đang hỏi bằng ô nhập. */
+  let typingNow = false;
   /** Kết quả lượt đang làm: số câu vừa lưu (sai) và số câu đã nhớ (đúng đủ REMEMBER_STREAK lần). */
   let roundSaved = 0, roundRemembered = 0;
 
@@ -123,6 +136,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
     for (const row of optionsPanel.children) {
       if (!(row instanceof HTMLElement) || row.hidden || row.matches("[data-q-keep]") || row.offsetParent === null) continue;
       if (row === wrongRow && !reviewing()) continue; // "Câu hỏi: Tất cả" là mặc định → không ghi vào tóm tắt
+      if (row === answerRow && !typingMode()) continue; // "Trả lời: Chọn đáp án" cũng vậy
       const label = row.querySelector(".seg-label")?.textContent?.replace(/:\s*$/, "").trim();
       if (!label) continue;
       let value: string;
@@ -328,25 +342,62 @@ export function mountQuiz(root: HTMLElement): QuizController {
     );
     feedback.classList.add("hidden");
     next.disabled = true;
+
+    typingNow = typingMode() && isTypable(cur.item);
+    optionsBox.classList.toggle("hidden", typingNow);
+    typeBox.classList.toggle("hidden", !typingNow);
+    typeNote.classList.toggle("hidden", !typingMode() || typingNow);
+    kbdHint.textContent = typingNow ? "Gõ romaji (gakusei) hoặc kana · Enter: trả lời / câu tiếp" : "Phím 1–4 để chọn · Enter: câu tiếp";
+    typeInput.value = "";
+    typeInput.disabled = typeSubmit.disabled = typeGiveup.disabled = false;
+    delete typeInput.dataset.state;
+    if (typingNow) typeInput.focus({ preventScroll: true });
   }
 
   function choose(index: number): void {
     const s = session;
     const cur = s?.current;
-    if (!s || !cur) return;
+    if (!s || !cur || typingNow) return;
     const res = s.answer(index);
     if (!res) return;
+    optionsBox.querySelectorAll<HTMLButtonElement>(".q-opt").forEach((b, i) => {
+      b.disabled = true;
+      if (i === cur.correct) b.dataset.state = "right";
+      else if (i === index) b.dataset.state = "wrong";
+    });
+    showResult(res);
+  }
+
+  /** Gõ kana: Trả lời (ô trống → không chấm) / Không biết. */
+  function submitTyped(giveUp: boolean): void {
+    const s = session;
+    if (!s?.current || !typingNow) return;
+    const res = s.answerTyped(typeInput.value, giveUp);
+    if (!res) return typeInput.focus();
+    typeInput.value = res.choice;
+    typeInput.dataset.state = res.ok ? "right" : "wrong";
+    typeInput.disabled = typeSubmit.disabled = typeGiveup.disabled = true;
+    showResult(res, giveUp ? null : res.choice);
+  }
+
+  /** Phần chung sau khi chấm: lưu câu sai (Q10), phản hồi, tiến độ. `typed`: chữ đã gõ (câu gõ kana, sai). */
+  function showResult(res: AnswerResult, typed: string | null = null): void {
+    const s = session!;
     if (canStore) {
       const r = recordAnswer(loadStore(), res.item.id, res.ok, Math.floor(Date.now() / 1000));
       writeString(KEYS.quizWrong, JSON.stringify(r.store));
       if (!res.ok) roundSaved++;
       if (r.remembered) roundRemembered++;
     }
-    optionsBox.querySelectorAll<HTMLButtonElement>(".q-opt").forEach((b, i) => {
-      b.disabled = true;
-      if (i === cur.correct) b.dataset.state = "right";
-      else if (i === index) b.dataset.state = "wrong";
-    });
+    typedLine.replaceChildren();
+    if (typed !== null && !res.ok) {
+      const del = document.createElement("s");
+      del.className = "jp text-danger";
+      del.lang = "ja";
+      del.textContent = typed;
+      typedLine.append("Bạn gõ: ", del);
+    }
+    typedLine.classList.toggle("hidden", typedLine.childNodes.length === 0);
     q("right").textContent = String(s.right);
     q("total").textContent = String(s.total);
 
@@ -540,10 +591,11 @@ export function mountQuiz(root: HTMLElement): QuizController {
     wrongClear.disabled = n === 0;
   }
 
+  /** Tham số runner tự quản trên URL (sau tham số của trang): ?tra-loi=go (Q9), ?on=sai (Q10). */
   function syncReviewUrl(): void {
-    if (!canStore) return;
     // chỉ thêm/bỏ `on`, giữ nguyên chuỗi của trang (URLSearchParams sẽ mã hóa dấu phẩy: loai=ten%2Cchu)
-    const parts = location.search.slice(1).split("&").filter((x) => x && !x.startsWith("on="));
+    const parts = location.search.slice(1).split("&").filter((x) => x && !x.startsWith("on=") && !x.startsWith("tra-loi="));
+    if (typingMode()) parts.push("tra-loi=go");
     if (reviewing()) parts.push("on=sai");
     const qs = parts.join("&");
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
@@ -574,6 +626,26 @@ export function mountQuiz(root: HTMLElement): QuizController {
     }
     box.classList.toggle("hidden", box.childNodes.length === 0);
   }
+
+  // Gõ kana: URL → dòng "Trả lời"; ô nhập: romaji → kana ngay khi gõ (trừ lúc IME đang soạn chữ)
+  if (ansType && new URLSearchParams(location.search).get("tra-loi") === "go") ansType.checked = true;
+  for (const r of root.querySelectorAll<HTMLInputElement>('input[name="q-answer"]')) r.addEventListener("change", syncReviewUrl);
+  let composing = false;
+  typeInput.addEventListener("compositionstart", () => (composing = true));
+  typeInput.addEventListener("compositionend", () => {
+    composing = false;
+    typeInput.dispatchEvent(new Event("input"));
+  });
+  typeInput.addEventListener("input", () => {
+    if (composing) return;
+    const k = toKana(typeInput.value, false);
+    if (k !== typeInput.value) typeInput.value = k; // con trỏ về cuối — gõ nối tiếp như bình thường
+  });
+  typeBox.addEventListener("submit", (e) => {
+    e.preventDefault();
+    submitTyped(false);
+  });
+  typeGiveup.addEventListener("click", () => submitTyped(true));
 
   wrongRow.hidden = !canStore;
   if (canStore && new URLSearchParams(location.search).get("on") === "sai") reviewWrong.checked = true;

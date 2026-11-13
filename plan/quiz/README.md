@@ -18,7 +18,7 @@ Quy trình mỗi task: viết spec vào file task → **user duyệt** → làm 
 | [Q6](q06-conjugation.md) | Quiz chia thể | ✅ |
 | [Q7](q07-numbers.md) | Quiz số đếm `n-num` | ✅ |
 | [Q8](q08-luyen-tap.md) | Trang tổng `/luyen-tap/` | ✅ |
-| [Q9](q09-kana-input.md) | Gõ kana | ⬜ |
+| [Q9](q09-kana-input.md) | Gõ kana | ✅ |
 | [Q10](q10-wrong-answers.md) | Lưu câu sai | ✅ |
 | [Q11](q11-conjunctions.md) | Quiz từ nối | ⬜ chờ dữ liệu |
 | [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ⬜ theo dõi — lập kế hoạch sau khi xong mọi chức năng |

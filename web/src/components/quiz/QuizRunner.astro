@@ -9,6 +9,8 @@
 // dòng [data-q-keep], không bị khóa); tổng kết có "Đổi tùy chọn" để mở khóa.
 // Câu hay sai (Q10): dòng "Câu hỏi: Tất cả · Câu hay sai (N)" + nút Xóa — runner đếm/lọc theo `jp:quiz:wrong`
 // (lib/quiz/wrong.ts); phạm vi = loại câu của trang (`wrongKinds`, mặc định khóa của `kindLabels`).
+// Gõ kana (Q9, `typing`): dòng "Trả lời: Chọn đáp án · Gõ kana"; câu loại gõ được (lib/quiz/typing.ts) → ô nhập
+// (romaji chuyển kana ngay khi gõ — lib/quiz/romaji.ts), câu khác vẫn 4 lựa chọn. URL ?tra-loi=go (runner tự gắn).
 // Script thường, không Preact (D1).
 import Segmented from "../ui/Segmented.astro";
 import type { QuizItem } from "../../lib/quiz/types";
@@ -31,8 +33,10 @@ interface Props {
   furiganaToggle?: boolean;
   /** Loại câu của trang cho "Câu hay sai" (đếm, lọc, xóa). Mặc định = khóa của `kindLabels`. */
   wrongKinds?: string[];
+  /** Thêm dòng "Trả lời: Chọn đáp án · Gõ kana" (Q9) — trang có loại câu gõ được (đọc, chia, đếm). */
+  typing?: boolean;
 }
-const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, balanceParts = false, furiganaToggle = false } = Astro.props;
+const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, balanceParts = false, furiganaToggle = false, typing = false } = Astro.props;
 const wrongKinds = Astro.props.wrongKinds ?? Object.keys(kindLabels ?? {});
 if (wrongKinds.length === 0) throw new Error("QuizRunner: thiếu `wrongKinds` (hoặc `kindLabels`) cho Câu hay sai");
 if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
@@ -53,6 +57,21 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     </div>
     <div class="quiz-options flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
       <slot name="filters" />
+      {
+        typing && (
+          <div data-q="answer-row">
+            <Segmented
+              name="q-answer"
+              label="Trả lời"
+              options={[
+                { id: "q-ans-pick", label: "Chọn đáp án" },
+                { id: "q-ans-type", label: "Gõ kana" },
+              ]}
+              checked="q-ans-pick"
+            />
+          </div>
+        )
+      }
       <!-- Câu hay sai (Q10): runner hiện dòng khi lưu trữ trình duyệt dùng được, điền số câu, khóa nút khi 0 câu -->
       <div data-q="wrong-row" class="flex items-center gap-x-2" hidden>
         <Segmented
@@ -187,17 +206,39 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     <p data-q="hint" class="mt-2 text-center text-sm text-ink-muted"></p>
     <p data-q="question" class="mt-2 text-center text-lg font-semibold text-ink">{question}</p>
 
+    <p data-q="type-note" class="mt-1 hidden text-center text-xs text-ink-faint">Loại câu này chỉ có trắc nghiệm</p>
     <div data-q="options" class="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2"></div>
+    <!-- Gõ kana (Q9): thay 4 lựa chọn ở câu gõ được -->
+    <form data-q="type-box" class="mt-5 hidden" novalidate>
+      <input
+        data-q="type-input"
+        type="text"
+        lang="ja"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+        enterkeyhint="done"
+        placeholder="Gõ romaji hoặc kana"
+        aria-label="Cách đọc (gõ romaji hoặc kana)"
+        class="jp w-full rounded-md border border-line bg-surface px-3 py-3 text-center text-xl text-ink placeholder:text-base placeholder:text-ink-faint focus:border-primary focus:outline-2 focus:outline-primary disabled:bg-surface-sunken data-[state=right]:border-success data-[state=right]:text-success data-[state=wrong]:border-danger data-[state=wrong]:bg-danger-soft data-[state=wrong]:text-danger"
+      />
+      <div class="mt-2 flex justify-center gap-2">
+        <button type="submit" data-q="type-submit" class:list={[btn, "bg-primary text-surface hover:bg-primary-strong disabled:hidden"]}>Trả lời</button>
+        <button type="button" data-q="type-giveup" class:list={[btn, "border border-line text-ink hover:bg-primary-soft disabled:hidden"]}>Không biết</button>
+      </div>
+    </form>
 
     <div data-q="feedback" class="mt-5 hidden rounded-md px-4 py-3 text-sm leading-relaxed">
       <p data-q="verdict" class="font-semibold"></p>
+      <p data-q="typed" class="mt-1 hidden text-ink-muted"></p>
       <p data-q="accepted" class="mt-1 hidden text-ink-muted"></p>
       <p data-q="explain" class="mt-1 hidden whitespace-pre-line text-ink-muted"></p>
       <p class="mt-2"><a data-q="link" class="text-primary hover:underline" href="#">{linkLabel}</a></p>
     </div>
 
     <div class="mt-5 flex items-center justify-between gap-2">
-      <p class="kbd-hint text-xs text-ink-faint">Phím 1–4 để chọn · Enter: câu tiếp</p>
+      <p class="kbd-hint text-xs text-ink-faint" data-q="kbd-hint">Phím 1–4 để chọn · Enter: câu tiếp</p>
       <button type="button" data-q="next" class:list={[btn, "ml-auto shrink-0 whitespace-nowrap bg-primary text-surface hover:bg-primary-strong disabled:invisible"]} disabled>Câu tiếp →</button>
     </div>
   </section>
