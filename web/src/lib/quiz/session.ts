@@ -38,7 +38,7 @@ export interface Session {
 
 /**
  * Lượt mới: hỏi ngay câu đầu. limit = null → không giới hạn (hỏi vòng lại đến khi finish()).
- * groupOf: trộn đều theo nhóm (vd q => q.kind — mỗi loại câu số câu ngang nhau), xem createQueue.
+ * groupOf / subOf: trộn đều theo nhóm (vd q => q.kind — mỗi loại câu số câu ngang nhau) / nhóm con, xem createQueue.
  * "Làm lại câu sai" = createSession(session.wrong(), rng, wrong.length).
  */
 export function createSession(
@@ -46,8 +46,9 @@ export function createSession(
   rng: Rng,
   limit: number | null,
   groupOf?: (item: QuizItem) => string,
+  subOf?: (item: QuizItem) => string,
 ): Session {
-  const queue = createQueue(items, rng, limit, groupOf);
+  const queue = createQueue(items, rng, limit, groupOf, subOf);
   let current: Question | null = null;
   let answered = false;
   let right = 0;

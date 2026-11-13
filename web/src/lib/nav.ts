@@ -78,6 +78,14 @@ export const NAV: NavItem[] = [
     ],
   },
   {
+    id: "practice",
+    label: "Luyện tập",
+    glyph: "練",
+    glyphMeaning: "練 — luyện tập",
+    description: "Ôn tổng hợp từ vựng, Kanji, chia thể, đếm số theo bài đã học",
+    href: "luyen-tap/",
+  },
+  {
     id: "conjunctions",
     label: "Từ nối",
     glyph: "接",

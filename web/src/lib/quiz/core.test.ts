@@ -187,3 +187,19 @@ describe("createQueue — trộn đều theo nhóm", () => {
     assert.equal(new Set(Array.from({ length: 90 }, () => q.next()!.id)).size, 90);
   });
 });
+
+describe("createQueue — trộn đều 2 tầng (subOf, trang /luyen-tap/)", () => {
+  // một nhóm "P" gồm 3 nhóm con lệch nhau: x 100, y 3, z 2 → 6 câu đầu phải có đủ x, y, z (2/2/2)
+  const deck = [
+    ...Array.from({ length: 100 }, (_, i) => item(`x${i}`, {}, "x")),
+    ...Array.from({ length: 3 }, (_, i) => item(`y${i}`, {}, "y")),
+    ...Array.from({ length: 2 }, (_, i) => item(`z${i}`, {}, "z")),
+  ];
+  test("nhóm con nhỏ không bị dồn xuống cuối vòng", () => {
+    for (let seed = 0; seed < 20; seed++) {
+      const q = createQueue(deck, mulberry32(seed), 6, () => "P", (x) => x.kind);
+      const kinds = Array.from({ length: 6 }, () => q.next()!.kind).sort().join("");
+      assert.equal(kinds, "xxyyzz", `seed ${seed}`);
+    }
+  });
+});

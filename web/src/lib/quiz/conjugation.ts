@@ -166,7 +166,7 @@ export interface ConjOptions {
   book: "minna" | "n3";
   /** Minna: đã học tới bài (lọc cả từ lẫn thể, Q6-2). */
   upTo?: number;
-  /** N3: khoảng bài từ vựng. */
+  /** N3: khoảng bài từ vựng. Minna: `from` = chỉ lấy từ của bài ≥ from (trang tổng /luyen-tap/, Q8-1); thể vẫn theo upTo. */
   from?: number;
   to?: number;
   /** Chỉ động từ: nhóm I/II/III; bỏ trống = cả 3. */
@@ -205,7 +205,7 @@ export function learnedForms(table: ConjTable, opts: Pick<ConjOptions, "book" | 
 function rowsOf(table: ConjTable, opts: ConjOptions): ConjRow[] {
   return table.rows.filter((r) => {
     if (r.book !== opts.book) return false;
-    if (opts.book === "minna" ? r.lesson > (opts.upTo ?? 50) : r.lesson < (opts.from ?? 1) || r.lesson > (opts.to ?? 50)) return false;
+    if (opts.book === "minna" ? r.lesson < (opts.from ?? 1) || r.lesson > (opts.upTo ?? 50) : r.lesson < (opts.from ?? 1) || r.lesson > (opts.to ?? 50)) return false;
     return table.group !== "verb" || !opts.verbKinds?.length || opts.verbKinds.includes(r.kind as VerbKind);
   });
 }

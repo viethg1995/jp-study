@@ -1,0 +1,134 @@
+---
+// Trang tổng /luyen-tap/ (Q8, plan/quiz/q08-luyen-tap.md): ôn trộn nhiều phần theo khoảng bài Minna 1–50.
+// Không có deck riêng: tải đúng file của trang từng phần (lib/quiz/mix.ts → mixFiles), gộp + lọc trên trình duyệt.
+// Mỗi lượt chia đều số câu theo phần, trong phần theo loại câu (QuizRunner balanceParts).
+// Bộ lọc ghi lên URL (D6): ?tu=1&den=25&phan=tu-vung,kanji — không localStorage.
+import QuizRunner from "../../components/quiz/QuizRunner.astro";
+import Base from "../../layouts/Base.astro";
+import { MIX_KIND_LABELS, MIX_LESSONS, MIX_PARTS, MIX_PART_LABEL } from "../../lib/quiz/mix";
+import type { ParamDef } from "../../lib/quiz/params";
+
+const params: ParamDef[] = [
+  { param: "tu", tag: "lesson", type: "min", lo: MIX_LESSONS.from, hi: MIX_LESSONS.to },
+  { param: "den", tag: "lesson", type: "max", lo: MIX_LESSONS.from, hi: MIX_LESSONS.to },
+  { param: "phan", tag: "part", type: "enum", options: Object.fromEntries(MIX_PARTS.map((p) => [p, p])), multi: true },
+];
+const PART_HINT: Record<string, string> = {
+  "tu-vung": "Đọc, Nghĩa, Điền từ",
+  kanji: "Hán-Việt, Nghĩa, Cách đọc (theo bài từ vựng)",
+  "chia-the": "Chia, Nhận thể — thể đã học tới bài cuối",
+  "dem-so": "Số + trợ số từ, các ô cần nhớ (không theo bài)",
+};
+const PART_PAGE: Record<string, string> = { "tu-vung": "vocabulary/quiz/", kanji: "kanji/quiz/", "chia-the": "chia-the/quiz/", "dem-so": "dem-so/quiz/" };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const select = "rounded-md border border-line bg-surface px-2 py-1 text-ink";
+// Chọn nhiều: nền nhạt + ✓ (quy ước ở .claude/rules/web.md)
+const chip =
+  "group relative inline-flex cursor-pointer items-center gap-1 rounded-full border border-line bg-surface px-3 py-1 whitespace-nowrap text-ink hover:border-primary-line has-checked:border-primary has-checked:bg-primary-soft has-checked:font-semibold has-checked:text-primary has-focus-visible:outline-2 has-focus-visible:outline-primary";
+const lessons = Array.from({ length: MIX_LESSONS.to - MIX_LESSONS.from + 1 }, (_, i) => MIX_LESSONS.from + i);
+---
+
+<Base title="Luyện tập tổng hợp" description="Ôn tổng hợp theo bài Minna đã học: từ vựng, Kanji, chia thể, đếm số trộn trong một lượt, chia đều số câu cho từng phần.">
+  <div class="mx-auto max-w-2xl">
+    <h1 class="text-2xl font-bold">Luyện tập tổng hợp</h1>
+    <p class="mt-2 text-sm text-ink-muted">
+      Trộn câu hỏi nhiều phần theo bài Minna đã học. Luyện sâu một phần (N3, bộ thủ, chọn loại câu):{" "}
+      {
+        MIX_PARTS.map((p, i) => (
+          <>
+            {i > 0 && " · "}
+            <a href={`${base}/${PART_PAGE[p]}`} class="text-primary hover:underline" data-part-page={p}>
+              {MIX_PART_LABEL[p]}
+            </a>
+          </>
+        ))
+      }
+    </p>
+
+    <div class="mt-4">
+      <QuizRunner question="Chọn đáp án đúng" kindLabels={MIX_KIND_LABELS} balanceParts furiganaToggle>
+        <Fragment slot="filters">
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <label for="q-from" class="seg-label shrink-0">Bài:</label>
+            <div class="flex items-center gap-2">
+              <select id="q-from" class={select} aria-label="Từ bài">{lessons.map((n) => <option value={n}>{n}</option>)}</select>
+              <span>–</span>
+              <select id="q-to" class={select} aria-label="Đến bài">{lessons.map((n) => <option value={n}>{n}</option>)}</select>
+              <span class="text-xs text-ink-faint">Minna</span>
+            </div>
+          </div>
+          <div class="flex items-baseline gap-3" role="group" aria-label="Phần (chọn nhiều để trộn)">
+            <span class="seg-label shrink-0">Phần:</span>
+            <div>
+              <div class="flex flex-wrap gap-1.5">
+                {
+                  MIX_PARTS.map((p) => (
+                    <label class={chip} title={PART_HINT[p]}>
+                      <input type="checkbox" name="q-part" value={p} id={`phan-${p}`} class="sr-only" checked />
+                      <span class="hidden group-has-[:checked]:inline" aria-hidden="true">✓</span>
+                      {MIX_PART_LABEL[p]}
+                    </label>
+                  ))
+                }
+              </div>
+              <p class="mt-1.5 text-xs text-ink-faint">Mỗi lượt chia đều số câu cho các phần đã chọn.</p>
+            </div>
+          </div>
+        </Fragment>
+      </QuizRunner>
+    </div>
+  </div>
+
+  <script type="application/json" id="q-config" set:html={JSON.stringify({ params })} />
+</Base>
+
+<script>
+  import { type MixOptions, type MixPart, MIX_PARTS, mixFiles, mixItems } from "../../lib/quiz/mix";
+  import { readFilter, writeFilter, type ParamDef } from "../../lib/quiz/params";
+  import { mountQuiz } from "../../lib/quiz/runner";
+
+  const cfg = JSON.parse(document.getElementById("q-config")!.textContent ?? "{}") as { params: ParamDef[] };
+  const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+  const fromSel = document.getElementById("q-from") as HTMLSelectElement;
+  const toSel = document.getElementById("q-to") as HTMLSelectElement;
+  const partBoxes = [...document.querySelectorAll<HTMLInputElement>('input[name="q-part"]')];
+
+  // URL → điều khiển (mặc định bài 1–25 = N5, đủ 4 phần)
+  const fromUrl = readFilter(location.search, cfg.params);
+  const lesson = fromUrl.lesson && !Array.isArray(fromUrl.lesson) ? (fromUrl.lesson as { min?: number; max?: number }) : {};
+  fromSel.value = String(lesson.min ?? 1);
+  toSel.value = String(lesson.max ?? Math.max(25, lesson.min ?? 1));
+  if (Array.isArray(fromUrl.part)) {
+    const want = new Set(fromUrl.part.map(String));
+    for (const b of partBoxes) b.checked = want.has(b.value);
+  }
+
+  // Điều khiển → file cần tải, URL
+  const quiz = mountQuiz(document.querySelector<HTMLElement>("[data-quiz]")!);
+  function apply(): void {
+    const opts: MixOptions = {
+      from: Number(fromSel.value),
+      to: Number(toSel.value),
+      parts: MIX_PARTS.filter((p: MixPart) => partBoxes.some((b) => b.checked && b.value === p)),
+    };
+    // đủ 4 phần → không ghi `phan` (URL gọn); không chọn phần nào → cũng không ghi (tải lại trang = đủ 4 phần)
+    const ui = { lesson: { min: opts.from, max: opts.to }, ...(opts.parts.length < MIX_PARTS.length ? { part: [...opts.parts] } : {}) };
+    history.replaceState(null, "", `?${writeFilter(ui, cfg.params)}`);
+    const files = mixFiles(opts);
+    quiz.setFilter(
+      {},
+      files.map((f) => base + f.path),
+      (data) => mixItems(opts, files, data),
+    );
+  }
+  fromSel.addEventListener("change", () => {
+    if (Number(fromSel.value) > Number(toSel.value)) toSel.value = fromSel.value;
+    apply();
+  });
+  toSel.addEventListener("change", () => {
+    if (Number(toSel.value) < Number(fromSel.value)) fromSel.value = toSel.value;
+    apply();
+  });
+  for (const b of partBoxes) b.addEventListener("change", apply);
+  apply();
+</script>

@@ -2,7 +2,6 @@
 // nút "Luyện tập", khóa tùy chọn trong lúc làm bài, giao diện.
 import { backToSetup, expect, optionHeights, startQuiz, test } from "./fixtures";
 
-const card = '[data-q="card"]';
 const prompt = '[data-q="prompt"]';
 
 test.describe("/kanji/quiz/", () => {

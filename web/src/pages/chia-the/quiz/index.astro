@@ -207,7 +207,7 @@ const kindLabels = Object.fromEntries(kindSlugs.map((s) => [CONJ_KINDS[s], CONJ_
     const forms = visible.filter((x) => x.checked).map((x) => x.value);
     const kinds = kindBoxes.filter((x) => x.checked && (x.value !== "nhom" || g === "verb")).map((x) => x.value as ConjKindSlug);
     const verbKinds = vkBoxes.filter((x) => x.checked).map((x) => x.value as VerbKind);
-    const opts: ConjOptions = { book: b, upTo: Number(upto.value), from, to, verbKinds: g === "verb" ? verbKinds : undefined, forms, kinds };
+    const opts: ConjOptions = { book: b, upTo: Number(upto.value), ...(b === "n3" ? { from, to } : {}), verbKinds: g === "verb" ? verbKinds : undefined, forms, kinds };
     // thể/nhóm động từ đủ cả → không ghi lên URL (ngắn gọn); "chọn hết" thể ≠ "không chọn thể nào"
     const ui: Filter = { "ui-group": [g], "ui-book": [b] };
     if (b === "minna") ui.upto = { max: opts.upTo! };

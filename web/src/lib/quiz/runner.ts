@@ -4,7 +4,7 @@
 // [data-q-keep] (Furigana) → hết lượt: "Lượt mới" / "Làm lại câu sai" giữ tùy chọn, "Đổi tùy chọn" mở khóa về thiết lập.
 import { groupByTarget, parseRuby } from "../ruby";
 import { isRuby } from "./validate";
-import { filterItems } from "./core";
+import { filterItems, partOf } from "./core";
 import { mulberry32, randomSeed } from "./random";
 import { type Question, type Session, createSession } from "./session";
 import type { Deck, Filter, QuizItem } from "./types";
@@ -75,7 +75,10 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const kindBadge = q("kind"), sizeBox = q("size-box"), sizeInput = q<HTMLInputElement>("size-input"), sizeError = q("size-error");
   const kindsEl = root.querySelector("script[data-quiz-kinds]");
   const kindLabels = kindsEl ? (JSON.parse(kindsEl.textContent ?? "{}") as Record<string, string>) : {};
-  const groupOf = root.dataset.balance === "kind" ? (it: QuizItem): string => it.kind : undefined;
+  // Trộn đều: "kind" = theo loại câu; "part" = theo phần học (tiền tố loại câu: v-, k-, c-, n-), trong phần theo loại câu
+  const balance = root.dataset.balance;
+  const groupOf = balance === "kind" ? (it: QuizItem): string => it.kind : balance === "part" ? partOf : undefined;
+  const subOf = balance === "part" ? (it: QuizItem): string => it.kind : undefined;
   const base = (import.meta.env.BASE_URL ?? "/").replace(/\/?$/, "/");
   const rng = mulberry32(randomSeed());
 
@@ -142,7 +145,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
   function start(items?: QuizItem[], limit?: number | null): void {
     if (!all || !filter) return;
     const pool = items ?? filterItems(all, filter);
-    session = createSession(pool, rng, limit === undefined ? roundSize() : limit, groupOf);
+    session = createSession(pool, rng, limit === undefined ? roundSize() : limit, groupOf, subOf);
     render();
   }
 

@@ -53,6 +53,11 @@ export function matches(item: QuizItem, filter: Filter): boolean {
   return Object.entries(filter).every(([tag, rule]) => ruleMatches(tagOf(item, tag), rule));
 }
 
+/** Phần học của câu hỏi = tiền tố loại câu ("k-hv" → "k"). Trang tổng /luyen-tap/ chia đều theo phần. */
+export function partOf(it: Pick<QuizItem, "kind">): string {
+  return it.kind.split("-")[0]!;
+}
+
 export function filterItems(items: readonly QuizItem[], filter: Filter): QuizItem[] {
   return items.filter((it) => matches(it, filter));
 }
@@ -66,6 +71,22 @@ export interface Queue<T> {
 }
 
 /**
+ * Xếp xen kẽ theo nhóm con: mỗi vòng lấy 1 câu của mỗi nhóm con còn câu (thứ tự nhóm con trộn mỗi vòng).
+ * Hàng đợi bốc từ CUỐI mảng (pop) → đảo ngược: phần xen kẽ đều phải nằm ở cuối; đầu mảng (sau khi nhóm con nhỏ
+ * hết câu) chỉ còn nhóm con lớn nhất.
+ */
+function interleave<T>(items: readonly T[], subOf: (item: T) => string, rng: Rng): T[] {
+  const subs = new Map<string, T[]>();
+  for (const it of items) (subs.get(subOf(it)) ?? subs.set(subOf(it), []).get(subOf(it))!).push(it);
+  const piles = [...subs.values()].map((v) => shuffle(v, rng));
+  const out: T[] = [];
+  while (piles.some((p) => p.length > 0)) {
+    for (const p of shuffle(piles.filter((x) => x.length > 0), rng)) out.push(p.pop()!);
+  }
+  return out.reverse();
+}
+
+/**
  * Hàng đợi câu hỏi: bốc không lặp đến hết deck, hết thì trộn lại vòng mới
  * (câu đầu vòng mới ≠ câu cuối vòng cũ). `limit` = số câu một lượt; null = không giới hạn.
  * "Làm lại câu sai" = createQueue(câu sai, …).
@@ -73,12 +94,16 @@ export interface Queue<T> {
  * `groupOf` (trộn đều): bốc lần lượt từng nhóm (vd loại câu), thứ tự nhóm trộn lại mỗi lượt quay —
  * 20 câu / 5 nhóm → mỗi nhóm 4 câu, không phụ thuộc nhóm nào nhiều câu hơn. Nhóm hết câu trong vòng
  * thì tạm nghỉ đến khi mọi nhóm hết (vòng mới), nên không lặp câu trong nhóm nhỏ.
+ *
+ * `subOf` (trộn đều 2 tầng, trang tổng /luyen-tap/): trong mỗi nhóm, câu xếp xen kẽ theo nhóm con
+ * (vd nhóm = phần học, nhóm con = loại câu) → 5 câu Kanji / 3 loại = 2/2/1, không dồn vào loại nhiều câu.
  */
 export function createQueue<T extends { id: string }>(
   items: readonly T[],
   rng: Rng,
   limit: number | null = null,
   groupOf?: (item: T) => string,
+  subOf?: (item: T) => string,
 ): Queue<T> {
   const groups = new Map<string, T[]>();
   for (const it of items) {
@@ -92,7 +117,7 @@ export function createQueue<T extends { id: string }>(
 
   /** Trộn lại túi của một nhóm; tránh câu sắp bốc (cuối túi) trùng câu vừa hỏi. */
   const refill = (k: string): void => {
-    const bag = shuffle(groups.get(k)!, rng);
+    const bag = subOf ? interleave(groups.get(k)!, subOf, rng) : shuffle(groups.get(k)!, rng);
     if (bag.length > 1 && last !== null && bag[bag.length - 1]!.id === last.id) {
       [bag[0], bag[bag.length - 1]] = [bag[bag.length - 1]!, bag[0]!];
     }

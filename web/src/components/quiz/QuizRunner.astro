@@ -22,15 +22,17 @@ interface Props {
   kindLabels?: Record<string, string>;
   /** Trộn đều theo loại câu: mỗi lượt chia số câu ngang nhau cho các kind đang có. */
   balanceKinds?: boolean;
+  /** Trộn đều theo phần học (tiền tố kind: v-, k-, c-, n-), trong mỗi phần theo loại câu — trang tổng /luyen-tap/. */
+  balanceParts?: boolean;
   /** Thêm dòng "Furigana: Hiện / Ẩn" — ẩn cách đọc trên câu hỏi và các lựa chọn; phần phản hồi/giải thích luôn hiện. */
   furiganaToggle?: boolean;
 }
-const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, furiganaToggle = false } = Astro.props;
+const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, balanceParts = false, furiganaToggle = false } = Astro.props;
 if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
 const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 ---
 
-<div data-quiz data-src={src} data-link-label={linkLabel} data-balance={balanceKinds ? "kind" : undefined}>
+<div data-quiz data-src={src} data-link-label={linkLabel} data-balance={balanceParts ? "part" : balanceKinds ? "kind" : undefined}>
   {items && <script type="application/json" data-quiz-items set:html={JSON.stringify(items)} />}
   {kindLabels && <script type="application/json" data-quiz-kinds set:html={JSON.stringify(kindLabels)} />}
 
