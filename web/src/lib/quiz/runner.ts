@@ -2,12 +2,16 @@
 // Trang gọi: const quiz = mountQuiz(root); quiz.setFilter(filter) — lần đầu và mỗi khi bộ lọc đổi.
 // Luồng: THIẾT LẬP (chỉ bảng tùy chọn + nút "Bắt đầu") → bấm Bắt đầu: tải câu hỏi, KHÓA mọi tùy chọn trừ dòng
 // [data-q-keep] (Furigana) → hết lượt: "Lượt mới" / "Làm lại câu sai" giữ tùy chọn, "Đổi tùy chọn" mở khóa về thiết lập.
+// Câu hay sai (Q10): mỗi câu trả lời ghi vào jp:quiz:wrong (lib/quiz/wrong.ts qua lib/storage.ts); dòng "Câu hỏi" chọn
+// "Câu hay sai" → áp thêm lên bộ lọc của trang, URL ?on=sai (runner tự gắn sau khi trang ghi URL trong setFilter).
 import { groupByTarget, parseRuby } from "../ruby";
 import { isRuby } from "./validate";
 import { filterItems, partOf } from "./core";
 import { mulberry32, randomSeed } from "./random";
 import { type Question, type Session, createSession } from "./session";
 import type { Deck, Filter, QuizItem } from "./types";
+import { KEYS, readString, storageAvailable, writeString } from "../storage";
+import { REMEMBER_STREAK, type WrongStore, clearWrong, countWrong, parseStore, recordAnswer, reviewItems } from "./wrong";
 
 export interface QuizController {
   /**
@@ -88,6 +92,17 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const startBar = q("start-bar"), startBtn = q<HTMLButtonElement>("start"), lockedNote = q("locked-note"), lockedSummary = q("locked-summary");
   const optionsPanel = root.querySelector<HTMLElement>(".quiz-options")!;
 
+  // Câu hay sai (Q10)
+  const canStore = storageAvailable();
+  const wrongKinds = (root.dataset.wrongKinds ?? "").split(" ").filter(Boolean);
+  const wrongRow = q("wrong-row"), wrongClear = q<HTMLButtonElement>("wrong-clear");
+  const reviewAll = root.querySelector<HTMLInputElement>("#q-review-all")!, reviewWrong = root.querySelector<HTMLInputElement>("#q-review-wrong")!;
+  const emptyText = empty.textContent ?? "";
+  const loadStore = (): WrongStore => parseStore(readString(KEYS.quizWrong));
+  const reviewing = (): boolean => canStore && reviewWrong.checked;
+  /** Kết quả lượt đang làm: số câu vừa lưu (sai) và số câu đã nhớ (đúng đủ REMEMBER_STREAK lần). */
+  let roundSaved = 0, roundRemembered = 0;
+
   let all: QuizItem[] | null = null;
   let filter: Filter | null = null;
   let session: Session | null = null;
@@ -107,6 +122,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
     const clean = (el: Element): string => (el.textContent ?? "").replace("✓", "").replace(/\s+/g, " ").trim();
     for (const row of optionsPanel.children) {
       if (!(row instanceof HTMLElement) || row.hidden || row.matches("[data-q-keep]") || row.offsetParent === null) continue;
+      if (row === wrongRow && !reviewing()) continue; // "Câu hỏi: Tất cả" là mặc định → không ghi vào tóm tắt
       const label = row.querySelector(".seg-label")?.textContent?.replace(/:\s*$/, "").trim();
       if (!label) continue;
       let value: string;
@@ -145,10 +161,24 @@ export function mountQuiz(root: HTMLElement): QuizController {
     for (const x of [card, summary, empty, loading]) x.classList.toggle("hidden", x !== el);
   };
 
+  /** Câu của bộ lọc; chế độ "Câu hay sai" → chỉ câu đã lưu, sai nhiều / gần đây trước. */
+  function basePool(): QuizItem[] {
+    const pool = filterItems(all ?? [], filter ?? {});
+    return reviewing() ? reviewItems(pool, loadStore(), rng) : pool;
+  }
+
   function start(items?: QuizItem[], limit?: number | null): void {
     if (!all || !filter) return;
-    const pool = items ?? filterItems(all, filter);
-    session = createSession(pool, rng, limit === undefined ? roundSize() : limit, groupOf, subOf);
+    let size = limit === undefined ? roundSize() : limit;
+    let pool = items ?? basePool();
+    // ôn câu sai: lượt lấy các câu đứng đầu (sai nhiều trước), không hỏi vòng lại khi ít câu hơn số câu/lượt
+    if (!items && reviewing()) {
+      pool = pool.slice(0, size ?? pool.length);
+      size = pool.length;
+    }
+    roundSaved = 0;
+    roundRemembered = 0;
+    session = createSession(pool, rng, size, groupOf, subOf);
     render();
   }
 
@@ -186,8 +216,9 @@ export function mountQuiz(root: HTMLElement): QuizController {
     }
     lock(true);
     const go = (): void => {
-      if (filterItems(all ?? [], filter!).length === 0) {
+      if (basePool().length === 0) {
         lock(false);
+        empty.textContent = reviewing() ? "Không có câu sai nào trong bộ lọc này. Chọn \"Tất cả\" hoặc nới bộ lọc." : emptyText;
         show(empty);
         return;
       }
@@ -203,6 +234,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
     token++; // bỏ kết quả tải đang dở (nếu có)
     session = null;
     lock(false);
+    refreshWrong(); // số câu sai đã đổi sau lượt; hết câu → về "Tất cả"
+    syncReviewUrl();
     show(null);
     startBtn.focus();
   }
@@ -303,6 +336,12 @@ export function mountQuiz(root: HTMLElement): QuizController {
     if (!s || !cur) return;
     const res = s.answer(index);
     if (!res) return;
+    if (canStore) {
+      const r = recordAnswer(loadStore(), res.item.id, res.ok, Math.floor(Date.now() / 1000));
+      writeString(KEYS.quizWrong, JSON.stringify(r.store));
+      if (!res.ok) roundSaved++;
+      if (r.remembered) roundRemembered++;
+    }
     optionsBox.querySelectorAll<HTMLButtonElement>(".q-opt").forEach((b, i) => {
       b.disabled = true;
       if (i === cur.correct) b.dataset.state = "right";
@@ -333,6 +372,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
     q("sum-right").textContent = String(s.right);
     q("sum-total").textContent = String(s.total);
     const wrong = s.wrong();
+    renderSaved();
     q("sum-perfect").classList.toggle("hidden", wrong.length > 0 || s.total === 0);
     q("sum-wrong-box").classList.toggle("hidden", wrong.length === 0);
     q("sum-wrong").replaceChildren(
@@ -485,6 +525,71 @@ export function mountQuiz(root: HTMLElement): QuizController {
       });
   };
 
+  // ---------------------------------------------------------------- Câu hay sai (Q10)
+
+  /** Dòng "Câu hỏi": số câu đã lưu của trang; 0 câu → khóa "Câu hay sai" + ẩn Xóa. */
+  function refreshWrong(): void {
+    if (!canStore) return;
+    const n = countWrong(loadStore(), wrongKinds);
+    const label = reviewWrong.closest("label")!;
+    const text = [...label.childNodes].find((x) => x.nodeType === Node.TEXT_NODE && x.textContent?.trim());
+    if (text) text.textContent = `Câu hay sai (${n})`;
+    if (n === 0 && reviewWrong.checked) reviewAll.checked = true;
+    reviewWrong.disabled = n === 0;
+    label.classList.toggle("opacity-40", n === 0);
+    wrongClear.disabled = n === 0;
+  }
+
+  function syncReviewUrl(): void {
+    if (!canStore) return;
+    // chỉ thêm/bỏ `on`, giữ nguyên chuỗi của trang (URLSearchParams sẽ mã hóa dấu phẩy: loai=ten%2Cchu)
+    const parts = location.search.slice(1).split("&").filter((x) => x && !x.startsWith("on="));
+    if (reviewing()) parts.push("on=sai");
+    const qs = parts.join("&");
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }
+
+  /** Tổng kết: đã lưu N câu sai (+ link ôn) / đang ôn: đã nhớ K câu. */
+  function renderSaved(): void {
+    const box = q("sum-saved");
+    box.replaceChildren();
+    if (!canStore) return box.classList.add("hidden");
+    const left = countWrong(loadStore(), wrongKinds);
+    if (reviewing()) {
+      box.append(`Đã nhớ ${roundRemembered} câu (đúng ${REMEMBER_STREAK} lần liên tiếp) · Còn ${left} câu hay sai`);
+    } else if (roundSaved > 0) {
+      const a = document.createElement("a");
+      a.href = "#";
+      a.dataset.q = "sum-review";
+      a.className = "text-primary hover:underline";
+      a.textContent = "Ôn câu hay sai →";
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        setup();
+        reviewWrong.checked = true;
+        syncReviewUrl();
+        startBtn.focus();
+      });
+      box.append(`Đã lưu ${roundSaved} câu sai để ôn lại · `, a);
+    }
+    box.classList.toggle("hidden", box.childNodes.length === 0);
+  }
+
+  wrongRow.hidden = !canStore;
+  if (canStore && new URLSearchParams(location.search).get("on") === "sai") reviewWrong.checked = true;
+  refreshWrong();
+  for (const r of [reviewAll, reviewWrong]) r.addEventListener("change", () => {
+    syncReviewUrl();
+    show(null);
+  });
+  wrongClear.addEventListener("click", () => {
+    const n = countWrong(loadStore(), wrongKinds);
+    if (n === 0 || !confirm(`Xóa ${n} câu hay sai của trang này? Không hoàn tác được.`)) return;
+    writeString(KEYS.quizWrong, JSON.stringify(clearWrong(loadStore(), wrongKinds)));
+    refreshWrong();
+    syncReviewUrl();
+  });
+
   const inline = root.querySelector("script[data-quiz-items]");
   if (inline) all = JSON.parse(inline.textContent ?? "[]") as QuizItem[];
   else if (root.dataset.src) pending = { decks: [root.dataset.src] };
@@ -497,6 +602,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
       filter = f;
       if (decks) pending = { decks, toItems };
       show(null); // đổi tùy chọn → ẩn thông báo rỗng / lỗi cũ
+      syncReviewUrl(); // trang vừa ghi URL theo bộ lọc của nó → gắn lại ?on=sai nếu đang ôn câu sai
     },
   };
 }

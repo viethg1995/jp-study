@@ -7,6 +7,8 @@
 // Luồng: mở trang chỉ thấy bảng tùy chọn + nút "Bắt đầu"; bấm Bắt đầu mới tải câu hỏi và hiện khung quiz; trong lúc
 // làm bài mọi tùy chọn bị khóa và thu thành 1 dòng tóm tắt; Furigana đổi bằng chip "✓ Furigana" trong thẻ (bật/tắt chính radio
 // dòng [data-q-keep], không bị khóa); tổng kết có "Đổi tùy chọn" để mở khóa.
+// Câu hay sai (Q10): dòng "Câu hỏi: Tất cả · Câu hay sai (N)" + nút Xóa — runner đếm/lọc theo `jp:quiz:wrong`
+// (lib/quiz/wrong.ts); phạm vi = loại câu của trang (`wrongKinds`, mặc định khóa của `kindLabels`).
 // Script thường, không Preact (D1).
 import Segmented from "../ui/Segmented.astro";
 import type { QuizItem } from "../../lib/quiz/types";
@@ -27,13 +29,17 @@ interface Props {
   balanceParts?: boolean;
   /** Thêm dòng "Furigana: Hiện / Ẩn" — ẩn cách đọc trên câu hỏi và các lựa chọn; phần phản hồi/giải thích luôn hiện. */
   furiganaToggle?: boolean;
+  /** Loại câu của trang cho "Câu hay sai" (đếm, lọc, xóa). Mặc định = khóa của `kindLabels`. */
+  wrongKinds?: string[];
 }
 const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, balanceParts = false, furiganaToggle = false } = Astro.props;
+const wrongKinds = Astro.props.wrongKinds ?? Object.keys(kindLabels ?? {});
+if (wrongKinds.length === 0) throw new Error("QuizRunner: thiếu `wrongKinds` (hoặc `kindLabels`) cho Câu hay sai");
 if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
 const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 ---
 
-<div data-quiz data-src={src} data-link-label={linkLabel} data-balance={balanceParts ? "part" : balanceKinds ? "kind" : undefined}>
+<div data-quiz data-src={src} data-link-label={linkLabel} data-balance={balanceParts ? "part" : balanceKinds ? "kind" : undefined} data-wrong-kinds={wrongKinds.join(" ")}>
   {items && <script type="application/json" data-quiz-items set:html={JSON.stringify(items)} />}
   {kindLabels && <script type="application/json" data-quiz-kinds set:html={JSON.stringify(kindLabels)} />}
 
@@ -47,6 +53,19 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     </div>
     <div class="quiz-options flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
       <slot name="filters" />
+      <!-- Câu hay sai (Q10): runner hiện dòng khi lưu trữ trình duyệt dùng được, điền số câu, khóa nút khi 0 câu -->
+      <div data-q="wrong-row" class="flex items-center gap-x-2" hidden>
+        <Segmented
+          name="q-review"
+          label="Câu hỏi"
+          options={[
+            { id: "q-review-all", label: "Tất cả" },
+            { id: "q-review-wrong", label: "Câu hay sai (0)" },
+          ]}
+          checked="q-review-all"
+        />
+        <button type="button" data-q="wrong-clear" class="shrink-0 rounded px-1.5 py-1 text-xs text-ink-faint underline-offset-2 hover:text-danger hover:underline disabled:invisible">Xóa</button>
+      </div>
       <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
         <Segmented
           name="q-size"
@@ -187,6 +206,7 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     <h2 class="text-center text-lg font-semibold">Kết quả lượt</h2>
     <p class="mt-2 text-center text-4xl font-bold tabular-nums"><span data-q="sum-right">0</span> / <span data-q="sum-total">0</span></p>
     <p data-q="sum-perfect" class="mt-2 hidden text-center text-success">Đúng hết, giỏi lắm!</p>
+    <p data-q="sum-saved" class="mt-3 hidden text-center text-sm text-ink-muted"></p>
     <div data-q="sum-wrong-box" class="mt-5 hidden">
       <h3 class="text-sm font-semibold text-ink-muted">Câu sai</h3>
       <ul data-q="sum-wrong" class="mt-2 divide-y divide-line text-sm"></ul>
