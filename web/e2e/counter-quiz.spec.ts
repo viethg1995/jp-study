@@ -60,10 +60,26 @@ test("đi hết lượt 10 câu → tổng kết → làm lại câu sai đúng 
   await expect(page.locator('[data-q="of"]')).toHaveText(` / ${10 - right}`);
 });
 
-test("Kết thúc lượt sớm → tổng kết số câu đã làm; Lượt mới bắt đầu lại từ câu 1, vẫn khóa tùy chọn", async ({ page }) => {
+test("Kết thúc lượt sớm → hỏi lại; Làm tiếp / Esc giữ lượt; Kết thúc → tổng kết; Lượt mới từ câu 1, vẫn khóa tùy chọn", async ({ page }) => {
   await startQuiz(page);
-  await page.keyboard.press("1");
+  // chưa làm câu nào → kết thúc luôn, không hỏi
   await page.locator('[data-q="finish"]').click();
+  await expect(page.locator('[data-q="summary"]')).toBeVisible();
+  await page.locator('[data-q="restart"]').click();
+  await page.keyboard.press("1");
+  const confirm = page.locator('[data-q="finish-confirm"]');
+  await page.locator('[data-q="finish"]').click();
+  await expect(confirm).toBeVisible();
+  await expect(confirm).toContainText("Đã làm 1 câu");
+  await expect(page.locator('[data-q="finish-cancel"]')).toBeFocused();
+  await page.keyboard.press("Enter"); // Enter trên "Làm tiếp" không được sang câu tiếp
+  await expect(confirm).toBeHidden();
+  await expect(page.locator('[data-q="index"]')).toHaveText("1");
+  await page.locator('[data-q="finish"]').click();
+  await page.keyboard.press("Escape");
+  await expect(confirm).toBeHidden();
+  await page.locator('[data-q="finish"]').click();
+  await page.locator('[data-q="finish-ok"]').click();
   await expect(page.locator('[data-q="summary"]')).toBeVisible();
   await expect(page.locator('[data-q="sum-total"]')).toHaveText("1");
   await page.locator('[data-q="restart"]').click();
@@ -146,4 +162,17 @@ test("bảng tùy chọn: mọi điều khiển cao bằng nhau 32px (Combobox, 
   const hs = await optionHeights(page);
   expect(hs.length).toBeGreaterThanOrEqual(4);
   expect(new Set(hs)).toEqual(new Set([32]));
+});
+
+test("thanh tiến độ theo số câu đã trả lời; nút Câu tiếp ẩn (giữ chỗ) tới khi trả lời", async ({ page }) => {
+  await startQuiz(page);
+  const bar = page.locator('[data-q="progressbar"]');
+  await expect(bar).toHaveAttribute("aria-valuenow", "0");
+  await expect(page.locator('[data-q="next"]')).toBeHidden();
+  await page.keyboard.press("1");
+  await expect(bar).toHaveAttribute("aria-valuenow", "10");
+  await expect(page.locator('[data-q="next"]')).toBeVisible();
+  await page.keyboard.press("Enter");
+  await page.keyboard.press("2");
+  await expect(bar).toHaveAttribute("aria-valuenow", "20");
 });

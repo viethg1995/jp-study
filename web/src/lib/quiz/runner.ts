@@ -72,6 +72,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const feedback = q("feedback"), verdict = q("verdict"), accepted = q("accepted"), explain = q("explain");
   const link = q<HTMLAnchorElement>("link"), next = q<HTMLButtonElement>("next"), question = q("question");
   const defaultQuestion = question.textContent ?? "";
+  const progress = q("progress"), progressbar = q("progressbar");
+  const finishConfirm = q("finish-confirm"), finishOk = q<HTMLButtonElement>("finish-ok"), finishCancel = q<HTMLButtonElement>("finish-cancel");
   const infoWrap = q("info-wrap"), infoBtn = q<HTMLButtonElement>("info-btn"), infoPop = q("info");
   const kindBadge = q("kind"), sizeBox = q("size-box"), sizeInput = q<HTMLInputElement>("size-input"), sizeError = q("size-error");
   const kindsEl = root.querySelector("script[data-quiz-kinds]");
@@ -212,6 +214,29 @@ export function mountQuiz(root: HTMLElement): QuizController {
     else show(empty);
   }
 
+  /** Thanh tiến độ: số câu đã trả lời / số câu của lượt. */
+  function updateProgress(): void {
+    const s = session;
+    const pct = s && s.limit ? Math.min(100, Math.round((s.total / s.limit) * 100)) : 0;
+    progress.style.width = `${pct}%`;
+    progressbar.setAttribute("aria-valuenow", String(pct));
+  }
+
+  /** Đề ngắn (nowrap) rộng hơn thẻ → thu cỡ chữ cho vừa, tối thiểu 20px. */
+  function fitPrompt(): void {
+    prompt.style.fontSize = "";
+    if (!prompt.classList.contains("whitespace-nowrap")) return;
+    const box = prompt.parentElement!.clientWidth;
+    const w = prompt.getBoundingClientRect().width;
+    if (box > 0 && w > box) {
+      const size = parseFloat(getComputedStyle(prompt).fontSize);
+      prompt.style.fontSize = `${Math.max(20, Math.floor((size * box) / w))}px`;
+    }
+  }
+  window.addEventListener("resize", () => {
+    if (!card.classList.contains("hidden")) fitPrompt();
+  });
+
   function renderQuestion(cur: Question): void {
     const s = session!;
     show(card);
@@ -225,10 +250,14 @@ export function mountQuiz(root: HTMLElement): QuizController {
 
     renderRuby(prompt, cur.item.prompt);
     const long = cur.item.prompt.length > 12;
-    // đề: 46px (tiếng Nhật ngắn) / 22px — nhỏ hơn 48/24 cũ 2px để câu hỏi bên dưới nổi hơn (user 2026-11-13)
+    // đề: 46px (tiếng Nhật ngắn) / 22px — nhỏ hơn 48/24 cũ 2px để câu hỏi bên dưới nổi hơn (user 2026-11-13).
+    // Đề ngắn không xuống dòng giữa từ (コピーしまし / ょう) → nowrap + thu nhỏ cho vừa bề ngang (fitPrompt).
     const big = cur.item.promptLang === "ja" && !long;
-    for (const c of ["text-[2.875rem]", "leading-none"]) prompt.classList.toggle(c, big);
+    for (const c of ["text-[2.875rem]", "leading-none", "whitespace-nowrap"]) prompt.classList.toggle(c, big);
     for (const c of ["text-[1.375rem]", "leading-snug"]) prompt.classList.toggle(c, !big);
+    fitPrompt();
+    finishConfirm.hidden = true;
+    updateProgress();
     question.textContent = cur.item.question ?? defaultQuestion;
     hint.textContent = cur.item.hint ?? "";
     hint.classList.toggle("hidden", !cur.item.hint);
@@ -278,6 +307,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
     explain.classList.toggle("hidden", !res.item.explain);
     explain.textContent = res.item.explain ?? "";
     link.href = base + res.item.href;
+    updateProgress();
     next.textContent = s.limit !== null && s.total >= s.limit ? "Xem kết quả →" : "Câu tiếp →";
     next.disabled = false;
     next.focus();
@@ -322,9 +352,21 @@ export function mountQuiz(root: HTMLElement): QuizController {
     session?.next();
     render();
   });
-  q("finish").addEventListener("click", () => {
+  // Kết thúc sớm: chưa làm câu nào → kết thúc luôn; đã làm → hỏi lại (focus "Làm tiếp" — nút an toàn)
+  const finishNow = (): void => {
+    finishConfirm.hidden = true;
     session?.finish();
     render();
+  };
+  q("finish").addEventListener("click", () => {
+    if (!session || session.total === 0) return finishNow();
+    q("done-count").textContent = String(session.total);
+    finishConfirm.hidden = false;
+    finishCancel.focus();
+  });
+  finishOk.addEventListener("click", finishNow);
+  finishCancel.addEventListener("click", () => {
+    finishConfirm.hidden = true;
   });
   q("restart").addEventListener("click", () => start());
   q("setup").addEventListener("click", setup);
@@ -378,13 +420,16 @@ export function mountQuiz(root: HTMLElement): QuizController {
 
   document.addEventListener("keydown", (e) => {
     const t = e.target as HTMLElement | null;
-    if (e.key === "Escape") setInfo(false);
+    if (e.key === "Escape") {
+      setInfo(false);
+      finishConfirm.hidden = true;
+    }
     // đang gõ (ô số câu, ô tìm, select bài) → phím số không phải chọn đáp án
     if (t?.closest("input:not([type=radio]):not([type=checkbox]), textarea, select, [data-combo][data-open]")) return;
     if (!session?.current || card.classList.contains("hidden")) return;
     if (/^[1-9]$/.test(e.key) && !session.answered) {
       choose(Number(e.key) - 1);
-    } else if (e.key === "Enter" && session.answered && t !== next && t !== infoBtn) {
+    } else if (e.key === "Enter" && session.answered && t !== next && t !== infoBtn && !finishConfirm.contains(t)) {
       e.preventDefault();
       next.click();
     }

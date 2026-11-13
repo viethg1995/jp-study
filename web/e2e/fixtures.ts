@@ -55,9 +55,16 @@ export async function startQuiz(page: Page): Promise<void> {
   await expect(page.locator('[data-q="card"]')).toBeVisible();
 }
 
+/** "Kết thúc lượt" giữa lượt; đã làm ≥ 1 câu thì xác nhận "Kết thúc". */
+export async function finishRound(page: Page): Promise<void> {
+  await page.locator('[data-q="finish"]').click();
+  if (await page.locator('[data-q="finish-confirm"]').isVisible()) await page.locator('[data-q="finish-ok"]').click();
+  await expect(page.locator('[data-q="summary"]')).toBeVisible();
+}
+
 /** Từ tổng kết hoặc giữa lượt: Kết thúc lượt → "Đổi tùy chọn" (mở khóa bảng tùy chọn). */
 export async function backToSetup(page: Page): Promise<void> {
-  if (await page.locator('[data-q="card"]').isVisible()) await page.locator('[data-q="finish"]').click();
+  if (await page.locator('[data-q="card"]').isVisible()) await finishRound(page);
   await page.locator('[data-q="setup"]').click();
   await expect(page.locator('[data-q="start"]')).toBeVisible();
 }

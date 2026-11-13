@@ -106,7 +106,11 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     Không có câu nào khớp bộ lọc. Thử nới bộ lọc ở trên.
   </p>
 
-  <section data-q="card" class="mt-6 hidden rounded-lg border border-line bg-surface p-6" aria-live="polite">
+  <section data-q="card" class="mt-6 hidden overflow-hidden rounded-lg border border-line bg-surface p-6" aria-live="polite">
+    <!-- tiến độ lượt: số câu đã trả lời / số câu của lượt -->
+    <div class="-mx-6 -mt-6 mb-5 h-1 bg-line" role="progressbar" aria-label="Tiến độ lượt" aria-valuemin="0" aria-valuemax="100" data-q="progressbar">
+      <div data-q="progress" class="h-full w-0 bg-primary transition-[width] duration-300"></div>
+    </div>
     <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 text-sm text-ink-muted">
       <span class="flex items-baseline gap-2 whitespace-nowrap">
         <span>Câu <b data-q="index" class="font-semibold text-ink tabular-nums">1</b><span data-q="of"></span></span>
@@ -140,6 +144,12 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
         <button type="button" data-q="finish" class="ml-2 rounded px-2 py-0.5 text-primary hover:bg-primary-soft">Kết thúc lượt</button>
       </span>
     </div>
+    <!-- hỏi lại trước khi kết thúc sớm (đã làm ≥ 1 câu) — tránh chạm nhầm mất lượt -->
+    <div data-q="finish-confirm" class="mt-3 flex flex-wrap items-center gap-2 rounded-md border border-primary-line bg-primary-soft px-3 py-2 text-sm" hidden>
+      <span class="mr-auto text-ink">Kết thúc lượt? Đã làm <b data-q="done-count" class="tabular-nums">0</b> câu.</span>
+      <button type="button" data-q="finish-cancel" class="rounded-md border border-line bg-surface px-3 py-1 text-ink hover:border-primary-line">Làm tiếp</button>
+      <button type="button" data-q="finish-ok" class="rounded-md bg-primary px-3 py-1 font-semibold text-surface hover:bg-primary-strong">Kết thúc</button>
+    </div>
 
     <p class="mt-4 text-center"><span data-q="prompt" class="font-bold text-ink"></span></p>
     <p data-q="hint" class="mt-2 text-center text-sm text-ink-muted"></p>
@@ -155,8 +165,8 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     </div>
 
     <div class="mt-5 flex items-center justify-between gap-2">
-      <p class="hidden text-xs text-ink-faint sm:block">Phím 1–4 để chọn · Enter: câu tiếp</p>
-      <button type="button" data-q="next" class:list={[btn, "ml-auto shrink-0 whitespace-nowrap bg-primary text-surface hover:bg-primary-strong disabled:opacity-40"]} disabled>Câu tiếp →</button>
+      <p class="kbd-hint text-xs text-ink-faint">Phím 1–4 để chọn · Enter: câu tiếp</p>
+      <button type="button" data-q="next" class:list={[btn, "ml-auto shrink-0 whitespace-nowrap bg-primary text-surface hover:bg-primary-strong disabled:invisible"]} disabled>Câu tiếp →</button>
     </div>
   </section>
 
@@ -179,6 +189,15 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 <style>
   /* Ẩn furigana (thuần CSS): chỉ câu hỏi + các lựa chọn; phản hồi, giải thích, tổng kết vẫn hiện cách đọc.
      visibility (không display) để bật/tắt giữa chừng không làm nhảy bố cục — như công tắc ở trang bài. */
+  /* phím tắt: chỉ gợi ý trên máy có chuột + bàn phím (không theo bề ngang — tablet cảm ứng cũng ẩn) */
+  .kbd-hint {
+    display: none;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .kbd-hint {
+      display: block;
+    }
+  }
   /* ⓘ: ẩn mặc định; hiện khi rê chuột (máy có chuột — click chuột KHÔNG ghim), chạm trên mobile / Enter bàn phím
      (data-open, runner bật/tắt), hoặc đang focus bằng bàn phím */
   .info-pop {

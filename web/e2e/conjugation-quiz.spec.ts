@@ -132,3 +132,26 @@ test("không cuộn ngang; điều khiển 32px", async ({ page }) => {
   expect(overflow).toBeLessThanOrEqual(0);
   await expect(page.locator(card)).toBeVisible();
 });
+
+test("đề ngắn không xuống dòng giữa từ: một dòng, vừa bề ngang thẻ (thu chữ khi cần)", async ({ page }) => {
+  await page.goto("chia-the/quiz/?loai=the");
+  await startQuiz(page);
+  let checked = 0;
+  for (let i = 0; i < 20; i++) {
+    const m = await page.locator('[data-q="prompt"]').evaluate((el) => {
+      const r = el.getBoundingClientRect();
+      const cs = getComputedStyle(el);
+      // ruby làm getClientRects trả nhiều hộp dù một dòng → so chiều cao: 2 dòng ≥ 2 × cỡ chữ
+      return { w: r.width, box: el.parentElement!.clientWidth, ws: cs.whiteSpace, h: r.height, size: parseFloat(cs.fontSize) };
+    });
+    // đề dài (> 12 ký tự) cố ý cho xuống dòng ở cỡ 22px — chỉ kiểm đề ngắn
+    if (m.ws === "nowrap") {
+      checked++;
+      expect(m.h).toBeLessThan(m.size * 1.9);
+      expect(m.w).toBeLessThanOrEqual(m.box + 1);
+    }
+    await page.keyboard.press("1");
+    await page.keyboard.press("Enter");
+  }
+  expect(checked).toBeGreaterThanOrEqual(5);
+});
