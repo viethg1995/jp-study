@@ -1,4 +1,4 @@
-// Quiz Kanji + bộ thủ (Q5) trên dữ liệu thật data/kanji — bất biến + trường hợp đã biết (plan/quiz.md "Q5 — spec").
+// Quiz Kanji + bộ thủ (Q5) trên dữ liệu thật data/kanji — bất biến + trường hợp đã biết (plan/quiz/q05-kanji.md).
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 import { gzipSync } from "node:zlib";

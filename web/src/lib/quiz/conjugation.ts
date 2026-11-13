@@ -1,4 +1,4 @@
-// Quiz chia thể (Q6, plan/quiz.md "Q6 — spec"). Khác Q4/Q5: câu hỏi SINH TRÊN TRÌNH DUYỆT (Q6-1) từ bảng chia gọn
+// Quiz chia thể (Q6, plan/quiz/q06-conjugation.md). Khác Q4/Q5: câu hỏi SINH TRÊN TRÌNH DUYỆT (Q6-1) từ bảng chia gọn
 // /chia-the/quiz/<nhóm>.json (buildConjTable lúc build) — nhiễu lọc theo đúng bài đã học. Unit test chạy conjItems
 // trên toàn bộ dữ liệu + checkDeck như các deck khác.
 //   c-to     {書|か}きます · Thể て → {書|か}いて   nhiễu: "chia sai" (Q6-4) — biến âm て sai, chia nhầm nhóm, い ↔ な

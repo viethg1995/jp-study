@@ -1,4 +1,4 @@
-// Quiz từ vựng (Q4, plan/quiz.md): data/vocabulary → câu hỏi kiểu chung, đóng gói theo cấp × loại câu (Q4-1).
+// Quiz từ vựng (Q4, plan/quiz/q04-vocab.md): data/vocabulary → câu hỏi kiểu chung, đóng gói theo cấp × loại câu (Q4-1).
 // Hàm thuần — trang endpoint pages/vocabulary/quiz/[deck].json.ts gọi lúc build.
 //   v-read  先生 → せんせい            nhiễu: 3 lỗi đọc máy sinh (Q4-3), thiếu thì bù cách đọc từ thật
 //   v-mean  {先生|せんせい} → nghĩa     nhiễu: nghĩa từ cùng từ loại, bài gần nhất

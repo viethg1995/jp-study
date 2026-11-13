@@ -1,4 +1,4 @@
-// Kiểu dữ liệu chung cho mọi quiz (plan/quiz.md §3). Câu hỏi sinh lúc build bằng hàm thuần ở lib/quiz/<phần>.ts,
+// Kiểu dữ liệu chung cho mọi quiz (plan/quiz/README.md, Kiến trúc). Câu hỏi sinh lúc build bằng hàm thuần ở lib/quiz/<phần>.ts,
 // đóng gói thành Deck (file JSON tĩnh), trang chỉ hiển thị.
 
 export type TagValue = string | number;

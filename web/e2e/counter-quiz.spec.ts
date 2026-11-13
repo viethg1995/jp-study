@@ -1,4 +1,4 @@
-// E2E quiz đếm số /dem-so/quiz/ — khung QuizRunner (plan/quiz.md Q3, checklist §6).
+// E2E quiz đếm số /dem-so/quiz/ — khung QuizRunner (plan/quiz/q03-runner.md, checklist ở plan/quiz/README.md).
 // Luồng: bảng tùy chọn + "Bắt đầu" → khung quiz (tùy chọn khóa) → tổng kết → "Đổi tùy chọn".
 import { backToSetup, expect, optionHeights, startQuiz, test, tokenColor } from "./fixtures";
 

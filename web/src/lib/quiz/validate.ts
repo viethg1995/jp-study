@@ -1,4 +1,4 @@
-// Kiểm deck (plan/quiz.md §3, 5 quy tắc). Test của mọi deck gọi checkDeck; hàm sinh câu hỏi gọi finalizeDeck.
+// Kiểm deck (plan/quiz/README.md, Kiến trúc: 5 quy tắc). Test của mọi deck gọi checkDeck; hàm sinh câu hỏi gọi finalizeDeck.
 import { parseRuby } from "../ruby";
 import { normalize } from "./core";
 import type { QuizItem } from "./types";

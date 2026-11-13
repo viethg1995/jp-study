@@ -5,7 +5,7 @@ paths:
 
 # Frontend (`web/`, Astro + TypeScript)
 
-- Mặc định là HTML tĩnh. Phần tương tác (flashcard, quiz) dùng **script thường** (`<script>` + TS module trong `lib/`), không Preact — quyết định D1 ở `plan/quiz.md` (nhẹ hơn ~6KB gzip, không hydrate). Preact island chỉ cân nhắc khi state phức tạp (SRS).
+- Mặc định là HTML tĩnh. Phần tương tác (flashcard, quiz) dùng **script thường** (`<script>` + TS module trong `lib/`), không Preact — quyết định D1 ở `plan/quiz/README.md` (nhẹ hơn ~6KB gzip, không hydrate). Preact island chỉ cân nhắc khi state phức tạp (SRS).
 - TypeScript strict, không dùng `any`.
 - Font tiếng Nhật: `"Noto Sans JP"`. Mobile-first.
 - `astro.config.mjs` phải có `site` và `base` đúng với đường dẫn GitHub Pages — lấy từ biến môi trường `SITE_URL`, `BASE_PATH` (mặc định localhost, `/`). Link nội bộ luôn ghép `import.meta.env.BASE_URL`.
@@ -42,7 +42,7 @@ npm run test:e2e                   # e2e Playwright trên dist/ (chạy sau buil
 - **E2E** (`e2e/*.spec.ts`, Playwright ghim **1.64.1**): chạy trên bản build tĩnh `dist/` qua `scripts/serve-dist.mjs` (server tĩnh nhỏ, hỗ trợ `BASE_PATH`; không dùng `astro preview` vì bản này chạy nền và từ chối khi đã có server khác). Hai project: `desktop` 1280px, `mobile` 375px. Fixture `e2e/fixtures.ts`: chặn mạng ngoài (Google Fonts trả CSS rỗng) và tự fail khi trang có lỗi JS/console.
   - Máy mới: `npx playwright install --only-shell chromium` (tải vào `~/.cache/ms-playwright`, ngoài repo).
   - Thử với đường dẫn GitHub Pages: `BASE_PATH=/jp-study/ npx astro build && BASE_PATH=/jp-study/ npm run test:e2e`, xong build lại bản thường.
-  - Mỗi trang quiz mới (Q4–Q8) phải có file spec e2e; checklist kiểm tay ở `plan/quiz.md` §6 làm tự động hết mức có thể.
+  - Mỗi trang quiz mới (Q4–Q8) phải có file spec e2e; checklist kiểm tay ở `plan/quiz/README.md` (mục Checklist) làm tự động hết mức có thể.
 
 ## Hệ thống thiết kế (chi tiết: `plan/design-system.md`)
 

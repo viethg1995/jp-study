@@ -1,4 +1,4 @@
-// Bất biến của quiz đếm số trên dữ liệu thật data/counters.json (plan/quiz.md §3).
+// Bất biến của quiz đếm số trên dữ liệu thật data/counters.json (plan/quiz/README.md, Kiến trúc).
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 import { loadCounters } from "../test/data.ts";

@@ -1,4 +1,4 @@
-// Quiz Kanji + bộ thủ (Q5, plan/quiz.md "Q5 — spec"): data/kanji → câu hỏi kiểu chung. Hàm thuần — endpoint
+// Quiz Kanji + bộ thủ (Q5, plan/quiz/q05-kanji.md): data/kanji → câu hỏi kiểu chung. Hàm thuần — endpoint
 // pages/kanji/quiz/[deck].json.ts và pages/kanji/bo-thu/quiz/[deck].json.ts gọi lúc build.
 //   k-hv    学 → HỌC                 nhiễu: âm của chữ giống hình (chung thành phần KanjiVG → cùng bộ → số nét gần)
 //   k-mean  学 → học                 nhiễu: nghĩa chữ giống hình; loại nghĩa trùng ý (休/憩 "nghỉ ngơi")
