@@ -88,13 +88,13 @@ test("Kết thúc lượt sớm → hỏi lại; Làm tiếp / Esc giữ lượt
   await expect(page.locator("#g-h")).toBeDisabled();
 });
 
-test("đang làm bài: mọi tùy chọn bị khóa (Combobox, Nhóm âm, Ô hỏi, Số câu); Đổi tùy chọn → mở khóa", async ({ page }) => {
+test("đang làm bài: mọi tùy chọn bị khóa (Loại câu, Combobox, Nhóm âm, Ô hỏi, Số câu); Đổi tùy chọn → mở khóa", async ({ page }) => {
   await startQuiz(page);
   // khung thu gọn: chỉ còn 1 dòng tóm tắt (không có dòng Furigana ở quiz này)
-  await expect(page.locator('[data-q="locked-summary"]')).toHaveText("Trợ số từ: Tất cả trợ số từ · Nhóm âm: Tất cả · Ô hỏi: Cần nhớ (149) · Số câu: 10");
+  await expect(page.locator('[data-q="locked-summary"]')).toHaveText("Loại câu: Đếm đồ vật · Trợ số từ: Tất cả trợ số từ · Nhóm âm: Tất cả · Ô hỏi: Cần nhớ (149) · Số câu: 10");
   await expect(page.locator(".quiz-options > *:visible")).toHaveCount(0);
   await expect(page.locator(".combo-trigger")).toBeDisabled();
-  for (const id of ["#g-h", "#m-all", "#q-size-20", "#q-size-custom"]) await expect(page.locator(id)).toBeDisabled();
+  for (const id of ["#l-num", "#g-h", "#m-all", "#q-size-20", "#q-size-custom"]) await expect(page.locator(id)).toBeDisabled();
   await backToSetup(page);
   await expect(page.locator(card)).toBeHidden();
   await expect(page.locator('[data-q="locked-note"]')).toBeHidden();
@@ -175,4 +175,65 @@ test("thanh tiến độ theo số câu đã trả lời; nút Câu tiếp ẩn 
   await page.keyboard.press("Enter");
   await page.keyboard.press("2");
   await expect(bar).toHaveAttribute("aria-valuenow", "20");
+});
+
+// ---------------------------------------------------------------- Q7: loại câu "Số" (n-num, plan/quiz/q07-numbers.md)
+
+test("mặc định loại 'Đếm đồ vật': dòng Nhóm số ẩn, đề là số + trợ số từ", async ({ page }) => {
+  await expect(page.locator("#l-ctr")).toBeChecked();
+  await expect(page.locator("#t-all")).toBeHidden();
+  await expect(page.locator("#q-counter")).toBeAttached();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="prompt"]')).not.toHaveText(/^[\d,.\/%-]+$/);
+});
+
+test("chọn 'Số' → ẩn 3 dòng lọc trợ số từ, hiện Nhóm số, URL ?loai=so; đề là số", async ({ page }) => {
+  await page.locator("label:has(#l-num)").click();
+  await expect(page).toHaveURL(/\?loai=so$/);
+  await expect(page.locator("label:has(#t-all)")).toBeVisible();
+  for (const id of ["#g-all", "#m-changed"]) await expect(page.locator(`label:has(${id})`)).toBeHidden();
+  await expect(page.locator("[data-combo]")).toBeHidden();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="locked-summary"]')).toHaveText("Loại câu: Số · Nhóm số: Tất cả (86) · Số câu: 10");
+  await expect(page.locator('[data-q="question"]')).toHaveText("Đọc thế nào?");
+  for (let i = 0; i < 5; i++) {
+    await expect(page.locator('[data-q="prompt"]')).not.toHaveText(/[本枚人匹台杯つ回階]$/);
+    await page.keyboard.press("1");
+    await page.keyboard.press("Enter");
+  }
+  await backToSetup(page);
+  await page.locator("label:has(#l-ctr)").click();
+  await expect(page).toHaveURL(/\/dem-so\/quiz\/$/);
+  await expect(page.locator("label:has(#g-all)")).toBeVisible();
+});
+
+test("?loai=so&nhom-so=thap-phan → chỉ số thập phân / phân số / %", async ({ page }) => {
+  await page.goto("dem-so/quiz/?loai=so&nhom-so=thap-phan");
+  await expect(page.locator("#t-fraction")).toBeChecked();
+  await startQuiz(page);
+  for (let i = 0; i < 10; i++) {
+    await expect(page.locator('[data-q="prompt"]')).toHaveText(/[.\/%]/);
+    await page.keyboard.press("1");
+    await page.keyboard.press("Enter");
+  }
+});
+
+test("số 4: sau khi trả lời hiện 'Cũng đúng: し'; link mở đúng tab trang Số đếm", async ({ page }) => {
+  await page.goto("dem-so/quiz/?loai=so&nhom-so=0-99");
+  await page.locator("label:has(#q-size-100)").click(); // lượt gồm cả 25 số của nhóm
+  await startQuiz(page);
+  for (let i = 0; i < 25; i++) {
+    const isFour = (await page.locator('[data-q="prompt"]').textContent())?.trim() === "4";
+    await page.keyboard.press("1");
+    if (isFour) {
+      await expect(page.locator('[data-q="accepted"]')).toHaveText("Cũng đúng: し");
+      await expect(page.locator(opt).filter({ hasText: /^\D*し$/ })).toHaveCount(0);
+      await page.locator('[data-q="link"]').click();
+      await expect(page).toHaveURL(/\/dem-so\/so-dem\/#basic$/);
+      await expect(page.locator("#nt-basic")).toBeChecked();
+      return;
+    }
+    await page.keyboard.press("Enter");
+  }
+  throw new Error("lượt không có câu 4");
 });

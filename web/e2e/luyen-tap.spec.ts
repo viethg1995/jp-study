@@ -35,7 +35,7 @@ test("lượt 20 câu: mỗi phần 5 câu; nhãn góc thẻ ghi phần · loạ
   const parts: Record<string, number> = {};
   for (let i = 0; i < 20; i++) {
     const label = (await page.locator(kind).textContent()) ?? "";
-    expect(label).toMatch(/^(Từ vựng · (Đọc|Nghĩa|Điền từ)|Kanji · (Hán-Việt|Nghĩa|Cách đọc)|Chia thể · (Chia|Nhận thể)|Đếm số)$/);
+    expect(label).toMatch(/^(Từ vựng · (Đọc|Nghĩa|Điền từ)|Kanji · (Hán-Việt|Nghĩa|Cách đọc)|Chia thể · (Chia|Nhận thể)|Đếm số · (Đồ vật|Số))$/);
     const part = label.split(" · ")[0]!;
     parts[part] = (parts[part] ?? 0) + 1;
     await page.keyboard.press("1");

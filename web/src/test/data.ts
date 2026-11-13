@@ -3,7 +3,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { type KanjiSource, kanjiSource } from "../lib/quiz/kanji.ts";
-import { type ConjugationFile, conjugationFile, type Counter, counterFile, kanjiFile, radicalFile, strokeFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
+import { type ConjugationFile, conjugationFile, type Counter, counterFile, type NumberSystem, kanjiFile, radicalFile, strokeFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
 
 const DATA = fileURLToPath(new URL("../../../data/", import.meta.url));
 
@@ -14,6 +14,11 @@ function readJson(rel: string): unknown {
 /** Trợ số từ theo thứ tự trong file — giống collection `counterItems` (thêm `order`). */
 export function loadCounters(): (Counter & { order: number })[] {
   return counterFile.parse(readJson("counters.json")).counters.map((c, order) => ({ ...c, order }));
+}
+
+/** Số đếm (data/counters.json → numbers) — như collection `numbers` (trang /dem-so/so-dem/, quiz n-num Q7). */
+export function loadNumbers(): NumberSystem {
+  return counterFile.parse(readJson("counters.json")).numbers;
 }
 
 /** Toàn bộ từ vựng Minna (data/vocabulary/lesson-*.json) + N3 (data/vocabulary/n3/), như collection vocabulary + vocabularyN3. */

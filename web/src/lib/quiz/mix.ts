@@ -63,7 +63,8 @@ export function mixItems(o: MixOptions, files: readonly MixFile[], data: readonl
       return conjItems(d as ConjTable, { book: "minna", from: o.from, upTo: o.to, kinds: CONJ_SLUGS });
     }
     const items = (d as Deck).items;
-    if (f.part === "dem-so") return items.filter((it) => it.tags.changed === 1);
+    // trợ số từ: chỉ ô cần nhớ; số đếm (Q7): mọi số
+    if (f.part === "dem-so") return items.filter((it) => it.kind === "n-num" || it.tags.changed === 1);
     return items.filter((it) => matches(it, lesson));
   });
 }
@@ -73,5 +74,6 @@ export const MIX_KIND_LABELS: Record<string, string> = {
   ...Object.fromEntries(VOCAB_SLUGS.map((s) => [VOCAB_KINDS[s], `Từ vựng · ${VOCAB_KIND_LABEL[s]}`])),
   ...Object.fromEntries(KANJI_SLUGS.map((s) => [KANJI_KINDS[s], `Kanji · ${KANJI_KIND_LABEL[s]}`])),
   ...Object.fromEntries(CONJ_SLUGS.map((s) => [CONJ_KINDS[s], `Chia thể · ${CONJ_KIND_LABEL[s]}`])),
-  "n-ctr": "Đếm số",
+  "n-ctr": "Đếm số · Đồ vật",
+  "n-num": "Đếm số · Số",
 };

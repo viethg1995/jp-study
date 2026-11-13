@@ -1,12 +1,13 @@
 // Trang tổng /luyen-tap/ (Q8) trên dữ liệu thật: dựng đúng "file" như endpoint sinh lúc build rồi chạy mixFiles → mixItems.
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
-import { loadConjugation, loadCounters, loadKanjiSource, loadVocab } from "../../test/data.ts";
+import { loadConjugation, loadCounters, loadKanjiSource, loadNumbers, loadVocab } from "../../test/data.ts";
 import { buildQuizItems, toQuizItems } from "../counter-quiz.ts";
 import { buildConjTable, CONJ_GROUP_SLUG, CONJ_GROUPS, type ConjTable, learnedForms } from "./conjugation.ts";
 import { partOf } from "./core.ts";
 import { buildKanjiDeck, type KanjiKindSlug, type KanjiLevel } from "./kanji.ts";
 import { MIX_KIND_LABELS, MIX_PARTS, type MixFile, type MixOptions, mixFiles, mixItems } from "./mix.ts";
+import { numberItems } from "./numbers.ts";
 import { mulberry32 } from "./random.ts";
 import { createSession } from "./session.ts";
 import type { Deck, QuizItem } from "./types.ts";
@@ -17,7 +18,7 @@ const vocab = loadVocab();
 const kanji = loadKanjiSource();
 const conj = loadConjugation();
 const tables = new Map<string, ConjTable>(CONJ_GROUPS.map((g) => [CONJ_GROUP_SLUG[g], buildConjTable(g, conj.entries, conj.forms)]));
-const counters: Deck = { version: 1, name: "dem-so", items: toQuizItems(buildQuizItems(loadCounters())) };
+const counters: Deck = { version: 1, name: "dem-so", items: [...toQuizItems(buildQuizItems(loadCounters())), ...numberItems(loadNumbers())] };
 
 const cache = new Map<string, unknown>();
 /** Nội dung file như endpoint build ra (cùng hàm sinh). */
@@ -76,7 +77,7 @@ describe("mixItems trên dữ liệu thật", () => {
   });
   test("bài 10–12: từ vựng, Kanji, chia thể chỉ có câu thuộc bài 10–12; thể chỉ gồm thể đã học tới bài 12", () => {
     const items = mix({ from: 10, to: 12 });
-    for (const q of items.filter((x) => x.kind !== "n-ctr")) assert.ok(lessonsOf(q).some((l) => l >= 10 && l <= 12), `${q.id} ${lessonsOf(q)}`);
+    for (const q of items.filter((x) => !x.kind.startsWith("n-"))) assert.ok(lessonsOf(q).some((l) => l >= 10 && l <= 12), `${q.id} ${lessonsOf(q)}`);
     const learned = new Set(learnedForms(tables.get("dong-tu")!, { book: "minna", upTo: 12 }).map((f) => f.id));
     const verbForms = items.filter((q) => q.kind === "c-to" && q.href.startsWith("chia-the/dong-tu/")).map((q) => q.id.split(":")[2]!);
     assert.ok(verbForms.length > 0);
@@ -87,11 +88,12 @@ describe("mixItems trên dữ liệu thật", () => {
     assert.ok(items.length > 0 && items.every((q) => /^(Động từ|Tính từ い|Tính từ な) - .+\nBài \d+$/.test(q.info ?? "")), items[0]?.info ?? "");
     assert.ok(!items.some((q) => q.kind === "c-group"));
   });
-  test("đếm số: nhóm 'Cần nhớ' (149 câu), câu dẫn 'Đọc thế nào?', không theo bài", () => {
+  test("đếm số: trợ số từ nhóm 'Cần nhớ' (149) + số đếm Q7 (86), không theo bài", () => {
     const a = mix({ parts: ["dem-so"] });
     const b = mix({ from: 40, to: 41, parts: ["dem-so"] });
-    assert.equal(a.length, 149);
-    assert.equal(b.length, 149);
+    assert.equal(a.filter((q) => q.kind === "n-ctr").length, 149);
+    assert.equal(a.filter((q) => q.kind === "n-num").length, 86);
+    assert.equal(b.length, a.length);
   });
 });
 
