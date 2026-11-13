@@ -21,6 +21,7 @@ Quy trình mỗi task: viết spec vào file task → **user duyệt** → làm 
 | [Q9](q09-kana-input.md) | Gõ kana | ⬜ |
 | [Q10](q10-wrong-answers.md) | Lưu câu sai | ⬜ |
 | [Q11](q11-conjunctions.md) | Quiz từ nối | ⬜ chờ dữ liệu |
+| [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ⬜ theo dõi — lập kế hoạch sau khi xong mọi chức năng |
 
 ## Hiện trạng (khảo sát 2026-11-12)
 
@@ -143,6 +144,10 @@ interface QuizItem {
 | Nhiễu quá dễ đoán (khác hẳn độ dài/kiểu chữ) | Ưu tiên nhiễu cùng nhóm, cùng độ dài; kiểm tay mẫu 20 câu mỗi loại |
 | Deck JSON quá nặng | Tách theo cấp/nhóm, chỉ giữ trường cần cho quiz; mục tiêu < 300KB mỗi file |
 | Dữ liệu chưa duyệt (counters, chia thể) làm đáp án sai | Quyết định D4; duyệt 7b trước khi quảng bá quiz |
+
+## Theo dõi dung lượng deck
+
+Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [q12-deck-chunking.md](q12-deck-chunking.md) (lệnh đo có trong file). Mốc hiện tại: deck từ vựng < 450KB gốc / < 70KB gzip; `n5-dien` đã sát mốc gốc (440KB). Chia nhỏ file (chunk) lên kế hoạch sau khi xong mọi chức năng quiz (Q12).
 
 ## Lỗi dữ liệu phát hiện qua quiz (sửa ở pipeline, không sửa `data/`)
 
