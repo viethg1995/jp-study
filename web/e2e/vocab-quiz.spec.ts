@@ -264,3 +264,13 @@ test("quiz đếm số không có dòng Furigana (câu hỏi không có furigana
   await expect(page.locator("#q-furi-off")).toHaveCount(0);
   await expect(page.locator('[data-q="furi-btn"]')).toHaveCount(0);
 });
+
+test("chip Furigana trong thẻ: có chữ 'Furigana', bật = '✓ Furigana', tắt = không ✓", async ({ page }) => {
+  await page.goto("vocabulary/quiz/");
+  await startQuiz(page);
+  const furi = page.locator('[data-q="furi-btn"]');
+  // innerText = chữ đang hiển thị (dấu ✓ ẩn bằng CSS vẫn nằm trong textContent)
+  await expect.poll(() => furi.innerText()).toBe("✓ Furigana");
+  await furi.click();
+  await expect.poll(() => furi.innerText()).toBe("Furigana");
+});

@@ -5,7 +5,7 @@
 // (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ), `src` (một file Deck), hoặc không truyền gì
 // và trang chọn file Deck theo bộ lọc qua setFilter(filter, decks) — deck lớn chia nhiều file (vd từ vựng cấp × loại).
 // Luồng: mở trang chỉ thấy bảng tùy chọn + nút "Bắt đầu"; bấm Bắt đầu mới tải câu hỏi và hiện khung quiz; trong lúc
-// làm bài mọi tùy chọn bị khóa và thu thành 1 dòng tóm tắt; Furigana đổi bằng nút "あ" trong thẻ (bật/tắt chính radio
+// làm bài mọi tùy chọn bị khóa và thu thành 1 dòng tóm tắt; Furigana đổi bằng chip "✓ Furigana" trong thẻ (bật/tắt chính radio
 // dòng [data-q-keep], không bị khóa); tổng kết có "Đổi tùy chọn" để mở khóa.
 // Script thường, không Preact (D1).
 import Segmented from "../ui/Segmented.astro";
@@ -143,14 +143,11 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
             <button
               type="button"
               data-q="furi-btn"
-              class="jp self-center rounded-md border border-line px-2 pt-0.5 pb-1 text-sm leading-none text-ink-faint hover:border-primary-line aria-pressed:border-primary aria-pressed:bg-primary-soft aria-pressed:text-primary"
+              class="group self-center rounded-full border border-line px-2.5 py-0.5 text-xs text-ink-faint hover:border-primary-line aria-pressed:border-primary aria-pressed:bg-primary-soft aria-pressed:font-semibold aria-pressed:text-primary"
               aria-pressed="true"
-              aria-label="Furigana"
-              title="Hiện / ẩn furigana"
+              title="Hiện / ẩn cách đọc (furigana) trên đề và đáp án"
             >
-              <ruby>
-                字<rt>じ</rt>
-              </ruby>
+              <span class="hidden group-aria-pressed:inline" aria-hidden="true">✓ </span>Furigana
             </button>
           )
         }

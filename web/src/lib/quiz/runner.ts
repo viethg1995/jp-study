@@ -161,7 +161,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
       );
       for (const el of disabledByLock) el.disabled = true;
       lockedSummary.textContent = summarize();
-      // thu gọn: chỉ còn 1 dòng tóm tắt (Furigana đổi bằng nút あ trong thẻ); nhớ dòng nào mình ẩn để mở lại đúng
+      // thu gọn: chỉ còn 1 dòng tóm tắt (Furigana đổi bằng chip trong thẻ); nhớ dòng nào mình ẩn để mở lại đúng
       hiddenByLock = [...optionsPanel.children].filter((el): el is HTMLElement => el instanceof HTMLElement && !el.hidden && el !== lockedNote);
       syncFuri();
       for (const el of hiddenByLock) el.hidden = true;
@@ -215,7 +215,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
     else show(empty);
   }
 
-  // Nút "あ" trong thẻ: bật/tắt chính radio Furigana của bảng tùy chọn (CSS ẩn furigana đọc radio này)
+  // Chip "✓ Furigana" trong thẻ: bật/tắt chính radio Furigana của bảng tùy chọn (CSS ẩn furigana đọc radio này)
   const furiBtn = root.querySelector<HTMLButtonElement>('[data-q="furi-btn"]');
   const furiOn = root.querySelector<HTMLInputElement>("#q-furi-on"), furiOff = root.querySelector<HTMLInputElement>("#q-furi-off");
   function syncFuri(): void {

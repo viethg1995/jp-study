@@ -115,7 +115,7 @@ interface QuizItem {
 - Dưới đề chỉ hiện `hint` khi cần để trả lời (câu dịch của câu điền từ, "nghĩa: …" của từ nhiều cách đọc).
 - Thông tin phụ (`info`: bài, loại từ, nghĩa ở câu chia thể, số nét, trợ số từ) nằm trong icon ⓘ (màu `primary`) sau nhãn loại câu: máy có chuột **chỉ hiện khi rê chuột** (click chuột không ghim); mobile chạm để bật/tắt; bàn phím: focus/Enter; Esc / bấm ra ngoài / sang câu mới → đóng. Chia thể: `Loại từ - nghĩa` / `Bài N` (2 dòng). Màn tổng kết vẫn ghi đủ (`hint · info`).
 
-- Khi làm bài, khung tùy chọn chỉ còn **1 dòng tóm tắt** (bỏ dòng "Muốn đổi…" và dòng Furigana); Furigana đổi bằng nút **字** (ruby じ) ở hàng đầu thẻ — trên mobile thấy đủ đề + 4 đáp án không cần cuộn. Câu hỏi 18px.
+- Khi làm bài, khung tùy chọn chỉ còn **1 dòng tóm tắt** (bỏ dòng "Muốn đổi…" và dòng Furigana); Furigana đổi bằng chip **"✓ Furigana"** ở hàng đầu thẻ (bật = nền xanh nhạt + ✓; nút chỉ có chữ 字 bị user thấy khó hiểu) — trên mobile thấy đủ đề + 4 đáp án không cần cuộn. Câu hỏi 18px.
 - Thanh tiến độ mảnh ở mép trên thẻ (số câu đã trả lời / số câu của lượt). Nút "Câu tiếp" ẩn (giữ chỗ, không nhảy bố cục) tới khi trả lời.
 - "Kết thúc lượt" khi đã làm ≥ 1 câu → hỏi lại ngay trong thẻ ("Đã làm N câu. [Làm tiếp] [Kết thúc]", focus "Làm tiếp", Esc = làm tiếp); chưa làm câu nào → kết thúc luôn.
 - Đề tiếng Nhật ngắn (≤ 12 ký tự) không xuống dòng giữa từ: `nowrap` + tự thu chữ cho vừa bề ngang (tối thiểu 20px); đề dài vẫn xuống dòng ở 22px.
