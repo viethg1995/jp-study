@@ -107,6 +107,14 @@ describe("v-mean / v-word (nghĩa)", () => {
     assert.equal(cleanMeaning("người (nước) ～ (ví dụ: アメリカじん là người Mỹ)"), "người (nước) ～");
     assert.equal(cleanMeaning("hút [thuốc lá]"), "hút [thuốc lá]");
   });
+
+  test("nhiễu cùng chủ đề (từ đứng gần trong bài): お兄さん → người trong gia đình, không phải ひとつ…とお", () => {
+    const q = deck("n5", "nghia").find((x) => x.id.includes("mn-11-033"))!;
+    assert.ok(q, "thiếu câu お兄さん");
+    const near = q.pool.slice(0, 6); // = NEAR: makeOptions chỉ bốc trong 6 mục đầu
+    assert.ok(near.every((p) => !/\bcái\b/.test(p)), near.join(" / "));
+    assert.ok(near.filter((p) => /chị|em|bố|mẹ/.test(p)).length >= 3, near.join(" / "));
+  });
 });
 
 describe("v-hv (Hán-Việt)", () => {

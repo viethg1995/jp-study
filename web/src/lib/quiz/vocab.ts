@@ -107,7 +107,15 @@ function explainOf(e: VocabEntry): string {
   return `${word} — ${cleanMeaning(e.meaning_vi)}${e.han_viet ? ` · ${e.han_viet}` : ""}`;
 }
 
-/** Ứng viên nhiễu: gần bài trước (cùng từ loại trước), duy nhất theo `key`, bỏ theo `skip`. */
+/** Số thứ tự trong danh sách từ của bài (mn-11-033 → 33, n3-001 → 1). */
+const positionOf = (e: VocabEntry): number => Number(/(\d+)$/.exec(e.id)?.[1] ?? 0);
+
+/**
+ * Ứng viên nhiễu: cùng từ loại trước, rồi gần bài; duy nhất theo `value`, bỏ theo `skip`.
+ * `thematic` (câu nghĩa): cùng bài thì từ đứng gần trong danh sách trước — sách xếp từ theo chủ đề (お兄さん cạnh
+ * お姉さん, 弟さん), thay vì luôn là các từ đầu bài theo ID (bài 11: ひとつ…とお → "hai cái / ba cái" cho mọi danh từ).
+ * Không dùng cho câu điền từ: nhiễu cùng chủ đề dễ cũng hợp câu (お兄さん/お姉さんは何歳ですか).
+ */
 function nearest(
   target: VocabEntry,
   pool: readonly VocabEntry[],
@@ -115,11 +123,16 @@ function nearest(
   skip: (e: VocabEntry) => boolean,
   banned: Set<string>,
   n = POOL_SIZE,
+  thematic = false,
 ): string[] {
   const g = posGroup(target);
+  const at = positionOf(target);
   const ranked = pool
     .filter((e) => e !== target && !skip(e))
-    .map((e) => ({ e, score: (posGroup(e) === g ? 0 : 1000) + Math.abs(e.lesson - target.lesson) }))
+    .map((e) => ({
+      e,
+      score: (posGroup(e) === g ? 0 : 1e6) + Math.abs(e.lesson - target.lesson) * 1000 + (thematic ? Math.abs(positionOf(e) - at) : 0),
+    }))
     .sort((a, b) => a.score - b.score || a.e.id.localeCompare(b.e.id));
   const out: string[] = [];
   const seen = new Set(banned);
@@ -224,7 +237,7 @@ function meanItems(level: VocabLevel, mine: readonly VocabEntry[]): QuizItem[] {
       question: "Nghĩa là gì?",
       answer,
       accepted: [],
-      pool: nearest(e, eligible, (x) => cleanMeaning(x.meaning_vi), (x) => synonymous(e, x), new Set([answer])),
+      pool: nearest(e, eligible, (x) => cleanMeaning(x.meaning_vi), (x) => synonymous(e, x), new Set([answer]), POOL_SIZE, true),
     };
   });
 }
@@ -237,7 +250,7 @@ function wordItems(level: VocabLevel, mine: readonly VocabEntry[]): QuizItem[] {
     const accepted = [...new Map(syn.map((x) => [shownText(x), shownRuby(x)])).values()];
     const banned = new Set([shownText(e), ...syn.map(shownText)]);
     // so theo chữ hiển thị (checkDeck so phần chữ, bỏ furigana) rồi mới đổi sang ruby
-    const texts = nearest(e, eligible, shownText, (x) => synonymous(e, x), banned);
+    const texts = nearest(e, eligible, shownText, (x) => synonymous(e, x), banned, POOL_SIZE, true);
     const rubyOf = new Map(eligible.map((x) => [shownText(x), shownRuby(x)]));
     return {
       ...baseItem("v-word", g, level),

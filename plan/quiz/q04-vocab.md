@@ -17,7 +17,7 @@ Trạng thái: ✅ xong 2026-11-12
 | Loại | Hỏi → chọn | Nhiễu | Lưu ý loại trừ |
 |---|---|---|---|
 | `v-read` | Từ có kanji (không furigana) → cách đọc | Đọc của từ khác cùng bài/cùng độ dài; biến đổi dài/ngắn (おばさん/おばあさん), っ, đục | Chỉ từ có `kanji`; `accepted` gồm `variants` |
-| `v-mean` | Từ tiếng Nhật → nghĩa VI | Nghĩa của từ cùng từ loại, cùng bài hoặc bài lân cận | Loại nhiễu có nghĩa trùng (từ đồng nghĩa, `same_word`) |
+| `v-mean` | Từ tiếng Nhật → nghĩa VI | Nghĩa của từ cùng từ loại, cùng bài hoặc bài lân cận; cùng bài ưu tiên từ **đứng gần trong danh sách** (sách xếp theo chủ đề: お兄さん → chị gái, em trai — sửa 2026-11-13, trước đó luôn lấy từ đầu bài theo ID nên bài 11 ra "hai cái / ba cái"). `v-word` cũng vậy; `v-cloze` thì không (nhiễu cùng chủ đề dễ cũng hợp câu) | Loại nhiễu có nghĩa trùng (từ đồng nghĩa, `same_word`) |
 | `v-word` | Nghĩa VI → từ tiếng Nhật | Từ cùng từ loại | Như trên, hướng ngược |
 | `v-hv` | Từ Hán → âm Hán-Việt | Âm Hán-Việt của từ khác có chung 1 chữ | Chỉ từ có `han_viet` |
 | `v-cloze` | Câu ví dụ, cụm `[[…]]` thành chỗ trống → điền từ | Từ cùng từ loại cùng bài | Dùng `vi` làm gợi ý; giai đoạn sau vì cần chọn nhiễu cẩn thận |
