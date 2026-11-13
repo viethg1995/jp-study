@@ -90,7 +90,7 @@ test("đang làm bài: khung thu gọn còn tóm tắt + Furigana; Đổi tùy c
   await page.goto("luyen-tap/?tu=1&den=10&phan=tu-vung,kanji");
   await startQuiz(page);
   await expect(page.locator('[data-q="locked-summary"]')).toHaveText("Bài: 1 – 10 · Phần: Từ vựng, Kanji · Số câu: 10");
-  await expect(page.locator(".quiz-options > *:visible")).toHaveCount(1);
+  await expect(page.locator(".quiz-options > *:visible")).toHaveCount(0);
   await expect(page.locator("#q-from")).toBeDisabled();
   await backToSetup(page);
   await expect(page.locator("#q-from")).toBeEnabled();

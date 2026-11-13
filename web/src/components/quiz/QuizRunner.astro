@@ -5,7 +5,8 @@
 // (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ), `src` (một file Deck), hoặc không truyền gì
 // và trang chọn file Deck theo bộ lọc qua setFilter(filter, decks) — deck lớn chia nhiều file (vd từ vựng cấp × loại).
 // Luồng: mở trang chỉ thấy bảng tùy chọn + nút "Bắt đầu"; bấm Bắt đầu mới tải câu hỏi và hiện khung quiz; trong lúc
-// làm bài mọi tùy chọn bị khóa trừ Furigana (dòng [data-q-keep]); tổng kết có "Đổi tùy chọn" để mở khóa.
+// làm bài mọi tùy chọn bị khóa và thu thành 1 dòng tóm tắt; Furigana đổi bằng nút "あ" trong thẻ (bật/tắt chính radio
+// dòng [data-q-keep], không bị khóa); tổng kết có "Đổi tùy chọn" để mở khóa.
 // Script thường, không Preact (D1).
 import Segmented from "../ui/Segmented.astro";
 import type { QuizItem } from "../../lib/quiz/types";
@@ -40,10 +41,9 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
     <legend class="px-1 text-xs text-ink-faint">
       Tùy chọn luyện tập
     </legend>
-    <!-- Đang làm bài: khung thu gọn — 1 dòng tóm tắt (runner điền) + dòng Furigana; các dòng khác ẩn -->
-    <div data-q="locked-note" class="hidden border-b border-line py-2.5 last:border-b-0">
+    <!-- Đang làm bài: khung thu gọn — 1 dòng tóm tắt (runner điền); mọi dòng tùy chọn ẩn (Furigana: nút trong thẻ) -->
+    <div data-q="locked-note" class="hidden py-1" title="Muốn đổi: Kết thúc lượt → Đổi tùy chọn">
       <p data-q="locked-summary" class="text-ink"></p>
-      <p class="mt-1 text-xs text-ink-faint">Muốn đổi: Kết thúc lượt → Đổi tùy chọn.</p>
     </div>
     <div class="quiz-options flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
       <slot name="filters" />
@@ -138,6 +138,22 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
             class="info-pop absolute top-full left-0 z-10 mt-1 w-max max-w-[min(16rem,70vw)] rounded-md border border-line bg-surface px-3 py-2 text-left text-xs leading-relaxed whitespace-pre-line text-ink shadow-md"
           ></span>
         </span>
+        {
+          furiganaToggle && (
+            <button
+              type="button"
+              data-q="furi-btn"
+              class="jp self-center rounded-md border border-line px-2 pt-0.5 pb-1 text-sm leading-none text-ink-faint hover:border-primary-line aria-pressed:border-primary aria-pressed:bg-primary-soft aria-pressed:text-primary"
+              aria-pressed="true"
+              aria-label="Furigana"
+              title="Hiện / ẩn furigana"
+            >
+              <ruby>
+                字<rt>じ</rt>
+              </ruby>
+            </button>
+          )
+        }
       </span>
       <span class="whitespace-nowrap">
         Đúng <b data-q="right" class="font-semibold text-ink tabular-nums">0</b> / <span data-q="total" class="tabular-nums">0</span>
@@ -153,7 +169,7 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 
     <p class="mt-4 text-center"><span data-q="prompt" class="font-bold text-ink"></span></p>
     <p data-q="hint" class="mt-2 text-center text-sm text-ink-muted"></p>
-    <p data-q="question" class="mt-2 text-center font-semibold text-ink">{question}</p>
+    <p data-q="question" class="mt-2 text-center text-lg font-semibold text-ink">{question}</p>
 
     <div data-q="options" class="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2"></div>
 

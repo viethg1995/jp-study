@@ -71,8 +71,12 @@ test("đang làm bài: khóa Cấp, Bài, Loại câu, Số câu; Furigana vẫn
   await startQuiz(page);
   await expect(page.locator('[data-q="start"]')).toBeHidden();
   for (const sel of ["#cap-n4", "#q-from", "#q-to", "#loai-doc", "#q-size-20", "#q-size-custom"]) await expect(page.locator(sel)).toBeDisabled();
-  await expect(page.locator("#q-furi-off")).toBeEnabled();
-  await page.locator("label:has(#q-furi-off)").click();
+  // khung thu gọn còn 1 dòng tóm tắt; Furigana đổi bằng nút trong thẻ (bật/tắt chính radio của bảng)
+  await expect(page.locator(".quiz-options > *:visible")).toHaveCount(0);
+  const furi = page.locator('[data-q="furi-btn"]');
+  await expect(furi).toHaveAttribute("aria-pressed", "true");
+  await furi.click();
+  await expect(furi).toHaveAttribute("aria-pressed", "false");
   await expect(page.locator("#q-furi-off")).toBeChecked();
   await expect(page.locator('[data-q="locked-summary"]')).toHaveText("Cấp: N5 · Bài: 1 – 25 · Loại câu: Từ · Số câu: 10");
   await backToSetup(page);
@@ -233,7 +237,7 @@ test("Furigana: Ẩn → ẩn cách đọc ở câu hỏi và lựa chọn; ph�
   await page.goto("vocabulary/quiz/?cap=n5&loai=tu,dien");
   await expect(page.locator("#q-furi-on")).toBeChecked();
   await startQuiz(page);
-  await page.locator("label:has(#q-furi-off)").click(); // đổi được giữa lượt
+  await page.locator('[data-q="furi-btn"]').click(); // đổi được giữa lượt (nút trong thẻ)
   const askRt = page.locator('[data-q="prompt"] rt, [data-q="options"] rt');
   let checkedAsk = false, checkedFeedback = false;
   for (let i = 0; i < 30 && !(checkedAsk && checkedFeedback); i++) {
@@ -251,11 +255,12 @@ test("Furigana: Ẩn → ẩn cách đọc ở câu hỏi và lựa chọn; ph�
     if (await page.locator('[data-q="summary"]').isVisible()) await page.locator('[data-q="restart"]').click();
   }
   expect(checkedAsk && checkedFeedback).toBe(true);
-  await page.locator("label:has(#q-furi-on)").click();
+  await page.locator('[data-q="furi-btn"]').click();
   if ((await askRt.count()) > 0) await expect(askRt.first()).toBeVisible();
 });
 
 test("quiz đếm số không có dòng Furigana (câu hỏi không có furigana)", async ({ page }) => {
   await page.goto("dem-so/quiz/");
   await expect(page.locator("#q-furi-off")).toHaveCount(0);
+  await expect(page.locator('[data-q="furi-btn"]')).toHaveCount(0);
 });

@@ -161,8 +161,9 @@ export function mountQuiz(root: HTMLElement): QuizController {
       );
       for (const el of disabledByLock) el.disabled = true;
       lockedSummary.textContent = summarize();
-      // thu gọn: chỉ còn tóm tắt + dòng Furigana; nhớ dòng nào mình ẩn để mở lại đúng (trang tự ẩn dòng bằng hidden)
-      hiddenByLock = [...optionsPanel.children].filter((el): el is HTMLElement => el instanceof HTMLElement && !el.hidden && !el.matches("[data-q-keep]"));
+      // thu gọn: chỉ còn 1 dòng tóm tắt (Furigana đổi bằng nút あ trong thẻ); nhớ dòng nào mình ẩn để mở lại đúng
+      hiddenByLock = [...optionsPanel.children].filter((el): el is HTMLElement => el instanceof HTMLElement && !el.hidden && el !== lockedNote);
+      syncFuri();
       for (const el of hiddenByLock) el.hidden = true;
       optionsPanel.dataset.locked = "";
     } else {
@@ -213,6 +214,19 @@ export function mountQuiz(root: HTMLElement): QuizController {
     else if (session.done) renderSummary();
     else show(empty);
   }
+
+  // Nút "あ" trong thẻ: bật/tắt chính radio Furigana của bảng tùy chọn (CSS ẩn furigana đọc radio này)
+  const furiBtn = root.querySelector<HTMLButtonElement>('[data-q="furi-btn"]');
+  const furiOn = root.querySelector<HTMLInputElement>("#q-furi-on"), furiOff = root.querySelector<HTMLInputElement>("#q-furi-off");
+  function syncFuri(): void {
+    furiBtn?.setAttribute("aria-pressed", String(!!furiOn?.checked));
+  }
+  furiBtn?.addEventListener("click", () => {
+    if (!furiOn || !furiOff) return;
+    (furiOn.checked ? furiOff : furiOn).checked = true;
+    syncFuri();
+  });
+  for (const r of [furiOn, furiOff]) r?.addEventListener("change", syncFuri);
 
   /** Thanh tiến độ: số câu đã trả lời / số câu của lượt. */
   function updateProgress(): void {
