@@ -66,6 +66,14 @@ describe("mixItems trên dữ liệu thật", () => {
     assert.deepEqual(kinds, new Set(Object.keys(MIX_KIND_LABELS)));
     assert.deepEqual(new Set(items.map(partOf)), new Set(["v", "k", "c", "n"]));
   });
+  test("gợi ý luôn hiện chỉ là gợi ý cần để trả lời; bài / số nét / loại từ nằm trong info (ô ⓘ)", () => {
+    const items = mix({ to: 50 });
+    for (const q of items) {
+      assert.ok(!/Bài \d|nét$|^～/.test(q.hint ?? ""), `${q.id}: ${q.hint}`);
+      assert.ok(q.info, `${q.id} thiếu info`);
+    }
+    assert.ok(items.some((q) => q.kind === "v-cloze" && q.hint), "câu điền từ phải có câu dịch");
+  });
   test("bài 10–12: từ vựng, Kanji, chia thể chỉ có câu thuộc bài 10–12; thể chỉ gồm thể đã học tới bài 12", () => {
     const items = mix({ from: 10, to: 12 });
     for (const q of items.filter((x) => x.kind !== "n-ctr")) assert.ok(lessonsOf(q).some((l) => l >= 10 && l <= 12), `${q.id} ${lessonsOf(q)}`);
@@ -74,9 +82,9 @@ describe("mixItems trên dữ liệu thật", () => {
     assert.ok(verbForms.length > 0);
     for (const f of verbForms) assert.ok(learned.has(f), f);
   });
-  test("chia thể: gợi ý có nhóm từ; không có câu Nhóm động từ", () => {
+  test("chia thể: thông tin ⓘ có nhóm từ; không có câu Nhóm động từ", () => {
     const items = mix({ parts: ["chia-the"] });
-    assert.ok(items.length > 0 && items.every((q) => /^(Động từ|Tính từ い|Tính từ な)/.test(q.hint ?? "")), items[0]?.hint ?? "");
+    assert.ok(items.length > 0 && items.every((q) => /^(Động từ|Tính từ い|Tính từ な)\n/.test(q.info ?? "")), items[0]?.info ?? "");
     assert.ok(!items.some((q) => q.kind === "c-group"));
   });
   test("đếm số: nhóm 'Cần nhớ' (149 câu), câu dẫn 'Đọc thế nào?', không theo bài", () => {

@@ -72,6 +72,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
   const feedback = q("feedback"), verdict = q("verdict"), accepted = q("accepted"), explain = q("explain");
   const link = q<HTMLAnchorElement>("link"), next = q<HTMLButtonElement>("next"), question = q("question");
   const defaultQuestion = question.textContent ?? "";
+  const infoWrap = q("info-wrap"), infoBtn = q<HTMLButtonElement>("info-btn"), infoPop = q("info");
   const kindBadge = q("kind"), sizeBox = q("size-box"), sizeInput = q<HTMLInputElement>("size-input"), sizeError = q("size-error");
   const kindsEl = root.querySelector("script[data-quiz-kinds]");
   const kindLabels = kindsEl ? (JSON.parse(kindsEl.textContent ?? "{}") as Record<string, string>) : {};
@@ -224,11 +225,17 @@ export function mountQuiz(root: HTMLElement): QuizController {
 
     renderRuby(prompt, cur.item.prompt);
     const long = cur.item.prompt.length > 12;
-    prompt.classList.toggle("text-5xl", cur.item.promptLang === "ja" && !long);
-    prompt.classList.toggle("text-2xl", cur.item.promptLang !== "ja" || long);
+    // đề: 46px (tiếng Nhật ngắn) / 22px — nhỏ hơn 48/24 cũ 2px để câu hỏi bên dưới nổi hơn (user 2026-11-13)
+    const big = cur.item.promptLang === "ja" && !long;
+    for (const c of ["text-[2.875rem]", "leading-none"]) prompt.classList.toggle(c, big);
+    for (const c of ["text-[1.375rem]", "leading-snug"]) prompt.classList.toggle(c, !big);
     question.textContent = cur.item.question ?? defaultQuestion;
     hint.textContent = cur.item.hint ?? "";
     hint.classList.toggle("hidden", !cur.item.hint);
+    // thông tin phụ trong ô ⓘ ("\n" = xuống dòng, ô có whitespace-pre-line)
+    setInfo(false);
+    infoPop.textContent = cur.item.info ?? "";
+    infoWrap.hidden = !cur.item.info;
 
     optionsBox.replaceChildren(
       ...cur.options.map((opt, i) => {
@@ -295,10 +302,11 @@ export function mountQuiz(root: HTMLElement): QuizController {
         const ans = rubySpan(it.answer);
         ans.classList.add("font-semibold");
         li.append(a, "→", ans);
-        if (it.hint) {
+        const note = [it.hint, it.info?.replace(/\n/g, " · ")].filter(Boolean).join(" · ");
+        if (note) {
           const h = document.createElement("span");
           h.className = "text-ink-faint";
-          h.textContent = it.hint;
+          h.textContent = note;
           li.append(h);
         }
         return li;
@@ -354,14 +362,25 @@ export function mountQuiz(root: HTMLElement): QuizController {
     }
   });
 
+  // ⓘ: bấm/chạm bật tắt (máy có chuột thì rê chuột cũng hiện, xem CSS); bấm ra ngoài hoặc Esc → đóng
+  function setInfo(open: boolean): void {
+    infoWrap.toggleAttribute("data-open", open);
+    infoBtn.setAttribute("aria-expanded", String(open));
+  }
+  infoBtn.addEventListener("click", () => setInfo(!infoWrap.hasAttribute("data-open")));
+  document.addEventListener("click", (e) => {
+    if (infoWrap.hasAttribute("data-open") && !infoWrap.contains(e.target as Node)) setInfo(false);
+  });
+
   document.addEventListener("keydown", (e) => {
     const t = e.target as HTMLElement | null;
+    if (e.key === "Escape") setInfo(false);
     // đang gõ (ô số câu, ô tìm, select bài) → phím số không phải chọn đáp án
     if (t?.closest("input:not([type=radio]):not([type=checkbox]), textarea, select, [data-combo][data-open]")) return;
     if (!session?.current || card.classList.contains("hidden")) return;
     if (/^[1-9]$/.test(e.key) && !session.answered) {
       choose(Number(e.key) - 1);
-    } else if (e.key === "Enter" && session.answered && t !== next) {
+    } else if (e.key === "Enter" && session.answered && t !== next && t !== infoBtn) {
       e.preventDefault();
       next.click();
     }

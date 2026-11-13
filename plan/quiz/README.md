@@ -109,6 +109,12 @@ interface QuizItem {
 
 **Luồng làm bài (user yêu cầu 2026-11-12, áp dụng cho mọi trang quiz qua `QuizRunner`):** mở trang chỉ thấy bảng "Tùy chọn luyện tập" + nút **Bắt đầu** (chưa tải deck; nút `disabled` tới khi script sẵn sàng) → bấm Bắt đầu mới tải câu hỏi, hiện khung quiz và cuộn tới thẻ → trong lúc làm bài mọi tùy chọn bị **khóa** (input `disabled`) và khung **thu gọn**: chỉ còn 1 dòng tóm tắt (runner tự đọc từ các dòng lọc: "Nhóm từ: Động từ · Đã học tới: Bài 30 · Thể: Thể て, Thể ない… · Số câu: 20") + **dòng Furigana** (dòng `[data-q-keep]`, vẫn đổi được) → tổng kết: "Làm lại câu sai" / "Lượt mới" giữ tùy chọn, **"Đổi tùy chọn"** mở khóa về bước thiết lập. Bộ lọc rỗng hoặc lỗi tải → mở khóa, bấm Bắt đầu để thử lại. Số câu tự nhập sai → không cho bắt đầu.
 
+## Thẻ câu hỏi (user yêu cầu 2026-11-13, mọi trang quiz)
+
+- Đề cỡ 46px (tiếng Nhật ngắn) / 22px (dài hoặc tiếng Việt); câu hỏi ("Đọc thế nào?", "Chia sang …") chữ đậm màu `ink` để nổi bật.
+- Dưới đề chỉ hiện `hint` khi cần để trả lời (câu dịch của câu điền từ, "nghĩa: …" của từ nhiều cách đọc).
+- Thông tin phụ (`info`: bài, loại từ, nghĩa ở câu chia thể, số nét, trợ số từ) nằm trong icon ⓘ sau nhãn loại câu: hover trên máy có chuột, chạm để bật/tắt trên mobile; Esc / bấm ra ngoài / sang câu mới → đóng. Màn tổng kết vẫn ghi đủ (`hint · info`).
+
 ## Checklist
 
 Đã tự động hóa bằng Playwright (`web/e2e/`, mẫu: `counter-quiz.spec.ts`) trừ mục ghi "kiểm tay". Mỗi trang quiz mới cần một file spec.

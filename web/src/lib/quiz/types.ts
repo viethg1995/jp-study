@@ -11,8 +11,13 @@ export interface QuizItem {
   /** Câu hỏi; tiếng Nhật dùng cú pháp ruby {漢字|かな} (lib/ruby.ts). */
   prompt: string;
   promptLang: "ja" | "vi";
-  /** Dòng phụ dưới câu hỏi: "Thể て", "Bài 5"… */
+  /**
+   * Gợi ý CẦN để trả lời, luôn hiện dưới đề: câu dịch của câu điền từ, "nghĩa: …" của từ nhiều cách đọc.
+   * Thông tin phụ (bài, loại từ, số nét…) → `info`.
+   */
   hint: string | null;
+  /** Thông tin phụ, ẩn sau icon ⓘ cạnh nhãn loại câu (hover / chạm): "Bài 15", "Tính từ い\nrẻ\nBài 8" ("\n" = xuống dòng). */
+  info?: string | null;
   /** Câu dẫn riêng ("Đọc thế nào?"); không có → dùng câu dẫn chung của trang (prop `question` của QuizRunner). */
   question?: string;
   /** Đáp án hiện trong 4 lựa chọn (có thể chứa ruby). */

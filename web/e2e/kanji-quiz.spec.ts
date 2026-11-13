@@ -26,7 +26,7 @@ test.describe("/kanji/quiz/", () => {
     await startQuiz(page);
     expect(loaded).toEqual(["gt-n3-nghia.json"]);
     for (let i = 0; i < 3; i++) {
-      await expect(page.locator('[data-q="hint"]')).toContainText("Kanji N3 · Bài 1");
+      await expect(page.locator('[data-q="info"]')).toContainText("Kanji N3 · Bài 1");
       await page.keyboard.press("1");
       await page.keyboard.press("Enter");
     }
@@ -39,7 +39,7 @@ test.describe("/kanji/quiz/", () => {
     await expect(page.locator("#q-to")).toHaveValue("50");
     await expect(page).toHaveURL(/cap=n4&xep=tv&tu=26&den=50/);
     await startQuiz(page);
-    await expect(page.locator('[data-q="hint"]')).toContainText("Từ vựng · Bài");
+    await expect(page.locator('[data-q="info"]')).toContainText("Từ vựng · Bài");
   });
 
   test("đang làm bài: khóa Cấp, Xếp theo, Bài, Loại câu; Đổi tùy chọn → mở khóa", async ({ page }) => {
@@ -98,14 +98,14 @@ test.describe("/kanji/quiz/", () => {
     await page.locator("#gt-n5-3 [data-lesson-quiz]").click();
     await expect(page).toHaveURL(/cap=n5&xep=gt&tu=3&den=3/);
     await startQuiz(page);
-    await expect(page.locator('[data-q="hint"]')).toContainText("Kanji N5 · Bài 3");
+    await expect(page.locator('[data-q="info"]')).toContainText("Kanji N5 · Bài 3");
 
     await page.goto("kanji/n5/");
     await page.locator("label:has(#kview-vocab)").click();
     await page.locator("#tv-n5-4 [data-lesson-quiz]").click();
     await expect(page).toHaveURL(/cap=n5&xep=tv&tu=4&den=4/);
     await startQuiz(page);
-    await expect(page.locator('[data-q="hint"]')).toContainText("Từ vựng · Bài 4");
+    await expect(page.locator('[data-q="info"]')).toContainText("Từ vựng · Bài 4");
   });
 
   test("không cuộn ngang; mọi điều khiển cao 32px", async ({ page }) => {
@@ -146,7 +146,7 @@ test.describe("/kanji/bo-thu/quiz/", () => {
     await startQuiz(page);
     await expect(page.locator("#q-snet-from")).toBeDisabled();
     for (let i = 0; i < 5; i++) {
-      await expect(page.locator('[data-q="hint"]')).toHaveText("3 nét");
+      await expect(page.locator('[data-q="info"]')).toHaveText("3 nét");
       await page.keyboard.press("1");
       await page.keyboard.press("Enter");
     }
@@ -163,7 +163,7 @@ test.describe("/kanji/bo-thu/quiz/", () => {
     await page.goto("kanji/bo-thu/quiz/?loai=ten");
     await startQuiz(page);
     await expect(page.locator('[data-q="question"]')).toHaveText("Tên bộ thủ này là gì?");
-    await expect(page.locator('[data-q="hint"]')).toHaveText(/^\d+ nét$/);
+    await expect(page.locator('[data-q="info"]')).toHaveText(/^\d+ nét$/);
     await page.keyboard.press("1");
     await expect(page.locator('[data-q="link"]')).toHaveAttribute("href", /\/kanji\/bo-thu\/(\d+\/|#net-\d+)$/);
   });

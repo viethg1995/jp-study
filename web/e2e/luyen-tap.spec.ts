@@ -53,7 +53,7 @@ test("URL ?tu=30&den=32&phan=kanji → chỉ tải Kanji N4, chỉ hỏi Kanji",
   expect(loaded.sort()).toEqual(["kanji/quiz/tv-n4-doc.json", "kanji/quiz/tv-n4-hv.json", "kanji/quiz/tv-n4-nghia.json"]);
   for (let i = 0; i < 5; i++) {
     await expect(page.locator(kind)).toHaveText(/^Kanji · /);
-    await expect(page.locator('[data-q="hint"]')).toContainText(/Bài 3[0-2]/);
+    await expect(page.locator('[data-q="info"]')).toContainText(/Bài 3[0-2]/);
     await page.keyboard.press("1");
     await page.keyboard.press("Enter");
   }
@@ -71,7 +71,7 @@ test("đổi bộ lọc → URL cập nhật; 'từ' lớn hơn 'đến' kéo '�
 test("Chia thể trên trang tổng: gợi ý có nhóm từ; Đếm số hỏi 'Đọc thế nào?'", async ({ page }) => {
   await page.goto("luyen-tap/?phan=chia-the");
   await startQuiz(page);
-  await expect(page.locator('[data-q="hint"]')).toHaveText(/^(Động từ|Tính từ い|Tính từ な)/);
+  await expect(page.locator('[data-q="info"]')).toHaveText(/^(Động từ|Tính từ い|Tính từ な)/);
   await backToSetup(page);
   await page.goto("luyen-tap/?phan=dem-so");
   await startQuiz(page);
@@ -114,4 +114,38 @@ test("không cuộn ngang; điều khiển 32px", async ({ page }) => {
   await page.keyboard.press("1");
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   expect(overflow).toBeLessThanOrEqual(0);
+});
+
+test("ô ⓘ thông tin: ẩn mặc định; bấm/chạm → hiện bài + loại từ, bấm lại hoặc Esc → ẩn; sang câu mới → đóng", async ({ page }) => {
+  await page.goto("luyen-tap/?phan=chia-the");
+  await startQuiz(page);
+  const btn = page.locator('[data-q="info-btn"]');
+  const pop = page.locator('[data-q="info"]');
+  await expect(btn).toBeVisible();
+  await expect(pop).toBeHidden();
+  await expect(page.locator('[data-q="hint"]')).toBeHidden(); // chia thể: không còn dòng gợi ý dưới đề
+  await btn.click();
+  await expect(pop).toBeVisible();
+  await expect(btn).toHaveAttribute("aria-expanded", "true");
+  expect(((await pop.innerText()) ?? "").split("\n")[0]).toMatch(/^(Động từ|Tính từ い|Tính từ な)$/);
+  await expect(pop).toContainText(/Bài \d+/);
+  await page.keyboard.press("Escape");
+  await page.mouse.move(0, 0); // desktop: chuột còn trên icon thì vẫn hiện theo hover (đúng thiết kế)
+  await expect(pop).toBeHidden();
+  await btn.click();
+  await page.locator('[data-q="question"]').click(); // bấm ra ngoài
+  await expect(pop).toBeHidden();
+  await btn.click();
+  await page.keyboard.press("1");
+  await page.locator('[data-q="next"]').click();
+  await expect(pop).toBeHidden();
+});
+
+test("ô ⓘ: máy có chuột → rê chuột vào icon là hiện", async ({ page, isMobile }, info) => {
+  test.skip(info.project.name === "mobile" || isMobile, "chỉ thiết bị có chuột");
+  await page.goto("luyen-tap/?phan=tu-vung");
+  await startQuiz(page);
+  await page.locator('[data-q="info-btn"]').hover();
+  await expect(page.locator('[data-q="info"]')).toBeVisible();
+  await expect(page.locator('[data-q="info"]')).toContainText(/Bài \d+/);
 });

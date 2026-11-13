@@ -30,7 +30,7 @@ test("URL ?cap=n4&tu=30&den=30&loai=hv → Hán-Việt bài 30, đáp án viết
   await expect(page.locator("#loai-nghia")).not.toBeChecked();
   await startQuiz(page);
   for (let i = 0; i < 4; i++) {
-    await expect(page.locator('[data-q="hint"]')).toContainText("Bài 30");
+    await expect(page.locator('[data-q="info"]')).toContainText("Bài 30");
     const opts = await page.locator(".q-opt").allTextContents();
     for (const o of opts) expect(o.replace(/^\d/, "")).toBe(o.replace(/^\d/, "").toUpperCase());
     await page.keyboard.press("1");
@@ -63,7 +63,7 @@ test("đổi cấp → khoảng bài về cả cấp mới (N3: 1–14), URL c�
   await expect(page.locator("#q-to")).toHaveValue("14");
   await expect(page).toHaveURL(/cap=n3&tu=1&den=14/);
   await startQuiz(page);
-  await expect(page.locator('[data-q="hint"]')).toContainText("N3 · Bài");
+  await expect(page.locator('[data-q="info"]')).toContainText("N3 · Bài");
 });
 
 test("đang làm bài: khóa Cấp, Bài, Loại câu, Số câu; Furigana vẫn đổi được; Đổi tùy chọn → mở khóa", async ({ page }) => {
@@ -83,7 +83,7 @@ test("đang làm bài: khóa Cấp, Bài, Loại câu, Số câu; Furigana vẫn
   await page.locator("label:has(#cap-n4)").click();
   await expect(page).toHaveURL(/cap=n4/);
   await startQuiz(page);
-  await expect(page.locator('[data-q="hint"]')).toContainText(/Bài (2[6-9]|[34]\d|50)/);
+  await expect(page.locator('[data-q="info"]')).toContainText(/Bài (2[6-9]|[34]\d|50)/);
 });
 
 test("bỏ hết loại câu → bấm Bắt đầu báo rỗng, không lỗi", async ({ page }) => {
@@ -142,13 +142,13 @@ test("nút 'Luyện tập bài này' ở bài 5 (Minna) và N3 bài 2 mở quiz 
   await page.locator("[data-lesson-quiz]").click();
   await expect(page).toHaveURL(/vocabulary\/quiz\/\?cap=n5&tu=5&den=5/);
   await startQuiz(page);
-  await expect(page.locator('[data-q="hint"]')).toContainText("Bài 5");
+  await expect(page.locator('[data-q="info"]')).toContainText("Bài 5");
 
   await page.goto("vocabulary/n3/2/");
   await page.locator("[data-lesson-quiz]").click();
   await expect(page).toHaveURL(/cap=n3&tu=2&den=2/);
   await startQuiz(page);
-  await expect(page.locator('[data-q="hint"]')).toContainText("N3 · Bài 2");
+  await expect(page.locator('[data-q="info"]')).toContainText("N3 · Bài 2");
 });
 
 test("không cuộn ngang (nghĩa dài, câu ví dụ dài)", async ({ page }) => {

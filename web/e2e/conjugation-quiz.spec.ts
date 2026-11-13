@@ -30,7 +30,7 @@ test("đã học tới bài 15: chỉ hiện 7 thể (ます…て), câu hỏi 
   for (let i = 0; i < 8; i++) {
     const q = ((await page.locator('[data-q="question"]').textContent()) ?? "").replace("Chia sang ", "");
     expect(names.some((n) => n.includes(q)), q).toBe(true);
-    await expect(page.locator('[data-q="hint"]')).toHaveText(/Bài (\d|1[0-5])$/);
+    await expect(page.locator('[data-q="info"]')).toHaveText(/Bài (\d|1[0-5])$/);
     await page.keyboard.press("1");
     await page.keyboard.press("Enter");
   }
@@ -71,7 +71,7 @@ test("Sách N3: hiện ô Bài từ–đến, ẩn 'Đã học tới'; đề là
   await expect(page.locator("#q-upto")).toBeHidden();
   await expect(page.locator("#q-from")).toHaveValue("2");
   await startQuiz(page);
-  await expect(page.locator('[data-q="hint"]')).toContainText(/N3 · Bài [23]$/);
+  await expect(page.locator('[data-q="info"]')).toContainText(/N3 · Bài [23]$/);
   const reading = await page.locator(`${prompt} rt`).allTextContents();
   const text = ((await page.locator(prompt).textContent()) ?? "").replace(reading.join(""), "");
   expect(text).toMatch(/[うくぐすつぬぶむる]$/);

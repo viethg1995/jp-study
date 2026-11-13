@@ -61,8 +61,8 @@ export function mixItems(o: MixOptions, files: readonly MixFile[], data: readonl
     if (f.part === "chia-the") {
       return conjItems(d as ConjTable, { book: "minna", from: o.from, upTo: o.to, kinds: CONJ_SLUGS }).map((it) => ({
         ...it,
-        // nhãn nhóm từ trong gợi ý: trộn động từ + tính từ thì cần biết đang chia loại từ nào
-        hint: it.kind === "c-group" ? it.hint : `${CONJ_GROUP_LABEL[f.group!]}${it.hint ? ` · ${it.hint}` : ""}`,
+        // nhóm từ trong thông tin ⓘ: trộn động từ + tính từ thì cần biết đang chia loại từ nào
+        info: `${CONJ_GROUP_LABEL[f.group!]}${it.info ? `\n${it.info}` : ""}`,
       }));
     }
     const items = (d as Deck).items;
