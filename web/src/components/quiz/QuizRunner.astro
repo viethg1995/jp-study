@@ -116,7 +116,7 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
           <button
             type="button"
             data-q="info-btn"
-            class="flex size-6 items-center justify-center rounded-full text-ink-faint hover:text-primary focus-visible:outline-2 focus-visible:outline-primary aria-expanded:text-primary"
+            class="flex size-6 items-center justify-center rounded-full text-primary hover:bg-primary-soft focus-visible:outline-2 focus-visible:outline-primary"
             aria-label="Thông tin câu hỏi"
             aria-expanded="false"
             aria-controls="q-info"
@@ -179,11 +179,13 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
 <style>
   /* Ẩn furigana (thuần CSS): chỉ câu hỏi + các lựa chọn; phản hồi, giải thích, tổng kết vẫn hiện cách đọc.
      visibility (không display) để bật/tắt giữa chừng không làm nhảy bố cục — như công tắc ở trang bài. */
-  /* ⓘ: ẩn mặc định; hiện khi rê chuột (thiết bị có chuột) hoặc khi bấm/chạm (data-open, runner bật/tắt) */
+  /* ⓘ: ẩn mặc định; hiện khi rê chuột (máy có chuột — click chuột KHÔNG ghim), chạm trên mobile / Enter bàn phím
+     (data-open, runner bật/tắt), hoặc đang focus bằng bàn phím */
   .info-pop {
     display: none;
   }
-  .info-wrap[data-open] .info-pop {
+  .info-wrap[data-open] .info-pop,
+  .info-wrap:has(:focus-visible) .info-pop {
     display: block;
   }
   @media (hover: hover) {

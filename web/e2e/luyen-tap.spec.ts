@@ -1,6 +1,6 @@
 // E2E trang tổng /luyen-tap/ (Q8): bộ lọc bài + phần ↔ URL, chỉ tải file của cấp/phần đã chọn, trộn đều theo phần,
 // nhãn góc thẻ, khóa/thu gọn khi làm bài, menu + thẻ trang chủ, SEO.
-import { backToSetup, expect, optionHeights, startQuiz, test } from "./fixtures";
+import { backToSetup, expect, optionHeights, startQuiz, test, tokenColor } from "./fixtures";
 
 const kind = '[data-q="kind"]';
 
@@ -116,36 +116,46 @@ test("không cuộn ngang; điều khiển 32px", async ({ page }) => {
   expect(overflow).toBeLessThanOrEqual(0);
 });
 
-test("ô ⓘ thông tin: ẩn mặc định; bấm/chạm → hiện bài + loại từ, bấm lại hoặc Esc → ẩn; sang câu mới → đóng", async ({ page }) => {
+test("ô ⓘ trên mobile: ẩn mặc định; chạm → hiện 'loại từ - nghĩa' / 'Bài N', chạm lại / chạm ngoài / câu mới → ẩn", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "chạm chỉ có trên mobile");
   await page.goto("luyen-tap/?phan=chia-the");
   await startQuiz(page);
   const btn = page.locator('[data-q="info-btn"]');
   const pop = page.locator('[data-q="info"]');
-  await expect(btn).toBeVisible();
+  await expect(btn).toHaveCSS("color", await tokenColor(page, "--color-primary"));
   await expect(pop).toBeHidden();
   await expect(page.locator('[data-q="hint"]')).toBeHidden(); // chia thể: không còn dòng gợi ý dưới đề
-  await btn.click();
+  await btn.tap();
   await expect(pop).toBeVisible();
-  await expect(btn).toHaveAttribute("aria-expanded", "true");
-  expect(((await pop.innerText()) ?? "").split("\n")[0]).toMatch(/^(Động từ|Tính từ い|Tính từ な)$/);
-  await expect(pop).toContainText(/Bài \d+/);
-  await page.keyboard.press("Escape");
-  await page.mouse.move(0, 0); // desktop: chuột còn trên icon thì vẫn hiện theo hover (đúng thiết kế)
+  expect(await pop.innerText()).toMatch(/^(Động từ|Tính từ い|Tính từ な) - .+\nBài \d+$/);
+  await btn.tap();
   await expect(pop).toBeHidden();
-  await btn.click();
-  await page.locator('[data-q="question"]').click(); // bấm ra ngoài
+  await btn.tap();
+  await page.locator('[data-q="question"]').tap(); // chạm ra ngoài
   await expect(pop).toBeHidden();
-  await btn.click();
-  await page.keyboard.press("1");
-  await page.locator('[data-q="next"]').click();
+  await btn.tap();
+  await page.locator(".q-opt").first().tap();
+  await page.locator('[data-q="next"]').tap();
   await expect(pop).toBeHidden();
 });
 
-test("ô ⓘ: máy có chuột → rê chuột vào icon là hiện", async ({ page, isMobile }, info) => {
-  test.skip(info.project.name === "mobile" || isMobile, "chỉ thiết bị có chuột");
-  await page.goto("luyen-tap/?phan=tu-vung");
+test("ô ⓘ trên PC: rê chuột → hiện; click chuột không ghim; bàn phím Tab vào icon → hiện", async ({ page }, info) => {
+  test.skip(info.project.name === "mobile", "chỉ máy có chuột");
+  await page.goto("luyen-tap/?phan=chia-the");
   await startQuiz(page);
-  await page.locator('[data-q="info-btn"]').hover();
-  await expect(page.locator('[data-q="info"]')).toBeVisible();
-  await expect(page.locator('[data-q="info"]')).toContainText(/Bài \d+/);
+  const btn = page.locator('[data-q="info-btn"]');
+  const pop = page.locator('[data-q="info"]');
+  await expect(btn).toHaveCSS("color", await tokenColor(page, "--color-primary"));
+  await btn.hover();
+  await expect(pop).toBeVisible();
+  await expect(pop).toContainText(/Bài \d+/);
+  await btn.click();
+  await expect(btn).toHaveAttribute("aria-expanded", "false");
+  await page.mouse.move(0, 0);
+  await expect(pop).toBeHidden(); // không bị ghim sau khi click
+  await btn.focus();
+  await page.keyboard.press("Tab");
+  await page.keyboard.press("Shift+Tab"); // focus bằng bàn phím → :focus-visible
+  await expect(pop).toBeVisible();
+  await page.keyboard.press("Escape");
 });

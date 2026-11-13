@@ -84,7 +84,7 @@ describe("mixItems trên dữ liệu thật", () => {
   });
   test("chia thể: thông tin ⓘ có nhóm từ; không có câu Nhóm động từ", () => {
     const items = mix({ parts: ["chia-the"] });
-    assert.ok(items.length > 0 && items.every((q) => /^(Động từ|Tính từ い|Tính từ な)\n/.test(q.info ?? "")), items[0]?.info ?? "");
+    assert.ok(items.length > 0 && items.every((q) => /^(Động từ|Tính từ い|Tính từ な) - .+\nBài \d+$/.test(q.info ?? "")), items[0]?.info ?? "");
     assert.ok(!items.some((q) => q.kind === "c-group"));
   });
   test("đếm số: nhóm 'Cần nhớ' (149 câu), câu dẫn 'Đọc thế nào?', không theo bài", () => {

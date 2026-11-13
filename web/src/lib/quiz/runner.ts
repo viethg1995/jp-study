@@ -362,12 +362,16 @@ export function mountQuiz(root: HTMLElement): QuizController {
     }
   });
 
-  // ⓘ: bấm/chạm bật tắt (máy có chuột thì rê chuột cũng hiện, xem CSS); bấm ra ngoài hoặc Esc → đóng
+  // ⓘ: chạm (mobile) / Enter bật tắt; click CHUỘT bỏ qua — máy có chuột chỉ hiện khi rê chuột (CSS), không ghim.
+  // Bấm ra ngoài hoặc Esc → đóng.
   function setInfo(open: boolean): void {
     infoWrap.toggleAttribute("data-open", open);
     infoBtn.setAttribute("aria-expanded", String(open));
   }
-  infoBtn.addEventListener("click", () => setInfo(!infoWrap.hasAttribute("data-open")));
+  infoBtn.addEventListener("click", (e) => {
+    if ((e as PointerEvent).pointerType === "mouse") return;
+    setInfo(!infoWrap.hasAttribute("data-open"));
+  });
   document.addEventListener("click", (e) => {
     if (infoWrap.hasAttribute("data-open") && !infoWrap.contains(e.target as Node)) setInfo(false);
   });

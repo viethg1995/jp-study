@@ -1,6 +1,6 @@
 // Trang tổng /luyen-tap/ (Q8, plan/quiz/q08-luyen-tap.md): trộn câu của nhiều phần theo khoảng bài Minna 1–50.
 // Không sinh deck mới: dùng lại đúng file của trang từng phần (nhớ đệm chung, Q8-4), gộp + lọc bài ở đây (hàm thuần).
-import { CONJ_GROUPS, CONJ_GROUP_LABEL, CONJ_GROUP_SLUG, CONJ_KINDS, CONJ_KIND_LABEL, type ConjTable, conjItems } from "./conjugation";
+import { CONJ_GROUPS, CONJ_GROUP_SLUG, CONJ_KINDS, CONJ_KIND_LABEL, type ConjTable, conjItems } from "./conjugation";
 import { matches } from "./core";
 import { KANJI_KINDS, KANJI_KIND_LABEL } from "./kanji";
 import type { Deck, QuizItem } from "./types";
@@ -59,11 +59,8 @@ export function mixItems(o: MixOptions, files: readonly MixFile[], data: readonl
   return files.flatMap((f, i) => {
     const d = data[i];
     if (f.part === "chia-the") {
-      return conjItems(d as ConjTable, { book: "minna", from: o.from, upTo: o.to, kinds: CONJ_SLUGS }).map((it) => ({
-        ...it,
-        // nhóm từ trong thông tin ⓘ: trộn động từ + tính từ thì cần biết đang chia loại từ nào
-        info: `${CONJ_GROUP_LABEL[f.group!]}${it.info ? `\n${it.info}` : ""}`,
-      }));
+      // info đã có loại từ ("Động từ - copy\nBài 14", conjItems) — trộn động từ + tính từ vẫn biết đang chia loại nào
+      return conjItems(d as ConjTable, { book: "minna", from: o.from, upTo: o.to, kinds: CONJ_SLUGS });
     }
     const items = (d as Deck).items;
     if (f.part === "dem-so") return items.filter((it) => it.tags.changed === 1);

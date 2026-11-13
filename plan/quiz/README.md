@@ -113,7 +113,7 @@ interface QuizItem {
 
 - Đề cỡ 46px (tiếng Nhật ngắn) / 22px (dài hoặc tiếng Việt); câu hỏi ("Đọc thế nào?", "Chia sang …") chữ đậm màu `ink` để nổi bật.
 - Dưới đề chỉ hiện `hint` khi cần để trả lời (câu dịch của câu điền từ, "nghĩa: …" của từ nhiều cách đọc).
-- Thông tin phụ (`info`: bài, loại từ, nghĩa ở câu chia thể, số nét, trợ số từ) nằm trong icon ⓘ sau nhãn loại câu: hover trên máy có chuột, chạm để bật/tắt trên mobile; Esc / bấm ra ngoài / sang câu mới → đóng. Màn tổng kết vẫn ghi đủ (`hint · info`).
+- Thông tin phụ (`info`: bài, loại từ, nghĩa ở câu chia thể, số nét, trợ số từ) nằm trong icon ⓘ (màu `primary`) sau nhãn loại câu: máy có chuột **chỉ hiện khi rê chuột** (click chuột không ghim); mobile chạm để bật/tắt; bàn phím: focus/Enter; Esc / bấm ra ngoài / sang câu mới → đóng. Chia thể: `Loại từ - nghĩa` / `Bài N` (2 dòng). Màn tổng kết vẫn ghi đủ (`hint · info`).
 
 ## Checklist
 
