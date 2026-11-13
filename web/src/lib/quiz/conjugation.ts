@@ -191,6 +191,22 @@ function shown(s: string): string {
   return v;
 }
 
+/** Chữ hiển thị đã chuẩn hóa của một chuỗi ruby (so trùng đáp án). */
+export const shownText = shown;
+
+/** Dạng chia SAI của `row` ở thể `form`, đã loại mọi dạng đúng của chính từ đó — Q4b (điền từ đã chia) dùng lại. */
+export function badForms(row: ConjRow, form: string): string[] {
+  const seen = new Set(Object.values(row.forms).map(([r]) => shown(r)));
+  const out: string[] = [];
+  for (const c of wrongForms(row, form)) {
+    const k = shown(c);
+    if (seen.has(k) || !isValidRuby(c)) continue;
+    seen.add(k);
+    out.push(c);
+  }
+  return out;
+}
+
 export function conjHref(group: ConjGroupId, id: string): string {
   return `chia-the/${CONJ_GROUP_SLUG[group]}/${id}/`;
 }

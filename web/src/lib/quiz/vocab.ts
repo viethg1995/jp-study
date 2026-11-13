@@ -4,9 +4,11 @@
 //   v-mean  {先生|せんせい} → nghĩa     nhiễu: nghĩa từ cùng từ loại, bài gần nhất
 //   v-word  nghĩa → {先生|せんせい}     nhiễu: từ cùng từ loại; từ đồng nghĩa vào "Cũng đúng"
 //   v-hv    学生 → HỌC SINH            nhiễu: âm Hán-Việt từ có chung chữ, cùng số âm tiết
-//   v-cloze câu ví dụ có chỗ trống     chỉ khi từ đích giữ nguyên dạng (Q4-2); gợi ý = câu dịch
+//   v-cloze câu ví dụ có chỗ trống     từ đích giữ nguyên dạng (Q4-2) hoặc đã chia (Q4b: nhiễu = từ khác cùng thể
+//                                      + dạng chia sai của chính từ); gợi ý = câu dịch
 import { parseRuby } from "../ruby";
 import type { VocabEntry, VocabExample } from "../schemas";
+import { badForms, type ConjRow, type ConjTable, shownText as conjText } from "./conjugation";
 import { misreadings } from "./kana";
 import type { QuizItem } from "./types";
 import { type DeckIssue, finalizeDeck, leaks } from "./validate";
@@ -303,8 +305,8 @@ export function clozeTarget(e: VocabEntry, ex: VocabExample): string | null {
   return forms.has(text) || forms.has(reading) ? m[1]! : null;
 }
 
-function clozeItems(level: VocabLevel, mine: readonly VocabEntry[]): QuizItem[] {
-  const out: QuizItem[] = [];
+function clozeItems(level: VocabLevel, mine: readonly VocabEntry[], conj: readonly ConjTable[]): QuizItem[] {
+  const out: QuizItem[] = inflectedClozeItems(level, mine, conj);
   const rubyOf = new Map(mine.map((x) => [shownText(x), shownRuby(x)]));
   // danh từ riêng: câu dịch giữ nguyên tên (新神戸 → "ga Shin-Kobe") → lộ đáp án
   for (const e of mine.filter((x) => x.pos.code !== "PN")) {
@@ -335,11 +337,126 @@ function clozeItems(level: VocabLevel, mine: readonly VocabEntry[]): QuizItem[] 
   return out;
 }
 
+// ---------------------------------------------------------------- Q4b: điền từ cho từ đích đã chia
+
+/** Số dạng chia sai tối đa trong pool (Q4b-4); còn lại là từ khác cùng thể. */
+const BAD_FORMS = 2;
+const KANA_TAIL = /^[\u3041-\u309f]+$/u;
+
+interface ConjRef {
+  row: ConjRow;
+  table: ConjTable;
+}
+
+/** Hàng bảng chia của từ: theo ID; không có (từ lặp ở bài sau: 休みます bài 11) → từ cùng chữ, rồi cùng dạng gốc. */
+function conjIndex(conj: readonly ConjTable[]): (e: VocabEntry) => ConjRef | undefined {
+  const byId = new Map<string, ConjRef>();
+  const byBase = new Map<string, ConjRef>();
+  for (const table of conj)
+    for (const row of table.rows) {
+      byId.set(row.id, { row, table });
+      const k = `${row.book}|${conjText(row.base)}`;
+      if (!byBase.has(k)) byBase.set(k, { row, table });
+    }
+  return (e) =>
+    byId.get(e.id) ??
+    e.same_word.map((id) => byId.get(id)).find((x) => x !== undefined) ??
+    byBase.get(`${e.book}|${conjText(shownRuby(e))}`) ??
+    byBase.get(`${e.book}|${conjText(e.kana)}`);
+}
+
+/**
+ * Thể của cụm đích: khớp đúng một thể (行きました = mashita), hoặc thể + đuôi kana cố định (忘れないで = nai + で,
+ * 掃除したり = ta + り). Nhiều thể trùng chữ (V2 khả năng = bị động) → thể học trước. Không khớp → null (bỏ qua).
+ */
+function matchForm(ref: ConjRef, target: string): { form: ConjTable["forms"][number]; tail: string } | null {
+  const t = conjText(target);
+  let best: { form: ConjTable["forms"][number]; tail: string } | null = null;
+  for (const form of ref.table.forms) {
+    const cell = ref.row.forms[form.id];
+    if (!cell) continue;
+    const f = conjText(cell[0]);
+    if (f === t) return { form, tail: "" };
+    const tail = t.slice(f.length);
+    if (t.startsWith(f) && KANA_TAIL.test(tail) && (best === null || tail.length < best.tail.length)) best = { form, tail };
+  }
+  return best;
+}
+
+function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], conj: readonly ConjTable[]): QuizItem[] {
+  if (conj.length === 0) return [];
+  const refOf = conjIndex(conj);
+  const entryOf = new Map(mine.map((x) => [x.id, x]));
+  const out: QuizItem[] = [];
+  for (const e of mine.filter((x) => x.pos.code !== "PN")) {
+    const ref = refOf(e);
+    if (!ref) continue;
+    for (const ex of e.examples) {
+      const m = /\[\[(.*?)\]\]/u.exec(ex.ruby);
+      if (!m || clozeTarget(e, ex) !== null) continue;
+      const target = m[1]!;
+      const hit = matchForm(ref, target);
+      if (!hit) continue;
+      const { form, tail } = hit;
+      const upTo = Math.max(ex.max_lesson, e.lesson);
+      // thể chưa học tới bài của câu → bỏ (N3: thể theo bài Minna, người học N3 đã học hết)
+      if (e.book === "minna" && (form.lesson === null || form.lesson > upTo)) continue;
+      const answerText = conjText(target);
+      const seen = new Set([answerText]);
+      const pool: string[] = [];
+      const push = (ruby: string): boolean => {
+        const k = conjText(ruby);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        pool.push(ruby);
+        return true;
+      };
+      // dạng chia sai của chính từ (行きて) — không bao giờ đúng
+      let bad = 0;
+      for (const c of badForms(ref.row, form.id)) if (bad < BAD_FORMS && push(c + tail)) bad++;
+      // từ khác cùng nhóm (động từ / tính từ い / な), cùng thể + cùng đuôi; đã học tới bài của câu; gần bài trước
+      const others = ref.table.rows
+        .filter((r) => r !== ref.row && r.book === e.book && r.lesson <= upTo && r.forms[form.id])
+        .filter((r) => {
+          const x = entryOf.get(r.id);
+          return !x || !synonymous(e, x);
+        })
+        .sort((a, b) => Math.abs(a.lesson - e.lesson) - Math.abs(b.lesson - e.lesson) || a.id.localeCompare(b.id));
+      for (const r of others) {
+        if (pool.length >= POOL_SIZE) break;
+        if (conjText(r.base) === conjText(ref.row.base)) continue;
+        push(r.forms[form.id]![0] + tail);
+      }
+      out.push({
+        id: `v-cloze:${ex.id}`,
+        kind: "v-cloze",
+        prompt: ex.ruby.replace(/\[\[.*?\]\]/u, BLANK),
+        promptLang: "ja",
+        question: "Điền từ thích hợp",
+        hint: ex.vi,
+        info: lessonLabel(level, [e.lesson]),
+        answer: target,
+        accepted: [],
+        pool,
+        explain: `${parseRuby(target).map((s) => s.text).join("")} = ${form.name}${tail ? ` + ${tail}` : ""} · ${explainOf(e)}`,
+        href: vocabHref(e),
+        tags: { level, lesson: [e.lesson], pos: e.pos.code },
+      });
+    }
+  }
+  return out;
+}
+
 /**
  * Một deck (cấp × loại câu). `all` = toàn bộ từ vựng (Minna + N3) — dùng để biết mọi cách đọc đúng của một chữ;
  * nhiễu chỉ lấy trong cùng cấp. Câu thiếu nhiễu bị bỏ (dropped); lỗi khác → throw (finalizeDeck).
  */
-export function buildVocabDeck(all: readonly VocabEntry[], level: VocabLevel, slug: VocabKindSlug): { items: QuizItem[]; dropped: DeckIssue[] } {
+export function buildVocabDeck(
+  all: readonly VocabEntry[],
+  level: VocabLevel,
+  slug: VocabKindSlug,
+  conj: readonly ConjTable[] = [],
+): { items: QuizItem[]; dropped: DeckIssue[] } {
   const mine = all.filter((e) => levelOf(e) === level);
   const items =
     slug === "doc"
@@ -350,7 +467,7 @@ export function buildVocabDeck(all: readonly VocabEntry[], level: VocabLevel, sl
           ? wordItems(level, mine)
           : slug === "hv"
             ? hvItems(level, mine)
-            : clozeItems(level, mine);
+            : clozeItems(level, mine, conj);
   // câu tự lộ đáp án (hỏi "đĩa CD" → CD; chỗ trống mà furigana câu chứa cách đọc đáp án) → bỏ trước khi kiểm
   return finalizeDeck(items.filter((it) => !leaks(it)).sort((a, b) => a.id.localeCompare(b.id)));
 }

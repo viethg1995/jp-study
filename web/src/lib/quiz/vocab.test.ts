@@ -2,7 +2,9 @@
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 import { gzipSync } from "node:zlib";
-import { loadVocab } from "../../test/data.ts";
+import { loadConjugation, loadVocab } from "../../test/data.ts";
+import { parseRuby } from "../ruby.ts";
+import { buildConjTable, CONJ_GROUPS, type ConjRow } from "./conjugation.ts";
 import { filterItems } from "./core.ts";
 import { misreadings } from "./kana.ts";
 import type { QuizItem } from "./types.ts";
@@ -10,10 +12,12 @@ import { checkDeck } from "./validate.ts";
 import { VOCAB_KINDS, VOCAB_LEVELS, type VocabKindSlug, type VocabLevel, buildVocabDeck, cleanMeaning, levelOf, meaningKeys } from "./vocab.ts";
 
 const all = loadVocab();
+const conjData = loadConjugation();
+const conj = CONJ_GROUPS.map((g) => buildConjTable(g, conjData.entries, conjData.forms));
 const decks = new Map<string, ReturnType<typeof buildVocabDeck>>();
 const deck = (level: VocabLevel, slug: VocabKindSlug): QuizItem[] => {
   const k = `${level}-${slug}`;
-  if (!decks.has(k)) decks.set(k, buildVocabDeck(all, level, slug));
+  if (!decks.has(k)) decks.set(k, buildVocabDeck(all, level, slug, conj));
   return decks.get(k)!.items;
 };
 const SLUGS = Object.keys(VOCAB_KINDS) as VocabKindSlug[];
@@ -29,10 +33,10 @@ describe("15 deck (cấp × loại câu)", () => {
         assert.deepEqual(checkDeck(items).slice(0, 5), []);
         assert.ok(dropped.length / (items.length + dropped.length) < 0.02, `bỏ ${dropped.length} câu`);
         assert.ok(items.every((q) => q.kind === VOCAB_KINDS[slug] && q.tags.level === level));
-        // Giới hạn đo 2026-11-12: lớn nhất ~400KB gốc / ~47KB gzip (dung lượng thực tải về)
+        // Giới hạn đo 2026-11-12: lớn nhất ~400KB gốc / ~47KB gzip; Q4b (2026-11-13) -dien lên ~65KB gzip
         const json = JSON.stringify({ version: 1, name: `${level}-${slug}`, items });
         assert.ok(Buffer.byteLength(json) < 450_000, `${Buffer.byteLength(json)} byte`);
-        assert.ok(gzipSync(json).length < 60_000, `${gzipSync(json).length} byte gzip`);
+        assert.ok(gzipSync(json).length < 70_000, `${gzipSync(json).length} byte gzip`);
       });
     }
   }
@@ -141,10 +145,42 @@ describe("v-cloze (điền từ)", () => {
     for (const level of VOCAB_LEVELS) assert.ok(deck(level, "dien").every((q) => q.tags.pos !== "PN"), level);
   });
 
-  test("động từ đã chia (行きました) không vào deck", () => {
-    const verbsInflected = all.filter((e) => /^V/.test(e.pos.code) && levelOf(e) === "n5").flatMap((e) => e.examples.filter((x) => /\[\[.*(ました|ません|て|た)\]\]/.test(x.ruby)).map((x) => x.id));
-    const ids = new Set(deck("n5", "dien").map((q) => q.id.replace("v-cloze:", "")));
-    assert.ok(verbsInflected.length > 0);
-    assert.ok(verbsInflected.every((id) => !ids.has(id)));
+  // Q4b: từ đích đã chia (plan/quiz/q04b-cloze-inflected.md)
+  const text = (r: string): string => parseRuby(r).map((x) => x.text).join("");
+  const rowById = new Map<string, ConjRow>(conj.flatMap((t) => t.rows.map((r) => [r.id, r] as const)));
+  const inflected = (level: VocabLevel): QuizItem[] => deck(level, "dien").filter((q) => q.explain?.includes(" = "));
+
+  test("Q4b: có câu từ đích đã chia mỗi cấp; số câu bỏ qua không tăng (mốc khảo sát 2026-11-13)", () => {
+    const min = { n5: 75, n4: 130, n3: 150 };
+    for (const level of VOCAB_LEVELS) assert.ok(inflected(level).length >= min[level], `${level}: ${inflected(level).length}`);
+    // câu có [[…]] đã biến đổi (không phải danh từ riêng) nhưng không vào deck — tồn đọng dữ liệu ở README "Lỗi dữ liệu"
+    let skipped = 0;
+    for (const level of VOCAB_LEVELS) {
+      const ids = new Set(deck(level, "dien").map((q) => q.id.replace("v-cloze:", "")));
+      for (const e of all.filter((x) => levelOf(x) === level && x.pos.code !== "PN"))
+        for (const x of e.examples) if (/\[\[/.test(x.ruby) && !ids.has(x.id)) skipped++;
+    }
+    assert.ok(skipped <= 150, `bỏ qua ${skipped} câu`); // đo 2026-11-13: 148 (gồm câu lộ đáp án bị bỏ)
+  });
+
+  test("Q4b: nhiễu không trùng bất kỳ thể đúng nào của chính từ; cùng đuôi với đáp án (ました, ないで)", () => {
+    for (const level of VOCAB_LEVELS)
+      for (const q of inflected(level)) {
+        const row = rowById.get(q.id.replace("v-cloze:", "").replace(/-e\d+$/, ""));
+        const right = new Set(row ? Object.values(row.forms).map(([r]) => text(r)) : [text(q.answer)]);
+        for (const p of q.pool) assert.ok(!right.has(text(p)), `${q.id}: ${p}`);
+        assert.ok(q.pool.length >= 3, q.id);
+        // つないで là thể て, không phải ない + で → chỉ xét đuôi で khi giải thích ghi "+ で"
+        const ends = ["ました", "ません", ...(q.explain!.includes("+ で") ? ["ないで"] : [])];
+        for (const end of ends)
+          if (text(q.answer).endsWith(end)) assert.ok(q.pool.every((p) => text(p).endsWith(end)), `${q.id}: ${q.pool.join(",")}`);
+      }
+  });
+
+  test("Q4b: 来ました — nhiễu là động từ khác thể ました + dạng chia sai; giải thích ghi tên thể", () => {
+    const q = inflected("n5").find((x) => text(x.answer) === "来ました")!;
+    assert.ok(q, "thiếu câu 来ました");
+    assert.match(q.explain!, /^来ました = Quá khứ lịch sự · 来ます/);
+    assert.ok(q.pool.slice(0, 6).filter((p) => /^[行帰起寝働]/.test(text(p))).length >= 2, q.pool.join(","));
   });
 });

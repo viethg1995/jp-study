@@ -13,7 +13,7 @@ Quy trình mỗi task: viết spec vào file task → **user duyệt** → làm 
 | [Q2](q02-engine.md) | Engine `lib/quiz/` | ✅ |
 | [Q3](q03-runner.md) | `QuizRunner` + chuyển quiz đếm số | ✅ |
 | [Q4](q04-vocab.md) | Quiz từ vựng | ✅ |
-| [Q4b](q04b-cloze-inflected.md) | Điền từ cho từ đích đã biến đổi | ⬜ |
+| [Q4b](q04b-cloze-inflected.md) | Điền từ cho từ đích đã biến đổi | ✅ |
 | [Q5](q05-kanji.md) | Quiz Kanji + bộ thủ | ✅ |
 | [Q6](q06-conjugation.md) | Quiz chia thể | ✅ |
 | [Q7](q07-numbers.md) | Quiz số đếm `n-num` | ⬜ |
@@ -148,3 +148,8 @@ interface QuizItem {
 
 - `mn-41-039` この間: kana sai `このあいだい`.
 - Bộ thủ: xem [q05-kanji.md](q05-kanji.md) (tên dính số, thiếu biến thể).
+- **Q4b — câu ví dụ có từ đích đã chia nhưng chưa hỏi được** (~115 câu, chi tiết + số liệu ở [q04b-cloze-inflected.md](q04b-cloze-inflected.md) mục Khảo sát):
+  - ~60 câu: động từ N3 **thiếu trong `data/conjugation.json`** (n3-101 倒れる, n3-103 起きる, n3-108 飼う, n3-117 決める, n3-126 降りる, n3-144 通う, n3-317 届く, n3-333 増える…) — bổ sung ở bước sinh bảng chia của pipeline.
+  - ~40 câu: thể ghép chưa có trong bảng chia — bị động + ました (bài 37: 褒められました, 招待されました), なければなりません / なくても (bài 17), なかったら (bài 25). Hướng: thêm thể ghép vào bảng chia, hoặc pipeline đánh dấu cụm `[[…]]` chỉ phần thể có sẵn.
+  - ~15 câu: không phải chia thể — trường `kanji` chứa nhiều cách viết (mn-09-033 `夫 /主人`, mn-09-035 `妻/家内`, mn-24-009 `おじいさん／ おじいちゃん`), danh từ hóa (迎え, 切れ), mẫu câu (mn-01-030 こちらは～さんです).
+  - Sửa xong → chạy `vocab.test.ts`: mốc "số câu bỏ qua" phải hạ theo.

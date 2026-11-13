@@ -106,6 +106,32 @@ test("điền từ: câu có chỗ trống, gợi ý là câu dịch tiếng Vi�
   await expect(page.locator('[data-q="hint"]')).not.toBeEmpty();
 });
 
+test("điền từ đã chia (Q4b): bài 14 có câu thể て — 4 lựa chọn đều đuôi て/で, giải thích ghi tên thể", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&tu=14&den=14&loai=dien");
+  await page.locator("label:has(#q-size-20)").click();
+  await startQuiz(page);
+  let found = 0;
+  for (let i = 0; i < 20 && (await page.locator(prompt).isVisible()); i++) {
+    // chữ hiển thị của lựa chọn: bỏ furigana (rt) và số thứ tự phím tắt
+    const opts = await page.locator(".q-opt").evaluateAll((els) =>
+      els.map((el) => {
+        const c = el.cloneNode(true) as HTMLElement;
+        c.querySelectorAll("rt, kbd, .kbd-hint").forEach((x) => x.remove());
+        return (c.textContent ?? "").replace(/^\s*\d\s*/, "").trim();
+      }),
+    );
+    const te = opts.filter((o) => /[てで]$/.test(o)).length;
+    await page.keyboard.press("1");
+    if (te >= 3) {
+      expect(opts.every((o) => /[てで]$/.test(o)), opts.join(" / ")).toBe(true);
+      await expect(page.locator('[data-q="explain"]')).toContainText(/ = Thể て/);
+      found++;
+    }
+    await page.keyboard.press("Enter");
+  }
+  expect(found).toBeGreaterThan(0);
+});
+
 test("mạng chậm → hiện 'Đang tải câu hỏi…' rồi mới ra câu hỏi", async ({ page }) => {
   await page.route("**/vocabulary/quiz/*.json", async (route) => {
     await new Promise((r) => setTimeout(r, 1500));
