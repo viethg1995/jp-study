@@ -1,0 +1,149 @@
+{
+  "$defs": {
+    "TranslationExercise": {
+      "additionalProperties": false,
+      "properties": {
+        "focus_vi": {
+          "description": "Điểm ngữ pháp/từ vựng đề nhắm tới — hiện cho người học và gửi cho AI",
+          "items": {
+            "type": "string"
+          },
+          "title": "Focus Vi",
+          "type": "array"
+        },
+        "grammar_refs": {
+          "description": "ID ngữ pháp g-LL-N liên quan",
+          "items": {
+            "type": "string"
+          },
+          "title": "Grammar Refs",
+          "type": "array"
+        },
+        "id": {
+          "description": "t-LL-NN — khóa cache/localStorage, KHÔNG được đổi",
+          "title": "Id",
+          "type": "string"
+        },
+        "lesson": {
+          "description": "Bài みんなの日本語 mà đề luyện",
+          "maximum": 50,
+          "minimum": 1,
+          "title": "Lesson",
+          "type": "integer"
+        },
+        "prompt_lang": {
+          "description": "Ngôn ngữ của câu đề",
+          "enum": [
+            "vi",
+            "en"
+          ],
+          "title": "Prompt Lang",
+          "type": "string"
+        },
+        "review": {
+          "enum": [
+            "auto",
+            "ai",
+            "user"
+          ],
+          "title": "Review",
+          "type": "string"
+        },
+        "sentences": {
+          "items": {
+            "$ref": "#/$defs/TranslationSentence"
+          },
+          "maxItems": 12,
+          "minItems": 1,
+          "title": "Sentences",
+          "type": "array"
+        },
+        "source": {
+          "enum": [
+            "ai-draft",
+            "user"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "title_vi": {
+          "minLength": 1,
+          "title": "Title Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "lesson",
+        "title_vi",
+        "prompt_lang",
+        "focus_vi",
+        "grammar_refs",
+        "sentences",
+        "source",
+        "review"
+      ],
+      "title": "TranslationExercise",
+      "type": "object"
+    },
+    "TranslationSentence": {
+      "additionalProperties": false,
+      "properties": {
+        "note_vi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Ghi chú cho AI chấm và người học (vd: chấp nhận cả thể thường)",
+          "title": "Note Vi"
+        },
+        "prompt": {
+          "description": "Câu đề (tiếng Việt hoặc tiếng Anh, theo prompt_lang của đề)",
+          "minLength": 1,
+          "title": "Prompt",
+          "type": "string"
+        },
+        "references": {
+          "description": "Bản dịch mẫu tiếng Nhật (chữ thường, không ruby); nhiều cách đúng → nhiều mục",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "References",
+          "type": "array"
+        }
+      },
+      "required": [
+        "prompt",
+        "references",
+        "note_vi"
+      ],
+      "title": "TranslationSentence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "exercises": {
+      "items": {
+        "$ref": "#/$defs/TranslationExercise"
+      },
+      "title": "Exercises",
+      "type": "array"
+    },
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "exercises"
+  ],
+  "title": "TranslationFile",
+  "type": "object"
+}

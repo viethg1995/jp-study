@@ -149,7 +149,8 @@ def cmd_build(_: argparse.Namespace) -> int:
         print(f"  liên kết Minna ↔ N3: {sum(1 for e in n3_entries if any(i.startswith('mn-') for i in e.same_word))} từ N3")
     rc = _build_kanji(entries + n3_entries, kanjidic, n3_kanji, n3_places)
     rc = rc or _build_conjugation(entries + n3_entries)
-    return rc or _build_counters(entries)
+    rc = rc or _build_counters(entries)
+    return rc or _build_translation()
 
 
 def _build_conjugation(vocab: list) -> int:  # type: ignore[type-arg]
@@ -201,6 +202,29 @@ def _build_counters(vocab: list) -> int:  # type: ignore[type-arg]
     print(f"  đếm số    : {len(doc.counters)} trợ số từ, {n_ex} câu ví dụ | cảnh báo {len(rep.warnings)} "
           f"(chi tiết: {(root / '_report.json').relative_to(paths.ROOT)})")
     return 0
+
+
+def _build_translation() -> int:
+    """enrichment/translation/exercises/*.json → data/translation.json (đề luyện dịch, AI chấm qua worker/)."""
+    from jp_pipeline.schemas import TranslationFile
+    from jp_pipeline.transform.translation import build_translation
+
+    files = sorted((paths.ENRICH_TRANSLATION / "exercises").glob("*.json"))
+    try:
+        doc = build_translation({f.name: _read_json(f) for f in files})
+    except ValueError as ex:
+        print(f"LUYỆN DỊCH FAIL — {ex}")
+        return 1
+    _write_json(paths.OUT_TRANSLATION, doc.model_dump(mode="json"))
+    _write_json(paths.DATA_SCHEMA / "translation.schema.json", TranslationFile.model_json_schema())
+    drafts = sum(1 for e in doc.exercises if e.review == "auto")
+    print(f"  luyện dịch: {len(doc.exercises)} đề | chờ duyệt {drafts}")
+    return 0
+
+
+def cmd_build_translation(_: argparse.Namespace) -> int:
+    """Chỉ dựng data/translation.json (không cần từ điển/sources)."""
+    return _build_translation()
 
 
 def cmd_build_counters(_: argparse.Namespace) -> int:
@@ -301,6 +325,7 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
     from jp_pipeline.dictionaries import load_unihan_vi
     from jp_pipeline.schemas import KanjiFile, RadicalFile
     from jp_pipeline.transform.kanji_build import (
+        apply_radical_overrides,
         build_kanji,
         parse_lesson_files,
         parse_meanings,
@@ -313,6 +338,11 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
         print("Thiếu bảng 214 bộ thủ — chạy: python -m jp_pipeline extract-pdf --only 214")
         return 1
     radicals = parse_radicals(rad_md.read_text(encoding="utf-8"))
+    if paths.ENRICH_RADICAL_OVERRIDES.exists():
+        radicals = apply_radical_overrides(
+            radicals, paths.ENRICH_RADICAL_OVERRIDES.read_text(encoding="utf-8"),
+            paths.ENRICH_RADICAL_OVERRIDES.name,
+        )
     unihan = load_unihan_vi(paths.DICT_UNIHAN, paths.DICT_INDEX / "unihan_vi.json")
     meanings = parse_meanings(
         [(f.name, f.read_text(encoding="utf-8")) for f in sorted(paths.ENRICH_KANJI.glob("*.txt"))]
@@ -332,6 +362,11 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
         return 1
     kanji = [k.model_copy(update={"story": stories[k.char][0], "story_source": stories[k.char][1]})
              if k.char in stories else k for k in kanji]
+    loaded = _load_kanjivg([k.char for k in kanji])
+    if loaded is None:
+        return 1
+    svgs, kvg_version = loaded
+    kanji, parts_report = _radical_parts(kanji, svgs, radicals)
 
     _write_json(paths.OUT_KANJI / "radicals.json",
                 RadicalFile(source="PDF 214 bộ thủ Kanji (tự tổng hợp)", radicals=radicals).model_dump(mode="json"))
@@ -352,7 +387,10 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
     print(f"  ví dụ: +{ex_report.jmdict_added} từ JMdict | chưa dịch {ex_report.untranslated} "
           f"| không rõ On/Kun {ex_report.unclassified} | chữ < 5 ví dụ: {len(ex_report.below_min)} "
           f"{''.join(ex_report.below_min)}")
-    return _build_strokes(kanji, radicals)
+    print(f"  bộ thủ thành phần: TB {sum(len(k.radical_parts) for k in kanji) / len(kanji):.1f} bộ/chữ "
+          f"| bộ chính không có trong cây KanjiVG: {len(parts_report.primary_not_in_tree)} "
+          f"{''.join(parts_report.primary_not_in_tree[:40])} | không có SVG: {len(parts_report.no_tree)}")
+    return _build_strokes(kanji, radicals, svgs, kvg_version)
 
 
 def _kanji_examples(kanji: list, entries: list, kanjidic: dict):  # type: ignore[no-untyped-def,type-arg]
@@ -409,22 +447,53 @@ def cmd_kanji_examples_todo(args: argparse.Namespace) -> int:
     return 0
 
 
-def _build_strokes(kanji: list, radicals: list) -> int:  # type: ignore[type-arg]
-    """KanjiVG zip → data/kanji/strokes.json (chỉ các chữ trong kanji.json) + báo cáo lệch số nét."""
+def _load_kanjivg(chars: list[str]) -> tuple[dict[str, str], str] | None:
+    """KanjiVG zip mới nhất → ({字: SVG} cho các chữ có trong zip, phiên bản YYYYMMDD). Thiếu zip → None."""
     import zipfile
 
-    from jp_pipeline.schemas import StrokeFile
-    from jp_pipeline.transform.kanji_strokes import build_strokes, kanjivg_filename
+    from jp_pipeline.transform.kanji_strokes import kanjivg_filename
 
     zips = sorted(paths.DICT_KANJIVG.glob("kanjivg-*-main.zip"))
     if not zips:
         print(f"Thiếu KanjiVG — tải kanjivg-YYYYMMDD-main.zip (github.com/KanjiVG/kanjivg/releases) vào {paths.DICT_KANJIVG}")
-        return 1
-    src = zips[-1]
-    with zipfile.ZipFile(src) as z:
+        return None
+    with zipfile.ZipFile(zips[-1]) as z:
         names = set(z.namelist())
-        svgs = {k.char: z.read(kanjivg_filename(k.char)).decode("utf-8")
-                for k in kanji if kanjivg_filename(k.char) in names}
+        svgs = {c: z.read(kanjivg_filename(c)).decode("utf-8") for c in chars if kanjivg_filename(c) in names}
+    return svgs, zips[-1].stem.split("-")[1]
+
+
+def cmd_kanjivg_tree(args: argparse.Namespace) -> int:
+    """In cây phần tử KanjiVG của vài chữ (gỡ lỗi radical_parts)."""
+    from jp_pipeline.transform.kanji_strokes import parse_element_tree
+
+    loaded = _load_kanjivg(list(dict.fromkeys(args.chars)))
+    if loaded is None:
+        return 1
+    for c, svg in loaded[0].items():
+        print(c)
+        for n in parse_element_tree(svg):
+            extra = "".join(f" {k}={v}" for k, v in (("original", n.original), ("radical", n.radical)) if v)
+            print(f"  {'  ' * n.depth}{n.element}{extra}")
+    return 0
+
+
+def _radical_parts(kanji: list, svgs: dict[str, str], radicals: list):  # type: ignore[type-arg,no-untyped-def]
+    """Gán radical_parts (bộ thủ thành phần theo cây KanjiVG) + ghi báo cáo."""
+    from jp_pipeline.transform.kanji_parts import build_radical_parts
+    from jp_pipeline.transform.kanji_strokes import parse_element_tree
+
+    trees = {c: parse_element_tree(svg) for c, svg in svgs.items()}
+    kanji, report = build_radical_parts(kanji, trees, radicals)
+    _write_json(paths.ENRICH_VOCAB_AUTO.parent.parent / "kanji-parts-report.json", report.model_dump())
+    return kanji, report
+
+
+def _build_strokes(kanji: list, radicals: list, svgs: dict[str, str], version: str) -> int:  # type: ignore[type-arg]
+    """KanjiVG (đã đọc) → data/kanji/strokes.json (chỉ các chữ trong kanji.json) + báo cáo lệch số nét."""
+    from jp_pipeline.schemas import StrokeFile
+    from jp_pipeline.transform.kanji_strokes import build_strokes
+
     # Tên thành phần: chữ trong bộ Kanji (âm HV + nghĩa đầu) trước, bảng 214 bộ thủ sau
     def short(m: str | None) -> str | None:
         """Nghĩa đầu tiên, bỏ phần trong ngoặc: 'phủ (đơn vị hành chính…), …' → 'phủ'."""
@@ -434,14 +503,17 @@ def _build_strokes(kanji: list, radicals: list) -> int:  # type: ignore[type-arg
         return bare.replace(";", ",").split(",")[0].strip() or None
 
     names: dict[str, tuple[str | None, str | None]] = {}
+    rad_name = {r.number: (r.name_vi.upper(), short(r.meaning_vi.lower() if r.meaning_vi else None)) for r in radicals}
     for r in radicals:
-        for c in [r.char, *r.variants]:
-            names[c] = (r.name_vi.upper(), short(r.meaning_vi.lower() if r.meaning_vi else None))
+        names[r.char] = rad_name[r.number]
+    # biến thể không ghi đè chữ chính của bộ khác (vd 月 biến thể của 肉 ≠ bộ 74 月)
+    for r in radicals:
+        for c in r.variants:
+            names.setdefault(c, rad_name[r.number])
     for k in kanji:
         if k.han_viet or k.meaning_vi:
             names[k.char] = (k.han_viet[0] if k.han_viet else names.get(k.char, (None, None))[0], short(k.meaning_vi))
     strokes, rep = build_strokes(kanji, svgs, names)
-    version = src.stem.split("-")[1]
     _write_json(paths.OUT_KANJI / "strokes.json", StrokeFile(
         source=f"KanjiVG {version} — Ulrich Apel, https://kanjivg.tagaini.net",
         license="CC BY-SA 3.0",
@@ -1331,6 +1403,8 @@ def main() -> int:
     sub.add_parser("status", help="Bảng tóm tắt route các PDF").set_defaults(func=cmd_status)
     sub.add_parser("build-counters", help="Chỉ dựng data/counters.json (số đếm, trợ số từ)").set_defaults(
         func=cmd_build_counters)
+    sub.add_parser("build-translation", help="Chỉ dựng data/translation.json (đề luyện dịch)").set_defaults(
+        func=cmd_build_translation)
 
     def pdf_filters(p: argparse.ArgumentParser) -> None:
         p.add_argument("--only", help="Lọc theo tên/đường dẫn, vd: kanji hoặc \"books/N5/*\"")
@@ -1406,6 +1480,9 @@ def main() -> int:
     p.add_argument("--offset", type=int, default=0)
     p.add_argument("--limit", type=int, default=200)
     p.set_defaults(func=cmd_kanji_stories_todo)
+    p = sub.add_parser("kanjivg-tree", help="In cây phần tử KanjiVG của các chữ (gỡ lỗi bộ thủ thành phần)")
+    p.add_argument("chars")
+    p.set_defaults(func=cmd_kanjivg_tree)
     p = sub.add_parser("kanji-examples-todo", help="Từ ví dụ Kanji (JMdict) chưa có nghĩa tiếng Việt")
     p.add_argument("--offset", type=int, default=0)
     p.add_argument("--limit", type=int, default=300)

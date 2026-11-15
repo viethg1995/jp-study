@@ -47,8 +47,10 @@ const gscToken = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
     <script is:inline set:html={SIDEBAR_BOOT_SCRIPT} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Khoảng 400..700 (không phải 400;500;700): Noto Sans JP là variable font. Kiểu liệt kê sinh 3
+         @font-face cùng trỏ 1 file → WebKit (Chrome iOS) có lúc dùng file đó ở 400 cho mọi độ đậm → mất bold. -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400..700&display=swap"
       rel="stylesheet"
     />
   </head>

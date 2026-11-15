@@ -21,6 +21,7 @@ sources/ ──▶ pipeline/ (Python) ──▶ data/ ──▶ web/ (Astro) ─
 | `pipeline/enrichment/` | Lớp bổ sung/duyệt dữ liệu (commit) |
 | `data/` | Output chuẩn hóa: `_schema/`, `vocabulary/`, `kanji/`, `grammar/`, `counters.json` |
 | `web/` | Astro + TypeScript + Preact island + Tailwind |
+| `worker/` | Cloudflare Worker chấm bài luyện dịch (giữ API key AI, fallback Gemini → Workers AI → Claude); đọc `data/translation.json` — xem `worker/README.md` |
 | `plan/` | Kế hoạch, thiết kế, trạng thái |
 
 Môi trường: Windows 11, Python 3.12 (venv `pipeline/.venv`, Pydantic v2, PyMuPDF), Node 22.

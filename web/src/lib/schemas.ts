@@ -71,7 +71,7 @@ export const vocabLesson = z.object({
 });
 
 // ---------------------------------------------------------------- Kanji & bộ thủ (KanjiFile / RadicalFile)
-export const KANJI_SCHEMA_VERSION = 8; // v8: n3_lessons; v7: story (mẹo nhớ), components (thành phần KanjiVG)
+export const KANJI_SCHEMA_VERSION = 9; // v9: radical_parts; v8: n3_lessons; v7: story (mẹo nhớ), components (thành phần KanjiVG)
 
 export const kanjiExample = z.object({
   word: z.string().min(1),
@@ -104,6 +104,7 @@ export const kanjiEntry = z.object({
   grade: z.number().int().nullable(),
   jlpt_old: z.number().int().nullable(),
   radical: z.number().int().min(1).max(214).nullable(),
+  radical_parts: z.array(z.number().int().min(1).max(214)).default([]),
   first_lesson: z.number().int().min(1).max(50).nullable(),
   n3_lesson: z.number().int().min(1).max(50).nullable().default(null),
   n4_lesson: z.number().int().min(1).max(50).nullable().default(null),
@@ -321,3 +322,33 @@ export type NumberSystem = z.infer<typeof numberSystem>;
 export type SoundRule = z.infer<typeof soundRule>;
 export type Counter = z.infer<typeof counter>;
 export type CounterFile = z.infer<typeof counterFile>;
+
+// ---------------------------------------------------------------- Luyện dịch (TranslationFile)
+export const TRANSLATION_SCHEMA_VERSION = 1;
+
+export const translationSentence = z.object({
+  prompt: z.string().min(1),
+  references: z.array(z.string()).min(1),
+  note_vi: z.string().nullable(),
+});
+
+export const translationExercise = z.object({
+  id: z.string().regex(/^t-\d{2}-\d{2}$/),
+  lesson: z.number().int().min(1).max(50),
+  title_vi: z.string().min(1),
+  prompt_lang: z.enum(["vi", "en"]),
+  focus_vi: z.array(z.string()),
+  grammar_refs: z.array(z.string()),
+  sentences: z.array(translationSentence).min(1).max(12),
+  source: z.enum(["ai-draft", "user"]),
+  review: reviewStatus,
+});
+
+export const translationFile = z.object({
+  schema_version: z.literal(TRANSLATION_SCHEMA_VERSION),
+  exercises: z.array(translationExercise),
+});
+
+export type TranslationSentence = z.infer<typeof translationSentence>;
+export type TranslationExercise = z.infer<typeof translationExercise>;
+export type TranslationFile = z.infer<typeof translationFile>;

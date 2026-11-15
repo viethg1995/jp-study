@@ -3,6 +3,7 @@ import pytest
 from jp_pipeline.dictionaries import KanjiInfo
 from jp_pipeline.schemas import KanjiEntry, PartOfSpeech, VocabEntry, VocabProvenance
 from jp_pipeline.transform.kanji_build import (
+    apply_radical_overrides,
     build_kanji,
     char_readings_from_vocab,
     parse_radicals,
@@ -43,6 +44,36 @@ def test_parse_radicals_missing_fails() -> None:
     md = "\n".join(f"||{n}|字|Tên|Nghĩa|" for n in range(1, 214))
     with pytest.raises(ValueError, match="thiếu"):
         parse_radicals(md)
+
+
+def test_apply_radical_overrides() -> None:
+    rads = parse_radicals(_md({103: "||103|疋,匹|Thất|Tấm|"}))
+    out = apply_radical_overrides(rads, "\n".join([
+        "# by: user",
+        "2|char|丨",
+        "8|meaning_vi|Cái nắp",
+        "9|variants|亻",
+        "103|variants|",
+    ]))
+    assert out[1].char == "丨"
+    assert out[7].meaning_vi == "Cái nắp"
+    assert out[8].variants == ["亻"]
+    assert out[102].variants == []
+    assert out[0] == rads[0]
+
+
+@pytest.mark.parametrize("line, msg", [
+    ("215|char|字", "ngoài"),
+    ("1|strokes|3", "không hỗ trợ"),
+    ("1|meaning_vi|", "rỗng"),
+    ("1|char|ab", "1 ký tự"),
+    ("1|char", "cú pháp"),
+    ("1|char|丨\n1|char|一", "trùng"),
+])
+def test_apply_radical_overrides_errors(line: str, msg: str) -> None:
+    rads = parse_radicals(_md({}))
+    with pytest.raises(ValueError, match=msg):
+        apply_radical_overrides(rads, line)
 
 
 def _v(vid: str, lesson: int, kanji: str | None, hv: str | None, refs: list[str]) -> VocabEntry:

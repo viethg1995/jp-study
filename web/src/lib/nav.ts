@@ -15,6 +15,7 @@ export interface NavItem {
   href: string | null;
   children?: NavChild[];
   home?: boolean; // chỉ hiện ở menu, không làm thẻ trang chủ
+  extra?: boolean; // trang ngoài phần học (vd /sensei/): hiện ở menu, không làm thẻ trang chủ
 }
 
 export const NAV: NavItem[] = [
@@ -86,12 +87,29 @@ export const NAV: NavItem[] = [
     href: "luyen-tap/",
   },
   {
+    id: "translation",
+    label: "Luyện dịch",
+    glyph: "訳",
+    glyphMeaning: "訳 — dịch",
+    description: "Dịch đoạn văn tiếng Việt, tiếng Anh sang tiếng Nhật, AI chấm và chỉ ra câu sai",
+    href: "dich/",
+  },
+  {
     id: "conjunctions",
     label: "Từ nối",
     glyph: "接",
     glyphMeaning: "接 — 接続詞: từ nối",
     description: "Từ nối thường gặp: ý nghĩa, cách dùng, ví dụ",
     href: null,
+  },
+  {
+    id: "sensei",
+    label: "Sensei",
+    glyph: "師",
+    glyphMeaning: "師 — thầy, cô giáo",
+    description: "Cô giáo đã dạy tôi tiếng Nhật",
+    href: "sensei/",
+    extra: true,
   },
 ];
 

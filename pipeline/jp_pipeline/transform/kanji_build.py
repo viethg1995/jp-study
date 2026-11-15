@@ -65,6 +65,45 @@ def parse_radicals(md: str) -> list[Radical]:
     return [found[n] for n in range(1, 215)]
 
 
+_RADICAL_OVERRIDE_FIELDS = ("char", "name_vi", "meaning_vi", "variants")
+
+
+def apply_radical_overrides(radicals: list[Radical], text: str, name: str = "overrides") -> list[Radical]:
+    """Sửa bảng bộ thủ trích từ PDF bằng file override 'số|trường|giá trị' (dòng '#' là chú thích).
+
+    Trường: char, name_vi, meaning_vi, variants (cách bằng dấu phẩy, để trống = không có biến thể).
+    Số ngoài 1–214, trường lạ, trùng (số, trường), giá trị rỗng (trừ variants) → ValueError.
+    """
+    by_num = {r.number: r for r in radicals}
+    seen: set[tuple[int, str]] = set()
+    for i, raw in enumerate(text.splitlines(), start=1):
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = [p.strip() for p in line.split("|")]
+        if len(parts) != 3 or not parts[0].isdigit():
+            raise ValueError(f"{name}:{i}: sai cú pháp 'số|trường|giá trị': {line!r}")
+        n, field, value = int(parts[0]), parts[1], parts[2]
+        if n not in by_num:
+            raise ValueError(f"{name}:{i}: số bộ thủ ngoài 1–214: {n}")
+        if field not in _RADICAL_OVERRIDE_FIELDS:
+            raise ValueError(f"{name}:{i}: trường không hỗ trợ {field!r}")
+        if (n, field) in seen:
+            raise ValueError(f"{name}:{i}: trùng bộ {n} trường {field}")
+        seen.add((n, field))
+        new_value: str | list[str]
+        if field == "variants":
+            new_value = [v for v in re.split(r"[,、\s]+", value) if v]
+        elif not value:
+            raise ValueError(f"{name}:{i}: giá trị rỗng cho bộ {n} trường {field}")
+        else:
+            new_value = value
+        if field == "char" and len(value) != 1:
+            raise ValueError(f"{name}:{i}: char phải là 1 ký tự: {value!r}")
+        by_num[n] = by_num[n].model_copy(update={field: new_value})
+    return [by_num[r.number] for r in radicals]
+
+
 def char_readings_from_vocab(entries: list[VocabEntry]) -> dict[str, Counter[str]]:
     """Âm Hán-Việt của từng chữ, suy ra từ các từ vựng (chỉ khi số âm khớp số chữ của từng dạng)."""
     usage: dict[str, Counter[str]] = defaultdict(Counter)

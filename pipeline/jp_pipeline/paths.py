@@ -30,9 +30,13 @@ TESSERACT_DIR = Path(r"C:\Program Files\Tesseract-OCR")  # cài qua winget UB-Ma
 # file ngoài _auto/ do người/AI duyệt — script KHÔNG BAO GIỜ ghi đè.
 ENRICH_VOCAB = ROOT / "pipeline" / "enrichment" / "vocabulary"
 ENRICH_KANJI = ROOT / "pipeline" / "enrichment" / "kanji"
+# Sửa bảng 214 bộ thủ trích từ PDF: 'số|trường|giá trị' (char, name_vi, meaning_vi, variants)
+ENRICH_RADICAL_OVERRIDES = ENRICH_KANJI / "radicals" / "overrides.txt"
 ENRICH_CONJ = ROOT / "pipeline" / "enrichment" / "conjugation"  # forms.json: quy tắc chia thể
 # counters.json (bảng trợ số từ), numbers.json (số đếm), sound-rules.json (biến âm), examples/*.txt (câu ví dụ)
 ENRICH_COUNTERS = ROOT / "pipeline" / "enrichment" / "counters"
+# exercises/lesson-LL.json: đề luyện dịch (người soạn/duyệt) → data/translation.json
+ENRICH_TRANSLATION = ROOT / "pipeline" / "enrichment" / "translation"
 ENRICH_VOCAB_AUTO = ENRICH_VOCAB / "_auto"
 ENRICH_VOCAB_DECISIONS = ENRICH_VOCAB / "_decisions"  # áp theo thứ tự tên file: 01-, 02-…
 
@@ -51,4 +55,5 @@ OUT_KANJI = DATA / "kanji"
 OUT_GRAMMAR = DATA / "grammar"
 OUT_COUNTERS = DATA / "counters.json"
 OUT_CONJUGATION = DATA / "conjugation.json"
+OUT_TRANSLATION = DATA / "translation.json"
 DATA_SCHEMA = DATA / "_schema"  # JSON Schema xuất từ schemas.py — web dùng để kiểm tra đồng bộ

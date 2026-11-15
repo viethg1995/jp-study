@@ -43,3 +43,11 @@ export function loadKanjiSource(): KanjiSource {
 export function loadConjugation(): ConjugationFile {
   return conjugationFile.parse(readJson("conjugation.json"));
 }
+
+/** kanji.json + radicals.json (trang bộ thủ). */
+export function loadKanjiAndRadicals() {
+  return {
+    kanji: kanjiFile.parse(readJson("kanji/kanji.json")).kanji,
+    radicals: radicalFile.parse(readJson("kanji/radicals.json")).radicals,
+  };
+}

@@ -231,6 +231,14 @@
           "description": "Số bộ thủ → radicals.json",
           "title": "Radical"
         },
+        "radical_parts": {
+          "description": "Mọi bộ thủ có trong chữ (cây KanjiVG, gồm bộ chính, bỏ bộ 1 nét) — số tăng dần",
+          "items": {
+            "type": "integer"
+          },
+          "title": "Radical Parts",
+          "type": "array"
+        },
         "story": {
           "anyOf": [
             {
@@ -455,7 +463,7 @@
       "type": "array"
     },
     "schema_version": {
-      "default": 8,
+      "default": 9,
       "title": "Schema Version",
       "type": "integer"
     }

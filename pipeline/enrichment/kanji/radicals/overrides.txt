@@ -1,0 +1,54 @@
+# by: user
+# Sửa bảng 214 bộ thủ trích từ PDF (lỗi trích, lỗi chính tả, nghĩa thiếu). Cú pháp: số|trường|giá trị
+# Trường: char, name_vi, meaning_vi, variants (cách bằng dấu phẩy — ghi ĐỦ danh sách, thay thế danh sách cũ).
+# Gợi ý do AI soạn, user duyệt 2026-11-15.
+
+# — Ký tự sai mã Unicode
+2|char|丨
+188|char|骨
+
+# — Nghĩa trống / trích lỗi
+8|meaning_vi|Phần đầu, cái nắp (bộ chỉ vị trí phía trên, không có nghĩa riêng)
+20|meaning_vi|Bao bọc
+
+# — Lỗi chính tả
+35|meaning_vi|Đi chậm
+77|meaning_vi|Dừng lại
+100|meaning_vi|Sinh đẻ, sinh sống
+114|meaning_vi|Vết chân, lốt chân
+127|meaning_vi|Cái cày
+180|meaning_vi|Âm thanh, tiếng
+193|meaning_vi|Tên một con sông xưa; cái đỉnh (nồi ba chân)
+161|meaning_vi|Thìn (địa chi thứ 5); nhật, nguyệt, tinh
+160|meaning_vi|Cay
+195|meaning_vi|Con cá
+
+# — Tên bộ dính số từ PDF
+63|name_vi|Hộ
+68|name_vi|Đẩu
+70|name_vi|Phương
+123|name_vi|Dương
+
+# — Nghĩa quá chung chung
+41|meaning_vi|Tấc (đơn vị đo), đo lường
+154|meaning_vi|Vỏ sò; tiền, vật báu (thời xưa dùng vỏ sò làm tiền)
+164|meaning_vi|Dậu (địa chi thứ 10); bình rượu
+175|meaning_vi|Không phải, sai trái
+
+# — Biến thể
+9|variants|亻
+18|variants|刂
+61|variants|忄
+63|variants|戸
+64|variants|扌
+66|variants|攵
+85|variants|氵, 氺
+86|variants|灬
+87|variants|爫
+94|variants|犭
+96|variants|王
+103|variants|
+122|variants|罒
+125|variants|耂
+130|variants|月
+58|variants|⺕

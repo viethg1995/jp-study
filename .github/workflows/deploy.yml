@@ -43,6 +43,9 @@ jobs:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           # Tùy chọn: Settings → Variables → GSC_VERIFICATION = mã meta của Google Search Console
           PUBLIC_GSC_VERIFICATION: ${{ vars.GSC_VERIFICATION }}
+          # Luyện dịch: URL Cloudflare Worker chấm bài (worker/README.md); trống → nút "Chấm bài" bị tắt
+          PUBLIC_GRADER_URL: ${{ vars.GRADER_URL }}
+          PUBLIC_TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
 
       - uses: actions/upload-pages-artifact@v5
         with:
