@@ -8,7 +8,7 @@
 // kana ngay khi gõ (romaji.ts), chấm bằng Session.answerTyped; URL ?tra-loi=go (gắn như ?on=sai).
 import { groupByTarget, parseRuby } from "../ruby";
 import { isRuby } from "./validate";
-import { filterItems, partOf } from "./core";
+import { filterItems, parseRoundSize, partOf } from "./core";
 import { mulberry32, randomSeed } from "./random";
 import { type AnswerResult, type Question, type Session, createSession } from "./session";
 import type { Deck, Filter, QuizItem } from "./types";
@@ -123,6 +123,10 @@ export function mountQuiz(root: HTMLElement): QuizController {
   let running = false;
   /** File cần tải khi bấm Bắt đầu (setFilter / data-src); null = dùng `all` có sẵn. */
   let pending: { decks: readonly string[]; toItems?: (data: unknown[]) => QuizItem[] } | null = null;
+  /** Số câu thật của bộ lọc (ô "Tự nhập" không cho vượt); null = chưa đếm. */
+  let poolMax: number | null = null;
+  /** Đã bấm "Tất cả" → ô số câu bám theo poolMax khi bộ lọc đổi (thêm loại câu → tăng theo). */
+  let sizeFollowAll = false;
   let disabledByLock: (HTMLInputElement | HTMLSelectElement | HTMLButtonElement)[] = [];
   let hiddenByLock: HTMLElement[] = [];
 
@@ -159,12 +163,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
     return parts.join(" · ");
   }
 
-  /** Số câu tự nhập: số nguyên 1–100 (lượt dài hơn không ai làm hết), sai → null. */
-  const customSize = (): number | null => {
-    const raw = sizeInput.value.trim();
-    const n = Number(raw);
-    return /^\d+$/.test(raw) && n >= 1 && n <= 100 ? n : null;
-  };
+  /** Số câu tự nhập: số nguyên ≥ 1, không vượt số câu thật của bộ lọc (poolMax); sai → null. */
+  const customSize = (): number | null => parseRoundSize(sizeInput.value, poolMax);
   const sizeId = (): string => root.querySelector<HTMLInputElement>('input[name="q-size"]:checked')?.id ?? "q-size-10";
   const roundSize = (): number | null => {
     const id = sizeId();
@@ -176,8 +176,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
   };
 
   /** Câu của bộ lọc; chế độ "Câu hay sai" → chỉ câu đã lưu, sai nhiều / gần đây trước. */
-  function basePool(): QuizItem[] {
-    const pool = filterItems(all ?? [], filter ?? {});
+  function basePool(items: readonly QuizItem[] = all ?? []): QuizItem[] {
+    const pool = filterItems(items, filter ?? {});
     return reviewing() ? reviewItems(pool, loadStore(), rng) : pool;
   }
 
@@ -190,6 +190,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
       pool = pool.slice(0, size ?? pool.length);
       size = pool.length;
     }
+    // số câu (10/20/100/tự nhập) không vượt số câu thật của bộ lọc → một lượt không hỏi lại câu đã hỏi
+    if (size !== null && pool.length > 0) size = Math.min(size, pool.length);
     roundSaved = 0;
     roundRemembered = 0;
     session = createSession(pool, rng, size, groupOf, subOf);
@@ -230,13 +232,19 @@ export function mountQuiz(root: HTMLElement): QuizController {
     }
     lock(true);
     const go = (): void => {
-      if (basePool().length === 0) {
+      const n = basePool().length;
+      if (n === 0) {
         lock(false);
         empty.textContent = reviewing() ? "Không có câu sai nào trong bộ lọc này. Chọn \"Tất cả\" hoặc nới bộ lọc." : emptyText;
         show(empty);
         return;
       }
+      // chưa đếm kịp trước khi bấm (mạng chậm): giờ đã có deck → hạ số tự nhập về số câu thật
+      if (sizeId() === "q-size-custom") setPoolMax(n);
       start();
+      // Số câu trong tóm tắt = số câu thật của lượt (nút 100 mà bộ lọc chỉ có 45 câu → 45). Không gọi lại
+      // summarize(): các dòng tùy chọn đã bị ẩn khi khóa → chỉ thay phần "Số câu: …" ở cuối.
+      if (session?.limit != null) lockedSummary.textContent = (lockedSummary.textContent ?? "").replace(/Số câu: [^·]*$/, `Số câu: ${session.limit}`);
       card.scrollIntoView({ block: "start", behavior: "smooth" });
     };
     if (pending) loadDecks(pending.decks, go, pending.toItems);
@@ -250,6 +258,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
     lock(false);
     refreshWrong(); // số câu sai đã đổi sau lượt; hết câu → về "Tất cả"
     syncReviewUrl();
+    refreshMax(); // đang ôn câu sai: số câu đã đổi
     show(null);
     startBtn.focus();
   }
@@ -480,12 +489,41 @@ export function mountQuiz(root: HTMLElement): QuizController {
     const wrong = session?.wrong() ?? [];
     if (wrong.length > 0) start(wrong, wrong.length);
   });
-  // Số câu (chỉ ở bước thiết lập): "Tự nhập" → hiện ô nhập, báo lỗi ngay khi số sai; Bắt đầu kiểm lại
+  // Số câu (chỉ ở bước thiết lập): "Tự nhập" → hiện ô nhập, báo lỗi ngay khi số sai; Bắt đầu kiểm lại.
+  // Ô nhập không vượt số câu thật của bộ lọc (poolMax, đếm sau khi tải deck — file nhớ đệm, Bắt đầu không tải lại):
+  // lớn hơn thì hạ về poolMax, nên một lượt không hỏi lại câu đã hỏi. Chọn nhiều loại câu → poolMax = tổng các loại.
+  const sizeMaxEl = q("size-max"), sizeAll = q<HTMLButtonElement>("size-all");
   function applyCustom(): boolean {
-    const ok = customSize() !== null;
+    const n = customSize();
+    const ok = n !== null;
+    if (ok && String(n) !== sizeInput.value.trim()) sizeInput.value = String(n); // vượt poolMax → hạ về poolMax
     sizeInput.setAttribute("aria-invalid", ok ? "false" : "true");
     sizeError.classList.toggle("hidden", ok);
     return ok;
+  }
+  function setPoolMax(n: number | null): void {
+    poolMax = n;
+    sizeMaxEl.textContent = n === null ? "câu" : `/ ${n} câu`;
+    sizeAll.classList.toggle("hidden", n === null);
+    if (n === null) sizeInput.removeAttribute("max");
+    else sizeInput.max = String(n);
+    if (n !== null && sizeFollowAll) sizeInput.value = String(n);
+    applyCustom();
+  }
+  let countToken = 0;
+  /** Đếm số câu của bộ lọc hiện tại cho ô "Tự nhập" (chỉ khi đang chọn Tự nhập; tải deck nếu chưa có). */
+  function refreshMax(): void {
+    if (running || !filter || sizeId() !== "q-size-custom") return;
+    const my = ++countToken;
+    const done = (items: readonly QuizItem[]): void => {
+      if (my === countToken && !running) setPoolMax(basePool(items).length);
+    };
+    if (!pending) return done(all ?? []);
+    setPoolMax(null);
+    const { decks, toItems = deckItems } = pending;
+    Promise.all(decks.map(fetchJson))
+      .then((data) => done(toItems(data)))
+      .catch(() => undefined); // lỗi mạng: để "Bắt đầu" báo lỗi như cũ, ô nhập chỉ không có giới hạn
   }
   for (const r of root.querySelectorAll<HTMLInputElement>('input[name="q-size"]')) {
     r.addEventListener("change", () => {
@@ -496,11 +534,19 @@ export function mountQuiz(root: HTMLElement): QuizController {
         sizeInput.focus();
         sizeInput.select();
         applyCustom();
+        refreshMax();
       } else {
         sizeError.classList.add("hidden");
       }
     });
   }
+  sizeAll.addEventListener("click", () => {
+    if (poolMax === null) return;
+    sizeFollowAll = true;
+    sizeInput.value = String(poolMax);
+    applyCustom();
+  });
+  sizeInput.addEventListener("input", () => (sizeFollowAll = false));
   sizeInput.addEventListener("change", applyCustom);
   sizeInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
@@ -652,6 +698,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
   refreshWrong();
   for (const r of [reviewAll, reviewWrong]) r.addEventListener("change", () => {
     syncReviewUrl();
+    refreshMax();
     show(null);
   });
   wrongClear.addEventListener("click", () => {
@@ -675,6 +722,7 @@ export function mountQuiz(root: HTMLElement): QuizController {
       if (decks) pending = { decks, toItems };
       show(null); // đổi tùy chọn → ẩn thông báo rỗng / lỗi cũ
       syncReviewUrl(); // trang vừa ghi URL theo bộ lọc của nó → gắn lại ?on=sai nếu đang ôn câu sai
+      refreshMax(); // bộ lọc đổi (thêm/bớt loại câu, bài…) → số câu tối đa của ô "Tự nhập" đổi theo
     },
   };
 }

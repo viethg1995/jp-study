@@ -62,3 +62,10 @@ Trạng thái: ✅ xong 2026-11-13 — spec duyệt cùng ngày (5 loại câu, 
 | 5 | — | "Trả lời: Chọn đáp án" (mặc định) không ghi vào dòng tóm tắt và URL; "Gõ kana" thì có (`?tra-loi=go`, đặt trước `on=sai`) | Như dòng "Câu hỏi" (Q10) |
 
 Kiểm tra: unit 220 (thêm `romaji.test.ts` 8, `typing.test.ts` 8: chấm + `answerTyped` + dữ liệu thật 5 loại), e2e 174 (thêm `kana-input.spec.ts` 6 test × 2 màn hình: gõ romaji hiện kana ngay + Enter chấm/sang câu; gõ sai "Bạn gõ" + lưu câu sai; ô trống không chấm; Không biết; Luyện tập trộn câu gõ + trắc nghiệm; Đếm số `ichipa-sento`; Bộ thủ không có dòng Trả lời; không cuộn ngang).
+
+## Tạm ẩn 2026-11-16 (user)
+
+- User quyết định **tạm chưa dùng gõ kana, không hiển thị tùy chọn** trên site; chưa làm gõ cho Điền từ (nhiều từ cũng hợp câu — chấm sai từ đồng nghĩa ngoài `accepted`).
+- Công tắc chung `TYPING_ENABLED = false` ở `lib/quiz/typing.ts`: `QuizRunner` bỏ dòng "Trả lời" dù trang truyền `typing` → runner không có ô chọn nên `?tra-loi=go` bị bỏ qua. Code, unit test giữ nguyên; prop `typing` trên 5 trang giữ nguyên.
+- E2E `kana-input.spec.ts`: các test gõ kana tự skip khi tắt; thêm test "tắt → không trang nào có dòng Trả lời, `?tra-loi=go` vẫn 4 lựa chọn".
+- **Bật lại:** đổi `TYPING_ENABLED` thành `true` → build + e2e.

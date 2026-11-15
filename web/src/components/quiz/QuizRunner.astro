@@ -14,6 +14,7 @@
 // Script thường, không Preact (D1).
 import Segmented from "../ui/Segmented.astro";
 import type { QuizItem } from "../../lib/quiz/types";
+import { TYPING_ENABLED } from "../../lib/quiz/typing";
 
 interface Props {
   items?: QuizItem[];
@@ -36,7 +37,9 @@ interface Props {
   /** Thêm dòng "Trả lời: Chọn đáp án · Gõ kana" (Q9) — trang có loại câu gõ được (đọc, chia, đếm). */
   typing?: boolean;
 }
-const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, balanceParts = false, furiganaToggle = false, typing = false } = Astro.props;
+const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, balanceParts = false, furiganaToggle = false } = Astro.props;
+// Công tắc chung TYPING_ENABLED (typing.ts) tắt → không có dòng "Trả lời" → runner bỏ qua ?tra-loi=go
+const typing = TYPING_ENABLED && (Astro.props.typing ?? false);
 const wrongKinds = Astro.props.wrongKinds ?? Object.keys(kindLabels ?? {});
 if (wrongKinds.length === 0) throw new Error("QuizRunner: thiếu `wrongKinds` (hoặc `kindLabels`) cho Câu hay sai");
 if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
@@ -104,15 +107,20 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
             type="number"
             data-q="size-input"
             min="1"
-            max="100"
             step="1"
             inputmode="numeric"
             value="30"
             class="w-20 rounded-md border border-line bg-surface px-2 py-1 text-ink aria-[invalid=true]:border-danger"
-            aria-label="Số câu một lượt (1–100)"
+            aria-label="Số câu một lượt"
           />
-          <span>câu</span>
-          <span data-q="size-error" class="hidden text-danger">Nhập số từ 1 đến 100</span>
+          <!-- "/ N câu": N = số câu thật của bộ lọc (tổng mọi loại câu đang chọn), runner đếm sau khi tải deck -->
+          <span data-q="size-max">câu</span>
+          <button
+            type="button"
+            data-q="size-all"
+            class="hidden rounded px-1.5 py-1 text-sm text-primary underline-offset-2 hover:underline"
+          >Tất cả</button>
+          <span data-q="size-error" class="hidden text-danger">Nhập số nguyên từ 1 trở lên</span>
         </label>
       </div>
       {

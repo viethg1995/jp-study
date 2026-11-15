@@ -223,8 +223,8 @@ test("số câu tự nhập: số sai báo lỗi và không cho bắt đầu; 3 
   const input = page.locator('[data-q="size-input"]');
   await expect(input).toBeVisible();
   await expect(input).toBeFocused();
-  // ô type=number tự chặn chữ; còn lại phải tự kiểm: 0, ngoài khoảng, số lẻ
-  for (const bad of ["0", "101", "2.5"]) {
+  // ô type=number tự chặn chữ; còn lại phải tự kiểm: 0, số lẻ
+  for (const bad of ["0", "2.5"]) {
     await input.fill(bad);
     await input.press("Enter");
     await expect(page.locator('[data-q="size-error"]'), bad).toBeVisible();
@@ -249,6 +249,70 @@ test("số câu tự nhập: số sai báo lỗi và không cho bắt đầu; 3 
   await expect(page.locator('[data-q="size-box"]')).toBeHidden();
   await startQuiz(page);
   await expect(page.locator('[data-q="of"]')).toHaveText(" / 10");
+});
+
+/** "/ 45 câu" → 45 (chờ runner tải deck và đếm xong). */
+async function sizeMax(page: import("@playwright/test").Page): Promise<number> {
+  const el = page.locator('[data-q="size-max"]');
+  await expect(el).toHaveText(/^\/ \d+ câu$/);
+  return Number((await el.textContent())!.match(/\d+/)![0]);
+}
+
+test("số câu tự nhập: không vượt số câu thật của bộ lọc; chọn thêm loại câu → tối đa tăng theo; Tất cả bám theo", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=1&loai=nghia");
+  await page.locator("label:has(#q-size-custom)").click();
+  const input = page.locator('[data-q="size-input"]');
+  const mean = await sizeMax(page);
+  expect(mean).toBeGreaterThan(10);
+  // nhập quá số câu → hạ về số câu thật, không báo lỗi
+  await input.fill(String(mean + 50));
+  await input.press("Enter");
+  await expect(input).toHaveValue(String(mean));
+  await expect(page.locator('[data-q="size-error"]')).toBeHidden();
+  // "Tất cả" rồi thêm loại Đọc → tối đa = Nghĩa + Đọc, ô số câu tăng theo
+  await page.locator('[data-q="size-all"]').click();
+  await page.locator("label:has(#loai-doc)").click();
+  await expect(page.locator("#loai-doc")).toBeChecked();
+  await expect(page.locator("#loai-nghia")).toBeChecked();
+  const both = await sizeMax(page);
+  expect(both).toBeGreaterThan(mean);
+  await expect(input).toHaveValue(String(both));
+  // gõ tay → thôi bám theo; bớt loại Đọc → giới hạn giảm, số lớn hơn bị hạ về
+  await input.fill(String(both));
+  await page.locator("label:has(#loai-doc)").click();
+  await expect(page.locator('[data-q="size-max"]')).toHaveText(`/ ${mean} câu`);
+  await expect(input).toHaveValue(String(mean));
+});
+
+test("nút 100 mà bộ lọc ít câu hơn → lượt = số câu thật (không hỏi vòng lại), tóm tắt ghi đúng số", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=1&loai=nghia");
+  await page.locator("label:has(#q-size-custom)").click();
+  const n = await sizeMax(page);
+  expect(n).toBeLessThan(100);
+  await page.locator("label:has(#q-size-100)").click();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(` / ${n}`);
+  await expect(page.locator('[data-q="locked-summary"]')).toContainText(`Số câu: ${n}`);
+});
+
+test("số câu tự nhập = toàn bộ câu của 2 loại → mỗi câu hỏi đúng một lần, không lặp", async ({ page }) => {
+  test.setTimeout(120_000);
+  await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=1&loai=doc,nghia");
+  await page.locator("label:has(#q-size-custom)").click();
+  const n = await sizeMax(page);
+  await page.locator('[data-q="size-all"]').click();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(` / ${n}`);
+  const seen = new Set<string>();
+  for (let i = 0; i < n; i++) {
+    const key = `${await page.locator('[data-q="kind"]').textContent()}|${await page.locator(prompt).textContent()}`;
+    expect(seen.has(key), `câu ${i + 1} lặp: ${key}`).toBe(false);
+    seen.add(key);
+    await page.keyboard.press("1");
+    await page.keyboard.press("Enter");
+  }
+  await expect(page.locator('[data-q="summary"]')).toBeVisible();
+  expect(seen.size).toBe(n);
 });
 
 test("bảng tùy chọn: mọi điều khiển cao bằng nhau 32px (Cấp, Bài, Loại câu, Số câu, ô nhập số)", async ({ page }) => {

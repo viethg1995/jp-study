@@ -39,6 +39,13 @@ const sections = NAV.filter((n) => !n.home && !n.extra);
     </a>
   </section>
 
+  <!-- Câu hay sai (Q10): chỉ hiện khi đã lưu câu sai trên trình duyệt này (script dưới) -->
+  <section class="pb-8" data-wrong hidden>
+    <h2 class="text-lg font-bold">Ôn câu hay sai</h2>
+    <p class="mt-1 text-sm text-ink-muted">Câu bạn trả lời sai khi luyện tập được lưu trên trình duyệt này; trả lời đúng 3 lần liên tiếp thì tự xóa.</p>
+    <ul class="mt-3 flex flex-wrap gap-2" data-wrong-list data-base={base}></ul>
+  </section>
+
   <section class="pb-10">
     <h2 class="text-lg font-bold">Nội dung học</h2>
     <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -81,6 +88,33 @@ const sections = NAV.filter((n) => !n.home && !n.extra);
 </Base>
 
 <script>
+  import { KEYS, readString } from "../lib/storage";
+  import { summarizeWrong } from "../lib/quiz/wrong-summary";
+  import { parseStore } from "../lib/quiz/wrong";
+
+  // Lối vào "Câu hay sai": mỗi trang quiz một nút (Từ vựng tách theo cấp) → mở trang đó ở chế độ ôn (?on=sai).
+  // localStorage bị chặn / chưa có câu sai → giữ ẩn.
+  const wrongList = document.querySelector<HTMLElement>("[data-wrong-list]");
+  const groups = summarizeWrong(parseStore(readString(KEYS.quizWrong)));
+  if (wrongList && groups.length > 0) {
+    const base = wrongList.dataset.base ?? "";
+    for (const g of groups) {
+      const a = document.createElement("a");
+      a.href = `${base}/${g.href}`;
+      a.className = "inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-ink transition hover:border-primary";
+      const label = document.createElement("span");
+      label.textContent = g.label;
+      const count = document.createElement("span");
+      count.className = "font-semibold text-primary";
+      count.textContent = String(g.count);
+      a.append(label, count);
+      const li = document.createElement("li");
+      li.append(a);
+      wrongList.append(li);
+    }
+    wrongList.closest<HTMLElement>("[data-wrong]")!.hidden = false;
+  }
+
   // Mỗi lần vào trang hiện ngẫu nhiên một câu chào (không JS → câu đầu tiên).
   const quotes = document.querySelectorAll<HTMLElement>("[data-quote]");
   const pick = Math.floor(Math.random() * quotes.length);

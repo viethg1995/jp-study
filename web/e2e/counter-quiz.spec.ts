@@ -114,13 +114,16 @@ test("URL → bộ lọc: ?tro=hon&o=tat-ca chỉ hỏi ～本, Combobox không 
   }
 });
 
-test("đổi bộ lọc trước khi bắt đầu → URL cập nhật; chọn 100 câu → ' / 100'", async ({ page }) => {
+test("đổi bộ lọc trước khi bắt đầu → URL cập nhật; chọn 100 câu mà nhóm ít hơn → lượt = số câu thật của nhóm", async ({ page }) => {
   await page.locator("label:has(#g-h)").click();
   await expect(page).toHaveURL(/nhom=h/);
   await page.locator("label:has(#q-size-100)").click();
   await expect(page.locator(card)).toBeHidden(); // chưa bắt đầu
   await startQuiz(page);
-  await expect(page.locator('[data-q="of"]')).toHaveText(" / 100");
+  const of = Number((await page.locator('[data-q="of"]').textContent())!.replace(/\D/g, ""));
+  expect(of).toBeGreaterThan(0);
+  expect(of).toBeLessThan(100); // nhóm "h" không đủ 100 câu → không hỏi vòng lại
+  await expect(page.locator('[data-q="locked-summary"]')).toContainText(`Số câu: ${of}`);
 });
 
 test("bộ lọc không còn câu → bấm Bắt đầu báo rỗng, tùy chọn vẫn mở", async ({ page }) => {

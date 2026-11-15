@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
-import { createQueue, filterItems, isCorrect, makeOptions, NEAR, normalize } from "./core.ts";
+import { createQueue, filterItems, isCorrect, makeOptions, NEAR, normalize, parseRoundSize } from "./core.ts";
 import { mulberry32 } from "./random.ts";
 import type { QuizItem } from "./types.ts";
 
@@ -185,6 +185,33 @@ describe("createQueue — trộn đều theo nhóm", () => {
   test("không có groupOf → như cũ (một nhóm)", () => {
     const q = createQueue(deck, mulberry32(3), 90);
     assert.equal(new Set(Array.from({ length: 90 }, () => q.next()!.id)).size, 90);
+  });
+});
+
+describe("parseRoundSize — số câu tự nhập", () => {
+  test("số sai → null", () => {
+    for (const bad of ["", " ", "0", "2.5", "-3", "abc", "1e2"]) assert.equal(parseRoundSize(bad, 50), null, bad);
+  });
+  test("không vượt số câu thật của bộ lọc; chưa đếm xong (null) → giữ nguyên", () => {
+    assert.equal(parseRoundSize("30", 50), 30);
+    assert.equal(parseRoundSize("50", 50), 50);
+    assert.equal(parseRoundSize("80", 50), 50);
+    assert.equal(parseRoundSize(" 250 ", null), 250);
+  });
+  test("lượt = toàn bộ câu của nhiều loại → mỗi câu đúng một lần (Nghĩa 45 + Đọc 25 = 70)", () => {
+    const deck = [
+      ...Array.from({ length: 45 }, (_, i) => item(`mean:w${i}`, {}, "v-mean")),
+      ...Array.from({ length: 25 }, (_, i) => item(`read:w${i}`, {}, "v-read")),
+    ];
+    const size = parseRoundSize("100", deck.length)!;
+    assert.equal(size, 70);
+    for (let seed = 0; seed < 20; seed++) {
+      const q = createQueue(deck, mulberry32(seed), size, (x) => x.kind);
+      const ids: string[] = [];
+      for (let x = q.next(); x; x = q.next()) ids.push(x.id);
+      assert.equal(ids.length, 70);
+      assert.equal(new Set(ids).size, 70, `seed ${seed}`);
+    }
   });
 });
 
