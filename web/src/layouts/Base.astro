@@ -4,6 +4,12 @@
 import Sidebar from "../components/layout/Sidebar.astro";
 import { SIDEBAR_BOOT_SCRIPT } from "../lib/storage";
 import { DEFAULT_DESCRIPTION, SITE_NAME, clip } from "../lib/seo";
+// Noto Sans JP tự host, font TĨNH (mỗi độ đậm một bộ file, chia nhỏ theo unicode-range).
+// Không dùng Google Fonts: nó trả variable font và Chrome iOS không áp font-weight lên trục wght
+// → cả trang hiện một độ đậm nhạt (Safari thì đúng). 600 không nạp → trình duyệt dùng 700.
+import "@fontsource/noto-sans-jp/400.css";
+import "@fontsource/noto-sans-jp/500.css";
+import "@fontsource/noto-sans-jp/700.css";
 import "../styles/global.css";
 
 interface Props {
@@ -45,14 +51,6 @@ const gscToken = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
     {gscToken && <meta name="google-site-verification" content={gscToken} />}
     {jsonLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />}
     <script is:inline set:html={SIDEBAR_BOOT_SCRIPT} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Khoảng 400..700 (không phải 400;500;700): Noto Sans JP là variable font. Kiểu liệt kê sinh 3
-         @font-face cùng trỏ 1 file → WebKit (Chrome iOS) có lúc dùng file đó ở 400 cho mọi độ đậm → mất bold. -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body class="min-h-screen">
     <input type="checkbox" id="nav-open" class="sr-only" aria-label="Mở menu" />
