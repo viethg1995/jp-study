@@ -1,5 +1,6 @@
 ---
 // Nhóm nút chọn một (radio) dạng segmented — thuần CSS; trang/CSS đọc trạng thái qua :has(#id:checked).
+// Nhãn có class `seg-label` để khung chứa căn thẳng cột nhãn (vd bảng tùy chọn quiz).
 interface Option {
   id: string;
   label: string;
@@ -18,7 +19,7 @@ const item = "relative cursor-pointer px-3 py-1 whitespace-nowrap has-checked:bg
 ---
 
 <div class:list={["flex gap-3", wrap ? "items-baseline" : "items-center"]} role="radiogroup" aria-label={label}>
-  <span class="shrink-0">{label}:</span>
+  <span class="seg-label shrink-0">{label}:</span>
   <div class:list={wrap ? "flex flex-wrap gap-1.5" : "inline-flex overflow-hidden rounded-md border border-line"}>
     {
       options.map((o) => (

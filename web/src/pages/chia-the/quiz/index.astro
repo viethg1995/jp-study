@@ -1,0 +1,249 @@
+---
+// Quiz chia thể (Q6): nhóm từ → sách (Minna: "đã học tới bài B" / N3: khoảng bài) → nhóm động từ → thể → loại câu.
+// Khác quiz khác: trang tải BẢNG CHIA GỌN /chia-the/quiz/<nhóm>.json rồi sinh câu trên trình duyệt (Q6-1,
+// lib/quiz/conjugation.ts conjItems) — nhiễu lọc đúng theo thể đã học. URL (D6):
+//   ?nhom=dong-tu&sach=minna&bai=20&dt=1,2&the=te,nai&loai=chia,the — không localStorage.
+import { getCollection } from "astro:content";
+import QuizRunner from "../../../components/quiz/QuizRunner.astro";
+import Segmented from "../../../components/ui/Segmented.astro";
+import Base from "../../../layouts/Base.astro";
+import type { ParamDef } from "../../../lib/quiz/params";
+import {
+  CONJ_GROUP_LABEL,
+  CONJ_GROUP_SLUG,
+  CONJ_GROUPS,
+  CONJ_KIND_LABEL,
+  CONJ_KINDS,
+  type ConjKindSlug,
+  VERB_GROUP_LABEL,
+  type VerbKind,
+} from "../../../lib/quiz/conjugation";
+
+const forms = (await getCollection("conjForms"))
+  .map((f) => f.data)
+  .filter((f) => (CONJ_GROUPS as readonly string[]).includes(f.group))
+  .sort((a, b) => a.order - b.order);
+const n3Max = Math.max(...(await getCollection("conjEntries")).map((e) => e.data).filter((e) => e.book === "n3").map((e) => e.lesson));
+const kindSlugs = Object.keys(CONJ_KINDS) as ConjKindSlug[];
+const verbKinds = Object.keys(VERB_GROUP_LABEL) as VerbKind[];
+const params: ParamDef[] = [
+  { param: "nhom", tag: "ui-group", type: "enum", options: Object.fromEntries(CONJ_GROUPS.map((g) => [CONJ_GROUP_SLUG[g], g])) },
+  { param: "sach", tag: "ui-book", type: "enum", options: { minna: "minna", n3: "n3" } },
+  { param: "bai", tag: "upto", type: "max", lo: 1, hi: 50 },
+  { param: "tu", tag: "lesson", type: "min", lo: 1, hi: n3Max },
+  { param: "den", tag: "lesson", type: "max", lo: 1, hi: n3Max },
+  { param: "dt", tag: "vk", type: "enum", options: { 1: "V1", 2: "V2", 3: "V3" }, multi: true },
+  { param: "the", tag: "form", type: "enum", options: Object.fromEntries(forms.map((f) => [f.id, f.id])), multi: true },
+  { param: "loai", tag: "kind", type: "enum", options: { ...CONJ_KINDS }, multi: true },
+];
+const KIND_HINT: Record<ConjKindSlug, string> = { chia: "書きます · thể て → 書いて", the: "書いて → thể て", nhom: "帰ります → nhóm I" };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+const select = "rounded-md border border-line bg-surface px-2 py-1 text-ink";
+const chip =
+  "group relative inline-flex cursor-pointer items-center gap-1 rounded-full border border-line bg-surface px-3 py-1 whitespace-nowrap text-ink hover:border-primary-line has-checked:border-primary has-checked:bg-primary-soft has-checked:font-semibold has-checked:text-primary has-focus-visible:outline-2 has-focus-visible:outline-primary";
+const smallBtn = "rounded px-1.5 text-xs text-primary hover:bg-primary-soft";
+const kindLabels = Object.fromEntries(kindSlugs.map((s) => [CONJ_KINDS[s], CONJ_KIND_LABEL[s]]));
+---
+
+<Base title="Luyện tập chia thể" description="Luyện chia động từ, tính từ い/な: chia sang thể て, ない, た, khả năng, bị động…, nhận ra thể, phân nhóm động từ — theo bài Minna đã học hoặc N3.">
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/chia-the/`} class={navLink}>Chia thể</a>
+  </nav>
+
+  <div class="mx-auto max-w-2xl">
+    <h1 class="text-2xl font-bold">Luyện tập chia thể</h1>
+
+    <div class="mt-4">
+      <QuizRunner question="Chọn đáp án đúng" linkLabel="Xem bảng chia →" kindLabels={kindLabels} balanceKinds furiganaToggle typing>
+        <Fragment slot="filters">
+          <Segmented name="q-group" label="Nhóm từ" options={CONJ_GROUPS.map((g) => ({ id: `nhom-${CONJ_GROUP_SLUG[g]}`, label: CONJ_GROUP_LABEL[g] }))} checked="nhom-dong-tu" wrap />
+          <Segmented name="q-book" label="Sách" options={[{ id: "sach-minna", label: "Minna" }, { id: "sach-n3", label: "N3" }]} checked="sach-minna" />
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2" data-book="minna">
+            <label for="q-upto" class="seg-label shrink-0">Đã học tới:</label>
+            <select id="q-upto" class={select} aria-label="Đã học tới bài">
+              {Array.from({ length: 50 }, (_, i) => <option value={i + 1} selected={i === 49}>Bài {i + 1}</option>)}
+            </select>
+          </div>
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2" data-book="n3" hidden>
+            <label for="q-from" class="seg-label shrink-0">Bài:</label>
+            <div class="flex items-center gap-2">
+              <select id="q-from" class={select} aria-label="Từ bài">
+                {Array.from({ length: n3Max }, (_, i) => <option value={i + 1}>{i + 1}</option>)}
+              </select>
+              <span>–</span>
+              <select id="q-to" class={select} aria-label="Đến bài">
+                {Array.from({ length: n3Max }, (_, i) => <option value={i + 1} selected={i === n3Max - 1}>{i + 1}</option>)}
+              </select>
+            </div>
+          </div>
+          <div class="flex items-baseline gap-3" role="group" aria-label="Nhóm động từ" data-only="verb">
+            <span class="seg-label shrink-0">Nhóm:</span>
+            <div class="flex flex-wrap gap-1.5">
+              {
+                verbKinds.map((k) => (
+                  <label class={chip}>
+                    <input type="checkbox" name="q-vk" value={k} id={`dt-${k}`} class="sr-only" checked />
+                    <span class="hidden group-has-[:checked]:inline" aria-hidden="true">✓</span>
+                    {VERB_GROUP_LABEL[k]}
+                  </label>
+                ))
+              }
+            </div>
+          </div>
+          <!-- nhiều thể (tới 20): mobile đặt nhãn trên, nút dùng hết chiều ngang; từ sm như các dòng khác -->
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:gap-3" role="group" aria-label="Thể">
+            <span class="seg-label shrink-0">Thể:</span>
+            <div>
+              <div class="flex flex-wrap gap-1.5">
+                {
+                  forms.map((f) => (
+                    <label class={chip} data-form-group={f.group} data-lesson={f.lesson ?? ""} title={f.lesson ? `Bài ${f.lesson}` : "Ngoài giáo trình"}>
+                      <input type="checkbox" name="q-form" value={f.id} id={`the-${f.group}-${f.id}`} class="sr-only" checked />
+                      <span class="hidden group-has-[:checked]:inline" aria-hidden="true">✓</span>
+                      {f.name_vi}
+                    </label>
+                  ))
+                }
+              </div>
+              <p class="mt-1.5 flex flex-wrap items-center gap-x-2 text-xs text-ink-faint">
+                <span>Chỉ hiện thể đã học tới bài đang chọn.</span>
+                <button type="button" class={smallBtn} data-forms="all">Chọn hết</button>
+                <button type="button" class={smallBtn} data-forms="none">Bỏ chọn</button>
+              </p>
+            </div>
+          </div>
+          <div class="flex items-baseline gap-3" role="group" aria-label="Loại câu (chọn nhiều để trộn)">
+            <span class="seg-label shrink-0">Loại câu:</span>
+            <div class="flex flex-wrap gap-1.5">
+              {
+                kindSlugs.map((s) => (
+                  <label class={chip} title={KIND_HINT[s]} data-only={s === "nhom" ? "verb" : undefined}>
+                    <input type="checkbox" name="q-kind" value={s} id={`loai-${s}`} class="sr-only" checked={s === "chia"} />
+                    <span class="hidden group-has-[:checked]:inline" aria-hidden="true">✓</span>
+                    {CONJ_KIND_LABEL[s]}
+                  </label>
+                ))
+              }
+            </div>
+          </div>
+        </Fragment>
+      </QuizRunner>
+    </div>
+  </div>
+
+  <script type="application/json" id="q-config" set:html={JSON.stringify({ params, slugs: CONJ_GROUP_SLUG, kinds: CONJ_KINDS })} />
+</Base>
+
+<script>
+  import { type ConjGroupId, type ConjKindSlug, type ConjOptions, type ConjTable, type VerbKind, conjItems } from "../../../lib/quiz/conjugation";
+  import { readFilter, writeFilter, type ParamDef } from "../../../lib/quiz/params";
+  import { mountQuiz } from "../../../lib/quiz/runner";
+  import type { Filter } from "../../../lib/quiz/types";
+
+  const cfg = JSON.parse(document.getElementById("q-config")!.textContent ?? "{}") as {
+    params: ParamDef[];
+    slugs: Record<ConjGroupId, string>;
+    kinds: Record<ConjKindSlug, string>;
+  };
+  const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+  const $ = <T extends HTMLElement>(sel: string): T => document.querySelector<T>(sel)!;
+  const all = <T extends HTMLElement>(sel: string): T[] => [...document.querySelectorAll<T>(sel)];
+  const upto = $<HTMLSelectElement>("#q-upto"), fromSel = $<HTMLSelectElement>("#q-from"), toSel = $<HTMLSelectElement>("#q-to");
+  const vkBoxes = all<HTMLInputElement>('input[name="q-vk"]');
+  const formBoxes = all<HTMLInputElement>('input[name="q-form"]');
+  const kindBoxes = all<HTMLInputElement>('input[name="q-kind"]');
+  const checkedId = (name: string, prefix: string): string => $<HTMLInputElement>(`input[name="${name}"]:checked`)?.id.replace(prefix, "") ?? "";
+  const groupBySlug = Object.fromEntries(Object.entries(cfg.slugs).map(([g, s]) => [s, g])) as Record<string, ConjGroupId>;
+  const group = (): ConjGroupId => groupBySlug[checkedId("q-group", "nhom-")] ?? "verb";
+  const book = (): "minna" | "n3" => (checkedId("q-book", "sach-") === "n3" ? "n3" : "minna");
+  const chipOf = (b: HTMLInputElement): HTMLElement => b.closest("label")!;
+
+  /** Thể hiện trên trang: đúng nhóm từ, và (Minna) đã học tới bài đang chọn. */
+  function formVisible(b: HTMLInputElement): boolean {
+    const c = chipOf(b);
+    if (c.dataset.formGroup !== group()) return false;
+    if (book() === "n3") return true;
+    const l = c.dataset.lesson ? Number(c.dataset.lesson) : null;
+    return l === null ? Number(upto.value) >= 50 : l <= Number(upto.value);
+  }
+
+  /** Ẩn/hiện dòng theo nhóm từ + sách. */
+  function sync(): void {
+    const g = group(), b = book();
+    // thuộc tính hidden (preflight Tailwind: display:none !important) — không xung đột class flex của dòng
+    for (const el of all("[data-book]")) el.hidden = el.dataset.book !== b;
+    for (const el of all("[data-only]")) el.hidden = el.dataset.only !== g;
+    for (const box of formBoxes) chipOf(box).hidden = !formVisible(box);
+  }
+
+  // URL → điều khiển
+  const fromUrl = readFilter(location.search, cfg.params);
+  const list = (tag: string): string[] | null => (Array.isArray(fromUrl[tag]) ? (fromUrl[tag] as unknown[]).map(String) : null);
+  const range = (tag: string): { min?: number; max?: number } =>
+    fromUrl[tag] && !Array.isArray(fromUrl[tag]) ? (fromUrl[tag] as { min?: number; max?: number }) : {};
+  const g0 = list("ui-group")?.[0];
+  if (g0) ($<HTMLInputElement>(`#nhom-${cfg.slugs[g0 as ConjGroupId]}`)).checked = true;
+  if (list("ui-book")?.[0] === "n3") $<HTMLInputElement>("#sach-n3").checked = true;
+  if (range("upto").max) upto.value = String(range("upto").max);
+  if (range("lesson").min) fromSel.value = String(range("lesson").min);
+  if (range("lesson").max) toSel.value = String(range("lesson").max);
+  const vk = list("vk");
+  if (vk) for (const b of vkBoxes) b.checked = vk.includes(b.value);
+  const fs = list("form");
+  if (fs) for (const b of formBoxes) b.checked = fs.includes(b.value);
+  const ks = list("kind");
+  if (ks) for (const b of kindBoxes) b.checked = ks.includes(cfg.kinds[b.value as ConjKindSlug]);
+  sync();
+
+  // Điều khiển → tùy chọn sinh câu, URL
+  const quiz = mountQuiz($<HTMLElement>("[data-quiz]"));
+  function apply(): void {
+    sync();
+    const g = group(), b = book();
+    let from = Number(fromSel.value), to = Number(toSel.value);
+    if (from > to) [from, to] = [to, from];
+    const visible = formBoxes.filter(formVisible);
+    const forms = visible.filter((x) => x.checked).map((x) => x.value);
+    const kinds = kindBoxes.filter((x) => x.checked && (x.value !== "nhom" || g === "verb")).map((x) => x.value as ConjKindSlug);
+    const verbKinds = vkBoxes.filter((x) => x.checked).map((x) => x.value as VerbKind);
+    const opts: ConjOptions = { book: b, upTo: Number(upto.value), ...(b === "n3" ? { from, to } : {}), verbKinds: g === "verb" ? verbKinds : undefined, forms, kinds };
+    // thể/nhóm động từ đủ cả → không ghi lên URL (ngắn gọn); "chọn hết" thể ≠ "không chọn thể nào"
+    const ui: Filter = { "ui-group": [g], "ui-book": [b] };
+    if (b === "minna") ui.upto = { max: opts.upTo! };
+    else ui.lesson = { min: from, max: to };
+    if (g === "verb" && verbKinds.length < 3) ui.vk = verbKinds;
+    if (forms.length < visible.length) ui.form = forms;
+    ui.kind = kinds.map((k) => cfg.kinds[k]);
+    history.replaceState(null, "", `?${writeFilter(ui, cfg.params)}`);
+    const noForms = forms.length === 0;
+    quiz.setFilter({}, [`${base}chia-the/quiz/${cfg.slugs[g]}.json`], (data) =>
+      // không chọn thể nào → chỉ còn câu nhóm động từ (nếu chọn)
+      conjItems(data[0] as ConjTable, noForms ? { ...opts, kinds: kinds.filter((k) => k === "nhom") } : opts),
+    );
+  }
+
+  for (const r of all<HTMLInputElement>('input[name="q-group"]')) {
+    r.addEventListener("change", () => {
+      for (const x of formBoxes) x.checked = true; // đổi nhóm từ → chọn lại mọi thể
+      apply();
+    });
+  }
+  for (const el of all<HTMLInputElement>('input[name="q-book"], input[name="q-vk"], input[name="q-form"], input[name="q-kind"]')) el.addEventListener("change", apply);
+  upto.addEventListener("change", apply);
+  fromSel.addEventListener("change", () => {
+    if (Number(fromSel.value) > Number(toSel.value)) toSel.value = fromSel.value;
+    apply();
+  });
+  toSel.addEventListener("change", () => {
+    if (Number(toSel.value) < Number(fromSel.value)) fromSel.value = toSel.value;
+    apply();
+  });
+  for (const btn of all<HTMLButtonElement>("[data-forms]")) {
+    btn.addEventListener("click", () => {
+      for (const x of formBoxes.filter(formVisible)) x.checked = btn.dataset.forms === "all";
+      apply();
+    });
+  }
+  apply();
+</script>

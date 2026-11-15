@@ -4,7 +4,19 @@
 
 export const KEYS = {
   sidebar: "jp:ui:sidebar", // "collapsed" | "expanded"
+  quizWrong: "jp:quiz:wrong", // câu quiz hay sai (Q10): JSON lib/quiz/wrong.ts
 } as const;
+
+/** Thử ghi/xóa một key tạm: false khi bị chặn (chế độ riêng tư chặn hẳn, iframe…) → tính năng cần lưu thì ẩn đi. */
+export function storageAvailable(): boolean {
+  try {
+    localStorage.setItem("jp:probe", "1");
+    localStorage.removeItem("jp:probe");
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 export function readString(key: string): string | null {
   try {

@@ -1,25 +1,35 @@
 ---
-// Quiz đếm số: hiện "số + trợ số từ", chọn 1 trong 4 cách đọc. Câu hỏi + đáp án nhiễu sinh lúc build (lib/counter-quiz.ts).
-// Điểm chỉ giữ trong phiên (không lưu localStorage). Lọc: trợ số từ, nhóm âm, chỉ ô cần nhớ / tất cả.
-import { getCollection } from "astro:content";
+// Quiz đếm số, 2 loại câu (chọn một): "Đếm đồ vật" = số + trợ số từ (n-ctr, lib/counter-quiz.ts) và "Số" = số đếm
+// (n-num, Q7 plan/quiz/q07-numbers.md, lib/quiz/numbers.ts); chọn 1 trong 4 cách đọc. Câu hỏi + nhiễu sinh lúc build,
+// nhúng HTML. Khung quiz: components/quiz/QuizRunner.astro.
+// Lọc ghi lên URL, không localStorage: đồ vật ?tro=hon&nhom=h&o=tat-ca · số ?loai=so&nhom-so=tram-nghin.
+import { getCollection, getEntry } from "astro:content";
+import QuizRunner from "../../components/quiz/QuizRunner.astro";
 import Combobox from "../../components/ui/Combobox.astro";
 import Segmented from "../../components/ui/Segmented.astro";
 import type { SoundGroup } from "../../content.config";
 import Base from "../../layouts/Base.astro";
-import { buildQuizItems } from "../../lib/counter-quiz";
-import { DISPLAY_GROUPS } from "../../lib/counters";
+import { buildQuizItems, toQuizItems } from "../../lib/counter-quiz";
+import { DISPLAY_GROUPS, counterSlug } from "../../lib/counters";
+import { NUM_TAB_SLUG, numberItems } from "../../lib/quiz/numbers";
+import type { ParamDef } from "../../lib/quiz/params";
 
 const counters = (await getCollection("counterItems")).map((c) => c.data).sort((a, b) => a.order - b.order);
-const items = buildQuizItems(counters);
+const ctrItems = toQuizItems(buildQuizItems(counters));
+const numbers = (await getEntry("numbers", "numbers"))?.data;
+if (!numbers) throw new Error("thiếu numbers trong data/counters.json");
+const numItems = numberItems(numbers);
+const items = [...ctrItems, ...numItems];
+const numTabs = [{ id: "t-all", label: `Tất cả (${numItems.length})` }, ...numbers.tabs.map((t) => ({ id: `t-${t.id}`, label: t.label }))];
 
-// Nhóm âm gộp như trang Biến âm
-const GROUPS: { id: string; label: string; groups: SoundGroup[] }[] = [
-  { id: "g-all", label: "Tất cả", groups: [] },
-  { id: "g-h", label: "は h", groups: ["h"] },
-  { id: "g-k", label: "か k", groups: ["k"] },
-  { id: "g-st", label: "さ・た", groups: ["s", "t"] },
-  { id: "g-none", label: "Không đổi", groups: ["none"] },
-  { id: "g-own", label: "Đọc riêng", groups: ["native", "special"] },
+// Nhóm âm gộp như trang Biến âm; `slug` là giá trị trên URL
+const GROUPS: { id: string; slug: string; label: string; groups: SoundGroup[] }[] = [
+  { id: "g-all", slug: "", label: "Tất cả", groups: [] },
+  { id: "g-h", slug: "h", label: "は h", groups: ["h"] },
+  { id: "g-k", slug: "k", label: "か k", groups: ["k"] },
+  { id: "g-st", slug: "st", label: "さ・た", groups: ["s", "t"] },
+  { id: "g-none", slug: "khong-doi", label: "Không đổi", groups: ["none"] },
+  { id: "g-own", slug: "rieng", label: "Đọc riêng", groups: ["native", "special"] },
 ];
 const groupMap = Object.fromEntries(GROUPS.map((g) => [g.id, g.groups]));
 const counterGroups = [
@@ -31,207 +41,141 @@ const counterGroups = [
       .map((c) => ({ value: c.id, label: `～${c.char} · ${c.name_vi}`, keywords: `${c.kana} ${c.char}` })),
   })).filter((g) => g.options.length > 0),
 ];
-const changedCount = items.filter((i) => i.changed).length;
+const changedCount = ctrItems.filter((i) => i.tags.changed === 1).length;
+
+// Trạng thái bộ lọc trên URL (tag giả "ui-…" chỉ dùng để đọc/ghi query, không lọc trực tiếp)
+const params: ParamDef[] = [
+  { param: "tro", tag: "ui-counter", type: "enum", options: Object.fromEntries(counters.map((c) => [counterSlug(c), c.id])) },
+  { param: "nhom", tag: "ui-group", type: "enum", options: Object.fromEntries(GROUPS.filter((g) => g.slug).map((g) => [g.slug, g.id])) },
+  { param: "o", tag: "ui-mode", type: "enum", options: { "tat-ca": "m-all" } },
+  { param: "loai", tag: "ui-type", type: "enum", options: { so: "l-num" } },
+  { param: "nhom-so", tag: "ui-tab", type: "enum", options: Object.fromEntries(numbers.tabs.map((t) => [NUM_TAB_SLUG[t.id] ?? t.id, `t-${t.id}`])) },
+];
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
 ---
 
-<Base title="Luyện đếm số" description="Luyện đếm tiếng Nhật: chọn cách đọc đúng của số + trợ số từ, có biến âm.">
+<Base title="Luyện đếm số" description="Luyện đếm tiếng Nhật: chọn cách đọc đúng của số (trăm, nghìn, vạn, thập phân, phân số) và số + trợ số từ, có biến âm.">
   <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
     <a href={`${base}/dem-so/`} class={navLink}>Đếm số</a>
     <a href={`${base}/dem-so/bien-am/`} class={navLink}>Biến âm</a>
   </nav>
 
   <div class="mx-auto max-w-2xl">
-    <div class="flex flex-wrap items-baseline justify-between gap-2">
-      <h1 class="text-2xl font-bold">Luyện đếm số</h1>
-      <p class="text-sm text-ink-muted">
-        Đúng <b id="q-right" class="font-semibold text-ink tabular-nums">0</b> / <span id="q-total" class="tabular-nums">0</span>
-        <button type="button" id="q-reset" class="ml-2 rounded px-2 py-0.5 text-primary hover:bg-primary-soft">Làm lại</button>
-      </p>
+    <h1 class="text-2xl font-bold">Luyện đếm số</h1>
+
+    <div class="mt-4">
+      <QuizRunner items={items} question="Đọc thế nào?" linkLabel="Xem bảng cách đọc →" wrongKinds={["n-ctr", "n-num"]} typing>
+        <Fragment slot="filters">
+          <Segmented
+            name="q-type"
+            label="Loại câu"
+            options={[
+              { id: "l-ctr", label: "Đếm đồ vật" },
+              { id: "l-num", label: "Số" },
+            ]}
+            checked="l-ctr"
+          />
+          <div data-type="num" hidden>
+            <Segmented name="q-tab" label="Nhóm số" options={numTabs} checked="t-all" wrap />
+          </div>
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2" data-type="ctr">
+            <span class="seg-label shrink-0">Trợ số từ:</span>
+            <Combobox id="q-counter" label="Trợ số từ" groups={counterGroups} value="" placeholder="Tất cả trợ số từ" searchPlaceholder="Tìm: 本, ほん, người…" class="w-full sm:w-72" />
+          </div>
+          <div data-type="ctr">
+            <Segmented name="q-group" label="Nhóm âm" options={GROUPS.map((g) => ({ id: g.id, label: g.label }))} checked="g-all" wrap />
+          </div>
+          <div data-type="ctr">
+            <Segmented
+              name="q-mode"
+              label="Ô hỏi"
+              options={[
+                { id: "m-changed", label: `Cần nhớ (${changedCount})` },
+                { id: "m-all", label: `Tất cả (${ctrItems.length})` },
+              ]}
+              checked="m-changed"
+            />
+          </div>
+        </Fragment>
+      </QuizRunner>
     </div>
-
-    <div class="mt-4 flex flex-col gap-3 text-sm">
-      <Combobox id="q-counter" label="Trợ số từ" groups={counterGroups} value="" placeholder="Tất cả trợ số từ" searchPlaceholder="Tìm: 本, ほん, người…" class="w-full sm:w-80" />
-      <Segmented name="q-group" label="Nhóm âm" options={GROUPS.map((g) => ({ id: g.id, label: g.label }))} checked="g-all" wrap />
-      <Segmented
-        name="q-mode"
-        label="Ô hỏi"
-        options={[
-          { id: "m-changed", label: `Cần nhớ (${changedCount})` },
-          { id: "m-all", label: `Tất cả (${items.length})` },
-        ]}
-        checked="m-changed"
-      />
-    </div>
-
-    <section id="q-card" class="mt-6 rounded-lg border border-line bg-surface p-6" aria-live="polite">
-      <p class="text-center">
-        <span id="q-prompt" class="jp text-5xl font-bold text-ink" lang="ja"></span>
-      </p>
-      <p id="q-hint" class="mt-2 text-center text-sm text-ink-muted"></p>
-      <p class="mt-1 text-center text-sm text-ink-faint">Đọc thế nào?</p>
-
-      <div id="q-options" class="mt-5 grid grid-cols-2 gap-2"></div>
-
-      <div id="q-feedback" class="mt-5 hidden rounded-md px-4 py-3 text-sm leading-relaxed">
-        <p id="q-verdict" class="font-semibold"></p>
-        <p id="q-alt" class="mt-1 hidden text-ink-muted"></p>
-        <p id="q-note" class="mt-1 hidden text-ink-muted"></p>
-        <p class="mt-2"><a id="q-link" class="text-primary hover:underline" href="#">Xem bảng cách đọc →</a></p>
-      </div>
-
-      <div class="mt-5 flex items-center justify-between gap-2">
-        <p class="text-xs text-ink-faint">Phím 1–4 để chọn · Enter: câu tiếp</p>
-        <button type="button" id="q-next" class="rounded-md bg-primary px-4 py-2 text-sm font-semibold text-surface hover:bg-primary-strong disabled:opacity-40" disabled>Câu tiếp →</button>
-      </div>
-    </section>
-
-    <p id="q-empty" class="mt-6 hidden rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">
-      Không có câu nào khớp bộ lọc. Thử chọn "Tất cả" ở mục Ô hỏi hoặc nhóm âm khác.
-    </p>
   </div>
 
-  <script type="application/json" id="q-data" set:html={JSON.stringify({ items, groupMap, base })} />
+  <script type="application/json" id="q-config" set:html={JSON.stringify({ groupMap, params })} />
 </Base>
 
-<style>
-  .q-opt[data-state="right"] {
-    border-color: var(--color-success);
-    color: var(--color-success);
-    font-weight: 600;
-  }
-  .q-opt[data-state="wrong"] {
-    border-color: var(--color-danger);
-    background: var(--color-danger-soft);
-    color: var(--color-danger);
-  }
-</style>
-
 <script>
-  import type { QuizItem } from "../../lib/counter-quiz";
+  import { readFilter, writeFilter, type ParamDef } from "../../lib/quiz/params";
+  import { mountQuiz } from "../../lib/quiz/runner";
+  import type { Filter } from "../../lib/quiz/types";
 
-  interface Data {
-    items: QuizItem[];
+  const cfg = JSON.parse(document.getElementById("q-config")!.textContent ?? "{}") as {
     groupMap: Record<string, string[]>;
-    base: string;
-  }
-  const data = JSON.parse(document.getElementById("q-data")!.textContent ?? "{}") as Data;
-  const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
-  const card = $("q-card"), empty = $("q-empty");
-  const prompt = $("q-prompt"), hint = $("q-hint"), optionsBox = $("q-options");
-  const feedback = $("q-feedback"), verdict = $("q-verdict"), altLine = $("q-alt"), noteLine = $("q-note");
-  const link = $<HTMLAnchorElement>("q-link"), next = $<HTMLButtonElement>("q-next");
-  const rightEl = $("q-right"), totalEl = $("q-total");
-
-  let deck: QuizItem[] = [];
-  let current: QuizItem | null = null;
-  let answered = false;
-  let right = 0, total = 0;
-
-  const shuffle = <T,>(xs: T[]): T[] => {
-    const a = [...xs];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j]!, a[i]!];
-    }
-    return a;
+    params: ParamDef[];
   };
+  const counterInput = document.getElementById("q-counter") as HTMLInputElement;
   const checkedId = (name: string): string => document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.id ?? "";
 
-  function filtered(): QuizItem[] {
-    const counter = $<HTMLInputElement>("q-counter").value;
-    const groups = data.groupMap[checkedId("q-group")] ?? [];
-    const onlyChanged = checkedId("q-mode") === "m-changed";
-    return data.items.filter(
-      (it) => (!counter || it.counter === counter) && (groups.length === 0 || groups.includes(it.group)) && (!onlyChanged || it.changed),
-    );
+  /** Đặt Combobox theo giá trị (không mở popup, không cướp focus). */
+  function setCounter(value: string): void {
+    const root = counterInput.closest<HTMLElement>("[data-combo]")!;
+    const opt = root.querySelector<HTMLElement>(`.combo-opt[data-value="${CSS.escape(value)}"]`);
+    if (!opt) return;
+    counterInput.value = value;
+    for (const o of root.querySelectorAll(".combo-opt")) o.setAttribute("aria-selected", o === opt ? "true" : "false");
+    const text = root.querySelector(".combo-text");
+    if (text) text.textContent = opt.dataset.label ?? "";
   }
 
-  function ask(): void {
-    if (deck.length === 0) deck = shuffle(filtered());
-    // tránh lặp lại đúng câu vừa hỏi khi xáo lại bộ
-    if (deck.length > 1 && deck[deck.length - 1]?.id === current?.id) deck.unshift(deck.pop()!);
-    current = deck.pop() ?? null;
-    card.hidden = current === null;
-    empty.classList.toggle("hidden", current !== null);
-    if (!current) return;
-
-    answered = false;
-    prompt.textContent = `${current.display}${current.char}`;
-    hint.textContent = `～${current.char} · ${current.name}`;
-    // 3 nhiễu lấy ngẫu nhiên trong 5 mục gần đúng nhất
-    const choices = shuffle([current.answer, ...shuffle(current.pool.slice(0, 5)).slice(0, 3)]);
-    optionsBox.replaceChildren(
-      ...choices.map((kana, i) => {
-        const b = document.createElement("button");
-        b.type = "button";
-        b.className = "q-opt jp rounded-md border border-line bg-surface px-3 py-3 text-lg text-ink hover:border-primary-line hover:bg-primary-soft";
-        b.lang = "ja";
-        b.dataset.kana = kana;
-        b.innerHTML = `<span class="mr-1.5 text-xs text-ink-faint">${i + 1}</span>`;
-        b.append(kana);
-        b.addEventListener("click", () => choose(b));
-        return b;
-      }),
-    );
-    feedback.classList.add("hidden");
-    next.disabled = true;
-  }
-
-  function choose(btn: HTMLButtonElement): void {
-    if (answered || !current) return;
-    answered = true;
-    const ok = btn.dataset.kana === current.answer;
-    total++;
-    if (ok) right++;
-    rightEl.textContent = String(right);
-    totalEl.textContent = String(total);
-
-    for (const b of optionsBox.querySelectorAll<HTMLButtonElement>(".q-opt")) {
-      b.disabled = true;
-      if (b.dataset.kana === current.answer) b.dataset.state = "right";
-      else if (b === btn) b.dataset.state = "wrong";
-    }
-    feedback.classList.remove("hidden");
-    feedback.classList.toggle("bg-primary-soft", ok);
-    feedback.classList.toggle("bg-danger-soft", !ok);
-    verdict.className = ok ? "font-semibold text-success" : "font-semibold text-danger";
-    verdict.textContent = ok ? "Đúng!" : `Chưa đúng — ${current.display}${current.char} đọc là ${current.answer}`;
-    altLine.classList.toggle("hidden", current.alt.length === 0);
-    altLine.textContent = `Cũng đúng: ${current.alt.join(", ")}`;
-    noteLine.classList.toggle("hidden", !current.note);
-    noteLine.textContent = current.note ?? "";
-    link.href = `${data.base}/${current.href}`;
-    link.textContent = `Xem bảng cách đọc ～${current.char} →`;
-    next.disabled = false;
-    next.focus();
-  }
-
-  const restart = (): void => {
-    deck = [];
-    current = null;
-    ask();
+  // URL → điều khiển
+  const fromUrl = readFilter(location.search, cfg.params);
+  const pick = (tag: string): string | undefined => {
+    const r = fromUrl[tag];
+    return Array.isArray(r) ? String(r[0]) : undefined;
   };
-  next.addEventListener("click", ask);
-  $("q-reset").addEventListener("click", () => {
-    right = total = 0;
-    rightEl.textContent = totalEl.textContent = "0";
-    restart();
-  });
-  $("q-counter").addEventListener("change", restart);
-  for (const r of document.querySelectorAll<HTMLInputElement>('input[name="q-group"], input[name="q-mode"]')) r.addEventListener("change", restart);
+  const urlCounter = pick("ui-counter"), urlGroup = pick("ui-group"), urlMode = pick("ui-mode");
+  const urlType = pick("ui-type"), urlTab = pick("ui-tab");
+  if (urlCounter) setCounter(urlCounter);
+  for (const id of [urlGroup, urlMode, urlType, urlTab]) if (id) (document.getElementById(id) as HTMLInputElement | null)?.click();
 
-  document.addEventListener("keydown", (e) => {
-    const t = e.target as HTMLElement | null;
-    if (t?.closest("input[type=text], [data-combo][data-open]")) return;
-    if (/^[1-4]$/.test(e.key) && !answered) {
-      optionsBox.querySelectorAll<HTMLButtonElement>(".q-opt")[Number(e.key) - 1]?.click();
-    } else if (e.key === "Enter" && answered && t !== next) {
-      e.preventDefault();
-      ask();
+  // Điều khiển → Filter (lọc câu) và → URL
+  function current(): { filter: Filter; ui: Filter } {
+    // loại "Số": chỉ lọc theo nhóm số; dòng lọc trợ số từ ẩn và không ghi lên URL
+    if (checkedId("q-type") === "l-num") {
+      const tab = checkedId("q-tab");
+      const filter: Filter = { kind: ["n-num"] };
+      const ui: Filter = { "ui-type": ["l-num"] };
+      if (tab !== "t-all") {
+        filter.tab = [tab.replace(/^t-/, "")];
+        ui["ui-tab"] = [tab];
+      }
+      return { filter, ui };
     }
-  });
+    const counter = counterInput.value, group = checkedId("q-group"), mode = checkedId("q-mode");
+    const groups = cfg.groupMap[group] ?? [];
+    const filter: Filter = { kind: ["n-ctr"] };
+    if (counter) filter.counter = [counter];
+    if (groups.length > 0) filter.group = groups;
+    if (mode !== "m-all") filter.changed = [1];
+    const ui: Filter = {};
+    if (counter) ui["ui-counter"] = [counter];
+    if (group !== "g-all") ui["ui-group"] = [group];
+    if (mode === "m-all") ui["ui-mode"] = ["m-all"];
+    return { filter, ui };
+  }
 
-  ask();
+  const quiz = mountQuiz(document.querySelector<HTMLElement>("[data-quiz]")!);
+  function apply(): void {
+    const type = checkedId("q-type") === "l-num" ? "num" : "ctr";
+    for (const el of document.querySelectorAll<HTMLElement>("[data-type]")) el.hidden = el.dataset.type !== type;
+    const { filter, ui } = current();
+    const qs = writeFilter(ui, cfg.params);
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+    quiz.setFilter(filter);
+  }
+  counterInput.addEventListener("change", apply);
+  for (const r of document.querySelectorAll<HTMLInputElement>('input[name="q-type"], input[name="q-tab"], input[name="q-group"], input[name="q-mode"]'))
+    r.addEventListener("change", apply);
+  apply();
 </script>

@@ -1,0 +1,313 @@
+---
+// Khung quiz dùng chung (plan/quiz/q03-runner.md): bảng tùy chọn, số câu/lượt, thẻ câu hỏi, 4 lựa chọn, phản hồi,
+// tổng kết, làm lại câu sai. Trang đặt bộ lọc riêng vào slot "filters" (mỗi dòng một phần tử; nhãn dòng dùng
+// class `seg-label` để thẳng cột — Segmented đã có sẵn), rồi trong script gọi mountQuiz(root).setFilter(filter, decks?)
+// (lib/quiz/runner.ts). Dữ liệu: `items` (nhúng vào HTML — deck nhỏ), `src` (một file Deck), hoặc không truyền gì
+// và trang chọn file Deck theo bộ lọc qua setFilter(filter, decks) — deck lớn chia nhiều file (vd từ vựng cấp × loại).
+// Luồng: mở trang chỉ thấy bảng tùy chọn + nút "Bắt đầu"; bấm Bắt đầu mới tải câu hỏi và hiện khung quiz; trong lúc
+// làm bài mọi tùy chọn bị khóa và thu thành 1 dòng tóm tắt; Furigana đổi bằng chip "✓ Furigana" trong thẻ (bật/tắt chính radio
+// dòng [data-q-keep], không bị khóa); tổng kết có "Đổi tùy chọn" để mở khóa.
+// Câu hay sai (Q10): dòng "Câu hỏi: Tất cả · Câu hay sai (N)" + nút Xóa — runner đếm/lọc theo `jp:quiz:wrong`
+// (lib/quiz/wrong.ts); phạm vi = loại câu của trang (`wrongKinds`, mặc định khóa của `kindLabels`).
+// Gõ kana (Q9, `typing`): dòng "Trả lời: Chọn đáp án · Gõ kana"; câu loại gõ được (lib/quiz/typing.ts) → ô nhập
+// (romaji chuyển kana ngay khi gõ — lib/quiz/romaji.ts), câu khác vẫn 4 lựa chọn. URL ?tra-loi=go (runner tự gắn).
+// Script thường, không Preact (D1).
+import Segmented from "../ui/Segmented.astro";
+import type { QuizItem } from "../../lib/quiz/types";
+
+interface Props {
+  items?: QuizItem[];
+  /** URL đầy đủ (đã ghép BASE_URL) tới file Deck JSON. */
+  src?: string;
+  /** Câu dẫn mặc định dưới câu hỏi, vd "Đọc thế nào?" (câu hỏi có `question` riêng thì dùng của câu hỏi). */
+  question?: string;
+  /** Chữ trên link sang trang chi tiết. */
+  linkLabel?: string;
+  /** Tên hiển thị theo kind ({ "v-read": "Đọc" }) → nhãn loại câu ở góc thẻ. Không truyền → không hiện nhãn. */
+  kindLabels?: Record<string, string>;
+  /** Trộn đều theo loại câu: mỗi lượt chia số câu ngang nhau cho các kind đang có. */
+  balanceKinds?: boolean;
+  /** Trộn đều theo phần học (tiền tố kind: v-, k-, c-, n-), trong mỗi phần theo loại câu — trang tổng /luyen-tap/. */
+  balanceParts?: boolean;
+  /** Thêm dòng "Furigana: Hiện / Ẩn" — ẩn cách đọc trên câu hỏi và các lựa chọn; phần phản hồi/giải thích luôn hiện. */
+  furiganaToggle?: boolean;
+  /** Loại câu của trang cho "Câu hay sai" (đếm, lọc, xóa). Mặc định = khóa của `kindLabels`. */
+  wrongKinds?: string[];
+  /** Thêm dòng "Trả lời: Chọn đáp án · Gõ kana" (Q9) — trang có loại câu gõ được (đọc, chia, đếm). */
+  typing?: boolean;
+}
+const { items, src, question = "Chọn đáp án đúng", linkLabel = "Xem chi tiết →", kindLabels, balanceKinds = false, balanceParts = false, furiganaToggle = false, typing = false } = Astro.props;
+const wrongKinds = Astro.props.wrongKinds ?? Object.keys(kindLabels ?? {});
+if (wrongKinds.length === 0) throw new Error("QuizRunner: thiếu `wrongKinds` (hoặc `kindLabels`) cho Câu hay sai");
+if (items && src) throw new Error("QuizRunner: chỉ truyền một trong `items` hoặc `src`");
+const btn = "rounded-md px-4 py-2 text-sm font-semibold";
+---
+
+<div data-quiz data-src={src} data-link-label={linkLabel} data-balance={balanceParts ? "part" : balanceKinds ? "kind" : undefined} data-wrong-kinds={wrongKinds.join(" ")}>
+  {items && <script type="application/json" data-quiz-items set:html={JSON.stringify(items)} />}
+  {kindLabels && <script type="application/json" data-quiz-kinds set:html={JSON.stringify(kindLabels)} />}
+
+  <fieldset class="rounded-lg border border-line bg-surface px-4 pt-1 pb-3 text-sm text-ink-muted">
+    <legend class="px-1 text-xs text-ink-faint">
+      Tùy chọn luyện tập
+    </legend>
+    <!-- Đang làm bài: khung thu gọn — 1 dòng tóm tắt (runner điền); mọi dòng tùy chọn ẩn (Furigana: nút trong thẻ) -->
+    <div data-q="locked-note" class="hidden py-1" title="Muốn đổi: Kết thúc lượt → Đổi tùy chọn">
+      <p data-q="locked-summary" class="text-ink"></p>
+    </div>
+    <div class="quiz-options flex flex-col divide-y divide-line [&>*]:py-2.5 [&_.seg-label]:min-w-[4.75rem] [&_.seg-label]:text-ink">
+      <slot name="filters" />
+      {
+        typing && (
+          <div data-q="answer-row">
+            <Segmented
+              name="q-answer"
+              label="Trả lời"
+              options={[
+                { id: "q-ans-pick", label: "Chọn đáp án" },
+                { id: "q-ans-type", label: "Gõ kana" },
+              ]}
+              checked="q-ans-pick"
+            />
+          </div>
+        )
+      }
+      <!-- Câu hay sai (Q10): runner hiện dòng khi lưu trữ trình duyệt dùng được, điền số câu, khóa nút khi 0 câu -->
+      <div data-q="wrong-row" class="flex items-center gap-x-2" hidden>
+        <Segmented
+          name="q-review"
+          label="Câu hỏi"
+          options={[
+            { id: "q-review-all", label: "Tất cả" },
+            { id: "q-review-wrong", label: "Câu hay sai (0)" },
+          ]}
+          checked="q-review-all"
+        />
+        <button type="button" data-q="wrong-clear" class="shrink-0 rounded px-1.5 py-1 text-xs text-ink-faint underline-offset-2 hover:text-danger hover:underline disabled:invisible">Xóa</button>
+      </div>
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+        <Segmented
+          name="q-size"
+          label="Số câu"
+          options={[
+            { id: "q-size-10", label: "10" },
+            { id: "q-size-20", label: "20" },
+            { id: "q-size-100", label: "100" },
+            { id: "q-size-custom", label: "Tự nhập" },
+          ]}
+          checked="q-size-10"
+          wrap
+        />
+        <!-- thẳng cột với các nút: lùi bằng độ rộng nhãn (4.75rem) + khoảng cách (0.75rem) -->
+        <label class="hidden basis-full items-center gap-2 pl-[5.5rem]" data-q="size-box">
+          <input
+            type="number"
+            data-q="size-input"
+            min="1"
+            max="100"
+            step="1"
+            inputmode="numeric"
+            value="30"
+            class="w-20 rounded-md border border-line bg-surface px-2 py-1 text-ink aria-[invalid=true]:border-danger"
+            aria-label="Số câu một lượt (1–100)"
+          />
+          <span>câu</span>
+          <span data-q="size-error" class="hidden text-danger">Nhập số từ 1 đến 100</span>
+        </label>
+      </div>
+      {
+        furiganaToggle && (
+          <div data-q-keep>
+            <Segmented
+              name="q-furi"
+              label="Furigana"
+              options={[
+                { id: "q-furi-on", label: "Hiện" },
+                { id: "q-furi-off", label: "Ẩn" },
+              ]}
+              checked="q-furi-on"
+            />
+          </div>
+        )
+      }
+    </div>
+  </fieldset>
+
+  <div data-q="start-bar" class="mt-4 flex justify-end">
+    <!-- disabled tới khi script gắn xong (runner bật) — bấm sớm lúc JS chưa tải sẽ không có tác dụng -->
+    <button type="button" data-q="start" class:list={[btn, "bg-primary px-6 text-surface hover:bg-primary-strong disabled:opacity-40"]} disabled>Bắt đầu →</button>
+  </div>
+
+  <p data-q="loading" class="mt-6 hidden rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">Đang tải câu hỏi…</p>
+
+  <p data-q="empty" class="mt-6 hidden rounded-lg border border-line bg-surface p-6 text-center text-ink-muted">
+    Không có câu nào khớp bộ lọc. Thử nới bộ lọc ở trên.
+  </p>
+
+  <section data-q="card" class="mt-6 hidden overflow-hidden rounded-lg border border-line bg-surface p-6" aria-live="polite">
+    <!-- tiến độ lượt: số câu đã trả lời / số câu của lượt -->
+    <div class="-mx-6 -mt-6 mb-5 h-1 bg-line" role="progressbar" aria-label="Tiến độ lượt" aria-valuemin="0" aria-valuemax="100" data-q="progressbar">
+      <div data-q="progress" class="h-full w-0 bg-primary transition-[width] duration-300"></div>
+    </div>
+    <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 text-sm text-ink-muted">
+      <span class="flex items-baseline gap-2 whitespace-nowrap">
+        <span>Câu <b data-q="index" class="font-semibold text-ink tabular-nums">1</b><span data-q="of"></span></span>
+        <span data-q="kind" class="hidden rounded border border-line px-1.5 py-0.5 text-xs text-ink-muted"></span>
+        <!-- Thông tin phụ (bài, loại từ…): hover trên máy có chuột, chạm để bật/tắt trên mobile -->
+        <span data-q="info-wrap" class="info-wrap relative self-center" hidden>
+          <button
+            type="button"
+            data-q="info-btn"
+            class="flex size-6 items-center justify-center rounded-full text-primary hover:bg-primary-soft focus-visible:outline-2 focus-visible:outline-primary"
+            aria-label="Thông tin câu hỏi"
+            aria-expanded="false"
+            aria-controls="q-info"
+          >
+            <svg viewBox="0 0 20 20" class="size-[18px]" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <circle cx="10" cy="10" r="8.2"></circle>
+              <path d="M10 9v5" stroke-linecap="round"></path>
+              <circle cx="10" cy="6.2" r="0.6" fill="currentColor"></circle>
+            </svg>
+          </button>
+          <span
+            data-q="info"
+            id="q-info"
+            role="tooltip"
+            class="info-pop absolute top-full left-0 z-10 mt-1 w-max max-w-[min(16rem,70vw)] rounded-md border border-line bg-surface px-3 py-2 text-left text-xs leading-relaxed whitespace-pre-line text-ink shadow-md"
+          ></span>
+        </span>
+        {
+          furiganaToggle && (
+            <button
+              type="button"
+              data-q="furi-btn"
+              class="group self-center rounded-full border border-line px-2.5 py-0.5 text-xs text-ink-faint hover:border-primary-line aria-pressed:border-primary aria-pressed:bg-primary-soft aria-pressed:font-semibold aria-pressed:text-primary"
+              aria-pressed="true"
+              title="Hiện / ẩn cách đọc (furigana) trên đề và đáp án"
+            >
+              <span class="hidden group-aria-pressed:inline" aria-hidden="true">✓ </span>Furigana
+            </button>
+          )
+        }
+      </span>
+      <span class="whitespace-nowrap">
+        Đúng <b data-q="right" class="font-semibold text-ink tabular-nums">0</b> / <span data-q="total" class="tabular-nums">0</span>
+        <button type="button" data-q="finish" class="ml-2 rounded px-2 py-0.5 text-primary hover:bg-primary-soft">Kết thúc lượt</button>
+      </span>
+    </div>
+    <!-- hỏi lại trước khi kết thúc sớm (đã làm ≥ 1 câu) — tránh chạm nhầm mất lượt -->
+    <div data-q="finish-confirm" class="mt-3 flex flex-wrap items-center gap-2 rounded-md border border-primary-line bg-primary-soft px-3 py-2 text-sm" hidden>
+      <span class="mr-auto text-ink">Kết thúc lượt? Đã làm <b data-q="done-count" class="tabular-nums">0</b> câu.</span>
+      <button type="button" data-q="finish-cancel" class="rounded-md border border-line bg-surface px-3 py-1 text-ink hover:border-primary-line">Làm tiếp</button>
+      <button type="button" data-q="finish-ok" class="rounded-md bg-primary px-3 py-1 font-semibold text-surface hover:bg-primary-strong">Kết thúc</button>
+    </div>
+
+    <p class="mt-4 text-center"><span data-q="prompt" class="font-bold text-ink"></span></p>
+    <p data-q="hint" class="mt-2 text-center text-sm text-ink-muted"></p>
+    <p data-q="question" class="mt-2 text-center text-lg font-semibold text-ink">{question}</p>
+
+    <p data-q="type-note" class="mt-1 hidden text-center text-xs text-ink-faint">Loại câu này chỉ có trắc nghiệm</p>
+    <div data-q="options" class="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2"></div>
+    <!-- Gõ kana (Q9): thay 4 lựa chọn ở câu gõ được -->
+    <form data-q="type-box" class="mt-5 hidden" novalidate>
+      <input
+        data-q="type-input"
+        type="text"
+        lang="ja"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+        enterkeyhint="done"
+        placeholder="Gõ romaji hoặc kana"
+        aria-label="Cách đọc (gõ romaji hoặc kana)"
+        class="jp w-full rounded-md border border-line bg-surface px-3 py-3 text-center text-xl text-ink placeholder:text-base placeholder:text-ink-faint focus:border-primary focus:outline-2 focus:outline-primary disabled:bg-surface-sunken data-[state=right]:border-success data-[state=right]:text-success data-[state=wrong]:border-danger data-[state=wrong]:bg-danger-soft data-[state=wrong]:text-danger"
+      />
+      <div class="mt-2 flex justify-center gap-2">
+        <button type="submit" data-q="type-submit" class:list={[btn, "bg-primary text-surface hover:bg-primary-strong disabled:hidden"]}>Trả lời</button>
+        <button type="button" data-q="type-giveup" class:list={[btn, "border border-line text-ink hover:bg-primary-soft disabled:hidden"]}>Không biết</button>
+      </div>
+    </form>
+
+    <div data-q="feedback" class="mt-5 hidden rounded-md px-4 py-3 text-sm leading-relaxed">
+      <p data-q="verdict" class="font-semibold"></p>
+      <p data-q="typed" class="mt-1 hidden text-ink-muted"></p>
+      <p data-q="accepted" class="mt-1 hidden text-ink-muted"></p>
+      <p data-q="explain" class="mt-1 hidden whitespace-pre-line text-ink-muted"></p>
+      <p class="mt-2"><a data-q="link" class="text-primary hover:underline" href="#">{linkLabel}</a></p>
+    </div>
+
+    <div class="mt-5 flex items-center justify-between gap-2">
+      <p class="kbd-hint text-xs text-ink-faint" data-q="kbd-hint">Phím 1–4 để chọn · Enter: câu tiếp</p>
+      <button type="button" data-q="next" class:list={[btn, "ml-auto shrink-0 whitespace-nowrap bg-primary text-surface hover:bg-primary-strong disabled:invisible"]} disabled>Câu tiếp →</button>
+    </div>
+  </section>
+
+  <section data-q="summary" class="mt-6 hidden rounded-lg border border-line bg-surface p-6">
+    <h2 class="text-center text-lg font-semibold">Kết quả lượt</h2>
+    <p class="mt-2 text-center text-4xl font-bold tabular-nums"><span data-q="sum-right">0</span> / <span data-q="sum-total">0</span></p>
+    <p data-q="sum-perfect" class="mt-2 hidden text-center text-success">Đúng hết, giỏi lắm!</p>
+    <p data-q="sum-saved" class="mt-3 hidden text-center text-sm text-ink-muted"></p>
+    <div data-q="sum-wrong-box" class="mt-5 hidden">
+      <h3 class="text-sm font-semibold text-ink-muted">Câu sai</h3>
+      <ul data-q="sum-wrong" class="mt-2 divide-y divide-line text-sm"></ul>
+    </div>
+    <div class="mt-6 flex flex-wrap justify-center gap-2">
+      <button type="button" data-q="retry" class:list={[btn, "hidden border border-primary text-primary hover:bg-primary-soft"]}>Làm lại câu sai</button>
+      <button type="button" data-q="restart" class:list={[btn, "bg-primary text-surface hover:bg-primary-strong"]}>Lượt mới</button>
+      <button type="button" data-q="setup" class:list={[btn, "border border-line text-ink hover:bg-primary-soft"]}>Đổi tùy chọn</button>
+    </div>
+  </section>
+</div>
+
+<style>
+  /* Ẩn furigana (thuần CSS): chỉ câu hỏi + các lựa chọn; phản hồi, giải thích, tổng kết vẫn hiện cách đọc.
+     visibility (không display) để bật/tắt giữa chừng không làm nhảy bố cục — như công tắc ở trang bài. */
+  /* phím tắt: chỉ gợi ý trên máy có chuột + bàn phím (không theo bề ngang — tablet cảm ứng cũng ẩn) */
+  .kbd-hint {
+    display: none;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .kbd-hint {
+      display: block;
+    }
+  }
+  /* ⓘ: ẩn mặc định; hiện khi rê chuột (máy có chuột — click chuột KHÔNG ghim), chạm trên mobile / Enter bàn phím
+     (data-open, runner bật/tắt), hoặc đang focus bằng bàn phím */
+  .info-pop {
+    display: none;
+  }
+  .info-wrap[data-open] .info-pop,
+  .info-wrap:has(:focus-visible) .info-pop {
+    display: block;
+  }
+  @media (hover: hover) {
+    .info-wrap:hover .info-pop {
+      display: block;
+    }
+  }
+  :global([data-quiz]:has(#q-furi-off:checked) :is([data-q="prompt"], [data-q="options"]) rt) {
+    visibility: hidden;
+  }
+  /*
+   * Mọi điều khiển trong bảng tùy chọn cao bằng nhau (2rem): nút chọn một / chọn nhiều, select, ô nhập số, Combobox.
+   * Bộ lọc nằm trong slot (do trang render) nên phải dùng :global, neo vào .quiz-options để không ảnh hưởng trang khác.
+   */
+  .quiz-options :global(select),
+  .quiz-options :global(input[type="number"]),
+  .quiz-options :global(.combo-trigger),
+  .quiz-options :global([role="radiogroup"] label),
+  .quiz-options :global([role="group"] label) {
+    box-sizing: border-box;
+    height: 2rem;
+  }
+  .quiz-options :global([role="radiogroup"] label),
+  .quiz-options :global([role="group"] label) {
+    display: inline-flex;
+    align-items: center;
+  }
+  /* Segmented liền một dải: viền nằm ở khung ngoài → nút bên trong thấp hơn 2px để cả dải cao 2rem */
+  .quiz-options :global([role="radiogroup"] > div.overflow-hidden label) {
+    height: calc(2rem - 2px);
+  }
+</style>
