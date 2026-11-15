@@ -708,8 +708,8 @@
         },
         {
           "char": "丨",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "nét sổ",
+          "name_vi": "CỔN",
           "original": null,
           "strokes": [
             4
@@ -886,7 +886,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -6621,8 +6621,8 @@
         },
         {
           "char": "⺕",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "đầu con nhím",
+          "name_vi": "KỆ",
           "original": "彑",
           "strokes": [
             5,
@@ -7662,7 +7662,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -8461,7 +8461,7 @@
       "components": [
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -14966,7 +14966,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -15536,7 +15536,7 @@
         },
         {
           "char": "酉",
-          "meaning_vi": "một trong 12 địa chi",
+          "meaning_vi": "dậu",
           "name_vi": "DẬU",
           "original": null,
           "strokes": [
@@ -18192,7 +18192,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -18807,7 +18807,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -18939,7 +18939,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -22668,7 +22668,7 @@
       "components": [
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -22683,7 +22683,7 @@
         },
         {
           "char": "辰",
-          "meaning_vi": "nhật",
+          "meaning_vi": "thìn",
           "name_vi": "THẦN",
           "original": null,
           "strokes": [
@@ -23728,7 +23728,7 @@
       "components": [
         {
           "char": "亠",
-          "meaning_vi": null,
+          "meaning_vi": "phần đầu",
           "name_vi": "ĐẦU",
           "original": null,
           "strokes": [
@@ -24045,7 +24045,7 @@
         {
           "char": "斗",
           "meaning_vi": "cái đấu để đong",
-          "name_vi": "ĐẦU 7",
+          "name_vi": "ĐẨU",
           "original": null,
           "strokes": [
             7,
@@ -27015,7 +27015,7 @@
       "components": [
         {
           "char": "𠂊",
-          "meaning_vi": "ba",
+          "meaning_vi": "bao bọc",
           "name_vi": "BAO",
           "original": "勹",
           "strokes": [
@@ -28689,7 +28689,7 @@
       "components": [
         {
           "char": "亠",
-          "meaning_vi": null,
+          "meaning_vi": "phần đầu",
           "name_vi": "ĐẦU",
           "original": null,
           "strokes": [
@@ -29589,7 +29589,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -32021,8 +32021,8 @@
         },
         {
           "char": "⺕",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "đầu con nhím",
+          "name_vi": "KỆ",
           "original": "彑",
           "strokes": [
             9,
@@ -33223,7 +33223,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -38341,7 +38341,7 @@
       "components": [
         {
           "char": "亠",
-          "meaning_vi": null,
+          "meaning_vi": "phần đầu",
           "name_vi": "ĐẦU",
           "original": null,
           "strokes": [
@@ -39704,7 +39704,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -40133,7 +40133,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -42707,7 +42707,7 @@
       "components": [
         {
           "char": "酉",
-          "meaning_vi": "một trong 12 địa chi",
+          "meaning_vi": "dậu",
           "name_vi": "DẬU",
           "original": null,
           "strokes": [
@@ -43476,7 +43476,7 @@
       "components": [
         {
           "char": "𠂊",
-          "meaning_vi": "ba",
+          "meaning_vi": "bao bọc",
           "name_vi": "BAO",
           "original": "勹",
           "strokes": [
@@ -45996,7 +45996,7 @@
       "components": [
         {
           "char": "𠂊",
-          "meaning_vi": "ba",
+          "meaning_vi": "bao bọc",
           "name_vi": "BAO",
           "original": "勹",
           "strokes": [
@@ -47632,8 +47632,8 @@
         },
         {
           "char": "⺕",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "đầu con nhím",
+          "name_vi": "KỆ",
           "original": "彑",
           "strokes": [
             4,
@@ -47804,7 +47804,7 @@
       "components": [
         {
           "char": "亠",
-          "meaning_vi": null,
+          "meaning_vi": "phần đầu",
           "name_vi": "ĐẦU",
           "original": null,
           "strokes": [
@@ -48069,8 +48069,8 @@
         },
         {
           "char": "丨",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "nét sổ",
+          "name_vi": "CỔN",
           "original": null,
           "strokes": [
             3
@@ -49224,7 +49224,7 @@
       "components": [
         {
           "char": "𠂊",
-          "meaning_vi": "ba",
+          "meaning_vi": "bao bọc",
           "name_vi": "BAO",
           "original": "勹",
           "strokes": [
@@ -49234,7 +49234,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -51577,8 +51577,8 @@
         },
         {
           "char": "丨",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "nét sổ",
+          "name_vi": "CỔN",
           "original": null,
           "strokes": [
             4
@@ -53893,7 +53893,7 @@
       "components": [
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -60075,7 +60075,7 @@
       "components": [
         {
           "char": "亠",
-          "meaning_vi": null,
+          "meaning_vi": "phần đầu",
           "name_vi": "ĐẦU",
           "original": null,
           "strokes": [
@@ -61120,7 +61120,7 @@
       "components": [
         {
           "char": "亠",
-          "meaning_vi": null,
+          "meaning_vi": "phần đầu",
           "name_vi": "ĐẦU",
           "original": null,
           "strokes": [
@@ -61619,8 +61619,8 @@
         },
         {
           "char": "丨",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "nét sổ",
+          "name_vi": "CỔN",
           "original": null,
           "strokes": [
             5
@@ -62820,7 +62820,7 @@
       "components": [
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -64256,7 +64256,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -64920,7 +64920,7 @@
       "components": [
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -66990,7 +66990,7 @@
         },
         {
           "char": "酉",
-          "meaning_vi": "một trong 12 địa chi",
+          "meaning_vi": "dậu",
           "name_vi": "DẬU",
           "original": null,
           "strokes": [
@@ -67241,7 +67241,7 @@
         {
           "char": "斗",
           "meaning_vi": "cái đấu để đong",
-          "name_vi": "ĐẦU 7",
+          "name_vi": "ĐẨU",
           "original": null,
           "strokes": [
             6,
@@ -68221,7 +68221,7 @@
         },
         {
           "char": "辰",
-          "meaning_vi": "nhật",
+          "meaning_vi": "thìn",
           "name_vi": "THẦN",
           "original": null,
           "strokes": [
@@ -69252,7 +69252,7 @@
       "components": [
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -69816,7 +69816,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -73154,7 +73154,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -76816,7 +76816,7 @@
         },
         {
           "char": "辰",
-          "meaning_vi": "nhật",
+          "meaning_vi": "thìn",
           "name_vi": "THẦN",
           "original": null,
           "strokes": [
@@ -79252,7 +79252,7 @@
       "components": [
         {
           "char": "酉",
-          "meaning_vi": "một trong 12 địa chi",
+          "meaning_vi": "dậu",
           "name_vi": "DẬU",
           "original": null,
           "strokes": [
@@ -81767,7 +81767,7 @@
       "components": [
         {
           "char": "勹",
-          "meaning_vi": "ba",
+          "meaning_vi": "bao bọc",
           "name_vi": "BAO",
           "original": null,
           "strokes": [
@@ -85307,8 +85307,8 @@
         },
         {
           "char": "骨",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "xương",
+          "name_vi": "CỐT",
           "original": null,
           "strokes": [
             4,
@@ -86883,7 +86883,7 @@
       "components": [
         {
           "char": "亠",
-          "meaning_vi": null,
+          "meaning_vi": "phần đầu",
           "name_vi": "ĐẦU",
           "original": null,
           "strokes": [
@@ -87252,7 +87252,7 @@
       "components": [
         {
           "char": "勹",
-          "meaning_vi": "ba",
+          "meaning_vi": "bao bọc",
           "name_vi": "BAO",
           "original": null,
           "strokes": [
@@ -87770,7 +87770,7 @@
       "components": [
         {
           "char": "酉",
-          "meaning_vi": "một trong 12 địa chi",
+          "meaning_vi": "dậu",
           "name_vi": "DẬU",
           "original": null,
           "strokes": [
@@ -88214,8 +88214,8 @@
         },
         {
           "char": "丨",
-          "meaning_vi": null,
-          "name_vi": null,
+          "meaning_vi": "nét sổ",
+          "name_vi": "CỔN",
           "original": null,
           "strokes": [
             3
@@ -92744,7 +92744,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -92869,7 +92869,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -96427,7 +96427,7 @@
         },
         {
           "char": "辰",
-          "meaning_vi": "nhật",
+          "meaning_vi": "thìn",
           "name_vi": "THẦN",
           "original": null,
           "strokes": [
@@ -101258,7 +101258,7 @@
       "components": [
         {
           "char": "勹",
-          "meaning_vi": "ba",
+          "meaning_vi": "bao bọc",
           "name_vi": "BAO",
           "original": null,
           "strokes": [
@@ -101572,7 +101572,7 @@
         },
         {
           "char": "寸",
-          "meaning_vi": "đơn vị",
+          "meaning_vi": "tấc",
           "name_vi": "THỐN",
           "original": null,
           "strokes": [
@@ -112783,7 +112783,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -112907,7 +112907,7 @@
         },
         {
           "char": "貝",
-          "meaning_vi": "vật báu",
+          "meaning_vi": "vỏ sò",
           "name_vi": "BỐI",
           "original": null,
           "strokes": [
@@ -115862,6 +115862,6 @@
     }
   ],
   "license": "CC BY-SA 3.0",
-  "schema_version": 8,
+  "schema_version": 9,
   "source": "KanjiVG 20260714 — Ulrich Apel, https://kanjivg.tagaini.net"
 }

@@ -87,6 +87,33 @@ def parse_components(text: str) -> list[tuple[str, str | None, list[int]]]:
     return comps if len(comps) >= 2 else []
 
 
+class TreeNode(BaseModel):
+    element: str  # kvg:element (dạng viết, vd 亻)
+    original: str | None  # kvg:original (dạng gốc, vd 人)
+    radical: str | None  # kvg:radical: general | tradit | nelson | …
+    depth: int  # 0 = chính chữ
+
+
+def parse_element_tree(text: str) -> list[TreeNode]:
+    """Mọi nhóm <g kvg:element> ở mọi độ sâu (duyệt trước), kể cả chính chữ (depth 0)."""
+    root = ET.fromstring(_DOCTYPE.sub("", text, count=1))
+    top = next((g for g in root.iter(f"{SVG_NS}g") if re.fullmatch(r"kvg:[0-9a-f]+", g.get("id", ""))), None)
+    if top is None:
+        return []
+    out: list[TreeNode] = []
+
+    def walk(g: ET.Element, depth: int) -> None:
+        el = _kvg(g, "element")
+        if el is not None:
+            out.append(TreeNode(element=el, original=_kvg(g, "original"), radical=_kvg(g, "radical"), depth=depth))
+        for child in g:
+            if child.tag == f"{SVG_NS}g":
+                walk(child, depth + (1 if el is not None else 0))
+
+    walk(top, 0)
+    return out
+
+
 def build_strokes(
     kanji: list[KanjiEntry],
     svgs: dict[str, str],

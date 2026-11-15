@@ -176,7 +176,8 @@ class VocabLesson(_Strict):
 
 # ---------------------------------------------------------------- Kanji & bộ thủ
 
-KANJI_SCHEMA_VERSION = 8  # v8: n3_lessons (mọi bài Kanji N3 có chữ + thứ tự trong bài, theo bảng tổng hợp đầu bài)
+KANJI_SCHEMA_VERSION = 9  # v9: radical_parts (mọi bộ thủ có trong chữ, theo cây KanjiVG)
+# v8: n3_lessons (mọi bài Kanji N3 có chữ + thứ tự trong bài, theo bảng tổng hợp đầu bài)
 # v7: story (mẹo nhớ), components (thành phần KanjiVG trong strokes.json)
 # v6: examples (từ ví dụ chia Âm On / Âm Kun, ≥5/chữ)
 # v5: n4_order, n5_order (thứ tự chữ trong bài như sách)
@@ -238,6 +239,10 @@ class KanjiEntry(_Strict):
     grade: int | None = Field(description="Cấp lớp giáo dục Nhật (KANJIDIC2)")
     jlpt_old: int | None = Field(description="JLPT thang cũ 1–4 của KANJIDIC2 (4 ≈ N5, 3 ≈ N4)")
     radical: int | None = Field(description="Số bộ thủ → radicals.json")
+    radical_parts: list[int] = Field(
+        default_factory=list,
+        description="Mọi bộ thủ có trong chữ (cây KanjiVG, gồm bộ chính, bỏ bộ 1 nét) — số tăng dần",
+    )
     first_lesson: int | None = Field(ge=1, le=50, description="Bài Minna đầu tiên có chữ này (null: chỉ có ở N3)")
     n3_lesson: int | None = Field(default=None, ge=1, le=50, description="Bài Kanji N3 dạy chữ này (null: không có trong N3)")
     n4_lesson: int | None = Field(default=None, ge=1, le=50, description="Bài Ebook Kanji N4 dạy chữ này")

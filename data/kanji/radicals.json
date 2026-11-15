@@ -9,7 +9,7 @@
       "variants": []
     },
     {
-      "char": "〡",
+      "char": "丨",
       "meaning_vi": "Nét sổ",
       "name_vi": "Cổn",
       "number": 2,
@@ -58,7 +58,7 @@
     },
     {
       "char": "亠",
-      "meaning_vi": null,
+      "meaning_vi": "Phần đầu, cái nắp (bộ chỉ vị trí phía trên, không có nghĩa riêng)",
       "name_vi": "Đầu",
       "number": 8,
       "strokes": 2,
@@ -70,7 +70,9 @@
       "name_vi": "Nhân",
       "number": 9,
       "strokes": 2,
-      "variants": []
+      "variants": [
+        "亻"
+      ]
     },
     {
       "char": "儿",
@@ -142,7 +144,9 @@
       "name_vi": "Đao",
       "number": 18,
       "strokes": 2,
-      "variants": []
+      "variants": [
+        "刂"
+      ]
     },
     {
       "char": "力",
@@ -154,7 +158,7 @@
     },
     {
       "char": "勹",
-      "meaning_vi": "ba",
+      "meaning_vi": "Bao bọc",
       "name_vi": "Bao",
       "number": 20,
       "strokes": 2,
@@ -274,7 +278,7 @@
     },
     {
       "char": "夊",
-      "meaning_vi": "Đia chậm",
+      "meaning_vi": "Đi chậm",
       "name_vi": "Truy",
       "number": 35,
       "strokes": 3,
@@ -322,7 +326,7 @@
     },
     {
       "char": "寸",
-      "meaning_vi": "Đơn vị",
+      "meaning_vi": "Tấc (đơn vị đo), đo lường",
       "name_vi": "Thốn",
       "number": 41,
       "strokes": 3,
@@ -462,7 +466,9 @@
       "name_vi": "Kệ",
       "number": 58,
       "strokes": 3,
-      "variants": []
+      "variants": [
+        "⺕"
+      ]
     },
     {
       "char": "彡",
@@ -486,7 +492,9 @@
       "name_vi": "Tâm",
       "number": 61,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "忄"
+      ]
     },
     {
       "char": "戈",
@@ -499,10 +507,12 @@
     {
       "char": "戶",
       "meaning_vi": "Cửa một cánh",
-      "name_vi": "Hộ 6",
+      "name_vi": "Hộ",
       "number": 63,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "戸"
+      ]
     },
     {
       "char": "手",
@@ -510,7 +520,9 @@
       "name_vi": "Thủ",
       "number": 64,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "扌"
+      ]
     },
     {
       "char": "支",
@@ -526,7 +538,9 @@
       "name_vi": "Phộc",
       "number": 66,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "攵"
+      ]
     },
     {
       "char": "文",
@@ -539,7 +553,7 @@
     {
       "char": "斗",
       "meaning_vi": "Cái đấu để đong",
-      "name_vi": "Đầu 7",
+      "name_vi": "Đẩu",
       "number": 68,
       "strokes": 4,
       "variants": []
@@ -555,7 +569,7 @@
     {
       "char": "方",
       "meaning_vi": "Vuông",
-      "name_vi": "Phương 9",
+      "name_vi": "Phương",
       "number": 70,
       "strokes": 4,
       "variants": []
@@ -610,7 +624,7 @@
     },
     {
       "char": "止",
-      "meaning_vi": "Dừng lai",
+      "meaning_vi": "Dừng lại",
       "name_vi": "Chỉ",
       "number": 77,
       "strokes": 4,
@@ -678,7 +692,10 @@
       "name_vi": "Thủy",
       "number": 85,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "氵",
+        "氺"
+      ]
     },
     {
       "char": "火",
@@ -686,7 +703,9 @@
       "name_vi": "Hỏa",
       "number": 86,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "灬"
+      ]
     },
     {
       "char": "爪",
@@ -694,7 +713,9 @@
       "name_vi": "Trảo",
       "number": 87,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "爫"
+      ]
     },
     {
       "char": "父",
@@ -752,7 +773,9 @@
       "name_vi": "Khuyển",
       "number": 94,
       "strokes": 4,
-      "variants": []
+      "variants": [
+        "犭"
+      ]
     },
     {
       "char": "玄",
@@ -768,7 +791,9 @@
       "name_vi": "Ngọc",
       "number": 96,
       "strokes": 5,
-      "variants": []
+      "variants": [
+        "王"
+      ]
     },
     {
       "char": "瓜",
@@ -796,7 +821,7 @@
     },
     {
       "char": "生",
-      "meaning_vi": "Sinh đẻ, sinh sốn",
+      "meaning_vi": "Sinh đẻ, sinh sống",
       "name_vi": "Sinh",
       "number": 100,
       "strokes": 5,
@@ -824,9 +849,7 @@
       "name_vi": "Thất",
       "number": 103,
       "strokes": 5,
-      "variants": [
-        "匹"
-      ]
+      "variants": []
     },
     {
       "char": "疒",
@@ -912,7 +935,7 @@
     },
     {
       "char": "禸",
-      "meaning_vi": "Vất chân, lốt chân",
+      "meaning_vi": "Vết chân, lốt chân",
       "name_vi": "Nhựu",
       "number": 114,
       "strokes": 5,
@@ -983,12 +1006,14 @@
       "name_vi": "Võng",
       "number": 122,
       "strokes": 6,
-      "variants": []
+      "variants": [
+        "罒"
+      ]
     },
     {
       "char": "羊",
       "meaning_vi": "Con dê",
-      "name_vi": "dương",
+      "name_vi": "Dương",
       "number": 123,
       "strokes": 6,
       "variants": []
@@ -1007,7 +1032,9 @@
       "name_vi": "Lão",
       "number": 125,
       "strokes": 6,
-      "variants": []
+      "variants": [
+        "耂"
+      ]
     },
     {
       "char": "而",
@@ -1019,7 +1046,7 @@
     },
     {
       "char": "耒",
-      "meaning_vi": "Cái này",
+      "meaning_vi": "Cái cày",
       "name_vi": "Lỗi",
       "number": 127,
       "strokes": 6,
@@ -1047,7 +1074,9 @@
       "name_vi": "Nhục",
       "number": 130,
       "strokes": 6,
-      "variants": []
+      "variants": [
+        "月"
+      ]
     },
     {
       "char": "臣",
@@ -1239,7 +1268,7 @@
     },
     {
       "char": "貝",
-      "meaning_vi": "Vật báu",
+      "meaning_vi": "Vỏ sò; tiền, vật báu (thời xưa dùng vỏ sò làm tiền)",
       "name_vi": "Bối",
       "number": 154,
       "strokes": 7,
@@ -1291,7 +1320,7 @@
     },
     {
       "char": "辛",
-      "meaning_vi": "cay",
+      "meaning_vi": "Cay",
       "name_vi": "Tân",
       "number": 160,
       "strokes": 7,
@@ -1299,7 +1328,7 @@
     },
     {
       "char": "辰",
-      "meaning_vi": "Nhật, nguyệt, tinh, thin (12chi)",
+      "meaning_vi": "Thìn (địa chi thứ 5); nhật, nguyệt, tinh",
       "name_vi": "Thần",
       "number": 161,
       "strokes": 7,
@@ -1327,7 +1356,7 @@
     },
     {
       "char": "酉",
-      "meaning_vi": "Một trong 12 địa chi",
+      "meaning_vi": "Dậu (địa chi thứ 10); bình rượu",
       "name_vi": "Dậu",
       "number": 164,
       "strokes": 7,
@@ -1424,7 +1453,7 @@
     },
     {
       "char": "非",
-      "meaning_vi": "Không",
+      "meaning_vi": "Không phải, sai trái",
       "name_vi": "Phi",
       "number": 175,
       "strokes": 8,
@@ -1468,7 +1497,7 @@
     },
     {
       "char": "音",
-      "meaning_vi": "Âm thanh,, tiếng",
+      "meaning_vi": "Âm thanh, tiếng",
       "name_vi": "Âm",
       "number": 180,
       "strokes": 9,
@@ -1543,7 +1572,7 @@
       ]
     },
     {
-      "char": "骫",
+      "char": "骨",
       "meaning_vi": "Xương",
       "name_vi": "Cốt",
       "number": 188,
@@ -1584,7 +1613,7 @@
     },
     {
       "char": "鬲",
-      "meaning_vi": "Tên một con song xưa, cái đỉnh",
+      "meaning_vi": "Tên một con sông xưa; cái đỉnh (nồi ba chân)",
       "name_vi": "Cách",
       "number": 193,
       "strokes": 10,
@@ -1600,7 +1629,7 @@
     },
     {
       "char": "魚",
-      "meaning_vi": "con cá",
+      "meaning_vi": "Con cá",
       "name_vi": "Ngư",
       "number": 195,
       "strokes": 11,
@@ -1774,6 +1803,6 @@
       "variants": []
     }
   ],
-  "schema_version": 8,
+  "schema_version": 9,
   "source": "PDF 214 bộ thủ Kanji (tự tổng hợp)"
 }

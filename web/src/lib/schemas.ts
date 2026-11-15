@@ -71,7 +71,7 @@ export const vocabLesson = z.object({
 });
 
 // ---------------------------------------------------------------- Kanji & bộ thủ (KanjiFile / RadicalFile)
-export const KANJI_SCHEMA_VERSION = 8; // v8: n3_lessons; v7: story (mẹo nhớ), components (thành phần KanjiVG)
+export const KANJI_SCHEMA_VERSION = 9; // v9: radical_parts; v8: n3_lessons; v7: story (mẹo nhớ), components (thành phần KanjiVG)
 
 export const kanjiExample = z.object({
   word: z.string().min(1),
@@ -104,6 +104,7 @@ export const kanjiEntry = z.object({
   grade: z.number().int().nullable(),
   jlpt_old: z.number().int().nullable(),
   radical: z.number().int().min(1).max(214).nullable(),
+  radical_parts: z.array(z.number().int().min(1).max(214)).default([]),
   first_lesson: z.number().int().min(1).max(50).nullable(),
   n3_lesson: z.number().int().min(1).max(50).nullable().default(null),
   n4_lesson: z.number().int().min(1).max(50).nullable().default(null),

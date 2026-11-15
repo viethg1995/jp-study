@@ -1,30 +1,44 @@
 ---
-// Một bộ thủ: thông tin bộ + các chữ Hán trong dữ liệu thuộc bộ (chỉ tạo trang cho bộ có chữ).
+// Một bộ thủ: thông tin bộ + chữ Hán theo giáo trình Kanji (N5/N4/N3), chia 2 nhóm:
+// "Bộ chính của" (KANJIDIC2) và "Có mặt trong" (cây thành phần KanjiVG, tính sẵn ở pipeline: radical_parts).
+// Chữ chỉ có trong từ vựng xếp riêng, thu gọn. Lọc cấp bằng CSS :has() — không JS.
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
-import type { KanjiEntry, Radical } from "../../../content.config";
+import type { Radical } from "../../../content.config";
 import KanjiTile from "../../../components/kanji/KanjiTile.astro";
+import Segmented from "../../../components/ui/Segmented.astro";
 import Base from "../../../layouts/Base.astro";
+import { CURRICULUM_LEVELS, LEVEL_LABEL, type LevelGroup, type RadicalKanji, radicalKanji } from "../../../lib/radicals";
 import { clip } from "../../../lib/seo";
 
 export const getStaticPaths = (async () => {
   const radicals = (await getCollection("radicals")).map((r) => r.data);
   const kanji = (await getCollection("kanji")).map((k) => k.data);
   return radicals
-    .map((r) => ({ r, items: kanji.filter((k) => k.radical === r.number) }))
-    .filter((x) => x.items.length > 0)
+    .map((r) => ({ r, data: radicalKanji(r.number, kanji) }))
+    .filter((x) => x.data.total > 0 || x.data.other.length > 0)
     .map((x) => ({ params: { number: String(x.r.number) }, props: x }));
 }) satisfies GetStaticPaths;
 
 interface Props {
   r: Radical;
-  items: KanjiEntry[];
+  data: RadicalKanji;
 }
-const { r, items } = Astro.props;
+const { r, data } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const levels = CURRICULUM_LEVELS.filter((lv) => [...data.primary, ...data.parts].some((g) => g.level === lv));
+const count = (groups: LevelGroup[]) => groups.reduce((n, g) => n + g.items.length, 0);
+const sample = [...data.primary, ...data.parts].flatMap((g) => g.items).slice(0, 12).map((k) => k.char).join(" ");
+const sections = [
+  { key: "primary", title: "Bộ chính của", note: "chữ được tra theo bộ này trong từ điển", groups: data.primary },
+  { key: "parts", title: "Có mặt trong", note: "bộ xuất hiện ở một phần của chữ", groups: data.parts },
+].filter((s) => s.groups.length > 0);
 ---
 
-<Base title={`Bộ ${r.name_vi} ${r.char}`} description={clip(`Bộ thủ ${r.char} ${r.name_vi}${r.meaning_vi ? ` (${r.meaning_vi})` : ""} — bộ số ${r.number}, ${r.strokes} nét. ${items.length} chữ Hán thuộc bộ: ${items.slice(0, 12).map((k) => k.char).join(" ")}.`)}>
+<Base
+  title={`Bộ ${r.name_vi} ${r.char}`}
+  description={clip(`Bộ thủ ${r.char} ${r.name_vi}${r.meaning_vi ? ` (${r.meaning_vi})` : ""} — bộ số ${r.number}, ${r.strokes} nét. ${data.total} chữ Hán trong giáo trình N5–N3 có bộ này${sample ? `: ${sample}` : ""}.`)}
+>
   <nav slot="header" class="ml-auto text-sm">
     <a href={`${base}/kanji/bo-thu/#net-${r.strokes}`} class="rounded px-2 py-1 text-primary hover:bg-primary-soft">← Bộ thủ</a>
   </nav>
@@ -43,11 +57,77 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     </div>
   </header>
 
-  <h2 class="mt-6 text-lg font-bold">
-    Chữ Hán thuộc bộ <span class="jp" lang="ja">{r.char}</span>
-    <span class="text-sm font-normal text-ink-faint">· {items.length} chữ</span>
-  </h2>
-  <ul class="mt-3 grid grid-cols-[repeat(auto-fill,minmax(4.25rem,1fr))] gap-2">
-    {items.map((k) => <li><KanjiTile kanji={k} href={`${base}/kanji/${k.char}/`} /></li>)}
-  </ul>
+  <div id="rad-root">
+    {
+      data.total > 0 && (
+        <>
+          <p class="mt-6 text-sm text-ink-muted">
+            {data.total} chữ trong giáo trình Kanji N5–N3 có bộ <span class="jp" lang="ja">{r.char}</span>.
+          </p>
+          {levels.length > 1 && (
+            <div class="mt-3 text-sm">
+              <Segmented
+                name="rad-level"
+                label="Cấp"
+                checked="rl-all"
+                options={[{ id: "rl-all", label: "Tất cả" }, ...levels.map((lv) => ({ id: `rl-${lv}`, label: LEVEL_LABEL[lv] }))]}
+              />
+            </div>
+          )}
+        </>
+      )
+    }
+
+    {
+      sections.map((s) => (
+        <section class="rsec mt-6" aria-label={s.title}>
+          <h2 class="text-lg font-bold">
+            {s.title} <span class="text-sm font-normal text-ink-faint">· {count(s.groups)} chữ · {s.note}</span>
+          </h2>
+          {s.groups.map((g) => (
+            <div class="lvg mt-3" data-lv={g.level}>
+              <h3 class="text-sm font-semibold text-ink-muted">
+                {LEVEL_LABEL[g.level]} <span class="font-normal text-ink-faint">· {g.items.length} chữ</span>
+              </h3>
+              <ul class="mt-2 grid grid-cols-[repeat(auto-fill,minmax(4.25rem,1fr))] gap-2">
+                {g.items.map((k) => (
+                  <li>
+                    <KanjiTile kanji={k} href={`${base}/kanji/${k.char}/`} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))
+    }
+
+    {
+      data.other.length > 0 && (
+        <details class="mt-8 rounded-lg border border-line bg-surface p-4">
+          <summary class="cursor-pointer text-sm font-semibold text-ink-muted">
+            Chữ khác chỉ có trong từ vựng · {data.other.length} chữ
+          </summary>
+          <ul class="mt-3 grid grid-cols-[repeat(auto-fill,minmax(4.25rem,1fr))] gap-2">
+            {data.other.map((k) => (
+              <li>
+                <KanjiTile kanji={k} href={`${base}/kanji/${k.char}/`} />
+              </li>
+            ))}
+          </ul>
+        </details>
+      )
+    }
+  </div>
 </Base>
+
+<style is:global>
+  #rad-root:has(#rl-n5:checked) .lvg:not([data-lv="n5"]),
+  #rad-root:has(#rl-n4:checked) .lvg:not([data-lv="n4"]),
+  #rad-root:has(#rl-n3:checked) .lvg:not([data-lv="n3"]),
+  #rad-root:has(#rl-n5:checked) .rsec:not(:has([data-lv="n5"])),
+  #rad-root:has(#rl-n4:checked) .rsec:not(:has([data-lv="n4"])),
+  #rad-root:has(#rl-n3:checked) .rsec:not(:has([data-lv="n3"])) {
+    display: none;
+  }
+</style>

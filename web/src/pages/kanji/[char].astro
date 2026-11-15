@@ -10,6 +10,7 @@ import type { KanjiComponent, KanjiEntry, KanjiStroke, Radical, VocabEntry } fro
 import Base from "../../layouts/Base.astro";
 import { clip } from "../../lib/seo";
 import { kanjiNavs, kunDisplay, n3VocabLessonMap, type KanjiNav, type KanjiNavLink } from "../../lib/kanji";
+import { radicalKanji } from "../../lib/radicals";
 
 export const getStaticPaths = (async () => {
   const kanji = (await getCollection("kanji")).map((k) => k.data);
@@ -19,6 +20,13 @@ export const getStaticPaths = (async () => {
   for (const l of [...(await getCollection("vocabulary")), ...(await getCollection("vocabularyN3"))]) {
     for (const e of l.data.entries) vocab.set(e.id, e);
   }
+  // Bộ có trang /kanji/bo-thu/<số>/ (cùng điều kiện với getStaticPaths ở trang bộ thủ)
+  const radicalPages = new Set(
+    [...radicals.keys()].filter((n) => {
+      const d = radicalKanji(n, kanji);
+      return d.total > 0 || d.other.length > 0;
+    }),
+  );
   const navs = kanjiNavs(kanji, n3VocabLessonMap(kanji, (await getCollection("vocabularyN3")).map((l) => l.data)));
   return kanji.map((k) => ({
     params: { char: k.char },
@@ -27,6 +35,10 @@ export const getStaticPaths = (async () => {
       strokes: strokes.get(k.char)?.strokes ?? [],
       components: strokes.get(k.char)?.components ?? [],
       radical: k.radical !== null ? (radicals.get(k.radical) ?? null) : null,
+      parts: k.radical_parts
+        .filter((n) => n !== k.radical && radicalPages.has(n))
+        .map((n) => radicals.get(n))
+        .filter((r): r is Radical => r !== undefined),
       words: k.vocab_refs.map((id) => vocab.get(id)).filter((e): e is VocabEntry => e !== undefined),
       navs: navs.get(k.char) ?? [],
     },
@@ -36,12 +48,13 @@ export const getStaticPaths = (async () => {
 interface Props {
   k: KanjiEntry;
   radical: Radical | null;
+  parts: Radical[]; // bộ thủ khác có trong chữ (radical_parts trừ bộ chính, chỉ bộ có trang)
   strokes: KanjiStroke[];
   components: KanjiComponent[];
   words: VocabEntry[];
   navs: KanjiNav[]; // ngữ cảnh danh sách chứa chữ; [0] mặc định, script chọn theo ?ds=
 }
-const { k, radical, strokes, components, words, navs } = Astro.props;
+const { k, radical, parts, strokes, components, words, navs } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const nav = navs[0] ?? null;
 const navHref = (l: KanjiNavLink): string => `${base}/kanji/${l.char}/?ds=${l.key}`;
@@ -137,6 +150,23 @@ const description = clip(
                   </a>
                   {radical.meaning_vi && <span class="text-ink-muted"> ({radical.meaning_vi})</span>}
                   <span class="text-ink-faint"> · bộ số {radical.number}, {radical.strokes} nét</span>
+                </dd>
+              </>
+            )
+          }
+          {
+            parts.length > 0 && (
+              <>
+                <dt class="text-ink-faint">Có bộ</dt>
+                <dd class="text-ink">
+                  {parts.map((p, i) => (
+                    <>
+                      {i > 0 && <span class="text-ink-faint"> · </span>}
+                      <a href={`${base}/kanji/bo-thu/${p.number}/`} class="text-primary hover:underline" title={p.meaning_vi ?? undefined}>
+                        <span class="jp" lang="ja">{p.char}</span> {p.name_vi}
+                      </a>
+                    </>
+                  ))}
                 </dd>
               </>
             )
