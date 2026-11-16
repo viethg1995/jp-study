@@ -1,6 +1,6 @@
 import pytest
 
-from jp_pipeline.transform.conjugation import conjugate, first_kanji, to_ruby
+from jp_pipeline.transform.conjugation import conjugate, first_kanji, identity_kanji, to_ruby
 
 
 def forms(kind: str, kana: str, kanji: str | None = None, dictionary_form: bool = False) -> dict[str, str]:
@@ -73,3 +73,14 @@ def test_adjectives_and_noun() -> None:
 def test_first_kanji_and_ruby() -> None:
     assert first_kanji("速い, 早い") == "速い" and first_kanji("治ります、直ります") == "治ります"
     assert to_ruby("書きます", "よみます") is None
+
+
+def test_identity_kanji_for_merging() -> None:
+    # cùng từ (Minna thể ます ↔ N3 thể từ điển, tính từ な có/không な) → cùng chữ → được gộp
+    assert identity_kanji("起きます") == identity_kanji("起きる") == "起"
+    assert identity_kanji("大変") == identity_kanji("大変な") == "大変"
+    assert identity_kanji("間に合います") == identity_kanji("間に合う") == "間合"
+    assert identity_kanji("治ります、直ります") == identity_kanji("治る")
+    # từ khác chữ / một bên chỉ có kana → khác khóa, không gộp
+    assert identity_kanji("点けます") != identity_kanji("付けます")
+    assert identity_kanji(None) is None and identity_kanji("掛けます") == "掛"

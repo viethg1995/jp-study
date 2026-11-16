@@ -79,6 +79,15 @@ def first_kanji(kanji: str | None) -> str | None:
     return re.split(r"[,、]\s*", kanji)[0].strip() or None
 
 
+def identity_kanji(kanji: str | None) -> str | None:
+    """Chữ Hán của cách viết đầu, bỏ kana — nhận diện "cùng một từ" khi gộp trùng, không phụ thuộc `display`:
+    '起きます' / '起きる' → '起'; '大変な' → '大変'; '点けます' → '点' ≠ '付けます' → '付'; None (từ chỉ có kana) → None."""
+    first = first_kanji(kanji)
+    if first is None:
+        return None
+    return re.sub(r"[぀-ヿ～〜\s]", "", first) or None  # bỏ hiragana + katakana
+
+
 def masu_stem(kind: str, kana: str, kanji: str | None, dictionary_form: bool) -> tuple[str, str | None]:
     """→ (thân ます kana, thân ます chữ Hán). Minna ghi thể ます; N3 ghi thể từ điển (さます 冷ます là thể từ điển!)."""
     if not dictionary_form:
@@ -306,7 +315,9 @@ def build_conjugation(vocab: list, spec: dict) -> tuple[object, ConjReport]:  # 
     )
 
     rep = ConjReport(no_ruby=[])
-    seen: dict[tuple[str, str, str | None], str] = {}  # khóa → vocab_id đầu tiên
+    # khóa → vocab_id đầu tiên. Có cả identity_kanji: từ hiển thị kana (display=kana → base_kanji None) mà khác chữ
+    # thì là từ khác (つけます 点 ≠ 付, かけます [gọi điện] ≠ 掛けます [đeo kính], つきます [đèn sáng] ≠ 吐きます)
+    seen: dict[tuple[str, str, str | None, str | None], str] = {}
     aliases: dict[str, list[str]] = {}
     by_key: dict[tuple[str, str], list[ConjEntry]] = {}  # (loại, kana gốc) → entries, để giải ví dụ
     entries: list[ConjEntry] = []
@@ -314,7 +325,7 @@ def build_conjugation(vocab: list, spec: dict) -> tuple[object, ConjReport]:  # 
     def make(e, kind: str) -> ConjEntry | None:  # type: ignore[no-untyped-def]
         kanji = first_kanji(e.kanji) if e.display == "kanji" else None
         base_kana, base_kanji, forms = conjugate(kind, e.kana, kanji, dictionary_form=e.book == "n3")
-        key = (kind, base_kana, base_kanji)
+        key = (kind, base_kana, base_kanji, identity_kanji(e.kanji))
         if key in seen:
             rep.duplicates += 1
             aliases.setdefault(seen[key], []).append(e.id)

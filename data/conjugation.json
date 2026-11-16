@@ -4306,9 +4306,7 @@
       "vocab_id": "mn-07-008"
     },
     {
-      "aliases": [
-        "mn-22-004"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -11217,9 +11215,7 @@
       "vocab_id": "mn-13-012"
     },
     {
-      "aliases": [
-        "mn-34-005"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -19199,9 +19195,7 @@
       "vocab_id": "mn-17-017"
     },
     {
-      "aliases": [
-        "mn-27-005"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -23442,9 +23436,7 @@
       "vocab_id": "mn-21-010"
     },
     {
-      "aliases": [
-        "n3-224"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -23638,9 +23630,7 @@
       "vocab_id": "mn-21-012"
     },
     {
-      "aliases": [
-        "n3-445"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -24187,6 +24177,159 @@
       "meaning_vi": "đội [mũ, v.v.]",
       "ruby": "かぶります",
       "vocab_id": "mn-22-003"
+    },
+    {
+      "aliases": [],
+      "book": "minna",
+      "forms": [
+        {
+          "form": "masu",
+          "irregular": false,
+          "kana": "かけます",
+          "ruby": "かけます",
+          "rule": "thân ます + ます"
+        },
+        {
+          "form": "masen",
+          "irregular": false,
+          "kana": "かけません",
+          "ruby": "かけません",
+          "rule": "thân ます + ません"
+        },
+        {
+          "form": "mashita",
+          "irregular": false,
+          "kana": "かけました",
+          "ruby": "かけました",
+          "rule": "thân ます + ました"
+        },
+        {
+          "form": "masendeshita",
+          "irregular": false,
+          "kana": "かけませんでした",
+          "ruby": "かけませんでした",
+          "rule": "thân ます + ませんでした"
+        },
+        {
+          "form": "mashou",
+          "irregular": false,
+          "kana": "かけましょう",
+          "ruby": "かけましょう",
+          "rule": "thân ます + ましょう"
+        },
+        {
+          "form": "tai",
+          "irregular": false,
+          "kana": "かけたい",
+          "ruby": "かけたい",
+          "rule": "thân ます + たい"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "かけて",
+          "ruby": "かけて",
+          "rule": "thân ます + て"
+        },
+        {
+          "form": "nai",
+          "irregular": false,
+          "kana": "かけない",
+          "ruby": "かけない",
+          "rule": "thân ます + ない"
+        },
+        {
+          "form": "nakatta",
+          "irregular": false,
+          "kana": "かけなかった",
+          "ruby": "かけなかった",
+          "rule": "thân ます + なかった"
+        },
+        {
+          "form": "dict",
+          "irregular": false,
+          "kana": "かける",
+          "ruby": "かける",
+          "rule": "thân ます + る"
+        },
+        {
+          "form": "ta",
+          "irregular": false,
+          "kana": "かけた",
+          "ruby": "かけた",
+          "rule": "thân ます + た"
+        },
+        {
+          "form": "tara",
+          "irregular": false,
+          "kana": "かけたら",
+          "ruby": "かけたら",
+          "rule": "thân ます + たら"
+        },
+        {
+          "form": "potential",
+          "irregular": false,
+          "kana": "かけられる",
+          "ruby": "かけられる",
+          "rule": "thân ます + られる"
+        },
+        {
+          "form": "volitional",
+          "irregular": false,
+          "kana": "かけよう",
+          "ruby": "かけよう",
+          "rule": "thân ます + よう"
+        },
+        {
+          "form": "imperative",
+          "irregular": false,
+          "kana": "かけろ",
+          "ruby": "かけろ",
+          "rule": "thân ます + ろ"
+        },
+        {
+          "form": "prohibitive",
+          "irregular": false,
+          "kana": "かけるな",
+          "ruby": "かけるな",
+          "rule": "thân ます + るな"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "かければ",
+          "ruby": "かければ",
+          "rule": "thân ます + れば"
+        },
+        {
+          "form": "passive",
+          "irregular": false,
+          "kana": "かけられる",
+          "ruby": "かけられる",
+          "rule": "thân ます + られる"
+        },
+        {
+          "form": "causative",
+          "irregular": false,
+          "kana": "かけさせる",
+          "ruby": "かけさせる",
+          "rule": "thân ます + させる"
+        },
+        {
+          "form": "causative_passive",
+          "irregular": false,
+          "kana": "かけさせられる",
+          "ruby": "かけさせられる",
+          "rule": "thân ます + させられる"
+        }
+      ],
+      "han_viet": "QUẢI",
+      "kana": "かけます",
+      "kind": "V2",
+      "lesson": 22,
+      "meaning_vi": "đeo [kính]",
+      "ruby": "かけます",
+      "vocab_id": "mn-22-004"
     },
     {
       "aliases": [
@@ -28747,6 +28890,152 @@
         {
           "form": "masu",
           "irregular": false,
+          "kana": "できます",
+          "ruby": "できます",
+          "rule": "thân ます + ます"
+        },
+        {
+          "form": "masen",
+          "irregular": false,
+          "kana": "できません",
+          "ruby": "できません",
+          "rule": "thân ます + ません"
+        },
+        {
+          "form": "mashita",
+          "irregular": false,
+          "kana": "できました",
+          "ruby": "できました",
+          "rule": "thân ます + ました"
+        },
+        {
+          "form": "masendeshita",
+          "irregular": false,
+          "kana": "できませんでした",
+          "ruby": "できませんでした",
+          "rule": "thân ます + ませんでした"
+        },
+        {
+          "form": "mashou",
+          "irregular": false,
+          "kana": "できましょう",
+          "ruby": "できましょう",
+          "rule": "thân ます + ましょう"
+        },
+        {
+          "form": "tai",
+          "irregular": false,
+          "kana": "できたい",
+          "ruby": "できたい",
+          "rule": "thân ます + たい"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "できて",
+          "ruby": "できて",
+          "rule": "thân ます + て"
+        },
+        {
+          "form": "nai",
+          "irregular": false,
+          "kana": "できない",
+          "ruby": "できない",
+          "rule": "thân ます + ない"
+        },
+        {
+          "form": "nakatta",
+          "irregular": false,
+          "kana": "できなかった",
+          "ruby": "できなかった",
+          "rule": "thân ます + なかった"
+        },
+        {
+          "form": "dict",
+          "irregular": false,
+          "kana": "できる",
+          "ruby": "できる",
+          "rule": "thân ます + る"
+        },
+        {
+          "form": "ta",
+          "irregular": false,
+          "kana": "できた",
+          "ruby": "できた",
+          "rule": "thân ます + た"
+        },
+        {
+          "form": "tara",
+          "irregular": false,
+          "kana": "できたら",
+          "ruby": "できたら",
+          "rule": "thân ます + たら"
+        },
+        {
+          "form": "volitional",
+          "irregular": false,
+          "kana": "できよう",
+          "ruby": "できよう",
+          "rule": "thân ます + よう"
+        },
+        {
+          "form": "imperative",
+          "irregular": false,
+          "kana": "できろ",
+          "ruby": "できろ",
+          "rule": "thân ます + ろ"
+        },
+        {
+          "form": "prohibitive",
+          "irregular": false,
+          "kana": "できるな",
+          "ruby": "できるな",
+          "rule": "thân ます + るな"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "できれば",
+          "ruby": "できれば",
+          "rule": "thân ます + れば"
+        },
+        {
+          "form": "passive",
+          "irregular": false,
+          "kana": "できられる",
+          "ruby": "できられる",
+          "rule": "thân ます + られる"
+        },
+        {
+          "form": "causative",
+          "irregular": false,
+          "kana": "できさせる",
+          "ruby": "できさせる",
+          "rule": "thân ます + させる"
+        },
+        {
+          "form": "causative_passive",
+          "irregular": false,
+          "kana": "できさせられる",
+          "ruby": "できさせられる",
+          "rule": "thân ます + させられる"
+        }
+      ],
+      "han_viet": null,
+      "kana": "できます",
+      "kind": "V2",
+      "lesson": 27,
+      "meaning_vi": "được xây dựng lên, hoàn thành [con đường～]",
+      "ruby": "できます",
+      "vocab_id": "mn-27-005"
+    },
+    {
+      "aliases": [],
+      "book": "minna",
+      "forms": [
+        {
+          "form": "masu",
+          "irregular": false,
           "kana": "ひらきます",
           "ruby": "{開|ひら}きます",
           "rule": "thân ます + ます"
@@ -30503,9 +30792,7 @@
       "vocab_id": "mn-29-002"
     },
     {
-      "aliases": [
-        "mn-38-009"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -32508,9 +32795,7 @@
       "vocab_id": "mn-29-015"
     },
     {
-      "aliases": [
-        "n3-154"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -33891,9 +34176,7 @@
       "vocab_id": "mn-30-006"
     },
     {
-      "aliases": [
-        "n3-609"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -40415,6 +40698,159 @@
         {
           "form": "masu",
           "irregular": false,
+          "kana": "つけます",
+          "ruby": "つけます",
+          "rule": "thân ます + ます"
+        },
+        {
+          "form": "masen",
+          "irregular": false,
+          "kana": "つけません",
+          "ruby": "つけません",
+          "rule": "thân ます + ません"
+        },
+        {
+          "form": "mashita",
+          "irregular": false,
+          "kana": "つけました",
+          "ruby": "つけました",
+          "rule": "thân ます + ました"
+        },
+        {
+          "form": "masendeshita",
+          "irregular": false,
+          "kana": "つけませんでした",
+          "ruby": "つけませんでした",
+          "rule": "thân ます + ませんでした"
+        },
+        {
+          "form": "mashou",
+          "irregular": false,
+          "kana": "つけましょう",
+          "ruby": "つけましょう",
+          "rule": "thân ます + ましょう"
+        },
+        {
+          "form": "tai",
+          "irregular": false,
+          "kana": "つけたい",
+          "ruby": "つけたい",
+          "rule": "thân ます + たい"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "つけて",
+          "ruby": "つけて",
+          "rule": "thân ます + て"
+        },
+        {
+          "form": "nai",
+          "irregular": false,
+          "kana": "つけない",
+          "ruby": "つけない",
+          "rule": "thân ます + ない"
+        },
+        {
+          "form": "nakatta",
+          "irregular": false,
+          "kana": "つけなかった",
+          "ruby": "つけなかった",
+          "rule": "thân ます + なかった"
+        },
+        {
+          "form": "dict",
+          "irregular": false,
+          "kana": "つける",
+          "ruby": "つける",
+          "rule": "thân ます + る"
+        },
+        {
+          "form": "ta",
+          "irregular": false,
+          "kana": "つけた",
+          "ruby": "つけた",
+          "rule": "thân ます + た"
+        },
+        {
+          "form": "tara",
+          "irregular": false,
+          "kana": "つけたら",
+          "ruby": "つけたら",
+          "rule": "thân ます + たら"
+        },
+        {
+          "form": "potential",
+          "irregular": false,
+          "kana": "つけられる",
+          "ruby": "つけられる",
+          "rule": "thân ます + られる"
+        },
+        {
+          "form": "volitional",
+          "irregular": false,
+          "kana": "つけよう",
+          "ruby": "つけよう",
+          "rule": "thân ます + よう"
+        },
+        {
+          "form": "imperative",
+          "irregular": false,
+          "kana": "つけろ",
+          "ruby": "つけろ",
+          "rule": "thân ます + ろ"
+        },
+        {
+          "form": "prohibitive",
+          "irregular": false,
+          "kana": "つけるな",
+          "ruby": "つけるな",
+          "rule": "thân ます + るな"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "つければ",
+          "ruby": "つければ",
+          "rule": "thân ます + れば"
+        },
+        {
+          "form": "passive",
+          "irregular": false,
+          "kana": "つけられる",
+          "ruby": "つけられる",
+          "rule": "thân ます + られる"
+        },
+        {
+          "form": "causative",
+          "irregular": false,
+          "kana": "つけさせる",
+          "ruby": "つけさせる",
+          "rule": "thân ます + させる"
+        },
+        {
+          "form": "causative_passive",
+          "irregular": false,
+          "kana": "つけさせられる",
+          "ruby": "つけさせられる",
+          "rule": "thân ます + させられる"
+        }
+      ],
+      "han_viet": "PHÓ",
+      "kana": "つけます",
+      "kind": "V2",
+      "lesson": 34,
+      "meaning_vi": "chấm [xì-dầu]",
+      "ruby": "つけます",
+      "vocab_id": "mn-34-005"
+    },
+    {
+      "aliases": [],
+      "book": "minna",
+      "forms": [
+        {
+          "form": "masu",
+          "irregular": false,
           "kana": "みつかります",
           "ruby": "{見|み}つかります",
           "rule": "thân ます + ます"
@@ -45870,6 +46306,159 @@
       "meaning_vi": "xuất viện",
       "ruby": "{退院|たいいん}します",
       "vocab_id": "mn-38-005"
+    },
+    {
+      "aliases": [],
+      "book": "minna",
+      "forms": [
+        {
+          "form": "masu",
+          "irregular": false,
+          "kana": "つきます",
+          "ruby": "つきます",
+          "rule": "thân ます + ます"
+        },
+        {
+          "form": "masen",
+          "irregular": false,
+          "kana": "つきません",
+          "ruby": "つきません",
+          "rule": "thân ます + ません"
+        },
+        {
+          "form": "mashita",
+          "irregular": false,
+          "kana": "つきました",
+          "ruby": "つきました",
+          "rule": "thân ます + ました"
+        },
+        {
+          "form": "masendeshita",
+          "irregular": false,
+          "kana": "つきませんでした",
+          "ruby": "つきませんでした",
+          "rule": "thân ます + ませんでした"
+        },
+        {
+          "form": "mashou",
+          "irregular": false,
+          "kana": "つきましょう",
+          "ruby": "つきましょう",
+          "rule": "thân ます + ましょう"
+        },
+        {
+          "form": "tai",
+          "irregular": false,
+          "kana": "つきたい",
+          "ruby": "つきたい",
+          "rule": "thân ます + たい"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "ついて",
+          "ruby": "ついて",
+          "rule": "き → いて"
+        },
+        {
+          "form": "nai",
+          "irregular": false,
+          "kana": "つかない",
+          "ruby": "つかない",
+          "rule": "き → か + ない"
+        },
+        {
+          "form": "nakatta",
+          "irregular": false,
+          "kana": "つかなかった",
+          "ruby": "つかなかった",
+          "rule": "き → か + なかった"
+        },
+        {
+          "form": "dict",
+          "irregular": false,
+          "kana": "つく",
+          "ruby": "つく",
+          "rule": "き → く"
+        },
+        {
+          "form": "ta",
+          "irregular": false,
+          "kana": "ついた",
+          "ruby": "ついた",
+          "rule": "き → いた"
+        },
+        {
+          "form": "tara",
+          "irregular": false,
+          "kana": "ついたら",
+          "ruby": "ついたら",
+          "rule": "thể た + ら"
+        },
+        {
+          "form": "potential",
+          "irregular": false,
+          "kana": "つける",
+          "ruby": "つける",
+          "rule": "き → け + る"
+        },
+        {
+          "form": "volitional",
+          "irregular": false,
+          "kana": "つこう",
+          "ruby": "つこう",
+          "rule": "き → こ + う"
+        },
+        {
+          "form": "imperative",
+          "irregular": false,
+          "kana": "つけ",
+          "ruby": "つけ",
+          "rule": "き → け"
+        },
+        {
+          "form": "prohibitive",
+          "irregular": false,
+          "kana": "つくな",
+          "ruby": "つくな",
+          "rule": "thể từ điển + な"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "つけば",
+          "ruby": "つけば",
+          "rule": "き → け + ば"
+        },
+        {
+          "form": "passive",
+          "irregular": false,
+          "kana": "つかれる",
+          "ruby": "つかれる",
+          "rule": "き → か + れる"
+        },
+        {
+          "form": "causative",
+          "irregular": false,
+          "kana": "つかせる",
+          "ruby": "つかせる",
+          "rule": "き → か + せる"
+        },
+        {
+          "form": "causative_passive",
+          "irregular": false,
+          "kana": "つかされる",
+          "ruby": "つかされる",
+          "rule": "き → か + される"
+        }
+      ],
+      "han_viet": "THỔ",
+      "kana": "つきます",
+      "kind": "V1",
+      "lesson": 38,
+      "meaning_vi": "nói dối",
+      "ruby": "つきます",
+      "vocab_id": "mn-38-009"
     },
     {
       "aliases": [],
@@ -53164,9 +53753,7 @@
       "vocab_id": "mn-43-011"
     },
     {
-      "aliases": [
-        "n3-428"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -57808,9 +58395,7 @@
       "vocab_id": "mn-47-007"
     },
     {
-      "aliases": [
-        "n3-446"
-      ],
+      "aliases": [],
       "book": "minna",
       "forms": [
         {
@@ -67463,6 +68048,159 @@
         {
           "form": "masu",
           "irregular": false,
+          "kana": "ふきます",
+          "ruby": "ふきます",
+          "rule": "thân ます + ます"
+        },
+        {
+          "form": "masen",
+          "irregular": false,
+          "kana": "ふきません",
+          "ruby": "ふきません",
+          "rule": "thân ます + ません"
+        },
+        {
+          "form": "mashita",
+          "irregular": false,
+          "kana": "ふきました",
+          "ruby": "ふきました",
+          "rule": "thân ます + ました"
+        },
+        {
+          "form": "masendeshita",
+          "irregular": false,
+          "kana": "ふきませんでした",
+          "ruby": "ふきませんでした",
+          "rule": "thân ます + ませんでした"
+        },
+        {
+          "form": "mashou",
+          "irregular": false,
+          "kana": "ふきましょう",
+          "ruby": "ふきましょう",
+          "rule": "thân ます + ましょう"
+        },
+        {
+          "form": "tai",
+          "irregular": false,
+          "kana": "ふきたい",
+          "ruby": "ふきたい",
+          "rule": "thân ます + たい"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "ふいて",
+          "ruby": "ふいて",
+          "rule": "き → いて"
+        },
+        {
+          "form": "nai",
+          "irregular": false,
+          "kana": "ふかない",
+          "ruby": "ふかない",
+          "rule": "き → か + ない"
+        },
+        {
+          "form": "nakatta",
+          "irregular": false,
+          "kana": "ふかなかった",
+          "ruby": "ふかなかった",
+          "rule": "き → か + なかった"
+        },
+        {
+          "form": "dict",
+          "irregular": false,
+          "kana": "ふく",
+          "ruby": "ふく",
+          "rule": "き → く"
+        },
+        {
+          "form": "ta",
+          "irregular": false,
+          "kana": "ふいた",
+          "ruby": "ふいた",
+          "rule": "き → いた"
+        },
+        {
+          "form": "tara",
+          "irregular": false,
+          "kana": "ふいたら",
+          "ruby": "ふいたら",
+          "rule": "thể た + ら"
+        },
+        {
+          "form": "potential",
+          "irregular": false,
+          "kana": "ふける",
+          "ruby": "ふける",
+          "rule": "き → け + る"
+        },
+        {
+          "form": "volitional",
+          "irregular": false,
+          "kana": "ふこう",
+          "ruby": "ふこう",
+          "rule": "き → こ + う"
+        },
+        {
+          "form": "imperative",
+          "irregular": false,
+          "kana": "ふけ",
+          "ruby": "ふけ",
+          "rule": "き → け"
+        },
+        {
+          "form": "prohibitive",
+          "irregular": false,
+          "kana": "ふくな",
+          "ruby": "ふくな",
+          "rule": "thể từ điển + な"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "ふけば",
+          "ruby": "ふけば",
+          "rule": "き → け + ば"
+        },
+        {
+          "form": "passive",
+          "irregular": false,
+          "kana": "ふかれる",
+          "ruby": "ふかれる",
+          "rule": "き → か + れる"
+        },
+        {
+          "form": "causative",
+          "irregular": false,
+          "kana": "ふかせる",
+          "ruby": "ふかせる",
+          "rule": "き → か + せる"
+        },
+        {
+          "form": "causative_passive",
+          "irregular": false,
+          "kana": "ふかされる",
+          "ruby": "ふかされる",
+          "rule": "き → か + される"
+        }
+      ],
+      "han_viet": null,
+      "kana": "ふきます",
+      "kind": "V1",
+      "lesson": 4,
+      "meaning_vi": "Lau",
+      "ruby": "ふきます",
+      "vocab_id": "n3-154"
+    },
+    {
+      "aliases": [],
+      "book": "n3",
+      "forms": [
+        {
+          "form": "masu",
+          "irregular": false,
           "kana": "かたづきます",
           "ruby": "{片付|かたづ}きます",
           "rule": "thân ます + ます"
@@ -72890,6 +73628,103 @@
       "meaning_vi": "Kì quái / Lạ khác thường",
       "ruby": "{不思議|ふしぎ}",
       "vocab_id": "n3-223"
+    },
+    {
+      "aliases": [],
+      "book": "n3",
+      "forms": [
+        {
+          "form": "da",
+          "irregular": false,
+          "kana": "むだだ",
+          "ruby": "むだだ",
+          "rule": "gốc + だ"
+        },
+        {
+          "form": "desu",
+          "irregular": false,
+          "kana": "むだです",
+          "ruby": "むだです",
+          "rule": "gốc + です"
+        },
+        {
+          "form": "attributive",
+          "irregular": false,
+          "kana": "むだな",
+          "ruby": "むだな",
+          "rule": "gốc + な"
+        },
+        {
+          "form": "neg",
+          "irregular": false,
+          "kana": "むだじゃない",
+          "ruby": "むだじゃない",
+          "rule": "gốc + じゃない"
+        },
+        {
+          "form": "neg_polite",
+          "irregular": false,
+          "kana": "むだじゃありません",
+          "ruby": "むだじゃありません",
+          "rule": "gốc + じゃありません"
+        },
+        {
+          "form": "past",
+          "irregular": false,
+          "kana": "むだだった",
+          "ruby": "むだだった",
+          "rule": "gốc + だった"
+        },
+        {
+          "form": "past_polite",
+          "irregular": false,
+          "kana": "むだでした",
+          "ruby": "むだでした",
+          "rule": "gốc + でした"
+        },
+        {
+          "form": "past_neg",
+          "irregular": false,
+          "kana": "むだじゃなかった",
+          "ruby": "むだじゃなかった",
+          "rule": "gốc + じゃなかった"
+        },
+        {
+          "form": "past_neg_polite",
+          "irregular": false,
+          "kana": "むだじゃありませんでした",
+          "ruby": "むだじゃありませんでした",
+          "rule": "gốc + じゃありませんでした"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "むだで",
+          "ruby": "むだで",
+          "rule": "gốc + で"
+        },
+        {
+          "form": "adverb",
+          "irregular": false,
+          "kana": "むだに",
+          "ruby": "むだに",
+          "rule": "gốc + に"
+        },
+        {
+          "form": "nara",
+          "irregular": false,
+          "kana": "むだなら",
+          "ruby": "むだなら",
+          "rule": "gốc + なら"
+        }
+      ],
+      "han_viet": null,
+      "kana": "むだ",
+      "kind": "An",
+      "lesson": 5,
+      "meaning_vi": "Vô ích / Lãng phí",
+      "ruby": "むだ",
+      "vocab_id": "n3-224"
     },
     {
       "aliases": [],
@@ -82944,6 +83779,96 @@
         {
           "form": "plain",
           "irregular": false,
+          "kana": "うまい",
+          "ruby": "うまい",
+          "rule": "giữ nguyên い"
+        },
+        {
+          "form": "desu",
+          "irregular": false,
+          "kana": "うまいです",
+          "ruby": "うまいです",
+          "rule": "い + です"
+        },
+        {
+          "form": "neg",
+          "irregular": false,
+          "kana": "うまくない",
+          "ruby": "うまくない",
+          "rule": "bỏ い + くない"
+        },
+        {
+          "form": "neg_polite",
+          "irregular": false,
+          "kana": "うまくないです",
+          "ruby": "うまくないです",
+          "rule": "bỏ い + くないです"
+        },
+        {
+          "form": "past",
+          "irregular": false,
+          "kana": "うまかった",
+          "ruby": "うまかった",
+          "rule": "bỏ い + かった"
+        },
+        {
+          "form": "past_polite",
+          "irregular": false,
+          "kana": "うまかったです",
+          "ruby": "うまかったです",
+          "rule": "bỏ い + かったです"
+        },
+        {
+          "form": "past_neg",
+          "irregular": false,
+          "kana": "うまくなかった",
+          "ruby": "うまくなかった",
+          "rule": "bỏ い + くなかった"
+        },
+        {
+          "form": "past_neg_polite",
+          "irregular": false,
+          "kana": "うまくなかったです",
+          "ruby": "うまくなかったです",
+          "rule": "bỏ い + くなかったです"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "うまくて",
+          "ruby": "うまくて",
+          "rule": "bỏ い + くて"
+        },
+        {
+          "form": "adverb",
+          "irregular": false,
+          "kana": "うまく",
+          "ruby": "うまく",
+          "rule": "bỏ い + く"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "うまければ",
+          "ruby": "うまければ",
+          "rule": "bỏ い + ければ"
+        }
+      ],
+      "han_viet": null,
+      "kana": "うまい",
+      "kind": "Ai",
+      "lesson": 9,
+      "meaning_vi": "Giỏi / Ngon",
+      "ruby": "うまい",
+      "vocab_id": "n3-428"
+    },
+    {
+      "aliases": [],
+      "book": "n3",
+      "forms": [
+        {
+          "form": "plain",
+          "irregular": false,
           "kana": "したしい",
           "ruby": "{親|した}しい",
           "rule": "giữ nguyên い"
@@ -84335,6 +85260,186 @@
       "meaning_vi": "Tiếc lãng phí",
       "ruby": "もったいない",
       "vocab_id": "n3-444"
+    },
+    {
+      "aliases": [],
+      "book": "n3",
+      "forms": [
+        {
+          "form": "plain",
+          "irregular": false,
+          "kana": "すごい",
+          "ruby": "すごい",
+          "rule": "giữ nguyên い"
+        },
+        {
+          "form": "desu",
+          "irregular": false,
+          "kana": "すごいです",
+          "ruby": "すごいです",
+          "rule": "い + です"
+        },
+        {
+          "form": "neg",
+          "irregular": false,
+          "kana": "すごくない",
+          "ruby": "すごくない",
+          "rule": "bỏ い + くない"
+        },
+        {
+          "form": "neg_polite",
+          "irregular": false,
+          "kana": "すごくないです",
+          "ruby": "すごくないです",
+          "rule": "bỏ い + くないです"
+        },
+        {
+          "form": "past",
+          "irregular": false,
+          "kana": "すごかった",
+          "ruby": "すごかった",
+          "rule": "bỏ い + かった"
+        },
+        {
+          "form": "past_polite",
+          "irregular": false,
+          "kana": "すごかったです",
+          "ruby": "すごかったです",
+          "rule": "bỏ い + かったです"
+        },
+        {
+          "form": "past_neg",
+          "irregular": false,
+          "kana": "すごくなかった",
+          "ruby": "すごくなかった",
+          "rule": "bỏ い + くなかった"
+        },
+        {
+          "form": "past_neg_polite",
+          "irregular": false,
+          "kana": "すごくなかったです",
+          "ruby": "すごくなかったです",
+          "rule": "bỏ い + くなかったです"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "すごくて",
+          "ruby": "すごくて",
+          "rule": "bỏ い + くて"
+        },
+        {
+          "form": "adverb",
+          "irregular": false,
+          "kana": "すごく",
+          "ruby": "すごく",
+          "rule": "bỏ い + く"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "すごければ",
+          "ruby": "すごければ",
+          "rule": "bỏ い + ければ"
+        }
+      ],
+      "han_viet": null,
+      "kana": "すごい",
+      "kind": "Ai",
+      "lesson": 9,
+      "meaning_vi": "Nồng nhiệt / Giỏi, ngầu / Cực kỳ, khủng khiếp",
+      "ruby": "すごい",
+      "vocab_id": "n3-445"
+    },
+    {
+      "aliases": [],
+      "book": "n3",
+      "forms": [
+        {
+          "form": "plain",
+          "irregular": false,
+          "kana": "ひどい",
+          "ruby": "ひどい",
+          "rule": "giữ nguyên い"
+        },
+        {
+          "form": "desu",
+          "irregular": false,
+          "kana": "ひどいです",
+          "ruby": "ひどいです",
+          "rule": "い + です"
+        },
+        {
+          "form": "neg",
+          "irregular": false,
+          "kana": "ひどくない",
+          "ruby": "ひどくない",
+          "rule": "bỏ い + くない"
+        },
+        {
+          "form": "neg_polite",
+          "irregular": false,
+          "kana": "ひどくないです",
+          "ruby": "ひどくないです",
+          "rule": "bỏ い + くないです"
+        },
+        {
+          "form": "past",
+          "irregular": false,
+          "kana": "ひどかった",
+          "ruby": "ひどかった",
+          "rule": "bỏ い + かった"
+        },
+        {
+          "form": "past_polite",
+          "irregular": false,
+          "kana": "ひどかったです",
+          "ruby": "ひどかったです",
+          "rule": "bỏ い + かったです"
+        },
+        {
+          "form": "past_neg",
+          "irregular": false,
+          "kana": "ひどくなかった",
+          "ruby": "ひどくなかった",
+          "rule": "bỏ い + くなかった"
+        },
+        {
+          "form": "past_neg_polite",
+          "irregular": false,
+          "kana": "ひどくなかったです",
+          "ruby": "ひどくなかったです",
+          "rule": "bỏ い + くなかったです"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "ひどくて",
+          "ruby": "ひどくて",
+          "rule": "bỏ い + くて"
+        },
+        {
+          "form": "adverb",
+          "irregular": false,
+          "kana": "ひどく",
+          "ruby": "ひどく",
+          "rule": "bỏ い + く"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "ひどければ",
+          "ruby": "ひどければ",
+          "rule": "bỏ い + ければ"
+        }
+      ],
+      "han_viet": null,
+      "kana": "ひどい",
+      "kind": "Ai",
+      "lesson": 9,
+      "meaning_vi": "Tệ, khủng khiếp / Tệ, không ra gì / Cực kỳ, khủng khiếp / Một ngày tồi tệ",
+      "ruby": "ひどい",
+      "vocab_id": "n3-446"
     },
     {
       "aliases": [],
@@ -94851,6 +95956,159 @@
       "meaning_vi": "Sắp xếp, để ngay ngắn / Tập trung (sẵn sàng, đầy đủ)",
       "ruby": "そろえます",
       "vocab_id": "n3-608"
+    },
+    {
+      "aliases": [],
+      "book": "n3",
+      "forms": [
+        {
+          "form": "masu",
+          "irregular": false,
+          "kana": "まとめます",
+          "ruby": "まとめます",
+          "rule": "thân ます + ます"
+        },
+        {
+          "form": "masen",
+          "irregular": false,
+          "kana": "まとめません",
+          "ruby": "まとめません",
+          "rule": "thân ます + ません"
+        },
+        {
+          "form": "mashita",
+          "irregular": false,
+          "kana": "まとめました",
+          "ruby": "まとめました",
+          "rule": "thân ます + ました"
+        },
+        {
+          "form": "masendeshita",
+          "irregular": false,
+          "kana": "まとめませんでした",
+          "ruby": "まとめませんでした",
+          "rule": "thân ます + ませんでした"
+        },
+        {
+          "form": "mashou",
+          "irregular": false,
+          "kana": "まとめましょう",
+          "ruby": "まとめましょう",
+          "rule": "thân ます + ましょう"
+        },
+        {
+          "form": "tai",
+          "irregular": false,
+          "kana": "まとめたい",
+          "ruby": "まとめたい",
+          "rule": "thân ます + たい"
+        },
+        {
+          "form": "te",
+          "irregular": false,
+          "kana": "まとめて",
+          "ruby": "まとめて",
+          "rule": "thân ます + て"
+        },
+        {
+          "form": "nai",
+          "irregular": false,
+          "kana": "まとめない",
+          "ruby": "まとめない",
+          "rule": "thân ます + ない"
+        },
+        {
+          "form": "nakatta",
+          "irregular": false,
+          "kana": "まとめなかった",
+          "ruby": "まとめなかった",
+          "rule": "thân ます + なかった"
+        },
+        {
+          "form": "dict",
+          "irregular": false,
+          "kana": "まとめる",
+          "ruby": "まとめる",
+          "rule": "thân ます + る"
+        },
+        {
+          "form": "ta",
+          "irregular": false,
+          "kana": "まとめた",
+          "ruby": "まとめた",
+          "rule": "thân ます + た"
+        },
+        {
+          "form": "tara",
+          "irregular": false,
+          "kana": "まとめたら",
+          "ruby": "まとめたら",
+          "rule": "thân ます + たら"
+        },
+        {
+          "form": "potential",
+          "irregular": false,
+          "kana": "まとめられる",
+          "ruby": "まとめられる",
+          "rule": "thân ます + られる"
+        },
+        {
+          "form": "volitional",
+          "irregular": false,
+          "kana": "まとめよう",
+          "ruby": "まとめよう",
+          "rule": "thân ます + よう"
+        },
+        {
+          "form": "imperative",
+          "irregular": false,
+          "kana": "まとめろ",
+          "ruby": "まとめろ",
+          "rule": "thân ます + ろ"
+        },
+        {
+          "form": "prohibitive",
+          "irregular": false,
+          "kana": "まとめるな",
+          "ruby": "まとめるな",
+          "rule": "thân ます + るな"
+        },
+        {
+          "form": "ba",
+          "irregular": false,
+          "kana": "まとめれば",
+          "ruby": "まとめれば",
+          "rule": "thân ます + れば"
+        },
+        {
+          "form": "passive",
+          "irregular": false,
+          "kana": "まとめられる",
+          "ruby": "まとめられる",
+          "rule": "thân ます + られる"
+        },
+        {
+          "form": "causative",
+          "irregular": false,
+          "kana": "まとめさせる",
+          "ruby": "まとめさせる",
+          "rule": "thân ます + させる"
+        },
+        {
+          "form": "causative_passive",
+          "irregular": false,
+          "kana": "まとめさせられる",
+          "ruby": "まとめさせられる",
+          "rule": "thân ます + させられる"
+        }
+      ],
+      "han_viet": null,
+      "kana": "まとめます",
+      "kind": "V2",
+      "lesson": 13,
+      "meaning_vi": "Tổng hợp / Tổng hợp, thống nhất, tập trung",
+      "ruby": "まとめます",
+      "vocab_id": "n3-609"
     },
     {
       "aliases": [],
