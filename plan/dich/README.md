@@ -18,7 +18,7 @@ Trang Luyện dịch có 2 loại bài:
 | Task | Nội dung | Trạng thái |
 |---|---|---|
 | [D1](d01-schema-pipeline.md) | Schema `TranslationPassage` + pipeline (`translation.json` v2) | ✅ |
-| [D2](d02-worker.md) | Worker: chấm đoạn văn, tham số chiều dịch, prompt Nhật → Việt | ⬜ |
+| [D2](d02-worker.md) | Worker: chấm đoạn văn, tham số chiều dịch, prompt Nhật → Việt | ✅ |
 | [D3](d03-web.md) | Web: tab Câu đơn / Đoạn văn, danh sách theo cấp, trang đoạn văn (chọn chiều, furigana) | ⬜ |
 | [D4](d04-content.md) | Nội dung: AI soạn đợt 1 (N5 + N4 + N3), user duyệt | ⬜ |
 

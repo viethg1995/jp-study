@@ -38,4 +38,8 @@
 
 ## Sai khác so với spec
 
-(ghi khi làm)
+- `SYSTEM_PROMPT` sửa nhẹ để dùng chung cho đoạn văn: trình độ "JLPT N5–N3, trình độ cụ thể ghi trong đề" (trước: N5–N4 theo bài), "giữ đúng thể như bản mẫu (lịch sự hoặc thể thường)" (nhật ký dùng thể thường). Phần "Cách trả lời" tách thành `SHARED_OUTPUT` dùng chung 2 prompt, thêm ý học viên gộp/tách câu.
+- `index.ts` gom về một `Job` (`makeJob`): id, chiều, system, user, số câu, timeout — câu đơn và đoạn văn đi chung một luồng.
+- Khóa KV: `grade:<id>:<chiều>:<hash>` (câu đơn không có phần chiều); `PROMPT_VERSION` 2 nên cache cũ không còn khớp.
+- Kiểm tra (2026-11-16, `claude-sonnet-5-5`, đoạn mẫu 5 câu không ghi vào data): `ja-vi` bắt đúng と (cùng ≠ của), phủ định quá khứ, câu bỏ trống, không chê diễn đạt khác bản mẫu (~12s); `vi-ja` bắt đúng を→へ, ません→ませんでした (~11s). Câu đơn `t-01-01` chấm như trước.
+- Chưa deploy: đợi D3 (web) + D4 (có đoạn thật) rồi deploy cùng lúc.

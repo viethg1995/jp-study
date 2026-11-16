@@ -8,8 +8,9 @@ Web trên GitHub Pages là trang tĩnh, nên không giữ được API key. Work
                                              └─ cache KV · giới hạn 6 lần/phút/IP · Turnstile (tùy chọn)
 ```
 
+- API: `POST /grade` với `{ exerciseId, answer }` cho câu đơn (`t-LL-NN`, Việt/Anh → Nhật), hoặc `{ exerciseId, direction, answer }` cho đoạn văn (`p-nX-NNN`, `direction` là `"ja-vi"` hoặc `"vi-ja"`). Đoạn văn thiếu `direction` → 400.
 - Đề và bản dịch mẫu lấy từ `data/translation.json` (output pipeline), được đóng gói vào worker lúc deploy. **Sửa đề → chạy `build-translation` → deploy lại worker và push web.**
-- Prompt chấm bài nằm ở `src/prompt.ts`. Đổi prompt thì tăng `PROMPT_VERSION`, để cache cũ không còn khớp.
+- Prompt chấm bài nằm ở `src/prompt.ts`: `SYSTEM_PROMPT` (dịch sang tiếng Nhật) và `SYSTEM_PROMPT_JA_VI` (dịch tiếng Nhật sang tiếng Việt — chấm sự hiểu, không chấm văn phong tiếng Việt). Đổi prompt thì tăng `PROMPT_VERSION`, để cache cũ không còn khớp.
 - Kết quả chấm: `src/result.ts` (zod). Web giữ một bản interface tương ứng ở `web/src/lib/translation.ts`, hai bên phải sửa cùng nhau.
 - Mỗi nhà cung cấp chỉ dùng **một tài khoản chính chủ**, trong hạn mức của nhà đó. Không xoay vòng nhiều key của cùng một nhà để cộng dồn hạn mức free, vì như vậy vi phạm điều khoản sử dụng.
 
