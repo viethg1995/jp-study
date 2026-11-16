@@ -149,7 +149,9 @@ export function wrongForms(row: ConjRow, form: string): string[] {
     if (plain) {
       const stem = plain.endsWith("い") ? plain.slice(0, -1) : plain;
       for (const e of NA_END[form] ?? []) push(plain + e); // たかいでした, たかいじゃない
-      for (const e of I_END[form] ?? []) push(stem + e); // いい → いくない (bất quy tắc)
+      // いい → いくない (bất quy tắc). ～くありません(でした) là cách nói phủ định lịch sự ĐÚNG của mọi tính từ い
+      // (悪くありません = 悪くないです) → chỉ dùng làm nhiễu khi ô đó bất quy tắc (いい: よくありません)
+      for (const e of I_END[form] ?? []) if (!e.includes("ありません") || row.forms[form]?.[2] === 1) push(stem + e);
       if (form === "past_polite") push(stem + "かったでした");
     }
   } else if (row.kind === "An") {

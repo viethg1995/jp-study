@@ -29,7 +29,15 @@
         "source": "ai-draft",
         "vi": "Bố tôi vừa mới đi làm về."
       }
-    ]
+    ],
+    "pos_code": "V3",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "帰って来ます — ghép với 来ます, nhóm III (帰ってくる/帰ってこない); V1 chia sai thành かえってく",
+      "status": "reviewed"
+    }
   },
   "mn-46-003": {
     "examples": [

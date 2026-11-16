@@ -18310,146 +18310,146 @@
           "form": "masu",
           "irregular": false,
           "kana": "もってきます",
-          "ruby": "もってきます",
+          "ruby": "{持|も}って{来|き}ます",
           "rule": "thân ます + ます"
         },
         {
           "form": "masen",
           "irregular": false,
           "kana": "もってきません",
-          "ruby": "もってきません",
+          "ruby": "{持|も}って{来|き}ません",
           "rule": "thân ます + ません"
         },
         {
           "form": "mashita",
           "irregular": false,
           "kana": "もってきました",
-          "ruby": "もってきました",
+          "ruby": "{持|も}って{来|き}ました",
           "rule": "thân ます + ました"
         },
         {
           "form": "masendeshita",
           "irregular": false,
           "kana": "もってきませんでした",
-          "ruby": "もってきませんでした",
+          "ruby": "{持|も}って{来|き}ませんでした",
           "rule": "thân ます + ませんでした"
         },
         {
           "form": "mashou",
           "irregular": false,
           "kana": "もってきましょう",
-          "ruby": "もってきましょう",
+          "ruby": "{持|も}って{来|き}ましょう",
           "rule": "thân ます + ましょう"
         },
         {
           "form": "tai",
           "irregular": false,
           "kana": "もってきたい",
-          "ruby": "もってきたい",
+          "ruby": "{持|も}って{来|き}たい",
           "rule": "thân ます + たい"
         },
         {
           "form": "te",
-          "irregular": false,
-          "kana": "もっていて",
-          "ruby": "もっていて",
-          "rule": "き → いて"
+          "irregular": true,
+          "kana": "もってきて",
+          "ruby": "{持|も}って{来|き}て",
+          "rule": "きます → きて"
         },
         {
           "form": "nai",
-          "irregular": false,
-          "kana": "もってかない",
-          "ruby": "もってかない",
-          "rule": "き → か + ない"
+          "irregular": true,
+          "kana": "もってこない",
+          "ruby": "{持|も}って{来|こ}ない",
+          "rule": "きます → こない"
         },
         {
           "form": "nakatta",
-          "irregular": false,
-          "kana": "もってかなかった",
-          "ruby": "もってかなかった",
-          "rule": "き → か + なかった"
+          "irregular": true,
+          "kana": "もってこなかった",
+          "ruby": "{持|も}って{来|こ}なかった",
+          "rule": "きます → こなかった"
         },
         {
           "form": "dict",
-          "irregular": false,
-          "kana": "もってく",
-          "ruby": "もってく",
-          "rule": "き → く"
+          "irregular": true,
+          "kana": "もってくる",
+          "ruby": "{持|も}って{来|く}る",
+          "rule": "きます → くる"
         },
         {
           "form": "ta",
-          "irregular": false,
-          "kana": "もっていた",
-          "ruby": "もっていた",
-          "rule": "き → いた"
+          "irregular": true,
+          "kana": "もってきた",
+          "ruby": "{持|も}って{来|き}た",
+          "rule": "きます → きた"
         },
         {
           "form": "tara",
-          "irregular": false,
-          "kana": "もっていたら",
-          "ruby": "もっていたら",
-          "rule": "thể た + ら"
+          "irregular": true,
+          "kana": "もってきたら",
+          "ruby": "{持|も}って{来|き}たら",
+          "rule": "きます → きたら"
         },
         {
           "form": "potential",
-          "irregular": false,
-          "kana": "もってける",
-          "ruby": "もってける",
-          "rule": "き → け + る"
+          "irregular": true,
+          "kana": "もってこられる",
+          "ruby": "{持|も}って{来|こ}られる",
+          "rule": "きます → こられる"
         },
         {
           "form": "volitional",
-          "irregular": false,
-          "kana": "もってこう",
-          "ruby": "もってこう",
-          "rule": "き → こ + う"
+          "irregular": true,
+          "kana": "もってこよう",
+          "ruby": "{持|も}って{来|こ}よう",
+          "rule": "きます → こよう"
         },
         {
           "form": "imperative",
-          "irregular": false,
-          "kana": "もってけ",
-          "ruby": "もってけ",
-          "rule": "き → け"
+          "irregular": true,
+          "kana": "もってこい",
+          "ruby": "{持|も}って{来|こ}い",
+          "rule": "きます → こい"
         },
         {
           "form": "prohibitive",
-          "irregular": false,
-          "kana": "もってくな",
-          "ruby": "もってくな",
-          "rule": "thể từ điển + な"
+          "irregular": true,
+          "kana": "もってくるな",
+          "ruby": "{持|も}って{来|く}るな",
+          "rule": "きます → くるな"
         },
         {
           "form": "ba",
-          "irregular": false,
-          "kana": "もってけば",
-          "ruby": "もってけば",
-          "rule": "き → け + ば"
+          "irregular": true,
+          "kana": "もってくれば",
+          "ruby": "{持|も}って{来|く}れば",
+          "rule": "きます → くれば"
         },
         {
           "form": "passive",
-          "irregular": false,
-          "kana": "もってかれる",
-          "ruby": "もってかれる",
-          "rule": "き → か + れる"
+          "irregular": true,
+          "kana": "もってこられる",
+          "ruby": "{持|も}って{来|こ}られる",
+          "rule": "きます → こられる"
         },
         {
           "form": "causative",
-          "irregular": false,
-          "kana": "もってかせる",
-          "ruby": "もってかせる",
-          "rule": "き → か + せる"
+          "irregular": true,
+          "kana": "もってこさせる",
+          "ruby": "{持|も}って{来|こ}させる",
+          "rule": "きます → こさせる"
         },
         {
           "form": "causative_passive",
-          "irregular": false,
-          "kana": "もってかされる",
-          "ruby": "もってかされる",
-          "rule": "き → か + される"
+          "irregular": true,
+          "kana": "もってこさせられる",
+          "ruby": "{持|も}って{来|こ}させられる",
+          "rule": "きます → こさせられる"
         }
       ],
       "han_viet": "TRÌ LAI",
       "kana": "もってきます",
-      "kind": "V1",
+      "kind": "V3",
       "lesson": 17,
       "meaning_vi": "mang đến",
       "ruby": "{持|も}って{来|き}ます",
@@ -25975,146 +25975,146 @@
           "form": "masu",
           "irregular": false,
           "kana": "つれてきます",
-          "ruby": "つれてきます",
+          "ruby": "{連|つ}れて{来|き}ます",
           "rule": "thân ます + ます"
         },
         {
           "form": "masen",
           "irregular": false,
           "kana": "つれてきません",
-          "ruby": "つれてきません",
+          "ruby": "{連|つ}れて{来|き}ません",
           "rule": "thân ます + ません"
         },
         {
           "form": "mashita",
           "irregular": false,
           "kana": "つれてきました",
-          "ruby": "つれてきました",
+          "ruby": "{連|つ}れて{来|き}ました",
           "rule": "thân ます + ました"
         },
         {
           "form": "masendeshita",
           "irregular": false,
           "kana": "つれてきませんでした",
-          "ruby": "つれてきませんでした",
+          "ruby": "{連|つ}れて{来|き}ませんでした",
           "rule": "thân ます + ませんでした"
         },
         {
           "form": "mashou",
           "irregular": false,
           "kana": "つれてきましょう",
-          "ruby": "つれてきましょう",
+          "ruby": "{連|つ}れて{来|き}ましょう",
           "rule": "thân ます + ましょう"
         },
         {
           "form": "tai",
           "irregular": false,
           "kana": "つれてきたい",
-          "ruby": "つれてきたい",
+          "ruby": "{連|つ}れて{来|き}たい",
           "rule": "thân ます + たい"
         },
         {
           "form": "te",
-          "irregular": false,
-          "kana": "つれていて",
-          "ruby": "つれていて",
-          "rule": "き → いて"
+          "irregular": true,
+          "kana": "つれてきて",
+          "ruby": "{連|つ}れて{来|き}て",
+          "rule": "きます → きて"
         },
         {
           "form": "nai",
-          "irregular": false,
-          "kana": "つれてかない",
-          "ruby": "つれてかない",
-          "rule": "き → か + ない"
+          "irregular": true,
+          "kana": "つれてこない",
+          "ruby": "{連|つ}れて{来|こ}ない",
+          "rule": "きます → こない"
         },
         {
           "form": "nakatta",
-          "irregular": false,
-          "kana": "つれてかなかった",
-          "ruby": "つれてかなかった",
-          "rule": "き → か + なかった"
+          "irregular": true,
+          "kana": "つれてこなかった",
+          "ruby": "{連|つ}れて{来|こ}なかった",
+          "rule": "きます → こなかった"
         },
         {
           "form": "dict",
-          "irregular": false,
-          "kana": "つれてく",
-          "ruby": "つれてく",
-          "rule": "き → く"
+          "irregular": true,
+          "kana": "つれてくる",
+          "ruby": "{連|つ}れて{来|く}る",
+          "rule": "きます → くる"
         },
         {
           "form": "ta",
-          "irregular": false,
-          "kana": "つれていた",
-          "ruby": "つれていた",
-          "rule": "き → いた"
+          "irregular": true,
+          "kana": "つれてきた",
+          "ruby": "{連|つ}れて{来|き}た",
+          "rule": "きます → きた"
         },
         {
           "form": "tara",
-          "irregular": false,
-          "kana": "つれていたら",
-          "ruby": "つれていたら",
-          "rule": "thể た + ら"
+          "irregular": true,
+          "kana": "つれてきたら",
+          "ruby": "{連|つ}れて{来|き}たら",
+          "rule": "きます → きたら"
         },
         {
           "form": "potential",
-          "irregular": false,
-          "kana": "つれてける",
-          "ruby": "つれてける",
-          "rule": "き → け + る"
+          "irregular": true,
+          "kana": "つれてこられる",
+          "ruby": "{連|つ}れて{来|こ}られる",
+          "rule": "きます → こられる"
         },
         {
           "form": "volitional",
-          "irregular": false,
-          "kana": "つれてこう",
-          "ruby": "つれてこう",
-          "rule": "き → こ + う"
+          "irregular": true,
+          "kana": "つれてこよう",
+          "ruby": "{連|つ}れて{来|こ}よう",
+          "rule": "きます → こよう"
         },
         {
           "form": "imperative",
-          "irregular": false,
-          "kana": "つれてけ",
-          "ruby": "つれてけ",
-          "rule": "き → け"
+          "irregular": true,
+          "kana": "つれてこい",
+          "ruby": "{連|つ}れて{来|こ}い",
+          "rule": "きます → こい"
         },
         {
           "form": "prohibitive",
-          "irregular": false,
-          "kana": "つれてくな",
-          "ruby": "つれてくな",
-          "rule": "thể từ điển + な"
+          "irregular": true,
+          "kana": "つれてくるな",
+          "ruby": "{連|つ}れて{来|く}るな",
+          "rule": "きます → くるな"
         },
         {
           "form": "ba",
-          "irregular": false,
-          "kana": "つれてけば",
-          "ruby": "つれてけば",
-          "rule": "き → け + ば"
+          "irregular": true,
+          "kana": "つれてくれば",
+          "ruby": "{連|つ}れて{来|く}れば",
+          "rule": "きます → くれば"
         },
         {
           "form": "passive",
-          "irregular": false,
-          "kana": "つれてかれる",
-          "ruby": "つれてかれる",
-          "rule": "き → か + れる"
+          "irregular": true,
+          "kana": "つれてこられる",
+          "ruby": "{連|つ}れて{来|こ}られる",
+          "rule": "きます → こられる"
         },
         {
           "form": "causative",
-          "irregular": false,
-          "kana": "つれてかせる",
-          "ruby": "つれてかせる",
-          "rule": "き → か + せる"
+          "irregular": true,
+          "kana": "つれてこさせる",
+          "ruby": "{連|つ}れて{来|こ}させる",
+          "rule": "きます → こさせる"
         },
         {
           "form": "causative_passive",
-          "irregular": false,
-          "kana": "つれてかされる",
-          "ruby": "つれてかされる",
-          "rule": "き → か + される"
+          "irregular": true,
+          "kana": "つれてこさせられる",
+          "ruby": "{連|つ}れて{来|こ}させられる",
+          "rule": "きます → こさせられる"
         }
       ],
       "han_viet": "LIÊN LAI",
       "kana": "つれてきます",
-      "kind": "V1",
+      "kind": "V3",
       "lesson": 24,
       "meaning_vi": "dẫn đến",
       "ruby": "{連|つ}れて{来|き}ます",
@@ -56025,146 +56025,146 @@
           "form": "masu",
           "irregular": false,
           "kana": "かえってきます",
-          "ruby": "かえってきます",
+          "ruby": "{帰|かえ}って{来|き}ます",
           "rule": "thân ます + ます"
         },
         {
           "form": "masen",
           "irregular": false,
           "kana": "かえってきません",
-          "ruby": "かえってきません",
+          "ruby": "{帰|かえ}って{来|き}ません",
           "rule": "thân ます + ません"
         },
         {
           "form": "mashita",
           "irregular": false,
           "kana": "かえってきました",
-          "ruby": "かえってきました",
+          "ruby": "{帰|かえ}って{来|き}ました",
           "rule": "thân ます + ました"
         },
         {
           "form": "masendeshita",
           "irregular": false,
           "kana": "かえってきませんでした",
-          "ruby": "かえってきませんでした",
+          "ruby": "{帰|かえ}って{来|き}ませんでした",
           "rule": "thân ます + ませんでした"
         },
         {
           "form": "mashou",
           "irregular": false,
           "kana": "かえってきましょう",
-          "ruby": "かえってきましょう",
+          "ruby": "{帰|かえ}って{来|き}ましょう",
           "rule": "thân ます + ましょう"
         },
         {
           "form": "tai",
           "irregular": false,
           "kana": "かえってきたい",
-          "ruby": "かえってきたい",
+          "ruby": "{帰|かえ}って{来|き}たい",
           "rule": "thân ます + たい"
         },
         {
           "form": "te",
-          "irregular": false,
-          "kana": "かえっていて",
-          "ruby": "かえっていて",
-          "rule": "き → いて"
+          "irregular": true,
+          "kana": "かえってきて",
+          "ruby": "{帰|かえ}って{来|き}て",
+          "rule": "きます → きて"
         },
         {
           "form": "nai",
-          "irregular": false,
-          "kana": "かえってかない",
-          "ruby": "かえってかない",
-          "rule": "き → か + ない"
+          "irregular": true,
+          "kana": "かえってこない",
+          "ruby": "{帰|かえ}って{来|こ}ない",
+          "rule": "きます → こない"
         },
         {
           "form": "nakatta",
-          "irregular": false,
-          "kana": "かえってかなかった",
-          "ruby": "かえってかなかった",
-          "rule": "き → か + なかった"
+          "irregular": true,
+          "kana": "かえってこなかった",
+          "ruby": "{帰|かえ}って{来|こ}なかった",
+          "rule": "きます → こなかった"
         },
         {
           "form": "dict",
-          "irregular": false,
-          "kana": "かえってく",
-          "ruby": "かえってく",
-          "rule": "き → く"
+          "irregular": true,
+          "kana": "かえってくる",
+          "ruby": "{帰|かえ}って{来|く}る",
+          "rule": "きます → くる"
         },
         {
           "form": "ta",
-          "irregular": false,
-          "kana": "かえっていた",
-          "ruby": "かえっていた",
-          "rule": "き → いた"
+          "irregular": true,
+          "kana": "かえってきた",
+          "ruby": "{帰|かえ}って{来|き}た",
+          "rule": "きます → きた"
         },
         {
           "form": "tara",
-          "irregular": false,
-          "kana": "かえっていたら",
-          "ruby": "かえっていたら",
-          "rule": "thể た + ら"
+          "irregular": true,
+          "kana": "かえってきたら",
+          "ruby": "{帰|かえ}って{来|き}たら",
+          "rule": "きます → きたら"
         },
         {
           "form": "potential",
-          "irregular": false,
-          "kana": "かえってける",
-          "ruby": "かえってける",
-          "rule": "き → け + る"
+          "irregular": true,
+          "kana": "かえってこられる",
+          "ruby": "{帰|かえ}って{来|こ}られる",
+          "rule": "きます → こられる"
         },
         {
           "form": "volitional",
-          "irregular": false,
-          "kana": "かえってこう",
-          "ruby": "かえってこう",
-          "rule": "き → こ + う"
+          "irregular": true,
+          "kana": "かえってこよう",
+          "ruby": "{帰|かえ}って{来|こ}よう",
+          "rule": "きます → こよう"
         },
         {
           "form": "imperative",
-          "irregular": false,
-          "kana": "かえってけ",
-          "ruby": "かえってけ",
-          "rule": "き → け"
+          "irregular": true,
+          "kana": "かえってこい",
+          "ruby": "{帰|かえ}って{来|こ}い",
+          "rule": "きます → こい"
         },
         {
           "form": "prohibitive",
-          "irregular": false,
-          "kana": "かえってくな",
-          "ruby": "かえってくな",
-          "rule": "thể từ điển + な"
+          "irregular": true,
+          "kana": "かえってくるな",
+          "ruby": "{帰|かえ}って{来|く}るな",
+          "rule": "きます → くるな"
         },
         {
           "form": "ba",
-          "irregular": false,
-          "kana": "かえってけば",
-          "ruby": "かえってけば",
-          "rule": "き → け + ば"
+          "irregular": true,
+          "kana": "かえってくれば",
+          "ruby": "{帰|かえ}って{来|く}れば",
+          "rule": "きます → くれば"
         },
         {
           "form": "passive",
-          "irregular": false,
-          "kana": "かえってかれる",
-          "ruby": "かえってかれる",
-          "rule": "き → か + れる"
+          "irregular": true,
+          "kana": "かえってこられる",
+          "ruby": "{帰|かえ}って{来|こ}られる",
+          "rule": "きます → こられる"
         },
         {
           "form": "causative",
-          "irregular": false,
-          "kana": "かえってかせる",
-          "ruby": "かえってかせる",
-          "rule": "き → か + せる"
+          "irregular": true,
+          "kana": "かえってこさせる",
+          "ruby": "{帰|かえ}って{来|こ}させる",
+          "rule": "きます → こさせる"
         },
         {
           "form": "causative_passive",
-          "irregular": false,
-          "kana": "かえってかされる",
-          "ruby": "かえってかされる",
-          "rule": "き → か + される"
+          "irregular": true,
+          "kana": "かえってこさせられる",
+          "ruby": "{帰|かえ}って{来|こ}させられる",
+          "rule": "きます → こさせられる"
         }
       ],
       "han_viet": "QUY LAI",
       "kana": "かえってきます",
-      "kind": "V1",
+      "kind": "V3",
       "lesson": 46,
       "meaning_vi": "về, trở lại",
       "ruby": "{帰|かえ}って{来|き}ます",

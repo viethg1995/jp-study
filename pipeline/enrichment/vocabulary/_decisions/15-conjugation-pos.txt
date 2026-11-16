@@ -2,3 +2,6 @@
 # Vòng 15 — sửa từ loại, phát hiện khi chia thể (engine không chia được), 2026-11-10
 # id | CODE | ghi chú
 39-037|N|おおぜい (大勢, nhiều người) là danh từ / trạng từ, không phải tính từ い — 大勢 không tận cùng い
+17-009|V3|持って来ます — ghép với 来ます nên chia như nhóm III (持ってくる/持ってこない/持ってきて); V1 chia sai thành もってく — phát hiện qua quiz 2026-11-16
+24-004|V3|連れて来ます — ghép với 来ます, nhóm III (連れてくる/連れてこない); V1 chia sai thành つれてく
+46-002|V3|帰って来ます — ghép với 来ます, nhóm III (帰ってくる/帰ってこない); V1 chia sai thành かえってく

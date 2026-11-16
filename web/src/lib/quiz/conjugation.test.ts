@@ -99,6 +99,16 @@ describe("Q6-4: bộ chia sai (nhiễu)", () => {
     assert.ok(item(na, `c-to:${row("adj-na", "きれい").id}:neg`).pool.map(reading).includes("きれいくない"));
     assert.ok(item(na, `c-to:${row("adj-na", "きれい").id}:desu`).pool.map(reading).includes("きれいなです"));
   });
+
+  test("tính từ い: ～くありません(でした) là dạng ĐÚNG → không bao giờ là nhiễu; いい → いくありません vẫn là nhiễu", () => {
+    for (const r of tables["adj-i"].rows)
+      for (const form of ["neg_polite", "past_neg_polite"]) {
+        const bad = wrongForms(r, form).map(reading);
+        if (r.forms[form]?.[2] === 1) continue;
+        assert.ok(!bad.some((x) => x.endsWith("くありません") || x.endsWith("くありませんでした")), `${r.base} ${form}: ${bad}`);
+      }
+    assert.ok(wrongForms(row("adj-i", "いい"), "neg_polite").map(reading).includes("いくありません"));
+  });
   test("wrongForms sinh cả dạng đúng (chưa lọc) — conjItems phải loại: 来ます → ない không có nhiễu 来ない", () => {
     const r = row("verb", "きます");
     assert.ok(wrongForms(r, "nai").some((w) => text(w) === text(r.forms.nai![0])), "wrongForms 来る phải có dạng trùng chữ 来ない");
@@ -119,12 +129,12 @@ describe("Q6-4: bộ chia sai (nhiễu)", () => {
 });
 
 describe("Q6-5: nhận thể", () => {
-  test("154 từ có khả năng = bị động → mỗi chiều 154 câu có accepted", () => {
+  test("157 từ có khả năng = bị động → mỗi chiều 157 câu có accepted (154 + 3 từ ghép 来ます)", () => {
     const items = both("verb").filter((x) => x.kind === "c-which");
     const pot = items.filter((x) => x.id.endsWith(":potential") && x.accepted.includes("Thể bị động"));
     const pas = items.filter((x) => x.id.endsWith(":passive") && x.accepted.includes("Thể khả năng"));
-    assert.equal(pot.length, 154);
-    assert.equal(pas.length, 154);
+    assert.equal(pot.length, 157);
+    assert.equal(pas.length, 157);
     for (const q of [...pot, ...pas]) assert.ok(!q.pool.includes("Thể bị động") && !q.pool.includes("Thể khả năng"), q.id);
   });
   test("không hỏi thể ます (trùng đề); hỏi ません", () => {

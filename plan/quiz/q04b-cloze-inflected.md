@@ -2,7 +2,7 @@
 
 > Phần chung (quyết định D1–D6, kiến trúc, bất biến, luồng làm bài, checklist): [README.md](README.md). File này chỉ chứa riêng task Q4b.
 
-Trạng thái: ✅ xong 2026-11-13 — spec duyệt cùng ngày (Q4b-4: có trộn dạng chia sai; ~115 câu bỏ qua để sau, ghi ở [README.md](README.md) mục Lỗi dữ liệu). 2026-11-16: gỡ 54 câu N3 (mục Bổ sung) — còn 96 câu bỏ qua
+Trạng thái: ✅ xong 2026-11-13 — spec duyệt cùng ngày (Q4b-4: có trộn dạng chia sai; ~115 câu bỏ qua để sau, ghi ở [README.md](README.md) mục Lỗi dữ liệu). 2026-11-16: gỡ 54 câu N3 rồi 30 câu nhóm B/C (mục Bổ sung) — còn **66** câu bỏ qua
 
 Bối cảnh: [q04-vocab.md](q04-vocab.md) quyết định Q4-2 — loại "Điền từ" (`v-cloze`) hiện chỉ hỏi câu có từ đích **giữ nguyên dạng**. Q4b thêm câu có từ đích **đã chia** (`[[行きました]]`, `[[教えて]]`). Bộ chia dùng lại: `lib/quiz/conjugation.ts` ([q06-conjugation.md](q06-conjugation.md)).
 
@@ -69,10 +69,10 @@ Khảo sát lại 148 câu bỏ qua (theo cách đếm của `vocab.test.ts`):
 | Nhóm | Số câu | Nguyên nhân | Trạng thái |
 |---|---|---|---|
 | A | 54 | Từ N3 trùng từ Minna: bảng chia chỉ có **một hàng** (của Minna), ID N3 nằm trong `aliases`. `buildConjTable` bỏ `aliases`, `conjIndex` tra theo `row.id` → không thấy hàng | ✅ sửa ở web |
-| C | 26 | Câu ví dụ viết khác cách viết của từ vựng: 点けて / つけます, 噛んで / かみます, 診て / 見ます, 量って / 測ります… (web so mặt chữ) | ⏸ chờ chọn hướng: so kana ở web, hay chuẩn hóa chữ trong câu ví dụ ở pipeline |
+| C | 26 | Câu ví dụ viết khác cách viết của từ vựng: 点けて / つけます, 噛んで / かみます, 診て / 見ます, 量って / 測ります… (web so mặt chữ). Trong đó 2 câu thật ra do **lỗi từ loại** 連れて来ます / 帰って来ます (V1 → chia sai) | ✅ sửa 2026-11-16 (Bổ sung 2) |
 | E | 43 | Thể ghép chưa có trong bảng (bị động + ました bài 37, なければなりません / なくても bài 17, なかったら bài 25, sai khiến + ます); thân ます / gốc tính từ trước そう (bài 43: 切れ, 落ち, 美味, 優し); danh từ hóa (迎え, 買い物) | ⏸ pipeline |
 | — | 24 | Không có trong bảng chia: danh từ (本, 国, 山…), trường `kanji` nhiều cách viết (mn-09-033, mn-09-035, mn-24-009/010), mẫu câu, phó từ N3 `ずいぶん～なる` | ⏸ pipeline (tách cách viết thứ hai ra `variants`) |
-| B | 1 | mn-08-016 悪く khớp mặt chữ, bị loại vì lý do khác | xem sau |
+| B | 1 | mn-08-016: `[[悪く]]ないです` chỉ bao 悪く → khớp "dạng trạng từ" (bài 19) > bài 8 của câu | ✅ sửa 2026-11-16 (Bổ sung 2) |
 
 Sửa nhóm A:
 - `ConjRow.aliases` (chỉ ghi khi không rỗng) — `chia-the/quiz/dong-tu.json` 742KB → 744KB.
@@ -80,3 +80,19 @@ Sửa nhóm A:
 - Nhiễu "từ khác cùng thể" cho câu N3: thêm từ Minna (mọi bài — người học N3 đã học hết Minna), ưu tiên từ cùng sách trước → câu N3 cũ giữ nguyên nhiễu.
 
 Kết quả: N3 162 → **216** câu chia thể; N5 81, N4 141 không đổi; bỏ qua 148 → **96**; câu cũ giữ nguyên ID và nhiễu (so bản build trước/sau). `n3-dien.json` 380KB → 415KB gốc, ~69KB gzip (**sát mốc 70KB** của test). Test: mốc `skipped <= 100`, N3 ≥ 200, thêm test n3-101/108/117/333 có câu và mn-22-004 vẫn tra qua `same_word`.
+
+## Bổ sung 2 — 2026-11-16: nhóm B + C (30 câu) và 2 lỗi dữ liệu
+
+**Dữ liệu (pipeline, rồi `apply-all-reviews` + `apply-all-examples` + `build`):**
+- **Lỗi từ loại** — mn-17-009 持って来ます, mn-24-004 連れて来ます, mn-46-002 帰って来ます ghi V1 → bảng chia (cả trang `/chia-the/`) hiện もってく / つれてかない / かえっていて. Sửa thành V3 ở `_decisions/15-conjugation-pos.txt`; engine chia đúng phần 来る đứng sau (持ってくる, 持ってこない, 持ってきて, 持ってこられる).
+- **B** — `_examples/lesson-08.txt` (bài đã duyệt `by: user`, chỉ nới phạm vi đánh dấu): `この店は[[悪くないです]]。` → khớp "phủ định lịch sự" (bài 8).
+
+**Web:**
+- `matchForm`: không khớp mặt chữ → khớp theo **cách đọc**. Câu ví dụ luôn viết kanji (rule `vocab-examples.md`) còn bảng chia theo `display` (点けて ↔ つけて, 噛んで ↔ かんで), hoặc chữ khác cùng âm (診て ↔ 見て, 量って ↔ 測って, 吐く ↔ hàng つきます).
+- Khi khớp theo cách đọc, dạng chia sai của chính từ được **viết theo chữ của câu** (`inTargetScript`: つけって → {点|つ}けって) — nếu để kana trần thì đáp án là cụm duy nhất có kanji, lộ đáp án. Dạng sai không ghép được → bỏ; dạng có cách đọc trùng một thể đúng → bỏ.
+- **Lỗi nhiễu có sẵn từ Q6** (lộ ra ở câu 悪くないです): bộ "chia sai" của tính từ い sinh `～くありません(でした)` — đây là cách nói phủ định lịch sự **đúng** → quiz chia thể và điền từ có thể chấm sai một đáp án đúng. Giờ chỉ dùng làm nhiễu khi ô bất quy tắc (いい → いくありません). Test mới quét mọi tính từ い.
+- Hệ quả của sửa dữ liệu: câu có 連れて来ます / 帰って来ます làm nhiễu đổi pool (trước đây có dạng sai つれていて, かえってく); quiz chia thể: từ có khả năng = bị động 154 → 157.
+
+Kết quả: bỏ qua 96 → **66**; câu chia thể N5 81 → 89, N4 141 → 163, N3 216. Mốc test: `skipped <= 70`, N5 ≥ 85, N4 ≥ 155. Dung lượng: n5-dien 445KB / 63KB gzip (**sát mốc 450KB gốc**), n4-dien 409KB / 66KB, n3-dien 415KB / 69KB.
+
+Còn lại (66): thể ghép (~43: bị động + ました, なければなりません, なかったら, thân ます + そう…) và không phải chia thể (~24) — xem README mục Lỗi dữ liệu.

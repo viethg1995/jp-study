@@ -147,16 +147,17 @@ interface QuizItem {
 
 ## Theo dõi dung lượng deck
 
-Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [q12-deck-chunking.md](q12-deck-chunking.md) (lệnh đo có trong file). Mốc hiện tại: deck từ vựng < 450KB gốc / < 70KB gzip; `n5-dien` đã sát mốc gốc (440KB), `n3-dien` sát mốc gzip (~69KB, 2026-11-16). Chia nhỏ file (chunk) lên kế hoạch sau khi xong mọi chức năng quiz (Q12).
+Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [q12-deck-chunking.md](q12-deck-chunking.md) (lệnh đo có trong file). Mốc hiện tại: deck từ vựng < 450KB gốc / < 70KB gzip; `n5-dien` đã sát mốc gốc (440KB), `n3-dien` sát mốc gzip (~69KB), `n5-dien` 445KB (2026-11-16). Chia nhỏ file (chunk) lên kế hoạch sau khi xong mọi chức năng quiz (Q12).
 
 ## Lỗi dữ liệu phát hiện qua quiz (sửa ở pipeline, không sửa `data/`)
 
 - ~~`mn-41-039` この間: kana sai `このあいだい`~~ — đã sửa 2026-11-16 (`_decisions/17-quiz-kana.txt`).
 - ~~Bộ thủ: tên dính số, thiếu biến thể~~ — đã sửa 2026-11-15 (`enrichment/kanji/radicals/overrides.txt`; 41/214 bộ có `variants`). Còn thiếu nhỏ: 言→訁, 金→釒, 足→𧾷, 竹→⺮, 乙→乚, 小→⺌ — chi tiết [q05-kanji.md](q05-kanji.md).
-- `conjugation.json`: `aliases` gộp theo kana nên nối nhầm từ khác nghĩa — mn-22-004 掛けます (đeo kính) là alias của mn-07-009 かけます (gọi điện), mn-34-005 付けます (chấm nước tương) là alias của mn-14-001 つけます (bật đèn). Web đã né (tra `same_word` trước `aliases`); nên sửa ở bước gộp alias của pipeline (gộp theo chữ, không chỉ theo kana).
-- **Q4b — câu ví dụ có từ đích đã chia nhưng chưa hỏi được** (đo 2026-11-16: **96 câu** theo `vocab.test.ts`; chi tiết + phân nhóm ở [q04b-cloze-inflected.md](q04b-cloze-inflected.md) mục Bổ sung 2026-11-16):
+- `conjugation.json`: `aliases` gộp theo kana nên nối nhầm từ khác nghĩa — mn-22-004 掛けます (đeo kính) là alias của mn-07-009 かけます (gọi điện), mn-34-005 付けます (chấm nước tương) là alias của mn-14-001 つけます (bật đèn), mn-38-009 吐きます (nôn) là alias của mn-29-003 つきます (đèn sáng). Web đã né (tra `same_word` trước `aliases`); nên sửa ở bước gộp alias của pipeline (gộp theo chữ, không chỉ theo kana).
+- **Q4b — câu ví dụ có từ đích đã chia nhưng chưa hỏi được** (đo 2026-11-16: **66 câu** theo `vocab.test.ts`; chi tiết + phân nhóm ở [q04b-cloze-inflected.md](q04b-cloze-inflected.md) mục Bổ sung / Bổ sung 2):
   - ~~~60 câu: động từ N3 thiếu trong `conjugation.json`~~ — chẩn đoán sai: các từ này có trong bảng chia dưới dạng `aliases` của hàng Minna; lỗi ở web (không tra `aliases`), **đã sửa 2026-11-16** (+54 câu N3).
-  - 26 câu: câu ví dụ viết khác cách viết của từ vựng (点けて / つけます, 噛んで / かみます, 診て / 見ます, 量って / 測ります…) — chờ chọn: so theo kana ở web, hay chuẩn hóa chữ trong câu ví dụ ở pipeline.
+  - ~~26 câu: câu ví dụ viết khác cách viết của từ vựng (点けて / つけます…)~~ — **đã sửa 2026-11-16**: web khớp theo cách đọc + viết dạng sai theo chữ của câu; kèm sửa từ loại 持って来ます / 連れて来ます / 帰って来ます V1 → V3 (`_decisions/15-conjugation-pos.txt`, bảng chia trước đó sai trên cả trang `/chia-the/`) và câu mn-08-016 `[[悪くないです]]`.
+  - Bộ "chia sai" (Q6) từng sinh `～くありません(でした)` làm nhiễu cho tính từ い — là dạng đúng; đã sửa 2026-11-16.
   - ~43 câu: thể ghép chưa có trong bảng chia — bị động + ました (bài 37: 褒められました, 招待されました), なければなりません / なくても (bài 17), なかったら (bài 25), sai khiến + ます (bài 48); thân ます / gốc tính từ trước そう (bài 43: 切れ, 落ち, 美味, 優し). Hướng: thêm thể ghép vào bảng chia, hoặc pipeline đánh dấu cụm `[[…]]` chỉ phần thể có sẵn.
   - ~24 câu: không phải chia thể (danh từ 本, 国, 山…; phó từ N3 dạng `ずいぶん～なる`) — trường `kanji` chứa nhiều cách viết (mn-09-033 `夫 /主人`, mn-09-035 `妻/家内`, mn-24-009 `おじいさん／ おじいちゃん`), danh từ hóa (迎え, 切れ), mẫu câu (mn-01-030 こちらは～さんです).
   - Sửa xong → chạy `vocab.test.ts`: mốc "số câu bỏ qua" phải hạ theo.

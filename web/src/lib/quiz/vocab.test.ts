@@ -8,7 +8,7 @@ import { buildConjTable, CONJ_GROUPS, type ConjRow } from "./conjugation.ts";
 import { filterItems } from "./core.ts";
 import { misreadings } from "./kana.ts";
 import type { QuizItem } from "./types.ts";
-import { checkDeck } from "./validate.ts";
+import { checkDeck, rubyForms } from "./validate.ts";
 import { VOCAB_KINDS, VOCAB_LEVELS, type VocabKindSlug, type VocabLevel, buildVocabDeck, cleanMeaning, levelOf, meaningKeys } from "./vocab.ts";
 
 const all = loadVocab();
@@ -151,7 +151,7 @@ describe("v-cloze (điền từ)", () => {
   const inflected = (level: VocabLevel): QuizItem[] => deck(level, "dien").filter((q) => q.explain?.includes(" = "));
 
   test("Q4b: có câu từ đích đã chia mỗi cấp; số câu bỏ qua không tăng (mốc đo 2026-11-16)", () => {
-    const min = { n5: 75, n4: 130, n3: 200 }; // đo 2026-11-16: 81 · 141 · 216
+    const min = { n5: 85, n4: 155, n3: 200 }; // đo 2026-11-16: 89 · 163 · 216
     for (const level of VOCAB_LEVELS) assert.ok(inflected(level).length >= min[level], `${level}: ${inflected(level).length}`);
     // câu có [[…]] đã biến đổi (không phải danh từ riêng) nhưng không vào deck — tồn đọng dữ liệu ở README "Lỗi dữ liệu"
     let skipped = 0;
@@ -160,7 +160,7 @@ describe("v-cloze (điền từ)", () => {
       for (const e of all.filter((x) => levelOf(x) === level && x.pos.code !== "PN"))
         for (const x of e.examples) if (/\[\[/.test(x.ruby) && !ids.has(x.id)) skipped++;
     }
-    assert.ok(skipped <= 100, `bỏ qua ${skipped} câu`); // đo 2026-11-16: 96 (2026-11-13: 148, trước khi tra `aliases` bảng chia cho từ N3)
+    assert.ok(skipped <= 70, `bỏ qua ${skipped} câu`); // đo 2026-11-16: 66 (2026-11-13: 148 → tra `aliases` N3: 96 → khớp theo cách đọc + sửa dữ liệu: 66)
   });
 
   test("Q4b: từ N3 trùng Minna (aliases bảng chia) có câu điền từ; alias không thắng same_word", () => {
@@ -168,6 +168,28 @@ describe("v-cloze (điền từ)", () => {
     for (const id of ["n3-101-e1", "n3-108-e1", "n3-117-e1", "n3-333-e1"]) assert.ok(ids.has(`v-cloze:${id}`), id);
     // mn-22-004 掛けます (đeo kính) là alias của かけます (gọi điện) — phải tra hàng 掛けます qua same_word
     assert.ok(deck("n5", "dien").some((q) => q.id === "v-cloze:mn-22-004-e1"));
+  });
+
+  test("Q4b: từ display kana / khác chữ cùng âm khớp theo cách đọc; dạng chia sai viết theo chữ của câu", () => {
+    const q = (level: VocabLevel, id: string): QuizItem => {
+      const it = deck(level, "dien").find((x) => x.id === `v-cloze:${id}`);
+      assert.ok(it, id);
+      return it;
+    };
+    // 点けて (bảng chia: つけます) — dạng sai つけって phải thành {点|つ}けって, không còn kana trần lộ đáp án
+    const tsukete = q("n5", "mn-14-001-e1");
+    assert.equal(tsukete.answer, "{点|つ}けて");
+    assert.ok(tsukete.pool.includes("{点|つ}けって"), tsukete.pool.join(" "));
+    assert.ok(!tsukete.pool.some((p) => /^つけ/.test(p)), tsukete.pool.join(" "));
+    q("n4", "mn-26-001-e1"); // 診て ↔ hàng 見ます
+    q("n4", "mn-40-002-e1"); // 量って ↔ hàng 測ります
+    // 連れて来ます / 帰って来ます: nhóm III (_decisions/15-conjugation-pos.txt), không còn dạng V1 sai
+    q("n5", "mn-24-004-e1");
+    const all5 = deck("n5", "dien").concat(deck("n4", "dien"));
+    assert.ok(!all5.some((x) => x.pool.some((p) => /(つれて|かえって|もって)(く|いて|かない)$/.test(rubyForms(p).reading))));
+    // 悪くないです: ～くありません là dạng đúng → không được làm nhiễu
+    const warui = q("n5", "mn-08-016-e1");
+    assert.ok(!warui.pool.some((p) => rubyForms(p).reading.endsWith("くありません")), warui.pool.join(" "));
   });
 
   test("Q4b: nhiễu không trùng bất kỳ thể đúng nào của chính từ; cùng đuôi với đáp án (ました, ないで)", () => {

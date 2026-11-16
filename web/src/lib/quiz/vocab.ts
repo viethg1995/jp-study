@@ -11,7 +11,8 @@ import type { VocabEntry, VocabExample } from "../schemas";
 import { badForms, type ConjRow, type ConjTable, shownText as conjText } from "./conjugation";
 import { misreadings } from "./kana";
 import type { QuizItem } from "./types";
-import { type DeckIssue, finalizeDeck, leaks } from "./validate";
+import { normalize } from "./core";
+import { type DeckIssue, finalizeDeck, leaks, rubyForms } from "./validate";
 
 export type VocabLevel = "n5" | "n4" | "n3";
 export const VOCAB_LEVELS: readonly VocabLevel[] = ["n5", "n4", "n3"];
@@ -373,22 +374,49 @@ function conjIndex(conj: readonly ConjTable[]): (e: VocabEntry) => ConjRef | und
     byBase.get(`${e.book}|${conjText(e.kana)}`);
 }
 
-/**
- * Thể của cụm đích: khớp đúng một thể (行きました = mashita), hoặc thể + đuôi kana cố định (忘れないで = nai + で,
- * 掃除したり = ta + り). Nhiều thể trùng chữ (V2 khả năng = bị động) → thể học trước. Không khớp → null (bỏ qua).
- */
-function matchForm(ref: ConjRef, target: string): { form: ConjTable["forms"][number]; tail: string } | null {
-  const t = conjText(target);
-  let best: { form: ConjTable["forms"][number]; tail: string } | null = null;
+type FormHit = { form: ConjTable["forms"][number]; tail: string };
+
+/** Khớp chuỗi `t` với ô bảng chia (đã đưa về cùng dạng bằng `key`): đúng một thể, hoặc thể + đuôi kana ngắn nhất. */
+function matchBy(ref: ConjRef, t: string, key: (ruby: string) => string): FormHit | null {
+  let best: FormHit | null = null;
   for (const form of ref.table.forms) {
     const cell = ref.row.forms[form.id];
     if (!cell) continue;
-    const f = conjText(cell[0]);
+    const f = key(cell[0]);
     if (f === t) return { form, tail: "" };
     const tail = t.slice(f.length);
     if (t.startsWith(f) && KANA_TAIL.test(tail) && (best === null || tail.length < best.tail.length)) best = { form, tail };
   }
   return best;
+}
+
+const readingOf = (ruby: string): string => normalize(rubyForms(ruby).reading);
+
+/**
+ * Thể của cụm đích: khớp đúng một thể (行きました = mashita), hoặc thể + đuôi kana cố định (忘れないで = nai + で,
+ * 掃除したり = ta + り). Nhiều thể trùng chữ (V2 khả năng = bị động) → thể học trước. Không khớp mặt chữ → khớp theo
+ * cách đọc (`byReading`): câu ví dụ luôn viết kanji (rule vocab-examples) còn bảng chia theo `display` của từ
+ * (点けて ↔ つけて), hoặc chữ khác cùng âm (診て ↔ 見て, 量って ↔ 測って). Không khớp → null (bỏ qua).
+ */
+function matchForm(ref: ConjRef, target: string): (FormHit & { byReading: boolean }) | null {
+  const surface = matchBy(ref, conjText(target), conjText);
+  if (surface) return { ...surface, byReading: false };
+  const reading = matchBy(ref, readingOf(target), readingOf);
+  return reading ? { ...reading, byReading: true } : null;
+}
+
+/**
+ * Viết dạng chia sai theo đúng chữ của câu ví dụ (khi khớp theo cách đọc): phần đầu của cụm đích tới chữ Hán cuối
+ * ({点|つ}けて → {点|つ}) thay cho phần đọc tương ứng của dạng sai (つけって → {点|つ}けって) — để đáp án và dạng sai
+ * cùng kiểu chữ, không lộ đáp án. Dạng sai không bắt đầu bằng phần đọc đó → null (bỏ).
+ */
+function inTargetScript(target: string, wrong: string): string | null {
+  const i = target.lastIndexOf("}");
+  if (i < 0) return wrong;
+  const head = target.slice(0, i + 1);
+  const r = rubyForms(head).reading;
+  const w = rubyForms(wrong).reading;
+  return w.startsWith(r) && KANA_TAIL.test(w.slice(r.length)) ? head + w.slice(r.length) : null;
 }
 
 function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], conj: readonly ConjTable[]): QuizItem[] {
@@ -405,7 +433,7 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
       const target = m[1]!;
       const hit = matchForm(ref, target);
       if (!hit) continue;
-      const { form, tail } = hit;
+      const { form, tail, byReading } = hit;
       const upTo = Math.max(ex.max_lesson, e.lesson);
       // thể chưa học tới bài của câu → bỏ (N3: thể theo bài Minna, người học N3 đã học hết)
       if (e.book === "minna" && (form.lesson === null || form.lesson > upTo)) continue;
@@ -421,7 +449,12 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
       };
       // dạng chia sai của chính từ (行きて) — không bao giờ đúng
       let bad = 0;
-      for (const c of badForms(ref.row, form.id)) if (bad < BAD_FORMS && push(c + tail)) bad++;
+      const rightReadings = new Set(Object.values(ref.row.forms).map(([r]) => readingOf(r)));
+      for (const c of badForms(ref.row, form.id)) {
+        if (bad >= BAD_FORMS) break;
+        const w = byReading ? inTargetScript(target, c + tail) : c + tail;
+        if (w !== null && !(byReading && rightReadings.has(readingOf(w))) && push(w)) bad++;
+      }
       // từ khác cùng nhóm (động từ / tính từ い / な), cùng thể + cùng đuôi; đã học tới bài của câu; gần bài trước
       const others = ref.table.rows
         // N3: người học đã học hết Minna → từ Minna cũng là nhiễu hợp lệ (hàng của từ N3 trùng Minna mang book "minna")
