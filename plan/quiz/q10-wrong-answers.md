@@ -62,3 +62,15 @@ Kiểm tra: unit 204 (thêm `wrong.test.ts` 10 test), e2e 162 (thêm `wrong-answ
 - Mỗi trang quiz một nút kèm số câu: Từ vựng **tách theo cấp** (suy từ ID: `mn-01…25` N5, `mn-26…50` N4, `n3-` N3), Kanji, Bộ thủ, Chia thể, Đếm số (`o=tat-ca`), Số đếm (`loai=so`). Link mở trang quiz với `?on=sai` + `loai` = các loại câu đang có câu sai (trang mặc định chỉ chọn 1 loại).
 - Kanji / Chia thể không suy được cấp / nhóm từ ID → link không kèm cấp: câu sai ở cấp khác cấp mặc định cần đổi cấp trên trang (như số "Câu hay sai (N)" trên trang đó vốn đếm mọi cấp). Muốn chính xác phải nhúng bảng tra chữ → cấp vào trang chủ — chưa làm.
 - Code: `lib/quiz/wrong-summary.ts` (hàm thuần, `wrong-summary.test.ts` 5 test); JS trang chủ 1,4KB gzip. E2E: `wrong-answers.spec.ts` thêm 1 test (ẩn khi rỗng; nút theo trang; bấm → đúng bộ lọc, lượt chỉ có câu sai của cấp đó).
+
+## Kế hoạch bước 2.3a — link "Câu hay sai" kèm cấp cho Kanji / Chia thể · chờ duyệt spec
+
+Ghi 2026-11-17 ([README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16)). Hiện tại (Bổ sung 2026-11-16): ID câu Kanji (`k-…:k-字`) và Chia thể (`c-to:<vocab_id>:<thể>`) không suy được cấp / nhóm từ → link trang chủ không kèm cấp, người học phải tự đổi cấp trên trang.
+
+| # | Đề xuất |
+|---|---|
+| 2.3a-1 | Chia thể: thay vì nhúng bảng tra `vocab_id → nhóm` (~720 mục) vào trang chủ, **trang chia thể tự chọn nhóm từ khi `?on=sai`** (nhóm đầu tiên có câu sai) — trang chủ giữ nhẹ |
+| 2.3a-2 | Kanji: tương tự — trang Kanji khi `?on=sai` tự chọn cấp đầu tiên có câu sai (đọc `jp:quiz:wrong` + danh sách chữ của deck) |
+| 2.3a-3 | Không đổi key `jp:quiz:wrong`, không đổi ID câu |
+
+Test: e2e `wrong-answers.spec.ts` — câu sai Kanji N4 + chia thể tính từ い → bấm từ trang chủ → trang mở đúng cấp / nhóm, có câu.

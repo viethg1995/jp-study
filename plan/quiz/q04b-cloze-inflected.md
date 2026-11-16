@@ -96,3 +96,44 @@ Kết quả: N3 162 → **216** câu chia thể; N5 81, N4 141 không đổi; b�
 Kết quả: bỏ qua 96 → **66**; câu chia thể N5 81 → 89, N4 141 → 163, N3 216. Mốc test: `skipped <= 70`, N5 ≥ 85, N4 ≥ 155. Dung lượng: n5-dien 445KB / 63KB gzip (**sát mốc 450KB gốc**), n4-dien 409KB / 66KB, n3-dien 415KB / 69KB.
 
 Còn lại (66): thể ghép (~43: bị động + ました, なければなりません, なかったら, thân ます + そう…) và không phải chia thể (~24) — xem README mục Lỗi dữ liệu.
+
+## Kế hoạch bước 2.1 — thể ghép (~43 câu) · chờ duyệt spec
+
+Ghi 2026-11-17 (kế hoạch chung: [README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16)). Nguyên tắc: **sinh thể phái sinh trên web** từ ô bảng chia có sẵn, **không** thêm thể vào `conjugation.json` → trang `/chia-the/`, quiz chia thể (20 thể) và dung lượng `dong-tu.json` giữ nguyên.
+
+| Nhóm | Số câu (ước) | Ví dụ cụm đích | Thể gốc trong bảng | Phái sinh |
+|---|---|---|---|---|
+| Bị động + ます | ~17 (bài 37 gần hết, 49 過ごされました, N3 盗まれました / 行われます / 含まれて) | 褒められました, 招待されました, 輸出されて | `passive` (…れる) | bỏ る → thân ます + đuôi: ます / ました / ません / て |
+| Sai khiến + ます | 2 (bài 48) | 届けさせます, 録音させて | `causative` (…せる) | như trên |
+| なければなりません | 6 (bài 17) | 払わなければなりません | `nai` (…ない) | bỏ い → なければなりません / なければならない |
+| なくても | 1 (bài 17) | 出かけなくても | `nai` | bỏ い → なくても |
+| なかったら | 1 (bài 25) | 足りなかったら | `past_neg` (…なかった) | + ら |
+| Thân ます (+ そう / 方 / ながら) | ~7 (bài 43: 切れ, 取れ, 落ち, 無くなり, 滑り; 49 掛け) | 切れ(そうです) | `masu` (…ます) | bỏ ます |
+| Gốc tính từ い (+ そう) | ~4 (bài 43: 美味, つまらな, 優し; 44 濃) | 優し(そうです) | `plain` (…い) | bỏ い (いい → よさ: không có trong danh sách) |
+| Khác | ~5 | 与えすぎないで (すぎる + ないで), 迎え / 買い物 (danh từ hóa) | — | **không làm**: ghi vào mốc bỏ qua |
+
+Spec đề xuất (user duyệt trước khi làm):
+
+| # | Mục | Đề xuất |
+|---|---|---|
+| 2.1-1 | Nơi làm | `lib/quiz/vocab.ts`: `matchForm` thử thêm bảng `DERIVED` (id thể phái sinh → thể gốc + phép biến đổi chuỗi trên ruby: bỏ đuôi kana + nối đuôi mới). Hàm thuần, có test từng phép biến đổi |
+| 2.1-2 | Bài học | Thể phái sinh chỉ hỏi khi **thể gốc** đã học tới bài của câu (Q4b-5) và cấu trúc đã học: なければなりません / なくても bài 17, なかったら bài 25 (たら), bị động + ます bài 37, sai khiến bài 48, そう bài 43 — bảng `DERIVED` ghi `lesson` riêng |
+| 2.1-3 | Nhiễu | (a) dạng chia sai của chính từ → áp cùng phép phái sinh lên `badForms(thể gốc)`; (b) từ khác cùng thể gốc → cùng phép phái sinh. Vẫn loại nhiễu đọc giống đáp án và dạng đúng thay thế (なきゃ / なくちゃ không sinh) |
+| 2.1-4 | Giải thích | `褒められました = Thể bị động + ました · 褒めます — khen` (tên thể gốc + phần phái sinh) |
+| 2.1-5 | ID | Giữ `v-cloze:<id câu ví dụ>` (câu mới, không đổi ID cũ) |
+| 2.1-6 | Dung lượng | ~+40 câu vào `n4-dien` (bài 37, 43, 48) và `n5-dien` (bài 17, 25): n5-dien đang 445KB / mốc 450KB → **có thể vượt** → tạm nâng mốc test, ghi số đo, xử lý dứt điểm ở bước 3 (Q12) |
+
+Test: mỗi phép phái sinh 1 ca đã biết (褒める → 褒められました, 払う → 払わなければなりません, 足りる → 足りなかったら, 切れる → 切れ); nhiễu không trùng mọi dạng đúng + phái sinh đúng của chính từ; mốc bỏ qua hạ theo số đo (dự kiến ~25).
+
+## Kế hoạch bước 2.2 — câu không phải chia thể (~24 câu) · chờ duyệt spec
+
+Khảo sát 2026-11-17 — các nguyên nhân:
+
+| Nhóm | Câu | Nguyên nhân | Hướng xử lý |
+|---|---|---|---|
+| **Bộ lọc lộ đáp án bắt oan** | mn-44-021 量 (料理 りょうり), mn-47-015 医学 (大学 だいがく), mn-32-028 西 (に**しず**みます), mn-27-010 声 (聞こえます), mn-03-030 階 (会議室 かいぎ), mn-28-031 家 か | `leaks()` so **cách đọc** đáp án như chuỗi con của cách đọc cả câu → âm trùng ở chữ khác cũng tính là lộ | Câu điền từ: chỉ coi là lộ khi **chữ hiển thị** của đáp án có trong câu (hoặc đáp án toàn kana trùng kana trong câu); cách đọc trùng ở chữ Hán khác không lộ. Đáp án 1 kana (家 か, や) vẫn bỏ — quá dễ trùng. Chỉ đổi cho `v-cloze`, không đổi `leaks()` của loại câu khác |
+| **Lộ thật** | mn-02-007 本 (日本語), mn-03-022 国 (中国), mn-08-034 山 (富士山) | Chữ đáp án nằm sẵn trong câu | Viết lại 3 câu ví dụ ở `_examples/` (bài đã duyệt → ghi chú để user duyệt lại) |
+| **Trường `kanji` nhiều cách viết** | mn-09-033 `夫 /主人`, mn-09-035 `妻/家内`, mn-24-009 `おじいさん／ おじいちゃん`, mn-24-010 `おばあさん／ おばあちゃん` | Cách viết thứ hai nằm trong `kanji`/`kana` thay vì `variants` → không khớp cụm đích; quiz đọc (Q9) cũng loại | `_decisions/`: tách cách viết thứ hai ra `variants` (kana cũng đang dạng "a/b": mn-09-033 `おっと/しゅじん`) |
+| **Không hỏi** | mn-01-030 こちらは～さんです (mẫu câu), mn-10-043 ～や～ (trợ từ), N3 `ずいぶん～なる` / `やっと～た` / `つい～てしまった` / `けっして～ない` / `ただ～するだけ`… | Đích là mẫu câu có phần giữa tự do | Ghi rõ "không hỏi" — test đếm riêng, không tính vào mốc bỏ qua |
+
+Kết quả mong đợi sau 2.1 + 2.2: mốc bỏ qua chỉ còn nhóm "không hỏi" + "khác" (~20).

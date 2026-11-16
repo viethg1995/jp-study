@@ -33,10 +33,10 @@ Thứ tự (user chốt): **sửa lỗi → hoàn thiện → chia nhỏ file de
 | 1.1 | Pipeline gộp `aliases` bảng chia chỉ theo kana → nối nhầm từ khác nghĩa (掛けます ↔ かけます, 付けます ↔ つけます, 吐きます ↔ つきます). Gộp khi cùng chữ / `same_word`; quét mọi alias khác chữ; pytest; kiểm link "Chia thể" trên thẻ từ vựng | ✅ 2026-11-16 — khóa gộp thêm `identity_kanji` (chữ Hán của cách viết đầu, không phụ thuộc `display`); 714 → 724 hàng, không mất hàng/ID nào (chi tiết mục Lỗi dữ liệu) |
 | 1.2 | Rà lỗi cùng loại: từ loại sai trong bảng chia (V2 không tận cùng える/いる, động từ ghép する/来る chưa V3…); nhiễu thực ra là dạng đúng (như `～くありません`) trên mọi câu chia thể + điền từ | ✅ 2026-11-17 — 6 từ loại sai (mục Lỗi dữ liệu); quét 12.612 câu: 0 nhiễu trùng くありません / では / ないです; sửa 1 nhiễu đồng âm (付いて ↔ ついて); bỏ ら抜き khỏi nhiễu (user chốt) |
 | **2 — Hoàn thiện** | | |
-| 2.1 | ~43 câu thể ghép: sinh **thể phái sinh trên web** (bị động/sai khiến + ます, なければなりません / なくても / なかったら từ thể ない, thân ます / gốc tính từ + そう), không thêm thể vào bảng chia — spec riêng | ⬜ |
-| 2.2 | ~24 câu không phải chia thể: tách `kanji` nhiều cách viết ra `variants` (`_decisions/`); tìm lý do danh từ (本, 国, 山) bị bỏ; phó từ N3 `ずいぶん～なる` ghi rõ không hỏi | ⬜ |
-| 2.3 | Link "Câu hay sai" trang chủ kèm cấp cho Kanji / Chia thể (Q10); 6 biến thể bộ thủ còn thiếu (訁 釒 𧾷 ⺮ 乚 ⺌) | ⬜ |
-| **3 — Q12** | Đo lại deck sau bước 2 (vượt mốc → tạm nâng mốc, làm Q12 ngay); spec chia theo nhóm bài, `mixFiles`, cache PWA; làm + e2e + số đo ([q12-deck-chunking.md](q12-deck-chunking.md)) | ⬜ |
+| 2.1 | ~43 câu thể ghép: sinh **thể phái sinh trên web** (bị động/sai khiến + ます, なければなりません / なくても / なかったら từ thể ない, thân ます / gốc tính từ + そう), không thêm thể vào bảng chia — spec: [q04b mục Kế hoạch bước 2.1](q04b-cloze-inflected.md) | ⬜ chờ duyệt spec |
+| 2.2 | ~24 câu không phải chia thể: bộ lọc lộ đáp án bắt oan theo cách đọc (量 / 料理, 医学 / 大学, 西 / にしずみ…) → câu điền từ chỉ xét chữ hiển thị; 3 câu lộ thật (本 / 日本語, 国 / 中国, 山 / 富士山) → viết lại; tách `kanji` nhiều cách viết ra `variants`; mẫu câu / phó từ N3 `～なる` ghi "không hỏi" — spec: [q04b mục Kế hoạch bước 2.2](q04b-cloze-inflected.md) | ⬜ chờ duyệt spec |
+| 2.3 | Link "Câu hay sai" trang chủ kèm cấp cho Kanji / Chia thể — trang tự chọn cấp/nhóm khi `?on=sai` ([q10 mục Kế hoạch 2.3a](q10-wrong-answers.md)); 6 biến thể bộ thủ còn thiếu, kiểm font ([q05 mục Kế hoạch 2.3b](q05-kanji.md)) | ⬜ chờ duyệt spec |
+| **3 — Q12** | Đo lại deck sau bước 2 (vượt mốc → tạm nâng mốc, làm Q12 ngay); chia 5 bài/file cho từ vựng + Kanji, chia thể theo sách, `deckChunks()` dùng chung cho trang từng phần + `mixFiles`, cache PWA theo chunk, mốc mới < 150KB / < 25KB gzip mỗi chunk, ID câu không đổi — spec: [q12 mục Kế hoạch bước 3](q12-deck-chunking.md) | ⬜ chờ duyệt spec |
 | **4 — Merge + PR** | Merge `main` mới nhất vào `feat/quiz`; đủ gate (`npm run build`, e2e, pytest, `BASE_PATH=/jp-study/`); push + PR vào `main` | ⬜ |
 
 ## Hiện trạng (khảo sát 2026-11-12)

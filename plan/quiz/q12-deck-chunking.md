@@ -37,7 +37,7 @@ cd web/dist && for f in vocabulary/quiz/*.json kanji/quiz/*.json chia-the/quiz/*
   printf "%s %s %s\n" "$f" $(wc -c <"$f") $(gzip -c "$f" | wc -c); done | sort -k2 -n -r | head
 ```
 
-## Hướng xử lý (chưa chốt — lập kế hoạch khi tới lượt)
+## Hướng xử lý (ghi ban đầu)
 
 - **Chunk theo nhóm bài** (vd 5 bài/file: `n5-dien-01-05.json`) → bộ lọc bài chỉ tải chunk cần; trang tổng tải ít file hơn khi khoảng bài hẹp. Cần: `mixFiles` (Q8) và trang từng phần biết danh sách chunk; nhớ đệm PWA theo chunk.
 - **Gọn dữ liệu lặp**: `explain`, `href`, `info` lặp nhiều giữa các câu cùng từ → bảng tra theo ID từ, câu chỉ giữ khóa.
@@ -47,3 +47,25 @@ cd web/dist && for f in vocabulary/quiz/*.json kanji/quiz/*.json chia-the/quiz/*
 ## Tiêu chí xong (dự kiến)
 
 Không file deck nào vượt mốc thống nhất khi lập kế hoạch; bộ lọc hẹp (≤ 5 bài) tải ít hơn hẳn hiện tại; e2e + unit xanh; ID câu không đổi (khóa của Q10).
+
+## Kế hoạch bước 3 · chờ duyệt spec
+
+Ghi 2026-11-17 ([README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16)) — làm **sau bước 2** (2.1 thêm ~40 câu vào `n4-dien`/`n5-dien`).
+
+1. **Đo lại** toàn bộ deck (lệnh ở mục Số đo) + tổng tải cho 4 bộ lọc thường dùng: 1 cấp đủ bài; 3 bài (vd N5 bài 3–5); `/luyen-tap/` bài 1–25 và 1–50 đủ 4 phần. Ghi bảng "trước".
+2. **Spec** (user duyệt) — đề xuất:
+
+| # | Mục | Đề xuất |
+|---|---|---|
+| 3-1 | Cách chia | **Theo nhóm bài, 5 bài/file** cho deck từ vựng + Kanji: `vocabulary/quiz/n5-dien-01.json` (bài 1–5), `-06` (6–10)…; N3 14 bài → 3 file (1–5, 6–10, 11–14). Kanji theo cùng trục bài của bộ lọc. Deck nhỏ (bộ thủ, đếm số, số đếm) giữ 1 file |
+| 3-2 | Chia thể | `chia-the/quiz/dong-tu.json` (753KB / 73KB gzip) sinh câu trên trình duyệt từ cả bảng → chia theo **sách** (Minna / N3) trước; theo bài nếu vẫn lớn |
+| 3-3 | Danh sách file | Hàm thuần `deckChunks(level, kind, from, to)` (`lib/quiz/chunks.ts`) → danh sách URL; trang từng phần và `mixFiles` (trang tổng) cùng dùng → đổi tên file chỉ sửa một chỗ |
+| 3-4 | Runner | `setFilter` nhận nhiều URL (đã có cho trang tổng) → trang từng phần truyền danh sách chunk; đếm "/ N câu" (Số câu "Tự nhập") cộng các chunk |
+| 3-5 | Gọn dữ liệu (nếu còn lớn) | `href`, `info`, `explain` lặp giữa các câu cùng từ → bảng tra theo ID từ trong file, câu giữ khóa. Chỉ làm khi 3-1 chưa đủ |
+| 3-6 | PWA | Cache theo từng chunk (kiểm `@vite-pwa/astro` đang precache hay runtime caching cho `*/quiz/*.json`); chunk đã tải dùng được offline |
+| 3-7 | Bất biến | **ID câu không đổi** (khóa `jp:quiz:wrong`); một câu nằm ở đúng một chunk (theo `tags.lesson` nhỏ nhất); "Câu hay sai" (Q10) tải đủ chunk chứa các câu sai |
+| 3-8 | Mốc test | Mỗi chunk < 150KB gốc / < 25KB gzip (thay mốc 450KB / 70KB); test: hợp các chunk = deck đầy đủ (cùng tập ID) |
+
+3. **Làm** → unit (chunks, hợp chunk = deck đầy đủ) + e2e (bộ lọc hẹp chỉ tải chunk cần — đếm request bằng `page.route`; trang tổng; Câu hay sai; mạng chậm) + đo "sau" → ghi bảng Số đo.
+
+Tiêu chí xong: như mục trên + bộ lọc ≤ 5 bài tải ≤ 1/3 dung lượng hiện tại.
