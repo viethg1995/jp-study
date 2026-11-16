@@ -1,0 +1,711 @@
+[
+  {
+    "id": "p-n4-001",
+    "level": "n4",
+    "title_ja": "ホームステイのお{礼|れい}",
+    "title_vi": "Lời cảm ơn sau kỳ homestay",
+    "genre": "letter",
+    "focus_vi": [
+      "～ていただく / ～てくださる",
+      "～ので",
+      "Vようと思っています",
+      "可能形",
+      "敬語"
+    ],
+    "sentences": [
+      {
+        "ja": "{山田|やまだ}{様|さま}",
+        "ja_alt": [],
+        "vi": "Kính gửi ông bà Yamada",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{寒|さむ}くなりましたが、お{元気|げんき}でいらっしゃいますか。",
+        "ja_alt": [],
+        "vi": "Trời đã trở lạnh, ông bà vẫn khỏe chứ ạ?",
+        "vi_alt": [],
+        "note_vi": "いらっしゃいます: tôn kính ngữ của います.",
+        "para": 1
+      },
+      {
+        "ja": "{先月|せんげつ}は{一週間|いっしゅうかん}、お{宅|たく}に{泊|と}めていただいて、{本当|ほんとう}にありがとうございました。",
+        "ja_alt": [],
+        "vi": "Tháng trước, cháu cảm ơn ông bà rất nhiều vì đã cho cháu ở nhờ nhà một tuần.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{初|はじ}めてのホームステイだったので、{最初|さいしょ}はとても{心配|しんぱい}でした。",
+        "ja_alt": [],
+        "vi": "Vì là lần đầu đi homestay nên lúc đầu cháu rất lo lắng.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "でも、{皆|みな}さんが{優|やさ}しくしてくださったので、すぐに{慣|な}れました。",
+        "ja_alt": [],
+        "vi": "Nhưng nhờ mọi người đối xử rất dịu dàng nên cháu đã quen ngay.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "お{母|かあ}さんが{作|つく}ってくださった{料理|りょうり}は、どれもとてもおいしかったです。",
+        "ja_alt": [],
+        "vi": "Những món bác gái nấu cho cháu, món nào cũng rất ngon.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{特|とく}に{肉|にく}じゃがの{味|あじ}は、{今|いま}も{忘|わす}れられません。",
+        "ja_alt": [],
+        "vi": "Đặc biệt, đến giờ cháu vẫn không quên được hương vị món thịt hầm khoai tây.",
+        "vi_alt": [],
+        "note_vi": "忘れられません: thể khả năng phủ định (không thể quên).",
+        "para": 2
+      },
+      {
+        "ja": "{作|つく}り{方|かた}を{教|おし}えていただいたので、{国|くに}へ{帰|かえ}ったら{家族|かぞく}に{作|つく}ってあげようと{思|おも}っています。",
+        "ja_alt": [],
+        "vi": "Vì đã được bác chỉ cách nấu nên cháu định khi về nước sẽ nấu cho gia đình ăn.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "それから、お{父|とう}さんといっしょに{見|み}た{花火|はなび}も、{本当|ほんとう}にきれいでした。",
+        "ja_alt": [],
+        "vi": "Ngoài ra, pháo hoa cháu cùng bác trai đi xem cũng thật sự rất đẹp.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "あの{夜|よる}のことは、ずっと{忘|わす}れないと{思|おも}います。",
+        "ja_alt": [],
+        "vi": "Cháu nghĩ mình sẽ mãi không quên đêm hôm ấy.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "{来年|らいねん}また{日本|にほん}へ{行|い}くことができたら、ぜひお{会|あ}いしたいです。",
+        "ja_alt": [],
+        "vi": "Nếu năm sau có thể sang Nhật lần nữa, cháu nhất định muốn được gặp lại ông bà.",
+        "vi_alt": [],
+        "note_vi": "お会いしたい: khiêm nhường ngữ của 会いたい.",
+        "para": 3
+      },
+      {
+        "ja": "{寒|さむ}い{日|ひ}が{続|つづ}きますので、どうぞお{体|からだ}に{気|き}をつけてください。",
+        "ja_alt": [],
+        "vi": "Những ngày lạnh còn kéo dài, ông bà hãy giữ gìn sức khỏe ạ.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "グエン・ミン",
+        "ja_alt": [],
+        "vi": "Nguyễn Minh",
+        "vi_alt": [],
+        "note_vi": "Tên người viết thư.",
+        "para": 3
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  },
+  {
+    "id": "p-n4-002",
+    "level": "n4",
+    "title_ja": "アルバイトの{一日目|いちにちめ}",
+    "title_vi": "Ngày đầu tiên đi làm thêm",
+    "genre": "diary",
+    "focus_vi": [
+      "thể thường (nhật ký)",
+      "受身 (言われた)",
+      "～てしまった",
+      "～ながら",
+      "～ように"
+    ],
+    "sentences": [
+      {
+        "ja": "{今日|きょう}から、コンビニでアルバイトを{始|はじ}めた。",
+        "ja_alt": [],
+        "vi": "Từ hôm nay, tôi bắt đầu làm thêm ở cửa hàng tiện lợi.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{朝|あさ}からずっとどきどきして、ご{飯|はん}もあまり{食|た}べられなかった。",
+        "ja_alt": [],
+        "vi": "Từ sáng tim tôi cứ đập thình thịch, cơm cũng chẳng ăn được mấy.",
+        "vi_alt": [],
+        "note_vi": "どきどき: tim đập thình thịch (hồi hộp).",
+        "para": 1
+      },
+      {
+        "ja": "{店長|てんちょう}の{木村|きむら}さんは{優|やさ}しそうな{人|ひと}だったので、{少|すこ}し{安心|あんしん}した。",
+        "ja_alt": [],
+        "vi": "Quản lý cửa hàng là anh Kimura trông có vẻ hiền nên tôi yên tâm phần nào.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{最初|さいしょ}に、レジの{使|つか}い{方|かた}を{教|おし}えてもらった。",
+        "ja_alt": [],
+        "vi": "Đầu tiên, tôi được chỉ cách dùng máy tính tiền.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "でも、お{客|きゃく}さんが{多|おお}くて、なかなか{覚|おぼ}えられなかった。",
+        "ja_alt": [],
+        "vi": "Nhưng khách đông quá nên mãi tôi vẫn không nhớ được.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{夕方|ゆうがた}、{急|いそ}いでいたので、おつりを{間違|まちが}えてしまった。",
+        "ja_alt": [],
+        "vi": "Buổi chiều, vì vội nên tôi đã thối nhầm tiền.",
+        "vi_alt": [],
+        "note_vi": "～てしまった: lỡ làm (tiếc nuối).",
+        "para": 2
+      },
+      {
+        "ja": "お{客|きゃく}さんに「{百円|ひゃくえん}{足|た}りませんよ。」と{言|い}われて、{顔|かお}が{赤|あか}くなった。",
+        "ja_alt": [],
+        "vi": "Bị khách nói “Còn thiếu 100 yên đấy”, mặt tôi đỏ bừng.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "ああ、{恥|は}ずかしかった。",
+        "ja_alt": [],
+        "vi": "Ôi, xấu hổ quá.",
+        "vi_alt": [],
+        "note_vi": "ああ: thán từ than thở.",
+        "para": 2
+      },
+      {
+        "ja": "{仕事|しごと}が{終|お}わったあとで、{木村|きむら}さんに{謝|あやま}った。",
+        "ja_alt": [],
+        "vi": "Xong việc, tôi đã xin lỗi anh Kimura.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "すると、{木村|きむら}さんは{笑|わら}いながら「{最初|さいしょ}はみんなそうですよ。」と{言|い}ってくれた。",
+        "ja_alt": [],
+        "vi": "Thế là anh Kimura vừa cười vừa nói với tôi: “Lúc đầu ai cũng vậy mà.”",
+        "vi_alt": [],
+        "note_vi": "すると: thế là, liền đó.",
+        "para": 3
+      },
+      {
+        "ja": "その{言葉|ことば}を{聞|き}いて、{本当|ほんとう}にうれしかった。",
+        "ja_alt": [],
+        "vi": "Nghe câu nói ấy, tôi thật sự rất vui.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "{明日|あした}はもっと{上手|じょうず}にできるように、{頑張|がんば}ろう。",
+        "ja_alt": [],
+        "vi": "Ngày mai mình sẽ cố gắng để làm tốt hơn.",
+        "vi_alt": [],
+        "note_vi": "Vよう: thể ý chí (tự nhủ).",
+        "para": 3
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  },
+  {
+    "id": "p-n4-003",
+    "level": "n4",
+    "title_ja": "ごみの{出|だ}し{方|かた}について",
+    "title_vi": "Về cách đổ rác",
+    "genre": "notice",
+    "focus_vi": [
+      "～ことになっています",
+      "～ないでください",
+      "～場合は",
+      "～ように",
+      "～ば"
+    ],
+    "sentences": [
+      {
+        "ja": "さくらマンションにお{住|す}まいの{皆様|みなさま}へ",
+        "ja_alt": [],
+        "vi": "Gửi toàn thể cư dân chung cư Sakura",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{最近|さいきん}、ごみの{出|だ}し{方|かた}のルールが{守|まも}られていないことがあります。",
+        "ja_alt": [],
+        "vi": "Gần đây có trường hợp quy định đổ rác không được tuân thủ.",
+        "vi_alt": [],
+        "note_vi": "守られていない: bị động (không được tuân thủ).",
+        "para": 1
+      },
+      {
+        "ja": "{決|き}められた{日|ひ}の{朝|あさ}{八時|はちじ}までに、ごみを{出|だ}してください。",
+        "ja_alt": [],
+        "vi": "Hãy đổ rác trước 8 giờ sáng vào đúng ngày quy định.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{燃|も}えるごみは、{月曜日|げつようび}と{木曜日|もくようび}です。",
+        "ja_alt": [],
+        "vi": "Rác cháy được đổ vào thứ hai và thứ năm.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{缶|かん}や{瓶|びん}は、{水曜日|すいようび}に{出|だ}すことになっています。",
+        "ja_alt": [],
+        "vi": "Lon và chai lọ theo quy định đổ vào thứ tư.",
+        "vi_alt": [],
+        "note_vi": "ことになっています: theo quy định.",
+        "para": 2
+      },
+      {
+        "ja": "{前|まえ}の{日|ひ}の{夜|よる}には{出|だ}さないでください。",
+        "ja_alt": [],
+        "vi": "Vui lòng không đổ rác vào tối hôm trước.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{夜|よる}に{出|だ}すと、カラスや{猫|ねこ}がごみを{食|た}べてしまいます。",
+        "ja_alt": [],
+        "vi": "Nếu đổ vào buổi tối, quạ và mèo sẽ bới rác ra ăn.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{大|おお}きいごみを{捨|す}てたい{場合|ばあい}は、{管理人|かんりにん}に{連絡|れんらく}してください。",
+        "ja_alt": [],
+        "vi": "Trường hợp muốn vứt rác cỡ lớn, hãy liên lạc với người quản lý.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "ルールを{守|まも}らないと、ごみを{持|も}って{行|い}ってもらえません。",
+        "ja_alt": [],
+        "vi": "Nếu không tuân thủ quy định, rác sẽ không được thu gom.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "{皆様|みなさま}が{気持|きも}ちよく{生活|せいかつ}できるように、ご{協力|きょうりょく}をお{願|ねが}いします。",
+        "ja_alt": [],
+        "vi": "Để mọi người có thể sinh hoạt thoải mái, rất mong quý cư dân hợp tác.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "わからないことがあれば、いつでも{管理人|かんりにん}{室|しつ}に{聞|き}いてください。",
+        "ja_alt": [],
+        "vi": "Nếu có điều gì chưa rõ, xin cứ hỏi phòng quản lý bất cứ lúc nào.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "{管理人|かんりにん}　{田中|たなか}",
+        "ja_alt": [],
+        "vi": "Người quản lý: Tanaka",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  },
+  {
+    "id": "p-n4-004",
+    "level": "n4",
+    "title_ja": "スマホのない{一週間|いっしゅうかん}",
+    "title_vi": "Một tuần không có điện thoại thông minh",
+    "genre": "essay",
+    "focus_vi": [
+      "～ながら",
+      "～ことにしました",
+      "～ようになりました",
+      "～ようにしています",
+      "～し",
+      "へえ"
+    ],
+    "sentences": [
+      {
+        "ja": "{私|わたし}は{毎日|まいにち}、{何時間|なんじかん}もスマホを{見|み}ています。",
+        "ja_alt": [],
+        "vi": "Ngày nào tôi cũng nhìn điện thoại hàng mấy tiếng đồng hồ.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{食事|しょくじ}をしながら{見|み}たり、{寝|ね}る{前|まえ}にベッドの{中|なか}で{見|み}たりします。",
+        "ja_alt": [],
+        "vi": "Tôi vừa ăn vừa xem, trước khi ngủ lại nằm trên giường xem.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "ある{日|ひ}、{母|はは}に「{目|め}が{悪|わる}くなるよ。」と{言|い}われました。",
+        "ja_alt": [],
+        "vi": "Một hôm, mẹ bảo tôi: “Mắt con sẽ kém đi đấy.”",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "それで、{一週間|いっしゅうかん}スマホを{使|つか}わないことにしました。",
+        "ja_alt": [],
+        "vi": "Vì thế, tôi quyết định không dùng điện thoại thông minh trong một tuần.",
+        "vi_alt": [],
+        "note_vi": "ことにしました: quyết định (do bản thân).",
+        "para": 1
+      },
+      {
+        "ja": "{最初|さいしょ}の{二日|ふつか}は、{本当|ほんとう}に{大変|たいへん}でした。",
+        "ja_alt": [],
+        "vi": "Hai ngày đầu thật sự rất khó khăn.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{何|なに}をしていても、スマホのことを{考|かんが}えてしまいました。",
+        "ja_alt": [],
+        "vi": "Làm gì tôi cũng cứ nghĩ đến điện thoại.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "でも、{三日目|みっかめ}ぐらいから、{少|すこ}しずつ{変|か}わってきました。",
+        "ja_alt": [],
+        "vi": "Nhưng khoảng từ ngày thứ ba, mọi thứ bắt đầu thay đổi dần dần.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{朝|あさ}{早|はや}く{起|お}きられるようになったし、{本|ほん}も{二冊|にさつ}{読|よ}みました。",
+        "ja_alt": [],
+        "vi": "Tôi đã dậy sớm được, lại còn đọc xong hai cuốn sách.",
+        "vi_alt": [],
+        "note_vi": "～し: liệt kê lý do / sự việc.",
+        "para": 2
+      },
+      {
+        "ja": "{家族|かぞく}と{話|はな}す{時間|じかん}も{増|ふ}えました。",
+        "ja_alt": [],
+        "vi": "Thời gian trò chuyện với gia đình cũng nhiều lên.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "へえ、スマホがなくても{困|こま}らないんだ、と{思|おも}いました。",
+        "ja_alt": [],
+        "vi": "Tôi nghĩ: “Ồ, hóa ra không có điện thoại cũng chẳng sao cả.”",
+        "vi_alt": [],
+        "note_vi": "へえ: thán từ ngạc nhiên, vỡ lẽ.",
+        "para": 3
+      },
+      {
+        "ja": "{今|いま}はまたスマホを{使|つか}っていますが、{食事|しょくじ}のときは{見|み}ないようにしています。",
+        "ja_alt": [],
+        "vi": "Bây giờ tôi lại dùng điện thoại, nhưng khi ăn thì cố gắng không xem.",
+        "vi_alt": [],
+        "note_vi": "ようにしています: cố gắng duy trì thói quen.",
+        "para": 3
+      },
+      {
+        "ja": "{皆|みな}さんも、ぜひ{一度|いちど}やってみてください。",
+        "ja_alt": [],
+        "vi": "Các bạn cũng hãy thử một lần xem nhé.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  },
+  {
+    "id": "p-n4-005",
+    "level": "n4",
+    "title_ja": "{授業|じゅぎょう}を{休|やす}みます",
+    "title_vi": "Xin nghỉ học",
+    "genre": "email",
+    "focus_vi": [
+      "～んです",
+      "～させていただけませんか",
+      "～ように言われました",
+      "～ておきます",
+      "敬語"
+    ],
+    "sentences": [
+      {
+        "ja": "{佐藤|さとう}{先生|せんせい}",
+        "ja_alt": [],
+        "vi": "Kính gửi cô Sato",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "いつもお{世話|せわ}になっております。",
+        "ja_alt": [],
+        "vi": "Em cảm ơn cô đã luôn giúp đỡ em.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{二年|にねん}Ｂクラスのアンです。",
+        "ja_alt": [],
+        "vi": "Em là An, lớp 2B.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{申|もう}し{訳|わけ}ありませんが、{今日|きょう}の{授業|じゅぎょう}を{休|やす}ませていただけませんか。",
+        "ja_alt": [],
+        "vi": "Em rất xin lỗi, cô có thể cho em nghỉ buổi học hôm nay được không ạ?",
+        "vi_alt": [],
+        "note_vi": "休ませていただけませんか: xin phép (cho mình) nghỉ, rất lịch sự.",
+        "para": 1
+      },
+      {
+        "ja": "{昨日|きのう}の{夜|よる}から{熱|ねつ}があって、{頭|あたま}も{痛|いた}いんです。",
+        "ja_alt": [],
+        "vi": "Từ tối hôm qua em bị sốt, đầu cũng đau ạ.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{今朝|けさ}、{病院|びょういん}へ{行|い}ったら、インフルエンザだと{言|い}われました。",
+        "ja_alt": [],
+        "vi": "Sáng nay em đi bệnh viện thì bác sĩ nói em bị cúm.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{医者|いしゃ}に、{三日間|みっかかん}は{家|いえ}で{休|やす}むように{言|い}われました。",
+        "ja_alt": [],
+        "vi": "Bác sĩ dặn em phải nghỉ ở nhà ba ngày.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "ほかの{学生|がくせい}にうつさないように、{木曜日|もくようび}まで{休|やす}もうと{思|おも}っています。",
+        "ja_alt": [],
+        "vi": "Để không lây cho các bạn khác, em định nghỉ đến thứ năm.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{来週|らいしゅう}のテストはどこからどこまでか、{教|おし}えていただけませんか。",
+        "ja_alt": [],
+        "vi": "Cô có thể cho em biết bài kiểm tra tuần sau ôn từ đâu đến đâu được không ạ?",
+        "vi_alt": [],
+        "note_vi": "～か (câu hỏi lồng): どこからどこまでか.",
+        "para": 3
+      },
+      {
+        "ja": "{休|やす}んでいる{間|あいだ}に、{教科書|きょうかしょ}を{読|よ}んで{勉強|べんきょう}しておきます。",
+        "ja_alt": [],
+        "vi": "Trong thời gian nghỉ, em sẽ đọc sách giáo khoa để tự học trước.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "ご{迷惑|めいわく}をおかけして、{申|もう}し{訳|わけ}ございません。",
+        "ja_alt": [],
+        "vi": "Em thành thật xin lỗi vì đã làm phiền cô.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "どうぞよろしくお{願|ねが}いいたします。",
+        "ja_alt": [],
+        "vi": "Em rất mong cô giúp đỡ.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "アン",
+        "ja_alt": [],
+        "vi": "An",
+        "vi_alt": [],
+        "note_vi": "Tên người gửi.",
+        "para": 3
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  },
+  {
+    "id": "p-n4-006",
+    "level": "n4",
+    "title_ja": "{忘|わす}れ{物|もの}",
+    "title_vi": "Đồ để quên",
+    "genre": "dialogue",
+    "focus_vi": [
+      "～てしまいました",
+      "～んですが",
+      "～そうです (nghe nói)",
+      "～てみます",
+      "ああ、よかった"
+    ],
+    "sentences": [
+      {
+        "ja": "きのう、{電車|でんしゃ}の{中|なか}にかばんを{忘|わす}れてしまいました。",
+        "ja_alt": [],
+        "vi": "Hôm qua, tôi đã để quên túi trên tàu điện.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{駅|えき}を{出|で}てから{気|き}がついて、{急|いそ}いで{駅員|えきいん}さんに{話|はな}しました。",
+        "ja_alt": [],
+        "vi": "Ra khỏi ga tôi mới nhận ra, liền vội vàng báo với nhân viên nhà ga.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "「すみません、さっき{乗|の}った{電車|でんしゃ}にかばんを{忘|わす}れたんですが……。」",
+        "ja_alt": [],
+        "vi": "“Xin lỗi, tôi để quên túi trên chuyến tàu vừa đi…”",
+        "vi_alt": [],
+        "note_vi": "～んですが……: mở lời trình bày sự việc, nhờ giúp.",
+        "para": 2
+      },
+      {
+        "ja": "「どんなかばんですか。」",
+        "ja_alt": [],
+        "vi": "“Túi như thế nào ạ?”",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "「{黒|くろ}いかばんで、このくらいの{大|おお}きさです。」",
+        "ja_alt": [],
+        "vi": "“Túi màu đen, to cỡ này ạ.”",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "「{中|なか}にパソコンと{財布|さいふ}が{入|はい}っているんです。」",
+        "ja_alt": [],
+        "vi": "“Bên trong có máy tính xách tay và ví tiền ạ.”",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "「わかりました。{何時|なんじ}ごろの{電車|でんしゃ}ですか。」",
+        "ja_alt": [],
+        "vi": "“Tôi hiểu rồi. Chuyến tàu khoảng mấy giờ ạ?”",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "「{三時|さんじ}{十分|じゅっぷん}ごろの{電車|でんしゃ}で、{前|まえ}から{二|に}{両目|りょうめ}に{乗|の}っていました。」",
+        "ja_alt": [],
+        "vi": "“Chuyến khoảng 3 giờ 10 phút, tôi ngồi ở toa thứ hai tính từ đầu tàu.”",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "「では、{終点|しゅうてん}の{駅|えき}に{電話|でんわ}で{聞|き}いてみますね。」",
+        "ja_alt": [],
+        "vi": "“Vậy để tôi gọi điện hỏi thử ga cuối nhé.”",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{十分|じゅっぷん}ぐらい{待|ま}つと、{駅員|えきいん}さんが{戻|もど}ってきました。",
+        "ja_alt": [],
+        "vi": "Đợi khoảng mười phút thì người nhân viên quay lại.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "「ありましたよ。{終点|しゅうてん}の{駅|えき}にあるそうです。」",
+        "ja_alt": [],
+        "vi": "“Tìm thấy rồi đấy. Nghe nói nó đang ở ga cuối.”",
+        "vi_alt": [],
+        "note_vi": "～そうです: nghe nói (truyền đạt lại).",
+        "para": 3
+      },
+      {
+        "ja": "「ああ、よかった！」と、{私|わたし}は{大|おお}きい{声|こえ}を{出|だ}してしまいました。",
+        "ja_alt": [],
+        "vi": "“A, may quá!” — tôi buột miệng kêu to.",
+        "vi_alt": [],
+        "note_vi": "ああ、よかった: thán từ nhẹ nhõm.",
+        "para": 3
+      },
+      {
+        "ja": "{日本|にほん}の{駅|えき}は{本当|ほんとう}に{親切|しんせつ}だと{思|おも}いました。",
+        "ja_alt": [],
+        "vi": "Tôi nghĩ nhà ga ở Nhật thật sự rất chu đáo.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  }
+]

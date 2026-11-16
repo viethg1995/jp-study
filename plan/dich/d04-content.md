@@ -44,4 +44,31 @@ AI viết enrichment/translation/passages/n5.json, n4.json, n3.json
 
 ## Sai khác so với spec
 
-(ghi khi làm)
+Đợt 1 xong 2026-11-16: 18 đoạn (N5 6, N4 6, N3 6), 222 câu, tất cả `ai-draft` / `review: auto` — **chờ user duyệt**.
+
+| Đoạn | Thể loại | Câu | Ký tự Nhật / Việt |
+|---|---|---|---|
+| p-n5-001 Ngày chủ nhật mưa | Bài viết | 13 | 271 / 554 |
+| p-n5-002 Lá thư gửi mẹ | Thư | 13 | 221 / 476 |
+| p-n5-003 Nhật ký ngày sinh nhật | Nhật ký | 13 | 235 / 582 |
+| p-n5-004 Thông báo trường Sakura | Thông báo | 12 | 214 / 514 |
+| p-n5-005 Đi ngắm hoa không? | Email | 14 | 219 / 466 |
+| p-n5-006 Hỏi đường | Hội thoại | 13 | 247 / 543 |
+| p-n4-001 Lời cảm ơn sau homestay | Thư | 13 | 324 / 722 |
+| p-n4-002 Ngày đầu đi làm thêm | Nhật ký | 12 | 280 / 585 |
+| p-n4-003 Về cách đổ rác | Thông báo | 12 | 268 / 590 |
+| p-n4-004 Một tuần không có smartphone | Bài viết | 12 | 278 / 632 |
+| p-n4-005 Xin nghỉ học | Email | 13 | 244 / 512 |
+| p-n4-006 Đồ để quên | Hội thoại | 13 | 297 / 590 |
+| p-n3-001 Bắt đầu sống một mình | Bài viết | 12 | 324 / 750 |
+| p-n3-002 Gửi thầy giáo cấp hai | Thư | 12 | 327 / 661 |
+| p-n3-003 Thông báo từ thư viện | Thông báo | 11 | 277 / 714 |
+| p-n3-004 Ngày leo núi Phú Sĩ | Nhật ký | 12 | 293 / 731 |
+| p-n3-005 Về việc đổi ngày họp | Email | 11 | 250 / 582 |
+| p-n3-006 Chuyện tiết kiệm tiền | Hội thoại | 11 | 317 / 749 |
+
+- **Độ dài thấp hơn mục tiêu ~10–20%** (N5 214–271, N4 244–324, N3 250–327 ký tự Nhật) — vẫn gấp ~2 lần bản đầu (130). Tỉ lệ Việt/Nhật thực tế 2,1–2,6 (thông báo, email cao nhất) → N3 dài thêm sẽ chạm trần 900 ký tự Việt. Kéo dài thêm cần nâng `MAX_ANSWER_CHARS` cho đoạn văn.
+- `ja_alt` / `vi_alt` chỉ có ở `p-n5-001`; các đoạn khác để trống — prompt chấm đã coi bản mẫu là tham khảo, chấp nhận cách dịch khác đúng ý.
+- `check-passages`: 177 W, đã xem hết. Đã sửa từ vượt cấp thật (N5: 毎週, 泣く, 集まる, ピクニック, 次, 今度, 返事; N4: 緊張, 散らかす, 範囲, 預かる; N3: 家計簿, 調整, 日程). Còn lại chấp nhận: (1) Sudachi đọc sai — 富士山 ふじさん, 二十 はたち, 四月 しがつ, 九時 くじ, 一週間 いっしゅうかん, 二日 ふつか, 十分 じゅっぷん, 一階 いっかい, 四時半 よじはん, (水) すい / (木) もく; (2) từ cơ bản không có mục riêng trong dữ liệu từ vựng Minna (夜, 最初, 場合, 気持ち, どうぞ, ぜひ, アパート, うれしい…) và thán từ/chào hỏi; (3) N3: dữ liệu từ vựng N3 chỉ 14 bài nên từ N3 chuẩn (挑戦, 頂上, 苦手, 実家…) đều bị báo; (4) từ thường viết kana ở trình độ thấp (かばん, きれい, おいしい, わかる, また).
+- Soạn bằng định dạng dòng (`para :: ja :: vi :: ghi chú`) rồi chuyển sang JSON bằng script tạm — file nguồn chuẩn vẫn là `passages/nX.json`.
+- Kiểm tra: `build-translation` pass (lỗi ruby 「一杯 thiếu furigana bị chặn và đã sửa); web build + e2e `translation.spec.ts` 10/10; worker deploy 2026-11-16, chấm thật `p-n3-004` (ja-vi) bắt đúng 日の出 ≠ “mặt trời lặn”.
