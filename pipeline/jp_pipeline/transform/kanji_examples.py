@@ -3,6 +3,7 @@
 1. Từ giáo trình (vocab_refs) luôn được dùng trước — có nghĩa tiếng Việt sẵn, link về thẻ.
 2. Thiếu (< MIN_EXAMPLES) → bổ sung từ JMdict: ưu tiên từ thông dụng (common), ngắn, mà các chữ Hán
    khác trong từ cũng nằm trong bộ Kanji của site; đảm bảo mỗi loại âm (On/Kun) chữ có thì có ≥1 ví dụ.
+   Kun: ưu tiên từ có okurigana (代わる), mỗi âm Kun một từ, tới KUN_TARGET (tổng ≤ MAX_EXAMPLES).
 3. Loại âm: tách cách đọc cả từ thành cách đọc từng chữ theo âm On/Kun KANJIDIC2 (kèm biến âm
    連濁 k→g…, 促音 つ/く/ち/き→っ). Không tách được (熟字訓 như 今日 きょう) → null, web xếp "Đặc biệt".
 
@@ -22,6 +23,8 @@ from jp_pipeline.schemas import KanjiEntry, KanjiExample, ReadingType, VocabEntr
 from jp_pipeline.transform.vocab_text import join_senses
 
 MIN_EXAMPLES = 5
+MAX_EXAMPLES = 7  # bổ sung ví dụ Kun được vượt MIN_EXAMPLES tới mức này
+KUN_TARGET = 3  # số ví dụ Kun nhắm tới (mỗi âm Kun khác nhau một từ)
 MAX_WORD_LEN = 4  # từ JMdict bổ sung: tối đa 4 ký tự
 _RENDAKU = dict(zip("かきくけこさしすせそたちつてとはひふへほ", "がぎぐげござじずぜぞだぢづでどばびぶべぼ", strict=True))
 _HANDAKU = dict(zip("はひふへほ", "ぱぴぷぺぽ", strict=True))
@@ -63,6 +66,32 @@ def char_readings(info: KanjiInfo | None) -> list[tuple[str, ReadingType]]:
             for v in _variants(base):
                 out.setdefault(v, "kun")  # âm trùng On và Kun → giữ On (hiếm)
     return list(out.items())
+
+
+def _okurigana(word: str, char: str) -> str | None:
+    """Okurigana ngay sau chữ khi từ = chữ + toàn kana ('代わる' → 'わる'); từ ghép/chữ đơn → None."""
+    if not word.startswith(char) or len(word) == 1:
+        return None
+    rest = word[1:]
+    return rest if not any(is_kanji(c) for c in rest) else None
+
+
+_UNVOICE = {v: k for d in (_RENDAKU, _HANDAKU) for k, v in d.items()}  # が→か, ば→は, ぱ→は
+
+
+def _unvoice(r: str) -> str:
+    """Bỏ 連濁 ở âm đầu để gộp biến âm: 'づよ' → 'つよ', 'がわ' → 'かわ'."""
+    return _UNVOICE.get(r[:1], r[:1]) + r[1:]
+
+
+def _kun_okurigana(info: KanjiInfo | None) -> dict[str, list[str]]:
+    """{gốc Kun (bỏ 連濁): [okurigana]} theo KANJIDIC2: か.わる, か.える → {'か': ['わる', 'える']}."""
+    out: dict[str, list[str]] = {}
+    for kun in info.kun if info else []:
+        stem, _, okuri = kun.strip("-").partition(".")
+        if okuri and okuri not in out.setdefault(_unvoice(stem), []):
+            out[_unvoice(stem)].append(okuri)
+    return out
 
 
 def split_reading(
@@ -125,20 +154,22 @@ def _clean(s: str) -> str:
 
 def jm_candidates(jm: dict[str, list[JmEntry]], chars: set[str]) -> dict[str, list[tuple[str, str, JmEntry]]]:
     """{字: [(từ, kana, entry)]} — mỗi (từ, kana) một lần, chỉ dạng chữ Hán đầu tiên (phổ biến nhất)
-    của entry, bỏ từ thường viết bằng kana (uk)."""
+    của entry (thêm dạng thông dụng chữ + okurigana khác, vd 代わる trong mục 変わる), bỏ từ thường viết bằng kana (uk)."""
     out: dict[str, list[tuple[str, str, JmEntry]]] = {}
     seen: set[tuple[str, str]] = set()
     for kana in sorted(jm):
         for e in jm[kana]:
             if e.uk or not e.kanji or not e.gloss:
                 continue
-            w = e.kanji[0]
-            if len(w) > MAX_WORD_LEN or (w, kana) in seen:
-                continue
-            seen.add((w, kana))
-            for c in set(w):
-                if c in chars:
-                    out.setdefault(c, []).append((w, kana, e))
+            # dạng đầu + dạng thông dụng khác kiểu chữ + okurigana (mục かわる: 変わる đầu, 代わる thông dụng)
+            forms = [e.kanji[0], *(f for f in e.kanji[1:] if f in e.common_kanji and _okurigana(f, f[0]) is not None)]
+            for w in forms:
+                if len(w) > MAX_WORD_LEN or (w, kana) in seen:
+                    continue
+                seen.add((w, kana))
+                for c in set(w):
+                    if c in chars:
+                        out.setdefault(c, []).append((w, kana, e))
     return out
 
 
@@ -223,12 +254,53 @@ def build_examples(
                                     meaning_en="; ".join(e.gloss[:3]), vocab_id=None, source="jmdict"))
 
         # (a) mỗi loại âm chữ có → ≥1 ví dụ (chỉ lấy từ thông dụng, tránh từ hiếm cho đủ chỉ tiêu)
-        for t_need in sorted(has_types):
-            if any(x.reading_type == t_need for x in exs):
-                continue
-            pick = next((x for x in classified if x[1] == t_need and x[0][2].common and x[0][0] not in words), None)
+        if "on" in has_types and not any(x.reading_type == "on" for x in exs):
+            pick = next((x for x in classified if x[1] == "on" and x[0][2].common and x[0][0] not in words), None)
             if pick:
                 take(*pick)
+        # (a') Kun: từ có okurigana (代わる) trước; mỗi âm Kun một ví dụ (lượt 1 theo âm gốc か/よ/しろ, lượt 2
+        # theo okurigana 代わる/代える), tới KUN_TARGET ví dụ Kun, tổng không quá MAX_EXAMPLES; luôn ≥1 nếu có
+        if "kun" in has_types:
+            kd_okuri = _kun_okurigana(kanjidic.get(k.char))
+
+            def okuri_rank(w: str, r: str, e: JmEntry) -> tuple[int, int, int]:
+                """(0 dạng đúng okurigana KANJIDIC 代わる / 1 chữ + okurigana khác 代わります / 2 từ ghép,
+                0 động từ·tính từ trước danh từ 代わり, thứ tự okurigana trong KANJIDIC)."""
+                o = _okurigana(w, k.char)
+                okuris = kd_okuri.get(_unvoice(r), [])
+                group = 2 if o is None else 0 if o in okuris else 1
+                verb_adj = any(p.startswith(("Godan", "Ichidan", "adjective (keiyoushi)")) for p in e.pos)
+                return group, 0 if verb_adj else 1, okuris.index(o) if o in okuris else len(okuris)
+
+            kun_pool = sorted(
+                ((c, t, r) for c, t, r in classified if t == "kun" and r and c[2].common),
+                key=lambda x: (*okuri_rank(x[0][0], x[2], x[0][2]), *rank(x[0])),
+            )
+
+            def stem_key(w: str, r: str) -> tuple[str, str] | None:
+                return (_unvoice(r), "")  # 根強い づよ = 強い つよ
+
+            def okuri_key(w: str, r: str) -> tuple[str, str] | None:
+                """Lượt 2: chỉ từ chữ + okurigana đúng KANJIDIC (代わる/代わります → (か, わる)); khác → None."""
+                o = _okurigana(w, k.char)
+                if o is None:
+                    return None
+                okuris = kd_okuri.get(_unvoice(r), [])
+                if o in okuris:  # khớp đúng trước: 代わり → わり (không phải わる)
+                    return (_unvoice(r), o)
+                return next(((_unvoice(r), x) for x in okuris if o.startswith(x[:-1] or x)), None)
+
+            for key in (stem_key, okuri_key):
+                seen = {key(x.word, x.reading) for x in exs if x.reading_type == "kun" and x.reading}
+                for c, t, r in kun_pool:
+                    n_kun = sum(x.reading_type == "kun" for x in exs)
+                    if n_kun >= KUN_TARGET or (n_kun and len(exs) >= MAX_EXAMPLES):
+                        break
+                    kk = key(c[0], r)
+                    if c[0] in words or kk is None or kk in seen:
+                        continue
+                    seen.add(kk)
+                    take(c, t, r)
         # (b) đủ MIN_EXAMPLES: ưu tiên từ đã xác định được loại âm
         for want_known in (True, False):
             for c, t, r in classified:

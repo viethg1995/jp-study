@@ -293,7 +293,7 @@ def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]], dic
     fix_file = enrich / "vocab-fixes.txt"
     fix_by, fixes = parse_fixes(fix_file.read_text(encoding="utf-8")) if fix_file.exists() else ("ai", [])
     raws = [N3VocabRaw.model_validate(x) for x in _read_json(parsed / "vocab.json")]  # type: ignore[union-attr]
-    jm = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     from jp_pipeline.transform.n3_build import parse_examples
 
     ex_files = sorted((enrich / "_examples").glob("lesson-*.txt"))
@@ -402,7 +402,7 @@ def _kanji_examples(kanji: list, entries: list, kanjidic: dict):  # type: ignore
     from jp_pipeline.dictionaries import load_jmdict
     from jp_pipeline.transform.kanji_examples import build_examples, parse_example_translations
 
-    jm = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     d = paths.ENRICH_KANJI / "examples"
     tr = parse_example_translations([(f.name, f.read_text(encoding="utf-8")) for f in sorted(d.glob("*.txt"))])
     kanji, rep = build_examples(kanji, entries, jm, kanjidic, tr)
@@ -780,7 +780,7 @@ def cmd_enrich_vocab(_: argparse.Namespace) -> int:
             print(f"Thiếu từ điển: {p.relative_to(paths.ROOT)} — xem docstring dictionaries.py")
             return 1
     print("Đọc từ điển (lần đầu ~15s, sau đó dùng cache)…", flush=True)
-    jmdict = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jmdict = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     kanjidic = load_kanjidic(paths.DICT_KANJIDIC, paths.DICT_INDEX / "kanjidic2.json")
     unihan = load_unihan_vi(paths.DICT_UNIHAN, paths.DICT_INDEX / "unihan_vi.json")
 
@@ -955,7 +955,7 @@ def cmd_check_meanings(_: argparse.Namespace) -> int:
         e for f in sorted(paths.OUT_VOCABULARY.glob("lesson-*.json"))
         for e in VocabLesson.model_validate(_read_json(f)).entries
     ]
-    jm = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     ok_file = paths.ENRICH_VOCAB / "meaning-check-ok.txt"  # ID đã soát, không lỗi → không hiện lại
     ok = {
         ln.split("|")[0].strip() for ln in ok_file.read_text(encoding="utf-8").splitlines()
@@ -1060,7 +1060,7 @@ def cmd_parse_n3(args: argparse.Namespace) -> int:
     from jp_pipeline.transform.n3_vocab import parse_lesson
 
     out_dir = paths.EXTRACTED / "books" / "N3" / "_parsed"
-    jm_index = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm_index = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     known = set(jm_index) | {k for items in jm_index.values() for it in items for k in it.kanji}
 
     def is_word(text: str) -> bool:

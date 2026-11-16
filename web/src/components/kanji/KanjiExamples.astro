@@ -2,7 +2,7 @@
 // Từ ví dụ của một chữ Hán, chia 3 nhóm: Âm On (音) · Âm Kun (訓) · Đặc biệt (熟字訓, không tách được âm).
 // Từ giáo trình: link về thẻ + nhãn bài. Từ bổ sung (JMdict): nghĩa tiếng Việt, chưa dịch → nghĩa tiếng Anh.
 import type { KanjiExample } from "../../content.config";
-import { kunDisplay } from "../../lib/kanji";
+import { kunReadings } from "../../lib/kanji";
 
 export interface ExampleRow extends KanjiExample {
   href: string | null; // link thẻ từ vựng (từ giáo trình)
@@ -18,7 +18,7 @@ const { char, on, kun, rows } = Astro.props;
 
 const groups = [
   { key: "on", title: "Âm On", jp: "音", readings: on.join("、"), items: rows.filter((r) => r.reading_type === "on") },
-  { key: "kun", title: "Âm Kun", jp: "訓", readings: kun.map(kunDisplay).join("、"), items: rows.filter((r) => r.reading_type === "kun") },
+  { key: "kun", title: "Âm Kun", jp: "訓", readings: kunReadings(kun).join("、"), items: rows.filter((r) => r.reading_type === "kun") },
   { key: "other", title: "Cách đọc đặc biệt", jp: "", readings: "", items: rows.filter((r) => r.reading_type === null) },
 ].filter((g) => g.items.length > 0);
 

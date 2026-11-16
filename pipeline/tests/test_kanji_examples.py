@@ -30,3 +30,13 @@ def test_jukujikun_is_unclassified() -> None:
 def test_parse_translations_by_header() -> None:
     tr = parse_example_translations([("01.txt", "# by: ai\n学生|がくせい|học sinh\n"), ("02.txt", "# by: user\n学生|がくせい|sinh viên\n")])
     assert tr[("学生", "がくせい")] == ("sinh viên", "user")
+
+
+def test_kun_helpers() -> None:
+    from jp_pipeline.transform.kanji_examples import _kun_okurigana, _okurigana, _unvoice
+
+    assert _unvoice("づよ") == "つよ" and _unvoice("ばたら") == "はたら" and _unvoice("ぱ") == "は"
+    assert _okurigana("代わる", "代") == "わる"
+    assert _okurigana("身代わり", "代") is None and _okurigana("代", "代") is None and _okurigana("代表", "代") is None
+    info = ki("代", ["ダイ"], ["か.わる", "かわ.る", "か.わり", "-が.わり", "か.える", "よ"])
+    assert _kun_okurigana(info) == {"か": ["わる", "わり", "える"], "かわ": ["る"]}

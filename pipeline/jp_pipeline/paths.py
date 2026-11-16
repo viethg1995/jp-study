@@ -23,6 +23,7 @@ DICT_KANJIDIC = SRC_DICT / "kanjidic2" / "kanjidic2.xml.gz"
 DICT_UNIHAN = SRC_DICT / "unihan" / "Unihan.zip"
 DICT_KANJIVG = SRC_DICT / "kanjivg"  # kanjivg-YYYYMMDD-main.zip (CC BY-SA 3.0) — lấy bản mới nhất
 DICT_INDEX = SRC_DICT / "_index"
+JMDICT_INDEX = DICT_INDEX / "jmdict-v2.json"  # v2: thêm JmEntry.common_kanji (đổi cấu trúc → đổi tên để build lại cache)
 DICT_TESSDATA = SRC_DICT / "tessdata"  # jpn.traineddata (tessdata_best) cho OCR
 TESSERACT_DIR = Path(r"C:\Program Files\Tesseract-OCR")  # cài qua winget UB-Mannheim.TesseractOCR
 

@@ -7,6 +7,25 @@ export function kunDisplay(kun: string): string {
   return okuri ? `${stem}(${okuri})` : (stem ?? kun);
 }
 
+/** Danh sách âm Kun để hiển thị: KANJIDIC ghi cùng một âm theo nhiều cách cắt okurigana
+ *  (か.わる, かわ.る) → gộp, giữ cách cắt okurigana dài nhất (か(わる)); '-' (đứng sau/trước từ khác) → '～'.
+ *  代: ['か.わる','かわ.る','かわ.り','か.わり','-がわ.り','-が.わり','か.える','よ','しろ']
+ *   → ['か(わる)','か(わり)','～が(わり)','か(える)','よ','しろ'] */
+export function kunReadings(kun: readonly string[]): string[] {
+  const stemLen = (core: string): number => (core.split(".")[0] ?? core).length;
+  const best = new Map<string, string>(); // khóa = cách đọc đầy đủ + dấu '-' → cách cắt đã chọn
+  for (const raw of kun) {
+    const key = raw.replace(".", "");
+    const prev = best.get(key);
+    if (prev === undefined || stemLen(raw.replace(/^-/, "")) < stemLen(prev.replace(/^-/, ""))) best.set(key, raw);
+  }
+  return [...best.values()].map((raw) => {
+    const pre = raw.startsWith("-") ? "～" : "";
+    const post = raw.endsWith("-") ? "～" : "";
+    return pre + kunDisplay(raw.replace(/^-|-$/g, "")) + post;
+  });
+}
+
 export interface KanjiLessonGroup {
   lesson: number;
   label: string;

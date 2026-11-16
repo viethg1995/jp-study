@@ -9,7 +9,7 @@
 //   r-name  氵 → Thủy · nước         (trang bộ thủ) nhiễu: bộ có số nét gần
 //   r-char  Thủy · nước → 水 氵      (trang bộ thủ) chiều ngược
 // Đóng gói: chữ theo [xếp theo × cấp × loại] (Q5-2), bộ thủ theo loại (Q5-1).
-import { kunDisplay, n3VocabLessonMap } from "../kanji";
+import { kunReadings, n3VocabLessonMap } from "../kanji";
 import type { KanjiComponent, KanjiEntry, KanjiExample, Radical, VocabEntry } from "../schemas";
 import { misreadings } from "./kana";
 import type { QuizItem } from "./types";
@@ -139,7 +139,7 @@ function explainOf(k: KanjiEntry): string {
   const parts = [k.char];
   if (k.han_viet.length) parts.push(k.han_viet.join(", "));
   if (k.meaning_vi) parts.push(k.meaning_vi);
-  const read = [k.on.length ? `On: ${k.on.join("、")}` : "", k.kun.length ? `Kun: ${[...new Set(k.kun.map((x) => kunDisplay(x.replace(/-/g, ""))))].slice(0, 4).join("、")}` : ""].filter(Boolean);
+  const read = [k.on.length ? `On: ${k.on.join("、")}` : "", k.kun.length ? `Kun: ${kunReadings(k.kun).slice(0, 4).join("、")}` : ""].filter(Boolean);
   // mỗi ý một dòng (QuizRunner hiện explain với whitespace-pre-line)
   return [parts.join(" · "), ...read].join("\n");
 }

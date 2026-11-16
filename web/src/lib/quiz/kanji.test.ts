@@ -99,7 +99,7 @@ describe("k-hv, k-mean, k-char", () => {
     }
   });
   test("giải thích mỗi ý một dòng: chữ · âm · nghĩa / On / Kun", () => {
-    assert.equal(byChar(deck("tv", "n5", "hv"), "高")!.explain, "高 · CAO · cao / đắt\nOn: コウ\nKun: たか(い)、たか、だか、たか(まる)");
+    assert.equal(byChar(deck("tv", "n5", "hv"), "高")!.explain, "高 · CAO · cao / đắt\nOn: コウ\nKun: たか(い)、たか、～だか、たか(まる)");
   });
   test("quốc tự 込 匂 (không có âm Hán-Việt) không có câu k-hv / k-char", () => {
     for (const v of KANJI_VIEWS) {

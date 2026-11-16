@@ -26,6 +26,7 @@ UK_MISC = "word usually written using kana alone"
 class JmEntry(BaseModel):
     seq: int
     kanji: list[str]  # dạng kanji áp dụng cho cách đọc này, phổ biến trước
+    common_kanji: list[str] = []  # các dạng kanji có ke_pri thông dụng (代わる trong mục 変わる)
     common: bool
     uk: bool  # JMdict đánh dấu "thường viết bằng kana"
     pos: list[str]
@@ -82,6 +83,7 @@ def build_jmdict_index(gz_path: Path) -> dict[str, list[JmEntry]]:
                     JmEntry(
                         seq=seq,
                         kanji=[nfc(k) for k, _ in ordered],
+                        common_kanji=[nfc(k) for k, pri in ordered if pri & COMMON_PRI],
                         common=common,
                         uk=uk,
                         pos=pos,
