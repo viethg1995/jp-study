@@ -324,7 +324,7 @@ export type Counter = z.infer<typeof counter>;
 export type CounterFile = z.infer<typeof counterFile>;
 
 // ---------------------------------------------------------------- Luyện dịch (TranslationFile)
-export const TRANSLATION_SCHEMA_VERSION = 1;
+export const TRANSLATION_SCHEMA_VERSION = 2; // v2: thêm passages (đoạn văn 2 chiều)
 
 export const translationSentence = z.object({
   prompt: z.string().min(1),
@@ -344,11 +344,36 @@ export const translationExercise = z.object({
   review: reviewStatus,
 });
 
+export const passageSentence = z.object({
+  ja: z.string().min(1), // ruby {漢字|かな}, không có [[…]]
+  ja_text: z.string().min(1), // pipeline sinh: ja bỏ ruby
+  ja_alt: z.array(z.string()),
+  vi: z.string().min(1),
+  vi_alt: z.array(z.string()),
+  note_vi: z.string().nullable(),
+  para: z.number().int().min(1),
+});
+
+export const translationPassage = z.object({
+  id: z.string().regex(/^p-n[1-5]-\d{3}$/),
+  level: z.enum(["n5", "n4", "n3"]),
+  title_ja: z.string().min(1),
+  title_vi: z.string().min(1),
+  genre: z.enum(["letter", "diary", "notice", "essay", "dialogue", "email"]),
+  focus_vi: z.array(z.string()),
+  sentences: z.array(passageSentence).min(3).max(20),
+  source: z.enum(["ai-draft", "user"]),
+  review: reviewStatus,
+});
+
 export const translationFile = z.object({
   schema_version: z.literal(TRANSLATION_SCHEMA_VERSION),
   exercises: z.array(translationExercise),
+  passages: z.array(translationPassage),
 });
 
 export type TranslationSentence = z.infer<typeof translationSentence>;
 export type TranslationExercise = z.infer<typeof translationExercise>;
+export type PassageSentence = z.infer<typeof passageSentence>;
+export type TranslationPassage = z.infer<typeof translationPassage>;
 export type TranslationFile = z.infer<typeof translationFile>;

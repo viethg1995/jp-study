@@ -17,13 +17,14 @@ import {
   soundRule,
   TRANSLATION_SCHEMA_VERSION,
   translationExercise,
+  translationPassage,
   vocabLesson,
 } from "./lib/schemas.ts";
 
 export { POS_CODES, SCHEMA_VERSION, KANJI_SCHEMA_VERSION } from "./lib/schemas.ts";
 export type { Counter, CounterExample, CounterReading, NumberSection, NumberSystem, NumberTab, SoundGroup, SoundRule } from "./lib/schemas.ts";
 export type { ConjEntry, ConjFormDef, ConjGroup, ConjGroupDef, ConjKind, ConjValue } from "./lib/schemas.ts";
-export type { TranslationExercise, TranslationSentence } from "./lib/schemas.ts";
+export type { PassageSentence, TranslationExercise, TranslationPassage, TranslationSentence } from "./lib/schemas.ts";
 export type { VocabEntry, VocabExample, VocabSense, KanjiComponent, KanjiEntry, KanjiExample, KanjiStroke, KanjiStrokes, Radical } from "./lib/schemas.ts";
 
 const vocabulary = defineCollection({
@@ -114,21 +115,27 @@ const counterItems = defineCollection({
   schema: counter.extend({ order: z.number().int() }),
 });
 
-// Luyện dịch — đề (khóa id t-LL-NN); AI chấm qua Cloudflare Worker (thư mục worker/), không qua build
+// Luyện dịch — câu đơn (t-LL-NN) và đoạn văn (p-nX-NNN) cùng nằm trong data/translation.json.
+// AI chấm qua Cloudflare Worker (thư mục worker/), không qua build.
+function translationPart(key: "exercises" | "passages") {
+  return (text: string): Record<string, Record<string, unknown>> => {
+    const doc = JSON.parse(text) as { schema_version: number } & Record<typeof key, Record<string, unknown>[]>;
+    if (doc.schema_version !== TRANSLATION_SCHEMA_VERSION) {
+      throw new Error(`translation: schema_version ${doc.schema_version} ≠ ${TRANSLATION_SCHEMA_VERSION}`);
+    }
+    return Object.fromEntries(doc[key].map((x) => [String(x.id), x]));
+  };
+}
 const translation = defineCollection({
-  loader: file("../data/translation.json", {
-    parser: (text: string): Record<string, Record<string, unknown>> => {
-      const doc = JSON.parse(text) as { schema_version: number; exercises: Record<string, unknown>[] };
-      if (doc.schema_version !== TRANSLATION_SCHEMA_VERSION) {
-        throw new Error(`translation: schema_version ${doc.schema_version} ≠ ${TRANSLATION_SCHEMA_VERSION}`);
-      }
-      return Object.fromEntries(doc.exercises.map((x) => [String(x.id), x]));
-    },
-  }),
+  loader: file("../data/translation.json", { parser: translationPart("exercises") }),
   schema: translationExercise,
+});
+const translationPassages = defineCollection({
+  loader: file("../data/translation.json", { parser: translationPart("passages") }),
+  schema: translationPassage,
 });
 
 export const collections = {
   vocabulary, vocabularyN3, kanji, radicals, strokes, conjGroups, conjForms, conjEntries, numbers, soundRules, counterItems,
-  translation,
+  translation, translationPassages,
 };

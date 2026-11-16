@@ -43,3 +43,42 @@ export const MAX_ANSWER_CHARS = 1000; // khớp MAX_ANSWER_CHARS trong worker/wr
 export function exercisePath(id: string): string {
   return `dich/${id}/`;
 }
+
+// ---------------------------------------------------------------- Đoạn văn (p-nX-NNN)
+
+/** Chiều dịch đoạn văn — khớp DIRECTIONS ở worker/src/exercises.ts. */
+export type Direction = "ja-vi" | "vi-ja";
+export const DIRECTIONS: readonly Direction[] = ["ja-vi", "vi-ja"];
+export const DEFAULT_DIRECTION: Direction = "ja-vi"; // giống bài đọc hiểu
+export const DIRECTION_LABELS: Record<Direction, string> = { "ja-vi": "Nhật → Việt", "vi-ja": "Việt → Nhật" };
+
+export type PassageLevel = "n5" | "n4" | "n3";
+export const PASSAGE_LEVELS: readonly PassageLevel[] = ["n5", "n4", "n3"];
+export const LEVEL_LABELS: Record<PassageLevel, string> = { n5: "N5", n4: "N4", n3: "N3" };
+
+export type PassageGenre = "letter" | "diary" | "notice" | "essay" | "dialogue" | "email";
+export const GENRE_LABELS: Record<PassageGenre, string> = {
+  letter: "Thư",
+  diary: "Nhật ký",
+  notice: "Thông báo",
+  essay: "Bài viết",
+  dialogue: "Hội thoại",
+  email: "Email",
+};
+
+export function passagePath(id: string): string {
+  return `dich/doan/${id}/`;
+}
+
+/** Đọc ?chieu=… — giá trị lạ hoặc thiếu → mặc định. */
+export function parseDirection(value: string | null): Direction {
+  return DIRECTIONS.includes(value as Direction) ? (value as Direction) : DEFAULT_DIRECTION;
+}
+
+/** Hai tab đầu trang Luyện dịch (đặt vào LevelTabs). */
+export function translationTabs(base: string, active: "cau" | "doan"): { label: string; href: string; active: boolean }[] {
+  return [
+    { label: "Câu đơn", href: `${base}/dich/`, active: active === "cau" },
+    { label: "Đoạn văn", href: `${base}/dich/doan/`, active: active === "doan" },
+  ];
+}

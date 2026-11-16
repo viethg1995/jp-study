@@ -1,10 +1,12 @@
 // Cloudflare Worker chấm bài luyện dịch. Web tĩnh (GitHub Pages) gọi POST /grade.
+//   { exerciseId: "t-LL-NN", answer }                          — câu đơn (Việt/Anh → Nhật)
+//   { exerciseId: "p-nX-NNN", direction: "ja-vi"|"vi-ja", answer } — đoạn văn 2 chiều
 // Giữ API key ở đây (secret) — không bao giờ đưa key ra trình duyệt.
 //
 // Luồng: CORS → giới hạn tần suất (theo IP) → Turnstile (nếu bật) → cache KV → lần lượt từng
 // nhà cung cấp trong PROVIDERS (lỗi / hết quota / JSON sai → thử nhà kế tiếp) → lưu cache.
-import { getExercise } from "./exercises";
-import { PROMPT_VERSION, SYSTEM_PROMPT, userPrompt } from "./prompt";
+import { DIRECTIONS, type Direction, getExercise, getPassage } from "./exercises";
+import { PROMPT_VERSION, SYSTEM_PROMPT, SYSTEM_PROMPT_JA_VI, passageUserPrompt, userPrompt } from "./prompt";
 import { anthropic } from "./providers/anthropic";
 import { gemini } from "./providers/gemini";
 import { openaiCompat } from "./providers/openai-compat";
@@ -54,7 +56,18 @@ const STATUS: Record<ErrorCode, number> = {
   unavailable: 503,
 };
 const CACHE_TTL = 60 * 60 * 24 * 30; // 30 ngày
-const PROVIDER_TIMEOUT_MS = 30_000;
+const PROVIDER_TIMEOUT_MS = 30_000; // câu đơn
+const PASSAGE_TIMEOUT_MS = 60_000; // đoạn văn dài hơn → AI trả lời lâu hơn
+
+/** Việc chấm đã chuẩn hóa — câu đơn hay đoạn văn đều về dạng này. */
+interface Job {
+  id: string;
+  direction: Direction | null; // null = câu đơn
+  system: string;
+  user: string;
+  sentenceCount: number;
+  timeoutMs: number;
+}
 
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
@@ -79,7 +92,7 @@ export default {
       if (!success) return fail("rate_limited");
     }
 
-    let body: { exerciseId?: unknown; answer?: unknown; turnstileToken?: unknown };
+    let body: { exerciseId?: unknown; answer?: unknown; direction?: unknown; turnstileToken?: unknown };
     try {
       body = await request.json();
     } catch {
@@ -89,35 +102,63 @@ export default {
     const answer = normalize(body.answer);
     if (!answer) return fail("bad_request");
     if (answer.length > Number(env.MAX_ANSWER_CHARS ?? 1000)) return fail("too_long");
-    const exercise = getExercise(body.exerciseId);
-    if (!exercise) return fail("unknown_exercise");
+    const job = makeJob(body.exerciseId, body.direction, answer);
+    if (job === "bad_request" || job === "unknown_exercise") return fail(job);
 
     if (env.TURNSTILE_SECRET) {
       const token = typeof body.turnstileToken === "string" ? body.turnstileToken : "";
       if (!(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip))) return fail("captcha");
     }
 
-    const key = await cacheKey(exercise.id, answer);
+    const key = await cacheKey(job, answer);
     const hit = await env.CACHE?.get<{ result: GradeResult; provider: string }>(key, "json");
     if (hit) return json({ ok: true, ...hit, cached: true }, 200, cors);
 
-    const req = { system: SYSTEM_PROMPT, user: userPrompt(exercise, answer) };
+    const req = { system: job.system, user: job.user };
     for (const p of providers(env)) {
       try {
-        const raw = await p.grade(req, AbortSignal.timeout(PROVIDER_TIMEOUT_MS));
-        const result = parseGrade(raw, exercise.sentences.length);
+        const raw = await p.grade(req, AbortSignal.timeout(job.timeoutMs));
+        const result = parseGrade(raw, job.sentenceCount);
         if (env.CACHE) {
           ctx.waitUntil(env.CACHE.put(key, JSON.stringify({ result, provider: p.name }), { expirationTtl: CACHE_TTL }));
         }
         return json({ ok: true, result, provider: p.name, cached: false }, 200, cors);
       } catch (e) {
         // Không ghi bài làm của học viên vào log — chỉ ghi lỗi
-        console.warn(`[grade] ${exercise.id} ${p.name} lỗi: ${e instanceof Error ? e.message : String(e)}`);
+        console.warn(`[grade] ${job.id}${job.direction ? ` ${job.direction}` : ""} ${p.name} lỗi: ${e instanceof Error ? e.message : String(e)}`);
       }
     }
     return fail("unavailable");
   },
 } satisfies ExportedHandler<Env>;
+
+/** id + chiều → đề cần chấm. Đoạn văn bắt buộc direction hợp lệ; câu đơn bỏ qua direction. */
+function makeJob(id: string, direction: unknown, answer: string): Job | "bad_request" | "unknown_exercise" {
+  if (id.startsWith("p-")) {
+    if (!DIRECTIONS.includes(direction as Direction)) return "bad_request";
+    const dir = direction as Direction;
+    const p = getPassage(id);
+    if (!p) return "unknown_exercise";
+    return {
+      id,
+      direction: dir,
+      system: dir === "ja-vi" ? SYSTEM_PROMPT_JA_VI : SYSTEM_PROMPT,
+      user: passageUserPrompt(p, dir, answer),
+      sentenceCount: p.sentences.length,
+      timeoutMs: PASSAGE_TIMEOUT_MS,
+    };
+  }
+  const ex = getExercise(id);
+  if (!ex) return "unknown_exercise";
+  return {
+    id,
+    direction: null,
+    system: SYSTEM_PROMPT,
+    user: userPrompt(ex, answer),
+    sentenceCount: ex.sentences.length,
+    timeoutMs: PROVIDER_TIMEOUT_MS,
+  };
+}
 
 /** Danh sách nhà cung cấp theo thứ tự PROVIDERS, bỏ qua nhà chưa cấu hình key/binding. */
 function providers(env: Env): Provider[] {
@@ -141,11 +182,12 @@ function normalize(s: string): string {
     .trim();
 }
 
-async function cacheKey(exerciseId: string, answer: string): Promise<string> {
-  const data = new TextEncoder().encode(`${PROMPT_VERSION}|${exerciseId}|${answer}`);
+async function cacheKey(job: Job, answer: string): Promise<string> {
+  const dir = job.direction ?? "";
+  const data = new TextEncoder().encode(`${PROMPT_VERSION}|${job.id}|${dir}|${answer}`);
   const hash = await crypto.subtle.digest("SHA-256", data);
   const hex = [...new Uint8Array(hash)].map((b) => b.toString(16).padStart(2, "0")).join("");
-  return `grade:${exerciseId}:${hex}`;
+  return `grade:${job.id}:${dir ? `${dir}:` : ""}${hex}`;
 }
 
 async function verifyTurnstile(secret: string, token: string, ip: string): Promise<boolean> {

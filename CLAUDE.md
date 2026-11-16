@@ -41,7 +41,7 @@ Quy trình chi tiết: `.claude/rules/pdf-extract.md`.
 ## Luật cốt lõi
 
 1. **Không backend.** Mọi tính năng chạy client-side hoặc sinh lúc build. Cần server → nói rõ và đề xuất dịch vụ free (vd Cloudflare Workers).
-2. **ID cố định, ghi cứng trong data**, không bao giờ sinh từ vị trí mảng. Từ vựng Minna `mn-01-003`, N3 `n3-001` (số thứ tự sách), Kanji `k-日`, Ngữ pháp `g-01-2`, Trợ số từ `c-{slug}`. ID là khóa `localStorage` (tiến độ SRS) — đổi ID phải kèm migration.
+2. **ID cố định, ghi cứng trong data**, không bao giờ sinh từ vị trí mảng. Từ vựng Minna `mn-01-003`, N3 `n3-001` (số thứ tự sách), Kanji `k-日`, Ngữ pháp `g-01-2`, Trợ số từ `c-{slug}`, Luyện dịch câu đơn `t-01-01` / đoạn văn `p-n5-001`. ID là khóa `localStorage` (tiến độ SRS) — đổi ID phải kèm migration.
 3. **Schema là hợp đồng.** `pipeline/jp_pipeline/schemas.py` là nguồn chuẩn; zod ở `web/src/lib/schemas.ts` phải đồng bộ (gate `check:schema`). Pipeline phải **fail** khi dữ liệu không qua validate, không lặng lẽ bỏ qua.
 4. **Bản quyền.** Không commit `sources/books/`, `sources/audio/`, `*.pdf`, `*.mp3`, `*.m4a`, `*.mp4` (phải có trong `.gitignore`). Bản public chỉ dùng dữ liệu tự tổng hợp, KANJIDIC2/KanjiVG (credit CC BY-SA), audio TTS.
 5. **Không bịa dữ liệu tiếng Nhật.** Không tự điền nghĩa, cách đọc, âm Hán-Việt, ví dụ khi không có nguồn. Dữ liệu AI sinh phải đánh dấu `"source": "ai-draft"`; không chắc → `null`, không đoán.

@@ -7,9 +7,10 @@ Web phải có type/zod tương ứng. JSON Schema được xuất ra data/_sche
 from __future__ import annotations
 
 import re
+from itertools import pairwise
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 SCHEMA_VERSION = 4  # v4: thêm sách N3 (book, id n3-NNN, particle/transitivity/variants/antonyms/related)
 # v3: provenance "user" + provenance.meaning, senses[], kanji phải chứa chữ Hán
@@ -504,7 +505,7 @@ class CounterFile(_Strict):
 
 
 # ── Luyện dịch (đề dịch Việt/Anh → Nhật, chấm bằng AI qua Cloudflare Worker) ────────────────────────
-TRANSLATION_SCHEMA_VERSION = 1
+TRANSLATION_SCHEMA_VERSION = 2  # v2: thêm passages (đoạn văn 2 chiều)
 
 TRANSLATION_ID = re.compile(r"^t-\d{2}-\d{2}$")  # t-LL-NN: bài LL, đề thứ NN — ghi cứng, không sinh từ vị trí
 GRAMMAR_ID = re.compile(r"^g-\d{2}-\d+$")
@@ -551,6 +552,73 @@ class TranslationExercise(_Strict):
         return v
 
 
+PASSAGE_ID = re.compile(r"^p-n[1-5]-\d{3}$")  # p-n5-001: cấp, số thứ tự — ghi cứng, không sinh từ vị trí
+PASSAGE_MAX_JA = 400  # ký tự tiếng Nhật (bỏ ruby) mỗi đoạn — bản dịch phải vừa MAX_ANSWER_CHARS 1000
+PASSAGE_MAX_VI = 900  # ký tự tiếng Việt mỗi đoạn
+JlptLevel = Literal["n5", "n4", "n3"]
+PassageGenre = Literal["letter", "diary", "notice", "essay", "dialogue", "email"]
+
+
+def _no_ruby(items: list[str], field: str) -> list[str]:
+    bad = [r for r in items if not r.strip() or "{" in r or "[[" in r]
+    if bad:
+        raise ValueError(f"{field} rỗng hoặc chứa cú pháp ruby: {bad}")
+    return items
+
+
+class PassageSentence(_Strict):
+    ja: str = Field(min_length=1, description="Câu tiếng Nhật, ruby {漢字|かな} cho mọi chữ Hán, không có [[…]]")
+    ja_text: str = Field(min_length=1, description="Pipeline sinh: ja bỏ ruby (chữ thường)")
+    ja_alt: list[str] = Field(description="Cách dịch tiếng Nhật khác cũng đúng (chữ thường) — chiều Việt → Nhật")
+    vi: str = Field(min_length=1, description="Bản dịch tiếng Việt chuẩn")
+    vi_alt: list[str] = Field(description="Cách dịch tiếng Việt khác cũng đúng — chiều Nhật → Việt")
+    note_vi: str | None = Field(description="Ghi chú cho AI chấm và người học")
+    para: int = Field(ge=1, description="Số đoạn (1, 2, …) để xuống đoạn khi hiển thị")
+
+    @field_validator("ja_alt")
+    @classmethod
+    def _ja_alt(cls, v: list[str]) -> list[str]:
+        return _no_ruby(v, "ja_alt")
+
+    @field_validator("vi_alt")
+    @classmethod
+    def _vi_alt(cls, v: list[str]) -> list[str]:
+        return _no_ruby(v, "vi_alt")
+
+
+class TranslationPassage(_Strict):
+    id: str = Field(description="p-nX-NNN — khóa cache, KHÔNG được đổi")
+    level: JlptLevel
+    title_ja: str = Field(min_length=1, description="Tiêu đề tiếng Nhật (ruby như ja)")
+    title_vi: str = Field(min_length=1)
+    genre: PassageGenre = Field(description="Kiểu bài đọc hiểu JLPT: thư, nhật ký, thông báo, bài viết, hội thoại, email")
+    focus_vi: list[str] = Field(description="Điểm ngữ pháp/từ vựng đáng chú ý")
+    sentences: list[PassageSentence] = Field(min_length=3, max_length=20)
+    source: Literal["ai-draft", "user"]
+    review: ReviewStatus
+
+    @field_validator("id")
+    @classmethod
+    def _pid(cls, v: str) -> str:
+        if not PASSAGE_ID.match(v):
+            raise ValueError(f"id không đúng dạng p-nX-NNN: {v!r}")
+        return v
+
+    @model_validator(mode="after")
+    def _check(self) -> TranslationPassage:
+        if self.id[2:4] != self.level:
+            raise ValueError(f"{self.id} lệch cấp (level={self.level})")
+        paras = [s.para for s in self.sentences]
+        if paras[0] != 1 or any(b not in (a, a + 1) for a, b in pairwise(paras)):
+            raise ValueError(f"{self.id}: para phải bắt đầu 1 và tăng dần từng bước: {paras}")
+        ja = sum(len(s.ja_text) for s in self.sentences)
+        vi = sum(len(s.vi) for s in self.sentences)
+        if ja > PASSAGE_MAX_JA or vi > PASSAGE_MAX_VI:
+            raise ValueError(f"{self.id} quá dài: {ja} ký tự Nhật (tối đa {PASSAGE_MAX_JA}), {vi} ký tự Việt (tối đa {PASSAGE_MAX_VI})")
+        return self
+
+
 class TranslationFile(_Strict):
     schema_version: int = TRANSLATION_SCHEMA_VERSION
     exercises: list[TranslationExercise]
+    passages: list[TranslationPassage]

@@ -1,0 +1,272 @@
+---
+// Một đoạn luyện dịch, 2 chiều: Nhật → Việt (đọc hiểu) · Việt → Nhật (viết). Chiều ghi trên URL ?chieu=ja-vi|vi-ja.
+// Cả 2 chiều render sẵn lúc build, chiều không chọn ẩn bằng thuộc tính hidden. Furigana bật/tắt bằng
+// checkbox #toggle-furigana (CSS ở global.css, không JS, không lưu). Chấm: POST {graderUrl}/grade kèm direction.
+import { getCollection } from "astro:content";
+import type { TranslationPassage } from "../../../content.config";
+import RubyText from "../../../components/jp/RubyText.astro";
+import Segmented from "../../../components/ui/Segmented.astro";
+import Tag from "../../../components/ui/Tag.astro";
+import Base from "../../../layouts/Base.astro";
+import { clip } from "../../../lib/seo";
+import {
+  DEFAULT_DIRECTION,
+  DIRECTION_LABELS,
+  DIRECTIONS,
+  GENRE_LABELS,
+  LEVEL_LABELS,
+  MAX_ANSWER_CHARS,
+  passagePath,
+} from "../../../lib/translation";
+
+export async function getStaticPaths() {
+  const all = (await getCollection("translationPassages")).map((e) => e.data).sort((a, b) => a.id.localeCompare(b.id));
+  return all.map((p) => {
+    const same = all.filter((x) => x.level === p.level);
+    const i = same.findIndex((x) => x.id === p.id);
+    return { params: { id: p.id }, props: { p, prev: same[i - 1] ?? null, next: same[i + 1] ?? null } };
+  });
+}
+
+interface Props {
+  p: TranslationPassage;
+  prev: TranslationPassage | null;
+  next: TranslationPassage | null;
+}
+const { p, prev, next } = Astro.props;
+const graderUrl = (import.meta.env.PUBLIC_GRADER_URL as string | undefined)?.replace(/\/$/, "") ?? "";
+const siteKey = (import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | undefined) ?? "";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
+
+const paras = [...new Set(p.sentences.map((s) => s.para))].map((n) => p.sentences.filter((s) => s.para === n));
+const payload = {
+  id: p.id,
+  graderUrl,
+  dirs: {
+    "ja-vi": { sources: p.sentences.map((s) => s.ja_text), references: p.sentences.map((s) => [s.vi, ...s.vi_alt]) },
+    "vi-ja": { sources: p.sentences.map((s) => s.vi), references: p.sentences.map((s) => [s.ja_text, ...s.ja_alt]) },
+  },
+};
+const description = clip(`Luyện dịch đoạn văn ${LEVEL_LABELS[p.level]} — ${p.title_vi}: ${p.sentences.map((s) => s.vi).join(" ")}`);
+---
+
+<Base title={`Luyện dịch: ${p.title_vi}`} description={description}>
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
+    <a href={`${base}/dich/doan/#${p.level}`} class={navLink}>Tất cả đoạn văn</a>
+  </nav>
+
+  <div class="mx-auto max-w-2xl">
+    <p class="text-sm text-ink-faint">{LEVEL_LABELS[p.level]} · {GENRE_LABELS[p.genre]} · {p.sentences.length} câu</p>
+    <h1 class="mt-1 text-2xl font-bold">{p.title_vi}</h1>
+    <p class="sentence text-lg text-ink-muted"><RubyText ruby={p.title_ja} /></p>
+    {
+      p.focus_vi.length > 0 && (
+        <p class="mt-2 flex flex-wrap gap-1.5">
+          {p.focus_vi.map((f) => (
+            <span class="jp" lang="ja">
+              <Tag>{f}</Tag>
+            </span>
+          ))}
+        </p>
+      )
+    }
+
+    <fieldset class="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
+      <legend class="px-1 text-xs text-ink-faint">Tùy chọn</legend>
+      <Segmented
+        name="direction"
+        label="Chiều dịch"
+        checked={`dir-${DEFAULT_DIRECTION}`}
+        options={DIRECTIONS.map((d) => ({ id: `dir-${d}`, label: DIRECTION_LABELS[d] }))}
+      />
+      <label class="flex cursor-pointer items-center gap-2" data-dir-only="ja-vi">
+        <input type="checkbox" id="toggle-furigana" class="accent-primary" />
+        Ẩn furigana
+      </label>
+    </fieldset>
+
+    <section class="mt-5 rounded-lg border border-line bg-surface p-5">
+      <h2 class="text-sm font-semibold text-ink-faint">Đề</h2>
+      <div data-dir-only="ja-vi" class="sentence mt-2 space-y-3 text-lg text-ink" lang="ja">
+        {paras.map((ss) => <p>{ss.map((s) => <RubyText ruby={s.ja} />)}</p>)}
+      </div>
+      <div data-dir-only="vi-ja" hidden class="mt-2 space-y-3 text-lg leading-relaxed text-ink" lang="vi">
+        {paras.map((ss) => <p>{ss.map((s) => s.vi).join(" ")}</p>)}
+      </div>
+    </section>
+
+    <form id="t-form" class="mt-5">
+      <label for="t-answer" class="text-sm font-semibold text-ink">
+        <span data-dir-only="ja-vi">Bản dịch tiếng Việt của bạn</span>
+        <span data-dir-only="vi-ja" hidden>Bản dịch tiếng Nhật của bạn</span>
+      </label>
+      <textarea
+        id="t-answer"
+        name="answer"
+        rows="8"
+        maxlength={MAX_ANSWER_CHARS}
+        lang="vi"
+        required
+        class="mt-2 block w-full rounded-lg border border-line bg-surface p-3 text-lg leading-relaxed text-ink focus:border-primary focus:outline-none"
+        placeholder="Dịch cả đoạn, có thể xuống dòng sau mỗi câu…"></textarea>
+      <p class="mt-1 text-right text-xs text-ink-faint"><span id="t-count">0</span> / {MAX_ANSWER_CHARS}</p>
+
+      {siteKey && <div class="cf-turnstile mt-3" data-sitekey={siteKey} data-language="vi" />}
+
+      <div class="mt-3 flex flex-wrap items-center gap-3">
+        <button
+          type="submit"
+          id="t-submit"
+          class="rounded-md bg-primary px-5 py-2 font-semibold text-surface hover:bg-primary-strong disabled:opacity-40"
+          disabled={!graderUrl}
+        >
+          Chấm bài
+        </button>
+        <p id="t-status" class="text-sm text-ink-muted" aria-live="polite">
+          {!graderUrl && "Máy chấm chưa được cấu hình."}
+        </p>
+      </div>
+    </form>
+
+    <section id="t-result" class="mt-6 hidden" aria-live="polite">
+      <div id="t-summary" class="rounded-lg px-4 py-3"></div>
+      <ol id="t-sentences" class="mt-4 space-y-3"></ol>
+      <p class="mt-4 text-xs text-ink-faint">Nhận xét do AI tạo, có thể sai. Hỏi giáo viên khi chưa chắc.</p>
+    </section>
+
+    <nav class="mt-10 flex justify-between gap-3 text-sm">
+      {prev ? <a href={`${base}/${passagePath(prev.id)}`} class={navLink}>← {prev.title_vi}</a> : <span />}
+      {next && <a href={`${base}/${passagePath(next.id)}`} class={navLink}>{next.title_vi} →</a>}
+    </nav>
+  </div>
+
+  <script type="application/json" id="t-data" set:html={JSON.stringify(payload)} />
+  {siteKey && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />}
+</Base>
+
+<style>
+  [data-verdict="correct"] .t-verdict {
+    color: var(--color-success);
+  }
+  [data-verdict="minor"] .t-verdict {
+    color: var(--color-notice);
+  }
+  [data-verdict="wrong"] .t-verdict,
+  [data-verdict="missing"] .t-verdict {
+    color: var(--color-danger);
+  }
+</style>
+
+<script>
+  import { type Direction, type GradeResponse, parseDirection } from "../../../lib/translation";
+  import { renderGrade } from "../../../lib/translation-render";
+
+  interface DirData {
+    sources: string[];
+    references: string[][];
+  }
+  interface Data {
+    id: string;
+    graderUrl: string;
+    dirs: Record<Direction, DirData>;
+  }
+  interface TurnstileApi {
+    reset(): void;
+  }
+
+  const data = JSON.parse(document.getElementById("t-data")!.textContent ?? "{}") as Data;
+  const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
+  const form = $<HTMLFormElement>("t-form");
+  const answer = $<HTMLTextAreaElement>("t-answer");
+  const submit = $<HTMLButtonElement>("t-submit");
+  const status = $("t-status"), count = $("t-count");
+  const resultBox = $("t-result"), summary = $("t-summary"), list = $("t-sentences");
+  const radios = [...document.querySelectorAll<HTMLInputElement>('input[name="direction"]')];
+
+  let dir: Direction = parseDirection(new URLSearchParams(location.search).get("chieu"));
+
+  /** Hiện phần của chiều đang chọn, đổi ngôn ngữ ô nhập. */
+  function apply(): void {
+    for (const r of radios) r.checked = r.id === `dir-${dir}`;
+    for (const e of document.querySelectorAll<HTMLElement>("[data-dir-only]")) e.hidden = e.dataset.dirOnly !== dir;
+    const toJa = dir === "vi-ja";
+    answer.lang = toJa ? "ja" : "vi";
+    answer.classList.toggle("jp", toJa);
+  }
+
+  function clearResult(): void {
+    resultBox.classList.add("hidden");
+    summary.replaceChildren();
+    list.replaceChildren();
+    status.textContent = data.graderUrl ? "" : status.textContent;
+  }
+
+  for (const r of radios) {
+    r.addEventListener("change", () => {
+      const next = r.id.replace(/^dir-/, "") as Direction;
+      if (next === dir) return;
+      // Bài đang viết là ngôn ngữ của chiều cũ → đổi chiều phải xóa; hỏi trước nếu đã có chữ
+      if (answer.value.trim() && !confirm("Đổi chiều dịch sẽ xóa bài đang làm. Tiếp tục?")) {
+        apply(); // trả radio về chiều cũ
+        return;
+      }
+      dir = next;
+      answer.value = "";
+      count.textContent = "0";
+      clearResult();
+      apply();
+      const url = new URL(location.href);
+      url.searchParams.set("chieu", dir);
+      history.replaceState(null, "", url);
+    });
+  }
+  apply();
+
+  answer.addEventListener("input", () => (count.textContent = String(answer.value.length)));
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const text = answer.value.trim();
+    if (!text || !data.graderUrl) return;
+    const sentDir = dir;
+    submit.disabled = true;
+    status.textContent = "Đang chấm… (có thể mất 10–30 giây)";
+    const token = new FormData(form).get("cf-turnstile-response");
+    try {
+      const res = await fetch(`${data.graderUrl}/grade`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          exerciseId: data.id,
+          direction: sentDir,
+          answer: text,
+          turnstileToken: typeof token === "string" ? token : undefined,
+        }),
+      });
+      const body = (await res.json()) as GradeResponse;
+      if (sentDir !== dir) return; // người học đã đổi chiều trong lúc chờ → bỏ kết quả cũ
+      if (body.ok) {
+        const d = data.dirs[sentDir];
+        renderGrade(body.result, {
+          summary,
+          list,
+          references: d.references,
+          sources: d.sources,
+          answerLang: sentDir === "vi-ja" ? "ja" : "vi",
+          sourceLang: sentDir === "vi-ja" ? "vi" : "ja",
+        });
+        resultBox.classList.remove("hidden");
+        resultBox.scrollIntoView({ behavior: "smooth", block: "start" });
+        status.textContent = "";
+      } else {
+        status.textContent = body.message_vi;
+      }
+    } catch {
+      status.textContent = "Không kết nối được máy chấm. Kiểm tra mạng rồi thử lại.";
+    } finally {
+      submit.disabled = false;
+      (window as unknown as { turnstile?: TurnstileApi }).turnstile?.reset();
+    }
+  });
+</script>

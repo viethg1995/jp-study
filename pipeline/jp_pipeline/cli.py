@@ -205,20 +205,24 @@ def _build_counters(vocab: list) -> int:  # type: ignore[type-arg]
 
 
 def _build_translation() -> int:
-    """enrichment/translation/exercises/*.json → data/translation.json (đề luyện dịch, AI chấm qua worker/)."""
+    """enrichment/translation/{exercises,passages}/*.json → data/translation.json (luyện dịch, AI chấm qua worker/)."""
     from jp_pipeline.schemas import TranslationFile
     from jp_pipeline.transform.translation import build_translation
 
-    files = sorted((paths.ENRICH_TRANSLATION / "exercises").glob("*.json"))
+    ex_files = sorted(paths.ENRICH_TRANSLATION_EXERCISES.glob("*.json"))
+    pa_files = sorted(paths.ENRICH_TRANSLATION_PASSAGES.glob("*.json"))
     try:
-        doc = build_translation({f.name: _read_json(f) for f in files})
+        doc = build_translation({f.name: _read_json(f) for f in ex_files}, {f.name: _read_json(f) for f in pa_files})
     except ValueError as ex:
         print(f"LUYỆN DỊCH FAIL — {ex}")
         return 1
     _write_json(paths.OUT_TRANSLATION, doc.model_dump(mode="json"))
     _write_json(paths.DATA_SCHEMA / "translation.schema.json", TranslationFile.model_json_schema())
     drafts = sum(1 for e in doc.exercises if e.review == "auto")
-    print(f"  luyện dịch: {len(doc.exercises)} đề | chờ duyệt {drafts}")
+    p_drafts = sum(1 for p in doc.passages if p.review == "auto")
+    by_level = ", ".join(f"{lv.upper()} {sum(1 for p in doc.passages if p.level == lv)}" for lv in ("n5", "n4", "n3"))
+    print(f"  luyện dịch: {len(doc.exercises)} đề câu đơn (chờ duyệt {drafts}) | "
+          f"{len(doc.passages)} đoạn văn ({by_level}; chờ duyệt {p_drafts})")
     return 0
 
 
@@ -1387,6 +1391,53 @@ def cmd_check_examples(args: argparse.Namespace) -> int:
     return 1 if n_err else 0
 
 
+def cmd_check_passages(args: argparse.Namespace) -> int:
+    """Kiểm đoạn văn luyện dịch (data/translation.json): furigana khác Sudachi, từ có kanji viết kana,
+    từ ngoài phạm vi cấp. Chỉ cảnh báo (W) — lỗi cú pháp ruby đã chặn ở build-translation."""
+    from jp_pipeline.schemas import TranslationFile
+    from jp_pipeline.transform.examples import (
+        check_text,
+        kana_to_kanji_map,
+        parse_ruby,
+        vocab_readings,
+        word_forms,
+    )
+
+    doc = TranslationFile.model_validate(_read_json(paths.OUT_TRANSLATION))
+    minna = _load_data_vocab()
+    n3: list[dict[str, object]] = []
+    for f in sorted(paths.OUT_VOCAB_N3.glob("lesson-*.json")):
+        n3.extend(_read_json(f)["entries"])  # type: ignore[index]
+    # Phạm vi theo cấp: N5 = Minna bài 1–25, N4 = Minna 1–50, N3 = Minna 1–50 + bộ N3
+    scope: dict[str, list[dict[str, object]]] = {
+        "n5": [w for w in minna if int(w["lesson"]) <= 25],  # type: ignore[call-overload]
+        "n4": minna,
+        "n3": minna + n3,
+    }
+
+    def forms(words: list[dict[str, object]]) -> set[str]:
+        out: set[str] = set()
+        for w in words:
+            out |= word_forms(str(w["kana"]), w["kanji"], str(w["pos"]["code"]))  # type: ignore[arg-type,index]
+        return out
+
+    known = {lv: forms(ws) for lv, ws in scope.items()}
+    all_words = minna + n3
+    readings = vocab_readings([(str(w["kana"]), w["kanji"]) for w in all_words])  # type: ignore[misc]
+    k2k = kana_to_kanji_map([(str(w["kana"]), w["kanji"], str(w["pos"]["code"])) for w in all_words])  # type: ignore[misc,index]
+
+    passages = [p for p in doc.passages if not args.level or p.level == args.level]
+    n_sent = n_warn = 0
+    for p in passages:
+        for i, ruby in [(0, p.title_ja)] + [(j + 1, s.ja) for j, s in enumerate(p.sentences)]:
+            n_sent += i > 0
+            for issue in check_text(parse_ruby(ruby, targets=0), known[p.level], readings, k2k, kana_level="W"):
+                n_warn += 1
+                print(f"W {p.id} {'tiêu đề' if i == 0 else f'câu {i}'}: {issue.msg}")
+    print(f"\n{len(passages)} đoạn, {n_sent} câu — {n_warn} cảnh báo")
+    return 0
+
+
 # ---------------------------------------------------------------- main
 
 
@@ -1405,6 +1456,9 @@ def main() -> int:
         func=cmd_build_counters)
     sub.add_parser("build-translation", help="Chỉ dựng data/translation.json (đề luyện dịch)").set_defaults(
         func=cmd_build_translation)
+    cp = sub.add_parser("check-passages", help="Kiểm đoạn văn luyện dịch: furigana, từ viết kana, từ vượt cấp")
+    cp.add_argument("--level", choices=["n5", "n4", "n3"])
+    cp.set_defaults(func=cmd_check_passages)
 
     def pdf_filters(p: argparse.ArgumentParser) -> None:
         p.add_argument("--only", help="Lọc theo tên/đường dẫn, vd: kanji hoặc \"books/N5/*\"")
