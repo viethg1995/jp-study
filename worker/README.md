@@ -3,7 +3,7 @@
 Web trên GitHub Pages là trang tĩnh, nên không giữ được API key. Worker này đứng giữa: nhận bài dịch, gọi AI, rồi trả kết quả chấm dạng JSON.
 
 ```
-/dich/<id>/ (trình duyệt) ──POST /grade──▶ Worker ──▶ Gemini → Workers AI → Claude
+/dich/<id>/ (trình duyệt) ──POST /grade──▶ Worker ──▶ Server OpenAI-compatible (chính) → Gemini → Workers AI → Claude
                                              │  (nhà trước lỗi / hết quota / trả JSON sai → thử nhà sau)
                                              └─ cache KV · giới hạn 6 lần/phút/IP · Turnstile (tùy chọn)
 ```
@@ -23,8 +23,9 @@ npm install
 npx wrangler login                       # mở trình duyệt để đăng nhập Cloudflare
 
 # 1. Key AI (secret — không ghi vào file)
-npx wrangler secret put GEMINI_API_KEY   # tạo key tại https://aistudio.google.com/apikey
-npx wrangler secret put ANTHROPIC_API_KEY   # tùy chọn: tầng cuối, trả phí theo token
+npx wrangler secret put OPENAI_COMPAT_API_KEY   # nhà cung cấp chính (server ở OPENAI_COMPAT_BASE_URL)
+npx wrangler secret put GEMINI_API_KEY          # tùy chọn, dự phòng: https://aistudio.google.com/apikey
+npx wrangler secret put ANTHROPIC_API_KEY       # tùy chọn: tầng cuối, trả phí theo token
 
 # 2. Cache (khuyên dùng): tạo KV rồi dán id vào wrangler.jsonc (khối kv_namespaces)
 npx wrangler kv namespace create CACHE
@@ -33,7 +34,7 @@ npx wrangler kv namespace create CACHE
 #    "https://viethg1995.github.io,http://localhost:4321"   (origin không có đường dẫn /jp-study)
 
 npm run deploy                           # in ra URL, vd https://jp-translation-grader.<tên>.workers.dev
-curl https://jp-translation-grader.<tên>.workers.dev/health   # → {"ok":true,"providers":["gemini","workers-ai",…]}
+curl https://jp-translation-grader.<tên>.workers.dev/health   # → {"ok":true,"providers":["openai-compat",…]}
 ```
 
 Sau đó vào GitHub repo → **Settings → Secrets and variables → Actions → Variables**, thêm:
@@ -55,7 +56,7 @@ Push `main` (hoặc chạy lại workflow Deploy) để web build với URL máy
 
 ```bash
 cd worker
-# .dev.vars (gitignored):  GEMINI_API_KEY=...
+# .dev.vars (gitignored):  OPENAI_COMPAT_API_KEY=...   (thêm GEMINI_API_KEY=... nếu muốn thử dự phòng)
 npm run dev                     # http://localhost:8787 — binding Workers AI cần đã wrangler login
 cd ../web
 PUBLIC_GRADER_URL=http://localhost:8787 npm run dev   # PowerShell: $env:PUBLIC_GRADER_URL="http://localhost:8787"; npm run dev
@@ -67,7 +68,8 @@ Kiểm tra kiểu dữ liệu: `npm run check` (`wrangler types` + `tsc`).
 
 | Biến | Ý nghĩa |
 |---|---|
-| `PROVIDERS` | Thứ tự thử, mặc định `gemini,workers-ai,anthropic`. Nhà nào thiếu key hoặc binding thì tự bỏ qua. |
+| `PROVIDERS` | Thứ tự thử, mặc định `openai-compat,gemini,workers-ai,anthropic`. Nhà nào thiếu key hoặc binding thì tự bỏ qua. |
+| `OPENAI_COMPAT_BASE_URL` / `OPENAI_COMPAT_MODEL` | Server chính, gọi `POST {BASE_URL}/chat/completions` với `response_format: json_schema`. Model phải hỗ trợ structured output (đã thử: `claude-sonnet-5-5`, `deepseek-v4-flash`). |
 | `GEMINI_MODEL` / `WORKERS_AI_MODEL` / `ANTHROPIC_MODEL` | Tên model. Tên model và hạn mức free **thay đổi theo thời gian**, nên kiểm tra trang của từng nhà trước khi deploy. |
 | `ALLOWED_ORIGINS` | Origin được phép gọi (CORS). Trang khác gọi vào sẽ bị trả 403. |
 | `MAX_ANSWER_CHARS` | Độ dài bài làm tối đa, phải khớp `MAX_ANSWER_CHARS` ở `web/src/lib/translation.ts`. |
