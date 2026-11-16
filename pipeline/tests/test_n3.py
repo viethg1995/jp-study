@@ -65,7 +65,8 @@ def test_kun_list() -> None:
 
 def test_parse_fixes() -> None:
     by, fx = parse_fixes("# by: ai\n049|reading|おもいで|note\n")
-    assert by == "ai" and fx[0].no == 49 and fx[0].field == "reading"
+    assert by == "ai" and fx[0].no == 49 and fx[0].field == "reading" and fx[0].by == "ai"
+    assert parse_fixes("# by: user\n049|pos|Adv\n")[1][0].by == "user"  # mỗi dòng mang người duyệt của file
     with pytest.raises(ValueError):
         parse_fixes("049|reading|x")
     with pytest.raises(ValueError):

@@ -162,7 +162,13 @@ export function wrongForms(row: ConjRow, form: string): string[] {
       for (const e of NA_END[form] ?? []) push(w + e); // しずかなです, しずかの
     }
   }
-  return out;
+  // ら抜き (食べれる, 来れる): giáo trình coi là không chuẩn nhưng văn nói rất phổ biến → không dùng làm nhiễu (user chốt
+  // 2026-11-17: không chấm sai một cách nói người Nhật dùng thật)
+  // so cả cách đọc lẫn chữ hiển thị: {来|く}れる đọc くれる nhưng hiện 来れる = ら抜き của 来られる
+  const pot = f("potential");
+  if (!pot?.endsWith("られる")) return out;
+  const rano = pot.slice(0, -3) + "れる";
+  return out.filter((x) => rf(x).reading !== rf(rano).reading && shown(x) !== shown(rano));
 }
 
 // ---------------------------------------------------------------- Sinh câu hỏi

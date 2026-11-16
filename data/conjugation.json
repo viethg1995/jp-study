@@ -58302,93 +58302,86 @@
       "book": "minna",
       "forms": [
         {
-          "form": "da",
+          "form": "plain",
           "irregular": false,
-          "kana": "きびしいだ",
-          "ruby": "{厳|きび}しいだ",
-          "rule": "gốc + だ"
+          "kana": "きびしい",
+          "ruby": "{厳|きび}しい",
+          "rule": "giữ nguyên い"
         },
         {
           "form": "desu",
           "irregular": false,
           "kana": "きびしいです",
           "ruby": "{厳|きび}しいです",
-          "rule": "gốc + です"
-        },
-        {
-          "form": "attributive",
-          "irregular": false,
-          "kana": "きびしいな",
-          "ruby": "{厳|きび}しいな",
-          "rule": "gốc + な"
+          "rule": "い + です"
         },
         {
           "form": "neg",
           "irregular": false,
-          "kana": "きびしいじゃない",
-          "ruby": "{厳|きび}しいじゃない",
-          "rule": "gốc + じゃない"
+          "kana": "きびしくない",
+          "ruby": "{厳|きび}しくない",
+          "rule": "bỏ い + くない"
         },
         {
           "form": "neg_polite",
           "irregular": false,
-          "kana": "きびしいじゃありません",
-          "ruby": "{厳|きび}しいじゃありません",
-          "rule": "gốc + じゃありません"
+          "kana": "きびしくないです",
+          "ruby": "{厳|きび}しくないです",
+          "rule": "bỏ い + くないです"
         },
         {
           "form": "past",
           "irregular": false,
-          "kana": "きびしいだった",
-          "ruby": "{厳|きび}しいだった",
-          "rule": "gốc + だった"
+          "kana": "きびしかった",
+          "ruby": "{厳|きび}しかった",
+          "rule": "bỏ い + かった"
         },
         {
           "form": "past_polite",
           "irregular": false,
-          "kana": "きびしいでした",
-          "ruby": "{厳|きび}しいでした",
-          "rule": "gốc + でした"
+          "kana": "きびしかったです",
+          "ruby": "{厳|きび}しかったです",
+          "rule": "bỏ い + かったです"
         },
         {
           "form": "past_neg",
           "irregular": false,
-          "kana": "きびしいじゃなかった",
-          "ruby": "{厳|きび}しいじゃなかった",
-          "rule": "gốc + じゃなかった"
+          "kana": "きびしくなかった",
+          "ruby": "{厳|きび}しくなかった",
+          "rule": "bỏ い + くなかった"
         },
         {
           "form": "past_neg_polite",
           "irregular": false,
-          "kana": "きびしいじゃありませんでした",
-          "ruby": "{厳|きび}しいじゃありませんでした",
-          "rule": "gốc + じゃありませんでした"
+          "kana": "きびしくなかったです",
+          "ruby": "{厳|きび}しくなかったです",
+          "rule": "bỏ い + くなかったです"
         },
         {
           "form": "te",
           "irregular": false,
-          "kana": "きびしいで",
-          "ruby": "{厳|きび}しいで",
-          "rule": "gốc + で"
+          "kana": "きびしくて",
+          "ruby": "{厳|きび}しくて",
+          "rule": "bỏ い + くて"
         },
         {
           "form": "adverb",
           "irregular": false,
-          "kana": "きびしいに",
-          "ruby": "{厳|きび}しいに",
-          "rule": "gốc + に"
+          "kana": "きびしく",
+          "ruby": "{厳|きび}しく",
+          "rule": "bỏ い + く"
         },
         {
-          "form": "nara",
+          "form": "ba",
           "irregular": false,
-          "kana": "きびしいなら",
-          "ruby": "{厳|きび}しいなら",
-          "rule": "gốc + なら"
+          "kana": "きびしければ",
+          "ruby": "{厳|きび}しければ",
+          "rule": "bỏ い + ければ"
         }
       ],
       "han_viet": "NGHIÊM",
       "kana": "きびしい",
-      "kind": "An",
+      "kind": "Ai",
       "lesson": 47,
       "meaning_vi": "nghiêm, nghiêm khắc, nghiêm ngặt",
       "ruby": "{厳|きび}しい",
@@ -61976,103 +61969,6 @@
       "meaning_vi": "Phản đối",
       "ruby": "{反対|はんたい}",
       "vocab_id": "n3-059"
-    },
-    {
-      "aliases": [],
-      "book": "n3",
-      "forms": [
-        {
-          "form": "da",
-          "irregular": false,
-          "kana": "かびだ",
-          "ruby": "かびだ",
-          "rule": "gốc + だ"
-        },
-        {
-          "form": "desu",
-          "irregular": false,
-          "kana": "かびです",
-          "ruby": "かびです",
-          "rule": "gốc + です"
-        },
-        {
-          "form": "attributive",
-          "irregular": false,
-          "kana": "かびな",
-          "ruby": "かびな",
-          "rule": "gốc + な"
-        },
-        {
-          "form": "neg",
-          "irregular": false,
-          "kana": "かびじゃない",
-          "ruby": "かびじゃない",
-          "rule": "gốc + じゃない"
-        },
-        {
-          "form": "neg_polite",
-          "irregular": false,
-          "kana": "かびじゃありません",
-          "ruby": "かびじゃありません",
-          "rule": "gốc + じゃありません"
-        },
-        {
-          "form": "past",
-          "irregular": false,
-          "kana": "かびだった",
-          "ruby": "かびだった",
-          "rule": "gốc + だった"
-        },
-        {
-          "form": "past_polite",
-          "irregular": false,
-          "kana": "かびでした",
-          "ruby": "かびでした",
-          "rule": "gốc + でした"
-        },
-        {
-          "form": "past_neg",
-          "irregular": false,
-          "kana": "かびじゃなかった",
-          "ruby": "かびじゃなかった",
-          "rule": "gốc + じゃなかった"
-        },
-        {
-          "form": "past_neg_polite",
-          "irregular": false,
-          "kana": "かびじゃありませんでした",
-          "ruby": "かびじゃありませんでした",
-          "rule": "gốc + じゃありませんでした"
-        },
-        {
-          "form": "te",
-          "irregular": false,
-          "kana": "かびで",
-          "ruby": "かびで",
-          "rule": "gốc + で"
-        },
-        {
-          "form": "adverb",
-          "irregular": false,
-          "kana": "かびに",
-          "ruby": "かびに",
-          "rule": "gốc + に"
-        },
-        {
-          "form": "nara",
-          "irregular": false,
-          "kana": "かびなら",
-          "ruby": "かびなら",
-          "rule": "gốc + なら"
-        }
-      ],
-      "han_viet": null,
-      "kana": "かび",
-      "kind": "An",
-      "lesson": 2,
-      "meaning_vi": "Nấm mốc",
-      "ruby": "かび",
-      "vocab_id": "n3-068"
     },
     {
       "aliases": [],
@@ -74113,103 +74009,6 @@
       "meaning_vi": "Khâm phục / Giỏi, ngoan",
       "ruby": "{感心|かんしん}",
       "vocab_id": "n3-272"
-    },
-    {
-      "aliases": [],
-      "book": "n3",
-      "forms": [
-        {
-          "form": "da",
-          "irregular": false,
-          "kana": "はつめいだ",
-          "ruby": "{発明|はつめい}だ",
-          "rule": "gốc + だ"
-        },
-        {
-          "form": "desu",
-          "irregular": false,
-          "kana": "はつめいです",
-          "ruby": "{発明|はつめい}です",
-          "rule": "gốc + です"
-        },
-        {
-          "form": "attributive",
-          "irregular": false,
-          "kana": "はつめいな",
-          "ruby": "{発明|はつめい}な",
-          "rule": "gốc + な"
-        },
-        {
-          "form": "neg",
-          "irregular": false,
-          "kana": "はつめいじゃない",
-          "ruby": "{発明|はつめい}じゃない",
-          "rule": "gốc + じゃない"
-        },
-        {
-          "form": "neg_polite",
-          "irregular": false,
-          "kana": "はつめいじゃありません",
-          "ruby": "{発明|はつめい}じゃありません",
-          "rule": "gốc + じゃありません"
-        },
-        {
-          "form": "past",
-          "irregular": false,
-          "kana": "はつめいだった",
-          "ruby": "{発明|はつめい}だった",
-          "rule": "gốc + だった"
-        },
-        {
-          "form": "past_polite",
-          "irregular": false,
-          "kana": "はつめいでした",
-          "ruby": "{発明|はつめい}でした",
-          "rule": "gốc + でした"
-        },
-        {
-          "form": "past_neg",
-          "irregular": false,
-          "kana": "はつめいじゃなかった",
-          "ruby": "{発明|はつめい}じゃなかった",
-          "rule": "gốc + じゃなかった"
-        },
-        {
-          "form": "past_neg_polite",
-          "irregular": false,
-          "kana": "はつめいじゃありませんでした",
-          "ruby": "{発明|はつめい}じゃありませんでした",
-          "rule": "gốc + じゃありませんでした"
-        },
-        {
-          "form": "te",
-          "irregular": false,
-          "kana": "はつめいで",
-          "ruby": "{発明|はつめい}で",
-          "rule": "gốc + で"
-        },
-        {
-          "form": "adverb",
-          "irregular": false,
-          "kana": "はつめいに",
-          "ruby": "{発明|はつめい}に",
-          "rule": "gốc + に"
-        },
-        {
-          "form": "nara",
-          "irregular": false,
-          "kana": "はつめいなら",
-          "ruby": "{発明|はつめい}なら",
-          "rule": "gốc + なら"
-        }
-      ],
-      "han_viet": "PHÁT MINH",
-      "kana": "はつめい",
-      "kind": "An",
-      "lesson": 6,
-      "meaning_vi": "Phát minh",
-      "ruby": "{発明|はつめい}",
-      "vocab_id": "n3-287"
     },
     {
       "aliases": [],
@@ -86605,103 +86404,6 @@
         {
           "form": "da",
           "irregular": false,
-          "kana": "かなりだ",
-          "ruby": "かなりだ",
-          "rule": "gốc + だ"
-        },
-        {
-          "form": "desu",
-          "irregular": false,
-          "kana": "かなりです",
-          "ruby": "かなりです",
-          "rule": "gốc + です"
-        },
-        {
-          "form": "attributive",
-          "irregular": false,
-          "kana": "かなりな",
-          "ruby": "かなりな",
-          "rule": "gốc + な"
-        },
-        {
-          "form": "neg",
-          "irregular": false,
-          "kana": "かなりじゃない",
-          "ruby": "かなりじゃない",
-          "rule": "gốc + じゃない"
-        },
-        {
-          "form": "neg_polite",
-          "irregular": false,
-          "kana": "かなりじゃありません",
-          "ruby": "かなりじゃありません",
-          "rule": "gốc + じゃありません"
-        },
-        {
-          "form": "past",
-          "irregular": false,
-          "kana": "かなりだった",
-          "ruby": "かなりだった",
-          "rule": "gốc + だった"
-        },
-        {
-          "form": "past_polite",
-          "irregular": false,
-          "kana": "かなりでした",
-          "ruby": "かなりでした",
-          "rule": "gốc + でした"
-        },
-        {
-          "form": "past_neg",
-          "irregular": false,
-          "kana": "かなりじゃなかった",
-          "ruby": "かなりじゃなかった",
-          "rule": "gốc + じゃなかった"
-        },
-        {
-          "form": "past_neg_polite",
-          "irregular": false,
-          "kana": "かなりじゃありませんでした",
-          "ruby": "かなりじゃありませんでした",
-          "rule": "gốc + じゃありませんでした"
-        },
-        {
-          "form": "te",
-          "irregular": false,
-          "kana": "かなりで",
-          "ruby": "かなりで",
-          "rule": "gốc + で"
-        },
-        {
-          "form": "adverb",
-          "irregular": false,
-          "kana": "かなりに",
-          "ruby": "かなりに",
-          "rule": "gốc + に"
-        },
-        {
-          "form": "nara",
-          "irregular": false,
-          "kana": "かなりなら",
-          "ruby": "かなりなら",
-          "rule": "gốc + なら"
-        }
-      ],
-      "han_viet": null,
-      "kana": "かなり",
-      "kind": "An",
-      "lesson": 10,
-      "meaning_vi": "Rất, cực kỳ",
-      "ruby": "かなり",
-      "vocab_id": "n3-462"
-    },
-    {
-      "aliases": [],
-      "book": "n3",
-      "forms": [
-        {
-          "form": "da",
-          "irregular": false,
           "kana": "ぎりぎりだ",
           "ruby": "ぎりぎりだ",
           "rule": "gốc + だ"
@@ -86791,103 +86493,6 @@
       "meaning_vi": "Sát giờ, sát nút",
       "ruby": "ぎりぎり",
       "vocab_id": "n3-469"
-    },
-    {
-      "aliases": [],
-      "book": "n3",
-      "forms": [
-        {
-          "form": "da",
-          "irregular": false,
-          "kana": "たいていだ",
-          "ruby": "たいていだ",
-          "rule": "gốc + だ"
-        },
-        {
-          "form": "desu",
-          "irregular": false,
-          "kana": "たいていです",
-          "ruby": "たいていです",
-          "rule": "gốc + です"
-        },
-        {
-          "form": "attributive",
-          "irregular": false,
-          "kana": "たいていな",
-          "ruby": "たいていな",
-          "rule": "gốc + な"
-        },
-        {
-          "form": "neg",
-          "irregular": false,
-          "kana": "たいていじゃない",
-          "ruby": "たいていじゃない",
-          "rule": "gốc + じゃない"
-        },
-        {
-          "form": "neg_polite",
-          "irregular": false,
-          "kana": "たいていじゃありません",
-          "ruby": "たいていじゃありません",
-          "rule": "gốc + じゃありません"
-        },
-        {
-          "form": "past",
-          "irregular": false,
-          "kana": "たいていだった",
-          "ruby": "たいていだった",
-          "rule": "gốc + だった"
-        },
-        {
-          "form": "past_polite",
-          "irregular": false,
-          "kana": "たいていでした",
-          "ruby": "たいていでした",
-          "rule": "gốc + でした"
-        },
-        {
-          "form": "past_neg",
-          "irregular": false,
-          "kana": "たいていじゃなかった",
-          "ruby": "たいていじゃなかった",
-          "rule": "gốc + じゃなかった"
-        },
-        {
-          "form": "past_neg_polite",
-          "irregular": false,
-          "kana": "たいていじゃありませんでした",
-          "ruby": "たいていじゃありませんでした",
-          "rule": "gốc + じゃありませんでした"
-        },
-        {
-          "form": "te",
-          "irregular": false,
-          "kana": "たいていで",
-          "ruby": "たいていで",
-          "rule": "gốc + で"
-        },
-        {
-          "form": "adverb",
-          "irregular": false,
-          "kana": "たいていに",
-          "ruby": "たいていに",
-          "rule": "gốc + に"
-        },
-        {
-          "form": "nara",
-          "irregular": false,
-          "kana": "たいていなら",
-          "ruby": "たいていなら",
-          "rule": "gốc + なら"
-        }
-      ],
-      "han_viet": null,
-      "kana": "たいてい",
-      "kind": "An",
-      "lesson": 10,
-      "meaning_vi": "Thường, hay / Hầu hết",
-      "ruby": "たいてい",
-      "vocab_id": "n3-471"
     },
     {
       "aliases": [],
@@ -99322,103 +98927,6 @@
       "meaning_vi": "Hấp",
       "ruby": "{蒸|む}します",
       "vocab_id": "n3-660"
-    },
-    {
-      "aliases": [],
-      "book": "n3",
-      "forms": [
-        {
-          "form": "da",
-          "irregular": false,
-          "kana": "ちょくせつだ",
-          "ruby": "{直接|ちょくせつ}だ",
-          "rule": "gốc + だ"
-        },
-        {
-          "form": "desu",
-          "irregular": false,
-          "kana": "ちょくせつです",
-          "ruby": "{直接|ちょくせつ}です",
-          "rule": "gốc + です"
-        },
-        {
-          "form": "attributive",
-          "irregular": false,
-          "kana": "ちょくせつな",
-          "ruby": "{直接|ちょくせつ}な",
-          "rule": "gốc + な"
-        },
-        {
-          "form": "neg",
-          "irregular": false,
-          "kana": "ちょくせつじゃない",
-          "ruby": "{直接|ちょくせつ}じゃない",
-          "rule": "gốc + じゃない"
-        },
-        {
-          "form": "neg_polite",
-          "irregular": false,
-          "kana": "ちょくせつじゃありません",
-          "ruby": "{直接|ちょくせつ}じゃありません",
-          "rule": "gốc + じゃありません"
-        },
-        {
-          "form": "past",
-          "irregular": false,
-          "kana": "ちょくせつだった",
-          "ruby": "{直接|ちょくせつ}だった",
-          "rule": "gốc + だった"
-        },
-        {
-          "form": "past_polite",
-          "irregular": false,
-          "kana": "ちょくせつでした",
-          "ruby": "{直接|ちょくせつ}でした",
-          "rule": "gốc + でした"
-        },
-        {
-          "form": "past_neg",
-          "irregular": false,
-          "kana": "ちょくせつじゃなかった",
-          "ruby": "{直接|ちょくせつ}じゃなかった",
-          "rule": "gốc + じゃなかった"
-        },
-        {
-          "form": "past_neg_polite",
-          "irregular": false,
-          "kana": "ちょくせつじゃありませんでした",
-          "ruby": "{直接|ちょくせつ}じゃありませんでした",
-          "rule": "gốc + じゃありませんでした"
-        },
-        {
-          "form": "te",
-          "irregular": false,
-          "kana": "ちょくせつで",
-          "ruby": "{直接|ちょくせつ}で",
-          "rule": "gốc + で"
-        },
-        {
-          "form": "adverb",
-          "irregular": false,
-          "kana": "ちょくせつに",
-          "ruby": "{直接|ちょくせつ}に",
-          "rule": "gốc + に"
-        },
-        {
-          "form": "nara",
-          "irregular": false,
-          "kana": "ちょくせつなら",
-          "ruby": "{直接|ちょくせつ}なら",
-          "rule": "gốc + なら"
-        }
-      ],
-      "han_viet": "TRỰC TIẾP",
-      "kana": "ちょくせつ",
-      "kind": "An",
-      "lesson": 14,
-      "meaning_vi": "Trực tiếp",
-      "ruby": "{直接|ちょくせつ}",
-      "vocab_id": "n3-669"
     },
     {
       "aliases": [],

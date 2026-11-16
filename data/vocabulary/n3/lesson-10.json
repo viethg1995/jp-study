@@ -585,17 +585,17 @@
       "meaning_vi": "Rất, cực kỳ",
       "particle": null,
       "pos": {
-        "code": "An",
-        "label": "Tính từ な"
+        "code": "Adv",
+        "label": "Trạng từ"
       },
       "provenance": {
         "han_viet": null,
         "kanji": null,
         "meaning": "source",
-        "pos": "jmdict"
+        "pos": "ai-draft"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [
         "mn-36-016"
       ],
@@ -1042,17 +1042,17 @@
       "meaning_vi": "Thường, hay / Hầu hết",
       "particle": null,
       "pos": {
-        "code": "An",
-        "label": "Tính từ な"
+        "code": "Adv",
+        "label": "Trạng từ"
       },
       "provenance": {
         "han_viet": null,
         "kanji": null,
         "meaning": "source",
-        "pos": "jmdict"
+        "pos": "ai-draft"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {

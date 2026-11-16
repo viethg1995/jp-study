@@ -3,7 +3,8 @@
 - Từ loại: sách không ghi → suy từ JMdict (mục khớp từ + cách đọc); không khớp → đoán theo hình thức, cờ.
 - Âm Hán-Việt: ghép âm từng chữ Hán (ưu tiên âm dùng trong từ vựng Minna, sau đó âm trong sách Kanji N3).
 - Câu ví dụ: KHÔNG lấy từ sách (bản quyền) — AI viết riêng sau (enrichment/n3/_examples/).
-- Sửa lỗi: enrichment/n3/vocab-fixes.txt — `NNN | field | giá trị | ghi chú`, field ∈ word, reading, meaning, pos, particle, drop.
+- Sửa lỗi: enrichment/n3/vocab-fixes.txt (+ vocab-fixes-ai.txt: đề xuất AI chưa duyệt) — `NNN | field | giá trị | ghi chú`,
+  field ∈ word, reading, meaning, pos, particle, drop. Mỗi dòng mang người duyệt của file chứa nó (`# by:`).
 """
 
 from __future__ import annotations
@@ -51,6 +52,7 @@ class N3Fix(BaseModel):
     field: str
     value: str
     note: str
+    by: str = "ai"  # người duyệt — lấy từ dòng '# by:' của file chứa dòng sửa
 
 
 def parse_fixes(text: str) -> tuple[str, list[N3Fix]]:
@@ -67,7 +69,8 @@ def parse_fixes(text: str) -> tuple[str, list[N3Fix]]:
         parts = [p.strip() for p in line.split("|")]
         if len(parts) < 3 or parts[1] not in FIX_FIELDS or not parts[0].isdigit():
             raise ValueError(f"vocab-fixes:{i}: cần 'NNN|field|giá trị' (field ∈ {FIX_FIELDS}): {raw!r}")
-        out.append(N3Fix(no=int(parts[0]), field=parts[1], value=parts[2], note=parts[3] if len(parts) > 3 else ""))
+        out.append(N3Fix(no=int(parts[0]), field=parts[1], value=parts[2], note=parts[3] if len(parts) > 3 else "",
+                         by=m.group(1)))
     return m.group(1), out
 
 
@@ -158,16 +161,14 @@ def derive_han_viet(word: str, char_hv: dict[str, tuple[str, str]]) -> tuple[str
 def build_n3_vocab(
     raws: list[N3VocabRaw],
     fixes: list[N3Fix],
-    fix_by: str,
     jm: dict[str, list[JmEntry]],
     char_hv: dict[str, tuple[str, str]],
     examples: dict[int, list[tuple[str, str, str]]] | None = None,
 ) -> tuple[list[VocabEntry], list[str]]:
-    """→ (entries sắp theo số thứ tự, cảnh báo)."""
+    """→ (entries sắp theo số thứ tự, cảnh báo). Người duyệt theo từng dòng sửa (`N3Fix.by`)."""
     by_no: dict[int, list[N3Fix]] = {}
     for f in fixes:
         by_no.setdefault(f.no, []).append(f)
-    changed_src = "user" if fix_by == "user" else "ai-draft"
     out: list[VocabEntry] = []
     warnings: list[str] = []
     seen: set[int] = set()
@@ -177,6 +178,10 @@ def build_n3_vocab(
             continue
         seen.add(r.no)
         fx = {f.field: f.value for f in by_no.get(r.no, [])}
+        fx_by = {f.field: f.by for f in by_no.get(r.no, [])}
+
+        def changed_src(field: str) -> str:
+            return "user" if fx_by.get(field) == "user" else "ai-draft"
         if "drop" in fx:
             continue
         word = fx.get("word", r.word)
@@ -191,7 +196,7 @@ def build_n3_vocab(
             warnings.append(f"n3-{r.no:03d}: thiếu cách đọc — {word}")
             continue
         pos_code = fx.get("pos") or pos_from_jmdict(word, reading, jm)
-        pos_src = changed_src if "pos" in fx else "jmdict"
+        pos_src = changed_src("pos") if "pos" in fx else "jmdict"
         if pos_code is None:
             pos_code, pos_src = guess_pos(word), "ai-draft"
         kanji = normalize_slots(word) if KANJI.search(word) else None
@@ -229,9 +234,9 @@ def build_n3_vocab(
                     kanji="source" if kanji else None,
                     han_viet=hv_prov if han_viet else None,  # type: ignore[arg-type]
                     pos=pos_src,  # type: ignore[arg-type]
-                    meaning=changed_src if "meaning" in fx else "source",  # type: ignore[arg-type]
+                    meaning=changed_src("meaning") if "meaning" in fx else "source",  # type: ignore[arg-type]
                 ),
-                review="user" if (fx and fix_by == "user") else ("ai" if fx else "auto"),
+                review="user" if (fx and all(b == "user" for b in fx_by.values())) else ("ai" if fx else "auto"),
             )
         )
     return out, warnings

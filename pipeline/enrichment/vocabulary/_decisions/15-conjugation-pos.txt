@@ -5,3 +5,4 @@
 17-009|V3|持って来ます — ghép với 来ます nên chia như nhóm III (持ってくる/持ってこない/持ってきて); V1 chia sai thành もってく — phát hiện qua quiz 2026-11-16
 24-004|V3|連れて来ます — ghép với 来ます, nhóm III (連れてくる/連れてこない); V1 chia sai thành つれてく
 46-002|V3|帰って来ます — ghép với 来ます, nhóm III (帰ってくる/帰ってこない); V1 chia sai thành かえってく
+47-007|Ai|厳しい: tính từ い (bị ghi tính từ な → bảng chia sinh 厳しいだ, 厳しいな) — rà soát bước 1.2 quiz 2026-11-16

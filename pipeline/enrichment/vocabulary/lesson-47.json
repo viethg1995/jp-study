@@ -100,7 +100,15 @@
         "source": "ai-draft",
         "vi": "Bố tôi rất nghiêm khắc."
       }
-    ]
+    ],
+    "pos_code": "Ai",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "厳しい: tính từ い (bị ghi tính từ な → bảng chia sinh 厳しいだ, 厳しいな) — rà soát bước 1.2 quiz 2026-11-16",
+      "status": "reviewed"
+    }
   },
   "mn-47-008": {
     "examples": [

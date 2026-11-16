@@ -31,7 +31,7 @@ Thứ tự (user chốt): **sửa lỗi → hoàn thiện → chia nhỏ file de
 |---|---|---|
 | **1 — Sửa lỗi** | | |
 | 1.1 | Pipeline gộp `aliases` bảng chia chỉ theo kana → nối nhầm từ khác nghĩa (掛けます ↔ かけます, 付けます ↔ つけます, 吐きます ↔ つきます). Gộp khi cùng chữ / `same_word`; quét mọi alias khác chữ; pytest; kiểm link "Chia thể" trên thẻ từ vựng | ✅ 2026-11-16 — khóa gộp thêm `identity_kanji` (chữ Hán của cách viết đầu, không phụ thuộc `display`); 714 → 724 hàng, không mất hàng/ID nào (chi tiết mục Lỗi dữ liệu) |
-| 1.2 | Rà lỗi cùng loại: từ loại sai trong bảng chia (V2 không tận cùng える/いる, động từ ghép する/来る chưa V3…); nhiễu thực ra là dạng đúng (như `～くありません`) trên mọi câu chia thể + điền từ | ⬜ |
+| 1.2 | Rà lỗi cùng loại: từ loại sai trong bảng chia (V2 không tận cùng える/いる, động từ ghép する/来る chưa V3…); nhiễu thực ra là dạng đúng (như `～くありません`) trên mọi câu chia thể + điền từ | ✅ 2026-11-17 — 6 từ loại sai (mục Lỗi dữ liệu); quét 12.612 câu: 0 nhiễu trùng くありません / では / ないです; sửa 1 nhiễu đồng âm (付いて ↔ ついて); bỏ ら抜き khỏi nhiễu (user chốt) |
 | **2 — Hoàn thiện** | | |
 | 2.1 | ~43 câu thể ghép: sinh **thể phái sinh trên web** (bị động/sai khiến + ます, なければなりません / なくても / なかったら từ thể ない, thân ます / gốc tính từ + そう), không thêm thể vào bảng chia — spec riêng | ⬜ |
 | 2.2 | ~24 câu không phải chia thể: tách `kanji` nhiều cách viết ra `variants` (`_decisions/`); tìm lý do danh từ (本, 国, 山) bị bỏ; phó từ N3 `ずいぶん～なる` ghi rõ không hỏi | ⬜ |
@@ -174,6 +174,10 @@ Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [
   - ~~~60 câu: động từ N3 thiếu trong `conjugation.json`~~ — chẩn đoán sai: các từ này có trong bảng chia dưới dạng `aliases` của hàng Minna; lỗi ở web (không tra `aliases`), **đã sửa 2026-11-16** (+54 câu N3).
   - ~~26 câu: câu ví dụ viết khác cách viết của từ vựng (点けて / つけます…)~~ — **đã sửa 2026-11-16**: web khớp theo cách đọc + viết dạng sai theo chữ của câu; kèm sửa từ loại 持って来ます / 連れて来ます / 帰って来ます V1 → V3 (`_decisions/15-conjugation-pos.txt`, bảng chia trước đó sai trên cả trang `/chia-the/`) và câu mn-08-016 `[[悪くないです]]`.
   - Bộ "chia sai" (Q6) từng sinh `～くありません(でした)` làm nhiễu cho tính từ い — là dạng đúng; đã sửa 2026-11-16.
+- **Rà soát bước 1.2 (2026-11-17):**
+  - Từ loại sai → bảng chia sinh dạng sai trên `/chia-the/`: mn-47-007 厳しい An → **Ai** (trước hiện 厳しいだ / 厳しいな; `_decisions/15-conjugation-pos.txt`); N3 do JMdict lấy nhầm tính từ な: n3-068 かび → N, n3-287 発明 → N, n3-462 かなり → Adv, n3-471 たいてい → Adv, n3-669 直接 → Adv (bảng chia 724 → 719 hàng; 5 hàng N3 sai bị bỏ cùng ID quiz `c-to:` của chúng). Sửa N3 ghi ở file mới `enrichment/n3/vocab-fixes-ai.txt` (`# by: ai`, đề xuất chưa duyệt — duyệt xong chuyển dòng sang `vocab-fixes.txt`); pipeline giờ đọc cả hai file, mỗi dòng sửa mang người duyệt của file chứa nó. Giữ tính từ な: 突然, 感心, いたずら, ぎりぎり, 反対 (đều có dạng な hợp lệ). 13 động từ V1 đuôi -iru/-eru đều là ngoại lệ nhóm I thật.
+  - Quét nhiễu 12.612 câu (chia thể 2 sách + điền từ đã chia) với dạng đúng thay thế (くありません, ではありません, じゃないです, ～ないです / なかったです): **0**. Nhiễu đồng âm cùng thể viết kana: 1 câu (mn-29-010-e1 付いて ↔ ついて của つきます) → bỏ nhiễu đọc giống đáp án.
+  - **ら抜き** (食べれる, 来れる, 見れる) không còn làm nhiễu (user chốt 2026-11-17: văn nói phổ biến, không chấm sai); so cả chữ hiển thị ({来|く}れる hiện 来れる). `～すれる` (する) vẫn là nhiễu — dạng sai thật.
   - ~43 câu: thể ghép chưa có trong bảng chia — bị động + ました (bài 37: 褒められました, 招待されました), なければなりません / なくても (bài 17), なかったら (bài 25), sai khiến + ます (bài 48); thân ます / gốc tính từ trước そう (bài 43: 切れ, 落ち, 美味, 優し). Hướng: thêm thể ghép vào bảng chia, hoặc pipeline đánh dấu cụm `[[…]]` chỉ phần thể có sẵn.
   - ~24 câu: không phải chia thể (danh từ 本, 国, 山…; phó từ N3 dạng `ずいぶん～なる`) — trường `kanji` chứa nhiều cách viết (mn-09-033 `夫 /主人`, mn-09-035 `妻/家内`, mn-24-009 `おじいさん／ おじいちゃん`), danh từ hóa (迎え, 切れ), mẫu câu (mn-01-030 こちらは～さんです).
   - Sửa xong → chạy `vocab.test.ts`: mốc "số câu bỏ qua" phải hạ theo.

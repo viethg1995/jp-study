@@ -951,19 +951,19 @@
       "meaning_vi": "Nấm mốc",
       "particle": null,
       "pos": {
-        "code": "An",
-        "label": "Tính từ な"
+        "code": "N",
+        "label": "Danh từ"
       },
       "provenance": {
         "han_viet": null,
         "kanji": null,
         "meaning": "source",
-        "pos": "jmdict"
+        "pos": "ai-draft"
       },
       "related": [
         "梅雨の時期はかびが生えやすい"
       ],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {

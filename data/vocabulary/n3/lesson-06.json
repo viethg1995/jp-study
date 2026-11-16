@@ -1882,17 +1882,17 @@
       "meaning_vi": "Phát minh",
       "particle": null,
       "pos": {
-        "code": "An",
-        "label": "Tính từ な"
+        "code": "N",
+        "label": "Danh từ"
       },
       "provenance": {
         "han_viet": "derived",
         "kanji": "source",
         "meaning": "source",
-        "pos": "jmdict"
+        "pos": "ai-draft"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {

@@ -100,6 +100,19 @@ describe("Q6-4: bộ chia sai (nhiễu)", () => {
     assert.ok(item(na, `c-to:${row("adj-na", "きれい").id}:desu`).pool.map(reading).includes("きれいなです"));
   });
 
+  test("ら抜き (食べれる, 来れる, 見れる) không bao giờ là nhiễu — mọi động từ, mọi thể", () => {
+    for (const r of tables.verb.rows) {
+      const pot = r.forms.potential?.[0];
+      if (!pot || !reading(pot).endsWith("られる")) continue;
+      const rano = reading(pot).slice(0, -3) + "れる";
+      for (const form of Object.keys(r.forms)) assert.ok(!wrongForms(r, form).map(reading).includes(rano), `${r.base} ${form}`);
+    }
+    const kuru = item(gen("verb"), `c-to:${row("verb", "きます").id}:potential`);
+    assert.ok(!kuru.pool.map(text).includes("来れる"), kuru.pool.join(" ")); // {来|く}れる hiện như ら抜き
+    const tabe = item(gen("verb"), `c-to:${row("verb", "たべます").id}:potential`);
+    assert.ok(!tabe.pool.map(reading).includes("たべれる"), tabe.pool.join(" "));
+  });
+
   test("tính từ い: ～くありません(でした) là dạng ĐÚNG → không bao giờ là nhiễu; いい → いくありません vẫn là nhiễu", () => {
     for (const r of tables["adj-i"].rows)
       for (const form of ["neg_polite", "past_neg_polite"]) {

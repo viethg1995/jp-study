@@ -290,15 +290,16 @@ def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]], dic
         if c not in char_hv and vals:
             char_hv[c] = (normalize_han_viet(vals[0].upper()) or "", "unihan")
 
-    fix_file = enrich / "vocab-fixes.txt"
-    fix_by, fixes = parse_fixes(fix_file.read_text(encoding="utf-8")) if fix_file.exists() else ("ai", [])
+    # vocab-fixes.txt (đã duyệt) + vocab-fixes-ai.txt (đề xuất AI) — mỗi dòng mang '# by:' của file chứa nó
+    fixes = [fx for name in ("vocab-fixes.txt", "vocab-fixes-ai.txt") if (enrich / name).exists()
+             for fx in parse_fixes((enrich / name).read_text(encoding="utf-8"))[1]]
     raws = [N3VocabRaw.model_validate(x) for x in _read_json(parsed / "vocab.json")]  # type: ignore[union-attr]
     jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     from jp_pipeline.transform.n3_build import parse_examples
 
     ex_files = sorted((enrich / "_examples").glob("lesson-*.txt"))
     n3_examples = parse_examples([(f.name, f.read_text(encoding="utf-8")) for f in ex_files])
-    entries, warnings = build_n3_vocab(raws, fixes, fix_by, jm, char_hv, n3_examples)
+    entries, warnings = build_n3_vocab(raws, fixes, jm, char_hv, n3_examples)
 
     out_dir = paths.OUT_VOCABULARY / "n3"
     by_lesson: dict[int, list] = {}  # type: ignore[type-arg]

@@ -472,7 +472,10 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
       for (const r of others) {
         if (pool.length >= POOL_SIZE) break;
         if (conjText(r.base) === conjText(ref.row.base)) continue;
-        push(r.forms[form.id]![0] + tail);
+        const w = r.forms[form.id]![0] + tail;
+        // đồng âm cùng thể (付いて ↔ ついて của つきます "đèn sáng") = cùng cách đọc với đáp án → chọn vẫn là đúng
+        if (readingOf(w) === readingOf(target)) continue;
+        push(w);
       }
       out.push({
         id: `v-cloze:${ex.id}`,

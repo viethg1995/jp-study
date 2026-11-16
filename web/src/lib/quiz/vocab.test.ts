@@ -192,6 +192,14 @@ describe("v-cloze (điền từ)", () => {
     assert.ok(!warui.pool.some((p) => rubyForms(p).reading.endsWith("くありません")), warui.pool.join(" "));
   });
 
+  test("Q4b: nhiễu không đọc giống đáp án (đồng âm cùng thể: 付いて ↔ ついて)", () => {
+    for (const level of VOCAB_LEVELS)
+      for (const q of inflected(level)) {
+        const a = rubyForms(q.answer).reading;
+        assert.ok(!q.pool.some((p) => rubyForms(p).reading === a), `${q.id}: ${q.pool.join(" ")}`);
+      }
+  });
+
   test("Q4b: nhiễu không trùng bất kỳ thể đúng nào của chính từ; cùng đuôi với đáp án (ました, ないで)", () => {
     for (const level of VOCAB_LEVELS)
       for (const q of inflected(level)) {
