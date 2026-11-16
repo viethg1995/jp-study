@@ -1,0 +1,70 @@
+[
+  {
+    "id": "p-n5-001",
+    "level": "n5",
+    "title_ja": "{私|わたし}の{日曜日|にちようび}",
+    "title_vi": "Ngày chủ nhật của tôi",
+    "genre": "essay",
+    "focus_vi": ["Vます / Vました / Vませんでした", "～から (lý do)", "N といっしょに", "Vたいです"],
+    "sentences": [
+      {
+        "ja": "{私|わたし}は{日曜日|にちようび}にいつも{友達|ともだち}とテニスをします。",
+        "ja_alt": [],
+        "vi": "Vào chủ nhật, tôi lúc nào cũng chơi quần vợt với bạn.",
+        "vi_alt": ["Chủ nhật nào tôi cũng chơi tennis với bạn."],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "{先週|せんしゅう}の{日曜日|にちようび}は{雨|あめ}でしたから、テニスをしませんでした。",
+        "ja_alt": [],
+        "vi": "Chủ nhật tuần trước trời mưa nên chúng tôi đã không chơi quần vợt.",
+        "vi_alt": ["Chủ nhật tuần trước vì trời mưa nên tôi không chơi tennis."],
+        "note_vi": "Chủ ngữ bị lược; dịch \"tôi\" hay \"chúng tôi\" đều được.",
+        "para": 1
+      },
+      {
+        "ja": "{友達|ともだち}といっしょにデパートへ{行|い}きました。",
+        "ja_alt": ["友達とデパートへ行きました。", "友達といっしょにデパートに行きました。"],
+        "vi": "Tôi đã đi trung tâm thương mại cùng với bạn.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 1
+      },
+      {
+        "ja": "デパートで{赤|あか}いかばんを{買|か}いました。",
+        "ja_alt": [],
+        "vi": "Tôi đã mua một cái cặp màu đỏ ở trung tâm thương mại.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "それから、レストランで{昼|ひる}ご{飯|はん}を{食|た}べました。",
+        "ja_alt": [],
+        "vi": "Sau đó, chúng tôi đã ăn trưa ở nhà hàng.",
+        "vi_alt": [],
+        "note_vi": "Chủ ngữ bị lược; dịch \"tôi\" hay \"chúng tôi\" đều được.",
+        "para": 2
+      },
+      {
+        "ja": "とてもおいしかったです。",
+        "ja_alt": [],
+        "vi": "Rất ngon.",
+        "vi_alt": ["Món ăn rất ngon."],
+        "note_vi": "Tính từ い ở quá khứ (おいしかった); chủ ngữ (món ăn) bị lược.",
+        "para": 2
+      },
+      {
+        "ja": "{来週|らいしゅう}はまたテニスをしたいです。",
+        "ja_alt": [],
+        "vi": "Tuần sau tôi lại muốn chơi quần vợt.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      }
+    ],
+    "source": "ai-draft",
+    "review": "auto"
+  }
+]

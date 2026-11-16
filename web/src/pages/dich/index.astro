@@ -1,9 +1,10 @@
 ---
-// Luyện dịch — danh sách đề theo bài. Mỗi đề: đoạn văn tiếng Việt/Anh → học viên dịch sang tiếng Nhật → AI chấm.
+// Luyện dịch — tab "Câu đơn": danh sách đề theo bài. Mỗi đề: đoạn văn tiếng Việt/Anh → học viên dịch sang tiếng Nhật → AI chấm.
 import { getCollection } from "astro:content";
+import LevelTabs from "../../components/ui/LevelTabs.astro";
 import Tag from "../../components/ui/Tag.astro";
 import Base from "../../layouts/Base.astro";
-import { exercisePath } from "../../lib/translation";
+import { exercisePath, translationTabs } from "../../lib/translation";
 
 const exercises = (await getCollection("translation")).map((e) => e.data).sort((a, b) => a.id.localeCompare(b.id));
 const lessons = [...new Set(exercises.map((e) => e.lesson))].sort((a, b) => a - b);
@@ -11,11 +12,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title="Luyện dịch" description="Luyện dịch câu tiếng Việt, tiếng Anh sang tiếng Nhật theo từng bài みんなの日本語, có AI chấm và chỉ ra câu sai.">
+  <LevelTabs label="Loại bài" tabs={translationTabs(base, "cau")} />
   <div class="mx-auto max-w-3xl">
     <h1 class="text-2xl font-bold">Luyện dịch</h1>
     <p class="mt-1 text-ink-muted">
-      Đọc đoạn văn tiếng Việt hoặc tiếng Anh, dịch sang tiếng Nhật rồi bấm <b class="font-semibold text-ink">Chấm bài</b>. AI sẽ so
-      với bản dịch mẫu và chỉ ra câu sai.
+      <b class="font-semibold text-ink">Câu đơn</b>: dịch từng nhóm câu tiếng Việt hoặc tiếng Anh sang tiếng Nhật theo bài
+      みんなの日本語 rồi bấm <b class="font-semibold text-ink">Chấm bài</b>. AI sẽ so với bản dịch mẫu và chỉ ra câu sai. Muốn
+      dịch cả đoạn văn (Nhật ↔ Việt) như bài đọc hiểu JLPT, chọn tab <a href={`${base}/dich/doan/`} class="text-primary hover:underline">Đoạn văn</a>.
     </p>
 
     {exercises.length === 0 && <p class="mt-6 text-ink-muted">Chưa có đề nào.</p>}

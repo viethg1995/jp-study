@@ -3,7 +3,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { type KanjiSource, kanjiSource } from "../lib/quiz/kanji.ts";
-import { type ConjugationFile, conjugationFile, type Counter, counterFile, type NumberSystem, kanjiFile, radicalFile, strokeFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
+import { type ConjugationFile, conjugationFile, type Counter, counterFile, type NumberSystem, kanjiFile, radicalFile, strokeFile, type TranslationFile, translationFile, type VocabEntry, vocabLesson } from "../lib/schemas.ts";
 
 const DATA = fileURLToPath(new URL("../../../data/", import.meta.url));
 
@@ -50,4 +50,9 @@ export function loadKanjiAndRadicals() {
     kanji: kanjiFile.parse(readJson("kanji/kanji.json")).kanji,
     radicals: radicalFile.parse(readJson("kanji/radicals.json")).radicals,
   };
+}
+
+/** Luyện dịch (data/translation.json): câu đơn + đoạn văn — như collection translation + translationPassages. */
+export function loadTranslation(): TranslationFile {
+  return translationFile.parse(readJson("translation.json"));
 }

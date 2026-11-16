@@ -38,4 +38,11 @@ Menu (`lib/nav.ts`): mục "Luyện dịch" giữ nguyên `dich/` (tab nằm tro
 
 ## Sai khác so với spec
 
-(ghi khi làm)
+- **Tab** dùng `LevelTabs` có sẵn (dải link ở header, như N5 · N4 · N3 của Từ vựng) thay vì Segmented — hai tab là hai trang riêng. `translationTabs()` ở `lib/translation.ts`.
+- **Furigana:** tái dùng checkbox toàn cục `#toggle-furigana` ("Ẩn furigana", CSS sẵn ở `global.css`) — mặc định hiện; ô này chỉ hiện ở chiều Nhật → Việt.
+- **Đổi chiều:** hỏi xác nhận **mỗi khi ô nhập có chữ** (không chỉ sau khi nộp) vì chữ đang viết là ngôn ngữ của chiều cũ; đồng ý → xóa ô nhập + kết quả; hủy → giữ chiều cũ. Kết quả trả về sau khi đã đổi chiều bị bỏ qua.
+- **Hiển thị kết quả** tách ra `lib/translation-render.ts` (`renderGrade`), trang câu đơn dùng chung; thêm class `.t-source` (câu gốc), `.t-learner` và `lang` đúng theo ngôn ngữ bài làm (bài làm tiếng Việt không mang font Nhật).
+- Link "Tất cả đoạn văn" về `#<cấp>` của danh sách; trước/sau chỉ trong cùng cấp.
+- **E2E máy chấm giả:** bản build e2e không có `PUBLIC_GRADER_URL` → `e2e/translation.spec.ts` chặn request trang, chèn `graderUrl` giả + bỏ thuộc tính `disabled` của nút, rồi `page.route` trả `GradeResult` giả (kể cả preflight OPTIONS). Không thêm cửa sau vào code chạy thật. Có cả test trang câu đơn (trước đây chưa có).
+- **Dữ liệu:** soạn trước đoạn `p-n5-001` (thuộc D4, `ai-draft`) để có trang build + test. `check-passages` còn 3 W: かばん/おいしい/また viết kana — giữ vì bài đọc N5 thật viết kana; 毎週 (bài 36) đã thay bằng いつも.
+- Kiểm tra: `npm run build` pass (236 unit test), e2e toàn bộ 186 pass (trước khi thêm file mới) + `translation.spec.ts` 10/10 (desktop + mobile 375px, không cuộn ngang). Chụp màn hình kiểm tra tay: tiêu đề tiếng Nhật thiếu khoảng cho furigana → thêm class `sentence`.

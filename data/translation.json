@@ -156,6 +156,96 @@
       "title_vi": "Đồ vật của ai?"
     }
   ],
-  "passages": [],
+  "passages": [
+    {
+      "focus_vi": [
+        "Vます / Vました / Vませんでした",
+        "～から (lý do)",
+        "N といっしょに",
+        "Vたいです"
+      ],
+      "genre": "essay",
+      "id": "p-n5-001",
+      "level": "n5",
+      "review": "auto",
+      "sentences": [
+        {
+          "ja": "{私|わたし}は{日曜日|にちようび}にいつも{友達|ともだち}とテニスをします。",
+          "ja_alt": [],
+          "ja_text": "私は日曜日にいつも友達とテニスをします。",
+          "note_vi": null,
+          "para": 1,
+          "vi": "Vào chủ nhật, tôi lúc nào cũng chơi quần vợt với bạn.",
+          "vi_alt": [
+            "Chủ nhật nào tôi cũng chơi tennis với bạn."
+          ]
+        },
+        {
+          "ja": "{先週|せんしゅう}の{日曜日|にちようび}は{雨|あめ}でしたから、テニスをしませんでした。",
+          "ja_alt": [],
+          "ja_text": "先週の日曜日は雨でしたから、テニスをしませんでした。",
+          "note_vi": "Chủ ngữ bị lược; dịch \"tôi\" hay \"chúng tôi\" đều được.",
+          "para": 1,
+          "vi": "Chủ nhật tuần trước trời mưa nên chúng tôi đã không chơi quần vợt.",
+          "vi_alt": [
+            "Chủ nhật tuần trước vì trời mưa nên tôi không chơi tennis."
+          ]
+        },
+        {
+          "ja": "{友達|ともだち}といっしょにデパートへ{行|い}きました。",
+          "ja_alt": [
+            "友達とデパートへ行きました。",
+            "友達といっしょにデパートに行きました。"
+          ],
+          "ja_text": "友達といっしょにデパートへ行きました。",
+          "note_vi": null,
+          "para": 1,
+          "vi": "Tôi đã đi trung tâm thương mại cùng với bạn.",
+          "vi_alt": []
+        },
+        {
+          "ja": "デパートで{赤|あか}いかばんを{買|か}いました。",
+          "ja_alt": [],
+          "ja_text": "デパートで赤いかばんを買いました。",
+          "note_vi": null,
+          "para": 2,
+          "vi": "Tôi đã mua một cái cặp màu đỏ ở trung tâm thương mại.",
+          "vi_alt": []
+        },
+        {
+          "ja": "それから、レストランで{昼|ひる}ご{飯|はん}を{食|た}べました。",
+          "ja_alt": [],
+          "ja_text": "それから、レストランで昼ご飯を食べました。",
+          "note_vi": "Chủ ngữ bị lược; dịch \"tôi\" hay \"chúng tôi\" đều được.",
+          "para": 2,
+          "vi": "Sau đó, chúng tôi đã ăn trưa ở nhà hàng.",
+          "vi_alt": []
+        },
+        {
+          "ja": "とてもおいしかったです。",
+          "ja_alt": [],
+          "ja_text": "とてもおいしかったです。",
+          "note_vi": "Tính từ い ở quá khứ (おいしかった); chủ ngữ (món ăn) bị lược.",
+          "para": 2,
+          "vi": "Rất ngon.",
+          "vi_alt": [
+            "Món ăn rất ngon."
+          ]
+        },
+        {
+          "ja": "{来週|らいしゅう}はまたテニスをしたいです。",
+          "ja_alt": [],
+          "ja_text": "来週はまたテニスをしたいです。",
+          "note_vi": null,
+          "para": 3,
+          "vi": "Tuần sau tôi lại muốn chơi quần vợt.",
+          "vi_alt": []
+        }
+      ],
+      "source": "ai-draft",
+      "title_ja": "{私|わたし}の{日曜日|にちようび}",
+      "title_vi": "Ngày chủ nhật của tôi"
+    }
+  ],
   "schema_version": 2
 }

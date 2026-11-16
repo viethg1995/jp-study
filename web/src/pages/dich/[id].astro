@@ -118,7 +118,8 @@ const payload = { id: ex.id, graderUrl, references: ex.sentences.map((s) => s.re
 </style>
 
 <script>
-  import { ERROR_LABELS, VERDICT_LABELS, type GradeResponse, type GradeResult } from "../../lib/translation";
+  import type { GradeResponse, GradeResult } from "../../lib/translation";
+  import { renderGrade } from "../../lib/translation-render";
 
   interface Data {
     id: string;
@@ -139,58 +140,8 @@ const payload = { id: ex.id, graderUrl, references: ex.sentences.map((s) => s.re
 
   answer.addEventListener("input", () => (count.textContent = String(answer.value.length)));
 
-  /** Tạo phần tử, nội dung qua textContent (không dùng innerHTML với chữ do AI sinh). */
-  function el<K extends keyof HTMLElementTagNameMap>(tag: K, cls: string, text?: string): HTMLElementTagNameMap[K] {
-    const e = document.createElement(tag);
-    e.className = cls;
-    if (text !== undefined) e.textContent = text;
-    return e;
-  }
-
   function render(r: GradeResult): void {
-    const tone = r.overall === "good" ? "bg-primary-soft" : r.overall === "minor" ? "bg-notice-soft" : "bg-danger-soft";
-    summary.className = `rounded-lg px-4 py-3 ${tone}`;
-    const right = r.sentences.filter((s) => s.verdict === "correct").length;
-    summary.replaceChildren(
-      el("p", "font-semibold text-ink", `Đúng ${right} / ${r.sentences.length} câu`),
-      el("p", "mt-1 text-sm text-ink-muted", r.summary_vi),
-    );
-
-    list.replaceChildren(
-      ...r.sentences.map((s) => {
-        const li = el("li", "rounded-lg border border-line bg-surface p-4");
-        li.dataset.verdict = s.verdict;
-        const head = el("p", "flex items-baseline gap-2 text-sm");
-        head.append(el("span", "text-ink-faint", `Câu ${s.index}`), el("span", "t-verdict font-semibold", VERDICT_LABELS[s.verdict]));
-        li.append(head);
-
-        if (s.learner) li.append(el("p", "jp mt-1 text-lg text-ink", s.learner));
-        if (s.verdict !== "correct" && s.corrected && s.corrected !== s.learner) {
-          const fix = el("p", "mt-1 text-sm text-ink-muted", "Sửa: ");
-          fix.append(el("span", "jp text-lg font-semibold text-primary", s.corrected));
-          li.append(fix);
-        }
-        if (s.errors.length > 0) {
-          const ul = el("ul", "mt-2 space-y-1 text-sm");
-          for (const err of s.errors) {
-            const item = el("li", "text-ink-muted");
-            item.append(el("span", "mr-1 text-xs font-medium text-ink-faint", `[${ERROR_LABELS[err.type] ?? err.type}]`));
-            if (err.excerpt) item.append(el("span", "jp mr-1 text-danger", `「${err.excerpt}」`));
-            item.append(document.createTextNode(err.explanation_vi));
-            ul.append(item);
-          }
-          li.append(ul);
-        }
-        const refs = data.references[s.index - 1] ?? [];
-        if (refs.length > 0) {
-          const det = el("details", "mt-2 text-sm");
-          det.append(el("summary", "cursor-pointer text-primary", "Bản dịch mẫu"));
-          for (const ref of refs) det.append(el("p", "jp mt-1 text-ink", ref));
-          li.append(det);
-        }
-        return li;
-      }),
-    );
+    renderGrade(r, { summary, list, references: data.references, answerLang: "ja" });
     resultBox.classList.remove("hidden");
     resultBox.scrollIntoView({ behavior: "smooth", block: "start" });
   }
