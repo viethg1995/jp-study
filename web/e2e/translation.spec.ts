@@ -6,7 +6,7 @@ import { expect, test } from "./fixtures";
 
 const GRADER = "https://grader.test";
 const PASSAGE = "dich/doan/p-n5-001/";
-const PASSAGE_SENTENCES = 7;
+const PASSAGE_SENTENCES = 13;
 
 interface Graded {
   requests: Record<string, unknown>[];
@@ -62,7 +62,7 @@ test("tab Câu đơn ↔ Đoạn văn, danh sách đoạn theo cấp", async ({ 
   await expect(page.locator("h1")).toHaveText("Luyện dịch đoạn văn");
   await expect(page.locator("section#n5 h2")).toHaveText("N5");
   await page.locator(`a[href$="${PASSAGE}"]`).click();
-  await expect(page.locator("h1")).toHaveText("Ngày chủ nhật của tôi");
+  await expect(page.locator("h1")).toHaveText("Ngày chủ nhật mưa");
   await noHorizontalScroll(page);
 });
 

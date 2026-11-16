@@ -2,65 +2,113 @@
   {
     "id": "p-n5-001",
     "level": "n5",
-    "title_ja": "{私|わたし}の{日曜日|にちようび}",
-    "title_vi": "Ngày chủ nhật của tôi",
+    "title_ja": "{雨|あめ}の{日曜日|にちようび}",
+    "title_vi": "Ngày chủ nhật mưa",
     "genre": "essay",
-    "focus_vi": ["Vます / Vました / Vませんでした", "～から (lý do)", "N といっしょに", "Vたいです"],
+    "focus_vi": ["でも・じゃ・それから", "「…」と言いました / と思いました", "A くて", "～が (nhưng)", "～たら"],
     "sentences": [
       {
-        "ja": "{私|わたし}は{日曜日|にちようび}にいつも{友達|ともだち}とテニスをします。",
-        "ja_alt": [],
-        "vi": "Vào chủ nhật, tôi lúc nào cũng chơi quần vợt với bạn.",
-        "vi_alt": ["Chủ nhật nào tôi cũng chơi tennis với bạn."],
+        "ja": "{私|わたし}は{日曜日|にちようび}にいつも{友達|ともだち}のマリアさんとテニスをします。",
+        "ja_alt": ["日曜日、わたしはいつも友達のマリアさんとテニスをします。"],
+        "vi": "Vào chủ nhật, tôi lúc nào cũng chơi quần vợt với bạn tôi là chị Maria.",
+        "vi_alt": ["Chủ nhật nào tôi cũng chơi tennis với Maria, bạn của tôi."],
         "note_vi": null,
         "para": 1
       },
       {
-        "ja": "{先週|せんしゅう}の{日曜日|にちようび}は{雨|あめ}でしたから、テニスをしませんでした。",
+        "ja": "でも、{先週|せんしゅう}の{日曜日|にちようび}は{朝|あさ}から{雨|あめ}でした。",
         "ja_alt": [],
-        "vi": "Chủ nhật tuần trước trời mưa nên chúng tôi đã không chơi quần vợt.",
-        "vi_alt": ["Chủ nhật tuần trước vì trời mưa nên tôi không chơi tennis."],
-        "note_vi": "Chủ ngữ bị lược; dịch \"tôi\" hay \"chúng tôi\" đều được.",
-        "para": 1
-      },
-      {
-        "ja": "{友達|ともだち}といっしょにデパートへ{行|い}きました。",
-        "ja_alt": ["友達とデパートへ行きました。", "友達といっしょにデパートに行きました。"],
-        "vi": "Tôi đã đi trung tâm thương mại cùng với bạn.",
+        "vi": "Nhưng chủ nhật tuần trước trời mưa từ sáng.",
         "vi_alt": [],
         "note_vi": null,
         "para": 1
       },
       {
-        "ja": "デパートで{赤|あか}いかばんを{買|か}いました。",
+        "ja": "マリアさんは「ああ、{残念|ざんねん}ですね。」と{言|い}いました。",
         "ja_alt": [],
-        "vi": "Tôi đã mua một cái cặp màu đỏ ở trung tâm thương mại.",
+        "vi": "Chị Maria nói: \"Ôi, tiếc quá nhỉ.\"",
+        "vi_alt": [],
+        "note_vi": "ああ: thán từ thể hiện thất vọng (ôi, chà).",
+        "para": 1
+      },
+      {
+        "ja": "{私|わたし}は「じゃ、いっしょにデパートへ{行|い}きませんか。」と{言|い}いました。",
+        "ja_alt": ["わたしは「じゃ、いっしょにデパートに行きませんか。」と言いました。"],
+        "vi": "Tôi nói: \"Vậy thì mình cùng đi trung tâm thương mại không?\"",
+        "vi_alt": [],
+        "note_vi": "Vませんか: lời rủ rê. じゃ: \"vậy thì\".",
+        "para": 1
+      },
+      {
+        "ja": "デパートはとてもにぎやかでした。",
+        "ja_alt": [],
+        "vi": "Trung tâm thương mại rất nhộn nhịp.",
         "vi_alt": [],
         "note_vi": null,
         "para": 2
       },
       {
-        "ja": "それから、レストランで{昼|ひる}ご{飯|はん}を{食|た}べました。",
+        "ja": "{二階|にかい}で{赤|あか}くてきれいなかばんを{見|み}ました。",
         "ja_alt": [],
-        "vi": "Sau đó, chúng tôi đã ăn trưa ở nhà hàng.",
+        "vi": "Ở tầng hai, tôi thấy một chiếc cặp màu đỏ rất đẹp.",
         "vi_alt": [],
-        "note_vi": "Chủ ngữ bị lược; dịch \"tôi\" hay \"chúng tôi\" đều được.",
+        "note_vi": "A くて: nối hai tính từ (đỏ và đẹp).",
         "para": 2
       },
       {
-        "ja": "とてもおいしかったです。",
+        "ja": "「わあ、すてき！」と{私|わたし}は{思|おも}いました。",
         "ja_alt": [],
-        "vi": "Rất ngon.",
-        "vi_alt": ["Món ăn rất ngon."],
-        "note_vi": "Tính từ い ở quá khứ (おいしかった); chủ ngữ (món ăn) bị lược.",
+        "vi": "Tôi nghĩ: \"Oa, đẹp quá!\"",
+        "vi_alt": [],
+        "note_vi": "わあ: thán từ ngạc nhiên, thích thú.",
         "para": 2
       },
       {
-        "ja": "{来週|らいしゅう}はまたテニスをしたいです。",
+        "ja": "{少|すこ}し{高|たか}かったですが、{買|か}いました。",
         "ja_alt": [],
-        "vi": "Tuần sau tôi lại muốn chơi quần vợt.",
+        "vi": "Hơi đắt một chút nhưng tôi đã mua.",
         "vi_alt": [],
         "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "それから、{二人|ふたり}でレストランへ{行|い}って、{天|てん}ぷらを{食|た}べました。",
+        "ja_alt": [],
+        "vi": "Sau đó, hai chúng tôi đi nhà hàng và ăn tempura.",
+        "vi_alt": [],
+        "note_vi": "Vて、V: nối các hành động theo thứ tự.",
+        "para": 2
+      },
+      {
+        "ja": "{天|てん}ぷらはとてもおいしかったです。",
+        "ja_alt": [],
+        "vi": "Món tempura rất ngon.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 2
+      },
+      {
+        "ja": "{雨|あめ}の{日|ひ}でしたが、{本当|ほんとう}に{楽|たの}しい{一日|いちにち}でした。",
+        "ja_alt": [],
+        "vi": "Tuy là ngày mưa nhưng đó thật sự là một ngày rất vui.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "マリアさん、ありがとう。",
+        "ja_alt": [],
+        "vi": "Cảm ơn chị Maria nhé.",
+        "vi_alt": [],
+        "note_vi": null,
+        "para": 3
+      },
+      {
+        "ja": "{来週|らいしゅう}はいい{天気|てんき}だったら、また{二人|ふたり}でテニスをしたいです。",
+        "ja_alt": [],
+        "vi": "Tuần sau nếu trời đẹp, tôi lại muốn chơi quần vợt cùng chị ấy.",
+        "vi_alt": ["Tuần sau nếu trời đẹp, hai chúng tôi muốn lại chơi tennis."],
+        "note_vi": "～たら: nếu (giả định).",
         "para": 3
       }
     ],
