@@ -41632,7 +41632,7 @@
       "kana": "なおります",
       "kind": "V1",
       "lesson": 35,
-      "meaning_vi": "khỏi [bệnh]; được sửa xong [hỏng hóc ～]",
+      "meaning_vi": "khỏi [bệnh] / được sửa xong [hỏng hóc ～]",
       "ruby": "{治|なお}ります",
       "vocab_id": "mn-35-005"
     },
@@ -62250,7 +62250,7 @@
       "kana": "たおします",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Làm đổ, đánh đổ; Đánh bại, chinh phục",
+      "meaning_vi": "Làm đổ, đánh đổ / Đánh bại, chinh phục",
       "ruby": "{倒|たお}します",
       "vocab_id": "n3-102"
     },
@@ -62403,7 +62403,7 @@
       "kana": "おこします",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Đánh thức; Dựng lên; Gây ra, làm",
+      "meaning_vi": "Đánh thức / Dựng lên / Gây ra, làm",
       "ruby": "{起|お}こします",
       "vocab_id": "n3-104"
     },
@@ -63933,7 +63933,7 @@
       "kana": "うつします",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Chụp (ảnh); Chép",
+      "meaning_vi": "Chụp (ảnh) / Chép",
       "ruby": "{写|うつ}します",
       "vocab_id": "n3-119"
     },
@@ -64086,7 +64086,7 @@
       "kana": "おもいだします",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Nhớ lại; Nhớ ra",
+      "meaning_vi": "Nhớ lại / Nhớ ra",
       "ruby": "{思|おも}い{出|だ}します",
       "vocab_id": "n3-120"
     },
@@ -64392,7 +64392,7 @@
       "kana": "ことわります",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Từ chối; Được phép",
+      "meaning_vi": "Từ chối / Được phép",
       "ruby": "{断|ことわ}ります",
       "vocab_id": "n3-123"
     },
@@ -64545,7 +64545,7 @@
       "kana": "つかまります",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Bị bắt; Tóm",
+      "meaning_vi": "Bị bắt / Tóm",
       "ruby": "{捕|つか}まります",
       "vocab_id": "n3-124"
     },
@@ -64698,7 +64698,7 @@
       "kana": "つかまえます",
       "kind": "V2",
       "lesson": 3,
-      "meaning_vi": "Tóm, bắt; Bắt",
+      "meaning_vi": "Tóm, bắt / Bắt",
       "ruby": "{捕|つか}まえます",
       "vocab_id": "n3-125"
     },
@@ -64851,7 +64851,7 @@
       "kana": "なおります",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Sửa; Cải thiện",
+      "meaning_vi": "Sửa / Cải thiện",
       "ruby": "{直|なお}ります",
       "vocab_id": "n3-128"
     },
@@ -65310,7 +65310,7 @@
       "kana": "うみます",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Sinh; Đẻ ra; Tạo ra",
+      "meaning_vi": "Sinh / Đẻ ra / Tạo ra",
       "ruby": "{産|う}みます",
       "vocab_id": "n3-135"
     },
@@ -65463,7 +65463,7 @@
       "kana": "であいます",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Gặp gỡ; Gặp gỡ tình cờ; Gặp gỡ định mệnh",
+      "meaning_vi": "Gặp gỡ / Gặp gỡ tình cờ / Gặp gỡ định mệnh",
       "ruby": "{出会|であ}います",
       "vocab_id": "n3-136"
     },
@@ -65769,7 +65769,7 @@
       "kana": "つきあいます",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Giao du Chơi với; Cùng làm Có hẹn với; Hẹn hò",
+      "meaning_vi": "Giao du Chơi với / Cùng làm Có hẹn với / Hẹn hò",
       "ruby": "{付|つ}き{合|あ}います",
       "vocab_id": "n3-138"
     },
@@ -65922,7 +65922,7 @@
       "kana": "ききます",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Có hiệu quả; Đang chạy",
+      "meaning_vi": "Có hiệu quả / Đang chạy",
       "ruby": "{効|き}きます",
       "vocab_id": "n3-139"
     },
@@ -66075,7 +66075,7 @@
       "kana": "はやります",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Lây Bùng phát; Thịnh hành",
+      "meaning_vi": "Lây Bùng phát / Thịnh hành",
       "ruby": "はやります",
       "vocab_id": "n3-140"
     },
@@ -66534,7 +66534,7 @@
       "kana": "うごかします",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Cử động; Lay động; Thay đổi",
+      "meaning_vi": "Cử động / Lay động / Thay đổi",
       "ruby": "{動|うご}かします",
       "vocab_id": "n3-147"
     },
@@ -66687,7 +66687,7 @@
       "kana": "はなれます",
       "kind": "V2",
       "lesson": 3,
-      "meaning_vi": "Xa, rời xa; Cách",
+      "meaning_vi": "Xa, rời xa / Cách",
       "ruby": "{離|はな}れます",
       "vocab_id": "n3-148"
     },
@@ -66840,7 +66840,7 @@
       "kana": "はなします",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Tách ra, tách xa; Rời, buông",
+      "meaning_vi": "Tách ra, tách xa / Rời, buông",
       "ruby": "{離|はな}します",
       "vocab_id": "n3-149"
     },
@@ -66993,7 +66993,7 @@
       "kana": "ぶつかります",
       "kind": "V1",
       "lesson": 3,
-      "meaning_vi": "Đâm, va chạm; Bất đồng; Trùng",
+      "meaning_vi": "Đâm, va chạm / Bất đồng / Trùng",
       "ruby": "ぶつかります",
       "vocab_id": "n3-150"
     },
@@ -67299,7 +67299,7 @@
       "kana": "こぼれます",
       "kind": "V2",
       "lesson": 4,
-      "meaning_vi": "Đổ; Chảy ra",
+      "meaning_vi": "Đổ / Chảy ra",
       "ruby": "こぼれます",
       "vocab_id": "n3-152"
     },
@@ -67605,7 +67605,7 @@
       "kana": "かたづきます",
       "kind": "V1",
       "lesson": 4,
-      "meaning_vi": "Dọn dẹp; Giải quyết",
+      "meaning_vi": "Dọn dẹp / Giải quyết",
       "ruby": "{片付|かたづ}きます",
       "vocab_id": "n3-155"
     },
@@ -67758,7 +67758,7 @@
       "kana": "かたづけます",
       "kind": "V2",
       "lesson": 4,
-      "meaning_vi": "Dọn dẹp, sắp xếp; Giải quyết",
+      "meaning_vi": "Dọn dẹp, sắp xếp / Giải quyết",
       "ruby": "{片付|かたづ}けます",
       "vocab_id": "n3-156"
     },
@@ -68370,7 +68370,7 @@
       "kana": "のこします",
       "kind": "V1",
       "lesson": 4,
-      "meaning_vi": "Để thừa lại; Còn lại",
+      "meaning_vi": "Để thừa lại / Còn lại",
       "ruby": "{残|のこ}します",
       "vocab_id": "n3-161"
     },
@@ -68982,7 +68982,7 @@
       "kana": "つみます",
       "kind": "V1",
       "lesson": 4,
-      "meaning_vi": "Chất đống Xếp chồng; Chất lên; Tích lũy; Rèn luyện",
+      "meaning_vi": "Chất đống Xếp chồng / Chất lên / Tích lũy / Rèn luyện",
       "ruby": "{積|つ}みます",
       "vocab_id": "n3-167"
     },
@@ -69135,7 +69135,7 @@
       "kana": "あきます",
       "kind": "V1",
       "lesson": 4,
-      "meaning_vi": "Thủng; Trống; Rảnh trống lịch",
+      "meaning_vi": "Thủng / Trống / Rảnh trống lịch",
       "ruby": "{空|あ}きます",
       "vocab_id": "n3-168"
     },
@@ -69288,7 +69288,7 @@
       "kana": "あけます",
       "kind": "V2",
       "lesson": 4,
-      "meaning_vi": "Đâm thủng; Để trống (không gian); Để trống (thời gian)",
+      "meaning_vi": "Đâm thủng / Để trống (không gian) / Để trống (thời gian)",
       "ruby": "{空|あ}けます",
       "vocab_id": "n3-169"
     },
@@ -69594,7 +69594,7 @@
       "kana": "さめます",
       "kind": "V2",
       "lesson": 4,
-      "meaning_vi": "Nguội; Nguôi đi nguội lạnh",
+      "meaning_vi": "Nguội / Nguôi đi nguội lạnh",
       "ruby": "{冷|さ}めます",
       "vocab_id": "n3-174"
     },
@@ -69900,7 +69900,7 @@
       "kana": "もやします",
       "kind": "V1",
       "lesson": 4,
-      "meaning_vi": "Đốt; Quyết tâm",
+      "meaning_vi": "Đốt / Quyết tâm",
       "ruby": "{燃|も}やします",
       "vocab_id": "n3-177"
     },
@@ -70053,7 +70053,7 @@
       "kana": "わきます",
       "kind": "V1",
       "lesson": 4,
-      "meaning_vi": "Sôi; Sôi sục",
+      "meaning_vi": "Sôi / Sôi sục",
       "ruby": "{沸|わ}きます",
       "vocab_id": "n3-178"
     },
@@ -70206,7 +70206,7 @@
       "kana": "なります",
       "kind": "V1",
       "lesson": 4,
-      "meaning_vi": "(Sấm) Đánh; Kêu",
+      "meaning_vi": "(Sấm) Đánh / Kêu",
       "ruby": "{鳴|な}ります",
       "vocab_id": "n3-179"
     },
@@ -70303,7 +70303,7 @@
       "kana": "たのしみ",
       "kind": "An",
       "lesson": 4,
-      "meaning_vi": "Thưởng thức, hài lòng; Mong đợi",
+      "meaning_vi": "Thưởng thức, hài lòng / Mong đợi",
       "ruby": "{楽|たの}しみ",
       "vocab_id": "n3-191"
     },
@@ -70400,7 +70400,7 @@
       "kana": "とくい",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Giỏi; Tự hào",
+      "meaning_vi": "Giỏi / Tự hào",
       "ruby": "{得意|とくい}",
       "vocab_id": "n3-193"
     },
@@ -70497,7 +70497,7 @@
       "kana": "にがて",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Kém, sợ, dở; Không ưa không chịu được",
+      "meaning_vi": "Kém, sợ, dở / Không ưa không chịu được",
       "ruby": "{苦手|にがて}",
       "vocab_id": "n3-194"
     },
@@ -70691,7 +70691,7 @@
       "kana": "けんこう",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Khỏe mạnh; Lành mạnh",
+      "meaning_vi": "Khỏe mạnh / Lành mạnh",
       "ruby": "{健康|けんこう}",
       "vocab_id": "n3-197"
     },
@@ -70781,7 +70781,7 @@
       "kana": "くるしい",
       "kind": "Ai",
       "lesson": 5,
-      "meaning_vi": "Khó chịu; Khó khăn; Khó",
+      "meaning_vi": "Khó chịu / Khó khăn / Khó",
       "ruby": "{苦|くる}しい",
       "vocab_id": "n3-198"
     },
@@ -71238,7 +71238,7 @@
       "kana": "おとなしい",
       "kind": "Ai",
       "lesson": 5,
-      "meaning_vi": "Hiền lành trầm tính; Ngoan dễ bảo; Trầm nhã nhặn",
+      "meaning_vi": "Hiền lành trầm tính / Ngoan dễ bảo / Trầm nhã nhặn",
       "ruby": "おとなしい",
       "vocab_id": "n3-203"
     },
@@ -71335,7 +71335,7 @@
       "kana": "しょうじき",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Thật thà; Nói thật",
+      "meaning_vi": "Thật thà / Nói thật",
       "ruby": "{正直|しょうじき}",
       "vocab_id": "n3-204"
     },
@@ -72014,7 +72014,7 @@
       "kana": "ふちゅうい",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Bất cẩn, sơ ý; Vô ý",
+      "meaning_vi": "Bất cẩn, sơ ý / Vô ý",
       "ruby": "{不注意|ふちゅうい}",
       "vocab_id": "n3-212"
     },
@@ -72111,7 +72111,7 @@
       "kana": "めんどう",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Lằng nhằng rắc rối; Ngại, lười; Chăm sóc",
+      "meaning_vi": "Lằng nhằng rắc rối / Ngại, lười / Chăm sóc",
       "ruby": "{面倒|めんどう}",
       "vocab_id": "n3-214"
     },
@@ -72402,7 +72402,7 @@
       "kana": "いがい",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Không ngờ; Không tưởng",
+      "meaning_vi": "Không ngờ / Không tưởng",
       "ruby": "{意外|いがい}",
       "vocab_id": "n3-217"
     },
@@ -72499,7 +72499,7 @@
       "kana": "けっこう",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Được, tốt; Đủ rồi",
+      "meaning_vi": "Được, tốt / Đủ rồi",
       "ruby": "{結構|けっこう}",
       "vocab_id": "n3-218"
     },
@@ -72693,7 +72693,7 @@
       "kana": "じみ",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Đơn giản, giản dị; Xuềnh xoàng",
+      "meaning_vi": "Đơn giản, giản dị / Xuềnh xoàng",
       "ruby": "{地味|じみ}",
       "vocab_id": "n3-220"
     },
@@ -72790,7 +72790,7 @@
       "kana": "おしゃれ",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Diện, mốt; Thời thượng",
+      "meaning_vi": "Diện, mốt / Thời thượng",
       "ruby": "おしゃれ",
       "vocab_id": "n3-221"
     },
@@ -72887,7 +72887,7 @@
       "kana": "ふしぎ",
       "kind": "An",
       "lesson": 5,
-      "meaning_vi": "Kì quái; Lạ khác thường",
+      "meaning_vi": "Kì quái / Lạ khác thường",
       "ruby": "{不思議|ふしぎ}",
       "vocab_id": "n3-223"
     },
@@ -73275,7 +73275,7 @@
       "kana": "かんしん",
       "kind": "An",
       "lesson": 6,
-      "meaning_vi": "Khâm phục; Giỏi, ngoan",
+      "meaning_vi": "Khâm phục / Giỏi, ngoan",
       "ruby": "{感心|かんしん}",
       "vocab_id": "n3-272"
     },
@@ -73663,7 +73663,7 @@
       "kana": "しぜん",
       "kind": "An",
       "lesson": 7,
-      "meaning_vi": "Thiên nhiên; Tự nhiên",
+      "meaning_vi": "Thiên nhiên / Tự nhiên",
       "ruby": "{自然|しぜん}",
       "vocab_id": "n3-314"
     },
@@ -73816,7 +73816,7 @@
       "kana": "かきます",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "gãi; toát (mồ hôi); ngáy; xấu hổ (恥をかく)",
+      "meaning_vi": "gãi / toát (mồ hôi) / ngáy / xấu hổ (恥をかく)",
       "ruby": "かきます",
       "vocab_id": "n3-319"
     },
@@ -73969,7 +73969,7 @@
       "kana": "つかみます",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "Tóm; Nắm bắt",
+      "meaning_vi": "Tóm / Nắm bắt",
       "ruby": "つかみます",
       "vocab_id": "n3-320"
     },
@@ -74428,7 +74428,7 @@
       "kana": "ちかづきます",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "Đến gần Không gian; Đến gần Thời gian",
+      "meaning_vi": "Đến gần Không gian / Đến gần Thời gian",
       "ruby": "{近|ちか}づきます",
       "vocab_id": "n3-323"
     },
@@ -74734,7 +74734,7 @@
       "kana": "あわせます",
       "kind": "V2",
       "lesson": 7,
-      "meaning_vi": "Kết hợp (trộn); Chung sức, hợp tác; Chắp tay; (Làm/điều chỉnh cho) hợp",
+      "meaning_vi": "Kết hợp (trộn) / Chung sức, hợp tác / Chắp tay / (Làm/điều chỉnh cho) hợp",
       "ruby": "{合|あ}わせます",
       "vocab_id": "n3-325"
     },
@@ -74887,7 +74887,7 @@
       "kana": "あたります",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "Trúng; Chiếu; Chạm trán",
+      "meaning_vi": "Trúng / Chiếu / Chạm trán",
       "ruby": "{当|あ}たります",
       "vocab_id": "n3-326"
     },
@@ -75040,7 +75040,7 @@
       "kana": "あてます",
       "kind": "V2",
       "lesson": 7,
-      "meaning_vi": "Đặt; Trả lời đúng",
+      "meaning_vi": "Đặt / Trả lời đúng",
       "ruby": "{当|あ}てます",
       "vocab_id": "n3-327"
     },
@@ -75958,7 +75958,7 @@
       "kana": "かわります",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "Đổi / Trao đổi Cùng giá trị; Thay đổi Công việc vai trò; Thay thế Cũ => Mới",
+      "meaning_vi": "Đổi / Trao đổi Cùng giá trị / Thay đổi Công việc vai trò / Thay thế Cũ => Mới",
       "ruby": "かわります",
       "vocab_id": "n3-337"
     },
@@ -76264,7 +76264,7 @@
       "kana": "ゆずります",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "Nhường Lợi ích, quyền lợi; Nhượng Bán lại để lại",
+      "meaning_vi": "Nhường Lợi ích, quyền lợi / Nhượng Bán lại để lại",
       "ruby": "{譲|ゆず}ります",
       "vocab_id": "n3-341"
     },
@@ -76417,7 +76417,7 @@
       "kana": "たすかります",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "Được trợ giúp, được cứu; Hữu ích",
+      "meaning_vi": "Được trợ giúp, được cứu / Hữu ích",
       "ruby": "{助|たす}かります",
       "vocab_id": "n3-342"
     },
@@ -76570,7 +76570,7 @@
       "kana": "たすけます",
       "kind": "V2",
       "lesson": 7,
-      "meaning_vi": "Cứu; Giúp đỡ",
+      "meaning_vi": "Cứu / Giúp đỡ",
       "ruby": "{助|たす}けます",
       "vocab_id": "n3-343"
     },
@@ -77488,7 +77488,7 @@
       "kana": "うめます",
       "kind": "V2",
       "lesson": 7,
-      "meaning_vi": "Chôn, chôn lấp; Tô kín (Lấp chỗ trống)",
+      "meaning_vi": "Chôn, chôn lấp / Tô kín (Lấp chỗ trống)",
       "ruby": "{埋|う}めます",
       "vocab_id": "n3-349"
     },
@@ -77641,7 +77641,7 @@
       "kana": "かこみます",
       "kind": "V1",
       "lesson": 7,
-      "meaning_vi": "Vây quanh; Bao quanh",
+      "meaning_vi": "Vây quanh / Bao quanh",
       "ruby": "{囲|かこ}みます",
       "vocab_id": "n3-350"
     },
@@ -77794,7 +77794,7 @@
       "kana": "つまります",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "Đầy chặt, kín mít / Tắc; Rút ngắn khoảng cách",
+      "meaning_vi": "Đầy chặt, kín mít / Tắc / Rút ngắn khoảng cách",
       "ruby": "{詰|つ}まります",
       "vocab_id": "n3-351"
     },
@@ -77947,7 +77947,7 @@
       "kana": "つめます",
       "kind": "V2",
       "lesson": 8,
-      "meaning_vi": "Nhét / Nhồi / Lèn; Rút ngắn",
+      "meaning_vi": "Nhét / Nhồi / Lèn / Rút ngắn",
       "ruby": "つめます",
       "vocab_id": "n3-352"
     },
@@ -78100,7 +78100,7 @@
       "kana": "とじます",
       "kind": "V2",
       "lesson": 8,
-      "meaning_vi": "Đóng; Đóng cửa (ngừng kinh doanh)",
+      "meaning_vi": "Đóng / Đóng cửa (ngừng kinh doanh)",
       "ruby": "{閉|と}じます",
       "vocab_id": "n3-353"
     },
@@ -78253,7 +78253,7 @@
       "kana": "とびます",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "Bay; Bắn; Lao đến phi đến; Bay đến bay sang; Mất / Biến mất",
+      "meaning_vi": "Bay / Bắn / Lao đến phi đến / Bay đến bay sang / Mất / Biến mất",
       "ruby": "{飛|と}びます",
       "vocab_id": "n3-354"
     },
@@ -78406,7 +78406,7 @@
       "kana": "ふります",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "Vẫy, rung, lắc; Lắc; Rắc; Từ chối",
+      "meaning_vi": "Vẫy, rung, lắc / Lắc / Rắc / Từ chối",
       "ruby": "ふります",
       "vocab_id": "n3-355"
     },
@@ -78712,7 +78712,7 @@
       "kana": "みかけます",
       "kind": "V2",
       "lesson": 8,
-      "meaning_vi": "Tình cờ nhìn thấy; Nhìn thấy; Vẻ ngoài",
+      "meaning_vi": "Tình cờ nhìn thấy / Nhìn thấy / Vẻ ngoài",
       "ruby": "{見|み}かけます",
       "vocab_id": "n3-357"
     },
@@ -79630,7 +79630,7 @@
       "kana": "ゆるします",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "tha thứ; cho phép",
+      "meaning_vi": "tha thứ / cho phép",
       "ruby": "{許|ゆる}します",
       "vocab_id": "n3-365"
     },
@@ -79783,7 +79783,7 @@
       "kana": "たてます",
       "kind": "V2",
       "lesson": 8,
-      "meaning_vi": "Dựng; Dựng đứng",
+      "meaning_vi": "Dựng / Dựng đứng",
       "ruby": "{立|た}てます",
       "vocab_id": "n3-366"
     },
@@ -79936,7 +79936,7 @@
       "kana": "そだちます",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "Lớn, phát triển; Đào tạo, dạy dỗ",
+      "meaning_vi": "Lớn, phát triển / Đào tạo, dạy dỗ",
       "ruby": "{育|そだ}ちます",
       "vocab_id": "n3-367"
     },
@@ -80395,7 +80395,7 @@
       "kana": "わります",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "làm vỡ; chia, tách",
+      "meaning_vi": "làm vỡ / chia, tách",
       "ruby": "{割|わ}ります",
       "vocab_id": "n3-376"
     },
@@ -80548,7 +80548,7 @@
       "kana": "やぶります",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "Thất hứa không tuân thủ; Phá (kỷ lục)",
+      "meaning_vi": "Thất hứa không tuân thủ / Phá (kỷ lục)",
       "ruby": "{破|やぶ}ります",
       "vocab_id": "n3-380"
     },
@@ -80854,7 +80854,7 @@
       "kana": "ゆれます",
       "kind": "V2",
       "lesson": 8,
-      "meaning_vi": "Rung, lung lay; Dao động",
+      "meaning_vi": "Rung, lung lay / Dao động",
       "ruby": "{揺|ゆ}れます",
       "vocab_id": "n3-384"
     },
@@ -81007,7 +81007,7 @@
       "kana": "ながれます",
       "kind": "V2",
       "lesson": 8,
-      "meaning_vi": "chảy; trôi; (nhạc) được phát; lan truyền (tin đồn)",
+      "meaning_vi": "chảy / trôi / (nhạc) được phát / lan truyền (tin đồn)",
       "ruby": "{流|なが}れます",
       "vocab_id": "n3-385"
     },
@@ -81160,7 +81160,7 @@
       "kana": "ながします",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "cho chảy, xả (nước); thả trôi; bật (nhạc); lan truyền (tin)",
+      "meaning_vi": "cho chảy, xả (nước) / thả trôi / bật (nhạc) / lan truyền (tin)",
       "ruby": "{流|なが}します",
       "vocab_id": "n3-386"
     },
@@ -81619,7 +81619,7 @@
       "kana": "まよいます",
       "kind": "V1",
       "lesson": 8,
-      "meaning_vi": "Lạc, lạc đường; Phân vân, băn khoăn",
+      "meaning_vi": "Lạc, lạc đường / Phân vân, băn khoăn",
       "ruby": "{迷|まよ}います",
       "vocab_id": "n3-389"
     },
@@ -82933,7 +82933,7 @@
       "kana": "くさい",
       "kind": "Ai",
       "lesson": 9,
-      "meaning_vi": "Hôi, thối; Tanh",
+      "meaning_vi": "Hôi, thối / Tanh",
       "ruby": "{臭|くさ}い",
       "vocab_id": "n3-426"
     },
@@ -83113,7 +83113,7 @@
       "kana": "くわしい",
       "kind": "Ai",
       "lesson": 9,
-      "meaning_vi": "Chi tiết; Biết rõ, am hiểu về…",
+      "meaning_vi": "Chi tiết / Biết rõ, am hiểu về…",
       "ruby": "{詳|くわ}しい",
       "vocab_id": "n3-430"
     },
@@ -83203,7 +83203,7 @@
       "kana": "こまかい",
       "kind": "Ai",
       "lesson": 9,
-      "meaning_vi": "Nhỏ, vụn; Chi tiết",
+      "meaning_vi": "Nhỏ, vụn / Chi tiết",
       "ruby": "{細|こま}かい",
       "vocab_id": "n3-431"
     },
@@ -83293,7 +83293,7 @@
       "kana": "あさい",
       "kind": "Ai",
       "lesson": 9,
-      "meaning_vi": "Nông; Nông, cạn, ít, hời hợt; Nông, nhẹ",
+      "meaning_vi": "Nông / Nông, cạn, ít, hời hợt / Nông, nhẹ",
       "ruby": "{浅|あさ}い",
       "vocab_id": "n3-432"
     },
@@ -83383,7 +83383,7 @@
       "kana": "かたい",
       "kind": "Ai",
       "lesson": 9,
-      "meaning_vi": "Cứng; Chắc chắn, chặt; Nghiêm ngặt, nghiêm khắc",
+      "meaning_vi": "Cứng / Chắc chắn, chặt / Nghiêm ngặt, nghiêm khắc",
       "ruby": "{固|かた}い",
       "vocab_id": "n3-433"
     },
@@ -83563,7 +83563,7 @@
       "kana": "まぶしい",
       "kind": "Ai",
       "lesson": 9,
-      "meaning_vi": "Chói; Rạng ngời",
+      "meaning_vi": "Chói / Rạng ngời",
       "ruby": "まぶしい",
       "vocab_id": "n3-435"
     },
@@ -83757,7 +83757,7 @@
       "kana": "しんせん",
       "kind": "An",
       "lesson": 9,
-      "meaning_vi": "Tươi, sống (Đồ ăn); Tươi mới (không khí); Tươi mới (tâm trạng)",
+      "meaning_vi": "Tươi, sống (Đồ ăn) / Tươi mới (không khí) / Tươi mới (tâm trạng)",
       "ruby": "{新鮮|しんせん}",
       "vocab_id": "n3-437"
     },
@@ -83951,7 +83951,7 @@
       "kana": "りっぱ",
       "kind": "An",
       "lesson": 9,
-      "meaning_vi": "Tuyệt vời; Ra dáng, tuyệt vời",
+      "meaning_vi": "Tuyệt vời / Ra dáng, tuyệt vời",
       "ruby": "りっぱ",
       "vocab_id": "n3-439"
     },
@@ -84048,7 +84048,7 @@
       "kana": "せいかく",
       "kind": "An",
       "lesson": 9,
-      "meaning_vi": "Chính xác; Chính xác, chuẩn giờ",
+      "meaning_vi": "Chính xác / Chính xác, chuẩn giờ",
       "ruby": "{正確|せいかく}",
       "vocab_id": "n3-440"
     },
@@ -84145,7 +84145,7 @@
       "kana": "たしか",
       "kind": "An",
       "lesson": 9,
-      "meaning_vi": "Chính xác, chuẩn; Hình như là (không chắc chắn); Chắc chắn",
+      "meaning_vi": "Chính xác, chuẩn / Hình như là (không chắc chắn) / Chắc chắn",
       "ruby": "{確|たし}か",
       "vocab_id": "n3-441"
     },
@@ -84616,7 +84616,7 @@
       "kana": "きゅう",
       "kind": "An",
       "lesson": 9,
-      "meaning_vi": "Đột nhiên; Gấp, đột ngột; Xiết",
+      "meaning_vi": "Đột nhiên / Gấp, đột ngột / Xiết",
       "ruby": "{急|きゅう}",
       "vocab_id": "n3-449"
     },
@@ -84713,7 +84713,7 @@
       "kana": "てきとう",
       "kind": "An",
       "lesson": 9,
-      "meaning_vi": "Thích hợp, phù hợp; Thích hợp, vừa; Qua loa, cho xong; Vô trách nhiệm",
+      "meaning_vi": "Thích hợp, phù hợp / Thích hợp, vừa / Qua loa, cho xong / Vô trách nhiệm",
       "ruby": "{適当|てきとう}",
       "vocab_id": "n3-450"
     },
@@ -84810,7 +84810,7 @@
       "kana": "とくべつ",
       "kind": "An",
       "lesson": 10,
-      "meaning_vi": "Đặc biệt; Đặc biệt, rất",
+      "meaning_vi": "Đặc biệt / Đặc biệt, rất",
       "ruby": "{特別|とくべつ}",
       "vocab_id": "n3-451"
     },
@@ -84907,7 +84907,7 @@
       "kana": "かんぜん",
       "kind": "An",
       "lesson": 10,
-      "meaning_vi": "Nguyên vẹn; Chỉn chu, tươm tất; Hoàn toàn",
+      "meaning_vi": "Nguyên vẹn / Chỉn chu, tươm tất / Hoàn toàn",
       "ruby": "{完全|かんぜん}",
       "vocab_id": "n3-452"
     },
@@ -85004,7 +85004,7 @@
       "kana": "さかん",
       "kind": "An",
       "lesson": 10,
-      "meaning_vi": "Phát triển; Lớn, nồng nhiệt; Thịnh hành",
+      "meaning_vi": "Phát triển / Lớn, nồng nhiệt / Thịnh hành",
       "ruby": "{盛|さか}ん",
       "vocab_id": "n3-453"
     },
@@ -85198,7 +85198,7 @@
       "kana": "かのう",
       "kind": "An",
       "lesson": 10,
-      "meaning_vi": "Có khả năng; Tính khả thi",
+      "meaning_vi": "Có khả năng / Tính khả thi",
       "ruby": "{可能|かのう}",
       "vocab_id": "n3-455"
     },
@@ -85392,7 +85392,7 @@
       "kana": "ばらばら",
       "kind": "An",
       "lesson": 10,
-      "meaning_vi": "Rời rạc; Xa",
+      "meaning_vi": "Rời rạc / Xa",
       "ruby": "ばらばら",
       "vocab_id": "n3-457"
     },
@@ -85780,7 +85780,7 @@
       "kana": "たいてい",
       "kind": "An",
       "lesson": 10,
-      "meaning_vi": "Thường, hay; Hầu hết",
+      "meaning_vi": "Thường, hay / Hầu hết",
       "ruby": "たいてい",
       "vocab_id": "n3-471"
     },
@@ -86336,7 +86336,7 @@
       "kana": "のんびりします",
       "kind": "V3",
       "lesson": 10,
-      "meaning_vi": "Thư thả; Thong thả",
+      "meaning_vi": "Thư thả / Thong thả",
       "ruby": "のんびりします",
       "vocab_id": "n3-498"
     },
@@ -86489,7 +86489,7 @@
       "kana": "きんえんします",
       "kind": "V3",
       "lesson": 11,
-      "meaning_vi": "Cấm hút thuốc; Bỏ thuốc",
+      "meaning_vi": "Cấm hút thuốc / Bỏ thuốc",
       "ruby": "{禁煙|きんえん}します",
       "vocab_id": "n3-518"
     },
@@ -87101,7 +87101,7 @@
       "kana": "だいひょうします",
       "kind": "V3",
       "lesson": 11,
-      "meaning_vi": "Đại diện, thay mặt; Tiêu biểu",
+      "meaning_vi": "Đại diện, thay mặt / Tiêu biểu",
       "ruby": "{代表|だいひょう}します",
       "vocab_id": "n3-532"
     },
@@ -88478,7 +88478,7 @@
       "kana": "へんこうします",
       "kind": "V3",
       "lesson": 11,
-      "meaning_vi": "Thay đổi; Thay đổi Thời gian, lịch trình",
+      "meaning_vi": "Thay đổi / Thay đổi Thời gian, lịch trình",
       "ruby": "{変更|へんこう}します",
       "vocab_id": "n3-548"
     },
@@ -88631,7 +88631,7 @@
       "kana": "ほぞんします",
       "kind": "V3",
       "lesson": 11,
-      "meaning_vi": "Lưu, save file; Bảo quản",
+      "meaning_vi": "Lưu, save file / Bảo quản",
       "ruby": "{保存|ほぞん}します",
       "vocab_id": "n3-549"
     },
@@ -88784,7 +88784,7 @@
       "kana": "ほごします",
       "kind": "V3",
       "lesson": 11,
-      "meaning_vi": "Bảo vệ, bảo hộ; Phúc lợi xã hội",
+      "meaning_vi": "Bảo vệ, bảo hộ / Phúc lợi xã hội",
       "ruby": "{保護|ほご}します",
       "vocab_id": "n3-550"
     },
@@ -89646,7 +89646,7 @@
       "kana": "へいわ",
       "kind": "An",
       "lesson": 12,
-      "meaning_vi": "Hoà bình; Hoà hợp, hiền hoà",
+      "meaning_vi": "Hoà bình / Hoà hợp, hiền hoà",
       "ruby": "{平和|へいわ}",
       "vocab_id": "n3-567"
     },
@@ -90105,7 +90105,7 @@
       "kana": "うつします",
       "kind": "V1",
       "lesson": 12,
-      "meaning_vi": "chuyển, dời; làm lây (bệnh)",
+      "meaning_vi": "chuyển, dời / làm lây (bệnh)",
       "ruby": "{移|うつ}します",
       "vocab_id": "n3-571"
     },
@@ -90411,7 +90411,7 @@
       "kana": "よります",
       "kind": "V1",
       "lesson": 12,
-      "meaning_vi": "Tiến về phía ～; Lệch; Ghé vào",
+      "meaning_vi": "Tiến về phía ～ / Lệch / Ghé vào",
       "ruby": "{寄|よ}ります",
       "vocab_id": "n3-573"
     },
@@ -90717,7 +90717,7 @@
       "kana": "あたえます",
       "kind": "V2",
       "lesson": 12,
-      "meaning_vi": "Trao, cho; Đem lại, gây ra",
+      "meaning_vi": "Trao, cho / Đem lại, gây ra",
       "ruby": "{与|あた}えます",
       "vocab_id": "n3-575"
     },
@@ -91329,7 +91329,7 @@
       "kana": "あらそいます",
       "kind": "V1",
       "lesson": 12,
-      "meaning_vi": "Tranh cãi, tranh chấp, tranh giành; Cạnh tranh",
+      "meaning_vi": "Tranh cãi, tranh chấp, tranh giành / Cạnh tranh",
       "ruby": "{争|あらそ}います",
       "vocab_id": "n3-580"
     },
@@ -91635,7 +91635,7 @@
       "kana": "つうじます",
       "kind": "V2",
       "lesson": 12,
-      "meaning_vi": "Hiểu; Dẫn đến, xuyên qua; Kết nối (điện thoại)",
+      "meaning_vi": "Hiểu / Dẫn đến, xuyên qua / Kết nối (điện thoại)",
       "ruby": "{通|つう}じます",
       "vocab_id": "n3-583"
     },
@@ -92094,7 +92094,7 @@
       "kana": "ねっちゅうします",
       "kind": "V3",
       "lesson": 12,
-      "meaning_vi": "Mải mê, chăm chú; Say nắng, shock nhiệt",
+      "meaning_vi": "Mải mê, chăm chú / Say nắng, shock nhiệt",
       "ruby": "{熱中|ねっちゅう}します",
       "vocab_id": "n3-586"
     },
@@ -92553,7 +92553,7 @@
       "kana": "むすびます",
       "kind": "V1",
       "lesson": 12,
-      "meaning_vi": "Buộc, thắt; Nối (chuyến); Ký kết (hợp đồng)",
+      "meaning_vi": "Buộc, thắt / Nối (chuyến) / Ký kết (hợp đồng)",
       "ruby": "{結|むす}びます",
       "vocab_id": "n3-589"
     },
@@ -92859,7 +92859,7 @@
       "kana": "すませます",
       "kind": "V2",
       "lesson": 12,
-      "meaning_vi": "Hoàn tất; Không làm ～ cũng xong; Cũng xong cũng được; Cắt được, sắc",
+      "meaning_vi": "Hoàn tất / Không làm ～ cũng xong / Cũng xong cũng được / Cắt được, sắc",
       "ruby": "{済|す}ませます",
       "vocab_id": "n3-591"
     },
@@ -93012,7 +93012,7 @@
       "kana": "つたわります",
       "kind": "V1",
       "lesson": 12,
-      "meaning_vi": "Lưu truyền truyền đạt; Được truyền vào, du nhập; Truyền đạt, chuyển lời",
+      "meaning_vi": "Lưu truyền truyền đạt / Được truyền vào, du nhập / Truyền đạt, chuyển lời",
       "ruby": "{伝|つた}わります",
       "vocab_id": "n3-593"
     },
@@ -93165,7 +93165,7 @@
       "kana": "つながります",
       "kind": "V1",
       "lesson": 12,
-      "meaning_vi": "Nối, kết nối; Được kết nối, dẫn đến; (Kéo dài) liên tục; Kết nối (điện thoại, mạng)",
+      "meaning_vi": "Nối, kết nối / Được kết nối, dẫn đến / (Kéo dài) liên tục / Kết nối (điện thoại, mạng)",
       "ruby": "つながります",
       "vocab_id": "n3-597"
     },
@@ -93624,7 +93624,7 @@
       "kana": "のびます",
       "kind": "V2",
       "lesson": 12,
-      "meaning_vi": "Dài ra; Kéo dài kéo dãn; Tăng lên; Kéo dài, làm phẳng; Nở, trương; Giãn, gião",
+      "meaning_vi": "Dài ra / Kéo dài kéo dãn / Tăng lên / Kéo dài, làm phẳng / Nở, trương / Giãn, gião",
       "ruby": "{伸|の}びます",
       "vocab_id": "n3-600"
     },
@@ -93777,7 +93777,7 @@
       "kana": "のばします",
       "kind": "V1",
       "lesson": 12,
-      "meaning_vi": "Dài ra; Kéo dài kéo dãn; Tăng lên; Kéo dài, làm phẳng; Nở, trương; Giãn, gião",
+      "meaning_vi": "Dài ra / Kéo dài kéo dãn / Tăng lên / Kéo dài, làm phẳng / Nở, trương / Giãn, gião",
       "ruby": "{伸|の}ばします",
       "vocab_id": "n3-601"
     },
@@ -94236,7 +94236,7 @@
       "kana": "かさなります",
       "kind": "V1",
       "lesson": 13,
-      "meaning_vi": "Chồng lên; Trùng nhau; Nhiều (nhấn mạnh)",
+      "meaning_vi": "Chồng lên / Trùng nhau / Nhiều (nhấn mạnh)",
       "ruby": "{重|かさ}なります",
       "vocab_id": "n3-604"
     },
@@ -94389,7 +94389,7 @@
       "kana": "かさねます",
       "kind": "V2",
       "lesson": 13,
-      "meaning_vi": "Chồng lên; Trùng nhau; Nhiều (nhấn mạnh)",
+      "meaning_vi": "Chồng lên / Trùng nhau / Nhiều (nhấn mạnh)",
       "ruby": "{重|かさ}ねます",
       "vocab_id": "n3-605"
     },
@@ -94848,7 +94848,7 @@
       "kana": "そろえます",
       "kind": "V2",
       "lesson": 13,
-      "meaning_vi": "Sắp xếp, để ngay ngắn; Tập trung (sẵn sàng, đầy đủ)",
+      "meaning_vi": "Sắp xếp, để ngay ngắn / Tập trung (sẵn sàng, đầy đủ)",
       "ruby": "そろえます",
       "vocab_id": "n3-608"
     },
@@ -95460,7 +95460,7 @@
       "kana": "まざります",
       "kind": "V1",
       "lesson": 13,
-      "meaning_vi": "Trộn A, B với nhau; Được trộn lẫn",
+      "meaning_vi": "Trộn A, B với nhau / Được trộn lẫn",
       "ruby": "まざります",
       "vocab_id": "n3-613"
     },
@@ -95613,7 +95613,7 @@
       "kana": "まぜます",
       "kind": "V2",
       "lesson": 13,
-      "meaning_vi": "Trộn lẫn; Trộn, khuấy mạnh",
+      "meaning_vi": "Trộn lẫn / Trộn, khuấy mạnh",
       "ruby": "まぜます",
       "vocab_id": "n3-614"
     },
@@ -95766,7 +95766,7 @@
       "kana": "とけます",
       "kind": "V2",
       "lesson": 13,
-      "meaning_vi": "(Được) giải quyết, giải đáp; Tan ra; Được hoà tan",
+      "meaning_vi": "(Được) giải quyết, giải đáp / Tan ra / Được hoà tan",
       "ruby": "{解|と}けます",
       "vocab_id": "n3-615"
     },
@@ -95919,7 +95919,7 @@
       "kana": "とかします",
       "kind": "V1",
       "lesson": 13,
-      "meaning_vi": "Đánh tan, làm tan ra; Làm tan ra",
+      "meaning_vi": "Đánh tan, làm tan ra / Làm tan ra",
       "ruby": "{溶|と}かします",
       "vocab_id": "n3-616"
     },
@@ -96378,7 +96378,7 @@
       "kana": "あらわれます",
       "kind": "V2",
       "lesson": 13,
-      "meaning_vi": "Xuất hiện; Có (hiệu quả, tác dụng)",
+      "meaning_vi": "Xuất hiện / Có (hiệu quả, tác dụng)",
       "ruby": "{現|あらわ}れます",
       "vocab_id": "n3-619"
     },
@@ -96531,7 +96531,7 @@
       "kana": "あらわします",
       "kind": "V1",
       "lesson": 13,
-      "meaning_vi": "Thể hiện; Biểu thị",
+      "meaning_vi": "Thể hiện / Biểu thị",
       "ruby": "{表|あらわ}します",
       "vocab_id": "n3-620"
     },
@@ -96990,7 +96990,7 @@
       "kana": "あけます",
       "kind": "V2",
       "lesson": 13,
-      "meaning_vi": "hết, kết thúc (năm); rạng sáng (夜が明ける)",
+      "meaning_vi": "hết, kết thúc (năm) / rạng sáng (夜が明ける)",
       "ruby": "{明|あ}けます",
       "vocab_id": "n3-623"
     },

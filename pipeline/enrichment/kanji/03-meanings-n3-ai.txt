@@ -1,26 +1,26 @@
 # by: user
 # Nghĩa tiếng Việt cho Kanji mới từ N3 (sách Kanji N3 + từ vựng N3) — AI nháp dựa trên Hán-Việt + KANJIDIC2, chờ duyệt.
-件|việc, sự kiện; (đếm vụ việc)
+件|việc, sự kiện / (đếm vụ việc)
 任|nhiệm vụ, giao phó
 伸|duỗi, kéo dài, vươn
 位|vị trí, cấp bậc
 他|khác, người khác
 仲|quan hệ, trung gian
 供|cung cấp, dâng
-係|liên quan; người phụ trách
+係|liên quan / người phụ trách
 候|khí hậu, mùa
-得|được, đạt; giỏi
+得|được, đạt / giỏi
 般|loại, chung (一般)
 打|đánh, đập
 担|gánh vác, đảm nhận
 念|ý nghĩ, mong ước
 怒|giận
 恋|yêu, nhớ nhung
-性|tính chất; giới tính
+性|tính chất / giới tính
 悩|phiền não, lo lắng
 技|kỹ thuật, tay nghề
-精|tinh, tinh thần; tỉ mỉ
-流|chảy, dòng; lưu hành
+精|tinh, tinh thần / tỉ mỉ
+流|chảy, dòng / lưu hành
 液|chất lỏng, dịch
 深|sâu
 浅|nông, cạn
@@ -49,13 +49,13 @@
 逆|ngược
 進|tiến lên
 完|hoàn thành, trọn vẹn
-突|đột ngột; đâm, chọc
+突|đột ngột / đâm, chọc
 追|đuổi theo
 柱|cột
 老|già
-観|xem, quan sát; quan niệm
+観|xem, quan sát / quan niệm
 圧|áp, áp lực
-希|hy vọng; hiếm
+希|hy vọng / hiếm
 感|cảm giác, cảm nhận
 超|vượt quá, siêu
 固|cứng, chắc
@@ -65,11 +65,11 @@
 痛|đau
 血|máu
 刊|xuất bản, đăng
-干|khô, phơi; can thiệp
+干|khô, phơi / can thiệp
 汗|mồ hôi
 姿|dáng, hình dáng
-断|cắt đứt, từ chối; phán đoán
-欠|thiếu; vắng
+断|cắt đứt, từ chối / phán đoán
+欠|thiếu / vắng
 順|thứ tự, thuận
 願|cầu xin, mong
 似|giống
@@ -79,7 +79,7 @@
 苦|khổ, đắng
 解|giải, giải quyết
 像|tượng, hình ảnh
-兆|triệu; điềm báo
+兆|triệu / điềm báo
 婦|phụ nữ, vợ
 求|tìm kiếm, yêu cầu
 側|bên, phía
@@ -92,15 +92,15 @@
 福|phúc
 商|buôn bán, thương mại
 整|sắp xếp, chỉnh tề
-章|chương; huy hiệu
+章|chương / huy hiệu
 令|mệnh lệnh
-等|v.v.; bằng nhau; hạng
+等|v.v. / bằng nhau / hạng
 芸|nghệ thuật, kỹ năng
 共|cùng, chung
 岩|đá tảng
 期|kỳ, thời kỳ
 疑|nghi ngờ
-与|cho, ban; tham dự
+与|cho, ban / tham dự
 互|lẫn nhau
 偽|giả, giả mạo
 儀|nghi lễ
@@ -108,7 +108,7 @@
 免|miễn
 冗|thừa, dư (冗談 nói đùa)
 列|hàng, dãy
-判|phán xét; con dấu
+判|phán xét / con dấu
 剤|thuốc, chế phẩm
 努|cố gắng, nỗ lực
 句|câu, cụm từ
@@ -129,44 +129,44 @@
 害|hại, tổn hại
 専|chuyên
 尋|hỏi, tìm
-就|đảm nhận; về việc
+就|đảm nhận / về việc
 屈|khuất phục, cúi
-巻|cuộn; quyển
+巻|cuộn / quyển
 底|đáy
 延|kéo dài, hoãn
 影|bóng
-徴|dấu hiệu, trưng; thu (thuế)
+徴|dấu hiệu, trưng / thu (thuế)
 徹|triệt để, xuyên suốt
 応|ứng, đáp lại
 悔|hối hận
 惑|mê hoặc, bối rối
 態|thái độ, trạng thái
 慌|hoảng hốt, vội vàng
-慢|ngạo mạn; chậm (我慢 chịu đựng)
+慢|ngạo mạn / chậm (我慢 chịu đựng)
 慮|lo nghĩ, cân nhắc
 抱|ôm
 拍|vỗ (tay), nhịp
 挑|khiêu khích, thử thách
-挙|giơ lên; cử hành
+挙|giơ lên / cử hành
 捕|bắt
-提|đưa ra, đề xuất; xách
-揚|nâng lên; rán (揚げる)
+提|đưa ra, đề xuất / xách
+揚|nâng lên / rán (揚げる)
 握|nắm, cầm chặt
 援|giúp đỡ, viện trợ
 揺|rung, lắc
 普|phổ biến, thông thường
-暮|chiều tối; sinh sống (暮らす)
-更|thay đổi; hơn nữa
+暮|chiều tối / sinh sống (暮らす)
+更|thay đổi / hơn nữa
 条|điều, điều khoản
 査|điều tra, kiểm tra
 栄|vinh quang, thịnh vượng
 極|cực, tột cùng
-構|cấu trúc; quan tâm (構う)
+構|cấu trúc / quan tâm (構う)
 殴|đánh, đấm
 比|so sánh, tỉ lệ
 派|phái, phe
 清|trong sạch, thanh
-渋|chát; tắc nghẽn (渋滞)
+渋|chát / tắc nghẽn (渋滞)
 溜|đọng, tích lại
 溶|tan, hòa tan
 滞|đình trệ, ứ đọng
@@ -177,13 +177,13 @@
 犯|phạm (tội)
 環|vòng, môi trường (環境)
 略|lược bớt, tóm tắt
-畳|chiếu tatami; gấp
+畳|chiếu tatami / gấp
 症|chứng bệnh
 療|điều trị
 癖|thói quen, tật
 皮|da, vỏ
-盛|thịnh, đầy; đơm (盛る)
-省|tỉnh lược; bộ (chính phủ)
+盛|thịnh, đầy / đơm (盛る)
+省|tỉnh lược / bộ (chính phủ)
 種|loại, giống
 穴|lỗ, hố
 競|cạnh tranh, thi đua
@@ -191,7 +191,7 @@
 籍|hộ tịch, tịch
 粧|trang điểm
 緊|căng, khẩn
-繰|quấn, kéo sợi; lặp lại (繰り返す)
+繰|quấn, kéo sợi / lặp lại (繰り返す)
 職|nghề, chức vụ
 能|năng lực
 臭|mùi hôi
@@ -203,7 +203,7 @@
 認|công nhận, thừa nhận
 誤|sai, nhầm
 請|thỉnh cầu, yêu cầu
-謝|cảm tạ; xin lỗi
+謝|cảm tạ / xin lỗi
 識|biết, nhận thức
 譲|nhường
 責|trách nhiệm, trách móc

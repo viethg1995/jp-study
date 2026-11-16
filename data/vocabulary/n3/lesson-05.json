@@ -25,7 +25,7 @@
       ],
       "legacy_id": "n3cb-193",
       "lesson": 5,
-      "meaning_vi": "Giỏi; Tự hào",
+      "meaning_vi": "Giỏi / Tự hào",
       "particle": null,
       "pos": {
         "code": "An",
@@ -77,7 +77,7 @@
       ],
       "legacy_id": "n3cb-194",
       "lesson": 5,
-      "meaning_vi": "Kém, sợ, dở; Không ưa không chịu được",
+      "meaning_vi": "Kém, sợ, dở / Không ưa không chịu được",
       "particle": null,
       "pos": {
         "code": "An",
@@ -129,7 +129,7 @@
       ],
       "legacy_id": "n3cb-195",
       "lesson": 5,
-      "meaning_vi": "Nhiệt tình hăng hái; Tâm huyết với～",
+      "meaning_vi": "Nhiệt tình hăng hái / Tâm huyết với～",
       "particle": null,
       "pos": {
         "code": "An",
@@ -231,7 +231,7 @@
       ],
       "legacy_id": "n3cb-197",
       "lesson": 5,
-      "meaning_vi": "Khỏe mạnh; Lành mạnh",
+      "meaning_vi": "Khỏe mạnh / Lành mạnh",
       "particle": null,
       "pos": {
         "code": "An",
@@ -282,7 +282,7 @@
       ],
       "legacy_id": "n3cb-198",
       "lesson": 5,
-      "meaning_vi": "Khó chịu; Khó khăn; Khó",
+      "meaning_vi": "Khó chịu / Khó khăn / Khó",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -520,7 +520,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-203",
       "lesson": 5,
-      "meaning_vi": "Hiền lành trầm tính; Ngoan dễ bảo; Trầm nhã nhặn",
+      "meaning_vi": "Hiền lành trầm tính / Ngoan dễ bảo / Trầm nhã nhặn",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -576,7 +576,7 @@
       ],
       "legacy_id": "n3cb-204",
       "lesson": 5,
-      "meaning_vi": "Thật thà; Nói thật",
+      "meaning_vi": "Thật thà / Nói thật",
       "particle": null,
       "pos": {
         "code": "An",
@@ -919,7 +919,7 @@
       ],
       "legacy_id": "n3cb-211",
       "lesson": 5,
-      "meaning_vi": "Vất vả; Kinh khủng; Một ngày tồi tệ",
+      "meaning_vi": "Vất vả / Kinh khủng / Một ngày tồi tệ",
       "particle": null,
       "pos": {
         "code": "An",
@@ -978,7 +978,7 @@
       ],
       "legacy_id": "n3cb-212",
       "lesson": 5,
-      "meaning_vi": "Bất cẩn, sơ ý; Vô ý",
+      "meaning_vi": "Bất cẩn, sơ ý / Vô ý",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1029,7 +1029,7 @@
       ],
       "legacy_id": "n3cb-213",
       "lesson": 5,
-      "meaning_vi": "Thoải mái; Nhàn sướng; Dễ",
+      "meaning_vi": "Thoải mái / Nhàn sướng / Dễ",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1085,7 +1085,7 @@
       ],
       "legacy_id": "n3cb-214",
       "lesson": 5,
-      "meaning_vi": "Lằng nhằng rắc rối; Ngại, lười; Chăm sóc",
+      "meaning_vi": "Lằng nhằng rắc rối / Ngại, lười / Chăm sóc",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1239,7 +1239,7 @@
       ],
       "legacy_id": "n3cb-217",
       "lesson": 5,
-      "meaning_vi": "Không ngờ; Không tưởng",
+      "meaning_vi": "Không ngờ / Không tưởng",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1291,7 +1291,7 @@
       ],
       "legacy_id": "n3cb-218",
       "lesson": 5,
-      "meaning_vi": "Được, tốt; Đủ rồi",
+      "meaning_vi": "Được, tốt / Đủ rồi",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1394,7 +1394,7 @@
       ],
       "legacy_id": "n3cb-220",
       "lesson": 5,
-      "meaning_vi": "Đơn giản, giản dị; Xuềnh xoàng",
+      "meaning_vi": "Đơn giản, giản dị / Xuềnh xoàng",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1445,7 +1445,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-221",
       "lesson": 5,
-      "meaning_vi": "Diện, mốt; Thời thượng",
+      "meaning_vi": "Diện, mốt / Thời thượng",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1545,7 +1545,7 @@
       ],
       "legacy_id": "n3cb-223",
       "lesson": 5,
-      "meaning_vi": "Kì quái; Lạ khác thường",
+      "meaning_vi": "Kì quái / Lạ khác thường",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1594,7 +1594,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-224",
       "lesson": 5,
-      "meaning_vi": "Vô ích; Lãng phí",
+      "meaning_vi": "Vô ích / Lãng phí",
       "particle": null,
       "pos": {
         "code": "An",
@@ -1699,7 +1699,7 @@
       ],
       "legacy_id": "n3cb-226",
       "lesson": 5,
-      "meaning_vi": "chăm sóc; giúp đỡ",
+      "meaning_vi": "chăm sóc / giúp đỡ",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1753,7 +1753,7 @@
       ],
       "legacy_id": "n3cb-227",
       "lesson": 5,
-      "meaning_vi": "Gia đình; Gia đình (Tính từ)",
+      "meaning_vi": "Gia đình / Gia đình (Tính từ)",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1807,7 +1807,7 @@
       ],
       "legacy_id": "n3cb-228",
       "lesson": 5,
-      "meaning_vi": "Chung sức. Hợp tác; Mong muốn hợp tác",
+      "meaning_vi": "Chung sức. Hợp tác / Mong muốn hợp tác",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2202,7 +2202,7 @@
       ],
       "legacy_id": "n3cb-236",
       "lesson": 5,
-      "meaning_vi": "Tiết kiệm; Lãng phí",
+      "meaning_vi": "Tiết kiệm / Lãng phí",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2500,7 +2500,7 @@
       ],
       "legacy_id": "n3cb-242",
       "lesson": 5,
-      "meaning_vi": "Trưởng thành; Phát triển; (Quy mô) Lớn, mạnh",
+      "meaning_vi": "Trưởng thành / Phát triển / (Quy mô) Lớn, mạnh",
       "particle": null,
       "pos": {
         "code": "N",

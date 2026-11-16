@@ -19,6 +19,7 @@ from pydantic import BaseModel
 
 from jp_pipeline.dictionaries import JmEntry, KanjiInfo
 from jp_pipeline.schemas import KanjiEntry, KanjiExample, ReadingType, VocabEntry
+from jp_pipeline.transform.vocab_text import join_senses
 
 MIN_EXAMPLES = 5
 MAX_WORD_LEN = 4  # từ JMdict bổ sung: tối đa 4 ký tự
@@ -217,7 +218,7 @@ def build_examples(
             untranslated += vi is None
             added += 1
             exs.append(KanjiExample(word=w, kana=kana, reading_type=t, reading=r,
-                                    meaning_vi=vi[0] if vi else None,
+                                    meaning_vi=join_senses(vi[0]) if vi else None,
                                     meaning_vi_source=vi[1] if vi else None,  # type: ignore[arg-type]
                                     meaning_en="; ".join(e.gloss[:3]), vocab_id=None, source="jmdict"))
 

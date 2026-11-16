@@ -108,13 +108,13 @@ function cleanKanjiMeaning(m: string): string {
       if (!JA.test(inner)) return all;
       const rest = inner.replace(/[぀-ヿ㐀-鿿豈-﫿々～]+/gu, " ").replace(/\s+/g, " ").trim();
       if (!rest) return "";
-      // ngoặc đứng đầu một ý ("(挨拶 chào hỏi)", "…; (風呂 bồn tắm)") → bỏ ngoặc; giữa ý → giữ ngoặc
-      const startsItem = /(^|[;,])\s*$/.test(whole.slice(0, offset));
+      // ngoặc đứng đầu một ý ("(挨拶 chào hỏi)", "… / (風呂 bồn tắm)") → bỏ ngoặc; giữa ý → giữ ngoặc
+      const startsItem = /(^|[;,/])\s*$/.test(whole.slice(0, offset));
       return startsItem ? ` ${rest}` : ` (${rest})`;
     })
     .replace(/\s+/g, " ")
     .replace(/\s+([;,)])/g, "$1")
-    .replace(/[;,]\s*$/, "")
+    .replace(/[;,/]\s*$/, "")
     .trim();
 }
 

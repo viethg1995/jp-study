@@ -69,7 +69,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-152",
       "lesson": 4,
-      "meaning_vi": "Đổ; Chảy ra",
+      "meaning_vi": "Đổ / Chảy ra",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -215,7 +215,7 @@
       ],
       "legacy_id": "n3cb-155",
       "lesson": 4,
-      "meaning_vi": "Dọn dẹp; Giải quyết",
+      "meaning_vi": "Dọn dẹp / Giải quyết",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -269,7 +269,7 @@
       ],
       "legacy_id": "n3cb-156",
       "lesson": 4,
-      "meaning_vi": "Dọn dẹp, sắp xếp; Giải quyết",
+      "meaning_vi": "Dọn dẹp, sắp xếp / Giải quyết",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -510,7 +510,7 @@
       ],
       "legacy_id": "n3cb-161",
       "lesson": 4,
-      "meaning_vi": "Để thừa lại; Còn lại",
+      "meaning_vi": "Để thừa lại / Còn lại",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -702,7 +702,7 @@
       ],
       "legacy_id": "n3cb-165",
       "lesson": 4,
-      "meaning_vi": "Trơn trượt nhỡ; Lướt trượt",
+      "meaning_vi": "Trơn trượt nhỡ / Lướt trượt",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -805,7 +805,7 @@
       ],
       "legacy_id": "n3cb-167",
       "lesson": 4,
-      "meaning_vi": "Chất đống Xếp chồng; Chất lên; Tích lũy; Rèn luyện",
+      "meaning_vi": "Chất đống Xếp chồng / Chất lên / Tích lũy / Rèn luyện",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -867,7 +867,7 @@
       ],
       "legacy_id": "n3cb-168",
       "lesson": 4,
-      "meaning_vi": "Thủng; Trống; Rảnh trống lịch",
+      "meaning_vi": "Thủng / Trống / Rảnh trống lịch",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -924,7 +924,7 @@
       ],
       "legacy_id": "n3cb-169",
       "lesson": 4,
-      "meaning_vi": "Đâm thủng; Để trống (không gian); Để trống (thời gian)",
+      "meaning_vi": "Đâm thủng / Để trống (không gian) / Để trống (thời gian)",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -979,7 +979,7 @@
       ],
       "legacy_id": "n3cb-170",
       "lesson": 4,
-      "meaning_vi": "Giảm; Lùi",
+      "meaning_vi": "Giảm / Lùi",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -1128,7 +1128,7 @@
       ],
       "legacy_id": "n3cb-173",
       "lesson": 4,
-      "meaning_vi": "làm lạnh, để lạnh; làm bình tĩnh lại",
+      "meaning_vi": "làm lạnh, để lạnh / làm bình tĩnh lại",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1181,7 +1181,7 @@
       ],
       "legacy_id": "n3cb-174",
       "lesson": 4,
-      "meaning_vi": "Nguội; Nguôi đi nguội lạnh",
+      "meaning_vi": "Nguội / Nguôi đi nguội lạnh",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -1281,7 +1281,7 @@
       ],
       "legacy_id": "n3cb-176",
       "lesson": 4,
-      "meaning_vi": "Cháy; Nung nấu",
+      "meaning_vi": "Cháy / Nung nấu",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -1332,7 +1332,7 @@
       ],
       "legacy_id": "n3cb-177",
       "lesson": 4,
-      "meaning_vi": "Đốt; Quyết tâm",
+      "meaning_vi": "Đốt / Quyết tâm",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1383,7 +1383,7 @@
       ],
       "legacy_id": "n3cb-178",
       "lesson": 4,
-      "meaning_vi": "Sôi; Sôi sục",
+      "meaning_vi": "Sôi / Sôi sục",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -1436,7 +1436,7 @@
       ],
       "legacy_id": "n3cb-179",
       "lesson": 4,
-      "meaning_vi": "(Sấm) Đánh; Kêu",
+      "meaning_vi": "(Sấm) Đánh / Kêu",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -1637,7 +1637,7 @@
       ],
       "legacy_id": "n3cb-183",
       "lesson": 4,
-      "meaning_vi": "Chức năng; Hành động",
+      "meaning_vi": "Chức năng / Hành động",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1937,7 +1937,7 @@
       ],
       "legacy_id": "n3cb-189",
       "lesson": 4,
-      "meaning_vi": "Muộn; Lỗi thời",
+      "meaning_vi": "Muộn / Lỗi thời",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2039,7 +2039,7 @@
       ],
       "legacy_id": "n3cb-191",
       "lesson": 4,
-      "meaning_vi": "Thưởng thức, hài lòng; Mong đợi",
+      "meaning_vi": "Thưởng thức, hài lòng / Mong đợi",
       "particle": null,
       "pos": {
         "code": "An",

@@ -26,6 +26,15 @@ sources/ ──▶ pipeline/ (Python) ──▶ data/ ──▶ web/ (Astro) ─
 
 Môi trường: Windows 11, Python 3.12 (venv `pipeline/.venv`, Pydantic v2, PyMuPDF), Node 22.
 
+## ⛔ Sửa file phải được user duyệt (BẮT BUỘC)
+
+- **Chỉ sửa file khi tin nhắn gần nhất của user có `APPLY` (viết hoa) hoặc `đồng ý`.** "không/chưa đồng ý" không tính.
+- Mọi trường hợp khác: **không sửa**. Trình bày thay đổi dự định (file nào, sửa gì, vì sao) rồi hỏi xác nhận, ưu tiên `AskUserQuestion` có lựa chọn `APPLY`.
+- "Sửa file" gồm: Edit/Write/NotebookEdit và lệnh shell ghi/xóa file (redirect `>`, `sed -i`, `rm`/`mv`/`cp`, `Set-Content`/`Out-File`, `git add/commit/checkout/reset…`, `npm install`, `jp_pipeline build`/`apply-*`/`extract-*`…). Đọc, tìm kiếm, chạy test/`npm run build`, `jp_pipeline status/show/check*` không cần duyệt.
+- Duyệt chỉ có hiệu lực **trong lượt đó**; tin nhắn kế tiếp không có từ khóa → hết hiệu lực, phải hỏi lại.
+- Hook `approval-gate.mjs` chặn cứng (exit 2) mọi lần tự ý sửa. Bị chặn → dừng và hỏi user, **không tìm cách lách**.
+- Ngoài phạm vi: file ngoài thư mục dự án (scratchpad tạm, memory của Claude).
+
 ## ⛔ Truy cập `sources/` (BẮT BUỘC)
 
 `sources/` chứa ~1.500 trang PDF + ~280MB audio. **Mọi truy cập phải đi qua pipeline.** Nghiêm cấm:
@@ -66,6 +75,7 @@ Các file dưới tự nạp khi đụng file khớp `paths:`. Nếu task chạm
 | Gate | Chặn gì | Chạy |
 |---|---|---|
 | Hook `guard-sources.mjs` + `deny` trong `.claude/settings.json` | Đọc trực tiếp `sources/` trái luật | tự động; kiểm thử: `node .claude/hooks/test-guard.mjs` |
+| Hook `approval-gate.mjs` (UserPromptSubmit + PreToolUse + PostToolUse AskUserQuestion) | Sửa file khi user chưa chat `APPLY` / `đồng ý` | tự động; kiểm thử: `node .claude/hooks/test-approval-gate.mjs` |
 | Validate Pydantic trong `build` | Dữ liệu sai schema → không ghi `data/`, exit 1 | `python -m jp_pipeline build` |
 | `check-examples` | Lỗi **E** câu ví dụ (phải về 0) | `python -m jp_pipeline check-examples --lesson N` |
 | `pytest` | Hồi quy pipeline | `cd pipeline && pytest` |

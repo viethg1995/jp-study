@@ -46,6 +46,15 @@ def _split_top(s: str, sep: str = ";") -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
+SENSE_SEP = " / "
+
+
+def join_senses(meaning: str) -> str:
+    """Nghĩa khác hẳn nhau hiển thị cách bằng ' / ' (nguồn/lớp sửa viết ';'): 'Quan tâm; Hứng thú' → 'Quan tâm / Hứng thú'.
+    ';' trong () hoặc [] giữ nguyên. Từ sát nghĩa vẫn cách bằng ','."""
+    return SENSE_SEP.join(_split_top(meaning))
+
+
 def split_senses(meaning: str) -> list[Sense]:
     out: list[Sense] = []
     for part in _split_top(meaning):

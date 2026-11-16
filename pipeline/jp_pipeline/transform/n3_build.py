@@ -16,7 +16,7 @@ from jp_pipeline.dictionaries import JmEntry
 from jp_pipeline.schemas import PartOfSpeech, VocabEntry, VocabExample, VocabProvenance
 from jp_pipeline.transform.n3_vocab import KANJI, N3VocabRaw, _core, _hira
 from jp_pipeline.transform.vocab_auto import cjk_chars, normalize_han_viet
-from jp_pipeline.transform.vocab_text import normalize_slots, split_senses
+from jp_pipeline.transform.vocab_text import join_senses, normalize_slots, split_senses
 
 
 def parse_examples(files: list[tuple[str, str]]) -> dict[int, list[tuple[str, str, str]]]:
@@ -208,7 +208,7 @@ def build_n3_vocab(
                 kanji=kanji,
                 display="kanji" if kanji else "kana",
                 han_viet=han_viet,
-                meaning_vi=meaning,
+                meaning_vi=join_senses(meaning),
                 senses=split_senses(meaning),
                 pos=PartOfSpeech.of(pos_code),
                 kanji_refs=[f"k-{c}" for c in dict.fromkeys(cjk_chars(kanji or ""))],

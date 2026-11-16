@@ -22,7 +22,7 @@ from jp_pipeline.transform.vocab_auto import (
     normalize_han_viet,
     source_han_viet_valid,
 )
-from jp_pipeline.transform.vocab_text import normalize_slots, split_senses
+from jp_pipeline.transform.vocab_text import join_senses, normalize_slots, split_senses
 
 
 class BuildReport(BaseModel):
@@ -53,7 +53,7 @@ def merge_entry(row: SourceVocab, auto: AutoVocab, reviewed: dict[str, object] |
         kanji=kanji,  # type: ignore[arg-type]
         display="kanji" if row.kanji and cjk_chars(row.kanji) else "kana",
         han_viet=han_viet,  # type: ignore[arg-type]
-        meaning_vi=meaning,
+        meaning_vi=join_senses(meaning),
         senses=split_senses(meaning),
         # Từ loại: mã đã duyệt (nếu có) hoặc mã gốc; nhãn LUÔN sinh từ mã chuẩn (bỏ nhãn gốc)
         pos=PartOfSpeech.of(str(rv.get("pos_code", row.type_code))),

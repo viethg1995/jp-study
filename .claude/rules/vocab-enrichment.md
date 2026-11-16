@@ -50,7 +50,8 @@ python -m jp_pipeline check-meanings                  # lọc nghĩa/kanji nghi 
 - Nguồn `user` (provenance kanji / han_viet / pos / meaning): giá trị **khác gốc** do người duyệt; `ai-draft` = AI đổi, chờ duyệt. AI áp file sau **không hạ cấp** `review.by = user`.
 - Sửa nghĩa: file `_decisions/NN-…-meaning….txt` (`LL-NNN|nghĩa mới|ghi chú`) → `meaning_vi` + `provenance.meaning`. Dispatch theo tên: `-pos` → từ loại, `-meaning` → nghĩa, `-kana` → sửa kana gõ sai (`LL-NNN|kana mới|ghi chú`, vd ヨロッパ → ヨーロッパ), còn lại → kanji/Hán-Việt.
 - Build tự chuẩn hóa: ký hiệu chỗ trống `~ ― － -` và `ー` ở đầu kana/kanji (`ーねん`) → `～` (kana, kanji, nghĩa; `-` đứng một mình cuối cụm như `năm -` cũng đổi); cột kanji không chứa chữ Hán (かけます, １つ) → `null` (schema cũng chặn).
-- `senses[]` = `meaning_vi` tách theo `;`, mỗi nghĩa tách `[ngữ cảnh]` **ở cuối** thành `context`; ngoặc giữa câu (`món [cơm] ca-ri`) giữ trong `text`. Quiz/tìm kiếm dùng `senses[].text`.
+- Dấu nghĩa: nguồn và file `-meaning` viết `;` giữa các nghĩa khác hẳn nhau; build (`join_senses`) ghi `meaning_vi` với ` / ` (`;` trong ngoặc giữ nguyên), từ sát nghĩa giữ `,`. Áp cả nghĩa VI của từ JMdict ở `kanji/examples/`.
+- `senses[]` = nghĩa gốc tách theo `;`, mỗi nghĩa tách `[ngữ cảnh]` **ở cuối** thành `context`; ngoặc giữa câu (`món [cơm] ca-ri`) giữ trong `text`. Quiz/tìm kiếm dùng `senses[].text`.
 - `same_word[]` = liên kết 2 chiều các mục cùng kana + kanji ở bài khác (thường là nghĩa mới: かけます đeo/treo/khóa/ngồi) — mỗi mục vẫn là thẻ học riêng.
 - `check-meanings`: lọc nghi sai nghĩa/kanji bằng JMdict (đồng âm thông dụng, kanji không khớp cách đọc) → `_auto/meaning-check.json`. Mục đã soát ghi vào `enrichment/vocabulary/meaning-check-ok.txt` để không hiện lại; chỉ đọc mục mới.
 - Câu ví dụ: dòng `# by: user` đầu file `_examples/lesson-XX.txt` = bài đã duyệt; `apply-all-examples` áp lại mọi file theo header (trước đây trạng thái duyệt bài 1 bị mất khi áp lại không kèm `--by user`).

@@ -504,7 +504,7 @@ def _build_strokes(kanji: list, radicals: list, svgs: dict[str, str], version: s
         if not m:
             return None
         bare = re.sub(r"\s*[(（][^)）]*[)）]?", "", m).strip() or m.strip("()（） ")
-        return bare.replace(";", ",").split(",")[0].strip() or None
+        return re.split(r"[,;/]", bare)[0].strip() or None
 
     names: dict[str, tuple[str | None, str | None]] = {}
     rad_name = {r.number: (r.name_vi.upper(), short(r.meaning_vi.lower() if r.meaning_vi else None)) for r in radicals}

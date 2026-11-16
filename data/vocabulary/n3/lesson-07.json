@@ -24,7 +24,7 @@
       ],
       "legacy_id": "n3cb-301",
       "lesson": 7,
-      "meaning_vi": "Vùng Không gian; Khoảng, tầm khoảng Thời gian",
+      "meaning_vi": "Vùng Không gian / Khoảng, tầm khoảng Thời gian",
       "particle": null,
       "pos": {
         "code": "N",
@@ -77,7 +77,7 @@
       ],
       "legacy_id": "n3cb-302",
       "lesson": 7,
-      "meaning_vi": "Xung quanh; Quanh",
+      "meaning_vi": "Xung quanh / Quanh",
       "particle": null,
       "pos": {
         "code": "N",
@@ -332,7 +332,7 @@
       ],
       "legacy_id": "n3cb-307",
       "lesson": 7,
-      "meaning_vi": "Nội dung; Bên trong",
+      "meaning_vi": "Nội dung / Bên trong",
       "particle": null,
       "pos": {
         "code": "N",
@@ -675,7 +675,7 @@
       ],
       "legacy_id": "n3cb-314",
       "lesson": 7,
-      "meaning_vi": "Thiên nhiên; Tự nhiên",
+      "meaning_vi": "Thiên nhiên / Tự nhiên",
       "particle": null,
       "pos": {
         "code": "An",
@@ -829,7 +829,7 @@
       ],
       "legacy_id": "n3cb-317",
       "lesson": 7,
-      "meaning_vi": "Đến, gửi đến; Chạm đến",
+      "meaning_vi": "Đến, gửi đến / Chạm đến",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -882,7 +882,7 @@
       ],
       "legacy_id": "n3cb-318",
       "lesson": 7,
-      "meaning_vi": "Gửi đến, mang đến; Gửi đơn",
+      "meaning_vi": "Gửi đến, mang đến / Gửi đơn",
       "particle": "に",
       "pos": {
         "code": "V2",
@@ -931,7 +931,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-319",
       "lesson": 7,
-      "meaning_vi": "gãi; toát (mồ hôi); ngáy; xấu hổ (恥をかく)",
+      "meaning_vi": "gãi / toát (mồ hôi) / ngáy / xấu hổ (恥をかく)",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -988,7 +988,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-320",
       "lesson": 7,
-      "meaning_vi": "Tóm; Nắm bắt",
+      "meaning_vi": "Tóm / Nắm bắt",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1135,7 +1135,7 @@
       ],
       "legacy_id": "n3cb-323",
       "lesson": 7,
-      "meaning_vi": "Đến gần Không gian; Đến gần Thời gian",
+      "meaning_vi": "Đến gần Không gian / Đến gần Thời gian",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -1235,7 +1235,7 @@
       ],
       "legacy_id": "n3cb-325",
       "lesson": 7,
-      "meaning_vi": "Kết hợp (trộn); Chung sức, hợp tác; Chắp tay; (Làm/điều chỉnh cho) hợp",
+      "meaning_vi": "Kết hợp (trộn) / Chung sức, hợp tác / Chắp tay / (Làm/điều chỉnh cho) hợp",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -1296,7 +1296,7 @@
       ],
       "legacy_id": "n3cb-326",
       "lesson": 7,
-      "meaning_vi": "Trúng; Chiếu; Chạm trán",
+      "meaning_vi": "Trúng / Chiếu / Chạm trán",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -1351,7 +1351,7 @@
       ],
       "legacy_id": "n3cb-327",
       "lesson": 7,
-      "meaning_vi": "Đặt; Trả lời đúng",
+      "meaning_vi": "Đặt / Trả lời đúng",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -1734,7 +1734,7 @@
       ],
       "legacy_id": "n3cb-335",
       "lesson": 7,
-      "meaning_vi": "Thay đổi Thời gian, vị trí, kích thước; Thay đổi Khác trước; Thay đổi",
+      "meaning_vi": "Thay đổi Thời gian, vị trí, kích thước / Thay đổi Khác trước / Thay đổi",
       "particle": "が/を",
       "pos": {
         "code": "V1",
@@ -1791,7 +1791,7 @@
       ],
       "legacy_id": "n3cb-336",
       "lesson": 7,
-      "meaning_vi": "Thay đổi Thời gian, vị trí, kích thước; Thay đổi Khác trước; Thay đổi",
+      "meaning_vi": "Thay đổi Thời gian, vị trí, kích thước / Thay đổi Khác trước / Thay đổi",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -1846,7 +1846,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-337",
       "lesson": 7,
-      "meaning_vi": "Đổi / Trao đổi Cùng giá trị; Thay đổi Công việc vai trò; Thay thế Cũ => Mới",
+      "meaning_vi": "Đổi / Trao đổi Cùng giá trị / Thay đổi Công việc vai trò / Thay thế Cũ => Mới",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -1997,7 +1997,7 @@
       ],
       "legacy_id": "n3cb-341",
       "lesson": 7,
-      "meaning_vi": "Nhường Lợi ích, quyền lợi; Nhượng Bán lại để lại",
+      "meaning_vi": "Nhường Lợi ích, quyền lợi / Nhượng Bán lại để lại",
       "particle": "に/を",
       "pos": {
         "code": "V1",
@@ -2050,7 +2050,7 @@
       ],
       "legacy_id": "n3cb-342",
       "lesson": 7,
-      "meaning_vi": "Được trợ giúp, được cứu; Hữu ích",
+      "meaning_vi": "Được trợ giúp, được cứu / Hữu ích",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2101,7 +2101,7 @@
       ],
       "legacy_id": "n3cb-343",
       "lesson": 7,
-      "meaning_vi": "Cứu; Giúp đỡ",
+      "meaning_vi": "Cứu / Giúp đỡ",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -2390,7 +2390,7 @@
       ],
       "legacy_id": "n3cb-349",
       "lesson": 7,
-      "meaning_vi": "Chôn, chôn lấp; Tô kín (Lấp chỗ trống)",
+      "meaning_vi": "Chôn, chôn lấp / Tô kín (Lấp chỗ trống)",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -2443,7 +2443,7 @@
       ],
       "legacy_id": "n3cb-350",
       "lesson": 7,
-      "meaning_vi": "Vây quanh; Bao quanh",
+      "meaning_vi": "Vây quanh / Bao quanh",
       "particle": "を",
       "pos": {
         "code": "V1",
