@@ -133,6 +133,22 @@ test("localStorage bị chặn → dòng 'Câu hỏi' ẩn, quiz vẫn chạy, k
   await expect(page.locator('[data-q="locked-summary"]')).not.toContainText("Câu hỏi");
 });
 
+test("trang chủ: chưa có câu sai → ẩn mục 'Ôn câu hay sai'; có → nút theo trang, mở trang quiz ở chế độ ôn", async ({ page }) => {
+  const it = await firstMeanItem(page);
+  await page.goto("./");
+  const section = page.locator("[data-wrong]");
+  await expect(section).toBeHidden();
+  await seed(page, { [it.id]: { w: 1, s: 0, t: 1 }, "v-read:mn-30-001": { w: 1, s: 0, t: 1 }, "k-hv:k-日": { w: 1, s: 0, t: 1 } });
+  await expect(section).toBeVisible();
+  await expect(section.locator("li")).toHaveText(["Từ vựng N51", "Từ vựng N41", "Kanji1"]);
+  await section.getByRole("link", { name: /Từ vựng N5/ }).click();
+  await expect(page).toHaveURL(/vocabulary\/quiz\/\?cap=n5&loai=nghia&on=sai$/);
+  await expect(page.locator("#q-review-wrong")).toBeChecked();
+  await expect(reviewLabel(page)).toHaveText("Câu hay sai (2)"); // đếm theo loại câu của trang (mọi cấp)
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 1"); // lượt chỉ có câu sai của cấp N5, loại Nghĩa
+});
+
 test("mọi trang quiz có dòng 'Câu hỏi'", async ({ page }) => {
   for (const url of ["vocabulary/quiz/", "kanji/quiz/", "kanji/bo-thu/quiz/", "chia-the/quiz/", "dem-so/quiz/", "luyen-tap/"]) {
     await page.goto(url);

@@ -18,7 +18,7 @@ Quy trình mỗi task: viết spec vào file task → **user duyệt** → làm 
 | [Q6](q06-conjugation.md) | Quiz chia thể | ✅ |
 | [Q7](q07-numbers.md) | Quiz số đếm `n-num` | ✅ |
 | [Q8](q08-luyen-tap.md) | Trang tổng `/luyen-tap/` | ✅ |
-| [Q9](q09-kana-input.md) | Gõ kana | ✅ |
+| [Q9](q09-kana-input.md) | Gõ kana | ✅ — ⏸ tạm ẩn 2026-11-16 (`TYPING_ENABLED = false`) |
 | [Q10](q10-wrong-answers.md) | Lưu câu sai | ✅ |
 | [Q11](q11-conjunctions.md) | Quiz từ nối | ⬜ chờ dữ liệu |
 | [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ⬜ theo dõi — lập kế hoạch sau khi xong mọi chức năng |
@@ -151,7 +151,7 @@ Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [
 
 ## Lỗi dữ liệu phát hiện qua quiz (sửa ở pipeline, không sửa `data/`)
 
-- `mn-41-039` この間: kana sai `このあいだい`.
+- ~~`mn-41-039` この間: kana sai `このあいだい`~~ — đã sửa 2026-11-16 (`_decisions/17-quiz-kana.txt`).
 - Bộ thủ: xem [q05-kanji.md](q05-kanji.md) (tên dính số, thiếu biến thể).
 - **Q4b — câu ví dụ có từ đích đã chia nhưng chưa hỏi được** (~115 câu, chi tiết + số liệu ở [q04b-cloze-inflected.md](q04b-cloze-inflected.md) mục Khảo sát):
   - ~60 câu: động từ N3 **thiếu trong `data/conjugation.json`** (n3-101 倒れる, n3-103 起きる, n3-108 飼う, n3-117 決める, n3-126 降りる, n3-144 通う, n3-317 届く, n3-333 増える…) — bổ sung ở bước sinh bảng chia của pipeline.

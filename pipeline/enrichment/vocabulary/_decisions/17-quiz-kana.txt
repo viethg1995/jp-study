@@ -1,0 +1,4 @@
+# by: ai
+# Vòng 17 — kana gõ sai trong nguồn, phát hiện qua quiz (2026-11-16)
+# id | kana mới | ghi chú
+41-039|このあいだ|nguồn ghi このあいだい (thừa い); この間 đọc このあいだ, câu ví dụ đã duyệt cũng đọc あいだ

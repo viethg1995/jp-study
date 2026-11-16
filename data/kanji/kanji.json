@@ -28032,12 +28032,12 @@
           "word": "間違い"
         },
         {
-          "kana": "このあいだい",
+          "kana": "このあいだ",
           "meaning_en": null,
           "meaning_vi": "vừa rồi",
           "meaning_vi_source": "vocab",
-          "reading": null,
-          "reading_type": null,
+          "reading": "あいだ",
+          "reading_type": "kun",
           "source": "vocab",
           "vocab_id": "mn-41-039",
           "word": "この間"

@@ -567,6 +567,13 @@
         "source": "ai-draft",
         "vi": "Cảm ơn bạn về hôm trước."
       }
-    ]
+    ],
+    "kana": "このあいだ",
+    "review": {
+      "by": "ai",
+      "kana_by": "ai",
+      "kana_note": "nguồn ghi このあいだい (thừa い); この間 đọc このあいだ, câu ví dụ đã duyệt cũng đọc あいだ",
+      "status": "reviewed"
+    }
   }
 }

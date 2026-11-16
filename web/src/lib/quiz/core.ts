@@ -53,6 +53,18 @@ export function matches(item: QuizItem, filter: Filter): boolean {
   return Object.entries(filter).every(([tag, rule]) => ruleMatches(tagOf(item, tag), rule));
 }
 
+/**
+ * Số câu tự nhập: số nguyên ≥ 1, sai → null. `max` = số câu thật của bộ lọc (tổng mọi loại câu đang chọn;
+ * null = chưa đếm xong) → nhập lớn hơn thì hạ về `max`, để một lượt không hỏi lại câu đã hỏi.
+ */
+export function parseRoundSize(raw: string, max: number | null): number | null {
+  const s = raw.trim();
+  if (!/^\d+$/.test(s)) return null;
+  const n = Number(s);
+  if (n < 1) return null;
+  return max !== null && max > 0 ? Math.min(n, max) : n;
+}
+
 /** Phần học của câu hỏi = tiền tố loại câu ("k-hv" → "k"). Trang tổng /luyen-tap/ chia đều theo phần. */
 export function partOf(it: Pick<QuizItem, "kind">): string {
   return it.kind.split("-")[0]!;

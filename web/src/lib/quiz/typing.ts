@@ -4,6 +4,12 @@ import { normalize } from "./core";
 import { toKana } from "./romaji";
 import type { QuizItem } from "./types";
 
+/**
+ * Công tắc chung cho tính năng gõ kana: false → không trang quiz nào hiện dòng "Trả lời: Chọn đáp án · Gõ kana"
+ * (user tạm ẩn 2026-11-16, plan/quiz/q09-kana-input.md). Code + unit test vẫn giữ; bật lại: đổi thành true.
+ */
+export const TYPING_ENABLED: boolean = false;
+
 /** Loại câu có đáp án là cách đọc tiếng Nhật → gõ được (user chốt 2026-11-13; Điền từ chưa — nhiều từ cũng hợp câu). */
 export const TYPABLE_KINDS: readonly string[] = ["v-read", "k-read", "c-to", "n-ctr", "n-num"];
 

@@ -7,12 +7,14 @@ import { getExercise } from "./exercises";
 import { PROMPT_VERSION, SYSTEM_PROMPT, userPrompt } from "./prompt";
 import { anthropic } from "./providers/anthropic";
 import { gemini } from "./providers/gemini";
+import { openaiCompat } from "./providers/openai-compat";
 import type { Provider } from "./providers/types";
 import { workersAi } from "./providers/workers-ai";
 import { type GradeResult, parseGrade } from "./result";
 
 export interface Env {
   // Secret (wrangler secret put …) — thiếu key nào thì bỏ qua nhà cung cấp đó
+  OPENAI_COMPAT_API_KEY?: string;
   GEMINI_API_KEY?: string;
   ANTHROPIC_API_KEY?: string;
   TURNSTILE_SECRET?: string; // có → bắt buộc token Turnstile
@@ -22,7 +24,9 @@ export interface Env {
   RATE_LIMITER?: RateLimit;
   // Biến thường
   ALLOWED_ORIGINS: string; // "https://user.github.io,http://localhost:4321"
-  PROVIDERS: string; // thứ tự thử: "gemini,workers-ai,anthropic"
+  PROVIDERS: string; // thứ tự thử: "openai-compat,gemini,workers-ai,anthropic"
+  OPENAI_COMPAT_BASE_URL: string; // vd "https://llm.trambyte.store/v1"
+  OPENAI_COMPAT_MODEL: string;
   GEMINI_MODEL: string;
   WORKERS_AI_MODEL: string;
   ANTHROPIC_MODEL: string;
@@ -119,7 +123,9 @@ export default {
 function providers(env: Env): Provider[] {
   const out: Provider[] = [];
   for (const name of env.PROVIDERS.split(",").map((s) => s.trim())) {
-    if (name === "gemini" && env.GEMINI_API_KEY) out.push(gemini(env.GEMINI_API_KEY, env.GEMINI_MODEL));
+    if (name === "openai-compat" && env.OPENAI_COMPAT_API_KEY && env.OPENAI_COMPAT_BASE_URL) {
+      out.push(openaiCompat(env.OPENAI_COMPAT_BASE_URL, env.OPENAI_COMPAT_API_KEY, env.OPENAI_COMPAT_MODEL));
+    } else if (name === "gemini" && env.GEMINI_API_KEY) out.push(gemini(env.GEMINI_API_KEY, env.GEMINI_MODEL));
     else if (name === "workers-ai" && env.AI) out.push(workersAi(env.AI, env.WORKERS_AI_MODEL));
     else if (name === "anthropic" && env.ANTHROPIC_API_KEY) out.push(anthropic(env.ANTHROPIC_API_KEY, env.ANTHROPIC_MODEL));
   }
