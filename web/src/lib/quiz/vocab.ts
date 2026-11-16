@@ -348,19 +348,27 @@ interface ConjRef {
   table: ConjTable;
 }
 
-/** Hàng bảng chia của từ: theo ID; không có (từ lặp ở bài sau: 休みます bài 11) → từ cùng chữ, rồi cùng dạng gốc. */
+/**
+ * Hàng bảng chia của từ: theo ID; không có (từ lặp ở bài sau: 休みます bài 11) → từ cùng chữ (`same_word`), rồi
+ * `aliases` của bảng chia (từ N3 trùng Minna: n3-101 倒れる → hàng mn-39-002), rồi cùng dạng gốc.
+ * `same_word` đứng trước `aliases`: alias gộp theo kana nên có thể trỏ sang từ khác nghĩa (mn-22-004 掛けます
+ * "đeo kính" là alias của mn-07-009 かけます "gọi điện"), còn `same_word` theo đúng chữ.
+ */
 function conjIndex(conj: readonly ConjTable[]): (e: VocabEntry) => ConjRef | undefined {
   const byId = new Map<string, ConjRef>();
+  const byAlias = new Map<string, ConjRef>();
   const byBase = new Map<string, ConjRef>();
   for (const table of conj)
     for (const row of table.rows) {
       byId.set(row.id, { row, table });
+      for (const a of row.aliases ?? []) if (!byAlias.has(a)) byAlias.set(a, { row, table });
       const k = `${row.book}|${conjText(row.base)}`;
       if (!byBase.has(k)) byBase.set(k, { row, table });
     }
   return (e) =>
     byId.get(e.id) ??
     e.same_word.map((id) => byId.get(id)).find((x) => x !== undefined) ??
+    byAlias.get(e.id) ??
     byBase.get(`${e.book}|${conjText(shownRuby(e))}`) ??
     byBase.get(`${e.book}|${conjText(e.kana)}`);
 }
@@ -416,12 +424,18 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
       for (const c of badForms(ref.row, form.id)) if (bad < BAD_FORMS && push(c + tail)) bad++;
       // từ khác cùng nhóm (động từ / tính từ い / な), cùng thể + cùng đuôi; đã học tới bài của câu; gần bài trước
       const others = ref.table.rows
-        .filter((r) => r !== ref.row && r.book === e.book && r.lesson <= upTo && r.forms[form.id])
+        // N3: người học đã học hết Minna → từ Minna cũng là nhiễu hợp lệ (hàng của từ N3 trùng Minna mang book "minna")
+        .filter((r) => r !== ref.row && (r.book === e.book ? r.lesson <= upTo : e.book === "n3") && r.forms[form.id])
         .filter((r) => {
           const x = entryOf.get(r.id);
           return !x || !synonymous(e, x);
         })
-        .sort((a, b) => Math.abs(a.lesson - e.lesson) - Math.abs(b.lesson - e.lesson) || a.id.localeCompare(b.id));
+        .sort(
+          (a, b) =>
+            Number(a.book !== e.book) - Number(b.book !== e.book) ||
+            Math.abs(a.lesson - e.lesson) - Math.abs(b.lesson - e.lesson) ||
+            a.id.localeCompare(b.id),
+        );
       for (const r of others) {
         if (pool.length >= POOL_SIZE) break;
         if (conjText(r.base) === conjText(ref.row.base)) continue;

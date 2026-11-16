@@ -39,6 +39,8 @@ export interface ConjRow {
   base: string;
   /** thể → [ruby, quy tắc, bất quy tắc 0/1]; thiếu thể = từ không dùng thể đó. */
   forms: Record<string, [string, string, 0 | 1]>;
+  /** ID từ vựng trùng từ này ở bài/sách khác (n3-101 → hàng mn-39-002); chỉ có khi không rỗng. */
+  aliases?: string[];
 }
 
 export function buildConjTable(group: ConjGroupId, entries: readonly ConjEntry[], defs: readonly ConjFormDef[]): ConjTable {
@@ -56,6 +58,7 @@ export function buildConjTable(group: ConjGroupId, entries: readonly ConjEntry[]
         meaning: e.meaning_vi,
         base: e.ruby,
         forms: Object.fromEntries(e.forms.map((f) => [f.form, [f.ruby, f.rule, f.irregular ? 1 : 0]])),
+        ...(e.aliases.length > 0 ? { aliases: [...e.aliases] } : {}),
       })),
   };
 }

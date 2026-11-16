@@ -150,8 +150,8 @@ describe("v-cloze (điền từ)", () => {
   const rowById = new Map<string, ConjRow>(conj.flatMap((t) => t.rows.map((r) => [r.id, r] as const)));
   const inflected = (level: VocabLevel): QuizItem[] => deck(level, "dien").filter((q) => q.explain?.includes(" = "));
 
-  test("Q4b: có câu từ đích đã chia mỗi cấp; số câu bỏ qua không tăng (mốc khảo sát 2026-11-13)", () => {
-    const min = { n5: 75, n4: 130, n3: 150 };
+  test("Q4b: có câu từ đích đã chia mỗi cấp; số câu bỏ qua không tăng (mốc đo 2026-11-16)", () => {
+    const min = { n5: 75, n4: 130, n3: 200 }; // đo 2026-11-16: 81 · 141 · 216
     for (const level of VOCAB_LEVELS) assert.ok(inflected(level).length >= min[level], `${level}: ${inflected(level).length}`);
     // câu có [[…]] đã biến đổi (không phải danh từ riêng) nhưng không vào deck — tồn đọng dữ liệu ở README "Lỗi dữ liệu"
     let skipped = 0;
@@ -160,7 +160,14 @@ describe("v-cloze (điền từ)", () => {
       for (const e of all.filter((x) => levelOf(x) === level && x.pos.code !== "PN"))
         for (const x of e.examples) if (/\[\[/.test(x.ruby) && !ids.has(x.id)) skipped++;
     }
-    assert.ok(skipped <= 150, `bỏ qua ${skipped} câu`); // đo 2026-11-13: 148 (gồm câu lộ đáp án bị bỏ)
+    assert.ok(skipped <= 100, `bỏ qua ${skipped} câu`); // đo 2026-11-16: 96 (2026-11-13: 148, trước khi tra `aliases` bảng chia cho từ N3)
+  });
+
+  test("Q4b: từ N3 trùng Minna (aliases bảng chia) có câu điền từ; alias không thắng same_word", () => {
+    const ids = new Set(deck("n3", "dien").map((q) => q.id));
+    for (const id of ["n3-101-e1", "n3-108-e1", "n3-117-e1", "n3-333-e1"]) assert.ok(ids.has(`v-cloze:${id}`), id);
+    // mn-22-004 掛けます (đeo kính) là alias của かけます (gọi điện) — phải tra hàng 掛けます qua same_word
+    assert.ok(deck("n5", "dien").some((q) => q.id === "v-cloze:mn-22-004-e1"));
   });
 
   test("Q4b: nhiễu không trùng bất kỳ thể đúng nào của chính từ; cùng đuôi với đáp án (ました, ないで)", () => {

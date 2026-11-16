@@ -67,4 +67,4 @@ Trạng thái: ✅ xong 2026-11-12
 
 **Chỉnh sau khi user test tay Q5 (2026-11-12):** giải thích quiz Kanji mỗi ý một dòng (chữ · âm · nghĩa / On / Kun; `explain` nhận `\n`, QuizRunner `whitespace-pre-line`); quiz bộ thủ thêm dòng **Số nét: từ – đến** (1–17, mỗi mục kèm số bộ, URL `net-tu`/`net-den`) + "Đang chọn: N bộ" đếm theo phạm vi × số nét — chọn khoảng thay vì dropdown chọn nhiều (học theo thứ tự nét; nhóm 11–17 nét chỉ 1–6 bộ mỗi nhóm).
 
-**Lỗi dữ liệu bộ thủ (sửa ở pipeline `radicals.json`, không sửa `data/`):** tên dính số từ PDF — 戶 "Hộ 6", 斗 "Đầu 7", 方 "Phương 9"; thiếu biến thể quen thuộc (人 không có 亻, 水 không có 氵, 心 không có 忄… — chỉ 27/214 bộ có `variants`) → quiz "Tên bộ" hỏi 水 mà không kèm 氵.
+**Lỗi dữ liệu bộ thủ** — ✅ **đã sửa 2026-11-15** qua `enrichment/kanji/radicals/overrides.txt` (hết tên dính số; 41/214 bộ có `variants`: 亻, 氵, 忄, 扌, 刂, 灬, 艹, 辶, 阝, 衤, 礻, 犭…). Còn thiếu nhỏ (kiểm 2026-11-16): 言→訁, 金→釒, 足→𧾷, 竹→⺮, 乙→乚, 小→⺌. Ghi chép gốc: tên dính số từ PDF — 戶 "Hộ 6", 斗 "Đầu 7", 方 "Phương 9"; thiếu biến thể quen thuộc (人 không có 亻, 水 không có 氵, 心 không có 忄… — chỉ 27/214 bộ có `variants`) → quiz "Tên bộ" hỏi 水 mà không kèm 氵.
