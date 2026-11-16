@@ -37,6 +37,8 @@ ENRICH_CONJ = ROOT / "pipeline" / "enrichment" / "conjugation"  # forms.json: qu
 ENRICH_COUNTERS = ROOT / "pipeline" / "enrichment" / "counters"
 # exercises/lesson-LL.json: đề luyện dịch (người soạn/duyệt) → data/translation.json
 ENRICH_TRANSLATION = ROOT / "pipeline" / "enrichment" / "translation"
+ENRICH_TRANSLATION_EXERCISES = ENRICH_TRANSLATION / "exercises"  # câu đơn: lesson-LL.json
+ENRICH_TRANSLATION_PASSAGES = ENRICH_TRANSLATION / "passages"  # đoạn văn: n5.json, n4.json, n3.json
 ENRICH_VOCAB_AUTO = ENRICH_VOCAB / "_auto"
 ENRICH_VOCAB_DECISIONS = ENRICH_VOCAB / "_decisions"  # áp theo thứ tự tên file: 01-, 02-…
 
@@ -51,6 +53,7 @@ PIPELINE_CONFIG = ROOT / "pipeline" / "config"
 ROUTE_OVERRIDES = PIPELINE_CONFIG / "route_overrides.json"
 
 OUT_VOCABULARY = DATA / "vocabulary"
+OUT_VOCAB_N3 = OUT_VOCABULARY / "n3"  # từ vựng N3: lesson-LL.json
 OUT_KANJI = DATA / "kanji"
 OUT_GRAMMAR = DATA / "grammar"
 OUT_COUNTERS = DATA / "counters.json"

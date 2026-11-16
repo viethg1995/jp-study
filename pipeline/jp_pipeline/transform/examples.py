@@ -44,10 +44,11 @@ class RubyError(ValueError):
     pass
 
 
-def parse_ruby(ruby: str) -> list[Segment]:
+def parse_ruby(ruby: str, *, targets: int = 1) -> list[Segment]:
+    """targets: số cặp [[…]] bắt buộc (câu ví dụ 1; đoạn văn luyện dịch 0)."""
     segs: list[Segment] = []
     in_target = False
-    targets = 0
+    n_targets = 0
     pos = 0
     for m in _TOKEN.finditer(ruby):
         if m.start() != pos:
@@ -57,7 +58,7 @@ def parse_ruby(ruby: str) -> list[Segment]:
         if tok == "[[":
             if in_target:
                 raise RubyError("[[ lồng nhau")
-            in_target, targets = True, targets + 1
+            in_target, n_targets = True, n_targets + 1
         elif tok == "]]":
             if not in_target:
                 raise RubyError("]] không có [[ mở")
@@ -70,8 +71,8 @@ def parse_ruby(ruby: str) -> list[Segment]:
         raise RubyError(f"ký tự thừa ở cuối: {ruby[pos:]!r}")
     if in_target:
         raise RubyError("thiếu ]]")
-    if targets != 1:
-        raise RubyError(f"cần đúng 1 cặp [[…]], có {targets}")
+    if n_targets != targets:
+        raise RubyError(f"cần đúng {targets} cặp [[…]], có {n_targets}")
     for s in segs:
         if s.reading is None and _CJK.search(s.text):
             raise RubyError(f"kanji không có furigana: {s.text!r} — viết {{{s.text}|…}}")
@@ -321,7 +322,6 @@ def check_example(
     except RubyError as exc:
         return [ExampleIssue(level="E", msg=f"cú pháp: {exc}")]
 
-    text = surface(segs)
     target_surface = unicodedata.normalize("NFKC", "".join(s.text for s in segs if s.target))
     target_reading = "".join(s.reading or s.text for s in segs if s.target)
     stems = {f[:-2] if f.endswith("ます") else f[:-1] if f.endswith("い") and len(f) > 2 else f for f in target_forms}
@@ -342,6 +342,23 @@ def check_example(
             ExampleIssue(level="E", msg=f"[[{target_surface}]] phải viết bằng kanji + furigana: {target_kanji}")
         )
 
+    issues.extend(check_text(segs, known, readings, kana_to_kanji, target_surface))
+    return issues
+
+
+def check_text(
+    segs: list[Segment],
+    known: set[str],
+    readings: dict[str, set[str]] | None = None,
+    kana_to_kanji: dict[str, list[tuple[str, set[str]]]] | None = None,
+    target_surface: str = "",
+    kana_level: str = "E",
+) -> list[ExampleIssue]:
+    """Kiểm phần thân câu (dùng chung câu ví dụ và đoạn văn luyện dịch):
+    furigana khác Sudachi (W), từ có kanji trong bộ từ vựng mà viết kana (kana_level), từ ngoài phạm vi (W).
+    target_surface: phần [[…]] (bỏ qua khi kiểm kana/phạm vi); "" = không có."""
+    issues: list[ExampleIssue] = []
+    text = surface(segs)
     morphs = analyze(text)
     rd = readings or {}
     diffs: list[str] = []
@@ -364,7 +381,7 @@ def check_example(
     k2k = kana_to_kanji or {}
     kana_words: list[str] = []
     pos_ = 0
-    t_start = text.find(target_surface)
+    t_start = text.find(target_surface) if target_surface else -1
     for i_m, m in enumerate(morphs):
         start, pos_ = pos_, pos_ + len(m.surface)
         if t_start <= start < t_start + len(target_surface) or _CJK.search(m.surface):
@@ -388,10 +405,10 @@ def check_example(
         if hits and not in_known_kana:
             kana_words.append(f"{m.surface}→{'/'.join(sorted(hits)[:2])}")
     if kana_words:
-        issues.append(ExampleIssue(level="E", msg="viết kanji + furigana: " + "、".join(kana_words)))
+        issues.append(ExampleIssue(level=kana_level, msg="viết kanji + furigana: " + "、".join(kana_words)))
 
     unknown: list[str] = []
-    tgt_start = text.find(target_surface)
+    tgt_start = text.find(target_surface) if target_surface else -1
     tgt_end = tgt_start + len(target_surface)
     covered = _covered_spans(text, known)
     offset = 0

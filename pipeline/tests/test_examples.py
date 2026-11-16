@@ -116,3 +116,20 @@ def test_slot_pattern_match() -> None:
     assert slot_pattern_match("～からきました", "から来ました", "からきました")
     assert not slot_pattern_match("こちらは～さんです", "あちらです", "あちらです")
     assert not slot_pattern_match("わたし", "わたし", "わたし")
+
+
+def test_check_text_passage() -> None:
+    """Đoạn văn luyện dịch: không có [[…]], dùng check_text trực tiếp, mọi vấn đề là W."""
+    from jp_pipeline.transform.examples import check_text
+
+    known = {"わたし", "私", "学生", "がくせい", "です", "は"}
+    rd = {"私": {"わたし"}}
+    k2k = {"わたし": [("Pro", {"私"})]}
+
+    def msgs(ruby: str) -> list[str]:
+        return [f"{i.level} {i.msg}" for i in check_text(parse_ruby(ruby, targets=0), known, rd, k2k, kana_level="W")]
+
+    assert msgs("{私|わたし}は{学生|がくせい}です。") == []
+    assert msgs("{私|わたし}は{医者|いしゃ}です。") == ["W từ ngoài phạm vi bài: 医者"]
+    assert msgs("わたしは{学生|がくせい}です。") == ["W viết kanji + furigana: わたし→私"]
+    assert msgs("{学生|がっこう}です。")[0].startswith("W furigana khác Sudachi")

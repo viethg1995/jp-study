@@ -11,7 +11,7 @@ export interface Exercise {
   sentences: { prompt: string; references: string[]; note_vi: string | null }[];
 }
 
-const SCHEMA_VERSION = 1;
+const SCHEMA_VERSION = 2; // v2: thêm passages (worker đọc ở D2)
 if (data.schema_version !== SCHEMA_VERSION) {
   throw new Error(`translation.json schema_version ${data.schema_version} ≠ ${SCHEMA_VERSION}`);
 }

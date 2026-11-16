@@ -1,5 +1,73 @@
 {
   "$defs": {
+    "PassageSentence": {
+      "additionalProperties": false,
+      "properties": {
+        "ja": {
+          "description": "Câu tiếng Nhật, ruby {漢字|かな} cho mọi chữ Hán, không có [[…]]",
+          "minLength": 1,
+          "title": "Ja",
+          "type": "string"
+        },
+        "ja_alt": {
+          "description": "Cách dịch tiếng Nhật khác cũng đúng (chữ thường) — chiều Việt → Nhật",
+          "items": {
+            "type": "string"
+          },
+          "title": "Ja Alt",
+          "type": "array"
+        },
+        "ja_text": {
+          "description": "Pipeline sinh: ja bỏ ruby (chữ thường)",
+          "minLength": 1,
+          "title": "Ja Text",
+          "type": "string"
+        },
+        "note_vi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Ghi chú cho AI chấm và người học",
+          "title": "Note Vi"
+        },
+        "para": {
+          "description": "Số đoạn (1, 2, …) để xuống đoạn khi hiển thị",
+          "minimum": 1,
+          "title": "Para",
+          "type": "integer"
+        },
+        "vi": {
+          "description": "Bản dịch tiếng Việt chuẩn",
+          "minLength": 1,
+          "title": "Vi",
+          "type": "string"
+        },
+        "vi_alt": {
+          "description": "Cách dịch tiếng Việt khác cũng đúng — chiều Nhật → Việt",
+          "items": {
+            "type": "string"
+          },
+          "title": "Vi Alt",
+          "type": "array"
+        }
+      },
+      "required": [
+        "ja",
+        "ja_text",
+        "ja_alt",
+        "vi",
+        "vi_alt",
+        "note_vi",
+        "para"
+      ],
+      "title": "PassageSentence",
+      "type": "object"
+    },
     "TranslationExercise": {
       "additionalProperties": false,
       "properties": {
@@ -86,6 +154,96 @@
       "title": "TranslationExercise",
       "type": "object"
     },
+    "TranslationPassage": {
+      "additionalProperties": false,
+      "properties": {
+        "focus_vi": {
+          "description": "Điểm ngữ pháp/từ vựng đáng chú ý",
+          "items": {
+            "type": "string"
+          },
+          "title": "Focus Vi",
+          "type": "array"
+        },
+        "genre": {
+          "description": "Kiểu bài đọc hiểu JLPT: thư, nhật ký, thông báo, bài viết, hội thoại, email",
+          "enum": [
+            "letter",
+            "diary",
+            "notice",
+            "essay",
+            "dialogue",
+            "email"
+          ],
+          "title": "Genre",
+          "type": "string"
+        },
+        "id": {
+          "description": "p-nX-NNN — khóa cache, KHÔNG được đổi",
+          "title": "Id",
+          "type": "string"
+        },
+        "level": {
+          "enum": [
+            "n5",
+            "n4",
+            "n3"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "review": {
+          "enum": [
+            "auto",
+            "ai",
+            "user"
+          ],
+          "title": "Review",
+          "type": "string"
+        },
+        "sentences": {
+          "items": {
+            "$ref": "#/$defs/PassageSentence"
+          },
+          "maxItems": 20,
+          "minItems": 3,
+          "title": "Sentences",
+          "type": "array"
+        },
+        "source": {
+          "enum": [
+            "ai-draft",
+            "user"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "title_ja": {
+          "description": "Tiêu đề tiếng Nhật (ruby như ja)",
+          "minLength": 1,
+          "title": "Title Ja",
+          "type": "string"
+        },
+        "title_vi": {
+          "minLength": 1,
+          "title": "Title Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "level",
+        "title_ja",
+        "title_vi",
+        "genre",
+        "focus_vi",
+        "sentences",
+        "source",
+        "review"
+      ],
+      "title": "TranslationPassage",
+      "type": "object"
+    },
     "TranslationSentence": {
       "additionalProperties": false,
       "properties": {
@@ -135,14 +293,22 @@
       "title": "Exercises",
       "type": "array"
     },
+    "passages": {
+      "items": {
+        "$ref": "#/$defs/TranslationPassage"
+      },
+      "title": "Passages",
+      "type": "array"
+    },
     "schema_version": {
-      "default": 1,
+      "default": 2,
       "title": "Schema Version",
       "type": "integer"
     }
   },
   "required": [
-    "exercises"
+    "exercises",
+    "passages"
   ],
   "title": "TranslationFile",
   "type": "object"
