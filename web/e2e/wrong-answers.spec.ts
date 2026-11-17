@@ -155,3 +155,24 @@ test("mọi trang quiz có dòng 'Câu hỏi'", async ({ page }) => {
     await expect(page.locator('[data-q="wrong-row"]'), url).toBeVisible();
   }
 });
+
+test("bước 2.3a: từ trang chủ, Kanji / Chia thể tự chọn cấp / nhóm có câu sai (ID không mang cấp)", async ({ page }) => {
+  // chữ chỉ thuộc N4 (không có ở N5) theo cách xếp giáo trình
+  const n5 = new Set(((await (await page.request.get("kanji/quiz/gt-n5-hv.json")).json()) as { items: { id: string }[] }).items.map((x) => x.id));
+  const n4 = ((await (await page.request.get("kanji/quiz/gt-n4-hv.json")).json()) as { items: { id: string }[] }).items;
+  const kanjiId = n4.find((x) => !n5.has(x.id))!.id;
+  await page.goto("./");
+  await seed(page, { [kanjiId]: { w: 1, s: 0, t: 1 }, "c-to:mn-08-011:neg": { w: 1, s: 0, t: 1 } }); // 大きい → phủ định
+  const section = page.locator("[data-wrong]");
+  await section.getByRole("link", { name: /Kanji/ }).click();
+  await expect(page.locator("#cap-n4")).toBeChecked();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 1");
+
+  await page.goto("./");
+  await section.getByRole("link", { name: /Chia thể/ }).click();
+  await expect(page.locator("#nhom-tinh-tu-i")).toBeChecked();
+  await expect(page.locator("#sach-minna")).toBeChecked();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 1");
+});

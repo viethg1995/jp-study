@@ -1,7 +1,7 @@
 // Lối vào "Câu hay sai" ở trang chủ: gom câu sai theo trang quiz + link đúng bộ lọc.
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
-import { summarizeWrong, vocabLevelOfId } from "./wrong-summary.ts";
+import { kanjiCharOfId, mostCommon, pickConjScope, pickKanjiLevel, summarizeWrong, vocabLevelOfId } from "./wrong-summary.ts";
 import { emptyStore, type WrongStore } from "./wrong.ts";
 
 const store = (...ids: string[]): WrongStore => ({ ...emptyStore(), items: Object.fromEntries(ids.map((id) => [id, { w: 1, s: 0, t: 1 }])) });
@@ -45,5 +45,27 @@ describe("summarizeWrong", () => {
 
   test("loại câu lạ / ID từ vựng không nhận ra → bỏ qua", () => {
     assert.deepEqual(summarizeWrong(store("x-foo:1", "v-mean:abc")), []);
+  });
+});
+
+describe("bước 2.3a: trang tự chọn cấp / nhóm khi ?on=sai", () => {
+  test("mostCommon: nhiều nhất thắng, hòa theo thứ tự, rỗng → null", () => {
+    assert.equal(mostCommon(["b", "a", "b"], ["a", "b"]), "b");
+    assert.equal(mostCommon(["b", "a"], ["a", "b"]), "a");
+    assert.equal(mostCommon([], ["a"]), null);
+  });
+  test("chia thể: nhóm từ theo bảng tính từ, sách theo tiền tố ID; bỏ câu phần khác", () => {
+    const adj = { "mn-08-011": "adj-i", "mn-08-003": "adj-na" } as const;
+    assert.equal(pickConjScope(["c-to:mn-08-011:neg", "c-to:mn-08-011:past", "c-to:mn-14-003:te", "v-mean:mn-01-001"], adj), "adj-i|minna");
+    assert.equal(pickConjScope(["c-group:n3-101", "c-to:n3-101:te"], adj), "verb|n3");
+    assert.equal(pickConjScope(["k-hv:k-日"], adj), null);
+  });
+  test("Kanji: chữ của câu (cả k-read có từ ví dụ), cấp có nhiều câu sai nhất", () => {
+    assert.equal(kanjiCharOfId("k-read:k-日:日本"), "日");
+    assert.equal(kanjiCharOfId("k-hv:k-語"), "語");
+    assert.equal(kanjiCharOfId("r-name:9"), null);
+    const levels = { n5: "日月", n4: "語", n3: "藤" };
+    assert.equal(pickKanjiLevel(["k-hv:k-語", "k-mean:k-語", "k-hv:k-日"], levels), "n4");
+    assert.equal(pickKanjiLevel(["v-mean:mn-01-001"], levels), null);
   });
 });
