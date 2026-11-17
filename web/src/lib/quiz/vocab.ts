@@ -302,8 +302,14 @@ export function clozeTarget(e: VocabEntry, ex: VocabExample): string | null {
   const segs = parseRuby(m[1]!);
   const text = segs.map((s) => s.text).join("");
   const reading = segs.map((s) => s.reading ?? s.text).join("");
-  const forms = new Set([e.kana, e.kanji ?? ""].map((x) => x.replace(/～/g, "")).filter(Boolean));
+  // trường ghi nhiều cách viết "夫 /主人", "おじいさん／ おじいちゃん" → mỗi cách viết là một dạng hợp lệ
+  const forms = new Set([e.kana, e.kanji ?? ""].flatMap(splitWritings).map((x) => x.replace(/～/g, "")).filter(Boolean));
   return forms.has(text) || forms.has(reading) ? m[1]! : null;
+}
+
+/** "夫 /主人" → ["夫", "主人"]; dấu "/" nằm ngoài ngoặc ruby (cũng tách được chuỗi ruby {夫|おっと} /{主人|しゅじん}). */
+function splitWritings(s: string): string[] {
+  return s.split(/\s*[/／]\s*/u).map((x) => x.trim()).filter(Boolean);
 }
 
 function clozeItems(level: VocabLevel, mine: readonly VocabEntry[], conj: readonly ConjTable[]): QuizItem[] {
@@ -328,7 +334,11 @@ function clozeItems(level: VocabLevel, mine: readonly VocabEntry[], conj: readon
         info: lessonLabel(level, [e.lesson]),
         answer: target,
         accepted: [],
-        pool: texts.map((t) => rubyOf.get(t)!),
+        // từ ghi nhiều cách viết làm nhiễu → chỉ hiện cách viết đầu (おじいさん, không phải "おじいさん／ おじいちゃん");
+        // bỏ ～ (～から, {～語|～ご}): trong câu điền từ ～ vô nghĩa và lộ đáp án (đáp án と không có ～)
+        pool: [...new Set(texts.map((t) => splitWritings(rubyOf.get(t)!)[0]!.replace(/～/gu, "")))].filter(
+          (p) => p !== "" && conjText(p) !== conjText(target),
+        ),
         explain: explainOf(e),
         href: vocabHref(e),
         tags: { level, lesson: [e.lesson], pos: e.pos.code },

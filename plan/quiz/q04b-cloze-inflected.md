@@ -125,7 +125,7 @@ Spec đề xuất (user duyệt trước khi làm):
 
 Test: mỗi phép phái sinh 1 ca đã biết (褒める → 褒められました, 払う → 払わなければなりません, 足りる → 足りなかったら, 切れる → 切れ); nhiễu không trùng mọi dạng đúng + phái sinh đúng của chính từ; mốc bỏ qua hạ theo số đo (dự kiến ~25).
 
-## Kế hoạch bước 2.2 — câu không phải chia thể (~24 câu) · chờ duyệt spec
+## Kế hoạch bước 2.2 — câu không phải chia thể (~24 câu) · ✅ phần web xong 2026-11-17 (còn 3 câu chờ user viết lại)
 
 Khảo sát 2026-11-17 — các nguyên nhân:
 
@@ -149,3 +149,23 @@ Kết quả mong đợi sau 2.1 + 2.2: mốc bỏ qua chỉ còn nhóm "không h
 | 5 | Dung lượng | n5-dien **451KB** / 63KB gzip (vượt mốc 450KB 632 byte), n4-dien 428KB / **69KB gzip**, n3-dien 417KB / 69KB → mốc test **tạm** 500KB / 75KB | Như dự kiến (2.1-6); bước 3 thay bằng mốc mỗi chunk |
 
 Kết quả: **+40 câu** (N5 89 → 97, N4 163 → 191, N3 216 → 220); bỏ qua 66 → **26**. Test mới: 8 ca phái sinh (đáp án + tên thể trong giải thích + nhiễu), thân ます chỉ nối đuôi hợp lệ. Quiz chia thể: khả năng = bị động 160 → 162 (借りる, 足りる).
+
+### Bước 2.2 — sai khác so với spec / kết quả (2026-11-17)
+
+| # | Spec | Thực tế | Lý do |
+|---|---|---|---|
+| 1 | Lộ đáp án theo chữ cho `v-cloze` | Làm **trong `leaks()`** (`validate.ts`) theo `kind` — hàm sinh câu và bất biến 5 của `checkDeck` dùng chung một quy tắc. Loại câu khác giữ quy tắc cũ (chữ + cách đọc) | Làm riêng trong `vocab.ts` thì `finalizeDeck` (bất biến 5) vẫn báo lỗi |
+| 2 | Đáp án 1 kana coi là lộ | **Bỏ** quy tắc này | Làm mất 2 câu cũ (と mn-04-048, か mn-34-025) |
+| 3 | Tách cách viết qua `_decisions/` → `variants` | **Không đổi dữ liệu**: web tách `kana`/`kanji` theo `/` `／` khi khớp cụm đích (`splitWritings`); khi làm nhiễu chỉ hiện cách viết đầu | `variants` chỉ là chữ (không có cách đọc), dùng cho N3; 夫 / 主人 là hai cách nói khác cách đọc → đưa 主人 vào `variants` mất しゅじん |
+| 4 | (không có) | **Lỗi có sẵn, 54+ câu**: nhiễu của câu điền từ mang `～` (`～から`, `{～語\|～ご}`) trong khi đáp án không có (と) → lộ đáp án. Giờ bỏ `～` khỏi mọi lựa chọn; 11 câu từng hiện nguyên "おじいさん／ おじいちゃん" làm nhiễu | Phát hiện khi xem câu mới (階: nhiễu ～円, ～歳) |
+| 5 | Viết lại 3 câu lộ thật | **Chưa ghi** — chỉ đề xuất dưới đây | `_examples/lesson-02/03/08.txt` là `# by: user`: câu AI viết ghi vào sẽ thành "đã duyệt" |
+
+So bộ câu trước/sau: 0 câu cũ mất; +11 câu (量, 医学, 西, 声, 階, 家, 夫, 妻, おじいさん, おばあさん, 濃); 141 câu đổi nhiễu — **đã kiểm: chỉ khác ở bỏ `～` / lấy cách viết đầu**. Bỏ qua 26 → **15**: 3 câu lộ thật + 12 "không hỏi" (mn-01-030 mẫu câu, mn-10-043 や, mn-13-006 買い物 danh từ hóa, 9 phó từ N3 `～なる / ～た / ～ない`). Mốc test `skipped <= 16`.
+
+**Đề xuất câu thay thế cho 3 câu lộ thật** (user duyệt rồi sửa `_examples/`, chạy `apply-all-examples` + `check-examples --lesson N`):
+
+| Câu | Hiện tại (lộ) | Đề xuất |
+|---|---|---|
+| mn-02-007-e1 本 | これは{日本語\|にほんご}の[[{本\|ほん}]]です。 | これは{私\|わたし}の[[{本\|ほん}]]です。 |
+| mn-03-022-e1 国 | ワンさんのお[[{国\|くに}]]は{中国\|ちゅうごく}です。 | ミラーさんのお[[{国\|くに}]]はアメリカです。 |
+| mn-08-034-e1 山 | {富士山\|ふじさん}は{高\|たか}い[[{山\|やま}]]です。 | あの[[{山\|やま}]]は{高\|たか}いです。 |

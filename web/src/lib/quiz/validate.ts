@@ -46,9 +46,17 @@ export function rubyForms(s: string): { text: string; reading: string } {
   return { text: segs.map((x) => x.text).join(""), reading: segs.map((x) => x.reading ?? x.text).join("") };
 }
 
-/** Quy tắc 5: đáp án (chữ hoặc cách đọc) xuất hiện trong chữ hoặc furigana của câu hỏi. Hàm sinh câu hỏi dùng để lọc trước. */
-export function leaks(it: Pick<QuizItem, "prompt" | "answer">): boolean {
+/**
+ * Quy tắc 5: đáp án (chữ hoặc cách đọc) xuất hiện trong chữ hoặc furigana của câu hỏi. Hàm sinh câu hỏi dùng để lọc trước.
+ * Câu điền từ (`v-cloze`, bước 2.2 plan/quiz/q04b-cloze-inflected.md): chỉ xét **chữ hiển thị** — cách đọc trùng ở chữ
+ * Hán khác không phải gợi ý (量 / 料理 りょうり, 医学 / 大学 だいがく, 西 / 沈みます にしず).
+ */
+export function leaks(it: Pick<QuizItem, "prompt" | "answer"> & { kind?: string }): boolean {
   const p = rubyForms(it.prompt), a = rubyForms(it.answer);
+  if (it.kind === "v-cloze") {
+    const t = normalize(a.text);
+    return t.length === 0 || normalize(p.text).includes(t);
+  }
   const hay = [normalize(p.text), normalize(p.reading)];
   const needles = [...new Set([normalize(a.text), normalize(a.reading)])].filter((n) => n.length > 0);
   return needles.some((n) => hay.some((h) => h.includes(n)));
