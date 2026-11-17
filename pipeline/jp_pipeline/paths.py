@@ -33,6 +33,7 @@ ENRICH_VOCAB = ROOT / "pipeline" / "enrichment" / "vocabulary"
 ENRICH_KANJI = ROOT / "pipeline" / "enrichment" / "kanji"
 # Sửa bảng 214 bộ thủ trích từ PDF: 'số|trường|giá trị' (char, name_vi, meaning_vi, variants)
 ENRICH_RADICAL_OVERRIDES = ENRICH_KANJI / "radicals" / "overrides.txt"
+ENRICH_RADICAL_OVERRIDES_AI = ENRICH_KANJI / "radicals" / "overrides-ai.txt"  # đề xuất AI chưa duyệt, áp sau
 ENRICH_CONJ = ROOT / "pipeline" / "enrichment" / "conjugation"  # forms.json: quy tắc chia thể
 # counters.json (bảng trợ số từ), numbers.json (số đếm), sound-rules.json (biến âm), examples/*.txt (câu ví dụ)
 ENRICH_COUNTERS = ROOT / "pipeline" / "enrichment" / "counters"

@@ -1,0 +1,9 @@
+# by: ai
+# Đề xuất AI chưa duyệt — áp SAU overrides.txt (user duyệt xong → chuyển dòng sang overrides.txt). Cú pháp như overrides.txt.
+# 2026-11-17 (bước 2.3b quiz): biến thể bộ thủ theo cách viết tiếng Nhật.
+# Không thêm: 言 → 訁, 金 → 釒 (tiếng Nhật viết ごんべん / かねへん y như chữ gốc; 訁 釒 là dạng Trung Quốc);
+#             足 → 𧾷 (tiếng Nhật dùng ⻊; 𧾷 U+27FB7 ngoài BMP, dễ không có font).
+5|variants|乚
+42|variants|⺌
+118|variants|⺮
+157|variants|⻊

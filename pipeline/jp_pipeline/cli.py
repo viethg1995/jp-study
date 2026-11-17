@@ -343,11 +343,10 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
         print("Thiếu bảng 214 bộ thủ — chạy: python -m jp_pipeline extract-pdf --only 214")
         return 1
     radicals = parse_radicals(rad_md.read_text(encoding="utf-8"))
-    if paths.ENRICH_RADICAL_OVERRIDES.exists():
-        radicals = apply_radical_overrides(
-            radicals, paths.ENRICH_RADICAL_OVERRIDES.read_text(encoding="utf-8"),
-            paths.ENRICH_RADICAL_OVERRIDES.name,
-        )
+    # overrides.txt (# by: user, đã duyệt) rồi overrides-ai.txt (# by: ai, đề xuất chưa duyệt)
+    for ov in (paths.ENRICH_RADICAL_OVERRIDES, paths.ENRICH_RADICAL_OVERRIDES_AI):
+        if ov.exists():
+            radicals = apply_radical_overrides(radicals, ov.read_text(encoding="utf-8"), ov.name)
     unihan = load_unihan_vi(paths.DICT_UNIHAN, paths.DICT_INDEX / "unihan_vi.json")
     meanings = parse_meanings(
         [(f.name, f.read_text(encoding="utf-8")) for f in sorted(paths.ENRICH_KANJI.glob("*.txt"))]

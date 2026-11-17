@@ -38,7 +38,9 @@
       "name_vi": "Ất",
       "number": 5,
       "strokes": 1,
-      "variants": []
+      "variants": [
+        "乚"
+      ]
     },
     {
       "char": "亅",
@@ -338,7 +340,9 @@
       "name_vi": "Tiểu",
       "number": 42,
       "strokes": 3,
-      "variants": []
+      "variants": [
+        "⺌"
+      ]
     },
     {
       "char": "尢",
@@ -971,7 +975,9 @@
       "name_vi": "Trúc",
       "number": 118,
       "strokes": 6,
-      "variants": []
+      "variants": [
+        "⺮"
+      ]
     },
     {
       "char": "米",
@@ -1268,7 +1274,7 @@
     },
     {
       "char": "貝",
-      "meaning_vi": "Vỏ sò; tiền, vật báu (thời xưa dùng vỏ sò làm tiền)",
+      "meaning_vi": "Vỏ sò / tiền, vật báu (thời xưa dùng vỏ sò làm tiền)",
       "name_vi": "Bối",
       "number": 154,
       "strokes": 7,
@@ -1298,7 +1304,9 @@
       "name_vi": "Túc",
       "number": 157,
       "strokes": 7,
-      "variants": []
+      "variants": [
+        "⻊"
+      ]
     },
     {
       "char": "身",
@@ -1328,7 +1336,7 @@
     },
     {
       "char": "辰",
-      "meaning_vi": "Thìn (địa chi thứ 5); nhật, nguyệt, tinh",
+      "meaning_vi": "Thìn (địa chi thứ 5) / nhật, nguyệt, tinh",
       "name_vi": "Thần",
       "number": 161,
       "strokes": 7,
@@ -1356,7 +1364,7 @@
     },
     {
       "char": "酉",
-      "meaning_vi": "Dậu (địa chi thứ 10); bình rượu",
+      "meaning_vi": "Dậu (địa chi thứ 10) / bình rượu",
       "name_vi": "Dậu",
       "number": 164,
       "strokes": 7,
@@ -1613,7 +1621,7 @@
     },
     {
       "char": "鬲",
-      "meaning_vi": "Tên một con sông xưa; cái đỉnh (nồi ba chân)",
+      "meaning_vi": "Tên một con sông xưa / cái đỉnh (nồi ba chân)",
       "name_vi": "Cách",
       "number": 193,
       "strokes": 10,
