@@ -162,7 +162,7 @@ describe("v-cloze (điền từ)", () => {
       for (const e of all.filter((x) => levelOf(x) === level && x.pos.code !== "PN"))
         for (const x of e.examples) if (/\[\[/.test(x.ruby) && !ids.has(x.id)) skipped++;
     }
-    assert.ok(skipped <= 16, `bỏ qua ${skipped} câu`); // đo 2026-11-17: 15 (148 → aliases N3: 96 → cách đọc: 66 → phái sinh: 26 → lộ đáp án theo chữ + nhiều cách viết: 15 = 3 câu lộ thật 本/国/山 + 12 "không hỏi": mẫu câu, や, 買い物, phó từ N3 ～なる)
+    assert.ok(skipped <= 13, `bỏ qua ${skipped} câu`); // đo 2026-11-17: 12 (148 → aliases N3: 96 → cách đọc: 66 → phái sinh: 26 → lộ đáp án theo chữ + nhiều cách viết: 15 → chữ trong từ ghép không tính lộ: 12 "không hỏi": mẫu câu, や, 買い物, phó từ N3 ～なる)
   });
 
   test("Q4b: từ N3 trùng Minna (aliases bảng chia) có câu điền từ; alias không thắng same_word", () => {
@@ -226,8 +226,8 @@ describe("v-cloze (điền từ)", () => {
     const has = (level: VocabLevel, id: string): QuizItem | undefined => deck(level, "dien").find((x) => x.id === `v-cloze:${id}`);
     // cách đọc trùng ở chữ Hán khác không còn bị coi là lộ: 量 / 料理, 医学 / 大学, 西 / 沈みます
     for (const [level, id] of [["n4", "mn-44-021-e1"], ["n4", "mn-47-015-e1"], ["n4", "mn-32-028-e1"]] as const) assert.ok(has(level, id), id);
-    // lộ thật (chữ đáp án nằm sẵn trong câu): 本 / 日本語 — vẫn bỏ
-    assert.ok(!has("n5", "mn-02-007-e1"));
+    // chữ đáp án chỉ nằm trong từ ghép dài hơn → không tính lộ (user giữ câu gốc): 本 / 日本語, 国 / 中国, 山 / 富士山
+    for (const id of ["mn-02-007-e1", "mn-03-022-e1", "mn-08-034-e1"]) assert.ok(has("n5", id), id);
     // trường ghi nhiều cách viết: 夫 /主人 → hỏi 夫; làm nhiễu → chỉ cách viết đầu
     assert.equal(rubyForms(has("n5", "mn-09-033-e1")!.answer).text, "夫");
     for (const level of VOCAB_LEVELS)

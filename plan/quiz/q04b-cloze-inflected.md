@@ -132,7 +132,7 @@ Khảo sát 2026-11-17 — các nguyên nhân:
 | Nhóm | Câu | Nguyên nhân | Hướng xử lý |
 |---|---|---|---|
 | **Bộ lọc lộ đáp án bắt oan** | mn-44-021 量 (料理 りょうり), mn-47-015 医学 (大学 だいがく), mn-32-028 西 (に**しず**みます), mn-27-010 声 (聞こえます), mn-03-030 階 (会議室 かいぎ), mn-28-031 家 か | `leaks()` so **cách đọc** đáp án như chuỗi con của cách đọc cả câu → âm trùng ở chữ khác cũng tính là lộ | Câu điền từ: chỉ coi là lộ khi **chữ hiển thị** của đáp án có trong câu (hoặc đáp án toàn kana trùng kana trong câu); cách đọc trùng ở chữ Hán khác không lộ. Đáp án 1 kana (家 か, や) vẫn bỏ — quá dễ trùng. Chỉ đổi cho `v-cloze`, không đổi `leaks()` của loại câu khác |
-| **Lộ thật** | mn-02-007 本 (日本語), mn-03-022 国 (中国), mn-08-034 山 (富士山) | Chữ đáp án nằm sẵn trong câu | Viết lại 3 câu ví dụ ở `_examples/` (bài đã duyệt → ghi chú để user duyệt lại) |
+| **Lộ thật** | mn-02-007 本 (日本語), mn-03-022 国 (中国), mn-08-034 山 (富士山) | Chữ đáp án nằm sẵn trong câu | ~~Viết lại~~ → user giữ câu gốc; chữ trong từ ghép không tính lộ (2026-11-17) |
 | **Trường `kanji` nhiều cách viết** | mn-09-033 `夫 /主人`, mn-09-035 `妻/家内`, mn-24-009 `おじいさん／ おじいちゃん`, mn-24-010 `おばあさん／ おばあちゃん` | Cách viết thứ hai nằm trong `kanji`/`kana` thay vì `variants` → không khớp cụm đích; quiz đọc (Q9) cũng loại | `_decisions/`: tách cách viết thứ hai ra `variants` (kana cũng đang dạng "a/b": mn-09-033 `おっと/しゅじん`) |
 | **Không hỏi** | mn-01-030 こちらは～さんです (mẫu câu), mn-10-043 ～や～ (trợ từ), N3 `ずいぶん～なる` / `やっと～た` / `つい～てしまった` / `けっして～ない` / `ただ～するだけ`… | Đích là mẫu câu có phần giữa tự do | Ghi rõ "không hỏi" — test đếm riêng, không tính vào mốc bỏ qua |
 
@@ -158,14 +158,8 @@ Kết quả: **+40 câu** (N5 89 → 97, N4 163 → 191, N3 216 → 220); bỏ q
 | 2 | Đáp án 1 kana coi là lộ | **Bỏ** quy tắc này | Làm mất 2 câu cũ (と mn-04-048, か mn-34-025) |
 | 3 | Tách cách viết qua `_decisions/` → `variants` | **Không đổi dữ liệu**: web tách `kana`/`kanji` theo `/` `／` khi khớp cụm đích (`splitWritings`); khi làm nhiễu chỉ hiện cách viết đầu | `variants` chỉ là chữ (không có cách đọc), dùng cho N3; 夫 / 主人 là hai cách nói khác cách đọc → đưa 主人 vào `variants` mất しゅじん |
 | 4 | (không có) | **Lỗi có sẵn, 54+ câu**: nhiễu của câu điền từ mang `～` (`～から`, `{～語\|～ご}`) trong khi đáp án không có (と) → lộ đáp án. Giờ bỏ `～` khỏi mọi lựa chọn; 11 câu từng hiện nguyên "おじいさん／ おじいちゃん" làm nhiễu | Phát hiện khi xem câu mới (階: nhiễu ～円, ～歳) |
-| 5 | Viết lại 3 câu lộ thật | **Chưa ghi** — chỉ đề xuất dưới đây | `_examples/lesson-02/03/08.txt` là `# by: user`: câu AI viết ghi vào sẽ thành "đã duyệt" |
+| 5 | Viết lại 3 câu lộ thật | **Không viết lại** — user giữ câu gốc, đổi quy tắc lộ (xem dưới) | `_examples/lesson-02/03/08.txt` là `# by: user`: câu AI viết ghi vào sẽ thành "đã duyệt" |
 
 So bộ câu trước/sau: 0 câu cũ mất; +11 câu (量, 医学, 西, 声, 階, 家, 夫, 妻, おじいさん, おばあさん, 濃); 141 câu đổi nhiễu — **đã kiểm: chỉ khác ở bỏ `～` / lấy cách viết đầu**. Bỏ qua 26 → **15**: 3 câu lộ thật + 12 "không hỏi" (mn-01-030 mẫu câu, mn-10-043 や, mn-13-006 買い物 danh từ hóa, 9 phó từ N3 `～なる / ～た / ～ない`). Mốc test `skipped <= 16`.
 
-**Đề xuất câu thay thế cho 3 câu lộ thật** (user duyệt rồi sửa `_examples/`, chạy `apply-all-examples` + `check-examples --lesson N`):
-
-| Câu | Hiện tại (lộ) | Đề xuất |
-|---|---|---|
-| mn-02-007-e1 本 | これは{日本語\|にほんご}の[[{本\|ほん}]]です。 | これは{私\|わたし}の[[{本\|ほん}]]です。 |
-| mn-03-022-e1 国 | ワンさんのお[[{国\|くに}]]は{中国\|ちゅうごく}です。 | ミラーさんのお[[{国\|くに}]]はアメリカです。 |
-| mn-08-034-e1 山 | {富士山\|ふじさん}は{高\|たか}い[[{山\|やま}]]です。 | あの[[{山\|やま}]]は{高\|たか}いです。 |
+**3 câu "lộ thật" — user quyết định giữ câu gốc (2026-11-17)**: chữ đáp án chỉ nằm trong từ ghép dài hơn (本 / {日本語|にほんご}, 国 / {中国|ちゅうごく}, 山 / {富士山|ふじさん}) → coi là tăng độ khó, không phải lộ. `leaks()` (`v-cloze`): đoạn ruby có chữ **dài hơn** và **chứa** chữ đáp án thì bỏ qua khi so. So bộ câu trước/sau: **chỉ +3 câu đúng 3 câu này**, không câu nào khác đổi. Bỏ qua 15 → **12** (toàn "không hỏi"); mốc test `skipped <= 13`. Không sửa `_examples/`.

@@ -50,12 +50,22 @@ export function rubyForms(s: string): { text: string; reading: string } {
  * Quy tắc 5: đáp án (chữ hoặc cách đọc) xuất hiện trong chữ hoặc furigana của câu hỏi. Hàm sinh câu hỏi dùng để lọc trước.
  * Câu điền từ (`v-cloze`, bước 2.2 plan/quiz/q04b-cloze-inflected.md): chỉ xét **chữ hiển thị** — cách đọc trùng ở chữ
  * Hán khác không phải gợi ý (量 / 料理 りょうり, 医学 / 大学 だいがく, 西 / 沈みます にしず).
+ * Chữ đáp án chỉ nằm **bên trong một từ ghép dài hơn** có furigana (本 / {日本語|にほんご}, 国 / {中国|ちゅうごく},
+ * 山 / {富士山|ふじさん}) cũng không tính — user chọn giữ câu gốc để tăng độ khó (2026-11-17).
  */
 export function leaks(it: Pick<QuizItem, "prompt" | "answer"> & { kind?: string }): boolean {
   const p = rubyForms(it.prompt), a = rubyForms(it.answer);
   if (it.kind === "v-cloze") {
     const t = normalize(a.text);
-    return t.length === 0 || normalize(p.text).includes(t);
+    if (t.length === 0) return true;
+    const segs = isRuby(it.prompt) ? parseRuby(it.prompt) : [{ text: it.prompt, reading: null }];
+    const shown = segs
+      .map((s) => {
+        const x = normalize(s.text);
+        return s.reading !== null && x !== t && x.includes(t) ? "\u0000" : x;
+      })
+      .join("");
+    return shown.includes(t);
   }
   const hay = [normalize(p.text), normalize(p.reading)];
   const needles = [...new Set([normalize(a.text), normalize(a.reading)])].filter((n) => n.length > 0);
