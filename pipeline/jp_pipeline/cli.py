@@ -169,7 +169,8 @@ def _build_conjugation(vocab: list) -> int:  # type: ignore[type-arg]
     _write_json(paths.OUT_CONJUGATION, doc.model_dump(mode="json"))  # type: ignore[attr-defined]
     _write_json(paths.DATA_SCHEMA / "conjugation.schema.json", ConjugationFile.model_json_schema())
     kinds = Counter(e.kind for e in doc.entries)  # type: ignore[attr-defined]
-    print(f"  chia thể  : {rep.entries} từ {dict(kinds)} | trùng bỏ qua {rep.duplicates} "
+    same = sum(1 for e in doc.entries if e.same_as)  # type: ignore[attr-defined]
+    print(f"  chia thể  : {rep.entries} từ {dict(kinds)} | trùng bỏ qua {rep.duplicates} | N3 trùng Minna {same} "
           f"| không gắn furigana {len(rep.no_ruby or [])}{' ' + ', '.join((rep.no_ruby or [])[:10]) if rep.no_ruby else ''}")
     return 0
 

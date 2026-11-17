@@ -141,13 +141,31 @@ describe("Q6-4: bộ chia sai (nhiễu)", () => {
   });
 });
 
+describe("Q13: từ N3 trùng từ Minna có hàng riêng", () => {
+  test("sách N3 có 倒れる (n3-101) ở bài N3, đề dạng từ điển, link bảng chia về trang Minna mn-39-002", () => {
+    const items = gen("verb", { book: "n3", from: 1, to: 14, kinds: ["chia"] }).filter((x) => x.id.startsWith("c-to:n3-101:"));
+    assert.ok(items.length > 10);
+    for (const q of items) {
+      assert.equal(q.prompt, "{倒|たお}れる");
+      assert.equal(q.href, "chia-the/dong-tu/mn-39-002/");
+      assert.equal(q.tags.book, "n3");
+    }
+    assert.ok(checkDeck(items).length === 0);
+  });
+  test("hàng N3 trùng: 63 hàng có sameAs, sách N3 tổng 332 hàng", () => {
+    const rows = CONJ_GROUPS.flatMap((g) => tables[g].rows);
+    assert.equal(rows.filter((r) => r.sameAs).length, 63);
+    assert.equal(rows.filter((r) => r.book === "n3").length, 332); // 337 trước khi bỏ 5 hàng N3 sai từ loại (bước 1.2)
+  });
+});
+
 describe("Q6-5: nhận thể", () => {
-  test("162 từ có khả năng = bị động → mỗi chiều 162 câu có accepted (154 + 3 từ ghép 来ます + 3 hàng tách alias + 借りる / 足りる sửa V1 → V2)", () => {
+  test("188 từ có khả năng = bị động (162 + 26 động từ nhóm II N3 có hàng riêng, Q13) → mỗi chiều 188 câu có accepted", () => {
     const items = both("verb").filter((x) => x.kind === "c-which");
     const pot = items.filter((x) => x.id.endsWith(":potential") && x.accepted.includes("Thể bị động"));
     const pas = items.filter((x) => x.id.endsWith(":passive") && x.accepted.includes("Thể khả năng"));
-    assert.equal(pot.length, 162);
-    assert.equal(pas.length, 162);
+    assert.equal(pot.length, 188);
+    assert.equal(pas.length, 188);
     for (const q of [...pot, ...pas]) assert.ok(!q.pool.includes("Thể bị động") && !q.pool.includes("Thể khả năng"), q.id);
   });
   test("không hỏi thể ます (trùng đề); hỏi ません", () => {

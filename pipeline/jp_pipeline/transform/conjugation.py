@@ -317,7 +317,10 @@ def build_conjugation(vocab: list, spec: dict) -> tuple[object, ConjReport]:  # 
     rep = ConjReport(no_ruby=[])
     # khóa → vocab_id đầu tiên. Có cả identity_kanji: từ hiển thị kana (display=kana → base_kanji None) mà khác chữ
     # thì là từ khác (つけます 点 ≠ 付, かけます [gọi điện] ≠ 掛けます [đeo kính], つきます [đèn sáng] ≠ 吐きます)
-    seen: dict[tuple[str, str, str | None, str | None], str] = {}
+    # Gộp chỉ TRONG CÙNG SÁCH (Q13, plan/quiz/q13-conj-n3-rows.md): từ N3 trùng từ Minna có hàng riêng (bài N3,
+    # quiz N3) + same_as = hàng Minna (web không sinh trang riêng, link về trang Minna).
+    seen: dict[tuple[str, str, str, str | None, str | None], str] = {}  # (sách, loại, kana gốc, chữ gốc, chữ nhận diện)
+    minna_of: dict[tuple[str, str, str | None, str | None], str] = {}  # (loại, kana gốc, chữ gốc, chữ nhận diện) → hàng Minna
     aliases: dict[str, list[str]] = {}
     by_key: dict[tuple[str, str], list[ConjEntry]] = {}  # (loại, kana gốc) → entries, để giải ví dụ
     entries: list[ConjEntry] = []
@@ -325,12 +328,16 @@ def build_conjugation(vocab: list, spec: dict) -> tuple[object, ConjReport]:  # 
     def make(e, kind: str) -> ConjEntry | None:  # type: ignore[no-untyped-def]
         kanji = first_kanji(e.kanji) if e.display == "kanji" else None
         base_kana, base_kanji, forms = conjugate(kind, e.kana, kanji, dictionary_form=e.book == "n3")
-        key = (kind, base_kana, base_kanji, identity_kanji(e.kanji))
+        base = (kind, base_kana, base_kanji, identity_kanji(e.kanji))
+        key = (e.book, *base)
         if key in seen:
             rep.duplicates += 1
             aliases.setdefault(seen[key], []).append(e.id)
             return None
         seen[key] = e.id
+        same_as = minna_of.get(base) if e.book == "n3" else None
+        if e.book == "minna":
+            minna_of.setdefault(base, e.id)
         ruby_ok = True
 
         def rb(kj: str | None, kana: str) -> str:
@@ -344,7 +351,8 @@ def build_conjugation(vocab: list, spec: dict) -> tuple[object, ConjReport]:  # 
         values = [ConjValue(form=f.form, kana=f.kana, ruby=rb(f.kanji, f.kana), rule=f.rule, irregular=f.irregular)
                   for f in forms]
         ce = ConjEntry(vocab_id=e.id, book=e.book, lesson=e.lesson, kind=kind, kana=base_kana,  # type: ignore[arg-type]
-                       ruby=rb(base_kanji, base_kana), meaning_vi=e.meaning_vi, han_viet=e.han_viet, forms=values)
+                       ruby=rb(base_kanji, base_kana), meaning_vi=e.meaning_vi, han_viet=e.han_viet, same_as=same_as,
+                       forms=values)
         if not ruby_ok:
             rep.no_ruby.append(e.id)  # type: ignore[union-attr]
         by_key.setdefault((kind, base_kana), []).append(ce)
