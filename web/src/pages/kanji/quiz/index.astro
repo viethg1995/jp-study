@@ -1,6 +1,6 @@
 ---
 // Quiz Kanji (Q5): cấp → xếp theo (giáo trình Kanji / bài từ vựng, Q5-2) → khoảng bài → loại câu (chọn nhiều).
-// Câu hỏi sinh lúc build thành file /kanji/quiz/<xếp>-<cấp>-<loại>.json (lib/quiz/kanji.ts), trang chỉ tải file đang chọn.
+// Câu hỏi sinh lúc build thành file /kanji/quiz/<xếp>-<cấp>-<loại>-<bài đầu>.json (lib/quiz/kanji.ts, chia chunk lib/quiz/chunks.ts), trang chỉ tải chunk của khoảng bài đang chọn.
 // Bộ lọc ghi lên URL (D6): ?cap=n5&xep=gt&tu=1&den=5&loai=hv,nghia — không localStorage.
 // Không có dòng Furigana: đề và đáp án các loại câu ở đây không có furigana.
 import QuizRunner from "../../../components/quiz/QuizRunner.astro";
@@ -92,6 +92,7 @@ const kindLabels = Object.fromEntries(slugs.map((s) => [KANJI_KINDS[s], KANJI_KI
 <script>
   import { KEYS, readString } from "../../../lib/storage";
   import { readFilter, writeFilter, type ParamDef } from "../../../lib/quiz/params";
+  import { chunkPaths } from "../../../lib/quiz/chunks";
   import { mountQuiz } from "../../../lib/quiz/runner";
   import { parseStore } from "../../../lib/quiz/wrong";
   import { pickKanjiLevel } from "../../../lib/quiz/wrong-summary";
@@ -160,7 +161,8 @@ const kindLabels = Object.fromEntries(slugs.map((s) => [KANJI_KINDS[s], KANJI_KI
     const filter: Filter = { lesson: { min: from, max: to }, kind: kinds };
     const qs = writeFilter({ level: [lv], view: [vw], lesson: { min: from, max: to }, kind: kinds }, cfg.params);
     history.replaceState(null, "", `?${qs}`);
-    quiz.setFilter(filter, slugs.map((s) => `${base}kanji/quiz/${vw}-${lv}-${s}.json`));
+    // chỉ tải chunk (nhóm bài, Q12) giao với khoảng bài đang chọn
+    quiz.setFilter(filter, slugs.flatMap((s) => chunkPaths("kanji/quiz", `${vw}-${lv}-${s}`, lv, cfg.ranges[vw][lv], from, to).map((p) => base + p)));
   }
   for (const r of document.querySelectorAll<HTMLInputElement>('input[name="q-level"], input[name="q-view"]')) {
     r.addEventListener("change", () => {

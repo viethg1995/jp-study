@@ -1,7 +1,6 @@
 // Quiz từ vựng (Q4) trên dữ liệu thật data/vocabulary — bất biến + trường hợp đã biết.
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
-import { gzipSync } from "node:zlib";
 import { loadConjugation, loadVocab } from "../../test/data.ts";
 import { parseRuby } from "../ruby.ts";
 import { buildConjTable, CONJ_GROUPS, type ConjRow } from "./conjugation.ts";
@@ -33,12 +32,7 @@ describe("15 deck (cấp × loại câu)", () => {
         assert.deepEqual(checkDeck(items).slice(0, 5), []);
         assert.ok(dropped.length / (items.length + dropped.length) < 0.02, `bỏ ${dropped.length} câu`);
         assert.ok(items.every((q) => q.kind === VOCAB_KINDS[slug] && q.tags.level === level));
-        // Giới hạn đo 2026-11-12: lớn nhất ~400KB gốc / ~47KB gzip; Q4b (2026-11-13) -dien lên ~65KB gzip.
-        // 2026-11-17 bước 2.1 (thể phái sinh): n5-dien 451KB → TẠM nâng 450KB → 500KB; bước 3 (Q12, chia deck theo bài)
-        // thay bằng mốc mỗi chunk (plan/quiz/q12-deck-chunking.md)
-        const json = JSON.stringify({ version: 1, name: `${level}-${slug}`, items });
-        assert.ok(Buffer.byteLength(json) < 500_000, `${Buffer.byteLength(json)} byte`);
-        assert.ok(gzipSync(json).length < 75_000, `${gzipSync(json).length} byte gzip`);
+        // dung lượng: mốc mỗi chunk (Q12) ở chunks.test.ts — file tải về là chunk, không phải cả cấp
       });
     }
   }

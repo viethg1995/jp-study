@@ -1,6 +1,6 @@
 ---
 // Quiz chia thể (Q6): nhóm từ → sách (Minna: "đã học tới bài B" / N3: khoảng bài) → nhóm động từ → thể → loại câu.
-// Khác quiz khác: trang tải BẢNG CHIA GỌN /chia-the/quiz/<nhóm>.json rồi sinh câu trên trình duyệt (Q6-1,
+// Khác quiz khác: trang tải BẢNG CHIA GỌN /chia-the/quiz/<nhóm>-<sách>.json rồi sinh câu trên trình duyệt (Q6-1,
 // lib/quiz/conjugation.ts conjItems) — nhiễu lọc đúng theo thể đã học. URL (D6):
 //   ?nhom=dong-tu&sach=minna&bai=20&dt=1,2&the=te,nai&loai=chia,the — không localStorage.
 import { getCollection } from "astro:content";
@@ -142,6 +142,7 @@ const kindLabels = Object.fromEntries(kindSlugs.map((s) => [CONJ_KINDS[s], CONJ_
   import { type ConjGroupId, type ConjKindSlug, type ConjOptions, type ConjTable, type VerbKind, conjItems } from "../../../lib/quiz/conjugation";
   import { KEYS, readString } from "../../../lib/storage";
   import { readFilter, writeFilter, type ParamDef } from "../../../lib/quiz/params";
+  import { conjPath } from "../../../lib/quiz/chunks";
   import { mountQuiz } from "../../../lib/quiz/runner";
   import { parseStore } from "../../../lib/quiz/wrong";
   import { pickConjScope } from "../../../lib/quiz/wrong-summary";
@@ -238,7 +239,7 @@ const kindLabels = Object.fromEntries(kindSlugs.map((s) => [CONJ_KINDS[s], CONJ_
     ui.kind = kinds.map((k) => cfg.kinds[k]);
     history.replaceState(null, "", `?${writeFilter(ui, cfg.params)}`);
     const noForms = forms.length === 0;
-    quiz.setFilter({}, [`${base}chia-the/quiz/${cfg.slugs[g]}.json`], (data) =>
+    quiz.setFilter({}, [`${base}${conjPath(cfg.slugs[g]!, b)}`], (data) =>
       // không chọn thể nào → chỉ còn câu nhóm động từ (nếu chọn)
       conjItems(data[0] as ConjTable, noForms ? { ...opts, kinds: kinds.filter((k) => k === "nhom") } : opts),
     );

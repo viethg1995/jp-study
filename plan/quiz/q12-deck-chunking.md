@@ -2,7 +2,7 @@
 
 > Phần chung (quyết định D1–D6, kiến trúc, bất biến, luồng làm bài, checklist): [README.md](README.md). File này chỉ chứa riêng task Q12.
 
-Trạng thái: ⬜ **theo dõi** — lên kế hoạch chi tiết **sau khi xong mọi chức năng quiz** (Q7, Q9, Q10, Q11 và phần dữ liệu bỏ qua của Q4b). Trước đó: mỗi task làm tăng dung lượng deck thì cập nhật bảng đo dưới.
+Trạng thái: ✅ **xong 2026-11-17** (bước 3, user duyệt: APPLY) — kết quả ở mục cuối. Task sau làm deck lớn thêm → đo lại theo chunk (lệnh đo dưới).
 
 ## Vì sao
 
@@ -10,7 +10,7 @@ Mỗi deck là **một file JSON cho cả cấp** (vd `vocabulary/quiz/n5-dien.j
 
 ## Số đo (bản build, gốc / gzip)
 
-Cập nhật mỗi khi một task làm deck lớn thêm. Mốc giới hạn trong unit test: deck từ vựng < 450KB gốc / < 70KB gzip (`vocab.test.ts`).
+Cập nhật mỗi khi một task làm deck lớn thêm. Mốc trong unit test (từ 2026-11-17): **mỗi chunk** < 150KB gốc / < 25KB gzip; bảng chia theo sách < 550KB / < 55KB (`chunks.test.ts`). Bảng dưới là số đo cả cấp **trước** khi chia.
 
 | Ngày | File | Gốc | Gzip | Ghi chú |
 |---|---|---|---|---|
@@ -51,7 +51,7 @@ cd web/dist && for f in vocabulary/quiz/*.json kanji/quiz/*.json chia-the/quiz/*
 
 Không file deck nào vượt mốc thống nhất khi lập kế hoạch; bộ lọc hẹp (≤ 5 bài) tải ít hơn hẳn hiện tại; e2e + unit xanh; ID câu không đổi (khóa của Q10).
 
-## Kế hoạch bước 3 · chờ duyệt spec
+## Kế hoạch bước 3 · ✅ xong 2026-11-17
 
 Ghi 2026-11-17 ([README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16)) — làm **sau bước 2** (2.1 thêm ~40 câu vào `n4-dien`/`n5-dien`).
 
@@ -72,3 +72,36 @@ Ghi 2026-11-17 ([README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16
 3. **Làm** → unit (chunks, hợp chunk = deck đầy đủ) + e2e (bộ lọc hẹp chỉ tải chunk cần — đếm request bằng `page.route`; trang tổng; Câu hay sai; mạng chậm) + đo "sau" → ghi bảng Số đo.
 
 Tiêu chí xong: như mục trên + bộ lọc ≤ 5 bài tải ≤ 1/3 dung lượng hiện tại.
+
+### Bước 3 — sai khác so với spec / kết quả (2026-11-17)
+
+| # | Spec | Thực tế | Lý do |
+|---|---|---|---|
+| 3-1 | 5 bài/file, N3 14 bài → 3 file | Minna **5 bài**, **N3 3 bài/file** (N3 14 bài → 5 file; Kanji giáo trình N3 35 bài → 12 file). Cửa sổ cố định theo số bài tuyệt đối: `n5-dien-01` (1–5), `n4-dien-26` (26–30), `n3-dien-04` (4–6). Chunk rỗng vẫn sinh (`items: []`) để trang không phải biết chunk nào có câu | Đo thử: 5 bài N3 điền từ = 153KB / 25,0KB gzip (mỗi bài N3 ~50 từ, gấp đôi Minna) → vượt mốc |
+| 3-2 | Chia thể theo sách, theo bài nếu vẫn lớn | **Chỉ theo sách**: `chia-the/quiz/<nhóm>-<minna\|n3>.json`. `dong-tu-minna` 477KB / 46KB | Câu chỉ dùng hàng của sách đang chọn (`rowsOf`) → tách không đổi câu. Không chia theo bài: chia thể Minna luôn tải bài 1 → "đã học tới" (mặc định 50) nên chia bài gần như không giảm tải |
+| 3-3 | `deckChunks()` | `lib/quiz/chunks.ts`: `chunkSize` / `chunkStart` / `chunkStarts` / `chunkFile` / `chunkPaths` / `conjPath` / `splitByChunk` / `uniqueById` — endpoint, trang từng phần và `mixFiles` dùng chung | Tên theo việc từng hàm |
+| 3-4 | Runner nhận nhiều URL | Có sẵn; thêm bỏ trùng ID khi gộp (`deckItems`, `mixItems`) | Xem 3-7 |
+| 3-5 | Gọn dữ liệu nếu còn lớn | **Không làm** | 3-1 đủ: chunk lớn nhất 22KB gzip |
+| 3-6 | PWA | **Không có gì để làm** | Dự án chưa cài `@vite-pwa/astro` (không có service worker); khi thêm PWA → runtime cache `*/quiz/*.json` |
+| 3-7 | Một câu ở đúng một chunk (bài nhỏ nhất) | Câu gắn **nhiều bài** nằm ở **mọi chunk** chứa một bài của nó; gộp chunk → `uniqueById` | Bộ lọc bài khớp nếu **một** bài khớp (`matches`): chỉ để ở chunk bài nhỏ nhất thì lọc bài 11–12 sẽ mất câu bài [4, 12]. ~40 câu vắt qua 2 chunk |
+| 3-8 | Mốc < 150KB / < 25KB mỗi chunk | Đúng như spec; bảng chia theo sách < 550KB / < 55KB. Test (`chunks.test.ts`): hợp chunk = deck đầy đủ; **mọi** khoảng bài lọc ra đúng tập câu như deck đầy đủ; đường dẫn `mixFiles` đều được endpoint sinh | Mốc cả cấp ở `vocab.test.ts` / `kanji.test.ts` bỏ (bộ thủ vẫn giữ) |
+
+**ID câu không đổi** — nội dung câu không đổi, chỉ đổi file chứa. 271 file (từ vựng 75 + Kanji 190 + chia thể 6) thay 48 file (15 + 30 + 3).
+
+Chunk lớn nhất (gốc / gzip): `kanji/quiz/tv-n5-doc-06` 144KB / 22KB (sát mốc gốc), `tv-n5-doc-01` 129KB / 20KB, `vocabulary/quiz/n4-dien-36` 102KB / 17KB.
+
+Tổng tải (gzip) trước → sau:
+
+| Bộ lọc | Trước | Sau |
+|---|---|---|
+| Từ vựng N5 Nghĩa, cả cấp | 53KB | 54KB (5 chunk) |
+| Từ vựng N5 Nghĩa, bài 3–5 | 53KB | **13KB** (25%) |
+| Từ vựng N5 Điền từ, bài 3–5 | 64KB | **13KB** (20%) |
+| Kanji tv-N5 Cách đọc, bài 3–5 | 82KB | **20KB** (24%) |
+| `/luyen-tap/` bài 3–5, đủ 4 phần | ~387KB | **146KB** (38%) — còn 70KB bảng chia Minna + đếm số không theo bài |
+| `/luyen-tap/` bài 1–25 / 1–50 | ~387KB / ~650KB | 387KB / 653KB (như cũ) |
+| Chia thể động từ Minna / N3 | 73KB | 46KB / 27KB |
+
+Tiêu chí "bộ lọc ≤ 5 bài tải ≤ 1/3": **đạt ở trang từng phần** (20–25%); trang tổng 38% vì bảng chia + đếm số tải nguyên (chia bảng chia theo bài không giúp — xem 3-2).
+
+Test: unit 296 (mới `chunks.test.ts`), e2e 190 (mới: bộ lọc hẹp chỉ tải chunk cần, cache chunk đã tải; sửa tên file ở 6 spec).

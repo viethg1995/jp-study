@@ -1,6 +1,6 @@
 ---
 // Quiz từ vựng (Q4): chọn cấp → khoảng bài → loại câu (chọn nhiều). Câu hỏi sinh lúc build thành file
-// /vocabulary/quiz/<cấp>-<loại>.json (lib/quiz/vocab.ts), trang chỉ tải file của loại câu đang chọn.
+// /vocabulary/quiz/<cấp>-<loại>-<bài đầu>.json (lib/quiz/vocab.ts, chia chunk lib/quiz/chunks.ts), trang chỉ tải chunk của loại câu + khoảng bài đang chọn.
 // Bộ lọc ghi lên URL (D6): ?cap=n5&tu=1&den=10&loai=doc,nghia — không localStorage.
 import QuizRunner from "../../../components/quiz/QuizRunner.astro";
 import Segmented from "../../../components/ui/Segmented.astro";
@@ -78,6 +78,7 @@ const kindLabels = Object.fromEntries(slugs.map((s) => [VOCAB_KINDS[s], VOCAB_KI
 
 <script>
   import { readFilter, writeFilter, type ParamDef } from "../../../lib/quiz/params";
+  import { chunkPaths } from "../../../lib/quiz/chunks";
   import { mountQuiz } from "../../../lib/quiz/runner";
   import type { Filter } from "../../../lib/quiz/types";
 
@@ -134,7 +135,8 @@ const kindLabels = Object.fromEntries(slugs.map((s) => [VOCAB_KINDS[s], VOCAB_KI
     const filter: Filter = { lesson: { min: from, max: to }, kind: kinds };
     const qs = writeFilter({ level: [lv], lesson: { min: from, max: to }, kind: kinds }, cfg.params);
     history.replaceState(null, "", `?${qs}`);
-    quiz.setFilter(filter, slugs.map((s) => `${base}vocabulary/quiz/${lv}-${s}.json`));
+    // chỉ tải chunk (nhóm bài, Q12) giao với khoảng bài đang chọn
+    quiz.setFilter(filter, slugs.flatMap((s) => chunkPaths("vocabulary/quiz", `${lv}-${s}`, lv, cfg.levels[lv], from, to).map((p) => base + p)));
   }
   for (const r of document.querySelectorAll<HTMLInputElement>('input[name="q-level"]')) {
     r.addEventListener("change", () => {

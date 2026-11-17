@@ -15,7 +15,8 @@ test("mặc định: N5, bài 1–25, loại Nghĩa; chưa tải deck trước k
   await expect(page.locator(card)).toBeHidden();
   expect(loaded).toEqual([]);
   await startQuiz(page);
-  expect(loaded).toEqual(["n5-nghia.json"]);
+  // cả cấp N5 = 5 chunk bài (Q12)
+  expect(loaded.sort()).toEqual(["01", "06", "11", "16", "21"].map((s) => `n5-nghia-${s}.json`));
   await expect(page.locator('[data-q="question"]')).toHaveText("Nghĩa là gì?");
   await expect(page.locator(prompt)).toHaveAttribute("lang", "ja");
   await expect(page.locator(".q-opt")).toHaveCount(4);
@@ -46,7 +47,7 @@ test("chọn nhiều loại câu → tải nhiều file, câu hỏi trộn loạ
   await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=5&loai=doc,nghia,tu");
   await page.locator("label:has(#q-size-20)").click();
   await startQuiz(page);
-  expect(loaded.sort()).toEqual(["n5-doc.json", "n5-nghia.json", "n5-tu.json"]);
+  expect(loaded.sort()).toEqual(["n5-doc-01.json", "n5-nghia-01.json", "n5-tu-01.json"]); // bài 1–5 = 1 chunk mỗi loại (Q12)
   const questions = new Set<string>();
   for (let i = 0; i < 15; i++) {
     questions.add((await page.locator('[data-q="question"]').textContent()) ?? "");
@@ -130,6 +131,29 @@ test("điền từ đã chia (Q4b): bài 14 có câu thể て — 4 lựa chọ
     await page.keyboard.press("Enter");
   }
   expect(found).toBeGreaterThan(0);
+});
+
+test("Q12: bộ lọc hẹp chỉ tải chunk cần (bài 3–5 → 1 file mỗi loại; 5–7 → thêm chunk 6–10; N3 cả cấp → 5)", async ({ page }) => {
+  const loaded: string[] = [];
+  page.on("request", (r) => {
+    if (r.url().endsWith(".json")) loaded.push(new URL(r.url()).pathname.replace(/^.*\/vocabulary\/quiz\//, ""));
+  });
+  await page.goto("vocabulary/quiz/?cap=n5&tu=3&den=5&loai=doc,nghia");
+  await startQuiz(page);
+  expect(loaded.sort()).toEqual(["n5-doc-01.json", "n5-nghia-01.json"]);
+  await expect(page.locator('[data-q="info"]')).toContainText(/Bài [3-5]/);
+  await backToSetup(page);
+  loaded.length = 0;
+  await page.selectOption("#q-from", "5");
+  await page.selectOption("#q-to", "7");
+  await page.locator("label:has(#loai-nghia)").click(); // bỏ Nghĩa
+  await startQuiz(page);
+  expect(loaded.sort()).toEqual(["n5-doc-06.json"]); // n5-doc-01 đã nhớ đệm
+  await backToSetup(page);
+  loaded.length = 0;
+  await page.goto("vocabulary/quiz/?cap=n3&loai=doc");
+  await startQuiz(page);
+  expect(loaded.sort()).toEqual(["n3-doc-01.json", "n3-doc-04.json", "n3-doc-07.json", "n3-doc-10.json", "n3-doc-13.json"]);
 });
 
 test("mạng chậm → hiện 'Đang tải câu hỏi…' rồi mới ra câu hỏi", async ({ page }) => {

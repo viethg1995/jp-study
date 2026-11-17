@@ -21,7 +21,7 @@ Quy trình mỗi task: viết spec vào file task → **user duyệt** → làm 
 | [Q9](q09-kana-input.md) | Gõ kana | ✅ — ⏸ tạm ẩn 2026-11-16 (`TYPING_ENABLED = false`) |
 | [Q10](q10-wrong-answers.md) | Lưu câu sai | ✅ |
 | [Q11](q11-conjunctions.md) | Quiz từ nối | ⬜ chờ dữ liệu |
-| [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ⬜ theo dõi — lập kế hoạch sau khi xong mọi chức năng |
+| [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ✅ 2026-11-17 — 5 bài/file (N3 3 bài), chia thể theo sách |
 
 ## Kế hoạch tiếp theo (chốt 2026-11-16)
 
@@ -36,7 +36,7 @@ Thứ tự (user chốt): **sửa lỗi → hoàn thiện → chia nhỏ file de
 | 2.1 | ~43 câu thể ghép: sinh **thể phái sinh trên web** (bị động/sai khiến + ます, なければなりません / なくても / なかったら từ thể ない, thân ます / gốc tính từ + そう), không thêm thể vào bảng chia — spec: [q04b mục Kế hoạch bước 2.1](q04b-cloze-inflected.md) | ✅ 2026-11-17 — +40 câu, bỏ qua 66 → 26; lộ thêm 3 lỗi nhóm động từ (借ります, 足ります, 楽しみにしています → V2) |
 | 2.2 | ~24 câu không phải chia thể: bộ lọc lộ đáp án bắt oan theo cách đọc (量 / 料理, 医学 / 大学, 西 / にしずみ…) → câu điền từ chỉ xét chữ hiển thị; 3 câu lộ thật (本 / 日本語, 国 / 中国, 山 / 富士山) → viết lại; tách `kanji` nhiều cách viết ra `variants`; mẫu câu / phó từ N3 `～なる` ghi "không hỏi" — spec: [q04b mục Kế hoạch bước 2.2](q04b-cloze-inflected.md) | ✅ 2026-11-17 phần web — +11 câu, bỏ qua 26 → 15; bỏ `～` khỏi nhiễu (lỗi có sẵn); 3 câu 本/国/山: user giữ câu gốc, chữ đáp án nằm trong từ ghép dài hơn không tính lộ → bỏ qua **12** |
 | 2.3 | Link "Câu hay sai" trang chủ kèm cấp cho Kanji / Chia thể — trang tự chọn cấp/nhóm khi `?on=sai` ([q10 mục Kế hoạch 2.3a](q10-wrong-answers.md)); 6 biến thể bộ thủ còn thiếu, kiểm font ([q05 mục Kế hoạch 2.3b](q05-kanji.md)) | 2.3a ✅ 2026-11-17 (trang Kanji / Chia thể tự chọn cấp / nhóm khi `?on=sai`) · 2.3b ✅ 2026-11-17 (乚 ⺌ ⺮ ⻊; bỏ 訁 釒 — không phải dạng Nhật) |
-| **3 — Q12** | Đo lại deck sau bước 2 (vượt mốc → tạm nâng mốc, làm Q12 ngay); chia 5 bài/file cho từ vựng + Kanji, chia thể theo sách, `deckChunks()` dùng chung cho trang từng phần + `mixFiles`, cache PWA theo chunk, mốc mới < 150KB / < 25KB gzip mỗi chunk, ID câu không đổi — spec: [q12 mục Kế hoạch bước 3](q12-deck-chunking.md) | ⬜ chờ duyệt spec |
+| **3 — Q12** | Đo lại deck sau bước 2 (vượt mốc → tạm nâng mốc, làm Q12 ngay); chia 5 bài/file cho từ vựng + Kanji, chia thể theo sách, `deckChunks()` dùng chung cho trang từng phần + `mixFiles`, cache PWA theo chunk, mốc mới < 150KB / < 25KB gzip mỗi chunk, ID câu không đổi — spec: [q12 mục Kế hoạch bước 3](q12-deck-chunking.md) | ✅ 2026-11-17 — N3 3 bài/file (5 bài vượt mốc), chia thể chỉ theo sách, câu nhiều bài ở mọi chunk + bỏ trùng ID; không có PWA; bộ lọc 3 bài tải 20–25% |
 | **4 — Merge + PR** | Merge `main` mới nhất vào `feat/quiz`; đủ gate (`npm run build`, e2e, pytest, `BASE_PATH=/jp-study/`); push + PR vào `main` | ⬜ |
 
 ## Hiện trạng (khảo sát 2026-11-12)
@@ -163,7 +163,7 @@ interface QuizItem {
 
 ## Theo dõi dung lượng deck
 
-Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [q12-deck-chunking.md](q12-deck-chunking.md) (lệnh đo có trong file). Mốc hiện tại: deck từ vựng **tạm** < 500KB gốc / < 75KB gzip (2026-11-17, n5-dien 451KB — bước 3 thay bằng mốc mỗi chunk); trước đó < 450KB / < 70KB; `n5-dien` đã sát mốc gốc (440KB), `n3-dien` sát mốc gzip (~69KB), `n5-dien` 445KB (2026-11-16). Chia nhỏ file (chunk) lên kế hoạch sau khi xong mọi chức năng quiz (Q12).
+Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [q12-deck-chunking.md](q12-deck-chunking.md) (lệnh đo có trong file). Mốc hiện tại (Q12, 2026-11-17): **mỗi chunk** deck từ vựng / Kanji < 150KB gốc / < 25KB gzip; bảng chia theo sách < 550KB / < 55KB (`chunks.test.ts`). Lớn nhất: `tv-n5-doc-06` 144KB / 22KB (sát mốc gốc). Trước Q12: cả cấp < 500KB / < 75KB.
 
 ## Lỗi dữ liệu phát hiện qua quiz (sửa ở pipeline, không sửa `data/`)
 
