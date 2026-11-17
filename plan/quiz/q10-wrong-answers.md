@@ -60,7 +60,7 @@ Kiểm tra: unit 204 (thêm `wrong.test.ts` 10 test), e2e 162 (thêm `wrong-answ
 
 - Trang chủ có mục **"Ôn câu hay sai"** (giữa lời chào và "Nội dung học"), **ẩn** khi chưa có câu sai / localStorage bị chặn / không JS.
 - Mỗi trang quiz một nút kèm số câu: Từ vựng **tách theo cấp** (suy từ ID: `mn-01…25` N5, `mn-26…50` N4, `n3-` N3), Kanji, Bộ thủ, Chia thể, Đếm số (`o=tat-ca`), Số đếm (`loai=so`). Link mở trang quiz với `?on=sai` + `loai` = các loại câu đang có câu sai (trang mặc định chỉ chọn 1 loại).
-- Kanji / Chia thể không suy được cấp / nhóm từ ID → link không kèm cấp: câu sai ở cấp khác cấp mặc định cần đổi cấp trên trang (như số "Câu hay sai (N)" trên trang đó vốn đếm mọi cấp). Muốn chính xác phải nhúng bảng tra chữ → cấp vào trang chủ — chưa làm.
+- ~~Kanji / Chia thể không suy được cấp / nhóm từ ID → link không kèm cấp~~ — **đã xử lý 2026-11-17 bước 2.3a** (trang tự chọn cấp / nhóm có nhiều câu sai nhất khi `?on=sai`, mục dưới). Ghi chú gốc: câu sai ở cấp khác cấp mặc định cần đổi cấp trên trang (như số "Câu hay sai (N)" trên trang đó vốn đếm mọi cấp). Muốn chính xác phải nhúng bảng tra chữ → cấp vào trang chủ — chưa làm.
 - Code: `lib/quiz/wrong-summary.ts` (hàm thuần, `wrong-summary.test.ts` 5 test); JS trang chủ 1,4KB gzip. E2E: `wrong-answers.spec.ts` thêm 1 test (ẩn khi rỗng; nút theo trang; bấm → đúng bộ lọc, lượt chỉ có câu sai của cấp đó).
 
 ## Kế hoạch bước 2.3a — link "Câu hay sai" kèm cấp cho Kanji / Chia thể · ✅ xong 2026-11-17

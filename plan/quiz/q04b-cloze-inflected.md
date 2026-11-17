@@ -2,7 +2,7 @@
 
 > Phần chung (quyết định D1–D6, kiến trúc, bất biến, luồng làm bài, checklist): [README.md](README.md). File này chỉ chứa riêng task Q4b.
 
-Trạng thái: ✅ xong 2026-11-13 — spec duyệt cùng ngày (Q4b-4: có trộn dạng chia sai; ~115 câu bỏ qua để sau, ghi ở [README.md](README.md) mục Lỗi dữ liệu). 2026-11-16: gỡ 54 câu N3 rồi 30 câu nhóm B/C (mục Bổ sung) — còn **66** câu bỏ qua
+Trạng thái: ✅ xong 2026-11-13 — spec duyệt cùng ngày (Q4b-4: có trộn dạng chia sai; ~115 câu bỏ qua để sau, ghi ở [README.md](README.md) mục Lỗi dữ liệu). 2026-11-16: gỡ 54 câu N3 rồi 30 câu nhóm B/C (mục Bổ sung) — còn **66** câu bỏ qua → 2026-11-17 bước 1.1–2.2: còn **12** câu bỏ qua, đều "không hỏi" (mẫu câu, や, 買い物, phó từ N3 ～なる) — **hết tồn đọng**.
 
 Bối cảnh: [q04-vocab.md](q04-vocab.md) quyết định Q4-2 — loại "Điền từ" (`v-cloze`) hiện chỉ hỏi câu có từ đích **giữ nguyên dạng**. Q4b thêm câu có từ đích **đã chia** (`[[行きました]]`, `[[教えて]]`). Bộ chia dùng lại: `lib/quiz/conjugation.ts` ([q06-conjugation.md](q06-conjugation.md)).
 
@@ -125,7 +125,7 @@ Spec đề xuất (user duyệt trước khi làm):
 
 Test: mỗi phép phái sinh 1 ca đã biết (褒める → 褒められました, 払う → 払わなければなりません, 足りる → 足りなかったら, 切れる → 切れ); nhiễu không trùng mọi dạng đúng + phái sinh đúng của chính từ; mốc bỏ qua hạ theo số đo (dự kiến ~25).
 
-## Kế hoạch bước 2.2 — câu không phải chia thể (~24 câu) · ✅ phần web xong 2026-11-17 (còn 3 câu chờ user viết lại)
+## Kế hoạch bước 2.2 — câu không phải chia thể (~24 câu) · ✅ xong 2026-11-17 (3 câu 本/国/山: user giữ câu gốc, chữ trong từ ghép không tính lộ)
 
 Khảo sát 2026-11-17 — các nguyên nhân:
 
