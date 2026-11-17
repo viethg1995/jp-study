@@ -18,6 +18,7 @@ from pydantic import BaseModel
 from jp_pipeline.dictionaries import KanjiInfo
 from jp_pipeline.schemas import KanjiEntry, KanjiLessonRef, Radical, VocabEntry
 from jp_pipeline.transform.vocab_auto import cjk_chars, kanji_forms, normalize_han_viet
+from jp_pipeline.transform.vocab_text import join_senses
 
 # Số nét theo nhóm bộ thủ Khang Hy (chuẩn): (bộ đầu, bộ cuối, số nét)
 KANGXI_STROKE_RANGES = [
@@ -50,7 +51,7 @@ def parse_radicals(md: str) -> list[Radical]:
         forms = [f for f in re.split(r"[,、\s]+", _clean(m.group(2))) if f]
         if not forms or n in found:
             raise ValueError(f"bộ thủ {n}: dòng lỗi hoặc trùng: {line!r}")
-        meaning = _clean(m.group(4)) or None
+        meaning = join_senses(_clean(m.group(4))) or None  # nghĩa khác hẳn nhau: ";" → " / "
         found[n] = Radical(
             number=n,
             char=forms[0],
@@ -97,7 +98,7 @@ def apply_radical_overrides(radicals: list[Radical], text: str, name: str = "ove
         elif not value:
             raise ValueError(f"{name}:{i}: giá trị rỗng cho bộ {n} trường {field}")
         else:
-            new_value = value
+            new_value = join_senses(value) if field == "meaning_vi" else value
         if field == "char" and len(value) != 1:
             raise ValueError(f"{name}:{i}: char phải là 1 ký tự: {value!r}")
         by_num[n] = by_num[n].model_copy(update={field: new_value})

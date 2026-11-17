@@ -23,7 +23,7 @@ DICT_KANJIDIC = SRC_DICT / "kanjidic2" / "kanjidic2.xml.gz"
 DICT_UNIHAN = SRC_DICT / "unihan" / "Unihan.zip"
 DICT_KANJIVG = SRC_DICT / "kanjivg"  # kanjivg-YYYYMMDD-main.zip (CC BY-SA 3.0) — lấy bản mới nhất
 DICT_INDEX = SRC_DICT / "_index"
-JMDICT_INDEX = DICT_INDEX / "jmdict-v2.json"  # v2: thêm JmEntry.common_kanji (đổi cấu trúc → đổi tên để build lại cache)
+JMDICT_INDEX = DICT_INDEX / "jmdict-v3.json"  # v3: thêm JmEntry.common_reading (đổi cấu trúc → đổi tên để build lại cache)
 DICT_TESSDATA = SRC_DICT / "tessdata"  # jpn.traineddata (tessdata_best) cho OCR
 TESSERACT_DIR = Path(r"C:\Program Files\Tesseract-OCR")  # cài qua winget UB-Mannheim.TesseractOCR
 
@@ -31,6 +31,8 @@ TESSERACT_DIR = Path(r"C:\Program Files\Tesseract-OCR")  # cài qua winget UB-Ma
 # file ngoài _auto/ do người/AI duyệt — script KHÔNG BAO GIỜ ghi đè.
 ENRICH_VOCAB = ROOT / "pipeline" / "enrichment" / "vocabulary"
 ENRICH_KANJI = ROOT / "pipeline" / "enrichment" / "kanji"
+# ví dụ Kanji ghim (`字|từ|kana`) — thư mục con: mọi *.txt ở gốc ENRICH_KANJI bị đọc như file nghĩa
+KANJI_PINNED_EXAMPLES = ENRICH_KANJI / "pinned" / "examples.txt"
 # Sửa bảng 214 bộ thủ trích từ PDF: 'số|trường|giá trị' (char, name_vi, meaning_vi, variants)
 ENRICH_RADICAL_OVERRIDES = ENRICH_KANJI / "radicals" / "overrides.txt"
 ENRICH_RADICAL_OVERRIDES_AI = ENRICH_KANJI / "radicals" / "overrides-ai.txt"  # đề xuất AI chưa duyệt, áp sau

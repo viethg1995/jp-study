@@ -1,0 +1,245 @@
+# by: ai
+# Nghĩa VI cho từ ví dụ JMdict còn thiếu sau khi đổi cách chọn ví dụ Kun (2026-11-17), dịch từ nghĩa EN của JMdict (sense đầu).
+# Cú pháp: từ|kana|nghĩa — sát nghĩa ", ", khác nghĩa ";" (web hiện " / ").
+三|み|ba (số 3)
+三十日|みそか|ngày cuối tháng
+並み|なみ|trung bình, bình thường, thông thường
+丸める|まるめる|làm tròn, vo tròn; cuộn lại
+乳首|ちちくび|núm vú
+二七日|ふたなのか|lễ cúng tuần thứ hai (ngày thứ 14 sau khi mất)
+交わす|かわす|trao đổi (thư từ, lời chào, tranh luận…)
+交わる|まじわる|giao nhau, cắt nhau; hòa vào, tham gia
+代える|かえる|thay thế, thay đổi
+代わる|かわる|thay thế, thay cho; kế nhiệm
+低める|ひくめる|hạ thấp, làm thấp xuống
+住まう|すまう|sống, cư ngụ
+余る|あまる|thừa, còn dư, dư ra
+作る|つくる|làm, chế tạo, sản xuất
+使う|つかう|dùng, sử dụng
+供える|そなえる|dâng, cúng
+係わる|かかわる|liên quan, dính líu (đến)
+値する|あたいする|đáng, xứng đáng
+備える|そなえる|trang bị, chuẩn bị sẵn
+備わる|そなわる|được trang bị, sẵn có
+傷む|いたむ|đau, nhức
+傷める|いためる|làm đau, làm bị thương
+優れる|すぐれる|giỏi hơn, ưu tú, vượt trội
+光|ひかり|ánh sáng
+具わる|そなわる|được trang bị, sẵn có
+円い|まるい|tròn
+円み|まるみ|độ tròn, nét tròn trịa
+初め|はじめ|lúc đầu, sự bắt đầu
+利く|きく|có hiệu quả, có tác dụng
+刺|とげ|gai, dằm
+加わる|くわわる|được thêm vào; tham gia
+勝手|かって|tùy tiện, theo ý mình; ích kỷ
+危うい|あやうい|nguy hiểm, nguy cấp
+危ぶむ|あやぶむ|lo ngại, nghi ngờ
+原っぱ|はらっぱ|bãi đất trống, cánh đồng
+収まる|おさまる|vừa, nằm gọn (trong hộp, khung, ngân sách…)
+収める|おさめる|cất vào, để vào
+受かる|うかる|thi đỗ
+否めない|いなめない|không thể phủ nhận
+和らぐ|やわらぐ|dịu đi, lắng xuống
+和らげる|やわらげる|làm dịu, làm giảm nhẹ
+問屋|とんや|cửa hàng bán buôn, nhà bán sỉ
+営む|いとなむ|kinh doanh, điều hành (cửa hàng, công việc)
+四本|よんほん|bốn (cây, chai… vật dài)
+回す|まわす|xoay, quay
+回る|まわる|quay, xoay vòng
+固さ|かたさ|độ cứng, độ chắc
+固まる|かたまる|cứng lại, đông cứng
+固める|かためる|làm cứng, làm đông; củng cố
+地主|じぬし|địa chủ, chủ đất
+埋もれる|うずもれる|bị chôn vùi, bị che lấp
+声色|こわいろ|giọng nói, giọng điệu
+外面|そとづら|bề ngoài, mặt ngoài
+夜|よる|ban đêm, buổi tối
+大店|おおだな|cửa hàng lớn
+存じ|ぞんじ|biết (khiêm nhường)
+安らか|やすらか|yên bình, thanh thản
+定まる|さだまる|được định ra, ổn định
+定める|さだめる|quyết định, quy định
+実|み|quả, hạt
+実る|みのる|ra quả, chín
+家づくり|やづくり|việc xây nhà
+家主|いえあるじ|chủ nhà (cho thuê)
+富|とみ|của cải, sự giàu có
+寝|い|giấc ngủ
+小さじ|こさじ|thìa cà phê (đo lường)
+小雨|こさめ|mưa nhỏ, mưa phùn
+届け|とどけ|đơn trình báo, giấy đăng ký
+差し支え|さしつかえ|trở ngại, vướng mắc
+平ら|たいら|bằng phẳng
+幸|さち|may mắn, hạnh phúc
+広まる|ひろまる|lan rộng, được phổ biến
+広める|ひろめる|truyền bá, phổ biến
+建てる|たてる|xây, dựng
+弱まる|よわまる|yếu đi, suy giảm
+弱音|よわね|lời than vãn, kêu ca
+強いる|しいる|ép buộc, cưỡng ép
+強まる|つよまる|mạnh lên
+形見|かたみ|kỷ vật (của người đã mất)
+得る|える|được, đạt được, thu được
+心がける|こころがける|để tâm, lưu ý; cố gắng
+怒らせる|いからせる|làm (ai) tức giận, chọc giận
+急かす|せかす|giục, thúc giục
+急ぐ|いそぐ|vội, gấp, khẩn trương
+恋しい|こいしい|nhớ nhung, thương nhớ
+恥さらし|はじさらし|nỗi ô nhục, sự xấu hổ
+悲しむ|かなしむ|buồn, đau buồn
+慣らす|ならす|làm cho quen, tập cho quen
+成す|なす|tạo thành, hình thành
+我ら|われら|chúng tôi, chúng ta
+戦|いくさ|chiến tranh, trận chiến
+戦う|たたかう|chiến đấu, đánh nhau
+抜ける|ぬける|rụng, tuột ra; bị sót
+抱える|かかえる|ôm, ôm trong tay
+捕える|とらえる|bắt, bắt giữ
+捜す|さがす|tìm, tìm kiếm
+授ける|さずける|ban, trao tặng
+提げる|さげる|xách, cầm theo
+揺らぐ|ゆらぐ|lung lay, rung rinh
+操|みさお|tiết tháo, lòng chung thủy
+改める|あらためる|thay đổi, sửa đổi
+放れる|はなれる|thoát ra, được thả ra
+散らかす|ちらかす|bày bừa, làm bừa bộn
+数少ない|かずすくない|ít ỏi
+整える|ととのえる|sắp xếp, chỉnh đốn, sửa sang
+新た|あらた|mới, mới mẻ
+旅立つ|たびだつ|lên đường, khởi hành
+早まる|はやまる|được dời sớm hơn
+早乙女|さおとめ|cô gái cấy lúa; thiếu nữ
+映える|はえる|tỏa sáng, rực rỡ
+暇がない|いとまがない|bận, không có thời gian
+暖まる|あたたまる|ấm lên, sưởi ấm
+暖める|あたためる|làm ấm, hâm nóng
+更ける|ふける|(đêm) khuya dần, về khuya
+替わる|かわる|thay thế, thay cho; kế nhiệm
+望月|もちづき|trăng rằm
+束ねる|たばねる|bó lại, buộc thành bó
+果たす|はたす|hoàn thành, thực hiện
+果てる|はてる|kết thúc, chấm dứt; kiệt sức
+栄える|さかえる|thịnh vượng, phồn vinh
+極まる|きわまる|lên đến cực điểm, tột cùng
+極める|きわめる|đạt đến tột cùng, đi đến tận cùng
+構える|かまえる|dựng, lập (nhà, cửa hàng)
+横たわる|よこたわる|nằm, nằm dài
+欠ける|かける|bị mẻ, bị sứt; gãy
+次|つぎ|tiếp theo, kế tiếp
+欲する|ほっする|muốn, mong muốn
+歌う|うたう|hát
+正す|ただす|sửa, sửa cho đúng
+歩む|あゆむ|đi bộ, bước đi
+治める|おさめる|cai trị, cai quản
+泊める|とめる|cho ở nhờ, cho trọ
+注ぎ込む|つぎこむ|đổ (tiền, công sức) vào, đầu tư
+浴びせる|あびせる|dội, tưới lên
+深まる|ふかまる|sâu thêm, tăng thêm
+混じる|まじる|bị trộn lẫn, lẫn vào
+減らす|へらす|giảm, làm giảm
+渡る|わたる|băng qua, đi qua
+温かい|あたたかい|ấm, ấm áp
+温める|あたためる|làm ấm, hâm nóng
+測る|はかる|đo, đo đạc
+満ちる|みちる|đầy, tràn đầy
+溶ける|とける|tan, chảy
+滑らか|なめらか|trơn nhẵn, mượt
+照らす|てらす|chiếu sáng, soi sáng
+照れる|てれる|ngượng, xấu hổ
+父母|ぶも|cha mẹ
+独り|ひとり|một mình, một người
+現す|あらわす|thể hiện, biểu thị
+甘える|あまえる|nũng nịu, làm nũng
+甘やかす|あまやかす|nuông chiều, làm hư
+田んぼ|たんぼ|ruộng lúa
+留まる|とまる|dừng lại
+疑う|うたがう|nghi ngờ
+病|やまい|bệnh, bệnh tật
+痛ましい|いたましい|đáng thương, đau lòng
+登る|のぼる|leo, trèo, đi lên
+白米|しらよね|gạo trắng (đã xát)
+目頭|まがしら|khóe mắt (phía trong)
+省みる|かえりみる|tự xét lại, nghĩ lại (bản thân)
+眼|まなこ|mắt, con mắt
+示す|しめす|chỉ ra, cho thấy, biểu thị
+神主|かんぬし|thầy cúng Thần đạo
+私立|わたくしりつ|tư lập, tư thục
+紅|くれない|đỏ thẫm
+組み|くみ|lớp (học)
+結う|ゆう|búi, chải (tóc)
+絶える|たえる|tuyệt diệt, mất hẳn
+絶つ|たつ|cắt đứt
+絶やす|たやす|diệt trừ, tiêu diệt hết
+締まる|しまる|đóng, bị đóng
+翻る|ひるがえる|tung bay, phấp phới (trong gió)
+老いる|おいる|già đi
+老ける|ふける|già đi, trông già
+背丈|せいたけ|vóc dáng, chiều cao
+臭う|におう|có mùi, bốc mùi
+舞|まい|điệu múa, múa
+良いね|いいね|hay đấy, được đấy
+薄まる|うすまる|loãng ra, nhạt đi
+薄める|うすめる|pha loãng
+虫除け|むしよけ|thuốc chống côn trùng
+衣|ころも|quần áo, y phục
+要|かなめ|trục, chốt
+親しむ|したしむ|thân thiết, gần gũi
+親ばか|おやばか|cha mẹ quá nuông chiều con
+観る|みる|xem, ngắm
+解く|とく|cởi, tháo
+触れる|ふれる|chạm, sờ
+訪れる|おとずれる|thăm, đến thăm
+試みる|こころみる|thử, thử làm
+詰める|つめる|nhồi, nhét
+話す|はなす|nói, nói chuyện
+認める|みとめる|công nhận, thừa nhận; nhận thấy
+誘い|いざない|lời mời, sự rủ rê
+語らう|かたらう|trò chuyện, tâm sự
+語る|かたる|kể, nói về
+誤る|あやまる|nhầm, mắc lỗi
+調べ|しらべ|sự điều tra, kiểm tra
+請ける|うける|nhận
+負かす|まかす|đánh bại
+貴い|たっとい|quý, quý giá
+貴ぶ|とうとぶ|quý trọng, coi trọng
+超える|こえる|vượt qua
+超す|こす|vượt qua (núi…)
+踏まえる|ふまえる|dựa trên, căn cứ vào
+軟らか|やわらか|mềm, mềm mại
+転がす|ころがす|lăn
+転がる|ころがる|lăn, lăn lông lốc
+転ぶ|まろぶ|ngã, té
+軽やか|かろやか|nhẹ nhàng, nhẹ nhõm
+辺り|あたり|vùng lân cận, xung quanh
+退ける|のける|dẹp sang một bên, gạt ra
+送る|おくる|gửi
+逃がす|にがす|thả ra, để thoát
+逆らう|さからう|chống lại, làm trái
+速い|はやい|nhanh
+速める|はやめる|đẩy nhanh, rút sớm
+速やか|すみやか|nhanh chóng, mau lẹ
+造り|つくり|việc làm, chế tạo
+造る|つくる|làm, chế tạo, sản xuất
+進める|すすめる|tiến lên, xúc tiến
+運ぶ|はこぶ|chở, vận chuyển, mang
+遭う|あう|gặp (chuyện không may)
+量る|はかる|cân, đo
+門松|かどまつ|cây thông trang trí Tết
+関わる|かかわる|liên quan, dính líu (đến)
+際立つ|きわだつ|nổi bật
+隣り合う|となりあう|kề nhau, ngồi cạnh nhau
+雨具|あまぐ|đồ đi mưa
+震える|ふるえる|run, rung
+静まる|しずまる|lặng đi, yên tĩnh lại
+静める|しずめる|làm yên lặng, dỗ yên
+面|おもて|mặt, khuôn mặt
+頼る|たよる|dựa vào, nhờ cậy
+風上|かざかみ|đầu gió
+飛ばす|とばす|làm bay, thả bay
+食う|くう|ăn
+騒がしい|さわがしい|ồn ào, ầm ĩ
+高まる|たかまる|dâng cao, tăng lên
+魚市場|うおいちば|chợ cá
+鳴らす|ならす|rung (chuông), làm kêu
+黒煙|くろけむり|khói đen

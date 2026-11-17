@@ -391,6 +391,9 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
     print(f"  ví dụ: +{ex_report.jmdict_added} từ JMdict | chưa dịch {ex_report.untranslated} "
           f"| không rõ On/Kun {ex_report.unclassified} | chữ < 5 ví dụ: {len(ex_report.below_min)} "
           f"{''.join(ex_report.below_min)}")
+    print(f"  phủ âm: +{ex_report.readings_filled} từ | bỏ âm không có từ: "
+          f"{sum(map(len, ex_report.readings_removed.values()))} dạng / {len(ex_report.readings_removed)} chữ "
+          f"| âm chỉ có từ hiếm (chưa có ví dụ): {sum(map(len, ex_report.readings_without_example.values()))}")
     print(f"  bộ thủ thành phần: TB {sum(len(k.radical_parts) for k in kanji) / len(kanji):.1f} bộ/chữ "
           f"| bộ chính không có trong cây KanjiVG: {len(parts_report.primary_not_in_tree)} "
           f"{''.join(parts_report.primary_not_in_tree[:40])} | không có SVG: {len(parts_report.no_tree)}")
@@ -400,12 +403,14 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
 def _kanji_examples(kanji: list, entries: list, kanjidic: dict):  # type: ignore[no-untyped-def,type-arg]
     """Từ ví dụ On/Kun cho từng chữ (giáo trình + JMdict) — xem transform/kanji_examples.py."""
     from jp_pipeline.dictionaries import load_jmdict
-    from jp_pipeline.transform.kanji_examples import build_examples, parse_example_translations
+    from jp_pipeline.transform.kanji_examples import build_examples, parse_example_translations, parse_pinned_examples
 
     jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     d = paths.ENRICH_KANJI / "examples"
     tr = parse_example_translations([(f.name, f.read_text(encoding="utf-8")) for f in sorted(d.glob("*.txt"))])
-    kanji, rep = build_examples(kanji, entries, jm, kanjidic, tr)
+    pf = paths.KANJI_PINNED_EXAMPLES
+    pinned = parse_pinned_examples(pf.read_text(encoding="utf-8")) if pf.exists() else {}
+    kanji, rep = build_examples(kanji, entries, jm, kanjidic, tr, pinned)
     _write_json(paths.ENRICH_VOCAB_AUTO.parent.parent / "kanji-examples-report.json", rep.model_dump())
     return kanji, rep
 

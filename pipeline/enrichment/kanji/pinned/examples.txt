@@ -1,0 +1,10 @@
+# by: user
+# Ví dụ Kanji ghim: `字|từ|kana` — luôn nối vào examples[] của chữ (sau bước bổ sung JMdict, trước bước phủ cách đọc).
+# Từ phải có trong JMdict (đúng chữ + kana), không có → build lỗi. Nghĩa VI lấy từ examples/*.txt như từ JMdict khác.
+# 2026-11-17: khôi phục từ ghép đọc âm gốc + okurigana mà bản sửa 不釣合い làm rơi (bỏ 鳴門 — địa danh).
+待|待合|まちあい
+置|物置|ものおき
+押|押入れ|おしいれ
+替|両替|りょうがえ
+締|取締役|とりしまりやく
+指|指図|さしず
