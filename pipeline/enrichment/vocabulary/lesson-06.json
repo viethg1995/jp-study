@@ -647,5 +647,25 @@
         "vi": "\"Đi cùng nhé?\" \"Ừ, đi thôi.\""
       }
     ]
+  },
+  "mn-06-047": {
+    "meaning_source": "ai-draft",
+    "meaning_vi": "Được đấy nhỉ, hay quá.",
+    "review": {
+      "by": "ai",
+      "meaning_by": "ai",
+      "meaning_note": "\"./ \" → \", \"",
+      "status": "reviewed"
+    }
+  },
+  "mn-06-048": {
+    "meaning_source": "ai-draft",
+    "meaning_vi": "Tôi hiểu rồi, vâng ạ.",
+    "review": {
+      "by": "ai",
+      "meaning_by": "ai",
+      "meaning_note": "\"/ \" → \", \"",
+      "status": "reviewed"
+    }
   }
 }

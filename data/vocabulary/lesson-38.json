@@ -1311,7 +1311,7 @@
       "kanji_refs": [],
       "legacy_id": "lesson38_28",
       "lesson": 38,
-      "meaning_vi": "Ôi, không được rồi./ ôi, trời ơi.",
+      "meaning_vi": "Ôi, không được rồi / Ôi, trời ơi.",
       "particle": null,
       "pos": {
         "code": "Conv",
@@ -1320,16 +1320,20 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "source"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
           "context": null,
-          "text": "Ôi, không được rồi./ ôi, trời ơi."
+          "text": "Ôi, không được rồi"
+        },
+        {
+          "context": null,
+          "text": "Ôi, trời ơi."
         }
       ],
       "transitivity": null,

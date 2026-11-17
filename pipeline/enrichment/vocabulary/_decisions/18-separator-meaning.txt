@@ -1,0 +1,12 @@
+# by: ai
+# Vòng 18 — chuẩn hóa dấu trong nghĩa, 2026-11-17: sát nghĩa → ", "; khác nghĩa → ";" (build hiện " / ").
+# "/" viết liền chỉ còn cho từ thay thế trong cùng cụm (anh/chị), không làm dấu ngăn nghĩa. Chỉ đổi dấu, không đổi chữ.
+# id | nghĩa mới | ghi chú
+01-002|anh, chị, ông, bà|"anh/ chị/ ông/ bà" → danh sách cách bằng ", "
+06-047|Được đấy nhỉ, hay quá.|"./ " → ", "
+06-048|Tôi hiểu rồi, vâng ạ.|"/ " → ", "
+19-018|nhờ ơn anh/chị mà ～; Nhờ trời ～|"anh/ chị" → "anh/chị" (liền)
+37-030|Hay quá nhỉ, vui quá nhỉ.|"./ " → ", "
+38-028|Ôi, không được rồi; Ôi, trời ơi.|"./ " → ";" (câu đã có dấu phẩy bên trong)
+47-006|có [âm thanh, tiếng]; có [vị]; có [mùi]|"[âm thanh/ tiếng]" → "[âm thanh, tiếng]"
+48-011|Hay nhỉ, được đấy nhỉ.|"./ " → ", "

@@ -1485,7 +1485,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-632",
       "lesson": 13,
-      "meaning_vi": "Tăng / (Chụp) cận cảnh /Đăng lên",
+      "meaning_vi": "Tăng / (Chụp) cận cảnh / Đăng lên",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1494,11 +1494,11 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "jmdict"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
@@ -1507,7 +1507,11 @@
         },
         {
           "context": null,
-          "text": "(Chụp) cận cảnh /Đăng lên"
+          "text": "(Chụp) cận cảnh"
+        },
+        {
+          "context": null,
+          "text": "Đăng lên"
         }
       ],
       "transitivity": null,
@@ -1534,7 +1538,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-633",
       "lesson": 13,
-      "meaning_vi": "Mệt, kiệt sức / Cộng thêm/Trừ đi /Lãi/ Lỗ",
+      "meaning_vi": "Mệt, kiệt sức / Cộng thêm/trừ đi / Lãi/lỗ",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1543,11 +1547,11 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "jmdict"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
@@ -1556,7 +1560,11 @@
         },
         {
           "context": null,
-          "text": "Cộng thêm/Trừ đi /Lãi/ Lỗ"
+          "text": "Cộng thêm/trừ đi"
+        },
+        {
+          "context": null,
+          "text": "Lãi/lỗ"
         }
       ],
       "transitivity": null,

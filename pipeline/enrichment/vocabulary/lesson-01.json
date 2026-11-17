@@ -30,8 +30,12 @@
     "han_viet_source": "user",
     "kanji": "貴方",
     "kanji_source": "user",
+    "meaning_source": "ai-draft",
+    "meaning_vi": "anh, chị, ông, bà",
     "review": {
       "by": "user",
+      "meaning_by": "ai",
+      "meaning_note": "\"anh/ chị/ ông/ bà\" → danh sách cách bằng \", \"",
       "status": "reviewed"
     }
   },

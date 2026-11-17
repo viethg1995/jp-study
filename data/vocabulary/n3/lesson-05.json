@@ -2450,7 +2450,7 @@
       ],
       "legacy_id": "n3cb-241",
       "lesson": 5,
-      "meaning_vi": "Thay đổi (trạng thái, tính; chất)",
+      "meaning_vi": "Thay đổi (trạng thái, tính chất)",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2459,18 +2459,18 @@
       "provenance": {
         "han_viet": "derived",
         "kanji": "source",
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "jmdict"
       },
       "related": [
         "こたいえきたい"
       ],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
           "context": null,
-          "text": "Thay đổi (trạng thái, tính; chất)"
+          "text": "Thay đổi (trạng thái, tính chất)"
         }
       ],
       "transitivity": null,

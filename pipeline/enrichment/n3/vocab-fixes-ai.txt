@@ -6,3 +6,7 @@
 462|pos|Adv|かなり: phó từ (câu ví dụ: かなり暑い)
 471|pos|Adv|たいてい: phó từ (たいてい家にいます)
 669|pos|Adv|直接: phó từ / danh từ (直接話したい); không có 直接な
+# --- 2026-11-17: chuẩn hóa dấu trong nghĩa (sát nghĩa ", ", khác nghĩa ";" → hiện " / "; "/" liền chỉ cho từ thay thế) — chỉ đổi dấu ---
+241|meaning|Thay đổi (trạng thái, tính chất)|"tính; chất" là lỗi gõ của "tính chất"
+632|meaning|Tăng; (Chụp) cận cảnh; Đăng lên|" /Đăng lên" → nghĩa riêng
+633|meaning|Mệt, kiệt sức; Cộng thêm/trừ đi; Lãi/lỗ|" /Lãi/ Lỗ" → nghĩa riêng; "/" liền giữ cặp từ thay thế
