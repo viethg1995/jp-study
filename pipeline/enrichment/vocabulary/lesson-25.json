@@ -48,9 +48,13 @@
     ],
     "han_viet": "TÚC",
     "han_viet_source": "user",
+    "pos_code": "V2",
+    "pos_source": "ai-draft",
     "review": {
       "by": "user",
       "note": "gốc ghi ĐỦ (nghĩa tiếng Việt, không phải âm Hán)",
+      "pos_by": "ai",
+      "pos_note": "足ります: 足りる là nhóm II (bị ghi V1 → たる, たらない sai)",
       "status": "reviewed"
     }
   },

@@ -22,6 +22,9 @@ Cập nhật mỗi khi một task làm deck lớn thêm. Mốc giới hạn tron
 | 2026-11-16 | `vocabulary/quiz/n3-dien.json` | 415KB | 69KB | +54 câu N3 (tra `aliases` bảng chia) — **sát mốc 70KB gzip** |
 | 2026-11-16 | `chia-the/quiz/dong-tu.json` | 744KB | 72KB | thêm `aliases` vào hàng |
 | 2026-11-16 | `chia-the/quiz/dong-tu.json` | 753KB | 73KB | +10 hàng tách khỏi alias gộp theo kana (bước 1.1) |
+| 2026-11-17 | `vocabulary/quiz/n5-dien.json` | 451KB | 63KB | bước 2.1 thể phái sinh (+8 câu) — **vượt mốc 450KB** → mốc test tạm 500KB / 75KB |
+| 2026-11-17 | `vocabulary/quiz/n4-dien.json` | 428KB | 69KB | bước 2.1 (+28 câu: bài 37, 43, 48, 49) |
+| 2026-11-17 | `vocabulary/quiz/n3-dien.json` | 417KB | 69KB | bước 2.1 (+4 câu) |
 | 2026-11-16 | `vocabulary/quiz/n5-dien.json` | 445KB | 63KB | +8 câu (khớp theo cách đọc) — **sát mốc 450KB gốc** |
 | 2026-11-16 | `vocabulary/quiz/n4-dien.json` | 409KB | 66KB | +22 câu |
 | 2026-11-13 | `vocabulary/quiz/n5-tu.json` | 409KB | 54KB | |

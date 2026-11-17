@@ -88,7 +88,15 @@
         "source": "ai-draft",
         "vi": "Tôi mượn sách ở thư viện."
       }
-    ]
+    ],
+    "pos_code": "V2",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "借ります: 借りる là nhóm II (bị ghi V1 → thể từ điển かる, phủ định かりない sai) — rà soát bước 2.1 quiz 2026-11-17",
+      "status": "reviewed"
+    }
   },
   "mn-07-007": {
     "examples": [

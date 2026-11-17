@@ -97,7 +97,7 @@ Kết quả: bỏ qua 96 → **66**; câu chia thể N5 81 → 89, N4 141 → 16
 
 Còn lại (66): thể ghép (~43: bị động + ました, なければなりません, なかったら, thân ます + そう…) và không phải chia thể (~24) — xem README mục Lỗi dữ liệu.
 
-## Kế hoạch bước 2.1 — thể ghép (~43 câu) · chờ duyệt spec
+## Kế hoạch bước 2.1 — thể ghép (~43 câu) · ✅ xong 2026-11-17 (user duyệt spec: APPLY)
 
 Ghi 2026-11-17 (kế hoạch chung: [README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16)). Nguyên tắc: **sinh thể phái sinh trên web** từ ô bảng chia có sẵn, **không** thêm thể vào `conjugation.json` → trang `/chia-the/`, quiz chia thể (20 thể) và dung lượng `dong-tu.json` giữ nguyên.
 
@@ -137,3 +137,15 @@ Khảo sát 2026-11-17 — các nguyên nhân:
 | **Không hỏi** | mn-01-030 こちらは～さんです (mẫu câu), mn-10-043 ～や～ (trợ từ), N3 `ずいぶん～なる` / `やっと～た` / `つい～てしまった` / `けっして～ない` / `ただ～するだけ`… | Đích là mẫu câu có phần giữa tự do | Ghi rõ "không hỏi" — test đếm riêng, không tính vào mốc bỏ qua |
 
 Kết quả mong đợi sau 2.1 + 2.2: mốc bỏ qua chỉ còn nhóm "không hỏi" + "khác" (~20).
+
+### Bước 2.1 — sai khác so với spec / kết quả (2026-11-17)
+
+| # | Spec | Thực tế | Lý do |
+|---|---|---|---|
+| 1 | Bảng `DERIVED` | `lib/quiz/vocab.ts`: `DERIVED` theo nhóm bảng chia + `cellOf` / `deriveFrom` / `formLesson`; thể có sẵn luôn thử trước | So bộ câu trước/sau: **0 câu cũ mất / đổi** do phần web (7 câu đổi nhiễu là do sửa dữ liệu, mục 3) |
+| 2 | Thân ます + そう… | Thân ます / gốc tính từ chỉ nối đuôi `そう / すぎ / ながら / に` (`STEM_TAIL`) | Bản đầu nhận đuôi bất kỳ → 足りなかったら bị đọc thành 足り + なかったら, nhiễu vô nghĩa (着きなかったら) |
+| 3 | (không có) | **3 lỗi nhóm động từ** lộ ra (lần rà 1.2 chỉ quét V1 đuôi -iru/-eru, không quét chiều ngược): 借ります, 足ります V1 → **V2**; 楽しみにしています V1 → **V2** (thể từ điển từng là たのしみにしてう) — `_decisions/15-conjugation-pos.txt`. n3-159 足りる giờ gộp đúng vào 足ります (bảng chia 719 → 718) | Rà tay toàn bộ ~170 động từ V1 Minna có thân ます hàng i: còn lại đều nhóm I thật |
+| 4 | Thể phái sinh thêm | Ngoài bảng spec: khả năng + ます/ました/ません/ませんでした/て (bài 27), なくて (39), なければ (35) | Cùng cơ chế, không tốn thêm; chưa có câu nào dùng tới nhưng sẵn cho câu ví dụ sau |
+| 5 | Dung lượng | n5-dien **451KB** / 63KB gzip (vượt mốc 450KB 632 byte), n4-dien 428KB / **69KB gzip**, n3-dien 417KB / 69KB → mốc test **tạm** 500KB / 75KB | Như dự kiến (2.1-6); bước 3 thay bằng mốc mỗi chunk |
+
+Kết quả: **+40 câu** (N5 89 → 97, N4 163 → 191, N3 216 → 220); bỏ qua 66 → **26**. Test mới: 8 ca phái sinh (đáp án + tên thể trong giải thích + nhiễu), thân ます chỉ nối đuôi hợp lệ. Quiz chia thể: khả năng = bị động 160 → 162 (借りる, 足りる).

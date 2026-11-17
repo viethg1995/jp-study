@@ -33,10 +33,12 @@ describe("15 deck (cấp × loại câu)", () => {
         assert.deepEqual(checkDeck(items).slice(0, 5), []);
         assert.ok(dropped.length / (items.length + dropped.length) < 0.02, `bỏ ${dropped.length} câu`);
         assert.ok(items.every((q) => q.kind === VOCAB_KINDS[slug] && q.tags.level === level));
-        // Giới hạn đo 2026-11-12: lớn nhất ~400KB gốc / ~47KB gzip; Q4b (2026-11-13) -dien lên ~65KB gzip
+        // Giới hạn đo 2026-11-12: lớn nhất ~400KB gốc / ~47KB gzip; Q4b (2026-11-13) -dien lên ~65KB gzip.
+        // 2026-11-17 bước 2.1 (thể phái sinh): n5-dien 451KB → TẠM nâng 450KB → 500KB; bước 3 (Q12, chia deck theo bài)
+        // thay bằng mốc mỗi chunk (plan/quiz/q12-deck-chunking.md)
         const json = JSON.stringify({ version: 1, name: `${level}-${slug}`, items });
-        assert.ok(Buffer.byteLength(json) < 450_000, `${Buffer.byteLength(json)} byte`);
-        assert.ok(gzipSync(json).length < 70_000, `${gzipSync(json).length} byte gzip`);
+        assert.ok(Buffer.byteLength(json) < 500_000, `${Buffer.byteLength(json)} byte`);
+        assert.ok(gzipSync(json).length < 75_000, `${gzipSync(json).length} byte gzip`);
       });
     }
   }
@@ -151,7 +153,7 @@ describe("v-cloze (điền từ)", () => {
   const inflected = (level: VocabLevel): QuizItem[] => deck(level, "dien").filter((q) => q.explain?.includes(" = "));
 
   test("Q4b: có câu từ đích đã chia mỗi cấp; số câu bỏ qua không tăng (mốc đo 2026-11-16)", () => {
-    const min = { n5: 85, n4: 155, n3: 200 }; // đo 2026-11-16: 89 · 163 · 216
+    const min = { n5: 95, n4: 185, n3: 215 }; // đo 2026-11-17: 97 · 191 · 220
     for (const level of VOCAB_LEVELS) assert.ok(inflected(level).length >= min[level], `${level}: ${inflected(level).length}`);
     // câu có [[…]] đã biến đổi (không phải danh từ riêng) nhưng không vào deck — tồn đọng dữ liệu ở README "Lỗi dữ liệu"
     let skipped = 0;
@@ -160,7 +162,7 @@ describe("v-cloze (điền từ)", () => {
       for (const e of all.filter((x) => levelOf(x) === level && x.pos.code !== "PN"))
         for (const x of e.examples) if (/\[\[/.test(x.ruby) && !ids.has(x.id)) skipped++;
     }
-    assert.ok(skipped <= 70, `bỏ qua ${skipped} câu`); // đo 2026-11-16: 66 (2026-11-13: 148 → tra `aliases` N3: 96 → khớp theo cách đọc + sửa dữ liệu: 66)
+    assert.ok(skipped <= 30, `bỏ qua ${skipped} câu`); // đo 2026-11-17: 26 (2026-11-13: 148 → aliases N3: 96 → khớp cách đọc: 66 → thể phái sinh: 26)
   });
 
   test("Q4b: từ N3 trùng Minna (aliases bảng chia) có câu điền từ; alias không thắng same_word", () => {
@@ -190,6 +192,34 @@ describe("v-cloze (điền từ)", () => {
     // 悪くないです: ～くありません là dạng đúng → không được làm nhiễu
     const warui = q("n5", "mn-08-016-e1");
     assert.ok(!warui.pool.some((p) => rubyForms(p).reading.endsWith("くありません")), warui.pool.join(" "));
+  });
+
+  test("Q4b bước 2.1: thể phái sinh — bị động/sai khiến + ます, なければなりません, なくても, thân ます / gốc tính từ", () => {
+    const q = (level: VocabLevel, id: string): QuizItem => {
+      const it = deck(level, "dien").find((x) => x.id === `v-cloze:${id}`);
+      assert.ok(it, id);
+      return it;
+    };
+    const cases: [VocabLevel, string, string, string][] = [
+      ["n4", "mn-37-001-e1", "褒められました", "Thể bị động → ました"],
+      ["n4", "mn-48-004-e1", "録音させて", "Thể sai khiến → て"],
+      ["n5", "mn-17-004-e1", "払わなければなりません", "Thể ない → なければなりません"],
+      ["n5", "mn-17-006-e1", "出かけなくても", "Thể ない → なくても"],
+      ["n5", "mn-25-004-e1", "足りなかったら", "Quá khứ phủ định thể thường + ら"], // 足ります sửa V1 → V2
+      ["n4", "mn-43-005-e1", "切れ", "Thân ます"],
+      ["n4", "mn-43-015-e1", "優し", "Gốc tính từ (bỏ い)"],
+      ["n3", "n3-575-e1", "与えすぎないで", "Thân ます + すぎないで"],
+    ];
+    for (const [level, id, answer, form] of cases) {
+      const it = q(level, id);
+      assert.equal(rubyForms(it.answer).text, answer, id);
+      assert.ok(it.explain?.startsWith(`${answer} = ${form}`), `${id}: ${it.explain}`);
+      // nhiễu cùng kiểu phái sinh, không có dạng đúng nào của chính từ
+      assert.ok(it.pool.length >= 3 && !it.pool.some((p) => rubyForms(p).reading === rubyForms(it.answer).reading), id);
+    }
+    // thân ます không nối đuôi bất kỳ: 足りなかったら không phải 足り + なかったら
+    for (const level of VOCAB_LEVELS)
+      for (const it of deck(level, "dien")) if (it.explain?.includes(" = Thân ます + ")) assert.match(it.explain, / = Thân ます \+ (そう|すぎ|ながら|に)/u, it.id);
   });
 
   test("Q4b: nhiễu không đọc giống đáp án (đồng âm cùng thể: 付いて ↔ ついて)", () => {

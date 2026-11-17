@@ -3893,105 +3893,105 @@
         {
           "form": "te",
           "irregular": false,
-          "kana": "かって",
-          "ruby": "{借|か}って",
-          "rule": "り → って"
+          "kana": "かりて",
+          "ruby": "{借|か}りて",
+          "rule": "thân ます + て"
         },
         {
           "form": "nai",
           "irregular": false,
-          "kana": "からない",
-          "ruby": "{借|か}らない",
-          "rule": "り → ら + ない"
+          "kana": "かりない",
+          "ruby": "{借|か}りない",
+          "rule": "thân ます + ない"
         },
         {
           "form": "nakatta",
           "irregular": false,
-          "kana": "からなかった",
-          "ruby": "{借|か}らなかった",
-          "rule": "り → ら + なかった"
+          "kana": "かりなかった",
+          "ruby": "{借|か}りなかった",
+          "rule": "thân ます + なかった"
         },
         {
           "form": "dict",
           "irregular": false,
-          "kana": "かる",
-          "ruby": "{借|か}る",
-          "rule": "り → る"
+          "kana": "かりる",
+          "ruby": "{借|か}りる",
+          "rule": "thân ます + る"
         },
         {
           "form": "ta",
           "irregular": false,
-          "kana": "かった",
-          "ruby": "{借|か}った",
-          "rule": "り → った"
+          "kana": "かりた",
+          "ruby": "{借|か}りた",
+          "rule": "thân ます + た"
         },
         {
           "form": "tara",
           "irregular": false,
-          "kana": "かったら",
-          "ruby": "{借|か}ったら",
-          "rule": "thể た + ら"
+          "kana": "かりたら",
+          "ruby": "{借|か}りたら",
+          "rule": "thân ます + たら"
         },
         {
           "form": "potential",
           "irregular": false,
-          "kana": "かれる",
-          "ruby": "{借|か}れる",
-          "rule": "り → れ + る"
+          "kana": "かりられる",
+          "ruby": "{借|か}りられる",
+          "rule": "thân ます + られる"
         },
         {
           "form": "volitional",
           "irregular": false,
-          "kana": "かろう",
-          "ruby": "{借|か}ろう",
-          "rule": "り → ろ + う"
+          "kana": "かりよう",
+          "ruby": "{借|か}りよう",
+          "rule": "thân ます + よう"
         },
         {
           "form": "imperative",
           "irregular": false,
-          "kana": "かれ",
-          "ruby": "{借|か}れ",
-          "rule": "り → れ"
+          "kana": "かりろ",
+          "ruby": "{借|か}りろ",
+          "rule": "thân ます + ろ"
         },
         {
           "form": "prohibitive",
           "irregular": false,
-          "kana": "かるな",
-          "ruby": "{借|か}るな",
-          "rule": "thể từ điển + な"
+          "kana": "かりるな",
+          "ruby": "{借|か}りるな",
+          "rule": "thân ます + るな"
         },
         {
           "form": "ba",
           "irregular": false,
-          "kana": "かれば",
-          "ruby": "{借|か}れば",
-          "rule": "り → れ + ば"
+          "kana": "かりれば",
+          "ruby": "{借|か}りれば",
+          "rule": "thân ます + れば"
         },
         {
           "form": "passive",
           "irregular": false,
-          "kana": "かられる",
-          "ruby": "{借|か}られる",
-          "rule": "り → ら + れる"
+          "kana": "かりられる",
+          "ruby": "{借|か}りられる",
+          "rule": "thân ます + られる"
         },
         {
           "form": "causative",
           "irregular": false,
-          "kana": "からせる",
-          "ruby": "{借|か}らせる",
-          "rule": "り → ら + せる"
+          "kana": "かりさせる",
+          "ruby": "{借|か}りさせる",
+          "rule": "thân ます + させる"
         },
         {
           "form": "causative_passive",
           "irregular": false,
-          "kana": "からされる",
-          "ruby": "{借|か}らされる",
-          "rule": "り → ら + される"
+          "kana": "かりさせられる",
+          "ruby": "{借|か}りさせられる",
+          "rule": "thân ます + させられる"
         }
       ],
       "han_viet": "TÁ",
       "kana": "かります",
-      "kind": "V1",
+      "kind": "V2",
       "lesson": 7,
       "meaning_vi": "mượn, vay",
       "ruby": "{借|か}ります",
@@ -27029,7 +27029,9 @@
       "vocab_id": "mn-25-002"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "n3-159"
+      ],
       "book": "minna",
       "forms": [
         {
@@ -27077,105 +27079,105 @@
         {
           "form": "te",
           "irregular": false,
-          "kana": "たって",
-          "ruby": "{足|た}って",
-          "rule": "り → って"
+          "kana": "たりて",
+          "ruby": "{足|た}りて",
+          "rule": "thân ます + て"
         },
         {
           "form": "nai",
           "irregular": false,
-          "kana": "たらない",
-          "ruby": "{足|た}らない",
-          "rule": "り → ら + ない"
+          "kana": "たりない",
+          "ruby": "{足|た}りない",
+          "rule": "thân ます + ない"
         },
         {
           "form": "nakatta",
           "irregular": false,
-          "kana": "たらなかった",
-          "ruby": "{足|た}らなかった",
-          "rule": "り → ら + なかった"
+          "kana": "たりなかった",
+          "ruby": "{足|た}りなかった",
+          "rule": "thân ます + なかった"
         },
         {
           "form": "dict",
           "irregular": false,
-          "kana": "たる",
-          "ruby": "{足|た}る",
-          "rule": "り → る"
+          "kana": "たりる",
+          "ruby": "{足|た}りる",
+          "rule": "thân ます + る"
         },
         {
           "form": "ta",
           "irregular": false,
-          "kana": "たった",
-          "ruby": "{足|た}った",
-          "rule": "り → った"
+          "kana": "たりた",
+          "ruby": "{足|た}りた",
+          "rule": "thân ます + た"
         },
         {
           "form": "tara",
           "irregular": false,
-          "kana": "たったら",
-          "ruby": "{足|た}ったら",
-          "rule": "thể た + ら"
+          "kana": "たりたら",
+          "ruby": "{足|た}りたら",
+          "rule": "thân ます + たら"
         },
         {
           "form": "potential",
           "irregular": false,
-          "kana": "たれる",
-          "ruby": "{足|た}れる",
-          "rule": "り → れ + る"
+          "kana": "たりられる",
+          "ruby": "{足|た}りられる",
+          "rule": "thân ます + られる"
         },
         {
           "form": "volitional",
           "irregular": false,
-          "kana": "たろう",
-          "ruby": "{足|た}ろう",
-          "rule": "り → ろ + う"
+          "kana": "たりよう",
+          "ruby": "{足|た}りよう",
+          "rule": "thân ます + よう"
         },
         {
           "form": "imperative",
           "irregular": false,
-          "kana": "たれ",
-          "ruby": "{足|た}れ",
-          "rule": "り → れ"
+          "kana": "たりろ",
+          "ruby": "{足|た}りろ",
+          "rule": "thân ます + ろ"
         },
         {
           "form": "prohibitive",
           "irregular": false,
-          "kana": "たるな",
-          "ruby": "{足|た}るな",
-          "rule": "thể từ điển + な"
+          "kana": "たりるな",
+          "ruby": "{足|た}りるな",
+          "rule": "thân ます + るな"
         },
         {
           "form": "ba",
           "irregular": false,
-          "kana": "たれば",
-          "ruby": "{足|た}れば",
-          "rule": "り → れ + ば"
+          "kana": "たりれば",
+          "ruby": "{足|た}りれば",
+          "rule": "thân ます + れば"
         },
         {
           "form": "passive",
           "irregular": false,
-          "kana": "たられる",
-          "ruby": "{足|た}られる",
-          "rule": "り → ら + れる"
+          "kana": "たりられる",
+          "ruby": "{足|た}りられる",
+          "rule": "thân ます + られる"
         },
         {
           "form": "causative",
           "irregular": false,
-          "kana": "たらせる",
-          "ruby": "{足|た}らせる",
-          "rule": "り → ら + せる"
+          "kana": "たりさせる",
+          "ruby": "{足|た}りさせる",
+          "rule": "thân ます + させる"
         },
         {
           "form": "causative_passive",
           "irregular": false,
-          "kana": "たらされる",
-          "ruby": "{足|た}らされる",
-          "rule": "り → ら + される"
+          "kana": "たりさせられる",
+          "ruby": "{足|た}りさせられる",
+          "rule": "thân ます + させられる"
         }
       ],
       "han_viet": "TÚC",
       "kana": "たります",
-      "kind": "V1",
+      "kind": "V2",
       "lesson": 25,
       "meaning_vi": "đủ",
       "ruby": "{足|た}ります",
@@ -56347,105 +56349,105 @@
         {
           "form": "te",
           "irregular": false,
-          "kana": "たのしみにしてって",
-          "ruby": "たのしみにしてって",
-          "rule": "い → って"
+          "kana": "たのしみにしていて",
+          "ruby": "たのしみにしていて",
+          "rule": "thân ます + て"
         },
         {
           "form": "nai",
           "irregular": false,
-          "kana": "たのしみにしてわない",
-          "ruby": "たのしみにしてわない",
-          "rule": "い → わ + ない"
+          "kana": "たのしみにしていない",
+          "ruby": "たのしみにしていない",
+          "rule": "thân ます + ない"
         },
         {
           "form": "nakatta",
           "irregular": false,
-          "kana": "たのしみにしてわなかった",
-          "ruby": "たのしみにしてわなかった",
-          "rule": "い → わ + なかった"
+          "kana": "たのしみにしていなかった",
+          "ruby": "たのしみにしていなかった",
+          "rule": "thân ます + なかった"
         },
         {
           "form": "dict",
           "irregular": false,
-          "kana": "たのしみにしてう",
-          "ruby": "たのしみにしてう",
-          "rule": "い → う"
+          "kana": "たのしみにしている",
+          "ruby": "たのしみにしている",
+          "rule": "thân ます + る"
         },
         {
           "form": "ta",
           "irregular": false,
-          "kana": "たのしみにしてった",
-          "ruby": "たのしみにしてった",
-          "rule": "い → った"
+          "kana": "たのしみにしていた",
+          "ruby": "たのしみにしていた",
+          "rule": "thân ます + た"
         },
         {
           "form": "tara",
           "irregular": false,
-          "kana": "たのしみにしてったら",
-          "ruby": "たのしみにしてったら",
-          "rule": "thể た + ら"
+          "kana": "たのしみにしていたら",
+          "ruby": "たのしみにしていたら",
+          "rule": "thân ます + たら"
         },
         {
           "form": "potential",
           "irregular": false,
-          "kana": "たのしみにしてえる",
-          "ruby": "たのしみにしてえる",
-          "rule": "い → え + る"
+          "kana": "たのしみにしていられる",
+          "ruby": "たのしみにしていられる",
+          "rule": "thân ます + られる"
         },
         {
           "form": "volitional",
           "irregular": false,
-          "kana": "たのしみにしておう",
-          "ruby": "たのしみにしておう",
-          "rule": "い → お + う"
+          "kana": "たのしみにしていよう",
+          "ruby": "たのしみにしていよう",
+          "rule": "thân ます + よう"
         },
         {
           "form": "imperative",
           "irregular": false,
-          "kana": "たのしみにしてえ",
-          "ruby": "たのしみにしてえ",
-          "rule": "い → え"
+          "kana": "たのしみにしていろ",
+          "ruby": "たのしみにしていろ",
+          "rule": "thân ます + ろ"
         },
         {
           "form": "prohibitive",
           "irregular": false,
-          "kana": "たのしみにしてうな",
-          "ruby": "たのしみにしてうな",
-          "rule": "thể từ điển + な"
+          "kana": "たのしみにしているな",
+          "ruby": "たのしみにしているな",
+          "rule": "thân ます + るな"
         },
         {
           "form": "ba",
           "irregular": false,
-          "kana": "たのしみにしてえば",
-          "ruby": "たのしみにしてえば",
-          "rule": "い → え + ば"
+          "kana": "たのしみにしていれば",
+          "ruby": "たのしみにしていれば",
+          "rule": "thân ます + れば"
         },
         {
           "form": "passive",
           "irregular": false,
-          "kana": "たのしみにしてわれる",
-          "ruby": "たのしみにしてわれる",
-          "rule": "い → わ + れる"
+          "kana": "たのしみにしていられる",
+          "ruby": "たのしみにしていられる",
+          "rule": "thân ます + られる"
         },
         {
           "form": "causative",
           "irregular": false,
-          "kana": "たのしみにしてわせる",
-          "ruby": "たのしみにしてわせる",
-          "rule": "い → わ + せる"
+          "kana": "たのしみにしていさせる",
+          "ruby": "たのしみにしていさせる",
+          "rule": "thân ます + させる"
         },
         {
           "form": "causative_passive",
           "irregular": false,
-          "kana": "たのしみにしてわされる",
-          "ruby": "たのしみにしてわされる",
-          "rule": "い → わ + される"
+          "kana": "たのしみにしていさせられる",
+          "ruby": "たのしみにしていさせられる",
+          "rule": "thân ます + させられる"
         }
       ],
       "han_viet": null,
       "kana": "たのしみにしています",
-      "kind": "V1",
+      "kind": "V2",
       "lesson": 45,
       "meaning_vi": "mong đợi, lấy làm vui",
       "ruby": "たのしみにしています",
@@ -68548,159 +68550,6 @@
       "meaning_vi": "Dán",
       "ruby": "{張|は}ります",
       "vocab_id": "n3-158"
-    },
-    {
-      "aliases": [],
-      "book": "n3",
-      "forms": [
-        {
-          "form": "masu",
-          "irregular": false,
-          "kana": "たります",
-          "ruby": "{足|た}ります",
-          "rule": "thân ます + ます"
-        },
-        {
-          "form": "masen",
-          "irregular": false,
-          "kana": "たりません",
-          "ruby": "{足|た}りません",
-          "rule": "thân ます + ません"
-        },
-        {
-          "form": "mashita",
-          "irregular": false,
-          "kana": "たりました",
-          "ruby": "{足|た}りました",
-          "rule": "thân ます + ました"
-        },
-        {
-          "form": "masendeshita",
-          "irregular": false,
-          "kana": "たりませんでした",
-          "ruby": "{足|た}りませんでした",
-          "rule": "thân ます + ませんでした"
-        },
-        {
-          "form": "mashou",
-          "irregular": false,
-          "kana": "たりましょう",
-          "ruby": "{足|た}りましょう",
-          "rule": "thân ます + ましょう"
-        },
-        {
-          "form": "tai",
-          "irregular": false,
-          "kana": "たりたい",
-          "ruby": "{足|た}りたい",
-          "rule": "thân ます + たい"
-        },
-        {
-          "form": "te",
-          "irregular": false,
-          "kana": "たりて",
-          "ruby": "{足|た}りて",
-          "rule": "thân ます + て"
-        },
-        {
-          "form": "nai",
-          "irregular": false,
-          "kana": "たりない",
-          "ruby": "{足|た}りない",
-          "rule": "thân ます + ない"
-        },
-        {
-          "form": "nakatta",
-          "irregular": false,
-          "kana": "たりなかった",
-          "ruby": "{足|た}りなかった",
-          "rule": "thân ます + なかった"
-        },
-        {
-          "form": "dict",
-          "irregular": false,
-          "kana": "たりる",
-          "ruby": "{足|た}りる",
-          "rule": "thân ます + る"
-        },
-        {
-          "form": "ta",
-          "irregular": false,
-          "kana": "たりた",
-          "ruby": "{足|た}りた",
-          "rule": "thân ます + た"
-        },
-        {
-          "form": "tara",
-          "irregular": false,
-          "kana": "たりたら",
-          "ruby": "{足|た}りたら",
-          "rule": "thân ます + たら"
-        },
-        {
-          "form": "potential",
-          "irregular": false,
-          "kana": "たりられる",
-          "ruby": "{足|た}りられる",
-          "rule": "thân ます + られる"
-        },
-        {
-          "form": "volitional",
-          "irregular": false,
-          "kana": "たりよう",
-          "ruby": "{足|た}りよう",
-          "rule": "thân ます + よう"
-        },
-        {
-          "form": "imperative",
-          "irregular": false,
-          "kana": "たりろ",
-          "ruby": "{足|た}りろ",
-          "rule": "thân ます + ろ"
-        },
-        {
-          "form": "prohibitive",
-          "irregular": false,
-          "kana": "たりるな",
-          "ruby": "{足|た}りるな",
-          "rule": "thân ます + るな"
-        },
-        {
-          "form": "ba",
-          "irregular": false,
-          "kana": "たりれば",
-          "ruby": "{足|た}りれば",
-          "rule": "thân ます + れば"
-        },
-        {
-          "form": "passive",
-          "irregular": false,
-          "kana": "たりられる",
-          "ruby": "{足|た}りられる",
-          "rule": "thân ます + られる"
-        },
-        {
-          "form": "causative",
-          "irregular": false,
-          "kana": "たりさせる",
-          "ruby": "{足|た}りさせる",
-          "rule": "thân ます + させる"
-        },
-        {
-          "form": "causative_passive",
-          "irregular": false,
-          "kana": "たりさせられる",
-          "ruby": "{足|た}りさせられる",
-          "rule": "thân ます + させられる"
-        }
-      ],
-      "han_viet": "TÚC",
-      "kana": "たります",
-      "kind": "V2",
-      "lesson": 4,
-      "meaning_vi": "Đủ",
-      "ruby": "{足|た}ります",
-      "vocab_id": "n3-159"
     },
     {
       "aliases": [],

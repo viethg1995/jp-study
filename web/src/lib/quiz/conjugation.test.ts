@@ -142,12 +142,12 @@ describe("Q6-4: bộ chia sai (nhiễu)", () => {
 });
 
 describe("Q6-5: nhận thể", () => {
-  test("160 từ có khả năng = bị động → mỗi chiều 160 câu có accepted (154 + 3 từ ghép 来ます + 3 hàng tách khỏi alias gộp theo kana)", () => {
+  test("162 từ có khả năng = bị động → mỗi chiều 162 câu có accepted (154 + 3 từ ghép 来ます + 3 hàng tách alias + 借りる / 足りる sửa V1 → V2)", () => {
     const items = both("verb").filter((x) => x.kind === "c-which");
     const pot = items.filter((x) => x.id.endsWith(":potential") && x.accepted.includes("Thể bị động"));
     const pas = items.filter((x) => x.id.endsWith(":passive") && x.accepted.includes("Thể khả năng"));
-    assert.equal(pot.length, 160);
-    assert.equal(pas.length, 160);
+    assert.equal(pot.length, 162);
+    assert.equal(pas.length, 162);
     for (const q of [...pot, ...pas]) assert.ok(!q.pool.includes("Thể bị động") && !q.pool.includes("Thể khả năng"), q.id);
   });
   test("không hỏi thể ます (trùng đề); hỏi ません", () => {

@@ -374,17 +374,89 @@ function conjIndex(conj: readonly ConjTable[]): (e: VocabEntry) => ConjRef | und
     byBase.get(`${e.book}|${conjText(e.kana)}`);
 }
 
-type FormHit = { form: ConjTable["forms"][number]; tail: string };
+/**
+ * Thể phái sinh (bước 2.1, plan/quiz/q04b-cloze-inflected.md): sinh từ ô bảng chia có sẵn bằng cắt đuôi `cut` + nối
+ * `add` — không thêm thể vào data/conjugation.json (trang /chia-the/ và quiz chia thể giữ 20 thể).
+ *   褒められる (passive) − る + ました = 褒められました · 払わない (nai) − い + ければなりません · 切れます (masu) − ます = 切れ
+ * `lesson` = bài học cấu trúc đó (lấy max với bài của thể gốc). Thể có sẵn luôn được thử trước (câu cũ không đổi).
+ */
+interface DerivedForm {
+  id: string;
+  name: string;
+  lesson: number | null;
+  base: string;
+  cut: string;
+  add: string;
+}
+const ICHIDAN_POLITE: [string, string][] = [["ます", "ます"], ["ました", "ました"], ["ません", "ません"], ["ませんでした", "ませんでした"], ["て", "て"]];
+const DERIVED: Partial<Record<ConjTable["group"], DerivedForm[]>> = {
+  verb: [
+    // thể bị động / sai khiến / khả năng là động từ nhóm II → chia tiếp như 食べる
+    ...([["passive", "Thể bị động", 37], ["causative", "Thể sai khiến", 48], ["potential", "Thể khả năng", 27]] as const).flatMap(
+      ([base, name, lesson]) => ICHIDAN_POLITE.map(([add, label]) => ({ id: `${base}+${add}`, name: `${name} → ${label}`, lesson, base, cut: "る", add })),
+    ),
+    { id: "nai+nakereba-narimasen", name: "Thể ない → なければなりません", lesson: 17, base: "nai", cut: "い", add: "ければなりません" },
+    { id: "nai+nakereba-naranai", name: "Thể ない → なければならない", lesson: 17, base: "nai", cut: "い", add: "ければならない" },
+    { id: "nai+nakutemo", name: "Thể ない → なくても", lesson: 17, base: "nai", cut: "い", add: "くても" },
+    { id: "nai+nakute", name: "Thể ない → なくて", lesson: 39, base: "nai", cut: "い", add: "くて" },
+    { id: "nai+nakereba", name: "Thể ない → なければ", lesson: 35, base: "nai", cut: "い", add: "ければ" },
+    { id: "masu-stem", name: "Thân ます", lesson: 13, base: "masu", cut: "ます", add: "" },
+  ],
+  // gốc tính từ い trước そう / すぎる (美味しそう, 濃すぎる); いい → よさ: không sinh (kiểm theo thể phủ định)
+  "adj-i": [{ id: "stem", name: "Gốc tính từ (bỏ い)", lesson: 43, base: "plain", cut: "い", add: "" }],
+};
 
-/** Khớp chuỗi `t` với ô bảng chia (đã đưa về cùng dạng bằng `key`): đúng một thể, hoặc thể + đuôi kana ngắn nhất. */
+type AnyForm = { id: string; name: string; lesson: number | null };
+
+/** Ô chia (ruby) của `row` ở thể có sẵn hoặc thể phái sinh; không sinh được → null. */
+function cellOf(row: ConjRow, group: ConjTable["group"], formId: string): string | null {
+  const own = row.forms[formId];
+  if (own) return own[0];
+  const d = (DERIVED[group] ?? []).find((x) => x.id === formId);
+  const base = d ? row.forms[d.base]?.[0] : undefined;
+  if (!d || !base?.endsWith(d.cut)) return null;
+  const head = base.slice(0, base.length - d.cut.length);
+  if (group === "adj-i" && !(row.forms.neg?.[0] ?? "").startsWith(head)) return null; // いい: thể phủ định よくない
+  return head + d.add;
+}
+
+/** Biến một dạng (đúng hoặc sai) của thể gốc thành thể phái sinh; thể có sẵn → giữ nguyên. */
+function deriveFrom(group: ConjTable["group"], formId: string, ruby: string): string | null {
+  const d = (DERIVED[group] ?? []).find((x) => x.id === formId);
+  if (!d) return ruby;
+  return ruby.endsWith(d.cut) ? ruby.slice(0, ruby.length - d.cut.length) + d.add : null;
+}
+
+const allForms = (table: ConjTable): AnyForm[] => [...table.forms, ...(DERIVED[table.group] ?? [])];
+const baseFormId = (group: ConjTable["group"], formId: string): string => (DERIVED[group] ?? []).find((x) => x.id === formId)?.base ?? formId;
+/** Bài học của thể (phái sinh: max với bài thể gốc). */
+function formLesson(table: ConjTable, form: AnyForm): number | null {
+  const d = (DERIVED[table.group] ?? []).find((x) => x.id === form.id);
+  if (!d) return form.lesson;
+  const base = table.forms.find((f) => f.id === d.base)?.lesson ?? null;
+  return base === null || d.lesson === null ? null : Math.max(base, d.lesson);
+}
+
+type FormHit = { form: AnyForm; tail: string };
+
+/** Thân ます / gốc tính từ chỉ nối với đuôi có nghĩa (切れそう, 与えすぎないで, 食べながら, 迎えに) — không nhận đuôi bất kỳ
+ * (足りなかったら không phải thân 足り + なかったら). */
+const STEM_FORMS = new Set(["masu-stem", "stem"]);
+const STEM_TAIL = /^(そう|すぎ|ながら|に)/u;
+
+/**
+ * Khớp chuỗi `t` với ô bảng chia (đã đưa về cùng dạng bằng `key`): đúng một thể, hoặc thể + đuôi kana ngắn nhất.
+ * Thể có sẵn trước, thể phái sinh sau (khớp đúng ở thể có sẵn thắng; đuôi ngắn hơn thắng).
+ */
 function matchBy(ref: ConjRef, t: string, key: (ruby: string) => string): FormHit | null {
   let best: FormHit | null = null;
-  for (const form of ref.table.forms) {
-    const cell = ref.row.forms[form.id];
+  for (const form of allForms(ref.table)) {
+    const cell = cellOf(ref.row, ref.table.group, form.id);
     if (!cell) continue;
-    const f = key(cell[0]);
+    const f = key(cell);
     if (f === t) return { form, tail: "" };
     const tail = t.slice(f.length);
+    if (STEM_FORMS.has(form.id) && !STEM_TAIL.test(tail)) continue;
     if (t.startsWith(f) && KANA_TAIL.test(tail) && (best === null || tail.length < best.tail.length)) best = { form, tail };
   }
   return best;
@@ -434,9 +506,11 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
       const hit = matchForm(ref, target);
       if (!hit) continue;
       const { form, tail, byReading } = hit;
+      const group = ref.table.group;
       const upTo = Math.max(ex.max_lesson, e.lesson);
+      const lesson = formLesson(ref.table, form);
       // thể chưa học tới bài của câu → bỏ (N3: thể theo bài Minna, người học N3 đã học hết)
-      if (e.book === "minna" && (form.lesson === null || form.lesson > upTo)) continue;
+      if (e.book === "minna" && (lesson === null || lesson > upTo)) continue;
       const answerText = conjText(target);
       const seen = new Set([answerText]);
       const pool: string[] = [];
@@ -449,16 +523,24 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
       };
       // dạng chia sai của chính từ (行きて) — không bao giờ đúng
       let bad = 0;
-      const rightReadings = new Set(Object.values(ref.row.forms).map(([r]) => readingOf(r)));
-      for (const c of badForms(ref.row, form.id)) {
+      // mọi dạng đúng của chính từ (thể có sẵn + phái sinh) — dạng sai không được trùng
+      const rightReadings = new Set(
+        allForms(ref.table)
+          .map((f) => cellOf(ref.row, group, f.id))
+          .filter((c): c is string => c !== null)
+          .map(readingOf),
+      );
+      for (const b of badForms(ref.row, baseFormId(group, form.id))) {
         if (bad >= BAD_FORMS) break;
+        const c = deriveFrom(group, form.id, b);
+        if (c === null) continue;
         const w = byReading ? inTargetScript(target, c + tail) : c + tail;
-        if (w !== null && !(byReading && rightReadings.has(readingOf(w))) && push(w)) bad++;
+        if (w !== null && !rightReadings.has(readingOf(w)) && push(w)) bad++;
       }
       // từ khác cùng nhóm (động từ / tính từ い / な), cùng thể + cùng đuôi; đã học tới bài của câu; gần bài trước
       const others = ref.table.rows
         // N3: người học đã học hết Minna → từ Minna cũng là nhiễu hợp lệ (hàng của từ N3 trùng Minna mang book "minna")
-        .filter((r) => r !== ref.row && (r.book === e.book ? r.lesson <= upTo : e.book === "n3") && r.forms[form.id])
+        .filter((r) => r !== ref.row && (r.book === e.book ? r.lesson <= upTo : e.book === "n3") && cellOf(r, group, form.id) !== null)
         .filter((r) => {
           const x = entryOf.get(r.id);
           return !x || !synonymous(e, x);
@@ -472,7 +554,7 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
       for (const r of others) {
         if (pool.length >= POOL_SIZE) break;
         if (conjText(r.base) === conjText(ref.row.base)) continue;
-        const w = r.forms[form.id]![0] + tail;
+        const w = cellOf(r, group, form.id)! + tail;
         // đồng âm cùng thể (付いて ↔ ついて của つきます "đèn sáng") = cùng cách đọc với đáp án → chọn vẫn là đúng
         if (readingOf(w) === readingOf(target)) continue;
         push(w);
