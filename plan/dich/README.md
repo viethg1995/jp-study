@@ -21,6 +21,8 @@ Trang Luyện dịch có 2 loại bài:
 | [D2](d02-worker.md) | Worker: chấm đoạn văn, tham số chiều dịch, prompt Nhật → Việt | ✅ |
 | [D3](d03-web.md) | Web: tab Câu đơn / Đoạn văn, danh sách theo cấp, trang đoạn văn (chọn chiều, furigana) | ✅ |
 | [D4](d04-content.md) | Nội dung: AI soạn đợt 1 (N5 + N4 + N3), user duyệt | ✅ soạn 18/18 — ⏳ chờ user duyệt |
+| D5–D7 | Tạo đề trực tiếp trên web (AI tạo theo chủ đề / độ dài) | ⏸ **tạm dừng** 2026-11-17 — thử thật không đạt (model bỏ furigana, nội dung rời rạc); code + plan nằm trên nhánh `feat/dich-tao`, không merge |
+| [D8](d08-content-batch2.md) | Nội dung đợt 2: 18 đoạn (hướng A — soạn theo đợt thay cho tạo trực tiếp) | ✅ 18/18 (2026-11-17), deploy worker + merge 2026-11-18; tách trang theo cấp + menu con |
 
 Thứ tự: D1 → D2 → D3 → D4. D4 có thể soạn song song sau khi D1 xong (cần schema để validate).
 

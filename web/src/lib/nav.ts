@@ -93,6 +93,12 @@ export const NAV: NavItem[] = [
     glyphMeaning: "訳 — dịch",
     description: "Dịch đoạn văn tiếng Việt, tiếng Anh sang tiếng Nhật, AI chấm và chỉ ra câu sai",
     href: "dich/",
+    children: [
+      { label: "Câu đơn", href: "dich/" },
+      { label: "Đoạn văn N5", href: "dich/doan/n5/" },
+      { label: "Đoạn văn N4", href: "dich/doan/n4/" },
+      { label: "Đoạn văn N3", href: "dich/doan/n3/" },
+    ],
   },
   {
     id: "conjunctions",

@@ -1,23 +1,24 @@
 ---
-// Luyện dịch — tab "Đoạn văn": danh sách đoạn theo cấp JLPT (N5 → N4 → N3, chỉ cấp có dữ liệu).
+// Luyện dịch — tab "Đoạn văn": thẻ N5 / N4 / N3 → mỗi cấp một trang riêng (/dich/doan/n5/…, như Kanji).
 // Mỗi đoạn làm được 2 chiều (Nhật → Việt, Việt → Nhật) ở trang /dich/doan/<id>/.
 import { getCollection } from "astro:content";
-import RubyText from "../../../components/jp/RubyText.astro";
-import LevelTabs from "../../../components/ui/LevelTabs.astro";
-import Tag from "../../../components/ui/Tag.astro";
 import Base from "../../../layouts/Base.astro";
-import { GENRE_LABELS, LEVEL_LABELS, PASSAGE_LEVELS, passagePath, translationTabs } from "../../../lib/translation";
+import { GENRE_LABELS, LEVEL_LABELS, PASSAGE_LEVELS } from "../../../lib/translation";
 
-const passages = (await getCollection("translationPassages")).map((e) => e.data).sort((a, b) => a.id.localeCompare(b.id));
-const levels = PASSAGE_LEVELS.filter((lv) => passages.some((p) => p.level === lv));
+const passages = (await getCollection("translationPassages")).map((e) => e.data);
+const cards = PASSAGE_LEVELS.map((level) => {
+  const mine = passages.filter((p) => p.level === level);
+  const genres = [...new Set(mine.map((p) => p.genre))].map((g) => GENRE_LABELS[g]);
+  return { level, n: mine.length, genres };
+});
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const card = "flex h-full flex-col gap-1 rounded-lg border border-line bg-surface p-4 transition hover:border-primary";
 ---
 
 <Base
   title="Luyện dịch đoạn văn"
   description="Luyện dịch đoạn văn tiếng Nhật ↔ tiếng Việt theo cấp JLPT N5, N4, N3 như bài đọc hiểu, có AI chấm từng câu và chỉ ra chỗ hiểu sai."
 >
-  <LevelTabs label="Loại bài" tabs={translationTabs(base, "doan")} />
   <div class="mx-auto max-w-3xl">
     <h1 class="text-2xl font-bold">Luyện dịch đoạn văn</h1>
     <p class="mt-1 text-ink-muted">
@@ -25,35 +26,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       <b class="font-semibold text-ink">Việt → Nhật</b> (luyện viết). Dịch cả đoạn trong một ô, AI chấm từng câu.
     </p>
 
-    {passages.length === 0 && <p class="mt-6 text-ink-muted">Chưa có đoạn văn nào.</p>}
-
-    {
-      levels.map((lv) => (
-        <section class="mt-8" id={lv}>
-          <h2 class="text-lg font-bold">{LEVEL_LABELS[lv]}</h2>
-          <ul class="mt-3 grid gap-3 sm:grid-cols-2">
-            {passages
-              .filter((p) => p.level === lv)
-              .map((p) => (
-                <li>
-                  <a
-                    href={`${base}/${passagePath(p.id)}`}
-                    class="group block h-full rounded-lg border border-line bg-surface px-5 py-4 hover:border-primary-line hover:bg-primary-soft"
-                  >
-                    <p class="flex items-center gap-2">
-                      <span class="font-semibold text-ink group-hover:text-primary">{p.title_vi}</span>
-                      <Tag>{GENRE_LABELS[p.genre]}</Tag>
-                    </p>
-                    <p class="sentence text-ink-muted">
-                      <RubyText ruby={p.title_ja} />
-                    </p>
-                    <p class="mt-1 text-sm text-ink-faint">{p.sentences.length} câu</p>
-                  </a>
-                </li>
-              ))}
-          </ul>
-        </section>
-      ))
-    }
+    <ul class="mt-6 grid gap-3 sm:grid-cols-3">
+      {
+        cards.map((c) => (
+          <li>
+            <a href={`${base}/dich/doan/${c.level}/`} class={card}>
+              <span class="text-xl font-bold text-ink">{LEVEL_LABELS[c.level]}</span>
+              <span class="text-sm text-ink-muted">{c.genres.length > 0 ? c.genres.join(" · ") : "Chưa có đoạn văn"}</span>
+              <span class="mt-auto pt-2 text-xs text-ink-faint">{c.n} đoạn</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
   </div>
 </Base>

@@ -75,10 +75,3 @@ export function parseDirection(value: string | null): Direction {
   return DIRECTIONS.includes(value as Direction) ? (value as Direction) : DEFAULT_DIRECTION;
 }
 
-/** Hai tab đầu trang Luyện dịch (đặt vào LevelTabs). */
-export function translationTabs(base: string, active: "cau" | "doan"): { label: string; href: string; active: boolean }[] {
-  return [
-    { label: "Câu đơn", href: `${base}/dich/`, active: active === "cau" },
-    { label: "Đoạn văn", href: `${base}/dich/doan/`, active: active === "doan" },
-  ];
-}

@@ -1,0 +1,12 @@
+---
+// Luyện dịch đoạn văn N4.
+import { getCollection } from "astro:content";
+import PassageLevelPage from "../../../components/dich/PassageLevelPage.astro";
+
+const passages = (await getCollection("translationPassages"))
+  .map((e) => e.data)
+  .filter((p) => p.level === "n4")
+  .sort((a, b) => a.id.localeCompare(b.id));
+---
+
+<PassageLevelPage level="n4" passages={passages} />
