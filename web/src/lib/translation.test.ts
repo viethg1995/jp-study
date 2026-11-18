@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { loadTranslation } from "../test/data.ts";
 import { parseRuby } from "./ruby.ts";
-import { DEFAULT_DIRECTION, PASSAGE_LEVELS, parseDirection, passagePath, translationTabs } from "./translation.ts";
+import { DEFAULT_DIRECTION, PASSAGE_LEVELS, parseDirection, passagePath } from "./translation.ts";
 
 test("parseDirection: giá trị hợp lệ giữ nguyên, lạ/thiếu → mặc định", () => {
   assert.equal(parseDirection("vi-ja"), "vi-ja");
@@ -11,10 +11,8 @@ test("parseDirection: giá trị hợp lệ giữ nguyên, lạ/thiếu → mặ
   assert.equal(parseDirection("en-ja"), DEFAULT_DIRECTION);
 });
 
-test("đường dẫn và tab", () => {
+test("đường dẫn đoạn văn", () => {
   assert.equal(passagePath("p-n5-001"), "dich/doan/p-n5-001/");
-  const tabs = translationTabs("/jp-study", "doan");
-  assert.deepEqual(tabs.map((t) => [t.href, t.active]), [["/jp-study/dich/", false], ["/jp-study/dich/doan/", true]]);
 });
 
 test("đoạn văn (dữ liệu thật): ruby web parse khớp ja_text của pipeline, para hợp lệ, cấp nằm trong danh sách", () => {

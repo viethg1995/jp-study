@@ -53,7 +53,7 @@ const description = clip(`Luyện dịch đoạn văn ${LEVEL_LABELS[p.level]} �
 
 <Base title={`Luyện dịch: ${p.title_vi}`} description={description}>
   <nav slot="header" class="ml-auto flex items-center gap-2 text-sm">
-    <a href={`${base}/dich/doan/#${p.level}`} class={navLink}>Tất cả đoạn văn</a>
+    <a href={`${base}/dich/doan/${p.level}/`} class={navLink}>Tất cả đoạn {LEVEL_LABELS[p.level]}</a>
   </nav>
 
   <div class="mx-auto max-w-2xl">

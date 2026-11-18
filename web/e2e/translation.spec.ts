@@ -1,4 +1,4 @@
-// Luyện dịch: tab Câu đơn / Đoạn văn, trang đoạn văn (chọn chiều, furigana, chấm), trang câu đơn (chấm).
+// Luyện dịch: menu con Câu đơn / Đoạn văn N5–N3, trang đoạn văn (chọn chiều, furigana, chấm), trang câu đơn (chấm).
 // Bản build e2e không có PUBLIC_GRADER_URL → test chèn URL máy chấm giả vào HTML trang và trả kết quả giả,
 // không thêm "cửa sau" nào vào code chạy thật.
 import type { Page, Request } from "@playwright/test";
@@ -54,15 +54,27 @@ async function noHorizontalScroll(page: Page): Promise<void> {
   expect(sw).toBeLessThanOrEqual(w);
 }
 
-test("tab Câu đơn ↔ Đoạn văn, danh sách đoạn theo cấp", async ({ page }) => {
+test("menu Luyện dịch có mục con, trang tổng đoạn văn → trang từng cấp", async ({ page }) => {
   await page.goto("dich/");
-  await expect(page.locator('a[aria-current="page"]', { hasText: "Câu đơn" })).toBeVisible();
-  await page.getByRole("link", { name: "Đoạn văn", exact: true }).first().click();
+  await expect(page.locator('nav[aria-label="Loại bài"]')).toHaveCount(0); // bỏ tab Câu đơn / Đoạn văn
+  for (const href of ["dich/", "dich/doan/n5/", "dich/doan/n4/", "dich/doan/n3/"]) {
+    await expect(page.locator(`a.nav-child[href$="/${href}"]`)).toHaveCount(1);
+  }
+  await page.locator("main").getByRole("link", { name: "Đoạn văn", exact: true }).click();
   await expect(page).toHaveURL(/\/dich\/doan\/$/);
   await expect(page.locator("h1")).toHaveText("Luyện dịch đoạn văn");
-  await expect(page.locator("section#n5 h2")).toHaveText("N5");
+  // trang tổng: thẻ N5/N4/N3 → mỗi cấp một trang riêng
+  await page.locator('main a[href$="dich/doan/n5/"]').click();
+  await expect(page).toHaveURL(/\/dich\/doan\/n5\/$/);
+  await expect(page.locator("h1")).toHaveText("Đoạn văn N5");
+  await expect(page.locator('nav[aria-label="Cấp độ"] a[aria-current="page"]')).toHaveText("N5");
+  await expect(page.locator('a.nav-child[aria-current="page"]')).toHaveText("Đoạn văn N5"); // menu trái sáng mục đang mở
+  await expect(page.locator('a[href*="dich/doan/p-n4-"]')).toHaveCount(0); // chỉ đoạn của cấp này
+  await noHorizontalScroll(page);
   await page.locator(`a[href$="${PASSAGE}"]`).click();
   await expect(page.locator("h1")).toHaveText("Ngày chủ nhật mưa");
+  await page.getByRole("link", { name: "Tất cả đoạn N5" }).click(); // quay về trang cấp
+  await expect(page).toHaveURL(/\/dich\/doan\/n5\/$/);
   await noHorizontalScroll(page);
 });
 

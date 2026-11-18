@@ -64,3 +64,4 @@ Soạn xong 2026-11-17: 18 đoạn (N5 6 · N4 6 · N3 6), tất cả `ai-draft`
 - Script chuyển bản dòng → JSON viết lại (thư mục tạm bị dọn) với cột `vi_alt` / `ja_alt`, **nối thêm** vào `nX.json` (không ghi đè đợt 1), chạy lại thì thay đúng đoạn cùng id.
 - Kiểm tra: `build-translation` pass; pytest 243; `npm run build` pass (236 unit test, 36 trang `/dich/doan/<id>/`); e2e `translation.spec.ts` 10/10.
 - Chưa deploy worker / merge: chờ user duyệt nội dung (worker phải deploy lại để chấm được 18 đoạn mới).
+- **Thêm theo yêu cầu user (2026-11-18):** danh sách đoạn tách mỗi cấp một trang (`/dich/doan/n5/`, `n4/`, `n3/`, component `components/dich/PassageLevelPage.astro`; `/dich/doan/` còn 3 thẻ cấp như trang Kanji). Menu trái "Luyện dịch" có mục con Câu đơn · Đoạn văn N5 · N4 · N3; bỏ tab Câu đơn / Đoạn văn ở đầu trang (`translationTabs` đã xóa). E2E đủ 186 pass.
