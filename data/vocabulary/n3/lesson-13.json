@@ -1538,7 +1538,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-633",
       "lesson": 13,
-      "meaning_vi": "Mệt, kiệt sức / Cộng thêm/trừ đi / Lãi/lỗ",
+      "meaning_vi": "Mệt, kiệt sức",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1557,14 +1557,6 @@
         {
           "context": null,
           "text": "Mệt, kiệt sức"
-        },
-        {
-          "context": null,
-          "text": "Cộng thêm/trừ đi"
-        },
-        {
-          "context": null,
-          "text": "Lãi/lỗ"
         }
       ],
       "transitivity": null,
@@ -1591,7 +1583,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-634",
       "lesson": 13,
-      "meaning_vi": "Điểm cộng / Thiệt",
+      "meaning_vi": "Cộng thêm/trừ đi, lãi/lỗ / Điểm cộng/thiệt",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1600,16 +1592,20 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "user"
       },
       "related": [],
-      "review": "user",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
           "context": null,
-          "text": "Điểm cộng / Thiệt"
+          "text": "Cộng thêm/trừ đi, lãi/lỗ"
+        },
+        {
+          "context": null,
+          "text": "Điểm cộng/thiệt"
         }
       ],
       "transitivity": null,
