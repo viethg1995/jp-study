@@ -1,0 +1,61 @@
+---
+// Danh sách đoạn luyện dịch của một cấp JLPT — trang /dich/doan/n5/, n4/, n3/ (mỗi cấp một trang, như Kanji).
+// Mỗi đoạn làm được 2 chiều (Nhật → Việt, Việt → Nhật) ở trang /dich/doan/<id>/.
+import type { TranslationPassage } from "../../content.config";
+import RubyText from "../jp/RubyText.astro";
+import LevelTabs from "../ui/LevelTabs.astro";
+import Tag from "../ui/Tag.astro";
+import Base from "../../layouts/Base.astro";
+import { levelTabs } from "../../lib/levels";
+import { GENRE_LABELS, LEVEL_LABELS, passagePath, type PassageLevel } from "../../lib/translation";
+
+interface Props {
+  level: PassageLevel;
+  passages: TranslationPassage[]; // đoạn của cấp này, đã sắp theo id
+}
+const { level, passages } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const label = LEVEL_LABELS[level];
+---
+
+<Base
+  title={`Luyện dịch đoạn văn ${label}`}
+  description={`Luyện dịch đoạn văn tiếng Nhật ↔ tiếng Việt cấp JLPT ${label} như bài đọc hiểu: ${passages.length} đoạn thư, nhật ký, thông báo, email, hội thoại — có AI chấm từng câu.`}
+>
+  <LevelTabs label="Cấp độ" tabs={levelTabs(base, "dich/doan", level)} />
+  <div class="mx-auto max-w-3xl">
+    <p class="text-sm">
+      <a href={`${base}/dich/doan/`} class="text-primary hover:underline">Luyện dịch đoạn văn</a>
+      <span class="text-ink-faint"> / {label}</span>
+    </p>
+    <h1 class="mt-1 text-2xl font-bold">Đoạn văn {label}</h1>
+    <p class="mt-1 text-ink-muted">
+      {passages.length} đoạn · mỗi đoạn có hai chiều <b class="font-semibold text-ink">Nhật → Việt</b> và
+      <b class="font-semibold text-ink">Việt → Nhật</b>.
+    </p>
+
+    {passages.length === 0 && <p class="mt-6 text-ink-muted">Chưa có đoạn văn nào.</p>}
+
+    <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+      {
+        passages.map((p) => (
+          <li>
+            <a
+              href={`${base}/${passagePath(p.id)}`}
+              class="group block h-full rounded-lg border border-line bg-surface px-5 py-4 hover:border-primary-line hover:bg-primary-soft"
+            >
+              <p class="flex items-center gap-2">
+                <span class="font-semibold text-ink group-hover:text-primary">{p.title_vi}</span>
+                <Tag>{GENRE_LABELS[p.genre]}</Tag>
+              </p>
+              <p class="sentence text-ink-muted">
+                <RubyText ruby={p.title_ja} />
+              </p>
+              <p class="mt-1 text-sm text-ink-faint">{p.sentences.length} câu</p>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>

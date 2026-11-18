@@ -1,10 +1,9 @@
 ---
 // Luyện dịch — tab "Câu đơn": danh sách đề theo bài. Mỗi đề: đoạn văn tiếng Việt/Anh → học viên dịch sang tiếng Nhật → AI chấm.
 import { getCollection } from "astro:content";
-import LevelTabs from "../../components/ui/LevelTabs.astro";
 import Tag from "../../components/ui/Tag.astro";
 import Base from "../../layouts/Base.astro";
-import { exercisePath, translationTabs } from "../../lib/translation";
+import { exercisePath } from "../../lib/translation";
 
 const exercises = (await getCollection("translation")).map((e) => e.data).sort((a, b) => a.id.localeCompare(b.id));
 const lessons = [...new Set(exercises.map((e) => e.lesson))].sort((a, b) => a - b);
@@ -12,7 +11,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title="Luyện dịch" description="Luyện dịch câu tiếng Việt, tiếng Anh sang tiếng Nhật theo từng bài みんなの日本語, có AI chấm và chỉ ra câu sai.">
-  <LevelTabs label="Loại bài" tabs={translationTabs(base, "cau")} />
   <div class="mx-auto max-w-3xl">
     <h1 class="text-2xl font-bold">Luyện dịch</h1>
     <p class="mt-1 text-ink-muted">
