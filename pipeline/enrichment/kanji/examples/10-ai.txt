@@ -1,0 +1,490 @@
+# by: ai
+# Từ ví dụ lấy từ giáo trình Kanji (sách Kanji N3, Ebook Kanji N4 — pinned/02, 03) + phủ âm — dịch từ nghĩa EN JMdict, chờ duyệt.
+行き|いき|chiều đi, lượt đi
+私立大学|しりつだいがく|đại học tư thục
+銀メダル|ぎんメダル|huy chương bạc
+研究所|けんきゅうじょ|viện nghiên cứu, phòng thí nghiệm
+教科書|きょうかしょ|sách giáo khoa
+教える|おしえる|dạy, chỉ bảo
+失礼|しつれい|thất lễ, bất lịch sự; xin phép
+精神的|せいしんてき|(thuộc) tinh thần
+神様|かみさま|thần, Chúa
+雑談|ざつだん|tán gẫu, chuyện phiếm
+家事|かじ|việc nhà
+大家|おおや|chủ nhà (cho thuê)
+部分|ぶぶん|bộ phận, phần
+本屋|ほんや|hiệu sách
+八百屋|やおや|cửa hàng rau quả
+場|ば|nơi, chỗ; dịp, tình huống
+場合|ばあい|trường hợp
+売る|うる|bán
+売れる|うれる|bán chạy, bán được
+運動|うんどう|vận động, tập thể dục
+動く|うごく|chuyển động, cử động; hoạt động
+付近|ふきん|vùng lân cận, gần
+付ける|つける|gắn, đính; bật (đèn)
+段階|だんかい|giai đoạn, bước
+交通手段|こうつうしゅだん|phương tiện giao thông
+機械|きかい|máy móc
+不思議|ふしぎ|kỳ lạ, khó hiểu
+議員|ぎいん|nghị sĩ, đại biểu
+労働|ろうどう|lao động
+終わる|おわる|kết thúc, xong
+終日|しゅうじつ|suốt cả ngày
+昼間|ひるま|ban ngày
+路線図|ろせんず|bản đồ tuyến (tàu, xe buýt)
+意図|いと|ý đồ, ý định
+映画館|えいがかん|rạp chiếu phim
+漫画|まんが|truyện tranh
+大使館|たいしかん|đại sứ quán
+技術力|ぎじゅつりょく|năng lực kỹ thuật
+芸術作品|げいじゅつさくひん|tác phẩm nghệ thuật
+郵便物|ゆうびんぶつ|bưu phẩm, thư từ
+親族|しんぞく|họ hàng, thân tộc
+鉄道|てつどう|đường sắt
+船便|ふなびん|gửi đường biển
+歩道|ほどう|vỉa hè, đường đi bộ
+歩く|あるく|đi bộ
+運転|うんてん|lái (xe); vận hành (máy)
+飛ばし|とばし|bán tháo, che giấu nợ xấu (tài chính)
+新聞紙|しんぶんし|giấy báo
+用紙|ようし|giấy mẫu, mẫu đơn
+日本酒|にほんしゅ|rượu sake Nhật
+飯|めし|cơm; bữa ăn
+朝ご飯|あさごはん|bữa sáng
+真実|しんじつ|sự thật
+真っ黒|まっくろ|đen kịt, đen thui
+宿|やど|nhà trọ, chỗ trọ
+鼻呼吸|びこきゅう|thở bằng mũi
+日本庭園|にほんていえん|vườn kiểu Nhật
+家庭教育|かていきょういく|giáo dục gia đình
+煙|けむり|khói
+切る|きる|cắt
+送別会|そうべつかい|tiệc chia tay
+練習|れんしゅう|luyện tập
+復習|ふくしゅう|ôn tập
+予習|よしゅう|chuẩn bị bài trước
+高低|こうてい|cao thấp
+親友|しんゆう|bạn thân
+父親|ちちおや|bố, cha
+親|おや|bố mẹ
+母親|ははおや|mẹ
+黒板|こくばん|bảng đen
+赤道|せきどう|xích đạo
+青年|せいねん|thanh niên
+青空|あおぞら|bầu trời xanh
+最悪|さいあく|tồi tệ nhất
+悪口|あっこう|lời nói xấu, chửi bới
+活用|かつよう|tận dụng, ứng dụng; chia (động từ)
+活発|かっぱつ|hoạt bát, sôi nổi
+画面|がめん|màn hình
+面白|おもしろ|thú vị, buồn cười
+冷や|ひや|nước lạnh; rượu sake để lạnh
+冷え|ひえ|sự lạnh, cảm giác lạnh
+早|はや|đã, sớm (văn cổ)
+早口|はやくち|nói nhanh
+時速|じそく|tốc độ theo giờ, km/h
+速度|そくど|tốc độ
+国歌|こっか|quốc ca
+旅|たび|chuyến đi, du lịch
+仮面|かめん|mặt nạ
+仮|かり|tạm thời
+平均点|へいきんてん|điểm trung bình
+不平等|ふびょうどう|bất bình đẳng
+電球|でんきゅう|bóng đèn
+都道府県|とどうふけん|các tỉnh thành (đơn vị hành chính Nhật)
+公立|こうりつ|công lập
+公平|こうへい|công bằng
+乗る|のる|lên (xe, tàu), đi (xe)
+乗り換え|のりかえ|chuyển tàu, đổi xe
+乗客|じょうきゃく|hành khách
+乗車|じょうしゃ|lên xe, lên tàu
+乗り物|のりもの|phương tiện đi lại
+金庫|きんこ|két sắt
+対象|たいしょう|đối tượng
+落ち葉|おちば|lá rụng
+留学|りゅうがく|du học
+留守番|るすばん|trông nhà
+遠足|えんそく|dã ngoại
+軽自動車|けいじどうしゃ|xe ô tô cỡ nhỏ (kei car)
+軽視|けいし|xem nhẹ, coi thường
+遅れる|おくれる|muộn, trễ
+番号|ばんごう|số (thứ tự)
+冬休み|ふゆやすみ|nghỉ đông
+青春|せいしゅん|tuổi xuân, tuổi thanh xuân
+春休み|はるやすみ|nghỉ xuân
+秋学期|あきがっき|học kỳ mùa thu
+世の中|よのなか|xã hội, thế gian
+最高気温|さいこうきおん|nhiệt độ cao nhất
+温暖化|おんだんか|sự nóng lên (toàn cầu)
+焼肉|やきにく|thịt nướng
+焼け|やけ|tuyệt vọng, bất cần
+彼自身|かれじしん|bản thân anh ấy
+身|み|thân thể, bản thân
+身分証明|みぶんしょうめい|chứng minh thân phận
+広げる|ひろげる|mở rộng, trải ra
+広大|こうだい|rộng lớn, bao la
+広がる|ひろがる|lan rộng, trải rộng
+お正月|おしょうがつ|Tết (năm mới)
+正式|せいしき|chính thức
+変わった|かわった|khác thường, kỳ lạ
+結婚|けっこん|kết hôn
+結論|けつろん|kết luận
+歓迎会|かんげいかい|tiệc chào mừng
+大歓迎|だいかんげい|rất hoan nghênh
+遊園地|ゆうえんち|công viên giải trí
+食欲|しょくよく|sự thèm ăn
+欲張り|よくばり|tham lam
+使用|しよう|sử dụng
+閉店|へいてん|đóng cửa hàng
+閉まる|しまる|(cửa) đóng
+閉める|しめる|đóng (cửa)
+開店|かいてん|mở cửa hàng, khai trương
+開ける|あける|mở (cửa)
+公開|こうかい|công khai, công bố
+降る|ふる|(mưa, tuyết) rơi
+禁止|きんし|cấm
+止まる|とまる|dừng lại
+止める|とめる|dừng, tắt
+持つ|もつ|cầm, mang; có
+気持ち|きもち|cảm giác, tâm trạng
+持ち|もち|sự sở hữu; độ bền
+質問|しつもん|câu hỏi
+学問|がくもん|học vấn
+答える|こたえる|trả lời
+直角|ちょっかく|góc vuông
+直し|なおし|sửa chữa, chỉnh sửa
+仲直り|なかなおり|làm lành, hòa giải
+塩分|えんぶん|lượng muối
+塩水|しおみず|nước muối
+消化|しょうか|tiêu hóa
+消しゴム|けしゴム|cục tẩy
+消費期限|しょうひきげん|hạn sử dụng
+消える|きえる|biến mất, tắt
+消極的|しょうきょくてき|tiêu cực, thụ động
+解消|かいしょう|giải tỏa, hủy bỏ
+深呼吸|しんこきゅう|hít thở sâu
+正座|せいざ|ngồi quỳ (kiểu Nhật)
+作家|さっか|nhà văn, tác giả
+品|しな|hàng hóa, đồ vật
+洋服|ようふく|quần áo kiểu Âu
+知人|ちじん|người quen
+知る|しる|biết
+知らせる|しらせる|thông báo, cho biết
+知り合い|しりあい|người quen
+役割|やくわり|vai trò
+役に立つ|やくにたつ|có ích
+設置|せっち|lắp đặt, thiết lập
+置き場|おきば|chỗ để (đồ)
+製造|せいぞう|chế tạo, sản xuất
+構造|こうぞう|cấu trúc
+経費|けいひ|chi phí
+経過|けいか|sự trôi qua, diễn biến
+虫歯|むしば|răng sâu
+深刻|しんこく|nghiêm trọng
+日本製|にほんせい|hàng Nhật sản xuất
+製造工場|せいぞうこうじょう|nhà máy sản xuất
+独立心|どくりつしん|tinh thần tự lập
+独立|どくりつ|độc lập
+表示板|ひょうじばん|bảng hiển thị
+緑茶|りょくちゃ|trà xanh
+始める|はじめる|bắt đầu
+開始|かいし|bắt đầu, khởi đầu
+始まる|はじまる|(được) bắt đầu
+年末年始|ねんまつねんし|dịp cuối năm và năm mới
+短所|たんしょ|nhược điểm
+短縮|たんしゅく|rút ngắn
+若者|わかもの|người trẻ
+腹|はら|bụng
+空腹|くうふく|đói bụng
+着る|きる|mặc (áo)
+着く|つく|đến nơi
+風邪薬|かぜぐすり|thuốc cảm
+心|こころ|trái tim, tâm hồn
+安心|あんしん|yên tâm
+風邪|かぜ|cảm lạnh
+社会保険|しゃかいほけん|bảo hiểm xã hội
+支払う|しはらう|thanh toán
+返品|へんぴん|trả hàng
+返信|へんしん|trả lời (thư)
+配達員|はいたついん|nhân viên giao hàng
+目覚まし|めざまし|đồng hồ báo thức
+覚え|おぼえ|trí nhớ; kinh nghiệm
+感覚|かんかく|cảm giác, giác quan
+残念|ざんねん|đáng tiếc
+出張|しゅっちょう|đi công tác
+集める|あつめる|thu thập, tập hợp
+集中|しゅうちゅう|tập trung
+集まる|あつまる|tập trung, tụ họp
+準備運動|じゅんびうんどう|khởi động (trước khi tập)
+運転手|うんてんしゅ|tài xế
+運び|はこび|tiến triển; sự vận chuyển
+お手洗い|おてあらい|nhà vệ sinh
+記入|きにゅう|điền vào (giấy tờ)
+現実|げんじつ|hiện thực
+現れ|あらわれ|biểu hiện
+表現|ひょうげん|biểu hiện, diễn đạt
+様子|ようす|tình hình, dáng vẻ
+高度|こうど|độ cao; cao cấp
+度に|たびに|mỗi lần
+度々|たびたび|nhiều lần, thường xuyên
+相談|そうだん|bàn bạc, tư vấn
+相当|そうとう|tương đương; khá, đáng kể
+睡眠不足|すいみんぶそく|thiếu ngủ
+完成|かんせい|hoàn thành
+成長|せいちょう|trưởng thành, tăng trưởng
+作成|さくせい|soạn, lập (tài liệu)
+登場人物|とうじょうじんぶつ|nhân vật (trong truyện, phim)
+思う|おもう|nghĩ
+意思|いし|ý chí, ý định
+思い|おもい|suy nghĩ, tâm tư
+通る|とおる|đi qua
+合う|あう|hợp, vừa
+話し合う|はなしあう|thảo luận
+評価|ひょうか|đánh giá
+意外|いがい|bất ngờ, ngoài dự đoán
+首都|しゅと|thủ đô
+大都市|だいとし|đô thị lớn
+都会|とかい|thành phố
+京都府|きょうとふ|tỉnh Kyoto
+書道|しょどう|thư pháp
+通信会社|つうしんがいしゃ|công ty viễn thông
+信用|しんよう|tín nhiệm, tin cậy
+駐在|ちゅうざい|thường trú, công tác (ở nước ngoài)
+曲線|きょくせん|đường cong
+建設会社|けんせつがいしゃ|công ty xây dựng
+四角形|しかくけい|hình tứ giác
+接触者|せっしょくしゃ|người tiếp xúc gần
+越す|こす|vượt qua; chuyển (nhà)
+案内|あんない|hướng dẫn, dẫn đường
+提案|ていあん|đề xuất, đề nghị
+参考|さんこう|tham khảo
+考える|かんがえる|suy nghĩ, cân nhắc
+１億|いちおく|một trăm triệu
+億万長者|おくまんちょうじゃ|tỷ phú
+接続|せつぞく|kết nối
+接する|せっする|tiếp xúc; giáp với
+接近|せっきん|tiếp cận, đến gần
+全財産|ぜんざいさん|toàn bộ tài sản
+布マスク|ぬのマスク|khẩu trang vải
+大声|おおごえ|giọng to, tiếng lớn
+津波警報|つなみけいほう|cảnh báo sóng thần
+波長|はちょう|bước sóng
+値上げ|ねあげ|tăng giá
+値下げ|ねさげ|giảm giá
+給食|きゅうしょく|bữa ăn (trường học, cơ quan cung cấp)
+選択|せんたく|lựa chọn
+選手|せんしゅ|cầu thủ, vận động viên
+容量|ようりょう|dung lượng
+骨折|こっせつ|gãy xương
+汚染|おせん|ô nhiễm
+汚れ|よごれ|vết bẩn
+分類|ぶんるい|phân loại
+割|わり|tỷ lệ; mười phần trăm
+割り|わり|tỷ lệ; sự chia
+落ちる|おちる|rơi; trượt (thi)
+授与式|じゅよしき|lễ trao tặng
+決定|けってい|quyết định
+安定|あんてい|ổn định
+往復|おうふく|khứ hồi, đi về
+復活|ふっかつ|phục hồi, hồi sinh
+無関心|むかんしん|thờ ơ, không quan tâm
+関する|かんする|liên quan đến
+関|せき|cửa ải, trạm kiểm soát
+日本文|にほんぶん|văn bản tiếng Nhật
+支社|ししゃ|chi nhánh
+連続|れんぞく|liên tục
+手続き|てつづき|thủ tục
+申し込み|もうしこみ|đăng ký
+飛び込む|とびこむ|nhảy vào, lao vào
+形式|けいしき|hình thức
+夜中|よなか|nửa đêm
+投資|とうし|đầu tư
+投げる|なげる|ném
+着席|ちゃくせき|ngồi vào chỗ
+お守り|おまもり|bùa hộ mệnh
+注意|ちゅうい|chú ý; nhắc nhở
+逃げる|にげる|chạy trốn
+察する|さっする|đoán, thông cảm
+警察官|けいさつかん|cảnh sát
+観察|かんさつ|quan sát
+非常識|ひじょうしき|thiếu hiểu biết thông thường, vô ý thức
+常識|じょうしき|lẽ thường, hiểu biết thông thường
+観客|かんきゃく|khán giả
+油|あぶら|dầu
+科目|かもく|môn học
+内科|ないか|khoa nội
+根本的|こんぽんてき|căn bản, triệt để
+向い|むかい|phía đối diện
+向上心|こうじょうしん|chí cầu tiến
+器|うつわ|bát, đồ đựng; tầm cỡ
+器用|きよう|khéo tay
+過保護|かほご|bao bọc quá mức
+過ごす|すごす|trải qua (thời gian)
+小麦粉|こむぎこ|bột mì
+代理店|だいりてん|đại lý
+代金|だいきん|tiền hàng, tiền trả
+代表|だいひょう|đại diện
+原作|げんさく|nguyên tác
+輸出|ゆしゅつ|xuất khẩu
+輸入|ゆにゅう|nhập khẩu
+体育|たいいく|thể dục
+雲|くも|mây
+指|ゆび|ngón tay
+指先|ゆびさき|đầu ngón tay
+引退|いんたい|giải nghệ, nghỉ hưu
+早退|そうたい|về sớm
+退職届|たいしょくとどけ|đơn xin nghỉ việc
+悲観的|ひかんてき|bi quan
+悲しみ|かなしみ|nỗi buồn
+複数回答|ふくすうかいとう|chọn nhiều đáp án
+倒れ|たおれ|sự đổ, ngã
+倒産|とうさん|phá sản
+数字|すうじ|chữ số
+数える|かぞえる|đếm
+登録者数|とうろくしゃすう|số người đăng ký
+数学|すうがく|toán học
+数|かず|số, số lượng
+個性的|こせいてき|cá tính
+個人情報|こじんじょうほう|thông tin cá nhân
+正確|せいかく|chính xác
+目次|もくじ|mục lục
+次いで|ついで|tiếp theo, sau đó
+以降|いこう|từ đó trở đi
+以来|いらい|kể từ
+百円玉|ひゃくえんだま|đồng xu 100 yên
+玉ねぎ|たまねぎ|hành tây
+愛情|あいじょう|tình yêu thương
+違法|いほう|bất hợp pháp
+合法|ごうほう|hợp pháp
+法律家|ほうりつか|luật gia
+祝日|しゅくじつ|ngày lễ
+混ざる|まざる|bị trộn lẫn
+混ぜる|まぜる|trộn
+教材|きょうざい|tài liệu giảng dạy
+取材|しゅざい|lấy tin, phỏng vấn
+人材|じんざい|nhân tài, nhân lực
+和やか|なごやか|êm ả, hòa thuận
+包装|ほうそう|đóng gói
+生命保険|せいめいほけん|bảo hiểm nhân thọ
+平均寿命|へいきんじゅみょう|tuổi thọ trung bình
+優勝|ゆうしょう|vô địch
+俳優|はいゆう|diễn viên
+優秀|ゆうしゅう|ưu tú, xuất sắc
+減少|げんしょう|giảm
+住宅|じゅうたく|nhà ở
+在宅勤務|ざいたくきんむ|làm việc tại nhà
+卒業|そつぎょう|tốt nghiệp
+不燃ゴミ|ふねんごみ|rác không cháy được
+燃料|ねんりょう|nhiên liệu
+会員登録|かいいんとうろく|đăng ký thành viên
+自由|じゆう|tự do
+不自由|ふじゆう|bất tiện; khuyết tật
+営業停止|えいぎょうていし|đình chỉ kinh doanh
+出勤|しゅっきん|đi làm
+勤務時間|きんむじかん|giờ làm việc
+髪の毛|かみのけ|tóc
+用件|ようけん|việc cần, công việc
+担任|たんにん|giáo viên chủ nhiệm; phụ trách
+一位|いちい|hạng nhất
+他社|たしゃ|công ty khác
+仲良し|なかよし|bạn thân, thân thiết
+供給|きょうきゅう|cung cấp
+提供|ていきょう|cung cấp, tài trợ
+係|かかり|người phụ trách
+受付係|うけつけがかり|nhân viên lễ tân
+候補|こうほ|ứng cử, ứng viên
+候補者|こうほしゃ|ứng cử viên
+得点王|とくてんおう|vua phá lưới
+一般市民|いっぱんしみん|người dân thường
+一般的|いっぱんてき|phổ biến, thông thường
+担当|たんとう|phụ trách
+負担|ふたん|gánh nặng
+記念写真|きねんしゃしん|ảnh kỷ niệm
+怒鳴る|どなる|quát tháo
+男性|だんせい|nam giới
+女性|じょせい|nữ giới
+精一杯|せいいっぱい|hết sức mình
+流行語|りゅうこうご|từ thịnh hành
+交流会|こうりゅうかい|buổi giao lưu
+血液型|けつえきがた|nhóm máu
+情深い|なさけぶかい|giàu lòng trắc ẩn
+満足|まんぞく|hài lòng
+満員電車|まんいんでんしゃ|tàu điện chật kín
+講演会|こうえんかい|buổi diễn thuyết
+演説|えんぜつ|diễn thuyết
+演じる|えんじる|diễn, đóng vai
+貧困問題|ひんこんもんだい|vấn đề nghèo đói
+最低賃金|さいていちんぎん|lương tối thiểu
+改善|かいぜん|cải thiện
+面積|めんせき|diện tích
+思想家|しそうか|nhà tư tưởng
+理想的|りそうてき|lý tưởng
+１万円札|いちまんえんさつ|tờ 10.000 yên
+札|ふだ|thẻ, vé, bảng tên
+横|よこ|chiều ngang; bên cạnh
+横浜|よこはま|Yokohama
+横断歩道|おうだんほどう|vạch qua đường
+助手席|じょしゅせき|ghế phụ (cạnh tài xế)
+助言|じょげん|lời khuyên
+援助|えんじょ|viện trợ, giúp đỡ
+有効期限|ゆうこうきげん|thời hạn hiệu lực
+効率|こうりつ|hiệu suất
+移民|いみん|di dân
+消費税|しょうひぜい|thuế tiêu dùng
+否定的|ひていてき|phủ định, tiêu cực
+告白|こくはく|thú nhận; tỏ tình
+警告|けいこく|cảnh cáo
+中級|ちゅうきゅう|trung cấp
+高級|こうきゅう|cao cấp
+最高級|さいこうきゅう|hạng cao cấp nhất
+逆立ち|さかだち|trồng cây chuối
+逆転勝利|ぎゃくてんしょうり|lội ngược dòng chiến thắng
+完了|かんりょう|hoàn tất
+完璧|かんぺき|hoàn hảo
+老人|ろうじん|người già
+主観的|しゅかんてき|chủ quan
+楽観的|らっかんてき|lạc quan
+圧力|あつりょく|áp lực
+感じ|かんじ|cảm giác, ấn tượng
+頑固|がんこ|cứng đầu, ngoan cố
+農業|のうぎょう|nông nghiệp
+月刊誌|げっかんし|tạp chí hàng tháng
+週刊誌|しゅうかんし|tạp chí hàng tuần
+断わる|ことわる|từ chối
+決断|けつだん|quyết đoán, quyết định
+順調|じゅんちょう|thuận lợi, suôn sẻ
+お願い|おねがい|nhờ, yêu cầu
+入学願書|にゅうがくがんしょ|đơn xin nhập học
+未成年|みせいねん|vị thành niên
+未来|みらい|tương lai
+軍人|ぐんじん|quân nhân
+軍隊|ぐんたい|quân đội
+点検|てんけん|kiểm tra
+苦手|にがて|kém, không giỏi
+苦情|くじょう|phàn nàn, khiếu nại
+了解|りょうかい|hiểu, đồng ý
+映像|えいぞう|hình ảnh, video
+銅像|どうぞう|tượng đồng
+追求|ついきゅう|theo đuổi
+請求|せいきゅう|yêu cầu (thanh toán)
+年齢制限|ねんれいせいげん|giới hạn độ tuổi
+典型的|てんけいてき|điển hình
+道路|どうろ|đường sá
+進路|しんろ|con đường (tương lai), lộ trình
+営業|えいぎょう|kinh doanh
+表示|ひょうじ|hiển thị
+調整|ちょうせい|điều chỉnh
+命令|めいれい|mệnh lệnh
+令和時代|れいわじだい|thời Reiwa
+優等生|ゆうとうせい|học sinh giỏi
+等|など|vân vân
+芸人|げいにん|nghệ sĩ hài
+芸能人|げいのうじん|người nổi tiếng (giới giải trí)
+共に|ともに|cùng nhau
+共通点|きょうつうてん|điểm chung
+岩|いわ|đá
+期間限定|きかんげんてい|giới hạn thời gian
+定期|ていき|định kỳ
+期待|きたい|kỳ vọng
+疑問|ぎもん|nghi vấn

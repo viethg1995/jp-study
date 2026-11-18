@@ -408,8 +408,10 @@ def _kanji_examples(kanji: list, entries: list, kanjidic: dict):  # type: ignore
     jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     d = paths.ENRICH_KANJI / "examples"
     tr = parse_example_translations([(f.name, f.read_text(encoding="utf-8")) for f in sorted(d.glob("*.txt"))])
-    pf = paths.KANJI_PINNED_EXAMPLES
-    pinned = parse_pinned_examples(pf.read_text(encoding="utf-8")) if pf.exists() else {}
+    pinned: dict[str, list[tuple[str, str]]] = {}
+    for pf in sorted(paths.KANJI_PINNED_DIR.glob("*.txt")):
+        for ch, items in parse_pinned_examples(pf.read_text(encoding="utf-8"), pf.name).items():
+            pinned.setdefault(ch, []).extend(x for x in items if x not in pinned[ch])
     kanji, rep = build_examples(kanji, entries, jm, kanjidic, tr, pinned)
     _write_json(paths.ENRICH_VOCAB_AUTO.parent.parent / "kanji-examples-report.json", rep.model_dump())
     return kanji, rep
@@ -453,6 +455,63 @@ def cmd_kanji_examples_todo(args: argparse.Namespace) -> int:
     print(f"# {len(todo)} từ chưa dịch — in {args.offset}..{args.offset + args.limit}")
     for line in todo[args.offset:args.offset + args.limit]:
         print(line)
+    return 0
+
+
+def cmd_kanji_book_words(args: argparse.Namespace) -> int:
+    """Từ ví dụ trên thẻ sách Kanji N3 (parse-n3) và Ebook Kanji N4 (parse-kanji-ebooks) → file ghim
+    `pinned/02-n3-book.txt`, `pinned/03-ebook-n4.txt` (chỉ từ khớp JMdict, không chép cụm/câu của sách)."""
+    from jp_pipeline.dictionaries import load_jmdict
+    from jp_pipeline.extract.layout import Span
+    from jp_pipeline.dictionaries import load_kanjidic
+    from jp_pipeline.transform.kanji_book_words import ebook_segments, format_pinned, kun_bare, words_in
+    from jp_pipeline.transform.kanji_examples import jm_candidates
+    from jp_pipeline.transform.n3_kanji import N3KanjiRaw
+
+    chars = {k["char"] for k in _read_json(paths.OUT_KANJI / "kanji.json")["kanji"]}  # type: ignore[index]
+    cands = jm_candidates(load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX), chars, all_forms=True)
+    kd = load_kanjidic(paths.DICT_KANJIDIC, paths.DICT_INDEX / "kanjidic2.json")
+    bare = {c: kun_bare(kd[c].kun) if c in kd else set() for c in chars}
+    paths.KANJI_PINNED_DIR.mkdir(parents=True, exist_ok=True)
+
+    n3 = paths.EXTRACTED / "books" / "N3" / "_parsed" / "kanji.json"
+    if n3.exists():
+        rows: list[tuple[str, str, str]] = []
+        miss: list[str] = []
+        for card in (N3KanjiRaw.model_validate(x) for x in _read_json(n3)):  # type: ignore[union-attr]
+            for ex in card.examples:
+                got = words_in(card.char, ex, cands.get(card.char, []), bare.get(card.char, set()))
+                rows += [(card.char, w, k) for w, k in got]
+                if not got:
+                    miss.append(f"{card.char}:{ex}")
+        (paths.KANJI_PINNED_DIR / "02-n3-book.txt").write_text(format_pinned(
+            rows, "Sách Kanji N3 — từ (khớp JMdict) trong ví dụ trên thẻ chữ, sinh bởi `kanji-book-words`."), encoding="utf-8")
+        print(f"N3: {len(set(rows))} từ | cụm không tách được từ: {len(miss)}")
+        for m in miss[:60]:
+            print(f"  - {m}")
+    else:
+        print("N3: thiếu _parsed/kanji.json (chạy parse-n3) — bỏ qua")
+
+    spans_file = paths.EXTRACTED / "kanji" / "_parsed" / "n4-spans.json"
+    if spans_file.exists():
+        lessons: dict[int, str] = {}
+        for line in (paths.ENRICH_KANJI / "lessons" / "n4.txt").read_text(encoding="utf-8").splitlines():
+            if line and not line.startswith("#"):
+                les, cs, _ = line.split("|")
+                lessons[int(les)] = cs
+        segs = ebook_segments([Span.model_validate(x) for x in _read_json(spans_file)])  # type: ignore[union-attr]
+        rows = []
+        for les, texts in sorted(segs.items()):
+            for t in texts:
+                for ch in lessons.get(les, ""):
+                    if ch in t:
+                        rows += [(ch, w, k) for w, k in words_in(ch, t, cands.get(ch, []), bare.get(ch, set()))]
+        no_word = [ch for les, cs in lessons.items() for ch in cs if not any(r[0] == ch for r in rows)]
+        (paths.KANJI_PINNED_DIR / "03-ebook-n4.txt").write_text(format_pinned(
+            rows, "Ebook Kanji N4 — từ ví dụ (chữ cỡ ~14pt, khớp JMdict), sinh bởi `kanji-book-words`."), encoding="utf-8")
+        print(f"N4: {len(set(rows))} từ | chữ không có từ nào: {len(no_word)} {''.join(no_word)}")
+    else:
+        print("N4: thiếu n4-spans.json (chạy parse-kanji-ebooks --only N4) — bỏ qua")
     return 0
 
 
@@ -1546,6 +1605,8 @@ def main() -> int:
     p.add_argument("--offset", type=int, default=0)
     p.add_argument("--limit", type=int, default=300)
     p.set_defaults(func=cmd_kanji_examples_todo)
+    p = sub.add_parser("kanji-book-words", help="Từ ví dụ trong sách Kanji N3 / Ebook N4 → enrichment/kanji/pinned/")
+    p.set_defaults(func=cmd_kanji_book_words)
     p = sub.add_parser("parse-kanji-ebooks", help="Kanji theo bài từ Ebook Kanji N4 (text) / N5 (OCR)")
     p.add_argument("--only", help="N4 hoặc N5")
     p.add_argument("--force", action="store_true", help="trích / OCR lại, bỏ cache")
