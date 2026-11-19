@@ -134,5 +134,15 @@
         "vi": "Tôi đã bắt con học 2 tiếng."
       }
     ]
+  },
+  "mn-48-011": {
+    "meaning_source": "ai-draft",
+    "meaning_vi": "Hay nhỉ, được đấy nhỉ.",
+    "review": {
+      "by": "ai",
+      "meaning_by": "ai",
+      "meaning_note": "\"./ \" → \", \"",
+      "status": "reviewed"
+    }
   }
 }

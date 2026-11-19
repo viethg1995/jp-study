@@ -168,17 +168,17 @@
       "meaning_vi": "dẫn đến",
       "particle": null,
       "pos": {
-        "code": "V1",
-        "label": "Động từ nhóm 1"
+        "code": "V3",
+        "label": "Động từ nhóm 3"
       },
       "provenance": {
         "han_viet": "source",
         "kanji": "source",
         "meaning": "source",
-        "pos": "source"
+        "pos": "ai-draft"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {

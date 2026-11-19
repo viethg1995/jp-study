@@ -1,0 +1,12 @@
+# by: ai
+# Đề xuất AI chưa duyệt (user duyệt xong → chuyển dòng sang vocab-fixes.txt). Cú pháp: NNN|field|giá trị|ghi chú
+# --- 2026-11-16: từ loại JMdict lấy nhầm "tính từ な" (bảng chia sinh 〜だ/〜な sai) — rà soát bước 1.2 quiz ---
+068|pos|N|かび (nấm mốc): danh từ, không có かびな
+287|pos|N|発明: danh từ (発明する); không có 発明な
+462|pos|Adv|かなり: phó từ (câu ví dụ: かなり暑い)
+471|pos|Adv|たいてい: phó từ (たいてい家にいます)
+669|pos|Adv|直接: phó từ / danh từ (直接話したい); không có 直接な
+# --- 2026-11-17: chuẩn hóa dấu trong nghĩa (sát nghĩa ", ", khác nghĩa ";" → hiện " / "; "/" liền chỉ cho từ thay thế) — chỉ đổi dấu ---
+241|meaning|Thay đổi (trạng thái, tính chất)|"tính; chất" là lỗi gõ của "tính chất"
+632|meaning|Tăng; (Chụp) cận cảnh; Đăng lên|" /Đăng lên" → nghĩa riêng
+633|meaning|Mệt, kiệt sức; Cộng thêm/trừ đi; Lãi/lỗ|" /Lãi/ Lỗ" → nghĩa riêng; "/" liền giữ cặp từ thay thế

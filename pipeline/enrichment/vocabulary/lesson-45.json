@@ -187,10 +187,14 @@
     "kana": "たのしみにしています",
     "kanji": "楽しみにしています",
     "kanji_source": "ai-draft",
+    "pos_code": "V2",
+    "pos_source": "ai-draft",
     "review": {
       "by": "ai",
       "kana_by": "ai",
       "kana_note": "-",
+      "pos_by": "ai",
+      "pos_note": "楽しみにしています: chia như いる, nhóm II (bị ghi V1 → thể từ điển たのしみにしてう vô nghĩa)",
       "status": "reviewed"
     }
   }

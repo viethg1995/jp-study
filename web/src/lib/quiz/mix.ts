@@ -1,5 +1,6 @@
 // Trang tổng /luyen-tap/ (Q8, plan/quiz/q08-luyen-tap.md): trộn câu của nhiều phần theo khoảng bài Minna 1–50.
 // Không sinh deck mới: dùng lại đúng file của trang từng phần (nhớ đệm chung, Q8-4), gộp + lọc bài ở đây (hàm thuần).
+import { chunkPaths, conjPath, uniqueById } from "./chunks";
 import { CONJ_GROUPS, CONJ_GROUP_SLUG, CONJ_KINDS, CONJ_KIND_LABEL, type ConjTable, conjItems } from "./conjugation";
 import { matches } from "./core";
 import { KANJI_KINDS, KANJI_KIND_LABEL } from "./kanji";
@@ -36,15 +37,20 @@ export interface MixFile {
 const levelsOf = (o: MixOptions): (typeof MINNA_LEVELS)[number][] =>
   MINNA_LEVELS.filter((l) => o.from <= LEVEL_LESSONS[l].to && o.to >= LEVEL_LESSONS[l].from);
 
-/** File cần tải cho bộ lọc — chỉ cấp có bài trong khoảng (bài 1–25 → chỉ file N5). */
+/**
+ * File cần tải cho bộ lọc — chỉ cấp có bài trong khoảng (bài 1–25 → chỉ file N5), và trong cấp chỉ chunk (nhóm bài,
+ * Q12 lib/quiz/chunks.ts) giao với khoảng. Kanji xếp theo bài từ vựng (`tv`) có cùng khoảng bài với cấp từ vựng.
+ */
 export function mixFiles(o: MixOptions): MixFile[] {
   const out: MixFile[] = [];
   const levels = levelsOf(o);
   for (const part of MIX_PARTS) {
     if (!o.parts.includes(part)) continue;
-    if (part === "tu-vung") for (const l of levels) for (const s of VOCAB_SLUGS) out.push({ part, path: `vocabulary/quiz/${l}-${s}.json` });
-    if (part === "kanji") for (const l of levels) for (const s of KANJI_SLUGS) out.push({ part, path: `kanji/quiz/tv-${l}-${s}.json` });
-    if (part === "chia-the") for (const g of CONJ_GROUPS) out.push({ part, group: g, path: `chia-the/quiz/${CONJ_GROUP_SLUG[g]}.json` });
+    if (part === "tu-vung")
+      for (const l of levels) for (const s of VOCAB_SLUGS) for (const path of chunkPaths("vocabulary/quiz", `${l}-${s}`, l, LEVEL_LESSONS[l], o.from, o.to)) out.push({ part, path });
+    if (part === "kanji")
+      for (const l of levels) for (const s of KANJI_SLUGS) for (const path of chunkPaths("kanji/quiz", `tv-${l}-${s}`, l, LEVEL_LESSONS[l], o.from, o.to)) out.push({ part, path });
+    if (part === "chia-the") for (const g of CONJ_GROUPS) out.push({ part, group: g, path: conjPath(CONJ_GROUP_SLUG[g], "minna") });
     if (part === "dem-so") out.push({ part, path: "luyen-tap/dem-so.json" });
   }
   return out;
@@ -56,7 +62,8 @@ export function mixFiles(o: MixOptions): MixFile[] {
  */
 export function mixItems(o: MixOptions, files: readonly MixFile[], data: readonly unknown[]): QuizItem[] {
   const lesson = { lesson: { min: o.from, max: o.to } };
-  return files.flatMap((f, i) => {
+  // câu gắn nhiều bài nằm ở nhiều chunk (Q12) → bỏ trùng ID
+  return uniqueById(files.flatMap((f, i) => {
     const d = data[i];
     if (f.part === "chia-the") {
       // info đã có loại từ ("Động từ - copy\nBài 14", conjItems) — trộn động từ + tính từ vẫn biết đang chia loại nào
@@ -66,7 +73,7 @@ export function mixItems(o: MixOptions, files: readonly MixFile[], data: readonl
     // trợ số từ: chỉ ô cần nhớ; số đếm (Q7): mọi số
     if (f.part === "dem-so") return items.filter((it) => it.kind === "n-num" || it.tags.changed === 1);
     return items.filter((it) => matches(it, lesson));
-  });
+  }));
 }
 
 /** Nhãn góc thẻ: "Từ vựng · Đọc", "Kanji · Hán-Việt"… */

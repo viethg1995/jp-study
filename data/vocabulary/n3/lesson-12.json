@@ -25,7 +25,7 @@
       ],
       "legacy_id": "n3cb-551",
       "lesson": 12,
-      "meaning_vi": "Môi trường (tự nhiên); Môi trường (xung quanh)",
+      "meaning_vi": "Môi trường (tự nhiên) / Môi trường (xung quanh)",
       "particle": null,
       "pos": {
         "code": "N",
@@ -223,7 +223,7 @@
       ],
       "legacy_id": "n3cb-555",
       "lesson": 12,
-      "meaning_vi": "Tỷ lệ; Rất (Hơn mức mình nghĩ)",
+      "meaning_vi": "Tỷ lệ / Rất (Hơn mức mình nghĩ)",
       "particle": null,
       "pos": {
         "code": "N",
@@ -519,7 +519,7 @@
       ],
       "legacy_id": "n3cb-561",
       "lesson": 12,
-      "meaning_vi": "Tiêu hao; Thuế VAT",
+      "meaning_vi": "Tiêu hao / Thuế VAT",
       "particle": null,
       "pos": {
         "code": "N",
@@ -723,7 +723,7 @@
       ],
       "legacy_id": "n3cb-565",
       "lesson": 12,
-      "meaning_vi": "Vùng, khu vực; Địa phương, quê",
+      "meaning_vi": "Vùng, khu vực / Địa phương, quê",
       "particle": null,
       "pos": {
         "code": "N",
@@ -823,7 +823,7 @@
       ],
       "legacy_id": "n3cb-567",
       "lesson": 12,
-      "meaning_vi": "Hoà bình; Hoà hợp, hiền hoà",
+      "meaning_vi": "Hoà bình / Hoà hợp, hiền hoà",
       "particle": null,
       "pos": {
         "code": "An",
@@ -925,7 +925,7 @@
       ],
       "legacy_id": "n3cb-569",
       "lesson": 12,
-      "meaning_vi": "Đi qua; Quá, vượt quá",
+      "meaning_vi": "Đi qua / Quá, vượt quá",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -1023,7 +1023,7 @@
       ],
       "legacy_id": "n3cb-571",
       "lesson": 12,
-      "meaning_vi": "chuyển, dời; làm lây (bệnh)",
+      "meaning_vi": "chuyển, dời / làm lây (bệnh)",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1123,7 +1123,7 @@
       ],
       "legacy_id": "n3cb-573",
       "lesson": 12,
-      "meaning_vi": "Tiến về phía ～; Lệch; Ghé vào",
+      "meaning_vi": "Tiến về phía ～ / Lệch / Ghé vào",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -1225,7 +1225,7 @@
       ],
       "legacy_id": "n3cb-575",
       "lesson": 12,
-      "meaning_vi": "Trao, cho; Đem lại, gây ra",
+      "meaning_vi": "Trao, cho / Đem lại, gây ra",
       "particle": null,
       "pos": {
         "code": "V2",
@@ -1417,7 +1417,7 @@
       ],
       "legacy_id": "n3cb-579",
       "lesson": 12,
-      "meaning_vi": "Bảo vệ; Tuân thủ",
+      "meaning_vi": "Bảo vệ / Tuân thủ",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -1468,7 +1468,7 @@
       ],
       "legacy_id": "n3cb-580",
       "lesson": 12,
-      "meaning_vi": "Tranh cãi, tranh chấp, tranh giành; Cạnh tranh",
+      "meaning_vi": "Tranh cãi, tranh chấp, tranh giành / Cạnh tranh",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -1569,7 +1569,7 @@
       ],
       "legacy_id": "n3cb-582",
       "lesson": 12,
-      "meaning_vi": "Tin tưởng, tin vào; Tín",
+      "meaning_vi": "Tin tưởng, tin vào / Tín",
       "particle": null,
       "pos": {
         "code": "V2",
@@ -1620,7 +1620,7 @@
       ],
       "legacy_id": "n3cb-583",
       "lesson": 12,
-      "meaning_vi": "Hiểu; Dẫn đến, xuyên qua; Kết nối (điện thoại)",
+      "meaning_vi": "Hiểu / Dẫn đến, xuyên qua / Kết nối (điện thoại)",
       "particle": null,
       "pos": {
         "code": "V2",
@@ -1770,7 +1770,7 @@
       ],
       "legacy_id": "n3cb-586",
       "lesson": 12,
-      "meaning_vi": "Mải mê, chăm chú; Say nắng, shock nhiệt",
+      "meaning_vi": "Mải mê, chăm chú / Say nắng, shock nhiệt",
       "particle": null,
       "pos": {
         "code": "V3",
@@ -1917,7 +1917,7 @@
       ],
       "legacy_id": "n3cb-589",
       "lesson": 12,
-      "meaning_vi": "Buộc, thắt; Nối (chuyến); Ký kết (hợp đồng)",
+      "meaning_vi": "Buộc, thắt / Nối (chuyến) / Ký kết (hợp đồng)",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -2019,7 +2019,7 @@
       ],
       "legacy_id": "n3cb-591",
       "lesson": 12,
-      "meaning_vi": "Hoàn tất; Không làm ～ cũng xong; Cũng xong cũng được; Cắt được, sắc",
+      "meaning_vi": "Hoàn tất / Không làm ～ cũng xong / Cũng xong cũng được / Cắt được, sắc",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -2080,7 +2080,7 @@
       ],
       "legacy_id": "n3cb-592",
       "lesson": 12,
-      "meaning_vi": "Hết hạn, hết hiệu lực; Hết",
+      "meaning_vi": "Hết hạn, hết hiệu lực / Hết",
       "particle": null,
       "pos": {
         "code": "V2",
@@ -2131,7 +2131,7 @@
       ],
       "legacy_id": "n3cb-593",
       "lesson": 12,
-      "meaning_vi": "Lưu truyền truyền đạt; Được truyền vào, du nhập; Truyền đạt, chuyển lời",
+      "meaning_vi": "Lưu truyền truyền đạt / Được truyền vào, du nhập / Truyền đạt, chuyển lời",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2186,7 +2186,7 @@
       ],
       "legacy_id": "n3cb-594",
       "lesson": 12,
-      "meaning_vi": "Lưu truyền truyền đạt; Được truyền vào, du nhập; Truyền đạt, chuyển lời",
+      "meaning_vi": "Lưu truyền truyền đạt / Được truyền vào, du nhập / Truyền đạt, chuyển lời",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -2241,7 +2241,7 @@
       ],
       "legacy_id": "n3cb-595",
       "lesson": 12,
-      "meaning_vi": "Liên tục trải dài; Tiếp, tiếp theo; Liên tục",
+      "meaning_vi": "Liên tục trải dài / Tiếp, tiếp theo / Liên tục",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -2296,7 +2296,7 @@
       ],
       "legacy_id": "n3cb-596",
       "lesson": 12,
-      "meaning_vi": "(Kéo dài) liền, liên tục; Tiếp tục",
+      "meaning_vi": "(Kéo dài) liền, liên tục / Tiếp tục",
       "particle": null,
       "pos": {
         "code": "V2",
@@ -2345,7 +2345,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-597",
       "lesson": 12,
-      "meaning_vi": "Nối, kết nối; Được kết nối, dẫn đến; (Kéo dài) liên tục; Kết nối (điện thoại, mạng)",
+      "meaning_vi": "Nối, kết nối / Được kết nối, dẫn đến / (Kéo dài) liên tục / Kết nối (điện thoại, mạng)",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2496,7 +2496,7 @@
       ],
       "legacy_id": "n3cb-600",
       "lesson": 12,
-      "meaning_vi": "Dài ra; Kéo dài kéo dãn; Tăng lên; Kéo dài, làm phẳng; Nở, trương; Giãn, gião",
+      "meaning_vi": "Dài ra / Kéo dài kéo dãn / Tăng lên / Kéo dài, làm phẳng / Nở, trương / Giãn, gião",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -2563,7 +2563,7 @@
       ],
       "legacy_id": "n3cb-601",
       "lesson": 12,
-      "meaning_vi": "Dài ra; Kéo dài kéo dãn; Tăng lên; Kéo dài, làm phẳng; Nở, trương; Giãn, gião",
+      "meaning_vi": "Dài ra / Kéo dài kéo dãn / Tăng lên / Kéo dài, làm phẳng / Nở, trương / Giãn, gião",
       "particle": "を",
       "pos": {
         "code": "V1",

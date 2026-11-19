@@ -99,6 +99,29 @@ describe("Q6-4: bộ chia sai (nhiễu)", () => {
     assert.ok(item(na, `c-to:${row("adj-na", "きれい").id}:neg`).pool.map(reading).includes("きれいくない"));
     assert.ok(item(na, `c-to:${row("adj-na", "きれい").id}:desu`).pool.map(reading).includes("きれいなです"));
   });
+
+  test("ら抜き (食べれる, 来れる, 見れる) không bao giờ là nhiễu — mọi động từ, mọi thể", () => {
+    for (const r of tables.verb.rows) {
+      const pot = r.forms.potential?.[0];
+      if (!pot || !reading(pot).endsWith("られる")) continue;
+      const rano = reading(pot).slice(0, -3) + "れる";
+      for (const form of Object.keys(r.forms)) assert.ok(!wrongForms(r, form).map(reading).includes(rano), `${r.base} ${form}`);
+    }
+    const kuru = item(gen("verb"), `c-to:${row("verb", "きます").id}:potential`);
+    assert.ok(!kuru.pool.map(text).includes("来れる"), kuru.pool.join(" ")); // {来|く}れる hiện như ら抜き
+    const tabe = item(gen("verb"), `c-to:${row("verb", "たべます").id}:potential`);
+    assert.ok(!tabe.pool.map(reading).includes("たべれる"), tabe.pool.join(" "));
+  });
+
+  test("tính từ い: ～くありません(でした) là dạng ĐÚNG → không bao giờ là nhiễu; いい → いくありません vẫn là nhiễu", () => {
+    for (const r of tables["adj-i"].rows)
+      for (const form of ["neg_polite", "past_neg_polite"]) {
+        const bad = wrongForms(r, form).map(reading);
+        if (r.forms[form]?.[2] === 1) continue;
+        assert.ok(!bad.some((x) => x.endsWith("くありません") || x.endsWith("くありませんでした")), `${r.base} ${form}: ${bad}`);
+      }
+    assert.ok(wrongForms(row("adj-i", "いい"), "neg_polite").map(reading).includes("いくありません"));
+  });
   test("wrongForms sinh cả dạng đúng (chưa lọc) — conjItems phải loại: 来ます → ない không có nhiễu 来ない", () => {
     const r = row("verb", "きます");
     assert.ok(wrongForms(r, "nai").some((w) => text(w) === text(r.forms.nai![0])), "wrongForms 来る phải có dạng trùng chữ 来ない");
@@ -118,13 +141,31 @@ describe("Q6-4: bộ chia sai (nhiễu)", () => {
   });
 });
 
+describe("Q13: từ N3 trùng từ Minna có hàng riêng", () => {
+  test("sách N3 có 倒れる (n3-101) ở bài N3, đề dạng từ điển, link bảng chia về trang Minna mn-39-002", () => {
+    const items = gen("verb", { book: "n3", from: 1, to: 14, kinds: ["chia"] }).filter((x) => x.id.startsWith("c-to:n3-101:"));
+    assert.ok(items.length > 10);
+    for (const q of items) {
+      assert.equal(q.prompt, "{倒|たお}れる");
+      assert.equal(q.href, "chia-the/dong-tu/mn-39-002/");
+      assert.equal(q.tags.book, "n3");
+    }
+    assert.ok(checkDeck(items).length === 0);
+  });
+  test("hàng N3 trùng: 63 hàng có sameAs, sách N3 tổng 332 hàng", () => {
+    const rows = CONJ_GROUPS.flatMap((g) => tables[g].rows);
+    assert.equal(rows.filter((r) => r.sameAs).length, 63);
+    assert.equal(rows.filter((r) => r.book === "n3").length, 332); // 337 trước khi bỏ 5 hàng N3 sai từ loại (bước 1.2)
+  });
+});
+
 describe("Q6-5: nhận thể", () => {
-  test("154 từ có khả năng = bị động → mỗi chiều 154 câu có accepted", () => {
+  test("188 từ có khả năng = bị động (162 + 26 động từ nhóm II N3 có hàng riêng, Q13) → mỗi chiều 188 câu có accepted", () => {
     const items = both("verb").filter((x) => x.kind === "c-which");
     const pot = items.filter((x) => x.id.endsWith(":potential") && x.accepted.includes("Thể bị động"));
     const pas = items.filter((x) => x.id.endsWith(":passive") && x.accepted.includes("Thể khả năng"));
-    assert.equal(pot.length, 154);
-    assert.equal(pas.length, 154);
+    assert.equal(pot.length, 188);
+    assert.equal(pas.length, 188);
     for (const q of [...pot, ...pas]) assert.ok(!q.pool.includes("Thể bị động") && !q.pool.includes("Thể khả năng"), q.id);
   });
   test("không hỏi thể ます (trùng đề); hỏi ません", () => {

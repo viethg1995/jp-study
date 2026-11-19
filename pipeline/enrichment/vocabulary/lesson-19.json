@@ -243,8 +243,12 @@
     }
   },
   "mn-19-018": {
+    "meaning_source": "ai-draft",
+    "meaning_vi": "nhờ ơn anh/chị mà ～; Nhờ trời ～",
     "review": {
       "by": "user",
+      "meaning_by": "ai",
+      "meaning_note": "\"anh/ chị\" → \"anh/chị\" (liền)",
       "note": "お陰様で — giữ, hiển thị kana",
       "status": "reviewed"
     }

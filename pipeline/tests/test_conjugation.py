@@ -1,6 +1,6 @@
 import pytest
 
-from jp_pipeline.transform.conjugation import conjugate, first_kanji, to_ruby
+from jp_pipeline.transform.conjugation import conjugate, first_kanji, identity_kanji, to_ruby
 
 
 def forms(kind: str, kana: str, kanji: str | None = None, dictionary_form: bool = False) -> dict[str, str]:
@@ -73,3 +73,56 @@ def test_adjectives_and_noun() -> None:
 def test_first_kanji_and_ruby() -> None:
     assert first_kanji("速い, 早い") == "速い" and first_kanji("治ります、直ります") == "治ります"
     assert to_ruby("書きます", "よみます") is None
+
+
+def test_identity_kanji_for_merging() -> None:
+    # cùng từ (Minna thể ます ↔ N3 thể từ điển, tính từ な có/không な) → cùng chữ → được gộp
+    assert identity_kanji("起きます") == identity_kanji("起きる") == "起"
+    assert identity_kanji("大変") == identity_kanji("大変な") == "大変"
+    assert identity_kanji("間に合います") == identity_kanji("間に合う") == "間合"
+    assert identity_kanji("治ります、直ります") == identity_kanji("治る")
+    # từ khác chữ / một bên chỉ có kana → khác khóa, không gộp
+    assert identity_kanji("点けます") != identity_kanji("付けます")
+    assert identity_kanji(None) is None and identity_kanji("掛けます") == "掛"
+
+# ── build_conjugation trên dữ liệu thật (Q13, plan/quiz/q13-conj-n3-rows.md) ─────────────────────────
+def _real_build():  # type: ignore[no-untyped-def]
+    import json
+
+    from jp_pipeline import paths
+    from jp_pipeline.schemas import VocabLesson
+    from jp_pipeline.transform.conjugation import build_conjugation
+
+    def lessons(d):  # type: ignore[no-untyped-def]
+        return [e for f in sorted(d.glob("lesson-*.json"))
+                for e in VocabLesson.model_validate(json.loads(f.read_text(encoding="utf-8"))).entries]
+
+    vocab = lessons(paths.OUT_VOCABULARY) + lessons(paths.OUT_VOCAB_N3)  # Minna trước N3 như cli
+    spec = json.loads((paths.ENRICH_CONJ / "forms.json").read_text(encoding="utf-8"))
+    doc, _ = build_conjugation(vocab, spec)
+    return doc
+
+
+def test_n3_duplicate_of_minna_gets_own_row() -> None:
+    doc = _real_build()
+    by_id = {e.vocab_id: e for e in doc.entries}
+    n3 = by_id["n3-101"]  # 倒れる — trùng mn-39-002 倒れます
+    mn = by_id["mn-39-002"]
+    assert (n3.book, n3.same_as) == ("n3", "mn-39-002")
+    assert 1 <= n3.lesson <= 14
+    assert [(f.form, f.kana) for f in n3.forms] == [(f.form, f.kana) for f in mn.forms]  # cùng gốc → cùng bảng chia
+    assert "n3-101" not in mn.aliases
+    assert mn.same_as is None
+
+
+def test_alias_only_within_same_book_and_examples_resolve_to_minna() -> None:
+    doc = _real_build()
+    by_id = {e.vocab_id: e for e in doc.entries}
+    for e in doc.entries:
+        assert all(a[:2] == e.vocab_id[:2] for a in e.aliases), (e.vocab_id, e.aliases)  # mn ↔ mn, n3 ↔ n3
+        if e.same_as:
+            assert e.book == "n3" and by_id[e.same_as].book == "minna"
+    assert any("mn-11-004" in e.aliases for e in doc.entries)  # 休みます bài 11 vẫn là alias của bài 4 (cùng sách)
+    examples = {x for f in doc.forms for r in f.rules for x in r.examples}
+    assert all(by_id[x].same_as is None for x in examples)  # ví dụ quy tắc giải về hàng Minna
+    assert sum(1 for e in doc.entries if e.same_as) == 63  # 68 trước khi khóa gộp có identity_kanji

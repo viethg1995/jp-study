@@ -60,5 +60,19 @@ Kiểm tra: unit 204 (thêm `wrong.test.ts` 10 test), e2e 162 (thêm `wrong-answ
 
 - Trang chủ có mục **"Ôn câu hay sai"** (giữa lời chào và "Nội dung học"), **ẩn** khi chưa có câu sai / localStorage bị chặn / không JS.
 - Mỗi trang quiz một nút kèm số câu: Từ vựng **tách theo cấp** (suy từ ID: `mn-01…25` N5, `mn-26…50` N4, `n3-` N3), Kanji, Bộ thủ, Chia thể, Đếm số (`o=tat-ca`), Số đếm (`loai=so`). Link mở trang quiz với `?on=sai` + `loai` = các loại câu đang có câu sai (trang mặc định chỉ chọn 1 loại).
-- Kanji / Chia thể không suy được cấp / nhóm từ ID → link không kèm cấp: câu sai ở cấp khác cấp mặc định cần đổi cấp trên trang (như số "Câu hay sai (N)" trên trang đó vốn đếm mọi cấp). Muốn chính xác phải nhúng bảng tra chữ → cấp vào trang chủ — chưa làm.
+- ~~Kanji / Chia thể không suy được cấp / nhóm từ ID → link không kèm cấp~~ — **đã xử lý 2026-11-17 bước 2.3a** (trang tự chọn cấp / nhóm có nhiều câu sai nhất khi `?on=sai`, mục dưới). Ghi chú gốc: câu sai ở cấp khác cấp mặc định cần đổi cấp trên trang (như số "Câu hay sai (N)" trên trang đó vốn đếm mọi cấp). Muốn chính xác phải nhúng bảng tra chữ → cấp vào trang chủ — chưa làm.
 - Code: `lib/quiz/wrong-summary.ts` (hàm thuần, `wrong-summary.test.ts` 5 test); JS trang chủ 1,4KB gzip. E2E: `wrong-answers.spec.ts` thêm 1 test (ẩn khi rỗng; nút theo trang; bấm → đúng bộ lọc, lượt chỉ có câu sai của cấp đó).
+
+## Kế hoạch bước 2.3a — link "Câu hay sai" kèm cấp cho Kanji / Chia thể · ✅ xong 2026-11-17
+
+Ghi 2026-11-17 ([README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16)). Hiện tại (Bổ sung 2026-11-16): ID câu Kanji (`k-…:k-字`) và Chia thể (`c-to:<vocab_id>:<thể>`) không suy được cấp / nhóm từ → link trang chủ không kèm cấp, người học phải tự đổi cấp trên trang.
+
+| # | Đề xuất |
+|---|---|
+| 2.3a-1 | Chia thể: thay vì nhúng bảng tra `vocab_id → nhóm` (~720 mục) vào trang chủ, **trang chia thể tự chọn nhóm từ khi `?on=sai`** (nhóm đầu tiên có câu sai) — trang chủ giữ nhẹ |
+| 2.3a-2 | Kanji: tương tự — trang Kanji khi `?on=sai` tự chọn cấp đầu tiên có câu sai (đọc `jp:quiz:wrong` + danh sách chữ của deck) |
+| 2.3a-3 | Không đổi key `jp:quiz:wrong`, không đổi ID câu |
+
+Test: e2e `wrong-answers.spec.ts` — câu sai Kanji N4 + chia thể tính từ い → bấm từ trang chủ → trang mở đúng cấp / nhóm, có câu.
+
+**Kết quả 2.3a (2026-11-17):** hàm thuần ở `lib/quiz/wrong-summary.ts`: `mostCommon`, `pickConjScope` (nhóm từ theo bảng tính từ nhúng ở trang, sách theo tiền tố `n3-`), `kanjiCharOfId`, `pickKanjiLevel`. Trang **Chia thể** nhúng `adj` (vocab_id → `adj-i`/`adj-na`, ~180 mục) vào `q-config`; mở `?on=sai` mà URL chưa có `nhom` → chọn nhóm + sách nhiều câu sai nhất, Minna "đã học tới bài 50" / N3 cả khoảng bài. Trang **Kanji** nhúng `levelChars` (3 chuỗi chữ theo cấp, cách xếp giáo trình — một chữ có thể ở nhiều cấp); mở `?on=sai` mà URL chưa có `cap` → cấp nhiều câu sai nhất. Trang chủ **không đổi** (không thêm bảng tra). Hòa → N5 trước / động từ Minna trước. Test: `wrong-summary.test.ts` +3; e2e `wrong-answers.spec.ts` +1 (Kanji N4 + tính từ い từ trang chủ → đúng cấp / nhóm, lượt có đúng 1 câu).

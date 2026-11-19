@@ -6,6 +6,7 @@
 // "Câu hay sai" → áp thêm lên bộ lọc của trang, URL ?on=sai (runner tự gắn sau khi trang ghi URL trong setFilter).
 // Gõ kana (Q9): dòng "Trả lời" chọn "Gõ kana" → câu loại gõ được (typing.ts) hiện ô nhập thay 4 lựa chọn, romaji chuyển
 // kana ngay khi gõ (romaji.ts), chấm bằng Session.answerTyped; URL ?tra-loi=go (gắn như ?on=sai).
+import { uniqueById } from "./chunks";
 import { groupByTarget, parseRuby } from "../ruby";
 import { isRuby } from "./validate";
 import { filterItems, parseRoundSize, partOf } from "./core";
@@ -602,7 +603,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
     return p;
   };
   let token = 0;
-  const deckItems = (data: unknown[]): QuizItem[] => data.flatMap((d) => (d as Deck).items);
+  // nhiều chunk cùng deck (Q12): câu gắn nhiều bài nằm ở nhiều chunk → bỏ trùng ID
+  const deckItems = (data: unknown[]): QuizItem[] => uniqueById(data.flatMap((d) => (d as Deck).items));
   const loadDecks = (urls: readonly string[], then: () => void, toItems: (data: unknown[]) => QuizItem[] = deckItems): void => {
     const my = ++token;
     all = null;

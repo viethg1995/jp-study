@@ -409,6 +409,16 @@
       "status": "reviewed"
     }
   },
+  "mn-37-030": {
+    "meaning_source": "ai-draft",
+    "meaning_vi": "Hay quá nhỉ, vui quá nhỉ.",
+    "review": {
+      "by": "ai",
+      "meaning_by": "ai",
+      "meaning_note": "\"./ \" → \", \"",
+      "status": "reviewed"
+    }
+  },
   "mn-37-031": {
     "examples": [
       {

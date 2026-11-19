@@ -158,3 +158,10 @@ def test_char_readings_slash_alternatives_single_char() -> None:
     ]
     r = char_readings_from_vocab(entries)
     assert set(r["好"]) == {"HIẾU", "HẢO"} and "会" not in r
+
+
+def test_radical_meaning_separator() -> None:
+    rads = parse_radicals(_md({154: "||154|貝|Bối|Vỏ sò; tiền, vật báu (thời xưa; dùng vỏ sò)|"}))
+    assert rads[153].meaning_vi == "Vỏ sò / tiền, vật báu (thời xưa; dùng vỏ sò)"
+    out = apply_radical_overrides(rads, "164|meaning_vi|Dậu (địa chi thứ 10); bình rượu")
+    assert out[163].meaning_vi == "Dậu (địa chi thứ 10) / bình rượu"

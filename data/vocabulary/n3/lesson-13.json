@@ -118,7 +118,7 @@
       ],
       "legacy_id": "n3cb-604",
       "lesson": 13,
-      "meaning_vi": "Chồng lên; Trùng nhau; Nhiều (nhấn mạnh)",
+      "meaning_vi": "Chồng lên / Trùng nhau / Nhiều (nhấn mạnh)",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -173,7 +173,7 @@
       ],
       "legacy_id": "n3cb-605",
       "lesson": 13,
-      "meaning_vi": "Chồng lên; Trùng nhau; Nhiều (nhấn mạnh)",
+      "meaning_vi": "Chồng lên / Trùng nhau / Nhiều (nhấn mạnh)",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -320,7 +320,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-608",
       "lesson": 13,
-      "meaning_vi": "Sắp xếp, để ngay ngắn; Tập trung (sẵn sàng, đầy đủ)",
+      "meaning_vi": "Sắp xếp, để ngay ngắn / Tập trung (sẵn sàng, đầy đủ)",
       "particle": null,
       "pos": {
         "code": "V2",
@@ -369,7 +369,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-609",
       "lesson": 13,
-      "meaning_vi": "Tổng hợp; Tổng hợp, thống nhất, tập trung",
+      "meaning_vi": "Tổng hợp / Tổng hợp, thống nhất, tập trung",
       "particle": null,
       "pos": {
         "code": "V2",
@@ -559,7 +559,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-613",
       "lesson": 13,
-      "meaning_vi": "Trộn A, B với nhau; Được trộn lẫn",
+      "meaning_vi": "Trộn A, B với nhau / Được trộn lẫn",
       "particle": null,
       "pos": {
         "code": "V1",
@@ -608,7 +608,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-614",
       "lesson": 13,
-      "meaning_vi": "Trộn lẫn; Trộn, khuấy mạnh",
+      "meaning_vi": "Trộn lẫn / Trộn, khuấy mạnh",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -659,7 +659,7 @@
       ],
       "legacy_id": "n3cb-615",
       "lesson": 13,
-      "meaning_vi": "(Được) giải quyết, giải đáp; Tan ra; Được hoà tan",
+      "meaning_vi": "(Được) giải quyết, giải đáp / Tan ra / Được hoà tan",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -716,7 +716,7 @@
       ],
       "legacy_id": "n3cb-616",
       "lesson": 13,
-      "meaning_vi": "Đánh tan, làm tan ra; Làm tan ra",
+      "meaning_vi": "Đánh tan, làm tan ra / Làm tan ra",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -863,7 +863,7 @@
       ],
       "legacy_id": "n3cb-619",
       "lesson": 13,
-      "meaning_vi": "Xuất hiện; Có (hiệu quả, tác dụng)",
+      "meaning_vi": "Xuất hiện / Có (hiệu quả, tác dụng)",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -914,7 +914,7 @@
       ],
       "legacy_id": "n3cb-620",
       "lesson": 13,
-      "meaning_vi": "Thể hiện; Biểu thị",
+      "meaning_vi": "Thể hiện / Biểu thị",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1059,7 +1059,7 @@
       ],
       "legacy_id": "n3cb-623",
       "lesson": 13,
-      "meaning_vi": "hết, kết thúc (năm); rạng sáng (夜が明ける)",
+      "meaning_vi": "hết, kết thúc (năm) / rạng sáng (夜が明ける)",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -1485,7 +1485,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-632",
       "lesson": 13,
-      "meaning_vi": "Tăng; (Chụp) cận cảnh /Đăng lên",
+      "meaning_vi": "Tăng / (Chụp) cận cảnh / Đăng lên",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1494,11 +1494,11 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "jmdict"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
@@ -1507,7 +1507,11 @@
         },
         {
           "context": null,
-          "text": "(Chụp) cận cảnh /Đăng lên"
+          "text": "(Chụp) cận cảnh"
+        },
+        {
+          "context": null,
+          "text": "Đăng lên"
         }
       ],
       "transitivity": null,
@@ -1534,7 +1538,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-633",
       "lesson": 13,
-      "meaning_vi": "Mệt, kiệt sức; Cộng thêm/Trừ đi /Lãi/ Lỗ",
+      "meaning_vi": "Mệt, kiệt sức / Cộng thêm/trừ đi / Lãi/lỗ",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1543,11 +1547,11 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "jmdict"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
@@ -1556,7 +1560,11 @@
         },
         {
           "context": null,
-          "text": "Cộng thêm/Trừ đi /Lãi/ Lỗ"
+          "text": "Cộng thêm/trừ đi"
+        },
+        {
+          "context": null,
+          "text": "Lãi/lỗ"
         }
       ],
       "transitivity": null,
@@ -1630,7 +1638,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-635",
       "lesson": 13,
-      "meaning_vi": "Hình dung, tưởng tượng; Hình ảnh",
+      "meaning_vi": "Hình dung, tưởng tượng / Hình ảnh",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2058,7 +2066,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-644",
       "lesson": 13,
-      "meaning_vi": "Hàng thuê, đồ thuê; Sự cho thuê",
+      "meaning_vi": "Hàng thuê, đồ thuê / Sự cho thuê",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2156,7 +2164,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-646",
       "lesson": 13,
-      "meaning_vi": "Kiểu, loại (người); Kiểu, loại (vật); Tuýp, gu",
+      "meaning_vi": "Kiểu, loại (người) / Kiểu, loại (vật) / Tuýp, gu",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2256,7 +2264,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-648",
       "lesson": 13,
-      "meaning_vi": "Bộ, set; Thiết lập (đồng hồ)",
+      "meaning_vi": "Bộ, set / Thiết lập (đồng hồ)",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2307,7 +2315,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-649",
       "lesson": 13,
-      "meaning_vi": "Virus (cúm); Virus (máy tính)",
+      "meaning_vi": "Virus (cúm) / Virus (máy tính)",
       "particle": null,
       "pos": {
         "code": "N",

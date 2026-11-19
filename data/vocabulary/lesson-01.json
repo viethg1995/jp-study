@@ -74,7 +74,7 @@
       ],
       "legacy_id": "lesson1_2",
       "lesson": 1,
-      "meaning_vi": "anh/ chị/ ông/ bà",
+      "meaning_vi": "anh, chị, ông, bà",
       "particle": null,
       "pos": {
         "code": "Pro",
@@ -83,7 +83,7 @@
       "provenance": {
         "han_viet": "user",
         "kanji": "user",
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "source"
       },
       "related": [],
@@ -92,7 +92,7 @@
       "senses": [
         {
           "context": null,
-          "text": "anh/ chị/ ông/ bà"
+          "text": "anh, chị, ông, bà"
         }
       ],
       "transitivity": null,

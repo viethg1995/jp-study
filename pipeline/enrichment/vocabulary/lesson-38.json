@@ -373,6 +373,16 @@
       "status": "reviewed"
     }
   },
+  "mn-38-028": {
+    "meaning_source": "ai-draft",
+    "meaning_vi": "Ôi, không được rồi; Ôi, trời ơi.",
+    "review": {
+      "by": "ai",
+      "meaning_by": "ai",
+      "meaning_note": "\"./ \" → \";\" (câu đã có dấu phẩy bên trong)",
+      "status": "reviewed"
+    }
+  },
   "mn-38-029": {
     "examples": [
       {

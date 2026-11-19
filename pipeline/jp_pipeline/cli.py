@@ -169,7 +169,8 @@ def _build_conjugation(vocab: list) -> int:  # type: ignore[type-arg]
     _write_json(paths.OUT_CONJUGATION, doc.model_dump(mode="json"))  # type: ignore[attr-defined]
     _write_json(paths.DATA_SCHEMA / "conjugation.schema.json", ConjugationFile.model_json_schema())
     kinds = Counter(e.kind for e in doc.entries)  # type: ignore[attr-defined]
-    print(f"  chia thể  : {rep.entries} từ {dict(kinds)} | trùng bỏ qua {rep.duplicates} "
+    same = sum(1 for e in doc.entries if e.same_as)  # type: ignore[attr-defined]
+    print(f"  chia thể  : {rep.entries} từ {dict(kinds)} | trùng bỏ qua {rep.duplicates} | N3 trùng Minna {same} "
           f"| không gắn furigana {len(rep.no_ruby or [])}{' ' + ', '.join((rep.no_ruby or [])[:10]) if rep.no_ruby else ''}")
     return 0
 
@@ -290,15 +291,16 @@ def _build_n3(minna: list) -> tuple[list, dict[str, tuple[int, str | None]], dic
         if c not in char_hv and vals:
             char_hv[c] = (normalize_han_viet(vals[0].upper()) or "", "unihan")
 
-    fix_file = enrich / "vocab-fixes.txt"
-    fix_by, fixes = parse_fixes(fix_file.read_text(encoding="utf-8")) if fix_file.exists() else ("ai", [])
+    # vocab-fixes.txt (đã duyệt) + vocab-fixes-ai.txt (đề xuất AI) — mỗi dòng mang '# by:' của file chứa nó
+    fixes = [fx for name in ("vocab-fixes.txt", "vocab-fixes-ai.txt") if (enrich / name).exists()
+             for fx in parse_fixes((enrich / name).read_text(encoding="utf-8"))[1]]
     raws = [N3VocabRaw.model_validate(x) for x in _read_json(parsed / "vocab.json")]  # type: ignore[union-attr]
-    jm = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     from jp_pipeline.transform.n3_build import parse_examples
 
     ex_files = sorted((enrich / "_examples").glob("lesson-*.txt"))
     n3_examples = parse_examples([(f.name, f.read_text(encoding="utf-8")) for f in ex_files])
-    entries, warnings = build_n3_vocab(raws, fixes, fix_by, jm, char_hv, n3_examples)
+    entries, warnings = build_n3_vocab(raws, fixes, jm, char_hv, n3_examples)
 
     out_dir = paths.OUT_VOCABULARY / "n3"
     by_lesson: dict[int, list] = {}  # type: ignore[type-arg]
@@ -342,11 +344,10 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
         print("Thiếu bảng 214 bộ thủ — chạy: python -m jp_pipeline extract-pdf --only 214")
         return 1
     radicals = parse_radicals(rad_md.read_text(encoding="utf-8"))
-    if paths.ENRICH_RADICAL_OVERRIDES.exists():
-        radicals = apply_radical_overrides(
-            radicals, paths.ENRICH_RADICAL_OVERRIDES.read_text(encoding="utf-8"),
-            paths.ENRICH_RADICAL_OVERRIDES.name,
-        )
+    # overrides.txt (# by: user, đã duyệt) rồi overrides-ai.txt (# by: ai, đề xuất chưa duyệt)
+    for ov in (paths.ENRICH_RADICAL_OVERRIDES, paths.ENRICH_RADICAL_OVERRIDES_AI):
+        if ov.exists():
+            radicals = apply_radical_overrides(radicals, ov.read_text(encoding="utf-8"), ov.name)
     unihan = load_unihan_vi(paths.DICT_UNIHAN, paths.DICT_INDEX / "unihan_vi.json")
     meanings = parse_meanings(
         [(f.name, f.read_text(encoding="utf-8")) for f in sorted(paths.ENRICH_KANJI.glob("*.txt"))]
@@ -391,6 +392,9 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
     print(f"  ví dụ: +{ex_report.jmdict_added} từ JMdict | chưa dịch {ex_report.untranslated} "
           f"| không rõ On/Kun {ex_report.unclassified} | chữ < 5 ví dụ: {len(ex_report.below_min)} "
           f"{''.join(ex_report.below_min)}")
+    print(f"  phủ âm: +{ex_report.readings_filled} từ | bỏ âm không có từ: "
+          f"{sum(map(len, ex_report.readings_removed.values()))} dạng / {len(ex_report.readings_removed)} chữ "
+          f"| âm chỉ có từ hiếm (chưa có ví dụ): {sum(map(len, ex_report.readings_without_example.values()))}")
     print(f"  bộ thủ thành phần: TB {sum(len(k.radical_parts) for k in kanji) / len(kanji):.1f} bộ/chữ "
           f"| bộ chính không có trong cây KanjiVG: {len(parts_report.primary_not_in_tree)} "
           f"{''.join(parts_report.primary_not_in_tree[:40])} | không có SVG: {len(parts_report.no_tree)}")
@@ -400,12 +404,14 @@ def _build_kanji(entries: list, kanjidic: dict, n3: dict | None = None, n3_place
 def _kanji_examples(kanji: list, entries: list, kanjidic: dict):  # type: ignore[no-untyped-def,type-arg]
     """Từ ví dụ On/Kun cho từng chữ (giáo trình + JMdict) — xem transform/kanji_examples.py."""
     from jp_pipeline.dictionaries import load_jmdict
-    from jp_pipeline.transform.kanji_examples import build_examples, parse_example_translations
+    from jp_pipeline.transform.kanji_examples import build_examples, parse_example_translations, parse_pinned_examples
 
-    jm = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     d = paths.ENRICH_KANJI / "examples"
     tr = parse_example_translations([(f.name, f.read_text(encoding="utf-8")) for f in sorted(d.glob("*.txt"))])
-    kanji, rep = build_examples(kanji, entries, jm, kanjidic, tr)
+    pf = paths.KANJI_PINNED_EXAMPLES
+    pinned = parse_pinned_examples(pf.read_text(encoding="utf-8")) if pf.exists() else {}
+    kanji, rep = build_examples(kanji, entries, jm, kanjidic, tr, pinned)
     _write_json(paths.ENRICH_VOCAB_AUTO.parent.parent / "kanji-examples-report.json", rep.model_dump())
     return kanji, rep
 
@@ -504,7 +510,7 @@ def _build_strokes(kanji: list, radicals: list, svgs: dict[str, str], version: s
         if not m:
             return None
         bare = re.sub(r"\s*[(（][^)）]*[)）]?", "", m).strip() or m.strip("()（） ")
-        return bare.replace(";", ",").split(",")[0].strip() or None
+        return re.split(r"[,;/]", bare)[0].strip() or None
 
     names: dict[str, tuple[str | None, str | None]] = {}
     rad_name = {r.number: (r.name_vi.upper(), short(r.meaning_vi.lower() if r.meaning_vi else None)) for r in radicals}
@@ -780,7 +786,7 @@ def cmd_enrich_vocab(_: argparse.Namespace) -> int:
             print(f"Thiếu từ điển: {p.relative_to(paths.ROOT)} — xem docstring dictionaries.py")
             return 1
     print("Đọc từ điển (lần đầu ~15s, sau đó dùng cache)…", flush=True)
-    jmdict = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jmdict = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     kanjidic = load_kanjidic(paths.DICT_KANJIDIC, paths.DICT_INDEX / "kanjidic2.json")
     unihan = load_unihan_vi(paths.DICT_UNIHAN, paths.DICT_INDEX / "unihan_vi.json")
 
@@ -955,7 +961,7 @@ def cmd_check_meanings(_: argparse.Namespace) -> int:
         e for f in sorted(paths.OUT_VOCABULARY.glob("lesson-*.json"))
         for e in VocabLesson.model_validate(_read_json(f)).entries
     ]
-    jm = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     ok_file = paths.ENRICH_VOCAB / "meaning-check-ok.txt"  # ID đã soát, không lỗi → không hiện lại
     ok = {
         ln.split("|")[0].strip() for ln in ok_file.read_text(encoding="utf-8").splitlines()
@@ -1060,7 +1066,7 @@ def cmd_parse_n3(args: argparse.Namespace) -> int:
     from jp_pipeline.transform.n3_vocab import parse_lesson
 
     out_dir = paths.EXTRACTED / "books" / "N3" / "_parsed"
-    jm_index = load_jmdict(paths.DICT_JMDICT, paths.DICT_INDEX / "jmdict.json")
+    jm_index = load_jmdict(paths.DICT_JMDICT, paths.JMDICT_INDEX)
     known = set(jm_index) | {k for items in jm_index.values() for it in items for k in it.kanji}
 
     def is_word(text: str) -> bool:

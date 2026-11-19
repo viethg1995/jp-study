@@ -2173,7 +2173,7 @@
       "kanji_refs": [],
       "legacy_id": "lesson6_47",
       "lesson": 6,
-      "meaning_vi": "Được đấy nhỉ./ hay quá.",
+      "meaning_vi": "Được đấy nhỉ, hay quá.",
       "particle": null,
       "pos": {
         "code": "Conv",
@@ -2182,16 +2182,16 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "source"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
           "context": null,
-          "text": "Được đấy nhỉ./ hay quá."
+          "text": "Được đấy nhỉ, hay quá."
         }
       ],
       "transitivity": null,
@@ -2209,7 +2209,7 @@
       "kanji_refs": [],
       "legacy_id": "lesson6_48",
       "lesson": 6,
-      "meaning_vi": "Tôi hiểu rồi/ vâng ạ.",
+      "meaning_vi": "Tôi hiểu rồi, vâng ạ.",
       "particle": null,
       "pos": {
         "code": "Conv",
@@ -2218,16 +2218,16 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "source"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
           "context": null,
-          "text": "Tôi hiểu rồi/ vâng ạ."
+          "text": "Tôi hiểu rồi, vâng ạ."
         }
       ],
       "transitivity": null,

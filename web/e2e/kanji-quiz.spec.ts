@@ -24,7 +24,7 @@ test.describe("/kanji/quiz/", () => {
     });
     await page.goto("kanji/quiz/?cap=n3&xep=gt&tu=1&den=1&loai=nghia");
     await startQuiz(page);
-    expect(loaded).toEqual(["gt-n3-nghia.json"]);
+    expect(loaded).toEqual(["gt-n3-nghia-01.json"]); // chunk bài 1–3 (Q12)
     for (let i = 0; i < 3; i++) {
       await expect(page.locator('[data-q="info"]')).toContainText("Kanji N3 · Bài 1");
       await page.keyboard.press("1");

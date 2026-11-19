@@ -719,7 +719,7 @@
           "id": "mn-08-016-e1",
           "max_lesson": 8,
           "review": "user",
-          "ruby": "この{店|みせ}は[[{悪|わる}く]]ないです。",
+          "ruby": "この{店|みせ}は[[{悪|わる}くないです]]。",
           "source": "ai-draft",
           "vi": "Cửa hàng này không tệ."
         }

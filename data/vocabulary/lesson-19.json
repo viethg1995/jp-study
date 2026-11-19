@@ -823,7 +823,7 @@
       ],
       "legacy_id": "lesson19_18",
       "lesson": 19,
-      "meaning_vi": "nhờ ơn anh/ chị mà ～ ; Nhờ trời ～",
+      "meaning_vi": "nhờ ơn anh/chị mà ～ / Nhờ trời ～",
       "particle": null,
       "pos": {
         "code": "Greet",
@@ -832,7 +832,7 @@
       "provenance": {
         "han_viet": "mixed",
         "kanji": "jmdict",
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "source"
       },
       "related": [],
@@ -841,7 +841,7 @@
       "senses": [
         {
           "context": null,
-          "text": "nhờ ơn anh/ chị mà ～"
+          "text": "nhờ ơn anh/chị mà ～"
         },
         {
           "context": null,

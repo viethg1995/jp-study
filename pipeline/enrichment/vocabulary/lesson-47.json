@@ -81,12 +81,12 @@
         "vi": "Từ nhà bếp có mùi thơm nhỉ."
       }
     ],
-    "meaning_source": "user",
-    "meaning_vi": "có [âm thanh/ tiếng]; có [vị]; có [mùi]",
+    "meaning_source": "ai-draft",
+    "meaning_vi": "có [âm thanh, tiếng]; có [vị]; có [mùi]",
     "review": {
       "by": "user",
-      "meaning_by": "user",
-      "meaning_note": "gốc: có [âm thanh/ tiếng]có [vị]có [mùi]",
+      "meaning_by": "ai",
+      "meaning_note": "\"[âm thanh/ tiếng]\" → \"[âm thanh, tiếng]\"",
       "status": "reviewed"
     }
   },
@@ -100,7 +100,15 @@
         "source": "ai-draft",
         "vi": "Bố tôi rất nghiêm khắc."
       }
-    ]
+    ],
+    "pos_code": "Ai",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "厳しい: tính từ い (bị ghi tính từ な → bảng chia sinh 厳しいだ, 厳しいな) — rà soát bước 1.2 quiz 2026-11-16",
+      "status": "reviewed"
+    }
   },
   "mn-47-008": {
     "examples": [

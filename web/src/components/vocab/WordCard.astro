@@ -62,7 +62,7 @@ const flipId = `flip-${word.id}`;
         {
           word.senses.map((s, i) => (
             <>
-              {i > 0 && <span class="text-ink-faint">; </span>}
+              {i > 0 && <span class="text-ink-faint"> / </span>}
               {s.text}
               {s.context && <span class="ml-1 text-sm text-ink-faint">({s.context})</span>}
             </>

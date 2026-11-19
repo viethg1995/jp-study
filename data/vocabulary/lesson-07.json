@@ -268,17 +268,17 @@
       "meaning_vi": "mượn, vay",
       "particle": null,
       "pos": {
-        "code": "V1",
-        "label": "Động từ nhóm 1"
+        "code": "V2",
+        "label": "Động từ nhóm 2"
       },
       "provenance": {
         "han_viet": "source",
         "kanji": "source",
         "meaning": "source",
-        "pos": "source"
+        "pos": "ai-draft"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {

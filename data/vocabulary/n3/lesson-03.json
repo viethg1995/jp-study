@@ -220,7 +220,7 @@
       ],
       "legacy_id": "n3cb-101",
       "lesson": 3,
-      "meaning_vi": "Đổ; Ngất, bất tỉnh, đổ bệnh",
+      "meaning_vi": "Đổ / Ngất, bất tỉnh, đổ bệnh",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -273,7 +273,7 @@
       ],
       "legacy_id": "n3cb-102",
       "lesson": 3,
-      "meaning_vi": "Làm đổ, đánh đổ; Đánh bại, chinh phục",
+      "meaning_vi": "Làm đổ, đánh đổ / Đánh bại, chinh phục",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -327,7 +327,7 @@
       ],
       "legacy_id": "n3cb-103",
       "lesson": 3,
-      "meaning_vi": "Thức; Ra, xảy ra",
+      "meaning_vi": "Thức / Ra, xảy ra",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -383,7 +383,7 @@
       ],
       "legacy_id": "n3cb-104",
       "lesson": 3,
-      "meaning_vi": "Đánh thức; Dựng lên; Gây ra, làm",
+      "meaning_vi": "Đánh thức / Dựng lên / Gây ra, làm",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1022,7 +1022,7 @@
       ],
       "legacy_id": "n3cb-117",
       "lesson": 3,
-      "meaning_vi": "Quyết định; Chọn",
+      "meaning_vi": "Quyết định / Chọn",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -1122,7 +1122,7 @@
       ],
       "legacy_id": "n3cb-119",
       "lesson": 3,
-      "meaning_vi": "Chụp (ảnh); Chép",
+      "meaning_vi": "Chụp (ảnh) / Chép",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1177,7 +1177,7 @@
       ],
       "legacy_id": "n3cb-120",
       "lesson": 3,
-      "meaning_vi": "Nhớ lại; Nhớ ra",
+      "meaning_vi": "Nhớ lại / Nhớ ra",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1327,7 +1327,7 @@
       ],
       "legacy_id": "n3cb-123",
       "lesson": 3,
-      "meaning_vi": "Từ chối; Được phép",
+      "meaning_vi": "Từ chối / Được phép",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1380,7 +1380,7 @@
       ],
       "legacy_id": "n3cb-124",
       "lesson": 3,
-      "meaning_vi": "Bị bắt; Tóm",
+      "meaning_vi": "Bị bắt / Tóm",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -1433,7 +1433,7 @@
       ],
       "legacy_id": "n3cb-125",
       "lesson": 3,
-      "meaning_vi": "Tóm, bắt; Bắt",
+      "meaning_vi": "Tóm, bắt / Bắt",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -1486,7 +1486,7 @@
       ],
       "legacy_id": "n3cb-126",
       "lesson": 3,
-      "meaning_vi": "Xuống xe; Xuống cầu thang; Ngừng kinh doanh; Được, cho phép",
+      "meaning_vi": "Xuống xe / Xuống cầu thang / Ngừng kinh doanh / Được, cho phép",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -1549,7 +1549,7 @@
       ],
       "legacy_id": "n3cb-127",
       "lesson": 3,
-      "meaning_vi": "Cho xuống; Hạ xuống; Rút tiền",
+      "meaning_vi": "Cho xuống / Hạ xuống / Rút tiền",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1608,7 +1608,7 @@
       ],
       "legacy_id": "n3cb-128",
       "lesson": 3,
-      "meaning_vi": "Sửa; Cải thiện",
+      "meaning_vi": "Sửa / Cải thiện",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -1661,7 +1661,7 @@
       ],
       "legacy_id": "n3cb-129",
       "lesson": 3,
-      "meaning_vi": "Sửa; Chỉnh; Dịch",
+      "meaning_vi": "Sửa / Chỉnh / Dịch",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -1904,7 +1904,7 @@
       ],
       "legacy_id": "n3cb-134",
       "lesson": 3,
-      "meaning_vi": "Được sinh ra; Ra đời; Sinh ra",
+      "meaning_vi": "Được sinh ra / Ra đời / Sinh ra",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -1959,7 +1959,7 @@
       ],
       "legacy_id": "n3cb-135",
       "lesson": 3,
-      "meaning_vi": "Sinh; Đẻ ra; Tạo ra",
+      "meaning_vi": "Sinh / Đẻ ra / Tạo ra",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -2019,7 +2019,7 @@
       ],
       "legacy_id": "n3cb-136",
       "lesson": 3,
-      "meaning_vi": "Gặp gỡ; Gặp gỡ tình cờ; Gặp gỡ định mệnh",
+      "meaning_vi": "Gặp gỡ / Gặp gỡ tình cờ / Gặp gỡ định mệnh",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2126,7 +2126,7 @@
       ],
       "legacy_id": "n3cb-138",
       "lesson": 3,
-      "meaning_vi": "Giao du Chơi với; Cùng làm Có hẹn với; Hẹn hò",
+      "meaning_vi": "Giao du Chơi với / Cùng làm Có hẹn với / Hẹn hò",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2183,7 +2183,7 @@
       ],
       "legacy_id": "n3cb-139",
       "lesson": 3,
-      "meaning_vi": "Có hiệu quả; Đang chạy",
+      "meaning_vi": "Có hiệu quả / Đang chạy",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2232,7 +2232,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-140",
       "lesson": 3,
-      "meaning_vi": "Lây Bùng phát; Thịnh hành",
+      "meaning_vi": "Lây Bùng phát / Thịnh hành",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2429,7 +2429,7 @@
       ],
       "legacy_id": "n3cb-144",
       "lesson": 3,
-      "meaning_vi": "Đi; Hiểu",
+      "meaning_vi": "Đi / Hiểu",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2482,7 +2482,7 @@
       ],
       "legacy_id": "n3cb-145",
       "lesson": 3,
-      "meaning_vi": "Phủ, rưới; Bọc; Tốn, mất; Mắc (bệnh); Làm; Bắc qua",
+      "meaning_vi": "Phủ, rưới / Bọc / Tốn, mất / Mắc (bệnh) / Làm / Bắc qua",
       "particle": "が",
       "pos": {
         "code": "V1",
@@ -2551,7 +2551,7 @@
       ],
       "legacy_id": "n3cb-146",
       "lesson": 3,
-      "meaning_vi": "Rưới; Đắp, bọc; Tốn, mất; Làm cho; Nhân",
+      "meaning_vi": "Rưới / Đắp, bọc / Tốn, mất / Làm cho / Nhân",
       "particle": "を",
       "pos": {
         "code": "V2",
@@ -2616,7 +2616,7 @@
       ],
       "legacy_id": "n3cb-147",
       "lesson": 3,
-      "meaning_vi": "Cử động; Lay động; Thay đổi",
+      "meaning_vi": "Cử động / Lay động / Thay đổi",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -2673,7 +2673,7 @@
       ],
       "legacy_id": "n3cb-148",
       "lesson": 3,
-      "meaning_vi": "Xa, rời xa; Cách",
+      "meaning_vi": "Xa, rời xa / Cách",
       "particle": "が",
       "pos": {
         "code": "V2",
@@ -2724,7 +2724,7 @@
       ],
       "legacy_id": "n3cb-149",
       "lesson": 3,
-      "meaning_vi": "Tách ra, tách xa; Rời, buông",
+      "meaning_vi": "Tách ra, tách xa / Rời, buông",
       "particle": "を",
       "pos": {
         "code": "V1",
@@ -2773,7 +2773,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-150",
       "lesson": 3,
-      "meaning_vi": "Đâm, va chạm; Bất đồng; Trùng",
+      "meaning_vi": "Đâm, va chạm / Bất đồng / Trùng",
       "particle": "が",
       "pos": {
         "code": "V1",

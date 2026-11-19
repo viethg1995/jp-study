@@ -22,8 +22,9 @@ test("mặc định: bài 1–25, đủ 4 phần; bấm Bắt đầu mới tải
   for (const p of ["tu-vung", "kanji", "chia-the", "dem-so"]) await expect(page.locator(`#phan-${p}`)).toBeChecked();
   expect(loaded).toEqual([]);
   await startQuiz(page);
-  expect(loaded).toHaveLength(10);
-  expect(loaded.filter((f) => /n4/.test(f))).toEqual([]);
+  // (3 từ vựng + 3 Kanji) × 5 chunk bài (Q12) + 3 bảng chia Minna + đếm số
+  expect(loaded).toHaveLength(34);
+  expect(loaded.filter((f) => /n4|-n3\./.test(f))).toEqual([]);
   expect(loaded).toContain("luyen-tap/dem-so.json");
   await expect(page.locator(".q-opt")).toHaveCount(4);
 });
@@ -50,7 +51,8 @@ test("URL ?tu=30&den=32&phan=kanji → chỉ tải Kanji N4, chỉ hỏi Kanji",
   await expect(page.locator("#phan-tu-vung")).not.toBeChecked();
   await expect(page.locator("#phan-kanji")).toBeChecked();
   await startQuiz(page);
-  expect(loaded.sort()).toEqual(["kanji/quiz/tv-n4-doc.json", "kanji/quiz/tv-n4-hv.json", "kanji/quiz/tv-n4-nghia.json"]);
+  // chỉ chunk chứa bài 30 (26–30) và 31–32 (31–35) — Q12
+  expect(loaded.sort()).toEqual(["doc", "hv", "nghia"].flatMap((s) => [`kanji/quiz/tv-n4-${s}-26.json`, `kanji/quiz/tv-n4-${s}-31.json`]));
   for (let i = 0; i < 5; i++) {
     await expect(page.locator(kind)).toHaveText(/^Kanji · /);
     await expect(page.locator('[data-q="info"]')).toContainText(/Bài 3[0-2]/);

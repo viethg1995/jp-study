@@ -37,8 +37,12 @@ export interface ConjRow {
   meaning: string;
   /** Dạng gốc trong giáo trình (thể ます / tính từ nguyên dạng) — ruby. */
   base: string;
+  /** Từ N3 trùng từ Minna: ID hàng Minna — link "Xem bảng chia" về trang đó (Q13, không có trang riêng). */
+  sameAs?: string;
   /** thể → [ruby, quy tắc, bất quy tắc 0/1]; thiếu thể = từ không dùng thể đó. */
   forms: Record<string, [string, string, 0 | 1]>;
+  /** ID từ vựng trùng từ này ở bài/sách khác (n3-101 → hàng mn-39-002); chỉ có khi không rỗng. */
+  aliases?: string[];
 }
 
 export function buildConjTable(group: ConjGroupId, entries: readonly ConjEntry[], defs: readonly ConjFormDef[]): ConjTable {
@@ -55,7 +59,9 @@ export function buildConjTable(group: ConjGroupId, entries: readonly ConjEntry[]
         lesson: e.lesson,
         meaning: e.meaning_vi,
         base: e.ruby,
+        ...(e.same_as ? { sameAs: e.same_as } : {}),
         forms: Object.fromEntries(e.forms.map((f) => [f.form, [f.ruby, f.rule, f.irregular ? 1 : 0]])),
+        ...(e.aliases.length > 0 ? { aliases: [...e.aliases] } : {}),
       })),
   };
 }
@@ -146,7 +152,9 @@ export function wrongForms(row: ConjRow, form: string): string[] {
     if (plain) {
       const stem = plain.endsWith("い") ? plain.slice(0, -1) : plain;
       for (const e of NA_END[form] ?? []) push(plain + e); // たかいでした, たかいじゃない
-      for (const e of I_END[form] ?? []) push(stem + e); // いい → いくない (bất quy tắc)
+      // いい → いくない (bất quy tắc). ～くありません(でした) là cách nói phủ định lịch sự ĐÚNG của mọi tính từ い
+      // (悪くありません = 悪くないです) → chỉ dùng làm nhiễu khi ô đó bất quy tắc (いい: よくありません)
+      for (const e of I_END[form] ?? []) if (!e.includes("ありません") || row.forms[form]?.[2] === 1) push(stem + e);
       if (form === "past_polite") push(stem + "かったでした");
     }
   } else if (row.kind === "An") {
@@ -157,7 +165,13 @@ export function wrongForms(row: ConjRow, form: string): string[] {
       for (const e of NA_END[form] ?? []) push(w + e); // しずかなです, しずかの
     }
   }
-  return out;
+  // ら抜き (食べれる, 来れる): giáo trình coi là không chuẩn nhưng văn nói rất phổ biến → không dùng làm nhiễu (user chốt
+  // 2026-11-17: không chấm sai một cách nói người Nhật dùng thật)
+  // so cả cách đọc lẫn chữ hiển thị: {来|く}れる đọc くれる nhưng hiện 来れる = ら抜き của 来られる
+  const pot = f("potential");
+  if (!pot?.endsWith("られる")) return out;
+  const rano = pot.slice(0, -3) + "れる";
+  return out.filter((x) => rf(x).reading !== rf(rano).reading && shown(x) !== shown(rano));
 }
 
 // ---------------------------------------------------------------- Sinh câu hỏi
@@ -244,7 +258,7 @@ const lessonLabel = (r: ConjRow): string => (r.book === "n3" ? `N3 · Bài ${r.l
 function toItems(table: ConjTable, opts: ConjOptions, r: ConjRow, learned: ConjTable["forms"], asked: ConjTable["forms"]): QuizItem[] {
   const out: QuizItem[] = [];
   const p = promptForm(table, r);
-  const href = conjHref(table.group, r.id);
+  const href = conjHref(table.group, r.sameAs ?? r.id);
   const tags = { lesson: r.lesson, group: r.kind, book: r.book };
 
   for (const f of asked) {

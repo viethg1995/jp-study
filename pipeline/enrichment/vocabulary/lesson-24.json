@@ -62,7 +62,15 @@
         "source": "ai-draft",
         "vi": "Tôi đã dẫn bạn đến nhà."
       }
-    ]
+    ],
+    "pos_code": "V3",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "連れて来ます — ghép với 来ます, nhóm III (連れてくる/連れてこない); V1 chia sai thành つれてく",
+      "status": "reviewed"
+    }
   },
   "mn-24-005": {
     "examples": [

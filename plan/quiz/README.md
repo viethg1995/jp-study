@@ -20,8 +20,25 @@ Quy trình mỗi task: viết spec vào file task → **user duyệt** → làm 
 | [Q8](q08-luyen-tap.md) | Trang tổng `/luyen-tap/` | ✅ |
 | [Q9](q09-kana-input.md) | Gõ kana | ✅ — ⏸ tạm ẩn 2026-11-16 (`TYPING_ENABLED = false`) |
 | [Q10](q10-wrong-answers.md) | Lưu câu sai | ✅ |
-| [Q11](q11-conjunctions.md) | Quiz từ nối | ⬜ chờ dữ liệu |
-| [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ⬜ theo dõi — lập kế hoạch sau khi xong mọi chức năng |
+| [Q11](q11-conjunctions.md) | Quiz từ nối | ⬜ kế hoạch chờ duyệt (2026-11-18): dữ liệu (STATUS mục 8) → trang `/tu-noi/` → quiz; nhánh riêng sau PR |
+| [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ✅ 2026-11-17 — 5 bài/file (N3 3 bài), chia thể theo sách |
+| [Q13](q13-conj-n3-rows.md) | Bảng chia: từ N3 trùng từ Minna có hàng riêng (`same_as`) — quiz Chia thể sách N3 đủ từ | ✅ 2026-11-17, đưa lên bản mới 2026-11-19 |
+
+## Kế hoạch tiếp theo (chốt 2026-11-16)
+
+Thứ tự (user chốt): **sửa lỗi → hoàn thiện → chia nhỏ file deck → merge + PR**. Mỗi bước vẫn theo quy trình ở đầu file (spec → duyệt → làm → gate → commit `feat/quiz` → ghi chú). Q11 (từ nối) chờ dữ liệu — nhánh riêng sau khi PR này merge.
+
+| Bước | Việc | Trạng thái |
+|---|---|---|
+| **1 — Sửa lỗi** | | |
+| 1.1 | Pipeline gộp `aliases` bảng chia chỉ theo kana → nối nhầm từ khác nghĩa (掛けます ↔ かけます, 付けます ↔ つけます, 吐きます ↔ つきます). Gộp khi cùng chữ / `same_word`; quét mọi alias khác chữ; pytest; kiểm link "Chia thể" trên thẻ từ vựng | ✅ 2026-11-16 — khóa gộp thêm `identity_kanji` (chữ Hán của cách viết đầu, không phụ thuộc `display`); 714 → 724 hàng, không mất hàng/ID nào (chi tiết mục Lỗi dữ liệu) |
+| 1.2 | Rà lỗi cùng loại: từ loại sai trong bảng chia (V2 không tận cùng える/いる, động từ ghép する/来る chưa V3…); nhiễu thực ra là dạng đúng (như `～くありません`) trên mọi câu chia thể + điền từ | ✅ 2026-11-17 — 6 từ loại sai (mục Lỗi dữ liệu); quét 12.612 câu: 0 nhiễu trùng くありません / では / ないです; sửa 1 nhiễu đồng âm (付いて ↔ ついて); bỏ ら抜き khỏi nhiễu (user chốt) |
+| **2 — Hoàn thiện** | | |
+| 2.1 | ~43 câu thể ghép: sinh **thể phái sinh trên web** (bị động/sai khiến + ます, なければなりません / なくても / なかったら từ thể ない, thân ます / gốc tính từ + そう), không thêm thể vào bảng chia — spec: [q04b mục Kế hoạch bước 2.1](q04b-cloze-inflected.md) | ✅ 2026-11-17 — +40 câu, bỏ qua 66 → 26; lộ thêm 3 lỗi nhóm động từ (借ります, 足ります, 楽しみにしています → V2) |
+| 2.2 | ~24 câu không phải chia thể: bộ lọc lộ đáp án bắt oan theo cách đọc (量 / 料理, 医学 / 大学, 西 / にしずみ…) → câu điền từ chỉ xét chữ hiển thị; 3 câu lộ thật (本 / 日本語, 国 / 中国, 山 / 富士山) → viết lại; tách `kanji` nhiều cách viết ra `variants`; mẫu câu / phó từ N3 `～なる` ghi "không hỏi" — spec: [q04b mục Kế hoạch bước 2.2](q04b-cloze-inflected.md) | ✅ 2026-11-17 phần web — +11 câu, bỏ qua 26 → 15; bỏ `～` khỏi nhiễu (lỗi có sẵn); 3 câu 本/国/山: user giữ câu gốc, chữ đáp án nằm trong từ ghép dài hơn không tính lộ → bỏ qua **12** |
+| 2.3 | Link "Câu hay sai" trang chủ kèm cấp cho Kanji / Chia thể — trang tự chọn cấp/nhóm khi `?on=sai` ([q10 mục Kế hoạch 2.3a](q10-wrong-answers.md)); 6 biến thể bộ thủ còn thiếu, kiểm font ([q05 mục Kế hoạch 2.3b](q05-kanji.md)) | 2.3a ✅ 2026-11-17 (trang Kanji / Chia thể tự chọn cấp / nhóm khi `?on=sai`) · 2.3b ✅ 2026-11-17 (乚 ⺌ ⺮ ⻊; bỏ 訁 釒 — không phải dạng Nhật) |
+| **3 — Q12** | Đo lại deck sau bước 2 (vượt mốc → tạm nâng mốc, làm Q12 ngay); chia 5 bài/file cho từ vựng + Kanji, chia thể theo sách, `deckChunks()` dùng chung cho trang từng phần + `mixFiles`, cache PWA theo chunk, mốc mới < 150KB / < 25KB gzip mỗi chunk, ID câu không đổi — spec: [q12 mục Kế hoạch bước 3](q12-deck-chunking.md) | ✅ 2026-11-17 — N3 3 bài/file (5 bài vượt mốc), chia thể chỉ theo sách, câu nhiều bài ở mọi chunk + bỏ trùng ID; không có PWA; bộ lọc 3 bài tải 20–25% |
+| **4 — Merge + PR** | Merge `main` mới nhất vào `feat/quiz`; đủ gate (`npm run build`, e2e, pytest, `BASE_PATH=/jp-study/`); push + PR vào `main` | ⬜ |
 
 ## Hiện trạng (khảo sát 2026-11-12)
 
@@ -102,7 +119,7 @@ interface QuizItem {
 2. Mọi `pool` có ≥ 3 mục khác nhau (không đủ → loại câu đó khỏi deck và test báo số câu bị loại).
 3. `id` duy nhất trong toàn bộ deck.
 4. `prompt` dạng ruby parse được bằng `lib/ruby.ts`.
-5. Không câu nào mà chính `prompt` lộ đáp án (vd hỏi cách đọc nhưng prompt đã có furigana của chữ đó).
+5. Không câu nào mà chính `prompt` lộ đáp án (vd hỏi cách đọc nhưng prompt đã có furigana của chữ đó). Câu điền từ (`v-cloze`) chỉ xét chữ hiển thị — cách đọc trùng ở chữ Hán khác không tính, chữ đáp án nằm trong từ ghép dài hơn (本 / 日本語) cũng không tính (2026-11-17, `leaks()`).
 
 **Chọn nhiễu (mọi phần):** Nguồn đáp án nhiễu tốt nhất là **lỗi người học hay mắc**; khi không có thì lấy mục **cùng nhóm** (cùng bài, cùng từ loại, cùng số nét) để nhiễu không quá lộ.
 
@@ -147,14 +164,22 @@ interface QuizItem {
 
 ## Theo dõi dung lượng deck
 
-Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [q12-deck-chunking.md](q12-deck-chunking.md) (lệnh đo có trong file). Mốc hiện tại: deck từ vựng < 450KB gốc / < 70KB gzip; `n5-dien` đã sát mốc gốc (440KB). Chia nhỏ file (chunk) lên kế hoạch sau khi xong mọi chức năng quiz (Q12).
+Task nào làm deck lớn thêm → đo lại và ghi vào bảng số đo ở [q12-deck-chunking.md](q12-deck-chunking.md) (lệnh đo có trong file). Mốc hiện tại (Q12, 2026-11-17): **mỗi chunk** deck từ vựng / Kanji < 150KB gốc / < 25KB gzip; bảng chia theo sách < 550KB / < 55KB (`chunks.test.ts`). Lớn nhất: `tv-n5-doc-06` 144KB / 22KB (sát mốc gốc). Trước Q12: cả cấp < 500KB / < 75KB.
 
 ## Lỗi dữ liệu phát hiện qua quiz (sửa ở pipeline, không sửa `data/`)
 
 - ~~`mn-41-039` この間: kana sai `このあいだい`~~ — đã sửa 2026-11-16 (`_decisions/17-quiz-kana.txt`).
-- Bộ thủ: xem [q05-kanji.md](q05-kanji.md) (tên dính số, thiếu biến thể).
-- **Q4b — câu ví dụ có từ đích đã chia nhưng chưa hỏi được** (~115 câu, chi tiết + số liệu ở [q04b-cloze-inflected.md](q04b-cloze-inflected.md) mục Khảo sát):
-  - ~60 câu: động từ N3 **thiếu trong `data/conjugation.json`** (n3-101 倒れる, n3-103 起きる, n3-108 飼う, n3-117 決める, n3-126 降りる, n3-144 通う, n3-317 届く, n3-333 増える…) — bổ sung ở bước sinh bảng chia của pipeline.
-  - ~40 câu: thể ghép chưa có trong bảng chia — bị động + ました (bài 37: 褒められました, 招待されました), なければなりません / なくても (bài 17), なかったら (bài 25). Hướng: thêm thể ghép vào bảng chia, hoặc pipeline đánh dấu cụm `[[…]]` chỉ phần thể có sẵn.
-  - ~15 câu: không phải chia thể — trường `kanji` chứa nhiều cách viết (mn-09-033 `夫 /主人`, mn-09-035 `妻/家内`, mn-24-009 `おじいさん／ おじいちゃん`), danh từ hóa (迎え, 切れ), mẫu câu (mn-01-030 こちらは～さんです).
-  - Sửa xong → chạy `vocab.test.ts`: mốc "số câu bỏ qua" phải hạ theo.
+- ~~Bộ thủ: tên dính số, thiếu biến thể~~ — đã sửa 2026-11-15 (`enrichment/kanji/radicals/overrides.txt`; 41/214 bộ có `variants`). Bổ sung 2026-11-17 (`overrides-ai.txt`): 乙→乚, 小→⺌, 竹→⺮, 足→⻊; 言/金 giữ nguyên (dạng Nhật) — chi tiết [q05-kanji.md](q05-kanji.md).
+- ~~`conjugation.json`: `aliases` gộp theo kana nối nhầm từ khác nghĩa~~ — **đã sửa 2026-11-16** (bước 1.1). Nguyên nhân: khóa gộp `(loại, kana gốc, kanji gốc)` chỉ có kanji khi `display = kanji` → hai từ hiển thị kana khác chữ trùng khóa. Thêm `identity_kanji()` (`transform/conjugation.py`) vào khóa. Quét 105 alias: 68 cặp "khác cách ghi" nhưng phần lớn là cùng từ (起きます / 起きる, 大変 / 大変な — vẫn gộp); tách 10 hàng: 3 gộp nhầm thật (mn-22-004 掛けます đeo kính ≠ mn-07-009 かけます gọi điện, mn-34-005 付けます chấm xì dầu ≠ mn-14-001 点けます bật, mn-38-009 吐きます nói dối ≠ mn-29-003 つきます đèn sáng) + 7 cặp một bên không có kanji (mn-27-005 できます "được xây dựng" ≠ mn-18-001 "có thể"; N3 không ghi kanji: n3-154 ふく, n3-224 むだ, n3-428 うまい, n3-445 すごい, n3-446 ひどい, n3-609 まとめる). Hàng cũ giữ nguyên ID/nội dung (khóa localStorage `c-to:` không đổi); thẻ từ vựng link "Chia thể" sang trang riêng. Quiz chia thể: từ có khả năng = bị động 157 → 160. Web vẫn tra `same_word` trước `aliases` (phòng hờ).
+- ~~**Q4b — câu ví dụ có từ đích đã chia nhưng chưa hỏi được**~~ — **đã xử lý 2026-11-17**: 66 → **12** câu bỏ qua, đều "không hỏi" (mẫu câu, や, 買い物, phó từ N3 ～なる; mốc `skipped <= 13`). Lịch sử (đo 2026-11-16: 66 câu theo `vocab.test.ts`; chi tiết + phân nhóm ở [q04b-cloze-inflected.md](q04b-cloze-inflected.md) mục Bổ sung / Bổ sung 2):
+  - ~~~60 câu: động từ N3 thiếu trong `conjugation.json`~~ — chẩn đoán sai: các từ này có trong bảng chia dưới dạng `aliases` của hàng Minna; lỗi ở web (không tra `aliases`), **đã sửa 2026-11-16** (+54 câu N3).
+  - ~~26 câu: câu ví dụ viết khác cách viết của từ vựng (点けて / つけます…)~~ — **đã sửa 2026-11-16**: web khớp theo cách đọc + viết dạng sai theo chữ của câu; kèm sửa từ loại 持って来ます / 連れて来ます / 帰って来ます V1 → V3 (`_decisions/15-conjugation-pos.txt`, bảng chia trước đó sai trên cả trang `/chia-the/`) và câu mn-08-016 `[[悪くないです]]`.
+  - Bộ "chia sai" (Q6) từng sinh `～くありません(でした)` làm nhiễu cho tính từ い — là dạng đúng; đã sửa 2026-11-16.
+- **Rà soát bước 1.2 (2026-11-17):**
+  - Từ loại sai → bảng chia sinh dạng sai trên `/chia-the/`: mn-47-007 厳しい An → **Ai** (trước hiện 厳しいだ / 厳しいな; `_decisions/15-conjugation-pos.txt`); N3 do JMdict lấy nhầm tính từ な: n3-068 かび → N, n3-287 発明 → N, n3-462 かなり → Adv, n3-471 たいてい → Adv, n3-669 直接 → Adv (bảng chia 724 → 719 hàng; 5 hàng N3 sai bị bỏ cùng ID quiz `c-to:` của chúng). Sửa N3 ghi ở file mới `enrichment/n3/vocab-fixes-ai.txt` (`# by: ai`, đề xuất chưa duyệt — duyệt xong chuyển dòng sang `vocab-fixes.txt`); pipeline giờ đọc cả hai file, mỗi dòng sửa mang người duyệt của file chứa nó. Giữ tính từ な: 突然, 感心, いたずら, ぎりぎり, 反対 (đều có dạng な hợp lệ). 13 động từ V1 đuôi -iru/-eru đều là ngoại lệ nhóm I thật.
+  - Quét nhiễu 12.612 câu (chia thể 2 sách + điền từ đã chia) với dạng đúng thay thế (くありません, ではありません, じゃないです, ～ないです / なかったです): **0**. Nhiễu đồng âm cùng thể viết kana: 1 câu (mn-29-010-e1 付いて ↔ ついて của つきます) → bỏ nhiễu đọc giống đáp án.
+  - **Bước 2.1 (2026-11-17):** 借ります, 足ります V1 → V2 (bảng chia sinh かる / たらない), 楽しみにしています V1 → V2 (thể từ điển たのしみにしてう) — lần rà 1.2 sót vì chỉ quét V1 đuôi -iru/-eru; đã rà tay toàn bộ V1 Minna thân ます hàng i.
+  - **ら抜き** (食べれる, 来れる, 見れる) không còn làm nhiễu (user chốt 2026-11-17: văn nói phổ biến, không chấm sai); so cả chữ hiển thị ({来|く}れる hiện 来れる). `～すれる` (する) vẫn là nhiễu — dạng sai thật.
+  - ~~~43 câu: thể ghép chưa có trong bảng chia~~ — **đã sửa 2026-11-17 bước 2.1** (thể phái sinh sinh trên web, +40 câu) — bị động + ました (bài 37: 褒められました, 招待されました), なければなりません / なくても (bài 17), なかったら (bài 25), sai khiến + ます (bài 48); thân ます / gốc tính từ trước そう (bài 43: 切れ, 落ち, 美味, 優し). Hướng: thêm thể ghép vào bảng chia, hoặc pipeline đánh dấu cụm `[[…]]` chỉ phần thể có sẵn.
+  - ~~~24 câu: không phải chia thể~~ — **đã sửa 2026-11-17 bước 2.2** (lộ đáp án chỉ xét chữ, chữ trong từ ghép không tính, tách nhiều cách viết; +14 câu) — (danh từ 本, 国, 山…; phó từ N3 dạng `ずいぶん～なる`) — trường `kanji` chứa nhiều cách viết (mn-09-033 `夫 /主人`, mn-09-035 `妻/家内`, mn-24-009 `おじいさん／ おじいちゃん`), danh từ hóa (迎え, 切れ), mẫu câu (mn-01-030 こちらは～さんです).
+  - Mốc "số câu bỏ qua" trong `vocab.test.ts` đã hạ theo: `skipped <= 13`.

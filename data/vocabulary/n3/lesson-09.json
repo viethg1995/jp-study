@@ -256,7 +256,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-403",
       "lesson": 9,
-      "meaning_vi": "Đứng đầu (top); Nổi bật, quan trọng",
+      "meaning_vi": "Đứng đầu (top) / Nổi bật, quan trọng",
       "particle": null,
       "pos": {
         "code": "N",
@@ -679,7 +679,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-412",
       "lesson": 9,
-      "meaning_vi": "Chiến dịch giảm giá; Giảm giá",
+      "meaning_vi": "Chiến dịch giảm giá / Giảm giá",
       "particle": null,
       "pos": {
         "code": "N",
@@ -730,7 +730,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-413",
       "lesson": 9,
-      "meaning_vi": "Máy tính tiền; Nhân viên thu ngân; Quầy thu ngân",
+      "meaning_vi": "Máy tính tiền / Nhân viên thu ngân / Quầy thu ngân",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1345,7 +1345,7 @@
       ],
       "legacy_id": "n3cb-426",
       "lesson": 9,
-      "meaning_vi": "Hôi, thối; Tanh",
+      "meaning_vi": "Hôi, thối / Tanh",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1394,7 +1394,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-427",
       "lesson": 9,
-      "meaning_vi": "Lạ, buồn cười; Lạ, không bình thường; Lạ, không hợp lý",
+      "meaning_vi": "Lạ, buồn cười / Lạ, không bình thường / Lạ, không hợp lý",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1449,7 +1449,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-428",
       "lesson": 9,
-      "meaning_vi": "Giỏi; Ngon",
+      "meaning_vi": "Giỏi / Ngon",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1547,7 +1547,7 @@
       ],
       "legacy_id": "n3cb-430",
       "lesson": 9,
-      "meaning_vi": "Chi tiết; Biết rõ, am hiểu về…",
+      "meaning_vi": "Chi tiết / Biết rõ, am hiểu về…",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1598,7 +1598,7 @@
       ],
       "legacy_id": "n3cb-431",
       "lesson": 9,
-      "meaning_vi": "Nhỏ, vụn; Chi tiết",
+      "meaning_vi": "Nhỏ, vụn / Chi tiết",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1649,7 +1649,7 @@
       ],
       "legacy_id": "n3cb-432",
       "lesson": 9,
-      "meaning_vi": "Nông; Nông, cạn, ít, hời hợt; Nông, nhẹ",
+      "meaning_vi": "Nông / Nông, cạn, ít, hời hợt / Nông, nhẹ",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1707,7 +1707,7 @@
       ],
       "legacy_id": "n3cb-433",
       "lesson": 9,
-      "meaning_vi": "Cứng; Chắc chắn, chặt; Nghiêm ngặt, nghiêm khắc",
+      "meaning_vi": "Cứng / Chắc chắn, chặt / Nghiêm ngặt, nghiêm khắc",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1805,7 +1805,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-435",
       "lesson": 9,
-      "meaning_vi": "Chói; Rạng ngời",
+      "meaning_vi": "Chói / Rạng ngời",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -1905,7 +1905,7 @@
       ],
       "legacy_id": "n3cb-437",
       "lesson": 9,
-      "meaning_vi": "Tươi, sống (Đồ ăn); Tươi mới (không khí); Tươi mới (tâm trạng)",
+      "meaning_vi": "Tươi, sống (Đồ ăn) / Tươi mới (không khí) / Tươi mới (tâm trạng)",
       "particle": null,
       "pos": {
         "code": "An",
@@ -2005,7 +2005,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-439",
       "lesson": 9,
-      "meaning_vi": "Tuyệt vời; Ra dáng, tuyệt vời",
+      "meaning_vi": "Tuyệt vời / Ra dáng, tuyệt vời",
       "particle": null,
       "pos": {
         "code": "An",
@@ -2057,7 +2057,7 @@
       ],
       "legacy_id": "n3cb-440",
       "lesson": 9,
-      "meaning_vi": "Chính xác; Chính xác, chuẩn giờ",
+      "meaning_vi": "Chính xác / Chính xác, chuẩn giờ",
       "particle": null,
       "pos": {
         "code": "An",
@@ -2110,7 +2110,7 @@
       ],
       "legacy_id": "n3cb-441",
       "lesson": 9,
-      "meaning_vi": "Chính xác, chuẩn; Hình như là (không chắc chắn); Chắc chắn",
+      "meaning_vi": "Chính xác, chuẩn / Hình như là (không chắc chắn) / Chắc chắn",
       "particle": null,
       "pos": {
         "code": "An",
@@ -2221,7 +2221,7 @@
       ],
       "legacy_id": "n3cb-443",
       "lesson": 9,
-      "meaning_vi": "Cần thiết; Tính cần thiết",
+      "meaning_vi": "Cần thiết / Tính cần thiết",
       "particle": null,
       "pos": {
         "code": "An",
@@ -2319,7 +2319,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-445",
       "lesson": 9,
-      "meaning_vi": "Nồng nhiệt; Giỏi, ngầu; Cực kỳ, khủng khiếp",
+      "meaning_vi": "Nồng nhiệt / Giỏi, ngầu / Cực kỳ, khủng khiếp",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -2372,7 +2372,7 @@
       "kanji_refs": [],
       "legacy_id": "n3cb-446",
       "lesson": 9,
-      "meaning_vi": "Tệ, khủng khiếp; Tệ, không ra gì; Cực kỳ, khủng khiếp; Một ngày tồi tệ",
+      "meaning_vi": "Tệ, khủng khiếp / Tệ, không ra gì / Cực kỳ, khủng khiếp / Một ngày tồi tệ",
       "particle": null,
       "pos": {
         "code": "Ai",
@@ -2525,7 +2525,7 @@
       ],
       "legacy_id": "n3cb-449",
       "lesson": 9,
-      "meaning_vi": "Đột nhiên; Gấp, đột ngột; Xiết",
+      "meaning_vi": "Đột nhiên / Gấp, đột ngột / Xiết",
       "particle": null,
       "pos": {
         "code": "An",
@@ -2583,7 +2583,7 @@
       ],
       "legacy_id": "n3cb-450",
       "lesson": 9,
-      "meaning_vi": "Thích hợp, phù hợp; Thích hợp, vừa; Qua loa, cho xong; Vô trách nhiệm",
+      "meaning_vi": "Thích hợp, phù hợp / Thích hợp, vừa / Qua loa, cho xong / Vô trách nhiệm",
       "particle": null,
       "pos": {
         "code": "An",

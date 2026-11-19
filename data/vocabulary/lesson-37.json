@@ -1391,7 +1391,7 @@
       "kanji_refs": [],
       "legacy_id": "lesson37_30",
       "lesson": 37,
-      "meaning_vi": "Hay quá nhỉ./ Vui quá nhỉ",
+      "meaning_vi": "Hay quá nhỉ, vui quá nhỉ.",
       "particle": null,
       "pos": {
         "code": "Conv",
@@ -1400,16 +1400,16 @@
       "provenance": {
         "han_viet": null,
         "kanji": null,
-        "meaning": "source",
+        "meaning": "ai-draft",
         "pos": "source"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [],
       "senses": [
         {
           "context": null,
-          "text": "Hay quá nhỉ./ Vui quá nhỉ"
+          "text": "Hay quá nhỉ, vui quá nhỉ."
         }
       ],
       "transitivity": null,

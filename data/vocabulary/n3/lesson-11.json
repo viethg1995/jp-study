@@ -171,7 +171,7 @@
       ],
       "legacy_id": "n3cb-502",
       "lesson": 11,
-      "meaning_vi": "Kiểm tra; Kiểm tra tổng quát",
+      "meaning_vi": "Kiểm tra / Kiểm tra tổng quát",
       "particle": null,
       "pos": {
         "code": "N",
@@ -223,7 +223,7 @@
       ],
       "legacy_id": "n3cb-503",
       "lesson": 11,
-      "meaning_vi": "Máu; Nhóm máu",
+      "meaning_vi": "Máu / Nhóm máu",
       "particle": null,
       "pos": {
         "code": "N",
@@ -665,7 +665,7 @@
       ],
       "legacy_id": "n3cb-512",
       "lesson": 11,
-      "meaning_vi": "Lý do, cớ; Ý nghĩa, mạch",
+      "meaning_vi": "Lý do, cớ / Ý nghĩa, mạch",
       "particle": null,
       "pos": {
         "code": "N",
@@ -764,7 +764,7 @@
       ],
       "legacy_id": "n3cb-514",
       "lesson": 11,
-      "meaning_vi": "Thói quen (hơi xấu); Tật",
+      "meaning_vi": "Thói quen (hơi xấu) / Tật",
       "particle": null,
       "pos": {
         "code": "N",
@@ -967,7 +967,7 @@
       ],
       "legacy_id": "n3cb-518",
       "lesson": 11,
-      "meaning_vi": "Cấm hút thuốc; Bỏ thuốc",
+      "meaning_vi": "Cấm hút thuốc / Bỏ thuốc",
       "particle": null,
       "pos": {
         "code": "V3",
@@ -1115,7 +1115,7 @@
       ],
       "legacy_id": "n3cb-521",
       "lesson": 11,
-      "meaning_vi": "Vấn đề; Bài tập, nhiệm vụ",
+      "meaning_vi": "Vấn đề / Bài tập, nhiệm vụ",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1215,7 +1215,7 @@
       ],
       "legacy_id": "n3cb-523",
       "lesson": 11,
-      "meaning_vi": "Lưu lại; Kỷ lục",
+      "meaning_vi": "Lưu lại / Kỷ lục",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1315,7 +1315,7 @@
       ],
       "legacy_id": "n3cb-525",
       "lesson": 11,
-      "meaning_vi": "Cảnh; Cảnh, phân cảnh (kịch, phim)",
+      "meaning_vi": "Cảnh / Cảnh, phân cảnh (kịch, phim)",
       "particle": null,
       "pos": {
         "code": "N",
@@ -1663,7 +1663,7 @@
       ],
       "legacy_id": "n3cb-532",
       "lesson": 11,
-      "meaning_vi": "Đại diện, thay mặt; Tiêu biểu",
+      "meaning_vi": "Đại diện, thay mặt / Tiêu biểu",
       "particle": "を",
       "pos": {
         "code": "V3",
@@ -1863,7 +1863,7 @@
       ],
       "legacy_id": "n3cb-536",
       "lesson": 11,
-      "meaning_vi": "Ký hiệu; Biểu tượng; Minh chứng; Đánh dấu",
+      "meaning_vi": "Ký hiệu / Biểu tượng / Minh chứng / Đánh dấu",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2212,7 +2212,7 @@
       ],
       "legacy_id": "n3cb-543",
       "lesson": 11,
-      "meaning_vi": "Bằng cấp; Điều kiện; Tư cách; Kỳ thi lấy bằng",
+      "meaning_vi": "Bằng cấp / Điều kiện / Tư cách / Kỳ thi lấy bằng",
       "particle": null,
       "pos": {
         "code": "N",
@@ -2468,7 +2468,7 @@
       ],
       "legacy_id": "n3cb-548",
       "lesson": 11,
-      "meaning_vi": "Thay đổi; Thay đổi Thời gian, lịch trình",
+      "meaning_vi": "Thay đổi / Thay đổi Thời gian, lịch trình",
       "particle": null,
       "pos": {
         "code": "V3",
@@ -2522,7 +2522,7 @@
       ],
       "legacy_id": "n3cb-549",
       "lesson": 11,
-      "meaning_vi": "Lưu, save file; Bảo quản",
+      "meaning_vi": "Lưu, save file / Bảo quản",
       "particle": null,
       "pos": {
         "code": "V3",
@@ -2574,7 +2574,7 @@
       ],
       "legacy_id": "n3cb-550",
       "lesson": 11,
-      "meaning_vi": "Bảo vệ, bảo hộ; Phúc lợi xã hội",
+      "meaning_vi": "Bảo vệ, bảo hộ / Phúc lợi xã hội",
       "particle": null,
       "pos": {
         "code": "V3",

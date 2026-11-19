@@ -15,7 +15,7 @@ async function seed(page: Page, items: Store["items"]): Promise<void> {
 const reviewLabel = (page: Page) => page.locator("label:has(#q-review-wrong)");
 /** Câu đầu của deck Nghĩa N5 (đáp án là chữ Việt thường — bấm được theo nội dung). */
 async function firstMeanItem(page: Page): Promise<{ id: string; answer: string }> {
-  const deck = (await (await page.request.get("vocabulary/quiz/n5-nghia.json")).json()) as { items: { id: string; answer: string }[] };
+  const deck = (await (await page.request.get("vocabulary/quiz/n5-nghia-01.json")).json()) as { items: { id: string; answer: string }[] };
   return deck.items[0]!;
 }
 
@@ -154,4 +154,28 @@ test("mọi trang quiz có dòng 'Câu hỏi'", async ({ page }) => {
     await page.goto(url);
     await expect(page.locator('[data-q="wrong-row"]'), url).toBeVisible();
   }
+});
+
+test("bước 2.3a: từ trang chủ, Kanji / Chia thể tự chọn cấp / nhóm có câu sai (ID không mang cấp)", async ({ page }) => {
+  // chữ chỉ thuộc N4 (không có ở N5) theo cách xếp giáo trình
+  // deck chia chunk 5 bài (Q12): giáo trình Kanji N5 bài 1–26, N4 bài 1–24
+  const ids = async (deck: string, starts: number[]): Promise<string[]> =>
+    (await Promise.all(starts.map(async (s) => ((await (await page.request.get(`kanji/quiz/${deck}-${String(s).padStart(2, "0")}.json`)).json()) as { items: { id: string }[] }).items))).flat().map((x) => x.id);
+  const n5 = new Set(await ids("gt-n5-hv", [1, 6, 11, 16, 21, 26]));
+  const n4 = (await ids("gt-n4-hv", [1, 6, 11, 16, 21])).map((id) => ({ id }));
+  const kanjiId = n4.find((x) => !n5.has(x.id))!.id;
+  await page.goto("./");
+  await seed(page, { [kanjiId]: { w: 1, s: 0, t: 1 }, "c-to:mn-08-011:neg": { w: 1, s: 0, t: 1 } }); // 大きい → phủ định
+  const section = page.locator("[data-wrong]");
+  await section.getByRole("link", { name: /Kanji/ }).click();
+  await expect(page.locator("#cap-n4")).toBeChecked();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 1");
+
+  await page.goto("./");
+  await section.getByRole("link", { name: /Chia thể/ }).click();
+  await expect(page.locator("#nhom-tinh-tu-i")).toBeChecked();
+  await expect(page.locator("#sach-minna")).toBeChecked();
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(" / 1");
 });

@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 import { loadConjugation, loadCounters, loadKanjiSource, loadNumbers, loadVocab } from "../../test/data.ts";
 import { buildQuizItems, toQuizItems } from "../counter-quiz.ts";
+import { splitByChunk } from "./chunks.ts";
 import { buildConjTable, CONJ_GROUP_SLUG, CONJ_GROUPS, type ConjTable, learnedForms } from "./conjugation.ts";
 import { partOf } from "./core.ts";
 import { buildKanjiDeck, type KanjiKindSlug, type KanjiLevel } from "./kanji.ts";
@@ -12,7 +13,7 @@ import { mulberry32 } from "./random.ts";
 import { createSession } from "./session.ts";
 import type { Deck, QuizItem } from "./types.ts";
 import { checkDeck } from "./validate.ts";
-import { buildVocabDeck, type VocabKindSlug, type VocabLevel } from "./vocab.ts";
+import { LEVEL_LESSONS, buildVocabDeck, type VocabKindSlug, type VocabLevel } from "./vocab.ts";
 
 const vocab = loadVocab();
 const kanji = loadKanjiSource();
@@ -21,15 +22,29 @@ const tables = new Map<string, ConjTable>(CONJ_GROUPS.map((g) => [CONJ_GROUP_SLU
 const counters: Deck = { version: 1, name: "dem-so", items: [...toQuizItems(buildQuizItems(loadCounters())), ...numberItems(loadNumbers())] };
 
 const cache = new Map<string, unknown>();
+const chunkCache = new Map<string, Map<number, QuizItem[]>>();
+/** Deck đầy đủ dựng một lần rồi chia chunk như endpoint (Kanji `tv` cùng khoảng bài với cấp từ vựng). */
+function chunked(key: string, build: () => QuizItem[], level: string): Map<number, QuizItem[]> {
+  let c = chunkCache.get(key);
+  if (!c) chunkCache.set(key, (c = splitByChunk(build(), level, LEVEL_LESSONS[level as VocabLevel])));
+  return c;
+}
 /** Nội dung file như endpoint build ra (cùng hàm sinh). */
 function fileData(f: MixFile): unknown {
   let d = cache.get(f.path);
   if (d !== undefined) return d;
   let m: RegExpMatchArray | null;
-  if ((m = f.path.match(/^vocabulary\/quiz\/(n\d)-(\w+)\.json$/))) d = { version: 1, name: "", items: buildVocabDeck(vocab, m[1] as VocabLevel, m[2] as VocabKindSlug).items };
-  else if ((m = f.path.match(/^kanji\/quiz\/tv-(n\d)-(\w+)\.json$/))) d = { version: 1, name: "", items: buildKanjiDeck(kanji, "tv", m[1] as KanjiLevel, m[2] as KanjiKindSlug).items };
-  else if ((m = f.path.match(/^chia-the\/quiz\/([\w-]+)\.json$/))) d = tables.get(m[1]!);
-  else if (f.path === "luyen-tap/dem-so.json") d = counters;
+  // chunk (Q12): dựng deck đầy đủ như endpoint rồi lấy phần của chunk
+  if ((m = f.path.match(/^vocabulary\/quiz\/(n\d)-(\w+)-(\d\d)\.json$/))) {
+    const l = m[1] as VocabLevel;
+    d = { version: 1, name: "", items: chunked(`v-${l}-${m[2]}`, () => buildVocabDeck(vocab, l, m![2] as VocabKindSlug).items, l).get(Number(m[3])) };
+  } else if ((m = f.path.match(/^kanji\/quiz\/tv-(n\d)-(\w+)-(\d\d)\.json$/))) {
+    const l = m[1] as KanjiLevel;
+    d = { version: 1, name: "", items: chunked(`k-${l}-${m[2]}`, () => buildKanjiDeck(kanji, "tv", l, m![2] as KanjiKindSlug).items, l).get(Number(m[3])) };
+  } else if ((m = f.path.match(/^chia-the\/quiz\/([\w-]+)-(minna|n3)\.json$/))) {
+    const t = tables.get(m[1]!);
+    d = t && { ...t, rows: t.rows.filter((r) => r.book === m![2]) };
+  } else if (f.path === "luyen-tap/dem-so.json") d = counters;
   assert.ok(d, `không dựng được ${f.path}`);
   cache.set(f.path, d);
   return d;
@@ -42,14 +57,16 @@ const mix = (o: Partial<MixOptions> = {}): QuizItem[] => {
 const lessonsOf = (q: QuizItem): number[] => [q.tags.lesson ?? []].flat().map(Number);
 
 describe("mixFiles: chỉ tải file của cấp có bài trong khoảng (Q8-4)", () => {
-  test("bài 1–25 → chỉ N5: 3 từ vựng + 3 Kanji + 3 bảng chia + đếm số", () => {
+  test("bài 1–25 → chỉ N5: (3 từ vựng + 3 Kanji) × 5 chunk + 3 bảng chia Minna + đếm số", () => {
     const files = mixFiles({ from: 1, to: 25, parts: MIX_PARTS });
-    assert.equal(files.length, 10);
+    assert.equal(files.length, 34);
+    // bộ lọc hẹp (Q12): bài 3–5 → 1 chunk mỗi deck
+    assert.equal(mixFiles({ from: 3, to: 5, parts: ["tu-vung", "kanji"] }).length, 6);
     assert.ok(!files.some((f) => /n4/.test(f.path)), files.map((f) => f.path).join(" "));
   });
   test("bài 20–30 → cả N5 và N4; bài 26–50 → chỉ N4", () => {
     const mid = mixFiles({ from: 20, to: 30, parts: MIX_PARTS }).map((f) => f.path);
-    assert.ok(mid.includes("vocabulary/quiz/n5-doc.json") && mid.includes("kanji/quiz/tv-n4-hv.json"));
+    assert.ok(mid.includes("vocabulary/quiz/n5-doc-16.json") && mid.includes("kanji/quiz/tv-n4-hv-26.json") && !mid.includes("vocabulary/quiz/n5-doc-11.json"));
     assert.ok(!mixFiles({ from: 26, to: 50, parts: MIX_PARTS }).some((f) => /n5/.test(f.path)));
   });
   test("chỉ chọn phần → chỉ file của phần đó; không chọn gì → không file nào", () => {

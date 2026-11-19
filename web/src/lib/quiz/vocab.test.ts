@@ -1,14 +1,13 @@
 // Quiz từ vựng (Q4) trên dữ liệu thật data/vocabulary — bất biến + trường hợp đã biết.
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
-import { gzipSync } from "node:zlib";
 import { loadConjugation, loadVocab } from "../../test/data.ts";
 import { parseRuby } from "../ruby.ts";
 import { buildConjTable, CONJ_GROUPS, type ConjRow } from "./conjugation.ts";
 import { filterItems } from "./core.ts";
 import { misreadings } from "./kana.ts";
 import type { QuizItem } from "./types.ts";
-import { checkDeck } from "./validate.ts";
+import { checkDeck, rubyForms } from "./validate.ts";
 import { VOCAB_KINDS, VOCAB_LEVELS, type VocabKindSlug, type VocabLevel, buildVocabDeck, cleanMeaning, levelOf, meaningKeys } from "./vocab.ts";
 
 const all = loadVocab();
@@ -33,10 +32,7 @@ describe("15 deck (cấp × loại câu)", () => {
         assert.deepEqual(checkDeck(items).slice(0, 5), []);
         assert.ok(dropped.length / (items.length + dropped.length) < 0.02, `bỏ ${dropped.length} câu`);
         assert.ok(items.every((q) => q.kind === VOCAB_KINDS[slug] && q.tags.level === level));
-        // Giới hạn đo 2026-11-12: lớn nhất ~400KB gốc / ~47KB gzip; Q4b (2026-11-13) -dien lên ~65KB gzip
-        const json = JSON.stringify({ version: 1, name: `${level}-${slug}`, items });
-        assert.ok(Buffer.byteLength(json) < 450_000, `${Buffer.byteLength(json)} byte`);
-        assert.ok(gzipSync(json).length < 70_000, `${gzipSync(json).length} byte gzip`);
+        // dung lượng: mốc mỗi chunk (Q12) ở chunks.test.ts — file tải về là chunk, không phải cả cấp
       });
     }
   }
@@ -150,8 +146,8 @@ describe("v-cloze (điền từ)", () => {
   const rowById = new Map<string, ConjRow>(conj.flatMap((t) => t.rows.map((r) => [r.id, r] as const)));
   const inflected = (level: VocabLevel): QuizItem[] => deck(level, "dien").filter((q) => q.explain?.includes(" = "));
 
-  test("Q4b: có câu từ đích đã chia mỗi cấp; số câu bỏ qua không tăng (mốc khảo sát 2026-11-13)", () => {
-    const min = { n5: 75, n4: 130, n3: 150 };
+  test("Q4b: có câu từ đích đã chia mỗi cấp; số câu bỏ qua không tăng (mốc đo 2026-11-16)", () => {
+    const min = { n5: 95, n4: 185, n3: 215 }; // đo 2026-11-17: 97 · 191 · 220
     for (const level of VOCAB_LEVELS) assert.ok(inflected(level).length >= min[level], `${level}: ${inflected(level).length}`);
     // câu có [[…]] đã biến đổi (không phải danh từ riêng) nhưng không vào deck — tồn đọng dữ liệu ở README "Lỗi dữ liệu"
     let skipped = 0;
@@ -160,7 +156,86 @@ describe("v-cloze (điền từ)", () => {
       for (const e of all.filter((x) => levelOf(x) === level && x.pos.code !== "PN"))
         for (const x of e.examples) if (/\[\[/.test(x.ruby) && !ids.has(x.id)) skipped++;
     }
-    assert.ok(skipped <= 150, `bỏ qua ${skipped} câu`); // đo 2026-11-13: 148 (gồm câu lộ đáp án bị bỏ)
+    assert.ok(skipped <= 13, `bỏ qua ${skipped} câu`); // đo 2026-11-17: 12 (148 → aliases N3: 96 → cách đọc: 66 → phái sinh: 26 → lộ đáp án theo chữ + nhiều cách viết: 15 → chữ trong từ ghép không tính lộ: 12 "không hỏi": mẫu câu, や, 買い物, phó từ N3 ～なる)
+  });
+
+  test("Q4b: từ N3 trùng Minna (aliases bảng chia) có câu điền từ; alias không thắng same_word", () => {
+    const ids = new Set(deck("n3", "dien").map((q) => q.id));
+    for (const id of ["n3-101-e1", "n3-108-e1", "n3-117-e1", "n3-333-e1"]) assert.ok(ids.has(`v-cloze:${id}`), id);
+    // mn-22-004 掛けます (đeo kính) là alias của かけます (gọi điện) — phải tra hàng 掛けます qua same_word
+    assert.ok(deck("n5", "dien").some((q) => q.id === "v-cloze:mn-22-004-e1"));
+  });
+
+  test("Q4b: từ display kana / khác chữ cùng âm khớp theo cách đọc; dạng chia sai viết theo chữ của câu", () => {
+    const q = (level: VocabLevel, id: string): QuizItem => {
+      const it = deck(level, "dien").find((x) => x.id === `v-cloze:${id}`);
+      assert.ok(it, id);
+      return it;
+    };
+    // 点けて (bảng chia: つけます) — dạng sai つけって phải thành {点|つ}けって, không còn kana trần lộ đáp án
+    const tsukete = q("n5", "mn-14-001-e1");
+    assert.equal(tsukete.answer, "{点|つ}けて");
+    assert.ok(tsukete.pool.includes("{点|つ}けって"), tsukete.pool.join(" "));
+    assert.ok(!tsukete.pool.some((p) => /^つけ/.test(p)), tsukete.pool.join(" "));
+    q("n4", "mn-26-001-e1"); // 診て ↔ hàng 見ます
+    q("n4", "mn-40-002-e1"); // 量って ↔ hàng 測ります
+    // 連れて来ます / 帰って来ます: nhóm III (_decisions/15-conjugation-pos.txt), không còn dạng V1 sai
+    q("n5", "mn-24-004-e1");
+    const all5 = deck("n5", "dien").concat(deck("n4", "dien"));
+    assert.ok(!all5.some((x) => x.pool.some((p) => /(つれて|かえって|もって)(く|いて|かない)$/.test(rubyForms(p).reading))));
+    // 悪くないです: ～くありません là dạng đúng → không được làm nhiễu
+    const warui = q("n5", "mn-08-016-e1");
+    assert.ok(!warui.pool.some((p) => rubyForms(p).reading.endsWith("くありません")), warui.pool.join(" "));
+  });
+
+  test("Q4b bước 2.1: thể phái sinh — bị động/sai khiến + ます, なければなりません, なくても, thân ます / gốc tính từ", () => {
+    const q = (level: VocabLevel, id: string): QuizItem => {
+      const it = deck(level, "dien").find((x) => x.id === `v-cloze:${id}`);
+      assert.ok(it, id);
+      return it;
+    };
+    const cases: [VocabLevel, string, string, string][] = [
+      ["n4", "mn-37-001-e1", "褒められました", "Thể bị động → ました"],
+      ["n4", "mn-48-004-e1", "録音させて", "Thể sai khiến → て"],
+      ["n5", "mn-17-004-e1", "払わなければなりません", "Thể ない → なければなりません"],
+      ["n5", "mn-17-006-e1", "出かけなくても", "Thể ない → なくても"],
+      ["n5", "mn-25-004-e1", "足りなかったら", "Quá khứ phủ định thể thường + ら"], // 足ります sửa V1 → V2
+      ["n4", "mn-43-005-e1", "切れ", "Thân ます"],
+      ["n4", "mn-43-015-e1", "優し", "Gốc tính từ (bỏ い)"],
+      ["n3", "n3-575-e1", "与えすぎないで", "Thân ます + すぎないで"],
+    ];
+    for (const [level, id, answer, form] of cases) {
+      const it = q(level, id);
+      assert.equal(rubyForms(it.answer).text, answer, id);
+      assert.ok(it.explain?.startsWith(`${answer} = ${form}`), `${id}: ${it.explain}`);
+      // nhiễu cùng kiểu phái sinh, không có dạng đúng nào của chính từ
+      assert.ok(it.pool.length >= 3 && !it.pool.some((p) => rubyForms(p).reading === rubyForms(it.answer).reading), id);
+    }
+    // thân ます không nối đuôi bất kỳ: 足りなかったら không phải 足り + なかったら
+    for (const level of VOCAB_LEVELS)
+      for (const it of deck(level, "dien")) if (it.explain?.includes(" = Thân ます + ")) assert.match(it.explain, / = Thân ます \+ (そう|すぎ|ながら|に)/u, it.id);
+  });
+
+  test("bước 2.2: câu điền từ — lộ đáp án chỉ xét chữ hiển thị; nhiều cách viết; nhiễu không có ～", () => {
+    const has = (level: VocabLevel, id: string): QuizItem | undefined => deck(level, "dien").find((x) => x.id === `v-cloze:${id}`);
+    // cách đọc trùng ở chữ Hán khác không còn bị coi là lộ: 量 / 料理, 医学 / 大学, 西 / 沈みます
+    for (const [level, id] of [["n4", "mn-44-021-e1"], ["n4", "mn-47-015-e1"], ["n4", "mn-32-028-e1"]] as const) assert.ok(has(level, id), id);
+    // chữ đáp án chỉ nằm trong từ ghép dài hơn → không tính lộ (user giữ câu gốc): 本 / 日本語, 国 / 中国, 山 / 富士山
+    for (const id of ["mn-02-007-e1", "mn-03-022-e1", "mn-08-034-e1"]) assert.ok(has("n5", id), id);
+    // trường ghi nhiều cách viết: 夫 /主人 → hỏi 夫; làm nhiễu → chỉ cách viết đầu
+    assert.equal(rubyForms(has("n5", "mn-09-033-e1")!.answer).text, "夫");
+    for (const level of VOCAB_LEVELS)
+      for (const q of deck(level, "dien")) {
+        assert.ok(!q.pool.some((p) => /[～/／]/u.test(p)), `${q.id}: ${q.pool.join(" ")}`);
+      }
+  });
+
+  test("Q4b: nhiễu không đọc giống đáp án (đồng âm cùng thể: 付いて ↔ ついて)", () => {
+    for (const level of VOCAB_LEVELS)
+      for (const q of inflected(level)) {
+        const a = rubyForms(q.answer).reading;
+        assert.ok(!q.pool.some((p) => rubyForms(p).reading === a), `${q.id}: ${q.pool.join(" ")}`);
+      }
   });
 
   test("Q4b: nhiễu không trùng bất kỳ thể đúng nào của chính từ; cùng đuôi với đáp án (ました, ないで)", () => {
@@ -175,6 +250,13 @@ describe("v-cloze (điền từ)", () => {
         for (const end of ends)
           if (text(q.answer).endsWith(end)) assert.ok(q.pool.every((p) => text(p).endsWith(end)), `${q.id}: ${q.pool.join(",")}`);
       }
+  });
+
+  test("Q13: từ N3 trùng từ Minna (n3-101 倒れる) và alias cùng sách (mn-27-005 できます) có câu điền từ đã chia", () => {
+    const n3 = inflected("n3").find((x) => x.id.startsWith("v-cloze:n3-101-"));
+    assert.ok(n3, "thiếu câu của n3-101");
+    assert.match(n3.explain!, /^倒れました = Quá khứ lịch sự · 倒れる/);
+    assert.ok(inflected("n5").some((x) => x.id.startsWith("v-cloze:mn-27-005-")) || inflected("n4").some((x) => x.id.startsWith("v-cloze:mn-27-005-")), "thiếu câu của mn-27-005");
   });
 
   test("Q4b: 来ました — nhiễu là động từ khác thể ました + dạng chia sai; giải thích ghi tên thể", () => {

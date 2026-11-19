@@ -67,4 +67,10 @@ Trạng thái: ✅ xong 2026-11-12
 
 **Chỉnh sau khi user test tay Q5 (2026-11-12):** giải thích quiz Kanji mỗi ý một dòng (chữ · âm · nghĩa / On / Kun; `explain` nhận `\n`, QuizRunner `whitespace-pre-line`); quiz bộ thủ thêm dòng **Số nét: từ – đến** (1–17, mỗi mục kèm số bộ, URL `net-tu`/`net-den`) + "Đang chọn: N bộ" đếm theo phạm vi × số nét — chọn khoảng thay vì dropdown chọn nhiều (học theo thứ tự nét; nhóm 11–17 nét chỉ 1–6 bộ mỗi nhóm).
 
-**Lỗi dữ liệu bộ thủ (sửa ở pipeline `radicals.json`, không sửa `data/`):** tên dính số từ PDF — 戶 "Hộ 6", 斗 "Đầu 7", 方 "Phương 9"; thiếu biến thể quen thuộc (人 không có 亻, 水 không có 氵, 心 không có 忄… — chỉ 27/214 bộ có `variants`) → quiz "Tên bộ" hỏi 水 mà không kèm 氵.
+**Lỗi dữ liệu bộ thủ** — ✅ **đã sửa 2026-11-15** qua `enrichment/kanji/radicals/overrides.txt` (hết tên dính số; 41/214 bộ có `variants`: 亻, 氵, 忄, 扌, 刂, 灬, 艹, 辶, 阝, 衤, 礻, 犭…). Còn thiếu nhỏ (kiểm 2026-11-16): 言→訁, 金→釒, 足→𧾷, 竹→⺮, 乙→乚, 小→⺌. Ghi chép gốc: tên dính số từ PDF — 戶 "Hộ 6", 斗 "Đầu 7", 方 "Phương 9"; thiếu biến thể quen thuộc (人 không có 亻, 水 không có 氵, 心 không có 忄… — chỉ 27/214 bộ có `variants`) → quiz "Tên bộ" hỏi 水 mà không kèm 氵.
+
+## Kế hoạch bước 2.3b — biến thể bộ thủ còn thiếu · ✅ xong 2026-11-17
+
+Ghi 2026-11-17 ([README.md](README.md#kế-hoạch-tiếp-theo-chốt-2026-11-16)). Còn thiếu: 言→訁, 金→釒, 足→𧾷, 竹→⺮, 乙→乚, 小→⺌. Thêm qua `enrichment/kanji/radicals/overrides.txt` (cùng cách sửa 2026-11-15), build, kiểm quiz "Tên bộ" hiện kèm biến thể. Kiểm font: 𧾷 (U+27FB7, ngoài BMP) và ⺮ ⺌ (CJK Radicals Supplement) có thể không có trong Noto Sans JP → nếu hiện ô vuông thì bỏ biến thể đó, ghi lý do.
+
+**Kết quả 2.3b (2026-11-17):** thêm 乙 → 乚, 小 → ⺌, 竹 → ⺮, 足 → **⻊** (U+2ECA, không phải 𧾷) — 41 → 45 bộ có `variants`. **Không thêm** 言 → 訁, 金 → 釒: tiếng Nhật viết ごんべん / かねへん y như chữ gốc, 訁 釒 là dạng Trung Quốc. Ghi ở file mới `enrichment/kanji/radicals/overrides-ai.txt` (`# by: ai`, áp sau `overrides.txt` — file đó là `# by: user`); pipeline đọc cả hai (`paths.ENRICH_RADICAL_OVERRIDES_AI`). User duyệt xong → chuyển dòng sang `overrides.txt`. E2E bộ thủ + Kanji xanh.

@@ -16,7 +16,7 @@ test("mặc định: Động từ, Minna, đã học tới bài 50, loại Chia;
   expect(loaded).toEqual([]);
   await expect(page.locator("#q-furi-on")).toBeChecked(); // có dòng Furigana
   await startQuiz(page);
-  expect(loaded).toEqual(["dong-tu.json"]);
+  expect(loaded).toEqual(["dong-tu-minna.json"]); // bảng chia tách theo sách (Q12)
   await expect(page.locator('[data-q="question"]')).toHaveText(/^Chia sang /);
   await expect(page.locator(opt)).toHaveCount(4);
 });

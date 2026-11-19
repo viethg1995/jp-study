@@ -39,7 +39,7 @@ const SLUGS = Object.keys(KANJI_KINDS) as KanjiKindSlug[];
 const JA = /[぀-ヿ㐀-鿿]/u;
 
 function sizeOk(name: string, items: QuizItem[]): void {
-  // Đo 2026-11-12: lớn nhất tv-n5-doc ~526KB gốc / ~81KB gzip (1.317 câu, chỉ tải khi chọn "Cách đọc"); còn lại ≤ 40KB gzip
+  // Chỉ còn deck bộ thủ (không chia chunk); deck chữ: mốc mỗi chunk (Q12) ở chunks.test.ts
   const json = JSON.stringify({ version: 1, name, items });
   assert.ok(Buffer.byteLength(json) < 600_000, `${Buffer.byteLength(json)} byte`);
   assert.ok(gzipSync(json).length < 90_000, `${gzipSync(json).length} byte gzip`);
@@ -55,7 +55,6 @@ describe("30 deck chữ (xếp theo × cấp × loại)", () => {
           assert.deepEqual(checkDeck(items).slice(0, 5), []);
           assert.ok(dropped.length / (items.length + dropped.length) < 0.02, `bỏ ${dropped.length} câu`);
           assert.ok(items.every((q) => q.kind === KANJI_KINDS[slug] && q.tags.level === level));
-          sizeOk(`${view}-${level}-${slug}`, items);
         });
       }
     }
@@ -99,7 +98,7 @@ describe("k-hv, k-mean, k-char", () => {
     }
   });
   test("giải thích mỗi ý một dòng: chữ · âm · nghĩa / On / Kun", () => {
-    assert.equal(byChar(deck("tv", "n5", "hv"), "高")!.explain, "高 · CAO · cao; đắt\nOn: コウ\nKun: たか(い)、たか、だか、たか(まる)");
+    assert.equal(byChar(deck("tv", "n5", "hv"), "高")!.explain, "高 · CAO · cao / đắt\nOn: コウ\nKun: たか(い)、たか、～だか、たか(まる)");
   });
   test("quốc tự 込 匂 (không có âm Hán-Việt) không có câu k-hv / k-char", () => {
     for (const v of KANJI_VIEWS) {

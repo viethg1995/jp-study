@@ -121,7 +121,15 @@
         "source": "ai-draft",
         "vi": "Ngày mai tôi mang từ điển đến."
       }
-    ]
+    ],
+    "pos_code": "V3",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "持って来ます — ghép với 来ます nên chia như nhóm III (持ってくる/持ってこない/持ってきて); V1 chia sai thành もってく — phát hiện qua quiz 2026-11-16",
+      "status": "reviewed"
+    }
   },
   "mn-17-010": {
     "examples": [

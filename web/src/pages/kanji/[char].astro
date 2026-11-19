@@ -9,7 +9,7 @@ import StrokeOrder from "../../components/kanji/StrokeOrder.astro";
 import type { KanjiComponent, KanjiEntry, KanjiStroke, Radical, VocabEntry } from "../../content.config";
 import Base from "../../layouts/Base.astro";
 import { clip } from "../../lib/seo";
-import { kanjiNavs, kunDisplay, n3VocabLessonMap, type KanjiNav, type KanjiNavLink } from "../../lib/kanji";
+import { kanjiNavs, kunReadings, n3VocabLessonMap, type KanjiNav, type KanjiNavLink } from "../../lib/kanji";
 import { radicalKanji } from "../../lib/radicals";
 
 export const getStaticPaths = (async () => {
@@ -78,7 +78,7 @@ const lessons = [
 ];
 const rows: { label: string; value: string; jp?: boolean }[] = [
   { label: "Âm On", value: k.on.join("、") || "—", jp: true },
-  { label: "Âm Kun", value: k.kun.map(kunDisplay).join("、") || "—", jp: true },
+  { label: "Âm Kun", value: kunReadings(k.kun).join("、") || "—", jp: true },
   { label: "Số nét", value: k.strokes !== null ? String(k.strokes) : "—" },
   ...(lessons.length ? [{ label: "Xuất hiện", value: lessons.join(" · ") }] : []),
 ];
@@ -87,7 +87,7 @@ const description = clip(
   [
     `Chữ Hán ${k.char}${k.han_viet.length ? ` (${k.han_viet.join(", ")})` : ""}${k.meaning_vi ? `: ${k.meaning_vi}` : ""}.`,
     k.on.length ? `Âm On ${k.on.join("、")}.` : "",
-    k.kun.length ? `Âm Kun ${k.kun.map(kunDisplay).join("、")}.` : "",
+    k.kun.length ? `Âm Kun ${kunReadings(k.kun).join("、")}.` : "",
     k.strokes !== null ? `${k.strokes} nét.` : "",
     "Từ vựng ví dụ, thứ tự nét viết.",
   ].join(" "),

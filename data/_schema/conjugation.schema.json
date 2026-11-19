@@ -5,7 +5,7 @@
       "properties": {
         "aliases": {
           "default": [],
-          "description": "vocab_id các mục trùng (cùng loại + gốc) ở bài khác — dùng chung trang này",
+          "description": "vocab_id các mục trùng (cùng loại + gốc) ở bài khác CÙNG SÁCH — dùng chung trang này",
           "items": {
             "type": "string"
           },
@@ -69,6 +69,19 @@
         "ruby": {
           "title": "Ruby",
           "type": "string"
+        },
+        "same_as": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Từ N3 trùng (loại + gốc) một từ Minna: vocab_id hàng Minna — hàng N3 riêng (bài N3, quiz N3) nhưng không có trang riêng, link về trang hàng Minna",
+          "title": "Same As"
         },
         "vocab_id": {
           "description": "ID từ vựng (mn-LL-NNN | n3-NNN)",
@@ -290,7 +303,7 @@
       "type": "array"
     },
     "schema_version": {
-      "default": 2,
+      "default": 3,
       "title": "Schema Version",
       "type": "integer"
     }
