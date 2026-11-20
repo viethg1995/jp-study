@@ -12,6 +12,7 @@ import { badForms, type ConjRow, type ConjTable, shownText as conjText } from ".
 import { misreadings } from "./kana";
 import type { QuizItem } from "./types";
 import { normalize } from "./core";
+import { partNumbers } from "../vocab-parts";
 import { type DeckIssue, finalizeDeck, leaks, rubyForms } from "./validate";
 
 export type VocabLevel = "n5" | "n4" | "n3";
@@ -149,12 +150,30 @@ function nearest(
   return out;
 }
 
+// Học theo phần (lib/vocab-parts.ts): tag `part` = "<bài>-<phần>" của từ, tính trên CẢ bài theo thứ tự data
+// (giống trang bài) — trang quiz lọc ?tu=N&den=N&phan=P bằng part = ["N-P"]. Khóa theo object entry.
+const PART = new WeakMap<VocabEntry, string>();
+function indexParts(mine: readonly VocabEntry[]): void {
+  const byLesson = new Map<number, VocabEntry[]>();
+  for (const e of mine) (byLesson.get(e.lesson) ?? byLesson.set(e.lesson, []).get(e.lesson)!).push(e);
+  for (const [lesson, entries] of byLesson) {
+    const parts = partNumbers(entries);
+    entries.forEach((e, i) => PART.set(e, `${lesson}-${parts[i]}`));
+  }
+}
+function partOf(e: VocabEntry): string {
+  const p = PART.get(e);
+  if (p === undefined) throw new Error(`${e.id}: chưa tính phần (indexParts)`);
+  return p;
+}
+
 interface Group {
   first: VocabEntry;
   lessons: number[];
+  parts: string[];
 }
 
-/** Gộp câu hỏi giống nhau (từ lặp ở nhiều bài) theo khóa; giữ mục đầu tiên, gom danh sách bài. */
+/** Gộp câu hỏi giống nhau (từ lặp ở nhiều bài) theo khóa; giữ mục đầu tiên, gom danh sách bài + phần. */
 function groupBy(entries: readonly VocabEntry[], key: (e: VocabEntry) => string | null): Group[] {
   const map = new Map<string, Group>();
   for (const e of entries) {
@@ -163,7 +182,8 @@ function groupBy(entries: readonly VocabEntry[], key: (e: VocabEntry) => string 
     const g = map.get(k);
     if (g) {
       if (!g.lessons.includes(e.lesson)) g.lessons.push(e.lesson);
-    } else map.set(k, { first: e, lessons: [e.lesson] });
+      if (!g.parts.includes(partOf(e))) g.parts.push(partOf(e));
+    } else map.set(k, { first: e, lessons: [e.lesson], parts: [partOf(e)] });
   }
   for (const g of map.values()) g.lessons.sort((a, b) => a - b);
   return [...map.values()];
@@ -178,7 +198,7 @@ function baseItem(kind: string, g: Group, level: VocabLevel): Omit<QuizItem, "pr
     info: lessonLabel(level, g.lessons),
     explain: explainOf(e),
     href: vocabHref(e),
-    tags: { level, lesson: g.lessons, pos: e.pos.code },
+    tags: { level, lesson: g.lessons, part: g.parts, pos: e.pos.code },
   };
 }
 
@@ -341,7 +361,7 @@ function clozeItems(level: VocabLevel, mine: readonly VocabEntry[], conj: readon
         ),
         explain: explainOf(e),
         href: vocabHref(e),
-        tags: { level, lesson: [e.lesson], pos: e.pos.code },
+        tags: { level, lesson: [e.lesson], part: [partOf(e)], pos: e.pos.code },
       });
     }
   }
@@ -582,7 +602,7 @@ function inflectedClozeItems(level: VocabLevel, mine: readonly VocabEntry[], con
         pool,
         explain: `${parseRuby(target).map((s) => s.text).join("")} = ${form.name}${tail ? ` + ${tail}` : ""} · ${explainOf(e)}`,
         href: vocabHref(e),
-        tags: { level, lesson: [e.lesson], pos: e.pos.code },
+        tags: { level, lesson: [e.lesson], part: [partOf(e)], pos: e.pos.code },
       });
     }
   }
@@ -600,6 +620,7 @@ export function buildVocabDeck(
   conj: readonly ConjTable[] = [],
 ): { items: QuizItem[]; dropped: DeckIssue[] } {
   const mine = all.filter((e) => levelOf(e) === level);
+  indexParts(mine);
   const items =
     slug === "doc"
       ? readItems(all, level, mine)

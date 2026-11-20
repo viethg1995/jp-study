@@ -149,6 +149,16 @@ const description = clip(
   const initial = phan ? (document.getElementById(`part-${phan}`) as HTMLInputElement | null) : null;
   if (initial && partRadios.includes(initial)) initial.checked = true;
   let order = inPart();
+  // Nút quiz: đang chọn một phần → "Luyện tập phần này" (quiz lọc &phan=N)
+  const quizLink = document.querySelector<HTMLAnchorElement>("[data-lesson-quiz]");
+  const quizBase = quizLink?.getAttribute("href") ?? "";
+  const syncQuizLink = (): void => {
+    if (!quizLink) return;
+    const p = selectedPart();
+    quizLink.setAttribute("href", p ? `${quizBase}&phan=${p}` : quizBase);
+    quizLink.textContent = p ? "Luyện tập phần này →" : "Luyện tập bài này →";
+  };
+  syncQuizLink();
 
   const shuffle = (): string[] => {
     const a = inPart();
@@ -246,6 +256,7 @@ const description = clip(
       else u.searchParams.delete("phan");
       u.hash = "";
       history.replaceState(null, "", u);
+      syncQuizLink();
       reorder(random?.checked ? shuffle() : inPart());
     });
   }
