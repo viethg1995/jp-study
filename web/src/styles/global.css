@@ -118,6 +118,13 @@ body:has(#focus-kana:checked) .headword .hw-kanji {
 .card-nav {
   display: none;
 }
+/* Học theo phần (LessonView, tối đa 3 phần): ẩn thẻ khác phần ở cả Lưới và Từng thẻ.
+   !important để thắng `.is-current` / `:target` của chế độ Từng thẻ (trường hợp không JS). */
+body:has(#part-1:checked) .word-list .word-card:not([data-part="1"]),
+body:has(#part-2:checked) .word-list .word-card:not([data-part="2"]),
+body:has(#part-3:checked) .word-list .word-card:not([data-part="3"]) {
+  display: none !important;
+}
 body:has(#view-single:checked) .word-list {
   grid-template-columns: minmax(0, 1fr);
   max-width: 36rem;
