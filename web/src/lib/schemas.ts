@@ -379,3 +379,54 @@ export type TranslationExercise = z.infer<typeof translationExercise>;
 export type PassageSentence = z.infer<typeof passageSentence>;
 export type TranslationPassage = z.infer<typeof translationPassage>;
 export type TranslationFile = z.infer<typeof translationFile>;
+
+// ---------------------------------------------------------------- Từ nối (ConnectiveFile) — data/connectives.json
+export const CONNECTIVE_SCHEMA_VERSION = 1;
+export const connectiveFunction = z.enum([
+  "addition", "sequence", "time", "contrast", "concession", "cause", "condition", "choice", "purpose", "topic", "rephrase",
+]);
+export const connectiveExample = z.object({
+  id: z.string(),
+  ruby: z.string(),
+  vi: z.string(),
+  source: z.enum(["vocab", "grammar", "ai-draft", "user"]),
+  ref: z.string().nullable(),
+  review: reviewStatus,
+});
+export const connectiveFunctionDef = z.object({
+  id: connectiveFunction,
+  label_vi: z.string(),
+  hint_vi: z.string(),
+});
+export const connective = z.object({
+  id: z.string().regex(/^cn-[a-z0-9]+(-[a-z0-9]+)*$/),
+  text: z.string(),
+  ruby: z.string(),
+  kana: z.string(),
+  type: z.enum(["sentence", "clause"]),
+  function: connectiveFunction,
+  meaning_vi: z.string(),
+  connects_vi: z.string().nullable(),
+  level: z.enum(["n5", "n4", "n3"]),
+  book: z.enum(["minna", "n3"]).nullable(),
+  lesson: z.number().int().min(1).max(50).nullable(),
+  forms: z.array(z.string()).min(1),
+  vocab_refs: z.array(z.string()),
+  grammar_refs: z.array(z.string()),
+  note_vi: z.string().nullable(),
+  substitutes: z.array(z.string()),
+  meaning_source: z.enum(["vocab", "grammar", "ai-draft", "user"]),
+  review: reviewStatus,
+  examples: z.array(connectiveExample).min(3),
+});
+export const connectiveFile = z.object({
+  schema_version: z.literal(CONNECTIVE_SCHEMA_VERSION),
+  functions: z.array(connectiveFunctionDef),
+  connectives: z.array(connective),
+});
+
+export type ConnectiveFunction = z.infer<typeof connectiveFunction>;
+export type ConnectiveExample = z.infer<typeof connectiveExample>;
+export type ConnectiveFunctionDef = z.infer<typeof connectiveFunctionDef>;
+export type Connective = z.infer<typeof connective>;
+export type ConnectiveFile = z.infer<typeof connectiveFile>;

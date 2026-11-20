@@ -5,7 +5,8 @@ import { expect, startQuiz, test } from "./fixtures";
 const prompt = '[data-q="prompt"]';
 
 test("quiz Chia thể sách N3 bài 3 hỏi được 倒れる (trùng Minna); 'Xem bảng chia' mở trang Minna", async ({ page }) => {
-  await page.goto("chia-the/quiz/?sach=n3&tu=3&den=3&loai=chia");
+  // lọc hẹp (động từ nhóm 2 × thể て, ~12 câu) để lượt 100 câu chắc chắn có 倒れる — trước đây cả bài vượt 100 câu → test chập chờn
+  await page.goto("chia-the/quiz/?sach=n3&tu=3&den=3&dt=2&the=te&loai=chia");
   await page.locator("label:has(#q-size-100)").click();
   await startQuiz(page);
   for (let i = 0; i < 100; i++) {

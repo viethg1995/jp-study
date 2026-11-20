@@ -388,3 +388,47 @@ test("chip Furigana trong thẻ: có chữ 'Furigana', bật = '✓ Furigana', t
   await furi.click();
   await expect.poll(() => furi.innerText()).toBe("Furigana");
 });
+
+test("học theo phần: ?tu=1&den=1&phan=2 → mọi câu thuộc từ 16–30 của bài 1; dòng Phần ẩn khi chọn nhiều bài", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=1&loai=nghia&phan=2");
+  await expect(page.locator("#q-part-row")).toBeVisible();
+  await expect(page.locator("#q-part-2")).toBeChecked();
+  await expect(page.locator("label:has(#q-part-3)")).toBeVisible();
+  await startQuiz(page);
+  await expect(page).toHaveURL(/phan=2/);
+  for (let i = 0; i < 15; i++) {
+    await page.keyboard.press("1");
+    const href = (await page.locator('[data-q="link"]').getAttribute("href")) ?? "";
+    const n = Number(/#mn-01-(\d{3})$/.exec(href)?.[1]);
+    expect(n, href).toBeGreaterThanOrEqual(16);
+    expect(n, href).toBeLessThanOrEqual(30);
+    await page.keyboard.press("Enter");
+    if (await page.locator('[data-q="summary"]').isVisible()) break;
+  }
+  await backToSetup(page);
+  // nhiều bài → không còn dòng Phần, URL bỏ phan
+  await page.locator("#q-to").selectOption("3");
+  await expect(page.locator("#q-part-row")).toBeHidden();
+  await expect(page).not.toHaveURL(/phan=/);
+});
+
+test("học theo phần: bài 2 phần ẩn nút Phần 3; bài 1 phần không có dòng Phần", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&tu=17&den=17&loai=nghia"); // bài 17: 29 từ → 2 phần
+  await expect(page.locator("#q-part-row")).toBeVisible();
+  await expect(page.locator("label:has(#q-part-2)")).toBeVisible();
+  await expect(page.locator("label:has(#q-part-3)")).toBeHidden();
+  await page.locator("#q-from").selectOption("25");
+  await page.locator("#q-to").selectOption("25"); // bài 25: 9 từ → 1 phần
+  await expect(page.locator("#q-part-row")).toBeHidden();
+});
+
+test("trang bài: chọn Phần 3 → nút 'Luyện tập phần này' dẫn tới quiz &phan=3", async ({ page }) => {
+  await page.goto("vocabulary/1/");
+  const link = page.locator("[data-lesson-quiz]");
+  await expect(link).toHaveText("Luyện tập bài này →");
+  await page.locator("label:has(#part-3)").click();
+  await expect(link).toHaveText("Luyện tập phần này →");
+  await link.click();
+  await expect(page).toHaveURL(/vocabulary\/quiz\/\?cap=n5&tu=1&den=1&.*phan=3/);
+  await expect(page.locator("#q-part-3")).toBeChecked();
+});

@@ -1,0 +1,99 @@
+---
+// Một từ nối: chữ + cách đọc · loại (nối câu / nối mệnh đề) · cấp, bài · nghĩa · cách nối · ghi chú · câu ví dụ ·
+// từ thay được (neo cùng trang) · link từ vựng. Neo id = ID từ nối (quiz Q11 trỏ về đây).
+import type { Connective } from "../../content.config";
+import { TYPE_LABEL, grammarLabel, sourceLabel } from "../../lib/connectives";
+import Furigana from "../jp/Furigana.astro";
+import RubyText from "../jp/RubyText.astro";
+import Tag from "../ui/Tag.astro";
+
+interface Props {
+  c: Connective;
+  /** id → chữ hiển thị (cho "Dùng thay được"). */
+  names: ReadonlyMap<string, string>;
+  /** Link thẻ từ vựng (đã ghép BASE_URL); null = không tìm thấy. */
+  vocabLinks: { id: string; href: string; label: string }[];
+}
+const { c, names, vocabLinks } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const grammar = [...new Set(c.grammar_refs.map(grammarLabel))];
+---
+
+<article id={c.id} class="cn-card scroll-mt-20 max-md:scroll-mt-[196px] rounded-lg border border-line bg-surface" data-type={c.type} data-level={c.level}>
+  <header class="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 pt-3">
+    <h3 class="text-2xl font-bold text-ink"><RubyText ruby={c.ruby} /></h3>
+    {c.kana !== c.text && c.ruby === c.text && <span class="jp text-sm text-ink-faint" lang="ja">{c.kana}</span>}
+    <span class="flex flex-wrap items-center gap-1.5">
+      <Tag>{TYPE_LABEL[c.type]}</Tag>
+      <Tag>{c.level.toUpperCase()}</Tag>
+      <span class="text-xs text-ink-faint">{sourceLabel(c)}{grammar.length > 0 && ` · ${grammar.join(", ")}`}</span>
+    </span>
+  </header>
+  <div class="px-4 pb-3">
+    <p class="mt-1 font-semibold text-ink">{c.meaning_vi}</p>
+    {c.connects_vi && (
+      <p class="mt-1 text-sm text-ink-muted">
+        Cách nối: <span class="jp text-ink" lang="ja">{c.connects_vi}</span>
+      </p>
+    )}
+    {c.note_vi && <p class="mt-1 text-sm text-ink-muted">{c.note_vi}</p>}
+    <!-- Mobile: câu ví dụ thu gọn mặc định (checkbox thuần CSS); desktop luôn mở -->
+    <label class="cn-toggle mt-2 inline-flex cursor-pointer items-center gap-1 rounded-md border border-line px-2.5 py-1 text-sm text-primary has-focus-visible:outline-2 has-focus-visible:outline-primary md:hidden">
+      <input type="checkbox" class="sr-only" aria-label={`Câu ví dụ của ${c.text}`} />
+      <span class="cn-open">Ví dụ ({c.examples.length}) ▾</span>
+      <span class="cn-close">Thu gọn ▴</span>
+    </label>
+  </div>
+  <ol class="cn-examples divide-y divide-line border-t border-line">
+    {
+      c.examples.map((e) => (
+        <li class="px-4 py-2.5">
+          <p class="text-[17px] text-ink">
+            <Furigana ruby={e.ruby} />
+          </p>
+          <p class="mt-0.5 text-sm text-ink-muted">{e.vi}</p>
+        </li>
+      ))
+    }
+  </ol>
+  {
+    (c.substitutes.length > 0 || vocabLinks.length > 0) && (
+      <footer class="flex flex-wrap gap-x-4 gap-y-1 border-t border-line px-4 py-2 text-sm">
+        {c.substitutes.length > 0 && (
+          <span class="text-ink-muted">
+            Dùng thay được:{" "}
+            {c.substitutes.map((id, i) => (
+              <>
+                {i > 0 && " · "}
+                <a href={`#${id}`} class="jp text-primary hover:underline" lang="ja">
+                  {names.get(id) ?? id}
+                </a>
+              </>
+            ))}
+          </span>
+        )}
+        {vocabLinks.map((v) => (
+          <a href={`${base}/${v.href}`} class="text-primary hover:underline">
+            {v.label} →
+          </a>
+        ))}
+      </footer>
+    )
+  }
+</article>
+
+<style is:global>
+  /* từ nối trong câu ví dụ: hiện furigana (thẻ từ vựng ẩn furigana của từ đang học) */
+  .cn-examples .sentence .target rt {
+    display: revert;
+  }
+  .cn-toggle:not(:has(input:checked)) .cn-close,
+  .cn-toggle:has(input:checked) .cn-open {
+    display: none;
+  }
+  @media (width < 48rem) {
+    .cn-card:not(:has(.cn-toggle input:checked)) :is(.cn-examples, footer) {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,26 @@
+---
+// Nút "↑ Lên đầu" dùng chung mọi trang (gắn trong Base): hiện khi đã cuộn quá 600px, bấm → cuộn mượt lên đầu.
+---
+
+<button
+  type="button"
+  data-back-to-top
+  hidden
+  aria-label="Lên đầu trang"
+  title="Lên đầu trang"
+  class="fixed right-4 bottom-4 z-30 rounded-full border border-line bg-surface px-3.5 py-2 text-sm font-medium text-primary shadow-md transition-colors hover:bg-primary-soft md:right-6 md:bottom-6"
+>
+  ↑ Lên đầu
+</button>
+
+<script>
+  const btn = document.querySelector<HTMLButtonElement>("[data-back-to-top]");
+  if (btn) {
+    const onScroll = (): void => {
+      btn.hidden = scrollY < 600;
+    };
+    addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    btn.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+  }
+</script>

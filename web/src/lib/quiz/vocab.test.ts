@@ -8,6 +8,7 @@ import { filterItems } from "./core.ts";
 import { misreadings } from "./kana.ts";
 import type { QuizItem } from "./types.ts";
 import { checkDeck, rubyForms } from "./validate.ts";
+import { partCount, partNumbers } from "../vocab-parts.ts";
 import { VOCAB_KINDS, VOCAB_LEVELS, type VocabKindSlug, type VocabLevel, buildVocabDeck, cleanMeaning, levelOf, meaningKeys } from "./vocab.ts";
 
 const all = loadVocab();
@@ -265,4 +266,44 @@ describe("v-cloze (điền từ)", () => {
     assert.match(q.explain!, /^来ました = Quá khứ lịch sự · 来ます/);
     assert.ok(q.pool.slice(0, 6).filter((p) => /^[行帰起寝働]/.test(text(p))).length >= 2, q.pool.join(","));
   });
+});
+
+describe("học theo phần: tag part = \"<bài>-<phần>\" khớp trang bài (lib/vocab-parts.ts)", () => {
+  // phần của từng từ, tính như LessonView: theo thứ tự data trong cả bài
+  const partOfId = new Map<string, string>();
+  const lessonsOf = new Map<string, typeof all>();
+  for (const e of all) {
+    const k = `${levelOf(e)}|${e.lesson}`;
+    lessonsOf.set(k, [...(lessonsOf.get(k) ?? []), e]);
+  }
+  for (const entries of lessonsOf.values()) {
+    const parts = partNumbers(entries);
+    entries.forEach((e, i) => partOfId.set(e.id, `${e.lesson}-${parts[i]}`));
+  }
+
+  for (const level of VOCAB_LEVELS) {
+    for (const slug of SLUGS) {
+      test(`${level}-${slug}: mỗi câu có đúng 1 phần cho mỗi bài; lọc theo phần chia hết câu của bài`, () => {
+        const items = deck(level, slug);
+        for (const it of items) {
+          const lessons = it.tags.lesson as number[];
+          const parts = it.tags.part as string[];
+          assert.ok(Array.isArray(parts) && parts.length > 0, `${it.id}: thiếu tag part`);
+          for (const l of lessons) assert.equal(parts.filter((p) => p.startsWith(`${l}-`)).length, 1, `${it.id}: bài ${l} → ${parts}`);
+          // từ đại diện của câu (id sau dấu ":") nằm đúng phần của nó
+          const vid = it.id.slice(it.id.indexOf(":") + 1).split(":")[0]!;
+          const own = partOfId.get(vid);
+          if (own) assert.ok(parts.includes(own), `${it.id}: ${parts} thiếu ${own}`);
+        }
+        for (const [key, entries] of lessonsOf) {
+          if (!key.startsWith(`${level}|`)) continue;
+          const n = entries[0]!.lesson;
+          const inLesson = filterItems(items, { lesson: { min: n, max: n } }).map((it) => it.id).sort();
+          const k = partCount(entries.length);
+          const byPart = Array.from({ length: k }, (_, i) => filterItems(items, { lesson: { min: n, max: n }, part: [`${n}-${i + 1}`] }).map((it) => it.id));
+          assert.deepEqual(byPart.flat().sort(), inLesson, `${level} bài ${n}: các phần không chia hết câu của bài`);
+        }
+      });
+    }
+  }
 });

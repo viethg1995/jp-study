@@ -150,6 +150,7 @@ def cmd_build(_: argparse.Namespace) -> int:
     rc = _build_kanji(entries + n3_entries, kanjidic, n3_kanji, n3_places)
     rc = rc or _build_conjugation(entries + n3_entries)
     rc = rc or _build_counters(entries)
+    rc = rc or _build_connectives(entries + n3_entries)
     return rc or _build_translation()
 
 
@@ -225,6 +226,48 @@ def _build_translation() -> int:
     print(f"  luyện dịch: {len(doc.exercises)} đề câu đơn (chờ duyệt {drafts}) | "
           f"{len(doc.passages)} đoạn văn ({by_level}; chờ duyệt {p_drafts})")
     return 0
+
+
+def _build_connectives(vocab: list) -> int:  # type: ignore[type-arg]
+    """enrichment/connectives/ + từ vựng (câu ví dụ) + mục ngữ pháp (kiểm câu trích) → data/connectives.json."""
+    from jp_pipeline.extract.grammar_md import grammar_sections
+    from jp_pipeline.schemas import ConnectiveFile
+    from jp_pipeline.transform.connectives import build_connectives, parse_examples
+
+    root = paths.ENRICH_CONNECTIVES
+    spec = _read_json(root / "connectives.json")["connectives"]  # type: ignore[index]
+    md = [(f.name, f.read_text(encoding="utf-8")) for lv in ("N5", "N4") for f in sorted((paths.SRC_GRAMMAR_MD / lv).glob("bai*.md"))]
+    try:
+        examples = parse_examples("\n".join(f.read_text(encoding="utf-8") for f in sorted((root / "examples").glob("*.txt"))))
+    except ValueError as ex:
+        print(f"TỪ NỐI FAIL — câu ví dụ: {ex}")
+        return 1
+    doc, rep = build_connectives(spec, examples, vocab, grammar_sections(md))  # type: ignore[arg-type]
+    _write_json(root / "_report.json", {"errors": rep.errors, "warnings": rep.warnings})
+    if rep.errors:
+        print(f"TỪ NỐI FAIL — {len(rep.errors)} lỗi (không ghi {paths.OUT_CONNECTIVES.name}):")
+        for e in rep.errors[:40]:
+            print(f"  - {e}")
+        return 1
+    _write_json(paths.OUT_CONNECTIVES, doc.model_dump(mode="json"))
+    _write_json(paths.DATA_SCHEMA / "connectives.schema.json", ConnectiveFile.model_json_schema())
+    n_ex = sum(len(c.examples) for c in doc.connectives)
+    by_src: dict[str, int] = {}
+    for c in doc.connectives:
+        for e in c.examples:
+            by_src[e.source] = by_src.get(e.source, 0) + 1
+    print(f"  từ nối    : {len(doc.connectives)} mục ({sum(c.type == 'sentence' for c in doc.connectives)} nối câu, "
+          f"{sum(c.type == 'clause' for c in doc.connectives)} nối mệnh đề), {n_ex} câu ví dụ {by_src} | cảnh báo {len(rep.warnings)}")
+    return 0
+
+
+def cmd_build_connectives(_: argparse.Namespace) -> int:
+    """Chỉ dựng data/connectives.json từ data/vocabulary/ đã có (không cần từ điển)."""
+    from jp_pipeline.schemas import VocabLesson
+
+    vocab = [e for d in (paths.OUT_VOCABULARY, paths.OUT_VOCAB_N3) for f in sorted(d.glob("lesson-*.json"))
+             for e in VocabLesson.model_validate(_read_json(f)).entries]
+    return _build_connectives(vocab)
 
 
 def cmd_build_translation(_: argparse.Namespace) -> int:
@@ -1456,6 +1499,47 @@ def cmd_check_examples(args: argparse.Namespace) -> int:
     return 1 if n_err else 0
 
 
+def cmd_check_connectives(_: argparse.Namespace) -> int:
+    """Kiểm câu ví dụ từ nối (data/connectives.json): furigana khác Sudachi (W), từ có kanji trong bộ từ vựng mà viết
+    kana (E), từ ngoài phạm vi cấp (W). Câu lấy từ từ vựng đã qua check-examples → bỏ qua."""
+    from jp_pipeline.schemas import ConnectiveFile
+    from jp_pipeline.transform.examples import check_text, kana_to_kanji_map, parse_ruby, vocab_readings, word_forms
+
+    doc = ConnectiveFile.model_validate(_read_json(paths.OUT_CONNECTIVES))
+    minna = _load_data_vocab()
+    n3: list[dict[str, object]] = []
+    for f in sorted(paths.OUT_VOCAB_N3.glob("lesson-*.json")):
+        n3.extend(_read_json(f)["entries"])  # type: ignore[index]
+    scope = {"n5": [w for w in minna if int(w["lesson"]) <= 25], "n4": minna, "n3": minna + n3}  # type: ignore[call-overload]
+
+    def forms(words: list[dict[str, object]]) -> set[str]:
+        out: set[str] = set()
+        for w in words:
+            out |= word_forms(str(w["kana"]), w["kanji"], str(w["pos"]["code"]))  # type: ignore[arg-type,index]
+        return out
+
+    known = {lv: forms(ws) for lv, ws in scope.items()}
+    all_words = minna + n3
+    readings = vocab_readings([(str(w["kana"]), w["kanji"]) for w in all_words])  # type: ignore[misc]
+    k2k = kana_to_kanji_map([(str(w["kana"]), w["kanji"], str(w["pos"]["code"])) for w in all_words])  # type: ignore[misc,index]
+    n_ex = n_err = n_warn = 0
+    for c in doc.connectives:
+        for e in c.examples:
+            if e.source == "vocab":
+                continue
+            n_ex += 1
+            segs = parse_ruby(e.ruby)
+            target = "".join(s.text for s in segs if s.target)
+            # câu trích ngữ pháp: giữ nguyên chữ nguồn (vd うれしい viết kana) → chỉ cảnh báo
+            level = "W" if e.source == "grammar" else "E"
+            for issue in check_text(segs, known[c.level], readings, k2k, target, kana_level=level):
+                n_err += issue.level == "E"
+                n_warn += issue.level == "W"
+                print(f"{issue.level} {e.id} [{e.source}]: {issue.msg}")
+    print(f"\n{n_ex} câu — {n_err} lỗi, {n_warn} cảnh báo")
+    return 1 if n_err else 0
+
+
 def cmd_check_passages(args: argparse.Namespace) -> int:
     """Kiểm đoạn văn luyện dịch (data/translation.json): furigana khác Sudachi, từ có kanji viết kana,
     từ ngoài phạm vi cấp. Chỉ cảnh báo (W) — lỗi cú pháp ruby đã chặn ở build-translation."""
@@ -1521,6 +1605,10 @@ def main() -> int:
         func=cmd_build_counters)
     sub.add_parser("build-translation", help="Chỉ dựng data/translation.json (đề luyện dịch)").set_defaults(
         func=cmd_build_translation)
+    sub.add_parser("build-connectives", help="Chỉ dựng data/connectives.json (từ nối)").set_defaults(
+        func=cmd_build_connectives)
+    sub.add_parser("check-connectives", help="Kiểm câu ví dụ từ nối: furigana, kanji viết kana, phạm vi cấp").set_defaults(
+        func=cmd_check_connectives)
     cp = sub.add_parser("check-passages", help="Kiểm đoạn văn luyện dịch: furigana, từ viết kana, từ vượt cấp")
     cp.add_argument("--level", choices=["n5", "n4", "n3"])
     cp.set_defaults(func=cmd_check_passages)

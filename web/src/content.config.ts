@@ -4,6 +4,9 @@ import { file, glob } from "astro/loaders";
 import { z } from "astro/zod";
 import {
   CONJ_SCHEMA_VERSION,
+  CONNECTIVE_SCHEMA_VERSION,
+  connective,
+  connectiveFunctionDef,
   COUNTER_SCHEMA_VERSION,
   KANJI_SCHEMA_VERSION,
   conjEntry,
@@ -25,6 +28,7 @@ export { POS_CODES, SCHEMA_VERSION, KANJI_SCHEMA_VERSION } from "./lib/schemas.t
 export type { Counter, CounterExample, CounterReading, NumberSection, NumberSystem, NumberTab, SoundGroup, SoundRule } from "./lib/schemas.ts";
 export type { ConjEntry, ConjFormDef, ConjGroup, ConjGroupDef, ConjKind, ConjValue } from "./lib/schemas.ts";
 export type { PassageSentence, TranslationExercise, TranslationPassage, TranslationSentence } from "./lib/schemas.ts";
+export type { Connective, ConnectiveExample, ConnectiveFunction, ConnectiveFunctionDef } from "./lib/schemas.ts";
 export type { VocabEntry, VocabExample, VocabSense, KanjiComponent, KanjiEntry, KanjiExample, KanjiStroke, KanjiStrokes, Radical } from "./lib/schemas.ts";
 
 const vocabulary = defineCollection({
@@ -135,7 +139,26 @@ const translationPassages = defineCollection({
   schema: translationPassage,
 });
 
+// Từ nối (STATUS mục 8) — data/connectives.json: nhóm chức năng (khóa id) + từ nối (khóa id, giữ thứ tự file)
+function connectivesPart(key: "functions" | "connectives") {
+  return (text: string): Record<string, Record<string, unknown>> => {
+    const doc = JSON.parse(text) as { schema_version: number } & Record<typeof key, Record<string, unknown>[]>;
+    if (doc.schema_version !== CONNECTIVE_SCHEMA_VERSION) {
+      throw new Error(`connectives: schema_version ${doc.schema_version} ≠ ${CONNECTIVE_SCHEMA_VERSION}`);
+    }
+    return Object.fromEntries(doc[key].map((x, i) => [String(x.id), { ...x, order: i }]));
+  };
+}
+const connectiveFunctions = defineCollection({
+  loader: file("../data/connectives.json", { parser: connectivesPart("functions") }),
+  schema: connectiveFunctionDef.extend({ order: z.number().int() }),
+});
+const connectives = defineCollection({
+  loader: file("../data/connectives.json", { parser: connectivesPart("connectives") }),
+  schema: connective.extend({ order: z.number().int() }),
+});
+
 export const collections = {
   vocabulary, vocabularyN3, kanji, radicals, strokes, conjGroups, conjForms, conjEntries, numbers, soundRules, counterItems,
-  translation, translationPassages,
+  translation, translationPassages, connectiveFunctions, connectives,
 };

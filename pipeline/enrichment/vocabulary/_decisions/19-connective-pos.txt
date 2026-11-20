@@ -1,0 +1,5 @@
+# by: ai
+# Vòng 19 — từ nối (Q11, 2026-11-20): từ dùng để nối câu nhưng bị ghi sai từ loại
+# id | CODE | ghi chú
+17-029|Conj|ですから: từ nối câu (vì vậy) — bị ghi danh từ; liên kết cn-desukara
+28-042|Conj|それで: từ nối câu (vì thế) — bị ghi danh từ; liên kết cn-sorede (cùng từ với n3-682 đã là Conj)

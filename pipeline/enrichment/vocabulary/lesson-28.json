@@ -582,6 +582,14 @@
         "source": "ai-draft",
         "vi": "Trời đã mưa. Vì thế tôi đã không đi."
       }
-    ]
+    ],
+    "pos_code": "Conj",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "それで: từ nối câu (vì thế) — bị ghi danh từ; liên kết cn-sorede (cùng từ với n3-682 đã là Conj)",
+      "status": "reviewed"
+    }
   }
 }

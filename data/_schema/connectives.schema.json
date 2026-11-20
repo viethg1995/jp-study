@@ -1,0 +1,330 @@
+{
+  "$defs": {
+    "Connective": {
+      "additionalProperties": false,
+      "properties": {
+        "book": {
+          "anyOf": [
+            {
+              "enum": [
+                "minna",
+                "n3"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Sách có từ / mẫu này; null = ngoài giáo trình (AI tổng hợp)",
+          "title": "Book"
+        },
+        "connects_vi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Cách nối (mẫu nối mệnh đề): 'V/A thể thông thường + のに'; null với từ nối câu",
+          "title": "Connects Vi"
+        },
+        "examples": {
+          "items": {
+            "$ref": "#/$defs/ConnectiveExample"
+          },
+          "minItems": 3,
+          "title": "Examples",
+          "type": "array"
+        },
+        "forms": {
+          "description": "Các dạng được bao trong [[…]] của câu ví dụ (chữ hoặc kana)",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Forms",
+          "type": "array"
+        },
+        "function": {
+          "enum": [
+            "addition",
+            "sequence",
+            "time",
+            "contrast",
+            "concession",
+            "cause",
+            "condition",
+            "choice",
+            "purpose",
+            "topic",
+            "rephrase"
+          ],
+          "title": "Function",
+          "type": "string"
+        },
+        "grammar_refs": {
+          "description": "Mục ngữ pháp g-LL-N (sources/grammar/md, bài LL mục N)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Grammar Refs",
+          "type": "array"
+        },
+        "id": {
+          "description": "cn-{slug} — khóa localStorage (quiz), KHÔNG được đổi",
+          "title": "Id",
+          "type": "string"
+        },
+        "kana": {
+          "title": "Kana",
+          "type": "string"
+        },
+        "lesson": {
+          "anyOf": [
+            {
+              "maximum": 50,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Bài giới thiệu trong `book`; null = ngoài giáo trình",
+          "title": "Lesson"
+        },
+        "level": {
+          "enum": [
+            "n5",
+            "n4",
+            "n3"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "meaning_source": {
+          "enum": [
+            "vocab",
+            "grammar",
+            "ai-draft",
+            "user"
+          ],
+          "title": "Meaning Source",
+          "type": "string"
+        },
+        "meaning_vi": {
+          "title": "Meaning Vi",
+          "type": "string"
+        },
+        "note_vi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Ghi chú phân biệt cách dùng",
+          "title": "Note Vi"
+        },
+        "review": {
+          "enum": [
+            "auto",
+            "ai",
+            "user"
+          ],
+          "title": "Review",
+          "type": "string"
+        },
+        "ruby": {
+          "description": "Dạng hiển thị có ruby: {場合|ばあい}は",
+          "title": "Ruby",
+          "type": "string"
+        },
+        "substitutes": {
+          "description": "ID từ nối thay được cho nhau trong cùng chỗ (đối xứng) — quiz không dùng làm nhiễu",
+          "items": {
+            "type": "string"
+          },
+          "title": "Substitutes",
+          "type": "array"
+        },
+        "text": {
+          "description": "Dạng hiển thị không ruby: そして, のに, 場合は",
+          "title": "Text",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "sentence",
+            "clause"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "vocab_refs": {
+          "description": "ID từ vựng tương ứng (pipeline kiểm tồn tại)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Vocab Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "ruby",
+        "kana",
+        "type",
+        "function",
+        "meaning_vi",
+        "connects_vi",
+        "level",
+        "book",
+        "lesson",
+        "forms",
+        "vocab_refs",
+        "grammar_refs",
+        "note_vi",
+        "substitutes",
+        "meaning_source",
+        "review",
+        "examples"
+      ],
+      "title": "Connective",
+      "type": "object"
+    },
+    "ConnectiveExample": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "cn-{slug}-eNN — ghi cứng, không sinh từ vị trí",
+          "title": "Id",
+          "type": "string"
+        },
+        "ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "id câu ví dụ từ vựng (vocab) | g-LL-N (grammar) | null",
+          "title": "Ref"
+        },
+        "review": {
+          "enum": [
+            "auto",
+            "ai",
+            "user"
+          ],
+          "title": "Review",
+          "type": "string"
+        },
+        "ruby": {
+          "description": "Câu tiếng Nhật, cú pháp {漢字|かな}; [[…]] bao đúng phần từ nối",
+          "title": "Ruby",
+          "type": "string"
+        },
+        "source": {
+          "description": "vocab = câu ví dụ của từ vựng (ref = id câu) · grammar = câu trong bài ngữ pháp (ref = g-LL-N, pipeline kiểm chữ khớp nguồn) · ai-draft = AI viết, chờ duyệt · user = người viết/duyệt",
+          "enum": [
+            "vocab",
+            "grammar",
+            "ai-draft",
+            "user"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "vi": {
+          "title": "Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "ruby",
+        "vi",
+        "source",
+        "ref",
+        "review"
+      ],
+      "title": "ConnectiveExample",
+      "type": "object"
+    },
+    "ConnectiveFunctionDef": {
+      "additionalProperties": false,
+      "properties": {
+        "hint_vi": {
+          "description": "Gợi nghĩa ngắn: 'và, hơn nữa'",
+          "title": "Hint Vi",
+          "type": "string"
+        },
+        "id": {
+          "enum": [
+            "addition",
+            "sequence",
+            "time",
+            "contrast",
+            "concession",
+            "cause",
+            "condition",
+            "choice",
+            "purpose",
+            "topic",
+            "rephrase"
+          ],
+          "title": "Id",
+          "type": "string"
+        },
+        "label_vi": {
+          "title": "Label Vi",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label_vi",
+        "hint_vi"
+      ],
+      "title": "ConnectiveFunctionDef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "connectives": {
+      "items": {
+        "$ref": "#/$defs/Connective"
+      },
+      "title": "Connectives",
+      "type": "array"
+    },
+    "functions": {
+      "items": {
+        "$ref": "#/$defs/ConnectiveFunctionDef"
+      },
+      "title": "Functions",
+      "type": "array"
+    },
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "functions",
+    "connectives"
+  ],
+  "title": "ConnectiveFile",
+  "type": "object"
+}

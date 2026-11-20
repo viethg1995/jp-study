@@ -376,6 +376,14 @@
         "source": "ai-draft",
         "vi": "Ngày mai có thi. Vì vậy tối nay tôi học bài."
       }
-    ]
+    ],
+    "pos_code": "Conj",
+    "pos_source": "ai-draft",
+    "review": {
+      "by": "ai",
+      "pos_by": "ai",
+      "pos_note": "ですから: từ nối câu (vì vậy) — bị ghi danh từ; liên kết cn-desukara",
+      "status": "reviewed"
+    }
   }
 }

@@ -1,0 +1,87 @@
+# Câu ví dụ mẫu nối mệnh đề (接続助詞) — id|nguồn|ruby|vi
+# nguồn: vocab:<id câu ví dụ từ vựng> · grammar:<g-LL-N> (chữ phải khớp bài ngữ pháp; furigana do AI gắn) · ai (chờ duyệt) · user
+# by: ai (2026-11-20) — dòng `ai` là ai-draft; duyệt xong đổi `ai` → `user`
+
+cn-ga-e01|grammar:g-08-6|{寿司|すし}は{美味|おい}しいです[[が]]{高|たか}いです。|Sushi ngon nhưng mà đắt.
+cn-ga-e02|ai|この{部屋|へや}は{狭|せま}いです[[が]]、{明|あか}るいです。|Căn phòng này hẹp nhưng sáng sủa.
+cn-ga-e03|ai|{昨日|きのう}は{寒|さむ}かったです[[が]]、{今日|きょう}は{暖|あたた}かいです。|Hôm qua lạnh nhưng hôm nay ấm.
+
+cn-kedo-e01|vocab:mn-20-019-e1||
+cn-kedo-e02|ai|{行|い}きたい[[けど]]、{時間|じかん}がない。|Muốn đi nhưng không có thời gian.
+cn-kedo-e03|ai|この{料理|りょうり}は{辛|から}い[[けど]]、{美味|おい}しい。|Món này cay nhưng ngon.
+
+cn-noni-e01|grammar:g-45-2|{約束|やくそく}をした[[のに]]、{彼女|かのじょ}は{来|き}ませんでした。|Đã có hẹn rồi thế mà cô ấy không đến.
+cn-noni-e02|grammar:g-45-2|このスマホは{高|たか}い[[のに]]、{良|よ}く{故障|こしょう}します。|Điện thoại này đắt vậy mà rất hay hỏng.
+cn-noni-e03|ai|{日曜日|にちようび}な[[のに]]、{会社|かいしゃ}へ{行|い}かなければなりません。|Chủ nhật vậy mà tôi vẫn phải đến công ty.
+
+cn-temo-e01|grammar:g-25-3|{雨|あめ}が{降|ふ}っ[[ても]]、ジョギングをします。|Dù trời mưa tôi vẫn chạy bộ.
+cn-temo-e02|ai|{高|たか}[[くても]]、この{辞書|じしょ}を{買|か}いたいです。|Dù đắt tôi vẫn muốn mua cuốn từ điển này.
+cn-temo-e03|ai|いくら{考|かんが}え[[ても]]、{分|わ}かりません。|Dù nghĩ bao nhiêu tôi cũng không hiểu.
+
+cn-kara-e01|grammar:g-09-7|{時間|じかん}がありません[[から]]、スポーツをしません。|Vì không có thời gian nên tôi không chơi thể thao.
+cn-kara-e02|ai|{危|あぶ}ないです[[から]]、{触|さわ}らないでください。|Vì nguy hiểm nên xin đừng chạm vào.
+cn-kara-e03|ai|{今日|きょう}は{暇|ひま}だ[[から]]、{映画|えいが}を{見|み}に{行|い}こう。|Hôm nay rảnh nên đi xem phim thôi.
+
+cn-node-e01|grammar:g-39-3|バスが{遅|おそ}く{来|き}た[[ので]]、{学校|がっこう}に{遅|おく}れました。|Vì xe buýt đến muộn nên tôi đến trường muộn.
+cn-node-e02|ai|{熱|ねつ}がある[[ので]]、{今日|きょう}は{休|やす}ませていただけませんか。|Vì bị sốt nên hôm nay cho tôi nghỉ được không ạ?
+cn-node-e03|ai|この{辺|へん}は{静|しず}かな[[ので]]、{良|よ}く{眠|ねむ}れます。|Khu này yên tĩnh nên tôi ngủ ngon.
+
+cn-te-e01|grammar:g-16-1|{昨日|きのう}{仕事|しごと}が{終|お}わ[[って]]、お{金|かね}を{出|だ}して、{友達|ともだち}とビールを{飲|の}みに{行|い}きました。|Hôm qua tôi làm xong việc, đi rút tiền, rồi đi uống bia với bạn.
+cn-te-e02|grammar:g-16-3|ナムさんはハンサム[[で]]{頭|あたま}がいいです。|Nam đẹp trai và thông minh.
+cn-te-e03|grammar:g-39-1|{給料|きゅうりょう}をもら[[って]]、{嬉|うれ}しかったです。|Nhận được lương nên tôi vui.
+
+cn-tekara-e01|grammar:g-16-2|{電話|でんわ}をかけ[[てから]]、{友達|ともだち}の{家|うち}に{行|い}きます。|Sau khi gọi điện thoại xong tôi đến nhà bạn.
+cn-tekara-e02|grammar:g-34-2|{今朝|けさ}{起|お}き[[てから]]、{歯|は}を{磨|みが}きました。|Sáng nay sau khi thức dậy tôi đã đánh răng.
+cn-tekara-e03|ai|{手|て}を{洗|あら}っ[[てから]]、ご{飯|はん}を{食|た}べてください。|Hãy rửa tay rồi mới ăn cơm.
+
+cn-maeni-e01|grammar:g-18-3|{寝|ね}る[[{前|まえ}に]]、{携帯電話|けいたいでんわ}を{見|み}ます。|Trước khi ngủ tôi xem điện thoại.
+cn-maeni-e02|grammar:g-18-3|{会議|かいぎ}の[[{前|まえ}に]]、{資料|しりょう}をコピーします。|Trước cuộc họp tôi photo tài liệu.
+cn-maeni-e03|grammar:g-18-3|3{年|ねん}[[{前|まえ}に]]、{日本|にほん}に{来|き}ました。|Tôi đã đến Nhật 3 năm trước.
+
+cn-atode-e01|grammar:g-34-2|サッカーをした[[あとで]]、シャワーを{浴|あ}びます。|Tôi tắm sau khi chơi bóng đá.
+cn-atode-e02|grammar:g-34-2|{勉強|べんきょう}した[[あとで]]、ゲームをしました。|Tôi chơi game sau khi đã học xong.
+cn-atode-e03|ai|{授業|じゅぎょう}の[[あとで]]、{図書館|としょかん}へ{行|い}きます。|Sau giờ học tôi đến thư viện.
+
+cn-toki-e01|grammar:g-23-1|{食|た}べる[[とき]]、{箸|はし}を{使|つか}います。|Khi ăn thì dùng đũa.
+cn-toki-e02|grammar:g-23-2|ご{飯|はん}を{食|た}べた[[とき]]、「ごちそうさまでした」と{言|い}います。|Ăn xong thì nói "gochisousama deshita".
+cn-toki-e03|ai|{子供|こども}の[[とき]]、{田舎|いなか}に{住|す}んでいました。|Hồi còn nhỏ tôi sống ở quê.
+
+cn-nagara-e01|grammar:g-28-1|{父|ちち}はビールを{飲|の}み[[ながら]]、{働|はたら}きます。|Bố tôi vừa uống bia vừa làm việc.
+cn-nagara-e02|grammar:g-28-1|マリアさんは{働|はたら}き[[ながら]]{大学|だいがく}で{勉強|べんきょう}しています。|Maria vừa đi làm vừa học đại học.
+cn-nagara-e03|ai|{音楽|おんがく}を{聞|き}き[[ながら]]、{宿題|しゅくだい}をします。|Tôi vừa nghe nhạc vừa làm bài tập.
+
+cn-tari-e01|grammar:g-19-2|{日曜日|にちようび}、{本|ほん}を{読|よ}ん[[だり]]、テレビを{見|み}たりします。|Chủ nhật tôi đọc sách, xem tivi.
+cn-tari-e02|grammar:g-19-2|{日曜日|にちようび}はテニスをし[[たり]]、{映画|えいが}を{見|み}たりします。|Chủ nhật lúc thì tôi chơi tennis, lúc thì xem phim.
+cn-tari-e03|ai|{週末|しゅうまつ}は{掃除|そうじ}をし[[たり]]、{買|か}い{物|もの}に{行|い}ったりしました。|Cuối tuần tôi nào là dọn dẹp, nào là đi mua sắm.
+
+cn-shi-e01|grammar:g-28-3|ハノイは{賑|にぎ}やかだ[[し]]、{景色|けしき}も{綺麗|きれい}だし、それに{美味|おい}しい{料理|りょうり}も{多|おお}いです。|Hà Nội vừa náo nhiệt, phong cảnh lại đẹp, hơn nữa còn nhiều món ăn ngon.
+cn-shi-e02|grammar:g-28-4|{仕事|しごと}も{面白|おもしろ}い[[し]]、{給料|きゅうりょう}も{高|たか}いし、（それで）この{会社|かいしゃ}で{働|はたら}きたいです。|Công việc vừa thú vị, lương lại cao, vì vậy tôi muốn làm việc ở công ty này.
+cn-shi-e03|ai|この{店|みせ}は{安|やす}い[[し]]、{美味|おい}しいし、{良|よ}く{来|き}ます。|Quán này vừa rẻ vừa ngon nên tôi hay đến.
+
+cn-to-e01|grammar:g-23-3|{春|はる}になる[[と]]、{花|はな}が{咲|さ}きます。|Cứ xuân sang thì hoa nở.
+cn-to-e02|grammar:g-23-3|まっすぐ{行|い}って、{橋|はし}を{渡|わた}って、{右|みぎ}へ{曲|ま}がる[[と]]、{左|ひだり}に{病院|びょういん}があります。|Đi thẳng, qua cầu, rẽ phải thì sẽ thấy bệnh viện ở bên trái.
+cn-to-e03|ai|このボタンを{押|お}す[[と]]、お{釣|つ}りが{出|で}ます。|Hễ bấm nút này thì tiền thừa sẽ ra.
+
+cn-tara-e01|grammar:g-25-1|タバコを{吸|す}っ[[たら]]、{外|そと}に{出|で}てください。|Nếu hút thuốc thì hãy ra ngoài.
+cn-tara-e02|grammar:g-25-2|7{時|じ}になっ[[たら]]、{朝|あさ}ご{飯|はん}を{食|た}べます。|Đến 7 giờ thì tôi ăn sáng.
+cn-tara-e03|ai|{安|やす}[[かったら]]、{買|か}います。|Nếu rẻ thì tôi sẽ mua.
+
+cn-ba-e01|grammar:g-35-2|レーバーを{引|ひ}け[[ば]]、ドアが{開|ひら}きます。|Nếu kéo cần gạt thì cửa sẽ mở ra.
+cn-ba-e02|grammar:g-35-2|{彼|かれ}が{行|い}け[[ば]]、{私|わたし}も{行|い}きます。|Nếu anh ấy đi thì tôi cũng đi.
+cn-ba-e03|ai|{毎日|まいにち}{練習|れんしゅう}すれ[[ば]]、{上手|じょうず}になります。|Nếu luyện tập mỗi ngày thì sẽ giỏi lên.
+
+cn-nara-e01|grammar:g-35-4|{北海道|ほっかいどう}[[なら]]、6{月|がつ}がいいですよ。|Nếu là Hokkaido thì tháng 6 là đẹp nhất đấy.
+cn-nara-e02|ai|「パソコンを{買|か}いたいんですが。」「パソコン[[なら]]、あの{店|みせ}が{安|やす}いですよ。」|"Tôi muốn mua máy tính." "Nếu là máy tính thì cửa hàng kia rẻ đấy."
+cn-nara-e03|ai|{旅行|りょこう}に{行|い}く[[なら]]、{京都|きょうと}がいいですよ。|Nếu đi du lịch thì Kyoto hay đấy.
+
+cn-baai-e01|grammar:g-45-1|{交通事故|こうつうじこ}に{会|あ}った[[{場合|ばあい}は]]110{番|ばん}に{連絡|れんらく}してください。|Trong trường hợp gặp tai nạn giao thông hãy gọi ngay số 110.
+cn-baai-e02|grammar:g-45-1|{地震|じしん}の[[{場合|ばあい}は]]、{火|ひ}を{消|け}すのが{大切|たいせつ}です。|Trong trường hợp động đất thì tắt lửa là điều quan trọng.
+cn-baai-e03|ai|{会議|かいぎ}に{遅|おく}れる[[{場合|ばあい}は]]、{連絡|れんらく}してください。|Trong trường hợp đến họp muộn, hãy liên lạc.
+
+cn-youni-e01|grammar:g-36-1|{日本|にほん}へ{旅行|りょこう}に{行|い}ける[[ように]]、{毎日|まいにち}{貯金|ちょきん}しています。|Để có thể đi du lịch Nhật, hàng ngày tôi tiết kiệm tiền.
+cn-youni-e02|ai|{忘|わす}れない[[ように]]、メモをします。|Tôi ghi chú lại để không quên.
+cn-youni-e03|ai|{風邪|かぜ}を{引|ひ}かない[[ように]]、{暖|あたた}かい{服|ふく}を{着|き}てください。|Hãy mặc đồ ấm để không bị cảm.
+
+cn-tameni-e01|grammar:g-42-1|{健康|けんこう}の[[ために]]、{毎日|まいにち}{野菜|やさい}を{食|た}べています。|Tôi ăn rau mỗi ngày vì sức khỏe.
+cn-tameni-e02|ai|{家|いえ}を{買|か}う[[ために]]、お{金|かね}を{貯|た}めています。|Tôi đang để dành tiền để mua nhà.
+cn-tameni-e03|ai|{日本|にほん}の{大学|だいがく}に{入|はい}る[[ために]]、{日本語|にほんご}を{勉強|べんきょう}しています。|Tôi đang học tiếng Nhật để vào đại học ở Nhật.

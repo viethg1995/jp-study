@@ -4,6 +4,7 @@
 import type { VocabEntry } from "../../content.config";
 import Base from "../../layouts/Base.astro";
 import { clip } from "../../lib/seo";
+import { partNumbers } from "../../lib/vocab-parts";
 import Segmented from "../ui/Segmented.astro";
 import type { NavLink } from "./CardNav.astro";
 import WordCard from "./WordCard.astro";
@@ -35,6 +36,15 @@ const navOf = (i: number): { prev: NavLink; next: NavLink } => {
     next: { href: `#${entries[(i + 1) % k]?.id}`, label: "Sau" },
   };
 };
+
+// Học theo phần: bài dài chia 2–3 phần liên tiếp (≤ 20 từ giữ nguyên). Lọc bằng CSS (global.css, data-part),
+// script cuối file giới hạn Trước/Sau, số đếm, Ngẫu nhiên trong phần và ghi URL ?phan=N.
+const parts = partNumbers(entries);
+const partSizes = parts.reduce<number[]>((acc, p) => ((acc[p - 1] = (acc[p - 1] ?? 0) + 1), acc), []);
+const partOptions = [
+  { id: "part-all", label: "Tất cả" },
+  ...partSizes.map((size, i) => ({ id: `part-${i + 1}`, label: `Phần ${i + 1} (${size})` })),
+];
 
 const toggles = [
   { id: "toggle-furigana", label: "Ẩn furigana" },
@@ -97,6 +107,7 @@ const description = clip(
           { id: "focus-kana", label: "Hiragana" },
         ]}
       />
+      {partSizes.length > 1 && <Segmented name="part" label="Học theo phần" checked="part-all" options={partOptions} wrap />}
     </div>
     {
       toggles.map((t) => (
@@ -109,7 +120,7 @@ const description = clip(
   </fieldset>
 
   <div class="word-list mt-4 grid gap-3 md:grid-cols-2">
-    {entries.map((w, i) => <WordCard word={w} index={i + 1} total={entries.length} conjHref={conj.has(w.id) ? `${base}/${conj.get(w.id)}` : null} counterHref={counters.has(w.id) ? `${base}/${counters.get(w.id)}` : null} {...navOf(i)} />)}
+    {entries.map((w, i) => <WordCard word={w} index={i + 1} total={entries.length} conjHref={conj.has(w.id) ? `${base}/${conj.get(w.id)}` : null} counterHref={counters.has(w.id) ? `${base}/${counters.get(w.id)}` : null} part={parts[i] ?? 1} {...navOf(i)} />)}
   </div>
 </Base>
 
@@ -121,10 +132,36 @@ const description = clip(
   const viewSingle = document.getElementById("view-single") as HTMLInputElement | null;
   const viewGrid = document.getElementById("view-grid") as HTMLInputElement | null;
   const random = document.getElementById("order-random") as HTMLInputElement | null;
-  let order = [...ids];
+
+  // Học theo phần: `order` chỉ gồm thẻ của phần đang chọn (thẻ khác bị CSS ẩn theo data-part).
+  const partOf = new Map(ids.map((id) => [id, document.getElementById(id)?.dataset.part ?? "1"]));
+  const partRadios = [...document.querySelectorAll<HTMLInputElement>('input[name="part"]')];
+  const selectedPart = (): string | null => {
+    const r = partRadios.find((x) => x.checked);
+    return r && r.id !== "part-all" ? r.id.slice("part-".length) : null;
+  };
+  const inPart = (): string[] => {
+    const p = selectedPart();
+    return p ? ids.filter((id) => partOf.get(id) === p) : [...ids];
+  };
+  // ?phan=N khi mở trang (link chia sẻ) → chọn sẵn phần đó
+  const phan = new URLSearchParams(location.search).get("phan");
+  const initial = phan ? (document.getElementById(`part-${phan}`) as HTMLInputElement | null) : null;
+  if (initial && partRadios.includes(initial)) initial.checked = true;
+  let order = inPart();
+  // Nút quiz: đang chọn một phần → "Luyện tập phần này" (quiz lọc &phan=N)
+  const quizLink = document.querySelector<HTMLAnchorElement>("[data-lesson-quiz]");
+  const quizBase = quizLink?.getAttribute("href") ?? "";
+  const syncQuizLink = (): void => {
+    if (!quizLink) return;
+    const p = selectedPart();
+    quizLink.setAttribute("href", p ? `${quizBase}&phan=${p}` : quizBase);
+    quizLink.textContent = p ? "Luyện tập phần này →" : "Luyện tập bài này →";
+  };
+  syncQuizLink();
 
   const shuffle = (): string[] => {
-    const a = [...ids];
+    const a = inPart();
     for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [a[i], a[j]] = [a[j] as string, a[i] as string];
@@ -137,9 +174,9 @@ const description = clip(
   list?.classList.add("js-cards");
   const fromHash = (): string | null => {
     const h = decodeURIComponent(location.hash.slice(1));
-    return ids.includes(h) ? h : null;
+    return order.includes(h) ? h : null;
   };
-  let cur = fromHash() ?? ids[0] ?? "";
+  let cur = fromHash() ?? order[0] ?? "";
   const current = (): string => cur;
   const updateCounter = (): void => {
     const pos = document.getElementById(cur)?.querySelector(".card-pos");
@@ -209,7 +246,20 @@ const description = clip(
   random?.addEventListener("change", () => {
     if (random.checked) reorder(shuffle());
   });
-  document.getElementById("order-seq")?.addEventListener("change", () => reorder([...ids]));
+  document.getElementById("order-seq")?.addEventListener("change", () => reorder(inPart()));
+  // Đổi phần: ghi ?phan=N (bỏ #id cũ), sắp lại theo thứ tự đang chọn, về thẻ đầu của phần
+  for (const r of partRadios) {
+    r.addEventListener("change", () => {
+      const u = new URL(location.href);
+      const p = selectedPart();
+      if (p) u.searchParams.set("phan", p);
+      else u.searchParams.delete("phan");
+      u.hash = "";
+      history.replaceState(null, "", u);
+      syncQuizLink();
+      reorder(random?.checked ? shuffle() : inPart());
+    });
+  }
   // Nút Back/Forward của trình duyệt → hiện lại thẻ theo #id (không cuộn)
-  window.addEventListener("popstate", () => show(fromHash() ?? ids[0] ?? ""));
+  window.addEventListener("popstate", () => show(fromHash() ?? order[0] ?? ""));
 </script>

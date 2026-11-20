@@ -1,0 +1,2190 @@
+{
+  "connectives": [
+    {
+      "book": "minna",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-soshite-e01",
+          "ref": "mn-08-046-e1",
+          "review": "user",
+          "ruby": "{京都|きょうと}は{静|しず}かです。[[そして]]、{綺麗|きれい}です。",
+          "source": "vocab",
+          "vi": "Kyoto yên tĩnh. Và còn đẹp nữa."
+        },
+        {
+          "id": "cn-soshite-e02",
+          "ref": "g-08-5",
+          "review": "auto",
+          "ruby": "ナムさんはハンサムです。[[そして]]、{親切|しんせつ}です。",
+          "source": "grammar",
+          "vi": "Nam đẹp trai. Và còn tốt bụng nữa."
+        },
+        {
+          "id": "cn-soshite-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{朝|あさ}ご{飯|はん}を{食|た}べました。[[そして]]、{会社|かいしゃ}へ{行|い}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã ăn sáng. Rồi đi đến công ty."
+        }
+      ],
+      "forms": [
+        "そして"
+      ],
+      "function": "addition",
+      "grammar_refs": [
+        "g-08-5"
+      ],
+      "id": "cn-soshite",
+      "kana": "そして",
+      "lesson": 8,
+      "level": "n5",
+      "meaning_source": "vocab",
+      "meaning_vi": "và, hơn nữa (nối hai câu)",
+      "note_vi": "Nối hai câu cùng chiều: thêm ý hoặc kể tiếp sự việc.",
+      "review": "auto",
+      "ruby": "そして",
+      "substitutes": [
+        "cn-sorekara",
+        "cn-soreni"
+      ],
+      "text": "そして",
+      "type": "sentence",
+      "vocab_refs": [
+        "mn-08-046"
+      ]
+    },
+    {
+      "book": "minna",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sorekara-e01",
+          "ref": "mn-06-045-e1",
+          "review": "user",
+          "ruby": "{宿題|しゅくだい}をします。[[それから]]、{寝|ね}ます。",
+          "source": "vocab",
+          "vi": "Tôi làm bài tập. Sau đó, tôi đi ngủ."
+        },
+        {
+          "id": "cn-sorekara-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{昨日|きのう}はデパートへ{行|い}きました。[[それから]]、{映画|えいが}を{見|み}ました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi đi trung tâm thương mại. Sau đó xem phim."
+        },
+        {
+          "id": "cn-sorekara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{毎朝|まいあさ}シャワーを{浴|あ}びます。[[それから]]、コーヒーを{飲|の}みます。",
+          "source": "ai-draft",
+          "vi": "Mỗi sáng tôi tắm vòi sen. Sau đó uống cà phê."
+        }
+      ],
+      "forms": [
+        "それから"
+      ],
+      "function": "sequence",
+      "grammar_refs": [],
+      "id": "cn-sorekara",
+      "kana": "それから",
+      "lesson": 6,
+      "level": "n5",
+      "meaning_source": "vocab",
+      "meaning_vi": "sau đó, tiếp theo",
+      "note_vi": "Kể hành động theo trình tự thời gian; cũng dùng để thêm ý (\"còn nữa\").",
+      "review": "auto",
+      "ruby": "それから",
+      "substitutes": [
+        "cn-soshite"
+      ],
+      "text": "それから",
+      "type": "sentence",
+      "vocab_refs": [
+        "mn-06-045"
+      ]
+    },
+    {
+      "book": "minna",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-demo-e01",
+          "ref": "mn-19-019-e1",
+          "review": "user",
+          "ruby": "{日本語|にほんご}は{難|むずか}しいです。[[でも]]、{面白|おもしろ}いです。",
+          "source": "vocab",
+          "vi": "Tiếng Nhật khó. Nhưng mà thú vị."
+        },
+        {
+          "id": "cn-demo-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{靴|くつ}はとても{高|たか}いです。[[でも]]、{丈夫|じょうぶ}です。",
+          "source": "ai-draft",
+          "vi": "Đôi giày này rất đắt. Nhưng mà bền."
+        },
+        {
+          "id": "cn-demo-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{昨日|きのう}は{雨|あめ}でした。[[でも]]、{試合|しあい}はありました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua trời mưa. Nhưng trận đấu vẫn diễn ra."
+        }
+      ],
+      "forms": [
+        "でも"
+      ],
+      "function": "contrast",
+      "grammar_refs": [],
+      "id": "cn-demo",
+      "kana": "でも",
+      "lesson": 19,
+      "level": "n5",
+      "meaning_source": "vocab",
+      "meaning_vi": "nhưng",
+      "note_vi": "Đứng đầu câu sau, văn nói. Văn viết dùng しかし.",
+      "review": "auto",
+      "ruby": "でも",
+      "substitutes": [
+        "cn-shikashi",
+        "cn-dakedo",
+        "cn-tokoroga"
+      ],
+      "text": "でも",
+      "type": "sentence",
+      "vocab_refs": [
+        "mn-19-019"
+      ]
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-shikashi-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{薬|くすり}を{飲|の}みました。[[しかし]]、{熱|ねつ}は{下|さ}がりませんでした。",
+          "source": "ai-draft",
+          "vi": "Tôi đã uống thuốc. Tuy nhiên, sốt vẫn không hạ."
+        },
+        {
+          "id": "cn-shikashi-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{町|まち}は{便利|べんり}です。[[しかし]]、{家賃|やちん}が{高|たか}いです。",
+          "source": "ai-draft",
+          "vi": "Thị trấn này tiện lợi. Tuy nhiên, tiền thuê nhà đắt."
+        },
+        {
+          "id": "cn-shikashi-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{一生懸命|いっしょうけんめい}{練習|れんしゅう}しました。[[しかし]]、{試合|しあい}に{負|ま}けました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã luyện tập hết sức. Tuy nhiên, vẫn thua trận đấu."
+        }
+      ],
+      "forms": [
+        "しかし"
+      ],
+      "function": "contrast",
+      "grammar_refs": [],
+      "id": "cn-shikashi",
+      "kana": "しかし",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "tuy nhiên, nhưng",
+      "note_vi": "Trang trọng, hay dùng trong văn viết, phát biểu.",
+      "review": "auto",
+      "ruby": "しかし",
+      "substitutes": [
+        "cn-demo",
+        "cn-dakedo",
+        "cn-tokoroga"
+      ],
+      "text": "しかし",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-dakedo-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{旅行|りょこう}に{行|い}きたい。[[だけど]]、お{金|かね}がない。",
+          "source": "ai-draft",
+          "vi": "Muốn đi du lịch. Nhưng mà không có tiền."
+        },
+        {
+          "id": "cn-dakedo-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{店|みせ}のラーメンは{美味|おい}しい。[[だけど]]、いつも{込|こ}んでいる。",
+          "source": "ai-draft",
+          "vi": "Mì ramen quán này ngon. Nhưng mà lúc nào cũng đông."
+        },
+        {
+          "id": "cn-dakedo-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{宿題|しゅくだい}は{終|お}わった。[[だけど]]、まだ{眠|ねむ}くない。",
+          "source": "ai-draft",
+          "vi": "Bài tập xong rồi. Nhưng mà vẫn chưa buồn ngủ."
+        }
+      ],
+      "forms": [
+        "だけど"
+      ],
+      "function": "contrast",
+      "grammar_refs": [],
+      "id": "cn-dakedo",
+      "kana": "だけど",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nhưng mà (thân mật)",
+      "note_vi": "Văn nói thân mật; lịch sự hơn: でも, ですが.",
+      "review": "auto",
+      "ruby": "だけど",
+      "substitutes": [
+        "cn-demo",
+        "cn-shikashi",
+        "cn-tokoroga"
+      ],
+      "text": "だけど",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-tokoroga-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{天気予報|てんきよほう}では{晴|は}れでした。[[ところが]]、{午後|ごご}から{雨|あめ}が{降|ふ}り{出|だ}しました。",
+          "source": "ai-draft",
+          "vi": "Dự báo thời tiết nói trời nắng. Thế nhưng từ chiều trời bắt đầu mưa."
+        },
+        {
+          "id": "cn-tokoroga-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{簡単|かんたん}な{試験|しけん}だと{思|おも}いました。[[ところが]]、{全然|ぜんぜん}{分|わ}かりませんでした。",
+          "source": "ai-draft",
+          "vi": "Tôi đã nghĩ là bài thi dễ. Thế nhưng tôi chẳng hiểu gì cả."
+        },
+        {
+          "id": "cn-tokoroga-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{急|いそ}いで{駅|えき}へ{行|い}きました。[[ところが]]、{電車|でんしゃ}はもう{出|で}ていました。",
+          "source": "ai-draft",
+          "vi": "Tôi vội vàng ra ga. Thế nhưng tàu đã chạy mất rồi."
+        }
+      ],
+      "forms": [
+        "ところが"
+      ],
+      "function": "contrast",
+      "grammar_refs": [],
+      "id": "cn-tokoroga",
+      "kana": "ところが",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "thế nhưng (kết quả trái với dự đoán)",
+      "note_vi": "Vế sau là sự việc bất ngờ, ngoài dự tính; không dùng cho ý muốn, mệnh lệnh của người nói.",
+      "review": "auto",
+      "ruby": "ところが",
+      "substitutes": [
+        "cn-demo",
+        "cn-shikashi",
+        "cn-dakedo"
+      ],
+      "text": "ところが",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-desukara-e01",
+          "ref": "mn-17-029-e1",
+          "review": "user",
+          "ruby": "{明日|あした}は{試験|しけん}です。[[ですから]]、{今晩|こんばん}は{勉強|べんきょう}します。",
+          "source": "vocab",
+          "vi": "Ngày mai có thi. Vì vậy tối nay tôi học bài."
+        },
+        {
+          "id": "cn-desukara-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{明日|あした}は{休|やす}みです。[[ですから]]、{今晩|こんばん}は{遅|おそ}くまで{本|ほん}を{読|よ}みます。",
+          "source": "ai-draft",
+          "vi": "Ngày mai được nghỉ. Vì vậy tối nay tôi đọc sách đến khuya."
+        },
+        {
+          "id": "cn-desukara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{道|みち}は{危|あぶ}ないです。[[ですから]]、{気|き}をつけてください。",
+          "source": "ai-draft",
+          "vi": "Con đường này nguy hiểm. Vì thế hãy cẩn thận."
+        }
+      ],
+      "forms": [
+        "ですから"
+      ],
+      "function": "cause",
+      "grammar_refs": [],
+      "id": "cn-desukara",
+      "kana": "ですから",
+      "lesson": 17,
+      "level": "n5",
+      "meaning_source": "vocab",
+      "meaning_vi": "vì thế, vì vậy",
+      "note_vi": "Dạng lịch sự của だから.",
+      "review": "auto",
+      "ruby": "ですから",
+      "substitutes": [
+        "cn-dakara",
+        "cn-sorede"
+      ],
+      "text": "ですから",
+      "type": "sentence",
+      "vocab_refs": [
+        "mn-17-029"
+      ]
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-dakara-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{昨日|きのう}は{遅|おそ}くまで{仕事|しごと}をした。[[だから]]、{今日|きょう}は{眠|ねむ}い。",
+          "source": "ai-draft",
+          "vi": "Hôm qua làm việc đến khuya. Vì thế hôm nay buồn ngủ."
+        },
+        {
+          "id": "cn-dakara-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{明日|あした}は{試験|しけん}だ。[[だから]]、{今日|きょう}は{早|はや}く{寝|ね}よう。",
+          "source": "ai-draft",
+          "vi": "Mai thi rồi. Vì vậy hôm nay ngủ sớm thôi."
+        },
+        {
+          "id": "cn-dakara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼|かれ}はいつも{約束|やくそく}を{守|まも}る。[[だから]]、{皆|みんな}に{信頼|しんらい}されている。",
+          "source": "ai-draft",
+          "vi": "Anh ấy luôn giữ lời hứa. Vì thế được mọi người tin tưởng."
+        }
+      ],
+      "forms": [
+        "だから"
+      ],
+      "function": "cause",
+      "grammar_refs": [],
+      "id": "cn-dakara",
+      "kana": "だから",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vì thế, cho nên",
+      "note_vi": "Dạng thông thường của ですから; vế sau có thể là ý muốn, lời khuyên.",
+      "review": "auto",
+      "ruby": "だから",
+      "substitutes": [
+        "cn-desukara",
+        "cn-sorede"
+      ],
+      "text": "だから",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sorede-e01",
+          "ref": "mn-28-042-e1",
+          "review": "user",
+          "ruby": "{雨|あめ}が{降|ふ}っていました。[[それで]]、{行|い}きませんでした。",
+          "source": "vocab",
+          "vi": "Trời đã mưa. Vì thế tôi đã không đi."
+        },
+        {
+          "id": "cn-sorede-e02",
+          "ref": "n3-682-e1",
+          "review": "user",
+          "ruby": "{電車|でんしゃ}が{止|と}まりました。[[それで]]{遅刻|ちこく}しました。",
+          "source": "vocab",
+          "vi": "Tàu đã dừng. Vì vậy tôi đến muộn."
+        },
+        {
+          "id": "cn-sorede-e03",
+          "ref": "g-28-4",
+          "review": "auto",
+          "ruby": "{仕事|しごと}も{面白|おもしろ}いし、{給料|きゅうりょう}も{高|たか}いし、（[[それで]]）この{会社|かいしゃ}で{働|はたら}きたいです。",
+          "source": "grammar",
+          "vi": "Công việc vừa thú vị, lương lại cao, vì vậy tôi muốn làm việc ở công ty này."
+        }
+      ],
+      "forms": [
+        "それで"
+      ],
+      "function": "cause",
+      "grammar_refs": [
+        "g-28-4"
+      ],
+      "id": "cn-sorede",
+      "kana": "それで",
+      "lesson": 28,
+      "level": "n4",
+      "meaning_source": "vocab",
+      "meaning_vi": "vì thế, do đó; rồi sao nữa",
+      "note_vi": "Kết quả khách quan của sự việc trước; vế sau không dùng mệnh lệnh, rủ rê. Trong hội thoại còn dùng để giục kể tiếp (\"rồi sao?\").",
+      "review": "auto",
+      "ruby": "それで",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara"
+      ],
+      "text": "それで",
+      "type": "sentence",
+      "vocab_refs": [
+        "mn-28-042",
+        "n3-682"
+      ]
+    },
+    {
+      "book": "minna",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-soreni-e01",
+          "ref": "mn-28-041-e1",
+          "review": "user",
+          "ruby": "この{店|みせ}は{安|やす}いです。[[それに]]、{近|ちか}いです。",
+          "source": "vocab",
+          "vi": "Cửa hàng này rẻ. Thêm nữa là gần."
+        },
+        {
+          "id": "cn-soreni-e02",
+          "ref": "g-28-3",
+          "review": "auto",
+          "ruby": "ハノイは{賑|にぎ}やかだし、{景色|けしき}も{綺麗|きれい}だし、[[それに]]{美味|おい}しい{料理|りょうり}も{多|おお}いです。",
+          "source": "grammar",
+          "vi": "Hà Nội vừa náo nhiệt, phong cảnh lại đẹp, hơn nữa còn có nhiều món ăn ngon."
+        },
+        {
+          "id": "cn-soreni-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "このアパートは{駅|えき}から{近|ちか}いです。[[それに]]、{部屋|へや}も{広|ひろ}いです。",
+          "source": "ai-draft",
+          "vi": "Căn hộ này gần ga. Thêm nữa, phòng cũng rộng."
+        }
+      ],
+      "forms": [
+        "それに"
+      ],
+      "function": "addition",
+      "grammar_refs": [
+        "g-28-3"
+      ],
+      "id": "cn-soreni",
+      "kana": "それに",
+      "lesson": 28,
+      "level": "n4",
+      "meaning_source": "vocab",
+      "meaning_vi": "thêm nữa là, hơn nữa",
+      "note_vi": "Thêm một lý do / đặc điểm cùng chiều, hay đi với ～し.",
+      "review": "auto",
+      "ruby": "それに",
+      "substitutes": [
+        "cn-soshite",
+        "cn-sonoue",
+        "cn-mata"
+      ],
+      "text": "それに",
+      "type": "sentence",
+      "vocab_refs": [
+        "mn-28-041"
+      ]
+    },
+    {
+      "book": "n3",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sonoue-e01",
+          "ref": "n3-683-e1",
+          "review": "user",
+          "ruby": "この{店|みせ}は{安|やす}い。[[そのうえ]]、{料理|りょうり}も{美味|おい}しい。",
+          "source": "vocab",
+          "vi": "Quán này rẻ. Hơn nữa đồ ăn cũng ngon."
+        },
+        {
+          "id": "cn-sonoue-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼女|かのじょ}は{頭|あたま}がいい。[[そのうえ]]、スポーツも{得意|とくい}だ。",
+          "source": "ai-draft",
+          "vi": "Cô ấy thông minh. Hơn thế nữa, còn giỏi thể thao."
+        },
+        {
+          "id": "cn-sonoue-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{道|みち}に{迷|まよ}った。[[そのうえ]]、{雨|あめ}まで{降|ふ}ってきた。",
+          "source": "ai-draft",
+          "vi": "Tôi bị lạc đường. Thêm vào đó trời còn đổ mưa."
+        }
+      ],
+      "forms": [
+        "そのうえ"
+      ],
+      "function": "addition",
+      "grammar_refs": [],
+      "id": "cn-sonoue",
+      "kana": "そのうえ",
+      "lesson": 14,
+      "level": "n3",
+      "meaning_source": "vocab",
+      "meaning_vi": "hơn thế nữa, thêm vào đó",
+      "note_vi": "Trang trọng hơn それに.",
+      "review": "auto",
+      "ruby": "そのうえ",
+      "substitutes": [
+        "cn-soreni",
+        "cn-mata"
+      ],
+      "text": "そのうえ",
+      "type": "sentence",
+      "vocab_refs": [
+        "n3-683"
+      ]
+    },
+    {
+      "book": "n3",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-mata-e01",
+          "ref": "n3-684-e1",
+          "review": "user",
+          "ruby": "{彼|かれ}は{医者|いしゃ}で、[[また]]{作家|さっか}でもあります。",
+          "source": "vocab",
+          "vi": "Ông ấy là bác sĩ, ngoài ra còn là nhà văn."
+        },
+        {
+          "id": "cn-mata-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{部屋|へや}は{明|あか}るい。[[また]]、{窓|まど}から{海|うみ}が{見|み}える。",
+          "source": "ai-draft",
+          "vi": "Căn phòng này sáng sủa. Ngoài ra, từ cửa sổ có thể nhìn thấy biển."
+        },
+        {
+          "id": "cn-mata-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{会議|かいぎ}は{三階|さんがい}で{行|おこな}います。[[また]]、{資料|しりょう}は{受付|うけつけ}にあります。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp tổ chức ở tầng 3. Ngoài ra, tài liệu để ở quầy lễ tân."
+        }
+      ],
+      "forms": [
+        "また"
+      ],
+      "function": "addition",
+      "grammar_refs": [],
+      "id": "cn-mata",
+      "kana": "また",
+      "lesson": 14,
+      "level": "n3",
+      "meaning_source": "vocab",
+      "meaning_vi": "ngoài ra, đồng thời",
+      "note_vi": "Khác phó từ また (lại, lần nữa — mn-14-037).",
+      "review": "auto",
+      "ruby": "また",
+      "substitutes": [
+        "cn-soreni",
+        "cn-sonoue"
+      ],
+      "text": "また",
+      "type": "sentence",
+      "vocab_refs": [
+        "n3-684"
+      ]
+    },
+    {
+      "book": "n3",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-matawa-e01",
+          "ref": "n3-685-e1",
+          "review": "user",
+          "ruby": "{電話|でんわ}[[または]]メールで{連絡|れんらく}してください。",
+          "source": "vocab",
+          "vi": "Hãy liên lạc bằng điện thoại hoặc email."
+        },
+        {
+          "id": "cn-matawa-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{黒|くろ}[[または]]{青|あお}のペンで{書|か}いてください。",
+          "source": "ai-draft",
+          "vi": "Hãy viết bằng bút màu đen hoặc màu xanh."
+        },
+        {
+          "id": "cn-matawa-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{申込書|もうしこみしょ}は{郵便|ゆうびん}、[[または]]メールで{送|おく}ってください。",
+          "source": "ai-draft",
+          "vi": "Hãy gửi đơn đăng ký qua bưu điện hoặc email."
+        }
+      ],
+      "forms": [
+        "または"
+      ],
+      "function": "choice",
+      "grammar_refs": [],
+      "id": "cn-matawa",
+      "kana": "または",
+      "lesson": 14,
+      "level": "n3",
+      "meaning_source": "vocab",
+      "meaning_vi": "hoặc",
+      "note_vi": "Hay dùng trong câu trần thuật, hướng dẫn, văn bản.",
+      "review": "auto",
+      "ruby": "または",
+      "substitutes": [
+        "cn-soretomo"
+      ],
+      "text": "または",
+      "type": "sentence",
+      "vocab_refs": [
+        "n3-685"
+      ]
+    },
+    {
+      "book": "n3",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-soretomo-e01",
+          "ref": "n3-686-e1",
+          "review": "user",
+          "ruby": "コーヒーにしますか、[[それとも]]{紅茶|こうちゃ}にしますか。",
+          "source": "vocab",
+          "vi": "Bạn dùng cà phê hay là trà?"
+        },
+        {
+          "id": "cn-soretomo-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{電車|でんしゃ}で{行|い}きますか、[[それとも]]バスで{行|い}きますか。",
+          "source": "ai-draft",
+          "vi": "Đi bằng tàu điện hay là đi bằng xe buýt?"
+        },
+        {
+          "id": "cn-soretomo-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{今日|きょう}{行|い}く？[[それとも]]{明日|あした}にする？",
+          "source": "ai-draft",
+          "vi": "Hôm nay đi à? Hay là để mai?"
+        }
+      ],
+      "forms": [
+        "それとも"
+      ],
+      "function": "choice",
+      "grammar_refs": [],
+      "id": "cn-soretomo",
+      "kana": "それとも",
+      "lesson": 14,
+      "level": "n3",
+      "meaning_source": "vocab",
+      "meaning_vi": "hay là",
+      "note_vi": "Dùng trong câu hỏi lựa chọn: ～か、それとも～か.",
+      "review": "auto",
+      "ruby": "それとも",
+      "substitutes": [
+        "cn-matawa"
+      ],
+      "text": "それとも",
+      "type": "sentence",
+      "vocab_refs": [
+        "n3-686"
+      ]
+    },
+    {
+      "book": "n3",
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-tsumari-e01",
+          "ref": "n3-687-e1",
+          "review": "user",
+          "ruby": "{父|ちち}の{兄|あに}、[[つまり]]{伯父|おじ}が{来|き}ました。",
+          "source": "vocab",
+          "vi": "Anh của bố, tức là bác tôi, đã đến."
+        },
+        {
+          "id": "cn-tsumari-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{母|はは}の{妹|いもうと}、[[つまり]]{叔母|おば}は{東京|とうきょう}に{住|す}んでいます。",
+          "source": "ai-draft",
+          "vi": "Em gái của mẹ, tức là dì tôi, sống ở Tokyo."
+        },
+        {
+          "id": "cn-tsumari-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{明日|あした}は{会社|かいしゃ}が{休|やす}みです。[[つまり]]、{三連休|さんれんきゅう}です。",
+          "source": "ai-draft",
+          "vi": "Mai công ty nghỉ. Tóm lại là được nghỉ ba ngày liền."
+        }
+      ],
+      "forms": [
+        "つまり"
+      ],
+      "function": "rephrase",
+      "grammar_refs": [],
+      "id": "cn-tsumari",
+      "kana": "つまり",
+      "lesson": 14,
+      "level": "n3",
+      "meaning_source": "vocab",
+      "meaning_vi": "tóm lại, tức là",
+      "note_vi": "Nói lại ý trước bằng cách khác hoặc rút ra kết luận.",
+      "review": "auto",
+      "ruby": "つまり",
+      "substitutes": [],
+      "text": "つまり",
+      "type": "sentence",
+      "vocab_refs": [
+        "n3-687"
+      ]
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-tatoeba-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{日本|にほん}の{料理|りょうり}、[[{例|たと}えば]]{寿司|すし}や{天|てん}ぷらが{好|す}きです。",
+          "source": "ai-draft",
+          "vi": "Tôi thích món Nhật, chẳng hạn như sushi hay tempura."
+        },
+        {
+          "id": "cn-tatoeba-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{果物|くだもの}、[[{例|たと}えば]]バナナやいちごを{毎日|まいにち}{食|た}べています。",
+          "source": "ai-draft",
+          "vi": "Tôi ăn trái cây mỗi ngày, ví dụ như chuối hay dâu tây."
+        },
+        {
+          "id": "cn-tatoeba-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{冬|ふゆ}のスポーツ、[[{例|たと}えば]]スキーをしたことがありますか。",
+          "source": "ai-draft",
+          "vi": "Bạn đã từng chơi môn thể thao mùa đông nào chưa, ví dụ như trượt tuyết?"
+        }
+      ],
+      "forms": [
+        "たとえば",
+        "例えば"
+      ],
+      "function": "rephrase",
+      "grammar_refs": [],
+      "id": "cn-tatoeba",
+      "kana": "たとえば",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "ví dụ như, chẳng hạn",
+      "note_vi": "Đưa ra ví dụ cho ý vừa nói.",
+      "review": "auto",
+      "ruby": "{例|たと}えば",
+      "substitutes": [],
+      "text": "例えば",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-ja-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{全員|ぜんいん}{来|き}ましたね。[[じゃ]]、{始|はじ}めましょう。",
+          "source": "ai-draft",
+          "vi": "Mọi người đến đủ rồi nhỉ. Vậy thì chúng ta bắt đầu thôi."
+        },
+        {
+          "id": "cn-ja-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "もう{九時|くじ}ですね。[[じゃあ]]、{失礼|しつれい}します。",
+          "source": "ai-draft",
+          "vi": "Đã 9 giờ rồi nhỉ. Vậy thì tôi xin phép về."
+        },
+        {
+          "id": "cn-ja-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{赤|あか}いのはちょっと{高|たか}いですね。[[じゃ]]、その{青|あお}いのをください。",
+          "source": "ai-draft",
+          "vi": "Cái màu đỏ này hơi đắt nhỉ. Thế thì cho tôi cái màu xanh kia."
+        }
+      ],
+      "forms": [
+        "じゃ",
+        "じゃあ",
+        "では"
+      ],
+      "function": "topic",
+      "grammar_refs": [],
+      "id": "cn-ja",
+      "kana": "じゃ",
+      "lesson": null,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vậy thì, thế thì",
+      "note_vi": "Văn nói; trang trọng hơn: では. Dùng khi chuyển sang việc tiếp theo, kết thúc câu chuyện.",
+      "review": "auto",
+      "ruby": "じゃ",
+      "substitutes": [
+        "cn-sorenara"
+      ],
+      "text": "じゃ",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-tokorode-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{旅行|りょこう}は{楽|たの}しかったです。[[ところで]]、{山田|やまだ}さんはお{元気|げんき}ですか。",
+          "source": "ai-draft",
+          "vi": "Chuyến du lịch vui lắm. À này, anh Yamada có khỏe không?"
+        },
+        {
+          "id": "cn-tokorode-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{今日|きょう}は{暑|あつ}いですね。[[ところで]]、{明日|あした}の{会議|かいぎ}は{何時|なんじ}からですか。",
+          "source": "ai-draft",
+          "vi": "Hôm nay nóng nhỉ. Nhân tiện, cuộc họp ngày mai bắt đầu lúc mấy giờ?"
+        },
+        {
+          "id": "cn-tokorode-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{宿題|しゅくだい}、{終|お}わった？[[ところで]]、{週末|しゅうまつ}は{暇|ひま}？",
+          "source": "ai-draft",
+          "vi": "Bài tập xong chưa? À mà cuối tuần có rảnh không?"
+        }
+      ],
+      "forms": [
+        "ところで"
+      ],
+      "function": "topic",
+      "grammar_refs": [],
+      "id": "cn-tokorode",
+      "kana": "ところで",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nhân tiện, à này",
+      "note_vi": "Chuyển sang chủ đề khác hẳn chủ đề đang nói.",
+      "review": "auto",
+      "ruby": "ところで",
+      "substitutes": [],
+      "text": "ところで",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-suruto-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "ボタンを{押|お}しました。[[すると]]、ドアが{開|あ}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi đã bấm nút. Thế là cửa mở ra."
+        },
+        {
+          "id": "cn-suruto-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{窓|まど}を{開|あ}けました。[[すると]]、{冷|つめ}たい{風|かぜ}が{入|はい}ってきました。",
+          "source": "ai-draft",
+          "vi": "Tôi mở cửa sổ. Thế là gió lạnh lùa vào."
+        },
+        {
+          "id": "cn-suruto-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{角|かど}を{曲|ま}がりました。[[すると]]、{大|おお}きな{公園|こうえん}が{見|み}えました。",
+          "source": "ai-draft",
+          "vi": "Tôi rẽ ở góc phố. Ngay sau đó nhìn thấy một công viên lớn."
+        }
+      ],
+      "forms": [
+        "すると"
+      ],
+      "function": "sequence",
+      "grammar_refs": [],
+      "id": "cn-suruto",
+      "kana": "すると",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "thế là, ngay sau đó",
+      "note_vi": "Sau hành động ở câu trước thì một sự việc xảy ra (thường ngoài ý muốn của người nói).",
+      "review": "auto",
+      "ruby": "すると",
+      "substitutes": [],
+      "text": "すると",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sorenara-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "「{頭|あたま}が{痛|いた}いんです。」「[[それなら]]、{早|はや}く{帰|かえ}ったほうがいいですよ。」",
+          "source": "ai-draft",
+          "vi": "\"Tôi bị đau đầu.\" \"Nếu vậy thì nên về sớm đi.\""
+        },
+        {
+          "id": "cn-sorenara-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "「{日本料理|にほんりょうり}が{食|た}べたいです。」「[[それなら]]、{駅|えき}の{前|まえ}の{店|みせ}がいいですよ。」",
+          "source": "ai-draft",
+          "vi": "\"Tôi muốn ăn món Nhật.\" \"Nếu vậy thì quán trước ga được đấy.\""
+        },
+        {
+          "id": "cn-sorenara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "「{明日|あした}は{用事|ようじ}があります。」「[[それなら]]、{来週|らいしゅう}にしましょう。」",
+          "source": "ai-draft",
+          "vi": "\"Mai tôi có việc bận.\" \"Nếu vậy thì để tuần sau nhé.\""
+        }
+      ],
+      "forms": [
+        "それなら"
+      ],
+      "function": "condition",
+      "grammar_refs": [],
+      "id": "cn-sorenara",
+      "kana": "それなら",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nếu vậy thì",
+      "note_vi": "Đưa ra ý kiến dựa trên điều người kia vừa nói.",
+      "review": "auto",
+      "ruby": "それなら",
+      "substitutes": [
+        "cn-ja"
+      ],
+      "text": "それなら",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Câu (lịch sự hoặc thông thường) + が、～",
+      "examples": [
+        {
+          "id": "cn-ga-e01",
+          "ref": "g-08-6",
+          "review": "auto",
+          "ruby": "{寿司|すし}は{美味|おい}しいです[[が]]{高|たか}いです。",
+          "source": "grammar",
+          "vi": "Sushi ngon nhưng mà đắt."
+        },
+        {
+          "id": "cn-ga-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{部屋|へや}は{狭|せま}いです[[が]]、{明|あか}るいです。",
+          "source": "ai-draft",
+          "vi": "Căn phòng này hẹp nhưng sáng sủa."
+        },
+        {
+          "id": "cn-ga-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{昨日|きのう}は{寒|さむ}かったです[[が]]、{今日|きょう}は{暖|あたた}かいです。",
+          "source": "ai-draft",
+          "vi": "Hôm qua lạnh nhưng hôm nay ấm."
+        }
+      ],
+      "forms": [
+        "が"
+      ],
+      "function": "contrast",
+      "grammar_refs": [
+        "g-08-6"
+      ],
+      "id": "cn-ga",
+      "kana": "が",
+      "lesson": 8,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nhưng (nối hai vế)",
+      "note_vi": "Còn dùng để mở đầu câu chuyện, lời nhờ vả: すみませんが、～ (không mang nghĩa \"nhưng\").",
+      "review": "auto",
+      "ruby": "が",
+      "substitutes": [
+        "cn-kedo"
+      ],
+      "text": "が",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Câu (thể thông thường hoặc lịch sự) + けど、～",
+      "examples": [
+        {
+          "id": "cn-kedo-e01",
+          "ref": "mn-20-019-e1",
+          "review": "user",
+          "ruby": "{日本語|にほんご}は{難|むずか}しい[[けど]]、{面白|おもしろ}い。",
+          "source": "vocab",
+          "vi": "Tiếng Nhật khó nhưng thú vị."
+        },
+        {
+          "id": "cn-kedo-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{行|い}きたい[[けど]]、{時間|じかん}がない。",
+          "source": "ai-draft",
+          "vi": "Muốn đi nhưng không có thời gian."
+        },
+        {
+          "id": "cn-kedo-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{料理|りょうり}は{辛|から}い[[けど]]、{美味|おい}しい。",
+          "source": "ai-draft",
+          "vi": "Món này cay nhưng ngon."
+        }
+      ],
+      "forms": [
+        "けど",
+        "けれど",
+        "けれども"
+      ],
+      "function": "contrast",
+      "grammar_refs": [
+        "g-20-2"
+      ],
+      "id": "cn-kedo",
+      "kana": "けど",
+      "lesson": 20,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nhưng (thân mật)",
+      "note_vi": "Dạng thân mật của が; けれども trang trọng hơn.",
+      "review": "auto",
+      "ruby": "けど",
+      "substitutes": [
+        "cn-ga"
+      ],
+      "text": "けど",
+      "type": "clause",
+      "vocab_refs": [
+        "mn-20-019"
+      ]
+    },
+    {
+      "book": "minna",
+      "connects_vi": "V / Aい thể thông thường + のに; Aな / N + な + のに",
+      "examples": [
+        {
+          "id": "cn-noni-e01",
+          "ref": "g-45-2",
+          "review": "auto",
+          "ruby": "{約束|やくそく}をした[[のに]]、{彼女|かのじょ}は{来|き}ませんでした。",
+          "source": "grammar",
+          "vi": "Đã có hẹn rồi thế mà cô ấy không đến."
+        },
+        {
+          "id": "cn-noni-e02",
+          "ref": "g-45-2",
+          "review": "auto",
+          "ruby": "このスマホは{高|たか}い[[のに]]、{良|よ}く{故障|こしょう}します。",
+          "source": "grammar",
+          "vi": "Điện thoại này đắt vậy mà rất hay hỏng."
+        },
+        {
+          "id": "cn-noni-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{日曜日|にちようび}な[[のに]]、{会社|かいしゃ}へ{行|い}かなければなりません。",
+          "source": "ai-draft",
+          "vi": "Chủ nhật vậy mà tôi vẫn phải đến công ty."
+        }
+      ],
+      "forms": [
+        "のに",
+        "なのに"
+      ],
+      "function": "contrast",
+      "grammar_refs": [
+        "g-45-2"
+      ],
+      "id": "cn-noni",
+      "kana": "のに",
+      "lesson": 45,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "thế mà, vậy mà",
+      "note_vi": "Kết quả trái với dự đoán, kèm cảm xúc bất ngờ, không hài lòng. Vế sau không dùng ý muốn, mệnh lệnh.",
+      "review": "auto",
+      "ruby": "のに",
+      "substitutes": [],
+      "text": "のに",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vて + も; Aい → くても; Aな / N + でも",
+      "examples": [
+        {
+          "id": "cn-temo-e01",
+          "ref": "g-25-3",
+          "review": "auto",
+          "ruby": "{雨|あめ}が{降|ふ}っ[[ても]]、ジョギングをします。",
+          "source": "grammar",
+          "vi": "Dù trời mưa tôi vẫn chạy bộ."
+        },
+        {
+          "id": "cn-temo-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{高|たか}[[くても]]、この{辞書|じしょ}を{買|か}いたいです。",
+          "source": "ai-draft",
+          "vi": "Dù đắt tôi vẫn muốn mua cuốn từ điển này."
+        },
+        {
+          "id": "cn-temo-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "いくら{考|かんが}え[[ても]]、{分|わ}かりません。",
+          "source": "ai-draft",
+          "vi": "Dù nghĩ bao nhiêu tôi cũng không hiểu."
+        }
+      ],
+      "forms": [
+        "ても",
+        "でも",
+        "くても"
+      ],
+      "function": "concession",
+      "grammar_refs": [
+        "g-25-3"
+      ],
+      "id": "cn-temo",
+      "kana": "ても",
+      "lesson": 25,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "dù… vẫn",
+      "note_vi": "Dù điều kiện ở vế trước xảy ra, kết quả ở vế sau vẫn không đổi.",
+      "review": "auto",
+      "ruby": "ても",
+      "substitutes": [],
+      "text": "ても",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Câu (thể thông thường hoặc lịch sự) + から、～",
+      "examples": [
+        {
+          "id": "cn-kara-e01",
+          "ref": "g-09-7",
+          "review": "auto",
+          "ruby": "{時間|じかん}がありません[[から]]、スポーツをしません。",
+          "source": "grammar",
+          "vi": "Vì không có thời gian nên tôi không chơi thể thao."
+        },
+        {
+          "id": "cn-kara-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{危|あぶ}ないです[[から]]、{触|さわ}らないでください。",
+          "source": "ai-draft",
+          "vi": "Vì nguy hiểm nên xin đừng chạm vào."
+        },
+        {
+          "id": "cn-kara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{今日|きょう}は{暇|ひま}だ[[から]]、{映画|えいが}を{見|み}に{行|い}こう。",
+          "source": "ai-draft",
+          "vi": "Hôm nay rảnh nên đi xem phim thôi."
+        }
+      ],
+      "forms": [
+        "から"
+      ],
+      "function": "cause",
+      "grammar_refs": [
+        "g-09-7"
+      ],
+      "id": "cn-kara",
+      "kana": "から",
+      "lesson": 9,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vì… nên",
+      "note_vi": "Lý do chủ quan của người nói; vế sau dùng được ý muốn, mệnh lệnh, rủ rê.",
+      "review": "auto",
+      "ruby": "から",
+      "substitutes": [
+        "cn-node"
+      ],
+      "text": "から",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "V / Aい thể thông thường + ので; Aな / N + な + ので",
+      "examples": [
+        {
+          "id": "cn-node-e01",
+          "ref": "g-39-3",
+          "review": "auto",
+          "ruby": "バスが{遅|おそ}く{来|き}た[[ので]]、{学校|がっこう}に{遅|おく}れました。",
+          "source": "grammar",
+          "vi": "Vì xe buýt đến muộn nên tôi đến trường muộn."
+        },
+        {
+          "id": "cn-node-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{熱|ねつ}がある[[ので]]、{今日|きょう}は{休|やす}ませていただけませんか。",
+          "source": "ai-draft",
+          "vi": "Vì bị sốt nên hôm nay cho tôi nghỉ được không ạ?"
+        },
+        {
+          "id": "cn-node-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{辺|へん}は{静|しず}かな[[ので]]、{良|よ}く{眠|ねむ}れます。",
+          "source": "ai-draft",
+          "vi": "Khu này yên tĩnh nên tôi ngủ ngon."
+        }
+      ],
+      "forms": [
+        "ので",
+        "なので"
+      ],
+      "function": "cause",
+      "grammar_refs": [
+        "g-39-3"
+      ],
+      "id": "cn-node",
+      "kana": "ので",
+      "lesson": 39,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vì… nên (khách quan, lịch sự)",
+      "note_vi": "Lý do khách quan, mềm mỏng hơn から; hay dùng khi xin phép, giải thích.",
+      "review": "auto",
+      "ruby": "ので",
+      "substitutes": [
+        "cn-kara"
+      ],
+      "text": "ので",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vて; Aい → くて; Aな / N + で",
+      "examples": [
+        {
+          "id": "cn-te-e01",
+          "ref": "g-16-1",
+          "review": "auto",
+          "ruby": "{昨日|きのう}{仕事|しごと}が{終|お}わ[[って]]、お{金|かね}を{出|だ}して、{友達|ともだち}とビールを{飲|の}みに{行|い}きました。",
+          "source": "grammar",
+          "vi": "Hôm qua tôi làm xong việc, đi rút tiền, rồi đi uống bia với bạn."
+        },
+        {
+          "id": "cn-te-e02",
+          "ref": "g-16-3",
+          "review": "auto",
+          "ruby": "ナムさんはハンサム[[で]]{頭|あたま}がいいです。",
+          "source": "grammar",
+          "vi": "Nam đẹp trai và thông minh."
+        },
+        {
+          "id": "cn-te-e03",
+          "ref": "g-39-1",
+          "review": "auto",
+          "ruby": "{給料|きゅうりょう}をもら[[って]]、{嬉|うれ}しかったです。",
+          "source": "grammar",
+          "vi": "Nhận được lương nên tôi vui."
+        }
+      ],
+      "forms": [
+        "て",
+        "で",
+        "くて",
+        "って",
+        "んで"
+      ],
+      "function": "sequence",
+      "grammar_refs": [
+        "g-16-1",
+        "g-16-3",
+        "g-39-1"
+      ],
+      "id": "cn-te",
+      "kana": "て",
+      "lesson": 16,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "rồi, và (nối tiếp, liệt kê); vì (lý do)",
+      "note_vi": "Nối các hành động theo trình tự (bài 16), nối tính từ / danh từ (bài 16), nêu lý do dẫn tới cảm xúc, trạng thái (bài 39).",
+      "review": "auto",
+      "ruby": "て",
+      "substitutes": [],
+      "text": "て",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vて + から",
+      "examples": [
+        {
+          "id": "cn-tekara-e01",
+          "ref": "g-16-2",
+          "review": "auto",
+          "ruby": "{電話|でんわ}をかけ[[てから]]、{友達|ともだち}の{家|うち}に{行|い}きます。",
+          "source": "grammar",
+          "vi": "Sau khi gọi điện thoại xong tôi đến nhà bạn."
+        },
+        {
+          "id": "cn-tekara-e02",
+          "ref": "g-34-2",
+          "review": "auto",
+          "ruby": "{今朝|けさ}{起|お}き[[てから]]、{歯|は}を{磨|みが}きました。",
+          "source": "grammar",
+          "vi": "Sáng nay sau khi thức dậy tôi đã đánh răng."
+        },
+        {
+          "id": "cn-tekara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{手|て}を{洗|あら}っ[[てから]]、ご{飯|はん}を{食|た}べてください。",
+          "source": "ai-draft",
+          "vi": "Hãy rửa tay rồi mới ăn cơm."
+        }
+      ],
+      "forms": [
+        "てから",
+        "でから"
+      ],
+      "function": "sequence",
+      "grammar_refs": [
+        "g-16-2"
+      ],
+      "id": "cn-tekara",
+      "kana": "てから",
+      "lesson": 16,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "sau khi… rồi mới",
+      "note_vi": "Nhấn mạnh làm xong V1 rồi mới làm V2. So với ～たあとで: あとで nhấn mạnh thời điểm của V2.",
+      "review": "auto",
+      "ruby": "てから",
+      "substitutes": [],
+      "text": "てから",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vる / Nの + まえに; lượng từ thời gian + まえに (… trước)",
+      "examples": [
+        {
+          "id": "cn-maeni-e01",
+          "ref": "g-18-3",
+          "review": "auto",
+          "ruby": "{寝|ね}る[[{前|まえ}に]]、{携帯電話|けいたいでんわ}を{見|み}ます。",
+          "source": "grammar",
+          "vi": "Trước khi ngủ tôi xem điện thoại."
+        },
+        {
+          "id": "cn-maeni-e02",
+          "ref": "g-18-3",
+          "review": "auto",
+          "ruby": "{会議|かいぎ}の[[{前|まえ}に]]、{資料|しりょう}をコピーします。",
+          "source": "grammar",
+          "vi": "Trước cuộc họp tôi photo tài liệu."
+        },
+        {
+          "id": "cn-maeni-e03",
+          "ref": "g-18-3",
+          "review": "auto",
+          "ruby": "3{年|ねん}[[{前|まえ}に]]、{日本|にほん}に{来|き}ました。",
+          "source": "grammar",
+          "vi": "Tôi đã đến Nhật 3 năm trước."
+        }
+      ],
+      "forms": [
+        "まえに",
+        "前に"
+      ],
+      "function": "time",
+      "grammar_refs": [
+        "g-18-3"
+      ],
+      "id": "cn-maeni",
+      "kana": "まえに",
+      "lesson": 18,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "trước khi",
+      "note_vi": "Động từ trước まえに luôn ở thể từ điển, kể cả khi câu ở quá khứ.",
+      "review": "auto",
+      "ruby": "{前|まえ}に",
+      "substitutes": [],
+      "text": "まえに",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vた / Nの + あとで",
+      "examples": [
+        {
+          "id": "cn-atode-e01",
+          "ref": "g-34-2",
+          "review": "auto",
+          "ruby": "サッカーをした[[あとで]]、シャワーを{浴|あ}びます。",
+          "source": "grammar",
+          "vi": "Tôi tắm sau khi chơi bóng đá."
+        },
+        {
+          "id": "cn-atode-e02",
+          "ref": "g-34-2",
+          "review": "auto",
+          "ruby": "{勉強|べんきょう}した[[あとで]]、ゲームをしました。",
+          "source": "grammar",
+          "vi": "Tôi chơi game sau khi đã học xong."
+        },
+        {
+          "id": "cn-atode-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{授業|じゅぎょう}の[[あとで]]、{図書館|としょかん}へ{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Sau giờ học tôi đến thư viện."
+        }
+      ],
+      "forms": [
+        "あとで",
+        "後で"
+      ],
+      "function": "time",
+      "grammar_refs": [
+        "g-34-2"
+      ],
+      "id": "cn-atode",
+      "kana": "あとで",
+      "lesson": 34,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "sau khi",
+      "note_vi": null,
+      "review": "auto",
+      "ruby": "あとで",
+      "substitutes": [],
+      "text": "あとで",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vる / Vた / Aい / Aな + な / Nの + とき",
+      "examples": [
+        {
+          "id": "cn-toki-e01",
+          "ref": "g-23-1",
+          "review": "auto",
+          "ruby": "{食|た}べる[[とき]]、{箸|はし}を{使|つか}います。",
+          "source": "grammar",
+          "vi": "Khi ăn thì dùng đũa."
+        },
+        {
+          "id": "cn-toki-e02",
+          "ref": "g-23-2",
+          "review": "auto",
+          "ruby": "ご{飯|はん}を{食|た}べた[[とき]]、「ごちそうさまでした」と{言|い}います。",
+          "source": "grammar",
+          "vi": "Ăn xong thì nói \"gochisousama deshita\"."
+        },
+        {
+          "id": "cn-toki-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{子供|こども}の[[とき]]、{田舎|いなか}に{住|す}んでいました。",
+          "source": "ai-draft",
+          "vi": "Hồi còn nhỏ tôi sống ở quê."
+        }
+      ],
+      "forms": [
+        "とき",
+        "時"
+      ],
+      "function": "time",
+      "grammar_refs": [
+        "g-23-1",
+        "g-23-2"
+      ],
+      "id": "cn-toki",
+      "kana": "とき",
+      "lesson": 23,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "khi, lúc",
+      "note_vi": "Vる + とき: V1 chưa xảy ra khi làm V2; Vた + とき: V1 đã xong.",
+      "review": "auto",
+      "ruby": "とき",
+      "substitutes": [],
+      "text": "とき",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vます (bỏ ます) + ながら",
+      "examples": [
+        {
+          "id": "cn-nagara-e01",
+          "ref": "g-28-1",
+          "review": "auto",
+          "ruby": "{父|ちち}はビールを{飲|の}み[[ながら]]、{働|はたら}きます。",
+          "source": "grammar",
+          "vi": "Bố tôi vừa uống bia vừa làm việc."
+        },
+        {
+          "id": "cn-nagara-e02",
+          "ref": "g-28-1",
+          "review": "auto",
+          "ruby": "マリアさんは{働|はたら}き[[ながら]]{大学|だいがく}で{勉強|べんきょう}しています。",
+          "source": "grammar",
+          "vi": "Maria vừa đi làm vừa học đại học."
+        },
+        {
+          "id": "cn-nagara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{音楽|おんがく}を{聞|き}き[[ながら]]、{宿題|しゅくだい}をします。",
+          "source": "ai-draft",
+          "vi": "Tôi vừa nghe nhạc vừa làm bài tập."
+        }
+      ],
+      "forms": [
+        "ながら"
+      ],
+      "function": "time",
+      "grammar_refs": [
+        "g-28-1"
+      ],
+      "id": "cn-nagara",
+      "kana": "ながら",
+      "lesson": 28,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vừa… vừa",
+      "note_vi": "Hai hành động cùng chủ ngữ diễn ra đồng thời; hành động chính ở vế sau.",
+      "review": "auto",
+      "ruby": "ながら",
+      "substitutes": [],
+      "text": "ながら",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vた + り、Vた + り + します",
+      "examples": [
+        {
+          "id": "cn-tari-e01",
+          "ref": "g-19-2",
+          "review": "auto",
+          "ruby": "{日曜日|にちようび}、{本|ほん}を{読|よ}ん[[だり]]、テレビを{見|み}たりします。",
+          "source": "grammar",
+          "vi": "Chủ nhật tôi đọc sách, xem tivi."
+        },
+        {
+          "id": "cn-tari-e02",
+          "ref": "g-19-2",
+          "review": "auto",
+          "ruby": "{日曜日|にちようび}はテニスをし[[たり]]、{映画|えいが}を{見|み}たりします。",
+          "source": "grammar",
+          "vi": "Chủ nhật lúc thì tôi chơi tennis, lúc thì xem phim."
+        },
+        {
+          "id": "cn-tari-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{週末|しゅうまつ}は{掃除|そうじ}をし[[たり]]、{買|か}い{物|もの}に{行|い}ったりしました。",
+          "source": "ai-draft",
+          "vi": "Cuối tuần tôi nào là dọn dẹp, nào là đi mua sắm."
+        }
+      ],
+      "forms": [
+        "たり",
+        "だり"
+      ],
+      "function": "addition",
+      "grammar_refs": [
+        "g-19-2"
+      ],
+      "id": "cn-tari",
+      "kana": "たり",
+      "lesson": 19,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "lúc thì… lúc thì, nào là… nào là",
+      "note_vi": "Liệt kê vài hành động tiêu biểu, không theo thứ tự (khác Vて, Vて: theo trình tự).",
+      "review": "auto",
+      "ruby": "たり",
+      "substitutes": [],
+      "text": "たり",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Thể thông thường + し",
+      "examples": [
+        {
+          "id": "cn-shi-e01",
+          "ref": "g-28-3",
+          "review": "auto",
+          "ruby": "ハノイは{賑|にぎ}やかだ[[し]]、{景色|けしき}も{綺麗|きれい}だし、それに{美味|おい}しい{料理|りょうり}も{多|おお}いです。",
+          "source": "grammar",
+          "vi": "Hà Nội vừa náo nhiệt, phong cảnh lại đẹp, hơn nữa còn nhiều món ăn ngon."
+        },
+        {
+          "id": "cn-shi-e02",
+          "ref": "g-28-4",
+          "review": "auto",
+          "ruby": "{仕事|しごと}も{面白|おもしろ}い[[し]]、{給料|きゅうりょう}も{高|たか}いし、（それで）この{会社|かいしゃ}で{働|はたら}きたいです。",
+          "source": "grammar",
+          "vi": "Công việc vừa thú vị, lương lại cao, vì vậy tôi muốn làm việc ở công ty này."
+        },
+        {
+          "id": "cn-shi-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{店|みせ}は{安|やす}い[[し]]、{美味|おい}しいし、{良|よ}く{来|き}ます。",
+          "source": "ai-draft",
+          "vi": "Quán này vừa rẻ vừa ngon nên tôi hay đến."
+        }
+      ],
+      "forms": [
+        "し"
+      ],
+      "function": "addition",
+      "grammar_refs": [
+        "g-28-3",
+        "g-28-4",
+        "g-28-5"
+      ],
+      "id": "cn-shi",
+      "kana": "し",
+      "lesson": 28,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vừa… vừa…, lại còn",
+      "note_vi": "Liệt kê lý do, đặc điểm cùng chiều; hay đi với それに, それで, ～から.",
+      "review": "auto",
+      "ruby": "し",
+      "substitutes": [],
+      "text": "し",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vる / Vない + と",
+      "examples": [
+        {
+          "id": "cn-to-e01",
+          "ref": "g-23-3",
+          "review": "auto",
+          "ruby": "{春|はる}になる[[と]]、{花|はな}が{咲|さ}きます。",
+          "source": "grammar",
+          "vi": "Cứ xuân sang thì hoa nở."
+        },
+        {
+          "id": "cn-to-e02",
+          "ref": "g-23-3",
+          "review": "auto",
+          "ruby": "まっすぐ{行|い}って、{橋|はし}を{渡|わた}って、{右|みぎ}へ{曲|ま}がる[[と]]、{左|ひだり}に{病院|びょういん}があります。",
+          "source": "grammar",
+          "vi": "Đi thẳng, qua cầu, rẽ phải thì sẽ thấy bệnh viện ở bên trái."
+        },
+        {
+          "id": "cn-to-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "このボタンを{押|お}す[[と]]、お{釣|つ}りが{出|で}ます。",
+          "source": "ai-draft",
+          "vi": "Hễ bấm nút này thì tiền thừa sẽ ra."
+        }
+      ],
+      "forms": [
+        "と"
+      ],
+      "function": "condition",
+      "grammar_refs": [
+        "g-23-3"
+      ],
+      "id": "cn-to",
+      "kana": "と",
+      "lesson": 23,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "hễ… thì, cứ… là",
+      "note_vi": "Kết quả tất yếu, quy luật tự nhiên, chỉ đường. Vế sau không dùng ý muốn, mệnh lệnh, rủ rê.",
+      "review": "auto",
+      "ruby": "と",
+      "substitutes": [],
+      "text": "と",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vた + ら; Aい → かったら; Aな / N → だったら",
+      "examples": [
+        {
+          "id": "cn-tara-e01",
+          "ref": "g-25-1",
+          "review": "auto",
+          "ruby": "タバコを{吸|す}っ[[たら]]、{外|そと}に{出|で}てください。",
+          "source": "grammar",
+          "vi": "Nếu hút thuốc thì hãy ra ngoài."
+        },
+        {
+          "id": "cn-tara-e02",
+          "ref": "g-25-2",
+          "review": "auto",
+          "ruby": "7{時|じ}になっ[[たら]]、{朝|あさ}ご{飯|はん}を{食|た}べます。",
+          "source": "grammar",
+          "vi": "Đến 7 giờ thì tôi ăn sáng."
+        },
+        {
+          "id": "cn-tara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{安|やす}[[かったら]]、{買|か}います。",
+          "source": "ai-draft",
+          "vi": "Nếu rẻ thì tôi sẽ mua."
+        }
+      ],
+      "forms": [
+        "たら",
+        "だら",
+        "かったら",
+        "だったら"
+      ],
+      "function": "condition",
+      "grammar_refs": [
+        "g-25-1",
+        "g-25-2"
+      ],
+      "id": "cn-tara",
+      "kana": "たら",
+      "lesson": 25,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nếu… thì; sau khi… thì",
+      "note_vi": "Giả định (bài 25-1) hoặc việc chắc chắn sẽ xảy ra rồi mới làm V2 (bài 25-2). Vế sau dùng được ý muốn, mệnh lệnh.",
+      "review": "auto",
+      "ruby": "たら",
+      "substitutes": [],
+      "text": "たら",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Thể điều kiện: V (đuôi え) + ば; Aい → ければ; Aな / N → なら",
+      "examples": [
+        {
+          "id": "cn-ba-e01",
+          "ref": "g-35-2",
+          "review": "auto",
+          "ruby": "レーバーを{引|ひ}け[[ば]]、ドアが{開|ひら}きます。",
+          "source": "grammar",
+          "vi": "Nếu kéo cần gạt thì cửa sẽ mở ra."
+        },
+        {
+          "id": "cn-ba-e02",
+          "ref": "g-35-2",
+          "review": "auto",
+          "ruby": "{彼|かれ}が{行|い}け[[ば]]、{私|わたし}も{行|い}きます。",
+          "source": "grammar",
+          "vi": "Nếu anh ấy đi thì tôi cũng đi."
+        },
+        {
+          "id": "cn-ba-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{毎日|まいにち}{練習|れんしゅう}すれ[[ば]]、{上手|じょうず}になります。",
+          "source": "ai-draft",
+          "vi": "Nếu luyện tập mỗi ngày thì sẽ giỏi lên."
+        }
+      ],
+      "forms": [
+        "ば",
+        "ければ"
+      ],
+      "function": "condition",
+      "grammar_refs": [
+        "g-35-2"
+      ],
+      "id": "cn-ba",
+      "kana": "ば",
+      "lesson": 35,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nếu… thì",
+      "note_vi": "Nêu điều kiện cần để có kết quả ở vế sau.",
+      "review": "auto",
+      "ruby": "ば",
+      "substitutes": [],
+      "text": "ば",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "N / V thể thông thường + なら",
+      "examples": [
+        {
+          "id": "cn-nara-e01",
+          "ref": "g-35-4",
+          "review": "auto",
+          "ruby": "{北海道|ほっかいどう}[[なら]]、6{月|がつ}がいいですよ。",
+          "source": "grammar",
+          "vi": "Nếu là Hokkaido thì tháng 6 là đẹp nhất đấy."
+        },
+        {
+          "id": "cn-nara-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "「パソコンを{買|か}いたいんですが。」「パソコン[[なら]]、あの{店|みせ}が{安|やす}いですよ。」",
+          "source": "ai-draft",
+          "vi": "\"Tôi muốn mua máy tính.\" \"Nếu là máy tính thì cửa hàng kia rẻ đấy.\""
+        },
+        {
+          "id": "cn-nara-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{旅行|りょこう}に{行|い}く[[なら]]、{京都|きょうと}がいいですよ。",
+          "source": "ai-draft",
+          "vi": "Nếu đi du lịch thì Kyoto hay đấy."
+        }
+      ],
+      "forms": [
+        "なら"
+      ],
+      "function": "condition",
+      "grammar_refs": [
+        "g-35-4"
+      ],
+      "id": "cn-nara",
+      "kana": "なら",
+      "lesson": 35,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nếu là… thì",
+      "note_vi": "Tiếp lời người kia: lấy điều họ vừa nói làm chủ đề rồi đưa ý kiến, lời khuyên.",
+      "review": "auto",
+      "ruby": "なら",
+      "substitutes": [],
+      "text": "なら",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vる / Vた / Vない, Aい, Aな + な, Nの + 場合は",
+      "examples": [
+        {
+          "id": "cn-baai-e01",
+          "ref": "g-45-1",
+          "review": "auto",
+          "ruby": "{交通事故|こうつうじこ}に{会|あ}った[[{場合|ばあい}は]]110{番|ばん}に{連絡|れんらく}してください。",
+          "source": "grammar",
+          "vi": "Trong trường hợp gặp tai nạn giao thông hãy gọi ngay số 110."
+        },
+        {
+          "id": "cn-baai-e02",
+          "ref": "g-45-1",
+          "review": "auto",
+          "ruby": "{地震|じしん}の[[{場合|ばあい}は]]、{火|ひ}を{消|け}すのが{大切|たいせつ}です。",
+          "source": "grammar",
+          "vi": "Trong trường hợp động đất thì tắt lửa là điều quan trọng."
+        },
+        {
+          "id": "cn-baai-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{会議|かいぎ}に{遅|おく}れる[[{場合|ばあい}は]]、{連絡|れんらく}してください。",
+          "source": "ai-draft",
+          "vi": "Trong trường hợp đến họp muộn, hãy liên lạc."
+        }
+      ],
+      "forms": [
+        "場合は",
+        "場合",
+        "ばあいは",
+        "ばあい"
+      ],
+      "function": "condition",
+      "grammar_refs": [
+        "g-45-1"
+      ],
+      "id": "cn-baai",
+      "kana": "ばあいは",
+      "lesson": 45,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "trong trường hợp",
+      "note_vi": "Giả định một tình huống, vế sau là cách xử lý.",
+      "review": "auto",
+      "ruby": "{場合|ばあい}は",
+      "substitutes": [],
+      "text": "場合は",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vる (thể khả năng, động từ không chủ ý) / Vない + ように",
+      "examples": [
+        {
+          "id": "cn-youni-e01",
+          "ref": "g-36-1",
+          "review": "auto",
+          "ruby": "{日本|にほん}へ{旅行|りょこう}に{行|い}ける[[ように]]、{毎日|まいにち}{貯金|ちょきん}しています。",
+          "source": "grammar",
+          "vi": "Để có thể đi du lịch Nhật, hàng ngày tôi tiết kiệm tiền."
+        },
+        {
+          "id": "cn-youni-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{忘|わす}れない[[ように]]、メモをします。",
+          "source": "ai-draft",
+          "vi": "Tôi ghi chú lại để không quên."
+        },
+        {
+          "id": "cn-youni-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{風邪|かぜ}を{引|ひ}かない[[ように]]、{暖|あたた}かい{服|ふく}を{着|き}てください。",
+          "source": "ai-draft",
+          "vi": "Hãy mặc đồ ấm để không bị cảm."
+        }
+      ],
+      "forms": [
+        "ように"
+      ],
+      "function": "purpose",
+      "grammar_refs": [
+        "g-36-1"
+      ],
+      "id": "cn-youni",
+      "kana": "ように",
+      "lesson": 36,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "để (đạt trạng thái, khả năng)",
+      "note_vi": "Mục đích là một trạng thái, khả năng; động từ trước không mang chủ ý. So với ために (có chủ ý).",
+      "review": "auto",
+      "ruby": "ように",
+      "substitutes": [],
+      "text": "ように",
+      "type": "clause",
+      "vocab_refs": []
+    },
+    {
+      "book": "minna",
+      "connects_vi": "Vる (có chủ ý) / Nの + ために",
+      "examples": [
+        {
+          "id": "cn-tameni-e01",
+          "ref": "g-42-1",
+          "review": "auto",
+          "ruby": "{健康|けんこう}の[[ために]]、{毎日|まいにち}{野菜|やさい}を{食|た}べています。",
+          "source": "grammar",
+          "vi": "Tôi ăn rau mỗi ngày vì sức khỏe."
+        },
+        {
+          "id": "cn-tameni-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{家|いえ}を{買|か}う[[ために]]、お{金|かね}を{貯|た}めています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang để dành tiền để mua nhà."
+        },
+        {
+          "id": "cn-tameni-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{日本|にほん}の{大学|だいがく}に{入|はい}る[[ために]]、{日本語|にほんご}を{勉強|べんきょう}しています。",
+          "source": "ai-draft",
+          "vi": "Tôi đang học tiếng Nhật để vào đại học ở Nhật."
+        }
+      ],
+      "forms": [
+        "ために"
+      ],
+      "function": "purpose",
+      "grammar_refs": [
+        "g-42-1"
+      ],
+      "id": "cn-tameni",
+      "kana": "ために",
+      "lesson": 42,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "để, vì",
+      "note_vi": "Mục đích có chủ ý, hai vế cùng chủ ngữ. Nの + ために còn có nghĩa \"vì, cho\" (健康のために).",
+      "review": "auto",
+      "ruby": "ために",
+      "substitutes": [],
+      "text": "ために",
+      "type": "clause",
+      "vocab_refs": []
+    }
+  ],
+  "functions": [
+    {
+      "hint_vi": "và, hơn nữa, ngoài ra",
+      "id": "addition",
+      "label_vi": "Thêm ý, liệt kê"
+    },
+    {
+      "hint_vi": "rồi, sau đó, thế là",
+      "id": "sequence",
+      "label_vi": "Trình tự"
+    },
+    {
+      "hint_vi": "khi, trước khi, sau khi, trong lúc",
+      "id": "time",
+      "label_vi": "Thời điểm"
+    },
+    {
+      "hint_vi": "nhưng, thế mà",
+      "id": "contrast",
+      "label_vi": "Đối lập"
+    },
+    {
+      "hint_vi": "dù… vẫn",
+      "id": "concession",
+      "label_vi": "Nhượng bộ"
+    },
+    {
+      "hint_vi": "vì, nên, vì vậy",
+      "id": "cause",
+      "label_vi": "Nguyên nhân – kết quả"
+    },
+    {
+      "hint_vi": "nếu, hễ, trong trường hợp",
+      "id": "condition",
+      "label_vi": "Điều kiện"
+    },
+    {
+      "hint_vi": "hoặc, hay là",
+      "id": "choice",
+      "label_vi": "Lựa chọn"
+    },
+    {
+      "hint_vi": "để, sao cho",
+      "id": "purpose",
+      "label_vi": "Mục đích"
+    },
+    {
+      "hint_vi": "nhân tiện, vậy thì",
+      "id": "topic",
+      "label_vi": "Chuyển chủ đề"
+    },
+    {
+      "hint_vi": "tóm lại, chẳng hạn",
+      "id": "rephrase",
+      "label_vi": "Giải thích, ví dụ"
+    }
+  ],
+  "schema_version": 1
+}
