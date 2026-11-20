@@ -2,6 +2,7 @@
 // Khung trang: header (logo + ☰ trên điện thoại + slot "header") · menu trái (Sidebar) · nội dung.
 // <head> gồm thẻ SEO: description, canonical (bỏ query ?ds=…), Open Graph/Twitter, JSON-LD (tùy chọn).
 import Sidebar from "../components/layout/Sidebar.astro";
+import BackToTop from "../components/layout/BackToTop.astro";
 import { SIDEBAR_BOOT_SCRIPT } from "../lib/storage";
 import { DEFAULT_DESCRIPTION, SITE_NAME, clip } from "../lib/seo";
 import "../styles/global.css";
@@ -75,5 +76,6 @@ const gscToken = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
         </div>
       </main>
     </div>
+    <BackToTop />
   </body>
 </html>

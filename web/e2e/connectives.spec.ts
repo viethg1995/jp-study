@@ -104,7 +104,7 @@ test.describe("mobile", () => {
 
   test("thanh lọc dính khi cuộn; chip nhóm nhảy tới nhóm không bị che; nút lên đầu", async ({ page }) => {
     await page.goto("tu-noi/");
-    const toTop = page.locator("[data-to-top]");
+    const toTop = page.locator("[data-back-to-top]");
     await expect(toTop).toBeHidden();
     await page.evaluate(() => scrollTo(0, 4000));
     await expect(page.locator(".cn-bar")).toBeInViewport();

@@ -112,9 +112,6 @@ const css = [
       ))
     }
   </div>
-
-  <!-- Mobile: nút lên đầu, hiện khi đã cuộn qua thanh lọc ban đầu -->
-  <button type="button" data-to-top hidden aria-label="Lên đầu trang" class="fixed right-4 bottom-4 z-30 rounded-full border border-line bg-surface px-3.5 py-2 text-sm font-medium text-primary shadow-md md:hidden">↑ Lên đầu</button>
 </Base>
 
 <style set:html={css} is:global></style>
@@ -142,12 +139,4 @@ const css = [
   };
   addEventListener("hashchange", openTarget);
   openTarget();
-
-  const toTop = document.querySelector<HTMLButtonElement>("[data-to-top]")!;
-  const onScroll = (): void => {
-    toTop.hidden = scrollY < 800;
-  };
-  addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-  toTop.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
 </script>
