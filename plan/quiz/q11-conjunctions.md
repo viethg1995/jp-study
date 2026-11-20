@@ -94,3 +94,14 @@ Lệnh:
 python -m jp_pipeline build-connectives   # chỉ dựng data/connectives.json (đọc data/vocabulary + sources/grammar/md)
 python -m jp_pipeline check-connectives   # furigana / kanji viết kana (E) / phạm vi cấp (W)
 ```
+
+### Trang `/tu-noi/` trên mobile (user góp ý 2026-11-20: trang quá dài, phải cuộn ngược lên đầu để đổi lọc)
+
+Đo 375px: trang ~24.000px (~32 màn), mỗi thẻ ~526px (70% là 3 câu ví dụ). User hỏi chuyển sang slide → **không chọn slide** (mất so sánh trong nhóm, 41 slide không biết đang ở đâu, đụng cử chỉ vuốt "quay lại" của hệ thống, neo `#cn-…` cho quiz phải thêm JS, nội dung một thẻ vẫn gần đầy màn). User duyệt phương án (a), chỉ áp dụng < 768px, desktop giữ nguyên:
+
+1. **Thanh lọc dính** dưới header: Loại + Cấp + **dải chip nhóm chức năng** vuốt ngang (bấm → nhảy tới nhóm; chip ẩn theo bộ lọc). Mục lục khung lớn ẩn trên mobile (chip thay thế). Lề cuộn 196px để tiêu đề / thẻ không bị thanh che.
+2. **Thẻ thu gọn câu ví dụ** mặc định — nút "Ví dụ (3) ▾ / Thu gọn ▴" (checkbox thuần CSS); vào bằng neo `#cn-…` hoặc bấm "Dùng thay được" → thẻ đích tự mở (script nhỏ, `hashchange`).
+3. **Nút "↑ Lên đầu"** cố định góc dưới phải, hiện khi đã cuộn > 800px.
+
+Kết quả: trang mobile **~24.000px → ~10.000px**; đổi lọc ở mọi vị trí cuộn. E2E thêm 3 test (thu gọn / mở, thanh dính + chip không bị che + lên đầu, desktop luôn mở).
+

@@ -61,12 +61,24 @@ const css = [
       }
     </div>
 
-    <div class="mt-5 flex flex-col gap-2 text-sm">
-      <Segmented name="tn-type" label="Loại" checked="tn-t-all" options={[{ id: "tn-t-all", label: "Tất cả" }, ...TYPES.map((t) => ({ id: `tn-t-${t}`, label: TYPE_LABEL[t] }))]} />
-      <Segmented name="tn-level" label="Cấp" checked="tn-l-all" options={[{ id: "tn-l-all", label: "Tất cả" }, ...LEVELS.map((l) => ({ id: `tn-l-${l}`, label: l.toUpperCase() }))]} />
+    <!-- Mobile: thanh lọc dính dưới header (h-14) + dải chip nhóm chức năng vuốt ngang → không phải cuộn ngược lên đầu -->
+    <div class="cn-bar mt-5 max-md:sticky max-md:top-14 max-md:z-20 max-md:-mx-4 max-md:border-b max-md:border-line max-md:bg-canvas/95 max-md:px-4 max-md:py-2 max-md:backdrop-blur">
+      <div class="flex flex-col gap-2 text-sm">
+        <Segmented name="tn-type" label="Loại" checked="tn-t-all" options={[{ id: "tn-t-all", label: "Tất cả" }, ...TYPES.map((t) => ({ id: `tn-t-${t}`, label: TYPE_LABEL[t] }))]} />
+        <Segmented name="tn-level" label="Cấp" checked="tn-l-all" options={[{ id: "tn-l-all", label: "Tất cả" }, ...LEVELS.map((l) => ({ id: `tn-l-${l}`, label: l.toUpperCase() }))]} />
+      </div>
+      <nav class="cn-chips -mx-4 mt-2 flex gap-1.5 overflow-x-auto px-4 pb-0.5 text-sm md:hidden" aria-label="Nhóm chức năng">
+        {
+          groups.map((g) => (
+            <a href={`#fn-${g.fn.id}`} class="cn-group shrink-0 rounded-full border border-line bg-surface px-3 py-1 whitespace-nowrap text-ink-muted active:bg-primary-soft" data-types={[...new Set(g.items.map((c) => c.type))].join(" ")} data-levels={[...new Set(g.items.map((c) => c.level))].join(" ")} data-combos={[...new Set(g.items.map((c) => `${c.type}-${c.level}`))].join(" ")}>
+              {g.fn.label_vi}
+            </a>
+          ))
+        }
+      </nav>
     </div>
 
-    <nav class="cn-index mt-5 rounded-lg border border-line bg-surface px-4 py-3" aria-label="Mục lục từ nối">
+    <nav class="cn-index mt-5 max-md:hidden rounded-lg border border-line bg-surface px-4 py-3" aria-label="Mục lục từ nối">
       <dl class="grid gap-x-6 gap-y-2 sm:grid-cols-2">
         {
           groups.map((g) => (
@@ -88,7 +100,7 @@ const css = [
     {
       groups.map((g) => (
         <section class="cn-group mt-10" aria-labelledby={`fn-${g.fn.id}`} data-types={[...new Set(g.items.map((c) => c.type))].join(" ")} data-levels={[...new Set(g.items.map((c) => c.level))].join(" ")} data-combos={[...new Set(g.items.map((c) => `${c.type}-${c.level}`))].join(" ")}>
-          <h2 id={`fn-${g.fn.id}`} class="text-lg font-bold">
+          <h2 id={`fn-${g.fn.id}`} class="scroll-mt-20 text-lg font-bold max-md:scroll-mt-[196px]">
             {g.fn.label_vi} <span class="text-sm font-normal text-ink-faint">· {g.fn.hint_vi}</span>
           </h2>
           <div class="mt-3 flex flex-col gap-4">
@@ -100,6 +112,9 @@ const css = [
       ))
     }
   </div>
+
+  <!-- Mobile: nút lên đầu, hiện khi đã cuộn qua thanh lọc ban đầu -->
+  <button type="button" data-to-top hidden aria-label="Lên đầu trang" class="fixed right-4 bottom-4 z-30 rounded-full border border-line bg-surface px-3.5 py-2 text-sm font-medium text-primary shadow-md md:hidden">↑ Lên đầu</button>
 </Base>
 
 <style set:html={css} is:global></style>
@@ -117,4 +132,22 @@ const css = [
       });
     }
   }
+
+  // Mở thẻ đích khi vào bằng link #cn-… (quiz, "Dùng thay được") — mobile thu gọn câu ví dụ mặc định
+  const openTarget = (): void => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id.startsWith("cn-")) return;
+    const box = document.getElementById(id)?.querySelector<HTMLInputElement>(".cn-toggle input");
+    if (box) box.checked = true;
+  };
+  addEventListener("hashchange", openTarget);
+  openTarget();
+
+  const toTop = document.querySelector<HTMLButtonElement>("[data-to-top]")!;
+  const onScroll = (): void => {
+    toTop.hidden = scrollY < 800;
+  };
+  addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+  toTop.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
 </script>
