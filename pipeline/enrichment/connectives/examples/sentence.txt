@@ -1,0 +1,83 @@
+# Câu ví dụ từ nối câu (接続詞) — id|nguồn|ruby|vi
+# nguồn: vocab:<id câu ví dụ từ vựng> (lấy nguyên câu) · grammar:<g-LL-N> (chữ phải khớp bài ngữ pháp) · ai (chờ duyệt) · user
+# by: ai (2026-11-20) — dòng `ai` là ai-draft; duyệt xong đổi `ai` → `user`
+
+cn-soshite-e01|vocab:mn-08-046-e1||
+cn-soshite-e02|grammar:g-08-5|ナムさんはハンサムです。[[そして]]、{親切|しんせつ}です。|Nam đẹp trai. Và còn tốt bụng nữa.
+cn-soshite-e03|ai|{朝|あさ}ご{飯|はん}を{食|た}べました。[[そして]]、{会社|かいしゃ}へ{行|い}きました。|Tôi đã ăn sáng. Rồi đi đến công ty.
+
+cn-sorekara-e01|vocab:mn-06-045-e1||
+cn-sorekara-e02|ai|{昨日|きのう}はデパートへ{行|い}きました。[[それから]]、{映画|えいが}を{見|み}ました。|Hôm qua tôi đi trung tâm thương mại. Sau đó xem phim.
+cn-sorekara-e03|ai|{毎朝|まいあさ}シャワーを{浴|あ}びます。[[それから]]、コーヒーを{飲|の}みます。|Mỗi sáng tôi tắm vòi sen. Sau đó uống cà phê.
+
+cn-demo-e01|vocab:mn-19-019-e1||
+cn-demo-e02|ai|この{靴|くつ}はとても{高|たか}いです。[[でも]]、{丈夫|じょうぶ}です。|Đôi giày này rất đắt. Nhưng mà bền.
+cn-demo-e03|ai|{昨日|きのう}は{雨|あめ}でした。[[でも]]、{試合|しあい}はありました。|Hôm qua trời mưa. Nhưng trận đấu vẫn diễn ra.
+
+cn-shikashi-e01|ai|{薬|くすり}を{飲|の}みました。[[しかし]]、{熱|ねつ}は{下|さ}がりませんでした。|Tôi đã uống thuốc. Tuy nhiên, sốt vẫn không hạ.
+cn-shikashi-e02|ai|この{町|まち}は{便利|べんり}です。[[しかし]]、{家賃|やちん}が{高|たか}いです。|Thị trấn này tiện lợi. Tuy nhiên, tiền thuê nhà đắt.
+cn-shikashi-e03|ai|{一生懸命|いっしょうけんめい}{練習|れんしゅう}しました。[[しかし]]、{試合|しあい}に{負|ま}けました。|Tôi đã luyện tập hết sức. Tuy nhiên, vẫn thua trận đấu.
+
+cn-dakedo-e01|ai|{旅行|りょこう}に{行|い}きたい。[[だけど]]、お{金|かね}がない。|Muốn đi du lịch. Nhưng mà không có tiền.
+cn-dakedo-e02|ai|この{店|みせ}のラーメンは{美味|おい}しい。[[だけど]]、いつも{込|こ}んでいる。|Mì ramen quán này ngon. Nhưng mà lúc nào cũng đông.
+cn-dakedo-e03|ai|{宿題|しゅくだい}は{終|お}わった。[[だけど]]、まだ{眠|ねむ}くない。|Bài tập xong rồi. Nhưng mà vẫn chưa buồn ngủ.
+
+cn-tokoroga-e01|ai|{天気予報|てんきよほう}では{晴|は}れでした。[[ところが]]、{午後|ごご}から{雨|あめ}が{降|ふ}り{出|だ}しました。|Dự báo thời tiết nói trời nắng. Thế nhưng từ chiều trời bắt đầu mưa.
+cn-tokoroga-e02|ai|{簡単|かんたん}な{試験|しけん}だと{思|おも}いました。[[ところが]]、{全然|ぜんぜん}{分|わ}かりませんでした。|Tôi đã nghĩ là bài thi dễ. Thế nhưng tôi chẳng hiểu gì cả.
+cn-tokoroga-e03|ai|{急|いそ}いで{駅|えき}へ{行|い}きました。[[ところが]]、{電車|でんしゃ}はもう{出|で}ていました。|Tôi vội vàng ra ga. Thế nhưng tàu đã chạy mất rồi.
+
+cn-desukara-e01|vocab:mn-17-029-e1||
+cn-desukara-e02|ai|{明日|あした}は{休|やす}みです。[[ですから]]、{今晩|こんばん}は{遅|おそ}くまで{本|ほん}を{読|よ}みます。|Ngày mai được nghỉ. Vì vậy tối nay tôi đọc sách đến khuya.
+cn-desukara-e03|ai|この{道|みち}は{危|あぶ}ないです。[[ですから]]、{気|き}をつけてください。|Con đường này nguy hiểm. Vì thế hãy cẩn thận.
+
+cn-dakara-e01|ai|{昨日|きのう}は{遅|おそ}くまで{仕事|しごと}をした。[[だから]]、{今日|きょう}は{眠|ねむ}い。|Hôm qua làm việc đến khuya. Vì thế hôm nay buồn ngủ.
+cn-dakara-e02|ai|{明日|あした}は{試験|しけん}だ。[[だから]]、{今日|きょう}は{早|はや}く{寝|ね}よう。|Mai thi rồi. Vì vậy hôm nay ngủ sớm thôi.
+cn-dakara-e03|ai|{彼|かれ}はいつも{約束|やくそく}を{守|まも}る。[[だから]]、{皆|みんな}に{信頼|しんらい}されている。|Anh ấy luôn giữ lời hứa. Vì thế được mọi người tin tưởng.
+
+cn-sorede-e01|vocab:mn-28-042-e1||
+cn-sorede-e02|vocab:n3-682-e1||
+cn-sorede-e03|grammar:g-28-4|{仕事|しごと}も{面白|おもしろ}いし、{給料|きゅうりょう}も{高|たか}いし、（[[それで]]）この{会社|かいしゃ}で{働|はたら}きたいです。|Công việc vừa thú vị, lương lại cao, vì vậy tôi muốn làm việc ở công ty này.
+
+cn-soreni-e01|vocab:mn-28-041-e1||
+cn-soreni-e02|grammar:g-28-3|ハノイは{賑|にぎ}やかだし、{景色|けしき}も{綺麗|きれい}だし、[[それに]]{美味|おい}しい{料理|りょうり}も{多|おお}いです。|Hà Nội vừa náo nhiệt, phong cảnh lại đẹp, hơn nữa còn có nhiều món ăn ngon.
+cn-soreni-e03|ai|このアパートは{駅|えき}から{近|ちか}いです。[[それに]]、{部屋|へや}も{広|ひろ}いです。|Căn hộ này gần ga. Thêm nữa, phòng cũng rộng.
+
+cn-sonoue-e01|vocab:n3-683-e1||
+cn-sonoue-e02|ai|{彼女|かのじょ}は{頭|あたま}がいい。[[そのうえ]]、スポーツも{得意|とくい}だ。|Cô ấy thông minh. Hơn thế nữa, còn giỏi thể thao.
+cn-sonoue-e03|ai|{道|みち}に{迷|まよ}った。[[そのうえ]]、{雨|あめ}まで{降|ふ}ってきた。|Tôi bị lạc đường. Thêm vào đó trời còn đổ mưa.
+
+cn-mata-e01|vocab:n3-684-e1||
+cn-mata-e02|ai|この{部屋|へや}は{明|あか}るい。[[また]]、{窓|まど}から{海|うみ}が{見|み}える。|Căn phòng này sáng sủa. Ngoài ra, từ cửa sổ có thể nhìn thấy biển.
+cn-mata-e03|ai|{会議|かいぎ}は{三階|さんがい}で{行|おこな}います。[[また]]、{資料|しりょう}は{受付|うけつけ}にあります。|Cuộc họp tổ chức ở tầng 3. Ngoài ra, tài liệu để ở quầy lễ tân.
+
+cn-matawa-e01|vocab:n3-685-e1||
+cn-matawa-e02|ai|{黒|くろ}[[または]]{青|あお}のペンで{書|か}いてください。|Hãy viết bằng bút màu đen hoặc màu xanh.
+cn-matawa-e03|ai|{申込書|もうしこみしょ}は{郵便|ゆうびん}、[[または]]メールで{送|おく}ってください。|Hãy gửi đơn đăng ký qua bưu điện hoặc email.
+
+cn-soretomo-e01|vocab:n3-686-e1||
+cn-soretomo-e02|ai|{電車|でんしゃ}で{行|い}きますか、[[それとも]]バスで{行|い}きますか。|Đi bằng tàu điện hay là đi bằng xe buýt?
+cn-soretomo-e03|ai|{今日|きょう}{行|い}く？[[それとも]]{明日|あした}にする？|Hôm nay đi à? Hay là để mai?
+
+cn-tsumari-e01|vocab:n3-687-e1||
+cn-tsumari-e02|ai|{母|はは}の{妹|いもうと}、[[つまり]]{叔母|おば}は{東京|とうきょう}に{住|す}んでいます。|Em gái của mẹ, tức là dì tôi, sống ở Tokyo.
+cn-tsumari-e03|ai|{明日|あした}は{会社|かいしゃ}が{休|やす}みです。[[つまり]]、{三連休|さんれんきゅう}です。|Mai công ty nghỉ. Tóm lại là được nghỉ ba ngày liền.
+
+cn-tatoeba-e01|ai|{日本|にほん}の{料理|りょうり}、[[{例|たと}えば]]{寿司|すし}や{天|てん}ぷらが{好|す}きです。|Tôi thích món Nhật, chẳng hạn như sushi hay tempura.
+cn-tatoeba-e02|ai|{果物|くだもの}、[[{例|たと}えば]]バナナやいちごを{毎日|まいにち}{食|た}べています。|Tôi ăn trái cây mỗi ngày, ví dụ như chuối hay dâu tây.
+cn-tatoeba-e03|ai|{冬|ふゆ}のスポーツ、[[{例|たと}えば]]スキーをしたことがありますか。|Bạn đã từng chơi môn thể thao mùa đông nào chưa, ví dụ như trượt tuyết?
+
+cn-ja-e01|ai|{全員|ぜんいん}{来|き}ましたね。[[じゃ]]、{始|はじ}めましょう。|Mọi người đến đủ rồi nhỉ. Vậy thì chúng ta bắt đầu thôi.
+cn-ja-e02|ai|もう{九時|くじ}ですね。[[じゃあ]]、{失礼|しつれい}します。|Đã 9 giờ rồi nhỉ. Vậy thì tôi xin phép về.
+cn-ja-e03|ai|この{赤|あか}いのはちょっと{高|たか}いですね。[[じゃ]]、その{青|あお}いのをください。|Cái màu đỏ này hơi đắt nhỉ. Thế thì cho tôi cái màu xanh kia.
+
+cn-tokorode-e01|ai|{旅行|りょこう}は{楽|たの}しかったです。[[ところで]]、{山田|やまだ}さんはお{元気|げんき}ですか。|Chuyến du lịch vui lắm. À này, anh Yamada có khỏe không?
+cn-tokorode-e02|ai|{今日|きょう}は{暑|あつ}いですね。[[ところで]]、{明日|あした}の{会議|かいぎ}は{何時|なんじ}からですか。|Hôm nay nóng nhỉ. Nhân tiện, cuộc họp ngày mai bắt đầu lúc mấy giờ?
+cn-tokorode-e03|ai|{宿題|しゅくだい}、{終|お}わった？[[ところで]]、{週末|しゅうまつ}は{暇|ひま}？|Bài tập xong chưa? À mà cuối tuần có rảnh không?
+
+cn-suruto-e01|ai|ボタンを{押|お}しました。[[すると]]、ドアが{開|あ}きました。|Tôi đã bấm nút. Thế là cửa mở ra.
+cn-suruto-e02|ai|{窓|まど}を{開|あ}けました。[[すると]]、{冷|つめ}たい{風|かぜ}が{入|はい}ってきました。|Tôi mở cửa sổ. Thế là gió lạnh lùa vào.
+cn-suruto-e03|ai|{角|かど}を{曲|ま}がりました。[[すると]]、{大|おお}きな{公園|こうえん}が{見|み}えました。|Tôi rẽ ở góc phố. Ngay sau đó nhìn thấy một công viên lớn.
+
+cn-sorenara-e01|ai|「{頭|あたま}が{痛|いた}いんです。」「[[それなら]]、{早|はや}く{帰|かえ}ったほうがいいですよ。」|"Tôi bị đau đầu." "Nếu vậy thì nên về sớm đi."
+cn-sorenara-e02|ai|「{日本料理|にほんりょうり}が{食|た}べたいです。」「[[それなら]]、{駅|えき}の{前|まえ}の{店|みせ}がいいですよ。」|"Tôi muốn ăn món Nhật." "Nếu vậy thì quán trước ga được đấy."
+cn-sorenara-e03|ai|「{明日|あした}は{用事|ようじ}があります。」「[[それなら]]、{来週|らいしゅう}にしましょう。」|"Mai tôi có việc bận." "Nếu vậy thì để tuần sau nhé."

@@ -1,0 +1,101 @@
+---
+// Từ nối (STATUS mục 8, plan/quiz/q11-conjunctions.md): từ nối câu (接続詞) + mẫu nối mệnh đề (接続助詞), nhóm theo
+// chức năng. Lọc loại / cấp bằng CSS :has() (không JS). Neo #cn-… cho quiz Q11.
+import { getCollection } from "astro:content";
+import ConnectiveCard from "../../components/connectives/ConnectiveCard.astro";
+import Segmented from "../../components/ui/Segmented.astro";
+import Base from "../../layouts/Base.astro";
+import { TYPE_HINT, TYPE_LABEL, groupByFunction, vocabHref } from "../../lib/connectives";
+
+const functions = (await getCollection("connectiveFunctions")).map((f) => f.data).sort((a, b) => a.order - b.order);
+const all = (await getCollection("connectives")).map((c) => c.data).sort((a, b) => a.order - b.order);
+const n3Lesson = new Map((await getCollection("vocabularyN3")).flatMap((l) => l.data.entries.map((e) => [e.id, e.lesson] as const)));
+const groups = groupByFunction(functions, all);
+const names = new Map(all.map((c) => [c.id, c.text]));
+const vocabLinks = (ids: string[]): { id: string; href: string; label: string }[] =>
+  ids.flatMap((id) => {
+    const href = vocabHref(id, n3Lesson);
+    if (href === null) return [];
+    return [{ id, href, label: id.startsWith("n3-") ? `Từ vựng N3 bài ${n3Lesson.get(id)}` : `Từ vựng bài ${Number(id.slice(3, 5))}` }];
+  });
+const count = { sentence: all.filter((c) => c.type === "sentence").length, clause: all.filter((c) => c.type === "clause").length };
+const TYPES = ["sentence", "clause"] as const;
+const LEVELS = ["n5", "n4", "n3"] as const;
+// Lọc bằng CSS: thẻ theo data-type / data-level; nhóm rỗng ẩn theo danh sách loại / cấp / tổ hợp có trong nhóm
+const css = [
+  ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-card:not([data-type="${t}"])`),
+  ...LEVELS.map((l) => `.tn:has(#tn-l-${l}:checked) .cn-card:not([data-level="${l}"])`),
+  ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-group:not([data-types~="${t}"])`),
+  ...LEVELS.map((l) => `.tn:has(#tn-l-${l}:checked) .cn-group:not([data-levels~="${l}"])`),
+  ...TYPES.flatMap((t) => LEVELS.map((l) => `.tn:has(#tn-t-${t}:checked):has(#tn-l-${l}:checked) .cn-group:not([data-combos~="${t}-${l}"])`)),
+  ...TYPES.flatMap((t) => LEVELS.map((l) => `.tn:has(#tn-t-${t}:checked):has(#tn-l-${l}:checked) .cn-index a:not([data-combo="${t}-${l}"])`)),
+  ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-index a:not([data-type="${t}"])`),
+  ...LEVELS.map((l) => `.tn:has(#tn-l-${l}:checked) .cn-index a:not([data-level="${l}"])`),
+].join(",\n") + " { display: none; }";
+---
+
+<Base
+  title="Từ nối"
+  description={`Từ nối tiếng Nhật N5–N3: ${count.sentence} từ nối câu (そして, でも, だから…) và ${count.clause} mẫu nối mệnh đề (から, のに, ても, たら…) — ý nghĩa, cách nối, phân biệt và câu ví dụ.`}
+>
+  <div class="tn mx-auto max-w-4xl">
+    <h1 class="text-2xl font-bold">Từ nối</h1>
+    <p class="mt-1 text-ink-muted">
+      Từ nối cho biết quan hệ giữa hai ý: thêm ý, đối lập, nguyên nhân, điều kiện… Nhóm theo chức năng để dễ so sánh các từ gần nghĩa.
+    </p>
+
+    <div class="mt-5 grid gap-3 sm:grid-cols-2">
+      {
+        TYPES.map((t) => (
+          <div class="rounded-lg border border-line bg-surface px-4 py-3">
+            <p class="font-semibold text-ink">
+              {TYPE_LABEL[t]} <span class="text-sm font-normal text-ink-faint">· {count[t]} mục</span>
+            </p>
+            <p class="mt-0.5 text-sm text-ink-muted">{TYPE_HINT[t]}</p>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="mt-5 flex flex-col gap-2 text-sm">
+      <Segmented name="tn-type" label="Loại" checked="tn-t-all" options={[{ id: "tn-t-all", label: "Tất cả" }, ...TYPES.map((t) => ({ id: `tn-t-${t}`, label: TYPE_LABEL[t] }))]} />
+      <Segmented name="tn-level" label="Cấp" checked="tn-l-all" options={[{ id: "tn-l-all", label: "Tất cả" }, ...LEVELS.map((l) => ({ id: `tn-l-${l}`, label: l.toUpperCase() }))]} />
+    </div>
+
+    <nav class="cn-index mt-5 rounded-lg border border-line bg-surface px-4 py-3" aria-label="Mục lục từ nối">
+      <dl class="grid gap-x-6 gap-y-2 sm:grid-cols-2">
+        {
+          groups.map((g) => (
+            <div class="cn-group flex gap-2" data-types={[...new Set(g.items.map((c) => c.type))].join(" ")} data-levels={[...new Set(g.items.map((c) => c.level))].join(" ")} data-combos={[...new Set(g.items.map((c) => `${c.type}-${c.level}`))].join(" ")}>
+              <dt class="w-28 shrink-0 text-ink-faint">{g.fn.label_vi}</dt>
+              <dd class="flex flex-wrap gap-x-3 gap-y-0.5">
+                {g.items.map((c) => (
+                  <a href={`#${c.id}`} class="jp text-primary hover:underline" lang="ja" data-type={c.type} data-level={c.level} data-combo={`${c.type}-${c.level}`}>
+                    {c.text}
+                  </a>
+                ))}
+              </dd>
+            </div>
+          ))
+        }
+      </dl>
+    </nav>
+
+    {
+      groups.map((g) => (
+        <section class="cn-group mt-10" aria-labelledby={`fn-${g.fn.id}`} data-types={[...new Set(g.items.map((c) => c.type))].join(" ")} data-levels={[...new Set(g.items.map((c) => c.level))].join(" ")} data-combos={[...new Set(g.items.map((c) => `${c.type}-${c.level}`))].join(" ")}>
+          <h2 id={`fn-${g.fn.id}`} class="text-lg font-bold">
+            {g.fn.label_vi} <span class="text-sm font-normal text-ink-faint">· {g.fn.hint_vi}</span>
+          </h2>
+          <div class="mt-3 flex flex-col gap-4">
+            {g.items.map((c) => (
+              <ConnectiveCard c={c} names={names} vocabLinks={vocabLinks(c.vocab_refs)} />
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style set:html={css} is:global></style>

@@ -1966,17 +1966,17 @@
       "meaning_vi": "thế thì, thế nên",
       "particle": null,
       "pos": {
-        "code": "N",
-        "label": "Danh từ"
+        "code": "Conj",
+        "label": "Từ nối"
       },
       "provenance": {
         "han_viet": null,
         "kanji": null,
         "meaning": "source",
-        "pos": "source"
+        "pos": "ai-draft"
       },
       "related": [],
-      "review": "auto",
+      "review": "ai",
       "same_word": [
         "n3-682"
       ],

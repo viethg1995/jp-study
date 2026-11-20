@@ -43,6 +43,8 @@ ENRICH_COUNTERS = ROOT / "pipeline" / "enrichment" / "counters"
 ENRICH_TRANSLATION = ROOT / "pipeline" / "enrichment" / "translation"
 ENRICH_TRANSLATION_EXERCISES = ENRICH_TRANSLATION / "exercises"  # câu đơn: lesson-LL.json
 ENRICH_TRANSLATION_PASSAGES = ENRICH_TRANSLATION / "passages"  # đoạn văn: n5.json, n4.json, n3.json
+# connectives.json (từ nối: nghĩa, cách nối, chức năng, thay thế được), examples/*.txt (câu ví dụ) → data/connectives.json
+ENRICH_CONNECTIVES = ROOT / "pipeline" / "enrichment" / "connectives"
 ENRICH_VOCAB_AUTO = ENRICH_VOCAB / "_auto"
 ENRICH_VOCAB_DECISIONS = ENRICH_VOCAB / "_decisions"  # áp theo thứ tự tên file: 01-, 02-…
 
@@ -63,4 +65,5 @@ OUT_GRAMMAR = DATA / "grammar"
 OUT_COUNTERS = DATA / "counters.json"
 OUT_CONJUGATION = DATA / "conjugation.json"
 OUT_TRANSLATION = DATA / "translation.json"
+OUT_CONNECTIVES = DATA / "connectives.json"
 DATA_SCHEMA = DATA / "_schema"  # JSON Schema xuất từ schemas.py — web dùng để kiểm tra đồng bộ

@@ -624,3 +624,123 @@ class TranslationFile(_Strict):
     schema_version: int = TRANSLATION_SCHEMA_VERSION
     exercises: list[TranslationExercise]
     passages: list[TranslationPassage]
+
+
+# ── Từ nối (接続詞 nối câu + mẫu nối mệnh đề 接続助詞) — STATUS mục 8, plan/quiz/q11-conjunctions.md ─────
+CONNECTIVE_SCHEMA_VERSION = 1
+
+CONNECTIVE_ID = re.compile(r"^cn-[a-z0-9]+(-[a-z0-9]+)*$")  # cn-{slug} — khóa localStorage (quiz), KHÔNG được đổi
+CONNECTIVE_EXAMPLE_ID = re.compile(r"^cn-[a-z0-9]+(-[a-z0-9]+)*-e\d{2}$")
+ConnectiveType = Literal["sentence", "clause"]  # nối hai câu (そして) | nối hai vế trong câu (のに)
+# Nhóm chức năng — nhãn ở CONNECTIVE_FUNCTIONS (data/connectives.json → functions)
+ConnectiveFunction = Literal[
+    "addition", "sequence", "time", "contrast", "concession", "cause", "condition", "choice", "purpose", "topic", "rephrase"
+]
+CONNECTIVE_FUNCTIONS: dict[str, tuple[str, str]] = {
+    "addition": ("Thêm ý, liệt kê", "và, hơn nữa, ngoài ra"),
+    "sequence": ("Trình tự", "rồi, sau đó, thế là"),
+    "time": ("Thời điểm", "khi, trước khi, sau khi, trong lúc"),
+    "contrast": ("Đối lập", "nhưng, thế mà"),
+    "concession": ("Nhượng bộ", "dù… vẫn"),
+    "cause": ("Nguyên nhân – kết quả", "vì, nên, vì vậy"),
+    "condition": ("Điều kiện", "nếu, hễ, trong trường hợp"),
+    "choice": ("Lựa chọn", "hoặc, hay là"),
+    "purpose": ("Mục đích", "để, sao cho"),
+    "topic": ("Chuyển chủ đề", "nhân tiện, vậy thì"),
+    "rephrase": ("Giải thích, ví dụ", "tóm lại, chẳng hạn"),
+}
+ConnectiveExampleSource = Literal["vocab", "grammar", "ai-draft", "user"]
+
+
+class ConnectiveExample(_Strict):
+    id: str = Field(description="cn-{slug}-eNN — ghi cứng, không sinh từ vị trí")
+    ruby: str = Field(description="Câu tiếng Nhật, cú pháp {漢字|かな}; [[…]] bao đúng phần từ nối")
+    vi: str
+    source: ConnectiveExampleSource = Field(
+        description="vocab = câu ví dụ của từ vựng (ref = id câu) · grammar = câu trong bài ngữ pháp (ref = g-LL-N, "
+        "pipeline kiểm chữ khớp nguồn) · ai-draft = AI viết, chờ duyệt · user = người viết/duyệt"
+    )
+    ref: str | None = Field(description="id câu ví dụ từ vựng (vocab) | g-LL-N (grammar) | null")
+    review: ReviewStatus
+
+    @field_validator("id")
+    @classmethod
+    def _eid(cls, v: str) -> str:
+        if not CONNECTIVE_EXAMPLE_ID.match(v):
+            raise ValueError(f"id ví dụ không đúng dạng cn-slug-eNN: {v!r}")
+        return v
+
+    @field_validator("ruby")
+    @classmethod
+    def _target(cls, v: str) -> str:
+        if v.count("[[") != 1 or v.count("]]") != 1:
+            raise ValueError("ruby phải chứa đúng một cặp [[…]]")
+        return v
+
+
+class ConnectiveFunctionDef(_Strict):
+    id: ConnectiveFunction
+    label_vi: str
+    hint_vi: str = Field(description="Gợi nghĩa ngắn: 'và, hơn nữa'")
+
+
+class Connective(_Strict):
+    id: str = Field(description="cn-{slug} — khóa localStorage (quiz), KHÔNG được đổi")
+    text: str = Field(description="Dạng hiển thị không ruby: そして, のに, 場合は")
+    ruby: str = Field(description="Dạng hiển thị có ruby: {場合|ばあい}は")
+    kana: str
+    type: ConnectiveType
+    function: ConnectiveFunction
+    meaning_vi: str
+    connects_vi: str | None = Field(description="Cách nối (mẫu nối mệnh đề): 'V/A thể thông thường + のに'; null với từ nối câu")
+    level: Literal["n5", "n4", "n3"]
+    book: Book | None = Field(description="Sách có từ / mẫu này; null = ngoài giáo trình (AI tổng hợp)")
+    lesson: int | None = Field(ge=1, le=50, description="Bài giới thiệu trong `book`; null = ngoài giáo trình")
+    forms: list[str] = Field(min_length=1, description="Các dạng được bao trong [[…]] của câu ví dụ (chữ hoặc kana)")
+    vocab_refs: list[str] = Field(description="ID từ vựng tương ứng (pipeline kiểm tồn tại)")
+    grammar_refs: list[str] = Field(description="Mục ngữ pháp g-LL-N (sources/grammar/md, bài LL mục N)")
+    note_vi: str | None = Field(description="Ghi chú phân biệt cách dùng")
+    substitutes: list[str] = Field(description="ID từ nối thay được cho nhau trong cùng chỗ (đối xứng) — quiz không dùng làm nhiễu")
+    meaning_source: Literal["vocab", "grammar", "ai-draft", "user"]
+    review: ReviewStatus
+    examples: list[ConnectiveExample] = Field(min_length=3)
+
+    @field_validator("id")
+    @classmethod
+    def _cid(cls, v: str) -> str:
+        if not CONNECTIVE_ID.match(v):
+            raise ValueError(f"id không đúng dạng cn-slug: {v!r}")
+        return v
+
+    @field_validator("vocab_refs")
+    @classmethod
+    def _vrefs(cls, v: list[str]) -> list[str]:
+        bad = [x for x in v if not VOCAB_ID.match(x)]
+        if bad:
+            raise ValueError(f"vocab_refs không hợp lệ: {bad}")
+        return v
+
+    @field_validator("grammar_refs")
+    @classmethod
+    def _grefs(cls, v: list[str]) -> list[str]:
+        bad = [x for x in v if not GRAMMAR_ID.match(x)]
+        if bad:
+            raise ValueError(f"grammar_refs không hợp lệ: {bad}")
+        return v
+
+    @model_validator(mode="after")
+    def _ids(self) -> Connective:
+        bad = [e.id for e in self.examples if not e.id.startswith(self.id + "-e")]
+        if bad:
+            raise ValueError(f"{self.id}: id ví dụ phải bắt đầu bằng {self.id}-e: {bad}")
+        if (self.book is None) != (self.lesson is None):
+            raise ValueError(f"{self.id}: book và lesson phải cùng null hoặc cùng có")
+        if self.id in self.substitutes:
+            raise ValueError(f"{self.id}: substitutes chứa chính nó")
+        return self
+
+
+class ConnectiveFile(_Strict):
+    schema_version: int = CONNECTIVE_SCHEMA_VERSION
+    functions: list[ConnectiveFunctionDef]
+    connectives: list[Connective]

@@ -105,8 +105,8 @@ export const NAV: NavItem[] = [
     label: "Từ nối",
     glyph: "接",
     glyphMeaning: "接 — 接続詞: từ nối",
-    description: "Từ nối thường gặp: ý nghĩa, cách dùng, ví dụ",
-    href: null,
+    description: "Từ nối câu và mẫu nối mệnh đề (から, のに, ても…): ý nghĩa, cách nối, phân biệt, ví dụ",
+    href: "tu-noi/",
   },
   {
     id: "sensei",

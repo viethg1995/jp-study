@@ -2,7 +2,7 @@
 
 > Phần chung (quyết định D1–D6, kiến trúc, bất biến, luồng làm bài, checklist): [README.md](README.md). File này chỉ chứa riêng task Q11.
 
-Trạng thái: ⬜ **kế hoạch chờ duyệt** (lập 2026-11-18). Làm trên **nhánh riêng sau PR `feat/quiz`** (bước 4).
+Trạng thái: 🟡 **giai đoạn 1 (dữ liệu) + 2 (trang `/tu-noi/`) xong 2026-11-20** trên nhánh `feat/tu-noi` — dữ liệu AI chờ user duyệt; giai đoạn 3 (quiz) chưa làm. User chốt 2026-11-20: phạm vi A + B (cả từ nối câu lẫn mẫu nối mệnh đề, thêm từ ngoài từ vựng dạng ai-draft), trang trước quiz, cho AI viết thêm ví dụ.
 
 Q11 cần dữ liệu từ nối, mà dữ liệu này chưa có (STATUS mục 8: "schema mới (id, từ, nghĩa, loại, cách nối, ví dụ); nguồn: từ vựng `Conj` + tổng hợp"). Vì vậy kế hoạch gồm 3 giai đoạn: **dữ liệu → trang `/tu-noi/` → quiz**.
 
@@ -72,3 +72,25 @@ Quiz cần `href` dẫn tới trang chi tiết.
 ## Tiêu chí xong / kết quả
 
 `data/connectives.json` qua validate; trang `/tu-noi/` và `/tu-noi/quiz/` đủ e2e; không câu điền từ nào có nhiễu cũng đúng (test `substitutes`); có trong trang tổng và lối vào "Câu hay sai"; ID câu cố định.
+
+## Kết quả giai đoạn 1 + 2 (2026-11-20)
+
+| # | Spec | Thực tế | Lý do |
+|---|---|---|---|
+| 1-1 | A + B ~40 | **41 mục**: 20 nối câu (12 có trong từ vựng + 9 AI: しかし, だから, だけど, ところが, じゃ, ところで, すると, 例えば, それなら — それで Minna và N3 gộp 1 mục) · 21 nối mệnh đề (が, けど, のに, ても, から, ので, て, てから, まえに, あとで, とき, ながら, たり, し, と, たら, ば, なら, 場合は, ように, ために) | Bỏ とおりに, ～か (câu hỏi lồng), ないで — không phải từ nối / không có mục ngữ pháp nguồn |
+| 1-2 | Schema `Connective` | Như spec + `text` / `ruby` / `kana`, `forms` (dạng được bao trong `[[…]]`: て → て/で/くて/って/んで), `meaning_source`, `review`; `functions[]` (nhãn 11 nhóm) trong file. `ConnectiveExample.source`: vocab / grammar / ai-draft / user + `ref` | `forms` để pipeline kiểm `[[…]]` đúng từ nối |
+| 1-3 | Extractor ngữ pháp | `extract/grammar_md.py`: mục `## N.` → `g-LL-N` + chữ tiếng Nhật (bỏ dòng furigana cách quãng, dòng tiếng Việt). **Không dựng ruby tự động** (furigana md nằm dòng riêng) — câu `grammar:` do AI gắn ruby, pipeline **kiểm chữ khớp nguồn**: mỗi đoạn ruby khớp chữ HOẶC cách đọc (nguồn N5 viết kana じかん ↔ `{時間|じかん}`); sai 1 chữ → build fail | Không bịa câu nhưng vẫn ghi "có nguồn" |
+| 1-4 | Pipeline | `transform/connectives.py` + `build` / `build-connectives` → `data/connectives.json`; lỗi: id trùng, câu của từ nối lạ, `[[…]]` ngoài `forms`, câu grammar không khớp nguồn, vocab_refs / grammar_refs không tồn tại, substitutes một chiều | — |
+| 1-4b | Liên kết hai chiều | **Một chiều**: từ nối → từ vựng (`vocab_refs`, link trên trang). Chiều từ vựng → từ nối **chưa làm** | Cần thêm trường vào `VocabEntry` (đổi mọi file `data/vocabulary`, schema, zod) — làm cùng quiz hoặc riêng |
+| 1-5 | Sửa từ loại | ですから (17-029), それで (28-042) N → **Conj** (`_decisions/19-connective-pos.txt`); つまり (n3-687) Adv → **Conj** (`n3/vocab-fixes-ai.txt`); けど giữ `Suf` (link qua `vocab_refs` của cn-kedo) | — |
+| 1-6 | Test | pytest `test_connectives.py` (5): extractor, khớp nguồn chữ/cách đọc, định dạng dòng ví dụ, lỗi build, kéo câu từ vựng. `check-connectives`: 0 lỗi E (sửa 5 câu viết kana: みんな, すし, よく, ひかない), 30 cảnh báo (từ ngoài phạm vi cấp ở câu AI; くじ / あきました là Sudachi đọc sai) | — |
+| 2 | Trang `/tu-noi/` | Một trang (41 thẻ) nhóm theo chức năng + mục lục; lọc Loại / Cấp bằng CSS `:has()` (thẻ, nhóm rỗng, mục lục cùng ẩn); thẻ: chữ + furigana, nhãn loại / cấp / bài (chữ xám), nghĩa, cách nối, ghi chú, 3 câu ví dụ (từ nối tô xanh, hiện furigana), "Dùng thay được" (neo), link từ vựng. Menu "Từ nối" bật. `lib/connectives.ts` (hàm thuần + 3 unit test), e2e `connectives.spec.ts` (4 × 2 project) | Không có trang chi tiết riêng: 41 mục, so sánh trong cùng nhóm quan trọng hơn |
+
+**Chờ user duyệt** (dữ liệu AI): `enrichment/connectives/connectives.json` (nghĩa, `function`, `substitutes`, `note_vi`, cấp của 9 từ ngoài giáo trình), 72 câu `ai` trong `examples/*.txt` (duyệt xong đổi `ai` → `user`), `_decisions/19-connective-pos.txt`, dòng 687 trong `n3/vocab-fixes-ai.txt`. **`substitutes` quan trọng nhất** — quiz điền từ (giai đoạn 3) dựa vào đó để không lấy từ cũng đúng làm nhiễu.
+
+Lệnh:
+
+```bash
+python -m jp_pipeline build-connectives   # chỉ dựng data/connectives.json (đọc data/vocabulary + sources/grammar/md)
+python -m jp_pipeline check-connectives   # furigana / kanji viết kana (E) / phạm vi cấp (W)
+```

@@ -11,3 +11,5 @@
 632|meaning|Tăng; (Chụp) cận cảnh; Đăng lên|" /Đăng lên" → nghĩa riêng
 633|meaning|Mệt, kiệt sức|sách (bài 13 tr.7) chỉ ghi "Mệt, kiệt sức"; "Cộng thêm/Trừ đi/Lãi/Lỗ" là nghĩa 1 của 634 bị dồn nhầm
 634|meaning|Cộng thêm/trừ đi, lãi/lỗ; Điểm cộng/thiệt|sách: 634 プラス/マイナス — 1. Cộng thêm/Trừ đi/Lãi/Lỗ 2. Điểm cộng/Thiệt (nguồn mất nghĩa 1); "/" liền = cặp プラス/マイナス
+# --- 2026-11-20: từ nối (Q11) ---
+687|pos|Conj|つまり: từ nối (tức là, tóm lại) — câu ví dụ dùng nối hai vế; liên kết cn-tsumari
