@@ -252,6 +252,13 @@ describe("v-cloze (điền từ)", () => {
       }
   });
 
+  test("Q13: từ N3 trùng từ Minna (n3-101 倒れる) và alias cùng sách (mn-27-005 できます) có câu điền từ đã chia", () => {
+    const n3 = inflected("n3").find((x) => x.id.startsWith("v-cloze:n3-101-"));
+    assert.ok(n3, "thiếu câu của n3-101");
+    assert.match(n3.explain!, /^倒れました = Quá khứ lịch sự · 倒れる/);
+    assert.ok(inflected("n5").some((x) => x.id.startsWith("v-cloze:mn-27-005-")) || inflected("n4").some((x) => x.id.startsWith("v-cloze:mn-27-005-")), "thiếu câu của mn-27-005");
+  });
+
   test("Q4b: 来ました — nhiễu là động từ khác thể ました + dạng chia sai; giải thích ghi tên thể", () => {
     const q = inflected("n5").find((x) => text(x.answer) === "来ました")!;
     assert.ok(q, "thiếu câu 来ました");

@@ -29,6 +29,7 @@ Cập nhật mỗi khi một task làm deck lớn thêm. Mốc trong unit test (
 | 2026-11-16 | `vocabulary/quiz/n4-dien.json` | 409KB | 66KB | +22 câu |
 | 2026-11-13 | `vocabulary/quiz/n5-tu.json` | 409KB | 54KB | |
 | 2026-11-13 | `kanji/quiz/tv-n4-doc.json` | 370KB | 54KB | |
+| 2026-11-17 | `chia-the/quiz/dong-tu.json` | 821KB | 79KB | Q13 +56 động từ N3 có hàng riêng |
 | 2026-11-13 | `/luyen-tap/dem-so.json` | 177KB | 14KB | Q7 thêm 86 câu số |
 | 2026-11-13 | `/luyen-tap/` bài 1–25, đủ 4 phần | — | ~380KB | 10 file; đo ở Q8 trước Q4b (377KB) |
 | 2026-11-13 | `/luyen-tap/` bài 1–50, đủ 4 phần | — | ~600KB | 19 file; đo ở Q8 trước Q4b (599KB) |

@@ -30,8 +30,9 @@ export const GROUP_SLUG: Record<ConjGroup, string> = {
 
 export const LIST_GROUPS: ConjGroup[] = ["verb", "adj-i", "adj-na"];
 
-export function entryPath(e: Pick<ConjEntry, "kind" | "vocab_id">): string {
-  return `chia-the/${GROUP_SLUG[GROUP_OF_KIND[e.kind]]}/${e.vocab_id}/`;
+/** Trang chia thể của hàng; từ N3 trùng từ Minna (`same_as`, Q13) không có trang riêng → trang hàng Minna. */
+export function entryPath(e: Pick<ConjEntry, "kind" | "vocab_id"> & { same_as?: string | null }): string {
+  return `chia-the/${GROUP_SLUG[GROUP_OF_KIND[e.kind]]}/${e.same_as ?? e.vocab_id}/`;
 }
 
 export function vocabPath(e: Pick<ConjEntry, "book" | "lesson" | "vocab_id">): string {

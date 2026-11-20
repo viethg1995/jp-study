@@ -165,7 +165,7 @@ export const strokeFile = z.object({
 });
 
 // Chia thể — data/conjugation.json (gốc thể ます; quy tắc enrichment/conjugation/forms.json)
-export const CONJ_SCHEMA_VERSION = 2; // v2: aliases
+export const CONJ_SCHEMA_VERSION = 3; // v2: aliases; v3: same_as (từ N3 trùng Minna, Q13)
 export const conjKind = z.enum(["V1", "V2", "V3", "Ai", "An", "N"]);
 export const conjGroup = z.enum(["verb", "adj-i", "adj-na", "noun"]);
 export const conjRule = z.object({
@@ -204,6 +204,8 @@ export const conjEntry = z.object({
   meaning_vi: z.string(),
   han_viet: z.string().nullable(),
   aliases: z.array(z.string().regex(/^(mn-\d{2}-\d{3}|n3-\d{3})$/)).default([]),
+  /** Từ N3 trùng từ Minna: vocab_id hàng Minna — hàng N3 riêng (quiz N3) nhưng không có trang riêng (Q13). */
+  same_as: z.string().regex(/^mn-\d{2}-\d{3}$/).nullable().default(null),
   forms: z.array(conjValue),
 });
 export const conjugationFile = z.object({

@@ -22,6 +22,7 @@ Quy trình mỗi task: viết spec vào file task → **user duyệt** → làm 
 | [Q10](q10-wrong-answers.md) | Lưu câu sai | ✅ |
 | [Q11](q11-conjunctions.md) | Quiz từ nối | ⬜ kế hoạch chờ duyệt (2026-11-18): dữ liệu (STATUS mục 8) → trang `/tu-noi/` → quiz; nhánh riêng sau PR |
 | [Q12](q12-deck-chunking.md) | Chia nhỏ file deck (hiệu năng tải) | ✅ 2026-11-17 — 5 bài/file (N3 3 bài), chia thể theo sách |
+| [Q13](q13-conj-n3-rows.md) | Bảng chia: từ N3 trùng từ Minna có hàng riêng (`same_as`) — quiz Chia thể sách N3 đủ từ | ✅ 2026-11-17, đưa lên bản mới 2026-11-19 |
 
 ## Kế hoạch tiếp theo (chốt 2026-11-16)
 

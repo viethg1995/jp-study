@@ -37,6 +37,8 @@ export interface ConjRow {
   meaning: string;
   /** Dạng gốc trong giáo trình (thể ます / tính từ nguyên dạng) — ruby. */
   base: string;
+  /** Từ N3 trùng từ Minna: ID hàng Minna — link "Xem bảng chia" về trang đó (Q13, không có trang riêng). */
+  sameAs?: string;
   /** thể → [ruby, quy tắc, bất quy tắc 0/1]; thiếu thể = từ không dùng thể đó. */
   forms: Record<string, [string, string, 0 | 1]>;
   /** ID từ vựng trùng từ này ở bài/sách khác (n3-101 → hàng mn-39-002); chỉ có khi không rỗng. */
@@ -57,6 +59,7 @@ export function buildConjTable(group: ConjGroupId, entries: readonly ConjEntry[]
         lesson: e.lesson,
         meaning: e.meaning_vi,
         base: e.ruby,
+        ...(e.same_as ? { sameAs: e.same_as } : {}),
         forms: Object.fromEntries(e.forms.map((f) => [f.form, [f.ruby, f.rule, f.irregular ? 1 : 0]])),
         ...(e.aliases.length > 0 ? { aliases: [...e.aliases] } : {}),
       })),
@@ -255,7 +258,7 @@ const lessonLabel = (r: ConjRow): string => (r.book === "n3" ? `N3 · Bài ${r.l
 function toItems(table: ConjTable, opts: ConjOptions, r: ConjRow, learned: ConjTable["forms"], asked: ConjTable["forms"]): QuizItem[] {
   const out: QuizItem[] = [];
   const p = promptForm(table, r);
-  const href = conjHref(table.group, r.id);
+  const href = conjHref(table.group, r.sameAs ?? r.id);
   const tags = { lesson: r.lesson, group: r.kind, book: r.book };
 
   for (const f of asked) {

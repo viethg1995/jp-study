@@ -298,7 +298,7 @@ class StrokeFile(_Strict):
 
 
 # ── Chia thể ──────────────────────────────────────────────────────────────────────────────────────
-CONJ_SCHEMA_VERSION = 2  # v2: aliases (từ trùng ở bài khác → cùng trang chia thể)
+CONJ_SCHEMA_VERSION = 3  # v2: aliases (từ trùng ở bài khác → cùng trang chia thể); v3: same_as (từ N3 trùng Minna, Q13)
 
 ConjKind = Literal["V1", "V2", "V3", "Ai", "An", "N"]
 ConjGroup = Literal["verb", "adj-i", "adj-na", "noun"]
@@ -343,7 +343,9 @@ class ConjEntry(_Strict):
     ruby: str
     meaning_vi: str
     han_viet: str | None
-    aliases: list[str] = Field(default=[], description="vocab_id các mục trùng (cùng loại + gốc) ở bài khác — dùng chung trang này")
+    aliases: list[str] = Field(default=[], description="vocab_id các mục trùng (cùng loại + gốc) ở bài khác CÙNG SÁCH — dùng chung trang này")
+    same_as: str | None = Field(default=None, description="Từ N3 trùng (loại + gốc) một từ Minna: vocab_id hàng Minna — "
+                                "hàng N3 riêng (bài N3, quiz N3) nhưng không có trang riêng, link về trang hàng Minna")
     forms: list[ConjValue] = Field(description="Theo thứ tự ConjFormDef của nhóm; thể không dùng được thì vắng")
 
 
