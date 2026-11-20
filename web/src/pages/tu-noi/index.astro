@@ -21,6 +21,9 @@ const vocabLinks = (ids: string[]): { id: string; href: string; label: string }[
 const count = { sentence: all.filter((c) => c.type === "sentence").length, clause: all.filter((c) => c.type === "clause").length };
 const TYPES = ["sentence", "clause"] as const;
 const LEVELS = ["n5", "n4", "n3"] as const;
+// Tổ hợp loại × cấp không có mục (vd nối mệnh đề N3) → ẩn nút lọc tương ứng khi bên kia đang chọn
+const combos = new Set(all.map((c) => `${c.type}-${c.level}`));
+const missing = TYPES.flatMap((t) => LEVELS.filter((l) => !combos.has(`${t}-${l}`)).map((l) => [t, l] as const));
 // Lọc bằng CSS: thẻ theo data-type / data-level; nhóm rỗng ẩn theo danh sách loại / cấp / tổ hợp có trong nhóm
 const css = [
   ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-card:not([data-type="${t}"])`),
@@ -31,6 +34,7 @@ const css = [
   ...TYPES.flatMap((t) => LEVELS.map((l) => `.tn:has(#tn-t-${t}:checked):has(#tn-l-${l}:checked) .cn-index a:not([data-combo="${t}-${l}"])`)),
   ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-index a:not([data-type="${t}"])`),
   ...LEVELS.map((l) => `.tn:has(#tn-l-${l}:checked) .cn-index a:not([data-level="${l}"])`),
+  ...missing.flatMap(([t, l]) => [`.tn:has(#tn-t-${t}:checked) label:has(#tn-l-${l})`, `.tn:has(#tn-l-${l}:checked) label:has(#tn-t-${t})`]),
 ].join(",\n") + " { display: none; }";
 ---
 
@@ -99,3 +103,18 @@ const css = [
 </Base>
 
 <style set:html={css} is:global></style>
+
+<script>
+  // Lựa chọn đang bật bị ẩn (tổ hợp không có mục: vd đang N3 rồi chọn "Nối mệnh đề") → về "Tất cả", không để trang trống.
+  for (const name of ["tn-type", "tn-level"]) {
+    for (const input of document.querySelectorAll<HTMLInputElement>('input[name="tn-type"], input[name="tn-level"]')) {
+      input.addEventListener("change", () => {
+        const checked = document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`);
+        const label = checked?.closest("label");
+        if (label && getComputedStyle(label).display === "none") {
+          document.querySelector<HTMLInputElement>(`input[name="${name}"][id$="-all"]`)!.checked = true;
+        }
+      });
+    }
+  }
+</script>

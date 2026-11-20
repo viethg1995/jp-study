@@ -46,6 +46,21 @@ test("lọc loại + cấp bằng CSS; nhóm rỗng và mục lục ẩn theo", 
   await expect(page.locator(visible)).toHaveCount(total);
 });
 
+test("tổ hợp không có mục (nối mệnh đề N3) → ẩn nút lọc, không ra trang trống", async ({ page }) => {
+  await page.goto("tu-noi/");
+  const n3 = page.locator("label:has(#tn-l-n3)");
+  const clause = page.locator("label:has(#tn-t-clause)");
+  await clause.click();
+  await expect(n3).toBeHidden();
+  await expect(page.locator("label:has(#tn-l-n5)")).toBeVisible();
+  await page.locator("label:has(#tn-t-all)").click();
+  await expect(n3).toBeVisible();
+  await n3.click();
+  await expect(clause).toBeHidden();
+  await expect(page.locator(visible).first()).toBeVisible();
+  await expect(page.locator(".cn-index")).toBeVisible();
+});
+
 test("neo, Dùng thay được, link từ vựng, menu", async ({ page }) => {
   await page.goto("tu-noi/#cn-demo");
   await expect(page.locator("#cn-demo")).toBeInViewport();
