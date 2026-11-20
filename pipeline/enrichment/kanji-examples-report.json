@@ -5,8 +5,8 @@
     "貰": 2,
     "鞄": 4
   },
-  "jmdict_added": 3382,
-  "readings_filled": 128,
+  "jmdict_added": 3946,
+  "readings_filled": 119,
   "readings_removed": {
     "丁": [
       "チ"
@@ -1591,7 +1591,6 @@
       "くら"
     ],
     "等": [
-      "など",
       "ら"
     ],
     "箱": [
@@ -1997,6 +1996,6 @@
       "とし"
     ]
   },
-  "unclassified": 150,
+  "unclassified": 161,
   "untranslated": 0
 }

@@ -290,6 +290,7 @@ def build_examples(
         has_types = {t for t in (("on" if k.on else None), ("kun" if k.kun else None)) if t}
         exs: list[KanjiExample] = []
         words: set[str] = set()
+        seen_wk: set[tuple[str, str]] = set()  # từ giáo trình: khử trùng theo chữ + cách đọc (人 ひと / じん / にん)
         for vid in k.vocab_refs:
             v = by_id.get(vid)
             if v is None or v.kanji is None:
@@ -299,8 +300,9 @@ def build_examples(
             i = next((n for n, x in enumerate(ks) if k.char in x), 0)
             w = _clean(ks[i])
             kana = _clean(ns[i] if len(ns) == len(ks) else ns[0])
-            if not w or w in words:
+            if not w or (w, kana) in seen_wk:
                 continue
+            seen_wk.add((w, kana))
             words.add(w)
             t, r = classify(w, kana, k.char, kanjidic)
             exs.append(KanjiExample(word=w, kana=kana, reading_type=t, reading=r, meaning_vi=v.meaning_vi,

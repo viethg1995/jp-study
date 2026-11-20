@@ -142,7 +142,8 @@ test("trang chủ: chưa có câu sai → ẩn mục 'Ôn câu hay sai'; có →
   await expect(section).toBeVisible();
   await expect(section.locator("li")).toHaveText(["Từ vựng N51", "Từ vựng N41", "Kanji1"]);
   await section.getByRole("link", { name: /Từ vựng N5/ }).click();
-  await expect(page).toHaveURL(/vocabulary\/quiz\/\?cap=n5&loai=nghia&on=sai$/);
+  // URL ổn định sau khi trang ghi đủ bộ lọc (apply() luôn thêm tu/den), không chờ URL của link trước khi script chạy
+  await expect(page).toHaveURL(/vocabulary\/quiz\/\?cap=n5&tu=1&den=25&loai=nghia&on=sai$/);
   await expect(page.locator("#q-review-wrong")).toBeChecked();
   await expect(reviewLabel(page)).toHaveText("Câu hay sai (2)"); // đếm theo loại câu của trang (mọi cấp)
   await startQuiz(page);

@@ -9,4 +9,5 @@
 # --- 2026-11-17: chuẩn hóa dấu trong nghĩa (sát nghĩa ", ", khác nghĩa ";" → hiện " / "; "/" liền chỉ cho từ thay thế) — chỉ đổi dấu ---
 241|meaning|Thay đổi (trạng thái, tính chất)|"tính; chất" là lỗi gõ của "tính chất"
 632|meaning|Tăng; (Chụp) cận cảnh; Đăng lên|" /Đăng lên" → nghĩa riêng
-633|meaning|Mệt, kiệt sức; Cộng thêm/trừ đi; Lãi/lỗ|" /Lãi/ Lỗ" → nghĩa riêng; "/" liền giữ cặp từ thay thế
+633|meaning|Mệt, kiệt sức|sách (bài 13 tr.7) chỉ ghi "Mệt, kiệt sức"; "Cộng thêm/Trừ đi/Lãi/Lỗ" là nghĩa 1 của 634 bị dồn nhầm
+634|meaning|Cộng thêm/trừ đi, lãi/lỗ; Điểm cộng/thiệt|sách: 634 プラス/マイナス — 1. Cộng thêm/Trừ đi/Lãi/Lỗ 2. Điểm cộng/Thiệt (nguồn mất nghĩa 1); "/" liền = cặp プラス/マイナス

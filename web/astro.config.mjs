@@ -1,5 +1,7 @@
 // @ts-check
-import { writeFileSync } from "node:fs";
+import { readFileSync, readdirSync, unlinkSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -36,11 +38,47 @@ function sitemap() {
   };
 }
 
+/**
+ * CSS của fontsource khai báo mỗi subset 2 bản: woff2 + woff. Mọi trình duyệt còn hỗ trợ đều đọc woff2,
+ * nên sau khi build: bỏ `url(...woff) format("woff")` khỏi các file CSS và xóa file .woff không còn ai dùng.
+ * CSS font nhẹ hơn khoảng 30%, dist/ nhẹ hơn khoảng một nửa.
+ * @returns {import("astro").AstroIntegration}
+ */
+function fontsWoff2Only() {
+  return {
+    name: "jp-fonts-woff2-only",
+    hooks: {
+      "astro:build:done": ({ dir, logger }) => {
+        const assets = join(fileURLToPath(dir), "_astro");
+        const files = readdirSync(assets);
+        const woffRef = /,\s*url\([^)]*?\.woff\)\s*format\(["']?woff["']?\)/g;
+        let stripped = 0;
+        const cssTexts = [];
+        for (const f of files.filter((n) => n.endsWith(".css"))) {
+          const path = join(assets, f);
+          const css = readFileSync(path, "utf-8");
+          const out = css.replace(woffRef, () => (stripped++, ""));
+          if (out !== css) writeFileSync(path, out, "utf-8");
+          cssTexts.push(out);
+        }
+        const allCss = cssTexts.join("\n");
+        let removed = 0;
+        for (const f of files.filter((n) => n.endsWith(".woff"))) {
+          if (allCss.includes(f)) continue; // vẫn còn CSS tham chiếu → giữ
+          unlinkSync(join(assets, f));
+          removed++;
+        }
+        logger.info(`woff2-only: bỏ ${stripped} tham chiếu .woff, xóa ${removed} file .woff`);
+      },
+    },
+  };
+}
+
 export default defineConfig({
   site: SITE,
   base: BASE,
   trailingSlash: "ignore",
-  integrations: [sitemap()],
+  integrations: [sitemap(), fontsWoff2Only()],
   vite: {
     plugins: [tailwindcss()],
   },

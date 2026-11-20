@@ -32,7 +32,7 @@ TESSERACT_DIR = Path(r"C:\Program Files\Tesseract-OCR")  # cài qua winget UB-Ma
 ENRICH_VOCAB = ROOT / "pipeline" / "enrichment" / "vocabulary"
 ENRICH_KANJI = ROOT / "pipeline" / "enrichment" / "kanji"
 # ví dụ Kanji ghim (`字|từ|kana`) — thư mục con: mọi *.txt ở gốc ENRICH_KANJI bị đọc như file nghĩa
-KANJI_PINNED_EXAMPLES = ENRICH_KANJI / "pinned" / "examples.txt"
+KANJI_PINNED_DIR = ENRICH_KANJI / "pinned"  # mọi *.txt, áp theo thứ tự tên
 # Sửa bảng 214 bộ thủ trích từ PDF: 'số|trường|giá trị' (char, name_vi, meaning_vi, variants)
 ENRICH_RADICAL_OVERRIDES = ENRICH_KANJI / "radicals" / "overrides.txt"
 ENRICH_RADICAL_OVERRIDES_AI = ENRICH_KANJI / "radicals" / "overrides-ai.txt"  # đề xuất AI chưa duyệt, áp sau
