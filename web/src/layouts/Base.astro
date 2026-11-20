@@ -4,13 +4,10 @@
 import Sidebar from "../components/layout/Sidebar.astro";
 import { SIDEBAR_BOOT_SCRIPT } from "../lib/storage";
 import { DEFAULT_DESCRIPTION, SITE_NAME, clip } from "../lib/seo";
-// Noto Sans JP tự host, font TĨNH (mỗi độ đậm một bộ file, chia nhỏ theo unicode-range).
-// Không dùng Google Fonts: nó trả variable font và Chrome iOS không áp font-weight lên trục wght
-// → cả trang hiện một độ đậm nhạt (Safari thì đúng). 600 không nạp → trình duyệt dùng 700.
-import "@fontsource/noto-sans-jp/400.css";
-import "@fontsource/noto-sans-jp/500.css";
-import "@fontsource/noto-sans-jp/700.css";
 import "../styles/global.css";
+// CSS @font-face của Noto Sans JP (~200 KB) tách thành file riêng, nạp KHÔNG chặn render.
+// Nếu gộp vào bundle chung thì trình duyệt phải tải xong mới vẽ trang. Lý do dùng font tĩnh: xem fonts.css.
+import fontsHref from "../styles/fonts.css?url";
 
 interface Props {
   title: string;
@@ -41,6 +38,9 @@ const gscToken = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
     {canonical && !noindex && <link rel="canonical" href={canonical} />}
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
     <link rel="sitemap" href={`${base}/sitemap.xml`} />
+    <link rel="preload" href={fontsHref} as="style" />
+    <link rel="stylesheet" href={fontsHref} media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href={fontsHref} /></noscript>
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:locale" content="vi_VN" />

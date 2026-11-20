@@ -1,0 +1,8 @@
+/* Noto Sans JP tự host, font TĨNH: mỗi độ đậm một bộ file, chia nhỏ theo unicode-range.
+   Không dùng Google Fonts vì nó trả variable font, mà Chrome iOS không áp font-weight lên trục wght
+   → cả trang hiện một độ đậm nhạt (Safari thì đúng).
+   Chỉ nạp 400 + 700. Trình duyệt tự chọn độ đậm gần nhất: 500 → 400, 600 → 700.
+   File này nạp KHÔNG chặn render (xem Base.astro). Trước khi font tải xong, chữ hiện bằng font hệ thống.
+   Khi build, integration fontsWoff2Only (astro.config.mjs) bỏ bản .woff, chỉ giữ .woff2. */
+@import "@fontsource/noto-sans-jp/400.css";
+@import "@fontsource/noto-sans-jp/700.css";
