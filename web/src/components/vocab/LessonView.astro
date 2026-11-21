@@ -48,7 +48,7 @@ const partOptions = [
 
 const toggles = [
   { id: "toggle-furigana", label: "Ẩn furigana" },
-  { id: "toggle-target-reading", label: "Hiện furigana từ đang học" },
+  { id: "toggle-vocab-reading", label: "Hiện furigana từ vựng" }, // chỉ dùng được khi đang Ẩn furigana
   { id: "toggle-vi", label: "Che bản dịch (rê chuột để xem)" },
 ];
 const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
@@ -111,7 +111,7 @@ const description = clip(
     </div>
     {
       toggles.map((t) => (
-        <label class="flex cursor-pointer items-center gap-2">
+        <label class="flex cursor-pointer items-center gap-2 has-disabled:cursor-not-allowed has-disabled:opacity-50">
           <input type="checkbox" id={t.id} class="accent-primary" />
           {t.label}
         </label>
@@ -212,6 +212,18 @@ const description = clip(
     },
     true,
   );
+  // "Hiện furigana từ vựng" chỉ dùng được khi đang "Ẩn furigana"; bỏ Ẩn → tự bỏ chọn + khóa.
+  // Chạy cả lúc tải trang (trình duyệt có thể khôi phục trạng thái checkbox khi bấm Back).
+  const furi = document.getElementById("toggle-furigana") as HTMLInputElement | null;
+  const vocabReading = document.getElementById("toggle-vocab-reading") as HTMLInputElement | null;
+  const syncVocabReading = (): void => {
+    if (!furi || !vocabReading) return;
+    if (!furi.checked) vocabReading.checked = false;
+    vocabReading.disabled = !furi.checked;
+  };
+  syncVocabReading();
+  furi?.addEventListener("change", syncVocabReading);
+
   toggleVi?.addEventListener("change", () => {
     document.querySelectorAll(".example-vi.is-revealed").forEach((el) => el.classList.remove("is-revealed"));
   });
