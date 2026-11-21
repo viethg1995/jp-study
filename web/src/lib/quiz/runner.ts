@@ -128,6 +128,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
   let poolMax: number | null = null;
   /** Đã bấm "Tất cả" → ô số câu bám theo poolMax khi bộ lọc đổi (thêm loại câu → tăng theo). */
   let sizeFollowAll = false;
+  /** Số người học đã nhập ở "Tự nhập" trước khi bị hạ về poolMax (để báo lại); null = không bị hạ. */
+  let clampedFrom: number | null = null;
   let disabledByLock: (HTMLInputElement | HTMLSelectElement | HTMLButtonElement)[] = [];
   let hiddenByLock: HTMLElement[] = [];
 
@@ -231,6 +233,8 @@ export function mountQuiz(root: HTMLElement): QuizController {
       sizeInput.focus();
       return;
     }
+    // số người học yêu cầu (trước khi hạ về số câu thật) → tóm tắt báo nếu lượt ít hơn
+    const asked = sizeId() === "q-size-custom" ? (clampedFrom ?? customSize()) : roundSize();
     lock(true);
     const go = (): void => {
       const n = basePool().length;
@@ -245,7 +249,11 @@ export function mountQuiz(root: HTMLElement): QuizController {
       start();
       // Số câu trong tóm tắt = số câu thật của lượt (nút 100 mà bộ lọc chỉ có 45 câu → 45). Không gọi lại
       // summarize(): các dòng tùy chọn đã bị ẩn khi khóa → chỉ thay phần "Số câu: …" ở cuối.
-      if (session?.limit != null) lockedSummary.textContent = (lockedSummary.textContent ?? "").replace(/Số câu: [^·]*$/, `Số câu: ${session.limit}`);
+      if (session?.limit != null) {
+        const lim = session.limit;
+        const note = !reviewing() && asked !== null && asked > lim ? ` (tối đa của bộ lọc, bạn chọn ${asked})` : "";
+        lockedSummary.textContent = (lockedSummary.textContent ?? "").replace(/Số câu: [^·]*$/, `Số câu: ${lim}${note}`);
+      }
       card.scrollIntoView({ block: "start", behavior: "smooth" });
     };
     if (pending) loadDecks(pending.decks, go, pending.toItems);
@@ -493,11 +501,24 @@ export function mountQuiz(root: HTMLElement): QuizController {
   // Số câu (chỉ ở bước thiết lập): "Tự nhập" → hiện ô nhập, báo lỗi ngay khi số sai; Bắt đầu kiểm lại.
   // Ô nhập không vượt số câu thật của bộ lọc (poolMax, đếm sau khi tải deck — file nhớ đệm, Bắt đầu không tải lại):
   // lớn hơn thì hạ về poolMax, nên một lượt không hỏi lại câu đã hỏi. Chọn nhiều loại câu → poolMax = tổng các loại.
-  const sizeMaxEl = q("size-max"), sizeAll = q<HTMLButtonElement>("size-all");
+  const sizeMaxEl = q("size-max"), sizeAll = q<HTMLButtonElement>("size-all"), sizeNote = q("size-note");
+  /** Dòng "Đã giới hạn còn N câu": hiện khi clampedFrom khác null. */
+  function syncSizeNote(): void {
+    // bộ lọc nới ra (poolMax tăng) mà ô vẫn giữ số đã hạ → không còn là "giới hạn" nữa → bỏ báo
+    if (clampedFrom !== null && (poolMax === null || clampedFrom <= poolMax || sizeInput.value.trim() !== String(poolMax))) clampedFrom = null;
+    const show = clampedFrom !== null;
+    sizeNote.textContent = show ? `Đã giới hạn còn ${poolMax} câu` : ""; // ngắn → vừa 1 dòng đã chừa ở 375px
+    sizeNote.classList.toggle("invisible", !show);
+  }
   function applyCustom(): boolean {
     const n = customSize();
     const ok = n !== null;
-    if (ok && String(n) !== sizeInput.value.trim()) sizeInput.value = String(n); // vượt poolMax → hạ về poolMax
+    if (ok && String(n) !== sizeInput.value.trim()) {
+      // vượt poolMax → hạ về poolMax, nhớ số đã nhập để báo
+      clampedFrom = Number(sizeInput.value.trim());
+      sizeInput.value = String(n);
+    }
+    syncSizeNote();
     sizeInput.setAttribute("aria-invalid", ok ? "false" : "true");
     sizeError.classList.toggle("hidden", ok);
     return ok;
@@ -538,16 +559,23 @@ export function mountQuiz(root: HTMLElement): QuizController {
         refreshMax();
       } else {
         sizeError.classList.add("hidden");
+        clampedFrom = null;
+        syncSizeNote();
       }
     });
   }
   sizeAll.addEventListener("click", () => {
     if (poolMax === null) return;
     sizeFollowAll = true;
+    clampedFrom = null;
     sizeInput.value = String(poolMax);
     applyCustom();
   });
-  sizeInput.addEventListener("input", () => (sizeFollowAll = false));
+  sizeInput.addEventListener("input", () => {
+    sizeFollowAll = false;
+    clampedFrom = null; // đang gõ số mới → bỏ báo cũ, change/Enter kiểm lại
+    syncSizeNote();
+  });
   sizeInput.addEventListener("change", applyCustom);
   sizeInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {

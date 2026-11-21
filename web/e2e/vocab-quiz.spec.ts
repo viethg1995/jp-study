@@ -288,11 +288,19 @@ test("số câu tự nhập: không vượt số câu thật của bộ lọc; c
   const input = page.locator('[data-q="size-input"]');
   const mean = await sizeMax(page);
   expect(mean).toBeGreaterThan(10);
-  // nhập quá số câu → hạ về số câu thật, không báo lỗi
+  // nhập quá số câu → hạ về số câu thật, không báo lỗi, nhưng báo "Đã giới hạn" (không cắt âm thầm)
+  const note = page.locator('[data-q="size-note"]');
+  await expect(note).toBeHidden();
   await input.fill(String(mean + 50));
   await input.press("Enter");
   await expect(input).toHaveValue(String(mean));
   await expect(page.locator('[data-q="size-error"]')).toBeHidden();
+  await expect(note).toBeVisible();
+  await expect(note).toContainText(`Đã giới hạn còn ${mean} câu`);
+  // gõ số trong giới hạn → hết báo
+  await input.fill("5");
+  await input.press("Enter");
+  await expect(note).toBeHidden();
   // "Tất cả" rồi thêm loại Đọc → tối đa = Nghĩa + Đọc, ô số câu tăng theo
   await page.locator('[data-q="size-all"]').click();
   await page.locator("label:has(#loai-doc)").click();
@@ -316,7 +324,17 @@ test("nút 100 mà bộ lọc ít câu hơn → lượt = số câu thật (khô
   await page.locator("label:has(#q-size-100)").click();
   await startQuiz(page);
   await expect(page.locator('[data-q="of"]')).toHaveText(` / ${n}`);
-  await expect(page.locator('[data-q="locked-summary"]')).toContainText(`Số câu: ${n}`);
+  await expect(page.locator('[data-q="locked-summary"]')).toContainText(`Số câu: ${n} (tối đa của bộ lọc, bạn chọn 100)`);
+});
+
+test("số câu tự nhập vượt bộ lọc rồi bấm Bắt đầu ngay → tóm tắt ghi rõ đã giới hạn", async ({ page }) => {
+  await page.goto("vocabulary/quiz/?cap=n5&tu=1&den=1&loai=nghia");
+  await page.locator("label:has(#q-size-custom)").click();
+  const n = await sizeMax(page);
+  await page.locator('[data-q="size-input"]').fill("9999");
+  await startQuiz(page);
+  await expect(page.locator('[data-q="of"]')).toHaveText(` / ${n}`);
+  await expect(page.locator('[data-q="locked-summary"]')).toContainText(`Số câu: ${n} (tối đa của bộ lọc, bạn chọn 9999)`);
 });
 
 test("số câu tự nhập = toàn bộ câu của 2 loại → mỗi câu hỏi đúng một lần, không lặp", async ({ page }) => {

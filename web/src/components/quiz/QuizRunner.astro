@@ -102,7 +102,7 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
           wrap
         />
         <!-- thẳng cột với các nút: lùi bằng độ rộng nhãn (4.75rem) + khoảng cách (0.75rem) -->
-        <label class="hidden basis-full items-center gap-2 pl-[5.5rem]" data-q="size-box">
+        <label class="hidden basis-full flex-wrap items-center gap-2 pl-[5.5rem]" data-q="size-box">
           <input
             type="number"
             data-q="size-input"
@@ -121,6 +121,9 @@ const btn = "rounded-md px-4 py-2 text-sm font-semibold";
             class="hidden rounded px-1.5 py-1 text-sm text-primary underline-offset-2 hover:underline"
           >Tất cả</button>
           <span data-q="size-error" class="hidden text-danger">Nhập số nguyên từ 1 trở lên</span>
+          <!-- Số nhập vượt số câu thật → runner hạ về N và báo ở đây (không cắt âm thầm). Luôn chừa sẵn 1 dòng
+               (invisible, không hidden): báo hiện lúc rời ô nhập không đẩy nút "Bắt đầu" → chạm trên mobile không trượt -->
+          <span data-q="size-note" class="invisible min-h-5 basis-full text-sm text-ink-muted" aria-live="polite"></span>
         </label>
       </div>
       {

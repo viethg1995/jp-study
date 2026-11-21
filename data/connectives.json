@@ -94,12 +94,13 @@
       "lesson": 6,
       "level": "n5",
       "meaning_source": "vocab",
-      "meaning_vi": "sau đó, tiếp theo",
+      "meaning_vi": "sau đó, tiếp theo; ngoài ra, thêm nữa",
       "note_vi": "Kể hành động theo trình tự thời gian; cũng dùng để thêm ý (\"còn nữa\").",
       "review": "auto",
       "ruby": "それから",
       "substitutes": [
-        "cn-soshite"
+        "cn-soshite",
+        "cn-tsugini"
       ],
       "text": "それから",
       "type": "sentence",
@@ -362,7 +363,12 @@
       "ruby": "ですから",
       "substitutes": [
         "cn-dakara",
-        "cn-sorede"
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
       ],
       "text": "ですから",
       "type": "sentence",
@@ -415,7 +421,12 @@
       "ruby": "だから",
       "substitutes": [
         "cn-desukara",
-        "cn-sorede"
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
       ],
       "text": "だから",
       "type": "sentence",
@@ -468,7 +479,12 @@
       "ruby": "それで",
       "substitutes": [
         "cn-desukara",
-        "cn-dakara"
+        "cn-dakara",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
       ],
       "text": "それで",
       "type": "sentence",
@@ -525,7 +541,9 @@
       "substitutes": [
         "cn-soshite",
         "cn-sonoue",
-        "cn-mata"
+        "cn-mata",
+        "cn-shikamo",
+        "cn-sarani"
       ],
       "text": "それに",
       "type": "sentence",
@@ -578,7 +596,9 @@
       "ruby": "そのうえ",
       "substitutes": [
         "cn-soreni",
-        "cn-mata"
+        "cn-mata",
+        "cn-shikamo",
+        "cn-sarani"
       ],
       "text": "そのうえ",
       "type": "sentence",
@@ -631,7 +651,9 @@
       "ruby": "また",
       "substitutes": [
         "cn-soreni",
-        "cn-sonoue"
+        "cn-sonoue",
+        "cn-shikamo",
+        "cn-sarani"
       ],
       "text": "また",
       "type": "sentence",
@@ -786,7 +808,11 @@
       "note_vi": "Nói lại ý trước bằng cách khác hoặc rút ra kết luận.",
       "review": "auto",
       "ruby": "つまり",
-      "substitutes": [],
+      "substitutes": [
+        "cn-yousuruni",
+        "cn-iikaeruto",
+        "cn-sunawachi"
+      ],
       "text": "つまり",
       "type": "sentence",
       "vocab_refs": [
@@ -869,12 +895,23 @@
           "ruby": "この{赤|あか}いのはちょっと{高|たか}いですね。[[じゃ]]、その{青|あお}いのをください。",
           "source": "ai-draft",
           "vi": "Cái màu đỏ này hơi đắt nhỉ. Thế thì cho tôi cái màu xanh kia."
+        },
+        {
+          "id": "cn-ja-e04",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{時間|じかん}になりました。[[それでは]]、{授業|じゅぎょう}を{始|はじ}めます。",
+          "source": "ai-draft",
+          "vi": "Đã đến giờ rồi. Vậy thì chúng ta bắt đầu giờ học."
         }
       ],
       "forms": [
         "じゃ",
         "じゃあ",
-        "では"
+        "では",
+        "それでは",
+        "それじゃ",
+        "それじゃあ"
       ],
       "function": "topic",
       "grammar_refs": [],
@@ -884,7 +921,7 @@
       "level": "n5",
       "meaning_source": "ai-draft",
       "meaning_vi": "vậy thì, thế thì",
-      "note_vi": "Văn nói; trang trọng hơn: では. Dùng khi chuyển sang việc tiếp theo, kết thúc câu chuyện.",
+      "note_vi": "Văn nói; trang trọng hơn: では. それでは / それじゃ(あ) cùng nghĩa, それでは lịch sự hơn. Dùng khi chuyển sang việc tiếp theo, kết thúc câu chuyện.",
       "review": "auto",
       "ruby": "じゃ",
       "substitutes": [
@@ -937,7 +974,9 @@
       "note_vi": "Chuyển sang chủ đề khác hẳn chủ đề đang nói.",
       "review": "auto",
       "ruby": "ところで",
-      "substitutes": [],
+      "substitutes": [
+        "cn-sate"
+      ],
       "text": "ところで",
       "type": "sentence",
       "vocab_refs": []
@@ -1037,6 +1076,800 @@
         "cn-ja"
       ],
       "text": "それなら",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-nanode-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{昨日|きのう}は{熱|ねつ}がありました。[[なので]]、{学校|がっこう}を{休|やす}みました。",
+          "source": "ai-draft",
+          "vi": "Hôm qua tôi bị sốt. Vì thế tôi đã nghỉ học."
+        },
+        {
+          "id": "cn-nanode-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{駅|えき}まで{遠|とお}いです。[[なので]]、いつもバスで{行|い}きます。",
+          "source": "ai-draft",
+          "vi": "Đến ga xa lắm. Cho nên lúc nào tôi cũng đi xe buýt."
+        },
+        {
+          "id": "cn-nanode-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{明日|あした}はテストがあります。[[なので]]、{今夜|こんや}は{勉強|べんきょう}します。",
+          "source": "ai-draft",
+          "vi": "Ngày mai có bài kiểm tra. Vì vậy tối nay tôi sẽ học bài."
+        }
+      ],
+      "forms": [
+        "なので"
+      ],
+      "function": "cause",
+      "grammar_refs": [],
+      "id": "cn-nanode",
+      "kana": "なので",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vì thế, cho nên (văn nói)",
+      "note_vi": "Đứng đầu câu: 「なので、…」. Văn nói thân mật; văn viết dùng だから / したがって. Khác なので nối vế trong câu (xem ので).",
+      "review": "auto",
+      "ruby": "なので",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
+      ],
+      "text": "なので",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sokode-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{道|みち}が{分|わ}かりませんでした。[[そこで]]、{近|ちか}くの{人|ひと}に{聞|き}きました。",
+          "source": "ai-draft",
+          "vi": "Tôi không biết đường. Vì thế nên tôi đã hỏi người gần đó."
+        },
+        {
+          "id": "cn-sokode-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{最近|さいきん}{太|ふと}ってきました。[[そこで]]、{毎朝|まいあさ}{走|はし}ることにしました。",
+          "source": "ai-draft",
+          "vi": "Dạo này tôi tăng cân. Thế nên tôi quyết định sáng nào cũng chạy bộ."
+        },
+        {
+          "id": "cn-sokode-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{会議室|かいぎしつ}が{狭|せま}すぎます。[[そこで]]、{大|おお}きい{部屋|へや}を{借|か}りました。",
+          "source": "ai-draft",
+          "vi": "Phòng họp quá chật. Vì vậy chúng tôi đã thuê một phòng lớn."
+        }
+      ],
+      "forms": [
+        "そこで"
+      ],
+      "function": "cause",
+      "grammar_refs": [],
+      "id": "cn-sokode",
+      "kana": "そこで",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vì thế nên (làm gì đó để đối phó)",
+      "note_vi": "Câu trước nêu tình huống, câu sau là hành động người nói chọn làm để giải quyết. Không dùng khi câu sau là kết quả tự nhiên.",
+      "review": "auto",
+      "ruby": "そこで",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
+      ],
+      "text": "そこで",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-shitagatte-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{薬|くすり}は{強|つよ}いです。[[したがって]]、{一日|いちにち}{一回|いっかい}だけ{飲|の}んでください。",
+          "source": "ai-draft",
+          "vi": "Thuốc này mạnh. Do đó, hãy chỉ uống một lần mỗi ngày."
+        },
+        {
+          "id": "cn-shitagatte-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{雨|あめ}の{日|ひ}は{客|きゃく}が{少|すく}ない。[[したがって]]、{店|みせ}の{売|う}り{上|あ}げも{下|さ}がる。",
+          "source": "ai-draft",
+          "vi": "Ngày mưa thì ít khách. Do đó doanh thu của cửa hàng cũng giảm."
+        },
+        {
+          "id": "cn-shitagatte-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{申|もう}し{込|こ}む{人|ひと}が{少|すく}なかった。[[したがって]]、{旅行|りょこう}は{中止|ちゅうし}になった。",
+          "source": "ai-draft",
+          "vi": "Số người đăng ký ít. Do đó chuyến du lịch đã bị hủy."
+        }
+      ],
+      "forms": [
+        "したがって",
+        "従って"
+      ],
+      "function": "cause",
+      "grammar_refs": [],
+      "id": "cn-shitagatte",
+      "kana": "したがって",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "do đó, theo đó (văn viết)",
+      "note_vi": "Văn viết, trang trọng: kết luận suy ra một cách logic từ câu trước.",
+      "review": "auto",
+      "ruby": "したがって",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-yotte",
+        "cn-yueni"
+      ],
+      "text": "したがって",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-yotte-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{反対|はんたい}する{人|ひと}はいませんでした。[[よって]]、この{案|あん}に{決|き}まりました。",
+          "source": "ai-draft",
+          "vi": "Không có ai phản đối. Vì thế phương án này đã được thông qua."
+        },
+        {
+          "id": "cn-yotte-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "あなたは{成績|せいせき}が{優秀|ゆうしゅう}でした。[[よって]]、ここに{表彰|ひょうしょう}します。",
+          "source": "ai-draft",
+          "vi": "Bạn đã đạt thành tích xuất sắc. Vì thế, xin trao giấy khen này."
+        },
+        {
+          "id": "cn-yotte-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "AはBと{等|ひと}しく、BはCと{等|ひと}しい。[[よって]]、AはCと{等|ひと}しい。",
+          "source": "ai-draft",
+          "vi": "A bằng B, B bằng C. Do đó A bằng C."
+        }
+      ],
+      "forms": [
+        "よって"
+      ],
+      "function": "cause",
+      "grammar_refs": [],
+      "id": "cn-yotte",
+      "kana": "よって",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "vì thế, do đó (văn viết)",
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Văn bản hành chính, chứng minh toán học, giấy khen: 「よって、ここに表彰します」.",
+      "review": "auto",
+      "ruby": "よって",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yueni"
+      ],
+      "text": "よって",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-yueni-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{我|われ}{思|おも}う、[[ゆえに]]{我|われ}あり。",
+          "source": "ai-draft",
+          "vi": "Tôi tư duy, vì thế tôi tồn tại."
+        },
+        {
+          "id": "cn-yueni-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼|かれ}は{正直|しょうじき}すぎる。[[ゆえに]]、よく{損|そん}をする。",
+          "source": "ai-draft",
+          "vi": "Anh ấy quá thật thà. Chính vì vậy hay bị thiệt."
+        },
+        {
+          "id": "cn-yueni-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{地域|ちいき}は{雨|あめ}が{少|すく}ない。[[ゆえに]]、{水|みず}がとても{大切|たいせつ}だ。",
+          "source": "ai-draft",
+          "vi": "Vùng này ít mưa. Bởi lẽ đó nước rất quý."
+        }
+      ],
+      "forms": [
+        "ゆえに",
+        "故に"
+      ],
+      "function": "cause",
+      "grammar_refs": [],
+      "id": "cn-yueni",
+      "kana": "ゆえに",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "chính vì vậy, bởi lẽ đó (rất trang trọng)",
+      "note_vi": "Cấp thực tế N1 (tạm xếp N3). Rất cứng, gặp trong văn triết học, logic: 「我思う、ゆえに我あり」.",
+      "review": "auto",
+      "ruby": "ゆえに",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte"
+      ],
+      "text": "ゆえに",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-shikamo-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{店|みせ}は{安|やす}いです。[[しかも]]、{料理|りょうり}がおいしいです。",
+          "source": "ai-draft",
+          "vi": "Quán này rẻ. Đã thế đồ ăn lại còn ngon."
+        },
+        {
+          "id": "cn-shikamo-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{外|そと}は{寒|さむ}いです。[[しかも]]、{雨|あめ}が{降|ふ}っています。",
+          "source": "ai-draft",
+          "vi": "Ngoài trời lạnh. Hơn nữa lại còn đang mưa."
+        },
+        {
+          "id": "cn-shikamo-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼女|かのじょ}は{英語|えいご}が{話|はな}せる。[[しかも]]、{中国語|ちゅうごくご}も{話|はな}せる。",
+          "source": "ai-draft",
+          "vi": "Cô ấy nói được tiếng Anh. Hơn nữa còn nói được cả tiếng Trung."
+        }
+      ],
+      "forms": [
+        "しかも"
+      ],
+      "function": "addition",
+      "grammar_refs": [],
+      "id": "cn-shikamo",
+      "kana": "しかも",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "hơn nữa, đã thế lại còn",
+      "note_vi": "Thêm một ý cùng chiều, thường làm mức độ tăng lên (tốt càng tốt, xấu càng xấu).",
+      "review": "auto",
+      "ruby": "しかも",
+      "substitutes": [
+        "cn-soreni",
+        "cn-sonoue",
+        "cn-mata",
+        "cn-sarani"
+      ],
+      "text": "しかも",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sarani-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{値段|ねだん}が{上|あ}がりました。[[さらに]]、{来月|らいげつ}も{上|あ}がるそうです。",
+          "source": "ai-draft",
+          "vi": "Giá đã tăng. Hơn nữa, nghe nói tháng sau còn tăng tiếp."
+        },
+        {
+          "id": "cn-sarani-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{熱|ねつ}が{出|で}ました。[[さらに]]、{頭|あたま}も{痛|いた}くなりました。",
+          "source": "ai-draft",
+          "vi": "Tôi bị sốt. Thêm vào đó còn bị đau đầu."
+        },
+        {
+          "id": "cn-sarani-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{毎日|まいにち}{練習|れんしゅう}すれば、[[さらに]]{上手|じょうず}になります。",
+          "source": "ai-draft",
+          "vi": "Nếu luyện tập mỗi ngày thì sẽ càng giỏi hơn."
+        }
+      ],
+      "forms": [
+        "さらに",
+        "更に"
+      ],
+      "function": "addition",
+      "grammar_refs": [],
+      "id": "cn-sarani",
+      "kana": "さらに",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "hơn nữa, càng… hơn",
+      "note_vi": "Thêm một việc nữa vào chuỗi; đứng trước tính từ/động từ thì nghĩa là \"càng… hơn\".",
+      "review": "auto",
+      "ruby": "さらに",
+      "substitutes": [
+        "cn-soreni",
+        "cn-sonoue",
+        "cn-mata",
+        "cn-shikamo"
+      ],
+      "text": "さらに",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-nao-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{会議|かいぎ}は{三時|さんじ}からです。[[なお]]、{場所|ばしょ}は{二階|にかい}の{会議室|かいぎしつ}です。",
+          "source": "ai-draft",
+          "vi": "Cuộc họp bắt đầu từ 3 giờ. Ngoài ra, địa điểm là phòng họp tầng 2."
+        },
+        {
+          "id": "cn-nao-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{申|もう}し{込|こ}みは{金曜日|きんようび}までです。[[なお]]、{電話|でんわ}での{申|もう}し{込|こ}みはできません。",
+          "source": "ai-draft",
+          "vi": "Hạn đăng ký đến thứ Sáu. Xin lưu ý thêm, không nhận đăng ký qua điện thoại."
+        },
+        {
+          "id": "cn-nao-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{明日|あした}は{図書館|としょかん}が{休|やす}みです。[[なお]]、{駐車場|ちゅうしゃじょう}は{使|つか}えます。",
+          "source": "ai-draft",
+          "vi": "Ngày mai thư viện nghỉ. Ngoài ra, bãi đỗ xe vẫn sử dụng được."
+        }
+      ],
+      "forms": [
+        "なお"
+      ],
+      "function": "addition",
+      "grammar_refs": [],
+      "id": "cn-nao",
+      "kana": "なお",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "ngoài ra, xin lưu ý thêm",
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Bổ sung thông tin phụ sau nội dung chính — hay gặp trong thông báo, email.",
+      "review": "auto",
+      "ruby": "なお",
+      "substitutes": [],
+      "text": "なお",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-oyobi-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{住所|じゅうしょ}[[および]]{電話番号|でんわばんごう}を{書|か}いてください。",
+          "source": "ai-draft",
+          "vi": "Hãy ghi địa chỉ và số điện thoại."
+        },
+        {
+          "id": "cn-oyobi-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{館内|かんない}での{飲食|いんしょく}[[および]]{喫煙|きつえん}は{禁止|きんし}です。",
+          "source": "ai-draft",
+          "vi": "Cấm ăn uống và hút thuốc trong tòa nhà."
+        },
+        {
+          "id": "cn-oyobi-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{会議|かいぎ}は{東京|とうきょう}[[および]]{大阪|おおさか}で{行|おこな}われる。",
+          "source": "ai-draft",
+          "vi": "Hội nghị được tổ chức tại Tokyo và Osaka."
+        }
+      ],
+      "forms": [
+        "および",
+        "及び"
+      ],
+      "function": "addition",
+      "grammar_refs": [],
+      "id": "cn-oyobi",
+      "kana": "および",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "và, cùng với (văn viết)",
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Nối DANH TỪ (A および B), không nối hai câu. Văn viết, văn bản hành chính.",
+      "review": "auto",
+      "ruby": "{及|およ}び",
+      "substitutes": [],
+      "text": "および",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-yousuruni-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{時間|じかん}もないし、お{金|かね}もない。[[{要|よう}するに]]、{今年|ことし}は{旅行|りょこう}に{行|い}けない。",
+          "source": "ai-draft",
+          "vi": "Không có thời gian, cũng không có tiền. Tóm lại là năm nay không đi du lịch được."
+        },
+        {
+          "id": "cn-yousuruni-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼|かれ}の{話|はなし}は{長|なが}かったが、[[{要|よう}するに]]{会社|かいしゃ}を{辞|や}めたいということだ。",
+          "source": "ai-draft",
+          "vi": "Anh ấy nói dài dòng, nhưng tóm lại là muốn nghỉ việc."
+        },
+        {
+          "id": "cn-yousuruni-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{熱|ねつ}もないし、{食欲|しょくよく}もある。[[{要|よう}するに]]、もう{元気|げんき}だということです。",
+          "source": "ai-draft",
+          "vi": "Không sốt, ăn uống cũng ngon. Nói tóm lại là đã khỏe rồi."
+        }
+      ],
+      "forms": [
+        "要するに",
+        "ようするに"
+      ],
+      "function": "rephrase",
+      "grammar_refs": [],
+      "id": "cn-yousuruni",
+      "kana": "ようするに",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "tóm lại, nói tóm lại",
+      "note_vi": "Rút gọn điều vừa nói thành ý chính; gần つまり nhưng nhấn mạnh việc tóm ý.",
+      "review": "auto",
+      "ruby": "{要|よう}するに",
+      "substitutes": [
+        "cn-tsumari",
+        "cn-iikaeruto",
+        "cn-sunawachi"
+      ],
+      "text": "要するに",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-iikaeruto-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼|かれ}は{母|はは}の{兄|あに}です。[[{言|い}い{換|か}えると]]、{私|わたし}の{伯父|おじ}です。",
+          "source": "ai-draft",
+          "vi": "Ông ấy là anh trai của mẹ tôi. Nói cách khác, là bác tôi."
+        },
+        {
+          "id": "cn-iikaeruto-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{仕事|しごと}は{自由|じゆう}だ。[[{言|い}い{換|か}えれば]]、{全部|ぜんぶ}{自分|じぶん}で{決|き}めなければならない。",
+          "source": "ai-draft",
+          "vi": "Công việc này tự do. Nói cách khác, mọi thứ phải tự mình quyết định."
+        },
+        {
+          "id": "cn-iikaeruto-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼女|かのじょ}は{失敗|しっぱい}を{恐|おそ}れない。[[{言|い}い{換|か}えると]]、とても{勇気|ゆうき}がある。",
+          "source": "ai-draft",
+          "vi": "Cô ấy không sợ thất bại. Nói cách khác là rất dũng cảm."
+        }
+      ],
+      "forms": [
+        "言い換えると",
+        "言い換えれば"
+      ],
+      "function": "rephrase",
+      "grammar_refs": [],
+      "id": "cn-iikaeruto",
+      "kana": "いいかえると",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nói cách khác thì",
+      "note_vi": "Diễn đạt lại ý trước bằng cách khác cho dễ hiểu; dạng khác: 言い換えれば.",
+      "review": "auto",
+      "ruby": "{言|い}い{換|か}えると",
+      "substitutes": [
+        "cn-tsumari",
+        "cn-yousuruni",
+        "cn-sunawachi"
+      ],
+      "text": "言い換えると",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sunawachi-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{日本|にほん}の{首都|しゅと}、[[すなわち]]{東京|とうきょう}には{多|おお}くの{人|ひと}が{住|す}んでいる。",
+          "source": "ai-draft",
+          "vi": "Thủ đô của Nhật Bản, tức là Tokyo, có rất nhiều người sinh sống."
+        },
+        {
+          "id": "cn-sunawachi-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{父|ちち}の{父|ちち}、[[すなわち]]{祖父|そふ}は{医者|いしゃ}だった。",
+          "source": "ai-draft",
+          "vi": "Bố của bố tôi, tức là ông nội tôi, từng là bác sĩ."
+        },
+        {
+          "id": "cn-sunawachi-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{毎日|まいにち}{続|つづ}けること、[[すなわち]]それが{上達|じょうたつ}の{一番|いちばん}の{方法|ほうほう}だ。",
+          "source": "ai-draft",
+          "vi": "Duy trì mỗi ngày, chính đó là cách tốt nhất để tiến bộ."
+        }
+      ],
+      "forms": [
+        "すなわち",
+        "即ち"
+      ],
+      "function": "rephrase",
+      "grammar_refs": [],
+      "id": "cn-sunawachi",
+      "kana": "すなわち",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "tức là, chính là",
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Văn viết của つまり: nói lại cùng một thứ bằng tên gọi khác.",
+      "review": "auto",
+      "ruby": "すなわち",
+      "substitutes": [
+        "cn-tsumari",
+        "cn-yousuruni",
+        "cn-iikaeruto"
+      ],
+      "text": "すなわち",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-iwaba-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{彼|かれ}は[[いわば]]{生|い}き{字引|じびき}だ。",
+          "source": "ai-draft",
+          "vi": "Có thể nói anh ấy là một cuốn từ điển sống."
+        },
+        {
+          "id": "cn-iwaba-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "この{町|まち}は[[いわば]]{私|わたし}の{第二|だいに}の{故郷|ふるさと}です。",
+          "source": "ai-draft",
+          "vi": "Thị trấn này có thể nói là quê hương thứ hai của tôi."
+        },
+        {
+          "id": "cn-iwaba-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{私|わたし}にとって{猫|ねこ}は、[[いわば]]{家族|かぞく}のようなものだ。",
+          "source": "ai-draft",
+          "vi": "Đối với tôi, con mèo ví như là người trong gia đình."
+        }
+      ],
+      "forms": [
+        "いわば"
+      ],
+      "function": "rephrase",
+      "grammar_refs": [],
+      "id": "cn-iwaba",
+      "kana": "いわば",
+      "lesson": null,
+      "level": "n3",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "có thể nói là, ví như là",
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). So sánh ví von: 「いわば～のようなものだ」.",
+      "review": "auto",
+      "ruby": "いわば",
+      "substitutes": [],
+      "text": "いわば",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-sate-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{皆|みな}さん、そろいましたね。[[さて]]、{今日|きょう}の{会議|かいぎ}を{始|はじ}めます。",
+          "source": "ai-draft",
+          "vi": "Mọi người đã đủ cả rồi nhỉ. Nào, bây giờ chúng ta bắt đầu cuộc họp hôm nay."
+        },
+        {
+          "id": "cn-sate-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{暑|あつ}い{日|ひ}が{続|つづ}いていますね。[[さて]]、{来月|らいげつ}の{旅行|りょこう}のことですが…。",
+          "source": "ai-draft",
+          "vi": "Trời nóng mãi nhỉ. Còn bây giờ, về chuyến du lịch tháng sau thì…"
+        },
+        {
+          "id": "cn-sate-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{食事|しょくじ}も{終|お}わった。[[さて]]、{宿題|しゅくだい}をしよう。",
+          "source": "ai-draft",
+          "vi": "Ăn xong rồi. Nào, giờ làm bài tập thôi."
+        }
+      ],
+      "forms": [
+        "さて"
+      ],
+      "function": "topic",
+      "grammar_refs": [],
+      "id": "cn-sate",
+      "kana": "さて",
+      "lesson": null,
+      "level": "n4",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "nào, bây giờ thì (chuyển sang việc chính)",
+      "note_vi": "Kết thúc phần mở đầu và chuyển sang nội dung chính, hoặc tự nhủ khi bắt đầu làm gì.",
+      "review": "auto",
+      "ruby": "さて",
+      "substitutes": [
+        "cn-tokorode"
+      ],
+      "text": "さて",
+      "type": "sentence",
+      "vocab_refs": []
+    },
+    {
+      "book": null,
+      "connects_vi": null,
+      "examples": [
+        {
+          "id": "cn-tsugini-e01",
+          "ref": null,
+          "review": "auto",
+          "ruby": "まず{手|て}を{洗|あら}います。[[{次|つぎ}に]]、{野菜|やさい}を{切|き}ります。",
+          "source": "ai-draft",
+          "vi": "Trước tiên rửa tay. Tiếp theo, thái rau."
+        },
+        {
+          "id": "cn-tsugini-e02",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{最初|さいしょ}に{名前|なまえ}を{書|か}いてください。[[{次|つぎ}に]]、{住所|じゅうしょ}を{書|か}いてください。",
+          "source": "ai-draft",
+          "vi": "Đầu tiên hãy viết tên. Tiếp theo hãy viết địa chỉ."
+        },
+        {
+          "id": "cn-tsugini-e03",
+          "ref": null,
+          "review": "auto",
+          "ruby": "{最初|さいしょ}に{京都|きょうと}へ{行|い}きました。[[{次|つぎ}に]]、{大阪|おおさか}へ{行|い}きました。",
+          "source": "ai-draft",
+          "vi": "Đầu tiên tôi đến Kyoto. Kế tiếp là đến Osaka."
+        }
+      ],
+      "forms": [
+        "次に",
+        "つぎに"
+      ],
+      "function": "sequence",
+      "grammar_refs": [],
+      "id": "cn-tsugini",
+      "kana": "つぎに",
+      "lesson": null,
+      "level": "n5",
+      "meaning_source": "ai-draft",
+      "meaning_vi": "tiếp theo, kế tiếp là",
+      "note_vi": "Kể các bước theo thứ tự: まず… 次に… 最後に…",
+      "review": "auto",
+      "ruby": "{次|つぎ}に",
+      "substitutes": [
+        "cn-sorekara"
+      ],
+      "text": "次に",
       "type": "sentence",
       "vocab_refs": []
     },

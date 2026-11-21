@@ -257,8 +257,17 @@ body:has(#view-single:checked) .word-card:has(.flip-toggle:focus-visible) {
 body:has(#toggle-furigana:checked) rt {
   visibility: hidden;
 }
-body:has(#toggle-target-reading:checked) .sentence .target rt {
+/* Ẩn furigana: ẩn cả cách đọc ở tiêu đề thẻ khi nhấn mạnh Kanji (chế độ Hiragana: kana là chữ chính → giữ).
+   visibility (không display) → giữ chiều cao thẻ. */
+body:has(#toggle-furigana:checked):not(:has(#focus-kana:checked)) .headword .hw-kana {
+  visibility: hidden;
+}
+/* + Hiện furigana từ vựng (chỉ có tác dụng khi đang Ẩn furigana): trả lại cách đọc của từ của thẻ
+   (tiêu đề + từ tô xanh trong câu); chữ Hán khác trong câu vẫn ẩn. Khóa / bỏ chọn: script ở LessonView. */
+body:has(#toggle-furigana:checked):has(#toggle-vocab-reading:checked) .headword .hw-kana,
+body:has(#toggle-furigana:checked):has(#toggle-vocab-reading:checked) .sentence .target rt {
   display: revert;
+  visibility: visible;
 }
 body:has(#toggle-vi:checked) .example-vi {
   filter: blur(5px);
