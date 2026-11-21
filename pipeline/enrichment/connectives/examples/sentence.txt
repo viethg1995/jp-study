@@ -69,6 +69,7 @@ cn-tatoeba-e03|ai|{冬|ふゆ}のスポーツ、[[{例|たと}えば]]スキー�
 cn-ja-e01|ai|{全員|ぜんいん}{来|き}ましたね。[[じゃ]]、{始|はじ}めましょう。|Mọi người đến đủ rồi nhỉ. Vậy thì chúng ta bắt đầu thôi.
 cn-ja-e02|ai|もう{九時|くじ}ですね。[[じゃあ]]、{失礼|しつれい}します。|Đã 9 giờ rồi nhỉ. Vậy thì tôi xin phép về.
 cn-ja-e03|ai|この{赤|あか}いのはちょっと{高|たか}いですね。[[じゃ]]、その{青|あお}いのをください。|Cái màu đỏ này hơi đắt nhỉ. Thế thì cho tôi cái màu xanh kia.
+cn-ja-e04|ai|{時間|じかん}になりました。[[それでは]]、{授業|じゅぎょう}を{始|はじ}めます。|Đã đến giờ rồi. Vậy thì chúng ta bắt đầu giờ học.
 
 cn-tokorode-e01|ai|{旅行|りょこう}は{楽|たの}しかったです。[[ところで]]、{山田|やまだ}さんはお{元気|げんき}ですか。|Chuyến du lịch vui lắm. À này, anh Yamada có khỏe không?
 cn-tokorode-e02|ai|{今日|きょう}は{暑|あつ}いですね。[[ところで]]、{明日|あした}の{会議|かいぎ}は{何時|なんじ}からですか。|Hôm nay nóng nhỉ. Nhân tiện, cuộc họp ngày mai bắt đầu lúc mấy giờ?
@@ -81,3 +82,63 @@ cn-suruto-e03|ai|{角|かど}を{曲|ま}がりました。[[すると]]、{大|
 cn-sorenara-e01|ai|「{頭|あたま}が{痛|いた}いんです。」「[[それなら]]、{早|はや}く{帰|かえ}ったほうがいいですよ。」|"Tôi bị đau đầu." "Nếu vậy thì nên về sớm đi."
 cn-sorenara-e02|ai|「{日本料理|にほんりょうり}が{食|た}べたいです。」「[[それなら]]、{駅|えき}の{前|まえ}の{店|みせ}がいいですよ。」|"Tôi muốn ăn món Nhật." "Nếu vậy thì quán trước ga được đấy."
 cn-sorenara-e03|ai|「{明日|あした}は{用事|ようじ}があります。」「[[それなら]]、{来週|らいしゅう}にしましょう。」|"Mai tôi có việc bận." "Nếu vậy thì để tuần sau nhé."
+
+cn-nanode-e01|ai|{昨日|きのう}は{熱|ねつ}がありました。[[なので]]、{学校|がっこう}を{休|やす}みました。|Hôm qua tôi bị sốt. Vì thế tôi đã nghỉ học.
+cn-nanode-e02|ai|{駅|えき}まで{遠|とお}いです。[[なので]]、いつもバスで{行|い}きます。|Đến ga xa lắm. Cho nên lúc nào tôi cũng đi xe buýt.
+cn-nanode-e03|ai|{明日|あした}はテストがあります。[[なので]]、{今夜|こんや}は{勉強|べんきょう}します。|Ngày mai có bài kiểm tra. Vì vậy tối nay tôi sẽ học bài.
+
+cn-sokode-e01|ai|{道|みち}が{分|わ}かりませんでした。[[そこで]]、{近|ちか}くの{人|ひと}に{聞|き}きました。|Tôi không biết đường. Vì thế nên tôi đã hỏi người gần đó.
+cn-sokode-e02|ai|{最近|さいきん}{太|ふと}ってきました。[[そこで]]、{毎朝|まいあさ}{走|はし}ることにしました。|Dạo này tôi tăng cân. Thế nên tôi quyết định sáng nào cũng chạy bộ.
+cn-sokode-e03|ai|{会議室|かいぎしつ}が{狭|せま}すぎます。[[そこで]]、{大|おお}きい{部屋|へや}を{借|か}りました。|Phòng họp quá chật. Vì vậy chúng tôi đã thuê một phòng lớn.
+
+cn-shitagatte-e01|ai|この{薬|くすり}は{強|つよ}いです。[[したがって]]、{一日|いちにち}{一回|いっかい}だけ{飲|の}んでください。|Thuốc này mạnh. Do đó, hãy chỉ uống một lần mỗi ngày.
+cn-shitagatte-e02|ai|{雨|あめ}の{日|ひ}は{客|きゃく}が{少|すく}ない。[[したがって]]、{店|みせ}の{売|う}り{上|あ}げも{下|さ}がる。|Ngày mưa thì ít khách. Do đó doanh thu của cửa hàng cũng giảm.
+cn-shitagatte-e03|ai|{申|もう}し{込|こ}む{人|ひと}が{少|すく}なかった。[[したがって]]、{旅行|りょこう}は{中止|ちゅうし}になった。|Số người đăng ký ít. Do đó chuyến du lịch đã bị hủy.
+
+cn-yotte-e01|ai|{反対|はんたい}する{人|ひと}はいませんでした。[[よって]]、この{案|あん}に{決|き}まりました。|Không có ai phản đối. Vì thế phương án này đã được thông qua.
+cn-yotte-e02|ai|あなたは{成績|せいせき}が{優秀|ゆうしゅう}でした。[[よって]]、ここに{表彰|ひょうしょう}します。|Bạn đã đạt thành tích xuất sắc. Vì thế, xin trao giấy khen này.
+cn-yotte-e03|ai|AはBと{等|ひと}しく、BはCと{等|ひと}しい。[[よって]]、AはCと{等|ひと}しい。|A bằng B, B bằng C. Do đó A bằng C.
+
+cn-yueni-e01|ai|{我|われ}{思|おも}う、[[ゆえに]]{我|われ}あり。|Tôi tư duy, vì thế tôi tồn tại.
+cn-yueni-e02|ai|{彼|かれ}は{正直|しょうじき}すぎる。[[ゆえに]]、よく{損|そん}をする。|Anh ấy quá thật thà. Chính vì vậy hay bị thiệt.
+cn-yueni-e03|ai|この{地域|ちいき}は{雨|あめ}が{少|すく}ない。[[ゆえに]]、{水|みず}がとても{大切|たいせつ}だ。|Vùng này ít mưa. Bởi lẽ đó nước rất quý.
+
+cn-shikamo-e01|ai|この{店|みせ}は{安|やす}いです。[[しかも]]、{料理|りょうり}がおいしいです。|Quán này rẻ. Đã thế đồ ăn lại còn ngon.
+cn-shikamo-e02|ai|{外|そと}は{寒|さむ}いです。[[しかも]]、{雨|あめ}が{降|ふ}っています。|Ngoài trời lạnh. Hơn nữa lại còn đang mưa.
+cn-shikamo-e03|ai|{彼女|かのじょ}は{英語|えいご}が{話|はな}せる。[[しかも]]、{中国語|ちゅうごくご}も{話|はな}せる。|Cô ấy nói được tiếng Anh. Hơn nữa còn nói được cả tiếng Trung.
+
+cn-sarani-e01|ai|{値段|ねだん}が{上|あ}がりました。[[さらに]]、{来月|らいげつ}も{上|あ}がるそうです。|Giá đã tăng. Hơn nữa, nghe nói tháng sau còn tăng tiếp.
+cn-sarani-e02|ai|{熱|ねつ}が{出|で}ました。[[さらに]]、{頭|あたま}も{痛|いた}くなりました。|Tôi bị sốt. Thêm vào đó còn bị đau đầu.
+cn-sarani-e03|ai|{毎日|まいにち}{練習|れんしゅう}すれば、[[さらに]]{上手|じょうず}になります。|Nếu luyện tập mỗi ngày thì sẽ càng giỏi hơn.
+
+cn-nao-e01|ai|{会議|かいぎ}は{三時|さんじ}からです。[[なお]]、{場所|ばしょ}は{二階|にかい}の{会議室|かいぎしつ}です。|Cuộc họp bắt đầu từ 3 giờ. Ngoài ra, địa điểm là phòng họp tầng 2.
+cn-nao-e02|ai|{申|もう}し{込|こ}みは{金曜日|きんようび}までです。[[なお]]、{電話|でんわ}での{申|もう}し{込|こ}みはできません。|Hạn đăng ký đến thứ Sáu. Xin lưu ý thêm, không nhận đăng ký qua điện thoại.
+cn-nao-e03|ai|{明日|あした}は{図書館|としょかん}が{休|やす}みです。[[なお]]、{駐車場|ちゅうしゃじょう}は{使|つか}えます。|Ngày mai thư viện nghỉ. Ngoài ra, bãi đỗ xe vẫn sử dụng được.
+
+cn-oyobi-e01|ai|{住所|じゅうしょ}[[および]]{電話番号|でんわばんごう}を{書|か}いてください。|Hãy ghi địa chỉ và số điện thoại.
+cn-oyobi-e02|ai|{館内|かんない}での{飲食|いんしょく}[[および]]{喫煙|きつえん}は{禁止|きんし}です。|Cấm ăn uống và hút thuốc trong tòa nhà.
+cn-oyobi-e03|ai|{会議|かいぎ}は{東京|とうきょう}[[および]]{大阪|おおさか}で{行|おこな}われる。|Hội nghị được tổ chức tại Tokyo và Osaka.
+
+cn-yousuruni-e01|ai|{時間|じかん}もないし、お{金|かね}もない。[[{要|よう}するに]]、{今年|ことし}は{旅行|りょこう}に{行|い}けない。|Không có thời gian, cũng không có tiền. Tóm lại là năm nay không đi du lịch được.
+cn-yousuruni-e02|ai|{彼|かれ}の{話|はなし}は{長|なが}かったが、[[{要|よう}するに]]{会社|かいしゃ}を{辞|や}めたいということだ。|Anh ấy nói dài dòng, nhưng tóm lại là muốn nghỉ việc.
+cn-yousuruni-e03|ai|{熱|ねつ}もないし、{食欲|しょくよく}もある。[[{要|よう}するに]]、もう{元気|げんき}だということです。|Không sốt, ăn uống cũng ngon. Nói tóm lại là đã khỏe rồi.
+
+cn-iikaeruto-e01|ai|{彼|かれ}は{母|はは}の{兄|あに}です。[[{言|い}い{換|か}えると]]、{私|わたし}の{伯父|おじ}です。|Ông ấy là anh trai của mẹ tôi. Nói cách khác, là bác tôi.
+cn-iikaeruto-e02|ai|この{仕事|しごと}は{自由|じゆう}だ。[[{言|い}い{換|か}えれば]]、{全部|ぜんぶ}{自分|じぶん}で{決|き}めなければならない。|Công việc này tự do. Nói cách khác, mọi thứ phải tự mình quyết định.
+cn-iikaeruto-e03|ai|{彼女|かのじょ}は{失敗|しっぱい}を{恐|おそ}れない。[[{言|い}い{換|か}えると]]、とても{勇気|ゆうき}がある。|Cô ấy không sợ thất bại. Nói cách khác là rất dũng cảm.
+
+cn-sunawachi-e01|ai|{日本|にほん}の{首都|しゅと}、[[すなわち]]{東京|とうきょう}には{多|おお}くの{人|ひと}が{住|す}んでいる。|Thủ đô của Nhật Bản, tức là Tokyo, có rất nhiều người sinh sống.
+cn-sunawachi-e02|ai|{父|ちち}の{父|ちち}、[[すなわち]]{祖父|そふ}は{医者|いしゃ}だった。|Bố của bố tôi, tức là ông nội tôi, từng là bác sĩ.
+cn-sunawachi-e03|ai|{毎日|まいにち}{続|つづ}けること、[[すなわち]]それが{上達|じょうたつ}の{一番|いちばん}の{方法|ほうほう}だ。|Duy trì mỗi ngày, chính đó là cách tốt nhất để tiến bộ.
+
+cn-iwaba-e01|ai|{彼|かれ}は[[いわば]]{生|い}き{字引|じびき}だ。|Có thể nói anh ấy là một cuốn từ điển sống.
+cn-iwaba-e02|ai|この{町|まち}は[[いわば]]{私|わたし}の{第二|だいに}の{故郷|ふるさと}です。|Thị trấn này có thể nói là quê hương thứ hai của tôi.
+cn-iwaba-e03|ai|{私|わたし}にとって{猫|ねこ}は、[[いわば]]{家族|かぞく}のようなものだ。|Đối với tôi, con mèo ví như là người trong gia đình.
+
+cn-sate-e01|ai|{皆|みな}さん、そろいましたね。[[さて]]、{今日|きょう}の{会議|かいぎ}を{始|はじ}めます。|Mọi người đã đủ cả rồi nhỉ. Nào, bây giờ chúng ta bắt đầu cuộc họp hôm nay.
+cn-sate-e02|ai|{暑|あつ}い{日|ひ}が{続|つづ}いていますね。[[さて]]、{来月|らいげつ}の{旅行|りょこう}のことですが…。|Trời nóng mãi nhỉ. Còn bây giờ, về chuyến du lịch tháng sau thì…
+cn-sate-e03|ai|{食事|しょくじ}も{終|お}わった。[[さて]]、{宿題|しゅくだい}をしよう。|Ăn xong rồi. Nào, giờ làm bài tập thôi.
+
+cn-tsugini-e01|ai|まず{手|て}を{洗|あら}います。[[{次|つぎ}に]]、{野菜|やさい}を{切|き}ります。|Trước tiên rửa tay. Tiếp theo, thái rau.
+cn-tsugini-e02|ai|{最初|さいしょ}に{名前|なまえ}を{書|か}いてください。[[{次|つぎ}に]]、{住所|じゅうしょ}を{書|か}いてください。|Đầu tiên hãy viết tên. Tiếp theo hãy viết địa chỉ.
+cn-tsugini-e03|ai|{最初|さいしょ}に{京都|きょうと}へ{行|い}きました。[[{次|つぎ}に]]、{大阪|おおさか}へ{行|い}きました。|Đầu tiên tôi đến Kyoto. Kế tiếp là đến Osaka.

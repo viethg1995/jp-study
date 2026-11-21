@@ -38,7 +38,7 @@
       "kana": "それから",
       "type": "sentence",
       "function": "sequence",
-      "meaning_vi": "sau đó, tiếp theo",
+      "meaning_vi": "sau đó, tiếp theo; ngoài ra, thêm nữa",
       "connects_vi": null,
       "level": "n5",
       "book": "minna",
@@ -52,7 +52,8 @@
       "grammar_refs": [],
       "note_vi": "Kể hành động theo trình tự thời gian; cũng dùng để thêm ý (\"còn nữa\").",
       "substitutes": [
-        "cn-soshite"
+        "cn-soshite",
+        "cn-tsugini"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -185,7 +186,12 @@
       "note_vi": "Dạng lịch sự của だから.",
       "substitutes": [
         "cn-dakara",
-        "cn-sorede"
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -210,7 +216,12 @@
       "note_vi": "Dạng thông thường của ですから; vế sau có thể là ý muốn, lời khuyên.",
       "substitutes": [
         "cn-desukara",
-        "cn-sorede"
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -240,7 +251,12 @@
       "note_vi": "Kết quả khách quan của sự việc trước; vế sau không dùng mệnh lệnh, rủ rê. Trong hội thoại còn dùng để giục kể tiếp (\"rồi sao?\").",
       "substitutes": [
         "cn-desukara",
-        "cn-dakara"
+        "cn-dakara",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -270,7 +286,9 @@
       "substitutes": [
         "cn-soshite",
         "cn-sonoue",
-        "cn-mata"
+        "cn-mata",
+        "cn-shikamo",
+        "cn-sarani"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -297,7 +315,9 @@
       "note_vi": "Trang trọng hơn それに.",
       "substitutes": [
         "cn-soreni",
-        "cn-mata"
+        "cn-mata",
+        "cn-shikamo",
+        "cn-sarani"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -324,7 +344,9 @@
       "note_vi": "Khác phó từ また (lại, lần nữa — mn-14-037).",
       "substitutes": [
         "cn-soreni",
-        "cn-sonoue"
+        "cn-sonoue",
+        "cn-shikamo",
+        "cn-sarani"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -401,7 +423,11 @@
       ],
       "grammar_refs": [],
       "note_vi": "Nói lại ý trước bằng cách khác hoặc rút ra kết luận.",
-      "substitutes": [],
+      "substitutes": [
+        "cn-yousuruni",
+        "cn-iikaeruto",
+        "cn-sunawachi"
+      ],
       "meaning_source": "vocab",
       "review": "auto"
     },
@@ -443,11 +469,14 @@
       "forms": [
         "じゃ",
         "じゃあ",
-        "では"
+        "では",
+        "それでは",
+        "それじゃ",
+        "それじゃあ"
       ],
       "vocab_refs": [],
       "grammar_refs": [],
-      "note_vi": "Văn nói; trang trọng hơn: では. Dùng khi chuyển sang việc tiếp theo, kết thúc câu chuyện.",
+      "note_vi": "Văn nói; trang trọng hơn: では. それでは / それじゃ(あ) cùng nghĩa, それでは lịch sự hơn. Dùng khi chuyển sang việc tiếp theo, kết thúc câu chuyện.",
       "substitutes": [
         "cn-sorenara"
       ],
@@ -472,7 +501,9 @@
       "vocab_refs": [],
       "grammar_refs": [],
       "note_vi": "Chuyển sang chủ đề khác hẳn chủ đề đang nói.",
-      "substitutes": [],
+      "substitutes": [
+        "cn-sate"
+      ],
       "meaning_source": "ai-draft",
       "review": "auto"
     },
@@ -518,6 +549,410 @@
       "note_vi": "Đưa ra ý kiến dựa trên điều người kia vừa nói.",
       "substitutes": [
         "cn-ja"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-nanode",
+      "text": "なので",
+      "ruby": "なので",
+      "kana": "なので",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "vì thế, cho nên (văn nói)",
+      "connects_vi": null,
+      "level": "n4",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "なので"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Đứng đầu câu: 「なので、…」. Văn nói thân mật; văn viết dùng だから / したがって. Khác なので nối vế trong câu (xem ので).",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-sokode",
+      "text": "そこで",
+      "ruby": "そこで",
+      "kana": "そこで",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "vì thế nên (làm gì đó để đối phó)",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "そこで"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Câu trước nêu tình huống, câu sau là hành động người nói chọn làm để giải quyết. Không dùng khi câu sau là kết quả tự nhiên.",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-shitagatte",
+      "text": "したがって",
+      "ruby": "したがって",
+      "kana": "したがって",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "do đó, theo đó (văn viết)",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "したがって",
+        "従って"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Văn viết, trang trọng: kết luận suy ra một cách logic từ câu trước.",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-yotte",
+        "cn-yueni"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-yotte",
+      "text": "よって",
+      "ruby": "よって",
+      "kana": "よって",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "vì thế, do đó (văn viết)",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "よって"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Văn bản hành chính, chứng minh toán học, giấy khen: 「よって、ここに表彰します」.",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yueni"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-yueni",
+      "text": "ゆえに",
+      "ruby": "ゆえに",
+      "kana": "ゆえに",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "chính vì vậy, bởi lẽ đó (rất trang trọng)",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "ゆえに",
+        "故に"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Cấp thực tế N1 (tạm xếp N3). Rất cứng, gặp trong văn triết học, logic: 「我思う、ゆえに我あり」.",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-shikamo",
+      "text": "しかも",
+      "ruby": "しかも",
+      "kana": "しかも",
+      "type": "sentence",
+      "function": "addition",
+      "meaning_vi": "hơn nữa, đã thế lại còn",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "しかも"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Thêm một ý cùng chiều, thường làm mức độ tăng lên (tốt càng tốt, xấu càng xấu).",
+      "substitutes": [
+        "cn-soreni",
+        "cn-sonoue",
+        "cn-mata",
+        "cn-sarani"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-sarani",
+      "text": "さらに",
+      "ruby": "さらに",
+      "kana": "さらに",
+      "type": "sentence",
+      "function": "addition",
+      "meaning_vi": "hơn nữa, càng… hơn",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "さらに",
+        "更に"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Thêm một việc nữa vào chuỗi; đứng trước tính từ/động từ thì nghĩa là \"càng… hơn\".",
+      "substitutes": [
+        "cn-soreni",
+        "cn-sonoue",
+        "cn-mata",
+        "cn-shikamo"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-nao",
+      "text": "なお",
+      "ruby": "なお",
+      "kana": "なお",
+      "type": "sentence",
+      "function": "addition",
+      "meaning_vi": "ngoài ra, xin lưu ý thêm",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "なお"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Bổ sung thông tin phụ sau nội dung chính — hay gặp trong thông báo, email.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-oyobi",
+      "text": "および",
+      "ruby": "{及|およ}び",
+      "kana": "および",
+      "type": "sentence",
+      "function": "addition",
+      "meaning_vi": "và, cùng với (văn viết)",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "および",
+        "及び"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Nối DANH TỪ (A および B), không nối hai câu. Văn viết, văn bản hành chính.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-yousuruni",
+      "text": "要するに",
+      "ruby": "{要|よう}するに",
+      "kana": "ようするに",
+      "type": "sentence",
+      "function": "rephrase",
+      "meaning_vi": "tóm lại, nói tóm lại",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "要するに",
+        "ようするに"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Rút gọn điều vừa nói thành ý chính; gần つまり nhưng nhấn mạnh việc tóm ý.",
+      "substitutes": [
+        "cn-tsumari",
+        "cn-iikaeruto",
+        "cn-sunawachi"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-iikaeruto",
+      "text": "言い換えると",
+      "ruby": "{言|い}い{換|か}えると",
+      "kana": "いいかえると",
+      "type": "sentence",
+      "function": "rephrase",
+      "meaning_vi": "nói cách khác thì",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "言い換えると",
+        "言い換えれば"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Diễn đạt lại ý trước bằng cách khác cho dễ hiểu; dạng khác: 言い換えれば.",
+      "substitutes": [
+        "cn-tsumari",
+        "cn-yousuruni",
+        "cn-sunawachi"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-sunawachi",
+      "text": "すなわち",
+      "ruby": "すなわち",
+      "kana": "すなわち",
+      "type": "sentence",
+      "function": "rephrase",
+      "meaning_vi": "tức là, chính là",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "すなわち",
+        "即ち"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Văn viết của つまり: nói lại cùng một thứ bằng tên gọi khác.",
+      "substitutes": [
+        "cn-tsumari",
+        "cn-yousuruni",
+        "cn-iikaeruto"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-iwaba",
+      "text": "いわば",
+      "ruby": "いわば",
+      "kana": "いわば",
+      "type": "sentence",
+      "function": "rephrase",
+      "meaning_vi": "có thể nói là, ví như là",
+      "connects_vi": null,
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "いわば"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). So sánh ví von: 「いわば～のようなものだ」.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-sate",
+      "text": "さて",
+      "ruby": "さて",
+      "kana": "さて",
+      "type": "sentence",
+      "function": "topic",
+      "meaning_vi": "nào, bây giờ thì (chuyển sang việc chính)",
+      "connects_vi": null,
+      "level": "n4",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "さて"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Kết thúc phần mở đầu và chuyển sang nội dung chính, hoặc tự nhủ khi bắt đầu làm gì.",
+      "substitutes": [
+        "cn-tokorode"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-tsugini",
+      "text": "次に",
+      "ruby": "{次|つぎ}に",
+      "kana": "つぎに",
+      "type": "sentence",
+      "function": "sequence",
+      "meaning_vi": "tiếp theo, kế tiếp là",
+      "connects_vi": null,
+      "level": "n5",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "次に",
+        "つぎに"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Kể các bước theo thứ tự: まず… 次に… 最後に…",
+      "substitutes": [
+        "cn-sorekara"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
