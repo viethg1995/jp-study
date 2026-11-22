@@ -21,7 +21,6 @@ Mọi truy cập `localStorage`/`sessionStorage` đi qua `src/lib/storage.ts`. M
 
 | Key | Nội dung |
 |-----|----------|
-| `jp:ui:sidebar` | Trạng thái menu trái trên desktop: `collapsed` hoặc `expanded` (đọc trước khi vẽ trang bằng `SIDEBAR_BOOT_SCRIPT`) |
 | `jp:quiz:wrong` | Câu quiz hay sai (Q10): `{"v":1,"items":{"<id câu>":{"w":số lần sai,"s":số lần đúng liên tiếp,"t":giây}}}` — mọi trang quiz dùng chung; đúng 3 lần liên tiếp → xóa; tối đa 1.000 câu (`lib/quiz/wrong.ts`) |
 | `jp:probe` | Khóa tạm để thử localStorage có dùng được không (`storageAvailable`, ghi rồi xóa ngay) |
 

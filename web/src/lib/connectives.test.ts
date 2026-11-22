@@ -3,7 +3,29 @@ import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 import { loadConnectives, loadVocab } from "../test/data.ts";
 import { parseRuby } from "./ruby.ts";
-import { connectiveHref, grammarLabel, groupByFunction, sourceLabel, vocabHref } from "./connectives.ts";
+import { connectiveHref, grammarLabel, groupByFunction, indexLabel, sourceLabel, splitStructure, vocabHref } from "./connectives.ts";
+
+test("splitStructure: tách khung câu và quy tắc gắn", () => {
+  assert.deepEqual(splitStructure("〜し、〜し、〜。 · thể thông thường + し"), { frame: "〜し、〜し、〜。", rule: "thể thông thường + し" });
+  assert.deepEqual(splitStructure("N1 および N2"), { frame: "N1 および N2", rule: null });
+  assert.equal(splitStructure(null), null);
+});
+
+test("indexLabel: nối vế → khung câu bỏ 。; nối câu → chữ trần", () => {
+  const by = new Map(doc.connectives.map((c) => [c.id, c]));
+  assert.equal(indexLabel(by.get("cn-shi")!), "〜し、〜し、〜");
+  assert.equal(indexLabel(by.get("cn-nagara")!), "V1ながら、V2");
+  assert.equal(indexLabel(by.get("cn-soshite")!), "そして");
+  for (const c of doc.connectives) assert.ok(!indexLabel(c).endsWith("。"), c.id);
+});
+
+test("mọi từ nối đều có cấu trúc, khung chứa chữ của từ nối", () => {
+  for (const c of doc.connectives) {
+    const s = splitStructure(c.connects_vi);
+    assert.ok(s, `${c.id}: thiếu cấu trúc`);
+    assert.ok(c.forms.some((f) => s.frame.includes(f)), `${c.id}: khung "${s.frame}" không chứa dạng nào trong ${c.forms}`);
+  }
+});
 
 const doc = loadConnectives();
 const vocab = loadVocab();

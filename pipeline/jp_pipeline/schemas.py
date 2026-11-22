@@ -647,7 +647,7 @@ CONNECTIVE_FUNCTIONS: dict[str, tuple[str, str]] = {
     "choice": ("Lựa chọn", "hoặc, hay là"),
     "purpose": ("Mục đích", "để, sao cho"),
     "topic": ("Chuyển chủ đề", "nhân tiện, vậy thì"),
-    "rephrase": ("Giải thích, ví dụ", "tóm lại, chẳng hạn"),
+    "rephrase": ("Giải thích, tóm tắt, ví dụ", "tóm lại, rốt cuộc, chẳng hạn"),
 }
 ConnectiveExampleSource = Literal["vocab", "grammar", "ai-draft", "user"]
 
@@ -692,7 +692,10 @@ class Connective(_Strict):
     type: ConnectiveType
     function: ConnectiveFunction
     meaning_vi: str
-    connects_vi: str | None = Field(description="Cách nối (mẫu nối mệnh đề): 'V/A thể thông thường + のに'; null với từ nối câu")
+    connects_vi: str | None = Field(
+        description="Cấu trúc: 'khung câu · quy tắc gắn' — vd '〜のに、〜。 · V / Aい thể thông thường + のに', "
+        "'〜。そして、〜。'; web in đậm phần khung (trước ' · ')"
+    )
     level: Literal["n5", "n4", "n3"]
     book: Book | None = Field(description="Sách có từ / mẫu này; null = ngoài giáo trình (AI tổng hợp)")
     lesson: int | None = Field(ge=1, le=50, description="Bài giới thiệu trong `book`; null = ngoài giáo trình")

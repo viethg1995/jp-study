@@ -28,7 +28,7 @@
               "type": "null"
             }
           ],
-          "description": "Cách nối (mẫu nối mệnh đề): 'V/A thể thông thường + のに'; null với từ nối câu",
+          "description": "Cấu trúc: 'khung câu · quy tắc gắn' — vd '〜のに、〜。 · V / Aい thể thông thường + のに', '〜。そして、〜。'; web in đậm phần khung (trước ' · ')",
           "title": "Connects Vi"
         },
         "examples": {

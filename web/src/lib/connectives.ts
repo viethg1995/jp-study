@@ -24,6 +24,20 @@ export function grammarLabel(ref: string): string {
   return m ? `Ngữ pháp bài ${Number(m[1])}` : ref;
 }
 
+/** Cấu trúc "khung câu · quy tắc gắn" → phần khung (in đậm) + quy tắc; null khi không có. */
+export function splitStructure(s: string | null): { frame: string; rule: string | null } | null {
+  if (!s) return null;
+  const i = s.indexOf(" · ");
+  return i < 0 ? { frame: s, rule: null } : { frame: s.slice(0, i), rule: s.slice(i + 3) };
+}
+
+/** Nhãn ở mục lục: mẫu nối vế → khung câu bỏ 。 cuối ("〜し、〜し、〜") cho thấy đại ý; từ nối câu → chữ trần. */
+export function indexLabel(c: Pick<Connective, "type" | "text" | "connects_vi">): string {
+  if (c.type !== "clause") return c.text;
+  const s = splitStructure(c.connects_vi);
+  return s ? s.frame.replace(/。$/, "") : c.text;
+}
+
 /** Link thẻ từ vựng: Minna mn-LL-NNN → vocabulary/LL/#id; N3 cần bài (tra từ dữ liệu) → vocabulary/n3/L/#id. */
 export function vocabHref(id: string, n3Lesson: ReadonlyMap<string, number>): string | null {
   if (id.startsWith("mn-")) return `vocabulary/${Number(id.slice(3, 5))}/#${id}`;

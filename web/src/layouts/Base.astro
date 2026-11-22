@@ -3,7 +3,6 @@
 // <head> gồm thẻ SEO: description, canonical (bỏ query ?ds=…), Open Graph/Twitter, JSON-LD (tùy chọn).
 import Sidebar from "../components/layout/Sidebar.astro";
 import BackToTop from "../components/layout/BackToTop.astro";
-import { SIDEBAR_BOOT_SCRIPT } from "../lib/storage";
 import { DEFAULT_DESCRIPTION, SITE_NAME, clip } from "../lib/seo";
 import "../styles/global.css";
 // CSS @font-face của Noto Sans JP (~200 KB) tách thành file riêng, nạp KHÔNG chặn render.
@@ -51,7 +50,6 @@ const gscToken = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
     <meta name="twitter:card" content="summary" />
     {gscToken && <meta name="google-site-verification" content={gscToken} />}
     {jsonLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />}
-    <script is:inline set:html={SIDEBAR_BOOT_SCRIPT} />
   </head>
   <body class="min-h-screen">
     <input type="checkbox" id="nav-open" class="sr-only" aria-label="Mở menu" />

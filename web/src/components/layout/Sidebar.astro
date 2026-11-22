@@ -1,6 +1,7 @@
 ---
 // Thanh menu bên trái.
-//   Desktop (≥ md): cố định bên trái; nút « » thu gọn thành cột icon (ghi nhớ qua storage.ts, key jp:ui:sidebar).
+//   Desktop (≥ md): cố định bên trái; nút « » thu gọn thành cột icon. Mỗi lần tải trang luôn mở rộng (không ghi nhớ).
+//   Nhóm mục con mặc định đóng; mỗi lần thu gọn/mở lại menu → mọi nhóm đóng lại như ban đầu.
 //   Điện thoại: menu trượt, mở bằng nút ☰ ở header (checkbox #nav-open, thuần CSS).
 // Icon là chữ Hán (lib/nav.ts). Mục chưa có trang → mờ + nhãn "Sắp có".
 import { NAV, isActive } from "../../lib/nav";
@@ -39,7 +40,6 @@ const href = (h: string): string => `${base}/${h}`;
                   type="checkbox"
                   id={`nav-group-${item.id}`}
                   class="nav-group-toggle sr-only"
-                  checked
                   aria-label={`Thu/xổ mục con của ${item.label}`}
                 />
               )}
@@ -90,10 +90,14 @@ const href = (h: string): string => `${base}/${h}`;
 <label for="nav-open" class="nav-backdrop" aria-hidden="true"></label>
 
 <script>
-  import { KEYS, writeString } from "../../lib/storage";
-
   const root = document.documentElement;
   const btn = document.getElementById("sidebar-toggle");
+  /** Đóng/mở menu (« » trên desktop, ☰ trên điện thoại) → các nhóm mục con về trạng thái đóng ban đầu. */
+  const closeGroups = (): void => {
+    document.querySelectorAll<HTMLInputElement>("#sidebar .nav-group-toggle").forEach((t) => {
+      t.checked = false;
+    });
+  };
   const sync = (): void => {
     const collapsed = root.classList.contains("sidebar-collapsed");
     btn?.setAttribute("aria-expanded", String(!collapsed));
@@ -104,17 +108,19 @@ const href = (h: string): string => `${base}/${h}`;
     btn?.setAttribute("title", collapsed ? "Mở rộng menu" : "Thu gọn menu");
   };
   btn?.addEventListener("click", () => {
-    const collapsed = root.classList.toggle("sidebar-collapsed");
-    writeString(KEYS.sidebar, collapsed ? "collapsed" : "expanded");
+    root.classList.toggle("sidebar-collapsed");
+    closeGroups();
     sync();
   });
   sync();
 
   // Điện thoại: bấm một mục → đóng menu trượt (cần cho link cùng trang)
   const navOpen = document.getElementById("nav-open");
+  navOpen?.addEventListener("change", closeGroups);
   document.querySelectorAll<HTMLAnchorElement>("#sidebar a").forEach((a) =>
     a.addEventListener("click", () => {
       if (navOpen instanceof HTMLInputElement) navOpen.checked = false;
+      closeGroups();
     }),
   );
 </script>
