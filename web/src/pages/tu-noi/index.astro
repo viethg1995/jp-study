@@ -24,8 +24,19 @@ const LEVELS = ["n5", "n4", "n3"] as const;
 // Tổ hợp loại × cấp không có mục (vd nối mệnh đề N3) → ẩn nút lọc tương ứng khi bên kia đang chọn
 const combos = new Set(all.map((c) => `${c.type}-${c.level}`));
 const missing = TYPES.flatMap((t) => LEVELS.filter((l) => !combos.has(`${t}-${l}`)).map((l) => [t, l] as const));
+// Mục lục: mỗi nhóm tách dòng từ nối câu / dòng mẫu nối vế (nhãn "Nối vế" chỉ khi nhóm có cả hai loại)
+const rows = (items: typeof all) => {
+  const out = TYPES.map((type) => {
+    const list = items.filter((c) => c.type === type);
+    return { type, items: list, levels: [...new Set(list.map((c) => c.level))].join(" "), label: null as string | null };
+  }).filter((r) => r.items.length > 0);
+  if (out.length > 1) for (const r of out) if (r.type === "clause") r.label = "Nối vế";
+  return out;
+};
 // Lọc bằng CSS: thẻ theo data-type / data-level; nhóm rỗng ẩn theo danh sách loại / cấp / tổ hợp có trong nhóm
 const css = [
+  ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-row:not([data-type="${t}"])`),
+  ...LEVELS.map((l) => `.tn:has(#tn-l-${l}:checked) .cn-row:not([data-levels~="${l}"])`),
   ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-card:not([data-type="${t}"])`),
   ...LEVELS.map((l) => `.tn:has(#tn-l-${l}:checked) .cn-card:not([data-level="${l}"])`),
   ...TYPES.map((t) => `.tn:has(#tn-t-${t}:checked) .cn-group:not([data-types~="${t}"])`),
@@ -79,16 +90,24 @@ const css = [
     </div>
 
     <nav class="cn-index mt-5 max-md:hidden rounded-lg border border-line bg-surface px-4 py-3" aria-label="Mục lục từ nối">
-      <dl class="grid gap-x-6 gap-y-2 sm:grid-cols-2">
+      <dl class="grid items-start gap-x-6 gap-y-3 sm:grid-cols-2">
         {
           groups.map((g) => (
             <div class="cn-group flex gap-2" data-types={[...new Set(g.items.map((c) => c.type))].join(" ")} data-levels={[...new Set(g.items.map((c) => c.level))].join(" ")} data-combos={[...new Set(g.items.map((c) => `${c.type}-${c.level}`))].join(" ")}>
-              <dt class="w-28 shrink-0 text-ink-faint">{g.fn.label_vi}</dt>
-              <dd class="flex flex-wrap gap-x-3 gap-y-0.5">
-                {g.items.map((c) => (
-                  <a href={`#${c.id}`} class="jp text-primary hover:underline" lang="ja" data-type={c.type} data-level={c.level} data-combo={`${c.type}-${c.level}`}>
-                    {indexLabel(c)}
-                  </a>
+              <dt class="w-28 shrink-0 pt-0.5 text-ink-faint">{g.fn.label_vi}</dt>
+              <!-- Mỗi mục là một chip (ranh giới rõ dù nhãn có 、); từ nối câu một dòng, mẫu nối vế dòng riêng có nhãn -->
+              <dd class="flex min-w-0 flex-col gap-1.5">
+                {rows(g.items).map((r) => (
+                  <div class="cn-row flex gap-1.5" data-type={r.type} data-levels={r.levels}>
+                    {r.label && <span class="shrink-0 pt-1.5 text-xs text-ink-faint">{r.label}</span>}
+                    <div class="flex flex-wrap gap-1.5">
+                      {r.items.map((c) => (
+                        <a href={`#${c.id}`} class="jp rounded-md border border-line bg-canvas px-2 py-0.5 text-primary hover:border-primary hover:bg-primary-soft" lang="ja" data-type={c.type} data-level={c.level} data-combo={`${c.type}-${c.level}`}>
+                          {indexLabel(c)}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </dd>
             </div>
