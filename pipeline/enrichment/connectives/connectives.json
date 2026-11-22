@@ -10,7 +10,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "và, hơn nữa (nối hai câu)",
-      "connects_vi": null,
+      "connects_vi": "〜。そして、〜。",
       "level": "n5",
       "book": "minna",
       "lesson": 8,
@@ -39,7 +39,7 @@
       "type": "sentence",
       "function": "sequence",
       "meaning_vi": "sau đó, tiếp theo; ngoài ra, thêm nữa",
-      "connects_vi": null,
+      "connects_vi": "〜。それから、〜。",
       "level": "n5",
       "book": "minna",
       "lesson": 6,
@@ -53,7 +53,8 @@
       "note_vi": "Kể hành động theo trình tự thời gian; cũng dùng để thêm ý (\"còn nữa\").",
       "substitutes": [
         "cn-soshite",
-        "cn-tsugini"
+        "cn-tsugini",
+        "cn-sonoato"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -66,7 +67,7 @@
       "type": "sentence",
       "function": "contrast",
       "meaning_vi": "nhưng",
-      "connects_vi": null,
+      "connects_vi": "〜。でも、〜。",
       "level": "n5",
       "book": "minna",
       "lesson": 19,
@@ -81,7 +82,8 @@
       "substitutes": [
         "cn-shikashi",
         "cn-dakedo",
-        "cn-tokoroga"
+        "cn-tokoroga",
+        "cn-sorenanoni"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -94,7 +96,7 @@
       "type": "sentence",
       "function": "contrast",
       "meaning_vi": "tuy nhiên, nhưng",
-      "connects_vi": null,
+      "connects_vi": "〜。しかし、〜。",
       "level": "n4",
       "book": null,
       "lesson": null,
@@ -107,7 +109,8 @@
       "substitutes": [
         "cn-demo",
         "cn-dakedo",
-        "cn-tokoroga"
+        "cn-tokoroga",
+        "cn-sorenanoni"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -120,20 +123,22 @@
       "type": "sentence",
       "function": "contrast",
       "meaning_vi": "nhưng mà (thân mật)",
-      "connects_vi": null,
+      "connects_vi": "〜。だけど、〜。 · trang trọng hơn: けれども",
       "level": "n4",
       "book": null,
       "lesson": null,
       "forms": [
-        "だけど"
+        "だけど",
+        "けれども"
       ],
       "vocab_refs": [],
       "grammar_refs": [],
-      "note_vi": "Văn nói thân mật; lịch sự hơn: でも, ですが.",
+      "note_vi": "Văn nói thân mật; lịch sự hơn: でも, ですが. Đứng đầu câu dạng trang trọng hơn: けれども、〜。",
       "substitutes": [
         "cn-demo",
         "cn-shikashi",
-        "cn-tokoroga"
+        "cn-tokoroga",
+        "cn-sorenanoni"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -146,7 +151,7 @@
       "type": "sentence",
       "function": "contrast",
       "meaning_vi": "thế nhưng (kết quả trái với dự đoán)",
-      "connects_vi": null,
+      "connects_vi": "〜。ところが、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -159,7 +164,8 @@
       "substitutes": [
         "cn-demo",
         "cn-shikashi",
-        "cn-dakedo"
+        "cn-dakedo",
+        "cn-sorenanoni"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -172,7 +178,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "vì thế, vì vậy",
-      "connects_vi": null,
+      "connects_vi": "〜。ですから、〜。",
       "level": "n5",
       "book": "minna",
       "lesson": 17,
@@ -191,7 +197,8 @@
         "cn-sokode",
         "cn-shitagatte",
         "cn-yotte",
-        "cn-yueni"
+        "cn-yueni",
+        "cn-sonotame"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -204,7 +211,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "vì thế, cho nên",
-      "connects_vi": null,
+      "connects_vi": "〜。だから、〜。",
       "level": "n4",
       "book": null,
       "lesson": null,
@@ -221,7 +228,8 @@
         "cn-sokode",
         "cn-shitagatte",
         "cn-yotte",
-        "cn-yueni"
+        "cn-yueni",
+        "cn-sonotame"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -234,7 +242,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "vì thế, do đó; rồi sao nữa",
-      "connects_vi": null,
+      "connects_vi": "〜。それで、〜。",
       "level": "n4",
       "book": "minna",
       "lesson": 28,
@@ -256,7 +264,8 @@
         "cn-sokode",
         "cn-shitagatte",
         "cn-yotte",
-        "cn-yueni"
+        "cn-yueni",
+        "cn-sonotame"
       ],
       "meaning_source": "vocab",
       "review": "auto"
@@ -269,7 +278,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "thêm nữa là, hơn nữa",
-      "connects_vi": null,
+      "connects_vi": "〜。それに、〜。",
       "level": "n4",
       "book": "minna",
       "lesson": 28,
@@ -301,7 +310,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "hơn thế nữa, thêm vào đó",
-      "connects_vi": null,
+      "connects_vi": "〜。そのうえ、〜。",
       "level": "n3",
       "book": "n3",
       "lesson": 14,
@@ -330,7 +339,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "ngoài ra, đồng thời",
-      "connects_vi": null,
+      "connects_vi": "〜。また、〜。",
       "level": "n3",
       "book": "n3",
       "lesson": 14,
@@ -359,7 +368,7 @@
       "type": "sentence",
       "function": "choice",
       "meaning_vi": "hoặc",
-      "connects_vi": null,
+      "connects_vi": "N1 または N2 · cũng dùng giữa hai câu: 〜。または、〜。",
       "level": "n3",
       "book": "n3",
       "lesson": 14,
@@ -385,7 +394,7 @@
       "type": "sentence",
       "function": "choice",
       "meaning_vi": "hay là",
-      "connects_vi": null,
+      "connects_vi": "〜か。それとも、〜か。 · hỏi chọn một trong hai",
       "level": "n3",
       "book": "n3",
       "lesson": 14,
@@ -411,7 +420,7 @@
       "type": "sentence",
       "function": "rephrase",
       "meaning_vi": "tóm lại, tức là",
-      "connects_vi": null,
+      "connects_vi": "〜。つまり、〜。 · cũng dùng giữa hai danh từ: A、つまり B",
       "level": "n3",
       "book": "n3",
       "lesson": 14,
@@ -439,7 +448,7 @@
       "type": "sentence",
       "function": "rephrase",
       "meaning_vi": "ví dụ như, chẳng hạn",
-      "connects_vi": null,
+      "connects_vi": "〜。たとえば、〜。",
       "level": "n4",
       "book": null,
       "lesson": null,
@@ -462,7 +471,7 @@
       "type": "sentence",
       "function": "topic",
       "meaning_vi": "vậy thì, thế thì",
-      "connects_vi": null,
+      "connects_vi": "〜。じゃ、〜。 · lịch sự hơn: では / それでは",
       "level": "n5",
       "book": null,
       "lesson": null,
@@ -491,7 +500,7 @@
       "type": "sentence",
       "function": "topic",
       "meaning_vi": "nhân tiện, à này",
-      "connects_vi": null,
+      "connects_vi": "〜。ところで、〜。",
       "level": "n4",
       "book": null,
       "lesson": null,
@@ -515,7 +524,7 @@
       "type": "sentence",
       "function": "sequence",
       "meaning_vi": "thế là, ngay sau đó",
-      "connects_vi": null,
+      "connects_vi": "〜。すると、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -537,7 +546,7 @@
       "type": "sentence",
       "function": "condition",
       "meaning_vi": "nếu vậy thì",
-      "connects_vi": null,
+      "connects_vi": "「〜。」「それなら、〜。」 · đáp lại lời người kia",
       "level": "n4",
       "book": null,
       "lesson": null,
@@ -561,7 +570,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "vì thế, cho nên (văn nói)",
-      "connects_vi": null,
+      "connects_vi": "〜。なので、〜。",
       "level": "n4",
       "book": null,
       "lesson": null,
@@ -578,7 +587,8 @@
         "cn-sokode",
         "cn-shitagatte",
         "cn-yotte",
-        "cn-yueni"
+        "cn-yueni",
+        "cn-sonotame"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -591,7 +601,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "vì thế nên (làm gì đó để đối phó)",
-      "connects_vi": null,
+      "connects_vi": "〜。そこで、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -608,7 +618,8 @@
         "cn-nanode",
         "cn-shitagatte",
         "cn-yotte",
-        "cn-yueni"
+        "cn-yueni",
+        "cn-sonotame"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -621,7 +632,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "do đó, theo đó (văn viết)",
-      "connects_vi": null,
+      "connects_vi": "〜。したがって、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -639,7 +650,8 @@
         "cn-nanode",
         "cn-sokode",
         "cn-yotte",
-        "cn-yueni"
+        "cn-yueni",
+        "cn-sonotame"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -652,7 +664,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "vì thế, do đó (văn viết)",
-      "connects_vi": null,
+      "connects_vi": "〜。よって、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -669,7 +681,8 @@
         "cn-nanode",
         "cn-sokode",
         "cn-shitagatte",
-        "cn-yueni"
+        "cn-yueni",
+        "cn-sonotame"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -682,7 +695,7 @@
       "type": "sentence",
       "function": "cause",
       "meaning_vi": "chính vì vậy, bởi lẽ đó (rất trang trọng)",
-      "connects_vi": null,
+      "connects_vi": "〜。ゆえに、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -700,7 +713,8 @@
         "cn-nanode",
         "cn-sokode",
         "cn-shitagatte",
-        "cn-yotte"
+        "cn-yotte",
+        "cn-sonotame"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -713,7 +727,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "hơn nữa, đã thế lại còn",
-      "connects_vi": null,
+      "connects_vi": "〜。しかも、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -740,7 +754,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "hơn nữa, càng… hơn",
-      "connects_vi": null,
+      "connects_vi": "〜。さらに、〜。 · đứng trước tính từ / động từ: さらに + A / V (càng… hơn)",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -768,7 +782,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "ngoài ra, xin lưu ý thêm",
-      "connects_vi": null,
+      "connects_vi": "〜。なお、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -778,7 +792,9 @@
       "vocab_refs": [],
       "grammar_refs": [],
       "note_vi": "Cấp thực tế N2 (tạm xếp N3). Bổ sung thông tin phụ sau nội dung chính — hay gặp trong thông báo, email.",
-      "substitutes": [],
+      "substitutes": [
+        "cn-chinamini"
+      ],
       "meaning_source": "ai-draft",
       "review": "auto"
     },
@@ -790,7 +806,7 @@
       "type": "sentence",
       "function": "addition",
       "meaning_vi": "và, cùng với (văn viết)",
-      "connects_vi": null,
+      "connects_vi": "N1 および N2",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -813,7 +829,7 @@
       "type": "sentence",
       "function": "rephrase",
       "meaning_vi": "tóm lại, nói tóm lại",
-      "connects_vi": null,
+      "connects_vi": "〜。要するに、〜。",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -840,7 +856,7 @@
       "type": "sentence",
       "function": "rephrase",
       "meaning_vi": "nói cách khác thì",
-      "connects_vi": null,
+      "connects_vi": "〜。言い換えると、〜。 · dạng khác: 言い換えれば",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -867,7 +883,7 @@
       "type": "sentence",
       "function": "rephrase",
       "meaning_vi": "tức là, chính là",
-      "connects_vi": null,
+      "connects_vi": "A、すなわち B",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -894,7 +910,7 @@
       "type": "sentence",
       "function": "rephrase",
       "meaning_vi": "có thể nói là, ví như là",
-      "connects_vi": null,
+      "connects_vi": "〜は いわば 〜だ",
       "level": "n3",
       "book": null,
       "lesson": null,
@@ -916,7 +932,7 @@
       "type": "sentence",
       "function": "topic",
       "meaning_vi": "nào, bây giờ thì (chuyển sang việc chính)",
-      "connects_vi": null,
+      "connects_vi": "〜。さて、〜。",
       "level": "n4",
       "book": null,
       "lesson": null,
@@ -940,7 +956,7 @@
       "type": "sentence",
       "function": "sequence",
       "meaning_vi": "tiếp theo, kế tiếp là",
-      "connects_vi": null,
+      "connects_vi": "まず 〜。次に、〜。",
       "level": "n5",
       "book": null,
       "lesson": null,
@@ -952,7 +968,327 @@
       "grammar_refs": [],
       "note_vi": "Kể các bước theo thứ tự: まず… 次に… 最後に…",
       "substitutes": [
-        "cn-sorekara"
+        "cn-sorekara",
+        "cn-sonoato"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-soremadeni",
+      "text": "それまでに",
+      "ruby": "それまでに",
+      "kana": "それまでに",
+      "type": "sentence",
+      "function": "time",
+      "meaning_vi": "trước lúc đó (hạn chót)",
+      "connects_vi": "〜。それまでに、〜。",
+      "level": "n4",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "それまでに"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Câu trước nêu một mốc thời gian, câu sau là việc phải xong trước mốc đó (までに: hạn chót).",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-nazenara",
+      "text": "なぜなら",
+      "ruby": "なぜなら",
+      "kana": "なぜなら",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "bởi vì, lý do là",
+      "connects_vi": "〜。なぜなら、〜からだ。 · kết quả trước, lý do SAU",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "なぜなら"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Ngược chiều với だから: nêu kết luận trước rồi mới giải thích lý do; câu sau thường kết thúc bằng 〜からだ / 〜からです. Văn viết, phát biểu.",
+      "substitutes": [
+        "cn-toiunowa"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-toiunowa",
+      "text": "というのは",
+      "ruby": "というのは",
+      "kana": "というのは",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "là vì, lý do là",
+      "connects_vi": "〜。というのは、〜からだ。 · kết quả trước, lý do SAU",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "というのは"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Giống なぜなら nhưng mềm hơn, hay dùng trong hội thoại; câu sau kết thúc bằng 〜からだ / 〜んです. Nghĩa khác: A というのは B のことだ (cái gọi là A là B).",
+      "substitutes": [
+        "cn-nazenara"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-sonotame",
+      "text": "そのため",
+      "ruby": "そのため",
+      "kana": "そのため",
+      "type": "sentence",
+      "function": "cause",
+      "meaning_vi": "vì thế, do đó",
+      "connects_vi": "〜。そのため、〜。",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "そのため"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Câu sau là kết quả khách quan của câu trước; văn viết, tin tức. Không dùng khi câu sau là mệnh lệnh, rủ rê.",
+      "substitutes": [
+        "cn-desukara",
+        "cn-dakara",
+        "cn-sorede",
+        "cn-nanode",
+        "cn-sokode",
+        "cn-shitagatte",
+        "cn-yotte",
+        "cn-yueni"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-sonoato",
+      "text": "そのあと",
+      "ruby": "そのあと",
+      "kana": "そのあと",
+      "type": "sentence",
+      "function": "sequence",
+      "meaning_vi": "sau đó",
+      "connects_vi": "〜。そのあと、〜。 · viết chữ: その後",
+      "level": "n4",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "そのあと",
+        "その後"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Kể việc xảy ra sau việc ở câu trước; gần それから.",
+      "substitutes": [
+        "cn-sorekara",
+        "cn-tsugini"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-mazu",
+      "text": "まず",
+      "ruby": "まず",
+      "kana": "まず",
+      "type": "sentence",
+      "function": "sequence",
+      "meaning_vi": "trước tiên, trước hết",
+      "connects_vi": "まず 〜。次に、〜。",
+      "level": "n5",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "まず"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Mở đầu chuỗi các bước: まず… 次に… 最後に…",
+      "substitutes": [
+        "cn-saishoni"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-saishoni",
+      "text": "最初に",
+      "ruby": "{最初|さいしょ}に",
+      "kana": "さいしょに",
+      "type": "sentence",
+      "function": "sequence",
+      "meaning_vi": "đầu tiên",
+      "connects_vi": "最初に 〜。次に、〜。",
+      "level": "n3",
+      "book": "n3",
+      "lesson": 2,
+      "forms": [
+        "最初に"
+      ],
+      "vocab_refs": [
+        "n3-085"
+      ],
+      "grammar_refs": [],
+      "note_vi": "Bước thứ nhất trong chuỗi; đi cặp với 次に, 最後に.",
+      "substitutes": [
+        "cn-mazu"
+      ],
+      "meaning_source": "vocab",
+      "review": "auto"
+    },
+    {
+      "id": "cn-saigoni",
+      "text": "最後に",
+      "ruby": "{最後|さいご}に",
+      "kana": "さいごに",
+      "type": "sentence",
+      "function": "sequence",
+      "meaning_vi": "cuối cùng",
+      "connects_vi": "…。最後に、〜。",
+      "level": "n3",
+      "book": "n3",
+      "lesson": 2,
+      "forms": [
+        "最後に"
+      ],
+      "vocab_refs": [
+        "n3-086"
+      ],
+      "grammar_refs": [],
+      "note_vi": "Bước cuối trong chuỗi, hoặc ý cuối trước khi kết thúc bài phát biểu.",
+      "substitutes": [],
+      "meaning_source": "vocab",
+      "review": "auto"
+    },
+    {
+      "id": "cn-ippoude",
+      "text": "一方で",
+      "ruby": "{一方|いっぽう}で",
+      "kana": "いっぽうで",
+      "type": "sentence",
+      "function": "contrast",
+      "meaning_vi": "mặt khác, trong khi đó",
+      "connects_vi": "〜。一方で、〜。 · cũng nói: 一方、〜",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "一方で",
+        "一方"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Đặt hai mặt / hai đối tượng cạnh nhau để so sánh; không mang ý \"trái với dự đoán\" như しかし.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-sorenanoni",
+      "text": "それなのに",
+      "ruby": "それなのに",
+      "kana": "それなのに",
+      "type": "sentence",
+      "function": "contrast",
+      "meaning_vi": "thế mà, vậy mà",
+      "connects_vi": "〜。それなのに、〜。",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "それなのに"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Bản nối câu của のに: kết quả trái với mong đợi, kèm cảm xúc bất mãn, ngạc nhiên.",
+      "substitutes": [
+        "cn-demo",
+        "cn-shikashi",
+        "cn-dakedo",
+        "cn-tokoroga"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-kekkyoku",
+      "text": "結局",
+      "ruby": "{結局|けっきょく}",
+      "kana": "けっきょく",
+      "type": "sentence",
+      "function": "rephrase",
+      "meaning_vi": "rốt cuộc, cuối cùng thì",
+      "connects_vi": "〜。結局、〜。",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "結局"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Kết quả cuối cùng sau nhiều diễn biến, cân nhắc; thường hơi tiếc nuối hoặc không như dự định.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-konoyouni",
+      "text": "このように",
+      "ruby": "このように",
+      "kana": "このように",
+      "type": "sentence",
+      "function": "rephrase",
+      "meaning_vi": "như vậy, như đã nói",
+      "connects_vi": "〜。このように、〜。 · đặt sau một đoạn giải thích",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "このように"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Tổng kết những điều vừa trình bày; văn viết, bài phát biểu.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-chinamini",
+      "text": "ちなみに",
+      "ruby": "ちなみに",
+      "kana": "ちなみに",
+      "type": "sentence",
+      "function": "addition",
+      "meaning_vi": "nhân tiện nói thêm",
+      "connects_vi": "〜。ちなみに、〜。",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "ちなみに"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Cấp thực tế N2 (tạm xếp N3). Thêm một thông tin phụ, không bắt buộc, liên quan đến điều vừa nói.",
+      "substitutes": [
+        "cn-nao"
       ],
       "meaning_source": "ai-draft",
       "review": "auto"
@@ -965,7 +1301,7 @@
       "type": "clause",
       "function": "contrast",
       "meaning_vi": "nhưng (nối hai vế)",
-      "connects_vi": "Câu (lịch sự hoặc thông thường) + が、～",
+      "connects_vi": "〜が、〜。 · câu (lịch sự hoặc thông thường) + が",
       "level": "n5",
       "book": "minna",
       "lesson": 8,
@@ -991,7 +1327,7 @@
       "type": "clause",
       "function": "contrast",
       "meaning_vi": "nhưng (thân mật)",
-      "connects_vi": "Câu (thể thông thường hoặc lịch sự) + けど、～",
+      "connects_vi": "〜けど、〜。 · câu (thể thông thường hoặc lịch sự) + けど",
       "level": "n5",
       "book": "minna",
       "lesson": 20,
@@ -1021,7 +1357,7 @@
       "type": "clause",
       "function": "contrast",
       "meaning_vi": "thế mà, vậy mà",
-      "connects_vi": "V / Aい thể thông thường + のに; Aな / N + な + のに",
+      "connects_vi": "〜のに、〜。 · V / Aい thể thông thường + のに; Aな / N + な + のに",
       "level": "n4",
       "book": "minna",
       "lesson": 45,
@@ -1046,7 +1382,7 @@
       "type": "clause",
       "function": "concession",
       "meaning_vi": "dù… vẫn",
-      "connects_vi": "Vて + も; Aい → くても; Aな / N + でも",
+      "connects_vi": "〜ても、〜。 · Vて + も; Aい → くても; Aな / N + でも",
       "level": "n5",
       "book": "minna",
       "lesson": 25,
@@ -1072,7 +1408,7 @@
       "type": "clause",
       "function": "cause",
       "meaning_vi": "vì… nên",
-      "connects_vi": "Câu (thể thông thường hoặc lịch sự) + から、～",
+      "connects_vi": "〜から、〜。 · câu (thể thông thường hoặc lịch sự) + から",
       "level": "n5",
       "book": "minna",
       "lesson": 9,
@@ -1098,7 +1434,7 @@
       "type": "clause",
       "function": "cause",
       "meaning_vi": "vì… nên (khách quan, lịch sự)",
-      "connects_vi": "V / Aい thể thông thường + ので; Aな / N + な + ので",
+      "connects_vi": "〜ので、〜。 · V / Aい thể thông thường + ので; Aな / N + な + ので",
       "level": "n4",
       "book": "minna",
       "lesson": 39,
@@ -1125,7 +1461,7 @@
       "type": "clause",
       "function": "sequence",
       "meaning_vi": "rồi, và (nối tiếp, liệt kê); vì (lý do)",
-      "connects_vi": "Vて; Aい → くて; Aな / N + で",
+      "connects_vi": "〜て、〜て、〜。 · Vて; Aい → くて; Aな / N + で",
       "level": "n5",
       "book": "minna",
       "lesson": 16,
@@ -1155,7 +1491,7 @@
       "type": "clause",
       "function": "sequence",
       "meaning_vi": "sau khi… rồi mới",
-      "connects_vi": "Vて + から",
+      "connects_vi": "V1てから、V2。 · Vて + から",
       "level": "n5",
       "book": "minna",
       "lesson": 16,
@@ -1180,7 +1516,7 @@
       "type": "clause",
       "function": "time",
       "meaning_vi": "trước khi",
-      "connects_vi": "Vる / Nの + まえに; lượng từ thời gian + まえに (… trước)",
+      "connects_vi": "〜まえに、〜。 · Vる / Nの + まえに; lượng từ thời gian + まえに (… trước)",
       "level": "n5",
       "book": "minna",
       "lesson": 18,
@@ -1205,7 +1541,7 @@
       "type": "clause",
       "function": "time",
       "meaning_vi": "sau khi",
-      "connects_vi": "Vた / Nの + あとで",
+      "connects_vi": "〜あとで、〜。 · Vた / Nの + あとで",
       "level": "n4",
       "book": "minna",
       "lesson": 34,
@@ -1230,7 +1566,7 @@
       "type": "clause",
       "function": "time",
       "meaning_vi": "khi, lúc",
-      "connects_vi": "Vる / Vた / Aい / Aな + な / Nの + とき",
+      "connects_vi": "〜とき、〜。 · Vる / Vた / Aい / Aな + な / Nの + とき",
       "level": "n5",
       "book": "minna",
       "lesson": 23,
@@ -1256,7 +1592,7 @@
       "type": "clause",
       "function": "time",
       "meaning_vi": "vừa… vừa",
-      "connects_vi": "Vます (bỏ ます) + ながら",
+      "connects_vi": "V1ながら、V2。 · V1 bỏ ます + ながら; hành động chính là V2",
       "level": "n4",
       "book": "minna",
       "lesson": 28,
@@ -1280,7 +1616,7 @@
       "type": "clause",
       "function": "addition",
       "meaning_vi": "lúc thì… lúc thì, nào là… nào là",
-      "connects_vi": "Vた + り、Vた + り + します",
+      "connects_vi": "Vたり、Vたり します · V thể た + り",
       "level": "n5",
       "book": "minna",
       "lesson": 19,
@@ -1305,7 +1641,7 @@
       "type": "clause",
       "function": "addition",
       "meaning_vi": "vừa… vừa…, lại còn",
-      "connects_vi": "Thể thông thường + し",
+      "connects_vi": "〜し、〜し、〜。 · thể thông thường + し (高いし / 静かだし / 学生だし)",
       "level": "n4",
       "book": "minna",
       "lesson": 28,
@@ -1331,7 +1667,7 @@
       "type": "clause",
       "function": "condition",
       "meaning_vi": "hễ… thì, cứ… là",
-      "connects_vi": "Vる / Vない + と",
+      "connects_vi": "〜と、〜。 · Vる / Vない + と",
       "level": "n5",
       "book": "minna",
       "lesson": 23,
@@ -1355,7 +1691,7 @@
       "type": "clause",
       "function": "condition",
       "meaning_vi": "nếu… thì; sau khi… thì",
-      "connects_vi": "Vた + ら; Aい → かったら; Aな / N → だったら",
+      "connects_vi": "〜たら、〜。 · Vた + ら; Aい → かったら; Aな / N → だったら",
       "level": "n5",
       "book": "minna",
       "lesson": 25,
@@ -1383,7 +1719,7 @@
       "type": "clause",
       "function": "condition",
       "meaning_vi": "nếu… thì",
-      "connects_vi": "Thể điều kiện: V (đuôi え) + ば; Aい → ければ; Aな / N → なら",
+      "connects_vi": "〜ば、〜。 · V (đuôi え) + ば; Aい → ければ; Aな / N → なら",
       "level": "n4",
       "book": "minna",
       "lesson": 35,
@@ -1408,7 +1744,7 @@
       "type": "clause",
       "function": "condition",
       "meaning_vi": "nếu là… thì",
-      "connects_vi": "N / V thể thông thường + なら",
+      "connects_vi": "〜なら、〜。 · N / V thể thông thường + なら",
       "level": "n4",
       "book": "minna",
       "lesson": 35,
@@ -1432,7 +1768,7 @@
       "type": "clause",
       "function": "condition",
       "meaning_vi": "trong trường hợp",
-      "connects_vi": "Vる / Vた / Vない, Aい, Aな + な, Nの + 場合は",
+      "connects_vi": "〜場合は、〜。 · Vる / Vた / Vない, Aい, Aな + な, Nの + 場合は",
       "level": "n4",
       "book": "minna",
       "lesson": 45,
@@ -1459,7 +1795,7 @@
       "type": "clause",
       "function": "purpose",
       "meaning_vi": "để (đạt trạng thái, khả năng)",
-      "connects_vi": "Vる (thể khả năng, động từ không chủ ý) / Vない + ように",
+      "connects_vi": "〜ように、〜。 · Vる (thể khả năng, động từ không chủ ý) / Vない + ように",
       "level": "n4",
       "book": "minna",
       "lesson": 36,
@@ -1483,7 +1819,7 @@
       "type": "clause",
       "function": "purpose",
       "meaning_vi": "để, vì",
-      "connects_vi": "Vる (có chủ ý) / Nの + ために",
+      "connects_vi": "〜ために、〜。 · Vる (có chủ ý) / Nの + ために",
       "level": "n4",
       "book": "minna",
       "lesson": 42,
@@ -1497,6 +1833,149 @@
       "note_vi": "Mục đích có chủ ý, hai vế cùng chủ ngữ. Nの + ために còn có nghĩa \"vì, cho\" (健康のために).",
       "substitutes": [],
       "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-uchini",
+      "text": "うちに",
+      "ruby": "うちに",
+      "kana": "うちに",
+      "type": "clause",
+      "function": "time",
+      "meaning_vi": "trong lúc còn…; đang… thì (lúc nào không hay)",
+      "connects_vi": "〜うちに、〜。 · Vる / Vている / Vない / Aい / Aな + な / Nの + うちに",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "うちに"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "1) Làm việc gì trước khi trạng thái thay đổi (若いうちに). 2) Trong lúc đang làm thì có thay đổi lúc nào không hay (話しているうちに).",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-tokoroni",
+      "text": "ところに",
+      "ruby": "ところに",
+      "kana": "ところに",
+      "type": "clause",
+      "function": "time",
+      "meaning_vi": "đúng lúc đang… thì",
+      "connects_vi": "〜ているところに、〜。 · Vている / Vようとしている + ところに (ところへ)",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "ところに",
+        "ところへ"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Đúng lúc đang làm gì thì có người đến, sự việc chen ngang.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-tabini",
+      "text": "たびに",
+      "ruby": "たびに",
+      "kana": "たびに",
+      "type": "clause",
+      "function": "time",
+      "meaning_vi": "mỗi lần… là",
+      "connects_vi": "〜たびに、〜。 · Vる / Nの + たびに",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "たびに"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Lần nào làm vế 1 cũng xảy ra vế 2.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-tatoe-temo",
+      "text": "たとえ〜ても",
+      "ruby": "たとえ〜ても",
+      "kana": "たとえ〜ても",
+      "type": "clause",
+      "function": "concession",
+      "meaning_vi": "cho dù… thì vẫn",
+      "connects_vi": "たとえ〜ても、〜。 · たとえ + Vて / Aい → くて / Aな・N → で + も",
+      "level": "n3",
+      "book": null,
+      "lesson": null,
+      "forms": [
+        "たとえ"
+      ],
+      "vocab_refs": [],
+      "grammar_refs": [],
+      "note_vi": "Nhấn mạnh ても: giả định cả trường hợp xấu nhất thì vế sau vẫn không đổi.",
+      "substitutes": [],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-donnani-temo",
+      "text": "どんなに〜ても",
+      "ruby": "どんなに〜ても",
+      "kana": "どんなに〜ても",
+      "type": "clause",
+      "function": "concession",
+      "meaning_vi": "dù… đến mấy cũng",
+      "connects_vi": "どんなに〜ても、〜。 · どんなに + Vて / Aい → くて / Aな → で + も",
+      "level": "n3",
+      "book": "n3",
+      "lesson": 14,
+      "forms": [
+        "どんなに"
+      ],
+      "vocab_refs": [
+        "n3-677"
+      ],
+      "grammar_refs": [],
+      "note_vi": "Nhấn mạnh ても về mức độ; gần いくら〜ても.",
+      "substitutes": [
+        "cn-ikura-temo"
+      ],
+      "meaning_source": "ai-draft",
+      "review": "auto"
+    },
+    {
+      "id": "cn-ikura-temo",
+      "text": "いくら〜ても",
+      "ruby": "いくら〜ても",
+      "kana": "いくら〜ても",
+      "type": "clause",
+      "function": "concession",
+      "meaning_vi": "dù… bao nhiêu đi nữa thì vẫn",
+      "connects_vi": "いくら〜ても、〜。 · いくら + Vて / Aい → くて / Aな・N → で + も",
+      "level": "n5",
+      "book": "minna",
+      "lesson": 25,
+      "forms": [
+        "いくら"
+      ],
+      "vocab_refs": [
+        "mn-33-036"
+      ],
+      "grammar_refs": [
+        "g-25-3"
+      ],
+      "note_vi": "Nhấn mạnh ても về mức độ (bài 25); gần どんなに〜ても.",
+      "substitutes": [
+        "cn-donnani-temo"
+      ],
+      "meaning_source": "grammar",
       "review": "auto"
     }
   ]

@@ -142,3 +142,57 @@ cn-sate-e03|ai|{食事|しょくじ}も{終|お}わった。[[さて]]、{宿題
 cn-tsugini-e01|ai|まず{手|て}を{洗|あら}います。[[{次|つぎ}に]]、{野菜|やさい}を{切|き}ります。|Trước tiên rửa tay. Tiếp theo, thái rau.
 cn-tsugini-e02|ai|{最初|さいしょ}に{名前|なまえ}を{書|か}いてください。[[{次|つぎ}に]]、{住所|じゅうしょ}を{書|か}いてください。|Đầu tiên hãy viết tên. Tiếp theo hãy viết địa chỉ.
 cn-tsugini-e03|ai|{最初|さいしょ}に{京都|きょうと}へ{行|い}きました。[[{次|つぎ}に]]、{大阪|おおさか}へ{行|い}きました。|Đầu tiên tôi đến Kyoto. Kế tiếp là đến Osaka.
+
+cn-dakedo-e04|ai|{一生懸命|いっしょうけんめい}{走|はし}りました。[[けれども]]、{電車|でんしゃ}に{間|ま}に{合|あ}いませんでした。|Tôi đã chạy hết sức. Tuy vậy vẫn không kịp tàu.
+
+cn-soremadeni-e01|ai|{会議|かいぎ}は{三時|さんじ}からです。[[それまでに]]、{資料|しりょう}を{準備|じゅんび}してください。|Cuộc họp bắt đầu từ 3 giờ. Trước lúc đó hãy chuẩn bị tài liệu.
+cn-soremadeni-e02|ai|{来週|らいしゅう}の{金曜日|きんようび}に{引|ひ}っ{越|こ}します。[[それまでに]]、{荷物|にもつ}をまとめます。|Thứ Sáu tuần sau tôi chuyển nhà. Trước lúc đó tôi sẽ thu dọn đồ đạc.
+cn-soremadeni-e03|ai|{友達|ともだち}が{七時|しちじ}に{来|き}ます。[[それまでに]]、{料理|りょうり}を{作|つく}っておきます。|Bạn tôi đến lúc 7 giờ. Trước lúc đó tôi sẽ nấu sẵn đồ ăn.
+
+cn-nazenara-e01|ai|{今日|きょう}は{出|で}かけません。[[なぜなら]]、{熱|ねつ}があるからです。|Hôm nay tôi không ra ngoài. Bởi vì tôi bị sốt.
+cn-nazenara-e02|ai|{私|わたし}は{日本語|にほんご}を{勉強|べんきょう}しています。[[なぜなら]]、{日本|にほん}の{会社|かいしゃ}で{働|はたら}きたいからです。|Tôi đang học tiếng Nhật. Bởi vì tôi muốn làm việc ở công ty Nhật.
+cn-nazenara-e03|ai|この{計画|けいかく}には{反対|はんたい}だ。[[なぜなら]]、お{金|かね}がかかりすぎるからだ。|Tôi phản đối kế hoạch này. Bởi vì nó tốn quá nhiều tiền.
+
+cn-toiunowa-e01|ai|{明日|あした}は{行|い}けません。[[というのは]]、{母|はは}が{入院|にゅういん}しているんです。|Ngày mai tôi không đi được. Là vì mẹ tôi đang nằm viện.
+cn-toiunowa-e02|ai|{最近|さいきん}{早|はや}く{起|お}きています。[[というのは]]、{犬|いぬ}の{散歩|さんぽ}があるからです。|Dạo này tôi dậy sớm. Lý do là phải dắt chó đi dạo.
+cn-toiunowa-e03|ai|{彼|かれ}は{会社|かいしゃ}を{辞|や}めた。[[というのは]]、{自分|じぶん}の{店|みせ}を{開|ひら}きたかったからだ。|Anh ấy đã nghỉ việc. Là vì anh ấy muốn mở cửa hàng riêng.
+
+cn-sonotame-e01|ai|{大雪|おおゆき}が{降|ふ}りました。[[そのため]]、{電車|でんしゃ}が{止|と}まりました。|Tuyết rơi dày. Vì thế tàu điện đã ngừng chạy.
+cn-sonotame-e02|ai|{彼|かれ}は{毎日|まいにち}{練習|れんしゅう}した。[[そのため]]、{試合|しあい}に{勝|か}てた。|Anh ấy luyện tập mỗi ngày. Nhờ vậy đã thắng trận đấu.
+cn-sonotame-e03|ai|{事故|じこ}がありました。[[そのため]]、{道|みち}が{混|こ}んでいます。|Đã có tai nạn. Vì thế đường đang đông.
+
+cn-sonoato-e01|ai|{六時|ろくじ}まで{働|はたら}きました。[[そのあと]]、{友達|ともだち}と{食事|しょくじ}をしました。|Tôi làm việc đến 6 giờ. Sau đó đi ăn với bạn.
+cn-sonoato-e02|ai|{先|さき}にシャワーを{浴|あ}びます。[[その{後|あと}]]、{晩|ばん}ご{飯|はん}を{食|た}べます。|Tôi tắm trước. Sau đó ăn tối.
+cn-sonoato-e03|ai|{午前|ごぜん}は{授業|じゅぎょう}がありました。[[そのあと]]、{図書館|としょかん}へ{行|い}きました。|Buổi sáng có giờ học. Sau đó tôi đến thư viện.
+
+cn-mazu-e01|ai|[[まず]]{手|て}を{洗|あら}ってください。|Trước tiên hãy rửa tay.
+cn-mazu-e02|ai|[[まず]]{名前|なまえ}を{書|か}いて、それから{住所|じゅうしょ}を{書|か}きます。|Trước hết viết tên, sau đó viết địa chỉ.
+cn-mazu-e03|ai|{日本|にほん}に{着|つ}いたら、[[まず]]{家族|かぞく}に{電話|でんわ}します。|Đến Nhật rồi, việc đầu tiên là gọi điện cho gia đình.
+
+cn-saishoni-e01|ai|[[{最初|さいしょ}に]]{自己紹介|じこしょうかい}をしてください。|Đầu tiên, xin hãy tự giới thiệu.
+cn-saishoni-e02|ai|[[{最初|さいしょ}に]]ボタンを{押|お}して、{次|つぎ}にお{金|かね}を{入|い}れます。|Đầu tiên bấm nút, tiếp theo cho tiền vào.
+cn-saishoni-e03|ai|[[{最初|さいしょ}に]]{部屋|へや}を{掃除|そうじ}して、それから{料理|りょうり}を{作|つく}ります。|Đầu tiên dọn phòng, sau đó nấu ăn.
+
+cn-saigoni-e01|ai|[[{最後|さいご}に]]、{電気|でんき}を{消|け}してください。|Cuối cùng, hãy tắt đèn.
+cn-saigoni-e02|ai|まず{野菜|やさい}を{切|き}ります。{次|つぎ}に{肉|にく}を{焼|や}きます。[[{最後|さいご}に]]、{塩|しお}を{入|い}れます。|Đầu tiên thái rau. Tiếp theo nướng thịt. Cuối cùng cho muối vào.
+cn-saigoni-e03|ai|[[{最後|さいご}に]]、{皆|みな}さんにお{礼|れい}を{言|い}いたいと{思|おも}います。|Cuối cùng, tôi xin gửi lời cảm ơn đến mọi người.
+
+cn-ippoude-e01|ai|{都会|とかい}は{便利|べんり}だ。[[{一方|いっぽう}で]]、{家賃|やちん}が{高|たか}い。|Thành phố thì tiện lợi. Mặt khác, tiền thuê nhà đắt.
+cn-ippoude-e02|ai|スマホは{役|やく}に{立|た}つ。[[{一方|いっぽう}で]]、{使|つか}いすぎると{目|め}に{悪|わる}い。|Điện thoại thông minh rất có ích. Mặt khác, dùng quá nhiều thì hại mắt.
+cn-ippoude-e03|ai|{兄|あに}は{勉強|べんきょう}が{好|す}きだ。[[{一方|いっぽう}]]、{弟|おとうと}はスポーツが{好|す}きだ。|Anh trai thích học. Trong khi đó, em trai thích thể thao.
+
+cn-sorenanoni-e01|ai|{一生懸命|いっしょうけんめい}{勉強|べんきょう}した。[[それなのに]]、{試験|しけん}に{落|お}ちた。|Tôi đã học hết sức. Thế mà vẫn trượt kỳ thi.
+cn-sorenanoni-e02|ai|{約束|やくそく}しました。[[それなのに]]、{彼|かれ}は{来|き}ませんでした。|Đã hẹn rồi. Vậy mà anh ấy không đến.
+cn-sorenanoni-e03|ai|{薬|くすり}を{飲|の}んだ。[[それなのに]]、まだ{頭|あたま}が{痛|いた}い。|Đã uống thuốc rồi. Thế mà vẫn còn đau đầu.
+
+cn-kekkyoku-e01|ai|{一時間|いちじかん}{待|ま}ちましたが、[[{結局|けっきょく}]]{彼|かれ}は{来|き}ませんでした。|Tôi đã đợi một tiếng, nhưng rốt cuộc anh ấy không đến.
+cn-kekkyoku-e02|ai|いろいろ{考|かんが}えたが、[[{結局|けっきょく}]]{旅行|りょこう}には{行|い}かないことにした。|Suy nghĩ nhiều, nhưng rốt cuộc tôi quyết định không đi du lịch.
+cn-kekkyoku-e03|ai|{赤|あか}と{青|あお}で{迷|まよ}いました。[[{結局|けっきょく}]]、{青|あお}いのを{買|か}いました。|Tôi phân vân giữa màu đỏ và màu xanh. Rốt cuộc đã mua cái màu xanh.
+
+cn-konoyouni-e01|ai|{値段|ねだん}が{安|やす}い、{駅|えき}に{近|ちか}い、{部屋|へや}も{広|ひろ}い。[[このように]]、このアパートはいいところばかりです。|Giá rẻ, gần ga, phòng lại rộng. Như vậy, căn hộ này toàn điểm tốt.
+cn-konoyouni-e02|ai|{夏|なつ}は{三十五度|さんじゅうごど}を{超|こ}える{日|ひ}も{多|おお}いです。[[このように]]、{日本|にほん}の{夏|なつ}はとても{暑|あつ}いです。|Mùa hè có nhiều ngày vượt quá 35 độ. Như vậy, mùa hè Nhật Bản rất nóng.
+cn-konoyouni-e03|ai|{単語|たんご}を{毎日|まいにち}{十個|じゅっこ}{覚|おぼ}えれば、{一年|いちねん}で{三千|さんぜん}{以上|いじょう}になります。[[このように]]、{毎日|まいにち}{続|つづ}けることが{大切|たいせつ}です。|Mỗi ngày nhớ 10 từ thì một năm được hơn 3.000 từ. Như vậy, việc duy trì mỗi ngày là quan trọng.
+
+cn-chinamini-e01|ai|{明日|あした}の{会議|かいぎ}は{十時|じゅうじ}からです。[[ちなみに]]、{部長|ぶちょう}も{出席|しゅっせき}します。|Cuộc họp ngày mai bắt đầu từ 10 giờ. Nhân tiện nói thêm, trưởng phòng cũng sẽ tham dự.
+cn-chinamini-e02|ai|この{店|みせ}のラーメンはおいしいです。[[ちなみに]]、{月曜日|げつようび}は{休|やす}みです。|Mì ramen quán này ngon. Nhân tiện, thứ Hai quán nghỉ.
+cn-chinamini-e03|ai|{私|わたし}は{猫|ねこ}が{好|す}きです。[[ちなみに]]、{家|いえ}には{三匹|さんびき}います。|Tôi thích mèo. Nhân tiện, nhà tôi có ba con.

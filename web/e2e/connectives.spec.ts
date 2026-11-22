@@ -14,7 +14,11 @@ test("trang Từ nối: đủ mục, nhóm chức năng, ví dụ có furigana v
   const noni = page.locator("#cn-noni");
   await expect(noni.locator("h3")).toHaveText("のに");
   await expect(noni).toContainText("thế mà");
-  await expect(noni).toContainText("Cách nối:");
+  await expect(noni).toContainText("Cấu trúc:");
+  await expect(noni.locator(".cn-structure .font-bold")).toHaveText("〜のに、〜。");
+  // mục lục: mẫu nối vế hiện khung câu, từ nối câu hiện chữ trần
+  await expect(page.locator('.cn-index a[href="#cn-shi"]')).toHaveText("〜し、〜し、〜");
+  await expect(page.locator('.cn-index a[href="#cn-soshite"]')).toHaveText("そして");
   await expect(noni.locator(".cn-examples li")).toHaveCount(3);
   // mobile: câu ví dụ thu gọn → mở bằng nút "Ví dụ (3)"
   const toggle = noni.locator(".cn-toggle");
@@ -26,6 +30,7 @@ test("trang Từ nối: đủ mục, nhóm chức năng, ví dụ có furigana v
 });
 
 test("lọc loại + cấp bằng CSS; nhóm rỗng và mục lục ẩn theo", async ({ page }) => {
+  test.slow(); // 75 thẻ × nhiều lần đếm :visible — quá 30s khi máy bận
   await page.goto("tu-noi/");
   const total = await page.locator(visible).count();
   await page.locator("label:has(#tn-t-clause)").click();
@@ -49,18 +54,21 @@ test("lọc loại + cấp bằng CSS; nhóm rỗng và mục lục ẩn theo", 
   await expect(page.locator(visible)).toHaveCount(total);
 });
 
-test("tổ hợp không có mục (nối mệnh đề N3) → ẩn nút lọc, không ra trang trống", async ({ page }) => {
+// Từ 2026-11-22 mọi tổ hợp loại × cấp đều có mục (nối mệnh đề N3: うちに, ところに…) → không nút lọc nào bị ẩn.
+// Logic ẩn nút lọc của tổ hợp rỗng (biến `missing` ở tu-noi/index.astro) vẫn giữ cho dữ liệu sau này.
+test("tổ hợp nối mệnh đề × N3 có mục → nút lọc hiện, không ra trang trống", async ({ page }) => {
   await page.goto("tu-noi/");
   const n3 = page.locator("label:has(#tn-l-n3)");
   const clause = page.locator("label:has(#tn-t-clause)");
   await clause.click();
-  await expect(n3).toBeHidden();
-  await expect(page.locator("label:has(#tn-l-n5)")).toBeVisible();
-  await page.locator("label:has(#tn-t-all)").click();
   await expect(n3).toBeVisible();
   await n3.click();
-  await expect(clause).toBeHidden();
-  await expect(page.locator(visible).first()).toBeVisible();
+  await expect(page.locator("#cn-uchini")).toBeVisible();
+  await expect(page.locator("#cn-soreni")).toBeHidden();
+  for (const card of await page.locator(visible).all()) {
+    await expect(card).toHaveAttribute("data-type", "clause");
+    await expect(card).toHaveAttribute("data-level", "n3");
+  }
   await expect(page.locator("section.cn-group:visible").first()).toBeVisible();
 });
 
@@ -98,8 +106,11 @@ test.describe("mobile", () => {
     await expect(kara.locator(".cn-toggle")).toHaveText(/Thu gọn/);
     await kara.locator(".cn-toggle").click();
     await expect(kara.locator(".cn-examples")).toBeHidden();
-    const h = await page.evaluate(() => document.documentElement.scrollHeight);
-    expect(h).toBeLessThan(14_000); // đo 2026-11-20: ~10.000px (trước: ~24.000px)
+    // so với khi mở hết câu ví dụ (không dùng ngưỡng px cứng — tăng theo số mục); đo 2026-11-22: ~14.000 / ~30.000px
+    const collapsed = await page.evaluate(() => document.documentElement.scrollHeight);
+    await page.addStyleTag({ content: ".cn-card .cn-examples { display: block !important; }" });
+    const expanded = await page.evaluate(() => document.documentElement.scrollHeight);
+    expect(collapsed).toBeLessThan(expanded * 0.6);
   });
 
   test("thanh lọc dính khi cuộn; chip nhóm nhảy tới nhóm không bị che; nút lên đầu", async ({ page }) => {

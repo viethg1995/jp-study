@@ -2,7 +2,7 @@
 // Một từ nối: chữ + cách đọc · loại (nối câu / nối mệnh đề) · cấp, bài · nghĩa · cách nối · ghi chú · câu ví dụ ·
 // từ thay được (neo cùng trang) · link từ vựng. Neo id = ID từ nối (quiz Q11 trỏ về đây).
 import type { Connective } from "../../content.config";
-import { TYPE_LABEL, grammarLabel, sourceLabel } from "../../lib/connectives";
+import { TYPE_LABEL, grammarLabel, sourceLabel, splitStructure } from "../../lib/connectives";
 import Furigana from "../jp/Furigana.astro";
 import RubyText from "../jp/RubyText.astro";
 import Tag from "../ui/Tag.astro";
@@ -17,6 +17,7 @@ interface Props {
 const { c, names, vocabLinks } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const grammar = [...new Set(c.grammar_refs.map(grammarLabel))];
+const structure = splitStructure(c.connects_vi);
 ---
 
 <article id={c.id} class="cn-card scroll-mt-20 max-md:scroll-mt-[196px] rounded-lg border border-line bg-surface" data-type={c.type} data-level={c.level}>
@@ -31,9 +32,10 @@ const grammar = [...new Set(c.grammar_refs.map(grammarLabel))];
   </header>
   <div class="px-4 pb-3">
     <p class="mt-1 font-semibold text-ink">{c.meaning_vi}</p>
-    {c.connects_vi && (
-      <p class="mt-1 text-sm text-ink-muted">
-        Cách nối: <span class="jp text-ink" lang="ja">{c.connects_vi}</span>
+    {structure && (
+      <p class="cn-structure mt-1 text-sm text-ink-muted">
+        Cấu trúc: <span class="jp font-bold text-ink" lang="ja">{structure.frame}</span>
+        {structure.rule && <span class="jp" lang="ja"> · {structure.rule}</span>}
       </p>
     )}
     {c.note_vi && <p class="mt-1 text-sm text-ink-muted">{c.note_vi}</p>}

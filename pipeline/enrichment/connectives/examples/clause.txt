@@ -85,3 +85,27 @@ cn-youni-e03|ai|{風邪|かぜ}を{引|ひ}かない[[ように]]、{暖|あた�
 cn-tameni-e01|grammar:g-42-1|{健康|けんこう}の[[ために]]、{毎日|まいにち}{野菜|やさい}を{食|た}べています。|Tôi ăn rau mỗi ngày vì sức khỏe.
 cn-tameni-e02|ai|{家|いえ}を{買|か}う[[ために]]、お{金|かね}を{貯|た}めています。|Tôi đang để dành tiền để mua nhà.
 cn-tameni-e03|ai|{日本|にほん}の{大学|だいがく}に{入|はい}る[[ために]]、{日本語|にほんご}を{勉強|べんきょう}しています。|Tôi đang học tiếng Nhật để vào đại học ở Nhật.
+
+cn-uchini-e01|ai|{若|わか}い[[うちに]]、いろいろな{国|くに}へ{行|い}きたいです。|Tôi muốn đi nhiều nước khi còn trẻ.
+cn-uchini-e02|ai|{温|あたた}かい[[うちに]]{食|た}べてください。|Hãy ăn khi còn nóng.
+cn-uchini-e03|ai|{話|はな}している[[うちに]]、{眠|ねむ}くなりました。|Đang nói chuyện thì buồn ngủ lúc nào không hay.
+
+cn-tokoroni-e01|ai|{出|で}かけようとしている[[ところに]]、{電話|でんわ}がかかってきた。|Đúng lúc đang định ra ngoài thì có điện thoại gọi đến.
+cn-tokoroni-e02|ai|{寝|ね}ている[[ところに]]、{友達|ともだち}が{来|き}ました。|Đúng lúc đang ngủ thì bạn đến.
+cn-tokoroni-e03|ai|{困|こま}っている[[ところへ]]、{先生|せんせい}が{来|き}てくれた。|Đúng lúc đang gặp khó khăn thì thầy giáo đến giúp.
+
+cn-tabini-e01|ai|この{写真|しゃしん}を{見|み}る[[たびに]]、{国|くに}の{家族|かぞく}を{思|おも}い{出|だ}します。|Mỗi lần xem bức ảnh này là tôi nhớ đến gia đình ở quê.
+cn-tabini-e02|ai|{旅行|りょこう}の[[たびに]]、{写真|しゃしん}をたくさん{撮|と}ります。|Mỗi chuyến du lịch tôi đều chụp rất nhiều ảnh.
+cn-tabini-e03|ai|{彼|かれ}は{会|あ}う[[たびに]]、{新|あたら}しい{話|はなし}をしてくれる。|Mỗi lần gặp, anh ấy đều kể chuyện mới cho tôi nghe.
+
+cn-tatoe-temo-e01|ai|[[たとえ]]{雨|あめ}が{降|ふ}っても、{試合|しあい}は{行|おこな}われます。|Cho dù trời mưa, trận đấu vẫn diễn ra.
+cn-tatoe-temo-e02|ai|[[たとえ]]{反対|はんたい}されても、{私|わたし}はこの{仕事|しごと}を{続|つづ}けます。|Dù có bị phản đối, tôi vẫn tiếp tục công việc này.
+cn-tatoe-temo-e03|ai|[[たとえ]]{冗談|じょうだん}でも、そんなことを{言|い}ってはいけない。|Dù là nói đùa cũng không được nói những điều như vậy.
+
+cn-donnani-temo-e01|ai|[[どんなに]]{忙|いそが}しくても、{朝|あさ}ご{飯|はん}は{食|た}べます。|Dù bận đến mấy tôi vẫn ăn sáng.
+cn-donnani-temo-e02|ai|[[どんなに]]{練習|れんしゅう}しても、{上手|じょうず}になりません。|Dù luyện tập thế nào cũng không giỏi lên.
+cn-donnani-temo-e03|ai|[[どんなに]]{高|たか}くても、この{車|くるま}が{欲|ほ}しいです。|Dù đắt đến đâu tôi vẫn muốn chiếc xe này.
+
+cn-ikura-temo-e01|vocab:mn-33-036-e1||
+cn-ikura-temo-e02|ai|[[いくら]]{呼|よ}んでも、{誰|だれ}も{来|き}ませんでした。|Dù gọi bao nhiêu lần cũng không ai đến.
+cn-ikura-temo-e03|ai|[[いくら]]{安|やす}くても、{要|い}らない{物|もの}は{買|か}いません。|Dù rẻ đến mấy, tôi cũng không mua đồ không cần.
