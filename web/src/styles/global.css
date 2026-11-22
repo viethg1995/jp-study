@@ -287,7 +287,7 @@ body:has(#toggle-vi:checked) .example-vi.is-revealed {
 }
 
 /* ---------------------------------------------------------------- Khung trang + menu trái (Sidebar)
-   Desktop ≥ 768px: menu cố định bên trái, html.sidebar-collapsed → cột icon 4rem (ghi nhớ: storage.ts).
+   Desktop ≥ 768px: menu cố định bên trái, html.sidebar-collapsed → cột icon 4rem (không ghi nhớ, tải trang luôn mở).
    Điện thoại: menu trượt từ trái, mở bằng ☰ (checkbox #nav-open), bấm nền mờ để đóng. */
 :root {
   --header-h: calc(3.5rem + 1px);

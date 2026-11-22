@@ -3,7 +3,6 @@
 // localStorage có thể bị chặn (chế độ riêng tư, iframe) → mọi thao tác bọc try/catch, lỗi thì bỏ qua.
 
 export const KEYS = {
-  sidebar: "jp:ui:sidebar", // "collapsed" | "expanded"
   quizWrong: "jp:quiz:wrong", // câu quiz hay sai (Q10): JSON lib/quiz/wrong.ts
 } as const;
 
@@ -33,7 +32,3 @@ export function writeString(key: string, value: string): void {
     /* bị chặn → bỏ qua, chỉ mất ghi nhớ */
   }
 }
-
-/** Đoạn script chạy inline trong <head> (trước khi vẽ trang) để áp trạng thái menu thu gọn,
- *  tránh menu "nháy" từ mở sang thu gọn. Giữ ở đây để mọi chỗ đọc localStorage nằm trong storage.ts. */
-export const SIDEBAR_BOOT_SCRIPT = `try{if(localStorage.getItem("jp:ui:sidebar")==="collapsed")document.documentElement.classList.add("sidebar-collapsed")}catch(e){}`;
