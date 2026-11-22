@@ -15,6 +15,11 @@ test("indexLabel: nối vế → khung câu bỏ 。; nối câu → chữ trầ
   const by = new Map(doc.connectives.map((c) => [c.id, c]));
   assert.equal(indexLabel(by.get("cn-shi")!), "〜し、〜し、〜");
   assert.equal(indexLabel(by.get("cn-nagara")!), "V1ながら、V2");
+  assert.equal(indexLabel(by.get("cn-maeni")!), "〜まえに");
+  assert.equal(indexLabel(by.get("cn-temo")!), "〜ても");
+  assert.equal(indexLabel(by.get("cn-tokoroni")!), "〜ているところに");
+  assert.equal(indexLabel(by.get("cn-tatoe-temo")!), "たとえ〜ても、〜");
+  assert.equal(indexLabel(by.get("cn-tari")!), "Vたり、Vたり します");
   assert.equal(indexLabel(by.get("cn-soshite")!), "そして");
   for (const c of doc.connectives) assert.ok(!indexLabel(c).endsWith("。"), c.id);
 });

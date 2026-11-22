@@ -19,6 +19,9 @@ test("trang Từ nối: đủ mục, nhóm chức năng, ví dụ có furigana v
   // mục lục: mẫu nối vế hiện khung câu, từ nối câu hiện chữ trần
   await expect(page.locator('.cn-index a[href="#cn-shi"]')).toHaveText("〜し、〜し、〜");
   await expect(page.locator('.cn-index a[href="#cn-soshite"]')).toHaveText("そして");
+  await expect(page.locator('.cn-index a[href="#cn-noni"]')).toHaveText("〜のに");
+  // nhóm có cả hai loại: mẫu nối vế ở dòng riêng có nhãn "Nối vế"
+  await expect(page.locator('.cn-index .cn-row[data-type="clause"]:has(a[href="#cn-noni"])')).toContainText("Nối vế");
   await expect(noni.locator(".cn-examples li")).toHaveCount(3);
   // mobile: câu ví dụ thu gọn → mở bằng nút "Ví dụ (3)"
   const toggle = noni.locator(".cn-toggle");
