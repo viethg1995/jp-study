@@ -59,3 +59,26 @@ export function radicalKanji(number: number, kanji: KanjiEntry[]): RadicalKanji 
 }
 
 export const LEVEL_LABEL: Record<CurriculumLevel, string> = { n5: "N5", n4: "N4", n3: "N3" };
+
+/** Bộ có trang /kanji/bo-thu/<số>/ khi có chữ giáo trình hoặc chữ chỉ có trong từ vựng. */
+export function hasRadicalPage(d: RadicalKanji): boolean {
+  return d.total > 0 || d.other.length > 0;
+}
+
+export interface RadicalNeighbors {
+  prev: number | null;
+  next: number | null;
+}
+
+/** Bộ trước / sau theo số bộ, chỉ trong các bộ có trang (`pageNumbers`, thứ tự bất kỳ). */
+export function radicalNeighbors(number: number, pageNumbers: readonly number[]): RadicalNeighbors {
+  const sorted = [...pageNumbers].sort((a, b) => a - b);
+  const i = sorted.indexOf(number);
+  if (i < 0) return { prev: null, next: null };
+  return { prev: sorted[i - 1] ?? null, next: sorted[i + 1] ?? null };
+}
+
+/** Link quiz bộ thủ cho một nhóm số nét — phạm vi cả 214 bộ (mặc định của trang quiz chỉ là Kanji N5). */
+export function radicalQuizHref(strokes: number): string {
+  return `kanji/bo-thu/quiz/?pham-vi=tat-ca&net-tu=${strokes}&net-den=${strokes}`;
+}

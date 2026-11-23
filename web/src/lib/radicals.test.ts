@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 import { loadKanjiAndRadicals } from "../test/data.ts";
-import { curriculumLevel, radicalKanji } from "./radicals.ts";
+import { curriculumLevel, hasRadicalPage, radicalKanji, radicalNeighbors, radicalQuizHref } from "./radicals.ts";
 
 const { kanji, radicals } = loadKanjiAndRadicals();
 const byChar = new Map(kanji.map((k) => [k.char, k]));
@@ -44,5 +44,40 @@ describe("bộ thủ → chữ giáo trình", () => {
       for (const g of [...d.primary, ...d.parts]) for (const k of g.items) count.set(k.char, (count.get(k.char) ?? 0) + 1);
     }
     for (const k of kanji) if (curriculumLevel(k) !== null) assert.equal(count.get(k.char), k.radical_parts.length, k.char);
+  });
+});
+
+describe("điều hướng bộ thủ trước / sau", () => {
+  const pages = radicals.filter((r) => hasRadicalPage(radicalKanji(r.number, kanji))).map((r) => r.number);
+
+  test("có ~196 trang, bỏ qua bộ không có chữ", () => {
+    assert.ok(pages.length > 150 && pages.length < radicals.length, String(pages.length));
+  });
+
+  test("prev/next luôn là bộ có trang, đối xứng, tăng dần theo số bộ", () => {
+    const set = new Set(pages);
+    for (const n of pages) {
+      const { prev, next } = radicalNeighbors(n, pages);
+      if (prev !== null) {
+        assert.ok(set.has(prev) && prev < n);
+        assert.equal(radicalNeighbors(prev, pages).next, n);
+      }
+      if (next !== null) {
+        assert.ok(set.has(next) && next > n);
+        assert.equal(radicalNeighbors(next, pages).prev, n);
+      }
+    }
+  });
+
+  test("bộ đầu không có prev, bộ cuối không có next; bộ không có trang → null", () => {
+    const sorted = [...pages].sort((a, b) => a - b);
+    assert.equal(radicalNeighbors(sorted[0]!, pages).prev, null);
+    assert.equal(radicalNeighbors(sorted.at(-1)!, pages).next, null);
+    const missing = radicals.find((r) => !pages.includes(r.number));
+    if (missing) assert.deepEqual(radicalNeighbors(missing.number, pages), { prev: null, next: null });
+  });
+
+  test("link quiz theo nhóm số nét: phạm vi cả 214 bộ", () => {
+    assert.equal(radicalQuizHref(3), "kanji/bo-thu/quiz/?pham-vi=tat-ca&net-tu=3&net-den=3");
   });
 });
