@@ -32,7 +32,7 @@ npx wrangler secret put ANTHROPIC_API_KEY       # tùy chọn: tầng cuối, tr
 npx wrangler kv namespace create CACHE
 
 # 3. Sửa wrangler.jsonc → vars.ALLOWED_ORIGINS, thêm origin GitHub Pages + Cloudflare Pages:
-#    "https://viethg1995.github.io,https://jp-study.pages.dev,http://localhost:4321"   (origin không có đường dẫn /jp-study)
+#    "https://viethg1995.github.io,https://lu-jp.pages.dev,http://localhost:4321"   (origin không có đường dẫn /jp-study)
 
 npm run deploy                           # in ra URL, vd https://jp-translation-grader.<tên>.workers.dev
 curl https://jp-translation-grader.<tên>.workers.dev/health   # → {"ok":true,"providers":["openai-compat",…]}
@@ -49,7 +49,7 @@ Push `main` (hoặc chạy lại workflow Deploy) để web build với URL máy
 
 ### Chống spam bằng Turnstile (tùy chọn)
 
-1. Cloudflare dashboard → **Turnstile** → Add site, domain `viethg1995.github.io` và `jp-study.pages.dev` (thêm `localhost` khi test).
+1. Cloudflare dashboard → **Turnstile** → Add site, domain `viethg1995.github.io` và `lu-jp.pages.dev` (thêm `localhost` khi test).
 2. Site key đặt vào GitHub Variable `TURNSTILE_SITE_KEY`; secret key đặt vào worker: `npx wrangler secret put TURNSTILE_SECRET`.
 3. Khi worker có `TURNSTILE_SECRET`, mọi yêu cầu chấm phải kèm token hợp lệ.
 
