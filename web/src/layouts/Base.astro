@@ -8,6 +8,9 @@ import "../styles/global.css";
 // CSS @font-face của Noto Sans JP (~200 KB) tách thành file riêng, nạp KHÔNG chặn render.
 // Nếu gộp vào bundle chung thì trình duyệt phải tải xong mới vẽ trang. Lý do dùng font tĩnh: xem fonts.css.
 import fontsHref from "../styles/fonts.css?url";
+// Preload file font chữ Việt thường (400) để nó về cùng lúc với CSS font → gần như không thấy chữ đổi font.
+import viLatin400 from "@fontsource/noto-sans/files/noto-sans-latin-400-normal.woff2?url";
+import viViet400 from "@fontsource/noto-sans/files/noto-sans-vietnamese-400-normal.woff2?url";
 
 interface Props {
   title: string;
@@ -38,6 +41,8 @@ const gscToken = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
     {canonical && !noindex && <link rel="canonical" href={canonical} />}
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
     <link rel="sitemap" href={`${base}/sitemap.xml`} />
+    <link rel="preload" href={viLatin400} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={viViet400} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={fontsHref} as="style" />
     <link rel="stylesheet" href={fontsHref} media="print" onload="this.media='all'" />
     <noscript><link rel="stylesheet" href={fontsHref} /></noscript>

@@ -66,9 +66,12 @@
 
 @theme {
   /* Chữ */
-  /* Chữ Việt dùng font hệ thống: vẽ ngay, đủ độ đậm thật, không phải tải font.
-     Chữ Nhật không có trong font hệ thống Latin → rơi xuống Noto Sans JP (chỉ tải subset cần dùng). */
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP",
+  /* text-xs = 13px (mặc định Tailwind 12px): ở màn 1x (~92 dpi) chữ 12px có dấu chồng ậ/ễ/ộ bị vỡ nét. */
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: calc(1.125 / 0.8125); /* 18px */
+  /* Chữ Việt: Noto Sans (tự host, nạp không chặn render — xem fonts.css). Trước khi font về,
+     chữ hiện bằng font hệ thống phía sau. Chữ Nhật không có trong Noto Sans → rơi xuống Noto Sans JP. */
+  --font-sans: "Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP",
     "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
   --font-jp: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
 

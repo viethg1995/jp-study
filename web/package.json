@@ -16,6 +16,7 @@
     "check:gates": "npm run check:schema && npm run check:storage && npm run check:tokens"
   },
   "dependencies": {
+    "@fontsource/noto-sans": "5.3.0",
     "@fontsource/noto-sans-jp": "5.3.1",
     "@tailwindcss/vite": "^4.3.5",
     "astro": "7.3.8",
