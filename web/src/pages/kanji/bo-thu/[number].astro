@@ -8,23 +8,39 @@ import type { Radical } from "../../../content.config";
 import KanjiTile from "../../../components/kanji/KanjiTile.astro";
 import Segmented from "../../../components/ui/Segmented.astro";
 import Base from "../../../layouts/Base.astro";
-import { CURRICULUM_LEVELS, LEVEL_LABEL, type LevelGroup, type RadicalKanji, radicalKanji } from "../../../lib/radicals";
+import {
+  CURRICULUM_LEVELS,
+  LEVEL_LABEL,
+  type LevelGroup,
+  type RadicalKanji,
+  hasRadicalPage,
+  radicalKanji,
+  radicalNeighbors,
+  radicalQuizHref,
+} from "../../../lib/radicals";
 import { clip } from "../../../lib/seo";
 
 export const getStaticPaths = (async () => {
   const radicals = (await getCollection("radicals")).map((r) => r.data);
   const kanji = (await getCollection("kanji")).map((k) => k.data);
-  return radicals
-    .map((r) => ({ r, data: radicalKanji(r.number, kanji) }))
-    .filter((x) => x.data.total > 0 || x.data.other.length > 0)
-    .map((x) => ({ params: { number: String(x.r.number) }, props: x }));
+  const pages = radicals.map((r) => ({ r, data: radicalKanji(r.number, kanji) })).filter((x) => hasRadicalPage(x.data));
+  const byNumber = new Map(pages.map((x) => [x.r.number, x.r]));
+  const numbers = [...byNumber.keys()];
+  return pages.map((x) => {
+    const nb = radicalNeighbors(x.r.number, numbers);
+    const link = (n: number | null): Radical | null => (n === null ? null : (byNumber.get(n) ?? null));
+    return { params: { number: String(x.r.number) }, props: { ...x, prev: link(nb.prev), next: link(nb.next) } };
+  });
 }) satisfies GetStaticPaths;
 
 interface Props {
   r: Radical;
   data: RadicalKanji;
+  prev: Radical | null;
+  next: Radical | null;
 }
-const { r, data } = Astro.props;
+const { r, data, prev, next } = Astro.props;
+const navLink = "rounded px-2 py-1 text-primary hover:bg-primary-soft";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const levels = CURRICULUM_LEVELS.filter((lv) => [...data.primary, ...data.parts].some((g) => g.level === lv));
 const count = (groups: LevelGroup[]) => groups.reduce((n, g) => n + g.items.length, 0);
@@ -39,8 +55,23 @@ const sections = [
   title={`Bộ ${r.name_vi} ${r.char}`}
   description={clip(`Bộ thủ ${r.char} ${r.name_vi}${r.meaning_vi ? ` (${r.meaning_vi})` : ""} — bộ số ${r.number}, ${r.strokes} nét. ${data.total} chữ Hán trong giáo trình N5–N3 có bộ này${sample ? `: ${sample}` : ""}.`)}
 >
-  <nav slot="header" class="ml-auto text-sm">
-    <a href={`${base}/kanji/bo-thu/#net-${r.strokes}`} class="rounded px-2 py-1 text-primary hover:bg-primary-soft">← Bộ thủ</a>
+  <!-- Trước / sau theo số bộ, bỏ qua bộ không có trang -->
+  <nav slot="header" class="ml-auto flex items-center gap-2 text-sm" aria-label="Bộ thủ trước / sau">
+    {
+      prev && (
+        <a href={`${base}/kanji/bo-thu/${prev.number}/`} class={navLink} rel="prev" data-rad-prev title={`Bộ ${prev.name_vi}`}>
+          ← {prev.number} <span class="jp" lang="ja">{prev.char}</span>
+        </a>
+      )
+    }
+    <a href={`${base}/kanji/bo-thu/#net-${r.strokes}`} class={navLink} title="Về danh sách bộ thủ">Bộ thủ</a>
+    {
+      next && (
+        <a href={`${base}/kanji/bo-thu/${next.number}/`} class={navLink} rel="next" data-rad-next title={`Bộ ${next.name_vi}`}>
+          {next.number} <span class="jp" lang="ja">{next.char}</span> →
+        </a>
+      )
+    }
   </nav>
 
   <header class="flex items-center gap-5 rounded-lg border border-line bg-surface p-5">
@@ -54,6 +85,9 @@ const sections = [
         Bộ số {r.number} · {r.strokes} nét
         {r.variants.length > 0 && <> · biến thể <span class="jp" lang="ja">{r.variants.join(" ")}</span></>}
       </p>
+      <a href={`${base}/${radicalQuizHref(r.strokes)}`} class="mt-2 inline-block text-sm text-primary hover:underline" data-group-quiz>
+        Luyện nhóm {r.strokes} nét →
+      </a>
     </div>
   </header>
 

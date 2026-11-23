@@ -1,6 +1,6 @@
 // E2E quiz từ vựng /vocabulary/quiz/ (Q4): tải deck khi bấm Bắt đầu, URL, loại câu, nút "Luyện tập bài này",
 // khóa tùy chọn trong lúc làm bài (trừ Furigana).
-import { backToSetup, expect, optionHeights, startQuiz, test } from "./fixtures";
+import { backToSetup, expect, openDisplayOptions, optionHeights, startQuiz, test } from "./fixtures";
 
 const card = '[data-q="card"]';
 const prompt = '[data-q="prompt"]';
@@ -444,6 +444,7 @@ test("trang bài: chọn Phần 3 → nút 'Luyện tập phần này' dẫn t�
   await page.goto("vocabulary/1/");
   const link = page.locator("[data-lesson-quiz]");
   await expect(link).toHaveText("Luyện tập bài này →");
+  await openDisplayOptions(page);
   await page.locator("label:has(#part-3)").click();
   await expect(link).toHaveText("Luyện tập phần này →");
   await link.click();

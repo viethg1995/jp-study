@@ -24,6 +24,12 @@ export const test = base.extend<{ jsErrors: string[] }>({
 });
 export { expect };
 
+/** Trang bài từ vựng trên mobile: bảng "Hiển thị" thu gọn → bấm nút tóm tắt để hiện nhóm chọn một. PC: không làm gì. */
+export async function openDisplayOptions(page: Page): Promise<void> {
+  const btn = page.locator(".display-opts-btn");
+  if ((await btn.isVisible()) && !(await page.locator("#toggle-display-opts").isChecked())) await btn.click();
+}
+
 /** Màu thật (rgb) của một token CSS, vd "--color-success". */
 export async function tokenColor(page: Page, token: string, prop: "color" | "backgroundColor" = "color"): Promise<string> {
   return page.evaluate(

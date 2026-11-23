@@ -3,7 +3,7 @@
 // "Hiện furigana từ vựng" chỉ dùng được khi đang Ẩn → trả lại cách đọc của từ của thẻ (tiêu đề + từ tô xanh),
 // chữ Hán khác trong câu vẫn ẩn; bỏ Ẩn → tự bỏ chọn + khóa.
 import type { Page } from "@playwright/test";
-import { expect, test } from "./fixtures";
+import { expect, openDisplayOptions, test } from "./fixtures";
 
 const card = "#mn-01-001"; // 私 / わたし
 const headKana = `${card} .headword .hw-kana`;
@@ -58,6 +58,7 @@ test("Ẩn furigana ẩn cả kana tiêu đề; Hiện furigana từ vựng ch�
 
 test("nhấn mạnh Hiragana: Ẩn furigana không ẩn kana (chữ chính của tiêu đề)", async ({ page }) => {
   await page.goto("vocabulary/1/");
+  await openDisplayOptions(page);
   await page.locator("label:has(#focus-kana)").click();
   await page.locator("label:has(#toggle-furigana)").click();
   await expect(page.locator(headKana)).toBeVisible();
