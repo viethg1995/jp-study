@@ -127,7 +127,7 @@ body:has(#part-3:checked) .word-list .word-card:not([data-part="3"]) {
 }
 body:has(#view-single:checked) .word-list {
   grid-template-columns: minmax(0, 1fr);
-  max-width: 36rem;
+  max-width: 48rem; /* 768px — chỉ PC/tablet; điện thoại thẻ vốn rộng hết màn hình */
   margin-inline: auto;
 }
 /* Chiều cao CỐ ĐỊNH (theo màn hình, có trần/sàn) → chuyển thẻ / lật thẻ không làm trang co giật.
@@ -188,11 +188,11 @@ body:has(#view-single:checked) .card-front .headword {
 body:has(#view-single:checked) .headword .hw-solo,
 body:has(#view-single:checked) .headword .hw-kanji,
 body:has(#view-single:checked):has(#focus-kana:checked) .headword .hw-kana {
-  font-size: 44px;
+  font-size: clamp(44px, 12vw, 56px); /* PC 56px; điện thoại ~44px như cũ để từ dài không tràn thẻ */
 }
 body:has(#view-single:checked) .headword .hw-kana,
 body:has(#view-single:checked):has(#focus-kana:checked) .headword .hw-kanji {
-  font-size: 18px;
+  font-size: clamp(18px, 4.8vw, 22px);
 }
 body:has(#view-single:checked) .card-back {
   transform: rotateY(180deg);
@@ -251,6 +251,54 @@ body:has(#view-single:checked) .word-card:has(.flip-toggle:focus-visible) {
   body:has(#view-single:checked) .card-back {
     transition: none;
   }
+}
+/* Vuốt ngang chuyển thẻ (script LessonView): trình duyệt chỉ tự xử lý cuộn dọc trong thẻ;
+   thẻ mới trượt vào từ phía vuốt. */
+body:has(#view-single:checked) .word-list .word-card {
+  touch-action: pan-y;
+}
+@keyframes swipe-in-next {
+  from {
+    opacity: 0;
+    transform: translateX(48px);
+  }
+}
+@keyframes swipe-in-prev {
+  from {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
+}
+.word-card.swipe-in-next {
+  animation: swipe-in-next 0.2s ease-out;
+}
+.word-card.swipe-in-prev {
+  animation: swipe-in-prev 0.2s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .word-card.swipe-in-next,
+  .word-card.swipe-in-prev {
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------------------- Bảng "Hiển thị" thu gọn (mobile)
+   < md: nhóm chọn một (Chế độ xem, Thứ tự, Nhấn mạnh, Phần) ẩn sau nút tóm tắt; 3 ô bật/tắt luôn hiện.
+   Mặc định đóng mỗi lần mở trang. PC: nút ẩn (md:hidden), nhóm luôn hiện. */
+@media (max-width: 47.99rem) {
+  .display-panel:not(:has(#toggle-display-opts:checked)) .display-opts {
+    display: none;
+  }
+}
+.display-opts-btn:has(:focus-visible) {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+.display-opts-chevron {
+  transition: transform 0.15s ease;
+}
+.display-panel:has(#toggle-display-opts:checked) .display-opts-chevron {
+  transform: rotate(180deg);
 }
 
 /* ---------------------------------------------------------------- Công tắc thuần CSS (không JS) */

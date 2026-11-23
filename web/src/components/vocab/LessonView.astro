@@ -77,9 +77,16 @@ const description = clip(
     </a>
   </div>
 
-  <fieldset class="mt-3 flex flex-wrap gap-x-5 gap-y-2 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
+  <fieldset class="display-panel mt-3 flex flex-wrap gap-x-5 gap-y-2 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-ink-muted">
     <legend class="px-1 text-xs text-ink-faint">Hiển thị</legend>
-    <div class="flex w-full flex-wrap items-center gap-x-6 gap-y-2">
+    {/* Mobile (< md): nhóm chọn một thu gọn sau nút này, chỉ để lại 3 ô bật/tắt. Nút ghi tóm tắt lựa chọn hiện tại
+        (script cuối file cập nhật). PC: nút ẩn, luôn mở. CSS ở global.css (.display-panel). */}
+    <label class="display-opts-btn flex w-full cursor-pointer items-center justify-between gap-2 rounded-md border border-line px-3 py-1.5 text-ink md:hidden">
+      <input type="checkbox" id="toggle-display-opts" class="sr-only" aria-controls="display-opts" />
+      <span class="min-w-0 truncate" data-display-summary>Lưới · Tuần tự · Kanji</span>
+      <span class="display-opts-chevron shrink-0 text-ink-faint" aria-hidden="true">▾</span>
+    </label>
+    <div id="display-opts" class="display-opts flex w-full flex-wrap items-center gap-x-6 gap-y-2">
       <Segmented
         name="view"
         label="Chế độ xem"
@@ -170,7 +177,7 @@ const description = clip(
   };
   // Thẻ đang xem do JS quản lý (class .is-current) thay vì :target → đổi thẻ KHÔNG cuộn trang (hết co giật).
   // URL #id vẫn cập nhật bằng history.pushState (không cuộn) để chia sẻ link / nút Back hoạt động.
-  const list = document.querySelector(".word-list");
+  const list = document.querySelector<HTMLElement>(".word-list");
   list?.classList.add("js-cards");
   const fromHash = (): string | null => {
     const h = decodeURIComponent(location.hash.slice(1));
@@ -228,14 +235,66 @@ const description = clip(
     document.querySelectorAll(".example-vi.is-revealed").forEach((el) => el.classList.remove("is-revealed"));
   });
 
+  // Chuyển ±1 thẻ theo thứ tự đang chọn, quay vòng. `slide` (khi vuốt): thẻ mới trượt vào từ phía vuốt.
+  const step = (d: number, slide = false): void => {
+    const i = order.indexOf(current());
+    const k = order.length;
+    const id = order[(i + d + k) % k] ?? "";
+    go(id);
+    if (!slide) return;
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.classList.remove("swipe-in-next", "swipe-in-prev");
+    void el.offsetWidth; // reflow → chạy lại animation khi vuốt liên tục
+    el.classList.add(d > 0 ? "swipe-in-next" : "swipe-in-prev");
+  };
+  list?.addEventListener("animationend", (e) => (e.target as HTMLElement).classList.remove("swipe-in-next", "swipe-in-prev"));
+
+  // Vuốt ngang ở chế độ Từng thẻ: trái → thẻ sau, phải → thẻ trước. Chỉ nhận khi kéo ngang ≥ 50px và rõ ràng
+  // theo chiều ngang (|dx| ≥ 1.5|dy|) → cuộn dọc mặt sau và chạm để lật vẫn như cũ.
+  let touch: { x: number; y: number; t: number } | null = null;
+  list?.addEventListener(
+    "touchstart",
+    (e) => {
+      const p = e.touches[0];
+      touch = viewSingle?.checked && e.touches.length === 1 && p ? { x: p.clientX, y: p.clientY, t: e.timeStamp } : null;
+    },
+    { passive: true },
+  );
+  list?.addEventListener(
+    "touchend",
+    (e) => {
+      const p = e.changedTouches[0];
+      const s = touch;
+      touch = null;
+      if (!s || !p || e.timeStamp - s.t > 800) return;
+      const dx = p.clientX - s.x;
+      const dy = p.clientY - s.y;
+      if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+      step(dx < 0 ? 1 : -1, true);
+    },
+    { passive: true },
+  );
+
+  // Nút bảng "Hiển thị" (mobile): tóm tắt lựa chọn đang bật, vd "Từng thẻ · Ngẫu nhiên · Kanji · Phần 2"
+  const summary = document.querySelector<HTMLElement>("[data-display-summary]");
+  const syncSummary = (): void => {
+    if (!summary) return;
+    const picked = ["view", "order", "focus", "part"]
+      .map((name) => document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`))
+      .filter((r): r is HTMLInputElement => !!r && r.id !== "part-all")
+      .map((r) => (r.closest("label")?.textContent ?? "").trim().replace(/\s*\(\d+\)$/, ""));
+    summary.textContent = picked.join(" · ");
+  };
+  syncSummary();
+  document.getElementById("display-opts")?.addEventListener("change", syncSummary);
+
   document.addEventListener("click", (e) => {
     const t = e.target as HTMLElement;
-    const step = t.closest<HTMLAnchorElement>(".card-nav a[data-step]");
-    if (step) {
+    const stepLink = t.closest<HTMLAnchorElement>(".card-nav a[data-step]");
+    if (stepLink) {
       e.preventDefault();
-      const i = order.indexOf(current());
-      const k = order.length;
-      go(order[(i + Number(step.dataset.step) + k) % k] ?? "");
+      step(Number(stepLink.dataset.step));
       return;
     }
     if (viewGrid?.checked && viewSingle) {
@@ -243,6 +302,7 @@ const description = clip(
       if (card && !t.closest("a, .tip")) {
         e.preventDefault(); // chặn label lật thẻ
         viewSingle.checked = true;
+        syncSummary(); // đổi bằng code không phát sự kiện change
         go(card.id, true); // từ Lưới sang: cuộn tới thẻ một lần
       }
     }
