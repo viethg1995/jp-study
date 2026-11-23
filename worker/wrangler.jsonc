@@ -26,8 +26,9 @@
 		}
 	],
 	"vars": {
-		// Origin của web được phép gọi (GitHub Pages + dev local), cách nhau bằng dấu phẩy, không có "/" cuối
-		"ALLOWED_ORIGINS": "https://viethg1995.github.io,http://localhost:4321",
+		// Origin của web được phép gọi (GitHub Pages + Cloudflare Pages + dev local), cách nhau bằng dấu phẩy, không có "/" cuối.
+		// Đổi tên project Pages hoặc gắn domain riêng → thêm origin đó vào đây rồi `npm run deploy`.
+		"ALLOWED_ORIGINS": "https://viethg1995.github.io,https://jp-study.pages.dev,http://localhost:4321",
 		// Thứ tự thử; nhà nào thiếu key/binding tự bị bỏ qua
 		"PROVIDERS": "openai-compat,gemini,workers-ai,anthropic",
 		// Nhà cung cấp chính: server tương thích OpenAI (key: secret OPENAI_COMPAT_API_KEY)
